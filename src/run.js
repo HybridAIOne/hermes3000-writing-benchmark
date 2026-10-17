@@ -58,6 +58,7 @@ function writeManifest(runId, bench, { models, stage, runs }) {
     privateTasks: bench.privateFingerprint,
     stage,
     runs,
+    passes: bench.spec.stages[stage].passes,
     models: models.map((x) => x.key),
     judges: bench.spec.judging.judges,
     started: new Date().toISOString(),

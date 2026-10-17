@@ -75,7 +75,7 @@ async function main() {
   if (cmd === 'generate-only') return;
 
   const generations = loadGenerations(a.id).filter((g) => models.some((m) => m.key === g.model));
-  await judgeRanked(a.id, bench, { tasks, generations });
+  await judgeRanked(a.id, bench, { tasks, generations, passes: bench.spec.stages[stage].passes });
   await judgeChecklists(a.id, bench, { tasks, generations });
   const r = report(a.id, bench);
   console.log(

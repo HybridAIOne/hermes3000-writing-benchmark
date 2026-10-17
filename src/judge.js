@@ -119,14 +119,14 @@ const judgmentFile = (runId, judge, task, pass, gi) =>
   path.join(runDir(runId), 'judgments', `${judge}__${task}__p${pass}__g${gi}.json`);
 
 /** Rank every judged task with every judge. */
-async function judgeRanked(runId, bench, { tasks, generations, log = console.log }) {
+async function judgeRanked(runId, bench, { tasks, generations, passes, log = console.log }) {
   const J = bench.spec.judging;
   const jobs = [];
   for (const task of tasks.filter((t) => bench.spec.tracks[t.track].judged)) {
     const texts = generations.filter((g) => g.task === task.id && g.text);
     if (texts.length < 2) continue;
     for (const judgeKey of J.judges) {
-      for (let pass = 1; pass <= J.passes; pass++) {
+      for (let pass = 1; pass <= passes; pass++) {
         const groups = makeGroups(texts, J.group_size, seedOf(runId, task.id, judgeKey, pass));
         groups.forEach((group, gi) => {
           const file = judgmentFile(runId, judgeKey, task.id, pass, gi);

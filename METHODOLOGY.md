@@ -20,7 +20,7 @@ German is the primary language; the English scene is a control.
 
 ## Generation
 
-Every model writes every task `runs` times (preliminary stage: 2) from the identical prompt.
+Every model writes every task `runs` times (preliminary stage: 1, final: 3) from the identical prompt.
 Models are called directly at their provider or via OpenRouter, with the settings listed in
 `models.yaml` (for example reasoning effort). Nothing is post-processed: a preamble, heading or
 sign-off the model adds stays in the text and is counted against it (`metaText`).
@@ -36,7 +36,7 @@ Cost is computed from the token counts the provider reports and the list prices 
 - **Groups, not single texts.** A judge sees a group of five anonymised texts for the same task
   (labels A–E, order shuffled), scores each on the track rubric (`rubrics/literary.md`,
   `rubrics/nonfiction.md`: language, style, brief — 1 to 10), quotes concrete errors and ranks the
-  group. Groups are re-shuffled per judge and pass (2 passes) with a seed derived from the run,
+  group. Groups are re-shuffled per judge and pass (preliminary: 1 pass, final: 2) with a seed derived from the run,
   task, judge and pass, so a run's groups are reproducible. Two texts of the same model are kept
   in different groups where possible.
 - **Structured verdicts.** Verdicts are requested as schema-valid JSON (Anthropic structured
@@ -102,9 +102,11 @@ than the others; it is reported with "selectivity" and weighs like any other ass
 
 ## Stages
 
-1. **Preliminary** — all models, all tasks, 2 samples each.
-2. **Final** — the best models by mean rank across the four tracks (`finalists`) get a third
-   sample per task and the human panel.
+1. **Preliminary** — all models, all tasks, one sample and one judging pass by all three judges.
+   It only has to decide who reaches the final; its intervals are wide by design.
+2. **Final** — the best six models by mean rank across the four tracks (`finalists`): three
+   samples per task, two judging passes, and the human panel. The published ranking of the
+   top comes from this stage.
 
 ### Human panel
 

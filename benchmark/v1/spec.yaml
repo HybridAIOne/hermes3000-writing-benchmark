@@ -13,10 +13,12 @@ tracks:
   context: { label: "Book context fidelity", judged: false }
 
 stages:
-  # Preliminary round: every model, every task.
-  prelim: { runs: 2 }
-  # Final round: the best models by preliminary rating get more samples and the human panel.
-  final: { runs: 3, finalists: 6 }
+  # Preliminary round: every model, every task — only has to sort out who reaches the final,
+  # so one sample and one judging pass (still three independent judges).
+  prelim: { runs: 1, passes: 1 }
+  # Final round: the best models get the statistical depth where the top is close,
+  # plus the human panel.
+  final: { runs: 3, passes: 2, finalists: 6 }
 
 generation:
   max_output_tokens: 16000 # generous: thinking counts against it for some providers
@@ -27,7 +29,8 @@ judging:
   # Each judge ranks small groups of anonymised texts for the same task; every group of
   # n texts yields n*(n-1)/2 pairwise outcomes for the Bradley-Terry rating.
   group_size: 5
-  passes: 2 # every text appears in this many groups per judge, re-shuffled each pass
+  # passes per stage (stages above): every text appears in this many groups per judge,
+  # re-shuffled each pass
   judges: [opus, sol, gemini]
   # Rating aggregates: all judges, and one that leaves out the judge's own model family
   # for every model (self-preference control).
