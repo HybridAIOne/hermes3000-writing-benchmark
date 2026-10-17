@@ -1,5 +1,7 @@
 # Candidate models. Prices in USD per 1M tokens (input / output), list price at the time
 # of the run — reasoning tokens are billed as output everywhere.
+# Reasoning models get an explicit effort everywhere: without one, OpenRouter models think
+# without bound and can spend the whole token budget before writing a word.
 # `hermes3000` notes how the model is used in the Hermes 3000 app (informational only).
 models:
   # --- OpenAI
@@ -66,6 +68,7 @@ models:
     family: xai
     provider: openrouter
     model: x-ai/grok-4.3
+    params: { reasoning: { effort: medium } }
     price: { in: 1.25, out: 2.50 }
   # --- Open-weight (via OpenRouter)
   - key: kimi-k3
@@ -74,6 +77,7 @@ models:
     open_weight: true
     provider: openrouter
     model: moonshotai/kimi-k3
+    params: { reasoning: { effort: medium } }
     price: { in: 0.30, out: 11.94 }
   - key: glm-5.3
     label: GLM-5.3
@@ -81,6 +85,7 @@ models:
     open_weight: true
     provider: openrouter
     model: z-ai/glm-5.3
+    params: { reasoning: { effort: medium } }
     price: { in: 0.08, out: 4.80 }
   - key: deepseek-v4.1-flash
     label: DeepSeek V4.1 Flash
@@ -88,6 +93,7 @@ models:
     open_weight: true
     provider: openrouter
     model: deepseek/deepseek-v4.1-flash
+    params: { reasoning: { effort: medium } }
     price: { in: 0.15, out: 0.60 }
   - key: qwen3.8-27b
     label: Qwen 3.8 27B
@@ -95,6 +101,7 @@ models:
     open_weight: true
     provider: openrouter
     model: qwen/qwen3.8-27b
+    params: { reasoning: { effort: medium } }
     price: { in: 0.24, out: 2.20 }
   - key: gemma-4-31b
     label: Gemma 4 31B

@@ -123,6 +123,7 @@ async function generate(runId, bench, { models, tasks, runs, log = console.log }
           costUsd: costOf(m, res.usage),
           finish: res.finish,
           reportedModel: res.reportedModel,
+          upstream: res.upstream ?? null,
           latencyMs: res.latencyMs,
           meta: metaText(res.text),
           at: new Date().toISOString(),

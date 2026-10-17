@@ -25,6 +25,11 @@ Models are called directly at their provider or via OpenRouter, with the setting
 `models.yaml` (for example reasoning effort). Nothing is post-processed: a preamble, heading or
 sign-off the model adds stays in the text and is counted against it (`metaText`).
 
+Every reasoning model runs at an explicit effort (`medium` unless `models.yaml` says otherwise).
+Without one, models served through OpenRouter think without bound and may spend the whole token
+budget before writing — a configuration artefact, not a property of the model. OpenRouter also
+serves one model from several hosts; each text records the host that produced it (`upstream`).
+
 **Failures are scored, not skipped.** Some reasoning models occasionally spend the whole token
 budget (16,000) thinking and return no text. An author would get nothing — and still pay. Such a
 text loses against every text of its task in the ranked tracks and scores 0 in the keyed tracks

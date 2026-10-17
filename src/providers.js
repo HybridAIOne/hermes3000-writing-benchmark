@@ -74,6 +74,8 @@ async function callOpenAICompat(provider, m, { system, prompt, maxTokens, timeou
     },
     finish: d.choices?.[0]?.finish_reason,
     reportedModel: d.model,
+    // OpenRouter spreads one model over several hosts, which may serve it differently.
+    upstream: d.provider || null,
   };
 }
 
