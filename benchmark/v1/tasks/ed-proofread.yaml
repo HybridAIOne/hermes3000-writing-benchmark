@@ -1,0 +1,58 @@
+id: ed-proofread
+track: editing
+language: de
+title: Korrektorat mit Lösungsschlüssel
+system: |
+  Du bist Korrektorin in einem Literaturverlag. Du korrigierst Rechtschreibung, Grammatik und
+  Zeichensetzung nach aktueller deutscher Rechtschreibung. Bewusst gesetzte Stilmittel (Dialekt
+  in wörtlicher Rede, Satzfragmente, Wiederholungen) bleiben unverändert. Inhalt, Wortwahl und
+  Satzbau änderst du nur, wo es für eine Korrektur nötig ist.
+prompt: |
+  Korrigiere den folgenden Text. Gib nur den korrigierten Text aus, ohne Anmerkungen.
+
+  {{text}}
+text: |
+  Ilse wusste garnicht, wie lange sie schon am Anleger stand. Wegen dem Nebel war die Fähre seit dem Morgen nicht gefahren, und die Leute die sonst ungeduldig wurden hatten sich in's Wartehäuschen zurückgezogen. Eine Gruppe Radfahrer warteten am Schlagbaum. Der Mann von der Kreisverwaltung, dem sie gestern begegnet ist, hatte gesagt das es sich nicht mehr lohne. „Is' doch wahr", hatte er gesagt, „rechnen Sie doch mal nach." Sie hatte nicht nachgerechnet. Sie hatte die Leine überprüft, den Motor, die Rampe, so wie Henning es ihr bei gebracht hatte. Seid sie die Fähre allein führte, kam ihr Sohn seltener, und sein Wiederstand gegen die Fähre wuchs. Er schrieb Emails, in denen er ihr vorschlug, die Fähre zu verkaufen, und rief an, wenn er glaubte das sie nachgeben würde. Morgen früh würde er wieder anrufen. Sie wusste es. Und sie wusste auch, was sie ihm sagen würde: Nichts. Der Nebel lichtete sich ein wenig, und am anderen Ufer wurden die Weiden sichtbar, grau, dann grün. Sie lies den Motor an.
+
+  Des weiteren ist die Fähre auf Spenden angewiesen, denn die Rücklage wächst langsamer als erwartet. Wieviel genau fehlt, weiß im Nachhinein niemand mehr so recht. Der Kassenwart, der als einziger den Überblick behielt, rechnete im Allgemeinen vorsichtig, am Besten schon im Januar. Seitdem der Pegel im Sommer sinkt, ist die Strömung stärker geworden, und der Motor braucht mehr Diesel, als der Standart vorsieht. Die Brennessel am Ufer wuchsen bis zum Geländer, und der Rythmus der Überfahrten bestimmte noch immer den Tag. Ilse wartete so lange, bis der letzte Radfahrer an Bord war.
+gold: |
+  Ilse wusste gar nicht, wie lange sie schon am Anleger stand. Wegen des Nebels war die Fähre seit dem Morgen nicht gefahren, und die Leute, die sonst ungeduldig wurden, hatten sich ins Wartehäuschen zurückgezogen. Eine Gruppe Radfahrer wartete am Schlagbaum. Der Mann von der Kreisverwaltung, dem sie gestern begegnet war, hatte gesagt, dass es sich nicht mehr lohne. „Is' doch wahr", hatte er gesagt, „rechnen Sie doch mal nach." Sie hatte nicht nachgerechnet. Sie hatte die Leine überprüft, den Motor, die Rampe, so wie Henning es ihr beigebracht hatte. Seit sie die Fähre allein führte, kam ihr Sohn seltener, und sein Widerstand gegen die Fähre wuchs. Er schrieb E-Mails, in denen er ihr vorschlug, die Fähre zu verkaufen, und rief an, wenn er glaubte, dass sie nachgeben würde. Morgen früh würde er wieder anrufen. Sie wusste es. Und sie wusste auch, was sie ihm sagen würde: Nichts. Der Nebel lichtete sich ein wenig, und am anderen Ufer wurden die Weiden sichtbar, grau, dann grün. Sie ließ den Motor an.
+
+  Des Weiteren ist die Fähre auf Spenden angewiesen, denn die Rücklage wächst langsamer als erwartet. Wie viel genau fehlt, weiß im Nachhinein niemand mehr so recht. Der Kassenwart, der als Einziger den Überblick behielt, rechnete im Allgemeinen vorsichtig, am besten schon im Januar. Seitdem der Pegel im Sommer sinkt, ist die Strömung stärker geworden, und der Motor braucht mehr Diesel, als der Standard vorsieht. Die Brennnesseln am Ufer wuchsen bis zum Geländer, und der Rhythmus der Überfahrten bestimmte noch immer den Tag. Ilse wartete so lange, bis der letzte Radfahrer an Bord war.
+# A fix counts when `wrong` is gone and one `right` is present (compared after normalising
+# quotes and whitespace). Gone-but-rephrased counts half.
+fixes:
+  - { id: gar-nicht, wrong: "garnicht", right: ["gar nicht"] }
+  - { id: wegen-genitiv, wrong: "Wegen dem Nebel", right: ["Wegen des Nebels"] }
+  - { id: komma-relativsatz, wrong: "Leute die sonst", right: ["Leute, die sonst ungeduldig wurden, hatten"] }
+  - { id: ins, wrong: "in's", right: ["ins Wartehäuschen"] }
+  - { id: kongruenz, wrong: "Radfahrer warteten", right: ["Radfahrer wartete"] }
+  - { id: zeitenfolge, wrong: "begegnet ist", right: ["begegnet war"] }
+  - { id: dass-1, wrong: "gesagt das es", right: ["gesagt, dass es"] }
+  - { id: beigebracht, wrong: "bei gebracht", right: ["beigebracht"] }
+  - { id: seit, wrong: "Seid sie", right: ["Seit sie"] }
+  - { id: widerstand, wrong: "Wiederstand", right: ["Widerstand"] }
+  - { id: e-mails, wrong: "Emails", right: ["E-Mails", "Mails"] }
+  - { id: dass-2, wrong: "glaubte das sie", right: ["glaubte, dass sie"] }
+  - { id: liess, wrong: "lies den Motor", right: ["ließ den Motor"] }
+  # second paragraph: subtler rules
+  - { id: des-weiteren, wrong: "Des weiteren", right: ["Des Weiteren"] }
+  - { id: wie-viel, wrong: "Wieviel", right: ["Wie viel"] }
+  - { id: als-einziger, wrong: "als einziger", right: ["als Einziger"] }
+  - { id: am-besten, wrong: "am Besten", right: ["am besten"] }
+  - { id: standard, wrong: "Standart", right: ["Standard"] }
+  - { id: brennnesseln, wrong: "Brennessel", right: ["Brennnesseln"] }
+  - { id: rhythmus, wrong: "Rythmus", right: ["Rhythmus"] }
+# Deliberate style that must survive verbatim (over-correction check).
+protect:
+  - "„Is' doch wahr\""
+  - "Sie hatte nicht nachgerechnet. Sie hatte die Leine"
+  - "was sie ihm sagen würde: Nichts."
+  - "grau, dann grün"
+  - "nicht mehr lohne" # subjunctive in reported speech is correct
+  - "Morgen früh würde er" # correct capital at sentence start (trap for over-correction)
+  # correct spellings that look wrong and invite "corrections"
+  - "im Nachhinein"
+  - "im Allgemeinen"
+  - "Seitdem der Pegel"
+  - "so lange, bis"

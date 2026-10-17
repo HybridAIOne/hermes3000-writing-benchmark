@@ -1,0 +1,105 @@
+# Candidate models. Prices in USD per 1M tokens (input / output), list price at the time
+# of the run — reasoning tokens are billed as output everywhere.
+# `hermes3000` notes how the model is used in the Hermes 3000 app (informational only).
+models:
+  # --- OpenAI
+  - key: gpt-6-luna
+    label: GPT-6 Luna
+    family: openai
+    provider: openai
+    model: gpt-6-luna
+    params: { reasoning_effort: medium }
+    price: { in: 0.10, out: 0.50 }
+    hermes3000: default writing model
+  - key: gpt-6.1-sol
+    label: GPT-6.1 Sol
+    family: openai
+    provider: openai
+    model: gpt-6.1-sol
+    params: { reasoning_effort: medium }
+    price: { in: 2.00, out: 10.00 }
+    hermes3000: paid books
+  - key: gpt-5.4-mini
+    label: GPT-5.4 mini
+    family: openai
+    provider: openai
+    model: gpt-5.4-mini
+    price: { in: 0.75, out: 4.50 }
+    hermes3000: previous default (yardstick across runs)
+  # --- Anthropic
+  - key: claude-haiku-5.5
+    label: Claude Haiku 5.5
+    family: anthropic
+    provider: anthropic
+    model: claude-haiku-5-5
+    price: { in: 0.10, out: 0.50 }
+  - key: claude-sonnet-5.5
+    label: Claude Sonnet 5.5
+    family: anthropic
+    provider: anthropic
+    model: claude-sonnet-5-5
+    price: { in: 2.00, out: 10.00 }
+  - key: claude-opus-5.5
+    label: Claude Opus 5.5
+    family: anthropic
+    provider: anthropic
+    model: claude-opus-5-5
+    price: { in: 4.00, out: 20.00 }
+  # --- Google
+  - key: gemini-3.8-flash-low
+    label: Gemini 3.8 Flash (thinking low)
+    family: google
+    provider: google
+    model: gemini-3.8-flash
+    params: { generationConfig: { thinkingConfig: { thinkingLevel: low } } }
+    price: { in: 0.68, out: 3.41 }
+    hermes3000: free-tier Gemini
+  - key: gemini-4-argon
+    label: Gemini 4 Argon
+    family: google
+    provider: google
+    model: gemini-4-argon
+    price: { in: 2.00, out: 10.00 }
+  # --- xAI
+  - key: grok-4.3
+    label: Grok 4.3
+    family: xai
+    provider: openrouter
+    model: x-ai/grok-4.3
+    price: { in: 1.25, out: 2.50 }
+  # --- Open-weight (via OpenRouter)
+  - key: kimi-k3
+    label: Kimi K3
+    family: moonshot
+    open_weight: true
+    provider: openrouter
+    model: moonshotai/kimi-k3
+    price: { in: 0.30, out: 11.94 }
+  - key: glm-5.3
+    label: GLM-5.3
+    family: zai
+    open_weight: true
+    provider: openrouter
+    model: z-ai/glm-5.3
+    price: { in: 0.08, out: 4.80 }
+  - key: deepseek-v4.1-flash
+    label: DeepSeek V4.1 Flash
+    family: deepseek
+    open_weight: true
+    provider: openrouter
+    model: deepseek/deepseek-v4.1-flash
+    price: { in: 0.15, out: 0.60 }
+  - key: qwen3.8-27b
+    label: Qwen 3.8 27B
+    family: qwen
+    open_weight: true
+    provider: openrouter
+    model: qwen/qwen3.8-27b
+    price: { in: 0.24, out: 2.20 }
+  - key: gemma-4-31b
+    label: Gemma 4 31B
+    family: google
+    open_weight: true
+    provider: openrouter
+    model: google/gemma-4-31b-it
+    price: { in: 0.20, out: 0.40 }

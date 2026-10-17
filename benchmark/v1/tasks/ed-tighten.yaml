@@ -1,0 +1,39 @@
+id: ed-tighten
+track: editing
+language: de
+title: Kürzen ohne Faktenverlust
+system: |
+  Du bist Lektorin für Sachbücher. Du kürzt Texte, ohne Fakten zu verlieren oder neue
+  hinzuzufügen.
+prompt: |
+  Kürze den folgenden Abschnitt auf etwa 140 Wörter. Alle Zahlen und Fakten müssen erhalten
+  bleiben; füge nichts hinzu, was nicht im Text steht. Gib nur den gekürzten Abschnitt aus.
+
+  {{text}}
+text: |
+  Wer heute mit dem Fahrrad den Elberadweg entlangfährt und bei Hitzacker auf die andere Seite
+  des Flusses möchte, der kommt an der kleinen Seilfähre eigentlich nicht vorbei, und viele
+  wissen gar nicht, dass hinter diesem Betrieb eine Genossenschaft steht, die es schon sehr lange
+  gibt, nämlich seit dem Jahr 1953. Damals hatte der Landkreis entschieden, dass er den Betrieb
+  der Fähre nicht mehr weiterführen wollte, und daraufhin haben sich 41 Landwirte und Händler von
+  beiden Seiten der Elbe zusammengetan, um die Fähre selbst zu betreiben, weil sie für ihren
+  Alltag und ihre Geschäfte unverzichtbar war. Inzwischen ist die Genossenschaft ganz erheblich
+  gewachsen und zählt heute insgesamt 312 Mitglieder. Ein einzelner Anteil kostet 250 Euro,
+  und das Besondere ist, dass jedes Mitglied in der Generalversammlung genau eine Stimme hat, ganz
+  egal, wie viele Anteile es besitzt. Die Überfahrt selbst dauert, wenn der Wasserstand normal ist,
+  ungefähr sieben Minuten, und die Fähre bringt so jedes Jahr rund 64.000 Menschen über den
+  Fluss, wobei es im Sommer vor allem Radfahrerinnen und Radfahrer sind. Gewinne werden übrigens
+  nicht an die Mitglieder ausgezahlt, sondern sie fließen vollständig in eine Rücklage, mit der
+  die Genossenschaft bis zum Jahr 2031 einen Elektroantrieb für die Fähre finanzieren möchte.
+target_words: 140
+tolerance: 0.2 # 112–168 words count as on target
+facts:
+  - { id: jahr, any: ["1953"] }
+  - { id: gruender, any: ["41"] }
+  - { id: mitglieder, any: ["312"] }
+  - { id: anteil, any: ["250 Euro", "250 €"] }
+  - { id: stimme, any: ["eine Stimme", "einer Stimme", "gleiches Stimmrecht", "ein Stimmrecht"] }
+  - { id: dauer, any: ["sieben Minuten", "7 Minuten"] }
+  - { id: fahrgaeste, any: ["64.000", "64 000", "64000"] }
+  - { id: ziel, any: ["2031"] }
+  - { id: e-antrieb, any: ["Elektroantrieb", "elektrischen Antrieb", "Elektromotor"] }

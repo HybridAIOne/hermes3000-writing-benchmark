@@ -1,0 +1,16 @@
+{
+  "name": "hermes3000-writing-benchmark",
+  "version": "1.0.0",
+  "description": "hermes3000 Writing Benchmark — reproducible evaluation of language models for German book writing: literary prose, non-fiction and copy-editing.",
+  "license": "MIT",
+  "private": true,
+  "type": "commonjs",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "bench": "node src/cli.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

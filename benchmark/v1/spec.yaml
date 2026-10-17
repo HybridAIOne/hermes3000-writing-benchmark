@@ -1,0 +1,41 @@
+# hermes3000 Writing Benchmark — version 1
+# Changing anything in benchmark/v1/ changes the run fingerprint (see METHODOLOGY.md).
+# A change to tasks, rubrics or judging rules that alters what is measured needs a new
+# benchmark version (v2), not an edit here.
+version: 1
+
+tracks:
+  literary: { label: "Literary prose", judged: true }
+  nonfiction: { label: "Non-fiction", judged: true }
+  editing: { label: "Copy-editing", judged: false } # scored against answer keys
+
+stages:
+  # Preliminary round: every model, every task.
+  prelim: { runs: 2 }
+  # Final round: the best models by preliminary rating get more samples and the human panel.
+  final: { runs: 3, finalists: 6 }
+
+generation:
+  max_output_tokens: 16000 # generous: thinking counts against it for some providers
+  timeout_seconds: 300
+  concurrency_per_provider: 3
+
+judging:
+  # Each judge ranks small groups of anonymised texts for the same task; every group of
+  # n texts yields n*(n-1)/2 pairwise outcomes for the Bradley-Terry rating.
+  group_size: 5
+  passes: 2 # every text appears in this many groups per judge, re-shuffled each pass
+  judges: [opus, sol, gemini]
+  # Rating aggregates: all judges, and one that leaves out the judge's own model family
+  # for every model (self-preference control).
+  bootstrap_samples: 1000
+
+judges:
+  opus: { provider: anthropic, model: claude-opus-5-5, family: anthropic, price: { in: 4.00, out: 20.00 } }
+  sol:
+    provider: openai
+    model: gpt-6.1-sol
+    family: openai
+    params: { reasoning_effort: medium }
+    price: { in: 2.00, out: 10.00 }
+  gemini: { provider: google, model: gemini-4-argon, family: google, price: { in: 2.00, out: 10.00 } }

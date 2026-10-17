@@ -1,0 +1,29 @@
+id: ed-feedback
+track: editing
+language: de
+title: Lektoratsanmerkungen (Probleme finden)
+system: |
+  Du bist Lektorin in einem Literaturverlag und schreibst Anmerkungen zu einem Manuskript.
+prompt: |
+  Lies den folgenden Ausschnitt aus dem Roman „Die Fährfrau" (personale Erzählerin, Präteritum).
+  Schreibe deine Lektoratsanmerkungen als nummerierte Liste: jeweils die Stelle (wörtliches
+  Zitat) und das Problem in einem Satz. Nenne nur echte Probleme, keine Geschmacksfragen.
+
+  {{text}}
+text: |
+  Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen
+  waren. Die Frau mit dem Fahrrad stellte es an die Reling. Der Mann im grauen Mantel blieb
+  neben dem Steuerhaus stehen. Ilse stellt den Motor an und wartete, bis das Seil sich spannte.
+  Ich hatte diesen Moment immer gemocht, dachte sie, wenn die Fähre sich vom Ufer löst. Der
+  Nebel lag dicht über dem Wasser. Der Nebel war so dicht, dass sie das andere Ufer nicht sah.
+  Der Nebel schluckte jedes Geräusch. Der Junge mit den Kopfhörern tippte auf seinem Handy, und
+  die alte Frau Lüders setzte sich auf die Bank am Heck. Am
+  Anleger drüben wartete schon der Bäcker mit seinem Pferdewagen, wie jeden Morgen seit dem
+  Krieg, und hupte zweimal.
+issues: # the checklist the judges score against
+  - { id: rampe, desc: "Logikbruch: Die Fahrgäste gehen über die Rampe an Bord, bevor sie heruntergelassen ist." }
+  - { id: tempus, desc: "Tempusfehler: „stellt“ im Präsens statt „stellte“." }
+  - { id: perspektive, desc: "Perspektivbruch: „Ich hatte diesen Moment immer gemocht“ — Ich-Form in personaler Erzählung (oder als Gedanke nicht markiert)." }
+  - { id: wiederholung, desc: "Wiederholung: drei Sätze hintereinander beginnen mit „Der Nebel“." }
+  - { id: fahrgaeste, desc: "Widerspruch: Es sind drei Fahrgäste genannt, an Bord sind aber vier Personen (Frau mit Fahrrad, Mann im Mantel, Junge, Frau Lüders)." }
+  - { id: hupe, desc: "Unstimmigkeit: Ein Pferdewagen hupt nicht." }

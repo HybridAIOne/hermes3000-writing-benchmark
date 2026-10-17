@@ -1,0 +1,23 @@
+id: lit-continue
+track: literary
+language: de
+title: Weiterschreiben mit Buchkontext
+target_words: 400
+system: &booksystem |
+  Du bist der Schreibassistent in einem Buch-Editor. Du schreibst Buchtext im Stil und in der
+  Sprache des Manuskripts. Gib ausschließlich den Buchtext aus — keine Vorrede, keine
+  Überschrift, keine Erklärungen.
+prompt: |
+  BUCH: „Die Fährfrau" — Roman, Gegenwart, personale Erzählerin, Präteritum.
+  FIGUREN: Ilse Brandt (61), betreibt die letzte Seilfähre über die Elbe bei Hitzacker,
+  wortkarg, Witwe. Jonas (34), ihr Sohn, Unternehmensberater in München, will sie überreden,
+  die Fähre an den Landkreis zu verkaufen.
+  BISHER IN DIESEM KAPITEL: Jonas ist unangekündigt angereist. Ilse hat ihn am Anleger stehen
+  sehen und so getan, als bemerke sie ihn nicht, bis die Fähre angelegt hatte.
+  LETZTER ABSATZ:
+  „Du hast den Motor nicht mehr reparieren lassen", sagte Jonas statt einer Begrüßung. Er stand
+  mit seinem Rollkoffer auf den nassen Bohlen, als wäre der Anleger ein Bahnsteig. Ilse warf die
+  Leine über den Poller und zog sie fest, zweimal, so wie Henning es ihr beigebracht hatte.
+
+  AUFGABE: Schreibe die Szene weiter, etwa 400 Wörter. Der Verkauf wird noch nicht direkt
+  angesprochen. Ende an einem Punkt, an dem Ilse eine kleine Entscheidung trifft.

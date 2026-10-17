@@ -1,0 +1,15 @@
+id: nf-opening
+track: nonfiction
+language: de
+title: Sachbuch-Kapiteleinstieg
+target_words: 250
+system: |
+  Du bist der Schreibassistent in einem Buch-Editor. Du schreibst Buchtext im Stil und in der
+  Sprache des Manuskripts. Gib ausschließlich den Buchtext aus — keine Vorrede, keine
+  Überschrift, keine Erklärungen.
+prompt: |
+  BUCH: „Führen ohne Titel" — Sachbuch für Teamleiter in mittelständischen Firmen, Du-Ansprache,
+  praxisnah, keine Buzzwords.
+  KAPITEL: 4 — Schwierige Gespräche
+  AUFGABE: Schreibe den Einstiegsabsatz des Kapitels, etwa 250 Wörter. Beginne mit einer
+  konkreten Alltagsszene, nicht mit einer Definition oder einer Statistik.

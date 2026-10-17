@@ -1,0 +1,21 @@
+id: lit-chapter
+track: literary
+language: de
+title: Langes Kapitel mit festen Vorgaben
+target_words: 900
+system: |
+  Du bist der Schreibassistent in einem Buch-Editor. Du schreibst Buchtext im Stil und in der
+  Sprache des Manuskripts. Gib ausschließlich den Buchtext aus — keine Vorrede, keine
+  Überschrift, keine Erklärungen.
+prompt: |
+  BUCH: „Die Fährfrau" — Roman, Gegenwart, personale Erzählerin, Präteritum.
+  FIGUREN: Ilse Brandt (61), betreibt die letzte Seilfähre über die Elbe bei Hitzacker,
+  wortkarg, Witwe von Henning. Jonas (34), ihr Sohn, Unternehmensberater in München.
+  AUFGABE: Schreibe den Anfang von Kapitel 1, etwa 900 Wörter: ein gewöhnlicher Novembermorgen
+  auf der Fähre, Nebel, genau drei Fahrgäste, und am Ende ein Anruf von Jonas, den Ilse nicht
+  annimmt. Mit Dialog, ohne Rückblenden-Exposition.
+checklist:
+  - personale Erzählerin (dritte Person), keine Ich-Form
+  - durchgehend Präteritum
+  - genau drei Fahrgäste
+  - der Anruf am Ende ist erkennbar von Jonas und wird nicht angenommen

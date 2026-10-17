@@ -1,0 +1,36 @@
+id: nf-from-source
+track: nonfiction
+language: de
+title: Sachtext aus Quellmaterial (Faktentreue)
+target_words: 300
+# The cooperative is fictional on purpose: no model can know these facts, so every claim that
+# is not in SOURCE below is provably invented.
+source: |
+  Die Fährgenossenschaft Hitzacker eG wurde 1953 von 41 Landwirten und Händlern aus beiden
+  Elbufern gegründet, nachdem der Landkreis den Betrieb der Seilfähre eingestellt hatte. Die
+  Fähre überquert die Elbe an einer Stelle, an der der Fluss 212 Meter breit ist; eine Überfahrt
+  dauert bei normalem Wasserstand sieben Minuten. Die Fähre hängt an einem Führungsseil und wird
+  heute von einem 85-kW-Dieselmotor angetrieben; bis 1978 bewegte die Strömung die Fähre allein.
+  Die Genossenschaft hat heute 312 Mitglieder. Jedes Mitglied hält mindestens einen Anteil zu
+  250 Euro und hat in der Generalversammlung eine Stimme, unabhängig von der Zahl seiner Anteile.
+  Überschüsse werden nicht ausgeschüttet, sondern in eine Rücklage für die Erneuerung der Fähre
+  eingezahlt. 2024 betrug der Umsatz 186.000 Euro, davon stammten 71 Prozent aus
+  Fahrkartenverkäufen und 29 Prozent aus einem Zuschuss der Gemeinde. Die Fähre befördert pro
+  Jahr rund 64.000 Personen, im Sommer vor allem Radfahrer auf dem Elberadweg. Die Rücklage soll
+  bis 2031 ausreichen, um einen Elektroantrieb einzubauen.
+prompt: |
+  Du schreibst für ein Sachbuch über Genossenschaften in Deutschland, für Leserinnen und Leser
+  ohne Vorwissen. Schreibe einen Abschnitt von etwa 300 Wörtern, der am Beispiel der
+  Fährgenossenschaft Hitzacker erklärt, wie eine Genossenschaft funktioniert und warum sie für
+  diese Fähre die passende Rechtsform ist. Verwende ausschließlich die Angaben aus dem
+  Quellmaterial; erfinde keine Zahlen, Namen oder Ereignisse dazu. Gib nur den Buchtext aus.
+
+  QUELLMATERIAL:
+  {{source}}
+facts: # deterministic: any one alternative must appear
+  - { id: gruendung, any: ["1953"] }
+  - { id: mitglieder, any: ["312"] }
+  - { id: anteil, any: ["250 Euro", "250 €", "250 EUR"] }
+  - { id: stimme, any: ["eine Stimme", "einer Stimme", "gleiche Stimme", "gleiches Stimmrecht", "ein Stimmrecht"] }
+  - { id: ruecklage, any: ["Rücklage"] }
+  - { id: zuschuss, any: ["29 Prozent", "29 %", "29%"] }
