@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "claude-opus-5.5",
+  "run": 3,
+  "text": "The chapel lights ran on a timer nobody had reset since the clocks changed, so at four they came up on their own: a thin amber over six pews and a side table with a box of tissues. Ines had only come in to sit for a minute with her shoes off.\n\nA man was already there, second row, coat folded across his knees. Older, clean-shaven, the kind of tidy that takes effort at that hour.\n\n\"Ines,\" he said, without turning.\n\nShe glanced at her lanyard. It was flipped to the blank side, the way she wore it on nights when families needed someone to be angry at.\n\n\"Do I know you?\"\n\n\"Bed fourteen. March, I think. You did my mother's hair before they came for her.\" He considered. \"You used your own comb. You said the hospital ones pulled.\"\n\nShe tried to find it. March was a long corridor of mothers. Fourteen had been so many people.\n\n\"I'm sorry,\" she said. \"I don't—\"\n\n\"No, you wouldn't.\" He said it kindly, as if relieving her of something. \"I just wanted to sit somewhere near where she'd been comfortable.\"\n\nHe didn't say why tonight, and she didn't ask. Her pager stayed quiet. Somewhere down the corridor a floor polisher hummed, came closer, receded.\n\nWhen she stood to go, he was looking at the tissue box, at the single sheet pulled halfway up, waiting for someone.\n\nIn her pocket, her fingers found the comb. A long grey hair was still wound through its teeth.",
+  "usage": {
+    "in": 91,
+    "out": 1114,
+    "thinking": 640
+  },
+  "costUsd": 0.022644,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 13845,
+  "meta": [],
+  "at": "2026-10-17T17:45:55.620Z"
+}

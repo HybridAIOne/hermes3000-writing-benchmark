@@ -1,0 +1,74 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 10,
+        "fehler": [
+          "„Jedes Gespräch, das du heute aus falscher Rücksichtnahme vermeidest, wird in vier Wochen doppelt so schwer“: Die ausnahmslose Behauptung und die scheinbar genaue Steigerung sind nicht plausibel begründet. Der zugespitzte Ratgebersatz ersetzt eine differenzierte Beschreibung.",
+          "„um seine Schlamperei auszubügeln“: Die abwertende Zuschreibung unterstellt eine Ursache für die Fehler. Als unausgesprochener Gedanke ist sie nachvollziehbar; ohne spätere Distanzierung prägt sie aber eine vorschnell verurteilende Sicht auf den Mitarbeiter.",
+          "„Wer bist du schon, ihm auf die Füße zu treten?“: Die Formulierung setzt das notwendige Ansprechen eines Problems mit einem persönlichen Angriff gleich. Diese problematische Rahmung wird im weiteren Absatz nicht aufgelöst.",
+          "„Bauchgrummeln“, „auf Granit beißen“, „aussitzen“: Die Häufung geläufiger Wendungen macht den Übergang von der konkreten Szene zur allgemeinen Erklärung sprachlich vorhersehbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„ob du das Gespräch wirklich führst oder nur deine Verärgerung loswerden willst“: Die Gegenüberstellung vereinfacht die Situation etwas stark. Ein sachlich geführtes Gespräch und eigene Verärgerung schließen einander nicht aus."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„ohne dass sie eskalieren, und ohne dass du dich danach drei Tage schlecht fühlst“: Die Kapitelankündigung verspricht zu viel Kontrolle über Gesprächsverlauf und anschließendes Befinden. Gerade ein notwendiges, gut geführtes Gespräch kann unangenehme Gefühle hinterlassen.",
+          "„Kommt dir das bekannt vor? Dann bist du in guter Gesellschaft.“: Eine formelhafte Leseransprache, die nach der anschaulichen Szene wenig hinzufügt und den Einstieg abbremst.",
+          "„mit einer klaren Haltung und ein paar handfesten Werkzeugen“: Die Schlussformel bleibt abstrakt. Sie kündigt Praxisnähe an, ohne bereits eine konkrete Orientierung zu geben."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 1652,
+    "out": 1000,
+    "thinking": 361
+  },
+  "costUsd": 0.013304
+}

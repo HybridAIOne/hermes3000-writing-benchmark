@@ -1,0 +1,20 @@
+{
+  "task": "lit-dialogue",
+  "model": "glm-5.3",
+  "run": 1,
+  "text": "# Alte Wunden\n\n*(Ein Café. Regen am Fenster. MARA sitzt an einem Tisch, rührt im Kaffee. JONAS tritt ein, zögert, kommt näher.)*\n\n**JONAS:** Hier ist noch frei, oder?\n\n**MARA:** *(ohne aufzusehen)* Wenn du willst.\n\n**JONAS:** *(setzt sich)* Schönes Café. Bist du hier oft?\n\n**MARA:** Manchmal.\n\n*(Pause. Er faltet die Serviette auseinander, wieder zusammen.)*\n\n**JONAS:** Der Regen... Ich dachte schon, ich schaff es trocken.\n\n**MARA:** Es ist Regen, Jonas. Da wird man nass.\n\n**JONAS:** Ja. Logisch.\n\n*(Der Kellner kommt. Jonas bestellt einen Espresso. Mara sagt nichts.)*\n\n**MARA:** Du siehst gut aus.\n\n**JONAS:** Danke. Du auch. Die Haare... anders.\n\n**MARA:** Vor drei Jahren.\n\n**JONAS:** Ach. Drei Jahre.\n\n*(Der Espresso kommt. Jonas trinkt zu schnell, verbrennt sich leicht.)*\n\n**JONAS:** Wie... wie geht's deiner Mutter?\n\n**MARA:** Gut. Sie fragt manchmal nach dir.\n\n**JONAS:** Erzähl ihr... erzähl ihr einfach, es geht mir gut.\n\n**MARA:** Das wäre gelogen.\n\n*(Stille. Draußen hält ein Bus, Fahrgäste steigen aus. Mara sieht hin.)*\n\n**JONAS:** Ich hab neulich das Lied gehört. Du weißt schon. Aus dem Sommer.\n\n**MARA:** *(leise)* Ich weiß, welches.\n\n**JONAS:** Es ist immer noch ein gutes Lied.\n\n**MARA:** Manche Dinge bleiben gut. Trotz allem.\n\n**JONAS:** *(starrt in die Tasse)* Trotz allem.\n\n*(Mara steht auf, legt Geld auf den Tisch.)*\n\n**MARA:** Das ist für meinen Kaffee. Und deins.\n\n**JONAS:** Mara—\n\n**MARA:** Es regnet nicht mehr.\n\n*(Sie geht. Jonas bleibt sitzen, rührt den unberührten Espresso um.)*\n\n**JONAS:** *(zu sich)* Trocken geschafft doch.",
+  "usage": {
+    "in": 74,
+    "out": 500,
+    "thinking": 0
+  },
+  "costUsd": 0.00240592,
+  "finish": "stop",
+  "reportedModel": "z-ai/glm-5.3",
+  "upstream": "Inceptron",
+  "latencyMs": 4084,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:22:45.137Z"
+}

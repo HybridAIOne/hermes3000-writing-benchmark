@@ -1,0 +1,120 @@
+{
+  "task": "lit-dialogue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Die Kellnerin stellt zwei Tassen ab.“ – Lena hat laut Eingangsregie bereits eine Tasse, in der sie rührt; nach „Niemand kommt“ ist der Ablauf unlogisch.",
+          "„Du konntest schon immer das letzte Wort haben.“ / „Und du hast immer geschwiegen, bis es zu spät war.“ – Hier wird der Konflikt fast ausgesprochen; das unterläuft die Vorgabe.",
+          "„Deine Mutter hat angerufen. … ob du an Weihnachten kommst“ – Das wirkt eher wie ein getrenntes Paar als wie alte Freunde.",
+          "„Er lacht kurz, ohne Freude.“ – Formelhafte Regieanweisung.",
+          "„Erinnerst du dich an den Sommer am See?“ – Ein Klischeesignal ohne konkreten Gehalt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Mara nimmt einen Schluck Kaffee.“ / „Jonas: Der ist kalt.“ – Jonas kommentiert Maras Kaffee, der gerade erst gebracht wurde; die Logik hakt.",
+          "„Ich bin zu Fuß gekommen.“ / „Du könntest trotzdem mitkommen.“ – Unklar, wer hier wen mitnehmen soll; die Pointe verwischt.",
+          "„Für einen Augenblick sieht es aus, als wolle er etwas anderes sagen.“ – Eine deutende, erklärende Schlussregie.",
+          "„Du erkennst ihn also noch.“ / „Du erinnerst dich.“ / „An manches.“ – Das Erinnerungsmotiv wird etwas mechanisch wiederholt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Martin nimmt die Jacke vom Stuhl neben sich“ – Kontinuitätsbruch: Die Jacke wurde schon in der Eingangsregie vom zweiten Stuhl genommen, und Jakob sitzt dort.",
+          "„Dein Mantel wird nass am Boden.“ – Jakob trägt den Mantel offenbar (er steckt den Zuckerbeutel in die Manteltasche); die Logik ist unklar.",
+          "„Ich konnte sie noch aufhalten“ – Falsches Tempus bzw. falscher Modus; richtig wäre „Ich kann/könnte sie noch aufhalten“.",
+          "„Die anderen Plätze waren frei.“ – Die Replik ist so verknappt, dass sie dunkel bleibt.",
+          "„Auf deiner Seite vielleicht.“ – Grenzwertig kryptisch."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "„Ich habe lange darüber nachgedacht, wer von uns beiden eigentlich gegangen ist.“ – Der Konflikt wird explizit verhandelt, gegen die Vorgabe.",
+          "„Bis kein Platz mehr zum Atmen ist.“ / „Wie immer, wenn es ernst wird.“ – Klischeehafte, erklärende Vorwürfe.",
+          "„Man gewöhnt sich ja an den bitteren Geschmack.“ – Plakative Symbolik.",
+          "„(sieht ihn direkt an, ihre Stimme zittert leicht)“ / „(ihr Blick verhärtet sich)“ – Kitschige Gefühlsregie.",
+          "„rührt in seinem leeren Tee“ – Ein Widerspruch in sich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Ich hab’s nicht so gemeint. Damals. Zumindest nicht alles.“ – Der Streit wird direkt angesprochen; die Vorgabe ist verletzt.",
+          "„rührt in seinem Kaffee, der längst umgerührt ist“ – Eine erklärende Regieanweisung.",
+          "„Früher war vieles anders.“ – Eine Floskel.",
+          "„Ich wollte eigentlich nicht lange …“ – Abgegriffene Abbruchformel.",
+          "„(fast lächelnd)“ – Ein schwacher, gängiger Schlussakzent."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "E",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 5936,
+    "out": 3446,
+    "thinking": 1810
+  },
+  "costUsd": 0.092664
+}

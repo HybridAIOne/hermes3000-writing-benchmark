@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "claude-haiku-5.5",
+  "run": 3,
+  "text": "Sie antwortete nicht. Der Motor war nicht das Thema, und Jonas wusste das so gut wie sie. Er hatte nie begriffen, dass man an einer Fähre nichts reparieren lassen konnte, ohne dass sich danach alles andere veränderte.\n\nDie Klappe des Fährhauses stand offen. Von drinnen roch es nach Diesel und kaltem Kaffee. Ilse ging an ihm vorbei, ohne ihn anzusehen, und hörte, wie er den Koffer hinter sich her über die Bohlen zog, Rad für Rad, mit diesem trockenen Rattern, das sie in den Zähnen spürte.\n\n„Ich habe dir zweimal geschrieben\", sagte er.\n\n„Einmal.\"\n\n„Du hast nicht geantwortet.\"\n\n„Das ist dasselbe.\"\n\nEr lachte kurz, nicht freundlich, nicht unfreundlich, eher so, wie Männer lachen, wenn sie merken, dass sie ein Spiel schon verloren haben. Früher hatte er am Anleger gesessen und Steine ins Wasser geworfen, bis sie ihn heimholte. Jetzt stand er da in seinem hellen Mantel, und die Elbe zog braun und schwer unter den Bohlen hindurch, als hätte sie keine Eile.\n\nIlse ging zum Heck und hob die Abdeckung des Motorkastens. Der Schlauch zur Pumpe war spröde geworden. Sie sah es im Licht der Nachmittagssonne, feine Risse wie auf altem Porzellan. Henning hätte ihn im Frühjahr getauscht. Im Frühjahr hatte sie gedacht, sie hätte noch Zeit.\n\n„Mama.\"\n\nSie richtete sich auf. Er hatte die Hände in den Manteltaschen und die Schultern hochgezogen, so wie damals, wenn er etwas wollte und sich schämte, es zu sagen.\n\n„Die Fähre hält nicht ewig\", sagte er.\n\nIlse sah zum Fluss. Drüben stand die Weide, die Kühe drängten sich am Zaun, und am Ufer lag der alte Kahn von Hennings Vater, halb versunken im Schilf. Sie dachte an die Überfahrt um sieben, an den Mann mit dem Fahrrad, der jeden Morgen den Hut zog, auch wenn es regnete.\n\nSie nahm die Ersatzleine vom Haken, prüfte den Knoten und hängte sie zurück.\n\n„Du bleibst bis morgen früh\", sagte sie. „Das Bett oben ist frisch bezogen. Ich stehe um sechs auf, und um sieben fahre ich rüber. Wenn du mitkommst, dann kommst du mit. Ich rede unterwegs nicht.\"\n\nEr öffnete den Mund, dann schloss er ihn wieder.\n\n„Gut\", sagte er.\n\nIlse nickte, ging ins Fährhaus und ließ die Tür offen stehen, damit er nachkam.",
+  "usage": {
+    "in": 593,
+    "out": 2232,
+    "thinking": 1173
+  },
+  "costUsd": 0.0011753,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 10670,
+  "meta": [],
+  "at": "2026-10-17T17:47:30.071Z"
+}

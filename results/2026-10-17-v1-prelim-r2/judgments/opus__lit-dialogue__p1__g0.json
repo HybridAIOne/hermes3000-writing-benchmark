@@ -1,0 +1,119 @@
+{
+  "task": "lit-dialogue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Das ist für meinen Kaffee. Und deins.\" – Genusfehler: Bezug auf Kaffee/Espresso verlangt \"deinen\"",
+          "\"rührt den unberührten Espresso um\" – Logikbruch: Jonas hat zuvor getrunken (\"trinkt zu schnell, verbrennt sich leicht\")",
+          "\"Erzähl ihr... erzähl ihr einfach, es geht mir gut.\" / \"Das wäre gelogen.\" – benennt den Schmerz fast explizit",
+          "\"Manche Dinge bleiben gut. Trotz allem.\" – Wiederholung von \"Trotz allem\" wirkt wie Masche",
+          "\"Hier ist noch frei, oder?\" – unklar, ob Zufallstreffen oder Verabredung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "\"Wir haben beide Entscheidungen getroffen, Jonas. Ich habe nur die Konsequenzen getragen. Alleine.\" – Konflikt wird weitgehend ausgesprochen statt angedeutet",
+          "\"seine Fingerknöchel treten weiß hervor\" – Klischee",
+          "\"Ich laufe nicht weg, Jonas. Nicht mehr.\" – zu erklärend, sentimentaler Schluss",
+          "\"Du hast den Schirm vergessen. Wie immer.\" – Jonas kann das Vergessen kaum wissen; leicht konstruiert",
+          "\"Alleine\" – umgangssprachlich statt \"allein\""
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "\"das Lächeln erreicht seine Augen nicht\" – abgegriffenes Klischee",
+          "\"Vor allem nichts aufwärmen, was besser kalt bleibt.\" – zu deutlich, macht den Subtext zur Aussage",
+          "\"Der Tee ist noch gar nicht da.\" – Logikbruch: es wurde nie etwas bestellt",
+          "\"Er fragt nicht mehr nach dir. Keiner tut das mehr.\" – überdeutlich, pathetisch",
+          "\"Menschen ändern sich. Manchmal schneller, als man denkt.\" – Sentenz statt Figurenrede"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Manche Fehler machen sich nicht von allein.\" – idiomatisch schief, unklarer Sinn",
+          "\"Er zieht die Hände zurück, als hätte er sich verbrannt.\" – Klischee, ohne vorherigen Anlass",
+          "\"Du musst nicht so tun, als wärst du die Einzige, die verletzt wurde.\" – Konflikt explizit ausgesprochen",
+          "\"An uns.\" – legt eher eine Liebesbeziehung als Freundschaft nahe",
+          "Stichomythie-Masche aus Einwortrepliken (\"Ja.\" / \"Nein.\" / \"Damals.\") ermüdet; Länge deutlich über 250 Wörter"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "\"Deine war nie besetzt, das weiß ich.\" – leicht schiefes Bild, etwas konstruiert",
+          "\"Ein Kaffee ist ein Anfang.\" – nahe an der Sentenz",
+          "\"Ein kurzes Lächeln, das sofort wieder verschwindet.\" – etwas abgenutzte Regieformel"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "A",
+      "C",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 5793,
+    "out": 2592,
+    "thinking": 1215
+  },
+  "costUsd": 0.075012
+}

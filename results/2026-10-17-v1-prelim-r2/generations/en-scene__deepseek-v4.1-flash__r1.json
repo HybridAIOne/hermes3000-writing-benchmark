@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "text": "The chapel was empty at four a.m., except for the smell of old carpet and the hum of the vending machine in the hall. Yvonne came here on her breaks, not to pray, but to sit in the dark and let the quiet reset her. The only light was the red glow of the exit sign.\n\nA man was sitting in the third row. He wasn't a patient; he wore a clean, dark coat. He didn't look up when she entered, just sat with his hands folded. She took a pew near the back, the wood cold through her scrubs.\n\n\"You're Yvonne,\" he said. It wasn't a question.\n\nHer name wasn't on her badge. It was just a plastic rectangle with a photo and a title. She didn't reply. The silence felt different now, thinner. She looked at the back of his head, at the stillness of his shoulders, and then at the floor. A plastic cup from the cafeteria was on its side near his feet, a dark stain spreading slowly into the beige carpet.",
+  "usage": {
+    "in": 85,
+    "out": 547,
+    "thinking": 328
+  },
+  "costUsd": 0.00034094999999999997,
+  "finish": "stop",
+  "reportedModel": "deepseek/deepseek-v4.1-flash",
+  "upstream": "InferenceNet",
+  "latencyMs": 4809,
+  "meta": [],
+  "at": "2026-10-17T17:20:52.803Z"
+}

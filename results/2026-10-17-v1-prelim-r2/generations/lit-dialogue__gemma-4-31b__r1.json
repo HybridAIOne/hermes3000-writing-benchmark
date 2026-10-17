@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "text": "*(Ein kleines Café. Ein runder Tisch. Mark sitzt bereits da. Julian tritt ein, sieht ihn, zögert kurz und setzt sich.)*\n\n**Mark:** Du bist spät.\n\n**Julian:** Der Verkehr war furchtbar.\n\n**Mark:** *(starrt in seine Tasse)* War ja eigentlich immer so.\n\n**Julian:** Ich habe nicht gedacht, dass du wirklich kommst.\n\n**Mark:** Ich wollte sehen, ob du immer noch so redest wie damals.\n\n**Julian:** *(setzt sich aufrecht hin)* Und?\n\n**Mark:** Du hast immer noch diese Art, dich zu rechtfertigen, bevor überhaupt eine Frage gestellt wurde.\n\n**Julian:** Ich wollte nur, dass wir eine Basis haben.\n\n**Mark:** Eine Basis. *(lacht kurz und freudlos)* Das ist ein interessantes Wort für das, was übrig geblieben ist.\n\n**Julian:** Ich habe oft an dich gedacht, Mark.\n\n**Mark:** Ich weiß. Ich habe die Nachrichten gesehen.\n\n**Julian:** Und?\n\n**Mark:** *(sieht ihn zum ersten Mal direkt an)* Du hast dich nicht gemeldet.\n\n**Julian:** Ich wusste nicht, ob ich darf.\n\n**Mark:** Du wusstest genau, dass du es konntest. Du wolltest es nur nicht.\n\n*(Stille. Julian rührt langsam in seinem Kaffee, ohne ihn zu trinken.)*\n\n**Julian:** Der Kaffee hier ist immer noch der Beste in der Stadt.\n\n**Mark:** Manche Dinge ändern sich eben nie.\n\n**Julian:** Vielleicht ist das ja das Problem.\n\n**Mark:** Oder die einzige Chance.\n\n*(Beide schauen gleichzeitig aus dem Fenster, ohne sich anzusehen.)*",
+  "usage": {
+    "in": 73,
+    "out": 360,
+    "thinking": 0
+  },
+  "costUsd": 0.0001586,
+  "finish": "stop",
+  "reportedModel": "google/gemma-4-31b-it",
+  "upstream": "CoreWeave",
+  "latencyMs": 5315,
+  "meta": [],
+  "at": "2026-10-17T17:23:01.388Z"
+}

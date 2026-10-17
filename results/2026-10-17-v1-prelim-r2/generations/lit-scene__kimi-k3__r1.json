@@ -1,0 +1,20 @@
+{
+  "task": "lit-scene",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "**Das Haus am See**\n\nDer Schlüssel klemmte. Er hatte schon immer geklemmt, daran erinnerte sie sich erst, als sie mit dem ganzen Gewicht dagegendrückte, das Knie gegen das Holz, die Handfläche hart am kalten Messing. Zwanzig Jahre, dachte sie, und das Schloss wusste es besser als sie.\n\nDann gab es nach, und sie trat ein.\n\nDie Luft stand. Nicht abgestanden, wie sie es erwartet hatte, nicht nach Moder – eher nach etwas Verbranntem, das nie ganz verbrannt war, nach Papier und trockener Hitze, und darunter, leise, das Parfüm ihrer Mutter. Sie blieb auf der Schwelle stehen, den Koffer noch in der Hand, und ließ diesen Geruch auf sich wirken, ohne ihn zu benennen. Benennen hätte ihn zerstört.\n\nDas Licht fiel durch die Gardinen in Streifen. Im Flur lag der Teppich, den sie als Kind für eine versunkene Wiese gehalten hatte; jetzt war er nur grau, ausgetreten, an einer Stelle derart hell, als hätte dort jahrzehntelang etwas gestanden, das man erst jetzt weggeräumt hatte. Vielleicht war das so. Sie wusste es nicht mehr.\n\nIn der Küche klapperte etwas. Sie zuckte zusammen, blieb lauschend stehen – aber es war nur der Hahn des Fensters, der sich im Zug bewegte. Neben der Spüle standen die Gläser, nach Größen geordnet, und davor, in einer kleinen Schale aus bemaltem Holz: Apfelschalen. Getrocknet, spiralförmig, rotbraun und hart wie Papier. Sie hob eine auf. Sie war leicht wie nichts und roch nach nichts mehr, und trotzdem hielt sie sie fest, als könnte sie ihr etwas sagen.\n\nIhre Mutter hatte Apfelschalen getrocknet. Bis zuletzt, offenbar. Für was?\n\nSie stellte den Koffer ab, öffnete das Fenster einen Spalt und hörte, wie draußen der See gegen das Ufer schlug, geduldig, gleichmütig. Das Haus atmete nicht ein, das hatte sie sich eingebildet. Häuser atmeten nicht. Aber es hielt etwas zurück, das war deutlich, und es würde es nicht ewig zurückhalten.",
+  "usage": {
+    "in": 179,
+    "out": 647,
+    "thinking": 39
+  },
+  "costUsd": 0.007778879999999999,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Parasail",
+  "latencyMs": 5306,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:23:10.865Z"
+}

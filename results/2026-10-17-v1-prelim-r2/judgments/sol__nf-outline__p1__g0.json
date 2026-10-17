@@ -1,0 +1,116 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "E": {
+      "model": "gemma-4-31b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Aufgaben so übergibst, dass das Ergebnis stimmt“ und „Aufgaben schrittweise an dein Team zu delegieren“: Kapitel 3 und 4 behandeln beide die Aufgabenübergabe; die ausdrücklich verlangte Überschneidungsfreiheit ist nicht gegeben.",
+          "„Der Puffer zwischen den Stühlen“: Das Bild vermischt die Pufferfunktion mit der Redewendung „zwischen den Stühlen sitzen“ und wirkt dadurch sprachlich schief.",
+          "„vom reinen Facharbeiter zum Koordinator“: Verengt die branchenübergreifend beschriebene Zielgruppe unnötig auf Facharbeiter.",
+          "„Das Team zusammenschweißen“ und „Dein eigener Kompass“: Verständliche, aber stark abgegriffene Bilder; für eine eigenständige Buchgliederung wäre eine konkretere Benennung besser."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Wie du Kritik, Konflikte und unangenehme Wahrheiten anspricht“: Falsche Verbform; richtig ist „ansprichst“.",
+          "„Warum du aufhören musst, die beste Arbeit selbst zu machen“: Missverständlich und unnötig absolut. Gemeint ist vermutlich, dass du nicht jede anspruchsvolle Fachaufgabe selbst übernehmen sollst.",
+          "„inklusive Gesprächsvorbereitung und einem Leitfaden für Trennungsgespräche“: Der angehängte Zusatz überlädt die ansonsten knappe Kapitelbeschreibung; insbesondere Trennungsgespräche erweitern den Themenumfang, ohne die Zuständigkeit der Teamleitung zu klären."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Du bereitest dich auf die harten Fälle vor: anhaltende Leistungsprobleme, Streit im Team, schlechte Nachrichten. Und du führst diese Gespräche, statt sie aufzuschieben.“: Kapitel 7 enthält zwei Beschreibungssätze statt des ausdrücklich verlangten einen Satzes.",
+          "„Zur Abgrenzung“: Der zusätzliche Erläuterungsblock geht über das verlangte Format hinaus. Die Abgrenzung der Kapitel sollte möglichst schon aus ihren Beschreibungen hervorgehen.",
+          "„Sandwich-Position“: Vermeidbarer Managementjargon im Zusatzblock; „zwischen Geschäftsleitung und Team“ wäre unmittelbarer verständlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„statt Konflikte auszuweichen“: Falscher Kasus; „ausweichen“ verlangt den Dativ, also „statt Konflikten auszuweichen“.",
+          "„Plötzlich Chef – und jetzt?“, „Deine Rolle verstehen – was sich wirklich ändert“ und „Vom Kollegen zum Vorgesetzten – Nähe und Distanz finden“: Die ersten drei Kapitel zerlegen den Rollenwechsel in nicht ausreichend getrennte Bereiche; besonders Kapitel 1 und 2 versprechen weitgehend denselben Einstieg.",
+          "„Rückmeldung geben – Lob und Kritik, die ankommen“ und „Schwierige Gespräche führen“: Die Beschreibungen grenzen alltägliche Kritik und Gespräche über schlechte Leistung nicht deutlich genug voneinander ab.",
+          "„Aufgaben verteilen, ohne sich unbeliebt zu machen“: Der Titel setzt die eigene Beliebtheit als Maßstab, während die Beschreibung sinnvollerweise Klarheit und Aufgabenverteilung behandelt.",
+          "„ehrliches Feedback“: Vermeidbares Modewort, zumal der Kapiteltitel bereits das passende deutsche Wort „Rückmeldung“ verwendet."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Der Moment, in dem es passierte“, „Die ersten 100 Tage“ und „Vom Kumpel zum Chef“: Rollenklärung, Einstieg und Beziehungswechsel werden auf drei Kapitel verteilt, ohne ihre Inhalte hinreichend gegeneinander abzugrenzen.",
+          "„Hier ist der Entwurf für dein Sachbuch. Der Fokus liegt auf dem ‚Machen‘, dem Wegfall von Theorie-Ballast und einer direkten, unterstützenden Sprache.“: Entbehrliche Vorrede, die Praxisnähe behauptet, statt sie durch konkrete Kapitelinhalte zu zeigen.",
+          "„deine eigene Energie managst“: Genau die Art unscharfer Managementsprache, die die Vorgabe „keine Buzzwords“ vermeiden will.",
+          "„Menschen bewegen, ohne zu befehlen“: Der Beschreibungssatz verspricht allgemein Motivation, benennt aber keine greifbaren Handlungssituationen oder Verfahren.",
+          "„einen Stil, der sich echt und richtig anfühlt“: Als Abschluss zu vage und gefühlsbezogen; konkrete Maßstäbe für die eigene Führungshaltung fehlen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "A",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2799,
+    "out": 1738,
+    "thinking": 512
+  },
+  "costUsd": 0.022978
+}

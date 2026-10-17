@@ -1,0 +1,114 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„feine Tropfen, die er noch nicht bemerkte“: Kleine perspektivische Unsauberkeit. Dass Jonas die Tropfen nicht bemerkte, wird als Tatsache behauptet, obwohl Ilse nur seine ausbleibende Reaktion wahrnehmen konnte."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„in eine dieser Tabellen, von denen er am Telefon manchmal erzählte, mit Farben für gut und schlecht“: Die Beratercharakterisierung gerät zur Schablone. Der vorausgehende Satz „Er nickte, als schreibe er es irgendwo auf“ vermittelt Ilses Wahrnehmung bereits präziser.",
+          "„warteten höflich darauf, dass sich die Familienangelegenheit erledigte“: Die Erzählerin erklärt die soziale Situation aus Sicht der Wartenden, statt deren Verhalten konkret sichtbar zu machen.",
+          "„wie jeden Abend um diese Zeit im Oktober“: Die pauschale Regelmäßigkeit des Nebels wirkt wie eine atmosphärische Setzung; sie ist weniger genau beobachtet als die übrigen Umgebungsdetails."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Seitdem zieh ich mit der Hand“ / „Dann spuckte der Motor einen blauen Rauchring aus“: Die technische Handlung bleibt widersprüchlich beziehungsweise entscheidend untererklärt. Die bereitgelegte Kurbel erscheint zunächst als Werkzeug des Handbetriebs, dient dann aber unvermittelt zum Motorstart.",
+          "„wenn sie das Ruder und die Leine nahm, so wie immer“: Der Betrieb der vorgegebenen Seilfähre wird durch eine nicht nachvollziehbar erläuterte Kombination aus Rudern und Leinenhandhabung ersetzt. Gerade die zentrale Arbeitswelt müsste technisch belastbar sein.",
+          "„Und sie sah auch, dass er sie nicht gern schmutzig machte“: Ilse erkennt eine innere Abneigung, bevor Jonas sie durch sein Verhalten zeigt. Sein anschließendes Knien auf nassen Planken spricht zunächst sogar dagegen.",
+          "„wie ein Tier, das sich totstellt“ / „als hätten sie es eilig“: Die dicht gesetzten, geläufigen Belebungsvergleiche dekorieren Motor und Landschaft, ohne die Wahrnehmung wesentlich zu präzisieren.",
+          "„zwang sich, ihn wieder fließen zu lassen“: Das bewusst regulierte Atmen überhöht die überschaubare Handlung des Kurbelnehmens emotional. Die Bedeutung dieses Moments wird nicht ausreichend vorbereitet."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ilse nahm die Leine vom Poller und wickelte sie ordentlich auf“: Die eben festgemachte Fähre wird losgebunden, anschließend gehen beide in die Hütte. Eine andere Sicherung wird nicht genannt; zugleich drückt das Wasser gegen den Rumpf. Das erzeugt eine vermeidbare Lücke im Handlungsablauf.",
+          "„Wie lange bist du schon hier?“ / „Ich meinte, wie lange weißt du, dass es kaputt ist“: Die angebliche Präzisierung passt nicht zur ursprünglichen Frage. Das Missverständnis ist für den knappen Dialog konstruiert.",
+          "„Du auch.“ / „Ich wohne hier.“: Ilses Erwiderung auf die Bemerkung über ihr Gewicht hat keinen erkennbaren sachlichen oder emotionalen Anschluss. Wortkargheit wird hier mit Rätselhaftigkeit verwechselt.",
+          "„Das Wort lag zwischen ihnen, klein und alt“: Die abstrakte, vertraute Bedeutungsformel erklärt die emotionale Aufladung von „Mama“, statt sie aus Reaktion und Situation entstehen zu lassen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ich muss die Kette am Nordufer nachspannen. Dauert eine Stunde“: Die technisch konkrete Ausrede bleibt hinsichtlich der vorgegebenen Seilfähre unklar. Welche Kette gemeint ist und weshalb der fallende Pegel diese Arbeit verlangt, wird nicht plausibilisiert.",
+          "„Er roch nach Rasierwasser und der klimatisierten Luft aus dem ICE“: Die vermeintliche Geruchspräzision ist nicht sinnlich belastbar. Dass Ilse ausgerechnet ICE-Luft identifizieren könnte, wirkt wie eine Erzählerzutat.",
+          "„dieses schnelle, glatte Lächeln, das sie von den Fotos auf seiner Firmenwebseite kannte“ / „Zu dick für einen bloßen Wochenendbesuch“: Firmenlächeln und auffällig dicke Ledermappe markieren Jonas schematisch als geschäftsmäßigen Gegenspieler. Der Subtext wird zu deutlich ausgestellt.",
+          "„ratterten ohrenbetäubend“: Die Lautstärke der kleinen Kofferrollen wird ohne entsprechende subjektive Zuspitzung übertrieben. Das schwächt die sonst angestrebte Genauigkeit.",
+          "„Normalerweise hätte sie jetzt die rote Flagge eingeholt“ bis „Dauert eine Stunde“: Der Schluss erläutert zunächst die normale Alternative, setzt dann die Entscheidung und erklärt anschließend ausführlich ihre Ausführung. Zusammen mit rund 530 Wörtern fällt die Szene gegenüber den verlangten etwa 400 Wörtern unnötig breit aus."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "D",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3991,
+    "out": 2379,
+    "thinking": 1024
+  },
+  "costUsd": 0.031772
+}

@@ -1,0 +1,74 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„ein Monat im Jahr, das sie nicht mehr wusste“: Unidiomatisch. Gemeint ist ein Jahr, an das sie sich nicht mehr erinnerte oder das sie nicht mehr benennen konnte.",
+          "„Zwanzig Jahre hatte sie nicht mehr hier gestanden.“: Die lange Abwesenheit wird ausdrücklich etabliert; dass es sich um das Haus ihrer verstorbenen Mutter handelt, bleibt dagegen offen. Ein zentraler Bestandteil der Aufgabe fehlt.",
+          "„wie Schlüssel in alten Häusern klemmen“: Die pauschale Erklärung schwächt den ansonsten konkreten Einstieg; sie liefert eine vertraute Vorstellung statt einer individuellen Beobachtung.",
+          "„als hätte jemand sein Gewicht verlagert“ / „Das Haus antwortete nicht.“: Das Ende greift auf geläufige Spukhausgesten zurück. Gegenüber den präzisen Gegenständen und Handgriffen wirkt diese Zuspitzung konventionell."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„wenn eine Frau allein starb“: Der Todesfall wird angedeutet, die Identität der Verstorbenen als Hannas Mutter aber nicht eindeutig hergestellt. Die Aufgabenstellung wird an diesem Punkt nur implizit erfüllt.",
+          "„die Fensterläden geschlossen wie Lider“: Ein abgegriffener Vergleich, der das Haus auf vorhersehbare Weise vermenschlicht.",
+          "„Er war schwerer, als sie ihn in Erinnerung hatte, oder ihre Hand war leichter geworden.“: Die zweite Hälfte wirkt wie eine bedeutungsschwere Pointe; was die vermeintlich leichtere Hand konkret oder emotional bezeichnet, bleibt unpräzise.",
+          "„aus einer Zeit, über die in diesem Haus nicht gesprochen worden war“: Der mögliche Konflikt wird ausdrücklich als Familiengeheimnis angekündigt. Das nimmt dem starken sinnlichen Detail des frischen Öls einen Teil seiner Offenheit.",
+          "„als hätte das Haus sie erwartet, nur nicht als diejenige, die sie geworden war“: Abstrakte, vertraute Heimkehrformel. Sie behauptet eine biografische Veränderung, die die Szene selbst noch nicht erfahrbar macht."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 1883,
+    "out": 1124,
+    "thinking": 497
+  },
+  "costUsd": 0.015006
+}

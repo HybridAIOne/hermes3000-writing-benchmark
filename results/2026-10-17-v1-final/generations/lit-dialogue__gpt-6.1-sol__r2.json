@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "gpt-6.1-sol",
+  "run": 2,
+  "text": "(Ein Café. Martin sitzt am Fenster. Als Jakob kommt, nimmt er seine Jacke vom zweiten Stuhl.)\n\n**Jakob:** Du sitzt noch immer hier.\n\n**Martin:** Die anderen Plätze waren frei.\n\n**Jakob:** Ich kann auch stehen bleiben.\n\n**Martin:** Der Stuhl ist jetzt frei.\n\n(Jakob setzt sich. Zwischen ihnen liegt die Speisekarte.)\n\n**Jakob:** Haben sie den Tisch abgeschliffen?\n\n**Martin:** Nur die Oberfläche.\n\n**Jakob:** Unsere Kerbe ist weg.\n\n**Martin:** Auf deiner Seite vielleicht.\n\n(Jakob fährt mit dem Daumen unter die Tischkante.)\n\n**Jakob:** Du weißt noch, wo sie war.\n\n**Martin:** Ich habe den Tisch nicht ausgesucht.\n\n**Jakob:** Nein. Du warst bloß zuerst da.\n\n(Die Kellnerin stellt zwei Tassen ab.)\n\n**Jakob:** Du hast für mich bestellt?\n\n**Martin:** Ich konnte sie noch aufhalten, wenn du etwas anderes willst.\n\n**Jakob:** Schwarz ist richtig.\n\n**Martin:** Früher hast du Zucker genommen.\n\n**Jakob:** Früher hast du ihn mir rübergeschoben.\n\n(Martin legt einen Zuckerbeutel neben Jakobs Untertasse.)\n\n**Jakob:** Danke.\n\n**Martin:** Er lag sowieso im Weg.\n\n**Jakob:** Du hast ihn glatt gestrichen.\n\n**Martin:** Mach ihn auf oder lass es.\n\n(Jakob steckt den Beutel in die Manteltasche.)\n\n**Martin:** Für später?\n\n**Jakob:** Wenn ich ihn hierlasse, räumen sie ihn ab.\n\n(Martin dreht seine Tasse am Henkel.)\n\n**Jakob:** Wie geht es deiner Mutter?\n\n**Martin:** Sie fragt noch nach dir.\n\n**Jakob:** Was sagst du ihr?\n\n**Martin:** Dass ich dich lange nicht gesehen habe.\n\n**Jakob:** Das stimmt.\n\n**Martin:** Ja.\n\n(Draußen hält ein Bus. Jakob sieht nicht hin.)\n\n**Martin:** Deiner?\n\n**Jakob:** Der nächste fährt auch.\n\n**Martin:** Sonntags erst in einer Stunde.\n\n**Jakob:** Ich weiß.\n\n(Martin nimmt die Jacke vom Stuhl neben sich und hängt sie an den Haken.)\n\n**Martin:** Dein Mantel wird nass am Boden.\n\n**Jakob:** Ich wollte ihn gerade ausziehen.",
+  "usage": {
+    "in": 64,
+    "out": 570,
+    "thinking": 91
+  },
+  "costUsd": 0.005828,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 21855,
+  "meta": [],
+  "at": "2026-10-17T17:46:28.945Z"
+}

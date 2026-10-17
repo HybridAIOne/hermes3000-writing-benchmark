@@ -1,0 +1,74 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Ralf dreht die Tasse am Henkel. ... Die Kellnerin bringt den Kaffee. (Logikbruch: Er spielt bereits mit der Tasse, obwohl der Kaffee erst ganz am Ende gebracht wird)",
+          "ohne die Zeit gelesen zu haben (Unidiomatisch; man liest die Uhrzeit ab oder nimmt sie wahr, man 'liest' nicht 'die Zeit')"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "Ich habe die Kiste mit deinen restlichen Sachen übrigens im Kofferraum. ... Du hättest sie auch einfach vor die Tür stellen können. Wie den Rest damals. (Thematische Verfehlung: Das ist eindeutig das Szenario einer Liebesbeziehung nach einer Trennung mit Auszug, kein Streit zwischen alten Freunden)",
+          "ihr Lächeln erreicht die Augen nicht (Abgegriffenes Phrasen-Klischee)",
+          "Mir bedeuten alte Dinge oft zu viel. Das war wohl immer mein Problem. Ich hänge an Sachen, die längst kaputt sind. (Plumper, überdeutlicher Holzhammer-Subtext, der alles ausbuchstabiert, statt es mitschwingen zu lassen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Die Bedienung kommt. Sie bestellen. Als sie fortgeht, rückt Jonas seine Tasse genau in die Mitte. (Schwerer Logikbruch: Sie haben gerade erst bestellt, die Bedienung geht, aber die Tassen stehen schon auf dem Tisch)",
+          "Mara nimmt einen Schluck Kaffee. – Jonas: Der ist kalt. (Zweiter Logikbruch zur selben Tasse: Der nie servierte Kaffee ist binnen weniger Sätze auch schon kalt)",
+          "Ich dachte, du magst inzwischen lieber die Wand im Rücken. (Pseudotiefsinniger Dialog, der im Kontext eines normalen Cafés unfreiwillig nach Mafia-Klischee klingt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2234,
+    "out": 605,
+    "thinking": 0
+  },
+  "costUsd": 0.010518
+}

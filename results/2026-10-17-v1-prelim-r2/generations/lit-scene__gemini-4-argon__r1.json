@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "text": "Das Schloss wehrte sich kurz, ein trockenes Knirschen von Metall auf Metall, dann gab die Tür nach. Klara trat nicht sofort ein. Sie wartete auf der Schwelle, bis der erste Schwall abgestandener Luft an ihr vorbeigeströmt war – eine kühle Mischung aus altem Papier, Bohnerwachs und dem säuerlichen Dunst von Mauerwerk, das zu lange nicht geheizt worden war. \n\nZwanzig Jahre schrumpften auf die Breite eines Türrahmens zusammen. \n\nIm Flur war das Licht grau, gefiltert durch die blinden Scheiben über der Tür. Ihre Schritte klangen zu laut auf dem Parkett; das Haus hatte verlernt, Geräusche zu schlucken. Überall lagen die geometrischen Schatten von Dingen, die nicht mehr da waren. An der Tapete prangte ein helles Rechteck, wo früher der schwere Spiegel mit dem Messingrahmen gehangen hatte. Klara ließ ihre Reisetasche sinken. Der Staub auf der Kommode war so dicht, dass er fast wie grauer Samt wirkte. \n\nSie ging weiter in die Küche. Die Stille hier hinten, zum verwilderten Garten hinaus, hatte ein eigenes Gewicht. Auf dem Wachstuch des Küchentisches lag noch die Brille ihrer Mutter, die Bügel ordentlich zusammengefaltet, als wäre sie nur kurz aufgestanden, um nach dem Braten zu sehen. \n\nKlara trat an die Spüle und drehte den Messinghahn auf. Die Rohre in der Wand begannen sofort zu schlagen, ein tiefes, hohles Hämmern, das durch den ganzen Dielenboden vibrierte. Sie hielt die Hand unter den Ausguss. Zuerst kam nur ein rostbraunes Spucken, dann ein dünner, klarer Strahl. Als sie das eiskalte Wasser zwischen den Fingern verrieb, roch es nicht nach Eisen. Es roch scharf und unverkennbar nach Terpentin. \n\nKlara drehte den Hahn wieder zu. Das Tropfen klang wie ein Metronom. Sie rieb ihre Fingerspitzen aneinander, bis sie trocken waren, doch der ölige, beißende Geruch von Lösungsmittel blieb auf ihrer Haut zurück. Ihre Mutter hatte nie gemalt.",
+  "usage": {
+    "in": 102,
+    "out": 490,
+    "thinking": 0
+  },
+  "costUsd": 0.005104,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 11192,
+  "meta": [],
+  "at": "2026-10-17T17:18:59.305Z"
+}

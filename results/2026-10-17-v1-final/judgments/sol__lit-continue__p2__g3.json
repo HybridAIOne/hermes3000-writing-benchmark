@@ -1,0 +1,76 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Dabei war er auf diesen Bohlen laufen gelernt.“ – Grammatikfehler: Das Perfekt von „lernen“ wird mit „haben“ gebildet; hier müsste „hatte“ stehen.",
+          "„Mit vier war er einmal ins Wasser gefallen“ bis „Sie hatte es ihm nie erzählt.“ – Der ausführliche Rückblick unterbricht die gegenwärtige Spannung und liefert eine zusätzliche Familiengeschichte, statt sie aus der Begegnung entstehen zu lassen.",
+          "„Henning hätte sie längst ausgetauscht. Henning hätte auch den Motor gemacht“ – Die unmittelbar wiederholte Konstruktion erklärt Ilses Verlustgefühl recht ausdrücklich; zusammen mit dem anschließenden Rettungsrückblick wird Henning als hilfreicher Gegenpol etwas überzeichnet."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Ilse nahm die Leine vom Poller und wickelte sie ordentlich auf.“ – Anschließend verlassen beide den Anleger Richtung Hütte. Wie die gerade losgemachte Fähre gesichert bleibt, wird nicht erzählt; dennoch liegt sie später weiterhin am Anleger. Das erzeugt eine vermeidbare Lücke im Handlungsablauf.",
+          "„Wie lange bist du schon hier?“ / „Ich meinte, wie lange weißt du, dass es kaputt ist.“ – Die nachgeschobene Präzisierung passt semantisch nicht zur ersten Frage. Das Missverständnis wirkt für den schlagfertigen Dialog hergestellt.",
+          "„Du bist dünner“ / „Du auch.“ / „Ich wohne hier.“ – Ilses letzte Replik hat keinen ausreichend nachvollziehbaren Bezug zum vorherigen Austausch. Wortkargheit wird hier mit bloßer Rätselhaftigkeit verwechselt.",
+          "„Das Wort lag zwischen ihnen, klein und alt.“ – Eine konventionelle Gefühlsformel, die die Wirkung von „Mama“ zusätzlich ausdeutet.",
+          "„Auf dem Tisch lag der Schraubenschlüssel, den Henning zuletzt benutzt hatte.“ – Das Erinnerungsrequisit ist auffällig symbolisch arrangiert. Zusammen mit der verschwundenen Jacke und der Kindheitstasse häufen sich bedeutungstragende Gegenstände auf engem Raum."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die Hütte war enger, als er sie in Erinnerung hatte.“ – Die Formulierung behauptet unmittelbar etwas über Jonas’ Erinnerung und verlässt damit die ansonsten an Ilse gebundene personale Perspektive. Der folgende Satz „Oder er brachte jetzt mehr mit“ macht die Stelle zwar deutungsoffener, markiert den ersten Satz aber nicht eindeutig als Ilses Vermutung.",
+          "„Und wenn kein Wind ist?“ / „Ich weiß, wie sie funktioniert“ – Jonas’ Frage suggeriert Unkenntnis des Antriebsprinzips, die er unmittelbar darauf bestreitet. Angesichts seiner anschließenden Erinnerung als begeisterter Helfer am Hebel wirkt dieser Gesprächsauftakt konstruiert."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2578,
+    "out": 1144,
+    "thinking": 358
+  },
+  "costUsd": 0.016596
+}

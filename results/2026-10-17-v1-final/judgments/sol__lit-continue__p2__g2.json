@@ -1,0 +1,112 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Seitdem zieh ich mit der Hand“ / „Er nahm die Kurbel trotzdem“ / „Dann spuckte der Motor einen blauen Rauchring aus“: Die Funktion der Kurbel bleibt unklar. Der Text unterscheidet nicht hinreichend zwischen manuellem Fährantrieb und dem Anlassen des defekten Motors.",
+          "„wenn sie das Ruder und die Leine nahm, so wie immer“: Die technische Beschreibung erklärt nicht nachvollziehbar, wie Ilse die Seilfähre ohne Motor betreibt. Gerade angesichts der ausführlichen Handgriffe fällt diese Unschärfe auf.",
+          "„vertraut wie das eigene Kissen“, „wie ein Tier, das sich totstellt“, „als wäre es ein Handtuch am Badesee“: Die gehäuften Vergleiche überladen die zurückhaltend angelegte Szene und wirken teilweise gesucht.",
+          "„Und sie sah auch, dass er sie nicht gern schmutzig machte“: Die anschließende freiwillige Arbeit hätte Jonas’ Verhältnis zur körperlichen Arbeit differenzierter zeigen können; die vorangestellte Erklärung vereinfacht ihn zum Klischee des Büromenschen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Sie nahm die Kanne in die Hand“ / „sah auf den Becher in ihrer Hand“: Anschlussfehler bei den Gegenständen. Ilse hält bislang die Thermoskanne; Hennings Becher nimmt sie erst anschließend vom Fensterbrett.",
+          "„Er hatte sich nicht verändert, und doch war alles an ihm anders“: Eine abgegriffene Gegensatzformel, die durch die nachfolgenden konkreten Beobachtungen überflüssig wird.",
+          "„Ihre Knie meldeten sich dabei“ / „dass sie es hörte“: Das Bild wechselt etwas bemüht von körperlichen Beschwerden zu einem hörbaren Signal. Die Formulierung lenkt unnötig auf sich selbst."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Sie löste die Leine wieder vom Poller“ / „prüfte die Leine. Der Knoten saß“: Ein erneutes Festmachen fehlt. Nach der ausdrücklich gelösten Leine ist die spätere Sicherung der Fähre nicht nachvollziehbar.",
+          "„Danach nahm sie den Schlüssel wieder aus der Tasche und legte ihn in die kleine Schale im Steuerhaus. Den Ersatzschlüssel ließ sie dort liegen. Den Haustürschlüssel nahm sie heraus“: Die kleinteilige Schlüsselchoreografie verwischt den Schlussimpuls. Insbesondere bleibt unklar, welcher Ersatzschlüssel gemeint ist und weshalb sein Liegenlassen erzählerisches Gewicht erhält.",
+          "„Ilse hätte ihm sagen können“ / „Sie hätte sagen können“: Die wiederholte Konstruktion erklärt unterlassene Äußerungen, statt die Spannung ausschließlich aus dem tatsächlichen Verhalten entstehen zu lassen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Die Strömung reicht“ bis „ging den Deich hinauf zum Haus“: Die Fortsetzung überschreitet die Vorgabe von etwa 400 Wörtern deutlich. Zahlreiche Beschreibungs- und Beobachtungsschleifen ließen sich ohne Verlust der Szene kürzen.",
+          "„Im Elbtal gab es selten Empfang, wenn der Nebel so tief hing“: Die Erklärung verknüpft tiefen Nebel sachlich nicht plausibel mit fehlendem Mobilfunkempfang und trägt eine unnötige Tatsachenbehauptung in die personale Szene ein.",
+          "„Das Klirren der Glieder war das einzige Geräusch weit und breit“: Die absolute Stille widerspricht der zuvor ausdrücklich aufgebauten Geräuschkulisse aus Wind und Fährbetrieb.",
+          "„Es war der Blick, mit dem er Tabellen prüfte“: Die Deutung reduziert Jonas plakativ auf seinen Beruf. Ähnlich konventionell wirken „dunkle Schatten“ unter den Augen und der Wind, der an die Scheiben „klopfte“."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Sie hatte ihn seit einer halben Stunde gesehen“: Die Verbindung aus „seit“ und diesem abgeschlossenen Wahrnehmungsausdruck ist unidiomatisch. Gemeint ist offenbar: Sie hatte ihn schon vor einer halben Stunde gesehen.",
+          "„feine Tropfen, die er noch nicht bemerkte“: Die Aussage schreibt Jonas einen inneren Wahrnehmungszustand als Tatsache zu. Für die personale Bindung an Ilse wäre eine beobachtbare Reaktion oder eine als solche erkennbare Vermutung sauberer."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "B",
+      "C",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 4068,
+    "out": 2780,
+    "thinking": 1536
+  },
+  "costUsd": 0.035936
+}

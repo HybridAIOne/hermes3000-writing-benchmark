@@ -1,0 +1,120 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "E": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Wie du neue Abläufe im Team durchsetzt“ (Kap. 8) überschneidet sich mit Kap. 3 „Arbeitsabläufe so strukturierst“ und Kap. 4 „Verbindlichkeit schaffst“",
+          "„deinen Chef abholst“ – Beraterjargon, widerspricht der Vorgabe „keine Buzzwords“",
+          "„Raus aus dem Hamsterrad“ – abgegriffene Floskel",
+          "„Erwartungen klar aussprichst“ (Kap. 3) und „damit sich deine Kollegen an Absprachen halten“ (Kap. 4) – kaum trennscharf",
+          "„wie du den Übergang meisterst“ – Ratgeberfloskel"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Wie du deinen Auftrag, deine Grenzen und deine Verantwortung klärst“ (Kap. 2) überschneidet sich mit Kap. 4 „mit deinem Team und deinem Chef abgleichst, was von dir erwartet wird“",
+          "„was sich ändern muss“ (Kap. 6) überschneidet sich mit „Fehler … rechtzeitig ansprichst“ (Kap. 7)",
+          "„Wie du …“ – die Inhaltsbeschreibungen sind durchgehend Satzfragmente statt ganzer Sätze",
+          "„Schwierige Gespräche“ – Kapiteltitel ohne jede Zuspitzung, wirkt wie ein Platzhalter",
+          "„Zwischen Chef und Team“ – sehr allgemein, kaum anschaulich"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„was deine Vorgesetzten von dir erwarten“ (Kap. 1) berührt bereits das Thema von Kap. 7 „Führen nach oben“",
+          "„Die ersten 90 Tage“ – abgegriffene Ratgeberformel",
+          "„mit Zweifeln um, ohne dich dabei zu verlieren“ (Kap. 8) liegt nah an Kap. 9 „Deine eigene Haltung“",
+          "„Führen nach oben und zur Seite“ – leicht managementsprachlich"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Titelvorschlag: Führen ohne Titel – Dein Weg vom Kollegen zum Kopf des Teams“ – ungefragter Untertitel, der Titel war vorgegeben",
+          "„deine eigene Energie managst“ – Anglizismus bzw. Buzzword entgegen der Vorgabe",
+          "„Du setzt Prioritäten“ (Kap. 2), „Aufgaben so zu delegieren“ (Kap. 4) und „organisierst den Arbeitsalltag“ (Kap. 6) – Überschneidungen",
+          "„Vom Kumpel zum Chef“ (Kap. 3) doppelt den Rollenwechsel aus Kap. 1",
+          "„Der Fokus liegt auf dem „Machen“, dem Wegfall von Theorie-Ballast“ – überflüssiger Vorspann"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 5,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„aus den Situations, die du selbst schon durchlebt hast“ – englische Pluralform, korrekt wäre „Situationen“",
+          "„Wie du der Aufgabe, die dich zum Aufstieg gebracht hat, abgewöhnen kannst, sie noch schnell selbst zu machen“ – grammatisch verunglückt, korrekt wäre etwa „wie du dir abgewöhnst …“",
+          "„deinen Chef, der dir ein Unmögliches zumontiert“ – kein deutsches Wort, gemeint ist vermutlich „zumutet“",
+          "„Kap. 5 Loslassen, was du am besten kannst“ doppelt Kap. 1 „Du machst den Job nicht mehr selbst“; das widerspricht der eigenen Behauptung „Kein Kapitel greift ein anderes auf“",
+          "„Deine alten Kollegen sitzen jetzt drüben vom Tisch“ – unidiomatisch; zudem überlange Inhaltssätze statt eines knappen Satzes pro Kapitel"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 6242,
+    "out": 2968,
+    "thinking": 1332
+  },
+  "costUsd": 0.084328
+}

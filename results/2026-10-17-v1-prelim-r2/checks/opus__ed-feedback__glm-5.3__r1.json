@@ -1,0 +1,23 @@
+{
+  "task": "ed-feedback",
+  "model": "glm-5.3",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "found": [
+      "rampe",
+      "tempus",
+      "perspektive",
+      "wiederholung",
+      "fahrgaeste",
+      "hupe"
+    ],
+    "false_alarms": 2
+  },
+  "usage": {
+    "in": 2612,
+    "out": 379,
+    "thinking": 331
+  },
+  "costUsd": 0.018028
+}

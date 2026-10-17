@@ -1,0 +1,119 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„der mit beiden Händen ein Pappbecher festhielt“ – Kasusfehler, richtig: einen Pappbecher",
+          "„„Ist das Ihre letzte Fahrt heute?“ fragte die Frau.“ – fehlendes Komma nach dem Fragezeichen",
+          "„als dünner Strich zwischen zwei verschwundenen Welten“ – kitschiges Bild",
+          "„als hätte er sich verirrt und wolle das selbst noch nicht glauben“ – eine von zahllosen ‚als hätte/als könnte‘-Vergleichen (Wiederholungsmasche)",
+          "„das Schlagen der Leinen gegen den Mast“ – eine Seilfähre hat keinen Mast; dazu die erklärende Passage „Komisch war ein Wort für Leute, die …“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Er kam um acht Minuten nach“ – unidiomatisch, richtig: acht Minuten nach oder um acht nach",
+          "„Sie zahlte nicht, sie hatte eine Monatskarte, und zeigte sie trotzdem jedes Mal vor“ – holprige Satzkonstruktion",
+          "„die Zeitung unter dem Arm, die er drüben im Kiosk nicht kaufen würde, weil er sie schon gelesen hatte“ – umständlich und unklar",
+          "„Es war Sonntag gewesen, dachte sie, oder nein, es war nicht Sonntag, sie wusste es nicht.“ – Ansatz zu einer Rückblende, unscharf"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 5,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Ilse ließ die Fähre am Westufer liegen“ – Logikbruch: Nach der Überfahrt mit Frau Timm müsste die Fähre auf der anderen Seite liegen",
+          "„Der Bus fährt ja nicht mehr, seit die Brücke offen ist.“ – Logikbruch: Mit einer offenen Brücke wäre die Fähre überflüssig, die Begründung widerspricht sich",
+          "„eineNummer“ – Tippfehler, fehlendes Leerzeichen",
+          "„„Kalt heute\", sagte er“ – durchgehend falsche schließende Anführungszeichen",
+          "„Summten alle Handys gleich, dachte Ilse.“ – Frage ohne Fragezeichen, schief; dazu Kitsch in „und das Weiß sah auch nicht sie“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Dann nahm sie den Handschuh von der Fensterbank, schüttelte ihn aus und zog beide an.“ – Singular, dann ‚beide‘: Logikfehler",
+          "„Ilse nickte.“ / „Sie ließ ihn.“ / „Der Mann bremste.“ – durchgehendes Stakkato aus Kurzsätzen als Wiederholungsmasche, ermüdend",
+          "„Sie schaltete die Decksbeleuchtung aus und wieder ein.“ – Handlungsprotokoll ohne Funktion",
+          "Dialog sehr spärlich, die Figur Ilse bleibt blass"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Er war vor dem Jungen gekommen, so leise, dass sie ihn gar nicht bemerkt hatte“ – konstruierte Nachreichung, unglaubwürdig bei einer Fährfrau, die jeden Fahrgast kassiert",
+          "„„Sieht man drüben was?\"“ – durchgehend falsche schließende Anführungszeichen",
+          "„und das tat er, seit sie denken konnte“ – schiefe Übertreibung bei einer 61-Jährigen",
+          "„Lukas Ohlsen, achte Klasse, Gymnasium drüben.“ – Steckbrief-Exposition",
+          "„ein Franzbrötchen, das er für sich selbst behalten hatte“ – widerspricht leicht der Übergabe der Tüte"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "D",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 15793,
+    "out": 3849,
+    "thinking": 2291
+  },
+  "costUsd": 0.140152
+}

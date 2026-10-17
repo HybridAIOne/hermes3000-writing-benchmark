@@ -1,0 +1,120 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "E": {
+      "model": "grok-4.3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Heute würde sie nicht alles so machen wie immer. Nur dieses eine Mal.“ – Die Entscheidung bleibt vage und wird nur behauptet, nicht als Handlung gezeigt.",
+          "„Sie wandte sich zur Rampe und löste die zweite Leine.“ – Logikbruch: Die Fähre hat gerade erst angelegt, sie fährt sofort ohne erkennbaren Anlass wieder ab.",
+          "„Früher war überhaupt ein zu großes Wort für einen Mann, der jetzt vor ihr stand“ – verquerer, prätentiöser Satz.",
+          "„Die Fähre schwankte unter ihrem Gewicht kaum merklich.“ – unklarer Bezug von „ihrem“.",
+          "Mit rund 600 Wörtern deutlich über der Vorgabe; der Text verliert sich in Atmosphäre (Krähen, „Himmel, der nicht wusste, ob er regnen wollte“)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Die Flur roch nach dem nassen Hund“ – falsches Genus, richtig: „Der Flur“.",
+          "„Dann musst du wieder runter.“ – Logikfehler: Ilse muss zur Fähre zurück, nicht Jonas.",
+          "„Jonas schob den Rollkoffer über die Lücke zwischen Fähre und Ufer.“ – Jonas steht bereits auf dem Anleger, die Handlung ist unlogisch.",
+          "„Ilse löste die Leine vom Poller“ – Sie hat die Fähre eben festgemacht, macht sie wieder los und verlässt sie dann unvertäut.",
+          "„Ich helf dir rüber“ – unklar, was Jonas damit meint."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Das hatte sie vergessen gehabt.“ – doppeltes Plusquamperfekt, umgangssprachlich.",
+          "„wo man es hören konnte wie ein Hemd, das gebügelt wurde“ – überdehnter, schiefer Vergleich.",
+          "„Am anderen Ufer hupte jemand … Drüben stand schon wieder ein Auto am Anleger“ – redundante Doppelung.",
+          "„ob die Fähre wirklich noch mit Strömung fahre“ – reibt sich mit dem zuvor thematisierten Motor."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 3,
+        "aufgabe": 5,
+        "fehler": [
+          "„Sie blieb stehen und entschied sich … Stattdessen blieb sie stumm und wartete, bis er selbst den Weg finden musste.“ – Wiederholung von „blieb“, schiefe Tempusführung, die Entscheidung wird erklärt statt gezeigt.",
+          "„wenn man nicht gerade in einem klimatisierten Büro in München saß“ – klischeehafter Erzählerkommentar.",
+          "„als wäre sie ein Problem, das es zu lösen galt. Er suchte nach Rissen in der Fassade“ – Floskeln, Erklären statt Zeigen.",
+          "„Die Elbe war heute aufgewühlt“ – Widerspruch zu „das träge an den Uferkanten vorbeizog“ im Satz davor.",
+          "„entgegnete sie knapp“ / „erwiderte Jonas“ – Inquit-Variation; zudem redet die wortkarge Figur zu viel."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Dann entschied sie sich, den Motor nicht abzuschalten.“ – Die Entscheidung folgt nicht aus der Überlegung zur Fahrt und ist unklar: Lief der Motor?",
+          "„Sie goss sich ein in die Emailletasse“ – unidiomatische Wortstellung.",
+          "„ein Schubboot mit leerem Schlepper“ – fachlich falsch, gemeint ist ein Schubleichter.",
+          "„ohne sich umzudrehen“ – zweimal in kurzem Abstand, mechanische Wiederholung.",
+          "Ilse spricht kein einziges Wort; die Szene reiht Handgriffe ohne Spannung oder Konflikt aneinander."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "A",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 7944,
+    "out": 3811,
+    "thinking": 2194
+  },
+  "costUsd": 0.107996
+}

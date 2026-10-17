@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "At four, Mara took her tea to the chapel because the staff room television had been left on again.\n\nA man sat in the second row, holding a paper cup between his knees. He wore a raincoat with a dark patch across one shoulder. The chapel lights were on a timer; only the aisle and the electric candles were lit.\n\n“Mara,” he said.\n\nShe stopped inside the door. Her badge was clipped to her trouser pocket, photograph facing in.\n\n“Have we met?”\n\nHe looked at the cup. “I don’t think so.”\n\nShe waited for him to explain. From somewhere beyond the chapel came the uneven knock of a trolley wheel.\n\n“Are you waiting for someone?” she asked.\n\n“Yes.”\n\n“Do you know which ward?”\n\n“I know where they are.”\n\nShe could have asked his name, then called upstairs. Instead she sat at the end of the back row. Her tea was too hot to drink. She held it against the place below her thumb where she had caught her hand on a bed rail.\n\nAfter a while he said, “Do they let you sleep?”\n\n“Not here.”\n\n“I meant afterward.”\n\n“Sometimes.”\n\nHe nodded. She noticed that his shoes were dry, though water had collected beneath the hem of his coat.\n\nHer phone vibrated. A message from the ward: *Can you come back?*\n\nAt the door she turned. He had set his cup on the floor and was smoothing its cardboard sleeve flat against his knee. One damp corner kept lifting beneath his palm.",
+  "usage": {
+    "in": 59,
+    "out": 381,
+    "thinking": 66
+  },
+  "costUsd": 0.003928,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 14476,
+  "meta": [],
+  "at": "2026-10-17T17:43:57.138Z"
+}

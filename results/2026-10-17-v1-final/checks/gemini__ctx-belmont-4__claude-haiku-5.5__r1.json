@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "violated": [
+      "b4-5"
+    ],
+    "evidence": [
+      "Die Vorstellung, dass jemand von außen kommt, um ihr etwas zu entreißen, ist leichter zu ertragen als die andere, die sich langsam in ihr auftut."
+    ]
+  },
+  "usage": {
+    "in": 2060,
+    "out": 62,
+    "thinking": 0
+  },
+  "costUsd": 0.00474
+}

@@ -1,0 +1,118 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Eine Ebene „zwischen oben und unten“ (Vermittlung von Entscheidungen der Geschäftsführung) fehlt; „Kläre, wofür du verantwortlich bist“ deckt nur die Absprache nach oben ab.",
+          "„Du schaffst einfache Absprachen für Übergaben, Besprechungen und Informationswege“ ist eher Organisationslehre als Führung und wirkt im Bogen etwas blass.",
+          "„deinen Umgang mit Macht“ passt nur bedingt zur Zielgruppe ohne formale Machtmittel."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Die Kapitelbeschreibungen sind Nebensatzfragmente statt ganzer Sätze, etwa „Wie du in der neuen Rolle ankommst, was du in den ersten Wochen tust und was du besser lässt.“",
+          "Kapitel 1 „Der erste Tag“ und Kapitel 3 „Vom Kollegen zum Vorgesetzten“ überschneiden sich beim Thema Rollenwechsel.",
+          "Kapitel 7 „Verhaltensfragen“ und Kapitel 8 „Streit im Team“ überlappen sich.",
+          "„wie du mit deinen eigenen Fehlern umgehst“ in Kapitel 4 greift dem Haltungskapitel 10 vor.",
+          "Die Titel sind uneinheitlich: Nur Kapitel 10 nutzt die Du-Form („Deine eigene Haltung“)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "Der Einleitungssatz „Hier ist die Gliederung für das Sachbuch“ ist ein Füllsatz.",
+          "Der Aufbau ist brüchig: „Verschiedene Köpfe unter einen Hut bringen“ (Kapitel 7) und „Feuerwehrmodus“ (Kapitel 8) stehen nach den schwierigen Gesprächen, obwohl sie nicht darauf aufbauen.",
+          "„dicke Luft im Team“ (Kapitel 6) überschneidet sich mit Kapitel 7.",
+          "„obwohl du weder Gehälter erhöhen noch Abmahnungen schreiben darfst“ ist eine pauschale Annahme, die nicht auf jede Teamleitung zutrifft.",
+          "Die Satzanfänge wechseln zwischen „Dieses Kapitel zeigt dir“, „Hier lernst du“ und „Ein konkreter Leitfaden“; „Werkzeuge an die Hand“ ist eine Floskel."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Der Abgrenzungsabsatz „Zur Abgrenzung: …“ war nicht verlangt und zeigt, dass die Überschneidungen erklärt werden müssen.",
+          "„Konflikte im Team“ in Kapitel 7 ist unscharf gegenüber Kapitel 3 und Kapitel 8 abgegrenzt.",
+          "Kapitel 1 „was dein eigener Chef von dir erwartet“ überschneidet sich leicht mit Kapitel 8 „Zwischen den Stühlen“.",
+          "Kapitel 4 bündelt in „Sagen, was du willst“ Delegation und Erwartungsklärung; der Titel trifft nur einen Teil davon."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Du wägest ab“ ist grammatisch falsch; korrekt ist „Du wägst ab“.",
+          "Der Aufbau ist unlogisch: „Schaffe einen verlässlichen Arbeitsrhythmus“ steht als Kapitel 8 nach Entscheidungen und schwierigen Gesprächen.",
+          "„sorgst dafür, dass alle wissen, worauf es gerade ankommt“ (Kapitel 4) überschneidet sich mit „damit Informationen fließen“ (Kapitel 8).",
+          "„aufmerksam zuhörst und dein Team fair behandelst“ ist generisch und wenig anschaulich.",
+          "„Du findest den Übergang vom Kollegen zum Teamleiter“ ist idiomatisch schief."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "B",
+      "C",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 5909,
+    "out": 2778,
+    "thinking": 1152
+  },
+  "costUsd": 0.079196
+}

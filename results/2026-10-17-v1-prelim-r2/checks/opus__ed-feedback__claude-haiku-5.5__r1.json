@@ -1,0 +1,19 @@
+{
+  "task": "ed-feedback",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "found": [
+      "tempus",
+      "fahrgaeste"
+    ],
+    "false_alarms": 5
+  },
+  "usage": {
+    "in": 2065,
+    "out": 531,
+    "thinking": 502
+  },
+  "costUsd": 0.01888
+}

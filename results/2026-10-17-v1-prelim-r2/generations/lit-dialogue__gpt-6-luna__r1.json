@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "[Vor dem geschlossenen Café. Regen. Mara hält den Schirm über beide, ohne näher zu rücken.]\n\n**Mara:** Du bist früh.\n\n**Jonas:** Ich wollte nicht, dass du warten musst.\n\n**Mara:** Das hast du früher auch gesagt.\n\n**Jonas:** Früher war ich besser darin.\n\n[Sie sieht auf den Schirm. Er hält den Griff fest.]\n\n**Mara:** Du bist dünner geworden.\n\n**Jonas:** Du sagst das, als wäre es eine Nachricht.\n\n**Mara:** Ist es eine?\n\n**Jonas:** Nicht für dich.\n\n[Ein Bus fährt vorbei. Wasser spritzt auf ihre Schuhe.]\n\n**Mara:** Der hier hält immer noch zu nah am Bordstein.\n\n**Jonas:** Du hast dich jedes Mal beschwert.\n\n**Mara:** Und du hast jedes Mal gelacht.\n\n**Jonas:** Ich erinnere mich.\n\n[Stille.]\n\n**Mara:** Hast du noch den blauen Becher?\n\n**Jonas:** Der mit dem Sprung?\n\n**Mara:** Du meintest, der hält ewig.\n\n**Jonas:** Er hält noch.\n\n**Mara:** Gut.\n\n**Jonas:** Du könntest ihn zurückhaben.\n\n**Mara:** Ich weiß nicht, ob er noch zu mir gehört.\n\n[Er senkt den Schirm ein wenig. Sie bleibt darunter.]\n\n**Jonas:** Es ist kalt.\n\n**Mara:** Ja.\n\n**Jonas:** Wir könnten irgendwo reingehen.\n\n**Mara:** Das Café ist zu.\n\n**Jonas:** Es gibt andere.\n\n**Mara:** Natürlich.\n\n[Er macht einen Schritt. Wartet.]\n\n**Jonas:** Gehen wir?\n\n**Mara:** Wenn du diesmal nicht vorausläufst.\n\n**Jonas:** Ich kann langsamer gehen.\n\n**Mara:** Das ist nicht dasselbe.\n\n[Er nickt. Sie setzt sich in Bewegung. Nach zwei Schritten passt er sein Tempo an.]\n\n**Jonas:** So?\n\n**Mara:** Für den Anfang.\n\n[Sie gehen los. Der Schirm bleibt zwischen ihnen.]",
+  "usage": {
+    "in": 64,
+    "out": 635,
+    "thinking": 205
+  },
+  "costUsd": 0.00032389999999999996,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 7247,
+  "meta": [],
+  "at": "2026-10-17T17:19:17.701Z"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "nf-from-source",
+  "model": "gemini-4-argon",
+  "run": 2,
+  "text": "Wie eine Genossenschaft in der Praxis funktioniert, zeigt das Beispiel der Fährgenossenschaft Hitzacker eG. Als der Landkreis im Jahr 1953 den Betrieb der dortigen Seilfähre einstellte, schlossen sich 41 Landwirte und Händler von beiden Elbufern zusammen und gründeten die Genossenschaft. Für diese Fähre ist die eingetragene Genossenschaft (eG) die passende Rechtsform, weil es den Beteiligten nicht um persönliche Gewinnmaximierung geht, sondern um den gemeinsamen Erhalt der Fährverbindung. \n\nDieses Prinzip prägt die Struktur bis heute. Inzwischen zählt die Genossenschaft 312 Mitglieder. Wer Mitglied wird, erwirbt mindestens einen Anteil zu 250 Euro. Ein zentrales Merkmal dieser Rechtsform ist die Demokratie: In der Generalversammlung hat jedes Mitglied genau eine Stimme – völlig unabhängig davon, wie viele Anteile es hält. Zudem werden finanzielle Überschüsse nicht an die Mitglieder ausgeschüttet, sondern fließen direkt in eine Rücklage für die Erneuerung der Fähre. Das sichert den Betrieb langfristig.\n\nDie an einem Führungsseil hängende Fähre überquert die an dieser Stelle 212 Meter breite Elbe bei normalem Wasserstand in sieben Minuten. Wurde sie bis 1978 allein durch die Strömung bewegt, sorgt heute ein 85-kW-Dieselmotor für den Antrieb. Pro Jahr befördert die Fähre rund 64.000 Personen, wobei es sich im Sommer vor allem um Radfahrer auf dem Elberadweg handelt. Im Jahr 2024 erzielte die Genossenschaft einen Umsatz von 186.000 Euro. Davon stammten 71 Prozent aus dem Verkauf von Fahrkarten und 29 Prozent aus einem Zuschuss der Gemeinde. \n\nDass die Rechtsform der Genossenschaft den Fortbestand und die Modernisierung der Fähre ideal unterstützt, zeigt der Blick in die Zukunft: Da alle Überschüsse im Unternehmen verbleiben, wächst das finanzielle Polster stetig. Bis zum Jahr 2031 soll die angesparte Rücklage ausreichen, um einen Elektroantrieb in die Fähre einzubauen. So sichern die Mitglieder gemeinsam den Fährbetrieb von morgen.",
+  "usage": {
+    "in": 453,
+    "out": 492,
+    "thinking": 0
+  },
+  "costUsd": 0.005826,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 11254,
+  "meta": [],
+  "at": "2026-10-17T17:43:05.517Z"
+}

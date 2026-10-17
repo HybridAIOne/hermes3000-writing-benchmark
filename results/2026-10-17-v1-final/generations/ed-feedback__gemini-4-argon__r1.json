@@ -1,0 +1,20 @@
+{
+  "task": "ed-feedback",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "text": "Hier sind meine Lektoratsanmerkungen zum vorliegenden Textausschnitt:\n\n1. **„Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.“**\n   Logikfehler im Handlungsablauf: Wenn die Fahrgäste bereits über die Rampe an Bord gegangen sind, muss diese schon unten gewesen sein; zur Abfahrt muss Ilse die Rampe *hochziehen*, nicht herunterlassen.\n\n2. **„über sie“**\n   Grammatikalischer Bezugsfehler: Da das Pronomen „sie“ im selben Satz sowohl auf „die Rampe“ (Singular) als auch auf „die drei Fahrgäste“ (Plural) oder „Ilse“ bezogen werden kann, ist der Satz hier unfreiwillig mehrdeutig.\n\n3. **„Die Frau mit dem Fahrrad stellte es an die Reling.“**\n   Grammatikalischer Bezugsfehler: Das Pronomen „es“ bezieht sich auf einen Teil eines zusammengesetzten Attributs („mit dem Fahrrad“) statt auf das Subjekt; zudem verlangt das Verb „stellen“ (Richtung) hier den Akkusativ („an die Reling“ ist korrekt), aber der Bezug von „es“ hinkt grammatikalisch. (Besser: „stellte ihr Rad“).\n\n4. **„Ilse stellt den Motor an“**\n   Tempusfehler: Hier wechselt die Erzählzeit versehentlich vom Präteritum ins Präsens („stellt“ statt „stellte“).\n\n5. **„Ich hatte diesen Moment immer gemocht, dachte sie, wenn die Fähre sich vom Ufer löst.“**\n   Tempusfehler im direkten Gedanken: Im direkten inneren Monolog (Ich-Form) muss das Perfekt oder Präsens stehen („Ich habe diesen Moment immer gemocht“ / „Ich mag diesen Moment“), da das Plusquamperfekt („hatte gemocht“) nur in der erlebten Rede (3. Person: *Sie hatte diesen Moment immer gemocht*) funktioniert und sonst bedeutet, dass sie den Moment *jetzt nicht mehr* mag (was dem Präsens „löst“ im Nebensatz widerspricht).\n\n6. **„Der Junge mit den Kopfhörern tippte auf seinem Handy, und die alte Frau Lüders setzte sich auf die Bank am Heck.“**\n   Kontinuitätsfehler (Zählfehler): Im ersten Satz ist von „drei Fahrgästen“ die Rede, aber im Verlauf des Absatzes werden insgesamt vier genannt (die Frau mit dem Fahrrad, der Mann im grauen Mantel, der Junge mit den Kopfhörern, die alte Frau Lüders).\n\n7. **„tippte auf seinem Handy [...] jeden Morgen seit dem Krieg“**\n   Historischer Anachronismus: Wenn derselbe Bäcker „seit dem Krieg“ (in der Regel der Zweite Weltkrieg, Ende 1945) jeden Morgen mit einem Pferdewagen dort steht und der Junge gleichzeitig ein „Handy“ benutzt (Verbreitung ab Ende der 1990er-Jahre), müsste der Bäcker seit über 50 Jahren im Dienst und mindestens 70 bis 80 Jahre alt sein, während er immer noch mit einem Pferdewagen ausliefert. \n\n8. **„Am Anleger drüben wartete schon der Bäcker mit seinem Pferdewagen [...] und hupte zweimal.“**\n   Mehrstufiger Logik- und Perspektivfehler: Erstens kann die personale Erzählerin (Ilse) den Bäcker gar nicht sehen, da es zuvor hieß, dass „sie das andere Ufer nicht sah“; zweitens kann sie ihn nicht hören, da der Nebel „jedes Geräusch“ schluckte; drittens hat ein Pferdewagen keine Hupe.",
+  "usage": {
+    "in": 329,
+    "out": 814,
+    "thinking": 0
+  },
+  "costUsd": 0.008798,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 16933,
+  "meta": [
+    "preamble"
+  ],
+  "at": "2026-10-17T17:40:53.432Z"
+}

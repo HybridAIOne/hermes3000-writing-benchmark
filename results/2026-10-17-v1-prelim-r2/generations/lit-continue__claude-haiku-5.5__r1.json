@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "Sie antwortete nicht. Das Seil war nass und kalt, und an ihren Fingern hing der Geruch von Teer und Flusswasser, den sie seit Jahrzehnten nicht mehr bemerkte, außer an Tagen wie diesem. Die Fähre hob und senkte sich unter ihren Füßen, ein kleines, ungeduldiges Atmen, das die Strömung durch die Planken schickte. Die Elbe war heute braun, mit gelbem Schaum an den Pfählen.\n\n„Ich hab dich angerufen\", sagte Jonas.\n\n„Ich weiß.\"\n\n„Du bist nicht rangegangen.\"\n\nSie schob die Mütze aus der Stirn. Vom Ufer her roch es nach feuchtem Schilf und nach Bratwurst, der Stand hatte seit Ostern wieder auf, und der Besitzer winkte ihr jeden Morgen zu, als müssten sie einander zeigen, dass sie beide noch da waren. Drüben stand die Kirche zwischen den Bäumen, und über ihr zog ein Schwarm Stare in engen Bögen, als hätte jemand sie an einem Faden geführt.\n\nJonas stellte den Koffer ab. Eine Rolle blieb in einer Fuge hängen. Er zog daran, es klackte, dann stand er wieder still. Er trug einen Mantel, den sie ihm nicht gekauft hatte, und Schuhe, wie man sie in München trägt, wenn man nicht weiß, dass es hier Bohlen gibt, die im Frühjahr glitschig werden.\n\n„Kommst du mit oder bleibst du stehen?\", fragte sie.\n\n„Ich dachte, wir reden.\"\n\n„Wir können auf der Fähre reden. Sie fährt in zehn Minuten.\"\n\nEr lachte kurz, ohne Freude. „Du fährst also immer noch hin und her.\"\n\n„Ich fahre hin und her.\"\n\nSie ging zur Kabine und öffnete die Klappe am Maschinenkasten. Der Hilfsmotor roch nach altem Öl. Henning hatte gesagt, man müsse ihn einmal im Monat anlassen, sonst vergesse er sich. Sie hatte ihn seit dem Winter nicht angelassen. Die Strömung trug die Fähre, das Seil führte sie, der Rest war Gewohnheit. Sie wusste selbst nicht, warum sie den Motor nicht reparieren ließ. Vielleicht, weil dann jemand hätte kommen müssen, um zu sehen, was kaputt war.\n\nSie richtete sich auf. Jonas stand noch immer auf dem Anleger, den Griff des Koffers in der Hand, und sah aus wie damals, als er sieben war und vor der Schule nicht hatte einsteigen wollen, weil er glaubte, das Wasser sei tiefer als der Steg.\n\nIlse trat an den Rand der Fähre. Sie streckte die Hand aus, nicht nach dem Koffer, sondern nach ihm, und wartete. Er zögerte. Dann griff er zu, und sie zog ihn über die Kante, so fest, wie man ein Seil zieht, das man nicht loslassen will.\n\n„Einmal\", sagte sie. „Einmal hinüber.\"\n\nDann löste sie die Leine vom Poller.",
+  "usage": {
+    "in": 593,
+    "out": 2637,
+    "thinking": 1477
+  },
+  "costUsd": 0.0013778,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 14039,
+  "meta": [],
+  "at": "2026-10-17T17:19:12.836Z"
+}

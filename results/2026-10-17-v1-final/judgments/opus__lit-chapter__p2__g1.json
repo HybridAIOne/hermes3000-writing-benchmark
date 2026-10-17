@@ -1,0 +1,123 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Seine roten Schuhe verschwanden bald im Nebel.“ – zuvor trug der Junge eine rote Mütze; die roten Schuhe sind ein Kontinuitätsfehler und widersprechen „Seine rote Mütze war der einzige deutliche Farbfleck auf der Fähre“.",
+          "„Ich würde mich das nicht trauen.“ – falsche Rektion, richtig wäre „Ich würde mir das nicht trauen“ oder „Ich würde mich nicht trauen“.",
+          "„Ilse sah auf die Zahl neben seinem Namen, bis der Bildschirm heller wurde.“ – unklar, welche Zahl gemeint ist; das Bild ist schief.",
+          "„An solchen Morgen half es, sich an die kleinen Dinge zu halten: Seil, Rollen, Hebel. Der Rest kam von selbst.“ – hier wird erklärt statt gezeigt.",
+          "„„Ja.“ / „Gut.““ – die Einwortwechsel wiederholen sich zur Masche und tragen die Szene kaum."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Erst wich nur die Kante der Rampe zurück, dann der Poller, dann war auch der Poller weg.“ – unbeholfene Doppelung.",
+          "„Vom anderen Ufer erschien zuerst die Lampe.“ – die Präposition sitzt schief, besser „Am anderen Ufer“.",
+          "„„Meiner schon.“ / „Zu Hause war keine Zeit.““ – der Wechsel ist etwas undeutlich, die Bitte der Frau bleibt in der Luft.",
+          "„standen die beiden anderen Fahrgäste am Ufer. / Die Frau kam zuerst.“ – die Bewegung ist leicht widersprüchlich: Erst stehen beide, dann kommt die Frau.",
+          "„Die Münzen waren warm.“ – das Detail ist gut, steht aber isoliert in einer Reihe sehr kurzer Hauptsätze, die stellenweise staccatohaft wirken."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„„Morgen\", sagte Mareike.“ – durchgehend gerade schließende Anführungszeichen statt typografisch korrekter „…“.",
+          "„*1 Anruf in Abwesenheit*“ – Markdown-Sternchen statt Buchtext-Auszeichnung.",
+          "„eines von denen, die man schnell wieder vergisst“ – Präsens im Präteritumstext; als generisches Präsens zwar vertretbar, aber unsauber.",
+          "„Mitte Strom wurde der Nebel noch dichter.“ – umgangssprachlich verkürzt, in der Erzählerrede holprig.",
+          "Mit rund 1100 Wörtern liegt der Text deutlich über den vorgegebenen etwa 900 Wörtern; „als hätte der Fluss sich entschieden“ und „wie nasse Wäsche“ sind zudem Vergleichshäufungen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„dass das andere Ufer nicht existierte“ / „die schwer und ölig gegen den stählernen Bug schlug“ – klischeehafte Eröffnungsbilder.",
+          "„Darunter ein kleines Foto, das ihn im Anzug vor einer Glasfassade zeigte, die Sonne Münchens im Gesicht.“ – kitschig und überdeutlich.",
+          "„Er würde über den Winter reden wollen. Über die Bilanz vom dritten Quartal. Über den Makler aus Lüneburg.“ – Konflikt-Exposition wird erklärt statt gezeigt.",
+          "„Ilse behielt das Echolot und das Radar im Auge.“ – für eine kleine Seilfähre technisch unplausibel; zudem passt die motorisierte Seilwinde nicht zur Gierseilfähre bei Hitzacker.",
+          "„Ihre Halbschuhe waren völlig durchnässt“ vs. „ihre Absätze klackten“ – kleiner Widerspruch; außerdem die Klischeemetapher „die zwei gelben Augen eines alten Traktors“."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "„Sie wusste, was auf dem Display stand, ohne hinzusehen“ – der Anruf ist nicht erkennbar von Jonas; sein Name fällt nie.",
+          "„Um zehn vor sieben hörte sie den ersten Motor oben auf dem Deich. […] Es war Frau Wulf mit dem Fahrrad“ – Logikbruch: Motor und Fahrrad passen nicht zusammen.",
+          "„Hoppes sind vom Hof am Kanal. Da musst du links“ – die wortkarge Ilse duzt plötzlich einen Fremden und erklärt ungefragt den Weg; das ist inkonsistent.",
+          "„Als gäbe es ein Früher, das man von einem Jetzt trennen konnte.“ – erklärende Reflexion, die mit dem Holzhammer arbeitet.",
+          "„summte es noch einmal kurz und kürzer“ / „die Kette der Rolle“ – unklare, schiefe Formulierungen."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "A",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 15513,
+    "out": 4735,
+    "thinking": 2732
+  },
+  "costUsd": 0.156752
+}

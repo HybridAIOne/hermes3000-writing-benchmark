@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "gemini-4-argon",
+  "run": 2,
+  "text": "Hier ist der Entwurf für die Gliederung des Sachbuchs **„Führen ohne Titel“**:\n\n**Kapitel 1: Plötzlich verantwortlich – wie du den Rollenwechsel meisterst**\nDu erfährst, wie du den Schritt vom geschätzten Kollegen zum Respektierten machst, ohne abgehoben zu wirken oder deine alten Kontakte im Team zu verlieren.\n\n**Kapitel 2: Schluss mit dem Selbermachen – Aufgaben abgeben, ohne zu befehlen**\nDu lernst, wie du dich aus dem Tagesgeschäft zurückziehst und Arbeit im Team so verteilst, dass andere sie gerne übernehmen, obwohl du formal keine Anweisungen geben darfst.\n\n**Kapitel 3: Der Alltag im Griff – Besprechungen und Abläufe, die wirklich helfen**\nHier siehst du, wie du den Informationsfluss im Team sicherstellst und kurze Treffen leitest, die allen Zeit sparen, statt sie zu stehlen.\n\n**Kapitel 4: Auf Augenhöhe überzeugen – wie du Rückhalt gewinnst**\nDieses Kapitel zeigt dir, wie du gute Argumente und deine Fachkompetenz nutzt, damit das Team deine Entscheidungen aus Überzeugung mitträgt und nicht aus Pflichtgefühl.\n\n**Kapitel 5: Klartext reden – schwierige Gespräche sicher führen**\nDu bekommst konkrete Werkzeuge an die Hand, um Fehler, Trödelei oder dicke Luft im Team direkt und fair anzusprechen, ohne dass die Stimmung kippt.\n\n**Kapitel 6: Zwischen den Stühlen – der richtige Umgang mit deinem eigenen Chef**\nDu lernst, wie du deinem Team den Rücken freihältst, unrealistische Vorgaben von oben abfederst und dir gleichzeitig die nötige Rückendeckung der Geschäftsführung holst.\n\n**Kapitel 7: Wenn es brennt – Ruhe bewahren bei Druck und Fehlern**\nHier erfährst du, wie du bei engen Terminen oder Reklamationen einen kühlen Kopf bewahrst und dein Team sicher durch stressige Phasen steuerst.\n\n**Kapitel 8: Das Team stark machen – gute Leute halten und fördern**\nDu siehst, wie du die Stärken deiner Kollegen im Arbeitsalltag gezielt einsetzt und für eine gute Stimmung sorgst, damit niemand innerlich kündigt.\n\n**Kapitel 9: Dein eigener Kompass – gesund bleiben und deinen Weg finden**\nZum Abschluss klärst du für dich, wie du nach Feierabend wirklich abschaltest und wie dein nächster Schritt aussieht – egal ob mit offiziellem Titel oder ohne.",
+  "usage": {
+    "in": 154,
+    "out": 549,
+    "thinking": 0
+  },
+  "costUsd": 0.005798,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 10577,
+  "meta": [
+    "preamble"
+  ],
+  "at": "2026-10-17T17:44:19.567Z"
+}

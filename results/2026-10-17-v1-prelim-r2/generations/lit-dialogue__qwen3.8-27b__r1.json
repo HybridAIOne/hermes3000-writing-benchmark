@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "MARCUS steht auf, als THOMAS die Tür des Cafés öffnet. Drei Sekunden starrt er auf seine Tasse, bevor er den Kopf hebt.\n\nMARCUS: Setz dich.\n\nTHOMAS setzt sich. Ein Platz zu weit entfernt. Er lässt die Jacke auf dem Schoß liegen. Nicht ab.\n\nTHOMAS: Du hast mir die Nummer von jemandem gegeben.\n\nMARCUS: Ja.\n\nTHOMAS: *(rührt mit dem Löffel in der leeren Tasse)* Hm.\n\nMARCUS: Dein Handy lag auf dem Küchentisch. Ich dachte, du bräuchtest sie.\n\nTHOMAS: Ja. *(Lange Pause.)* Danke.\n\nMARCUS: *(schaut aus dem Fenster)* Es ist kalt heute.\n\nTHOMAS: Ja.\n\nMARCUS: Wie geht es Elena?\n\nTHOMAS: *(lächelt, es sitzt falsch)* Gut. Sie hat den Job in Linz bekommen.\n\nMARCUS: Das ist schön.\n\nTHOMAS: *(rührt wieder in der leeren Tasse)* Du trinkst nach wie vor nur Schwarz.\n\nMARCUS: Ohne Zucker.\n\nTHOMAS: Ich weiß. *(Die Augen wandern über die Tischkante.)* Ich vergesse wenig.\n\nMARCUS: *(schüttelt den Kopf. Einmal. Kaum merklich.)* Die Leute hier sind nett.\n\nTHOMAS: *(sehr leise)* Welche Leute?\n\nMARCUS: *(beugt sich vor, die Stimme wird dünner)* Die Leute hier. In diesem Kaffeehaus.\n\nTHOMAS starrt ihn an. Am nächsten Tisch wischt eine Frau Gläser ab. Niemand sonst bewegt sich.\n\nMARCUS: *(zieht sich zurück. Trinkt.)* Entschuldige.\n\nTHOMAS: *(legt einen Zehner auf den Tisch. Steht auf.)*\n\nMARCUS: Thomas.\n\nTHOMAS: *(dreht sich um. Die Hand bleibt am Stuhllehnen hängen.)*\n\nMARCUS: Bleib noch.\n\nTHOMAS: *(schüttelt den Kopf. Einmal. Langsam.)* Nein.\n\nEr geht. Die Tür fällt ins Schloss. MARCUS bleibt sitzen. Er rührt in seine Tasse. Schwarz. Ohne Zucker. Er lässt den Löffel stecken und schaut auf den Platz, an dem THOMAS gesessen hat.",
+  "usage": {
+    "in": 69,
+    "out": 5487,
+    "thinking": 4956
+  },
+  "costUsd": 0.012087960000000002,
+  "finish": "stop",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "upstream": "Wafer",
+  "latencyMs": 33602,
+  "meta": [],
+  "at": "2026-10-17T17:23:20.566Z"
+}

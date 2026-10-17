@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-7",
+  "model": "gemini-4-argon",
+  "run": 2,
+  "judge": "opus",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 3773,
+    "out": 334,
+    "thinking": 317
+  },
+  "costUsd": 0.021772
+}

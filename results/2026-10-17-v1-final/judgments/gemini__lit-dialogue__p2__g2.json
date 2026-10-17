@@ -1,0 +1,111 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Deine Jacke liegt schon drauf.“ (Logikbruch: Jonas kommt gerade erst an, aber seine Jacke liegt bereits auf dem freien Stuhl.)",
+          "„Ohne Zucker?“, fragt Mara. (Formbruch: Inquit-Formel mitten in einem Text, der ansonsten mit Regieanweisungen in eckigen Klammern arbeitet.)",
+          "[Jonas zieht seine Jacke von der Stuhllehne.] (Kontinuitätsfehler: Am Anfang hat er die Jacke vom Stuhl genommen und sich gesetzt, nie über die Lehne gehängt.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "*(Jan setzt sich langsam. Die Jacke bleibt auf seinem Schoß.)* (Schwerer Logikbruch: Jan stand während des gesamten vorherigen Dialogs, obwohl er bereits in eine leere Tasse auf dem Tisch gerührt hat.)",
+          "*(Schweigen. Jan rührt in einer Tasse, in der noch nichts ist.)* (Szenischer Unsinn: Man bekommt im Café vor dem Servieren des Kaffees keine leere Tasse vorab hingestellt; zudem bringt die Kellnerin später noch einmal zwei Tassen.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "*Die Bedienung bringt zwei Kaffee. Keiner rührt seinen an.* (Szenische Lücke: Jörg hat sich gerade erst gesetzt und es wurde nie bestellt, trotzdem steht sofort Kaffee für beide da.)",
+          "Ich wollte nur sichergehen, dass sie angekommen sind. (Leichte grammatikalische Unschärfe: Bezug auf „geschrieben“ statt auf ein Substantiv wie „Briefe“ oder „Nachrichten“.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "HANNA: Der alte war durchgescheuert. PETER: Das hab ich gemerkt. (Unfreiwillig komisch und unlogisch: Wie hat er beim langen Getrenntsein bemerkt, dass ihr alter Mantel durchgescheuert war?)",
+          "*Sie lächelt traurig und schiebt ihm die Tasse zu. Er nimmt sie nicht.* (Szenischer Unsinn: Warum schiebt sie ihm am Ende ihre benutzte Kaffeetasse hin, nachdem er ausdrücklich keinen Kaffee wollte?)",
+          "PETER: Hast du den Schlüssel noch? HANNA: Welchen? PETER: Du weißt welchen. (Abgedroschenes Melodram-Klischee ohne Substanz; zudem fehlt das Komma vor „welchen“.)",
+          "*Sie lacht kurz, dann nicht mehr.* (Ungelenke Formulierung in der Regieanweisung.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "MARA: Du bestellst noch immer schwarz. LEON: Du auch. MARA: Ich habe mich umgestellt. LEON: Worauf? MARA: Auf weniger Zucker. (Kompletter Unsinn: Wenn man Kaffee schwarz trinkt, ist ohnehin kein Zucker drin; man kann sich von „schwarz“ nicht auf „weniger Zucker“ umstellen.)",
+          "[Er setzt sich. Sie rühren beide in ihren Tassen, ohne zu trinken.] (Kontinuitätsbruch: Leon ist gerade erst zur Tür hereingekommen, hat noch nicht bestellt, hat aber plötzlich eine Tasse vor sich; zudem steht Mara laut erster Regieanweisung noch.)",
+          "[Ein kurzer Blick. Leon zieht den Stuhl zurück, den Mara freigelassen hat.] (Ungelenk und unlogisch: Warum hat die stehende Mara in einem Café einen bestimmten Stuhl „freigelassen“?)",
+          "MARA: Weißt du noch, wie wir den hier verpasst haben? (Unglaubwürdiger Dialog: Niemand zeigt auf einen vorbeifahrenden Stadtbus und meint damit exakt die Verbindung von vor Jahren.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3379,
+    "out": 1120,
+    "thinking": 0
+  },
+  "costUsd": 0.017958
+}

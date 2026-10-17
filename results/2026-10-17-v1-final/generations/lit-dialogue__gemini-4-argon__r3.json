@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "gemini-4-argon",
+  "run": 3,
+  "text": "*(Ein kleines Café. LUKAS sitzt bereits am Tisch. MARIE tritt an den Tisch, den Mantel noch zugeknöpft.)*\n\nMARIE\nDu bist schon da.\n\nLUKAS\n*(deutet auf eine Tasse)*\nIch wusste nicht, ob du noch Schwarztee trinkst. Mit Milch.\n\nMARIE\n*(setzt sich langsam, zieht den Mantel nicht aus)*\nManche Dinge ändern sich nicht so schnell, Lukas. Danke.\n\nLUKAS\nEs ist lange her. Sechs Monate?\n\nMARIE\nSieben. Aber wer zählt schon. \n*(Sie rührt im Tee, obwohl kein Zucker darin ist.)*\nDu siehst gut aus. Ausgeschlafen.\n\nLUKAS\nIch arbeite jetzt weniger. Ich habe... Prioritäten verschoben. Man lernt ja aus Fehlern.\n\nMARIE\n*(blickt auf, ihr Lächeln erreicht die Augen nicht)*\nTut man das? Das ist schön für dich. Wirklich.\n\nLUKAS\nMarie, bitte. Ich habe die Kiste mit deinen restlichen Sachen übrigens im Kofferraum. Die Bücher. Und die alte Kamera.\n\nMARIE\nDu hättest sie auch einfach vor die Tür stellen können. Wie den Rest damals.\n\nLUKAS\n*(weicht ihrem Blick aus, knetet seine Serviette)*\nEs hat geregnet. Ich wollte nicht, dass sie kaputtgehen. Sie bedeuten dir doch viel.\n\nMARIE\nJa. Mir bedeuten alte Dinge oft zu viel. Das war wohl immer mein Problem. Ich hänge an Sachen, die längst kaputt sind.\n\n*(Kurzes, schweres Schweigen. Lukas setzt zum Sprechen an, bricht ab.)*\n\nLUKAS\nIch vermisse... unsere Gespräche.\n\nMARIE\n*(stellt den Löffel leise ab)*\nWir reden doch gerade. \n\nLUKAS\nDu weißt, wie ich das meine. \n\nMARIE\n*(sieht auf ihre Armbanduhr)*\nIch muss gleich weiter. Gibst du mir einfach den Autoschlüssel? Dann hole ich mir die Kiste selbst raus. Du musst nicht mitkommen.\n\nLUKAS\n*(zieht zögernd den Schlüssel aus der Tasche und legt ihn zwischen sie auf den Tisch)*\nNatürlich. Wie du willst.\n\nMARIE\n*(nimmt den Schlüssel, ohne seine Hand zu berühren)*\nMach’s gut, Lukas.",
+  "usage": {
+    "in": 93,
+    "out": 517,
+    "thinking": 0
+  },
+  "costUsd": 0.005356,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 9356,
+  "meta": [],
+  "at": "2026-10-17T17:42:36.193Z"
+}

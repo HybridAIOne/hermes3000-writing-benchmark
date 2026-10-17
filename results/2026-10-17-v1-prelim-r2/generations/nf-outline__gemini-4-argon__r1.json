@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "text": "Hier ist der Entwurf für die Gliederung von **„Führen ohne Titel“**:\n\n**Kapitel 1: Plötzlich mittendrin – Wie du vom Kollegen zum Verantwortlichen wirst**\nDu klärst für dich und dein Umfeld, was sich durch deine neue Rolle konkret ändert und wie du den Übergang meisterst, ohne dich zu verbiegen.\n\n**Kapitel 2: Raus aus dem Hamsterrad – Warum du nicht mehr der beste Facharbeiter sein darfst**\nDu lernst, wie du Schritt für Schritt operative Aufgaben abgibst, um den Kopf für die Koordination und Unterstützung deines Teams frei zu bekommen.\n\n**Kapitel 3: Orientierung geben – Wie alle wissen, was bis wann zu tun ist**\nDu erfährst, wie du Erwartungen klar aussprichst und Arbeitsabläufe so strukturierst, dass dein Team selbstständig und sicher arbeiten kann.\n\n**Kapitel 4: Überzeugen statt anordnen – Wie du Verbindlichkeit schaffst, ohne auf den Tisch zu hauen**\nDa du keine formale Macht hast, nutzt du nachvollziehbare Argumente und echte Einbindung, damit sich deine Kollegen an Absprachen halten.\n\n**Kapitel 5: Der richtige Ton im Alltag – Wie du zuhörst, lobst und auf dem Laufenden bleibst**\nDu etablierst einfache Routinen für den täglichen Austausch, durch die du Probleme früh erkennst und gute Arbeit ehrlich wertschätzt.\n\n**Kapitel 6: Klartext reden – Wie du schwierige Gespräche führst, ohne Porzellan zu zerschlagen**\nDu bekommst einen klaren Leitfaden an die Hand, um Minderleistung, Regelbrüche oder Konflikte im Team sachlich, fair und direkt anzusprechen.\n\n**Kapitel 7: Zwischen Baum und Borke – Wie du dein Team schützt und deinen Chef abholst**\nDu lernst, wie du unrealistische Vorgaben von oben abfederst und gleichzeitig die Interessen der Geschäftsführung glaubwürdig im Team vertrittst.\n\n**Kapitel 8: Wenn es knirscht – Wie du dein Team durch Stress, Fehler und Veränderungen steuerst**\nDu erfährst, wie du in turbulenten Zeiten Ruhe bewahrst, nach Fehlern nach Lösungen statt nach Schuldigen suchst und neue Abläufe im Team durchsetzt.\n\n**Kapitel 9: Dein eigener Weg – Wie du langfristig wirksam und gesund in deiner Rolle bleibst**\nDu ziehst Bilanz, setzt gesunde Grenzen für deine eigene Belastung und entwickelst ein Selbstverständnis als Führungskraft, das wirklich zu dir passt.",
+  "usage": {
+    "in": 154,
+    "out": 571,
+    "thinking": 0
+  },
+  "costUsd": 0.006018,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 17836,
+  "meta": [
+    "preamble"
+  ],
+  "at": "2026-10-17T17:19:24.009Z"
+}

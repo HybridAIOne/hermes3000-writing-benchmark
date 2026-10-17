@@ -1,0 +1,106 @@
+{
+  "task": "nf-from-source",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "eine 212 Meter breite Elbe (unidiomatischer unbestimmter Artikel bei Eigennamen eines Flusses)",
+          "Jedes Mitglied hat dort eine Stimme – unabhängig davon, wie viele Anteile es besitzt. Geldanteil und Stimmrecht sind also nicht gleichzusetzen. Die Genossenschaft verbindet so die finanzielle Beteiligung ihrer Mitglieder mit einem gleichen Stimmrecht für jedes einzelne Mitglied. (redundante, trockene Dreifacherklärung desselben Punkts)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "was einzelne nicht stemmen könnten (Substantivierung: 'Einzelne' wird großgeschrieben)",
+          "Sie hängt an einem Führungsseil und braucht für die 212 Meter breite Elbe bei normalem Wasserstand sieben Minuten. (Die technischen Details zur Fähre sind unorganisch an den Absatz über Gewinnverwendung angehängt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [
+          "Ihr Zweck ist vor allem, verlässlich überzusetzen. Rund 64.000 Menschen fährt sie pro Jahr über die Elbe (leicht unklarer Pronominalbezug: 'Ihr' meint noch die Rechtsform oder schon die Fähre, 'sie' meint die Fähre)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "aus beiden Elbufern (unidiomatisch aus dem Quellmaterial übernommen statt korrigiert zu 'von beiden Elbufern')",
+          "Gewicht hat der Kopf, nicht das Kapital. (etwas abgegriffene Floskel)",
+          "Mit 230 Wörtern deutlich unter der Vorgabe von etwa 300 Wörtern; mehrere Fakten zur Fähre aus dem Quellmaterial (212 Meter Breite, 7 Minuten, Führungsseil, 1978, 85-kW-Dieselmotor) komplett weggelassen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "In der Generalversammlung hat jedes Mitglied genau eine Stimme, unabhängig davon, wie viele Anteile es besitzt. Wer mehr Geld in Anteilen einbringt, erhält also nicht mehr Stimmen. Darin liegt ein wesentliches Merkmal dieser gemeinschaftlichen Organisationsform: Finanzielle Beteiligung und Mitbestimmung sind nicht nach demselben Maßstab verteilt. (umständliche, dreifache Wiederholung desselben Sachverhalts)",
+          "bewegte allein die Strömung das Fahrzeug (etwas steifer Behördenbegriff 'das Fahrzeug' für eine Seilfähre)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "E",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3689,
+    "out": 850,
+    "thinking": 0
+  },
+  "costUsd": 0.015878
+}

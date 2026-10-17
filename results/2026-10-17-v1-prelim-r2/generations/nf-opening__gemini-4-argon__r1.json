@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "text": "Es ist Dienstagmorgen, 8:15 Uhr. Du stehst in der Teeküche und wartest auf das letzte gluckernde Geräusch der Kaffeemaschine, als Markus hereinkommt. Eigentlich wolltest du ihn schon letzten Donnerstag auf die fehlerhaften Übergabeprotokolle ansprechen. Und gestern auch. Jetzt wünscht er dir gut gelaunt einen schönen Morgen, greift nach einer Tasse und du hörst dich selbst sagen: „Dir auch, Markus. Ganz schön frisch heute, was?“ Eine Minute später sitzt du wieder an deinem Platz. Die Kaffeetasse vor dir ist heiß, aber in deiner Magengegend macht sich ein kaltes, schweres Gefühl breit. Du hast gekniffen. Schon wieder. Und das Schlimmste daran: Während du versuchst, dich auf deine E-Mails zu konzentrieren, weißt du genau, dass die Kollegen aus der Spätschicht heute Nachmittag wieder im Blindflug starten werden, weil Markus seine Dokumentation schludrig führt. Als Teamleiter ohne disziplinarische Macht kennst du diesen Moment vermutlich nur zu gut. Es ist die unsichtbare Mauer, vor der wir stehen, wenn wir das Verhalten eines Kollegen korrigieren müssen, der auf dem Papier auf derselben Stufe steht wie wir selbst. Du kannst nicht mit Konsequenzen drohen. Du kannst keine Abmahnung schreiben. Deine größte Sorge ist vermutlich, dass Markus dichtmacht, patzig wird oder den Spieß umdreht: „Seit wann hast du mir eigentlich was zu sagen?“ Also schluckst du den Ärger herunter, besserst die Fehler im Zweifel selbst nach und hoffst, dass sich das Problem irgendwie von allein erledigt. Tut es aber nicht. Im Gegenteil: Jedes Gespräch, das du aus falscher Harmoniesucht vermeidest, untergräbt deine Position im Team ein kleines Stück mehr.",
+  "usage": {
+    "in": 184,
+    "out": 402,
+    "thinking": 0
+  },
+  "costUsd": 0.004388,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 11102,
+  "meta": [],
+  "at": "2026-10-17T17:19:09.965Z"
+}

@@ -1,0 +1,116 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„Du hättest sie auch einfach vor die Tür stellen können. Wie den Rest damals.“ benennt bereits eine konkrete Kränkung. Der Konflikt wird damit stärker ausgesprochen, als die Aufgabe vorsieht.",
+          "„Die Kiste mit deinen restlichen Sachen“ und „Ich vermisse... unsere Gespräche“ ergeben vor allem das vertraute Muster einer Paartrennung. Dass sich zwei alte Freunde gegenüberstehen, erhält kaum eigene Kontur.",
+          "„ihr Lächeln erreicht die Augen nicht“, „knetet seine Serviette“ und „Kurzes, schweres Schweigen“ häufen konventionelle Spannungssignale. Die Regie illustriert Gefühle, die der Dialog bereits deutlich vermittelt.",
+          "„Ich hänge an Sachen, die längst kaputt sind.“ erklärt die Beziehungsmetapher aus, statt dem Gegenstand und dem unausgesprochenen Zusammenhang zu vertrauen.",
+          "„Man lernt ja aus Fehlern.“ / „Tut man das?“ arbeitet mit einer vorhersehbaren Vorlage-und-Konter-Konstruktion. Die Stimmen bleiben dadurch eher funktional als individuell."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Jan setzt sich langsam.“ lässt die vorherige Sitzordnung unklar erscheinen: Er hantiert bereits mit Jacke und Tasse am Tisch, ohne dass sein Stehen oder ein zwischenzeitliches Aufstehen kenntlich gemacht wird. Die Szene braucht eine präzisere Bewegungsführung.",
+          "„Jan rührt in einer Tasse, in der noch nichts ist.“ wirkt als demonstratives Nervositätszeichen etwas arrangiert; zudem wird die leere Tasse vor dem Servieren nicht eingeführt.",
+          "„Nein. Hast du nicht.“ und „Sie ist vernünftig.“ wiederholen dieselbe Technik des gereizten Aufgreifens. Das trägt die Spannung, macht den Dialog stellenweise aber schematisch."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Manche Dinge ändern sich nicht.“ / „Andere schon.“ ist eine stark verbrauchte Gegensatzformel; sie bleibt hinter der Präzision der besseren Wechselreden zurück.",
+          "„Martin rührt in der Tasse, obwohl nichts drin ist zum Umrühren.“ ist als Regieanweisung umständlich und unpräzise: Gemeint ist offenbar, dass nichts aufzulösen oder zu vermischen ist.",
+          "„Ein Foto fällt heraus. Beide sehen es an. Keiner hebt es auf.“ setzt auf ein vertrautes Erinnerungsrequisit. Ohne ein individuelles Detail bleibt der Moment etwas austauschbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„rührt in einer leeren Tasse“ und „Der Kaffee sieht kalt aus.“ passen auf der sichtbaren Handlungsebene nicht zusammen. Falls Julia bewusst die leere Tasse kommentiert, ist diese Absicht nicht ausreichend kenntlich.",
+          "„Die Kellnerin kommt, nimmt Julias Bestellung auf, geht wieder.“ / „Sie greift nach ihrer Tasse“ überspringt das Servieren. Die Bestellung wird ausgespielt, die für die spätere Handlung nötige Lieferung dagegen nicht.",
+          "„Ich dachte, einer von uns sollte pünktlich sein.“ und „Die Post war nie das Problem.“ formulieren die Vorwürfe recht unverhüllt. Der Konflikt bleibt zwar sachlich unbestimmt, aber nicht durchgehend unausgesprochen.",
+          "„Erinnerst du dich an den Sommer am See?“ führt eine allgemeine Erinnerungsformel ein, ohne ihr ein unterscheidbares Detail oder eine klare dramatische Funktion zu geben.",
+          "„das Horn klingt lang und dunkel“ versieht den offenen Schluss mit einem konventionellen atmosphärischen Bedeutungssignal."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Wir sind trotzdem angekommen.“ / „Spät.“ / „Aber zusammen.“ macht die Busanekdote zur ausgesprochenen Beziehungsbotschaft. Der Subtext wird dadurch erklärt und nähert sich dem Sentimentalen.",
+          "„Du hast den gleichen Mantel an.“ / „Der hält noch.“ / „Das hat er früher auch schon.“ soll früh Spannung erzeugen, bleibt als konkreter Austausch aber wenig ergiebig: Worauf Maras Einwand zielt, wird auch rückblickend nicht präziser.",
+          "„Eine Kellnerin geht vorbei. Keiner von beiden sieht ihr nach.“ ist eine entbehrliche Regieanweisung. Das unterlassene Nachsehen vermittelt weder eine klare Handlung noch einen spezifischen Spannungszustand.",
+          "„Ich habe lange überlegt.“ / „Das hast du immer.“ / „Nicht immer lang genug.“ verwendet eine auffällig zugerichtete Konterfolge. Solche pointierten Wechsel lassen die Figuren eher wie Träger von Andeutungen als wie individuell sprechende Freunde wirken."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "E",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2764,
+    "out": 2744,
+    "thinking": 1471
+  },
+  "costUsd": 0.032968
+}

@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "text": "*(Ein kleines Café. LUKAS sitzt am Tisch und dreht seinen Ehering. ANNA tritt ein, zögert kurz und setzt sich ihm gegenüber. Sie zieht den Mantel nicht aus.)*\n\nANNA\nDu trinkst jetzt Schwarztee?\n\nLUKAS\nSeit ein paar Monaten. Man gewöhnt sich ja an den bitteren Geschmack. *(Pause)* Schön, dass du gekommen bist.\n\nANNA\n*(nickt knapp)* Du hast geschrieben, es sei wichtig.\n\nLUKAS\nNein, ich habe geschrieben, es sei an der Zeit. *(Er schiebt eine kleine Pappschachtel über den Tisch)* Das lag noch bei mir im Keller.\n\nANNA\n*(blickt auf die Schachtel, berührt sie nicht)* Du hättest es einfach wegwerfen können.\n\nLUKAS\nIch werfe Dinge nicht einfach weg, nur weil sie unbequem werden, Anna. Das weißt du.\n\nANNA\n*(ihr Blick verhärtet sich)* Nein, du hebst alles auf. Jeden Zettel, jedes Wort. Bis kein Platz mehr zum Atmen ist.\n\nLUKAS\n*(lächelt dünn)* Und du machst lieber tabula rasa. Ein Schnitt, und schon existiert die Vergangenheit nicht mehr. Sehr praktisch.\n\n*(Schweigen. Eine Kellnerin geht vorbei. Anna schaut aus dem Fenster.)*\n\nANNA\nWie geht es deiner Mutter?\n\nLUKAS\nSie fragt oft nach dir. Ich sage ihr dann immer, du hast viel zu tun. Dass man eben Prioritäten setzen muss im Leben.\n\nANNA\n*(sieht ihn direkt an, ihre Stimme zittert leicht)* Das ist nicht fair, Lukas.\n\nLUKAS\n*(weicht ihrem Blick aus, starrt in seine Tasse)* Was ist schon fair? Ich habe lange darüber nachgedacht, wer von uns beiden eigentlich gegangen ist. \n\nANNA\nIch sitze hier, oder nicht?\n\nLUKAS\nJa. Mit Mantel. Auf dem Sprung. Wie immer, wenn es ernst wird.\n\nANNA\n*(nimmt die Schachtel, steht langsam auf)* Es war ein Fehler.\n\nLUKAS\n*(leise)* Welcher von den vielen?\n\nANNA\nMach’s gut, Lukas. *(Sie geht. Lukas bleibt sitzen und rührt in seinem leeren Tee.)*",
+  "usage": {
+    "in": 93,
+    "out": 494,
+    "thinking": 0
+  },
+  "costUsd": 0.005126,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 9300,
+  "meta": [],
+  "at": "2026-10-17T17:42:25.283Z"
+}

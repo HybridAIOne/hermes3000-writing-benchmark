@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "claude-sonnet-5.5",
+  "run": 2,
+  "text": "Es ist Dienstag, kurz nach neun. Du stehst in der Teamküche, die Kaffeemaschine gurgelt, und durch die Glastür siehst du Markus an seinem Platz sitzen. Er ist heute wieder zwanzig Minuten zu spät gekommen, zum vierten Mal in diesem Monat. Die Angebote, die er gestern hätte rausschicken sollen, liegen noch in deinem Postfach zur Freigabe, halb fertig, mit denselben Tippfehlern wie letzte Woche. Du nimmst dir vor, ihn gleich anzusprechen. Dann kommt Sabine mit einer Frage zur Urlaubsplanung, danach klingelt dein Telefon, und als du wieder aufschaust, ist es Mittag. „Morgen\", sagst du dir. „Wenn es sich besser anbietet.\" Es bietet sich nie besser an. Das weißt du eigentlich, denn du hast dieses Gespräch schon mehrfach im Kopf geführt, unter der Dusche, im Auto, kurz vor dem Einschlafen. Mal warst du darin souverän, mal hast du dich ungeschickt erklärt, und einmal hat Markus gekündigt. Mit der Wirklichkeit hatte keine dieser Fassungen viel zu tun. Genau darum geht es in diesem Kapitel: nicht um Rhetoriktricks oder Gesprächsformeln, sondern um den Moment davor, in dem du entscheidest, ob du das Gespräch führst oder weiter aufschiebst. Und um das, was danach kommt, wenn du dich für das Gespräch entschieden hast. Schwierige Gespräche gehören zu deinem Alltag als Teamleiter, ob du willst oder nicht. Du kannst sie nur früh oder spät führen, gut vorbereitet oder aus dem Affekt. Wie das gelingt, schauen wir uns jetzt Schritt für Schritt an.",
+  "usage": {
+    "in": 278,
+    "out": 848,
+    "thinking": 157
+  },
+  "costUsd": 0.009036,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 7932,
+  "meta": [],
+  "at": "2026-10-17T17:50:29.428Z"
+}

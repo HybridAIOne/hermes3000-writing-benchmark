@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "text": "Das Taxi setzte sie am Ende der Straße ab, nicht vor dem Haus. Der Fahrer hatte einen Blick auf die zugewachsenen Hecken geworfen und gemeint, er komme nicht durch. Sie zahlte, nahm den Koffer, ging die letzten hundert Meter zu Fuß. Der Asphalt war aufgebrochen, in den Fugen stand Wasser. Es hatte geregnet, aber jetzt fiel nur noch ein feines Nieseln, das sich auf ihre Jacke legte wie Staub.\n\nDas Haus stand niedriger, als sie es erinnerte. Die Fenster waren blind vom Schmutz, die Regenrinne hing schief, und an der Tür blätterte die Farbe in langen Streifen ab. Der Schlüssel saß fest. Sie musste ihn drehen, bis die Handfläche schmerzte. Dann gab das Schloss nach, und die Tür schob sich auf, schwer, als habe sich das Holz in den Rahmen gefressen.\n\nDrinnen war es kälter als draußen. Das Licht, das durch die Scheiben kam, war weiß und ohne Kontur. Der Geruch kam zuerst: Staub, Mottenkugeln, etwas Süßliches, das an alten Teppich erinnerte. Sie blieb im Flur stehen, ließ den Koffer neben sich. Ihre Schritte hallten auf den Dielen, obwohl sie sich leise bewegte. Im Wohnzimmer lagen die Möbel unter weißen Tüchern, die grau geworden waren. Auf der Fensterbank lag eine einzelne Bohnenschote. Braun, ledrig, zusammengeschrumpft. Sie hob sie auf. Die Hülse zerbrach zwischen ihren Fingern, und die Samen rollten heraus, schwarz und hart, über das trockene Holz, bis einer in einer Ritze stecken blieb. Ihre Mutter hatte jedes Jahr Bohnen für die Aussaat aufgehoben. Diese hier war nie in die Erde gekommen.\n\nSie schloss die Hand. Die Samen drückten sich in die Haut. Irgendwo im hinteren Teil des Hauses tropfte Wasser. Sie zählte die Tropfen, bis sie aufhörte, sie zu zählen.",
+  "usage": {
+    "in": 107,
+    "out": 2897,
+    "thinking": 2416
+  },
+  "costUsd": 0.00175425,
+  "finish": "stop",
+  "reportedModel": "deepseek/deepseek-v4.1-flash",
+  "upstream": "StreamLake",
+  "latencyMs": 24872,
+  "meta": [],
+  "at": "2026-10-17T17:23:40.636Z"
+}

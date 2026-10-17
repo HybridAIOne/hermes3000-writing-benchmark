@@ -1,0 +1,110 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„the chapel window held her reflection over his: her white shoes, his dark coat, the three stirrers lined up on the table between them“: Das Schlussbild ist räumlich und optisch nicht sauber vorbereitet. Das zuvor als „small square window in the door“ bezeichnete Fenster müsste zugleich Schuhe, Mann und Tisch erfassen; außerdem bleibt unklar, was Spiegelung und was Durchblick ist.",
+          "„She went in because the lights were on.“: Die Begründung trägt den Wechsel von der Suche nach einem funktionierenden Automaten zum Betreten der Kapelle kaum. Die Handlung wirkt hier für die Begegnung arrangiert.",
+          "„She went to the table and straightened the cup, though it was already steady.“: „Straightened“ und „steady“ bezeichnen unterschiedliche Eigenschaften. Die beabsichtigte nervöse Übersprungshandlung wird dadurch unpräzise beschrieben."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Your hair was longer.“ / „Her hair is still short. She thinks about saying so“: Der gedankliche Anschluss überzeugt nicht. Dass ihr Haar jetzt kurz ist, widerspricht seiner Aussage über früher nicht; weshalb sie dies als mögliche Erwiderung erwägt, bleibt unklar.",
+          "„At four the hospital goes quiet in a way that has nothing to do with sleep.“: Konventioneller atmosphärischer Auftakt mit pauschaler Erklärung statt einer konkreten Wahrnehmung dieser Nachtschicht.",
+          "„It isn't a question.“: Abgegriffene Spannungsformel, die die Wirkung der Namensnennung zusätzlich erklärt.",
+          "„the radiator knocks like it's trying to get out“: Geläufige Personifizierung; sie verstärkt die unheimliche Atmosphäre recht demonstrativ.",
+          "„the way some patients are when they've already decided what they will and won't tell her“: Die erklärende Verallgemeinerung nimmt dem Schweigen Eigenständigkeit und bremst die Szene."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„as though it were still holding something small“: Das ansonsten konkrete Schlussbild wird durch eine sentimental deutbare Verlustsymbolik nachträglich aufgeladen. Weniger Deutung wäre zurückhaltender.",
+          "„He unfolded his hands and studied them, as if the answer might be in the creases.“: Vertraute Verlegenheitsgeste mit einer abgegriffenen Erklärung; die Handbewegung allein würde die ausbleibende Antwort präziser tragen.",
+          "„There had been so many wives, so many dressings.“: Die rhetorische Parallelisierung fasst die berufliche Erfahrung etwas demonstrativ zusammen, statt sie vollständig aus Minas Verhalten hervorgehen zu lassen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„At ten to four“: Die Begegnung findet gegen 3:50 Uhr statt, nicht wie ausdrücklich verlangt um vier. Eine kleine, aber eindeutige Abweichung.",
+          "„It wasn't a question.“: Abgegriffene Spannungsformel; die isolierte Namensnennung vermittelt das bereits.",
+          "„I wanted to sit somewhere that was awake.“: Die auffällig geschliffene Personifizierung lässt den Fremden für einen Moment eher als Träger eines literarischen Sinnspruchs denn als beiläufig sprechende Person erscheinen.",
+          "„as if he'd been saying it silently for some time“: Die zusätzliche Deutung seiner Stimme legt eine rätselhafte Vorgeschichte nahe, statt die Irritation allein aus dem hörbaren Ton entstehen zu lassen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "E",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2142,
+    "out": 1729,
+    "thinking": 705
+  },
+  "costUsd": 0.021574
+}

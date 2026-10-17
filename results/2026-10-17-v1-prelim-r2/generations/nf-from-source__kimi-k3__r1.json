@@ -1,0 +1,20 @@
+{
+  "task": "nf-from-source",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "**Die Fährgenossenschaft Hitzacker: Wie eine Genossenschaft funktioniert**\n\nEine Genossenschaft ist ein Zusammenschluss von Menschen, die gemeinsam ein Ziel verfolgen, das keiner allein erreichen könnte. Ein lebendiges Beispiel dafür ist die Fährgenossenschaft Hitzacker eG. Sie wurde 1953 von 41 Landwirten und Händlern aus beiden Elbufern gegründet, nachdem der Landkreis den Betrieb der Seilfähre eingestellt hatte. Die Menschen in der Region waren also auf sich selbst gestellt – und gründeten kurzerhand ihren eigenen Fährbetrieb.\n\nDas Grundprinzip einer Genossenschaft lässt sich an Hitzacker gut ablesen: Jedes Mitglied hält mindestens einen Anteil zu 250 Euro und ist damit Miteigentümer des Unternehmens. In der Generalversammlung, dem wichtigsten Entscheidungsgremium, hat jedes Mitglied jedoch genau eine Stimme – unabhängig davon, wie viele Anteile es hält. Dieses demokratische Prinzip unterscheidet die Genossenschaft von einer Aktiengesellschaft, bei der der größte Kapitalgeber auch den größten Einfluss hat. Heute gehören der Fährgenossenschaft 312 Mitglieder an.\n\nEin zweites Merkmal: Die Genossenschaft arbeitet nicht auf Gewinnmaximierung aus. Bei der Hitzacker Fähre werden Überschüsse nicht ausgeschüttet, sondern in eine Rücklage für die Erneuerung der Fähre eingezahlt. 2024 betrug der Umsatz 186.000 Euro, davon stammten 71 Prozent aus Fahrkartenverkäufen und 29 Prozent aus einem Zuschuss der Gemeinde. Mit der angesparten Rücklage soll bis 2031 ein Elektroantrieb eingebaut werden können – ein Ziel, an dem alle Mitglieder ein gemeinsames Interesse haben.\n\nWarum ist die Genossenschaft für diese Fähre die passende Rechtsform? Die Fähre überquert die Elbe an einer Stelle, an der der Fluss 212 Meter breit ist; eine Überfahrt dauert bei normalem Wasserstand sieben Minuten. Sie hängt an einem Führungsseil und wird heute von einem 85-kW-Dieselmotor angetrieben – bis 1978 bewegte die Strömung sie noch ganz allein. Pro Jahr befördert sie rund 64.000 Personen, im Sommer vor allem Radfahrer auf dem Elberadweg. Ein privat gewinnorientierter Betreiber hätte an dieser Strecke vermutlich kaum Interesse; eine öffentliche Trägerschaft hatte sich bereits 1953 zurückgezogen. Die Genossenschaft schließt genau diese Lücke: Die Bürgerinnen und Bürger vor Ort tragen den Betrieb gemeinsam, entscheiden gemeinsam und finanzieren die Zukunft der Fähre gemeinsam.",
+  "usage": {
+    "in": 596,
+    "out": 762,
+    "thinking": 8
+  },
+  "costUsd": 0.009277079999999998,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "DigitalOcean",
+  "latencyMs": 14321,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:23:54.958Z"
+}

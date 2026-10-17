@@ -1,0 +1,119 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie nickte Richtung Fährhaus. ‚Lass das Ding stehen.‘“ – danach „folgte ihr auf das flache Deck“: Ilse weist zum Fährhaus, geht dann aber aufs Deck und ins Steuerhaus; die Bewegung im Raum widerspricht sich.",
+          "„Es war nicht der Blick des Jungen, der hier im Sommer nach Weißfischen geangelt hatte. Es war der Blick, mit dem er Tabellen prüfte.“ – Erklären statt Zeigen, die Unternehmensberater-Chiffre ist zu deutlich.",
+          "„Unter seinen Augen lagen dunkle Schatten, die nicht von der frischen Luft kamen.“ – abgegriffene Formel.",
+          "„weil ihm deine Tonnage-Begrenzung zu heikel war“ – Jonas’ Argument rückt sehr nah an die Verkaufsfrage heran.",
+          "Mit gut 550 Wörtern deutlich über den geforderten etwa 400."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„und war erst angelegt, als das Schiff ruhig im Wasser lag“ – falsches Hilfsverb, richtig wäre „hatte erst angelegt“.",
+          "„Sie hatte ihn gesehen, als die Fähre in der Biegung gelegen hatte … Es war kindisch. Sie wusste es.“ – erzählt die bereits bekannte Vorgeschichte erneut und erklärt sie zudem.",
+          "„Vom Deich wehte der Wind Gras und Salz herunter“ – Salz bei Hitzacker an der Mittelelbe ist sachlich falsch.",
+          "„ruhig und gleichgültig, wie er es seit Jahrhunderten tat“ – Klischee; ebenso „Der Fluss hat keinen Fahrplan.“",
+          "„Dann blickte sie zur Fähre zurück, deren Heck noch gegen den Poller drückte“ – Ilse steht am Poller, die Raumlogik ist unklar; „Er läuft, weil du ihn jeden Morgen anschiebst“ – einen Fährmotor schiebt man nicht an."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„warteten höflich darauf, dass sich die Familienangelegenheit erledigte“ – leicht augenzwinkernder Erzählerkommentar, der aus der personalen Haltung fällt.",
+          "„Vielleicht tat er das auch, innerlich, in eine dieser Tabellen, von denen er am Telefon manchmal erzählte, mit Farben für gut und schlecht“ – das Berater-Motiv wird etwas ausbuchstabiert.",
+          "„Vielleicht ein Angler. Vielleicht nur ein Pfahl.“ – etwas gesuchte Stimmungsformel.",
+          "Mit etwa 470 Wörtern leicht über der Vorgabe."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ilse nahm die Leine vom Poller und wickelte sie ordentlich auf“ – sie hat die Fähre eben erst festgemacht und löst die Leine nun grundlos; sie lässt das Schiff unvertäut zurück.",
+          "„Das Wort lag zwischen ihnen, klein und alt.“ – manierierte Bildformel.",
+          "„Ich wohne hier.“ – als Antwort auf „Du auch.“ schwer verständlich.",
+          "„Ich meinte, wie lange weißt du, dass es kaputt ist.“ – umgangssprachlich holprig, gemeint ist „seit wann weißt du“; zudem fehlt das Fragezeichen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Die Hütte war enger, als er sie in Erinnerung hatte.“ – Perspektivbruch: Jonas’ Erinnerung liegt außerhalb von Ilses personaler Sicht.",
+          "„‚Und wenn kein Wind ist?‘ ‚Ist keine Segelfähre.‘“ – sachlich und logisch unklar; die Seilfähre fährt mit der Strömung, nicht mit dem Wind.",
+          "„Ilse bückte sich nach der Kette, die sie vor die Rampe hängen musste“ – später „Hand an der Kette … ließ die Kette hängen“: Der Zustand der Kette bleibt widersprüchlich.",
+          "„Sie ging zur Rampe und winkte Krüger herunter“ – danach lässt sie ihn stehen; der wartende Kunde wird logisch nicht aufgelöst.",
+          "„Sie prüfte den Knoten am Poller. Es gab nichts daran zu prüfen.“ – die Geste ist etwas verbraucht."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "E",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 8008,
+    "out": 4211,
+    "thinking": 2377
+  },
+  "costUsd": 0.116252
+}

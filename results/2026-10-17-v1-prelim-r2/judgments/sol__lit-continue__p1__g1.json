@@ -1,0 +1,120 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "glm-5.3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Ilse zog die Leine ein zweites Mal fest“: Anschlussfehler; im vorgegebenen letzten Absatz hat sie die Leine bereits zweimal festgezogen.",
+          "„wenn sie wusste, dass sie gleich zurückkommt“: Unmotivierter Wechsel ins Präsens innerhalb der präterital erzählten Wahrnehmung.",
+          "„Sie hätte es sagen können. Sie sagte es nicht.“ / „Sie hätte ihn fragen können […] sie hätte ihn fragen können“: Die wiederholte Konstruktion macht Ilses Verschlossenheit zunehmend zur erkennbaren Schreibmasche.",
+          "„Wie auf einem Bahnsteig, dachte sie wieder“: Wiederholt das bereits im Ausgangsabsatz verwendete Bild, ohne es wesentlich weiterzuentwickeln.",
+          "„Dann entschied sie, dass er im Haus schlafen sollte und nicht im Bootshaus“: Die Schlussentscheidung wird ausdrücklich erklärt; das Bootshaus erscheint erst hier als unvermittelte Alternative."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„Dann helf ich dir eben mit dem Koffer.“: Jonas bietet Ilse Hilfe mit seinem eigenen Koffer an. Ohne weitere Motivation verwechselt der Dialog die Zuständigkeiten der Figuren.",
+          "„Ilse löste die Leine vom Poller“ / „Ilse ging hinterher“: Die Fähre wird losgebunden und anschließend verlassen; eine anderweitige Sicherung fehlt in der Handlungsfolge.",
+          "„Die Flur roch“: Falsches Genus; richtig ist „Der Flur roch“.",
+          "„Sie sah ihn nicht an. Sie sah, dass er einen neuen Mantel trug“: Die unmittelbar aufeinanderfolgenden Aussagen erzeugen einen unnötigen Wahrnehmungswiderspruch.",
+          "„als wäre Geduld eine Leistung, die jemand erbringen musste“: Umständliche, begrifflich wenig ergiebige Erklärung eines Tons, den der Dialog bereits vermittelt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "„Er suchte nach Rissen in der Fassade, nach dem Moment, in dem sie endlich zugeben würde, dass die Kraft nachließ.“: Jonas’ Absicht wird als Gewissheit behauptet, statt als Ilses Deutung kenntlich zu bleiben; zugleich ersetzt die Erklärung die szenische Spannung.",
+          "„Sie blieb stehen und entschied sich, ihm den Weg zum Haus nicht zu weisen.“: Die kleine Entscheidung ist zwar vorhanden, bleibt aber schwach motiviert: Weshalb ihr Sohn den Weg zum Haus gewiesen bekommen müsste, wird nicht etabliert.",
+          "„wartete, bis er selbst den Weg finden musste“: Semantisch unsaubere Verknüpfung. Sie wartet hier auf das Eintreten einer Notwendigkeit, nicht darauf, dass er tatsächlich einen Weg findet.",
+          "„Er passte nicht hierher. Er passte nicht einmal auf die Bohlen“: Die zweite Behauptung steigert die erste nur rhetorisch; die Fremdheit wird doppelt erklärt statt präzise gezeigt.",
+          "„ein Tag, an dem man die Natur spürte, wenn man nicht gerade in einem klimatisierten Büro in München saß“: Pauschale Stadt-Land-Gegenüberstellung und ausformulierter Seitenhieb; für Ilses wortkarge, personale Wahrnehmung zu demonstrativ."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Sie löste die Leine wieder, zog sie durch den Ring und legte sie ordentlich auf.“ / „Draußen schlug die lose Leine gegen den Poller.“: Die räumliche Führung der Leine ist widersprüchlich beziehungsweise unzureichend erklärt; zudem bleibt offen, wie die anschließend verlassene Fähre gesichert ist.",
+          "„mit einer Sicherung, die zu groß war“: Das konkrete elektrische Sicherheitsproblem eröffnet eine starke Nebenerwartung, die innerhalb der Szene folgenlos bleibt und vom Mutter-Sohn-Konflikt ablenkt.",
+          "„Kein Ruf, nur ein Zeichen, dass die nächste Überfahrt noch nicht kam.“: Die Bedeutung des Glockensignals wird nachträglich erklärt, ohne als örtliche Praxis vorbereitet zu sein. Dadurch wirkt die Schlussgeste konstruiert.",
+          "„Dort gab es vermutlich für alles einen anderen Weg, auch für den Regen.“: Die bildhafte München-Assoziation bleibt unpräzise und klingt stärker nach erzählerischer Pointe als nach einer konkreten Wahrnehmung Ilses."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "„Nicht, weil ein Passagier rüber wollte. Sondern weil […] alte Krause stand mit seinem Fahrrad und wartete“: Der behauptete Gegensatz widerspricht der Handlung: Krause ist gerade ein wartender Fahrgast. Zudem fehlt vor „alte Krause“ der Artikel „der“.",
+          "„Sie war sechzig geworden im Herbst“: Die Altersangabe weicht ohne erkennbare zeitliche Begründung von der vorgegebenen 61-jährigen Ilse ab.",
+          "„Sie hätte die Fähre ganz blijven lassen können.“: „blijven“ ist kein deutsches Wort; zusätzlich bleibt unklar, welche Handlung sie hätte unterlassen können.",
+          "„der Teekoch“: Im gegebenen Zusammenhang eine fehlerhafte beziehungsweise unverständliche Gerätebezeichnung; gemeint ist offenbar ein Teekocher.",
+          "„Und du hast ein Handy […] Man kann damit auch einfach herkommen.“: Die Replik verknüpft das Handy unlogisch mit dem persönlichen Herkommen. Der beabsichtigte schroffe Konter wird dadurch sprachlich und inhaltlich undeutlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "B",
+      "C",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3959,
+    "out": 2199,
+    "thinking": 751
+  },
+  "costUsd": 0.029908
+}

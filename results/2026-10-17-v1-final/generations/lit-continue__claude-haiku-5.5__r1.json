@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "Ilse antwortete nicht. Sie ging an ihm vorbei zur Kabine, wo der Motorkasten unter der Sitzbank lag, und klappte den Deckel hoch. Öl und feuchtes Holz schlugen ihr entgegen, vertraut wie das eigene Kissen. Der Deutz, den Henning vor dreißig Jahren von einem Schrottplatz bei Lüchow geholt hatte, stand still, wie ein Tier, das sich totstellt.\n\n„Ich hab's gehört\", sagte sie schließlich. „Beim letzten Hochwasser hat er geklemmt. Seitdem zieh ich mit der Hand.\"\n\n„Mit der Hand.\" Jonas lachte kurz. Es klang nicht böse, nur müde. Er schob den Koffer hinter sich her, die kleinen Räder ratterten über die Bohlen, bis er bei der Kette stehen blieb, die die Rampe sicherte. Er sah aufs Wasser. Die Elbe war braun und schnell, sie trug Äste mit sich und einen einzelnen Schuh, und am gegenüberliegenden Ufer bogen sich die Weiden im Wind, als hätten sie es eilig.\n\nIlse kannte diesen Blick. Er war der Blick vom Beifahrersitz, als er siebzehn gewesen war und sie ihn zum Bahnhof nach Lüneburg gebracht hatte. Damals hatte sie nichts gesagt. Jetzt sagte sie auch nichts. Sie holte die Handkurbel aus der Kiste unter dem Steuerstand, legte sie auf die Ducht und wartete.\n\nEr betrachtete das Ding, als sei es ein Fremdkörper. Dann stellte er den Koffer an die Wand des Häuschens, zog das Jackett aus und hängte es über das Geländer, als wäre es ein Handtuch am Badesee. Seine Hände waren weich geworden, das sah sie sofort. Und sie sah auch, dass er sie nicht gern schmutzig machte.\n\nEr nahm die Kurbel trotzdem. Kniete sich auf die nassen Planken. Ilse merkte, dass sie den Atem angehalten hatte, und zwang sich, ihn wieder fließen zu lassen.\n\n„Links herum\", sagte sie. „Bis es einrastet.\"\n\nDas Metall knirschte. Einmal, zweimal. Dann spuckte der Motor einen blauen Rauchring aus, hustete und blieb wieder still. Jonas richtete sich auf und wischte sich die Hand an der Hose ab.\n\nIlse sah zur Uhr am Anleger. Der Bus nach Dannenberg fuhr um fünf, und es war kurz nach halb vier. Die nächste Überfahrt ging in zehn Minuten, mit oder ohne Motor, wenn sie das Ruder und die Leine nahm, so wie immer.\n\n„Die Fähre geht gleich rüber\", sagte sie. „Du kannst mitfahren oder hier stehen bleiben.\"\n\nEr sah sie an, und einen Moment lang dachte sie, er würde widersprechen. Dann griff er nach dem Koffer.\n\n„Gut\", sagte Ilse. „Dann hältst du die Leine.\"",
+  "usage": {
+    "in": 593,
+    "out": 2810,
+    "thinking": 1673
+  },
+  "costUsd": 0.0014643,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 15114,
+  "meta": [],
+  "at": "2026-10-17T17:47:23.011Z"
+}

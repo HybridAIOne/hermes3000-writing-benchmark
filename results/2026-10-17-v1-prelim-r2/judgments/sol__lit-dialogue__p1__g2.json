@@ -1,0 +1,97 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "glm-5.3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„Die Hand bleibt am Stuhllehnen hängen.“ – Falsche Form: Gemeint ist vermutlich „an der Stuhllehne“.",
+          "„Du hast mir die Nummer von jemandem gegeben.“ / „Dein Handy lag auf dem Küchentisch. Ich dachte, du bräuchtest sie.“ – Der Zusammenhang zwischen dem herumliegenden Handy und der weitergegebenen Nummer bleibt unverständlich. Hier fehlen Informationen für einen nachvollziehbaren Subtext.",
+          "„Die Leute hier sind nett.“ / „Welche Leute?“ – Die auffällig zugespitzte Reaktion erhält auch durch die folgenden Sätze keinen erkennbaren Anlass. Das wirkt eher künstlich rätselhaft als unterschwellig konflikthaft.",
+          "„Einmal. Kaum merklich.“ / „Einmal. Langsam.“ – Zusammen mit den vielen Pausen, Blicken und abgehackten Anweisungen entsteht eine Wiederholungsmasche, die Spannung markieren soll, statt sie durch das Gespräch entstehen zu lassen.",
+          "„Er rührt in seine Tasse. Schwarz. Ohne Zucker.“ – Die bereits ausdrücklich etablierte Kaffeevorliebe wird im ausgedehnten Schlussbild nochmals bedeutungsschwer wiederholt; das überbetont das Motiv und überschreitet die gewünschte Knappheit der Regie."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Mara hält den Schirm über beide“ / „Er hält den Griff fest.“ – Die Schirmführung wechselt ohne erkennbare Übergabe von Mara zu Jonas. Später senkt wiederum er den Schirm. Die räumliche Handlung braucht eine kleine, aber notwendige Korrektur.",
+          "„Der mit dem Sprung?“ / „Du meintest, der hält ewig.“ – Der beschädigte, dennoch haltbare Becher als Sinnbild der Beziehung ist ein vertrautes und hier recht deutlich ausgestelltes Motiv.",
+          "„Wenn du diesmal nicht vorausläufst.“ / „Ich kann langsamer gehen.“ / „Das ist nicht dasselbe.“ – Der Dialog wird gegen Ende stark auf doppeldeutige Beziehungssätze hin gebaut. Das ist wirkungsvoll, klingt stellenweise aber eher komponiert als spontan gesprochen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Einen Zaun. Natürlich.“ / „Zäune sind praktisch.“ / „Zäune bauen.“ – Das Zaunmotiv wird früh und mehrfach als Beziehungssymbol herausgestellt. Etwas weniger Nachdruck würde dem Subtext mehr Offenheit geben.",
+          "„Man gewöhnt sich an vieles.“ / „Ja. […] Fast an alles.“ – Die pointierte Antwortfolge greift auf eine geläufige Dialogformel zurück und bleibt unpersönlicher als die konkreten Erinnerungen und familiären Bezüge des übrigen Gesprächs.",
+          "„Das hast du mir nie gesagt.“ – Der isolierte Schlusssatz lädt die beiläufige Bemerkung über die Zaunpfosten nachträglich stark mit Bedeutung auf. Die Szene könnte ihrem bereits tragfähigen Subtext mehr vertrauen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Jonas trinkt zu schnell, verbrennt sich leicht.“ / „rührt den unberührten Espresso um“ – Eindeutiger Kontinuitätsfehler: Der Espresso ist bereits getrunken worden und kann deshalb nicht unberührt sein.",
+          "„Das ist für meinen Kaffee. Und deins.“ – Falscher Kasus und falsche Form des substantivierten Possessivpronomens; richtig wäre „Und deinen.“ Gemeint ist offenbar sein Espresso.",
+          "„Trocken geschafft doch.“ – Ohne erkennbar etablierte sprachliche Eigenart der Figur wirkt die Wortstellung unidiomatisch. Die abschließende Pointe bleibt zudem in ihrem Bezug auf das vorherige Gespräch unklar.",
+          "„Der Regen...“ / „Wie... wie geht's“ / „Erzähl ihr... erzähl ihr“ – Die wiederholten Auslassungspunkte übernehmen schematisch die Darstellung von Unsicherheit. Das macht den Sprechrhythmus vorhersehbar.",
+          "„Du weißt schon. Aus dem Sommer.“ / „Manche Dinge bleiben gut. Trotz allem.“ – Das unbestimmte gemeinsame Lied und die allgemeine Lebensweisheit ersetzen konkrete, individuelle Beziehungsgeschichte durch vertraute Versöhnungsdramatik."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2403,
+    "out": 1522,
+    "thinking": 389
+  },
+  "costUsd": 0.020026
+}

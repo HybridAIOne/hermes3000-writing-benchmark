@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "text": "The fluorescent hum of the corridor died as Maya pushed open the heavy oak doors of the chapel. It was 4:12 a.m., the hour when the hospital felt less like a building and more like a waiting room for the inevitable. \n\nA man sat in the third pew from the back. He wasn’t praying; he was leaning forward, elbows on his knees, staring at the polished floor. He wore a charcoal suit that looked expensive but slept-in, the tie loosened at the collar.\n\nMaya paused, her sneakers squeaking softly on the marble. She didn't recognize him from the admissions log or the waiting room.\n\n\"We’re closing for cleaning in twenty minutes,\" she said, her voice flat from twelve hours of triage.\n\nThe man didn't look up, but his voice was clear, cutting through the stillness. \"You’re late with the meds in 402, Maya.\"\n\nShe froze. Her badge was clipped to her scrubs, but he was facing away from her. He hadn't looked at her chest, and he hadn't spoken to her since she entered.\n\n\"Who are you?\"\n\nHe finally turned. His eyes were bloodshot, his expression devoid of malice or warmth. He didn't answer. He simply reached into his pocket and placed a small, rusted key on the wooden bench between them.\n\nHe stood up and walked past her without another word, leaving the scent of cold rain and old paper in the air. Maya looked down at the key, a single sliver of iron reflecting the dim red glow of the sanctuary lamp.",
+  "usage": {
+    "in": 70,
+    "out": 334,
+    "thinking": 0
+  },
+  "costUsd": 0.00014759999999999998,
+  "finish": "stop",
+  "reportedModel": "google/gemma-4-31b-it",
+  "upstream": "DeepInfra",
+  "latencyMs": 36790,
+  "meta": [],
+  "at": "2026-10-17T17:21:29.593Z"
+}

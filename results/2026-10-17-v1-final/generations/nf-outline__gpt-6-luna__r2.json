@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "gpt-6-luna",
+  "run": 2,
+  "text": "# **Führen ohne Titel**\n\n1. **Dein erster Tag in der neuen Rolle**  \n   Du findest einen guten Einstieg, auch wenn du bisher Kollegin oder Kollege im Team warst und nicht sofort alles wissen musst.\n\n2. **Kläre, wofür du zuständig bist**  \n   Du besprichst mit deiner Führungskraft, welche Entscheidungen du treffen darfst und woran dein Erfolg gemessen wird.\n\n3. **Lerne die Menschen im Team kennen**  \n   Du führst Einzelgespräche, hörst zu und verstehst, was die einzelnen Personen brauchen, um gut arbeiten zu können.\n\n4. **Mach aus Zielen einen klaren Arbeitsplan**  \n   Du übersetzt die Vorgaben der Firma in verständliche Prioritäten und erreichbare nächste Schritte für dein Team.\n\n5. **Gib Verantwortung sinnvoll weiter**  \n   Du vereinbarst klar, wer was bis wann erledigt, und lässt genug Spielraum, ohne den Überblick zu verlieren.\n\n6. **Triff Entscheidungen und steh dazu**  \n   Du lernst, Informationen abzuwägen, rechtzeitig zu entscheiden und offen zu sagen, wenn etwas noch unklar ist.\n\n7. **Führe schwierige Gespräche**  \n   Du sprichst Probleme früh, konkret und respektvoll an – und vereinbarst, was sich danach ändern soll.\n\n8. **Schaffe verlässliche Abläufe im Team**  \n   Du richtest einfache Besprechungs- und Rückmelderoutinen ein, damit alle wissen, was läuft und wo Hilfe nötig ist.\n\n9. **Entwickle deine eigene Haltung**  \n   Du prüfst regelmäßig, was für dich gutes Führen bedeutet, und passt dein Verhalten an, ohne dich zu verstellen.",
+  "usage": {
+    "in": 123,
+    "out": 712,
+    "thinking": 347
+  },
+  "costUsd": 0.0003683,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 8437,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:48:05.469Z"
+}

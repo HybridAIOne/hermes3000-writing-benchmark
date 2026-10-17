@@ -1,0 +1,119 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Drei. Das Fahrrad, der Stoffbeutel, die Kiste.“ Die ausdrücklich abgezählte Dreiergruppe wirkt etwas konstruiert; die drei Fahrgäste sind durch die Szene bereits eindeutig eingeführt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ihr Schuh rutschte kurz auf dem nassen Holz, fing sich aber.“ Unsaubere Subjektzuordnung: Die Frau fängt sich, nicht ihr Schuh.",
+          "„Ist das immer so?“, „Drüben kommt man aber raus, oder?“, „Und wenn man die Anleger nicht sieht?“, „War das normal?“ Die Fahrgäste liefern wiederholt dieselbe Vorlage für Ilses knappe Antworten. Dadurch wirken sie weniger wie eigenständige Personen als wie Stichwortgeber.",
+          "„An solchen Morgen half es, sich an die kleinen Dinge zu halten: Seil, Rollen, Hebel. Der Rest kam von selbst.“ Erklärender Merksatz, der die zuvor bereits anschaulich dargestellte Routine unnötig ausdeutet.",
+          "„Ilse sah auf die Zahl neben seinem Namen, bis der Bildschirm heller wurde.“ Welche Zahl gemeint ist und weshalb die zunehmende Bildschirmhelligkeit den zeitlichen Endpunkt bildet, bleibt unklar.",
+          "„Der Morgen war kalt, aber nicht kalt genug, dass das Wasser am Geländer gefror.“ Die Jahreszeit bleibt allgemein; November wird weder genannt noch durch ein hinreichend spezifisches Detail festgelegt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Es roch nach kaltem Kaffee, Schmierfett und Hennings altem Pfeifentabak, obwohl die Dose seit drei Jahren leer im Regal über dem Funkgerät stand.“ Eingeschobene Vergangenheitsinformation zur Beziehungsgeschichte; das unterläuft die Vorgabe, ohne Rückblenden-Exposition auszukommen. Der fortdauernde Tabakgeruch dient zudem als konventionelles Erinnerungssignal.",
+          "„Er würde über den Winter reden wollen. Über die Bilanz vom dritten Quartal. Über den Makler aus Lüneburg.“ Der Anruf wird unmittelbar mit einem ganzen Konfliktpaket erklärt. Das nimmt dem Schluss Offenheit und trägt Hintergrundinformation nach, statt sie szenisch zu entwickeln.",
+          "„bevor die Kähne die Fahrrinne kreuzten“ Ein stromabwärts oder stromaufwärts fahrender Schubverband folgt normalerweise der Fahrrinne; hier werden die Bewegungsrichtungen des Schiffsverkehrs und der querenden Fähre verwechselt.",
+          "„die Sonne Münchens im Gesicht“ Die geografische Zuordnung der Sonne ist auf dem beschriebenen Foto nicht erkennbar. Die Formulierung wirkt wie eine nachgeschobene Information über Jonas’ Wohnort.",
+          "„das weiße Nichts ringsum“ Atmosphärische Standardformel; zusammen mit „schwer und ölig“ und „zwei gelben Augen“ entsteht stellenweise eine austauschbare literarische Bildsprache."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„sie wussten beide, dass sie sie nicht wiederkriegen würde“ Die Gewissheit wird ausdrücklich auch Mattis zugeschrieben. Damit verlässt der Text kurz die auf Ilse begrenzte personale Perspektive.",
+          "„Sie steckte sie ihm an den Lenker und drückte den Knopf. Das Licht blinkte rot in den Nebel.“ Eine rote Leuchte am Lenker ist als Ersatz für das fehlende Fahrradlicht sachlich unpassend: Nach vorn gehört weißes Licht.",
+          "„niemand außer ihr wusste noch genau, was darauf stand“ Die pauschale Behauptung über das Wissen sämtlicher anderer Personen überschreitet ebenfalls Ilses gesicherten Wahrnehmungsbereich und überzeichnet ihre Unentbehrlichkeit.",
+          "„Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur deshalb kannte, weil es seit dreiundzwanzig Jahren an derselben Stelle war.“ Die Pointe verwechselt Kenntnis und Sichtbarkeit. Das Ufer steht nicht erst seit Ilses Dienstbeginn an dieser Stelle.",
+          "„der Fahrplan hing in einem Kasten, dessen Glas seit dem Hochwasser von innen beschlug“ Das Hochwasser wird als Erklärung für die anhaltende Unlesbarkeit eingesetzt, ohne den Zusammenhang ausreichend plausibel zu machen; die Passage wirkt auf eine zusätzliche skurrile Pointe hin gebaut."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c1"
+        ]
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Ist das die Fähre nach Drethem?“ und „die dunkle Linie des Drethemer Ufers“ Drethem liegt wie Hitzacker auf der südlichen Elbseite. Als gegenüberliegendes Ziel dieser Elbquerung ist es geografisch unpassend.",
+          "„dass Ilse das andere Ufer nur an dem Geräusch erkannte, das es machte: ein leises Klopfen, wenn die Strömung die Fähre gegen die Bohlen am Anleger drückte“ Das Klopfen am eigenen Anleger kann nicht das gegenüberliegende Ufer hörbar machen. Bereits das Eröffnungsbild ist räumlich widersprüchlich.",
+          "„wie es Henning ihr gezeigt hatte“ und „das er vor Jahren selbst eingestellt hatte, als er einmal bei ihr gewesen war“ Beide Einschübe liefern rückblickende Hintergrundinformation, obwohl ausdrücklich auf Rückblenden-Exposition verzichtet werden sollte.",
+          "„Er stand still und spannte sich in den Nebel hinein, auf beide Seiten“ „Auf beide Seiten“ ist hier unidiomatisch; gemeint ist „nach beiden Seiten“.",
+          "„Sie hätte es auch ohne Finger gehalten.“ Die Überhöhung besitzt keine klare anschauliche Bedeutung. Zusammen mit „Dann ist er schon da, wenn ich den Motor brauche“ entstehen bedeutungsschwere Pointen, die weder die Bedienung der Fähre noch Ilses Denken präzisieren."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "B",
+      "C",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 7727,
+    "out": 2388,
+    "thinking": 881
+  },
+  "costUsd": 0.039334
+}

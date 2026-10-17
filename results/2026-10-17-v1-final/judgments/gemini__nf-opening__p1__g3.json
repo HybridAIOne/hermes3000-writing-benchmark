@@ -1,0 +1,73 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Buchtypografisch falsche Abführungszeichen (Zollzeichen oben statt deutscher Anführungszeichen oben mit korrekter Stellung zum Satzzeichen, z. B. bei: „nicht das Wochenende verderben\".)",
+          "Leichte Logikschwäche in der Szene: Markus weicht dem Blick aus („weiß, was los ist“), obwohl der Teamleiter das Versäumnis noch gar nicht angesprochen hat."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Logischer Bruch im Szenenablauf: „Du stehst mit einer Kaffeetasse vor dem Besprechungsraum ... Jetzt sitzt er an seinem Platz ... Auf dem Weg zurück an deinen Schreibtisch“ (Wo findet das Gespräch statt? Warum nickt man UND ist gleichzeitig im Ton knapp?)",
+          "Konzeptioneller Vorgriff: Der Text gibt im Einstiegsabsatz bereits die konkrete Lösung Schritt für Schritt vor („In Ruhe kannst du sagen, was passiert ist...“), statt das Kapitel nur einzuleiten und zu öffnen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Semantisch/grammatisch schiefe Formulierung: „du willst die Stimmung im Team nicht kippen“ (intransitives „kippen“ wird hier fälschlich transitiv verwendet; gemeint ist: „zum Kippen bringen“).",
+          "Buchtypografisch falsche Abführungszeichen (Zollzeichen oben und falscher Einschluss des Punktes: „Kurz mit Jens sprechen.\").",
+          "Leichte Wortwiederholung kurz hintereinander: „ob du etwas unternimmst. Du weißt, dass du etwas unternehmen musst.“"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 1987,
+    "out": 462,
+    "thinking": 0
+  },
+  "costUsd": 0.008594
+}

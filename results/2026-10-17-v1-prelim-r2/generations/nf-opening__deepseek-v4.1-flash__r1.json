@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "text": "Es ist Montag, kurz nach acht, und du hast dir fest vorgenommen, dieses Gespräch heute zu führen. Seit zwei Wochen schiebst du es vor dir her. Erst kam das Projekt dazwischen, dann war er drei Tage krank, dann wolltest du nicht gleich am Freitag damit anfangen. Jetzt sitzt er dir gegenüber, und du merkst, wie du anfängst, um den heißen Brei zu reden. Sie redest über den letzten Auftrag, über die Lieferzeit, über irgendwas. Nur nicht über das, worum es geht: dass seine Berichte seit Wochen zu spät kommen, dass du sie zweimal nachfragen musstest, dass es dich nervt und die Kollegen auch.\n\nEs ist Montag, kurz nach acht, und du weißt: Heute muss es raus. Nicht weil es spaßig wäre. Sondern weil es sonst noch eine Woche so weitergeht, und noch eine, und dann wird aus der Sache ein Problem, das viel größer ist als der Anlass. Genau das ist die Situation, um die es in diesem Kapitel geht. Nicht das große Konfliktgespräch mit der Geschäftsführung, nicht die Kündigung, nicht der Krisengipfel. Es geht um die vielen kleinen Gespräche, die keiner mag und die trotzdem sein müssen. Um den Moment, in dem du weißt, du müsstest etwas sagen. Und um die Frage, wie du das tust — so, dass hinterher alle weiterarbeiten können.",
+  "usage": {
+    "in": 187,
+    "out": 592,
+    "thinking": 249
+  },
+  "costUsd": 0.00038325,
+  "finish": "stop",
+  "reportedModel": "deepseek/deepseek-v4.1-flash",
+  "upstream": "DigitalOcean",
+  "latencyMs": 3841,
+  "meta": [],
+  "at": "2026-10-17T17:24:22.574Z"
+}

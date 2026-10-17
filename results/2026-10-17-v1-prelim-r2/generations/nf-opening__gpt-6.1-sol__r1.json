@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "Es ist kurz vor neun, du hast den ersten Kaffee noch in der Hand, da steht Jana an deinem Schreibtisch. „Den Bericht von gestern musste ich wieder allein fertig machen“, sagt sie. „Mit Markus geht das so nicht weiter.“ Du nickst, stellst die Tasse ab und versprichst, dich zu kümmern. Dann öffnest du deine Mails. Markus sitzt zwei Türen weiter. Du könntest jetzt zu ihm gehen. Stattdessen beantwortest du erst einmal eine Kundenanfrage. Danach beginnt die Besprechung, mittags klingelt das Telefon, und am Nachmittag findest du, dass ein Gespräch zwischen Tür und Angel ohnehin nichts bringen würde. Morgen also. Solche Verschiebungen fühlen sich oft vernünftig an. Du willst niemanden vor den Kopf stoßen, erst alle Seiten hören, den richtigen Moment abpassen. Vielleicht hoffst du auch, dass sich die Sache von selbst erledigt. Nur arbeitet die Zeit hier selten für dich. Jana wartet auf eine Reaktion. Markus weiß womöglich nicht einmal, was du ihm vorwirfst. Und du musst beim nächsten Treffen mit beiden so tun, als wäre alles in Ordnung. Schwierige Gespräche werden nicht dadurch leichter, dass du lange genug über sie nachdenkst. Sie werden leichter, wenn du weißt, was du tatsächlich beobachtet hast, was du klären willst und wie du den ersten Satz sagst, ohne gleich ein Urteil mitzuliefern. Dafür brauchst du weder einen besonderen Titel noch die perfekte Formulierung. Du brauchst den Mut, einen Termin zu vereinbaren, und die Bereitschaft, etwas zu hören, das nicht zu deiner bisherigen Sicht passt. Genau dort beginnt Führung: nicht beim Zurechtweisen, sondern beim ehrlichen Klären.",
+  "usage": {
+    "in": 152,
+    "out": 355,
+    "thinking": 0
+  },
+  "costUsd": 0.003854,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 13045,
+  "meta": [],
+  "at": "2026-10-17T17:20:14.995Z"
+}

@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "## Gliederung: *Führen ohne Titel*\n\n1. **Dein erster Tag als Teamleiter**  \n   Du startest mit den ersten Gesprächen und machst dir klar, dass du nicht sofort alles beweisen oder verändern musst.\n\n2. **Was jetzt zu dir gehört**  \n   Du klärst mit deiner Führungskraft und deinem Team, wofür du verantwortlich bist und wo deine Entscheidungsbefugnisse liegen.\n\n3. **Erst verstehen, dann verändern**  \n   Du lernst die Menschen, ihre Stärken und die eingespielten Abläufe kennen, bevor du neue Regeln einführst.\n\n4. **Orientierung geben**  \n   Du übersetzt die Ziele der Firma in verständliche Prioritäten und sagst klar, was im Team wichtig ist.\n\n5. **Arbeit übergeben, ohne loszulassen**  \n   Du verteilst Aufgaben mit klaren Ergebnissen und Zuständigkeiten und vereinbarst, wann ihr den Stand prüft.\n\n6. **Schwierige Gespräche führen**  \n   Du sprichst Probleme bei Leistung, Verhalten oder Absprachen respektvoll und konkret an und vereinbarst nächste Schritte.\n\n7. **Entscheiden, wenn es unbequem wird**  \n   Du triffst auch bei Zielkonflikten eine begründete Entscheidung und übernimmst Verantwortung dafür, wie sie sich auswirkt.\n\n8. **Deine Haltung entwickeln**  \n   Du formulierst, worauf du dich als Führungskraft verlassen willst, wo deine Grenzen liegen und wie du weiterlernen möchtest.",
+  "usage": {
+    "in": 123,
+    "out": 1224,
+    "thinking": 895
+  },
+  "costUsd": 0.0006242999999999999,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 12961,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:20:17.627Z"
+}

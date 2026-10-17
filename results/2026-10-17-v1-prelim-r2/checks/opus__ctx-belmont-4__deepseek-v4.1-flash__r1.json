@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "violated": [
+      "b4-4"
+    ],
+    "evidence": [
+      "Vielleicht war Konrad nicht auf dem Pass gestorben, sondern etwas anderem ausgewichen."
+    ]
+  },
+  "usage": {
+    "in": 4145,
+    "out": 527,
+    "thinking": 463
+  },
+  "costUsd": 0.02712
+}

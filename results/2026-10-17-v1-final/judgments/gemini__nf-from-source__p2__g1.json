@@ -1,0 +1,103 @@
+{
+  "task": "nf-from-source",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "Finanzielle Beteiligung und Mitbestimmung sind nicht nach demselben Maßstab verteilt. (etwas sperrig und abstrakt für Leser ohne Vorwissen)",
+          "Das Geld bleibt damit dem Fährbetrieb gewidmet. (stilistisch hölzern, Behördendeutsch)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Der erste Absatz besteht aus fünf kurzen Hauptsätzen hintereinander, was den Lesefluss etwas abgehackt wirken lässt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "eine 212 Meter breite Elbe (unidiomatisch mit unbestimmtem Artikel, als gäbe es mehrere Elben)",
+          "Der dritte Absatz reiht technische Maße und Umsatzzahlen ohne erkennbaren roten Faden aneinander.",
+          "Textumfang mit rund 240 Wörtern etwas knapp unter der Zielvorgabe von etwa 300 Wörtern."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "aus beiden Elbufern (unidiomatische Präposition aus der Vorlage ungeprüft übernommen; korrekt wäre 'von beiden Elbufern')",
+          "Es fehlt die Information aus dem Quellmaterial, dass die Fähre an einem Führungsseil hängt (im ersten Satz wird nur das Wort 'Seilfähre' genannt)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "B",
+      "A",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3771,
+    "out": 607,
+    "thinking": 0
+  },
+  "costUsd": 0.013612
+}

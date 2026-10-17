@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "## Gliederung: *Führen ohne Titel*\n\n1. **Der erste Tag in deiner neuen Rolle**  \n   Du findest den Übergang vom Kollegen zum Teamleiter, ohne so zu tun, als hättest du schon auf alles eine Antwort.\n\n2. **Kläre deinen Auftrag**  \n   Du stimmst mit deiner Führungskraft und deinem Team ab, wofür du verantwortlich bist und wo dein Entscheidungsspielraum endet.\n\n3. **Vertrauen entsteht im Alltag**  \n   Du baust Vertrauen auf, indem du verlässlich handelst, aufmerksam zuhörst und dein Team fair behandelst.\n\n4. **Mach klar, was wichtig ist**  \n   Du formulierst erreichbare Ziele, setzt Prioritäten und sorgst dafür, dass alle wissen, worauf es gerade ankommt.\n\n5. **Gib Verantwortung weiter**  \n   Du überträgst Aufgaben passend zu Können und Erfahrung und vereinbarst, wann ihr den Stand gemeinsam prüft.\n\n6. **Führe schwierige Gespräche**  \n   Du sprichst Probleme, Enttäuschungen und unerfüllte Erwartungen rechtzeitig und konkret an – und vereinbarst klare nächste Schritte.\n\n7. **Triff Entscheidungen, auch wenn nicht alles klar ist**  \n   Du wägest ab, beziehst die richtigen Menschen ein und erklärst deinem Team, warum du so entschieden hast.\n\n8. **Schaffe einen verlässlichen Arbeitsrhythmus**  \n   Du nutzt kurze Besprechungen und klare Absprachen, damit Informationen fließen und die tägliche Zusammenarbeit funktioniert.\n\n9. **Finde deine eigene Haltung**  \n   Du klärst, wofür du als Führungskraft stehen willst, und entwickelst deinen Stil durch regelmäßige Rückschau und kleine Veränderungen weiter.",
+  "usage": {
+    "in": 123,
+    "out": 1007,
+    "thinking": 631
+  },
+  "costUsd": 0.0005158,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 11902,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:48:07.028Z"
+}

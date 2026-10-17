@@ -1,0 +1,104 @@
+{
+  "task": "nf-from-source",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "gleich wie viele Anteile es besitzt (Zeichensetzung: Komma vor 'wie' fehlt bei 'gleich, wie')",
+          "2024 beförderte sie rund 64.000 Personen (Quellenfehler: Laut Quelle sind es allgemein 'pro Jahr rund 64.000 Personen', nicht spezifisch 2024)"
+        ],
+        "unsupported": [
+          "2024 beförderte sie rund 64.000 Personen (Quelle: 'befördert pro Jahr rund 64.000 Personen', die Jahreszahl 2024 bezieht sich in der Quelle nur auf den Umsatz)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "Die Beteiligung verbindet sich mit einem Recht (ungelenke Formulierung)",
+          "Die Fahrgeldeinnahmen allein bilden somit nicht die gesamte Finanzierung. (redundanter Füllsatz nach der Nennung von 71 und 29 Prozent)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "aus beiden Elbufern (unidiomatisch aus dem Quellmaterial übernommen, korrekt wäre 'von beiden Elbufern')"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Wie eine Genossenschaft in der Praxis funktioniert und warum diese Rechtsform ideal ist, um ein gemeinsames Anliegen zu verwirklichen, zeigt das Beispiel der Fährgenossenschaft Hitzacker eG. (schwerfälliger Einstiegssatz, der die Aufgabenstellung fast wörtlich wiedergibt)",
+          "Wurde das Schiff bis 1978 allein durch die Strömung bewegt (schiefe Wortwahl: Eine kleine Seilfähre ist kein 'Schiff')"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "C",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3728,
+    "out": 686,
+    "thinking": 0
+  },
+  "costUsd": 0.014316
+}

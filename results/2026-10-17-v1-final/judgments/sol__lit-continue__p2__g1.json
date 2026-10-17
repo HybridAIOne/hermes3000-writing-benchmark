@@ -1,0 +1,112 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Er hatte nie begriffen, dass man an einer Fähre nichts reparieren lassen konnte, ohne dass sich danach alles andere veränderte.“ Die pauschale Behauptung bleibt sachlich und psychologisch unbegründet; sie setzt Bedeutung, statt sie aus der Szene entstehen zu lassen.",
+          "„Einmal.“ / „Du hast nicht geantwortet.“ / „Das ist dasselbe.“ Der letzte Satz hat keinen schlüssigen Bezug: Einmaliges und zweimaliges Schreiben werden durch die ausbleibende Antwort nicht dasselbe. Die angestrebte Schlagfertigkeit wirkt konstruiert.",
+          "„Der Motor war nicht das Thema, und Jonas wusste das so gut wie sie.“ Jonas’ Wissen wird als Tatsache behauptet, statt als Ilses Einschätzung kenntlich zu werden; damit wird die personale Perspektive zumindest unscharf.",
+          "„eher so, wie Männer lachen, wenn sie merken, dass sie ein Spiel schon verloren haben“ erklärt die Beziehung durch eine allgemeine Geschlechterformel und eine geläufige Spielmetapher, statt Jonas’ konkrete Reaktion präzise zu erfassen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Jonas stand noch auf dem Anleger […] und wartete, dass jemand ihm sagte, wohin er gehörte.“ Der Satz deutet Jonas’ Verhalten unmittelbar vor der starken Stiefelhandlung bereits aus. Das anschließende Bild könnte diese Bedeutung selbst tragen.",
+          "„als wären sie abgeschnitten“ und „wie ein Tier an der Kette“ häufen auf engem Raum geläufige Vergleichsbilder; insbesondere der Tiervergleich bleibt gegenüber den präzisen Betriebsgeräuschen austauschbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„schob ihn unter die Auffahrtsklappe“ / „löste die Bremse der Winde“: Vor dem angedeuteten Ablegen wird weder der Keil entfernt noch die Rampe gesichert. Auch Jonas’ zuletzt ausdrücklich genannte Position auf der Rampe wird nicht aufgelöst. Die Bewegungsabläufe bleiben unzureichend geführt.",
+          "„Das Metall knirschte auf dem Kies.“ Nach dem vorgegebenen Anleger aus nassen Bohlen fehlt eine räumliche Überleitung zu einer auf Kies aufliegenden Auffahrtsklappe.",
+          "„Sie würde heute noch die Spätschicht dranhängen.“ Die zusätzliche Betriebsstunde bleibt wenig motiviert: Kurt wartet ohnehin noch auf seine reguläre Überfahrt; ein weiterer Fahrbedarf wird nicht etabliert. Ilses Entscheidung wirkt vor allem auf den gewünschten Szenenschluss hin arrangiert.",
+          "„unter dem alten Schöpfkelle-Topf“ ist eine schwer verständliche Gegenstandsbezeichnung. Gerade eine beiläufige Ortsangabe sollte ohne Entschlüsselungsarbeit funktionieren.",
+          "„Sie würde heute noch die Spätschicht dranhängen.“ Bis zu diesem Schluss ist der Text auf rund 500 Wörter angewachsen und überschreitet damit die Zielgröße von etwa 400 merklich; mehrere Kleidungs-, Wetter- und Bewegungsdetails ließen sich ohne Verlust straffen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„eine dieser Tabellen […] mit Farben für gut und schlecht“ zeichnet Jonas’ Berufswelt etwas schematisch. Die Erinnerung an seine Kreidestriche ist individueller und vermittelt denselben Zusammenhang überzeugender."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„unter einem alten Fahrplan beschwert“ ist idiomatisch nicht sauber: Die Rechnung wäre „mit einem alten Fahrplan beschwert“ oder läge „unter einem alten Fahrplan“.",
+          "„Sie nahm die Leine vom Poller und legte sie über den Arm.“ / „Ilse band die Leine fest“: Die unmittelbar zuvor befestigte Leine wird ohne erkennbaren Anlass wieder abgenommen und anschließend erneut befestigt. Das erzeugt Beschäftigung statt einer nachvollziehbaren Arbeitsfolge.",
+          "„Das habe ich nicht gefragt.“ / „Nein.“ sowie „Hast du gegessen?“ / „Im Zug.“ / „Das ist keine Antwort.“ / „Dann nein.“ wiederholen dieselbe pointierte Ausweichbewegung. Dadurch klingt das Gespräch stellenweise stärker komponiert als beiläufig gesprochen.",
+          "„Sie würde noch einmal übersetzen müssen“ / „Ilse stellte den Kessel auf die Platte.“ Der wartende Fahrgast wird eingeführt und anschließend zugunsten der Teehandlung liegengelassen. Ein kurzer Hinweis auf die Reihenfolge der Handlungen würde die praktische Szenenlogik klären."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "E",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3951,
+    "out": 2242,
+    "thinking": 1024
+  },
+  "costUsd": 0.030322
+}

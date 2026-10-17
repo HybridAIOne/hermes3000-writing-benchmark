@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "gpt-6.1-sol",
+  "run": 3,
+  "text": "At four, Mara went to the chapel because the staff room refrigerator had begun making a noise she couldn’t bear.\n\nSomeone had moved the chairs into rows again. In the back sat a man in a raincoat, holding a paper cup between his knees. His shoes were dry. She noticed this before his face.\n\n“Mara,” he said.\n\nShe stopped with her hand still on the door.\n\nHer badge was clipped to her waistband, turned inward. She checked it anyway.\n\n“Have we met?”\n\nHe looked down at the cup. “You can sit. I’m not waiting for you.”\n\n“That wasn’t what I asked.”\n\n“No.”\n\nFrom the corridor came the uneven roll of a cart. One wheel struck the same fault in the flooring twice, then passed.\n\nMara took the chair nearest the door. She had twelve minutes before she needed to check the antibiotic on bed nine. In her pocket was a packet of crackers she had carried since midnight.\n\n“Are you here with someone?” she asked.\n\nThe man rubbed a soft place in the cup’s rim with his thumb.\n\n“I was told to wait.”\n\n“By whom?”\n\nHe didn’t answer. She could have called security. She could have stood and asked again in the voice she used when visitors blocked a doorway.\n\nInstead, she opened the crackers. The wrapper sounded excessive.\n\nShe held the packet out. He took one without touching her hand.\n\nBetween them, a few crumbs fell onto the empty chair, pale against the green upholstery, caught in the seam where the seat met the back.",
+  "usage": {
+    "in": 59,
+    "out": 410,
+    "thinking": 91
+  },
+  "costUsd": 0.004218,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 16933,
+  "meta": [],
+  "at": "2026-10-17T17:44:06.970Z"
+}

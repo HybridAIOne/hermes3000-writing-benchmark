@@ -1,0 +1,107 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„obwohl du formal keine Anweisungen geben darfst“: Der Text setzt fehlende Weisungsbefugnis voraus. Vorgegeben sind aber Teamleiter ohne formale Führungsausbildung; ihre Befugnisse müssten zunächst geklärt werden.",
+          "„Dein eigener Kompass – gesund bleiben und deinen Weg finden“: Das Schlusskapitel behandelt Abschalten und den nächsten Karriereschritt, nicht die geforderte eigene Haltung als Führungskraft.",
+          "„wie du den Rollenwechsel meisterst“ / „der richtige Umgang mit deinem eigenen Chef“: Die Klärung der Rolle gegenüber dem Vorgesetzten erscheint erst in Kapitel 6. Als Grundlage für Aufgabenverteilung und Entscheidungen käme sie deutlich zu spät.",
+          "„ohne dass die Stimmung kippt“: Das verspricht eine Kontrolle über Gesprächsreaktionen, die auch gute Gesprächsführung nicht gewährleisten kann. Praxisnäher wäre der konstruktive Umgang mit solchen Reaktionen.",
+          "„vom geschätzten Kollegen zum Respektierten“: Die substantivierte Bezeichnung wirkt gestelzt und bezeichnet den Rollenwechsel weniger klar als eine konkrete Benennung der neuen Verantwortung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Du bekommst ein Gespür dafür“: Die Formulierung bleibt für eine praxisnahe Kapitelbeschreibung etwas unbestimmt; konkrete Entscheidungskriterien würden den Nutzen deutlicher machen.",
+          "„Zur Abgrenzung:“: Der zusätzliche Absatz wiederholt Unterschiede, die aus den Kapitelbeschreibungen bereits weitgehend hervorgehen. Für die fertige Gliederung ist er entbehrlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Führe schwierige Gespräche“ / „Gestalte die Zusammenarbeit im Alltag“: Die Reihenfolge schwächt den Aufbau. Grundlegende Absprachen und Routinen sollten vor der Behandlung schwieriger Gespräche stehen.",
+          "„Du entwickelst eine Art zu führen, die zu dir passt“: Das Schlusskapitel beschreibt die eigene Haltung recht allgemein. Konkrete Grundsätze und Maßstäbe für das Handeln würden es gegenüber einem bloß persönlichen Führungsstil schärfen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„schlechte Nachrichten von oben“ / „Du vertrittst Entscheidungen, die du nicht getroffen hast“: Kapitel 7 und 8 überschneiden sich beim Vermitteln unangenehmer Vorgaben. Die Grenze zwischen Gesprächsführung und Vermittlerrolle müsste deutlicher werden.",
+          "„Schwierige Gespräche führen“ / „Bei Personalausfall, Fehlern, Termindruck oder Streit mit Kunden“: Kapitel 9 bündelt unterschiedliche Problemsituationen und greift mit Fehlern und Streit erneut Gegenstände des Gesprächskapitels auf. Ein klarer Fokus auf akute Engpässe würde die Überschneidung verringern.",
+          "„Wie du den Rollenwechsel gegenüber Leuten gestaltest, mit denen du gestern noch Mittagspause gemacht hast, und was du in den ersten Wochen besser lässt.“: Als Gliederungstext verständlich, aber anders als die übrigen Beschreibungen kein selbstständiger Aussagesatz; der Satzbau sollte vereinheitlicht werden."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "D",
+      "E",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2869,
+    "out": 1441,
+    "thinking": 501
+  },
+  "costUsd": 0.020148
+}

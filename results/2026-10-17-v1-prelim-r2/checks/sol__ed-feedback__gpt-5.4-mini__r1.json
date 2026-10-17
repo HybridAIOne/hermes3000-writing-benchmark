@@ -1,0 +1,18 @@
+{
+  "task": "ed-feedback",
+  "model": "gpt-5.4-mini",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "found": [
+      "tempus"
+    ],
+    "false_alarms": 2
+  },
+  "usage": {
+    "in": 804,
+    "out": 142,
+    "thinking": 115
+  },
+  "costUsd": 0.003028
+}

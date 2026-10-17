@@ -1,0 +1,147 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "D": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„eine lebenswichtige Infrastruktur […] dauerhaft zu erhalten“: Die Quelle belegt weder die behauptete Lebenswichtigkeit noch eine dauerhafte Bestandssicherung.",
+          "„So wird sichergestellt, dass die technische Ausstattung […] zukunftsfähig bleibt“: Eine Rücklage ermöglicht Investitionen, garantiert aber keine Zukunftsfähigkeit.",
+          "„die siebenminütige Überfahrt“: Die Einschränkung „bei normalem Wasserstand“ fehlt.",
+          "„Heute gehören der Fähre 312 Mitglieder an“: Die Mitglieder gehören der Genossenschaft an, nicht der Fähre.",
+          "„Das Prinzip einer Genossenschaft basiert auf der Gemeinschaft“: Abstrakter Füllsatz; die anschließenden Angaben erklären das Prinzip wesentlich genauer."
+        ],
+        "unsupported": [
+          "„So wird sichergestellt, dass die technische Ausstattung […] zukunftsfähig bleibt“: Diese Erfolgsgarantie steht nicht in der Quelle.",
+          "„die siebenminütige Überfahrt“: Die Quelle nennt diese Dauer nur für normalen Wasserstand.",
+          "„eine lebenswichtige Infrastruktur“: Eine solche Bedeutung wird im Material nicht behauptet.",
+          "„dauerhaft zu erhalten“: Der dauerhafte Fortbestand ist durch die Quellenangaben nicht gesichert."
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Ein privat gewinnorientierter Betreiber hätte an dieser Strecke vermutlich kaum Interesse“: Unbelegte Spekulation, die als tragendes Argument für die Rechtsform eingesetzt wird.",
+          "„Die Menschen in der Region waren also auf sich selbst gestellt – und gründeten kurzerhand ihren eigenen Fährbetrieb“: Erfindet Begleitumstände und einen schnellen, unkomplizierten Gründungsablauf.",
+          "„Die Genossenschaft arbeitet nicht auf Gewinnmaximierung aus“: Unidiomatische Verbindung; richtig wäre etwa „ist nicht auf Gewinnmaximierung ausgerichtet“.",
+          "„ein Ziel, an dem alle Mitglieder ein gemeinsames Interesse haben“: Unterstellt sämtlichen Mitgliedern eine nicht belegte Haltung.",
+          "„Warum ist die Genossenschaft für diese Fähre die passende Rechtsform?“: Auf die Leitfrage folgt zunächst ein Block technischer Daten statt einer Erklärung; das schwächt die Argumentationsführung."
+        ],
+        "unsupported": [
+          "„Die Menschen in der Region waren also auf sich selbst gestellt“: Die Einstellung des Landkreis-Betriebs belegt nicht, dass keinerlei andere Unterstützung vorhanden war.",
+          "„gründeten kurzerhand ihren eigenen Fährbetrieb“: Über Dauer und Ablauf der Gründung macht die Quelle keine Angaben.",
+          "„Die Genossenschaft arbeitet nicht auf Gewinnmaximierung aus“: Als Aussage über diese Genossenschaft geht dies über die belegte Verwendung der Überschüsse hinaus.",
+          "„ein Ziel, an dem alle Mitglieder ein gemeinsames Interesse haben“: Die Einstellungen der Mitglieder zum Elektroantrieb sind nicht dokumentiert.",
+          "„Ein privat gewinnorientierter Betreiber hätte an dieser Strecke vermutlich kaum Interesse“: Die Quelle enthält keine Angaben zur Attraktivität für private Betreiber.",
+          "„Die Bürgerinnen und Bürger vor Ort tragen den Betrieb gemeinsam“: Dass die heutigen Mitglieder sämtlich vor Ort leben, geht aus der Quelle nicht hervor."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "„dass jede Einnahme unmittelbar in die Erhaltung und Modernisierung der Fähre zurückfließt“: Verwechselt Einnahmen mit Überschüssen; nur für Überschüsse ist die Einzahlung in die Rücklage belegt.",
+          "„dass genau jene, die die Überfahrt benötigen, auch die Entscheider sind“: Setzt Nutzende und Mitglieder unbelegt gleich.",
+          "„Weil die Fähre keine Ware ist, die ein Investor gegen Rendite vermarktet, sondern unverzichtbare Infrastruktur“: Baut einen unbelegten Gegensatz auf und ersetzt die sachliche Begründung durch eine wertende Zuspitzung.",
+          "„Zweitens werden Erträge nicht an externe Anteilseigner ausgeschüttet, sondern der Sache zugutekommen“: Sprachlich missglückter Wechsel zwischen Passiv und Zukunftsform; zudem werden Erträge und Überschüsse nicht sauber unterschieden.",
+          "„nicht mit resigniertem Warten, sondern mit einem Gründungsakt“: Unterstellt eine nicht dokumentierte Haltung und dramatisiert den historischen Vorgang."
+        ],
+        "unsupported": [
+          "„die Menschen auf beiden Elbufern reagieren nicht mit resigniertem Warten“: Über die Haltung und Reaktion der Bevölkerung berichtet die Quelle nicht.",
+          "„sichert die Zukunft des Betriebs“: Die Rücklage ist für Erneuerungen vorgesehen; eine Sicherung der gesamten betrieblichen Zukunft ist damit nicht belegt.",
+          "„die Fähre keine Ware ist, die ein Investor gegen Rendite vermarktet“: Die Quelle enthält keine entsprechende Aussage über Investoren oder die grundsätzliche wirtschaftliche Einordnung der Fähre.",
+          "„unverzichtbare Infrastruktur für den Alltag der Menschen auf beiden Ufern“: Unverzichtbarkeit und alltägliche Abhängigkeit der Bevölkerung werden nicht belegt.",
+          "„dass genau jene, die die Überfahrt benötigen, auch die Entscheider sind“: Die Quelle sagt nicht, dass Nutzende und stimmberechtigte Mitglieder identisch sind.",
+          "„dass jede Einnahme unmittelbar in die Erhaltung und Modernisierung der Fähre zurückfließt“: Belegt ist ausschließlich die Rücklagenbildung aus Überschüssen, nicht diese Verwendung sämtlicher Einnahmen."
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„seither treibt ein 85-kW-Dieselmotor sie an“: Die Quelle nennt die heutige Motorleistung, nicht die Motorleistung seit 1978.",
+          "„Die Mitglieder, die selbst auf die Überfahrt angewiesen sind oder vom Tourismus profitieren“: Erfindet Abhängigkeiten und wirtschaftliche Interessen der heutigen Mitglieder.",
+          "„langfristige Investitionen ohne externe Eigentümer oder Renditeerwartungen“: Insbesondere das Fehlen von Renditeerwartungen ist nicht belegt.",
+          "„weil sie den Betrieb als gemeinschaftliche Aufgabe der Region dauerhaft sichert“: Die Rechtsform wird als Garantie für den dauerhaften Betrieb dargestellt.",
+          "„eine unverzichtbare Infrastruktur nicht von kurzfristigen Gewinninteressen abhängt“: Unbelegte Wertung und unnötig zugespitzter Gegensatz; die konkrete Rücklagenregelung wäre das belastbare Argument."
+        ],
+        "unsupported": [
+          "„seither treibt ein 85-kW-Dieselmotor sie an“: Dass seit 1978 ein Motor dieser Leistung eingesetzt wird, steht nicht im Material.",
+          "„Die Genossenschaft verfolgt kein Ziel der Gewinnmaximierung“: Die Quelle belegt die Nichtausschüttung von Überschüssen, nicht ausdrücklich dieses Unternehmensziel.",
+          "„den Betrieb […] dauerhaft sichert“: Ein dauerhaft gesicherter Betrieb ist nicht belegt.",
+          "„Die Mitglieder, die selbst auf die Überfahrt angewiesen sind oder vom Tourismus profitieren“: Über die heutigen Mitglieder und ihre individuellen Interessen fehlen entsprechende Angaben.",
+          "„ohne […] Renditeerwartungen“: Erwartungen der Mitglieder werden nicht beschrieben.",
+          "„eine unverzichtbare Infrastruktur“: Die Quelle belegt die Nutzung, nicht die Unverzichtbarkeit.",
+          "„nicht von kurzfristigen Gewinninteressen abhängt“: Über solche Interessen und mögliche Abhängigkeiten enthält die Quelle keine Angaben."
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Für die Menschen vor Ort war die Überquerung der Elbe aber weiterhin notwendig“: Die fortbestehende Notwendigkeit wird aus der Gründung erschlossen, im Quellmaterial jedoch nicht ausdrücklich belegt.",
+          "„Heute hat die Genossenschaft 312 Mitglieder“: Die unmittelbare Wiederholung von „hat“ und „Genossenschaft“ nach dem vorangehenden Satz wirkt etwas schematisch."
+        ],
+        "unsupported": [
+          "„Für die Menschen vor Ort war die Überquerung der Elbe aber weiterhin notwendig“: Die Quelle berichtet von der Neugründung, macht aber keine ausdrückliche Aussage über die Notwendigkeit der Überquerung für die örtliche Bevölkerung."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "A",
+      "D",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3243,
+    "out": 2845,
+    "thinking": 872
+  },
+  "costUsd": 0.034936
+}

@@ -1,0 +1,107 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Was gibt's denn?“ (Typografisch falscher Apostroph, korrekt: ’)",
+          "„Die meisten Führungskräfte, die ich kenne, können Zahlen präsentieren, Projekte steuern und Budgets verteidigen.“ (Verfehlt das Buchthema „Führen ohne Titel“, da Budgetverantwortung klassische Linienführung impliziert)",
+          "Vier Absätze statt des geforderten einen Einstiegsabsatzes"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„eine Tasse, die längst kalt ist.“ (Schiefe Metonymie: Der Kaffee wird kalt, selten spricht man so von der Tasse selbst)",
+          "„Solche Momente gehören zum Führungsalltag.“ (Das Kernthema des Buches – Führen ohne formale Vorgesetztenrolle – wird im gesamten Absatz ignoriert)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„lässt er schleifen.“ (Grammatikalisch unvollständig/unidiomatisch, es fehlt das Pronomen „es“: lässt er es schleifen)",
+          "„nur als jemanden, der die Urlaubslisten abzeichnet.“ (Sachlicher Widerspruch: Wer „ohne Titel“ und ohne disziplinarische Macht führt, zeichnet in der Regel keine Urlaubslisten ab)",
+          "„Markus kennt jede Maschine im Schlaf ... in sein Büro zu gehen“ (Unstimmiges Setting: Der Maschinenbediener im Schichtbetrieb hat plötzlich ein eigenes Büro zwei Türen weiter)",
+          "„gären im Hintergrund weiter und vergiften schleichend die Stimmung ... auf dünnes Eis begibst.“ (Häufung abgedroschener Phrasen und schiefer Bilder)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Es ist Dienstag, kurz nach neun. ... Zum vierten Mal in drei Wochen kommt er nach halb neun“ (Logikfehler/Rechenfehler: Kurz nach neun ist immer nach halb neun; gemeint war vermutlich eine Kernzeit ab neun Uhr oder eine Ankunft um halb zehn)",
+          "„„Na, auch schon da?\",“ (Falsche Anführungszeichen am Ende der wörtlichen Rede: Zollzeichen statt deutscher Abführungszeichen)",
+          "„Fast jeder Teamleiter kennt solche Momente.“ (Zwei Absätze statt eines Einstiegsabsatzes; zudem fehlt der Bezug zum Buchthema „Führen ohne Titel“, da Kontrollieren der Arbeitszeit eine klassische Chef-Aufgabe ist)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2792,
+    "out": 856,
+    "thinking": 0
+  },
+  "costUsd": 0.014144
+}

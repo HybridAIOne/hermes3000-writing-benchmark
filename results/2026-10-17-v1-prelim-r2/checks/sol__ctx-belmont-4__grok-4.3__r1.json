@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "grok-4.3",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-1"
+    ],
+    "evidence": [
+      "Vosskuhl spricht von Gesprächen, von etwas, das nicht vergessen werden dürfe."
+    ]
+  },
+  "usage": {
+    "in": 1397,
+    "out": 212,
+    "thinking": 165
+  },
+  "costUsd": 0.004914
+}

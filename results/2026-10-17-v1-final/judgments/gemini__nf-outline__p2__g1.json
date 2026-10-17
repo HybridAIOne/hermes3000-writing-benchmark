@@ -1,0 +1,110 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "8. Schaffe einen verlässlichen Arbeitsrhythmus (Logischer Bruch im Aufbau: Grundlagen der Tagesorganisation gehören an den Anfang der Rolle, nicht hinter Krisen- und Konfliktgespräche)",
+          "Du findest den Übergang... / Du stimmst ... ab / Du baust Vertrauen auf... (Monotoner Satzbau: Alle neun Kapitelbeschreibungen beginnen schematisch mit 'Du + Verb')"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "6. Feedback als Gewohnheit (Anglizismus/Buzzword, widerspricht leicht der Vorgabe 'keine Buzzwords')",
+          "1. Der erste Tag [...] / 3. Vom Kollegen zum Vorgesetzten (Leichte thematische Überschneidung beim Rollenwechsel in den ersten Wochen)",
+          "Wie du in der neuen Rolle ankommst... / Wie du herausfindest... (Monotone Satzstruktur: Acht von zehn Beschreibungen sind als 'Wie du...'-Nebensätze ohne Hauptsatz konstruiert)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "vom geschätzten Kollegen zum Respektierten (schiefe Substantivierung und falsche Implikation, als wäre man als Kollege nicht respektiert worden)",
+          "obwohl du formal keine Anweisungen geben darfst (Widerspruch zur Aufgabenstellung: Ein Teamleiter ohne Führungsausbildung hat dennoch eine Rolle inne; lateral Führende ohne Weisungsbefugnis sind eine andere Zielgruppe)",
+          "Hier ist der Entwurf für die Gliederung des Sachbuchs „Führen ohne Titel“: (Überflüssiger Konversations-Füllsatz am Anfang)",
+          "Kapitel 4: Auf Augenhöhe überzeugen (Floskel/Buzzword 'Auf Augenhöhe')",
+          "Du erfährst, wie du... / Du lernst, wie du... / Hier siehst du, wie du... (Behäbige Meta-Formulierungen statt direkter Inhaltsbeschreibung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "### 1. Dein erster Tag: Kläre, wofür du verantwortlich bist / ### 2. Gestern Kollege, heute Teamleiter (Logische Reihenfolge leicht verkehrt: Am ersten Tag steht der Kontakt zum Team an, die detaillierte Auftragsklärung folgt meist darauf)",
+          "Du klärst... / Du gestaltest... / Du übersetzt... (Stilistische Monotonie: Jeder einzelne Beschreibungssatz beginnt identisch mit 'Du + Verb')"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Zwischen Tagesgeschäft, Meetings und spontanen Anfragen (Business-Jargon 'Meetings' statt 'Besprechungen')",
+          "1. Der erste Tag: Gestern Kollege, heute Chef (Der Begriff 'Chef' passt im Mittelstand schlecht zum Buchtitel 'Führen ohne Titel', da dort 'Chef' meist der Inhaber/Geschäftsführer ist)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "B",
+      "D",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3158,
+    "out": 949,
+    "thinking": 0
+  },
+  "costUsd": 0.015806
+}

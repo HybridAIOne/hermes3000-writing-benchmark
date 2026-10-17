@@ -1,0 +1,80 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Der Schlüssel liegt unter dem alten Schöpfkelle-Topf“ – verunglücktes Kompositum, unidiomatisch",
+          "„Mach dir schon mal den Ofen an“ – Logikbruch: Jonas hat eben gesagt, er habe ein Zimmer im Krug genommen; die Einladung ins Haus wird nicht vorbereitet und wirkt unvermittelt",
+          "„Das Metall knirschte auf dem Kies“ – Logikbruch: Der Keil liegt auf Rampe bzw. Bohlen, nicht auf Kies",
+          "„Sein Gesicht wirkte schmaler als im Herbst, die Schatten unter den Augen tiefer.“ – abgegriffene Formel",
+          "„Steuerstand“ / „Führerstand“ / „Seilwinde“ – uneinheitliche und für eine Gierseilfähre unstimmige Technik; die Entscheidung („Spätschicht dranhängen“) wird erklärt statt gezeigt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Das Wasser war jetzt bis an seine Knöchel durch das Leder gedrungen, man sah es an der Art, wie er die Zehen hob.“ – übertrieben und unplausibel, die Zehen sieht man im Schuh nicht",
+          "„Ilse wusste, dass das etwas bedeutete, und sie wusste auch, dass sie es nicht wissen wollte.“ – erklärt, statt zu zeigen; die Wiederholung von „wissen“ ist manieriert",
+          "„Henning hätte etwas dazu gesagt. Henning hätte überhaupt etwas gesagt“ – an der Grenze zur Wiederholungsmasche",
+          "„wie ein Traktor mit Bronchitis“ – etwas bemühter Vergleich"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Der Motor ist für den Notfall … Die Strömung macht die Arbeit.“ – Logikbruch: Jonas hat den Motor angeblich gerade laufen gehört („Ich hab ihn vom Ufer aus gehört“)",
+          "„Wenn du mitwillst, zieh die an.“ – unklar: Jonas ist zu ihr gekommen; wohin er mitfahren soll, bleibt offen, die Entscheidung verliert dadurch an Schärfe",
+          "„Jonas lachte kurz, ohne den Mund dabei richtig zu bewegen.“ – schief beobachtet",
+          "„und wartete, dass jemand ihm sagte, wohin er gehörte“ – benennt, was das Bild bereits zeigt",
+          "„ein Radfahrer mit seinem Rad“ – redundant"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 5649,
+    "out": 2404,
+    "thinking": 1342
+  },
+  "costUsd": 0.070676
+}

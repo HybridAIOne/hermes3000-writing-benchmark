@@ -1,0 +1,81 @@
+{
+  "task": "lit-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "\"die Fensterläden geschlossen wie Lider\" – abgegriffener Vergleich",
+          "\"die Uhr über der Tür, die stehen geblieben war um zwanzig nach vier\" – Klischee der stehengebliebenen Uhr; zudem kurz nach \"blieb ... stehen\" wiederholt",
+          "\"als hätte das Haus sie erwartet, nur nicht als diejenige, die sie geworden war\" – erklärt und deutet, statt zu zeigen",
+          "\"Er war schwerer, als sie ihn in Erinnerung hatte, oder ihre Hand war leichter geworden\" – etwas zu gewollte Pointe",
+          "\"aus einer Zeit, über die in diesem Haus nicht gesprochen worden war\" – Andeutung mit dem Holzhammer"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "\"An ihrem Daumen klebte ein einzelnes, blaues Fädchen. Sie wusste nicht, woher es kam.\" – Detail wirkt konstruiert und unmotiviert; zudem falsches Komma zwischen nicht gleichrangigen Adjektiven",
+          "\"als hätte das Haus beschlossen, sie nicht sofort hineinzulassen\" – abgenutzte Personifikation",
+          "\"wusste nicht, wohin mit den Händen\" – Floskel",
+          "\"Seit zwanzig Jahren hatte sie sich eingeredet, sie werde das Haus nicht vermissen\" – erklärt Gefühl statt es zu zeigen",
+          "\"Der schmale Spalt darunter war dunkel\" – bei einer nur angelehnten Tür unlogisch verortet; Häufung gleichrangiger Rätselmotive (Äpfel, Kellertür, Faden) verwässert das eine tragende Detail"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"genau in den staubfreien Kreis\" – bestimmter Artikel für einen vorher nicht eingeführten Kreis; Schlussbild nicht verankert",
+          "\"Dann roch sie es: angesengte Wolle, schwach, aber unverkennbar\" – in einem ausgeräumten Haus unmotiviert; Status (real oder Erinnerung) unklar",
+          "Häufung von Detailmotiven (Kleiderbürste, Diele, Brandgeruch, Knopf, Wäschespinne) – das eine bedeutungstragende Detail wird verdünnt",
+          "\"Er hatte dabei geklungen, als wäre das eine gute Nachricht.\" – leicht kommentierende Pointe",
+          "Länge an der oberen Grenze von etwa 300 Wörtern"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3971,
+    "out": 2342,
+    "thinking": 1289
+  },
+  "costUsd": 0.062724
+}

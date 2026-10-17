@@ -1,0 +1,20 @@
+{
+  "task": "nf-from-source",
+  "model": "glm-5.3",
+  "run": 1,
+  "text": "## Wie eine Genossenschaft funktioniert – das Beispiel der Fährgenossenschaft Hitzacker\n\nWer mit dem Fahrrad auf dem Elberadweg unterwegs ist und bei Hitzacker die Elbe überqueren will, nutzt dafür eine Seilfähre, die von einer Genossenschaft betrieben wird. An ihr lässt sich gut zeigen, was Genossenschaften ausmacht.\n\nAls der Landkreis den Betrieb der Seilfähre eingestellt hatte, gründeten 1953 insgesamt 41 Landwirte und Händler aus beiden Elbufern die Fährgenossenschaft Hitzacker eG. Sie taten das also nicht, um Gewinn zu machen, sondern um eine Leistung zu sichern, die sonst weggebrochen wäre – für die Region typisch: Genossenschaften entstehen häufig dort, wo Einzelne oder der Staat eine Versorgung nicht mehr gewährleisten können.\n\nGenossenschaft bedeutet konkret: Die Mitglieder bringen eigenes Kapital ein und verwalten das Unternehmen gemeinsam. Bei der Hitzacker Fähre hält jedes der heute 312 Mitglieder mindestens einen Anteil im Wert von 250 Euro. Entscheidend ist, dass jedes Mitglied in der Generalversammlung eine Stimme hat – unabhängig davon, wie viele Anteile es besitzt. Wer mehr Kapital einbringt, erhält also nicht mehr Einfluss. Das unterscheidet Genossenschaften von Kapitalgesellschaften, in denen in der Regel das Geld die Stimmen bestimmt.\n\nAuch der Umgang mit Überschüssen ist kennzeichnend: Die Genossenschaft schüttet Gewinne nicht an ihre Mitglieder aus, sondern zahlt sie in eine Rücklage ein, mit der die Erneuerung der Fähre finanziert werden soll. Bis 2031 soll diese Rücklage ausreichen, um die Fähre, die bisher von einem 85-kW-Dieselmotor angetrieben wird, auf einen Elektroantrieb umzurüsten. Das Unternehmen wird also langfristig für die Allgemeinheit gesichert, statt kurzfristig Rendite zu erzielen.\n\nDie Wirtschaftlichkeit zeigt sich in nüchternen Zahlen: 2024 lag der Umsatz bei 186.000 Euro, davon 71 Prozent aus Fahrkartenverkäufen und 29 Prozent aus einem Zuschuss der Gemeinde. Rund 64.000 Personen nutzen die Fähre jährlich; eine Überfahrt über die 212 Meter breite Elbe dauert bei normalem Wasserstand sieben Minuten.\n\nFür ein solches Unternehmen ist die Genossenschaft die passende Rechtsform: Sie verbindet bürgerschaftliches Kapital, demokratische Mitsprache und langfristige Sicherung einer öffentlichen Leistung.",
+  "usage": {
+    "in": 440,
+    "out": 561,
+    "thinking": 0
+  },
+  "costUsd": 0.0027279999999999995,
+  "finish": "stop",
+  "reportedModel": "z-ai/glm-5.3",
+  "upstream": "Decart",
+  "latencyMs": 4656,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:23:50.656Z"
+}

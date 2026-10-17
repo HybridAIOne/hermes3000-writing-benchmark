@@ -1,0 +1,111 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„second row of padded chairs“ / „the blonde wood of the pew“: Anschlussfehler in der Ausstattung. Die zunächst eingeführten Polsterstühle werden beim selben Sitzplatz unvermittelt zur Kirchenbank.",
+          "„Her ID badge was flipped backward“ / „Room 312 had been converted into a supply closet three years ago“: Die unmittelbar aufeinanderfolgenden Hinweise inszenieren das Unheimliche recht demonstrativ. Die Szene vertraut ihrer zunächst zurückhaltenden Wirkung nicht ganz.",
+          "„the bright misery of the ICU waiting room“ / „The chapel was for daytime grief“: Diese zugespitzten Formulierungen etikettieren das Leid, statt es konkret erfahrbar zu machen. Besonders der zweite Satz wirkt wie ein gesetzter literarischer Merksatz."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„She knew the gesture from relatives who had been asked too many questions by too many people“: Die Erklärung legt die Bedeutung der beobachteten Geste recht vollständig fest. Ohne diese Ausdeutung bliebe mehr Raum für die Wahrnehmung der Lesenden."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„The chapel sat on the second floor“ bis „its spine turned out toward the room“: Mit rund 350 Wörtern überschreitet die Szene die Vorgabe von ungefähr 250 deutlich. Für die Buchfassung wäre eine substanzielle Straffung nötig.",
+          "„Maren had sung once“ bis „she had never seen his face“: Der eingeschobene Erinnerungsabsatz erklärt die Verbindung nahezu vollständig und unterbricht die gegenwärtige Begegnung. Gerade die nachgeschobene Erklärung zum nie gesehenen Gesicht wirkt wie eine Absicherung der Konstruktion.",
+          "„squaring its spine with the others“ / „the hymnal stood square with the rest“: Das Schlussbild wiederholt eine bereits genau beschriebene Anordnung, ohne sie entscheidend zu verändern. Dadurch wirkt es eher als pflichtbewusste Rückkehr zum Requisit denn als tragfähiger Szenenschluss."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„A long grey hair was still wound through its teeth“: Das Schlussbild wirkt als gezielt bereitgelegtes Erinnerungsrequisit. Zusammen mit der vorausgehenden Geschichte vom Kämmen schiebt es die ansonsten zurückhaltende Szene ins Sentimentale.",
+          "„March was a long corridor of mothers“: Die auffällige Metapher verdichtet die Belastung zur literarischen Formel. Sie hebt sich stärker als Autorenformulierung hervor, als es der übrige, unaufdringliche Ton nahelegt.",
+          "„He said it kindly, as if relieving her of something“: Die emotionale Funktion der Antwort wird nachträglich erläutert, obwohl der Dialog sie bereits vermittelt.",
+          "„the single sheet pulled halfway up, waiting for someone“: Die Personifizierung lädt ein ohnehin emotional besetztes Requisit zusätzlich mit Bedeutung auf."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„the chapel window held her reflection over his: her white shoes, his dark coat, the three stirrers lined up on the table between them“: Das Schlussbild ist räumlich nicht überzeugend eingerichtet. Das zuvor als kleines Türfenster eingeführte Glas soll zugleich ihre Schuhe, den sitzenden Mann und den Tisch erfassen; Blickwinkel und Sichtachsen bleiben ungeklärt.",
+          "„She went in because the lights were on“: Der Wechsel von der Suche nach einem funktionierenden Automaten zum Betreten der Kapelle ist nur schwach motiviert. Der Satz setzt die Figur vor allem dorthin, wo die Begegnung stattfinden soll.",
+          "„Do you need security?“: Ohne erkennbare Bedrohung oder ein entsprechendes Anliegen ist diese konkrete Frage situativ wenig plausibel. Sie klingt eher nach einem notwendigen Krankenhaus-Stichwort als nach einer präzisen Reaktion.",
+          "„Do you know me?“ / „I know your name“: Die Antwort verlängert das Rätsel durch eine demonstrative Ausweichbewegung. Das wirkt stärker arrangiert als beiläufig und zurückhaltend."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "A",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2193,
+    "out": 2093,
+    "thinking": 948
+  },
+  "costUsd": 0.025316
+}

@@ -1,0 +1,131 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "C": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "Strukturbruch: \"Die Fähre selbst hängt an einem Führungsseil.\" steht zusammenhanglos im Schlussabschnitt über die Rechtsform",
+          "Schablonenhafte, sich wiederholende Überleitungen: \"Wie in dieser Rechtsform Entscheidungen getroffen werden, zeigt sich …\" / \"Warum die Genossenschaft … verdeutlicht insbesondere …\"",
+          "Kaum Erklärung des Prinzips für Laien; der Text reiht überwiegend Quellsätze fast wörtlich aneinander (\"aus beiden Elbufern\", \"an einer Stelle, an der der Fluss 212 Meter breit ist\")",
+          "Nominalstil: \"Die grundlegende Funktionsweise einer solchen Genossenschaft beruht auf der finanziellen Beteiligung und der gleichberechtigten Mitbestimmung ihrer Mitglieder.\"",
+          "Überzogene Behauptung: \"sichert die Rechtsform dauerhaft den Betrieb\""
+        ],
+        "unsupported": [
+          "\"sichert die Rechtsform dauerhaft den Betrieb und die Modernisierung des Fährverkehrs\""
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "Nicht belegte Begründung: \"Für die Menschen vor Ort war die Überquerung der Elbe aber weiterhin notwendig.\"",
+          "Unglückliche Reihenfolge: Die Anteile werden vor der Mitgliederzahl genannt (\"hat jedes Mitglied mindestens einen Anteil … Heute hat die Genossenschaft 312 Mitglieder.\")",
+          "Leicht floskelhaft: \"verbindet gemeinsames Handeln, demokratische Mitbestimmung und die langfristige Sicherung einer wichtigen lokalen Aufgabe\"",
+          "Unpassende Anbindung: \"Bei der Fährgenossenschaft Hitzacker kommt hinzu, dass …\""
+        ],
+        "unsupported": [
+          "\"Für die Menschen vor Ort war die Überquerung der Elbe aber weiterhin notwendig.\""
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Unbelegt und unklar: \"– für die Region typisch:\"",
+          "Unterstellte Motivation der Gründer: \"Sie taten das also nicht, um Gewinn zu machen\"",
+          "Fehlender Bindestrich: \"Bei der Hitzacker Fähre\" (richtig: Hitzacker-Fähre)",
+          "Überschrift entgegen der Vorgabe \"Gib nur den Buchtext aus\"",
+          "Wertende Zusatzbehauptung: \"langfristig für die Allgemeinheit gesichert\""
+        ],
+        "unsupported": [
+          "\"Sie taten das also nicht, um Gewinn zu machen\"",
+          "\"für die Region typisch\"",
+          "\"Das Unternehmen wird also langfristig für die Allgemeinheit gesichert\""
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Widerspricht dem Zuschuss der Gemeinde (29 Prozent): \"So sichert sie den Betrieb aus eigener Kraft.\"",
+          "Schlagwortartig: \"zählt hier der Mensch und nicht das Kapital\"",
+          "Mit rund 370 Wörtern etwas über der Zielgröße",
+          "Überschrift entgegen der Vorgabe \"Gib nur den Buchtext aus\""
+        ],
+        "unsupported": [
+          "\"So sichert sie den Betrieb aus eigener Kraft.\""
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "Zahlenkollision: \"gründeten 1953 41 Landwirte\"",
+          "Sachlich schief: \"Die Genossenschaft befördert pro Jahr rund 64.000 Personen\" – es befördert die Fähre",
+          "Doppelung: Die Rücklage wird zweimal fast gleich erklärt (\"Überschüsse werden nicht ausgeschüttet …\" / \"Überschüsse bleiben als Rücklage …\")",
+          "Erster Absatz ist eine dichte Aneinanderreihung fast wörtlicher Quellsätze ohne Erklärung für Laien",
+          "Technische Angaben stehen unvermittelt in der Begründung der Rechtsform: \"Die Fähre hängt an einem Führungsseil …\""
+        ],
+        "unsupported": [
+          "\"weil viele Menschen aus der Region den Betrieb gemeinsam tragen\""
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "C",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 7029,
+    "out": 2979,
+    "thinking": 1272
+  },
+  "costUsd": 0.087696
+}

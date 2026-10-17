@@ -1,0 +1,76 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "*(Sie legt den Löffel neben seine Tasse.)* - Unnötige Handlung, da er gerade ausdrücklich gesagt hat, dass er keinen Zucker nimmt (und auch keine Milch erwähnt wurde).",
+          "**Jens:** Der Bäcker an der Ecke hat zugemacht. / **Mara:** Schon im Februar. - Wirkt eher wie die Dynamik eines getrennten Paares (er war früher oft in ihrer Wohnung) als wie zwei alte Freunde."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "**LENA:** Willst du was trinken? / **TOM:** Wenn du schon bestellt hast. / **LENA:** Hab ich. / *Sie winkt der Kellnerin.* / *Die Kellnerin stellt zwei Tassen ab.* - Schwerer Logikbruch: Lena rührt zu Beginn bereits in ihrer Tasse, behauptet dann, schon bestellt zu haben, winkt der Kellnerin (die nicht kommt), und plötzlich werden zwei neue Tassen serviert, ohne dass Tom je bestellt hat.",
+          "**TOM:** Du bist noch hier. / **LENA:** Ich wohne um die Ecke. - Unlogischer Einstieg für ein verabredetes Treffen in einem Café; der Dialog ergibt an dieser Stelle keinen Sinn.",
+          "**LENA:** Du konntest schon immer das letzte Wort haben. - Unidiomatisch; man hat das letzte Wort oder will es haben, man 'kann' es nicht haben.",
+          "**TOM:** Erinnerst du dich an den Sommer am See? [...] **TOM:** Und du hast immer geschwiegen, bis es zu spät war. - Verstoß gegen die Aufgabe: Der Konflikt bleibt nicht im Subtext, sondern wird plump und klischeehaft ausbuchstabiert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "*Martin schlägt das Buch auf. Ein Foto fällt heraus. Beide sehen es an. Keiner hebt es auf.* / MARTIN: *legt das Foto zurück ins Buch* - Kontinuitätsfehler in den Regieanweisungen: Wenn das Foto herausfällt (suggeriert: auf den Boden oder Tisch) und 'keiner es aufhebt', kann Martin es danach nicht einfach zurücklegen, ohne es aufzuheben.",
+          "*Martin rührt in der Tasse, obwohl nichts drin ist zum Umrühren.* - Abgegriffenes Filmklischee zur Darstellung von Verlegenheit, zudem sprachlich etwas ungelenk als Regieanweisung formuliert.",
+          "MARTIN: Manche Dinge ändern sich nicht. / JONAS: Andere schon. - Sehr abgedroschene Dialogzeilen ohne eigene Stimmfarbe.",
+          "MARTIN: Du hättest anrufen können. / JONAS: Du auch. - Zu direkt; hier wird die Funkstille explizit thematisiert, statt die Spannung über das Sachthema (Buch/Foto) zu halten."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2318,
+    "out": 812,
+    "thinking": 0
+  },
+  "costUsd": 0.012756
+}

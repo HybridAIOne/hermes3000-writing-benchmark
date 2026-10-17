@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "Margot had been sitting in the chapel for eleven minutes, stretching her soles on the back pew, when the man in the third row said her name.\n\nNot a call. Not a question. Just *Margot*, spoken the way you'd say *Tuesday*—neutrally, to a room.\n\nShe pulled her shoes back on. Angled her head until she could see him in the periphery: sixty, maybe seventy, a cardigan the color of dishwater, hands flat on his thighs. He wasn't looking at her. He was looking at the votive candles along the altar rail, their flames standing perfectly still.\n\n\"You can sit here,\" he said, shifting slightly to give her the space beside him. \"The floor gets cold after four.\"\n\nShe didn't move. Her badge was still clipped to her scrub top, the little plastic star catching the buzz of the exit sign's fluorescent tube in the window behind the altar. He'd said her name the way someone reads it off a patient chart. Clinical. Not afraid. Not kind.\n\n\"I just need—\" she started, then stopped. There was no *just*. No *I just need five minutes*. There was only the vinyl seat and the hum and the still flames.\n\nShe left her shoes on. Walked to the third row. Sat down.\n\nHe didn't look at her. He didn't speak again.\n\nShe watched the nearest candle. The wax at its base had pooled slightly, wet and amber, catching the small orange light. The wick sat in the center of that pool, thin and dark, unmoving. Above it, the stucco Christ in its niche held its expression—mouth shut, eyes level, face catching just enough of the glow to make the painted folds of the robe look like water, like a stream going somewhere you couldn't follow.",
+  "usage": {
+    "in": 66,
+    "out": 1606,
+    "thinking": 1222
+  },
+  "costUsd": 0.0035490400000000003,
+  "finish": "stop",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "upstream": "ModelRun",
+  "latencyMs": 9127,
+  "meta": [],
+  "at": "2026-10-17T17:20:59.045Z"
+}

@@ -1,0 +1,134 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Geldanteil und Stimmrecht sind also nicht gleichzusetzen.“ – Dieser Satz und der folgende wiederholen weitgehend die bereits verständlich erklärte Stimmrechtsregel. Die Passage ließe sich straffen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„weil es den Gründern wie auch den heutigen Mitgliedern nicht um finanzielle Gewinne geht, sondern um den Erhalt der Fährverbindung“ – Der Text schreibt beiden Gruppen eine nicht belegte Motivation zu. Belegt ist die Verwendung der Überschüsse, nicht die persönliche Einstellung sämtlicher Mitglieder.",
+          "„Als der Landkreis im Jahr 1953 den Betrieb der örtlichen Seilfähre einstellte“ – Das Gründungsjahr wird unbelegt zum Jahr der Betriebseinstellung.",
+          "„warum diese Rechtsform ideal ist“ – Der Einstieg wertet pauschal, statt die Eignung zunächst am konkreten Fall zu erklären.",
+          "„Für diese Fähre war und ist die Genossenschaft die passende Rechtsform“ / „Dass die Rechtsform der Genossenschaft hier genau richtig ist“ – Die wiederholte Eignungsbehauptung wirkt redundant und werbend."
+        ],
+        "unsupported": [
+          "„Als der Landkreis im Jahr 1953 den Betrieb der örtlichen Seilfähre einstellte“: Die Quelle datiert die Gründung auf 1953, nicht ausdrücklich die vorherige Betriebseinstellung.",
+          "„weil es den Gründern wie auch den heutigen Mitgliedern nicht um finanzielle Gewinne geht, sondern um den Erhalt der Fährverbindung“: Die Motive der Gründer und der heutigen Mitglieder werden in der Quelle nicht genannt."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie betrieben gemeinsam, was jeder von ihnen brauchte, aber allein kaum hätte tragen können.“ – Weder der individuelle Bedarf aller Gründer noch ihre wirtschaftlichen Möglichkeiten sind belegt.",
+          "„eine Verbindung, auf die viele Menschen angewiesen sind, und erst in zweiter Linie ein Geschäft“ – Die Quelle belegt Nutzung, aber weder Abhängigkeit noch diese Rangordnung der Zwecke.",
+          "„Die Genossenschaft legt die Fähre in die Hände derer, die sie brauchen“ – Mitglieder und Nutzer werden ohne Quellengrundlage gleichgesetzt.",
+          "„Damals stellte der Landkreis den Betrieb ein.“ – Im Zusammenhang mit „aus dem Jahr 1953“ wird die Betriebseinstellung unbelegt auf dieses Jahr datiert.",
+          "„dass das erwirtschaftete Geld dort bleibt, wo es gebraucht wird: bei der Fähre selbst“ – Die Formulierung weitet die belegte Rücklagenregel für Überschüsse unpräzise auf das gesamte erwirtschaftete Geld aus."
+        ],
+        "unsupported": [
+          "„Damals stellte der Landkreis den Betrieb ein.“: Dass die Einstellung 1953 erfolgte, steht nicht ausdrücklich in der Quelle.",
+          "„was jeder von ihnen brauchte“: Ein persönlicher Bedarf jedes einzelnen Gründers ist nicht belegt.",
+          "„aber allein kaum hätte tragen können“: Über die wirtschaftlichen Möglichkeiten der einzelnen Gründer enthält die Quelle keine Angaben.",
+          "„auf die viele Menschen angewiesen sind“: Die Beförderungszahl belegt Nutzung, nicht das Angewiesensein auf die Fähre.",
+          "„erst in zweiter Linie ein Geschäft“: Diese Gewichtung wird in der Quelle nicht vorgenommen.",
+          "„in die Hände derer, die sie brauchen“: Dass die Mitglieder zugleich die auf die Fähre angewiesenen Nutzer sind, ist nicht belegt.",
+          "„dass das erwirtschaftete Geld dort bleibt, wo es gebraucht wird: bei der Fähre selbst“: Ausdrücklich geregelt ist nur die Verwendung der Überschüsse für die Rücklage."
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„aus beiden Elbufern“ – Unidiomatische Herkunftsangabe; richtig wäre hier „von beiden Elbufern“.",
+          "„Die Seilfähre über die Elbe bei Hitzacker gibt es seit 1953 als Fährgenossenschaft.“ – Fähre und betreibendes Unternehmen werden begrifflich vermischt. Gegründet wurde die Genossenschaft, nicht das Verkehrsmittel als Rechtsform.",
+          "„anders umgegangen als in einem gewöhnlichen Unternehmen“ – Der pauschale Gegensatz ist sachlich unscharf: Auch andere Unternehmen können Überschüsse zurücklegen.",
+          "„sichern mit ihren Überschüssen die Zukunft des Schiffs“ – Zu abschließend formuliert. Belegt sind die Rücklagenbildung und ein geplantes Finanzierungsziel, keine gesicherte Zukunft."
+        ],
+        "unsupported": [
+          "„sichern mit ihren Überschüssen die Zukunft des Schiffs“: Die Quelle nennt das Ziel, bis 2031 genügend Rücklagen für einen Elektroantrieb aufzubauen; eine gesicherte Zukunft des Fährbetriebs belegt sie nicht."
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„warteten die Menschen an beiden Elbufern nicht auf eine Lösung von außen“ – Das Verhalten der Bevölkerung wird erzählerisch ausgeschmückt, ohne dass die Quelle hierzu Angaben enthält.",
+          "„Als der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte“ – Das Datum der Betriebseinstellung ist nicht belegt.",
+          "„Das Ziel ist ein dauerhaft funktionierender Fährbetrieb, nicht Profit für die Mitglieder.“ – Die belegte Rücklagenregel wird zu einer ausdrücklich behaupteten Zielsetzung erweitert.",
+          "„Die Menschen, die den Übergang brauchen, tragen und steuern ihn selbst“ – Nutzer und Mitglieder werden ohne Beleg gleichgesetzt.",
+          "„Das ist der Grundgedanke jeder Genossenschaft: Menschen mit einem gemeinsamen Bedarf tun sich zusammen und betreiben gemeinsam, was einzelne nicht stemmen könnten.“ – „Jeder“ und die behauptete Unmöglichkeit des Einzelbetriebs verengen die allgemeine Erklärung unnötig. Gemeinsame Förderung setzt nicht voraus, dass Einzelne das Vorhaben keinesfalls allein bewältigen könnten."
+        ],
+        "unsupported": [
+          "„Als der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte“: Die Quelle nennt 1953 als Gründungsjahr, nicht ausdrücklich als Jahr der Betriebseinstellung.",
+          "„warteten die Menschen an beiden Elbufern nicht auf eine Lösung von außen“: Über ein solches Abwarten oder dessen Ausbleiben enthält die Quelle keine Angaben.",
+          "„Das Ziel ist ein dauerhaft funktionierender Fährbetrieb, nicht Profit für die Mitglieder.“: Diese ausdrückliche Zielbestimmung steht nicht in der Quelle; belegt ist die Nichtausschüttung der Überschüsse.",
+          "„Die Zahlen von 2024 zeigen, wie das Modell trägt“: Umsatz und Einnahmenstruktur allein belegen ohne Angaben zu Kosten und Ergebnis keine wirtschaftliche Tragfähigkeit.",
+          "„Die Menschen, die den Übergang brauchen, tragen und steuern ihn selbst“: Die Quelle belegt nicht, dass Nutzer und Mitglieder identisch sind."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "B",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3178,
+    "out": 2760,
+    "thinking": 1024
+  },
+  "costUsd": 0.033956
+}

@@ -1,0 +1,112 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Er ist heute wieder zwanzig Minuten zu spät gekommen“ und „Die Angebote […] liegen noch in deinem Postfach zur Freigabe, halb fertig“: Der Einstieg häuft unterschiedliche Kritikpunkte an. Ein klar umrissener Gesprächsanlass würde die Szene stärker fokussieren.",
+          "„Und um das, was danach kommt, wenn du dich für das Gespräch entschieden hast.“: Inhaltlich blasser Anschlusssatz, der die vorherige Aussage kaum erweitert.",
+          "„Schwierige Gespräche gehören zu deinem Alltag als Teamleiter, ob du willst oder nicht.“: Nach der anschaulichen Szene fällt der Schluss in eine allgemeine Ratgeberformel zurück."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 9,
+        "fehler": [
+          "„Denn du weißt genau, was passieren wird“: Der Text erklärt eine befürchtete Reaktion zur Gewissheit. Damit bestätigt er das voreilige Urteil über Markus, statt die Unsicherheit vor einem schwierigen Gespräch differenziert darzustellen.",
+          "„Doch genau hier entscheidet sich, ob dein Team dich als echte Führungskraft akzeptiert – oder nur als denjenigen, der die Arbeit verteilt.“: Überhöht das einzelne Gespräch zur Bewährungsprobe der gesamten Führungsrolle und endet mit einer unnötig scharfen Entweder-oder-Zuspitzung.",
+          "„Wenn du Kritik äußerst, begibst du dich auf dünnes Eis.“: Pauschale Warnung, die Kritik grundsätzlich als gefährlich erscheinen lässt; für einen praxisnahen Einstieg wenig hilfreich.",
+          "„die wahre Feuerprobe“, „auf dünnes Eis“, „die Stimmung […] vergiftet“: Die Häufung dramatisierender Bilder macht den Ton schwerer und pathetischer als nötig.",
+          "„Deshalb schieben wir solche Gespräche vor uns her“: Wechselt ohne erkennbaren Gewinn von der durchgängigen Du-Ansprache zum verallgemeinernden Wir."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Fast jeder, der ein Team führt, kennt dieses Ausweichen, und zwar nicht, weil ihm der Mut fehlt oder weil ihm die Sache egal ist.“: Schließt mögliche Ursachen pauschal aus. Die anschließende wohlwollende Erklärung wirkt dadurch psychologisch zu eindeutig.",
+          "„Du weißt, dass du etwas unternehmen musst.“: Wiederholt unmittelbar nach „ob du etwas unternimmst“ dieselbe Wendung, ohne den Gedanken wesentlich weiterzuführen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Kennst du das?“, „Das Problem ist nur:“ und „Dieses Kapitel handelt davon“: Der Text ist in vier Absätze gegliedert statt als einzelner Einstiegsabsatz gestaltet. Mit rund 290 Wörtern liegt er außerdem merklich über dem Richtwert.",
+          "„Man hat die Information, man hat den Anlass, man hat sogar die Zeit.“: Der Wechsel zur unpersönlichen Man-Form schwächt die unmittelbare Du-Ansprache; „die Information“ bleibt zudem auffällig abstrakt.",
+          "„ein Schritt über eine Kante, hinter der alles schiefgehen könnte“: Das räumliche Bild bleibt unscharf und dramatisiert die Situation unnötig.",
+          "„Es geht nicht um Tricks oder Formulierungen, die man auswendig lernen kann. Es geht um eine Haltung“: Der Schluss ersetzt die konkrete Szene zunehmend durch allgemeine Ratgeberbegriffe; insbesondere „eine Haltung“ bleibt unbestimmt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 9,
+        "fehler": [
+          "„So beginnen viele schwierige Gespräche“, „Doch während du wartest“ und „Dafür brauchst du keinen besonderen Titel“: Diese jeweils neuen Absätze ergeben zusammen mit der Szene vier Absätze; verlangt war ein einzelner Einstiegsabsatz.",
+          "„wird aus einer verpassten Frist schnell ein Muster“: Verkürzt den Zusammenhang. Ein Muster entsteht durch wiederholte Fristversäumnisse, nicht allein durch das Aufschieben eines Gesprächs."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "C",
+      "A",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2437,
+    "out": 1516,
+    "thinking": 409
+  },
+  "costUsd": 0.020034
+}

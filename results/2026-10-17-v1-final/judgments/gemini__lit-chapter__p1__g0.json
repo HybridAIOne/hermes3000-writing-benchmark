@@ -1,0 +1,112 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Er würde über den Winter reden wollen. Über die Bilanz vom dritten Quartal. Über den Makler aus Lüneburg.“ – Etwas aufdringliche Exposition durch Gedankenreferat, statt den Konflikt im Subtext zu belassen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„dass man das andere Ufer nur wusste.“ – Stilistisch schiefes Verb; man weiß um etwas oder ahnt das Ufer, aber man „weiß“ kein Ufer.",
+          "„einen dieser Kaffee in Pappbechern, die er ihr einmal mitgebracht und die sie nicht hatte austrinken können.“ – Grammatischer und logischer Bruch: Der Plural im Relativsatz bezieht sich auf „Pappbecher“, gemeint ist aber der Kaffee; zudem sachlich unsinnig, dass er volle Kaffeebecher aus München an die Elbe mitbringt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 5,
+        "stil": 4,
+        "aufgabe": 2,
+        "fehler": [
+          "„Der Motor kam husten, dann ruhig.“ – Schwerer Grammatikfehler („hustend“).",
+          "„Die Fähre löste sich von der Anlegestelle [...] Am Ufer stand er schon [...] als die Rampe herunterkam [...] Ilse löste die Kette vom Poller und ließ die Rampe hochschwingen. [...] Die zweite Passagierin kam auf dem Fahrrad den Deich herunter [...] Die Fähre glitt in die Mitte des Stroms.“ – Massiver Kontinuitäts- und Logikbruch: Die Fähre legt dreimal ab bzw. nimmt Fahrgäste vom Deich auf, nachdem sie bereits abgelegt hat.",
+          "„Das Telefon in ihrer Jackentasche zu vibrieren. Sie hatte es in den Steuerstand gelegt, neben die Thermoskanne, und das Summen klang auf dem Blech lauter [...] Ilse ließ es in der Jacke.“ – Logikbruch: Das Telefon ist gleichzeitig in der Jackentasche und liegt frei auf dem Blech neben der Thermoskanne.",
+          "„sie erkannte den Namen, ohne ihn lesen zu müssen.“ – Verstoß gegen Vorgabe c4: Der Name „Jonas“ wird im Text nicht genannt, der Anrufer ist für den Leser nicht erkennbar.",
+          "„Die Bücher klirrten nicht, sie waren nur schwer.“ – Unsinnige Metaphorik (warum sollten Bücher klirren?)."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„„Ist der Kaffee noch warm?“, fragte die Frau. Ilse blickte auf die Thermoskanne. „Meiner schon.““ – Charakterbruch: Für eine ernsthafte, wortkarge Figur ist diese Antwort unnötig schnippisch und unpassend schlagfertig.",
+          "„Sie hatte heute Morgen...“ (bzw. das Fehlen jeglicher Verortung) – Die Vorgaben „Hitzacker“, „Henning“ und „München“ fehlen komplett, der Text könnte überall an der Elbe spielen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Sie prüfte das Seil, erst mit den Augen, dann mit der Hand, und strich mit dem Daumen über eine ausgefranste Stelle.“ – Sachlicher Unsinn: Ein Stahlseil einer Elbfähre prüft man nicht mit dem bloßen Daumen auf ausgefranste Stellen (Verletzungsgefahr durch Drahtbrüche), zudem wirkt die Fähre mit „Handrad“, „Bremse“ und „Holzplanken“ wie ein kleiner Handkahn aus dem 19. Jahrhundert, nicht wie eine Elbfähre der Gegenwart.",
+          "„„Das hier ist kein Mobilfunkmast.“ [...] „Wenn wir ankommen, sind wir da.“ [...] „Wenn Schluss ist.““ – Ilse ist nicht wortkarg, sondern platt-schlagfertig und unhöflich bis zur Karikatur.",
+          "„Der Mann nahm eine Stofftasche von der Bank.“ – Kleiner Kontinuitätsfehler: Beim Einsteigen hatte der Mann keine Tasche dabei.",
+          "„Sie hatte heute Morgen den zweiten Handschuh nicht gleich gefunden. Er lag im Schubfach unter den Fahrkarten, neben einem Bleistift und den Gummibändern.“ – Belanglose Rückblende ins Nichts, die keinerlei Funktion für Text oder Figur hat."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "D",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 8200,
+    "out": 1256,
+    "thinking": 0
+  },
+  "costUsd": 0.02896
+}

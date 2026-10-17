@@ -1,0 +1,111 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 6,
+        "stil": 4,
+        "aufgabe": 7,
+        "fehler": [
+          "mit einem Seufzen, den nur altes Holz von sich gibt (Grammatikfehler: das Seufzen, daher »das«; oder »einem Seufzer, den«)",
+          "dunkel getränkt in die Maserung (schiefes Bild / unidiomatische Präposition: in die Maserung eingezogen oder von der Maserung aufgesogen)",
+          "roch es nach verschlossener Zeit (abgegriffene, bemühte Metapher)",
+          "Das Haus hatte geduldig gewartet, und es schien zu wissen, dass Eile jetzt niemandem mehr half (erklärender, leicht kitschiger Kalenderspruch-Schluss)",
+          "Marlene hob das Glas nicht an. Sie hob es gar nicht. (redundante, stilistisch unbeholfene Doppelung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "Die Wörter hatten ihr bis hierher geholfen. (minimal erklärend, bricht kurz die sonst sehr konsequente sinnliche Unmittelbarkeit)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "Helena bückte sich nicht danach. [...] strich mit dem Daumen über das kalte Metall des Lotes (schwerer Logikbruch: Das Lot liegt auf der untersten Treppenstufe; ohne sich zu bücken oder hinzuknien, kann eine stehende Frau es nicht mit dem Daumen berühren)",
+          "Unter ihren Stiefeln knirschte der Sand, den irgendjemand – vermutlich sie selbst an jenem Maimorgen – vor zwanzig Jahren hereingetragen hatte. (sachlich absurd: Die Mutter hat bis vor Kurzem im Haus gelebt, der Sand von vor zwanzig Jahren liegt nicht mehr unberührt im Flur)",
+          "eine schwere, birnenförmige Bleilot-Schnur (schiefe Wortbildung: Birnenförmig und aus Blei ist das Lot bzw. Senkblei selbst, nicht die Schnur)",
+          "in denen Myriaden von Staubpartikeln tanzten (abgegriffenes Standardklischee für alte Häuser)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "Eine Frau kehrt nach zwanzig Jahren [...] zurück (Aufgabenvorgabe komplett vergessen: Im Text wird mit keinem Wort erwähnt oder angedeutet, dass Hanna zwanzig Jahre lang nicht dort war)",
+          "daß sie nicht wusste, welcher Tag heute war (unglaubwürdige Behauptung für eine Reisende, die gerade erst mit Koffer ankommt)",
+          "stellte den Koffer ab, ohne ihn loszulassen (körperlich unpräzises Bild, erfordert ein unnatürliches Gebücktstehen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Die dritte Stufe knarrte nicht mehr. [...] In der Küche lag noch [...] Erst im Schlafzimmer (räumlicher Logikbruch in der Bewegung: Sie geht im dritten Absatz bereits die Treppe hinauf, ist im vierten plötzlich wieder unten in der Küche mit Blick in den Garten und im fünften im Schlafzimmer)",
+          "**Quitten** (überflüssige Überschrift mit Markdown-Formatierung, gefragt war die reine Eröffnungsszene eines Romans)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "D",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3133,
+    "out": 1003,
+    "thinking": 0
+  },
+  "costUsd": 0.016296
+}

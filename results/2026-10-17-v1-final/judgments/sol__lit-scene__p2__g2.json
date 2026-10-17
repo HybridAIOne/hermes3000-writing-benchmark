@@ -1,0 +1,116 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 9,
+        "fehler": [
+          "„aus angeschlagenem Emaille“: Genusfehler. Es heißt „aus angeschlagener Emaille“ oder „aus angeschlagenem Email“.",
+          "„die Gartenerde – und einmal auch etwas ganz anderes –“: Der eingeschobene Geheimnishinweis wirkt demonstrativ gesetzt. Er erklärt die beabsichtigte Beunruhigung, statt sie aus dem Gegenstand entstehen zu lassen.",
+          "„als wehrte sich das Messing“, „als atmete das Haus“, „wie ein gestrandetes Tier“: Die gehäuften Belebungen und Vergleiche überfrachten die kurze Szene und konkurrieren mit dem stärkeren Seifendetail.",
+          "„Zwanzig Jahre schrumpften auf die Breite einer Türschwelle zusammen“: Eine effektvolle, aber formelhafte Verdichtung, die das unmittelbar folgende Erleben vorab ausdeutet.",
+          "„Sie zog ihren Mantel enger um die Schultern, obwohl hier drinnen kein Wind ging“: Konventionelle Schlussgeste; der Nachsatz unterstreicht die ohnehin deutlich ausgestellte Beklemmung zusätzlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die Bohnen waren frisch“: Die vorher beschriebene intensive Duftwahrnehmung begründet diese Gewissheit nur bedingt. Gerade der zentrale irritierende Befund braucht eine präzisere sinnliche Absicherung.",
+          "„wenn sie die Bohnen mahlte und die Küche sich mit einer Wärme füllte, die nicht von der Heizung kam“: Sentimentale Erklärung einer Geborgenheit, die der Kaffeeduft bereits vermitteln könnte.",
+          "„dass ich mich am Tresen festhalten musste“: Die starke körperliche Reaktion bleibt schematisch; sie ersetzt eine individuellere Darstellung der Erinnerung.",
+          "„Im Hof schlug eine Tür zu. Ich rührte mich nicht“: Ein konventioneller Spannungsschluss, der die Szene in Richtung eines austauschbaren Bedrohungsmoments verschiebt.",
+          "„Vor zwanzig Jahren hatte ich diese Dose zuletzt gesehen“: Der Zeitraum wird genannt, die zwanzigjährige Abwesenheit vom Haus und der Tod der Mutter bleiben jedoch nur erschließbar. Mit rund 235 Wörtern bleibt der Text außerdem merklich unter dem Richtwert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Ihr Körper wusste es vor ihr“: Eine geläufige Formel für Körpergedächtnis. Das konkrete Anheben der Tür zeigt denselben Sachverhalt bereits überzeugender.",
+          "„ein schwarzes Haar“, „Die Seife roch nach Kümmel“, „Am neunzehnten stand, klein und mit Bleistift, ihr Name“: Drei auffällige Rätselsignale auf engem Raum lassen die ansonsten beiläufig und präzise entwickelte Szene gegen Ende etwas arrangiert wirken."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„sie musste sich am Türrahmen festhalten, nicht aus Trauer, sondern aus einer Art Schwindel“: Die Erklärung legt die Gefühlslesart unnötig fest; die körperliche Handlung könnte für sich stehen.",
+          "„als wäre der Boden um ein paar Zentimeter abgesackt“: Ein vertrautes Bild für Erschütterung, das gegenüber dem präzisen Detail der feuchten Orangenschale abfällt.",
+          "„für den Tee im Winter, für die Wäscheschubladen, gegen die Motten, gegen alles“: „gegen alles“ erweitert die konkrete Erinnerung zu einer etwas pathetischen Aussage über die Mutter.",
+          "„Dann zog sie den Mantel enger und horchte ins Haus hinein, das nicht antwortete“: Die konventionelle Beklemmungsgeste und das personifizierte Schweigen schwächen den stärkeren möglichen Schluss bei der zurückgelegten Schale."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Sie hielt die Hand darunter. Das Wasser schmeckte nach Eisen“: Der Übergang überspringt die entscheidende Handlung, das Wasser zum Mund zu führen. Dadurch entsteht eine kleine, vermeidbare Anschlusslücke.",
+          "„Sie hatte sich vorgenommen, nichts zu erwarten, und merkte jetzt, dass es nicht darum ging“: Die abstrakte Wendung bleibt unbestimmt und liefert weniger als die konkreten Beobachtungen davor und danach.",
+          "„als hätte jemand die Räume enger zusammengeschoben, um Heizkosten zu sparen“: Der originelle Vergleich führt unvermittelt einen saloppen, fast komischen Ton ein, der die sonst konzentrierte Wahrnehmung kurz unterbricht.",
+          "„Sie konnte die Schrift von hier aus nicht lesen. Sie wusste trotzdem, dass es die ihrer Mutter war“: Das emphatische „trotzdem“ inszeniert einen Gegensatz, der keiner sein muss: Handschrift lässt sich erkennen, ohne ihren Wortlaut entziffern zu können. Als Schluss trägt diese Erkenntnis deshalb weniger, als die Zuspitzung verspricht."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "E",
+      "B",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2759,
+    "out": 1821,
+    "thinking": 512
+  },
+  "costUsd": 0.023728
+}

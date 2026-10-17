@@ -1,0 +1,115 @@
+{
+  "task": "nf-from-source",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„gemeinsame Aufgabe gemeinsam zu tragen“ – unschöne Wortwiederholung gleich im ersten Satz.",
+          "„Heute treibt ein 85-kW-Dieselmotor die am Führungsseil hängende Fähre an; bis 1978...“ – dieser Satz ist im Absatz über die künftigen Überschüsse unlogisch platziert; die Fakten zur Fähre sind über zwei Absätze verstreut.",
+          "Der letzte Absatz wiederholt inhaltlich fast vollständig die bereits in Absatz 2 und 3 gemachten Aussagen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Für den Betrieb braucht es Einnahmen“ – stilistisch etwas floskelhafter Übergang innerhalb eines Absatzes, der technische Daten und Finanzzahlen recht unvermittelt mischt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Die an einem Führungsseil hängende Fähre überquert die an dieser Stelle 212 Meter breite Elbe“ – schwerfällige Häufung von erweiterten Partizipial- und Attributkonstruktionen.",
+          "„wobei es sich im Sommer vor allem um Radfahrer auf dem Elberadweg handelt“ – ungelenker, papierener Kanzleistil („wobei es sich um ... handelt“).",
+          "„wächst das finanzielle Polster stetig“ – im Quellmaterial nicht belegte Behauptung (ob es jedes Jahr Überschüsse gibt und das Polster stetig wächst, ist nicht bekannt)."
+        ],
+        "unsupported": [
+          "wächst das finanzielle Polster stetig"
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„setzt die Fähre jährlich über die hier 212 Meter breite Elbe über“ – klanglich und idiomatisch unschöne Konstruktion durch die Dopplung „über ... über“.",
+          "„was sich für einen einzelnen Eigentümer kaum lohnen würde“ – unbelegte Spekulation am Ende des Textes (angesichts von 29 % Gemeindezuschuss ist über die Rentabilität für Einzelpersonen nichts bekannt).",
+          "„## Gemeinsam über den Fluss: die Fährgenossenschaft Hitzacker“ – es war ein Abschnitt von etwa 300 Wörtern ohne Markdown-Formatierung oder Kapitelüberschrift gefragt."
+        ],
+        "unsupported": [
+          "was sich für einen einzelnen Eigentümer kaum lohnen würde"
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„taten sich 1953 41 Landwirte und Händler aus beiden Elbufern zusammen“ – zwei direkt aufeinanderfolgende Zahlen wirken im Druckbild ungeschickt; zudem übernimmt der Text unkritisch die unidiomatische Präposition der Vorlage („aus beiden Elbufern“ statt „von beiden Elbufern“).",
+          "„2024 betrug der Umsatz 186.000 Euro. Davon stammten [...] aus einem Zuschuss der Gemeinde. Das Geld bleibt im Betrieb.“ – sachlicher Kurzschluss: Der Text setzt hier Umsatz (Einnahmen) mit Überschuss (Gewinn) gleich. Umsatz bleibt nicht im Betrieb, sondern deckt zunächst die laufenden Kosten.",
+          "Sehr abgehackter Satzbau (Stakkato-Stil) an mehreren Stellen, etwa am Ende von Absatz 1 und 3."
+        ],
+        "unsupported": [
+          "2024 betrug der Umsatz 186.000 Euro. [...] Das Geld bleibt im Betrieb. (Verwechslung von Umsatz und Überschuss)"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3782,
+    "out": 1078,
+    "thinking": 0
+  },
+  "costUsd": 0.018344
+}

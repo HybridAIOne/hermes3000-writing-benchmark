@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "*Ein Café am Bahnhof. Regen am Fenster. HANNA sitzt bereits am Tisch, als PETER hereinkommt. Er bleibt in der Tür stehen.*\n\n**PETER:** Du bist früher gekommen.\n\n**HANNA:** Ich war nicht sicher, ob du kommst.\n\n**PETER:** Ich auch nicht.\n\n*Er setzt sich, ohne den Mantel auszuziehen.*\n\n**HANNA:** Willst du etwas bestellen?\n\n**PETER:** Wasser.\n\n**HANNA:** Du trinkst keinen Kaffee mehr?\n\n**PETER:** Doch. Nur nicht hier.\n\n*Pause. Sie dreht ihre Tasse, einmal, zweimal.*\n\n**HANNA:** Du siehst gut aus.\n\n**PETER:** Du auch. Der Mantel ist neu.\n\n**HANNA:** Der alte war durchgescheuert.\n\n**PETER:** Das hab ich gemerkt.\n\n*Sie lacht kurz, dann nicht mehr.*\n\n**HANNA:** Wie geht es Marie?\n\n**PETER:** Sie fragt nach dir.\n\n**HANNA:** Tut sie das?\n\n**PETER:** Sie fragt nach allem, was sie nicht versteht.\n\n*Der Kellner kommt, stellt Wasser ab, geht wieder.*\n\n**HANNA:** Ich hab deinen Brief bekommen.\n\n**PETER:** Welchen?\n\n**HANNA:** Den mit den drei Zeilen.\n\n**PETER:** Ich dachte, du hättest ihn verbrannt.\n\n**HANNA:** Das wäre einfacher gewesen.\n\n**PETER:** Für wen?\n\n*Sie zögert. Draußen fährt ein Bus vorbei.*\n\n**HANNA:** Für uns beide.\n\n**PETER:** Hast du den Schlüssel noch?\n\n**HANNA:** Welchen?\n\n**PETER:** Du weißt welchen.\n\n*Sie greift in die Manteltasche, lässt die Hand dort liegen.*\n\n**HANNA:** Ja.\n\n**PETER:** Gut.\n\n*Er trinkt. Sein Blick bleibt auf ihr.*\n\n**HANNA:** Dann sag, warum du gekommen bist.\n\n**PETER:** Du hast mich gebeten.\n\n**HANNA:** Ich habe dich gebeten zu kommen. Nicht zu schweigen.\n\n**PETER:** *(nach langer Pause)* Wir schweigen doch beide.\n\n*Sie lächelt traurig und schiebt ihm die Tasse zu. Er nimmt sie nicht.*\n\n**HANNA:** Pass auf dich auf, Peter.\n\n**PETER:** Du auch.\n\n*Er steht auf, legt Geld auf den Tisch. Sie rührt sich nicht.*",
+  "usage": {
+    "in": 126,
+    "out": 2442,
+    "thinking": 1461
+  },
+  "costUsd": 0.0012335999999999998,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 11040,
+  "meta": [],
+  "at": "2026-10-17T17:48:08.425Z"
+}

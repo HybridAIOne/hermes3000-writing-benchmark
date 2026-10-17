@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "text": "Das Schloss war widerspenstig, als hätte das Metall über zwei Jahrzehnte gelernt, Fremde auszusperren. Elena drückte die Schulter gegen das morsche Holz der Tür, bis sie mit einem trockenen Knallen nachgab und einen Stoß aus abgestandenem Staub und kalter Luft ausstieß.\n\nDas Haus roch nicht nach Tod, sondern nach einem langen, ungestörten Stillstand. Es war der Geruch von feuchtem Putz und dem fahlen Aroma von altem Papier, das langsam zerfällt. Das Licht fiel in schrägen, staubigen Bahnen durch die halb geschlossenen Jalousien und zeichnete präzise Streifen auf den Linoleumboden des Flurs, der an den Rändern bereits hochzuspringen begann.\n\nSie blieb im Eingang stehen. Die Stille hier war nicht leer; sie war massiv, fast physisch, wie eine Glocke, die über den Räumen hing. Nichts bewegte sich, außer den tanzenden Partikeln im Sonnenlicht. In der Küche stand noch der hölzerne Stuhl an der Seite des Tisches, leicht schräg, als wäre jemand erst vor einer Sekunde aufgestanden, um etwas zu holen und nie zurückgekehrt zu sein.\n\nElena trat einen Schritt vor und ihr Blick blieb an einem Detail hängen, das völlig fehlte: Die Wand im Flur war nackt, bis auf einen einzigen, kreisförmigen hellen Fleck in der Tapete. Dort, wo über zwanzig Jahre lang eine schwere, goldgerahmte Uhr gehangen hatte, war das Papier nicht verblichen. Der perfekte Kreis aus unberührtem Beige wirkte wie ein blindes Auge, das sie beobachtete. \n\nSie spürte den metallischen Geschmack von Angst auf der Zunge, während sie die Hand an die kalte Wand legte. Die Zeit war hier nicht vergangen; sie war lediglich gefroren. Und Elena wusste, dass sie das Eis jetzt eigenhändig brechen musste.",
+  "usage": {
+    "in": 84,
+    "out": 432,
+    "thinking": 0
+  },
+  "costUsd": 0.00018960000000000003,
+  "finish": "stop",
+  "reportedModel": "google/gemma-4-31b-it",
+  "upstream": "CoreWeave",
+  "latencyMs": 7066,
+  "meta": [],
+  "at": "2026-10-17T17:23:29.101Z"
+}

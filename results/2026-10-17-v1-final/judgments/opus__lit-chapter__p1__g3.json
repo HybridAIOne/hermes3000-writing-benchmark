@@ -1,0 +1,83 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die Dieselheizung unter dem Pult klackerte im Leerlauf und verströmte den vertrauten Geruch“: Die Heizung hat keinen Leerlauf, und „vertraut“ ist leeres Füllwort.",
+          "„milchige Suppe“ … „feuchten Watte des Nebels“ … „kahle, schwarze Finger“: Die Nebel- und Naturbilder sind abgegriffen.",
+          "„Über die Verträge für den Verkauf der Fährrechte, über die Maklerin aus Lüneburg, über die Treppen“: Hier wird die Konfliktlage erklärend nachgereicht und nicht szenisch gezeigt.",
+          "„In der Innentasche ihrer Jacke“ vs. „zurück in die Brusttasche“: Die Lage des Telefons ist inkonsistent.",
+          "„Sie kurbelte die Landeklappe hoch, bis die Hydraulik übernahm“ / „Mit einem Griff löste sie die Halteleine“ aus dem Steuerhaus: Die Technik ist unplausibel und überladen (Radar, Hilfsmotor, Gierseil)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Vom anderen Ufer erschien zuerst die Lampe.“: Die Präposition ist schief, besser wäre „Am anderen Ufer“.",
+          "„Die Kette spannte sich mit einem metallenen Schlag“: „metallisch“ wäre idiomatischer.",
+          "„Erst wich nur die Kante der Rampe zurück, dann der Poller, dann war auch der Poller weg.“: Die Wiederholung wirkt eher ungelenk als bewusst gesetzt.",
+          "„Darunter ein Foto, auf dem er die Augen zusammenkniff.“: Der Anruf als Schluss ist sehr knapp, Jonas bleibt blass.",
+          "„Ein Centstück blieb an ihrem Handschuh hängen.“: Die Handschuhlogik ist knapp nachvollziehbar, nachdem sie den rechten ausgezogen hatte."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "„Die Fähre löste sich von der Anlegestelle“ und danach „Am Ufer stand er schon … als die Rampe herunterkam“: Die Fähre legt ab, bevor die Fahrgäste zugestiegen sind – ein Logikbruch.",
+          "„Der dritte Passagier stand schon die ganze Zeit am Heck. Ilse hatte ihn beim Ablegen nicht bemerkt“: Dass die wortkarge, aufmerksame Fährfrau einen Fahrgast übersieht, ist unglaubwürdig.",
+          "„in ihrer Jackentasche zu vibrieren. Sie hatte es in den Steuerstand gelegt“ … „Ilse ließ es in der Jacke.“: Die Lage des Telefons widerspricht sich.",
+          "„Der Motor kam husten, dann ruhig.“: Der Satz ist grammatisch fehlerhaft.",
+          "„sie erkannte den Namen, ohne ihn lesen zu müssen“: Jonas wird nie genannt, der Anrufer ist nicht erkennbar. Außerdem steht „Ruder“ auf einer Seilfähre."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 9801,
+    "out": 2820,
+    "thinking": 1551
+  },
+  "costUsd": 0.095604
+}

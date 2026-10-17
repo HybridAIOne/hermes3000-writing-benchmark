@@ -1,0 +1,110 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "\"Your mother said it sometimes,\" he said. \"Near the end. She was proud of you. She said you never sat down on a shift.\" (Bricht die Vorgabe 'no clichés' und nimmt eine melodramatische Enthüllung vorweg, die der zurückhaltenden Tonalität widerspricht)",
+          "Maren felt the words land somewhere under her ribs and stay there. (Abgegriffenes Klischee für emotionale Betroffenheit)",
+          "Maren walked the fourth-floor corridor [...] The chapel was off the lobby [...] Somewhere below, a cart rattled (Räumlicher Logikbruch: Sie geht ohne erwähnten Ortswechsel vom vierten Stock direkt in die Kapelle an der Lobby im Erdgeschoss, hört dann aber Geräusche von einem Stockwerk tiefer)",
+          "...until she could breathe. (Pathetisches Klischee am Ende, das das geforderte 'restrained' und das reine Abschlussbild untergräbt)",
+          "...with her badge turned face-in against her hip, the way you'd carry a letter you didn't want to read in front of anyone. (Schiefer, überkonstruierter Vergleich: Ein Namensschild am Clip trägt man nicht wie einen geheimen Brief)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "She noticed that his shoes were dry, though water had collected beneath the hem of his coat. (Physikalisch etwas unplausibles Detail, das stark nach konstruiertem Mystery-Hinweis klingt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "...the ordinary machinery of people keeping one another alive. (Stilbruch: Zu erklärend und pathetisch-sentimental für den geforderten zurückhaltenden Stil)",
+          "The lilies leaned toward the chapel window... (Botanisch unplausibel: Schnittblumen in einem Glas neigen sich nachts nicht dem blauen Parkplatzlicht entgegen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "...a battery tealight burned... / The tealight shivered in its plastic cup, though no air moved. (Semantischer und physikalischer Unsinn: Ein elektrisches Teelicht 'brennt' nicht und 'zittert' auch nicht im Luftzug – oder ohne Luftzug – in seinem Plastikbecher; hier wurden echtes Wachslicht und LED-Licht verwechselt)",
+          "Then she reached up and turned her lanyard around, so the photo faced out, and stood there letting him read whatever he liked. (Psychologisch völlig unplausibel: Sie verbirgt das Schild extra wegen Stalking-Erfahrungen, präsentiert es aber grundlos einem unheimlichen Fremden um 4 Uhr nachts)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "His hands were folded [...] When she stood to go, he had taken off one glove... (Logik- und Wahrnehmungsbruch: Zuvor betrachtet er minutenlang die Falten in seinen Händen – 'as if the answer might be in the creases' –, was mit Handschuhen kaum möglich ist, bzw. hätte der Erzählerin auffallen müssen, dass er Handschuhe trägt)",
+          "**Second Pew** (Verstoß gegen die implizite Vorgabe, eine Szene für einen Roman zu schreiben, keine betitelte Kurzgeschichte)",
+          "\"You changed my wife's dressing. Twice a night. You hummed.\" (Nimmt der Szene das Mysterium durch eine sofortige, etwas rührselige Auflösung in der Mitte des Textes)",
+          "...as though it were still holding something small. (Überdeutliches, leicht kitschiges Abschlussbild)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "E",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2667,
+    "out": 1090,
+    "thinking": 0
+  },
+  "costUsd": 0.016234
+}

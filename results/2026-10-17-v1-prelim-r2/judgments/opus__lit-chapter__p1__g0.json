@@ -1,0 +1,126 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "D": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "E": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 3,
+        "fehler": [
+          "»Die zweite Fahrgästin kam in letzter Minute.« – es gibt nur zwei Fahrgäste, ein dritter fehlt",
+          "»Sie sah nur auf das Display, das sich durch den Stoff nicht zeigte« – Logikbruch, das Telefon bleibt in der Tasche",
+          "»und wusste trotzdem, wer es war« – der Anrufer wird nie als Jonas benannt",
+          "»Sie fährt seit 1961 bei jedem Nebel, und wenn sie es nicht täte, säße ich heute hier nicht.« – unklare Pointe für eine wortkarge Figur",
+          "»Die wollen die Buhne bei Schnackenburg abnehmen« – idiomatisch schief"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c3",
+          "c4"
+        ]
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "»sie konnte den Anleger durch das Fernglas sehen« – Logikbruch bei dichtem Nebel",
+          "»Nach zwei Wochen an der Elbe begriff das selbst eine aus Berlin« – widerspricht »seit drei Wochen im alten Zollhaus«",
+          "»Ilse nahm die Scheine« – es gab nur eine Fünf-Euro-Note",
+          "»mit der Hartholzlappe aufs Kabel dreschen« – unklares Wort",
+          "»die ihn vor fünf Jahren aus dem Wendland fortgezogen hatten« – Ansatz von Expositionsrückblick; Text deutlich über 900 Wörter"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 6,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "»„Neunundachtzig warst du mal krank.“ „Da war ich neun.“« – Logikbruch, Ilse ist 61",
+          "»Fahr dich rüber nach Hause, Meinke« – ungrammatisch",
+          "»in dem etwas Klirrte« – Großschreibung falsch",
+          "»drei Wörter einer Nachricht vom Vortag […]: Mama, melde dich bitte, es« – mehr als drei Wörter",
+          "„Zwei fünfzig\" – uneinheitliche Anführungszeichen; Text mit ca. 1350 Wörtern deutlich zu lang"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "»irgendwo über ihr, in der Nebeldecke, war der erste Laut des Tages: ein Boot« – unlogisches Bild",
+          "»Draußen hob der Nebel ein wenig« – Reflexivpronomen »sich« fehlt",
+          "»legte sich auf ihre Haut wie eine zweite Haut« – plumpe Wiederholung, Klischee",
+          "»Grau auf grau« – richtig wäre »Grau auf Grau«",
+          "»Jonas auf einem Boot in München« – schiefes Detail; insgesamt blasse, erklärende Erzählweise"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 2,
+        "stil": 2,
+        "aufgabe": 2,
+        "fehler": [
+          "»Ich stand am Steg« – Ich-Form statt personaler Erzählerin",
+          "»er sagnte nichts« / »wo man hintradieren konnte« – Wortfehler bzw. Unwörter",
+          "»Die Fähre hing in der Schläge« / »nach humus« – falsches Wort, Kleinschreibung",
+          "»eine Firma […], die Sechstage Wochen hatte und in der man abends um zehn noch Mails schrie« – mehrere Fehler",
+          "»und der Hund – nicht mein Hund, den hatte ich nicht mehr – nein, der Postbote stieg einfach auf« – zerfallene Syntax, Logikbrüche"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c1"
+        ]
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "D",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 15536,
+    "out": 2925,
+    "thinking": 1531
+  },
+  "costUsd": 0.120644
+}

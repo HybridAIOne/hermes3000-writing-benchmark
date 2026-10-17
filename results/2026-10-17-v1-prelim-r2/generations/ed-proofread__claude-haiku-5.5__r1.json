@@ -1,0 +1,18 @@
+{
+  "task": "ed-proofread",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "Ilse wusste gar nicht, wie lange sie schon am Anleger stand. Wegen des Nebels war die Fähre seit dem Morgen nicht gefahren, und die Leute, die sonst ungeduldig wurden, hatten sich ins Wartehäuschen zurückgezogen. Eine Gruppe Radfahrer wartete am Schlagbaum. Der Mann von der Kreisverwaltung, dem sie gestern begegnet ist, hatte gesagt, dass es sich nicht mehr lohne. „Is’ doch wahr“, hatte er gesagt, „rechnen Sie doch mal nach.“ Sie hatte nicht nachgerechnet. Sie hatte die Leine überprüft, den Motor, die Rampe, so wie Henning es ihr beigebracht hatte. Seit sie die Fähre allein führte, kam ihr Sohn seltener, und sein Widerstand gegen die Fähre wuchs. Er schrieb E-Mails, in denen er ihr vorschlug, die Fähre zu verkaufen, und rief an, wenn er glaubte, dass sie nachgeben würde. Morgen früh würde er wieder anrufen. Sie wusste es. Und sie wusste auch, was sie ihm sagen würde: Nichts. Der Nebel lichtete sich ein wenig, und am anderen Ufer wurden die Weiden sichtbar, grau, dann grün. Sie ließ den Motor an.\n\nDes Weiteren ist die Fähre auf Spenden angewiesen, denn die Rücklage wächst langsamer als erwartet. Wie viel genau fehlt, weiß im Nachhinein niemand mehr so recht. Der Kassenwart, der als Einziger den Überblick behielt, rechnete im Allgemeinen vorsichtig, am besten schon im Januar. Seitdem der Pegel im Sommer sinkt, ist die Strömung stärker geworden, und der Motor braucht mehr Diesel, als der Standard vorsieht. Die Brennnesseln am Ufer wuchsen bis zum Geländer, und der Rhythmus der Überfahrten bestimmte noch immer den Tag. Ilse wartete so lange, bis der letzte Radfahrer an Bord war.",
+  "usage": {
+    "in": 998,
+    "out": 2670,
+    "thinking": 1879
+  },
+  "costUsd": 0.0014348,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 9916,
+  "meta": [],
+  "at": "2026-10-17T17:18:22.545Z"
+}

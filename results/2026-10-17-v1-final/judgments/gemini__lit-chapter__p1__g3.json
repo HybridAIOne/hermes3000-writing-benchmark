@@ -1,0 +1,76 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur deshalb kannte, weil es seit dreiundzwanzig Jahren an derselben Stelle war.“ (Semantisch leicht schief: „kannte“ statt „wusste, wo es lag“ – der Nebel löscht ja nicht ihre Erinnerung aus.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Es war sechs Uhr siebenundvierzig.“ vs. „Sie sah auf die Uhr. Neunundvierzig Minuten nach sechs.“ (Schwerer Zeit-Logikbruch: Beladen, Kassieren, Ablegen und fast die gesamte Überfahrt über die Elbe dauern zusammen nur zwei Minuten.)",
+          "„... darunter ein Foto, das sie nie selbst eingestellt hatte: Jonas in einem hellgrauen Anzug, mit offenem Hemdkragen und einem Glas Weißwein in der Hand, im Hintergrund unscharfe Münchner Hausdächer in der Abendsonne.“ (Unglaubwürdiges Detail auf einem winzigen Anruferbildschirm und plumpe Info-Dump-Exposition.)",
+          "„Am Ring hing noch immer der abgegriffene Messinganhänger in Form eines kleinen Ankers, den Henning vor zwanzig Jahren aus Cuxhaven mitgebracht hatte.“ (Abhak-Exposition der Hintergrundgeschichte mit dem Holzhammer.)",
+          "„Der Nebel hockte so tief über dem Strom“ / „das armdicke Stahlseil, das sich schräg in das Nichts fraß.“ (Überbemühte, schiefe Metaphorik gleich im ersten Absatz.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "„Am Anleger lag die nächste kleine Warteschlange in der üblichen Ordnung: erst der Mann mit dem Fahrrad, dann die Frau, dann der Lieferwagen. Nein, die waren schon drüben. Ilse sah auf das leere Deck ...“ (Völlig wirre Passage: Halluziniert die Protagonistin plötzlich die identischen Fahrgäste herbei? Oder hat der Text hier den Faden verloren?)",
+          "„Ilse ging zum Geländer ... Sie korrigierte mit dem Hebel.“ (Räumlicher Logikbruch: Der Steuerhebel befindet sich im Steuerhaus, nicht frei am Geländer auf dem Deck.)",
+          "„Der Nebel lag so dicht auf der Elbe, dass Ilse das andere Ufer nur daran erkannte, dass es fehlte.“ (Unsinniges Paradoxon.)",
+          "„Die Frau sagte auch Morgen.“ (Grammatikalisch unsauber durch fehlende Anführungszeichen bei direkter Rede bzw. falsche Großschreibung.)",
+          "„Sie ließ den Motor laufen, bis die Fähre sich vom Ufer löste, dann drehte sie sie zurück in die Strömung.“ (Sachlich falsch: Eine Seilfähre am Drahtseil wendet oder dreht nicht im Fluss.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 5557,
+    "out": 827,
+    "thinking": 0
+  },
+  "costUsd": 0.019384
+}

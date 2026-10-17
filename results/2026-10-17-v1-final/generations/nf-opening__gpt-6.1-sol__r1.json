@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "Es ist Dienstag, kurz vor zehn. Du stehst mit einer Kaffeetasse vor dem Besprechungsraum, als dir auffällt, dass die Zahlen für den Kundentermin noch immer fehlen. Martin wollte sie gestern schicken. Zum dritten Mal in diesem Monat hast du deshalb morgens selbst nacharbeiten müssen. Jetzt sitzt er an seinem Platz, schaut auf den Bildschirm und sagt: „Bin noch nicht dazu gekommen.“ Du nickst, obwohl du dich ärgerst. Für eine Diskussion ist gerade keine Zeit. Also sagst du: „Schon gut, ich mache das schnell.“ Auf dem Weg zurück an deinen Schreibtisch weißt du bereits, dass gar nichts gut ist. Nicht die zusätzliche Arbeit. Nicht dein knapper Ton. Und auch nicht die Tatsache, dass du Martin inzwischen möglichst aus dem Weg gehst. Vielleicht kennst du solche Momente. Du sollst dafür sorgen, dass die Arbeit im Team klappt, bist aber nicht der disziplinarische Vorgesetzte. Du kannst niemanden einfach anweisen, sein Verhalten zu ändern. Gleichzeitig möchtest du nicht ständig hinter anderen herräumen. Was also tun? Zunächst brauchst du keinen besonders geschickten Satz, sondern einen Termin mit Martin, bevor der nächste Kundentermin drängt. In Ruhe kannst du sagen, was passiert ist, welche Folgen es für deine Arbeit hatte und was du künftig brauchst. Dazu gehört auch, seine Sicht anzuhören. Vielleicht fehlt ihm etwas, vielleicht hat er andere Prioritäten gesetzt, vielleicht hält er eure Absprache für weniger verbindlich als du. Das erfährst du nicht, wenn du weiter „Schon gut“ sagst. Das Gespräch wird dadurch nicht unbedingt angenehm. Aber ihr bekommt die Gelegenheit, eine klare Vereinbarung zu treffen, statt denselben Ärger nächste Woche noch einmal zu erleben.",
+  "usage": {
+    "in": 152,
+    "out": 398,
+    "thinking": 29
+  },
+  "costUsd": 0.004284,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 15771,
+  "meta": [],
+  "at": "2026-10-17T17:47:55.126Z"
+}

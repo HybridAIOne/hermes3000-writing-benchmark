@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "gemini-3.8-flash-low",
+  "run": 1,
+  "text": "Hier ist der Entwurf für die Gliederung:\n\n***\n\n### Buchkonzept: Führen ohne Titel\n\n**Kapitel 1: Gestern Kollege, heute Chef: Dein Rollenwechsel**  \nDu lernst, wie du den Übergang vom Kumpel zur Führungskraft meisterst, ohne dich zu verstellen oder den Kontakt zum Team zu verlieren.\n\n**Kapitel 2: Den Überblick behalten: Wie du dich selbst und deinen Tag organisierst**  \nDieses Kapitel zeigt dir, wie du den Sprung vom reinen Facharbeiter zum Koordinator schaffst, deine eigenen Aufgaben priorisierst und nicht im Tagesgeschäft ertrinkst.\n\n**Kapitel 3: Klartext reden: Erwartungen sauber formulieren und abstimmen**  \nDu erfährst, wie du Aufgaben so übergibst, dass das Ergebnis stimmt, und wie du nach oben sowie nach unten glasklar kommunizierst, was du brauchst.\n\n**Kapitel 4: Vertrauen statt Kontrolle: Richtig abgeben, ohne die Verantwortung zu verlieren**  \nHier lernst du handfeste Methoden, um Aufgaben schrittweise an dein Team zu delegieren, damit du Freiraum gewinnst und deine Leute wachsen können.\n\n**Kapitel 5: Wenn es knallt: Schwierige Gespräche sicher und fair führen**  \nDu bekommst einen konkreten Leitfaden an die Hand, um schlechte Leistungen, Fehlverhalten oder Konflikte im Team direkt, sachlich und auf Augenhöhe anzusprechen.\n\n**Kapitel 6: Der Puffer zwischen den Stühlen: Mit Druck von oben gesund umgehen**  \nDieses Kapitel hilft dir, die Anforderungen der Geschäftsleitung so an dein Team weiterzugeben, dass du weder deine Leute verheizt noch selbst zerrieben wirst.\n\n**Kapitel 7: Das Team zusammenschweißen: Wie aus Einzelkämpfern eine Einheit wird**  \nDu erfährst, wie du ein Arbeitsklima schaffst, in dem sich die Kollegen gegenseitig unterstützen und gemeinsam Verantwortung für das Gesamtergebnis übernehmen.\n\n**Kapitel 8: Dein eigener Kompass: Gelassenheit und die Haltung als Führungskraft**  \nZum Abschluss entwickelst du deinen persönlichen Führungsstil, lernst Grenzen zu setzen und behältst auch in stressigen Phasen die nötige Ruhe.",
+  "usage": {
+    "in": 125,
+    "out": 499,
+    "thinking": 0
+  },
+  "costUsd": 0.0017865900000000002,
+  "finish": "STOP",
+  "reportedModel": "gemini-3.8-flash",
+  "upstream": null,
+  "latencyMs": 6867,
+  "meta": [
+    "preamble"
+  ],
+  "at": "2026-10-17T17:19:06.173Z"
+}

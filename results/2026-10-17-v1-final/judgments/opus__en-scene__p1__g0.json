@@ -1,0 +1,118 @@
+{
+  "task": "en-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "\"I was told to wait.\" – slightly stock mystery formula",
+          "\"She could have called security. She could have stood and asked again\" – familiar paired construction",
+          "\"His shoes were dry. She noticed this before his face.\" – the hint stays without effect, a minor loose end"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "\"In her pocket, her fingers found the comb. A long grey hair was still wound through its teeth.\" – ends on a disclosure/twist rather than a pure image, and tips into sentimentality",
+          "\"Bed fourteen. March, I think. You did my mother's hair before they came for her.\" – explains how he knows her name, contrary to the restraint the task asks for",
+          "\"at the single sheet pulled halfway up, waiting for someone\" – heavily symbolic",
+          "Logic: she cannot remember the patient, yet she has carried the comb with the hair in it since March",
+          "\"the kind of tidy that takes effort at that hour\" – explanatory narrator commentary"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "\"It wasn't a question.\" – worn-out formula",
+          "\"as if he'd been saying it silently for some time\" – overwrought, it interprets too much",
+          "\"She should call security.\" – predictable beat",
+          "\"the way she wore it on nights, photo facing in\" – slightly redundant"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "\"the ordinary machinery of people keeping one another alive\" – explains and moralizes instead of showing",
+          "\"Sir, visiting hours are over.\" – stock line, odd in a chapel",
+          "\"I don't remember.\" – mystery without any texture of its own",
+          "\"a monitor gave one brief, insistent beep, then stopped\" – stock hospital atmosphere",
+          "\"At 4:03, Lena found a man sitting in the hospital chapel\" – flat summary opening that merely restates the prompt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "\"Her name tag says M. OSTRANDER in small letters, so he would have had to read it\" – logic slip: the tag does not contain the name Maren, and it is turned face-in",
+          "\"Her hair is still short.\" – contradictory or unclear (\"still\" against \"was longer\")",
+          "\"the radiator knocks like it's trying to get out\" – cliché simile",
+          "\"goes quiet in a way that has nothing to do with sleep\" – stock opening; also \"the door sighs shut\" and \"It isn't a question\"",
+          "Clearly over the length (about 320 words instead of about 250)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3738,
+    "out": 2031,
+    "thinking": 992
+  },
+  "costUsd": 0.055572
+}

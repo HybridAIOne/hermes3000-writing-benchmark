@@ -1,0 +1,101 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "C": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„mit einem tiefen, kehligen Husten, das den ganzen Stahlbau“ – falsches Relativpronomen, richtig wäre „der“",
+          "„der erste Übersetztermin des Tages“ – ungebräuchliches Wort, gemeint ist wohl „Übersetzen“ oder „die erste Fahrt“",
+          "„Totentanz.“ – als Antwort auf „Ruhig heute?“ idiomatisch schief",
+          "„Die Bohlen unter den Reifen ächzten“ – widerspricht den zuvor genannten „Riffelblechen“ des Decks",
+          "„Er würde von Immobilienpreisen reden, vom Winter, …“ – die Spekulation über Jonas gerät etwas erklärend"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie hatte die Leinen gelöst … wartete, bis die drei Fahrgäste an Bord waren“ – unklare Abfolge: Die Fähre legt ab, während noch auf die Fahrgäste gewartet wird",
+          "„„Ist das normal, dass man nichts sieht?“ fragte er“ – fehlendes Komma nach dem Anführungszeichen",
+          "„Ilse löste die Leinen wieder und drehte die Fähre“ – eine Seilfähre wendet nicht; technischer Logikbruch",
+          "„„Fahrplan gilt“, sagte Ilse.“ – passt nicht zur Frage nach der Verbindung, der Dialog läuft ins Leere",
+          "„Der Nebel lag weiterhin über dem Fluss.“ – flaches, wiederholendes Ende; der Text erzählt durchgehend statt zu zeigen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 6,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "„Drei Fahrzeuge warteten dort.“ – widerspricht dem dritten Fahrgast, der „zu Fuß gekommen war“",
+          "„München. Tausende Kilometer Beton und Glas“ – sachlich falsch, München liegt rund 700 km entfernt",
+          "„die an eine religiöse Handlung grenzte“ / „mit einer perfekt sitzenden Sonnenbrille, obwohl die Sonne seit Wochen nicht mehr zu sehen war“ – Klischee und Überzeichnung",
+          "„Sie brachte die Fähre an ihrem Ufer an“ – idiomatisch fehlerhaft",
+          "„Es war dieser spezifische Novembermorgen“ / „ihre maximale Wirkung entfaltete“ – Anglizismus und erklärende Behauptung statt Szene"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Seine Kaffeetasse war wieder in der Hand.“ – zuvor ein Pappbecher, den er in die Jackentasche gesteckt hatte; Inkonsistenz",
+          "„Die Kette lief aus dem Wasser“ vs. „Ich dachte, die fährt an einem Seil.“ – „Tut sie auch“ – Kette und Seil vermischt",
+          "„vom Regen an die Planken gedrückt“ – reibt sich mit „obwohl es nicht regnete“",
+          "„als hätte er damit gerechnet“ / „als könnte er dort etwas lesen“ / „als hätte er verstanden“ – wiederkehrende Vergleichsmasche",
+          "„Damit waren sie zu dritt.“ – missverständlich, da mit Ilse vier Personen an Bord sind"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 11666,
+    "out": 3336,
+    "thinking": 1996
+  },
+  "costUsd": 0.113384
+}

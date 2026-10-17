@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "**Führen ohne Titel**\n\n**Kapitel 1: Der erste Tag danach**\nWarum du als frisch Beförderter plötzlich anders dastehst, was sich sofort verändert und was du in den ersten 30 Tagen besser nicht tust.\n\n**Kapitel 2: Vom Macher zum Verantwortlichen**\nWarum du aufhören musst, die beste Arbeit selbst zu machen, und welche Aufgaben stattdessen wirklich bei dir liegen.\n\n**Kapitel 3: Dein Team wirklich kennen**\nWie du in wenigen Wochen herausfindest, wer was kann, was jeder braucht und wem du welche Verantwortung zutrauen kannst.\n\n**Kapitel 4: Klare Ansagen**\nWie du Ziele, Erwartungen und Prioritäten so formulierst, dass niemand raten muss, was eigentlich von ihm verlangt wird.\n\n**Kapitel 5: Entscheiden, ohne alles zu wissen**\nWie du auch mit unvollständigen Informationen Entscheidungen triffst, sie vertrittst und mit Fehlern, deinen und fremden, umgehst.\n\n**Kapitel 6: Verbindlichkeit im Alltag**\nWie du Zusagen nachhältst, Absprachen einforderst und Regeln durchsetzt, ohne zum Kontrolleur oder zum Kumpel zu werden.\n\n**Kapitel 7: Schwierige Gespräche führen**\nWie du Kritik, Konflikte und unangenehme Wahrheiten anspricht, ohne sie zu verschleppen oder zu eskalieren, inklusive Gesprächsvorbereitung und einem Leitfaden für Trennungsgespräche.\n\n**Kapitel 8: Zwischen den Stühlen**\nWie du mit deiner eigenen Geschäftsführung verhandelst, Entscheidungen von oben nach unten übersetzt und lernst, Nein zu sagen, ohne dein Team oder dich selbst zu verlieren.\n\n**Kapitel 9: Deine Haltung als Führungskraft**\nWelche Art von Führungskraft du sein willst, welche Maßstäbe du an dich selbst anlegen solltest und wie du dranbleibst, wenn es mühsam wird.",
+  "usage": {
+    "in": 242,
+    "out": 1939,
+    "thinking": 1133
+  },
+  "costUsd": 0.0009937000000000001,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 9526,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:20:32.415Z"
+}

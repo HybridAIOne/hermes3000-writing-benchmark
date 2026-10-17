@@ -1,0 +1,23 @@
+{
+  "task": "ed-feedback",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "found": [
+      "rampe",
+      "tempus",
+      "perspektive",
+      "wiederholung",
+      "fahrgaeste",
+      "hupe"
+    ],
+    "false_alarms": 1
+  },
+  "usage": {
+    "in": 2353,
+    "out": 561,
+    "thinking": 513
+  },
+  "costUsd": 0.020632
+}

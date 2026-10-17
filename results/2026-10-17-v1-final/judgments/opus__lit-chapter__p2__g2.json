@@ -1,0 +1,123 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„von dem er neulich ein Prospekt geschickt hatte“ – falscher Kasus, richtig: „einen Prospekt“",
+          "„Es würde um das Haus gehen. Oder um die Werft-Rechnung vom Oktober, die er bei seinem letzten Besuch auf dem Küchentisch gesehen hatte“ – erklärende Exposition, verstößt gegen die Vorgabe „ohne Rückblenden-Exposition“",
+          "„das Seil sang sein leises, metallisches Lied“ – abgegriffenes Bild",
+          "„Sie fuhren durch ein vollkommenes Nichts“ – kurz nach „das weiche Grau, das alles verschluckte“ wiederholt sich dieselbe Nebelformel",
+          "„Dann drückte sie nicht auf den roten Hörer, sondern schob das Telefon einfach zurück“ – umständlich, die Verneinung erklärt, statt zu zeigen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Das hatte sie gestern ausprobieren müssen, obwohl sie es wusste.“ – logisch schief und unklar",
+          "„Die Fahrerin trug ihre Haare noch feucht“ – idiomatisch holprig",
+          "„Bei den Münzen blieb sie kurz stehen.“ – falsches Verb, gemeint ist „stockte“",
+          "„Drei Fahrgäste. Zwei Autos, ein Fahrrad.“ – Bestandsaufnahme wirkt wie ein Abhaken der Vorgaben",
+          "Durchgehender Staccato-Rhythmus mit vielen Einzeilern wirkt auf Dauer mechanisch"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Moin\"“ – uneinheitliche Anführungszeichen, auf „„“ folgt ein gerades statt eines typografischen Schlusszeichens",
+          "„nur deshalb kannte, weil es seit dreiundzwanzig Jahren an derselben Stelle war“ – schiefe Logik, das Ufer liegt immer an derselben Stelle",
+          "„zum Fahrradständer am Heck, wo zwischen Rettungsring und Werkzeugkiste eine Schachtel stand“ – unklare räumliche Konstruktion",
+          "„und er wollte eine Quittung, und sie schrieb ihm eine auf den Block“ – Polysyndeton grenzt an Manier",
+          "„seit dem Hochwasser“ – kleiner Rückgriff, aber vertretbar"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„dass Ilse das andere Ufer nur an dem Geräusch erkannte […] gegen die Bohlen am Anleger drückte“ – Logikbruch, der Anleger liegt am eigenen Ufer",
+          "„Dann ist er schon da, wenn ich den Motor brauche.“ – tautologisch und unverständlich",
+          "„und spannte sich in den Nebel hinein, auf beide Seiten“ – räumlich unklar",
+          "„als überlege er es sich“ – leicht gesuchte Personifikation",
+          "„wie es Henning ihr gezeigt hatte“ – minimaler Rückgriff"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 5,
+        "stil": 5,
+        "aufgabe": 3,
+        "fehler": [
+          "„Der Motor kam husten, dann ruhig.“ – grammatisch fehlerhaft",
+          "„in ihrer Jackentasche zu vibrieren. Sie hatte es in den Steuerstand gelegt“ – Widerspruch",
+          "„Die Fähre löste sich von der Anlegestelle […] Am Ufer stand er schon […] als die Rampe herunterkam“ – Ablauf von Ablegen und Zusteigen ist unlogisch",
+          "„sie erkannte den Namen, ohne ihn lesen zu müssen“ – Jonas wird als Anrufer nie benannt",
+          "„Ilse hatte ihn beim Ablegen nicht bemerkt, er war einfach dagewesen“ – unplausibel bei genau drei Fahrgästen"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "D",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 15202,
+    "out": 4034,
+    "thinking": 2460
+  },
+  "costUsd": 0.141488
+}

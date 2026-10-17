@@ -1,0 +1,99 @@
+{
+  "task": "lit-dialogue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Es tut mir leid.\" / \"Das reicht nicht.\" – der Konflikt wird fast offen verhandelt, statt unausgesprochen zu bleiben",
+          "\"Ich habe dir nie gesagt, wie es wirklich war.\" – benennt den Konflikt direkt und erklärt statt zu zeigen",
+          "\"Hätten wir. Aber haben wir nicht.\" – abgegriffene Sentenz",
+          "\"*Ein Windstoß. Blätter fallen auf die Bank.*\" – klischeehafte Stimmungsregie",
+          "\"Wird sie nicht verstehen.\" / \"Einfach so.\" – unmotivierte, inhaltsleere Andeutung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "\"*Pause.*\" / \"*(Pause)*\" / \"*Lange Pause.*\" – Pausen-Regie wird zur Masche",
+          "\"**THOMAS:** *(leise, zu niemandem)* Das hast du mir nie gesagt.\" – Schlusspointe etwas konstruiert und mehrdeutig",
+          "\"**MARTIN:** Zäune bauen.\" – das Zaun-Motiv wird einmal zu oft ausgespielt",
+          "Mit gut 300 Wörtern deutlich über den geforderten etwa 250"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Die Kellnerin kommt vorbei, bemerkt die Stimmung und verschwindet wieder.\" – erklärt statt zu zeigen",
+          "\"Er lacht kurz, ohne dass es lustig wäre.\" – kommentierende Regie",
+          "\"Ich habe das Haus verkauft.\" / \"Sie fragt nach dir.\" – Figurenkonstellation wirkt eher wie ein Ex-Paar als wie alte Freunde",
+          "\"rührt in seinem Kaffee, obwohl er längst kalt ist\" – \"längst\" passt nicht zur kurzen Szene; Schlussbild etwas abgegriffen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Mara hält den Schirm über beide\" vs. \"Er hält den Griff fest\" / \"Er senkt den Schirm\" – Logikbruch: Wer hält den Schirm?",
+          "\"Der Schirm bleibt zwischen ihnen.\" – widerspricht dem Bild, dass beide darunter stehen; überdeutliche Symbolik",
+          "\"Ich weiß nicht, ob er noch zu mir gehört.\" – der Becher-Dialog legt eine Liebesbeziehung nahe, keine alten Freunde",
+          "\"Wenn du diesmal nicht vorausläufst.\" / \"Das ist nicht dasselbe.\" – der Konflikt wird metaphorisch fast ausbuchstabiert",
+          "\"Der hier hält immer noch zu nah am Bordstein.\" – der Bus fährt laut Regie nur vorbei, er hält nicht"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 4877,
+    "out": 2026,
+    "thinking": 824
+  },
+  "costUsd": 0.060028
+}

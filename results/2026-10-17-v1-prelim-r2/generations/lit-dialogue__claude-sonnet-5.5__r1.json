@@ -1,0 +1,20 @@
+{
+  "task": "lit-dialogue",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "**Café am Bahnhof. Regen. MARKUS sitzt schon am Tisch, als TOBIAS hereinkommt.**\n\nTOBIAS: Du bist früh.\n\nMARKUS: Ich bin immer früh.\n\nTOBIAS: Stimmt. *(Er setzt sich, behält die Jacke an.)* Neun Monate.\n\nMARKUS: Zehn. Im März war ja noch … *(bricht ab)* Zehn.\n\nTOBIAS: Du hast mitgezählt.\n\nMARKUS: Du nicht?\n\n*(Die Kellnerin kommt.)*\n\nTOBIAS: Einen Kaffee.\n\nMARKUS: Schwarz.\n\nTOBIAS: Schwarz. *(Ein kurzes Lächeln, das sofort wieder verschwindet.)*\n\nMARKUS: Du hast dir die Haare schneiden lassen.\n\nTOBIAS: Du hast abgenommen.\n\nMARKUS: Viel gearbeitet.\n\nTOBIAS: Natürlich. *(Pause.)* Wie geht's Lena?\n\nMARKUS: Gut. Sie lässt grüßen.\n\nTOBIAS: Tut sie das?\n\nMARKUS: *(sieht aus dem Fenster)* Sie hätte es getan.\n\n*(Der Kaffee kommt. Keiner rührt ihn an.)*\n\nTOBIAS: Ich habe oft angefangen, dir zu schreiben.\n\nMARKUS: Angefangen.\n\nTOBIAS: Ja.\n\nMARKUS: Meine Nummer ist die gleiche geblieben.\n\nTOBIAS: Deine war nie besetzt, das weiß ich. *(Er dreht die Tasse im Kreis.)* Das war nicht das Problem.\n\nMARKUS: Nein.\n\n*(Lange Stille. Draußen fährt ein Zug ein.)*\n\nTOBIAS: Ich muss um fünf …\n\nMARKUS: Ja. Klar.\n\nTOBIAS: Ich könnte auch später.\n\nMARKUS: Musst du nicht.\n\nTOBIAS: *(zieht langsam die Jacke aus)* Ich weiß.\n\nMARKUS: *(sieht auf die Jacke, dann auf ihn)* Ein Kaffee ist ein Anfang.\n\nTOBIAS: Oder ein Kaffee.\n\nMARKUS: *(nach einem Moment)* Oder das.\n\n*(Beide trinken, ohne sich anzusehen.)*",
+  "usage": {
+    "in": 126,
+    "out": 1804,
+    "thinking": 950
+  },
+  "costUsd": 0.018292,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 13663,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:19:49.666Z"
+}

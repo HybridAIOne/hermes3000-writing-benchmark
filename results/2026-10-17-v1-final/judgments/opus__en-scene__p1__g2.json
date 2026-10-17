@@ -1,0 +1,118 @@
+{
+  "task": "en-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"The false dawn lay across his folded hands, and he held them open to it\" – Hände zugleich gefaltet und geöffnet, Bildwiderspruch",
+          "\"set to a permanent, patient amber\" – leicht preziös",
+          "\"Sixties, maybe.\" – Fragmentmanier, die sich mit \"No visitor sticker. No flowers, no paperback\" wiederholt",
+          "Mit rund 300 Wörtern über der Vorgabe von etwa 250"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "\"the chapel window held her reflection over his: her white shoes\" – ein kleines Türfenster spiegelt kaum Schuhe; die Perspektive aus dem Flur ist unlogisch",
+          "\"where the corridor moved in pale strips\" – vages Bild",
+          "\"No wristband. No hospital gown.\" – Stakkato-Aufzählung als Masche",
+          "\"She went in because the lights were on.\" – etwas flach"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "\"**Second Pew**\" – Titel mit Markdown, kein reiner Buchtext",
+          "\"He unfolded his hands and studied them, as if the answer might be in the creases\" – Widerspruch zum späteren Handschuh, den er erst am Ende auszieht",
+          "\"You changed my wife's dressing. Twice a night.\" – erklärt die Namenskenntnis und nimmt der Szene das Geheimnis",
+          "Leichter Hang zur Sentimentalität (\"There had been so many wives, so many dressings\")"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "\"two crescents of grey slush\" – Schneematsch, obwohl \"it hadn't rained since Tuesday\"; der feuchte Mantel bleibt ungeklärt",
+          "\"second row of padded chairs\" vs. \"the blonde wood of the pew\" – Ausstattung widersprüchlich",
+          "\"His voice was flat, grated by lack of sleep\" – schiefe Idiomatik",
+          "\"the bright misery of the ICU waiting room. The chapel was for daytime grief.\" – manierierte, erklärende Formeln",
+          "\"There was no recognition in his face, only a mild, administrative patience\" – erzählt statt zu zeigen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 3,
+        "fehler": [
+          "\"Your mother said it sometimes... Near the end.\" – endet faktisch auf einer Enthüllung, entgegen der Vorgabe",
+          "\"At four the hospital goes quiet\" – Tempuswechsel ins Präsens bei sonst durchgängigem Präteritum",
+          "\"felt the words land somewhere under her ribs and stay there\" / \"until she could breathe\" – Klischees",
+          "\"Maren walked the fourth-floor corridor\" vs. \"The chapel was off the lobby\" – räumlicher Sprung ohne Übergang",
+          "Mit rund 370 Wörtern deutlich zu lang"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "E",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3874,
+    "out": 2052,
+    "thinking": 854
+  },
+  "costUsd": 0.056536
+}

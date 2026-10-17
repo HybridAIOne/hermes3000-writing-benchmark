@@ -1,0 +1,16 @@
+{
+  "task": "ctx-saltzbrueck-5",
+  "model": "gpt-6-luna",
+  "run": 3,
+  "judge": "opus",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 3991,
+    "out": 197,
+    "thinking": 180
+  },
+  "costUsd": 0.019904
+}

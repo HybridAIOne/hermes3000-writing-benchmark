@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "text": "(Café. Lena sitzt schon. Miro kommt, bleibt zwei Schritte vom Tisch stehen.)\nMiro: Du bist früh.\nLena: Du warst immer der, der zu spät kam.\nMiro: (setzt sich) Manches ändert sich.\nLena: Manches offenbar nicht.\nMiro: Kaffee?\nLena: Ich habe schon bestellt. Ohne dich.\nMiro: Gut. (blickt auf die Tasse) Schwarz, wie früher.\nLena: Früher ist ein großzügiges Wort.\nMiro: (setzt sich langsam) Soll ich gehen?\nLena: Du bist gerade erst gekommen.\nMiro: Das klingt nicht wie ein Ja.\nLena: Ich habe nicht Nein gesagt.\nMiro: (ruft Kellnerin) Einen Espresso, bitte.\nLena: Du trinkst jetzt Espresso.\nMiro: Du weißt, warum.\nLena: Ich weiß vieles. Sagen muss ich es nicht.\nMiro: Nein. (Pause) Wie geht es dir?\nLena: Man überlebt.\nMiro: Das war nicht immer so.\nLena: Nein. (dreht die Tasse) Und dir?\nMiro: Ich schlafe besser.\nLena: Seit wann?\nMiro: Seit ich aufgehört habe, mir Vorwürfe zu machen.\nLena: Interessant. Ich habe damit angefangen.\nMiro: (sieht kurz auf) Dann sind wir ja beschäftigt.\nLena: Offenbar.\n(Kellnerin bringt Espresso. Stille.)\nMiro: Bist du wegen mir gekommen?\nLena: Wegen des Kaffees.\nMiro: Der ist schlecht hier.\nLena: Das wussten wir vorher.\nMiro: Und trotzdem.\nLena: Und trotzdem.\nMiro: Dein Haar ist kürzer.\nLena: Deine Ausreden auch.\nMiro: Ich bin gekommen.\nLena: Das habe ich bemerkt.\nMiro: Und?\nLena: Und ich sitze noch hier.\nMiro: Das ist mehr, als ich erwartet habe.\nLena: Erwartungen waren nie dein Problem.\nMiro: (hebt die Tasse) Auf alte Zeiten?\nLena: (hebt ihre Tasse) Auf das, was wir nicht sagen.\nMiro: (trinkt) Das schmeckt bitter.\nLena: Ja. (Pause) Noch einer?\nMiro: Von mir aus.",
+  "usage": {
+    "in": 94,
+    "out": 2673,
+    "thinking": 2109
+  },
+  "costUsd": 0.0016178999999999998,
+  "finish": "stop",
+  "reportedModel": "deepseek/deepseek-v4.1-flash",
+  "upstream": "DigitalOcean",
+  "latencyMs": 10934,
+  "meta": [],
+  "at": "2026-10-17T17:22:56.072Z"
+}

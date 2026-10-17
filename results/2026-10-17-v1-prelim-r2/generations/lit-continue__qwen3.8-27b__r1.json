@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "„Noch nicht\", sagte Ilse. Sie rieb sich die Hände an der Leine, bis die rissigen Stellen glatt wurden, und ließ die Leine dann in der Karabinerhake verschwinden. Der Karabiner klickte. Ein kurzes, metallisches Geräusch, das in der Morgenstille blieb wie ein gezogener Zahn.\n\nJonas stand weiter auf den Bohlen. Seine Sneaker waren hell, fast weiß, und an den Sohlen klebte etwas Dunkles, Moos vielleicht oder Elbschlamm, das er von der Landseite mitgebracht hatte. Er drehte den Rollkoffer eine halbe Umdrehung, als suche er einen Boden, der nicht nach Wasser und Farn roch.\n\n„Der Motor\", sagte er wieder, leiser diesmal, als wäre das erste Mal ein Missgeschick gewesen. „Kann der noch?\"\n\nIlse sah die Elbe an. Da lag das Wasser in einer Schicht, die so dünn war, dass man die Strömung sah, die braunen Adern darunter, und ein Boot aus Lüneburg fuhr mit gedrosseltem Gang auf dem Ostufer vorbei. Sie wartete, bis es verschwunden war.\n\n„Er läuft\", sagte sie.\n\n„Er läuft\", wiederholte Jonas, und in seiner Stimme lag etwas, das Ilse kannte: die Vorbereitung. Man sagte etwas, und dann kam das andere.\n\nEr trat einen Schritt näher. „Wie lange noch, Mutter?\"\n\nSie drehte sich zu ihm. Er hatte die Hände in den Jackentaschen, die Ärmel zu lang, so dass die Knöchel verborgen blieben. In München, dachte sie, würden diese Ärmel ihm niemand auffallen. In München gab es keine nassen Bohlen, die die Socken durchnässten, wenn man zu lange an der Kante stand.\n\n„Ich mache Kaffee\", sagte Ilse.\n\nSie ging die drei Stufen hinab in die Fährkabine. Der Heizkörper klirrte, als sie die Tür aufzog. Die Tasse stand umgedreht auf der Ablage, die zweite nicht. Sie nahm die erste, stellte sie auf die Herdplatte. Das Wasser war noch von gestern, grau am Boden des Kessels. Sie leerte es in den Waschtrichter, spülte mit frischem, ließ die Maschine blubbern.\n\nJonas war nicht gefolgt. Man hörte ihn oben auf den Planken stehen, atmen, vielleicht den Koffer abstellen und wieder aufheben. Kein Geräusch, das länger als eine Sekunde andauerte. Ein Mann, der sich in einem Raum hielt, den er nicht kannte, und wartete, bis eine Entscheidung fiel, die nicht seine war.\n\nIlse hob den Kessel. Das Wasser stieg, und der Dampf drückte den Deckel an. Sie stellte die Tasse unter den Auslauf, ließ ihn laufen, bis der braune Schaum dünn wurde. Dann setzte sie sich. Sie trank einen Schluck, stellte die Tasse wieder auf die Ablage, umgedreht.\n\nDraußen rührte sich Jonas nicht.\n\nSie stellte sich auf, rieb sich mit dem Handrücken über die Lippen und ging die drei Stufen hinauf. Am Steg hielt sie inne. Der Koffer stand am Poller, der Riemen des Ziehseils lag lose auf dem Wasser. Ilse trat ans Geländer, sah auf die Elbe, die das Seil langsam an sich zog, und dann auf Jonas, der den Koffer noch nicht angerührt hatte.\n\nSie nahm den Koffer. Er wog weniger, als er aussah. Sie stellte ihn neben den Poller, wo er nicht im Weg war, und drehte sich um.\n\n„Rein\", sagte sie. „Ich mache ihn noch warm.\"",
+  "usage": {
+    "in": 337,
+    "out": 1525,
+    "thinking": 703
+  },
+  "costUsd": 0.0034358800000000005,
+  "finish": "stop",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "upstream": "Near AI",
+  "latencyMs": 13617,
+  "meta": [],
+  "at": "2026-10-17T17:22:40.272Z"
+}

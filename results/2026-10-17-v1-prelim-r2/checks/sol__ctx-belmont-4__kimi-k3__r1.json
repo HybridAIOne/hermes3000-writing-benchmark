@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "kimi-k3",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-1"
+    ],
+    "evidence": [
+      "Vosskuhl saß bei Elise und folgte ihrem Blick."
+    ]
+  },
+  "usage": {
+    "in": 2134,
+    "out": 381,
+    "thinking": 339
+  },
+  "costUsd": 0.008078
+}

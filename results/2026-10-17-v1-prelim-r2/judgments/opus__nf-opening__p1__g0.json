@@ -1,0 +1,119 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„mit einem knappen „Morgen“ und dem Blick knapp an dir vorbei“ – Wortwiederholung „knapp“ in einem Satz",
+          "„als Kollegen, die schon längst merken, dass etwas nicht stimmt, und als Mitarbeiter, die sich fragen“ – unsaubere Parallelführung, „Kollegen“ und „Mitarbeiter“ verschwimmen",
+          "„in drei Sätzen abgehandelt wird, die niemand mehr versteht“ – Pointe etwas schief, gemeint ist eher „die nichts mehr bewirken“",
+          "„Fast jeder Teamleiter kennt es.“ – leicht redundant nach „Du kennst das.“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie wird erst abwimmeln“ – falsches Wort, gemeint ist „abwiegeln“",
+          "„Du hast die Nachricht gelesen und gleich wieder zugemacht.“ – unklarer Bezug, welche Nachricht?",
+          "„am Flur gesagt“ – regional, standardsprachlich „auf dem Flur“",
+          "„und am Ende vielleicht sogar weinen“ – klischeehafte Zuschreibung",
+          "Ein einziger Block ohne Absatz und ohne Überleitung zum Kapitelthema; Aufzählung der Überlegungen wirkt wie Füllstoff („Ob du … Ob du …“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Deadlines reißt, im Daily genervt abwinkt“ – Anglizismen/Jargon, widerspricht „keine Buzzwords“",
+          "„dieses Minenfeld betrittst, ohne dass es dir um die Ohren fliegt“ – Bildbruch und Klischee",
+          "„hoffst insgeheim, dass der Kelch an dir vorübergeht“ – abgegriffene Floskel",
+          "„Du hast keine disziplinarische Keule im Schrank.“ – schiefes, gesuchtes Bild",
+          "„die Art und Weise, wie du die Dinge auf den Tisch packst“ – Füllformel"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„alle davon mit einem Rückzieher am Ende“ – unidiomatisch, besser „jede mit einem Rückzieher“",
+          "„dass du mit dem Gespräch schon einmal zu spät dran bist“ – „schon einmal“ missverständlich",
+          "„Ausdruck, den du mit dem Daumen glatt streichst, obwohl er nicht zerknittert ist“ – „glatt streichen“ hier logisch schief",
+          "Schlussabsatz sehr knapp, Kapitelausblick bleibt vage („wie du klar wirst“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 4,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "„Keine Monogramme sonst in deiner Abteilung.“ – sinnlos, falscher Begriff",
+          "„Maik, bei dem du im kurzen Zwischenruf sagst: … und er nickt, und dann nicht.“ – grammatisch verunglückt",
+          "„Normaler Dienstagnachmittag.“ … „Und morgen ist Donnerstag.“ – Zeitlogik widersprüchlich",
+          "„die Servicefachfrau“, „Absendungsbestätigung“, „HeadTracking-Board“ – erfundene bzw. unidiomatische Begriffe, Jargon",
+          "„Kriegst du das noch hin?\"“ – uneinheitliche Anführungszeichen; zudem keine Hinführung zum Kapitelthema"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "C",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 4722,
+    "out": 2480,
+    "thinking": 1061
+  },
+  "costUsd": 0.068488
+}

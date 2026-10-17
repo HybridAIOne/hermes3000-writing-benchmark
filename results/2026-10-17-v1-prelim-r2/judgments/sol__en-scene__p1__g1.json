@@ -1,0 +1,114 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„She walked to the front“: Die Szene nennt weder vier Uhr noch einen anderen konkreten Zeitpunkt. Auch Lenas Tätigkeit als Nachtschwester bleibt lediglich über den Krankenhauskontext erschließbar.",
+          "„sat in the end of a pew“: Unidiomatische Präposition; hier wäre „at the end of a pew“ natürlich.",
+          "„His fingers tapped once against his shin, then stopped“: Nach „The radiator […] knocked once and settled“ wiederholt sich das Muster eines einzelnen Geräuschs oder einer kleinen Bewegung mit anschließendem Stillstand. Die Zurückhaltung wirkt dadurch stellenweise arrangiert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Someone had left a pear beneath the notice“: Das demonstrativ eigenwillige Detail unter dem Lebensmittelverbot zieht kurz Aufmerksamkeit von der Begegnung ab; es wirkt stärker als gesetzte literarische Pointe denn als notwendige Beobachtung.",
+          "„Neither of them looked at the cup“: Die gemeinsame Nichtbeachtung lädt den Becher etwas demonstrativ mit Bedeutung auf. Die Szene wäre ohne diesen Hinweis noch zurückhaltender."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Tonight a man sat in the third row“: Die Nacht ist bezeichnet, die verlangte Uhrzeit von vier Uhr jedoch nicht.",
+          "„She should have called security“: Der Text erklärt nicht ausreichend, weshalb ein ruhig sitzender Kapellenbesucher bereits einen Sicherheitsruf erfordern sollte. Die behauptete Pflicht erzeugt Bedrohung, statt sie aus der Situation entstehen zu lassen.",
+          "„as if he'd been handed something and then asked to give it back“ / „the way you look at a street you used to live on“ / „as though it were a fire“: Die Folge deutungsschwerer Vergleiche legt Verlust und Vertrautheit mehrfach über dieselbe Begegnung. Das schwächt die geforderte Zurückhaltung.",
+          "„I wanted to sit somewhere that was awake“: Der pointierte, zitierfähige Satz klingt stärker nach literarischer Setzung als nach beiläufiger Figurenrede."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„he hadn't spoken to her since she entered“: Direkter Handlungswiderspruch: Unmittelbar zuvor hat er sie mit „You’re late with the meds in 402, Maya“ angesprochen.",
+          "„the hour when the hospital felt less like a building and more like a waiting room for the inevitable“: Abgegriffene Todesmetaphorik und erklärender Auftakt statt zurückhaltender Szenenführung.",
+          "„She froze“ / „cutting through the stillness“: Konventionelle Spannungsformeln ersetzen eine individuell beobachtete Reaktion und präzise akustische Beschreibung.",
+          "„leaving the scent of cold rain and old paper in the air“: Romantisierende, vertraute Geheimnisrequisite; besonders der wahrnehmbare Papiergeruch bleibt unbegründet.",
+          "„a small, rusted key“ / „a single sliver of iron reflecting the dim red glow“: Der unmotiviert hinterlassene Schlüssel ist ein konventionelles Rätselobjekt. Das Schlussbild erfüllt zwar formal die Vorgabe, wirkt aber wie ein inszenierter Thriller-Aufhänger."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„The chapel lights were on their night setting“: Die Nachtsituation ist deutlich, die ausdrücklich verlangte Uhrzeit von vier Uhr fehlt.",
+          "„It was the way you'd read a word off a cereal box to a child“: Der Vergleich ist schwer auf einen eindeutigen Tonfall zu beziehen. Er erzeugt eine zusätzliche Alltagsszene, ohne die Namensnennung präziser hörbar zu machen.",
+          "„people at this hour told you everything or nothing“: Die pauschale Lebensweisheit erklärt Ines’ Berufserfahrung und die Begegnung, statt beides ausschließlich im Verhalten sichtbar werden zu lassen.",
+          "„its corners squared the way she had been taught to square them, the way she still did“: Die Wiederholung und die eigens betonte Übereinstimmung machen aus dem guten Schlussgegenstand einen auffällig gesetzten persönlichen Hinweis. Das Bild wird stärker ausgedeutet als nötig."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "E",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2087,
+    "out": 1678,
+    "thinking": 512
+  },
+  "costUsd": 0.020954
+}

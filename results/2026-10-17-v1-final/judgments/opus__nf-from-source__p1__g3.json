@@ -1,0 +1,84 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "\"ist auch die zukünftige Erneuerung der Fähre bereits abgesichert\" – überzeichnet die Quelle, die nur sagt, die Rücklage „soll“ bis 2031 ausreichen",
+          "\"Auf diese Weise lässt sich der laufende Betrieb dauerhaft sichern und technisch anpassen.\" – Füllsatz ohne Informationsgehalt, der zudem schlecht zum folgenden Technikabsatz überleitet",
+          "\"Die grundlegende Funktionsweise der Genossenschaft zeigt sich heute im Zusammenwirken ihrer mittlerweile 312 Mitglieder.\" – nominaler, hölzerner Satz, der für Laien nichts erklärt",
+          "\"Warum die Genossenschaft für die Fähre besonders passend ist, zeigt der Umgang mit den Einnahmen.\" – angekündigte Begründung bleibt aus; es werden nur Umsatzzahlen aufgezählt",
+          "\"Die Fähre, die an einem Führungsseil hängt und für eine Überfahrt bei normalem Wasserstand sieben Minuten benötigt, wurde bis 1978 allein durch die Strömung bewegt\" – überladener Schachtelsatz, Fakten wirken angehängt"
+        ],
+        "unsupported": [
+          "\"ist auch die zukünftige Erneuerung der Fähre bereits abgesichert\" – Quelle nennt nur ein Ziel („soll ausreichen“)",
+          "\"Durch diesen Zusammenschluss konnte der Fährbetrieb ... weitergeführt werden\" – nur implizit, nicht ausdrücklich belegt"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Umfang mit rund 370 Wörtern deutlich über den vorgegebenen etwa 300 Wörtern",
+          "\"Wer mehr Geld in Anteilen einbringt, erhält also nicht mehr Stimmen. Darin liegt ein wesentliches Merkmal ...\" – dasselbe Prinzip wird drei- bis viermal hintereinander erklärt",
+          "\"Die wirtschaftliche Grundlage bilden Fahrkartenverkäufe und ein Zuschuss der Gemeinde. Von den 186.000 Euro Umsatz ... stammten 71 Prozent aus Fahrkarten und 29 Prozent aus dem Gemeindezuschuss.\" – inhaltliche Doppelung",
+          "\"Bei normalem Wasserstand dauert die Überfahrt über die hier 212 Meter breite Elbe sieben Minuten.\" – Detail steht unmotiviert am Absatzende vor dem Fazit"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"auf den Menschen und Orte beiderseits der Elbe angewiesen sind\" – Behauptung nicht durch die Quelle gedeckt",
+          "\"Die Mitglieder entscheiden also nach dem Grundsatz: eine Person, eine Stimme.\" – „Person“ ist ungenau, die Quelle spricht von Mitgliedern; außerdem Wiederholung des Vorsatzes",
+          "\"Für den Betrieb braucht es Einnahmen:\" – banaler Füllsatz",
+          "\"Bis 1978 bewegte allein die Strömung das Schiff.\" – technische Fakten stehen ohne Bezug zur Erklärung der Rechtsform im Absatz"
+        ],
+        "unsupported": [
+          "\"auf den Menschen und Orte beiderseits der Elbe angewiesen sind\""
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 4936,
+    "out": 2003,
+    "thinking": 655
+  },
+  "costUsd": 0.059804
+}

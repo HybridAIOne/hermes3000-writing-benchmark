@@ -1,0 +1,18 @@
+{
+  "task": "nf-from-source",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "Als der Landkreis den Betrieb der Seilfähre einstellte, gründeten 1953 insgesamt 41 Landwirte und Händler von beiden Elbufern die Fährgenossenschaft Hitzacker. Sie übernahmen damit gemeinsam die Aufgabe, die Verbindung über den Fluss zu erhalten. Das Beispiel zeigt den Grundgedanken einer Genossenschaft: Menschen schließen sich zusammen, um ein gemeinsames Vorhaben zu tragen und darüber gemeinschaftlich zu entscheiden.\n\nHeute hat die Fährgenossenschaft 312 Mitglieder. Jedes hält mindestens einen Geschäftsanteil im Wert von 250 Euro. In der Generalversammlung hat jedes Mitglied eine Stimme – unabhängig davon, wie viele Anteile es besitzt. Damit richtet sich das Stimmgewicht nicht nach der Höhe der eingebrachten Anteile. Die Mitglieder entscheiden also nach dem Prinzip „eine Person, eine Stimme“.\n\nDie Fähre verbindet die beiden Ufer an einer 212 Meter breiten Stelle der Elbe. Eine Überfahrt dauert bei normalem Wasserstand sieben Minuten. Sie hängt an einem Führungsseil und wird heute von einem 85-kW-Dieselmotor angetrieben; bis 1978 bewegte allein die Strömung das Schiff. Pro Jahr befördert die Fähre rund 64.000 Personen, im Sommer vor allem Radfahrer auf dem Elberadweg.\n\nFür diesen Betrieb ist die Genossenschaft passend, weil Menschen aus beiden Ufern die Fährverbindung gemeinsam tragen können. Die Einnahmen kommen 2024 zu 71 Prozent aus Fahrkartenverkäufen und zu 29 Prozent aus einem Zuschuss der Gemeinde. Überschüsse werden nicht an die Mitglieder ausgeschüttet, sondern für die Erneuerung der Fähre zurückgelegt. So dient das erwirtschaftete Geld dem gemeinsamen Betrieb und seiner Zukunft: Die Rücklage soll bis 2031 reichen, um einen Elektroantrieb einzubauen. Die Genossenschaft verbindet damit gemeinschaftliche Verantwortung, gleiches Stimmrecht und die langfristige Finanzierung einer wichtigen Fährverbindung.",
+  "usage": {
+    "in": 402,
+    "out": 561,
+    "thinking": 144
+  },
+  "costUsd": 0.0003207,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 6137,
+  "meta": [],
+  "at": "2026-10-17T17:19:53.828Z"
+}

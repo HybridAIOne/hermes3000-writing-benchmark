@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "gemini-3.8-flash-low",
+  "run": 1,
+  "text": "Der Schlüssel passte, aber das Schloss wehrte sich. Es brauchte den vertrauten, ruckartigen Druck nach oben, ein metallisches Knirschen im Zylinder, bevor das Holz mit einem trockenen Seufzen nachgab.\n\nIm Flur stand die Luft der Neunzigerjahre. Ein Gemisch aus kaltem Bohnerwachs, feuchtem Putz und der herben, fast pfeffrigen Note von getrocknetem Lavendel, die Helena sofort die Kehle verengte. Das Licht, das durch das geschliffene Glas der Haustür fiel, war milchig und zeichnete scharfe Rechtecke auf das Linoleum, in denen Myriaden von Staubpartikeln tanzten. \n\nNichts war ausgeräumt worden. Der Nachlassverwalter hatte nur die Pflanzen entsorgt; auf den Fensterbänken zeugten kreisrunde Ränder im Lack von Töpfen, die hier jahrzehntelang das Licht abgefangen hatten. \n\nHelena ging nicht weiter als drei Schritte. Unter ihren Stiefeln knirschte der Sand, den irgendjemand – vermutlich sie selbst an jenem Maimorgen – vor zwanzig Jahren hereingetragen hatte. Ihre Hand tastete am Türrahmen entlang, fand die vertraute Kerbe im Holz, wo der Esstisch früher angestoßen war, glitt dann tiefer.\n\nAuf der untersten Stufe der Treppe lag ein Gegenstand, der dort nicht hingehörte: eine schwere, birnenförmige Bleilot-Schnur, wie Maurer sie benutzten. Das Metall war von einer mehligen, weißlichen Oxidschicht überzogen, die raue Hanfschnur ordentlich um den Schaft gewickelt, doch die Spitze wies exakt auf den Spalt zwischen zwei Dielen im Flur. Ihre Mutter hatte nie etwas gebaut. Sie hatte Dinge zerfallen lassen, mit einer fast andächtigen Geduld, aber sie hatte nie das Lot gefällt.\n\nHelena bückte sich nicht danach. Sie zog die Handschuhe aus, strich mit dem Daumen über das kalte Metall des Lotes und spürte, wie die weiße Patina an ihren Fingerkuppen haften blieb wie Kreide. Es roch nach Regen, der durch den Kamin nach innen drückte.",
+  "usage": {
+    "in": 73,
+    "out": 500,
+    "thinking": 0
+  },
+  "costUsd": 0.00175464,
+  "finish": "STOP",
+  "reportedModel": "gemini-3.8-flash",
+  "upstream": null,
+  "latencyMs": 7507,
+  "meta": [],
+  "at": "2026-10-17T17:18:48.113Z"
+}

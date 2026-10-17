@@ -1,0 +1,93 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "statt Konflikte auszuweichen (Grammatikfehler: es heißt 'Konflikten auszuweichen')",
+          "Kapitel 5: Aufgaben verteilen, ohne sich unbeliebt zu machen (Bruch der Du-Ansprache, korrekt wäre 'ohne dich unbeliebt zu machen')",
+          "Kapitel 6: Rückmeldung geben – Lob und Kritik, die ankommen / Kapitel 7: Schwierige Gespräche führen (starke inhaltliche Überschneidung trotz gegenteiliger Vorgabe)",
+          "Kapitel 1: Plötzlich Chef / Kapitel 2: Deine Rolle verstehen / Kapitel 3: Vom Kollegen zum Vorgesetzten (thematische Redundanz zum Rollenwechsel)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 3,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "aus den Situations (englischer Plural mitten im deutschen Satz)",
+          "Wie du der Aufgabe, die dich zum Aufstieg gebracht hat, abgewöhnen kannst, sie noch schnell selbst zu machen (sinnentstellte Grammatik: man kann einer Aufgabe nichts abgewöhnen)",
+          "oder deinen Chef, der dir ein Unmögliches zumontiert (unidiomatisch/Wortwahlfehler: 'zumutet')",
+          "Deine alten Kollegen sitzen jetzt drüben vom Tisch (unidiomatischer Ausdruck)",
+          "Kapitel 2 ... / Kapitel 7 – Deine alten Kollegen sitzen jetzt drüben vom Tisch (starke Überschneidung beim Thema ehemalige Kollegen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Kapitel 3: ... wie du Aufgaben so übergibst, dass das Ergebnis stimmt / Kapitel 4: ... Methoden, um Aufgaben schrittweise an dein Team zu delegieren (deutliche Überschneidung beim Thema Aufgabenübergabe)",
+          "Kapitel 1: ... Übergang vom Kumpel zur Führungskraft / Kapitel 2: ... Sprung vom reinen Facharbeiter zum Koordinator (Überschneidung beim Thema Rollenwechsel)",
+          "Der Puffer zwischen den Stühlen (schiefe Metapher: man sitzt zwischen den Stühlen, ist aber kein Puffer dazwischen)",
+          "lernst Grenzen zu setzen (Kommafehler: Infinitivgruppe mit 'zu' nach 'lernen' sollte hier durch Komma abgetrennt werden: 'lernst, Grenzen zu setzen')"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3099,
+    "out": 768,
+    "thinking": 0
+  },
+  "costUsd": 0.013878
+}

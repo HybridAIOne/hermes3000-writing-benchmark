@@ -1,0 +1,109 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "Stilistisch etwas repetitiver Satzanfang: Alle neun Kapitelbeschreibungen beginnen mit „Du [Verb] ...“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„volle Auftragsbücher, knappe Termine“ – verengt die Zielgruppe stark auf Produktion/Handwerk, ist aber für den Mittelstand insgesamt noch gut greifbar",
+          "Stilistisch monotone Satzstruktur: Alle Kapitelbeschreibungen beginnen mit „Du [Verb] ...“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Hier ist die Gliederung für das Sachbuch **„Führen ohne Titel“**:“ – überflüssiger Chatbot-Einleitungssatz",
+          "„Kapitel 1: Gestern Kollege, heute Chef“ / „Kapitel 9: ... welche Art von Vorgesetztem“ – Widerspruch zum Buchtitel „Führen ohne Titel“ (laterale Führung ohne formale Chef-Rolle), obwohl Kapitel 4 genau diese fehlende disziplinarische Macht betont",
+          "Der logische Aufbau vom Einstieg bis zur Haltung ist im Mittelteil (Kapitel 6 bis 8) eher eine lose Themensammlung als aufeinander aufbauend"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "Inhaltliche Überschneidung zwischen Kapitel 1 („indem du erst zuhörst, Fragen stellst“) und Kapitel 3 („verschaffst dir ein Bild davon, wer was kann“)",
+          "Kapitel 8 („Gestalte die Zusammenarbeit im Alltag“) steht im Aufbau zu spät (hinter „schwierige Gespräche“) und überschneidet sich mit den Grundlagen aus Kapitel 4",
+          "Stilistisch sehr generisch, kaum mittelstandsspezifische oder für das „Reinrutschen in die Rolle“ typische Details"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "Alle zehn Kapitelbeschreibungen sind keine vollständigen Sätze, sondern reine Nebensatz-Fragmente („Was sich vom einen Tag ...“, „Wie du in den ersten Wochen ...“)",
+          "„**Zum Aufbau:** Kapitel 1–3 behandeln ...“ – ungefragter Meta-Kommentar am Ende",
+          "„1. Plötzlich Chef“ – widerspricht dem Kernthema „Führen ohne Titel“",
+          "Thematische Überschneidung bei Kapitel 9 („Pass auf dich auf“) und Kapitel 10 („Wofür du stehst“) im Bereich der inneren Haltung und Abgrenzung"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3269,
+    "out": 861,
+    "thinking": 0
+  },
+  "costUsd": 0.015148
+}

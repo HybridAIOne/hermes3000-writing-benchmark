@@ -1,0 +1,110 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Es ist Donnerstag … auch wenn es gerade unbequem ist.“: Mit rund 320 Wörtern und vier Absätzen deutlich ausladender als der verlangte Einstiegsabsatz von etwa 250 Wörtern.",
+          "„Kennst du das? Die meisten Führungskräfte kennen diesen Moment gut.“: Formelhafte Leseransprache; wiederholt die bereits verständlich dargestellte Gesprächsscheu, statt den Einstieg weiterzuführen.",
+          "„Es geht um eine Haltung, um gute Vorbereitung und um ein paar einfache Handgriffe“: Die Kapitelankündigung bleibt abstrakt. Gerade „eine Haltung“ und „Handgriffe“ sagen noch wenig darüber, was der Leser konkret lernen wird."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Solche Momente gehören zum Führungsalltag.“: Allgemeiner Übergangssatz mit geringem Informationswert; nach der anschaulichen Szene wäre ein unmittelbarer Einstieg in das Problem straffer.",
+          "„Du brauchst dafür weder die perfekte Formulierung noch eine besondere Begabung.“: Konventionelle Ermutigungsformel. Der nachfolgende Satz mit den konkreten Gesprächsschritten leistet deutlich mehr.",
+          "„In diesem Kapitel geht es darum, genau solche Gespräche vorzubereiten und zu führen“: Die Kapitelankündigung wiederholt teilweise, was die unmittelbar vorausgehenden Sätze bereits erläutern."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Es ist Dienstag … ohne dich zu verbiegen.“: Mit rund 200 Wörtern merklich unter dem Richtwert; außerdem zwei Absätze statt des verlangten Einstiegsabsatzes.",
+          "„wie Markus an seinen Platz schleicht“: Das wertende Verb legt schuldbewusstes Verhalten nahe, bevor geklärt ist, welche Arbeitszeit vereinbart wurde und weshalb sein Kommen ein Problem darstellt.",
+          "„Die anderen im Team sehen, dass nichts passiert, und zählen mit.“: Pauschale Zuspitzung, die den Kollegen eine einheitliche Reaktion zuschreibt und vor allem sozialen Druck aufbaut.",
+          "„Na, auch schon da?\"“: Falsches schließendes Anführungszeichen; zum öffnenden deutschen Zeichen gehört „“ statt des geraden Zeichens."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Denn du weißt genau, was passieren wird“: Stellt die Reaktion des Gegenübers als sicher dar. Das verstärkt ein festgefahrenes Feindbild, statt zwischen bisherigen Erfahrungen und Erwartungen zu unterscheiden.",
+          "„seine Nachlässigkeiten“: Unterstellt eine Ursache für die Fehler, ohne sie in der Szene zu klären. Für einen praxisnahen Einstieg in faire Kritik wäre die Trennung von Beobachtung und Bewertung wichtig.",
+          "„die wahre Feuerprobe“, „auf dünnes Eis“, „die Stimmung in der gesamten Abteilung vergiftet“: Gehäufte dramatisierende Sprachbilder überladen die alltägliche Situation und verschärfen den Ton unnötig.",
+          "„ob dein Team dich als echte Führungskraft akzeptiert – oder nur als denjenigen, der die Arbeit verteilt“: Baut eine falsche Alternative auf und macht aus dem konkreten Gespräch eine Bewährungsprobe für die gesamte Führungsrolle.",
+          "„Deshalb schieben wir solche Gespräche vor uns her“: Unnötiger Wechsel von der durchgängigen Du-Ansprache zum verallgemeinernden Wir."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "D",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2417,
+    "out": 1506,
+    "thinking": 512
+  },
+  "costUsd": 0.019894
+}

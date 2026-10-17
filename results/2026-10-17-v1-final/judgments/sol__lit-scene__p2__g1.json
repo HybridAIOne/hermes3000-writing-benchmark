@@ -1,0 +1,116 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Aufgabe: „Der Schlüssel klemmte, wie er immer geklemmt hatte“ etabliert Vertrautheit, aber nicht die geforderte Rückkehr nach zwanzig Jahren. Die Dauer der Abwesenheit bleibt im gesamten Text ungenannt.",
+          "Stil: „Das Geräusch ging durch das Haus und kam nicht zurück“ ist eine effektvolle, aber akustisch wenig anschauliche Formulierung.",
+          "Stil: „so wie man etwas einsteckt, das man später erklären muss“ deutet die Bedeutung der Handlung ausdrücklich aus. Das Einstecken der rätselhaften Frucht wäre für sich bereits ein tragfähiger Schluss."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "Aufgabe: „frisch genug, um erst wenige Tage alt zu sein“ macht aus einer Geruchswahrnehmung eine unzureichend begründete Datierung. Terpentingeruch und klebrige Ölfarbreste belegen nicht zuverlässig, dass erst nach dem Tod der Mutter gemalt wurde.",
+          "Stil: „während das Haus um sie herum plötzlich den Atem anzuhalten schien“ ist eine abgegriffene Spannungsformel, die den bereits verständlichen Schreck zusätzlich ausbuchstabiert.",
+          "Stil: „Das Haus hatte Helga schneller vergessen, als Vera es je gekonnt hatte“ erklärt die emotionale Bedeutung, bevor die Szene sie ausreichend erfahrbar macht.",
+          "Stil: „ein diffuses, graues Novemberlicht und schnitt blasse Rechtecke in die Dunkelheit“ verbindet diffuses Licht mit einer scharf konturierten Schnittmetapher; das Bild ist nicht präzise abgestimmt.",
+          "Stil: „stumm und schwer, als warte er darauf, dass jemand in seine Ärmel schlüpfte“ überlädt den Mantel mit einer weiteren Personifikation. Zusammen mit dem hustenden Schloss und dem atmenden Haus entsteht eine erkennbare Wiederholungsmasche."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "Aufgabe: „Zwanzig Jahre“ benennt zwar den Zeitraum, doch der Tod der Mutter wird im gesamten Text nicht eindeutig etabliert. Die Szene ließe sich ebenso als Rückkehr nach ihrem Auszug oder einer Heimunterbringung lesen.",
+          "Stil: „Sie hatte gedacht, die Zeit würde sich wie eine Strecke anfühlen, die man zurücklegt“ wechselt von der überzeugenden körperlichen Erfahrung zu einer abstrakten Erklärung.",
+          "Stil: „als hätte es nur auf sie gewartet“ ist eine konventionelle Personifikation des unveränderten Elternhauses.",
+          "Stil: „die einzige Veränderung war die, die sie selbst mitgebracht hatte“ schließt die Szene mit einer pauschalen Lebensweisheit ab, statt die konkrete Irritation durch die unberührte Creme weiterwirken zu lassen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "Aufgabe: „als erwarte ihre Mutter Besuch“ lässt die Mutter als abwesende Bezugsperson erscheinen; dass sie verstorben ist, wird jedoch nirgends eindeutig vermittelt.",
+          "Stil: „Der schmale Spalt darunter war dunkel, obwohl das Licht von der Küche bis an die Schwelle reichte“ inszeniert einen vermeintlich beunruhigenden Gegensatz, obwohl Licht an einer Schwelle einen Keller nicht notwendig erhellt. Die Spannung wirkt konstruiert.",
+          "Stil: „An ihrem Daumen klebte ein einzelnes, blaues Fädchen“ setzt nach Apfelgeruch, staubfreiem Kreis und Kellertür noch ein weiteres mögliches Rätselzeichen. Weil keines davon vertieft wird, wirkt der Schluss eher arrangiert als zwingend.",
+          "Stil: „als hätte das Haus beschlossen, sie nicht sofort hineinzulassen“ eröffnet mit einer geläufigen Personifikation statt mit einer eigenständig beobachteten Wahrnehmung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Sprache: „Aber der Pendel schwang“ enthält einen Genusfehler. Richtig ist: „Aber das Pendel schwang“.",
+          "Aufgabe: „das Messinggewicht hing hoch oben an seiner Kette“ und „aufgezogen, mit dem kleinen Schlüssel“ beschreiben nicht ohne Weiteres denselben Aufzugsmechanismus. Bei der hier nahegelegten Kettenzuguhr wird das Gewicht durch Ziehen an der Kette gehoben; der für den Schluss entscheidende Schlüssel verlangt eine technisch stimmige Konstruktion.",
+          "Stil: „Dann hörte sie es“ ist eine schematische Spannungsansage. Die unmittelbar folgende Wahrnehmung der Uhr könnte den Umschlag selbst tragen.",
+          "Stil: „beschriftet in der steilen, nach rechts fallenden Schrift“ ist räumlich unscharf: Gemeint ist vermutlich eine steile, nach rechts geneigte Handschrift, nicht eine nach rechts abfallende Schriftzeile."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "C",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2894,
+    "out": 1813,
+    "thinking": 503
+  },
+  "costUsd": 0.023918
+}

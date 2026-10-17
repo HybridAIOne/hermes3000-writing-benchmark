@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "text": "Hier ist der Entwurf für dein Sachbuch. Der Fokus liegt auf dem „Machen“, dem Wegfall von Theorie-Ballast und einer direkten, unterstützenden Sprache.\n\n**Titelvorschlag:** Führen ohne Titel – Dein Weg vom Kollegen zum Kopf des Teams\n\n**Gliederung:**\n\n1. **Der Moment, in dem es passierte:** Du sortierst deine neue Rolle und verstehst, dass Führung eine Entscheidung ist, kein Titel auf der Visitenkarte.\n2. **Die ersten 100 Tage:** Du setzt Prioritäten, hörst deinen Leuten zu und vermeidest die typischen Fehler beim Start.\n3. **Vom Kumpel zum Chef:** Du lernst, wie du die Balance zwischen einer guten Beziehung und der nötigen Distanz hältst, ohne dich zu verbiegen.\n4. **Klarheit schafft Sicherheit:** Du lernst, Aufgaben so zu delegieren und Erwartungen so zu formulieren, dass keine Missverständnisse entstehen.\n5. **Wenn es knallt: Schwierige Gespräche führen:** Du bekommst ein einfaches Werkzeug für Kritik und Konflikte, damit Dinge ausgesprochen werden, bevor sie eskalieren.\n6. **Das Team am Laufen halten:** Du organisierst den Arbeitsalltag und die Meetings so, dass sie Zeit sparen statt Zeit zu fressen.\n7. **Menschen bewegen, ohne zu befehlen:** Du verstehst, wie du Motivation weckst und dein Team hinter deinen Zielen bekommst, ohne Druck auszuüben.\n8. **Dein eigener Schutzwall:** Du lernst, wie du dich abgrenzt und deine eigene Energie managst, damit die Rolle dich nicht ausbrennt.\n9. **Die Haltung: Wer willst du eigentlich sein?** Du definierst deine persönlichen Werte als Führungskraft und entwickelst einen Stil, der sich echt und richtig anfühlt.",
+  "usage": {
+    "in": 136,
+    "out": 399,
+    "thinking": 0
+  },
+  "costUsd": 0.00018680000000000001,
+  "finish": "stop",
+  "reportedModel": "google/gemma-4-31b-it",
+  "upstream": "CoreWeave",
+  "latencyMs": 17567,
+  "meta": [
+    "preamble"
+  ],
+  "at": "2026-10-17T17:25:07.510Z"
+}

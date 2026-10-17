@@ -1,0 +1,112 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Ralf dreht die Tasse am Henkel. (Logikbruch: Die Kellnerin bringt den Kaffee erst im allerletzten Satz des Textes)",
+          "ohne die Zeit gelesen zu haben (Unidiomatisch: Zeit liest man ab, nicht nur 'lesen')"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "Hast du die Beförderung bekommen, für die du so... gekämpft hast? / Ich habe das Projekt übernommen. (Verstoß gegen die Aufgabe: Der Konflikt bleibt nicht unausgesprochen, sondern wird plump erklärt)",
+          "Der Kellner stellt ein Kännchen Milch auf den Tisch (Logikbruch: Es wurde zuvor gar nichts beim Kellner bestellt)",
+          "Der Kaffee bleibt unberührt. (Logikbruch: Marie hat gar keinen Kaffee bekommen, auf dem Tisch stand nur Lukas' Tasse)",
+          "Loyalität ist heutzutage wirklich ein teurer Luxus. Man kann sich so leicht daran verbrennen. (Stilblüte/schiefe Metapher und abgedroschenes Klischee)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "Mara steht am Tisch; Leon kommt herein. [...] Er setzt sich. Sie rühren beide in ihren Tassen (Logikbruch: Mara setzt sich nie hin, und es wurden nie Getränke bestellt oder gebracht)",
+          "MARA: Du bestellst noch immer schwarz. / LEON: Du auch. / MARA: Ich habe mich umgestellt. / LEON: Worauf? / MARA: Auf weniger Zucker. (Logikbruch: Schwarzer Kaffee enthält ohnehin keinen Zucker, und wenn beide Tassen vor sich haben, warum rät Leon falsch?)",
+          "LEON: Ist der Platz frei? (Unsinniger Dialog: Sie sind allein an ihrem Tisch zu einem Treffen verabredet)",
+          "LEON: Möchtest du noch einen Kaffee? (Logikbruch: Zuvor hieß es, sie rühren in den Tassen, 'ohne zu trinken')"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "rührt in einer leeren Tasse. / Der Kaffee sieht kalt aus. / Ich hab nicht bestellt. (Massiver Logikbruch: Warum hat er eine leere Tasse, wenn er nichts bestellt hat, und wie kann in einer leeren Tasse der Kaffee kalt aussehen?)",
+          "Sie greift nach ihrer Tasse, zögert, lässt sie stehen. (Logikbruch: Die Kellnerin hat die Bestellung aufgenommen, den Kaffee aber nie gebracht)",
+          "Löffel klirrt gegen Porzellan. (Grammatik: Artikel fehlt, falscher Telegrammstil)",
+          "das Horn klingt lang und dunkel. (Kitschiges Filmklischee am Ende)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Die Bedienung bringt zwei Kaffee. (Minimaler Logiksprung: Es wurde zuvor nichts bestellt, es sei denn, Martin hat schon vorab für beide geordert)",
+          "MARTIN: *(rührt im Kaffee)* (Kleiner Widerspruch zur Regieanweisung zwei Zeilen zuvor: 'Keiner rührt seinen an')"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "A",
+      "C",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3289,
+    "out": 985,
+    "thinking": 0
+  },
+  "costUsd": 0.016428
+}

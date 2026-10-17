@@ -1,0 +1,117 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Früher war vieles anders.“: Eine abgegriffene Formel benennt die Veränderung, statt sie ausschließlich im Gespräch erfahrbar zu machen.",
+          "„Beide greifen gleichzeitig nach dem Zucker. Beide ziehen die Hand zurück.“: Konventionelle Choreografie für eine beschädigte Beziehung; die anschließende demonstrative Höflichkeit verstärkt das bekannte Muster.",
+          "„Es regnet nicht.“ / „Noch nicht.“: Der Wetterdialog wirkt als bedeutungsschweres Schlussbild etwas konstruiert.",
+          "„Lange Stille. Draußen fährt ein Bus vorbei.“: Zusammen mit den zahlreichen weiteren Pausen und Blickgesten wird die Spannung stellenweise eher markiert als entwickelt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Ralf dreht die Tasse am Henkel.“: Anschlussfehler: Der bestellte Kaffee wird erst im letzten Satz gebracht; eine bereits vorhandene Tasse ist nicht eingeführt.",
+          "„ohne die Zeit gelesen zu haben“: Die Regieanweisung behauptet einen inneren Vorgang, der von außen nicht zuverlässig erkennbar ist.",
+          "„Ich bin immer früh.“ / „Früher.“: Die knappen Repliken setzen mehrfach auf vertraute Signale für gemeinsame Vergangenheit und Entfremdung; individuelle Stimmen entstehen dadurch kaum.",
+          "„Keiner steht auf.“: Nach der Feststellung, dass beide Züge erst in einer Stunde fahren, ist das Sitzenbleiben als Annäherungsgeste nur schwach motiviert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Welchen?“ / „Welchen?“: Zweimal wird eine konkrete Frage durch dieselbe ausweichende Gegenfrage künstlich verzögert. Die Verschlossenheit wird zur erkennbaren Dialogtechnik.",
+          "„Sie fragt nach allem, was sie nicht versteht.“: Auffällig geschliffene, bedeutungsschwere Replik; sie klingt eher für das Publikum formuliert als spontan gesprochen.",
+          "„Ich habe dich gebeten zu kommen. Nicht zu schweigen.“ / „Wir schweigen doch beide.“: Der Subtext wird zum ausdrücklich besprochenen Thema. Das schwächt die geforderte unausgesprochene Spannung.",
+          "„Sie lächelt traurig“: Die Regieanweisung etikettiert das Gefühl, statt eine präzisere, weniger vorgeprägte Handlung zu finden.",
+          "„Der Mantel ist neu.“ / „Der alte war durchgescheuert.“: Zusammen mit Brief, Schlüssel und verweigerter Tasse entsteht eine Häufung symbolisch aufgeladener Requisiten, ohne dass alle einen erkennbaren Beitrag zur Entwicklung leisten."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Früher hast du mich aufgefangen.“: Die Übertragung vom gemeinsamen Erlebnis auf den Beziehungsbruch ist sehr deutlich; hier wird die sonst überzeugende Indirektheit kurz verlassen.",
+          "„Den könnte man durchstreichen.“ / „Das mache ich nicht mit Büchern.“: Wirkungsvolle, aber demonstrativ pointierte Wechselrede. Zusammen mit weiteren doppeldeutigen Repliken lässt sie beide Stimmen stellenweise zu gleichmäßig schlagfertig wirken.",
+          "„Jonas zieht seine Jacke von der Stuhllehne.“: Zu Beginn nimmt er die Jacke vom freien Stuhl; dass er sie anschließend über die Lehne hängt, bleibt ausgespart. Eine kleine Unsauberkeit in der ansonsten präzisen Requisitenführung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Du hättest sie auch einfach vor die Tür stellen können. Wie den Rest damals.“: Ein konkreter verletzender Vorgang wird ausdrücklich vorgehalten. Damit bleibt der Konflikt nicht mehr konsequent unausgesprochen.",
+          "„die Kiste mit deinen restlichen Sachen“: Zusammen mit der Rückgabe persönlicher Gegenstände legt die Szene vor allem eine Paartrennung nahe. Dass sich zwei alte Freunde nach einem Streit erstmals wiedersehen, wird nicht hinreichend etabliert.",
+          "„Man lernt ja aus Fehlern.“ / „Tut man das? Das ist schön für dich. Wirklich.“: Die Vorwürfe werden offen ausgestellt; für die geforderte durchgängige Arbeit mit Subtext bleibt wenig Raum.",
+          "„ihr Lächeln erreicht die Augen nicht“: Abgegriffene Gefühlsformel statt einer individuellen Beobachtung.",
+          "„Ich hänge an Sachen, die längst kaputt sind.“: Die Beziehungsmetapher erklärt ihre eigene Bedeutung und wirkt dadurch überdeutlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "B",
+      "C",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2889,
+    "out": 1742,
+    "thinking": 512
+  },
+  "costUsd": 0.023198
+}

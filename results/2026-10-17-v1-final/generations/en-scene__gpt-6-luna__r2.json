@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "gpt-6-luna",
+  "run": 2,
+  "text": "At 4:06, Mara left the ward to find a working vending machine. The chapel door stood open. She went in because the lights were on.\n\nA man sat in the second row, coat folded beside him. He was watching the small square window in the door, where the corridor moved in pale strips.\n\n“Can I help you?” she asked.\n\nHe turned. “Mara.”\n\nHer badge had twisted under her cardigan. She touched it, though she couldn’t see the name.\n\n“Are you waiting for someone?”\n\n“No.” He looked toward the window again. “I was sitting.”\n\nShe stayed near the doorway. On the narrow table, a paper cup held three wooden stirrers. Someone had arranged them parallel.\n\n“Do you need security?”\n\n“No, thank you.”\n\nHis voice was ordinary, almost apologetic. Mara glanced at his hands. No wristband. No hospital gown. A damp mark darkened one shoulder of his coat.\n\nFrom the ward, a call bell sounded twice, then stopped. She should go back. She could hear the medication cart rattling over the join in the floor.\n\n“Do you know me?” she asked.\n\nThe man lowered his eyes to his hands. “I know your name.”\n\nMara waited. He offered nothing else.\n\nShe went to the table and straightened the cup, though it was already steady. Behind her, the man shifted on the bench. The old wood gave a small, dry click.\n\nWhen she stepped into the corridor, the chapel window held her reflection over his: her white shoes, his dark coat, the three stirrers lined up on the table between them.",
+  "usage": {
+    "in": 59,
+    "out": 679,
+    "thinking": 337
+  },
+  "costUsd": 0.0003454,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 9498,
+  "meta": [],
+  "at": "2026-10-17T17:43:50.037Z"
+}

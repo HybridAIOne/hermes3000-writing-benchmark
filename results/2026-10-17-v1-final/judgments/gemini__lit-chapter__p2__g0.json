@@ -1,0 +1,116 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 7,
+        "fehler": [
+          "„Sie wusste, was auf dem Display stand, ohne hinzusehen“ — Verstoß gegen die Vorgabe: Für die Leserin ist im Text an keiner Stelle erkennbar, dass der Anruf von ihrem Sohn Jonas kommt.",
+          "„dass Ilse das andere Ufer nur wusste, nicht sah.“ — Semantisch schiefe Wendung; ein Ufer kann man kennen oder erahnen, aber nicht ‚wissen‘."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "„Sie wusste auch so, wer es war. [...] er rief immer um diese Zeit an“ — Verstoß gegen die Vorgabe: Der Name Jonas fällt im gesamten Text nicht; dass es der Sohn ist, bleibt für den Leser unklar.",
+          "„weil sie es seit einundvierzig Jahren jeden Morgen gegen halb acht ansteuerte.“ — Unplausibel bei einer 61-Jährigen (sie hätte mit 20 Jahren bereits die volle Verantwortung getragen) und eine 350 Wörter zu kurze Ausführung (ca. 550 statt 900 Wörter).",
+          "„Hundertzwanzig Meter bis zur ersten Boje, dann eine Linkskurve“ — Grober Sach- und Logikfehler: Eine Seilfähre („Stahlleine, die von Pfahl zu Pfahl durch den Strom lief“) kann keine Kurven um Bojen steuern.",
+          "„Sie hatte ihm vor Jahren einmal ein Stück Wurst zugeworfen und seitdem nicht mehr vergessen, dass er es bemerkt hatte.“ — Bezugsfehler der Pronomen (wer ist ‚er‘ – Kolb oder der Hund? Und warum ist es bemerkenswert, dass ein Hund ein Stück Wurst bemerkt, das man ihm zuwirft?).",
+          "„als hätte es es sich anders überlegt.“ — Unschöne Wortdoppelung („es es“)."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„und sah auf das kleine grüne Display. JONAS.“ — Das ist der einzige kleine Wermutstropfen in einem ansonsten hervorragenden Text: Das Motiv ist sehr konventionell gelöst, funktioniert aber handwerklich tadellos."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Das Telefon in ihrer Jackentasche vibrierte. [...] Sie hörte den ersten Klingelton, dann den zweiten. Sie steckte das Telefon zurück in die Tasche. Der Ton verstummte“ — Logikbruch: Erst vibriert das Telefon nur, plötzlich klingelt es laut, und allein durch das Zurückstecken in die Tasche verstummt der Ton.",
+          "„Das Rattern des Seils setzte wieder ein.“ — Handlungslogik: Ilse hat nach dem Aussteigen der Passagiere keinen Hebel betätigt und nicht abgelegt, dennoch fährt die Fähre plötzlich von selbst wieder los.",
+          "„Ilse sah auf die Zahl neben seinem Namen, bis der Bildschirm heller wurde.“ — Unpräzise und unlogische Beschreibung eines Smartphone-Displays bei einem eingehenden Anruf.",
+          "„ein Junge in einer roten Mütze. [...] Seine roten Schuhe verschwanden bald im Nebel.“ — Unbeholfene farbliche Doppelung zur Markierung der Figur."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Es war sechs Uhr siebenundvierzig. [...] Sie sah auf die Uhr. Neunundvierzig Minuten nach sechs.“ — Massiver Zeit-Logikbruch: In zwei Minuten kommen drei Passagiere an Bord, werden abkassiert, das Auto wird verkeilt, die Kette gezogen, die Klappe hochgekurbelt, der Motor gestartet und die gesamte Elbe fast vollständig überquert.",
+          "„das armdicke Stahlseil, das sich schräg in das Nichts fraß.“ — Sachlich maßlos übertrieben (ein Fährseil ist nicht armdick) und schiefes Bild (ein ruhendes Seil ‚frisst‘ sich nirgendwohin).",
+          "„Am Ring hing noch immer der abgegriffene Messinganhänger in Form eines kleinen Ankers, den Henning vor zwanzig Jahren aus Cuxhaven mitgebracht hatte.“ — Verstoß gegen die Vorgabe „ohne Rückblenden-Exposition“ (gilt ebenso für den langen Erklärblock zu Jonas' Anrufgründen und der Maklerin am Ende).",
+          "„In der Innentasche ihrer Jacke begann es zu vibrieren. [...] Sie schob das summende Gerät zurück in die Brusttasche“ — Kontinuitätsfehler (Innentasche vs. Brusttasche mit Reißverschluss)."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "E",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 8224,
+    "out": 1330,
+    "thinking": 0
+  },
+  "costUsd": 0.029748
+}

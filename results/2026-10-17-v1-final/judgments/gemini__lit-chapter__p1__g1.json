@@ -1,0 +1,112 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„der Dunst gegen die Scheibe kroch und wieder zurückwich, als überlege er es sich.“ (leicht überstrapazierte Personifikation gleich im ersten Absatz)",
+          "„wie es Henning ihr gezeigt hatte“ (kleiner Einschub von Hintergrundwissen, grenzt an Mini-Exposition)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 3,
+        "fehler": [
+          "„Sie sah nicht hin. Sie wusste auch so, wer es war. Es war Mittwoch, es war kurz nach halb acht, und er rief immer um diese Zeit an“ (Schwerer Verstoß gegen Vorgabe c4: Der Name Jonas fällt im gesamten Text nicht; ohne das Prompt-Wissen bleibt der Anrufer völlig anonym)",
+          "„weil sie es seit einundvierzig Jahren jeden Morgen gegen halb acht ansteuerte.“ (Rechen-/Logikfehler zur Figuren-Vorgabe: Ilse ist 61, sie fährt wohl kaum seit ihrem 20. Lebensjahr ununterbrochen allein die Fähre; zudem plumpe Exposition im zweiten Satz)",
+          "„Hundertzwanzig Meter bis zur ersten Boje, dann eine Linkskurve“ (Sachlicher Logikbruch: Eine Seilfähre am gespannten Stahlseil quer zum Strom fährt keine Linkskurve um Bojen)",
+          "„Sie hatte ihm vor Jahren einmal ein Stück Wurst zugeworfen und seitdem nicht mehr vergessen, dass er es bemerkt hatte.“ (Bezugs- und Logikwirrwarr: Wer hat was bemerkt und nicht vergessen?)"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„zwei Umrisse, dann einer, dann keiner.“ (etwas manierierter, filmischer Erzählerkommentar)",
+          "„Irgendwo flussabwärts rief ein Reiher, oder etwas, das klang wie ein Reiher.“ (minimal schablonenhaftes Stimmungsdetail)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Auf der Konsole rutschte er, auch auf der Gummimatte. Das hatte sie gestern ausprobieren müssen, obwohl sie es wusste.“ (Unplausibel für eine erfahrene Fährfrau, die ihr Schiff seit Jahren kennt)",
+          "„An der Tür des Steuerhauses löste sich unten der Dichtungsstreifen. [...] Auf dem Zettel zu Hause stand bereits Scheibenreiniger.“ (Der Mittelteil verliert sich in arg belanglosen Alltags-Inventaren ohne dramaturgischen Zug)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Ilse zog den Hebel zurück in die Ausgangsstellung. Der nächste Lauf würde leer sein, wenn niemand mehr kam. [...] Das Rattern des Seils setzte wieder ein. [...] während die Fähre in den Nebel hinausglitt.“ (Massiver Handlungs- und Logikbruch: Die Fähre legt ohne Grund wieder ab, während die Hebel auf Ausgangsstellung stehen und Ilse gar nichts bedient)",
+          "„Der Mann mit dem Fahrrad [...] setzte den Fuß auf den Fahrradständer“ (Idiomatisch und sachlich schief: Man klappt einen Ständer mit dem Fuß aus, man setzt nicht den Fuß darauf, um loszugehen)",
+          "„Sie hörte, wie das Seil über eine Rolle sprang und wieder in die Führung fand. Das Geräusch war kurz, scharf und vertraut.“ (Technischer Unsinn: Wenn ein unter Spannung stehendes Trag- oder Zugseil aus der Rolle springt, ist das ein schwerer Störfall und kein vertrautes Alltagsgeräusch)",
+          "„Ilse sah auf die Zahl neben seinem Namen, bis der Bildschirm heller wurde. Ihr Daumen lag über dem grünen Feld. Sie hörte den ersten Klingelton, dann den zweiten. Sie steckte das Telefon zurück in die Tasche. Der Ton verstummte“ (Unlogische Handy-Mechanik: Erst vibriert es nur, dann wird es heller, dann klingelt es plötzlich laut, und vom bloßen Wegstecken verstummt es sofort)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "D",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 8134,
+    "out": 1198,
+    "thinking": 0
+  },
+  "costUsd": 0.028248
+}

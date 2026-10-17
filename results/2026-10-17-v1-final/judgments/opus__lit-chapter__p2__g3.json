@@ -1,0 +1,81 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„Dann fahren wir eben drumherum.“ – eine Seilfähre kann nicht ausweichen, das ist ein Logikbruch.",
+          "„Hundertzwanzig Meter bis zur ersten Boje, dann eine Linkskurve“ – eine Seilfähre fährt keine Kurven, ebenso später „in die Kurve ging“.",
+          "„Sie wusste auch so, wer es war.“ – Jonas wird nie genannt, der Anrufer ist nur indirekt erschließbar.",
+          "„Moin, Frau Brandt.\" … „Der Nebel hält sich“ – die Anführungszeichen sind uneinheitlich (gerade und typografische gemischt).",
+          "„Der erste war Kolb“ – nach amtlicher Regelung „Der Erste“; dazu die holprige Fügung „als hätte es es sich anders überlegt“."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Wenn wir ankommen, sind wir da.“ / „Wenn Schluss ist.“ / „Das Wasser ist noch da.“ – die Tautologie-Pointen wiederholen sich als Masche.",
+          "„Er lächelte, als hätte er nicht gewusst, ob sie scherzte.“ … „Er sah sie an, unsicher, ob sie es ernst meinte.“ – dieselbe Reaktion zweimal.",
+          "„Ilse wartete, bis ihre Schritte nicht mehr zu hören waren.“ – „ihre“ ist uneindeutig, es könnte sich auf Ilse beziehen.",
+          "„Am Ende hatte sie ihn doch angezogen, den mit dem dünneren Daumen.“ – das Handschuh-Detail ist ein funktionsloser Einschub, der das Tempo bremst.",
+          "„Ilse legte den Riegel vor … legte den Riegel ein … Sie löste den Riegel“ – lexikalische Wiederholung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Über die Verträge für den Verkauf der Fährrechte, über die Maklerin aus Lüneburg, über die Treppen in ihrem Haus“ – erklärende Hintergrund-Exposition statt Szene, entgegen der Vorgabe.",
+          "„Es war sechs Uhr siebenundvierzig.“ … „Neunundvierzig Minuten nach sechs.“ – zwei Minuten reichen nicht für Kassieren, Verladen, Ablegen und halbe Überfahrt; zeitlicher Logikbruch.",
+          "„verschluckt von der feuchten Watte des Nebels“ / „kahle, schwarze Finger, die in den grauen Himmel zeigten“ – abgegriffene Bilder.",
+          "„die Ilse mehr ermüdete als jeder Sturm auf der Elbe“ – Klischee und Behauptung statt Zeigen.",
+          "„In der Innentasche ihrer Jacke“ … „zurück in die Brusttasche“ – Inkonsistenz bei der Tasche."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 9842,
+    "out": 3407,
+    "thinking": 2236
+  },
+  "costUsd": 0.107508
+}

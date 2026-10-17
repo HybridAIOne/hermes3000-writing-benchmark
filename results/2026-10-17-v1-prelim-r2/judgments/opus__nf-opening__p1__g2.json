@@ -1,0 +1,99 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Genau dort beginnt Führung: nicht beim Zurechtweisen, sondern beim ehrlichen Klären.“ – Schlusssatz klingt nach Merksatz bzw. Kalenderspruch",
+          "„Markus weiß womöglich nicht einmal, was du ihm vorwirfst.“ – unscharf, weil bisher noch niemand etwas vorgeworfen hat; gemeint ist eher „was man ihm vorwirft“",
+          "„Solche Verschiebungen fühlen sich oft vernünftig an.“ – abrupter Wechsel von der Szene zur Reflexion ohne Absatz oder Übergang",
+          "„Danach beginnt die Besprechung, mittags klingelt das Telefon“ – die Aufzählung ist etwas schematisch"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„der auf dem Papier auf derselben Stufe steht wie wir selbst“ – passt nicht zur Rolle Teamleiter und vermischt Teamleitung mit Kollegenkritik; zudem Wechsel von der Du- in die Wir-Perspektive",
+          "„Es ist die unsichtbare Mauer, vor der wir stehen“ – abgegriffenes Bild, Pathos",
+          "„aus falscher Harmoniesucht“ – doppelt wertend und redundant",
+          "„im Blindflug starten werden“ – schiefe Metapher im Schichtkontext",
+          "„in deiner Magengegend macht sich ein kaltes, schweres Gefühl breit“ – zu romanhaft für ein praxisnahes Sachbuch"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Wenn dir diese Szene bekannt vorkommt, bist du in guter Gesellschaft.“ – Floskel",
+          "„Genau darum geht es in diesem Kapitel:“ – konventionelle Kapitelankündigung",
+          "„dieses Gespräch, das man vor sich herschiebt“ – Wechsel von „du“ zu „man“",
+          "Etwas über dem Zielumfang von etwa 250 Wörtern"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 4,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "„Sie redest über den letzten Auftrag“ – grober Grammatikfehler und Bruch der Du-Ansprache",
+          "„Es ist Montag, kurz nach acht, und du weißt: Heute muss es raus.“ – wiederholter Einstieg, der wie eine stehengebliebene Zweitfassung wirkt und der Szene widerspricht, denn das Gespräch läuft bereits",
+          "„dass du sie zweimal nachfragen musstest“ – falsche Konstruktion (richtig wäre etwa „zweimal nachhaken musstest“ oder „sie zweimal anmahnen musstest“)",
+          "„Jetzt sitzt er dir gegenüber“ – „er“ wird nie eingeführt, die Szene bleibt unkonkret",
+          "„Nicht weil es spaßig wäre.“ – saloppe Füllformulierung; zudem zwei Absätze statt eines Einstiegsabsatzes"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 4239,
+    "out": 2161,
+    "thinking": 945
+  },
+  "costUsd": 0.060176
+}

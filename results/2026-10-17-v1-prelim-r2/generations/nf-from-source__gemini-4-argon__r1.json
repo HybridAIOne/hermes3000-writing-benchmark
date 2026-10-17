@@ -1,0 +1,18 @@
+{
+  "task": "nf-from-source",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "text": "Wie eine Genossenschaft funktioniert und warum sie als passende Rechtsform genutzt wird, zeigt das Beispiel der Fährgenossenschaft Hitzacker eG. Sie wurde im Jahr 1953 von 41 Landwirten und Händlern aus beiden Elbufern gegründet, nachdem der Landkreis den Betrieb der Seilfähre eingestellt hatte. Die Fähre überquert die Elbe an einer Stelle, an der der Fluss 212 Meter breit ist; eine Überfahrt dauert bei normalem Wasserstand sieben Minuten. \n\nDie grundlegende Funktionsweise einer solchen Genossenschaft beruht auf der finanziellen Beteiligung und der gleichberechtigten Mitbestimmung ihrer Mitglieder. Heute hat die Fährgenossenschaft 312 Mitglieder. Um sich zu beteiligen, hält jedes Mitglied mindestens einen Anteil zu 250 Euro. Wie in dieser Rechtsform Entscheidungen getroffen werden, zeigt sich in der Generalversammlung: Dort hat jedes Mitglied genau eine Stimme, und zwar unabhängig von der Zahl seiner Anteile. \n\nWarum die Genossenschaft für diese Fähre die passende Rechtsform ist, verdeutlicht insbesondere der Umgang mit den Finanzen, denn das erwirtschaftete Geld dient unmittelbar dem Erhalt der Fähre. Im Jahr 2024 betrug der Umsatz 186.000 Euro, wovon 71 Prozent aus Fahrkartenverkäufen und 29 Prozent aus einem Zuschuss der Gemeinde stammten. Überschüsse werden in der Genossenschaft nicht an die Mitglieder ausgeschüttet, sondern in eine Rücklage für die Erneuerung der Fähre eingezahlt.\n\nAuf diese Weise sichert die Rechtsform dauerhaft den Betrieb und die Modernisierung des Fährverkehrs für die rund 64.000 Personen, die pro Jahr befördert werden – im Sommer sind dies vor allem Radfahrer auf dem Elberadweg. Die Fähre selbst hängt an einem Führungsseil. Bewegte bis 1978 die Strömung die Fähre noch allein, wird sie heute von einem 85-kW-Dieselmotor angetrieben. Durch das genossenschaftliche Prinzip, Überschüsse gezielt zurückzulegen, ist auch die zukünftige Erneuerung bereits geplant: Die Rücklage soll bis zum Jahr 2031 ausreichen, um einen Elektroantrieb einzubauen.",
+  "usage": {
+    "in": 453,
+    "out": 4272,
+    "thinking": 3780
+  },
+  "costUsd": 0.043626,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 49777,
+  "meta": [],
+  "at": "2026-10-17T17:19:39.376Z"
+}

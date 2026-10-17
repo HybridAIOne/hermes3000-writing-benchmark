@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-7",
+  "model": "gpt-6-luna",
+  "run": 2,
+  "judge": "sol",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 1653,
+    "out": 42,
+    "thinking": 20
+  },
+  "costUsd": 0.003726
+}

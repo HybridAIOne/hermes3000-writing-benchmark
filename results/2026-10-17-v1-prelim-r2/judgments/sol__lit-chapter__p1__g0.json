@@ -1,0 +1,117 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„mit beiden Händen ein Pappbecher festhielt“: Kasusfehler; richtig wäre „einen Pappbecher“.",
+          "„Dann stiegen die drei nacheinander hinab“: Die Ausschiffung wird doppelt erzählt. Zuvor tritt die Frau bereits auf die Rampe und der Mann schiebt sein Fahrrad über die Kante. Der Bewegungsablauf wird dadurch widersprüchlich.",
+          "„tauchte der Mann mit dem Fahrrad seine Hände tiefer in die Manteltaschen“: Unidiomatische Verbindung; Hände werden hier in die Taschen geschoben oder gesteckt.",
+          "„Wenn die Elbe will.“ / „Dann auch.“: Die wiederholten pointierten Antworten machen aus Ilses Wortkargheit eine demonstrative Schlagfertigkeitsnummer.",
+          "„als läge dort eine Entscheidung“ und „als gäbe es jenseits davon nichts, was sie jetzt annehmen müsste“: Aufgesetzte Bedeutungsaufladung. Besonders der Schluss erklärt durch das Wortspiel mit „annehmen“ den bereits verständlichen Konflikt nach."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die Kette lief aus dem Wasser“ / „Das Seil spannte sich“ / „die Kette zog gleichmäßig“: Die Funktionsbeschreibung wechselt ohne Erklärung zwischen Ketten- und Seilführung. Für eine beruflich erfahrene Perspektivfigur bleibt die zentrale Arbeitsmechanik zu unpräzise.",
+          "„bis er den Becher in die Jackentasche gesteckt hatte“: Der zuvor dampfende Kaffeebecher verschwindet ohne erkennbare Sicherung in der Jackentasche und ist kurz darauf wieder in der Hand. Das ist ein unnötig unplausibles Handlungsdetail.",
+          "„Dann wissen Sie’s ja.“ / „Dass man sich festhalten muss.“: Ilse belehrt den Radfahrer, obwohl dieser bereits den Lenker hält. Der Anlass für den Dialog ist nicht überzeugend vorbereitet.",
+          "„dass Ilse das andere Ufer nur wusste“: Auffällige, semantisch gezwungene Verkürzung; die Formulierung stellt ihren literarischen Anspruch vor die Präzision.",
+          "„Dann reißt es.“ / „Dann sind Sie auf der richtigen Fähre.“: Wiederholt zugespitzte Repliken lassen Ilse eher routiniert schroff als individuell wortkarg erscheinen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "„Drei Fahrzeuge warteten dort“ / „Die dritte Person war ein junger Mann, der zu Fuß gekommen war“ / „Wir sind auf dem Weg nach Lüneburg“: Fahrzeug- und Personenzählung passen nicht zusammen. Das „Wir“ legt zudem einen weiteren Insassen im SUV nahe; genau drei Fahrgäste sind nicht konsistent dargestellt.",
+          "„das sie an die herbstlichen Jahre mit Henning erinnert hatte“ und „englische Fachbegriffe, die sie nicht verstand und deshalb nie nachgefragt hatte“: Eingeschobene Vergangenheits- und Beziehungsexposition widerspricht der Vorgabe, ohne Rückblenden-Exposition auszukommen.",
+          "„München. Tausende Kilometer Beton und Glas“: Als räumliche Charakterisierung der Entfernung zu München sachlich überzogen; als Metapher bleibt die Formulierung unklar.",
+          "„Es gab keinen Grund, in die Vergangenheit zu blicken, wenn die Gegenwart eine so präzise Aufmerksamkeit erforderte“ und „die Routine ihre maximale Wirkung entfaltete“: Abstrakte Erzählererklärungen ersetzen konkrete Wahrnehmung und Handlung.",
+          "„wie ein nasses Laken“, „Ende der Welt“ und „an eine religiöse Handlung grenzte“: Gehäufte vertraute Bilder überhöhen den gewöhnlichen Arbeitsmorgen, statt ihm eine eigene sprachliche Gestalt zu geben."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c3"
+        ]
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„mit einem tiefen, kehligen Husten, das den ganzen Stahlbau in ein feines Vibrieren versetzte“: Falsches Relativpronomen; auf „Husten“ muss sich „der“ beziehen.",
+          "„Er würde von Immobilienpreisen reden“ bis „keine Luft mehr zu bekommen“: Der ausführlich vorweggenommene Gesprächsinhalt erklärt den Familienkonflikt bereits beim ersten Anruf. Das nimmt dem Nichtannehmen seine Offenheit und schwächt den szenischen Schluss.",
+          "„Hennings alter Pfeife, obwohl der Geruch sich eigentlich längst hätte verflüchtigen müssen“: Eingeschobene Vergangenheitsexposition; der Verlust wird über ein vertrautes Erinnerungsrequisit eingeführt, statt im gegenwärtigen Geschehen entwickelt zu werden.",
+          "„der gesamte Fährkörper senkte sich einen Zentimeter tiefer ins Wasser“: Die exakte Maßangabe ist aus Ilses Wahrnehmung nicht nachvollziehbar und erzeugt Scheingenauigkeit.",
+          "„eine schwarze Ader, die im Nichts verschwand“ und „über das Ende der Welt hinauszuschießen“: Konventionelle dramatisierende Bilder belasten die ansonsten anschauliche Arbeitsszene."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "E",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 7979,
+    "out": 2166,
+    "thinking": 781
+  },
+  "costUsd": 0.037618
+}

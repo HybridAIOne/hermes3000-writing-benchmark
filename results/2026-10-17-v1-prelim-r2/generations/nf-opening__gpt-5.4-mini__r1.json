@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "gpt-5.4-mini",
+  "run": 1,
+  "text": "Der Bildschirm leuchtet noch, der Kaffee ist längst kalt, und trotzdem sitzt du da und überlegst, wie du das Gespräch morgen anfangen sollst. Es geht um den Kollegen, der Zusagen macht und Termine reißt. Um die Mitarbeiterin, die im Team freundlich wirkt, aber in Besprechungen jedes Mal dichtmacht, sobald es um Fehler geht. Oder um den Kunden, der sich beschwert, obwohl alle im Betrieb genau wissen, dass das Problem nicht erst seit gestern besteht. Solche Gespräche schiebt man gerne vor sich her, weil sie Energie kosten, weil sie unbequem sind und weil man nie ganz sicher ist, wie sie ausgehen. Man will niemanden vor den Kopf stoßen, die Stimmung nicht verderben, keine unnötige Spannung ins Team bringen. Also wartet man noch einen Tag, noch eine Woche, noch bis nach dem Projektabschluss.\n\nAber genau dieses Warten macht es meist schlimmer. Aus einer kleinen Irritation wird ein stiller Ärger. Aus einem Missverständnis wird ein Muster. Aus einem vermeidbaren Thema wird ein offener Konflikt, der plötzlich mehr Zeit kostet als das eigentliche Gespräch je gekostet hätte. Schwierige Gespräche gehören deshalb nicht zu den Ausnahmefällen im Führungsalltag, sondern zu den Aufgaben, an denen sich zeigt, wie du führst. Nicht mit einem großen Auftritt, sondern im ganz normalen Betrieb: im Büro, in der Werkhalle, zwischen zwei Terminen, am Rand einer Besprechung. Wer solche Gespräche führen kann, schafft Klarheit, bevor sich Frust festsetzt. Und wer sie vermeidet, überlässt dem Zufall, dem Ärger und dem Gerede das Feld. In diesem Kapitel geht es darum, wie du auch unangenehme Themen so ansprichst, dass etwas geklärt wird, statt nur neue Spannung zu erzeugen.",
+  "usage": {
+    "in": 152,
+    "out": 382,
+    "thinking": 0
+  },
+  "costUsd": 0.001833,
+  "finish": "stop",
+  "reportedModel": "gpt-5.4-mini-2026-03-17",
+  "upstream": null,
+  "latencyMs": 2281,
+  "meta": [],
+  "at": "2026-10-17T17:20:04.664Z"
+}

@@ -1,0 +1,101 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Sie redest über den letzten Auftrag“: Grammatikfehler und versehentlicher Wechsel der Anrede; richtig: „Du redest“.",
+          "„Es ist Montag, kurz nach acht“: Der identische Szenenbeginn wird im zweiten Absatz wiederholt. Das setzt die Erzählung unnötig zurück, statt sie weiterzuführen.",
+          "„Genau das ist die Situation, um die es in diesem Kapitel geht“: Umständlicher Übergang, der das bereits anschaulich Gezeigte noch einmal abstrakt erklärt.",
+          "„Nicht das große Konfliktgespräch … nicht die Kündigung, nicht der Krisengipfel“: Die Aufzählung verzögert den Einstieg und verengt das Kapitel ohne erkennbare Notwendigkeit auf kleinere Alltagsgespräche.",
+          "„Es ist Montag …“ / „Es ist Montag …“: Zwei Absätze statt des verlangten Einstiegsabsatzes; mit rund 215 Wörtern außerdem etwas knapp gegenüber dem Richtwert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Aus einem Missverständnis wird ein Muster“: Inhaltlich unscharfe Steigerung. Ein Missverständnis wird nicht ohne weitere Erklärung zu einem wiederkehrenden Verhaltensmuster.",
+          "„Aus einem vermeidbaren Thema wird ein offener Konflikt“: Unpräzise Wortwahl; vermeidbar ist eher der Konflikt als das anzusprechende Thema.",
+          "„Oder um den Kunden, der sich beschwert, obwohl alle im Betrieb genau wissen, dass das Problem nicht erst seit gestern besteht“: Der Gegensatz mit „obwohl“ überzeugt nicht. Ein lange bekanntes Problem macht die Beschwerde eher nachvollziehbarer.",
+          "„Der Bildschirm leuchtet noch, der Kaffee ist längst kalt“: Verständliches, aber stark vertrautes Einstiegsbild. Die anschließende Reihe verschiedener Gesprächsanlässe ersetzt eine individuell ausgearbeitete Szene.",
+          "„Aber genau dieses Warten macht es meist schlimmer“: Hier beginnt ein zweiter Absatz; verlangt war ein einzelner Einstiegsabsatz."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„Deadlines reißt, im Daily genervt abwinkt“: Vermeidbarer englischer Unternehmensjargon; besonders „Daily“ widerspricht der Vorgabe, ohne Buzzwords zu schreiben.",
+          "„wie du dieses Minenfeld betrittst, ohne dass es dir um die Ohren fliegt“: Überzogene Gefahrenmetaphorik, die schwierige Gespräche eher bedrohlicher erscheinen lässt, statt einen sachlichen, hilfreichen Zugang zu eröffnen.",
+          "„dass der Kelch an dir vorübergeht“, „disziplinarische Keule im Schrank“, „jede Schraube mit Vornamen kennt“: Die Häufung abgegriffener und teilweise forcierter Bilder überlädt die Szene.",
+          "„Alles, was du hast, ist deine Beziehung zu den Leuten und die Art und Weise, wie du die Dinge auf den Tisch packst“: Sachlich zu absolut; auch ohne disziplinarische Macht stehen etwa klare Zuständigkeiten, Vereinbarungen und betriebliche Abläufe zur Verfügung.",
+          "„Tut es nicht. Das weißt du längst.“: Als eigener Kurzabsatz zusätzlich dramatisiert; insgesamt vier Absätze statt des verlangten Einstiegsabsatzes."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„den die anderen inzwischen offen mit den Augen rollen“: Fehlerhafte Satzkonstruktion. Man kann nicht jemanden „mit den Augen rollen“; möglich wäre „bei dessen Anblick die anderen inzwischen mit den Augen rollen“.",
+          "„dass du danach ruhig schlafen kannst“: Das Erfolgsversprechen richtet den Blick auf die Erleichterung der Führungskraft statt auf eine sachliche Klärung und tragfähige Zusammenarbeit.",
+          "„dass die meisten dieser Gespräche in der Vorstellung schlimmer sind als in der Wirklichkeit“: Pauschale Beruhigung, die ernsthafte Gesprächsrisiken überspielt.",
+          "„Die Ansage, dass eine Beförderung nicht klappt“: Setzt eine formale Führungszuständigkeit voraus, die für ein Buch über das Führen ohne Titel nicht selbstverständlich ist.",
+          "„Kommt dir das bekannt vor?“ / „Dieses Kapitel nimmt dir die schwierigen Gespräche nicht ab“: Zwei zusätzliche Absatzanfänge; insgesamt drei Absätze statt des verlangten Einstiegsabsatzes."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2016,
+    "out": 1586,
+    "thinking": 425
+  },
+  "costUsd": 0.019892
+}

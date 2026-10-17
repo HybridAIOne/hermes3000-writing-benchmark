@@ -1,0 +1,108 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Wie du Kritik, Leistungsprobleme oder Konflikte vorbereitest“: Die Aufzählung passt nicht zum Verb. Vorbereitet werden die Gespräche darüber, nicht die Leistungsprobleme oder Konflikte selbst.",
+          "„Wer macht eigentlich was?“ behandelt Aufgaben und Zuständigkeiten im Team; eine ausdrückliche Klärung des eigenen Führungsauftrags und Entscheidungsspielraums fehlt jedoch als Grundlage.",
+          "„ohne dich unbeliebt zu machen“: Die Formulierung setzt Beliebtheit als Maßstab für notwendige Abgrenzung und verspricht eine Konfliktfreiheit, die sich praktisch nicht gewährleisten lässt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Du wägest ab“: Hier steht unbegründet der Konjunktiv I; im durchgehend verwendeten Indikativ muss es „Du wägst ab“ heißen.",
+          "„Du findest den Übergang vom Kollegen zum Teamleiter“: Unidiomatische Verbindung; einen Übergang gestaltet oder bewältigt man.",
+          "„Schaffe einen verlässlichen Arbeitsrhythmus“: Grundlegende Besprechungen und Informationswege werden erst in Kapitel 8 eingeführt, nach schwierigen Gesprächen und Entscheidungen. Das schwächt den geforderten schrittweisen Aufbau."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„der beste Sachbearbeiter im Team“: Verengt die branchenübergreifende Zielgruppe unnötig auf Büro- und Verwaltungstätigkeiten.",
+          "„Rückmeldung im Alltag“ mit „Lob und Kritik“ und anschließend „schwierige Gespräche“ über „schwache Leistung, schlechtes Verhalten“: Die Grenze zwischen alltäglicher Korrektur und einem gesonderten Problemgespräch sollte deutlicher benannt werden, um Überschneidungen zuverlässig auszuschließen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„jede Person […] mit ihren Stärken, Erwartungen und der Frage, was sie von dir brauchen“: Der Bezug springt vom Singular „jede Person“ zum Plural „brauchen“; korrekt wäre hier „was sie von dir braucht“. Zudem ist die Frage kein Personenmerkmal wie Stärken oder Erwartungen.",
+          "„Konflikt-, Leistungs- und Konsequenzgespräche“: Besonders „Konsequenzgespräche“ ist erklärungsbedürftiger Personaljargon und widerspricht der geforderten einfachen, buzzwordfreien Sprache.",
+          "„gehst danach sauber damit um“: Die Wendung bleibt inhaltsarm; offen bleibt, ob Ergebnisse dokumentiert, Vereinbarungen überprüft oder weitere Schritte eingeleitet werden.",
+          "„Zwischen den Stühlen: Chef oben, Team unten“: Der Beschreibungssatz beschränkt sich auf das Vertreten fremder Entscheidungen. Das ebenso wichtige Vertreten der Teaminteressen gegenüber dem Vorgesetzten fehlt.",
+          "„Rückmeldung im Tagesgeschäft: Lob und Kritik“ und „Wenn es schwierig wird“: Die Beschreibungen grenzen gewöhnliche Kritik und formelle Gespräche über Leistungsprobleme nicht ausreichend voneinander ab."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "B",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2655,
+    "out": 1433,
+    "thinking": 512
+  },
+  "costUsd": 0.01964
+}

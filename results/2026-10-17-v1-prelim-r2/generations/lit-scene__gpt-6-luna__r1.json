@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "Der Schlüssel passte erst beim dritten Versuch. Mara musste ihn im Schloss ein wenig anheben, wie früher, wenn ihre Mutter vergessen hatte, die Tür richtig zuzuziehen. Dann gab das Schloss nach, trocken und widerwillig.\n\nIm Haus roch es nach kalter Asche und dem Staub, der sich auf Dinge legt, die niemand mehr benutzt. Sie blieb im Flur stehen und lauschte. Nichts. Nicht einmal das leise Summen des Kühlschranks, das sie als Kind nachts bis in ihr Zimmer gehört hatte. Der Kühlschrank war fort; auf dem Linoleum blieb ein heller, rechteckiger Abdruck.\n\nSie stellte die Tasche ab. Der Riemen glitt von ihrer Schulter und schlug gegen die Wand. Das Geräusch schien größer zu sein, als es war.\n\nZwanzig Jahre hatte sie nicht hier geschlafen. In Gedanken hatte sie den Flur schmaler gemacht, die Decke niedriger, die Tür zur Küche näher. Nun standen die Dinge an ihren vertrauten Stellen, und doch wirkten sie wie Möbel in einem fremden Zimmer: der schmale Spiegel, die Garderobe mit einem einzelnen Holzbügel, der Schuhschrank, dessen oberste Schublade nie ganz schloss.\n\nMara strich mit dem Daumen über die Kante. Unter dem Lack lag eine Kerbe, glatt geworden von vielen Berührungen. Sie erinnerte sich nicht daran, sie hineingemacht zu haben.\n\nIm Wohnzimmer standen die Vorhänge offen. Das matte Nachmittagslicht fiel auf den Sessel ihrer Mutter, in dessen Polster sich noch die Mulde des Körpers abzeichnete. Mara sah weg, bevor sie sich entscheiden musste, ob das möglich war.\n\nIn der Küche drehte sie den Wasserhahn auf. Erst kam Luft, dann ein brauner Strahl, der gegen das Becken spritzte. Sie hielt die Hände darunter, bis das Wasser klar wurde. Es war so kalt, dass die Finger schmerzten.\n\nAm Türrahmen zur Speisekammer bemerkte sie drei kurze Striche im Holz. Sie waren knapp über ihrer Schulterhöhe, sorgfältig nebeneinander eingeritzt. Einer war dunkler als die anderen, als hätte jemand ihn erst vor wenigen Tagen gezogen.",
+  "usage": {
+    "in": 76,
+    "out": 691,
+    "thinking": 220
+  },
+  "costUsd": 0.0003531,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 9218,
+  "meta": [],
+  "at": "2026-10-17T17:19:44.590Z"
+}

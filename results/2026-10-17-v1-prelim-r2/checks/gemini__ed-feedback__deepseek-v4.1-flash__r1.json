@@ -1,0 +1,19 @@
+{
+  "task": "ed-feedback",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "found": [
+      "tempus",
+      "rampe"
+    ],
+    "false_alarms": 1
+  },
+  "usage": {
+    "in": 996,
+    "out": 35,
+    "thinking": 0
+  },
+  "costUsd": 0.002342
+}

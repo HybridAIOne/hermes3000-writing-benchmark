@@ -1,0 +1,18 @@
+{
+  "task": "nf-from-source",
+  "model": "claude-haiku-5.5",
+  "run": 3,
+  "text": "Wie funktioniert eine Genossenschaft? Die Fährgenossenschaft Hitzacker zeigt es gut. Als der Landkreis den Betrieb der Seilfähre einstellte, taten sich 1953 41 Landwirte und Händler aus beiden Elbufern zusammen und gründeten die Fährgenossenschaft Hitzacker eG. Heute hat sie 312 Mitglieder. Jedes von ihnen hält mindestens einen Anteil zu 250 Euro. Mit diesen Anteilen tragen die Mitglieder das Unternehmen gemeinsam. Sie sind zugleich seine Eigentümer.\n\nDas Grundprinzip zeigt sich bei Abstimmungen. Jedes Mitglied hat in der Generalversammlung eine Stimme, unabhängig davon, wie viele Anteile es besitzt. Wer mehr eingezahlt hat, hat also nicht mehr zu sagen als jemand mit dem Mindestanteil. Entscheidend ist die Person, nicht das Kapital.\n\nAuch mit dem Geld wird anders umgegangen als in einem gewöhnlichen Unternehmen. Überschüsse werden nicht ausgeschüttet, sondern in eine Rücklage für die Erneuerung der Fähre eingezahlt. 2024 betrug der Umsatz 186.000 Euro. Davon stammten 71 Prozent aus Fahrkartenverkäufen und 29 Prozent aus einem Zuschuss der Gemeinde. Das Geld bleibt im Betrieb.\n\nWarum passt diese Rechtsform zur Fähre? Die Fähre ist eine Verbindung, die viele Menschen auf beiden Elbufern brauchen. Sie überquert den Fluss an einer Stelle, an der er 212 Meter breit ist. Bei normalem Wasserstand dauert eine Überfahrt sieben Minuten. Pro Jahr befördert die Fähre rund 64.000 Personen, im Sommer vor allem Radfahrer auf dem Elberadweg. Ein Angebot dieser Art dauerhaft zu sichern, verlangt Menschen, die es gemeinsam tragen und kontrollieren. Die Genossenschaft verbindet beides: Die Mitglieder sind Eigentümer, und die Erträge bleiben im Projekt.\n\nDer technische Wandel zeigt zudem den langen Atem dieses Modells. Bis 1978 bewegte allein die Strömung die Fähre, die an einem Führungsseil hängt. Heute treibt sie ein 85-kW-Dieselmotor an. Die Rücklage soll bis 2031 ausreichen, um einen Elektroantrieb einzubauen. Solche Vorhaben lassen sich nur finanzieren, wenn Überschüsse über Jahre hinweg zurückgelegt werden. Genau dafür ist die Rücklage da.",
+  "usage": {
+    "in": 780,
+    "out": 2872,
+    "thinking": 1848
+  },
+  "costUsd": 0.001514,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 11242,
+  "meta": [],
+  "at": "2026-10-17T17:49:50.731Z"
+}

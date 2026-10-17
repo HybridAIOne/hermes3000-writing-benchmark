@@ -1,0 +1,91 @@
+{
+  "task": "nf-from-source",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "aus beiden Elbufern (unidiomatische Präposition aus dem Quellmaterial übernommen; korrekt: von beiden Elbufern)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "aus beiden Elbufern (unidiomatisch aus der Quelle übernommen; korrekt: von beiden Elbufern)",
+          "Bei der Fährgenossenschaft Hitzacker kommt hinzu, dass die Rücklage bis 2031 ausreichen soll (ungeschickter Aufbau: das Detail wird im Fazit nachgeschoben, obwohl die Rücklage schon im Absatz davor Thema war)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 10,
+        "fehler": [
+          "Finanzielle Beteiligung und Mitbestimmung sind also unterschiedlich geregelt: Zusätzliche Anteile bringen keine zusätzlichen Stimmen. (redundante Wiederholung des unmittelbar zuvor Gesagten)",
+          "Im Mittelpunkt steht nicht die Ausschüttung von Überschüssen, sondern die Fähre als gemeinsame Aufgabe und ihre künftige Erneuerung. (blasser, repetitiver Schlusssatz)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 5,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Zweitens werden Erträge nicht an externe Anteilseigner ausgeschüttet, sondern der Sache zugutekommen. (klarer Grammatikfehler: Passiv-Hilfsverb 'werden' passt nicht zum Infinitiv 'zugutekommen')",
+          "an externe Anteilseigner ausgeschüttet (sachlich schief: In dieser Genossenschaft werden Überschüsse auch nicht an die internen Mitglieder ausgeschüttet)",
+          "und dass jede Einnahme unmittelbar in die Erhaltung und Modernisierung der Fähre zurückfließt (sachlich unpräzise: Nicht jede Einnahme/der gesamte Umsatz fließt in die Rücklage, sondern nur die Überschüsse nach Abzug der laufenden Betriebskosten)"
+        ],
+        "unsupported": [
+          "und dass jede Einnahme unmittelbar in die Erhaltung und Modernisierung der Fähre zurückfließt (laut Quelle fließen nur die Überschüsse in die Rücklage für die Erneuerung, nicht jede Einnahme)"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3374,
+    "out": 697,
+    "thinking": 0
+  },
+  "costUsd": 0.013718
+}

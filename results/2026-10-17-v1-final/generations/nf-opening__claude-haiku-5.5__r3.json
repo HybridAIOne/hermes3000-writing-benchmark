@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "claude-haiku-5.5",
+  "run": 3,
+  "text": "Es ist kurz nach halb neun, als du die Tür zum kleinen Besprechungsraum schließt. Auf dem Tisch liegt ein Ausdruck, den du seit gestern Abend dreimal gelesen hast. Gegenüber sitzt Markus, zehn Jahre im Unternehmen, der beste Kenner der Maschinenwartung, den ihr habt. Du hast dir zwei Sätze zurechtgelegt. Den ersten sagst du, und Markus schaut auf den Ausdruck, dann auf dich, und fragt: „Dann war's das also mit mir?\" Das wolltest du so nicht hören lassen, und auch nicht so sagen. Die Stille danach dauert vielleicht drei Sekunden und fühlt sich an wie eine Minute.\n\nKennst du das? Man schiebt die Sache wochenlang vor sich her, in der Hoffnung, dass sie sich von selbst erledigt. Das tut sie nicht. Und wenn das Gespräch dann endlich stattfindet, ist es meist schwerer, als es hätte sein müssen, weil das Warten den Ärger größer gemacht hat, bei dir ebenso wie bei dem anderen.\n\nSchwierige Gespräche gehören zu den Aufgaben, auf die dich niemand vorbereitet hat. Fachlich warst du gut genug, um Teamleiter zu werden. Dass du irgendwann einem langjährigen Kollegen sagen musst, dass es so nicht weitergehen kann, stand aber in keiner Stellenbeschreibung. Viele Führungskräfte lernen den Umgang mit solchen Momenten durch Versuch und Irrtum, meist auf Kosten derer, die gerade zuhören müssen.\n\nDieses Kapitel setzt an einer anderen Stelle an. Es geht nicht darum, einen Trick zu lernen, mit dem jedes Gespräch harmonisch endet. Den gibt es nicht. Es geht darum, dass du vorher weißt, was du erreichen willst, im Gespräch klar bleibst, wenn es unangenehm wird, und danach nicht so tust, als wäre nichts gewesen.",
+  "usage": {
+    "in": 278,
+    "out": 1829,
+    "thinking": 1070
+  },
+  "costUsd": 0.0009423,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 8654,
+  "meta": [],
+  "at": "2026-10-17T17:50:22.269Z"
+}

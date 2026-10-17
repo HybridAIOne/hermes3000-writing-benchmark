@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "claude-haiku-5.5",
+  "run": 2,
+  "text": "*Ein Café am Hafen. Regen am Fenster. MARTIN sitzt bereits, rührt in einer leeren Tasse. JULIA bleibt in der Tür stehen, dann kommt sie langsam näher.*\n\n**JULIA:** Du bist früher da.\n\n**MARTIN:** Ich dachte, einer von uns sollte pünktlich sein.\n\n*Sie setzt sich, ohne den Mantel auszuziehen.*\n\n**JULIA:** Der Kaffee sieht kalt aus.\n\n**MARTIN:** Ich hab nicht bestellt.\n\n**JULIA:** Natürlich nicht.\n\n*Pause. Die Kellnerin kommt, nimmt Julias Bestellung auf, geht wieder.*\n\n**MARTIN:** Du siehst gut aus.\n\n**JULIA:** Danke. Du auch. Die Haare.\n\n**MARTIN:** Grau.\n\n**JULIA:** Hab ich gesehen.\n\n*Beide blicken aus dem Fenster.*\n\n**MARTIN:** Wie geht's Lena?\n\n**JULIA:** Gut. Sie fragt manchmal nach dir.\n\n**MARTIN:** Das freut mich.\n\n**JULIA:** Sie hat nicht gesagt, dass es sie freut.\n\n*Er lacht kurz, ohne Wärme.*\n\n**MARTIN:** Du hast also doch die Einladung bekommen.\n\n**JULIA:** Ich hab die Karte bekommen. Zwei Wochen später.\n\n**MARTIN:** Die Post ist unzuverlässig.\n\n**JULIA:** Die Post war nie das Problem.\n\n*Stille. Löffel klirrt gegen Porzellan.*\n\n**MARTIN:** Ich wusste nicht, ob du kommst.\n\n**JULIA:** Ich auch nicht.\n\n*Sie greift nach ihrer Tasse, zögert, lässt sie stehen.*\n\n**MARTIN:** Erinnerst du dich an den Sommer am See?\n\n**JULIA:** Ja.\n\n**MARTIN:** Und?\n\n**JULIA:** Nichts. Ich erinnere mich einfach.\n\n*Sie öffnet endlich den obersten Knopf ihres Mantels. Er sieht es, sagt nichts.*\n\n**MARTIN:** Willst du bleiben?\n\n**JULIA:** Ich weiß nicht.\n\n*Draußen fährt ein Schiff vorbei, das Horn klingt lang und dunkel.*",
+  "usage": {
+    "in": 126,
+    "out": 1748,
+    "thinking": 895
+  },
+  "costUsd": 0.0008866,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 8583,
+  "meta": [],
+  "at": "2026-10-17T17:48:06.486Z"
+}

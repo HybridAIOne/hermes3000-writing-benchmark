@@ -1,0 +1,113 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "C": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "D": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Er läuft\", sagte Ilse. (Falsche Anführungszeichen: durchgehend Zollzeichen statt korrekter deutscher Typografie)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "Das Seil über ihren Köpfen summte leise im Wind [...] wenn ein Schubverband die Fahrrinne kreuzte, vibrierte er bis in die Planken unter ihren Gummistiefeln. (Sachlicher Logikbruch: Ein Seil über den Köpfen wird von Frachtschiffen auf der Elbe gerammt; wenn es hingegen im Wasser liegt, summt es nicht über den Köpfen im Wind; zudem falscher pronominaler Bezug: „er“ statt „es“ für das Seil)",
+          "Es roch nach faulendem Schilf, nach feuchtem Kies und dem fernen, süßlichen Gestank der Rapsfelder. (Jahreszeiten-Klischee/Unstimmigkeit: Raps blüht im Frühjahr, Schilf fault im Herbst/Winter)",
+          "Er trug einen Mantel von der Farbe taubenblauer Kiesel (Überladenes, künstliches Sprachbild, passt nicht zur wortkargen personalen Perspektive)",
+          "„Hast du die Frühschicht genommen? Ich dachte, du hättest erst am Freitag Urlaub.“ (Figurenbruch: Ein Münchner Unternehmensberater arbeitet nicht im Schichtdienst)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "Sie ging an ihm vorbei zum Bug (Räumlicher Logikbruch: Jonas steht laut Vorgabe auf dem Anleger, Ilse ist auf der Fähre; sie kann nicht an ihm vorbei zum Bug gehen, ohne dass er an Bord gekommen ist)",
+          "ein Schubboot mit leerem Schlepper (Fachlicher Unsinn: Ein Schubverband schiebt Schubleichter oder Prähme, keinen Schlepper)",
+          "Dann entschied sie sich, den Motor nicht abzuschalten. (Schwache Umsetzung der Schlussvorgabe: Es ist ein bloßes Unterlassen, zudem rein behauptet statt szenisch gezeigt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 3,
+        "aufgabe": 3,
+        "fehler": [
+          "Stattdessen blieb sie stumm und wartete, bis er selbst den Weg finden musste. (Absurder Logikbruch: Jonas ist ihr 34-jähriger Sohn, er wird den Weg zum eigenen Elternhaus am Ende des Stegs kaum suchen müssen)",
+          "das die grauen Wolken des Hitzacker-Himmels widerspiegelte. (Unidiomatisches Kompositum und völlig überzeichnetes Bild für Lederschuhe)",
+          "Das Wasser, das träge an den Uferkanten vorbeizog. Die Elbe war heute aufgewühlt, kleine, weiße Kappen tanzten auf den Wellen. (Unmittelbarer Widerspruch zwischen „träge“ und „aufgewühlt“ mit Schaumkronen)",
+          "Es war ein unruhiger Tag, ein Tag, an dem man die Natur spürte, wenn man nicht gerade in einem klimatisierten Büro in München saß. (Plumpe, klischeehafte Erklärprosa statt Figurenperspektive)",
+          "„Stottern ist bei einem Motor kein Zustand, Mutter, sondern ein Symptom“ (Hölzerner, unnatürlicher Dialog)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "Sie hatte ihn seit dem Winter nicht angelassen. (Schwerer Kontinuitätsbruch zur Vorgabe: Wenn der Motor seit Monaten aus ist, kann Jonas nicht zur Begrüßung am Geräusch hören, dass sie ihn nicht hat reparieren lassen)",
+          "über ihr zog ein Schwarm Stare in engen Bögen, als hätte jemand sie an einem Faden geführt. (Schiefes Bild: An einem Faden zieht man Einzelnes, keinen Vogelschwarm)",
+          "Er trug einen Mantel, den sie ihm nicht gekauft hatte (Unfreiwillig komische Formulierung bei einem 34-jährigen Sohn)",
+          "weil er glaubte, das Wasser sei tiefer als der Steg. (Semantischer Unsinn: Ein Steg hat keine vergleichbare Tiefe wie Wasser)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 4356,
+    "out": 1195,
+    "thinking": 0
+  },
+  "costUsd": 0.020662
+}

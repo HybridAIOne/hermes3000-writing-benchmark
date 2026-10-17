@@ -1,0 +1,96 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "der Hahn des Fensters, der sich im Zug bewegte. (Begriffsfehler/Fehlübersetzung: Ein Fenster hat keinen 'Hahn', sondern einen Griff, Wirbel oder eine Olive. Zudem war das Haus verschlossen, bis sie am Ende das Fenster öffnet – woher kommt der Durchzug?)",
+          "Für was? (Stilbruch: In einem literarischen Erzähltext im inneren Monolog unschöne Umgangssprache statt 'Wofür?')",
+          "ließ diesen Geruch auf sich wirken, ohne ihn zu benennen. Benennen hätte ihn zerstört. (Widerspruch: Im Satz unmittelbar davor wurde der Geruch bereits detailliert als Papier, trockene Hitze und das Parfüm der Mutter benannt.)",
+          "mit dem ganzen Gewicht dagegendrückte, das Knie gegen das Holz, die Handfläche hart am kalten Messing. (Schiefe Bildlogik: Auf einen dünnen Schlüssel im Schloss kann man kaum sinnvoll mit der flachen Handfläche und dem ganzen Körpergewicht drücken, um ihn zu drehen.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "ein Haus, das seit Monaten niemand betreten hatte. Oder seit Jahren, wenn man die Abwesenheit genauer nahm. (Aufgabenverfehlung: Die Vorgabe 'nach zwanzig Jahren' wird verwässert und nie konkret eingelöst.)",
+          "mit einem dünnen, schwarzen Faden durch das Loch gezogen. (Grammatikalisch ungelenke Konstruktion, liest sich wie ein Anglizismus nach dem Muster 'with a thread pulled through the hole'.)",
+          "gab das Eisen einen kurzen, heiseren Laut von sich, als hätte es sich über die Jahre das Sprechen abgewöhnt. (Stil: Etwas bemühte, leicht kitschige Personifikation gleich im ersten Satz.)",
+          "ohne zu wissen warum, schloss sie die Finger darum, als müsse sie verhindern, dass er ihr entglitt. (Stil: Abgegriffene Wendung, um am Ende künstlich Bedeutsamkeit zu erzeugen.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "Als sie das eiskalte Wasser zwischen den Fingern verrieb, roch es nicht nach Eisen. Es roch scharf und unverkennbar nach Terpentin. (Schwerer Logikbruch: Wie soll Terpentin in die Frischwasserleitung eines Hauses gelangen? Das Detail wirkt wie ein billiger Schockeffekt aus einem Thriller, nicht wie ein organisches Detail eines literarischen Romans.)",
+          "An der Tapete prangte ein helles Rechteck (Wortwahl: 'Prangen' bedeutet 'prachtvoll, glänzend ins Auge fallen' – für einen ausgeblichenen Tapetenfleck ist das Verb unpassend.)",
+          "Der Staub auf der Kommode war so dicht, dass er fast wie grauer Samt wirkte. (Stil: Staub als 'grauer Samt' ist ein abgenutztes Klischee.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Sie blieb im Flur stehen und lauschte. Nichts. Nicht einmal das leise Summen des Kühlschranks, das sie als Kind nachts bis in ihr Zimmer gehört hatte. Der Kühlschrank war fort; auf dem Linoleum blieb ein heller, rechteckiger Abdruck. (Perspektivische Unschärfe: Sie steht noch im Flur, die Küchentür ist weiter weg, dennoch beschreibt der Text sofort den Bodenabdruck in der Küche, bevor sie überhaupt den Raum wechselt.)",
+          "wie früher, wenn ihre Mutter vergessen hatte, die Tür richtig zuzuziehen. (Logikbruch: Wenn eine Tür nicht richtig zugezogen ist, ist sie angelehnt – man muss dann nicht den Schlüssel im Schloss anheben, um sie zu öffnen.)",
+          "Sie stellte die Tasche ab. Der Riemen glitt von ihrer Schulter und schlug gegen die Wand. (Chronologie: Wenn die Tasche bereits abgestellt ist, kann der Riemen nicht erst danach von der Schulter gleiten.)",
+          "auf dem Linoleum blieb ein heller, rechteckiger Abdruck. (Wortwahl: Ein schweres Gerät hinterlässt eine Verfärbung oder einen Schatten, keinen 'hellen Abdruck'.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2892,
+    "out": 1179,
+    "thinking": 0
+  },
+  "costUsd": 0.017574
+}

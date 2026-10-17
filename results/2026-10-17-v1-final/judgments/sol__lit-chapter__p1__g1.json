@@ -1,0 +1,119 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Es war vierundvierzig Minuten nach sechs.“ – Zeitlicher Widerspruch: Der dritte Fahrgast kam bereits „Eine Minute vor dreiviertel sieben“; danach wurden Klappe und Antrieb bedient und ein erheblicher Teil der Überfahrt zurückgelegt.",
+          "„Oder um die Werft-Rechnung vom Oktober, die er bei seinem letzten Besuch auf dem Küchentisch gesehen hatte. Oder um das Betreute Wohnen in Lüneburg, von dem er neulich ein Prospekt geschickt hatte“ – Der Schluss schiebt ausdrücklich unerwünschte Rückblenden-Exposition ein und erklärt den Familienkonflikt vor seiner szenischen Entwicklung.",
+          "„das Seil sang sein leises, metallisches Lied“ – Konventionelle Personifikation; zusammen mit „eine gespannte Sehne“ und dem „vollkommenen Nichts“ wird die ansonsten konkrete Arbeitswelt unnötig lyrisch überhöht.",
+          "„Auf dem Fluss gab es keine Fragen, auf die man antworten musste. Man legte ab, und man kam an. Dazwischen war nur der Strom.“ – Die Erzählerin formuliert die Bedeutung der Szene ausdrücklich aus, statt sie durch Ilses Verhalten entstehen zu lassen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Am Anleger lag die nächste kleine Warteschlange in der üblichen Ordnung: erst der Mann mit dem Fahrrad, dann die Frau, dann der Lieferwagen. Nein, die waren schon drüben.“ – Unmotivierter Wahrnehmungs- beziehungsweise Gedächtnisaussetzer. Die bereits abgefertigten Fahrgäste erscheinen plötzlich erneut; die anschließende Selbstkorrektur repariert die Szenenlogik nicht, sondern eröffnet unbeabsichtigt ein neues Figurenthema.",
+          "„Ilse legte an, zog die Klappe hoch“ – Beim abschließenden Anlegen fehlt der Zwischenschritt, der das erneute Hochziehen erklärt. Nach der Rückfahrt müsste die zuvor geschlossene Klappe zunächst gesenkt worden sein.",
+          "„Auf dem Deck standen drei Fahrgäste.“ – Die unmittelbar folgende Aufzählung widerspricht der räumlichen Behauptung: Einer der drei saß im Lieferwagen.",
+          "„Dieser hier lief zu hoch, als wäre der Fahrer es gewohnt, dass man ihm Platz machte.“ – Die soziale Charakterisierung wird aus einem Motorgeräusch abgeleitet, das diese Schlussfolgerung nicht trägt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Die Fähre fährt nach Hitzacker-Ufer“, sagte Ilse. „Das ist das Gleiche.“ – Die Antwort setzt das erfragte Neu Darchau unvermittelt mit einem unklaren „Hitzacker-Ufer“ gleich. Statt einer verständlichen Ortsauskunft entsteht ein geografischer und dialogischer Logikbruch.",
+          "„Wessel hatte den Hof auf der Wendseite, und er fuhr jeden Dienstag hinüber zum Viehmarkt, auch jetzt noch, obwohl die Milchkühe längst verkauft waren.“ – Ausführliche biografische Hintergrundvermittlung entgegen der Vorgabe, ohne Rückblenden-Exposition einzusteigen.",
+          "„die drei Menschen darauf, die sie nicht kannte, bis auf Wessel und Hahn“ – Unpräzise und selbstkorrigierende Formulierung: Ilse kannte gerade zwei der drei Menschen. Der Satz untergräbt seine eigene Aussage.",
+          "„Hahn zündete sich eine neue Zigarette an“ – Nach Ilses ausdrücklicher Aufforderung, die erste auszumachen, wäre dies eine demonstrative Missachtung. Dass Ilse darauf überhaupt nicht reagiert, lässt einen möglichen Konflikt unbeabsichtigt offen.",
+          "„Dann vibrierte es wieder.“ – Der erneute Anruf wiederholt den bereits abgeschlossenen Schlussimpuls, statt ihn zu vertiefen. Zugleich bleibt der Text deutlich unter dem angezielten Umfang von etwa 900 Wörtern."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„hockte sich neben das Hinterrad und drehte zweimal an der Schraube“ – Die Reparatur bleibt technisch beliebig: Welche Schraube eine schleifende Hinterradbremse mit zwei Drehungen behebt, wird nicht anschaulich. Hier ersetzt eine pauschale Kompetenzgeste die sonst präzise Arbeitsbeobachtung.",
+          "„Sie dachte an nichts Bestimmtes. Sie dachte an die Bremse von dem Mädchen und daran, dass Kahle immer zu weit links fuhr.“ – Die unmittelbar folgenden konkreten Gedanken widersprechen der ersten Aussage; die beabsichtigte emotionale Ausweichbewegung könnte genauer formuliert werden.",
+          "„als führte es nirgendwohin“, „als hätte sie einen Witz gemacht“, „als täte er es“, „als wollte es auch hinüber“ – Die wiederkehrende Vergleichskonstruktion wird als sprachliches Verfahren sichtbar und schwächt die Eigenständigkeit einzelner Bilder."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie wusste, was auf dem Display stand, ohne hinzusehen“ – Jonas wird im gesamten Text nicht genannt oder anderweitig eindeutig als Anrufer identifiziert. Damit fehlt eine ausdrücklich verlangte Schlussinformation.",
+          "„Um zehn vor sieben hörte sie den ersten Motor oben auf dem Deich. […] Es war Frau Wulf mit dem Fahrrad“ – Das angekündigte Motorgeräusch erhält keine passende Quelle; ein motorisiertes Fahrrad wird nicht eingeführt.",
+          "„Sie wartete bis Viertel nach“ / „Um zehn nach hörte sie Schritte“ – Die Zeitführung springt nach einer als abgeschlossen erzählten Wartephase unmarkiert fünf Minuten zurück.",
+          "„wie es auf dem Plan stand, den ihr Mann vor dreißig Jahren geschrieben und hinter Glas an die Steuerhauswand gehängt hatte“ – Rückblickende Hintergrundinformation zur Ehe anstelle der verlangten Beschränkung auf die gegenwärtige Szene.",
+          "„Als gäbe es ein Früher, das man von einem Jetzt trennen konnte.“ – Abstrakter, bedeutungsschwerer Kommentar, der die zurückhaltende personale Darstellung verlässt und das Thema ausdrücklich ausformuliert."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "B",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 7389,
+    "out": 2079,
+    "thinking": 512
+  },
+  "costUsd": 0.035568
+}

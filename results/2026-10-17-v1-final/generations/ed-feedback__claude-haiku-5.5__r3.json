@@ -1,0 +1,18 @@
+{
+  "task": "ed-feedback",
+  "model": "claude-haiku-5.5",
+  "run": 3,
+  "text": "1. „Ilse stellt den Motor an und wartete, bis das Seil sich spannte.“ Der Satz wechselt mitten in der Präteritum-Erzählung ins Präsens („stellt“) und muss „stellte“ lauten.\n\n2. „Ich hatte diesen Moment immer gemocht, dachte sie“ Die Ich-Form ohne Anführungszeichen ist widersprüchlich: In erlebter Rede bleibt die Figur in der dritten Person („Sie hatte diesen Moment immer gemocht“), im direkten Gedanken fehlen dagegen die Markierung und ein eindeutiger Übergang.\n\n3. „die drei Fahrgäste“ Namentlich genannt werden vier Personen (die Frau mit dem Fahrrad, der Mann im grauen Mantel, der Junge mit Kopfhörern, Frau Lüders), sodass die Zahl nicht stimmt oder die Figurenzahl unklar ist.\n\n4. „über sie an Bord gegangen waren“ Das „sie“ kann sich auf Ilse oder auf die Rampe beziehen, sodass unklar bleibt, wer gemeint ist.\n\n5. „und hupte zweimal“ Ein Pferdewagen hat keine Hupe; hier braucht es ein anderes Signal (etwa Klingeln oder Rufen) oder ein anderes Verb.\n\n6. „wie jeden Morgen seit dem Krieg“ Der Bezug auf „den Krieg“ bleibt unbestimmt, und in einer Welt mit Handys wirkt er ohne nähere Verankerung (welcher Krieg, wann) für Leserinnen und Leser schwer einzuordnen.\n\n7. „Am\\nAnleger drüben“ Der Zeilenumbruch mitten im Satz ist vermutlich ein Formatierungsfehler aus der Vorlage und muss vor dem Lektorat bereinigt werden.",
+  "usage": {
+    "in": 551,
+    "out": 2288,
+    "thinking": 1614
+  },
+  "costUsd": 0.0011990999999999998,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 10631,
+  "meta": [],
+  "at": "2026-10-17T17:43:33.085Z"
+}

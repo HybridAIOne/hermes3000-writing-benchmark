@@ -1,0 +1,20 @@
+{
+  "task": "ctx-saltzbrueck-5",
+  "model": "gpt-6.1-sol",
+  "run": 2,
+  "judge": "opus",
+  "verdict": {
+    "violated": [
+      "s5-7"
+    ],
+    "evidence": [
+      "Gustav Sahlmann hatte dort gestanden und ihr versichert, in solchen Zeiten sei Vertrauen das einzige Kapital."
+    ]
+  },
+  "usage": {
+    "in": 3933,
+    "out": 712,
+    "thinking": 637
+  },
+  "costUsd": 0.029972
+}

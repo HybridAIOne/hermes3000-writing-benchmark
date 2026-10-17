@@ -1,0 +1,86 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Dass es die Fähre noch gibt, verdankt sie einer Entscheidung aus dem Jahr 1953.“ – Bezug von „es“ und „sie“ holpert leicht.",
+          "„in eine Rücklage für die Erneuerung der Fähre, die bis 2031 ausreichen soll“ – der Relativsatz bezieht sich grammatisch näher auf „Fähre“ als auf „Rücklage“.",
+          "„Sie ist vor allem eine Verbindung, auf die viele Menschen angewiesen sind“ – wertende Zuspitzung, in der Quelle nur indirekt angelegt."
+        ],
+        "unsupported": [
+          "„eine Verbindung, auf die viele Menschen angewiesen sind“ – Deutung, nicht wörtlich belegt"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Mit diesen Anteilen wird das Unternehmen finanziert.“ – unbelegt; laut Quelle stammt der Umsatz aus Fahrkarten und Gemeindezuschuss.",
+          "„warteten die Menschen an beiden Elbufern nicht auf eine Lösung von außen“ – ausschmückende Behauptung ohne Beleg.",
+          "„Bis 1978 bewegte noch die Strömung die Fähre allein, heute treibt sie ein 85-kW-Dieselmotor an.“ – technische Angaben stehen unvermittelt im Absatz über Gewinnverwendung und brechen die Struktur.",
+          "„**Eine Fähre in Gemeinschaftshand: die Fährgenossenschaft Hitzacker**“ – Markdown-Formatierung, obwohl nur Buchtext verlangt war.",
+          "„Die Zahlen von 2024 zeigen, wie das Modell trägt“ – Behauptung, die die folgenden Zahlen nicht wirklich belegen."
+        ],
+        "unsupported": [
+          "„Mit diesen Anteilen wird das Unternehmen finanziert.“",
+          "„warteten die Menschen an beiden Elbufern nicht auf eine Lösung von außen“"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "„vierzig Landwirte und Händler“ – falsch; laut Quelle waren es 41.",
+          "„Zugleich gibt die gleiche Stimme jedem Mitglied ein Mitspracherecht – unabhängig davon, wie viele Anteile es hält.“ – wörtliche Wiederholung aus dem zweiten Absatz.",
+          "„Die Mitglieder können gemeinsam über die Angelegenheiten der Genossenschaft beraten und abstimmen.“ – Füllsatz ohne neuen Inhalt.",
+          "„Die Einnahmen stammen nicht nur aus Fahrkarten: 2024 kamen 71 Prozent des Umsatzes von 186.000 Euro aus Fahrkartenverkäufen“ – umständlich und redundant formuliert.",
+          "„Die Fähre überquert die Elbe an einer 212 Meter breiten Stelle“ – der technische Absatz ist ohne Bezug zur Erklärung der Rechtsform eingeschoben."
+        ],
+        "unsupported": [
+          "„vierzig Landwirte und Händler“ – widerspricht der Quelle (41)"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 4930,
+    "out": 1922,
+    "thinking": 702
+  },
+  "costUsd": 0.05816
+}

@@ -1,0 +1,119 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Um sieben Uhr zwölf an einem Mittwoch rief er nicht an, um zu fragen, wie es ihr ging.“ Der Satz erklärt die bereits überzeugend inszenierte Beunruhigung und nimmt dem Schluss etwas von seiner Offenheit.",
+          "„als hätte der Fluss sich entschieden“: Eine geläufige Naturpersonifikation; gegenüber den präzisen Arbeitsbeobachtungen wirkt dieses Bild konventionell.",
+          "„Am anderen Ufer, das sie nicht sehen konnte, wartete vielleicht schon jemand.“ Nach dem verpassten Anruf folgt ein zweiter, schwächerer Schlussimpuls. Der Kapitelanfang könnte konzentrierter beim Telefon enden."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„dass Ilse das andere Ufer nur an dem Geräusch erkannte, das es machte: ein leises Klopfen, wenn die Strömung die Fähre gegen die Bohlen am Anleger drückte“: Räumlich unstimmiger Auftakt. Das Klopfen entsteht am gegenwärtigen Anleger und macht nicht das gegenüberliegende Ufer erkennbar.",
+          "„Sie hätte es auch ohne Finger gehalten.“ Die Überhöhung der mühelosen Ruderführung wird gegenständlich unverständlich: Wie sollte sie das Ruder ohne Finger halten?",
+          "„Dann ist er schon da, wenn ich den Motor brauche.“ Die Antwort auf die Frage nach dem Notfall bleibt tautologisch und klingt eher nach einer konstruierten Pointe als nach praktischer Auskunft.",
+          "„wie es Henning ihr gezeigt hatte“: Eine kleine rückblickende Erklärung, obwohl ausdrücklich ohne Rückblenden-Exposition erzählt werden sollte."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Es roch nach kaltem Kaffee, Schmierfett und Hennings altem Pfeifentabak, obwohl die Dose seit drei Jahren leer im Regal über dem Funkgerät stand.“ Die rückblickende Information über Henning widerspricht dem Verzicht auf Rückblenden-Exposition; der nach Jahren noch erkennbare Tabakgeruch wirkt zudem als vertrautes Witwenmotiv.",
+          "„Er würde über den Winter reden wollen. Über die Bilanz vom dritten Quartal. Über den Makler aus Lüneburg.“ Der Schluss lädt den Anruf mit mehreren erklärenden Konfliktinformationen auf. Das nimmt der zuvor sinnlich und konkret erzählten Szene ihre Zurückhaltung.",
+          "„Drei Fahrgäste. Mehr würden es vor sieben Uhr nicht werden.“ Die ausdrückliche Zählung wirkt wie eine Absicherung der Aufgabenbedingung; die Szene hat die drei Personen bereits eindeutig eingeführt.",
+          "„Nur das Ziehen des Seils, das Gurgeln an der flachen Bordwand und das weiße Nichts ringsum.“ Das „weiße Nichts“ ist eine abgegriffene Nebelformel und bleibt hinter den besseren materiellen Beobachtungen zurück."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 3,
+        "fehler": [
+          "„Die Fähre löste sich von der Anlegestelle“ / „Die zweite Passagierin kam auf dem Fahrrad den Deich herunter“: Die Fähre legt vor dem Einstieg der Fahrgäste ab. Anschließend werden Rampe und Kette bereits wieder geschlossen, bevor die zweite Person erscheint; eine entsprechende Rückkehr oder erneute Öffnung fehlt.",
+          "„Auf halber Strecke begann das Telefon in ihrer Jackentasche zu vibrieren. Sie hatte es in den Steuerstand gelegt“ / „Ilse ließ es in der Jacke.“ Der Aufenthaltsort des Telefons widerspricht sich mehrfach unmittelbar.",
+          "„sie erkannte den Namen, ohne ihn lesen zu müssen“: Der Name wird nicht genannt und auch sonst nicht eindeutig zugeordnet. Dass Jonas anruft, ist deshalb nicht erkennbar; c4 ist nicht erfüllt.",
+          "„Der Motor kam husten, dann ruhig.“ Fehlerhafte beziehungsweise unvollständige Verbkonstruktion; gemeint ist vermutlich „kam hustend in Gang“.",
+          "„Die Bücher klirrten nicht, sie waren nur schwer.“ Die grundlose Verneinung eines ohnehin nicht zu erwartenden Geräuschs erzeugt keine anschauliche Beobachtung, sondern lenkt auf die Formulierung selbst."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Sie müssen nicht dauernd danke sagen.“ Der junge Mann hat sich erst einmal bedankt. Die Zurechtweisung ist durch den vorausgehenden Dialog nicht gedeckt.",
+          "„Sie hatte heute Morgen den zweiten Handschuh nicht gleich gefunden. Er lag im Schubfach unter den Fahrkarten“: Die rückblickende Handschuhgeschichte unterbricht die Überfahrt und widerspricht der Vorgabe, ohne Rückblenden-Exposition auszukommen.",
+          "„Wenn wir ankommen, sind wir da.“ / „Wenn Schluss ist.“ Die wiederholten ausweichenden Pointen machen aus Ilses Wortkargheit eine Dialogmasche. Besonders bei sachlich berechtigten Fahrgastfragen wirkt sie unnötig unkooperativ.",
+          "„Das hier ist kein Mobilfunkmast.“ Die Antwort geht an der verständlichen Frage nach dem Empfang vorbei. Auch hier wird eine schlagfertige Replik über die Glaubwürdigkeit des Gesprächs gestellt.",
+          "„Ilse wartete, bis ihre Schritte nicht mehr zu hören waren“ bis „Sie schrieb keine Namen dazu.“ Rückfahrt, Anlegen, Kaffeeholen und Fahrtenbucheintrag verlängern den Ausklang, ohne die Situation wesentlich zu verändern. Vor dem abschließenden Anruf verliert der Text dadurch Spannung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 7836,
+    "out": 2321,
+    "thinking": 884
+  },
+  "costUsd": 0.038882
+}

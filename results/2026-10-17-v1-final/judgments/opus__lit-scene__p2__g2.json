@@ -1,0 +1,120 @@
+{
+  "task": "lit-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "\"einem fingerbreit Wasser\" – Substantiv, korrekt: \"einem Fingerbreit Wasser\"",
+          "\"Der Schlüssel ging leichter ins Schloss, als sie erwartet hatte. Nur beim letzten Stück musste sie die Tür mit der Schulter anheben.\" – Übergang vom Schloss zur Tür sprachlich unscharf (\"beim letzten Stück\" wovon?)",
+          "\"Ihre Mutter hatte zuletzt allein hier gelebt, und offenbar hatte niemand das Glas fortgeräumt, weder die Nachbarin, die sie gefunden hatte, noch der Mann vom Bestattungsinstitut.\" – erklärender Satz, der die stille Wirkung des Lippenabdrucks abschwächt",
+          "Mehrere mögliche Schlüsseldetails (Kerben, Lippenabdruck, Zitrone) konkurrieren leicht miteinander"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Es schmeckte scharf und unverkennbar nach bitteren Mandeln.\" – Zyankali-Pointe kippt ins Krimi-Genre, effekthascherisch statt literarisch",
+          "\"Es roch nach der Abwesenheit von allem.\" – abgegriffene, pseudotiefe Formel",
+          "\"Kein Staubtuch hatte diese Oberflächen berührt, seit der Sarg durch genau diesen schmalen Gang getragen worden war\" – Perspektivbruch: Woher weiß die zwanzig Jahre Abwesende das?",
+          "\"an den sie sich zwanzig Jahre lang gewöhnt hatte\" – Logikbruch: die Tür wurde zwischenzeitlich geöffnet (Sarg)",
+          "\"formlos wie eine abgelegte Haut\" / \"schnitt scharfe Streifen in die Dämmerung\" – vorgefertigte Bilder, Adjektivhäufung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "\"aber der Platz davor war noch da\" – Bezug unklar, gemeint ist \"ihr Platz\"",
+          "\"Darin stand eine Frau Ende vierzig, die sie einen Moment lang nicht erkannte.\" – Spiegel-Klischee",
+          "\"als müsste man das Haus erst wecken\" / \"wie Laken über Möbel\" – abgegriffene Vergleiche",
+          "\"Und jemand war vor ihr hier gewesen.\" – ausbuchstabierte Pointe, Erklären statt Zeigen",
+          "\"Der Schlüssel ließ sich nicht drehen. [...] drückte die Klinke, bis das Holz nachgab\" – unklar, ob die Tür offen war; Logik bleibt verschwommen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "\"wie ein Obstkorb, der zu lange in der Sonne stand\" – Tempus, korrekt: \"gestanden hat\"",
+          "\"Sie hielt die Hand darunter. Das Wasser schmeckte nach Eisen\" – fehlender Handlungsschritt zwischen Hand und Geschmack",
+          "\"Sie hatte sich vorgenommen, nichts zu erwarten, und merkte jetzt, dass es nicht darum ging.\" – vage, erklärend",
+          "\"Zwanzig Jahre.\" – isoliertes Signalwort, formelhaft",
+          "\"Das Telefon, vermutete sie. Oder ein Bild.\" – leicht redundant"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"ein Monat im Jahr, das sie nicht mehr wusste\" – holprig und idiomatisch schief",
+          "\"Von oben kam ein einzelnes Knacken, als hätte jemand sein Gewicht verlagert.\" – Schauerklischee",
+          "\"Das Haus antwortete nicht.\" – abgegriffene Schlussformel",
+          "\"Die Möbel waren abgedeckt. Unter den Laken zeichneten sich die vertrauten Formen ab\" – Standardbild verlassener Häuser",
+          "Mit gut 380 Wörtern deutlich über der Vorgabe; Details (Hausschuh, Kalender, Knopf, Tüte) zerstreuen den Fokus"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "E",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 5718,
+    "out": 3268,
+    "thinking": 1576
+  },
+  "costUsd": 0.088232
+}

@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "Es ist kurz nach acht, du stehst mit deinem Kaffee in der Teamküche, und Markus kommt herein. Zum dritten Mal in dieser Woche, mit einem knappen „Morgen“ und dem Blick knapp an dir vorbei. Du weißt, dass du etwas sagen müsstest. Du weißt es seit Montag. Stattdessen hörst du dich fragen: „Und, gut durchgekommen?“ Markus nickt, du nickst, und das Gespräch, das du führen wolltest, verschiebt sich auf morgen. Oder auf nächste Woche. Oder bis zum Jahresgespräch, wo es dann in drei Sätzen abgehandelt wird, die niemand mehr versteht.\n\nDu kennst das. Fast jeder Teamleiter kennt es. Nicht, weil du feige wärst oder es nicht besser wüsstest, sondern weil sich das Schweigen kurzfristig immer billiger anfühlt als das Gespräch. Der Preis kommt später: als Ärger, der sich ansammelt, als Kollegen, die schon längst merken, dass etwas nicht stimmt, und als Mitarbeiter, die sich fragen, ob du es überhaupt bemerkst.\n\nIn diesem Kapitel geht es um genau diese Gespräche: das über die Verspätungen, über die schlampige Übergabe, über die Bemerkung in der Besprechung, die zu weit ging. Du bekommst keine Formeln, die du auswendig lernen musst. Du bekommst eine Haltung und ein paar Werkzeuge, mit denen du solche Gespräche früher, ruhiger und mit besserem Ergebnis führst, auch wenn dein Magen sich vorher zusammenzieht.",
+  "usage": {
+    "in": 278,
+    "out": 793,
+    "thinking": 180
+  },
+  "costUsd": 0.008486,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 9271,
+  "meta": [],
+  "at": "2026-10-17T17:20:26.201Z"
+}

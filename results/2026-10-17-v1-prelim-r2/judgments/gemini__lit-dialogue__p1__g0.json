@@ -1,0 +1,113 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "E": {
+      "model": "gemma-4-31b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Die Kellnerin stellt zwei Tassen ab, ohne zu fragen. (Logikbruch: Woher weiß sie, was Tom trinkt, der gerade erst hereingekommen ist?)",
+          "Die Kellnerin kommt vorbei, bemerkt die Stimmung und verschwindet wieder. (Erklärende Prosa statt spielbarer Regieanweisung)",
+          "obwohl er längst kalt ist (Erzählendes Wissen in der Regieanweisung)",
+          "Er lacht kurz, ohne dass es lustig wäre. (Ungelenke Formulierung für ein freudloses Lachen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Der mit dem Sprung? (Grammatikfehler: Es muss Akkusativ sein, 'Den mit dem Sprung?', bezogen auf 'Hast du noch den blauen Becher?')",
+          "Mara hält den Schirm über beide ... Er hält den Griff fest. ... Er senkt den Schirm ... Der Schirm bleibt zwischen ihnen. (Räumlicher und physischer Logikbruch: Wer hält den Schirm wie? Wenn ein Schirm zwischen zwei Personen ist, schützt er nicht mehr von oben gegen den Regen.)",
+          "Der hier hält immer noch zu nah am Bordstein. (Logikbruch: Ein Bus fährt an einer Haltestelle immer nah an den Bordstein, damit Fahrgäste einsteigen können.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "THOMAS: *(leise, zu niemandem)* Das hast du mir nie gesagt. (Minimal melodramatischer Schlussakkord, ein stummes Nachsehen wäre noch stärker gewesen.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "Miro: (setzt sich) Manches ändert sich. ... Miro: (setzt sich langsam) Soll ich gehen? (Kontinuitätsfehler: Miro setzt sich zweimal, ohne zwischendurch aufgestanden zu sein.)",
+          "Auf das, was wir nicht sagen. (Plumper Verstoß gegen das Prinzip des Subtexts: Das Unausgesprochene wird direkt thematisiert.)",
+          "Dein Haar ist kürzer. / Deine Ausreden auch. (Abgedroschener Schlagabtausch, ergibt inhaltlich keinen Sinn, da er gar keine Ausrede vorgebracht hat.)",
+          "Seit ich aufgehört habe, mir Vorwürfe zu machen. / Interessant. Ich habe damit angefangen. (Gestelzter, unnatürlicher Pseudo-Tiefsinn.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "der Beste in der Stadt (Rechtschreibfehler: 'der beste [Kaffee]' wird kleingeschrieben, da sich der Superlativ auf das Nomen bezieht.)",
+          "Mark: Ich weiß. Ich habe die Nachrichten gesehen. ... Mark: Du hast dich nicht gemeldet. (Direkter Widerspruch innerhalb von drei Zeilen.)",
+          "Julian rührt langsam in seinem Kaffee (Kontinuitätsfehler: Julian ist gerade erst gekommen, es wurde nie bestellt oder serviert.)",
+          "Beide schauen gleichzeitig aus dem Fenster, ohne sich anzusehen. (Pleonasmus: Wenn beide aus dem Fenster schauen, können sie sich ohnehin nicht ansehen.)",
+          "Manche Dinge ändern sich eben nie. / Vielleicht ist das ja das Problem. / Oder die einzige Chance. (Plattes Phrasendreschen am Ende.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3155,
+    "out": 1037,
+    "thinking": 0
+  },
+  "costUsd": 0.01668
+}

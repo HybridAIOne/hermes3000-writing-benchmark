@@ -1,0 +1,18 @@
+{
+  "task": "nf-from-source",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "text": "Wie eine Genossenschaft in der Praxis funktioniert und warum diese Rechtsform ideal ist, um ein gemeinsames Anliegen zu verwirklichen, zeigt das Beispiel der Fährgenossenschaft Hitzacker eG. Als der Landkreis im Jahr 1953 den Betrieb der örtlichen Seilfähre einstellte, nahmen 41 Landwirte und Händler von beiden Elbufern die Sache selbst in die Hand und gründeten die Genossenschaft. Für diese Fähre war und ist die Genossenschaft die passende Rechtsform, weil es den Gründern wie auch den heutigen Mitgliedern nicht um finanzielle Gewinne geht, sondern um den Erhalt der Fährverbindung. \n\nDas Grundprinzip ist einfach und demokratisch: Wer Mitglied werden möchte, erwirbt mindestens einen Anteil zu 250 Euro. Heute gehören der Genossenschaft 312 Mitglieder an. In der Generalversammlung, dem Entscheidungsgremium, hat jedes Mitglied genau eine Stimme – völlig unabhängig davon, wie viele Anteile es hält. So ist sichergestellt, dass niemand durch mehr Geld mehr Macht erhält. \n\nDie Fähre hängt an einem Führungsseil und überquert die an dieser Stelle 212 Meter breite Elbe bei normalem Wasserstand in sieben Minuten. Pro Jahr befördert sie rund 64.000 Personen, im Sommer sind dies vor allem Radfahrer auf dem Elberadweg. Im Jahr 2024 erzielte die Genossenschaft einen Umsatz von 186.000 Euro. Davon stammten 71 Prozent aus dem Verkauf von Fahrkarten und 29 Prozent aus einem Zuschuss der Gemeinde. \n\nDass die Rechtsform der Genossenschaft hier genau richtig ist, zeigt sich besonders im Umgang mit dem Geld: Erwirtschaftete Überschüsse werden nicht an die 312 Mitglieder ausgeschüttet. Stattdessen fließen sie komplett in eine Rücklage für die Erneuerung der Fähre. Wurde das Schiff bis 1978 allein durch die Strömung bewegt, sorgt heute ein 85-kW-Dieselmotor für den Antrieb. Dank der gemeinsam angesparten Rücklage soll bis 2031 genug Geld vorhanden sein, um einen Elektroantrieb einzubauen und den Fährbetrieb so für die Zukunft zu sichern.",
+  "usage": {
+    "in": 453,
+    "out": 491,
+    "thinking": 0
+  },
+  "costUsd": 0.005816,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 67176,
+  "meta": [],
+  "at": "2026-10-17T17:43:55.401Z"
+}

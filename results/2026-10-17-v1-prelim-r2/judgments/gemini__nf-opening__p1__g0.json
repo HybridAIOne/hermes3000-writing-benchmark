@@ -1,0 +1,107 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "C": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 5,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "und er nickt, und dann nicht.",
+          "Normaler Dienstagnachmittag. [...] Morgen, denkst du. [...] Und morgen ist Donnerstag.",
+          "Du klemmst den Zettel in eine Mappe. [...] Der Zettel liegt noch dort, unter der Tastatur",
+          "HeadTracking-Board",
+          "Servicefachfrau"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Solche Gespräche schiebt man gerne vor sich her [...] Man will niemanden vor den Kopf stoßen [...] Also wartet man"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 4,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "Sie redest über den letzten Auftrag",
+          "dass du sie zweimal nachfragen musstest",
+          "Nicht weil es spaßig wäre."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "im Daily",
+          "wie du dieses Minenfeld betrittst, ohne dass es dir um die Ohren fliegt.",
+          "die Dinge auf den Tisch packst"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "E",
+      "C",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2752,
+    "out": 536,
+    "thinking": 0
+  },
+  "costUsd": 0.010864
+}

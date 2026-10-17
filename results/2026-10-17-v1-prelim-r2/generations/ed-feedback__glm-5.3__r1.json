@@ -1,0 +1,20 @@
+{
+  "task": "ed-feedback",
+  "model": "glm-5.3",
+  "run": 1,
+  "text": "**Lektoratsanmerkungen zu „Die Fährfrau\" (Ausschnitt)**\n\n1. **„Ilse stellt den Motor an\"** – Tempusfehler: Wechsel ins Präsens; muss im Präteritum stehen („stellte\"), da der Text durchgängig im Präteritum erzählt.\n\n2. **„Ich hatte diesen Moment immer gemocht, dachte sie\"** – Bruch der personalen Erzählperspektive: Bei personalem Erzählen wird das Erlebte der Figur in der dritten Person wiedergegeben; ein wörtlicher Ich-Gedanke mit nachgestelltem „dachte sie\" gehört zu einem auktorialen/allwissenden oder Ich-Erzähler-Verfahren und kollidiert zudem mit dem vorausgehenden „Ilse stellte den Motor an\" (Sie-Form).\n\n3. **„Der Nebel lag dicht über dem Wasser. Der Nebel war so dicht, dass… Der Nebel schluckte…\"** – Dreifache anaphorische Wiederholung mit redundanter Aussage („dicht\" doppelt); stilistische Auffälligkeit, die wie ein versehentlicher Redaktionsfehler wirkt und gestrafft werden sollte.\n\n4. **„wartete schon der Bäcker mit seinem Pferdewagen, wie jeden Morgen seit dem Krieg, und hupte zweimal\"** – Logisches Problem: Ein Pferdewagen hat üblicherweise keine Hupe; zudem ist „seit dem Krieg\" unbestimmt (welcher Krieg?) und müsste im Kontext des Romans verortet sein.\n\n5. **„wie jeden Morgen seit dem Krieg, und hupte zweimal\"** – Falsche Satzstruktur: Das Komma vor „und\" ist bei der Verbindung von Gliedsätzen nicht nötig; der Einschub „wie jeden Morgen seit dem Krieg\" blockiert zudem den Lesefluss zwischen Subjekt und Prädikat und sollte umgestellt werden.\n\n6. **Zeilenfall „setzte sich auf die Bank am Heck. Am / Anleger drüben\"** – Formale Auffälligkeit: Der Satz beginnt nach dem Umbruch mit „Am\" und wird in der nächsten Zeile als „Anleger\" fortgesetzt – vermutlich ein Übertragungs-/Formatierungsfehler im Manuskript, der im Druck zu Silbentrennungsproblemen führen kann.\n\n7. **„Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie gegangen waren\"** – Logisch-chronologische Inkonsistenz: Wenn die Fahrgäste bereits an Bord sind, muss die Rampe hoch- statt heruntergelassen werden (herunterlassen erfolgt vor dem Zustieg); zudem ist unklar, wie die Passagiere „über sie\" (die bereits bewegte Rampe?) gehen.\n\n8. **„die drei Fahrgäste … Die Frau mit dem Fahrrad … Der Mann im grauen Mantel … der Junge mit den Kopfhörern … die alte Frau Lüders\"** – Zählfehler bzw. Inkonsistenz: Es werden nacheinander vier Fahrgäste eingeführt, obwohl von „dreien\" die Rede ist; alternativ müsste geklärt werden, ob eine der genannten Personen (z. B. Frau Lüders) nicht zu den Fahrgästen gehört.",
+  "usage": {
+    "in": 319,
+    "out": 959,
+    "thinking": 223
+  },
+  "costUsd": 0.00462872,
+  "finish": "stop",
+  "reportedModel": "z-ai/glm-5.3",
+  "upstream": "InferenceNet",
+  "latencyMs": 5462,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:19:20.296Z"
+}

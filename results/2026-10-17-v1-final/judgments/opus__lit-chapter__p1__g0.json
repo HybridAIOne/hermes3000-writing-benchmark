@@ -1,0 +1,120 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Ilse trat den Filter auf dem Stahl aus“ – gemeint ist die Kippe, nicht der Filter",
+          "„schälte sich das Licht eines einzelnen Scheinwerfers aus dem Grau“ – abgegriffenes Bild",
+          "„das weiße Nichts ringsum“ – Klischee",
+          "„die Sonne Münchens im Gesicht“ – kitschig-plakativ",
+          "„Er würde über den Winter reden wollen. Über die Bilanz vom dritten Quartal. Über den Makler aus Lüneburg.“ – erklärende Vorwegnahme statt Szene"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„dass Ilse das andere Ufer nur an dem Geräusch erkannte, das es machte: ein leises Klopfen, wenn die Strömung die Fähre gegen die Bohlen am Anleger drückte“ – Logikbruch: das Klopfen kommt vom eigenen Anleger, nicht vom anderen Ufer",
+          "„Dann ist er schon da, wenn ich den Motor brauche.“ – Pointe ist unklar",
+          "„ein Junge im Anzug vor einem Birnbaum“ – „Junge“ passt schlecht zu einem erwachsenen Sohn auf einem Foto, das er selbst eingestellt hat",
+          "„die Frau mit dem Rollkoffer … und einer Tasche, aus der der Griff eines Regenschirms ragte“ – überladene Beschreibung",
+          "„Kein Motor, der lärmte. Nur der Fluss, der schob, und das Seil, das hielt“ – leicht poetisierende Reihung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ilse wartete, bis ihre Schritte nicht mehr zu hören waren“ – Bezug unklar, gemeint ist „deren“",
+          "„Wenn wir ankommen, sind wir da.“ / „Wenn Schluss ist.“ – wiederholte Lakonie-Masche",
+          "„Ilse drehte das Rad weiter. Es ging schwerer als im Sommer.“ – eine Handrad-Fähre über die Elbe ist unplausibel",
+          "„Am Ufer warteten drei Fahrgäste.“ – Fahrgäste werden summarisch aufgezählt statt eingeführt",
+          "„als hätte auch sie sich erst durch den Morgen arbeiten müssen“ – bemühtes Bild"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Moin\", sagte er“ – gerade statt typografischer Schlussanführungszeichen, durchgehend so",
+          "„Ilse ging zurück zum Steuerhaus. Sie wollte gerade das Tor an der Rampe schließen“ – räumlich unstimmig",
+          "„Das waren die Minuten, die sie mochte. Sie hätte nicht sagen können, warum.“ – erklärender Kommentar",
+          "„und er wollte eine Quittung, und sie schrieb ihm eine auf den Block“ – Polysyndeton wirkt gewollt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Bei den Münzen blieb sie kurz stehen.“ – falsches Verb, gemeint ist „stockte“",
+          "„Sie schrieb trotzdem nichts dazu.“ – unlogisch, da der Zettel zu Hause liegt",
+          "„Das hatte sie gestern ausprobieren müssen, obwohl sie es wusste.“ – verquerer Satz",
+          "„Die Fahrerin trug ihre Haare noch feucht“ – unidiomatisch",
+          "Durchgehend stakkatohafte Kurzsätze, das Detailinventar wirkt mechanisch"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "A",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 15716,
+    "out": 3806,
+    "thinking": 2339
+  },
+  "costUsd": 0.138984
+}

@@ -1,0 +1,118 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Kapitel 1 „Der erste Tag“ und Kapitel 3 „Vom Kollegen zum Vorgesetzten“ behandeln beide den Einstieg; der Rollenwechsel gegenüber den Kollegen gehört logisch in die ersten Tage, die Reihenfolge wirkt dadurch nicht ganz schlüssig.",
+          "Kapitel 4 mischt zwei Themen: „kleine, eingehaltene Zusagen“ und „wie du mit deinen eigenen Fehlern umgehst“.",
+          "Der Titel „Der erste Tag“ ist enger als der Inhalt („was du in den ersten Wochen tust“)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Die Kapitelsätze sind durchgehend als Handlungsprotokoll im Präsens formuliert („Du gestaltest deine ersten Tage …“, „Du vereinbarst …“). Das wirkt wie eine Liste von Lernzielen und nutzt sich über acht Kapitel ab.",
+          "Kapitel 1 bündelt Einstieg und Rollenwechsel („Gestern Kollege, heute Teamleiter“) in einem Satz und ist dadurch überladen.",
+          "Das Verhältnis zur Geschäftsführung bzw. das Vertreten von Entscheidungen nach unten fehlt als eigenes Thema; Kapitel 2 deckt nur die Klärung der Befugnisse ab.",
+          "Die Unterzeile „Ein Praxisbuch für Teamleiter, die plötzlich Verantwortung tragen“ war nicht verlangt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Kapitel 7 nennt „Streit im Team oder schlechte Nachrichten“. Das überdehnt das Gesprächskapitel und berührt Kapitel 6 („Probleme früh auf den Tisch“).",
+          "Kapitel 3 packt zwei Themen zusammen: die Klärung mit dem Vorgesetzten und „wie du Vorgaben von oben vertrittst“.",
+          "Kapitel 9 („wo du Grenzen ziehen musst“) und Kapitel 10 („deine eigene Haltung“) liegen thematisch eng beieinander.",
+          "„führen den Blick zurück auf dich selbst“: Das „zurück“ passt nicht, denn der Blick lag vorher nicht auf dem Leser selbst. Der Aufbau-Absatz war zudem nicht verlangt.",
+          "Der Satz zu Kapitel 1 ist lang und schachtelt zwei Aussagen ineinander („Was sich … ändert, … und warum das Verhältnis …“)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Hier ist die Gliederung für das Sachbuch“: Die Vorrede gehört nicht in eine Gliederung.",
+          "Floskelhafte, wechselnde Einleitungen: „Du bekommst Werkzeuge an die Hand“, „Dieses Kapitel zeigt dir“, „Hier lernst du“, „Ein konkreter Leitfaden zeigt dir“.",
+          "Der Aufbau trägt nicht: Nach den schwierigen Gesprächen (Kapitel 6) folgen wieder Alltagsthemen wie Teamzusammensetzung (Kapitel 7) und Abläufe (Kapitel 8).",
+          "Kapitel 6 („dicke Luft im Team“) überschneidet sich mit Kapitel 7 („Verschiedene Köpfe unter einen Hut bringen“), und Kapitel 3 („Besprechungen so leitest“) überschneidet sich mit Kapitel 4.",
+          "„warum du nicht mehr der beste Sachbearbeiter sein darfst“ verengt die Zielgruppe unnötig auf Büroarbeit."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Der Aufbau bricht: „Gestalte die Zusammenarbeit im Alltag“ (Kapitel 8) kommt erst nach den schwierigen Gesprächen.",
+          "Kapitel 1 („erst zuhörst, Fragen stellst“) und Kapitel 3 („Lerne dein Team und seine Arbeit kennen“) überschneiden sich.",
+          "„Führungskraft“ bezeichnet in Kapitel 2 den Vorgesetzten und in Kapitel 9 den Leser selbst; das ist missverständlich.",
+          "Die Kapitelsätze bleiben allgemein und wenig anschaulich (z. B. „eine Art zu führen, die zu dir passt“).",
+          "Der Rollenwechsel vom Kollegen zum Vorgesetzten, also der Kern der Zielgruppe, wird nirgends ausdrücklich behandelt."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 5783,
+    "out": 3566,
+    "thinking": 1725
+  },
+  "costUsd": 0.094452
+}

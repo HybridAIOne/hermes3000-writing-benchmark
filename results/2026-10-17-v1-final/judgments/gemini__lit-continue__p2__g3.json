@@ -1,0 +1,76 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Sie hatte ihn seit zwanzig gesehen.“ (Unidiomatische Ellipse; gemeint ist „schon vor zwanzig Minuten gesehen“ oder „seit zwanzig Minuten beobachtet“).",
+          "„Als sie ablegten, vibrierte das Seil. Jonas blickte hinauf...“ (Sachlicher Fehler: Bei einer Seilfähre auf der Elbe verläuft das Zug-/Führungsseil im Wasser, nicht als Hochseil über den Köpfen)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 4,
+        "fehler": [
+          "„Ilse nahm die Leine vom Poller und wickelte sie ordentlich auf.“ (Massiver Logikbruch zum Starttext: Ilse hatte die Fähre im Satz zuvor gerade erst festgemacht; ohne Leine treibt die Fähre ab, während sie in die Hütte gehen).",
+          "„Auf dem Tisch lag der Schraubenschlüssel, den Henning zuletzt benutzt hatte.“ (Unglaubwürdiges Detail/Kitsch: Die Jacke des verstorbenen Mannes hat sie schon vor zwei Jahren weggegeben, aber sein Werkzeug liegt noch unberührt auf dem Tisch im Arbeitsraum).",
+          "„Sie musste sich auf die Zehenspitzen stellen.“ (Abgegriffenes Klischee für das Erreichen eines Gegenstands mit emotionalem Wert).",
+          "„‚Du bist dünner‘, sagte sie. ‚Du auch.‘ ‚Ich wohne hier.‘“ (Der Dialog ergibt inhaltlich keinen rechten Sinn als Begründung für das Dünnsein)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„„Der Motor läuft\", sagte Ilse.“ (Durchgängig falsche deutsche Anführungszeichen im gesamten Text: Zollzeichen statt schließender Anführungszeichen oben).",
+          "„Ihre Knie meldeten sich dabei, wie sie es neuerdings taten, und sie ließ Jonas nicht merken, dass sie es hörte.“ (Schiefe Metaphorik/Synästhesie: Man „hört“ nicht innerlich seine Knie, wenn sie sich „melden“, es sei denn, sie knacken laut, dann würde Jonas es aber ohnehin selbst hören).",
+          "„...sah auf den Becher in ihrer Hand, als müsste er erst rechnen, was er bedeutete. Sie nahm Hennings Becher vom Fensterbrett...“ (Kontinuitätsfehler: Im Satz zuvor hatte sie nur die Thermoskanne in die Hand genommen, plötzlich hält sie schon einen Becher, nimmt dann aber erst Hennings Becher).",
+          "„Es war noch eine Fahrt eingetragen, die von 17 Uhr, für niemanden, den sie kannte. Vielleicht kam keiner.“ (Sachlicher Unsinn: Eine öffentliche Elbfähre verkehrt nach festem Fahrplan oder bei Bedarf auf Sicht, nicht nach namentlicher Voranmeldung im Kalender)."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2998,
+    "out": 805,
+    "thinking": 0
+  },
+  "costUsd": 0.014046
+}

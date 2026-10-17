@@ -1,0 +1,120 @@
+{
+  "task": "lit-dialogue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Du lügst immer noch schlecht.“ – gängige Dialogfloskel, leicht abgegriffen",
+          "„Ich hab’s nicht so gemeint. Damals. Zumindest nicht alles.“ – rückt nah an das Aussprechen des Konflikts",
+          "„(rührt in seinem Kaffee, der längst umgerührt ist)“ – erklärende Regieanweisung, die die Geste kommentiert",
+          "„Früher war vieles anders.“ – Allgemeinplatz"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Und deine, alles stehen zu lassen, bis jemand anders es aufhebt.“ – zu explizit, benennt den Vorwurf beinahe direkt",
+          "„Früher hattest du bessere Uhren.“ – Antwort passt logisch nicht zum Vorwurf, zu früh zu kommen",
+          "„Ist bitter.“ / „Der Kaffee?“ / „Vielleicht.“ – abgenutzte Doppeldeutigkeit",
+          "„Ich wusste nicht, ob du noch—“ – Gedankenstrich ohne Leerzeichen, im Deutschen unüblich",
+          "deutlich über 250 Wörter (ca. 330)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Deine Jacke liegt schon drauf.“ – Logikbruch: Jonas kommt gerade erst an, seine Jacke kann noch nicht auf dem Stuhl liegen",
+          "fehlende Sprecherzuordnung – über weite Strecken unklar, wer spricht",
+          "„Du hast früher keinen verpasst.“ / „Du hast früher gewartet.“ – Früher-Parallelismus als wiederkehrende Masche",
+          "„Früher hast du mich aufgefangen.“ – ins Kitschige kippende Metapher",
+          "deutlich über 250 Wörter (ca. 330)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "„Ich hänge an Sachen, die längst kaputt sind.“ – plakativ, spricht den Konflikt aus statt ihn spürbar zu machen",
+          "„ihr Lächeln erreicht die Augen nicht“ – Klischee",
+          "„Wie den Rest damals.“ / Kiste mit Sachen – liest sich als Trennung eines Paares, nicht als Streit unter Freunden",
+          "„Ich vermisse... unsere Gespräche.“ – Auslassungspunkte ohne Leerzeichen, ebenso „Ich habe... Prioritäten“",
+          "„Man lernt ja aus Fehlern.“ – erklärend, benennt die Schuld"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„rührt in einer leeren Tasse“ vs. „Der Kaffee sieht kalt aus.“ / „Ich hab nicht bestellt.“ – Logikbruch",
+          "„Löffel klirrt gegen Porzellan.“ – fehlender Artikel",
+          "„Die Post war nie das Problem.“ – zu deutlich, benennt den Konflikt fast",
+          "„Er lacht kurz, ohne Wärme.“ – Klischee",
+          "„das Horn klingt lang und dunkel“ – stimmungsheischender Schluss, leicht kitschig"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 5831,
+    "out": 2530,
+    "thinking": 1220
+  },
+  "costUsd": 0.073924
+}

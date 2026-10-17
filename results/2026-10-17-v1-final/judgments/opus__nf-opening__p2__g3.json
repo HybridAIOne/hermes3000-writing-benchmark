@@ -1,0 +1,80 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Die zehn Minuten sind vorbei“ – die zehn Minuten werden vorher nicht eingeführt, der Bezug fehlt",
+          "„schiebt man sie gern auf“ – Wechsel von der Du-Ansprache zum unpersönlichen „man“",
+          "„daneben eine Tasse, die längst kalt ist“ – Detail ohne Funktion, leicht füllend",
+          "Mit rund 280 Wörtern etwas über dem Zielumfang"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Das wolltest du so nicht hören lassen, und auch nicht so sagen.“ – unidiomatisch und schwer verständlich",
+          "„Dann war's das also mit mir?\"“ – schließendes Anführungszeichen ist ein gerades Zeichen statt „““",
+          "Vier Absätze statt des verlangten einen Einstiegsabsatzes, rund 300 Wörter",
+          "„Kennst du das?“ – abgegriffene Ratgeberfloskel",
+          "Der Anlass des Gesprächs bleibt unklar: „Dann war's das also mit mir?“ passt nicht recht zu „dass es so nicht weitergehen kann“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Wir drücken uns vor unangenehmen Wahrheiten“ – Wechsel von der Du-Ansprache zum „Wir“",
+          "„um seine Schlamperei auszubügeln“ – wertend; das widerspricht der Haltung eines Buchs über faire Gespräche",
+          "„Jahresendgespräch“ – ungebräuchlich, üblich ist „Jahresgespräch“",
+          "„im Jour fixe“ – Büro-Jargon, passt schlecht zur Vorgabe ohne Buzzwords",
+          "„Genau dieses Bauchgrummeln kennen fast alle“ – pauschale Behauptung, Füllsatz"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3717,
+    "out": 1548,
+    "thinking": 767
+  },
+  "costUsd": 0.045828
+}

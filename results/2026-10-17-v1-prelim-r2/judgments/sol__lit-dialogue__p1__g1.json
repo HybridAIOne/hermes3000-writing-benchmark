@@ -1,0 +1,118 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "„Ich habe die Nachrichten gesehen.“ / „Du hast dich nicht gemeldet.“: Der Anschluss ist widersprüchlich, sofern persönliche Nachrichten gemeint sind. Eine andere Bedeutung von „Nachrichten“ wird nicht vorbereitet.",
+          "„Du hast immer noch diese Art, dich zu rechtfertigen, bevor überhaupt eine Frage gestellt wurde.“: Der Vorwurf wird ausformuliert statt durch das Gespräch vermittelt. Dadurch verliert die Szene den geforderten Subtext.",
+          "„Eine Basis. […] Das ist ein interessantes Wort für das, was übrig geblieben ist.“: Austauschbare Konfliktrhetorik; die gemeinsame Vergangenheit erhält keine individuelle Kontur.",
+          "„Vielleicht ist das ja das Problem.“ / „Oder die einzige Chance.“: Der versöhnliche Schluss wird rhetorisch gesetzt, ohne dass das Gespräch diese Wendung ausreichend entwickelt.",
+          "„Der Kaffee hier ist immer noch der Beste in der Stadt.“: „beste“ muss hier kleingeschrieben werden, weil es sich auf das zuvor genannte Substantiv „Kaffee“ bezieht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Wir haben beide Entscheidungen getroffen, Jonas. Ich habe nur die Konsequenzen getragen. Alleine.“: Der Konflikt wird zwar nicht konkret benannt, aber seine Schuldverteilung ausdrücklich verhandelt. Das unterschreitet die geforderte Konsequenz des Unausgesprochenen.",
+          "„Manchmal muss man einfach abwarten, bis sich der Staub legt.“: Abgegriffene Metapher statt einer für diese Freundschaft charakteristischen Äußerung.",
+          "„seine Fingerknöchel treten weiß hervor“: Konventionelles Körpersignal, das die bereits deutlich ausgesprochene Anspannung zusätzlich illustriert.",
+          "„Nur, wenn du dieses Mal bleibst, bis die Rechnung kommt.“ / „Ich laufe nicht weg, Jonas. Nicht mehr.“: Die zunächst brauchbare doppeldeutige Rechnungsbemerkung wird durch die anschließende Erklärung ihrer Wirkung beraubt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Die Kellnerin kommt vorbei, bemerkt die Stimmung und verschwindet wieder.“: „bemerkt die Stimmung“ erklärt eine Wahrnehmung, statt sie durch eine konkrete, beobachtbare Reaktion zu zeigen.",
+          "„Er lacht kurz, ohne dass es lustig wäre.“: Geläufige, wenig präzise Regieformel; sie gibt keine individuelle körperliche Reaktion.",
+          "„Tom bleibt sitzen und rührt in seinem Kaffee, obwohl er längst kalt ist.“: Konventionelles Schlussbild für Verlassenheit. Es schwächt den ansonsten recht zurückhaltenden und konkreten Szenenausgang."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "„Miro: (setzt sich)“ / „Miro: (setzt sich langsam)“: Doppeltes Hinsetzen ohne zwischenzeitliches Aufstehen; eindeutiger Anschlussfehler in der Personenführung.",
+          "„Auf das, was wir nicht sagen.“: Die Figur spricht das Konstruktionsprinzip der Aufgabe ausdrücklich aus. Das wirkt selbstkommentierend statt unterschwellig.",
+          "„Dein Haar ist kürzer.“ / „Deine Ausreden auch.“: Die schlagfertige Pointe ersetzt eine glaubhafte Reaktion; das Gespräch klingt stellenweise wie ein vorbereitetes Wortgefecht.",
+          "„Manches ändert sich.“ / „Manches offenbar nicht.“ und „Und trotzdem.“ / „Und trotzdem.“: Wiederholte Spiegelantworten machen den Rhythmus schematisch und die Stimmen einander zu ähnlich.",
+          "„Das schmeckt bitter.“: Die Geschmacksbemerkung ist als Konfliktsymbol zu offensichtlich, zumal der schlechte Kaffee bereits angesprochen wurde."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„Du musst nicht so tun, als wärst du die Einzige, die verletzt wurde.“: Die emotionale Konfliktlage wird ausdrücklich erklärt, statt ausschließlich unter dem Gesagten spürbar zu bleiben.",
+          "„Er zieht die Hände zurück, als hätte er sich verbrannt.“: Es fehlt ein räumlicher oder körperlicher Bezugspunkt für das Zurückziehen; der Vergleich liefert vor allem ein konventionelles Verletztheitssignal.",
+          "„Manche Fehler machen sich nicht von allein.“: Auffällig konstruierte Sentenz. Die Figur produziert eine Pointe, wo eine individuell plausible Äußerung nötig wäre.",
+          "„Ja.“ / „Nein.“ und „Und?“ / „Und was?“: Die mehrfach eingesetzten Minimalwechsel erzeugen zunehmend künstliche Verzögerung statt zusätzlicher Spannung.",
+          "„Das ist kein Satz.“ / „Für heute reicht er.“: Der Schluss zielt erkennbar auf einen zitierfähigen Effekt. Annas Einwand gegen den vollständigen Satz „Ich bin gekommen“ bleibt dabei eher rhetorischer Kunstgriff als nachvollziehbare Gesprächsreaktion."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "E",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2711,
+    "out": 1816,
+    "thinking": 512
+  },
+  "costUsd": 0.023582
+}

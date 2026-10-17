@@ -1,0 +1,108 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„wie du die ersten Tage und Wochen übersteht“: Falsche Verbform; richtig ist „überstehst“.",
+          "„was deine Geschäftsführung, dein Team und du selbst von dir erwartest“: Das mehrteilige Subjekt verlangt „erwarten“.",
+          "„Rückmeldung im Alltag“ mit „Lob und Kritik“ und „Schwierige Gespräche führen“ mit „Leistungsprobleme, Fehlverhalten“ überschneiden sich. Die Grenze zwischen alltäglicher Rückmeldung und besonderem Klärungsgespräch müsste ausdrücklich gezogen werden.",
+          "„Der rote Faden: Die Kapitel 1 bis 3 …“: Der zusätzliche Erläuterungsabsatz wiederholt die erkennbare Gliederungslogik und ist für das verlangte Format entbehrlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„bei Fehlern, Trödelei oder dicke Luft im Team“: Nach „bei“ muss es „dicker Luft“ heißen.",
+          "„die typische Falle des ‚Selbermachens‘ vermeidest“ und „Aufgaben richtig abgeben“: Kapitel 3 und 4 behandeln weitgehend denselben Wechsel vom Selbermachen zum Delegieren; eine klare inhaltliche Trennung fehlt.",
+          "„auch ohne offizielle Weisungsbefugnis“: Der Text setzt fehlende Weisungsbefugnis voraus. Vorgegeben sind jedoch Teamleiter ohne formale Führungsausbildung; das ist nicht dasselbe.",
+          "„der beste Facharbeiter“ und „zwischen Geschäftsführung und Werkstatt“: Die Gliederung verengt die branchenoffene Zielgruppe unnötig auf einen gewerblich-produzierenden Betrieb.",
+          "„die Fäden in der Hand hältst“, „Informations-Knotenpunkt“, „Zwischen Baum und Borke“ und „Wenn es menschelt“: Die Häufung abgegriffener Bilder ersetzt präzise Kapitelprofile; besonders der demonstrative Führungsanspruch im ersten Kapitel wirkt für den Einstieg wenig hilfreich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Du richtest klare Ziele, verlässliche Regeln für Rückmeldungen und feste Gesprächsformate ein“: „Ziele einrichten“ ist keine idiomatische Verbindung; Ziele werden gesetzt oder vereinbart.",
+          "„Vom Kollegen zum Vorgesetzten“: Der grundlegende Beziehungs- und Rollenwechsel erscheint erst in Kapitel 4, obwohl er bereits den ersten Auftritt und die Gespräche zum Kennenlernen prägt.",
+          "„was du in den ersten dreißig Tagen wirklich tun musst und was du getrost liegen lassen kannst“: Das Kapitelversprechen bleibt pauschal und greift potenziell auf die folgenden Kapitel vor; sein eigener, überschneidungsfreier Gegenstand ist nicht klar genug bestimmt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„erst zuhörst, Fragen stellst und nicht sofort alles verändern willst“ und „Lerne dein Team und seine Arbeit kennen“: Kapitel 1 und 3 setzen beide auf die anfängliche Erkundung. Für die ausdrücklich verlangte Überschneidungsfreiheit müsste Kapitel 1 einen eigenständigen Schwerpunkt erhalten."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "E",
+      "C",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2856,
+    "out": 1460,
+    "thinking": 512
+  },
+  "costUsd": 0.020312
+}

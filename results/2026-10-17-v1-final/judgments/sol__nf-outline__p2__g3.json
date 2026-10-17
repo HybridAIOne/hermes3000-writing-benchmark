@@ -1,0 +1,75 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„ohne sie zu verteidigen oder zu verraten“: Die Formulierung bleibt sachlich unklar. Entscheidungen zu erklären kann durchaus bedeuten, sie begründet zu vertreten; was mit ihrem „Verraten“ gemeint ist, erschließt sich nicht eindeutig.",
+          "„statt zu schlichten, bis niemand mehr etwas sagt“: Die zugespitzte Wendung zeichnet Schlichten pauschal als Unterdrückung von Auseinandersetzungen. Sie ist weniger hilfreich als eine konkrete Beschreibung des angestrebten Umgangs mit Konflikten.",
+          "„Aufgaben abgeben, ohne die Kontrolle zu verlieren“: Vor der Aufgabenverteilung fehlt ein eigener, klar erkennbarer Schritt zur Festlegung von Zielen und Prioritäten. Das schwächt den systematischen Aufbau der praktischen Führungsarbeit."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Du wägest ab“: Im hier verwendeten Indikativ muss es „Du wägst ab“ heißen; „wägest“ ist Konjunktiv I.",
+          "„Schaffe einen verlässlichen Arbeitsrhythmus“: Grundlegende Besprechungen und Informationswege werden erst nach schwierigen Gesprächen und Entscheidungen eingeführt. Für den verlangten aufbauenden Lernweg wäre dieses Kapitel vor den schwierigen Gesprächen besser aufgehoben."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Loslassen lernen“ vor „Sag klar, was du willst“: Die Aufgabenverteilung wird vor der Klärung von Zielen und Erwartungen behandelt. Für einen konsequent aufbauenden Praxisleitfaden sollte die Reihenfolge umgekehrt sein.",
+          "„Warum du deine alte Facharbeit nicht mehr selbst erledigen kannst“: Die Aussage ist zu pauschal. Gerade Teamleiter in mittelständischen Firmen übernehmen häufig weiterhin Facharbeit; zu klären wäre deren Umfang, nicht ihre grundsätzliche Unmöglichkeit.",
+          "„Zwischen den Stühlen“: Das Kapitel verbindet die anfängliche Klärung von Auftrag und Befugnissen mit der dauerhaften Vermittlung von Vorgaben gegenüber dem Team. Dadurch ist es weniger trennscharf zugeschnitten als die übrigen Kapitel.",
+          "„Zum Aufbau: Kapitel 1–3 behandeln den Einstieg und die eigene Position.“: Der zusätzliche Erklärabschnitt wiederholt weitgehend die bereits erkennbare Gliederungslogik und geht über das verlangte Format aus Kapiteltitel und jeweils einem Satz hinaus."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 1824,
+    "out": 1073,
+    "thinking": 380
+  },
+  "costUsd": 0.014378
+}

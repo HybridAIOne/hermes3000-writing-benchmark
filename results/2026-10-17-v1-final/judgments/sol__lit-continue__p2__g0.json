@@ -1,0 +1,113 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die Fahrt dauerte elf Minuten, hin und zurück ein Vierteljahrstündchen“: Die Zeitangaben passen nicht zusammen. Eine einfache Fahrt von elf Minuten lässt sich ohne weitere Erklärung nicht mit einer fünfzehnminütigen Hin- und Rückfahrt vereinbaren.",
+          "„er hatte erst gestern Abend den Zug gebucht“: Diese genaue Information ist Ilse nicht zugänglich. Innerhalb ihrer Vorstellung von Jonas’ Gedanken erscheint sie unvermittelt als gesicherte Tatsache; die personale Perspektive wird dadurch unsauber.",
+          "„wie man jemandem nachsieht, den man noch nicht wieder hereingelassen hat“: Das Bild erklärt die emotionale Bedeutung der vorgestellten Handlung ausdrücklich, statt sie aus der Situation entstehen zu lassen.",
+          "„dieses Schweigen, das mehr Platz brauchte als ein Satz“: Die pointierte Deutung wirkt stärker nach Erzählerinnenkommentar als nach Ilses ansonsten knapper Wahrnehmung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die Strömung reicht“ bis „Dauert eine Stunde“: Mit deutlich über 500 Wörtern überschreitet der Text den Richtwert von etwa 400 merklich. Vor allem die ausgedehnte Ankunftsschilderung ließe sich ohne Verlust straffen.",
+          "„dieses schnelle, glatte Lächeln, das sie von den Fotos auf seiner Firmenwebseite kannte“: Die Kombination aus Beraterberuf, glattem Lächeln und Firmenfotos typisiert Jonas vorschnell. Das wirkt schematischer als eine individuelle Beobachtung.",
+          "„Die kleinen Hartplastikrollen ratterten ohrenbetäubend über das geriffelte Eisenblech“: „ohrenbetäubend“ übersteigert das kleine Alltagsgeräusch und schwächt die sinnliche Präzision.",
+          "„Eine Mappe aus schwarzem Leder“ / „Zu dick für einen bloßen Wochenendbesuch“: Die Mappe wird als auffälliges Handlungssignal eingesetzt; der Schluss von ihrer Dicke auf einen besonderen Besuchszweck wirkt konstruiert.",
+          "„Der Pegel fällt“, log sie ruhig: Die nachgeschobene Erklärung nimmt der Ausrede ihre mögliche Mehrdeutigkeit. Zusammen mit Jonas’ Nachfrage und der ausführlichen Feststellung des leeren Ufers wird Ilses Ausweichmanöver mehrfach erläutert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„und war erst angelegt, als das Schiff ruhig im Wasser lag“: Für Ilses Handlung müsste es „hatte erst angelegt“ heißen. Zudem ist die zeitliche Abfolge unscharf: Das ruhige Liegen erscheint als Voraussetzung des Anlegens statt als dessen Ergebnis.",
+          "„weil du ihn jeden Morgen anschiebst“: Ein Bootsmotor lässt sich nicht wie ein Fahrzeugmotor durch Anschieben starten. Die Formulierung wirkt hier nicht als erkennbare Übertreibung, sondern als technischer Fehlgriff.",
+          "„Vom Deich wehte der Wind Gras und Salz herunter“: Das Salzmotiv passt ohne zusätzliche Begründung nicht zum Binnenelbe-Schauplatz bei Hitzacker und wirkt aus einer Küstenlandschaft übernommen.",
+          "„deren Heck noch gegen den Poller drückte“: Der Poller ist ein Befestigungspunkt für die Leine, keine reguläre Anlagefläche des Hecks. Das Bild macht die räumliche Situation nautisch unplausibel.",
+          "„Der Fluss hat keinen Fahrplan“: Die sentenzhafte Schlussreplik klingt geschrieben statt gesprochen. Gerade bei einer betriebenen Fähre mit geregelten Fahrzeiten wirkt die Pointe zudem aufgesetzt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Das Wasser war jetzt bis an seine Knöchel durch das Leder gedrungen“: Auf lediglich nassen Bohlen ist diese rasche, starke Durchnässung nicht hinreichend vorbereitet. Sie wirkt herbeigeführt, damit Ilse ihm anschließend die Stiefel anbieten kann.",
+          "„Ilse wusste, dass das etwas bedeutete, und sie wusste auch, dass sie es nicht wissen wollte“: Die doppelte Wissensformel erklärt ihre Abwehr abstrakt, obwohl diese bereits in ihrem Verhalten sichtbar wird.",
+          "„Henning hätte etwas dazu gesagt. Henning hätte überhaupt etwas gesagt“: Die Wiederholung setzt den Trauerakzent demonstrativ. Mit Daumenspur, Beerdigung und stehen gebliebenen Stiefeln wird Hennings Abwesenheit anschließend noch mehrfach ähnlich markiert.",
+          "„Der klingt wie ein Traktor mit Bronchitis“: Der geläufige Vermenschlichungswitz macht Jonas’ Rede gefälliger, aber nicht individueller; er fällt gegenüber den präziseren Alltagsbeobachtungen ab."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "E",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3986,
+    "out": 2556,
+    "thinking": 1264
+  },
+  "costUsd": 0.033532
+}

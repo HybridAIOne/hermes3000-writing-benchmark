@@ -1,0 +1,75 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "1. **Dein erster Tag in der neuen Rolle** vs. 2. **Kläre, wofür du verantwortlich bist** (Stilbruch: Wechsel zwischen nominalem Titel in Kapitel 1 und Imperativ-Sätzen in den Kapiteln 2 bis 9)",
+          "8. **Gestalte die Zusammenarbeit im Alltag** (Aufbaufehler: Grundlegende Alltagsroutinen und Absprachen erst nach Delegation und Konfliktgesprächen einzuführen, widerspricht einem logisch aufbauenden Praxisleitfaden)",
+          "Du findest... / Du besprichst... / Du verschaffst... / Du machst... / Du überträgst... / Du lernst... / Du bereitest... / Du etablierst... / Du entwickelst... (Monotoner Satzbau: Alle neun Beschreibungssätze beginnen schematisch mit 'Du + Verb')"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "vom geschätzten Kollegen zum Respektierten (Unidiomatisch und schiefes Gegensatzpaar: Ein Kollege kann ebenfalls respektiert sein; gemeint ist die Rolle als Verantwortlicher oder Teamleiter)",
+          "Hier ist der Entwurf für die Gliederung des Sachbuchs **„Führen ohne Titel“**: (Unnötiger Meta-Kommentar vor dem eigentlichen Text)",
+          "**Kapitel 1: Plötzlich verantwortlich** vs. **Kapitel 4: Auf Augenhöhe überzeugen** (Redundanz/Überschneidung: Akzeptanz und Rückhalt ohne formale Machtbasis zu gewinnen, wird in beiden Kapiteln als Kernthema behandelt)",
+          "**Kapitel 9: Dein eigener Kompass – gesund bleiben und deinen Weg finden** (Vorgabe nicht genau getroffen: Gefordert war ein Abschluss zur 'eigenen Haltung', hier geht es primär um Work-Life-Balance, Abschalten nach Feierabend und Karriereplanung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "**4. Vom Kollegen zum Vorgesetzten** (Begriffliche Unschärfe zur Prämisse 'Führen ohne Titel': Wer ohne Titel oder formale Weisungsbefugnis ein Team leitet, ist oft gerade kein klassischer 'Vorgesetzter')",
+          "Du klärst... / Du lernst... / Du gestaltest... / Du lernst... / Du richtest... / Du bereitest... / Du lernst... / Du klärst... (Stilistische Monotonie: Acht von neun Kapitelbeschreibungen beginnen gleichförmig mit 'Du + Verb', dreimal davon mit 'Du lernst')"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2331,
+    "out": 781,
+    "thinking": 0
+  },
+  "costUsd": 0.012472
+}

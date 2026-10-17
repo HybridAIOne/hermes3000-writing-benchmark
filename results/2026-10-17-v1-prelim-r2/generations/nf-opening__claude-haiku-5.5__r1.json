@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "Es ist kurz nach halb neun, als du die Tür zu dem kleinen Besprechungsraum hinter der Teeküche schließt. Du hast dir zwei Sätze zurechtgelegt, mehr nicht. Auf dem Tisch liegt ein Ausdruck, den du mit dem Daumen glatt streichst, obwohl er nicht zerknittert ist. Gegenüber sitzt Sabine aus der Buchhaltung, die seit drei Wochen für dein Team die Kundenabrechnung übernimmt. Sie schaut auf ihre Hände. Du weißt, dass du mit dem Gespräch schon einmal zu spät dran bist, denn der Fehler ist seit letztem Freitag bekannt und du hast ihn bisher nur im Flur erwähnt, halb im Vorbeigehen. Jetzt ist der Moment da, und dein Kopf liefert dir gleichzeitig fünf Varianten, wie du anfangen könntest, alle davon mit einem Rückzieher am Ende.\n\nVielleicht kennst du diesen Augenblick. Du hast jemandem etwas zu sagen, das nicht angenehm ist, und jede Sekunde Schweigen fühlt sich an, als würde sie das Problem größer machen. Also redest du zu schnell, schiebst Lob vor die Kritik, damit es weniger wehtut, und landest bei einem Satz, den dein Gegenüber vermutlich gar nicht verstanden hat. Danach gehst du zurück an deinen Schreibtisch und bist unzufrieden, ohne genau sagen zu können, warum.\n\nDieses Kapitel handelt von genau solchen Gesprächen. Es geht nicht darum, wie du jemanden fertigmachst, sondern darum, wie du klar wirst, ohne dabei die Person zu verlieren.",
+  "usage": {
+    "in": 278,
+    "out": 820,
+    "thinking": 174
+  },
+  "costUsd": 0.0004378,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 5085,
+  "meta": [],
+  "at": "2026-10-17T17:20:20.666Z"
+}

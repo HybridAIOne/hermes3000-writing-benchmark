@@ -1,0 +1,132 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Ein Blick auf die Zahlen zeigt, warum dieses Modell passt.\" – die folgenden Umsatz- und Fahrgastzahlen begründen die Rechtsform nicht; die Argumentation ist schief.",
+          "\"Genau dafür eignet sich die Genossenschaft.\" / \"braucht genau diese Mischung\" – zweimal 'genau' kurz hintereinander.",
+          "\"aus beiden Elbufern\" – unidiomatisch, besser 'von beiden Elbufern'.",
+          "\"Die Menschen vor Ort übernahmen die Verantwortung selbst.\" – Füllsatz ohne Mehrwert.",
+          "Grundidee der Genossenschaft wird erst am Ende knapp benannt; für Laien fehlt eine einleitende Begriffserklärung."
+        ],
+        "unsupported": [
+          "\"Die Menschen vor Ort übernahmen die Verantwortung selbst.\" (leichte Ausschmückung)",
+          "\"Eine Fähre, die über Jahrzehnte fahren soll\""
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"Warum passt diese Rechtsform so gut zu der Fähre? Sie ist vor allem eine Verbindung\" – 'Sie' bezieht sich grammatisch auf die Rechtsform, gemeint ist aber die Fähre.",
+          "\"eine Rücklage für die Erneuerung der Fähre, die bis 2031 ausreichen soll\" – Relativsatz lässt sich auch auf 'Fähre' beziehen, Bezug ist mehrdeutig.",
+          "\"Die Fähre hängt an einem Führungsseil.\" – abgehackter Einzelsatz im ansonsten flüssigen Einstieg.",
+          "Der Text liegt mit rund 330 Wörtern etwas über der Vorgabe."
+        ],
+        "unsupported": [
+          "\"was jeder von ihnen brauchte, aber allein kaum hätte tragen können\" (Behauptung über die Gründer, nicht in der Quelle)",
+          "\"erst in zweiter Linie ein Geschäft\" (Wertung)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "Es fehlt eine einleitende Erklärung, was eine Genossenschaft ist; der Text setzt für Laien zu unvermittelt ein.",
+          "\"eine 212 Meter breite Elbe\" – unidiomatisch, als gebe es mehrere Elben.",
+          "\"Geldanteil und Stimmrecht sind also nicht gleichzusetzen. Die Genossenschaft verbindet so die finanzielle Beteiligung ihrer Mitglieder mit einem gleichen Stimmrecht\" – redundant und hölzern.",
+          "\"Mitglied wird, wer mindestens einen Geschäftsanteil von 250 Euro hält\" – logisch schief, da man den Anteil mit dem Beitritt erwirbt.",
+          "\"Für den Betrieb und die Erneuerung der Fähre braucht es Einnahmen\" – Füllsatz."
+        ],
+        "unsupported": [
+          "\"Die Mitglieder bündeln Beiträge\" (in der Quelle ist nur von Anteilen die Rede, nicht von Beiträgen)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "\"eine gemeinsame Aufgabe gemeinsam zu tragen\" – Tautologie.",
+          "\"Der laufende Betrieb finanziert sich aus Fahrkartenverkäufen und einem Zuschuss der Gemeinde. ... 71 Prozent stammten aus Fahrkartenverkäufen, 29 Prozent aus dem Gemeindezuschuss\" – doppelte Information.",
+          "Die technischen Angaben (Motor, Strömung) stehen im Absatz über Überschüsse, der Aufbau ist sprunghaft.",
+          "Der Schlussabsatz wiederholt die vorangehenden Absätze fast wörtlich ('finanziell beteiligen', 'gleichberechtigte Mitsprache').",
+          "\"bewegte allein die Strömung das Fahrzeug\" – papierner Behördenton."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "\"Mit diesen Anteilen wird das Unternehmen finanziert.\" – nicht belegt; laut Quelle stammt der Umsatz aus Fahrkarten und Gemeindezuschuss.",
+          "\"warteten die Menschen an beiden Elbufern nicht auf eine Lösung von außen\" – erfundene Ausschmückung.",
+          "\"was einzelne nicht stemmen könnten\" – substantiviert, daher 'Einzelne'.",
+          "Der Absatz über Gewinne springt unvermittelt zu Strömung, Führungsseil und Überfahrtsdauer.",
+          "Eine fett gesetzte Überschrift ist nicht verlangt ('nur den Buchtext')."
+        ],
+        "unsupported": [
+          "\"warteten die Menschen an beiden Elbufern nicht auf eine Lösung von außen\"",
+          "\"Mit diesen Anteilen wird das Unternehmen finanziert.\"",
+          "\"Die Zahlen von 2024 zeigen, wie das Modell trägt\" (Wertung, durch die Quelle nicht gedeckt)"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "E",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 6820,
+    "out": 3547,
+    "thinking": 1570
+  },
+  "costUsd": 0.09822
+}

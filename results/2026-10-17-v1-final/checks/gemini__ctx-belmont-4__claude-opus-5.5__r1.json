@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "claude-opus-5.5",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 2168,
+    "out": 242,
+    "thinking": 217
+  },
+  "costUsd": 0.006756
+}

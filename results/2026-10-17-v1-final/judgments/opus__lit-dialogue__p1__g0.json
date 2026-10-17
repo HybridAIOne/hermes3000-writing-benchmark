@@ -1,0 +1,119 @@
+{
+  "task": "lit-dialogue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "\"Ich war erst dort.\" – mehrdeutig; gemeint ist wohl \"zuerst\", gelesen wird leicht \"erst kürzlich\"",
+          "\"Sie legt den Löffel neben seine Tasse.\" – nach \"Ohne Zucker\" unklar motiviert, wirkt beliebig",
+          "\"Dass du welchen hineintust.\" – leicht hölzern",
+          "Die Gegenstandsrepliken (Tüte, Stuhl, Tasse, Bus) folgen einem gleichförmigen Muster, das gegen Ende etwas mechanisch wird"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "\"Loyalität ist heutzutage wirklich ein teurer Luxus.\" – der Konflikt wird praktisch ausgesprochen, das widerspricht der Aufgabe",
+          "\"Du tauschst es nur gegen etwas Besseres ein.\" – explizite Anklage statt Subtext",
+          "\"Ich brauchte einen radikalen Schnitt. Alles Alte musste weg.\" – plakative Symbolik",
+          "\"(lächelt bitter)\", \"(spannt den Kiefer an)\", \"(sieht ihr fest in die Augen)\" – klischeehafte Regieanweisungen",
+          "\"ein teurer Luxus. Man kann sich so leicht daran verbrennen.\" – Bildbruch"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"ohne die Zeit gelesen zu haben\" – erklärende, auktoriale Regieanweisung, die nicht spielbar ist",
+          "\"Ich hätte anrufen sollen. – Ja. Hättest du.\" – kommt dem Aussprechen des Konflikts recht nahe",
+          "\"Thomas lächelt kurz, dann nicht mehr.\" – etwas manieriert",
+          "Uneinheitliche Formatierung der Regieanweisungen (fett, kursiv, in Klammern)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "\"Mara nimmt einen Schluck Kaffee. / Jonas: Der ist kalt.\" – Logikbruch: Mara trinkt, Jonas stellt fest, dass der Kaffee kalt ist, obwohl er gerade erst bestellt wurde",
+          "\"Sie bestellen. Als sie fortgeht, rückt Jonas seine Tasse genau in die Mitte.\" – die Tasse ist noch gar nicht da",
+          "\"Du könntest trotzdem mitkommen.\" – unklar, wohin und warum",
+          "\"Keiner macht Anstalten, sich zu umarmen.\" – benennt, statt zu zeigen",
+          "Deutlich über der Zielmenge von etwa 250 Wörtern"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"obwohl nichts drin ist zum Umrühren\" – umständliche Wortstellung, zudem erklärend",
+          "\"zur Kellnerin, ohne Martin anzusehen\" – die Kellnerin ist zuvor gegangen, ihre Anwesenheit wird nicht hergestellt",
+          "\"**Wiedersehen**\" – der Titel ist von der Aufgabe nicht verlangt",
+          "\"*nach einer Weile*\" – Regieanweisungen ohne Klammern, uneinheitlich formatiert",
+          "\"Du hättest anrufen können. – Du auch.\" – recht nah am offenen Vorwurf"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "C",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 5701,
+    "out": 2945,
+    "thinking": 1557
+  },
+  "costUsd": 0.081704
+}

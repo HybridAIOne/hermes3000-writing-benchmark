@@ -1,0 +1,111 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„Die Frau blieb vor der Tür stehen“: Weder die zwanzigjährige Abwesenheit noch der Tod der Mutter oder überhaupt die Beziehung der Frau zur früheren Bewohnerin werden erkennbar. Wesentliche Vorgaben fehlen.",
+          "„das Metall roch nach Öl und Taschenfutter“ / „einen schwachen, metallischen Geruch auf der Haut“: Die wiederholten Metall- und Geruchseindrücke verdichten sich kaum zu einer individuellen Wahrnehmung oder erzählerischen Spur.",
+          "„Sie blieb stehen und wartete, bis es aufhörte“: Der Schluss wiederholt die abwartende Haltung des Anfangs, ohne sie entscheidend zu verändern. Die Szene bleibt eher atmosphärische Bestandsaufnahme als Romanauftakt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Zwanzig Jahre hatte sie nicht hier geschlafen“: Das bezeichnet nicht eindeutig eine Rückkehr nach zwanzig Jahren; zwischenzeitliche Besuche bleiben möglich. Der Tod der Mutter wird ebenfalls nur nahegelegt.",
+          "„eine Kerbe, glatt geworden von vielen Berührungen“ / „drei kurze Striche im Holz“: Zwei ähnliche Holzmarkierungen konkurrieren als bedeutungstragende Details. Zusammen mit der Körpermulde im Sessel wirkt die Spurensetzung etwas überbestückt.",
+          "„Einer war dunkler als die anderen, als hätte jemand ihn erst vor wenigen Tagen gezogen“: Der abschließende Hinweis auf eine mögliche jüngste Anwesenheit ist wirksam, aber als Spannungssignal recht konventionell."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie hatte ihn den ganzen Weg im Mantel getragen“: Die Anreise ist etabliert, die verlangte zwanzigjährige Abwesenheit dagegen nirgends. Auch der Tod der Mutter bleibt lediglich erschließbar.",
+          "„dass sie nicht wusste, welcher Tag heute war“: Die erhebliche zeitliche Desorientierung wird unvermittelt eingeführt und weder vorbereitet noch in ihrer Wirkung ausgeführt.",
+          "„lauschte dem Ticken, das klang, als wartete es auf etwas“: Die abschließende Personifikation behauptet eine unbestimmte Erwartung, statt die Spannung aus dem konkreten Uhrgeräusch weiterzuentwickeln."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„vorsichtig, als könnte darunter etwas leben“: Der Vergleich setzt früh ein etwas geläufiges Unbehagenssignal. Die späteren konkreten Irritationen durch Seife, Gartenschnitt und Schlüssel tragen die Spannung eigenständiger."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„eine schwere, birnenförmige Bleilot-Schnur“: Die Wortbildung bezeichnet eine Schnur, beschrieben wird aber der daran befestigte Lotkörper. Das zentrale Objekt wird dadurch begrifflich unpräzise eingeführt.",
+          "„Helena bückte sich nicht danach“ / „strich mit dem Daumen über das kalte Metall des Lotes“: Das Lot liegt auf der untersten Treppenstufe. Wie sie es ohne Bücken erreicht, bleibt räumlich unstimmig.",
+          "„vermutlich sie selbst an jenem Maimorgen – vor zwanzig Jahren“: Die Vermutung, der Sand stamme noch von ihrer damaligen Abreise, ist durch nichts gestützt. Sie lässt das Haus künstlich seit diesem Zeitpunkt unverändert erscheinen.",
+          "„mit einem trockenen Seufzen“ / „Myriaden von Staubpartikeln tanzten“: Geläufige Belebungen und eine aufwertende Mengenbezeichnung überladen den Einstieg, statt seine Wahrnehmungen zu präzisieren.",
+          "„Sie hatte Dinge zerfallen lassen, mit einer fast andächtigen Geduld, aber sie hatte nie das Lot gefällt“: Die zugespitzte Charaktererklärung und das demonstrative Wortspiel drängen sich vor die Szene. Die Mutter wird bewertet, bevor ihr Verhalten erzählerisch erfahrbar wird."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "C",
+      "E",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2748,
+    "out": 1620,
+    "thinking": 512
+  },
+  "costUsd": 0.021696
+}

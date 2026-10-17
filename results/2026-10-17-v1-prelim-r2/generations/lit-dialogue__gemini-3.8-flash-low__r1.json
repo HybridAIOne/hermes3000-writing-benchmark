@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "gemini-3.8-flash-low",
+  "run": 1,
+  "text": "*[Ein verregneter Spätnachmittag. Ein kleines Café. Jonas sitzt an einem Ecktisch, zwei Tassen vor sich. Lukas tritt ein, zögert kurz und setzt sich ihm gegenüber.]*\n\n**Jonas:** Du hast den Schirm vergessen. Wie immer.\n\n**Lukas:** Man gewöhnt sich an den Regen. *(Blickt auf die Tasse)* Schwarz?\n\n**Jonas:** Ja. Ich wusste nicht, ob du mittlerweile Zucker nimmst. Man verpasst ja einiges in… wie lange ist es her?\n\n**Lukas:** Elf Monate. Fast auf den Tag genau. \n\n**Jonas:** Du zählst mit. Beeindruckend.\n\n**Lukas:** *(Nimmt einen Schluck, verzieht keine Miene)* Es war eine ruhige Zeit. Viel Platz zum Nachdenken. \n\n**Jonas:** Das freut mich. Manche brauchen eben etwas länger, um Dinge zu verarbeiten.\n\n**Lukas:** Manchmal muss man einfach abwarten, bis sich der Staub legt. Bevor man wieder Fehler macht.\n\n**Jonas:** *(Lehnt sich zurück, die Stimme wird leiser)* Fehler. Interessantes Wort. Es klang damals eher nach einer… bewussten Entscheidung.\n\n**Lukas:** *(Hält seinem Blick stand)* Wir haben beide Entscheidungen getroffen, Jonas. Ich habe nur die Konsequenzen getragen. Alleine.\n\n**Jonas:** Du wolltest es doch nie anders. Du warst schon immer furchtbar stolz auf deine Unabhängigkeit. \n\n**Lukas:** Besser unabhängig als… \n\n*(Lukas bricht ab. Er greift nach der Tasse, seine Fingerknöchel treten weiß hervor. Eine lange Pause.)*\n\n**Lukas:** Der Kaffee ist gut. Danke.\n\n**Jonas:** *(Nickt kaum merklich)* Du siehst müde aus, Lukas. \n\n**Lukas:** Ich schlafe schlecht. Seit November. \n\n**Jonas:** *(Schaut aus dem Fenster)* Ja. Das kenne ich. \n\n**Lukas:** Wollen wir… noch einen bestellen? \n\n**Jonas:** *(Zögert, sieht Lukas direkt in die Augen)* Nur, wenn du dieses Mal bleibst, bis die Rechnung kommt.\n\n**Lukas:** Ich laufe nicht weg, Jonas. Nicht mehr.",
+  "usage": {
+    "in": 62,
+    "out": 504,
+    "thinking": 0
+  },
+  "costUsd": 0.0017608,
+  "finish": "STOP",
+  "reportedModel": "gemini-3.8-flash",
+  "upstream": null,
+  "latencyMs": 6319,
+  "meta": [],
+  "at": "2026-10-17T17:18:39.838Z"
+}

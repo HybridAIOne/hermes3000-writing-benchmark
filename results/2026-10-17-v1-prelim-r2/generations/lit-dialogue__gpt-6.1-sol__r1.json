@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "[Martin steht auf. Ole bleibt einen Moment neben dem freien Stuhl stehen.]\n\n„Du sitzt noch immer mit dem Rücken zur Wand.“\n\n„Hier zieht es nicht.“\n\n„Früher war dir das egal.“\n\n„Früher war der andere Platz meistens besetzt.“\n\n[Ole setzt sich, ohne die Jacke auszuziehen.]\n\n„Ich wusste nicht, ob du kommst.“\n\n„Du hast Donnerstag geschrieben.“\n\n„Das war keine Antwort.“\n\n„Ich bin hier.“\n\n„Ja.“\n\n[Die Kellnerin stellt zwei Tassen ab.]\n\n„Du hast für mich bestellt?“\n\n„Schwarz. Ohne Zucker.“\n\n„Ich nehme inzwischen Milch.“\n\n„Die steht da drüben.“\n\n„Ich sehe sie.“\n\n[Martin zieht die Hand zurück.]\n\n„Den Henkel haben sie geklebt.“\n\n„Ich hätte gedacht, die werfen so was weg.“\n\n„Vielleicht hatten sie keinen Ersatz.“\n\n„Sie haben einen ganzen Schrank voll.“\n\n[Ole dreht die Tasse, bis der Henkel nach außen zeigt.]\n\n„Wie geht’s deiner Mutter?“\n\n„Sie fragt gelegentlich nach dir.“\n\n„Was sagst du dann?“\n\n„Dass ich nicht weiß, wie es dir geht.“\n\n„Du könntest ihr sagen, dass ich wieder arbeite.“\n\n„Wieder dort?“\n\n„Nein. Woanders.“\n\n„Verstehe.“\n\n„Es ist näher an meiner Wohnung.“\n\n[Martin nickt und nimmt einen Schluck.]\n\n„Deinen Schal habe ich noch.“\n\n„Den grauen?“\n\n„Du hattest nur einen bei mir.“\n\n„Behalt ihn erst mal. Es wird kalt.“\n\n„Ich hab ihn gewaschen.“\n\n„Das wäre nicht nötig gewesen.“\n\n„Er lag ohnehin bei meinen Sachen.“\n\n[Ole öffnet den Reißverschluss seiner Jacke.]\n\n„Ich muss um vier los.“\n\n„Es ist erst halb drei.“\n\n„Ich wollte es nur gleich sagen.“\n\n„Soll ich noch etwas bestellen?“\n\n„Meinetwegen.“\n\n„Kuchen?“\n\n„Wenn du welchen nimmst.“\n\n[Martin hebt die Hand zur Kellnerin.]\n\n„Zwei Gabeln?“\n\n[Ole zieht die Jacke aus.]\n\n„Ja. Zwei.“",
+  "usage": {
+    "in": 64,
+    "out": 542,
+    "thinking": 102
+  },
+  "costUsd": 0.005548,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 19585,
+  "meta": [],
+  "at": "2026-10-17T17:19:37.286Z"
+}

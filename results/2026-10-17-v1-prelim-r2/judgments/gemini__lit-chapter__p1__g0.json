@@ -1,0 +1,117 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 2,
+        "fehler": [
+          "„Die zweite Fahrgästin kam in letzter Minute.“ (Vorgabe verfehlt: Es treten insgesamt nur zwei Fahrgäste auf statt genau drei; zudem steigt die zweite erst zu, nachdem die Fähre im Absatz zuvor bereits abgelegt hat.)",
+          "„Es gab nur einen Menschen, der um diese Zeit anrief“ (Vorgabe verfehlt: Der Anruf ist für die Leserin nicht erkennbar von Jonas, der Name fällt im gesamten Text nicht.)",
+          "„dreihundert Meter Strom, dann die Biegung, dann das Stück, wo die Strömung am stärksten zog“ (Sachlicher Logikbruch: Eine Seilfähre quert den Fluss am gespannten Seil von Ufer zu Ufer und fährt keine Flussbiegungen entlang.)",
+          "„Sie sah nur auf das Display, das sich durch den Stoff nicht zeigte“ (Stilblüte / unsinniges Bild: Man kann nicht auf ein Display sehen, das in der Tasche steckt.)",
+          "„am Hitzacker Ufer“ (Grammatikalisch unsauber; korrekt wäre „am Ufer bei Hitzacker“ oder „am Hitzackeraner Ufer“.)"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c3",
+          "c4"
+        ]
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 8,
+        "fehler": [
+          "„mit beiden Händen ein Pappbecher festhielt“ (Grammatikfehler: „einen Pappbecher“.)",
+          "„„Ist das Ihre letzte Fahrt heute?“ fragte die Frau.“ (Zeichensetzungsfehler: Nach der wörtlichen Rede fehlt das Komma; zudem sachlich unsinnig um acht Uhr morgens.)",
+          "„das Schlagen der Leinen gegen den Mast“ (Sachlicher Unsinn: Eine Seilfähre auf der Elbe ist kein Segelschiff mit Mast und schlagenden Leinen.)",
+          "„als hätte jemand ein graues Tuch über das Wasser gelegt und die Luft darunter vergessen“ (Schiefes, verkitschtes Einstiegsbild.)",
+          "„als gäbe es jenseits davon nichts, was sie jetzt annehmen müsste.“ (Plumpes, überdeutliches Wortspiel mit „Anruf annehmen“ am Schluss.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„dann löste sie die Leine. Zwei weitere Fahrgäste kamen den Weg herunter. [...] Ilse zog die Leine ein, prüfte den Verschluss“ (Ablauf-/Logikfehler bei der Arbeit an der Fähre und unklare Vermischung von „Leine“, „Seil“ und „Kette“.)",
+          "„Er schob sein Rad über die Rampe [...] Ilse befestigte die Leine“ (Reihenfolgefehler: Die Fahrgäste gehen bereits von Bord, bevor Ilse die Fähre am Anleger überhaupt festgemacht hat.)",
+          "„dass Ilse das andere Ufer nur wusste.“ (Unidiomatische Verkürzung.)",
+          "„Sie trank einen Schluck Kaffee aus dem Becher, den sie auf dem Armaturenbrett stehen gelassen hatte.“ (Wortwiederholung und falsches Register: „Armaturenbrett“ gehört ins Auto, im nächsten Absatz gleich noch einmal verwendet.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Sie hatte um halb sieben den Motor angelassen, nicht weil sie ihn brauchte, sondern weil er die Planken wärmte.“ (Sachlicher Unsinn: Ein Schiffsmotor wärmt keine offenen Holzplanken an Deck.)",
+          "„die Zeitung unter dem Arm, die er drüben im Kiosk nicht kaufen würde, weil er sie schon gelesen hatte.“ (Unsinnige Schein-Präzision: Warum sollte jemand eine Zeitung im Kiosk kaufen wollen, die er ohnehin schon unter dem Arm trägt?)",
+          "„ein langes, schartiges Rufen“ (Schiefe Metapher: Ein Geräusch oder Ruf kann heiser oder rau sein, aber nicht „schartig“ wie eine Klinge.)",
+          "„Es war Sonntag gewesen, dachte sie, oder nein, es war nicht Sonntag, sie wusste es nicht.“ (Unnötiges, künstliches Füllsel, das der trockenen Perspektive der Figur widerspricht.)",
+          "„und hinter ihr, in der Tasche, fing es noch einmal an zu summen.“ (Räumlich schief: Ihre eigene Jackentasche befindet sich nicht „hinter ihr“.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "D",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 8133,
+    "out": 1299,
+    "thinking": 0
+  },
+  "costUsd": 0.029256
+}

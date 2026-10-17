@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "Sie steht vor der Tür und dreht den Schlüssel um, und das ist keine Geste, die sie sich vorher vorgestellt hat. Keine einzige von den zwanzig Jahren, in denen sie an diesem Haus vorbeigegangen ist, hat sie auf diesen einen Handgriff vorbereitet.\n\nDer Flur riecht nach Kalk und nach etwas anderem, das sie nicht benennen kann. Nicht Staub. Nicht Moder. Eher nach dem, was eine Wand ist, wenn niemand mehr spricht, der sie mit dem Rücken berührt. Das Licht fällt vom einzigen Fenster in einem schiefen Rechteck auf die Dielen und hält dort still, als wäre es auch erst vor wenigen Minuten angekommen und noch nicht sicher, ob es bleiben darf.\n\nKein Möbel. Kein Bild. Nur die Wände, und auf den Wänden die helleren Rechtecke dort, wo Möbel gestanden haben, die Umrisse wie bei einem Tier, das man an der Stelle seines Schlafplatzes im Schnee erkennt. Die Küche. Sie geht hinein. Der Linoleum ist blass unter der Spüle – ein Quadrat, eine Leere mit Kontur.\n\nSie legt die Hand auf den Küchentisch. Das Holz ist kalt. An der Unterseite, wo der linke Tischbein trifft, ist ein Faden gerissen. Ein einzelner, dünner Faden aus der Furnierschicht, der hängen geblieben ist, grau und trocken, lang wie eine Naht. Sie dreht ihn einmal zwischen Daumen und Zeigefinger. Er reißt nicht. Er reißt auch nicht los.\n\nDraußen fährt ein Auto. Das Licht im Flur rückt ein Stück weiter über die Dielen. Sie atmet ein. Die Luft schmeckt nach Metall und nach dem Herbst, der vor zwanzig Jahren hier geblieben ist.",
+  "usage": {
+    "in": 81,
+    "out": 2429,
+    "thinking": 2047
+  },
+  "costUsd": 0.00536324,
+  "finish": "stop",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "upstream": "Reka",
+  "latencyMs": 31826,
+  "meta": [],
+  "at": "2026-10-17T17:23:52.393Z"
+}

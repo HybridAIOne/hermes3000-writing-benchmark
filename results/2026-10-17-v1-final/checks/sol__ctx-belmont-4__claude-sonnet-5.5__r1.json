@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-5"
+    ],
+    "evidence": [
+      "Sie weiß noch nicht, auf welche Seite sie gehört."
+    ]
+  },
+  "usage": {
+    "in": 1978,
+    "out": 171,
+    "thinking": 132
+  },
+  "costUsd": 0.005666
+}

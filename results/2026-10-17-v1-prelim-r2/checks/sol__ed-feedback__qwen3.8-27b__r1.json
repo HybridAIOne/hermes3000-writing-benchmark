@@ -1,0 +1,19 @@
+{
+  "task": "ed-feedback",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "found": [
+      "tempus",
+      "wiederholung"
+    ],
+    "false_alarms": 0
+  },
+  "usage": {
+    "in": 847,
+    "out": 61,
+    "thinking": 30
+  },
+  "costUsd": 0.002304
+}

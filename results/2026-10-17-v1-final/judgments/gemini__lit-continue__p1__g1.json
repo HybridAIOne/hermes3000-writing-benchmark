@@ -1,0 +1,118 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Lass das Ding stehen. Über das Kopfsteinpflaster ziehst du dir nur die Rollen kaputt.“ - Er hob den Koffer am Griff hoch, statt ihn zu ziehen, und folgte ihr auf das flache Deck. (Logikbruch: Sie rät ihm wegen des Kopfsteinpflasters vom Ziehen ab, führt ihn dann aber nicht über den gepflasterten Weg zum Haus, sondern auf das eiserne Fährdeck.)",
+          "blieb aber vor der eisernen Auffahrtsklappe stehen, als bräuchte er ein Ticket. ... Zwei Radfahrer in gelben Regenjacken schoben ihre Räder an ihm vorbei ans Ufer (Logik/Ablauf: Jonas steht bereits vor der Klappe, die Radfahrer kommen erst danach von Bord, obwohl noch gar nicht klar ist, ob die Klappe schon unten war.)",
+          "Es war nicht der Blick des Jungen, der hier im Sommer nach Weißfischen geangelt hatte. Es war der Blick, mit dem er Tabellen prüfte. (Stil: Sehr schablonenhaftes Ausbuchstabieren der Figurencharakterisierung aus dem Prompt.)",
+          "diesen Geruch nach Schlick und altem Eisen, der tief in ihren Handlinien saß. (Stil: Abgegriffenes Sprachbild.)",
+          "„Die Strömung reicht“, sagte Ilse. (Sachfehler: Eine Seilfähre an der Elbe bei Hitzacker ist keine reine Gierseilfähre, die nur mit der Strömung fährt, sondern zieht sich per Motor am Seil entlang.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "und war erst angelegt, als das Schiff ruhig im Wasser lag. (Grammatikfehler: Perfekt von 'anlegen' wird mit 'haben' gebildet – 'hatte angelegt'. Zudem sachlich unsinnig: Man legt nicht an, nachdem das Schiff ruhig liegt.)",
+          "Vom Deich wehte der Wind Gras und Salz herunter (Sachfehler/Geografie: Hitzacker liegt im Binnenland an der Mittelelbe, weit entfernt von der Nordsee; dort riecht der Wind nicht nach Salz.)",
+          "Sie hatte ihn gesehen, als die Fähre in der Biegung gelegen hatte. ... Sie hatte den Blick abgewendet, hatte am Steuer gearbeitet, als gäbe es am Ufer nichts, das wichtig war (Aufgabe/Redundanz: Nacherzählung dessen, was laut Prompt im Kapitel bereits vor dem Startabsatz erzählt wurde.)",
+          "„Er läuft, weil du ihn jeden Morgen anschiebst. Das hat Papa auch schon gesagt.“ (Sachfehler/Idiomatik: Einen Schiffsdiesel kann man nicht 'anschieben'.)",
+          "Sie löste die Leine vom Poller, Windung für Windung, und hielt sie ihm hin. (Logikbruch: Wenn Ilse auf der Fähre oder am Poller die Leine löst und sie Jonas am Anleger hinhält, während sie mit ihm hinüberfahren will, ergibt das keinen Sinn beim Ablegemanöver.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Vielleicht tat er das auch, innerlich, in eine dieser Tabellen, von denen er am Telefon manchmal erzählte, mit Farben für gut und schlecht. (Stil: Etwas bemühte Übernahme der Berufsvorgabe 'Unternehmensberater' in Ilses Gedankenwelt.)",
+          "Er trug eine Jacke, die aussah, als sei sie für Regen gemacht, und es vermutlich nicht war (Stil: Etwas umständliche Konstruktion.)",
+          "Dann ging sie zum Poller, löste die Leine, die sie eben erst festgezogen hatte, und hielt sie ihm hin. „Stell den Koffer in die Kabine“, sagte sie. „Und halt das. Aber erst loslassen, wenn ich es sage.“ (Logik/Ablauf: Er kann nicht gleichzeitig die gelöste Leine unter Spannung halten und den Koffer in die Kabine stellen.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Bis kein Wind mehr geht.“ - „Die Strömung bleibt.“ (Sachlicher Unsinn: Eine Seilfähre fährt weder mit Segelwind noch allein durch Strömung, wenn der Motor ausfällt.)",
+          "Jonas sah hinauf zum Seil. (Sachfehler: Das Seil einer Seilfähre liegt im Flussbett und läuft durch Führungsrollen an der Seite des Rumpfes; es ist keine Hochseilkonstruktion, zu der man 'hinaufsieht'.)",
+          "Sie hatte ihn seit einer halben Stunde gesehen. (Sprache/Idiom: Ungelenkes Plusquamperfekt mit 'seit'; idiomatisch wäre 'Sie hatte ihn schon vor einer halben Stunde gesehen'.)",
+          "Sie stieg auf die Fähre und löste die Leine. Dann hielt sie inne, legte sie noch einmal lose um den Poller (Logik/Perspektive: Am Ende des Startabsatzes stand Ilse bereits beim Poller; wenn der Poller an Land ist, kann sie nicht erst auf die Fähre steigen, um die Leine zu lösen.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Ilse nahm die Leine vom Poller und wickelte sie ordentlich auf. ... Draußen schlug die Fähre sacht gegen den Anleger. (Schwerer Logikbruch: Im Startabsatz macht Ilse die Fähre am Poller fest. Im ersten Absatz von Text E löst sie die Leine sofort wieder und wickelt sie auf – danach gehen beide seelenruhig in die Hütte, während die Fähre unvertäut im Fluss treiben müsste.)",
+          "„Ich meinte, wie lange weißt du, dass es kaputt ist.“ (Grammatik/Bezug: Im ersten Absatz ging es um 'den Motor' bzw. 'den Motorraum' [maskulin], das Pronomen 'es' hat kein passendes Bezugswort.)",
+          "„Du bist dünner“, sagte sie. - „Du auch.“ - „Ich wohne hier.“ (Dialoglogik: 'Ich wohne hier' ergibt als Replik auf 'Du bist auch dünner geworden' keinen Sinn.)",
+          "Auf dem Tisch lag der Schraubenschlüssel, den Henning zuletzt benutzt hatte. ... Die Jacke an der Garderobe war nicht Hennings. Die hatte sie vor zwei Jahren weggegeben. (Kontinuitätsbruch: Henning ist seit mindestens zwei Jahren tot, aber auf dem Tisch im Fährhaus liegt noch unberührt der Schraubenschlüssel, den er zuletzt benutzt hat.)",
+          "Die mit dem blauen Rand, aus der Jonas als Kind getrunken hatte, stand hinten im Schrank, hinter den Gläsern, die selten herauskamen. (Schauplatzlogik: Das Steuerhaus einer kleinen Elbfähre ist kein Wohnhaus mit Geschirrschränken voller Gläser und alter Kindertassen.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "A",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 4450,
+    "out": 1791,
+    "thinking": 0
+  },
+  "costUsd": 0.02681
+}

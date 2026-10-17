@@ -1,0 +1,104 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„So sichert sie den Betrieb aus eigener Kraft.“ – Das überzieht die Aussage der Quelle: Zum Umsatz trägt ein Gemeindezuschuss von 29 Prozent bei. Eigenständige Organisation ist nicht mit eigenständiger Finanzierung gleichzusetzen.",
+          "„Es geht nicht darum, Gewinne für Anteilseigner zu erzielen.“ – Belegt ist die Nichtausschüttung von Überschüssen, nicht eine ausdrückliche Aussage über die Gewinnerzielungsabsicht. Die Formulierung sollte näher an dieser belegten Mittelverwendung bleiben."
+        ],
+        "unsupported": [
+          "„So sichert sie den Betrieb aus eigener Kraft.“ – Eine Sicherung ohne externe Unterstützung ist nicht belegt; die Quelle nennt einen erheblichen Gemeindezuschuss.",
+          "„Es geht nicht darum, Gewinne für Anteilseigner zu erzielen.“ – Die Quelle beschreibt die Verwendung von Überschüssen, nicht die Gewinnerzielungsabsicht."
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Auf diese Weise sichert die Rechtsform dauerhaft den Betrieb und die Modernisierung des Fährverkehrs“ – Eine dauerhafte Sicherung folgt weder aus der Rechtsform noch aus den genannten Finanzdaten. Belegt sind die Rücklagenbildung und das Modernisierungsziel.",
+          "„aus beiden Elbufern“ – Unidiomatische Herkunftsangabe, auch wenn sie so im Quellmaterial steht. Richtig wäre „von beiden Elbufern“.",
+          "„Wie eine Genossenschaft funktioniert und warum sie als passende Rechtsform genutzt wird, zeigt das Beispiel“ – Der Einstieg wiederholt umständlich die Aufgabenstellung, statt unmittelbar in den Gegenstand einzuführen.",
+          "„Die Fähre selbst hängt an einem Führungsseil.“ – Der anschließende Technikblock unterbricht die bereits begonnene Schlussfolgerung zur Eignung der Rechtsform. Die Fakten sind korrekt, aber strukturell ungeschickt platziert."
+        ],
+        "unsupported": [
+          "„Auf diese Weise sichert die Rechtsform dauerhaft den Betrieb und die Modernisierung des Fährverkehrs“ – Die Quelle belegt keine dauerhafte Bestandsgarantie durch die Rechtsform."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Die Wirtschaftlichkeit zeigt sich in nüchternen Zahlen“ – Umsatz und Einnahmenstruktur belegen ohne Angaben zu Kosten und Ergebnis keine Wirtschaftlichkeit.",
+          "„Sie taten das also nicht, um Gewinn zu machen“ – Den Gründern wird eine nicht belegte Absicht zugeschrieben. Die heutige Verwendung der Überschüsse beweist ihre damaligen Motive nicht.",
+          "„für die Region typisch“ – Die Quelle enthält keine Angaben, die eine regionale Typik begründen könnten.",
+          "„Das Unternehmen wird also langfristig für die Allgemeinheit gesichert, statt kurzfristig Rendite zu erzielen.“ – Rücklagenbildung wird zu einer gesicherten langfristigen Wirkung überhöht; auch die Gegenüberstellung unterstellt eine nicht belegte strategische Absicht.",
+          "„aus beiden Elbufern“ und „Bei der Hitzacker Fähre“ – Die Herkunftsangabe muss „von beiden Elbufern“ lauten. Als Ortsadjektiv wäre „Hitzackerer“ zu verwenden; einfacher und eindeutiger wäre „bei der Fährgenossenschaft Hitzacker“."
+        ],
+        "unsupported": [
+          "„Sie taten das also nicht, um Gewinn zu machen“ – Eine entsprechende Aussage über die Absichten der Gründer fehlt.",
+          "„für die Region typisch“ – Eine regionale Besonderheit oder Häufigkeit ist nicht belegt.",
+          "„Das Unternehmen wird also langfristig für die Allgemeinheit gesichert, statt kurzfristig Rendite zu erzielen.“ – Weder die langfristige Sicherung als feststehendes Ergebnis noch diese strategische Gegenüberstellung sind belegt.",
+          "„Die Wirtschaftlichkeit zeigt sich in nüchternen Zahlen“ – Die genannten Umsatzdaten erlauben keine Aussage über die Wirtschaftlichkeit."
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Zusätzliche Anteile bringen keine zusätzlichen Stimmen.“ – Wiederholt unmittelbar die bereits vollständig erklärte Regel „genau eine Stimme, unabhängig von der Zahl seiner Anteile“. Eine Straffung würde den Absatz verbessern.",
+          "„Im Mittelpunkt steht nicht die Ausschüttung von Überschüssen, sondern die Fähre als gemeinsame Aufgabe und ihre künftige Erneuerung.“ – Der Schluss wiederholt überwiegend bereits erläuterte Punkte. Ein prägnanterer Abschluss würde den ansonsten klaren Text stärken."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2887,
+    "out": 2006,
+    "thinking": 848
+  },
+  "costUsd": 0.025834
+}

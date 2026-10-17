@@ -1,0 +1,112 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„gegenüber deinem Chef abgrenzst“ – Rechtschreibfehler, korrekt ist „abgrenzt“.",
+          "„zählt, und warum“ – überflüssiges Komma vor „und“ bei gleichrangigen Nebensätzen mit gleichem Einleitewort.",
+          "Kapitel 1 und 2 überschneiden sich thematisch leicht bei der Gestaltung der ersten Tage im Verhältnis zum Team."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„bei Fehlern, Trödelei oder dicke Luft“ – Grammatikfehler (Kasus), nach „bei“ ist der Dativ erforderlich: „dicker Luft“.",
+          "Kapitel 3 („Raus aus dem Tagesgeschäft“) und Kapitel 4 („Aufgaben richtig abgeben“) behandeln beide das Thema Delegation/Abgeben und überschneiden sich stark.",
+          "„zwischen Geschäftsführung und Werkstatt“ sowie „der beste Facharbeiter“ – verengt die Zielgruppe unnötig auf Handwerk/Produktion, obwohl der Mittelstand auch Dienstleistung und Büro umfasst.",
+          "Der logische Aufbau bricht in Kapitel 7 und 8 auseinander („Gute Stimmung im Alltag“ wirkt wie ein nachgeschobenes Anhängsel nach dem Konflikt- und Sandwich-Kapitel).",
+          "Stilistisch teils stark formelhaft in den Satzanfängen („Du erfährst, wie…“, „Du lernst, wie…“, „Dieses Kapitel zeigt dir, wie…“)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Brüche im logischen Aufbau: „Schaffe verlässliche Abläufe im Team“ (Besprechungsroutinen) kommt erst in Kapitel 8, nachdem bereits Arbeitspläne (Kap. 4), Delegation (Kap. 5) und schwierige Gespräche (Kap. 7) abgehandelt wurden.",
+          "Fast alle Kapitelüberschriften sind im Imperativ formuliert („Kläre…“, „Lerne…“, „Mach…“), was für ein Inhaltsverzeichnis im Sachbuch eintönig und belehrend wirkt.",
+          "Die Beschreibungen bleiben sprachlich sehr abstrakt und blass („Informationen abwägen“, „verständliche Prioritäten“), der spezifische Bezug zum Hineinrutschen in die Rolle im Mittelstand fehlt ab Kapitel 3."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„wie du die ersten Tage und Wochen übersteht“ – Grammatikfehler (Konjugation), korrekt ist „überstehst“.",
+          "„was deine Geschäftsführung, dein Team und du selbst von dir erwartest“ – Grammatikfehler (Kongruenz bei mehreren Subjekten), korrekt wäre „erwarten“ oder eine Umstellung.",
+          "„hältst Meetings“ – unnötiges Business-Vokabular trotz Vorgabe „keine Buzzwords“ (im Satz davor steht das passendere „Besprechungen“).",
+          "Kapitel 9 („mit Zweifeln, Fehlern und dem Gefühl um, nie genug zu sein“) und Kapitel 10 („Deine eigene Haltung“) überschneiden sich im Bereich der Selbstreflexion."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [
+          "„der beste Sachbearbeiter“ – engt die Perspektive minimal auf den Bürobereich ein, funktioniert im Kontext als pars pro toto aber dennoch gut."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "A",
+      "D",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3398,
+    "out": 1042,
+    "thinking": 0
+  },
+  "costUsd": 0.017216
+}

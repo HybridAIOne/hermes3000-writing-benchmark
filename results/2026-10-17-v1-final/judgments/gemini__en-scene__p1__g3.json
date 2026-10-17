@@ -1,0 +1,75 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Your mother said it sometimes,\" he said. \"Near the end. She was proud of you. She said you never sat down on a shift.\" (Verstoß gegen die Vorgabe, auf eine Enthüllung zu verzichten; zudem melodramatisch und unzurückhaltend)",
+          "Maren walked the fourth-floor corridor ... The chapel was off the lobby ... Somewhere below, a cart rattled (Räumlicher Logikbruch: Die Lobby ist im Erdgeschoss, darunter fahren keine Krankenhauswagen über Linoleum; außerdem fehlt der Übergang vom vierten Stock in die Lobby)",
+          "Maren felt the words land somewhere under her ribs and stay there. (Abgedroschene Phrase / Klischee)",
+          "until she could breathe. (Pathetisches Klischee, widerspricht der geforderten Zurückhaltung)",
+          "At four the hospital goes quiet ... Maren walked (Unmotivierter Tempuswechsel vom Präsens ins Präteritum gleich zu Beginn)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "His hands rested flat on his knees ... On the blonde wood of the pew where his hand had rested (Kontinuitätsfehler: Seine Hände lagen auf seinen Knien, nicht auf dem Holz der Kirchenbank)",
+          "searching for the geometry of someone she had intubated (Schiefe Metapher; zudem intubieren in der Regel Ärzte, nicht Pflegekräfte)",
+          "He wore a wool coat damp at the shoulders, though it hadn't rained since Tuesday ... a half-circle of condensation (Bricht mit dem Genre des zeitgenössischen Romans, indem unnötig übernatürliche Geister-Tropen bedient werden)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "In the back sat a man ... Mara took the chair nearest the door. ... Between them, a few crumbs fell onto the empty chair (Räumliche Unschärfe: Wenn er hinten sitzt und sie an der Tür, sie sich aber plötzlich direkt neben ihm befindet, sodass nur ein einzelner Stuhl zwischen ihnen ist, fehlt die Bewegung durch den Raum)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 1986,
+    "out": 653,
+    "thinking": 0
+  },
+  "costUsd": 0.010502
+}

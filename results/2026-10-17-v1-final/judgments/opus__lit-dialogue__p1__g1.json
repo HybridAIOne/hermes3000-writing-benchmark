@@ -1,0 +1,121 @@
+{
+  "task": "lit-dialogue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Das ist nicht fair, Lukas.\" / \"wer von uns beiden eigentlich gegangen ist\" – der Konflikt wird fast ausgesprochen statt nur spürbar gemacht",
+          "\"Man gewöhnt sich ja an den bitteren Geschmack.\" – überdeutliche Symbolik",
+          "\"ihr Blick verhärtet sich\" / \"Bis kein Platz mehr zum Atmen ist\" – Klischees",
+          "\"rührt in seinem leeren Tee\" – Logikbruch: leerer Tee lässt sich nicht umrühren",
+          "\"dreht seinen Ehering\" – lässt eher an ein Paar als an alte Freunde denken; die Regieanweisungen sind wertend statt knapp"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "\"Sie fragt, ob du an Weihnachten kommst.\" – liest sich wie ein Ex-Paar, nicht wie alte Freunde",
+          "\"Und du hast immer geschwiegen, bis es zu spät war.\" – der Konflikt wird erklärt",
+          "\"Er lacht kurz, ohne Freude.\" – Klischee",
+          "\"Hat sie das.\" – Fragezeichen fehlt bzw. wirkt unklar",
+          "\"Sie winkt der Kellnerin. Niemand kommt.\" … \"Die Kellnerin stellt zwei Tassen ab.\" – Toms Getränk wird nie bestellt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Leon zieht den Stuhl zurück\" … \"Ist der Platz frei?\" – fragt erst, nachdem er den Stuhl schon zurückgezogen hat",
+          "\"Sie rühren beide in ihren Tassen\" – Leon ist gerade erst gekommen und hat noch nichts bestellt",
+          "\"Du bestellst noch immer schwarz.\" – \"Auf weniger Zucker.\" – widersprüchlich, da schwarz ohne Zucker gemeint ist",
+          "\"Aber zusammen.\" – kitschige Pointe",
+          "Stichomythie ohne Variation (\"Ah.\", \"Ja.\", \"Spät.\") – der Konflikt bleibt kaum spürbar"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"Ob es hier noch was zu reparieren gibt.\" – Metapher zu deutlich",
+          "\"Ich werf nichts weg, nur weil es mal Ärger macht.\" – der Subtext liegt nah an der Oberfläche",
+          "\"Hat ja auch keiner mehr geklingelt.\" – leicht überdeutlich",
+          "\"Zwei Löffel, wie früher.\" – sentimentaler Schlussakzent",
+          "Mit gut 300 Wörtern etwas über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Ich konnte sie noch aufhalten\" – falsches Tempus/Modus (\"könnte\" bzw. \"kann\")",
+          "\"Die anderen Plätze waren frei.\" – unklare, fast unlogische Antwort",
+          "\"Dein Mantel wird nass am Boden.\" – Mantel am Boden ist vorher nicht etabliert",
+          "\"nimmt die Jacke vom Stuhl neben sich\" – die Jacke wurde schon zu Beginn vom Stuhl genommen; die Requisitenführung ist unklar",
+          "Stellenweise so verrätselt, dass der Konflikt nur schwer greifbar ist"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "E",
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 6229,
+    "out": 3163,
+    "thinking": 1744
+  },
+  "costUsd": 0.088176
+}

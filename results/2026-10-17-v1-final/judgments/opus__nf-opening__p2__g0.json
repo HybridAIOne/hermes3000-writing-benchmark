@@ -1,0 +1,116 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Kaum etwas schieben Teamleiter so zuverlässig vor sich her“ – leicht holprige Wortstellung",
+          "„Dann bist du in guter Gesellschaft.“ – abgegriffene Floskel",
+          "Mit rund 270 Wörtern etwas über dem Zielumfang"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "Text in vier Absätze gegliedert statt eines Einstiegsabsatzes",
+          "„Die meisten Führungskräfte, die ich kenne“ – plötzliche Ich-Erzählerstimme, die sonst nirgends etabliert ist",
+          "„vor dir ein Ausdruck mit den Zahlen des letzten Quartals“ – Szene suggeriert ein Leistungsproblem, der Kommentar spricht dann von dem, „was zwischen zwei Menschen schiefläuft“",
+          "„Rhetorik-Kniffe“ / „den Mut, einen Satz früher auszusprechen“ – etwas formelhafter Schluss",
+          "Mit rund 300 Wörtern deutlich über dem Umfang"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„aus dem Affekt“ – idiomatisch falsch, richtig: „im Affekt“",
+          "„Morgen\", sagst du dir. „Wenn es sich besser anbietet.\" – gerade statt typografischer Schlusszeichen",
+          "„Wie das gelingt, schauen wir uns jetzt Schritt für Schritt an.“ – Floskel",
+          "„Und um das, was danach kommt, wenn du dich für das Gespräch entschieden hast.“ – redundanter Nachsatz"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„ein fester Ärger über einen Kollegen“ – ungewöhnliche Kollokation, besser „handfester“ oder „dauerhafter Ärger“",
+          "„Genau hier werden Gespräche schwierig“ – Übergang etwas abrupt",
+          "Kapitelrahmen (worum es im Kapitel geht) nur implizit",
+          "Mit rund 280 Wörtern etwas über dem Umfang"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„zuzuhören, was danach kommt“ – unidiomatisch, besser „hinzuhören“ oder „zuzuhören, wenn …“",
+          "„auf den Tisch legt“ / „zu viel auf dem Tisch“ – unschöne Wiederholung",
+          "„Nicht vorwurfsvoll klingen. Trotzdem deutlich sein.“ – leichter Ratgeber-Ton",
+          "Mit rund 280 Wörtern etwas über dem Umfang"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "E",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 5115,
+    "out": 1915,
+    "thinking": 810
+  },
+  "costUsd": 0.05876
+}

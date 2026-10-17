@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "Es ist Dienstagmorgen, halb acht. Du stehst in der Produktionshalle, Kaffee in der Hand, und siehst ihn schon von Weitem: den Kollegen, der seit drei Wochen regelmäßig zu spät kommt, dessen Arbeit liegen bleibt und den die anderen inzwischen offen mit den Augen rollen. Du weißt, dass du mit ihm reden musst. Du weißt es seit zwei Wochen. Und trotzdem drehst du dich um, gehst zurück an deinen Schreibtisch und sagst dir: Heute Nachmittag. Oder morgen. Morgen ist ohnehin ruhiger.\n\nKommt dir das bekannt vor? Dann bist du in guter Gesellschaft. Fast jede Führungskraft kennt dieses Ziehen im Magen, wenn ein unangenehmes Gespräch ansteht. Die Kritik an einem langjährigen Mitarbeiter. Das Gespräch über mangelnde Leistung. Die Ansage, dass eine Beförderung nicht klappt. Solche Termine schieben wir vor uns her, als würden sie sich von allein erledigen. Tun sie nicht. Im Gegenteil: Wer zu lange wartet, macht das Problem größer. Der Kollege, der zu spät kommt, merkt, dass es keine Konsequenzen hat. Das Team merkt es auch – und zieht seine eigenen Schlüsse über dich.\n\nDieses Kapitel nimmt dir die schwierigen Gespräche nicht ab. Aber es zeigt dir, wie du sie so führst, dass du danach ruhig schlafen kannst. Du lernst, wie du dich vorbereitest, ohne dich in einem Drehbuch zu verlieren. Wie du Klartext redest, ohne den anderen vor den Kopf zu stoßen. Und wie du mit den typischen Reaktionen umgehst: mit Schweigen, mit Ausreden, mit Tränen, mit Gegenangriffen. Vor allem aber wirst du feststellen, dass die meisten dieser Gespräche in der Vorstellung schlimmer sind als in der Wirklichkeit. Und dass Menschen Klarheit oft dankbarer entgegennehmen, als du denkst.",
+  "usage": {
+    "in": 267,
+    "out": 583,
+    "thinking": 30
+  },
+  "costUsd": 0.00704112,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Wafer",
+  "latencyMs": 8539,
+  "meta": [],
+  "at": "2026-10-17T17:24:18.505Z"
+}

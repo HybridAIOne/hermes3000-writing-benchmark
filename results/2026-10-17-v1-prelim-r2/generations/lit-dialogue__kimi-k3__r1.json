@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "*Ein Biergarten, früher Abend. Zwei Männer um die fünfzig sitzen sich gegenüber. Zwischen ihnen zwei volle Gläser.*\n\n**MARKUS:** Du trinkst ja doch noch Hellbier.\n\n**THOMAS:** Man trinkt, was auf dem Tisch steht.\n\n**MARKUS:** Früher hast du immer gemeckert. Immer das Dunkle wolltest du.\n\n**THOMAS:** Früher. *(er trinkt einen großen Schluck)*\n\n**MARKUS:** Sieht gut aus bei dir. Das Haus, meine ich. Bin vorbeigefahren.\n\n**THOMAS:** Vorbeigefahren.\n\n**MARKUS:** Ich war in der Gegend.\n\n**THOMAS:** In der Gegend. *(er dreht sein Glas)* Die Hecke musste weg. Hast du das gesehen?\n\n**MARKUS:** Schade. Die war schön.\n\n**THOMAS:** Die war krank. Manche Dinge sehen von außen gut aus und innen ist alles verfault.\n\n*Pause. Ein Kellner geht vorbei, beide schauen ihm nach.*\n\n**MARKUS:** Wie geht's deiner Mutter?\n\n**THOMAS:** Sie fragt noch manchmal nach dir.\n\n**MARKUS:** Nett von ihr.\n\n**THOMAS:** Ich sag dann immer, du hast viel zu tun.\n\n**MARKUS:** Das stimmt ja auch.\n\n**THOMAS:** Ja. Das stimmt ja auch. *(er lacht kurz, ohne Humor)*\n\n**MARKUS:** Der Garten damals, bei deinem Fünfzigsten—\n\n**THOMAS:** Es regnet.\n\n**MARKUS:** Was?\n\n**THOMAS:** Es fängt an zu regnen. *(er sieht nach oben, es regnet nicht)*\n\n**MARKUS:** Thomas—\n\n**THOMAS:** Ich muss sowieso los. Der Hund. Du weißt schon.\n\n**MARKUS:** Du hast keinen Hund.\n\n**THOMAS:** Nein. *(er steht auf, legt Geld auf den Tisch)* Aber ich muss trotzdem los.\n\n**MARKUS:** Das nächste Mal—\n\n**THOMAS:** Ja. Das nächste Mal. Ruf mich an.\n\n**MARKUS:** Du hast meine Nummer nicht mehr.\n\n**THOMAS:** *(steht schon halb abgewandt)* Nein. Hab ich nicht.\n\n*Er geht. Markus bleibt sitzen, rührt sein Glas nicht an. Dann zieht er Thomas' Glas zu sich herüber und lässt es stehen.*",
+  "usage": {
+    "in": 160,
+    "out": 619,
+    "thinking": 16
+  },
+  "costUsd": 0.007438859999999999,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "DeepInfra",
+  "latencyMs": 6692,
+  "meta": [],
+  "at": "2026-10-17T17:22:46.964Z"
+}

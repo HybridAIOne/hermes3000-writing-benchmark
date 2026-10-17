@@ -1,0 +1,111 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Das Wasser schmeckte nicht nach Eisen oder Kalk. Es schmeckte scharf und unverkennbar nach bitteren Mandeln.“ – Der demonstrativ gesetzte Giftverdacht wirkt wie ein fertiges Spannungssignal. Die sinnliche Wahrnehmung wird dadurch stärker zur Pointe als zur charakteristischen Erfahrung dieser Frau.",
+          "„Es roch nach der Abwesenheit von allem.“ – Die abstrakte Totalformel erklärt die zuvor bereits sinnlich dargestellte Verlassenheit und überhöht sie unnötig.",
+          "„formlos wie eine abgelegte Haut“ – Ein geläufiges, dramatisierendes Bild, das dem Mantel wenig Eigenart gibt.",
+          "„ein tiefes, hohles Röcheln“, „ein Beben in den Rohren“, „spuckte der Hahn“ – Die dicht aufeinanderfolgenden Belebungen und Verstärkungen überladen einen einfachen Vorgang."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Seit zwanzig Jahren hatte sie sich eingeredet, sie werde das Haus nicht vermissen.“ – Die zwanzigjährige Abwesenheit wird nur indirekt vermittelt; dass die Mutter verstorben ist, bleibt im gesamten Text offen. Damit ist ein zentraler Bestandteil der Vorgabe nicht hinreichend verankert.",
+          "„An ihrem Daumen klebte ein einzelnes, blaues Fädchen. Sie wusste nicht, woher es kam.“ – Das potenziell bedeutungstragende Detail erscheint erst als angehängtes Rätsel. Seine Verbindung zu Handlung und Figur bleibt schwach.",
+          "„Der schmale Spalt darunter war dunkel, obwohl das Licht von der Küche bis an die Schwelle reichte.“ – Der Gegensatz suggeriert etwas Unheimliches, obwohl Licht an der Schwelle einen dunklen Kellerraum nicht ausschließt.",
+          "„als hätte das Haus beschlossen, sie nicht sofort hineinzulassen“ – Konventionelle Haus-Personifikation statt eines eigenständigen Einstiegs."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Aber der Pendel schwang“ – Falsches Genus: Es muss „das Pendel“ heißen.",
+          "„Die Uhr lief acht Tage.“ – Gemeint ist ihre Laufzeit nach vollständigem Aufziehen. Die Formulierung kann zunächst auch als Bericht über einen bereits vergangenen Zeitraum gelesen werden; gerade die entscheidende zeitliche Information sollte präziser sein.",
+          "„Dann hörte sie es.“ / „Sie war leer.“ – Die isolierten Enthüllungssätze rahmen den Uhrenfund sehr demonstrativ als Spannungsmechanismus. Das wirkt stärker arrangiert als die sonst überzeugend beiläufigen Beobachtungen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Die Süße, die sie im Flur gerochen hatte, kam von hier. Und jemand war vor ihr hier gewesen.“ – Der Schluss behauptet mehr, als die Beobachtungen tragen: Ein wieder angedrückter Wachsrand erklärt weder eindeutig den Geruch bis in den Flur noch einen Besuch während ihrer Abwesenheit.",
+          "„Die Hausschuhe der Mutter fehlten auch“ – Die Abwesenheit der Mutter wird über fehlende Gegenstände angedeutet; ihr Tod wird jedoch nirgends ausreichend kenntlich gemacht.",
+          "„zwei helle Flecken im Linoleum, wo Sohlen den Boden blankgerieben hatten“ – Zwei klar begrenzte Stellflächen passen schlecht zu einer Abnutzung durch Reibung. Das Bild verwechselt den festen Aufbewahrungsort mit einer regelmäßig betretenen Fläche.",
+          "„Darin stand eine Frau Ende vierzig, die sie einen Moment lang nicht erkannte.“ – Das unvermittelte Nichterkennen des eigenen Spiegelbilds ist ein abgegriffenes Mittel, um Entfremdung zu markieren.",
+          "„als müsste man das Haus erst wecken“ / „wie Laken über Möbel“ – Vertraute Bilder des verlassenen Hauses ersetzen eine individuellere Wahrnehmung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "B",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2774,
+    "out": 1620,
+    "thinking": 512
+  },
+  "costUsd": 0.021748
+}

@@ -1,0 +1,78 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Du konntest schon immer das letzte Wort haben.“ – Die Formulierung ist semantisch unscharf: Gemeint scheint eher sein Beharren auf dem letzten Wort als die Möglichkeit, es zu bekommen.",
+          "„Und du hast immer geschwiegen, bis es zu spät war.“ – Pauschale Beziehungsklage statt individueller Figurenrede; der bisher indirekte Konflikt wird zur ausdrücklichen Abrechnung.",
+          "„Erinnerst du dich an den Sommer am See?“ – Konventionelles Erinnerungssignal ohne konkretes Detail. Die langjährige Freundschaft wird behauptet, aber kaum unverwechselbar gemacht.",
+          "„Er lacht kurz, ohne Freude.“ – Die Regieanweisung erklärt den Gefühlswert eines geläufigen Ausdrucksmittels. Zusammen mit den zahlreichen Pausen und abgewandten Blicken wirkt die Inszenierung stellenweise schematisch."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "„Es war letztlich eine rein geschäftliche Entscheidung der Leitung.“ / „Du warst schon immer sehr überzeugend, wenn es um deinen Vorteil ging.“ – Beruflicher Anlass und persönlicher Vorwurf werden ausgesprochen. Damit bleibt der Konflikt nicht mehr im verlangten Maß unausgesprochen.",
+          "„Ich habe getan, was nötig war. Nicht jeder hat den Luxus, immer nur an die Gefühle anderer zu denken.“ – Erklärende Selbstrechtfertigung, die Lukas auf eine vorhersehbare Täterposition festlegt. Für Subtext bleibt wenig Raum.",
+          "„Loyalität ist heutzutage wirklich ein teurer Luxus. Man kann sich so leicht daran verbrennen.“ – Abstrakter Sinnspruch mit unvermitteltem Bildwechsel vom Luxus zum Verbrennen; klingt geschrieben statt gesprochen.",
+          "„Ich brauchte einen radikalen Schnitt. Alles Alte musste weg.“ – Die doppelte Bedeutung des Haarschnitts wird sofort ausbuchstabiert. Das Symbol darf nicht selbst wirken.",
+          "„Ich werfe nichts weg, was mir mal wichtig war.“ / „Du tauschst es nur gegen etwas Besseres ein.“ – Pointierte Schlussreplik nach vorhersehbarer Vorlage; eher inszenierter Schlagabtausch als offenes, widersprüchliches Wiedersehen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ist bitter.“ / „Der Kaffee?“ / „Vielleicht.“ – Die emotionale Doppelbedeutung wird demonstrativ markiert. Dadurch wirkt der Subtext kurzzeitig wie ein vorgeführtes Verfahren.",
+          "„Nein. Das war immer deine Stärke.“ / „Und deine, alles stehen zu lassen, bis jemand anders es aufhebt.“ – Die gegenseitigen Charakterurteile sprechen die Vorwurfsebene ausdrücklich aus. Der zweite Satz nutzt zudem den abgestellten Becher etwas zu passgenau als Symbol.",
+          "„Früher hattest du bessere Uhren.“ – Schlagfertige, aber sachlich wenig motivierte Antwort: Der Zusammenhang zwischen besseren Uhren und früherem Überpünktlichsein bleibt konstruiert."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 1910,
+    "out": 1200,
+    "thinking": 394
+  },
+  "costUsd": 0.01582
+}

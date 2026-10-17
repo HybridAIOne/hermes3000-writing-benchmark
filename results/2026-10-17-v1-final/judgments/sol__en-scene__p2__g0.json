@@ -1,0 +1,106 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„In eleven years she had learned that people at this hour usually supplied it unprompted“: Die Uhrzeit bleibt unbestimmt; die ausdrücklich verlangten vier Uhr morgens werden nicht etabliert.",
+          "„The tealight shivered in its plastic cup, though no air moved.“: Konventionelles Schlusszeichen unheimlicher Anwesenheit. Bei einem zuvor ausdrücklich als batteriebetrieben bezeichneten Teelicht ist die Windstille zudem kein bemerkenswerter Gegensatz zum Flackern."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„The chapel sat on the second floor“ bis „its spine turned out toward the room“: Mit rund 340 Wörtern überschreitet die Szene die Zielgröße von etwa 250 deutlich; insbesondere Rückblick und Abgang benötigen Straffung.",
+          "„Maren had sung once, to a woman on 4 West who asked for nothing but a song she couldn't finish.“: Der eingeschobene Rückblick erklärt die Verbindung unmittelbar und ausdrücklich. Dadurch verliert die Begegnung ihre produktive Ungewissheit und erhält einen konventionell rührenden Hintergrund.",
+          "„squaring its spine with the others“ / „the hymnal stood square with the rest“: Das Schlussbild wiederholt nahezu unverändert eine bereits ausführlich beschriebene Handlung. Die Wiederaufnahme wirkt stärker als gesetztes Bedeutungssignal denn als neue Wahrnehmung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„since her shift began at seven“: Der Schichtbeginn wird angegeben, die verlangte Begegnung um vier Uhr morgens jedoch zeitlich nicht verankert.",
+          "„The rubber soles of Nora’s shoes made no sound on the linoleum, only a faint tackiness left over from the third-floor mop bucket.“: Die elliptische Verknüpfung lässt die Sohlen grammatisch nicht nur ein Geräusch, sondern auch eine Klebrigkeit erzeugen. Gemeint ist offenbar eine beim Gehen wahrgenommene Klebrigkeit; der Satz verbindet diese unterschiedlichen Wahrnehmungen unsauber.",
+          "„the font was twelve-point, illegible from twenty feet away in the dim amber of the wall sconces“: Schriftgrad, Entfernung und Beleuchtung werden demonstrativ aufgerechnet, um eine gewöhnliche Erklärung auszuschließen. Das wirkt konstruiert statt beiläufig wahrgenommen.",
+          "„You switched shifts with Miller, Nora“ / „had retired in November“: Das zusätzliche Geheimwissen über Dienstplan und pensionierten Kollegen verschiebt die zurückhaltende Begegnung in Richtung eines konventionellen Mystery-Aufhängers.",
+          "„the damp wool of his coat releasing the faint, metallic smell of wet pavement into the dry radiator heat“: Die Häufung von Material, Feuchtigkeit, Geruchsvergleich und Temperatur überlädt den Wahrnehmungsmoment und schwächt die verlangte Zurückhaltung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Mara watched it spread beneath the pew, thin as a coin.“ / „turning the corridor’s ceiling lights into a slow, wavering line“: Zwei unmittelbar aufeinanderfolgende, eigens ausgestaltete Schlussbilder konkurrieren um den Nachhall. Die zusätzliche Lichtspiegelung wirkt dekorativer und weniger zwingend als der bereits beobachtete Wasserfleck."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2186,
+    "out": 1845,
+    "thinking": 874
+  },
+  "costUsd": 0.022822
+}

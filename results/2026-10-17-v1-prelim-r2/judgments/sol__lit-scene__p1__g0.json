@@ -1,0 +1,112 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "„Das Haus roch nicht nach Tod“: Weder der Tod der Mutter noch das frühere Eigentumsverhältnis werden etabliert. Dass Elena in das Haus ihrer verstorbenen Mutter zurückkehrt, ist dem Text allein nicht zu entnehmen.",
+          "„Die Zeit war hier nicht vergangen; sie war lediglich gefroren.“: Abgegriffene Zeitmetapher, die den bereits ausführlich beschriebenen Stillstand nochmals erklärt.",
+          "„Und Elena wusste, dass sie das Eis jetzt eigenhändig brechen musste.“: Der Schluss verlängert die Frostmetapher zur klischeehaften Handlungsankündigung, statt einen konkreten nächsten Schritt zu zeigen.",
+          "„wie ein blindes Auge, das sie beobachtete“: Das Bild verbindet Blindheit und Beobachtung ohne erkennbaren Gewinn; es überhöht den ohnehin auffällig inszenierten Tapetenfleck.",
+          "„Die Stille hier war nicht leer; sie war massiv, fast physisch, wie eine Glocke“: Mehrere abstrakte Verstärkungen ersetzen Präzision. Zusammen mit den tanzenden Staubpartikeln und dem metallischen Angstgeschmack entsteht eine Häufung vertrauter Atmosphärenformeln."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„An einem hing ein Kopftuch, braun-beige, das sie nie an ihrer Mutter gesehen hatte.“: Die Mutter wird erwähnt, ihr Tod jedoch nicht etabliert. Damit bleibt eine zentrale Vorgabe der Aufgabe offen.",
+          "„als wollte es nicht weiter“: Die Personifikation des Lichtstreifens ist eine konventionelle Unheimlichkeitsgeste und gegenüber den präzisen Beobachtungen des übrigen Textes entbehrlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„das letzte, das ihre Mutter benutzt haben musste“: Der Tod der Mutter wird allenfalls nahegelegt, nicht eindeutig etabliert. Auch die Gewissheit, gerade ihr letztes benutztes Glas vorzufinden, erhält keine konkrete Grundlage.",
+          "„Sie hob das Glas nicht an. Sie hob es gar nicht.“: Die zweite Aussage wiederholt die erste ohne erkennbare Bedeutungsverschiebung; die beabsichtigte Intensivierung bleibt leer.",
+          "„Das Haus hatte geduldig gewartet, und es schien zu wissen, dass Eile jetzt niemandem mehr half.“: Die abschließende Personifikation liefert eine versöhnlich klingende Lebensweisheit, statt die Spannung der Szene weiterzutragen.",
+          "„nach verschlossener Zeit – nicht nach Verfall, sondern nach Stillstand“: Die abstrakten Geruchsbestimmungen greifen auf geläufige Atmosphärenformeln zurück; die anschließende Lavendelseife ist deutlich anschaulicher.",
+          "„ihre Mutter, an einem bestimmten Tag, den es einmal gegeben hatte“: Der Einschub erklärt die vergangene Existenz eines Augenblicks, den die Tropfenspuren bereits vermitteln. Das bremst und überbetont die Stelle."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Sie hielt die Hand unter den Ausguss.“: Falsche Gegenstandsbezeichnung im gegebenen Zusammenhang. Gemeint ist der Auslauf des Wasserhahns beziehungsweise der Wasserstrahl; der Ausguss bezeichnet hier das Becken oder dessen Ablauf.",
+          "„Ihre Mutter hatte nie gemalt.“: Die Mutter wird erwähnt, ihr Tod aber nicht etabliert. Auch die übrigen Erinnerungszeichen machen diesen zentralen Umstand nicht eindeutig.",
+          "„als wäre sie nur kurz aufgestanden, um nach dem Braten zu sehen“: Konventionelles Abwesenheitsbild, das die ordentlich abgelegte Brille mit einer austauschbaren häuslichen Erinnerung ausdeutet.",
+          "„das Haus hatte verlernt, Geräusche zu schlucken“ und „Die Stille hier hinten […] hatte ein eigenes Gewicht“: Zwei vertraute Personifikations- beziehungsweise Gewichtsmetaphern ersetzen eine individuellere akustische Beobachtung.",
+          "„Überall lagen die geometrischen Schatten von Dingen, die nicht mehr da waren.“: Gemeint sind offenbar zurückgebliebene Abdrücke oder unterschiedlich verblichene Flächen. „Schatten“ und „lagen“ verwischen diese konkrete Wahrnehmung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "E",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2729,
+    "out": 1922,
+    "thinking": 741
+  },
+  "costUsd": 0.024678
+}

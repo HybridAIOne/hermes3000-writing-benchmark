@@ -1,0 +1,103 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "am Freitag im Teammeeting genervt abgebissen (unidiomatisch/falsch konstruiert: intransitives 'abbeißen' existiert in dieser Bedeutung nicht, gemeint ist 'jemanden abbeißen' oder 'abbügeln')",
+          "Aus einer kleinen Unpässlichkeit wird ein Muster (schiefe Wortwahl: 'Unpässlichkeit' bezeichnet leichtes körperliches Unwohlsein, kein Fehlverhalten im Job)",
+          "dass eine Beförderung diesmal nicht klappt (Verstoß gegen Buchkonzept 'Führen ohne Titel': Wer ohne Titel führt, entscheidet nicht über Beförderungen)",
+          "Schreibe den Einstiegsabsatz (Aufgabenverstoß: Statt eines Einstiegsabsatzes wurden vier separate Absätze geliefert)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "Gleich klopft es ... Du stehst auf, gehst zur Tür und machst auf. (Logikbruch in der Szene: Es hat noch gar nicht geklopft, dennoch wird am Ende die Tür geöffnet)",
+          "haben dir am Flur gesagt (Regionalsprache/Süddeutsch; standardsprachlich korrekt: 'auf dem Flur')",
+          "der Bildschirm ist schon dunkel (unklares Bild: Ist es schon Feierabend oder ist nur der Bildschirmschoner an?)",
+          "Einstiegsabsatz des Kapitels (Aufgabenverstoß: Der Text bleibt komplett in der fiktiven Szene stecken und leistet keinerlei Überleitung zum Sachthema des Kapitels)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Markus weiß womöglich nicht einmal, was du ihm vorwirfst. (leichte perspektivische Unschärfe: Den Vorwurf erhebt bislang die Kollegin Jana, noch nicht das angesprochene Du)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "E",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2792,
+    "out": 727,
+    "thinking": 0
+  },
+  "costUsd": 0.012854
+}

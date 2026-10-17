@@ -1,0 +1,113 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Du findest einen guten Einstieg“ bleibt als Auftaktbeschreibung etwas unbestimmt; anders als die folgenden Kapitel benennt der Satz noch keine konkrete Handlung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Streit im Team“ in Kapitel 7 und „Streit mit Kunden“ in Kapitel 9: Die Trennung zwischen Gesprächsführung und Krisenbewältigung bleibt unscharf; beide Kapitel beanspruchen die Bearbeitung eskalierter Konflikte.",
+          "„wofür du verantwortlich bist“ in Kapitel 2 und „wo deine Grenzen liegen“ in Kapitel 10: Die Abgrenzung zwischen Rollenklärung und persönlicher Haltung müsste deutlicher werden.",
+          "„was Führung wirklich braucht“ ist eine pauschale Wendung; konkrete Führungsaufgaben würden den Nutzen der reservierten Zeit anschaulicher machen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„obwohl du formal keine Anweisungen geben darfst“ setzt fehlende Weisungsbefugnis voraus. Die Aufgabe beschreibt jedoch Teamleiter ohne Führungsausbildung, nicht ausdrücklich Führungskräfte ohne Befugnisse.",
+          "„wie du nach Feierabend wirklich abschaltest und wie dein nächster Schritt aussieht“ verlagert das Schlusskapitel auf Erholung und Karriereplanung; die geforderte Entwicklung einer eigenen Haltung wird nicht klar eingelöst.",
+          "„wie du dich aus dem Tagesgeschäft zurückziehst“ setzt für Teamleiter mittelständischer Firmen einen zu weitgehenden Rückzug aus der operativen Arbeit voraus.",
+          "„vom geschätzten Kollegen zum Respektierten“ ist eine unidiomatisch wirkende, unpräzise Gegenüberstellung: Geschätzt zu werden und respektiert zu werden sind keine unterschiedlichen Rollen.",
+          "„ohne dass die Stimmung kippt“ und „damit niemand innerlich kündigt“ versprechen Wirkungen, die auch gute Gesprächsführung und Teamentwicklung nicht sicherstellen können."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Loslassen lernen“ steht vor „Sag klar, was du willst“: Für einen konsequent aufbauenden Lernweg sollten Ziele und Erwartungen vor dem Delegieren geklärt werden.",
+          "„Warum du deine alte Facharbeit nicht mehr selbst erledigen kannst“ ist zu absolut. Gerade in mittelständischen Firmen bleibt Facharbeit häufig Teil der Teamleiterrolle.",
+          "„warum das Verhältnis zu deinen früheren Kollegen nicht bleiben kann, wie es war“ legt die Veränderung pauschal fest, statt konkret zwischen veränderter Verantwortung und weiterhin möglicher persönlicher Nähe zu unterscheiden."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Der erste Tag“ mit „was du in den ersten Wochen tust“ und „Vom Kollegen zum Vorgesetzten“ behandeln beide den Einstieg in die Rolle; die Zuständigkeiten der Kapitel 1 und 3 sind nicht ausreichend getrennt.",
+          "„ohne sie zu verteidigen oder zu verraten“ bleibt inhaltlich unklar: Gemeint sind offenbar Entscheidungen der Geschäftsführung, doch was deren „Verraten“ bedeutet und wie es sich vom Erklären unterscheidet, wird nicht deutlich.",
+          "„wenn du plötzlich über ihnen stehst“ beschreibt den Rollenwechsel unnötig hierarchisch und verengt Führung auf eine Überordnung gegenüber bisherigen Kollegen.",
+          "„Feedback als Gewohnheit“ verwendet einen vermeidbaren englischen Fachausdruck; „Rückmeldung im Alltag“ wäre näher an der geforderten schlichten Sprache.",
+          "„statt zu schlichten, bis niemand mehr etwas sagt“ ist eine zugespitzte, aber wenig klare Gegenüberstellung: Woran hilfreiche Konfliktklärung statt bloßer Ruhigstellung erkennbar wird, bleibt offen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "B",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2817,
+    "out": 1483,
+    "thinking": 439
+  },
+  "costUsd": 0.020464
+}

@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "# Führen ohne Titel\n## Gliederung\n\n1. **Dein erster Tag: Klär, wofür du zuständig bist**  \n   Du klärst mit deinem Vorgesetzten, was von dir erwartet wird, was du selbst entscheiden darfst und wofür du Rückendeckung brauchst.\n\n2. **Gestern Kollege, heute Teamleiter**  \n   Du findest deinen Platz im Team, indem du zuhörst, den Rollenwechsel offen ansprichst und Nähe nicht mit Sonderbehandlung verwechselst.\n\n3. **Nicht alles kann zuerst fertig sein**  \n   Du übersetzt die Anforderungen an dein Team in klare Prioritäten und machst sichtbar, was mit der verfügbaren Zeit liegen bleiben muss.\n\n4. **Aufgaben abgeben, ohne sie zurückzuholen**  \n   Du überträgst Aufgaben mit einem klaren Ergebnis, passenden Entscheidungsräumen und vereinbarten Kontrollpunkten, statt jeden Handgriff vorzugeben.\n\n5. **Zusammenarbeit braucht klare Absprachen**  \n   Du sorgst dafür, dass Informationen ankommen, Übergaben funktionieren und Besprechungen zu verbindlichen Vereinbarungen führen.\n\n6. **Schwierige Gespräche nicht länger aufschieben**  \n   Du sprichst Fehler, unzuverlässiges Verhalten und Konflikte anhand konkreter Beobachtungen an und vereinbarst, was sich bis wann ändern muss.\n\n7. **Dein Team soll auch ohne dich weiterkommen**  \n   Du erkennst, wer welche Fähigkeiten ausbauen muss, und schaffst im Arbeitsalltag passende Gelegenheiten zum Üben und Lernen.\n\n8. **Du musst nicht ständig verfügbar sein**  \n   Du schützt deine eigene Arbeitsfähigkeit, indem du Erreichbarkeit begrenzt, Unterstützung einforderst und aufhörst, jedes Problem selbst zu lösen.\n\n9. **Wofür du als Führungskraft stehen willst**  \n   Du entwickelst aus deinen Erfahrungen eigene Maßstäbe dafür, wie du mit Menschen, Verantwortung und Fehlern umgehen willst – gerade dann, wenn es unbequem wird.",
+  "usage": {
+    "in": 123,
+    "out": 669,
+    "thinking": 238
+  },
+  "costUsd": 0.006936,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 19352,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:20:29.639Z"
+}

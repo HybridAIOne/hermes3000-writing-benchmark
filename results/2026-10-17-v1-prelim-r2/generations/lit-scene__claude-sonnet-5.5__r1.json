@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "Der Schlüssel lag nicht unter dem Blumentopf, wie der Notar gesagt hatte, denn es gab keinen Blumentopf mehr. Marlene fand ihn in der Regenrinne neben der Tür, schwarz von Moder. Er ließ sich erst drehen, als sie ihn mit dem Daumenballen gegen den Widerstand drückte, so wie man es ihr als Kind beigebracht hatte. Ihre Hand wusste das noch. Sie nahm es zur Kenntnis wie eine Auskunft über eine fremde Person.\n\nDrinnen war die Luft kälter als draußen. Es roch nach Kernseife, nach feuchtem Putz und darunter nach etwas Süßlichem, das sie nicht gleich benennen konnte. Äpfel vielleicht, irgendwo vergessen. Sie ließ die Tür offen. Das Licht fiel in einem schmalen Streifen über die Fliesen und endete vor der Küchentür, als wollte es nicht weiter.\n\nZwanzig Jahre. Sie hatte erwartet, dass alles kleiner sein würde. Es war nicht kleiner. Der Flur hatte dieselbe Länge, die Garderobe dieselben drei Haken. An einem hing ein Kopftuch, braun-beige, das sie nie an ihrer Mutter gesehen hatte.\n\nIn der Küche tropfte der Wasserhahn. Das Geräusch war gedämpft, ein weiches, gleichmäßiges Pochen, und es dauerte einen Moment, bis sie begriff, warum: Im Spülbecken, genau unter dem Hahn, lag ein Holzlöffel. Er war dunkel vom Wasser, dort, wo die Tropfen ihn trafen, fast schwarz und aufgequollen. Jemand hatte ihn so hingelegt, damit man das Tropfen nicht hörte. Nachts, dachte sie. Jemand hatte nachts in dieser Küche gestanden, in Socken, wach, und das Geräusch nicht ertragen, aber auch nichts dagegen unternommen, was man hätte unternehmen können. Eine Dichtung kostete achtzig Cent.\n\nSie hätte den Hahn zudrehen können. Bestimmt ließ er sich noch zudrehen. Marlene stellte stattdessen ihre Tasche auf den Tisch, setzte sich und hörte zu, wie es nicht zu hören war.",
+  "usage": {
+    "in": 149,
+    "out": 2230,
+    "thinking": 1371
+  },
+  "costUsd": 0.022598,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 16661,
+  "meta": [],
+  "at": "2026-10-17T17:20:06.327Z"
+}

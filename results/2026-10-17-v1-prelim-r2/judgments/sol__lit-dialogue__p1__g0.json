@@ -1,0 +1,117 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Du hast damals nicht angerufen.“ / „Du auch nicht.“: Hier wird ein gegenseitiger Vorwurf ausdrücklich verhandelt; der Konflikt bleibt nicht konsequent unausgesprochen.",
+          "„Es tut mir leid.“ / „Das reicht nicht.“ / „Was soll ich denn sagen?“: Die Szene wechselt vom Subtext in ein konventionelles Aussöhnungsgespräch.",
+          "„Termine. Klar.“ / „Ach ja. Dem Urlaub.“ / „Wie du meinst.“: Wiederholt derselbe Mechanismus aus Gesprächsangebot und abweisender Kurzantwort; die Stimmen bleiben wenig individuell.",
+          "„Ein Windstoß. Blätter fallen auf die Bank.“: Austauschbare atmosphärische Untermalung ohne zusätzliche szenische Funktion.",
+          "„Ich war...“ / „Vielleicht hätten wir...“: Vor den Auslassungspunkten fehlt jeweils das Leerzeichen, da keine Wörter abgebrochen werden."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ich habe oft angefangen, dir zu schreiben.“ / „Meine Nummer ist die gleiche geblieben.“: Die ausgebliebene Kontaktaufnahme wird recht ausdrücklich besprochen; die Szene verlässt hier teilweise ihre sonst überzeugende indirekte Konfliktführung.",
+          "„Ein Kaffee ist ein Anfang.“: Der Satz deutet die symbolische Bedeutung des Kaffees aus, die durch das Ablegen der Jacke bereits anschaulich geworden ist.",
+          "„Ein kurzes Lächeln, das sofort wieder verschwindet.“: Geläufige Ausdrucksschablone; weniger präzise als die stärkeren körperlichen Handlungen mit Jacke und Tasse."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ruf mich an.“ / „Du hast meine Nummer nicht mehr.“: Die Antwort passt logisch nicht zur Aufforderung. Zum Anrufen braucht Markus Thomas’ Nummer, nicht umgekehrt.",
+          "„Manche Dinge sehen von außen gut aus und innen ist alles verfault.“: Die Hecke wird zur demonstrativ ausformulierten Konfliktmetapher; der Subtext wird dem Leser erklärt.",
+          "„Es fängt an zu regnen. (er sieht nach oben, es regnet nicht)“ / „Der Hund.“ / „Du hast keinen Hund.“: Zwei unmittelbar aufeinanderfolgende, offensichtlich falsche Ausreden wirken konstruiert und verschieben die Szene ins demonstrativ Absurde.",
+          "„Vorbeigefahren.“ / „In der Gegend.“ / „Ja. Das stimmt ja auch.“: Das wiederholte Zurückspiegeln einzelner Formulierungen wird zur erkennbaren Dialogmasche.",
+          "„Dann zieht er Thomas' Glas zu sich herüber und lässt es stehen.“: Bedeutungsheischendes Schlussbild, dessen konkrete Motivation undeutlich bleibt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Martin steht auf.“: Später trinkt Martin und bestellt weiteren Kuchen, ohne dass sein erneutes Hinsetzen markiert wird. Die anfänglich ausdrücklich gesetzte Körperposition bleibt szenisch ungeklärt.",
+          "„Martin zieht die Hand zurück.“: Eine vorausgehende Handbewegung fehlt; die offenbar abgebrochene Hilfestellung beim Holen der Milch muss nachträglich erschlossen werden.",
+          "„Den Henkel haben sie geklebt.“ / „Ich hätte gedacht, die werfen so was weg.“: Die Reparaturmetapher ist etwas deutlich arrangiert. Die übrigen Alltagsdetails transportieren die Beziehungsspannung unauffälliger."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 4,
+        "aufgabe": 7,
+        "fehler": [
+          "„Der Tee ist noch gar nicht da.“: Eine Bestellung wurde weder gesprochen noch durch eine Regieanweisung angezeigt. Die Schlusswendung setzt einen nicht etablierten Handlungsschritt voraus.",
+          "„Menschen ändern sich. Manchmal schneller, als man denkt.“ / „Und manchmal bleiben sie genau gleich, nur die Umstände lassen es nicht mehr zu.“: Austauschbare Sentenzen ersetzen individuelle Figurenrede; insbesondere bleibt unklar, was die Umstände nicht mehr zulassen.",
+          "„Vor allem nichts aufwärmen, was besser kalt bleibt.“: Auffällig zugespitzte Redewendung, die eher nach formulierter Pointe als nach einem tastenden Gespräch klingt.",
+          "„das Lächeln erreicht seine Augen nicht“ / „die Stimme wird hart“ / „weicht Leos Blick aus“: Gehäufte Standardsignale erklären die Spannung, statt sie überwiegend aus dem Dialog entstehen zu lassen.",
+          "„Er fragt nicht mehr nach dir. Keiner tut das mehr.“ / „Sehr rücksichtsvoll. Auf einmal.“: Die offene Feindseligkeit verdrängt die geforderte unterschwellige Konfliktführung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "C",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2744,
+    "out": 1757,
+    "thinking": 512
+  },
+  "costUsd": 0.023058
+}

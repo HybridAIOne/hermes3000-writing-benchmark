@@ -1,0 +1,20 @@
+{
+  "task": "nf-from-source",
+  "model": "claude-sonnet-5.5",
+  "run": 3,
+  "text": "**Eine Fähre, die ihren Nutzern gehört: die Fährgenossenschaft Hitzacker**\n\nWie eine Genossenschaft funktioniert, lässt sich in Hitzacker an der Elbe gut beobachten. Dort ist der Fluss 212 Meter breit. Eine Überfahrt mit der Fähre dauert bei normalem Wasserstand sieben Minuten. Die Fähre hängt an einem Führungsseil. Bis 1978 bewegte allein die Strömung sie über den Fluss, heute treibt ein 85-kW-Dieselmotor sie an.\n\nDie Genossenschaft entstand 1953 aus einer Notlage. Der Landkreis hatte den Betrieb der Seilfähre eingestellt. Daraufhin gründeten 41 Landwirte und Händler von beiden Elbufern die Fährgenossenschaft Hitzacker eG. Sie hatten ein gemeinsames Interesse: Sie wollten, dass die Fähre weiterfährt. Genau dafür ist eine Genossenschaft gedacht. Ihr Zweck ist nicht, möglichst viel Gewinn zu erzielen, sondern ihre Mitglieder zu fördern.\n\nHeute hat die Genossenschaft 312 Mitglieder. Wer beitreten will, erwirbt mindestens einen Anteil zu 250 Euro. Mitbestimmen darf jedes Mitglied in der Generalversammlung, und zwar mit genau einer Stimme, egal wie viele Anteile es hält. Gewicht hat also die Person, nicht das Kapital.\n\nAuch mit Überschüssen geht die Genossenschaft anders um als ein gewinnorientiertes Unternehmen. Sie werden nicht ausgeschüttet, sondern in eine Rücklage für die Erneuerung der Fähre eingezahlt. Diese Rücklage soll bis 2031 ausreichen, um einen Elektroantrieb einzubauen.\n\nDie Zahlen zeigen, dass das Modell trägt. 2024 lag der Umsatz bei 186.000 Euro. 71 Prozent davon stammten aus Fahrkartenverkäufen, 29 Prozent aus einem Zuschuss der Gemeinde. Rund 64.000 Personen nutzen die Fähre pro Jahr, im Sommer vor allem Radfahrer auf dem Elberadweg.\n\nDie Rechtsform passt, weil die Fähre für die Region ein Gemeinschaftsgut ist, das nicht von einem einzelnen Eigentümer abhängen soll. Die Menschen, die sie brauchen, betreiben sie selbst, entscheiden gleichberechtigt und stecken Überschüsse in den Fortbestand der Fähre.",
+  "usage": {
+    "in": 780,
+    "out": 1262,
+    "thinking": 287
+  },
+  "costUsd": 0.01418,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 8870,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:49:58.276Z"
+}

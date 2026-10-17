@@ -1,0 +1,109 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "Stil: „I know where they are.“ Die auffällig ausweichende Antwort wirkt stärker auf die Erzeugung eines Rätsels zugeschnitten als auf ein natürliches Gespräch.",
+          "Stil: „his shoes were dry, though water had collected beneath the hem of his coat“ setzt ein zusätzliches, etwas arrangiert wirkendes Unheimlichkeitssignal. Die zurückhaltendere Spannung durch Gespräch und Gesten trägt bereits."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "Stil: „searching for the geometry of someone she had intubated“ ist bildlich unscharf. Gemeint ist das Wiedererkennen anhand körperlicher Merkmale; „geometry“ macht diesen einfachen Vorgang unnötig abstrakt.",
+          "Stil: „a half-circle of condensation“ ist als Spur einer auf Holz ruhenden Hand materiell nicht unmittelbar nachvollziehbar. Das Schlussbild verlangt dadurch Aufmerksamkeit für seine Konstruktion statt für seine Wirkung.",
+          "Stil: „though it hadn't rained since Tuesday“ markiert das Rätselhafte des feuchten Mantels ausdrücklich. Zusammen mit dem Wissen um ihren Stationswechsel wird die Fremdheit stärker ausgestellt als nötig."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Aufgabe: „locked after midnight“ ist die einzige zeitliche Eingrenzung. Dass die Begegnung um vier Uhr morgens stattfindet, wird nicht etabliert.",
+          "Stil: „Not the way you mean.“ Die Formel ist ein geläufiges Mittel künstlicher Verrätselung und schwächt den eigenständigen Ton.",
+          "Stil: „The false dawn lay across his folded hands“ lädt die zuvor konkret beschriebene künstliche Beleuchtung nachträglich symbolisch auf. Zusammen mit „permanent, patient amber“ und „as though it were warm“ wird der Schluss merklich bedeutungsschwer.",
+          "Stil: „They were dry, though it had been raining since dusk.“ Das demonstrative Unheimlichkeitssignal wiederholt die bereits durch Namenskenntnis und ausweichende Antwort hergestellte Wirkung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "Stil: „the ordinary machinery of people keeping one another alive“ erklärt und erhöht die zuvor überzeugend konkret gezeigte Krankenhausarbeit. Die abstrakte Würdigung durchbricht die sonstige Zurückhaltung.",
+          "Stil: „The lilies leaned toward the chapel window, their pale heads caught in the blue wash“ verwendet vertraute poetische Versatzstücke. Das anschließende Zittern des Pappbechers ist das präzisere, weniger dekorative Schlussmotiv."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "Stil: „because the vending machine outside it took crumpled bills without arguing“ ist pointiert, begründet aber zunächst nur den Gang zum Automaten, nicht Minas regelmäßigen Aufenthalt in der Kapelle. Der Einstieg bevorzugt die schöne Formulierung gegenüber einer präzisen Motivation.",
+          "Stil: „as though it were still holding something small“ versieht das bereits ausdrucksstarke Bild des leeren Handschuhs mit einer zusätzlichen Verlustsymbolik. Ohne diesen deutenden Vergleich wäre der Schluss zurückhaltender."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "D",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2155,
+    "out": 1968,
+    "thinking": 1025
+  },
+  "costUsd": 0.02399
+}

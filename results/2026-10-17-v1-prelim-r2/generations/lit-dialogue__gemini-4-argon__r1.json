@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "text": "*Ein schwach beleuchtetes Café. LEO sitzt am Tisch, rührt in einer leeren Tasse. HANNES tritt an den Tisch, den Mantel noch zugeknöpft.*\n\nHANNES:\nIst hier noch frei?\n\nLEO:\n*(blickt auf, das Lächeln erreicht seine Augen nicht)*\nFür dich immer. Setz dich.\n\nHANNES:\n*(zieht den Stuhl zurück, das Kratzen ist laut)*\nIch wusste nicht, ob du noch hierherkommst. Nach allem.\n\nLEO:\nGewohnheiten legt man schwer ab. Manche zumindest. Du hast dir die Haare schneiden lassen.\n\nHANNES:\nVor einem Monat. Oder zwei. Es ist eine Weile her.\n\nLEO:\nVier Monate. Aber wer zählt schon. *(Pause)* Willst du einen Kaffee? Schwarz, zwei Zucker?\n\nHANNES:\n*(zuckt kaum merklich zusammen)*\nIch trinke jetzt Tee. Mein Magen macht das nicht mehr mit. Zu viel Säure.\n\nLEO:\nVerstehe. Menschen ändern sich. Manchmal schneller, als man denkt.\n\nHANNES:\n*(weicht Leos Blick aus, schaut aus dem Fenster)*\nUnd manchmal bleiben sie genau gleich, nur die Umstände lassen es nicht mehr zu. Wie geht es deinem Bruder?\n\nLEO:\n*(die Stimme wird hart)*\nIhm geht es gut. Er fragt nicht mehr nach dir. Keiner tut das mehr.\n\n*Stille. Hannes knetet seine Hände unter dem Tisch.*\n\nHANNES:\nIch habe deine Kiste im Flur abgestellt. Die mit den alten Platten.\n\nLEO:\nIch habe sie gesehen. Du hast nicht geklingelt.\n\nHANNES:\nEs war spät. Ich wollte niemanden wecken. Vor allem nichts aufwärmen, was besser kalt bleibt.\n\nLEO:\n*(nickt langsam, schiebt seine Tasse beiseite)*\nSehr rücksichtsvoll. Auf einmal.\n\nHANNES:\n*(atmet tief durch, greift nach seinem Schal)*\nVielleicht war das eine schlechte Idee, Leo.\n\nLEO:\n*(schaut ihn lange an)*\nDer Tee ist noch gar nicht da. Aber ja. Vielleicht hast du recht.",
+  "usage": {
+    "in": 93,
+    "out": 487,
+    "thinking": 0
+  },
+  "costUsd": 0.005056,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 9759,
+  "meta": [],
+  "at": "2026-10-17T17:18:49.598Z"
+}

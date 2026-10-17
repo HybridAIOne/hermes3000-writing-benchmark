@@ -1,0 +1,77 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "Es schmeckte scharf und unverkennbar nach bitteren Mandeln. (Massiver Logikbruch und billiges Krimi-Klischee: Leitungswasser, das nach zwanzig Jahren Stillstand plötzlich nach Zyanid schmeckt, sprengt den literarischen Tonfall komplett.)",
+          "dem süßlichen Verfall von Äpfeln, die irgendwo im Keller vergessen worden waren (Sachlicher Logikbruch: Nach zwanzig Jahren sind Äpfel längst vertrocknet und verrottet, sie verströmen keinen süßlichen Verfallsgeruch mehr.)",
+          "Als das Wasser schließlich klar wurde (Realitätsfernes Detail: In einem seit zwanzig Jahren unbewohnten Haus ist das Wasser abgestellt; selbst wenn nicht, wären Dichtungen und Leitungen nach zwei Jahrzehnten ohne Heizung durch Frost längst geplatzt.)",
+          "Es roch nach der Abwesenheit von allem. (Stilistisch abgedroschene, pseudo-tiefsinnige Phrase.)",
+          "formlos wie eine abgelegte Haut (Abgegriffener Vergleich.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "und die Küche sich mit einer Wärme füllte, die nicht von der Heizung kam. (Gleich doppelt problematisch: Erstens verstößt diese sentimentale Floskel gegen das Kitsch-Verbot der Aufgabe, zweitens entsteht ein schiefer Rückbezug von 'sich' auf 'sie' statt auf 'die Küche'.)",
+          "als jemand sie zuletzt angehalten hatte. (Unplausibles Detail: Eine Wanduhr bleibt stehen, weil die Batterie leer ist oder das Uhrwerk abläuft, man hält sie nicht aktiv an.)",
+          "damit das graue Licht eines Novembernachmittags hereinfiel und sich auf den Fliesen zu flachen Pfützen sammelte. (Überstrapaziertes Bild von Lichtpfützen.)",
+          "Wer hätte das auch tun sollen. (Fehlende Fragezeichensetzung bei rhetorischer Frage wirkt hier eher nachlässig als stilistisch motiviert.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Im Flur lag ein Werbeprospekt auf dem Rücken. (Schiefe Metapher: Ein Prospekt hat keinen Rücken wie ein Buch oder ein Käfer.)",
+          "Sie öffnete den Schrank unter der Spüle. (Etwas unmotivierte Handlung: Warum greift sie sofort unter die Spüle und nimmt ausgerechnet eine alte Seife in die Hand, noch bevor sie richtig im Raum angekommen ist?)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2156,
+    "out": 751,
+    "thinking": 0
+  },
+  "costUsd": 0.011822
+}

@@ -1,0 +1,20 @@
+{
+  "task": "ed-feedback",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "**Lektoratsanmerkungen**\n\n1. „Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.“ – Logikfehler: Die Rampe muss zum Einsteigen heruntergelassen werden, danach müsste sie sie hochziehen.\n\n2. „Ilse stellt den Motor an“ – Tempusbruch: Präsens statt des sonst durchgehaltenen Präteritums („stellte“).\n\n3. „Ich hatte diesen Moment immer gemocht, dachte sie“ – Perspektivbruch: Der Gedanke steht in der Ich-Form, obwohl die Erzählsituation personal in der dritten Person ist; entweder indirekte Rede („sie hatte diesen Moment immer gemocht“) oder klar markierte direkte Gedankenrede.\n\n4. „dachte sie, wenn die Fähre sich vom Ufer löst“ – Zusätzlicher Tempusbruch im Nebensatz („löst“ statt „löste“).\n\n5. „Der Nebel lag dicht … Der Nebel war so dicht … Der Nebel schluckte …“ – Dreifache Wiederholung des Subjekts in aufeinanderfolgenden Sätzen wirkt stilistisch holprig und redundant.\n\n6. „Der Nebel war so dicht, dass sie das andere Ufer nicht sah“ vs. „Am Anleger drüben wartete schon der Bäcker … und hupte zweimal“ – Widerspruch: Wenn Ilse das andere Ufer nicht sehen kann, kann sie auch den Bäcker mit seinem Pferdewagen dort nicht sehen (das Hupen wäre hörbar, das Warten nicht sichtbar).\n\n7. „Der Mann im grauen Mantel blieb neben dem Steuerhaus stehen“ / „Der Junge mit den Kopfhörern …“ – Anzahlfehler: Eingangs werden drei Fahrgäste genannt, aufgelistet werden jedoch vier Personen (Frau mit Fahrrad, Mann im Mantel, Junge mit Kopfhörern, alte Frau Lüders).",
+  "usage": {
+    "in": 451,
+    "out": 671,
+    "thinking": 154
+  },
+  "costUsd": 0.00814704,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "InferenceNet",
+  "latencyMs": 6741,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:19:14.833Z"
+}

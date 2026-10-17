@@ -1,0 +1,109 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Nora’s hand went instinctively to her chest, covering the laminated badge clipped to her scrubs.\" (Abgedroschenes Genre-Klischee)",
+          "\"folded loosely over a blue visitor’s pass that lacked a printed destination.\" (Perspektivische Unlogik: Da sie hinter ihm an der Tür steht und er in der dritten Reihe sitzt, kann sie dieses winzige Detail in seinen Händen im Dämmerlicht unmöglich erkennen)",
+          "\"though it hadn't rained since her shift began at seven.\" (Unstimmigkeit zu \"a single melted gray slush-print\" am Ende: Nach neun Stunden ohne Niederschlag trägt man keinen frisch schmelzenden Schneematsch mehr an der Sohle herein)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "\"as if he'd been saying it silently for some time.\" (Minimal konstruiert wirkender Vergleich, sonst makellos)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "\"In her pocket, her fingers found the comb. A long grey hair was still wound through its teeth.\" (Massiver Logikbruch und Ekel-Moment: Eine Krankenschwester trägt monatelang von März bis zur Zeitumstellung im Herbst/Frühjahr das Haar einer Verstorbenen in ihrem Kamm in der Kitteltasche herum; zudem ist das eine klassische Enthüllungs-Pointe statt eines reinen Bildes)",
+          "\"Bed fourteen. March, I think. You did my mother's hair before they came for her.\" (Nimmt der Szene das Geforderte: Der Fremde ist kein Fremder mehr, alles wird sofort sentimental aufgelöst)",
+          "\"Older, clean-shaven, the kind of tidy that takes effort at that hour.\" (Perspektivischer Fehler: Sie steht hinter ihm und er dreht sich im nächsten Satz explizit nicht um – sie kann nicht sehen, dass er glattrasiert ist)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"One wheel struck the same fault in the flooring twice, then passed.\" (Physikalisch unpräzise: Ein rollender Wagen trifft dieselbe Fuge mit zwei verschiedenen Rädern nacheinander, nicht mit demselben Rad zweimal)",
+          "\"She held the packet out. He took one without touching her hand.\" (Psychologisch wenig glaubwürdig: Sie teilt völlig unmotiviert ihr Essen mit einem unheimlichen Fremden)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "\"where the corridor moved in pale strips.\" (Sinnleere Pseudopoesie: Ein Flur bewegt sich nicht in Streifen)",
+          "\"On the narrow table, a paper cup held three wooden stirrers. Someone had arranged them parallel.\" (Unlogik: In einem Becher stehende Stäbchen lassen sich nicht sinnvoll als \"parallel arrangiert\" beschreiben)",
+          "\"When she stepped into the corridor, the chapel window held her reflection over his: her white shoes, his dark coat, the three stirrers lined up on the table between them.\" (Geometrischer Unsinn: Ein kleines quadratisches Türfenster auf Augenhöhe kann nicht gleichzeitig ihre Schuhe auf dem Flurboden und Stäbchen in einem Becher reflektieren)",
+          "\"At 4:06, Mara left the ward\" (Steifer, protokollartiger Einstieg, der die Vorgabe \"at 4 a.m.\" unnötig pedantisch abwandelt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "A",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2609,
+    "out": 1059,
+    "thinking": 0
+  },
+  "costUsd": 0.015808
+}

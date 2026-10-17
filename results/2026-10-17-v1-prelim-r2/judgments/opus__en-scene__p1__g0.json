@@ -1,0 +1,118 @@
+{
+  "task": "en-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"The chapel was empty at four a.m.\" – a few lines later a man is sitting there; this is a logic break.",
+          "\"It wasn't a question.\" – a stock cliché, which the brief explicitly rules out.",
+          "\"The silence felt different now, thinner.\" – this tells the reader instead of showing.",
+          "\"It was just a plastic rectangle with a photo and a title.\" – a badge with no name is barely plausible, and the sentence is laboured.",
+          "At roughly 180 words the text falls well short of the requested 250; the stain image at the end feels heavy with symbolism."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "\"She stood and smoothed the front of her trousers.\" – a slightly stock gesture.",
+          "\"Neither of them looked at the cup.\" – a touch over-pointed and deliberate.",
+          "\"He had placed both shoes squarely beneath his knees.\" – a slightly awkward image: the feet are in the shoes."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "\"the third-floor air tasted like copper and bleach\" – a well-worn hospital cliché.",
+          "\"Hospital policy dictated she ask\" – explanatory and bureaucratic telling.",
+          "\"She mentally ran through the charts\" – an explaining interior report.",
+          "\"He couldn't have read it.\" – spells out the mystery for the reader.",
+          "At about 300 words the text runs clearly over length; the bruise and the shift-swap knowledge overload the scene with clues."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"She had seen people sit like that a thousand times.\" – a cliché.",
+          "\"She had not told him her name. She had not said anything at all.\" – redundant underlining of the point.",
+          "\"Not yet, maybe.\" / \"I wanted to see the room first.\" – edges close to an ominous revelation.",
+          "\"A crow lifted off the top level\" – the closing image is somewhat generic and switches location.",
+          "At about 310 words the text is over length."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"she heard herself ask\" – a stock phrase.",
+          "\"He shook his head, not unkindly.\" – a well-worn formula.",
+          "\"watched it as though it were a fire\" – the closing comparison is slightly too knowing.",
+          "\"as if he'd been handed something and then asked to give it back\" – an overwrought simile."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "D",
+      "C",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 3570,
+    "out": 1663,
+    "thinking": 682
+  },
+  "costUsd": 0.04754
+}

@@ -1,0 +1,110 @@
+{
+  "task": "nf-from-source",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "gründeten 1953 41 Landwirte (Aufeinanderprallen zweier Zahlen wirkt im Satzbau unschön)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "oder vom Tourismus profitieren (Spekulation über die Motive der heutigen Mitglieder, die nicht durch das Quellmaterial gedeckt ist)",
+          "unverzichtbare Infrastruktur (Wertung/Übertreibung, die nicht aus der Quelle hervorgeht)"
+        ],
+        "unsupported": [
+          "Die Mitglieder, die selbst auf die Überfahrt angewiesen sind oder vom Tourismus profitieren"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "Wie eine Genossenschaft funktioniert und warum sie als passende Rechtsform genutzt wird, zeigt das Beispiel... (Sehr schablonenhafter Einstieg, der die Aufgabenstellung fast wörtlich wiedergibt)",
+          "Die Fähre selbst hängt an einem Führungsseil. (Strukturell unpassend im letzten Absatz zwischen Fahrgastzahlen und Rücklagen eingeschoben)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "bewegte allein die Strömung sie voran ('voranbewegen' ist unidiomatisch bei einer Querung am Seil)",
+          "**Eine Fähre in Gemeinschaftsbesitz: die Fährgenossenschaft Hitzacker** (Ungefragte Überschrift mit Markdown-Formatierung; gefordert war ein Abschnitt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "gründeten 1953 41 Landwirte (Zwei Zahlen direkt hintereinander)",
+          "Für diese Fähre ist die Genossenschaft eine passende Rechtsform, weil... Die Fähre hängt an einem Führungsseil und wird heute von einem 85-kW-Dieselmotor angetrieben (Vollkommener logischer Bruch: Die technischen Daten werden zusammenhanglos in die Begründung der Rechtsform geworfen)",
+          "Die Mitglieder finanzieren über Anteile mit, und Überschüsse bleiben als Rücklage für die Erneuerung der Fähre erhalten. (Redundante Wiederholung aus dem ersten Absatz)"
+        ],
+        "unsupported": [
+          "weil viele Menschen aus der Region den Betrieb gemeinsam tragen (Das Quellmaterial nennt die Herkunft nur bei den 41 Gründern von 1953, nicht bei den heutigen 312 Mitgliedern)"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "C",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3598,
+    "out": 805,
+    "thinking": 0
+  },
+  "costUsd": 0.015246
+}

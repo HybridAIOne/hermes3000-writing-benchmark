@@ -1,0 +1,108 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„At four the hospital goes quiet … until she could breathe.“: Die Szene liegt mit rund 360 Wörtern deutlich über dem Richtwert von etwa 250; insbesondere die nachträgliche Familiengeschichte erweitert sie unnötig.",
+          "„Maren felt the words land somewhere under her ribs and stay there.“: Konventionelle körperliche Gefühlsmetapher; die emotionale Wirkung wird behauptet, statt aus Verhalten und Wahrnehmung hervorzugehen.",
+          "„She had been holding that hand for her own reasons, and she had never once asked who else had come to sit with her.“: Erklärender Rückblick, der die zuvor zurückhaltende Begegnung psychologisch ausdeutet.",
+          "„the way you'd carry a letter you didn't want to read in front of anyone“: Der ausführliche Vergleich überfrachtet die kleine Bewegung mit einer zusätzlichen, wenig anschaulichen Bedeutungsebene.",
+          "„watched it until she could breathe“: Das Schlussbild wird durch eine geläufige Formel emotional aufgelöst, statt für sich stehen zu dürfen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„made no sound on the linoleum, only a faint tackiness left over from the third-floor mop bucket“: Die elliptische Anschlusskonstruktion ist semantisch unsauber: Die Sohlen erzeugen weder die Klebrigkeit noch ist diese eine Alternative zum Geräusch.",
+          "„since her shift began at seven“: Der Schichtbeginn wird genannt, die geforderte Uhrzeit der Begegnung um vier Uhr jedoch nicht etabliert.",
+          "„the font was twelve-point, illegible from twenty feet away“: Die technische Vermessung wirkt wie eine Beweisführung gegen das Ablesen des Namensschilds und unterbricht die unmittelbare Wahrnehmung der Figur.",
+          "„Miller worked pediatric oncology, two buildings over, and had retired in November.“: Die nachgeschobene Personalinformation stellt die Unheimlichkeit demonstrativ aus; zusammen mit dem ziellosen Besucherausweis und dem feuchten Mantel häufen sich die arrangierten Rätselsignale."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Mara watched it spread beneath the pew, thin as a coin.“: Der Vergleich ist nicht ganz präzise: Gemeint sein können die geringe Tiefe oder die münzgroße Ausdehnung des Wasserflecks; „spread“ und „thin“ führen das Bild in unterschiedliche Richtungen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„people at this hour“: Die nächtliche Situation ist erkennbar, aber die ausdrücklich verlangte Uhrzeit um vier Uhr bleibt unbestimmt.",
+          "„The tealight shivered in its plastic cup, though no air moved.“: Das Schlussbild greift auf das vertraute Unheimlichkeitssignal einer Bewegung ohne Luftzug zurück. Bei einem ausdrücklich batteriebetriebenen Teelicht verliert der Hinweis auf die unbewegte Luft zudem seine Aussagekraft.",
+          "„which was the first wrong thing“: Vorgefertigtes Spannungssignal, das die Wahrnehmung bereits als bedrohlich etikettiert, bevor die Szene diese Wirkung selbst entfalten kann."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "E",
+      "C",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2210,
+    "out": 1782,
+    "thinking": 823
+  },
+  "costUsd": 0.02224
+}

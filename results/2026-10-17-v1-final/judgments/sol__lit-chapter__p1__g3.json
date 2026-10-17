@@ -1,0 +1,77 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Bei den Münzen blieb sie kurz stehen.“ – Die Formulierung suggeriert eine unterbrochene Gehbewegung, obwohl Ilse beim Herauszählen des Wechselgelds innehält. Kleine Präzisionsschwäche."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "„Auf halber Strecke begann das Telefon in ihrer Jackentasche zu vibrieren. Sie hatte es in den Steuerstand gelegt“; später: „Ilse ließ es in der Jacke.“ – Widersprüchliche Positionierung desselben Gegenstands ohne entsprechende Handlung. Die zentrale Anrufszene muss neu eingerichtet werden.",
+          "„Die Fähre löste sich von der Anlegestelle“ – Danach betreten erst der Mann mit Hund und anschließend die Radfahrerin die Fähre. Ein erneutes Anlegen wird nicht erzählt; beim Eintreffen der Radfahrerin ist sogar bereits die Rampe hochgezogen. Die Abfolge von Einschiffen und Ablegen ist räumlich und zeitlich inkonsistent.",
+          "„sie erkannte den Namen, ohne ihn lesen zu müssen“ – Jonas wird weder genannt noch anderweitig identifizierbar gemacht. Außerdem folgt auf die Anrufszene noch die restliche Überfahrt samt Anlegen. Der verlangte erkennbare Jonas-Anruf am Ende fehlt.",
+          "„Der Motor kam husten, dann ruhig.“ – Fehlerhafte beziehungsweise unvollständige Verbkonstruktion. Gemeint ist vermutlich, dass der Motor hustend ansprang und anschließend ruhig lief.",
+          "„Die Bücher klirrten nicht, sie waren nur schwer.“ – Die unmotivierte Verneinung eines ohnehin nicht erwartbaren Geräuschs wirkt manieriert. Ähnlich ausgestellt erscheinen das wiederholt singende Seil und der überraschend bereits anwesende dritte Fahrgast; die sprachlichen Effekte ersetzen stellenweise eine präzise Szenenführung."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Um sieben Uhr zwölf an einem Mittwoch rief er nicht an, um zu fragen, wie es ihr ging.“ – Der Satz erklärt die Bedeutung des Anrufs bereits, statt die Spannung aus Ilses beobachtbarem Verhalten entstehen zu lassen. Die Schlusswendung wird dadurch stärker ausgedeutet als nötig.",
+          "„Hat aufgeschrieben, wie lang du brauchst. Ich hab's gesehen.“ – Nach Mappe, prüfenden Blicken und Fragen zur Fähre wird der verdächtige Besucher zusätzlich durch einen erklärenden Dialog markiert. Diese Häufung macht die Handlungsvorbereitung etwas demonstrativ und drängt den gewöhnlichen Arbeitsmorgen in den Hintergrund.",
+          "„als hinge die Fähre an nichts“, „als könnte die Fähre unter ihm wegkippen“, „als hätte der Fluss sich entschieden“ – Die wiederkehrenden hypothetischen Vergleiche bilden ein merkliches Stilraster. Einzelne Bilder tragen; in der Häufung wirkt die Prosa stärker arrangiert als Ilses sonst nüchterne Wahrnehmung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 4962,
+    "out": 1318,
+    "thinking": 512
+  },
+  "costUsd": 0.023104
+}

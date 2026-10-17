@@ -1,0 +1,18 @@
+{
+  "task": "ed-feedback",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "1. „Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.“ – Die Rampe muss zum Hinübergehen bereits heruntergelassen gewesen sein und würde nach dem Einsteigen eher hochgezogen.\n\n2. „Ilse stellt den Motor an und wartete“ – „stellt“ steht im Präsens und bricht den Erzähltempus Präteritum.\n\n3. „Der Junge mit den Kopfhörern tippte auf seinem Handy, und die alte Frau Lüders setzte sich auf die Bank am Heck.“ – Zusammen mit der zuvor genannten Frau mit dem Fahrrad und dem Mann im grauen Mantel sind vier Fahrgäste aufgeführt, nicht drei.\n\n4. „Der Nebel schluckte jedes Geräusch.“ / „Am Anleger drüben wartete schon der Bäcker mit seinem Pferdewagen, wie jeden Morgen seit dem Krieg, und hupte zweimal.“ – Dass Ilse den Hupton hört, widerspricht der Aussage, der Nebel schlucke jedes Geräusch.",
+  "usage": {
+    "in": 294,
+    "out": 1253,
+    "thinking": 1024
+  },
+  "costUsd": 0.0006559,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 12660,
+  "meta": [],
+  "at": "2026-10-17T17:18:05.928Z"
+}

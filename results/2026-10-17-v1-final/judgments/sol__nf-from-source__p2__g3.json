@@ -1,0 +1,79 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Die Mitglieder beteiligen sich finanziell, entscheiden mit gleichem Stimmgewicht und verwenden Überschüsse für die Erneuerung statt für Ausschüttungen.“ – Der Schluss wiederholt ausführlich bereits erklärte Mechanismen, statt die Begründung für die Rechtsform knapp zu bündeln.",
+          "„Eine Genossenschaft macht es möglich, eine gemeinsame Aufgabe gemeinsam zu tragen.“ – Der Einstieg bleibt abstrakt; die Wiederholung von „gemeinsame“ und „gemeinsam“ ist stilistisch entbehrlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Sie brauchten die Fähre und übernahmen sie deshalb selbst.“ – Der konkrete Eigenbedarf der Gründer und eine Übernahme der Fähre sind nicht belegt. Die Quelle nennt die Gründung nach Einstellung des Betriebs.",
+          "„So bleibt die Fähre in der Hand derer, die sie brauchen.“ – Der Schluss setzt Mitglieder und auf die Fähre angewiesene Nutzer gleich. Diese Übereinstimmung geht aus der Quelle nicht hervor.",
+          "„Auch mit dem Geld geht die Genossenschaft anders um als ein gewöhnliches Unternehmen.“ – Irreführende Gegenüberstellung: Auch andere Unternehmen können Überschüsse zurücklegen. Die konkrete Regel dieser Genossenschaft wird unnötig zu einem allgemeinen Gegensatz ausgeweitet."
+        ],
+        "unsupported": [
+          "„Sie brauchten die Fähre“ – Ein persönlicher Bedarf der Gründer wird im Quellmaterial nicht ausdrücklich genannt.",
+          "„übernahmen sie deshalb selbst“ – Weder eine Übernahme der Fähre noch dieser ausdrücklich behauptete Beweggrund sind dokumentiert.",
+          "„So bleibt die Fähre in der Hand derer, die sie brauchen.“ – Das Quellmaterial belegt nicht, dass die heutigen Mitglieder diejenigen sind, die die Fähre benötigen."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„schlossen sich 1953 vierzig Landwirte und Händler von beiden Elbufern zusammen“ – Sachfehler: Laut Quelle waren es 41, nicht vierzig.",
+          "„Zugleich gibt die gleiche Stimme jedem Mitglied ein Mitspracherecht – unabhängig davon, wie viele Anteile es hält.“ – Wiederholt die bereits im zweiten Absatz vollständig erklärte Stimmregel; der Schluss könnte dadurch knapper und prägnanter werden."
+        ],
+        "unsupported": [
+          "„vierzig Landwirte und Händler“ – Widerspricht der im Quellmaterial genannten Gründerzahl von 41."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2311,
+    "out": 1280,
+    "thinking": 595
+  },
+  "costUsd": 0.017422
+}

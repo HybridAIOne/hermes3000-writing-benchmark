@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "Der Schlüssel klemmte an derselben Stelle wie früher. Judith zog ihn einen Millimeter zurück, hob die Tür am Knauf und drehte noch einmal. Ihr Körper wusste das noch.\n\nIm Flur lag die Post bis unter den Heizkörper. Zwischen Werbeprospekten steckten zwei graue Umschläge, auf denen jemand die Adresse ihrer Mutter von Hand durchgestrichen hatte. Sie schob alles mit dem Schuh beiseite, vorsichtig, als könnte darunter etwas leben.\n\nZwanzig Jahre. Von draußen hatte das Haus kleiner ausgesehen. Jetzt, zwischen Garderobe und Treppe, fand sie keinen Platz für ihre Tasche.\n\nSie stellte sie auf den Boden.\n\nDer Mantel ihrer Mutter hing noch am mittleren Haken, ein brauner Wollmantel mit blanken Ellbogen. Judith berührte den Ärmel nicht. Sie hatte im Zug beschlossen, zuerst die Fenster zu öffnen, dann den Kühlschrank auszuräumen, dann den Makler anzurufen. Auf dem Küchentisch wollte sie drei Stapel machen: behalten, weggeben, fortwerfen. Die Wörter hatten ihr bis hierher geholfen.\n\nIn der Küche roch es nach kaltem Fett. Unter dem Fenster stand der Tisch mit der Kunststoffdecke. An einer Ecke war das Muster abgerieben; dort hatte ihr Vater immer seinen Daumen bewegt, während er las. Judith zog den Stuhl zurück. Das Geräusch fuhr scharf über die Fliesen.\n\nNeben der Spüle lag ein Stück gelbe Seife auf einer Untertasse. Sie nahm es auf. Die Unterseite war weich und klebte an ihren Fingern, und plötzlich war da dieser Geruch: Kümmel, deutlich, beinahe frisch. Sie hielt die Seife von sich weg. Ihre Mutter hatte immer die weiße gekauft, sechs Stück in einer Packung.\n\nJudith legte sie zurück.\n\nDurch das Fenster sah sie den Garten. Jemand hatte die Johannisbeersträucher bis auf die Stümpfe geschnitten. Das Schnittgut lag ordentlich gebündelt am Zaun.\n\nSie ging zur Hintertür und prüfte den Riegel. Er war vorgeschoben. Im Schloss steckte ein Schlüssel, an einem roten Band, das sie nicht kannte.",
+  "usage": {
+    "in": 76,
+    "out": 773,
+    "thinking": 302
+  },
+  "costUsd": 0.007882,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 33001,
+  "meta": [],
+  "at": "2026-10-17T17:20:10.287Z"
+}

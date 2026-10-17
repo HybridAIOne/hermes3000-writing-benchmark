@@ -1,0 +1,96 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„ob die Fähre wirklich noch mit Strömung fahre“ – Da im vorgegebenen Absatz der Motor läuft, handelt es sich um eine motorbetriebene Seilfähre, nicht um eine reine Gierseilfähre (leichtes Sachdetail, aber als Touristenfrage im Text noch plausibel)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 3,
+        "stil": 4,
+        "aufgabe": 3,
+        "fehler": [
+          "„Sie hätte die Fähre ganz blijven lassen können.“ – Niederländisches Wort („blijven“) mitten im deutschen Satz.",
+          "„der Teekoch“ – Unidiomatisch/falsch (gemeint ist Wasserkocher oder Teekocher).",
+          "„stand mit seinem Fahrrad und wartete, wie jeden Nachmittag.“ – Fehlendes Artikelwort vor „alte Krause“ („der alte Krause“).",
+          "„Fährst du noch rüber? Er muss ja wieder zurück, sagte er und deutete auf den Koffer“ – Völlig unlogischer Dialog und falscher Bezug.",
+          "„Sie war sechzig geworden im Herbst“ – Widerspricht der Figurenangabe im Prompt (Ilse ist 61)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Die Flur roch nach dem nassen Hund“ – Falscher Genus: „Der Flur“ (Hausflur) ist maskulin, „die Flur“ bezeichnet freies Feld.",
+          "„Jonas schob den Rollkoffer über die Lücke zwischen Fähre und Ufer. [...] ‚Dann helf ich dir eben mit dem Koffer.‘ Er hob ihn an [...] und trug ihn die Böschung hinauf“ – Massiver Logikbruch: Jonas schob seinen Koffer erst vom Anleger *auf* die Fähre, trägt ihn dann aber plötzlich ohne Erklärung „dir“ (Ilse?) helfend an Land die Böschung hinauf.",
+          "„Ilse löste die Leine vom Poller und hängte sie über den Haken an der Reling.“ – Widerspruch zur Vorgabe: Sie hatte die Leine im Satz davor gerade erst doppelt festgezogen, löst sie nun sofort wieder und geht dann einfach weg, sodass die Fähre ungesichert am Ufer treibt.",
+          "„‚Ilse.‘ Das Ilse hatte er von Henning.“ – Unglaubwürdig: Warum sollte der leibliche Sohn seine Mutter mit Vornamen ansprechen, nur weil sein Vater sie so nannte?",
+          "„trug ein paar Blätter mit, die längst keine mehr waren.“ – Stilistisch schiefe Pseudopoesie."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 3,
+        "fehler": [
+          "„Ilse nahm das Steuerseil in die Hand [...] und nahm Kurs auf die Stelle, an der das seichte Wasser am Uferkraut zog.“ – Sachlicher Unsinn: Eine Seilfähre hängt fest an einem Führungsseil und pendelt exakt zwischen zwei Anlegern; man kann damit nicht frei „Kurs auf das Uferkraut“ nehmen.",
+          "„Sie wandte sich zur Rampe und löste die zweite Leine.“ – Logikbruch: Im Startabsatz hat sie gerade angelegt und die Leine festgezogen; hier löst sie nun unmotiviert eine „zweite Leine“ zum Ablegen, während die erste noch fest am Poller ist.",
+          "„Die Fähre schwankte unter ihrem Gewicht kaum merklich.“ – Eine Autofähre auf der Elbe wiegt viele Tonnen; sie schwankt nicht, wenn ein einzelner Mann mit Rollkoffer das Deck betritt.",
+          "„Heute würde sie nicht alles so machen wie immer. Nur dieses eine Mal.“ – Erfüllt die Aufgabe („kleine Entscheidung“) nur durch eine vage, behauptete Phrase am Schluss, statt eine echte Handlung zu zeigen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 4019,
+    "out": 1079,
+    "thinking": 0
+  },
+  "costUsd": 0.018828
+}

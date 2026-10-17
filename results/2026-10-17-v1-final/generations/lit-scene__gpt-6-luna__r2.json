@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "gpt-6-luna",
+  "run": 2,
+  "text": "Der Schlüssel klemmte, als hätte das Haus beschlossen, sie nicht sofort hineinzulassen. Sie drehte ihn zurück, hob die Klinke an und spürte, wie das Schloss nachgab. Im Flur roch es nach Staub und kaltem Holz. Darunter lag etwas Süßliches, kaum mehr als ein Rest: der Geruch von Äpfeln, die zu lange in einer Schublade gelegen hatten.\n\nMara stellte die Tasche ab. Seit zwanzig Jahren hatte sie sich eingeredet, sie werde das Haus nicht vermissen. Nun stand sie darin und wusste nicht, wohin mit den Händen.\n\nDie Garderobe war leer. An der Wand hatte der Spiegel einen blinden Fleck, genau dort, wo früher ihr Gesicht gewesen war, wenn sie als Kind auf Zehenspitzen hineinsah. Sie strich mit dem Daumen über den Rahmen. Der Staub blieb an ihrer Haut haften.\n\nIn der Küche stand der Tisch noch am Fenster. Die Stühle waren ordentlich daruntergeschoben, als erwarte ihre Mutter Besuch. Auf der Tischplatte zeichnete sich ein heller Kreis ab, frei vom Staub; darin hätte ein Glas stehen können. Mara berührte ihn. Das Holz war glatt und kühl.\n\nSie öffnete den Hahn. Erst kam Luft, dann ein dünner, rostfarbener Strahl. Das Wasser roch nach Metall. Sie drehte es wieder zu und lauschte, bis das Tropfen aufhörte.\n\nIm Flur hatte sie die Tür zum Keller übersehen. Sie war nicht ganz geschlossen. Der schmale Spalt darunter war dunkel, obwohl das Licht von der Küche bis an die Schwelle reichte.\n\nMara ging nicht hin. Sie zog die Vorhänge auf, einen nach dem anderen. Draußen lag der Garten, überwachsen und still. Hinter dem Schuppen stand noch der Apfelbaum, kahl bis in die feinsten Zweige. Ein Windstoß bewegte sie, und irgendwo im Haus knackte ein Brett.\n\nSie blieb am Fenster stehen. An ihrem Daumen klebte ein einzelnes, blaues Fädchen. Sie wusste nicht, woher es kam.",
+  "usage": {
+    "in": 76,
+    "out": 1316,
+    "thinking": 854
+  },
+  "costUsd": 0.0006656,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 16351,
+  "meta": [],
+  "at": "2026-10-17T17:46:45.296Z"
+}

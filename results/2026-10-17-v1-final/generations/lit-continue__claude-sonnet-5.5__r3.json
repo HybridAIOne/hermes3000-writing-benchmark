@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "claude-sonnet-5.5",
+  "run": 3,
+  "text": "„Der Motor läuft\", sagte Ilse.\n\n„Er hustet. Ich habe es von oben gehört, als du reingekommen bist.\"\n\n„Er hustet seit elf Jahren.\" Sie bückte sich nach dem Tampen, der noch lose auf den Bohlen lag, und legte ihn in ordentlichen Buchten zusammen. Ihre Knie meldeten sich dabei, wie sie es neuerdings taten, und sie ließ Jonas nicht merken, dass sie es hörte.\n\nEr hatte sich nicht verändert, und doch war alles an ihm anders. Der Mantel war aus einem Stoff, den es hier nicht zu kaufen gab, die Schuhe waren für Pflaster gemacht. Er sah aus wie jemand, der gleich einen Termin hatte. Das Gesicht aber war noch das des Jungen, der mit zehn auf diesem Anleger gesessen und die Beine ins Wasser gehängt hatte, bis Henning ihn zurückgepfiffen hatte.\n\nDer Fluss lag grau und breit hinter ihm. Das Stahlseil hing durch, tropfte, spannte sich wieder, wenn die Strömung an der Fähre zog. Ilse kannte jedes Geräusch davon. Das Quietschen der Rolle, das dumpfe Pochen des Rumpfs gegen die Reifen am Steg. Jonas kannte sie vermutlich auch noch, aber er tat nicht so.\n\n„Hast du gegessen?\", fragte sie.\n\n„Im Zug.\"\n\n„Das heißt nein.\"\n\n„Mama.\"\n\n„Es gibt Suppe. Von gestern.\" Sie richtete sich auf und wischte sich die Hände an der Hose ab. „Die ist besser als frisch.\"\n\nEr lachte kurz, durch die Nase, und sie merkte, dass sie darauf gewartet hatte. Er zog den Koffer ein Stück über die Bohlen, eines der Rädchen blieb in einer Fuge hängen, und er riss daran, bis es nachgab. „Hier müsste mal jemand die Bretter erneuern.\"\n\n„Hier müsste vieles\", sagte Ilse und ging an ihm vorbei zum Fährhaus.\n\nSie hörte ihn hinter sich zögern. Dann das Rattern des Koffers, ungeduldig, aber folgend. Im Fenster des Fährhauses stand die Thermoskanne, wo sie sie nach der letzten Überfahrt hingestellt hatte, daneben der blaue Becher, Hennings Becher, und ihr eigener, angeschlagen am Rand. Sie nahm die Kanne in die Hand und spürte das Gewicht des Rests darin.\n\nEs war noch eine Fahrt eingetragen, die von 17 Uhr, für niemanden, den sie kannte. Vielleicht kam keiner. Sonst kam auch selten einer.\n\nIlse drehte sich um. Jonas stand an der Tür, die Hand am Griff des Koffers, und sah auf den Becher in ihrer Hand, als müsste er erst rechnen, was er bedeutete.\n\nSie nahm Hennings Becher vom Fensterbrett, goss ihn halb voll und hielt ihn ihm hin.\n\n„Stell das Ding hin\", sagte sie. „Die Suppe läuft nicht weg.\"",
+  "usage": {
+    "in": 593,
+    "out": 1617,
+    "thinking": 453
+  },
+  "costUsd": 0.017356,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 15779,
+  "meta": [],
+  "at": "2026-10-17T17:47:45.851Z"
+}

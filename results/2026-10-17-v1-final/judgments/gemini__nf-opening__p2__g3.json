@@ -1,0 +1,71 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 9,
+        "fehler": [
+          "Unstimmigkeit zur Buchprämisse („Führen ohne Titel“): Die geschilderte Szene (Urlaubsplanung, Angebotsfreigabe, Überwachen von Zuspätkommen) wirkt eher wie die Rolle eines klassischen Vorgesetzten mit Titel."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "Formaler Verstoß gegen die Vorgabe „Einstiegsabsatz“: Der Text ist in vier einzelne Absätze unterteilt.",
+          "Szenische Logik hinkt: Jana sucht von sich aus das Gespräch und bringt sogar Kaffee mit („Hast du kurz?“), um vermutlich ihre Verspätung zu erklären – dass die Führungskraft genau diesen Moment abblockt („Später vielleicht?“), obwohl sie dringend auf den Bericht wartet, wirkt konstruiert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "Szenischer Bruch und unplausible Chronologie: „Du stehst mit einer Kaffeetasse vor dem Besprechungsraum, als dir auffällt, dass die Zahlen [...] fehlen. [...] Jetzt sitzt er an seinem Platz, schaut auf den Bildschirm und sagt: ‚Bin noch nicht dazu gekommen.‘“ – Der Ortswechsel fehlt, zudem fällt das Fehlen erst jetzt auf, obwohl es im Satz danach heißt, man habe deswegen heute „morgens selbst nacharbeiten müssen“.",
+          "Greift als reiner Einstiegsabsatz bereits zu stark in die konkrete Schritt-für-Schritt-Beratung vor („In Ruhe kannst du sagen, was passiert ist, welche Folgen es für deine Arbeit hatte...“), anstatt nur in das Kapitel einzuleiten."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2046,
+    "out": 463,
+    "thinking": 0
+  },
+  "costUsd": 0.008722
+}

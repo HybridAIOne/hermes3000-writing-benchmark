@@ -1,0 +1,115 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Am Anleger lag die nächste kleine Warteschlange in der üblichen Ordnung: erst der Mann mit dem Fahrrad, dann die Frau, dann der Lieferwagen. Nein, die waren schon drüben.“ Die bereits ausgestiegenen Fahrgäste erscheinen unvermittelt erneut. Die anschließende Selbstkorrektur wirkt wie ein stehen gebliebener Entwurfsfehler; eine Wahrnehmungsstörung Ilses ist nicht vorbereitet.",
+          "„Ilse legte an, zog die Klappe hoch“: Die Klappe wurde bereits vor der Rückfahrt hochgezogen. Ohne zwischenzeitliches Absenken kann Ilse sie bei der nächsten Landung nicht erneut hochziehen.",
+          "„Dieser hier lief zu hoch, als wäre der Fahrer es gewohnt, dass man ihm Platz machte.“ Aus der Leerlaufdrehzahl wird eine Charaktereigenschaft abgeleitet. Das wirkt zugespitzt behauptet statt präzise beobachtet."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Eine Minute vor dreiviertel sieben kam der dritte Fahrgast.“ / „Es war vierundvierzig Minuten nach sechs.“ Zwischen diesen identischen Uhrzeiten liegen Zustieg, Kassieren, Ablegen und ein erheblicher Teil der Überfahrt. Die Zeitführung widerspricht dem erzählten Ablauf.",
+          "„Oder um die Werft-Rechnung vom Oktober, die er bei seinem letzten Besuch auf dem Küchentisch gesehen hatte. Oder um das Betreute Wohnen in Lüneburg, von dem er neulich ein Prospekt geschickt hatte“: Der Schluss schiebt ausdrücklich unerwünschte Rückblenden-Exposition ein und erklärt den familiären Konflikt vorab.",
+          "„er im grauen Anzug vor einer Glasfassade in München, die Arme verschränkt, das Lächeln professionell und ein bisschen zu breit“: Der Unternehmensberater wird mit einem geläufigen Bildklischee charakterisiert; die anschließenden Vermutungen über Flughafen, Nachtarbeit und Meetings verstärken die Schablone.",
+          "„das Seil sang sein leises, metallisches Lied“: Konventionelle poetische Formel, die der ansonsten konkreten Arbeitswelt wenig Eigenes hinzufügt.",
+          "„Auf dem Fluss gab es keine Fragen, auf die man antworten musste.“ Der nachfolgende Anruf illustriert diese vorangestellte Deutung allzu passgenau. Der Text erklärt sein Konfliktmotiv, bevor es sich entfalten kann."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„Sie wusste, was auf dem Display stand, ohne hinzusehen“: Jonas wird weder genannt noch anderweitig eindeutig als Anrufer identifiziert. Damit fehlt eine zentrale Schlussvorgabe.",
+          "„Sie wartete bis Viertel nach“ / „Um zehn nach hörte sie Schritte“: Nach dem erzählten Warten bis 7.15 Uhr springt die Handlung unmarkiert auf 7.10 Uhr zurück.",
+          "„den ihr Mann vor dreißig Jahren geschrieben und hinter Glas an die Steuerhauswand gehängt hatte“: Eingeschobene Vorgeschichte entgegen der Vorgabe, ohne Rückblenden-Exposition zu erzählen.",
+          "„Der Sommer gehörte den Radtouristen“: Der Wechsel vom konkreten Morgen zur allgemeinen Saisonbeschreibung bremst die Szene; die anschließende Betrachtung über „Früher“ und „Jetzt“ erklärt ihre Bedeutung zusätzlich.",
+          "„Man hätte sie blind auf das Wasser setzen können, sie hätte die Mitte gefunden.“ Überhöhende Behauptung ihrer Berufssicherheit statt einer konkreten Beobachtung, an der diese sichtbar würde."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Die Fähre fährt nach Hitzacker-Ufer“, sagte Ilse. „Das ist das Gleiche.“ Neu Darchau und Hitzacker sind unterschiedliche Orte. Die Gleichsetzung macht die räumliche Orientierung der Szene unzuverlässig.",
+          "„obwohl die Milchkühe längst verkauft waren“ / „weil die Brücke in Dannenberg gesperrt war, wie er es jedem erzählte, der nicht danach fragte“: Die Fahrgäste werden über eingeschobene Vorgeschichte vorgestellt, statt ausschließlich im gegenwärtigen Geschehen. Das widerspricht der gewünschten expositionfreien Anlage.",
+          "„die drei Menschen darauf, die sie nicht kannte, bis auf Wessel und Hahn“: Die Aussage wird unmittelbar um zwei ihrer drei Fälle eingeschränkt. Das ist unnötig umständlich und verwischt den Unterschied zwischen der Fremden und den beiden Bekannten.",
+          "„Sie kannte jeden Ton dieser Fähre. Sie wusste, wann der Hebel klemmte und wann die Bremse zu spät griff. Sie wusste, wie der Fluss im Herbst aussah“: Reihung erklärender Kompetenzbehauptungen; die Wiederholung ersetzt konkrete Handlung und bremst die Überfahrt.",
+          "„Dann vibrierte es wieder.“ Nach dem bereits vollständig ausgespielten Nichtannehmen setzt der Text einen zweiten, unaufgelösten Telefonimpuls. Das schwächt die Präzision des verlangten Schlussmoments."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 7323,
+    "out": 2745,
+    "thinking": 1384
+  },
+  "costUsd": 0.042096
+}

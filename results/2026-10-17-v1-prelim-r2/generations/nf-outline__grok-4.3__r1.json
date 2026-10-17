@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "**Gliederung: Führen ohne Titel**\n\n**Kapitel 1: Der Rollenwechsel**  \nEs geht darum, wie du als ehemaliger Kollege die neue Position annimmst, ohne dich künstlich abzuheben oder alte Beziehungen zu zerstören.\n\n**Kapitel 2: Die einzelnen Menschen kennenlernen**  \nDu lernst, wie du dir ein realistisches Bild von den Stärken, Schwächen und Arbeitsweisen der einzelnen Teammitglieder machst, statt mit allgemeinen Annahmen zu arbeiten.\n\n**Kapitel 3: Erwartungen und Ziele klären**  \nEs geht um praktische Absprachen, was von wem wann und in welcher Qualität erwartet wird, damit du nicht ständig nachsteuern musst.\n\n**Kapitel 4: Den Alltag strukturieren**  \nDu erfährst, wie du mit wenigen festen Terminen und kurzen Rückfragen den Überblick behältst, ohne ständig im operativen Geschäft zu versinken.\n\n**Kapitel 5: Schwierige Gespräche führen**  \nHier lernst du, wie du Leistungsprobleme, Fehlverhalten oder Konflikte direkt ansprichst, ohne dass das Gespräch eskaliert oder du hinterher unsicher bist.\n\n**Kapitel 6: Verantwortung abgeben**  \nEs geht darum, Aufgaben und Entscheidungen so zu übertragen, dass andere sie wirklich übernehmen und du nicht am Ende doch wieder alles selbst machst.\n\n**Kapitel 7: Die Leute weiterentwickeln**  \nDu siehst, wie du durch gezielte Rückmeldung und kleine, konkrete Entwicklungsschritte die Fähigkeiten der einzelnen verbesserst, ohne große Entwicklungsprogramme.\n\n**Kapitel 8: Mit Widerstand und Konflikten umgehen**  \nEs geht um den Umgang mit Teammitgliedern, die nicht mitziehen, und um Spannungen zwischen Kollegen, die du nicht einfach ignorieren kannst.\n\n**Kapitel 9: Deine eigene Haltung entwickeln**  \nZum Schluss geht es darum, wie du eine klare, zu dir passende Art zu führen findest, die auch dann trägt, wenn der Druck von oben oder von mehreren Seiten kommt.",
+  "usage": {
+    "in": 318,
+    "out": 1605,
+    "thinking": 1128
+  },
+  "costUsd": 0.00441,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "upstream": "xAI",
+  "latencyMs": 18648,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:24:42.902Z"
+}

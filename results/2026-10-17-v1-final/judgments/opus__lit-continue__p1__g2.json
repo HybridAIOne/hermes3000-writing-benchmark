@@ -1,0 +1,121 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Sie nahm die Leine vom Poller und legte sie über den Arm.“ – später „Ilse band die Leine fest“: Die Leine wird gerade erst festgemacht, dann gelöst und wieder festgebunden, ohne erkennbaren Grund.",
+          "„unter einem alten Fahrplan beschwert“ – idiomatisch schief, gemeint ist „mit einem alten Fahrplan beschwert“.",
+          "„aber das Lächeln blieb ihm nicht lange“ – ungewöhnliche, leicht holprige Wendung.",
+          "„Du kannst in der Stube schlafen“ – unklar, ob die Hütte am Anleger oder das Wohnhaus gemeint ist; der Ort springt.",
+          "„Draußen rief jemand vom anderen Ufer.“ – Ilse kocht trotzdem Tee, während der Fahrgast wartet; leichte Spannung zur Figur der pflichtbewussten Fährfrau."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Die Fahrt dauerte elf Minuten, hin und zurück ein Vierteljahrstündchen“ – rechnerisch falsch, außerdem ist „Vierteljahrstündchen“ eine verunglückte Wortbildung.",
+          "„wo der alte Außenborder unter einer Persenning hockte“ – ein Außenborder passt kaum zu einer Seilfähre, die Autos übersetzt.",
+          "„Das Seil spannte sich und sang leise.“ – leicht kitschiges Bild.",
+          "„dieses Schweigen, das mehr Platz brauchte als ein Satz“ – erklärt, statt zu zeigen.",
+          "„Sie hätte sagen können: Geh vor, die Tür ist offen. Er hätte …“ – die lange Konjunktivpassage bremst kurz vor der Entscheidung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Dabei war er auf diesen Bohlen laufen gelernt.“ – grammatisch falsch, richtig wäre „hatte er … laufen gelernt“.",
+          "„Er hatte das Gesicht seines Vaters“ – abgegriffene Formel, wird durch den Schraubenvergleich nur teilweise gerettet.",
+          "„Jonas wusste das nicht mehr. Sie hatte es ihm nie erzählt.“ – ein Vierjähriger könnte sich erinnern; die Logik wirkt leicht konstruiert.",
+          "„seit neunzehn Jahren, und seit neunzehn Jahren rauchte er dieselbe Marke“ – die Wiederholung wirkt etwas gesetzt.",
+          "„Jonas sah sie an, ohne zu verstehen.“ – die Erklärung ist überflüssig."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Bis kein Wind mehr geht.“ – als Replik kaum verständlich, der Dialogbezug ist unklar.",
+          "„Sie hätte ihn nicht danach fragen müssen, wann er zuletzt hier gewesen war.“ – unklar, was gemeint ist; die Logik verrutscht.",
+          "„Ilse ließ die Hand sinken, ohne sie noch einmal zu heben.“ – redundant und unbeholfen.",
+          "„Dann hielt sie inne, legte sie noch einmal lose um den Poller und trat vom Einstieg zurück.“ – die Entscheidung bleibt mehrdeutig: Bleibt sie, oder nimmt sie ihn mit?",
+          "„Sie prüfte den Hebel, obwohl es nichts zu prüfen gab.“ – formelhafte Wendung; insgesamt zerfasert die Szene durch viele abgerissene Kurzrepliken."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Ilse merkte, dass sie den Atem angehalten hatte“ – Klischee.",
+          "„vertraut wie das eigene Kissen“ – schiefer, klischeehafter Vergleich.",
+          "„Seitdem zieh ich mit der Hand.“ – danach wird mit der Kurbel gestartet; Motorlogik und Handbetrieb widersprechen sich.",
+          "„Der Bus nach Dannenberg fuhr um fünf“ – ein loses Detail ohne Funktion in der Szene.",
+          "„Er sah sie an, und einen Moment lang dachte sie, er würde widersprechen. Dann griff er nach dem Koffer.“ – die Entscheidung liegt eher bei Jonas als bei Ilse; die Vorgabe wird nur schwach erfüllt."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 7727,
+    "out": 3614,
+    "thinking": 1841
+  },
+  "costUsd": 0.103188
+}

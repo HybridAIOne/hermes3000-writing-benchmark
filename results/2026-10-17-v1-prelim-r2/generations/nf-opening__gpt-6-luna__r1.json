@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "Am Dienstag um kurz nach vier stehst du mit einer Tasse kaltem Kaffee neben dem Drucker, als Jana ihre Jacke anzieht. Zum dritten Mal in zwei Wochen hat sie die Zahlen für den Monatsbericht zu spät geliefert. Du hast die fehlenden Werte selbst zusammengesucht, damit der Termin mit dem Kunden nicht platzt. Jetzt willst du etwas sagen. „Jana, hast du kurz Zeit?“ Sie schaut auf die Uhr. „Wenn’s schnell geht.“ Du merkst, wie dir die Sätze durch den Kopf laufen: dass es so nicht weitergehen kann, dass alle anderen sich auf sie verlassen müssen. Gleichzeitig willst du sie nicht vor den Kopf stoßen. Also sagst du: „Schon gut, dann morgen.“ Jana nickt, geht, und du bleibst mit deinem Ärger und einer weiteren offenen Frage zurück.\n\nSolche Momente kennt jeder, der Verantwortung im Team übernimmt. Du musst nicht erst eine Leitungsposition haben, um ein schwieriges Gespräch führen zu müssen. Oft reicht es, dass deine Arbeit von der anderer abhängt – oder dass jemand dich um Unterstützung bittet und du merkst: So wie bisher geht es nicht weiter. Schwierige Gespräche werden selten leichter, wenn du sie aufschiebst. Aber sie müssen auch nicht mit Vorwürfen beginnen oder in einem Streit enden. Entscheidend ist, dass du klar benennst, was du beobachtet hast, warum es wichtig ist und was du jetzt klären möchtest. Dafür brauchst du keine perfekte Formulierung. Du brauchst einen Anlass, etwas Zeit und die Bereitschaft, auch zuzuhören. Wie du den ersten Satz findest, ohne dich hinter Andeutungen zu verstecken, darum geht es in diesem Kapitel.",
+  "usage": {
+    "in": 152,
+    "out": 499,
+    "thinking": 140
+  },
+  "costUsd": 0.0002647,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 6272,
+  "meta": [],
+  "at": "2026-10-17T17:20:01.950Z"
+}

@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-1"
+    ],
+    "evidence": [
+      "Vosskuhl kam aus dem Seitengang, die randlose Brille in der Hand."
+    ]
+  },
+  "usage": {
+    "in": 1818,
+    "out": 381,
+    "thinking": 333
+  },
+  "costUsd": 0.007446
+}

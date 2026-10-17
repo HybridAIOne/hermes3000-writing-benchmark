@@ -1,0 +1,18 @@
+{
+  "task": "ed-feedback",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "1. „Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.“ – Die zeitliche Abfolge ist unmöglich, da die Rampe erst heruntergelassen werden muss, bevor die Fahrgäste an Bord gehen können.\n\n2. „Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.“ – Es werden vier Personen beschrieben (Frau mit Fahrrad, Mann im grauen Mantel, Junge mit Kopfhörern, alte Frau Lüders), obwohl von drei Fahrgästen die Rede ist.\n\n3. „Ilse stellt den Motor an“ – Der Wechsel ins Präsens verstößt gegen die durchgängige Verwendung des Präteritums.\n\n4. „Ich hatte diesen Moment immer gemocht, dachte sie“ – Der unvermittelte Gebrauch der ersten Person durchbricht die personale Erzählperspektive in der dritten Person.",
+  "usage": {
+    "in": 487,
+    "out": 1413,
+    "thinking": 1211
+  },
+  "costUsd": 0.00414125,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "upstream": "xAI",
+  "latencyMs": 20328,
+  "meta": [],
+  "at": "2026-10-17T17:19:20.837Z"
+}

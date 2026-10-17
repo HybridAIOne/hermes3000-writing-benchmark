@@ -1,0 +1,114 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„obwohl die Dose seit drei Jahren leer im Regal über dem Funkgerät stand“ — hart an der Grenze zur verbotenen Rückblenden-Exposition über Hennings Tod.",
+          "„Darunter ein kleines Foto, das ihn im Anzug vor einer Glasfassade zeigte, die Sonne Münchens im Gesicht.“ — wirkt sehr bemüht, um die Figuren-Vorgaben aus dem Prompt direkt abzuhaken."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Er fuhr jeden Werktag um diese Zeit, außer mittwochs, und hielt jedes Mal eine Wagenlänge zu früh.“ — im gesamten Text fehlt die Verankerung im vorgegebenen Monat November.",
+          "„und brachte die Fähre in die Strömung. Das Seil spannte sich“ — die Schauplatz-Vorgabe (Elbe bei Hitzacker) wird im Text mit keinem Wort erwähnt oder verortet."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Die Frau hatte sich bei der Einfahrt nicht umgeschaut“ — massiver Logikbruch: Zuvor wurde etabliert, dass die Frau zu Fuß am Heck steht und ihr Lastenrad unbenutzt zu Hause steht; sie ist nicht mit einem Fahrzeug eingefahren.",
+          "„Sie spürte das Gewicht des Schiffs, die drei Menschen darauf, die sie nicht kannte, bis auf Wessel und Hahn“ — unfreiwillig komische Formulierung: Von drei Personen kennt sie zwei, also fast alle.",
+          "„Die Seilrolle über ihr knarrte, als sie den Hebel umlegte“ — technische Verwirrung: Zuerst läuft das Seil über ihr, später hat das Schiff plötzlich einen normalen Motor im Leerlauf.",
+          "„als könne er den Fluss riechen“ — natürlich kann ein Hund den Fluss riechen, der Konjunktiv ergibt hier keinen Sinn.",
+          "„vor Jahren, als er noch nicht so oft anrief.“ — unnötiger erklärender Einschub."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„vor sich einen dieser Kaffee in Pappbechern, die er ihr einmal mitgebracht und die sie nicht hatte austrinken können.“ — ein Sohn bringt seiner Mutter keinen einzelnen Coffee-to-go im Pappbecher aus München mit an die Elbe; zudem ein Verstoß gegen das Verbot von Rückblenden.",
+          "„Es war kurz vor sieben.“ vs. „Der Erste kam um zehn nach sieben“ vs. „Es war Dienstag, kurz nach halb acht“ — die Zeitabläufe passen nicht zu einer kurzen Fährüberfahrt, bei der man auf den letzten Gast nur „eine Minute“ gewartet hat.",
+          "„dass man das andere Ufer nur wusste.“ — schiefes, unidiomatisches Verb.",
+          "„Es surrte weiter, ein kleines, wütendes Zittern auf dem Blech.“ — abgegriffene Personifizierung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 6,
+        "stil": 4,
+        "aufgabe": 3,
+        "fehler": [
+          "„Am Anleger lag die nächste kleine Warteschlange in der üblichen Ordnung: erst der Mann mit dem Fahrrad, dann die Frau, dann der Lieferwagen. Nein, die waren schon drüben.“ — grober Kohärenzbruch: Die Erzählerin halluziniert die bereits abgesetzten Fahrgäste an das andere Ufer und korrigiert sich im laufenden Text selbst.",
+          "„Ilse ging zum Geländer und sah auf die Stromkante. [...] Sie korrigierte mit dem Hebel.“ — räumlicher Logikbruch: Sie geht weg vom Steuerstand ans Geländer, bedient dort aber gleichzeitig den Hebel.",
+          "„Dann drückte sie die Seitentaste, bis das Display dunkel wurde.“ — durch langes Drücken der Seitentaste schaltet man das Gerät aus oder lehnt den Anruf aktiv ab, statt ihn einfach nicht anzunehmen; im Satz zuvor wird zudem nur die stumme Stummschaltung eines Klingelns beschrieben.",
+          "„Der Junge schwang sich auf sein Rad. [...] Er fuhr an ihr vorbei, ohne abzusteigen“ — unsinnige Formulierung: Wenn er sich gerade erst auf das Rad geschwungen hat, kann er nicht gleichzeitig „nicht absteigen“.",
+          "„dass Ilse das andere Ufer nur daran erkannte, dass es fehlte.“ — verunglücktes Paradoxon im ersten Satz."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "D",
+      "C",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 7897,
+    "out": 1253,
+    "thinking": 0
+  },
+  "costUsd": 0.028324
+}

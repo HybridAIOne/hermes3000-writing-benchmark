@@ -1,0 +1,116 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "C": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "D": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "E": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„eineNummer“ (fehlendes Leerzeichen)",
+          "„Wenn jemand käme, würde sie hupen. Das machten sie alle, wenn sie herüber wollten, ein kurzes Drücken, und sie kam.“ (Bezugsfehler des Pronomens „sie“ und unklare Handlungslogik)",
+          "„als sie das Seil losschob“ (unidiomatisch/sachlich schief: ein Seil schiebt man nicht los)",
+          "„Das Seil lief durch ihre Hände, rau und vertraut“ (sachlicher Unsinn bei einer Elb-Seilfähre: man zieht eine solche Fähre nicht mit bloßen Händen am Stahlseil über den Strom)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„„Ist das normal, dass man nichts sieht?“ fragte er.“ (fehlendes Komma nach der wörtlichen Rede)",
+          "„Ilse löste die Leinen wieder und drehte die Fähre.“ (sachlicher Unsinn: eine Seilfähre hängt am Seil und wird für die Rückfahrt nicht gedreht)",
+          "„Der Rückweg dauerte länger, weil die Strömung stärker war.“ (physikalischer Unsinn bei einer Flussquerung von Ufer zu Ufer)",
+          "„Als die Fähre wieder am eigenen Anleger lag, zog sie den Motor zurück“ (unidiomatisch: man drosselt den Motor oder stellt ihn ab, zieht ihn aber nicht zurück)",
+          "„„Nur durch“, antwortete der Mann.“ (unidiomatische Verkürzung statt „Nur auf der Durchreise“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "„Tausende Kilometer Beton und Glas“ (sachlicher Fehler: zwischen Hitzacker und München liegen rund 650 Kilometer, nicht Tausende)",
+          "„in seinem sechzigsten Lebensjahr“ (gestelzte, unnatürliche Formulierung)",
+          "„Es war die Zeit des Tages, in der die Routine ihre maximale Wirkung entfaltete.“ (hohle, bürokratische Phrase, Erklären statt Zeigen)",
+          "„die die Steuerung mit einer Routine bedienten, die an eine religiöse Handlung grenzte.“ (schiefes Bild und Perspektivbruch, da hier die Wahrnehmung des jungen Mannes statt Ilses geschildert wird)",
+          "„Es gab keinen Grund, in die Vergangenheit zu blicken, wenn die Gegenwart eine so präzise Aufmerksamkeit erforderte.“ (papierenes Erklären statt Zeigen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 2,
+        "stil": 2,
+        "aufgabe": 2,
+        "fehler": [
+          "„Ich stand am Steg, die Hände um den Becher Kaffee gewickelt“ (Verstoß gegen die Vorgabe der personalen Erzählperspektive; durchgehend Ich-Form)",
+          "„er sagnte nichts, sondern stellte es einfach ab und setzte sich auf die Sitzbank am Bug, wo man hintradieren konnte“ (Tippfehler „sagnte“; Nonsenswort „hintradieren“)",
+          "„Die Fähre hing in der Schläge“ (grammatisch und lexikalisch sinnlos)",
+          "„Dann klingelte.“ (unvollständiger Satz, es fehlt das Subjekt „es“)",
+          "„nach humus“ (Kleinschreibung des Substantivs; zudem viele weitere absurde Formulierungen wie „Mails schrie“, „Pakete waberten“, „stellte mir eine Scheibe Wurst“)"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c1"
+        ]
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 7785,
+    "out": 1072,
+    "thinking": 0
+  },
+  "costUsd": 0.02629
+}

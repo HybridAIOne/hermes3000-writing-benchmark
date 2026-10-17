@@ -1,0 +1,115 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "B": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "E": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„When she looked again, the pew was empty.“ – Das unvermittelte Verschwinden bedient einen vertrauten Gespenstergeschichten-Effekt und schwächt die geforderte Zurückhaltung.",
+          "„a single paper clip, bent carefully open into the shape of a bird“ – Das Schlussbild wirkt als eigens arrangiertes, bedeutungsschweres Zeichen; es verstärkt den Mystery-Effekt statt die Szene unaufdringlich ausklingen zu lassen.",
+          "„That was the thing she couldn't explain to herself later“ – Der vorausgreifende Erzählerkommentar erklärt und dramatisiert eine Irritation, die das Verhalten bereits vermittelt.",
+          "„the hospital had chosen to offend no one“ – Pauschaler, wertender Kommentar, der die konkrete Wahrnehmung durch eine institutionelle Unterstellung ersetzt.",
+          "„The chapel door was propped open“ bis „the shape of a bird“ – Mit gut 310 Wörtern merklich oberhalb der gewünschten ungefähren Länge; insbesondere der erklärende vorletzte Absatz bietet Kürzungspotenzial."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„But 4 a.m. had its own gravity“ – Eine geläufige poetisierende Formel ersetzt den konkreten Impuls, weshalb Marisol eintritt.",
+          "„A lot of people had died in this building. That was the simple arithmetic of the place.“ – Der zweite Satz deutet die bereits verständliche Feststellung noch einmal aus und verleiht ihr etwas demonstrativ Aphoristisches.",
+          "„a raincoat dry despite the storm outside“ – Konventionelles Unheimlichkeitssignal; die Fremde wird dadurch früh als möglicherweise übernatürliche Erscheinung markiert, obwohl die Gesprächsdetails subtiler wirken."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„His face was familiar the way faces from a bus or a checkout line are familiar“ – Die unmittelbare Wiederholung von „familiar“ macht den ansonsten präzisen Wahrnehmungssatz etwas schwerfällig.",
+          "„She had seen people sit like that a thousand times.“ – Konventionelle Übertreibung; die anschließende konkrete Beobachtung der Angehörigen ist stärker und macht diese Einleitung weitgehend entbehrlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„the pilot light of an unlit votive flickered […] its wick charred down“ – Sachlich und begrifflich unstimmiges Schlussbild: Eine Votivkerze hat einen Docht, aber keine „pilot light“; zugleich wird sie als unangezündet bezeichnet, während offenbar eine Flamme flackert.",
+          "„The bag was empty at three.“ – Die einzige konkrete Uhrzeit bezeichnet ein früheres Ereignis. Dass die Begegnung um vier Uhr morgens stattfindet, wird nicht etabliert.",
+          "„his spine curved from decades of looking down at small engines or ditch lines“ – Aus dem sichtbaren Körper wird unvermittelt eine jahrzehntelange Arbeitsbiografie abgeleitet. Anders als bei „A family member, probably“ ist die Vermutung nicht klar als solche markiert.",
+          "„his joints popping with the dry snap of kindling“ – Auffällig zugespitzter Vergleich, der das Aufstehen akustisch überzeichnet und der geforderten Zurückhaltung entgegenarbeitet.",
+          "„the skin there greyed with grain dust or concrete residue“ – Die alternativen Materialbestimmungen erzeugen eher ausgestellte Detailfülle als eine präzise Beobachtung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„The chapel was empty“ / „A man was sitting in the third row.“ – Widerspruch innerhalb derselben Eingangssituation. Eine zunächst irrtümliche Wahrnehmung wird nicht kenntlich gemacht.",
+          "„The chapel was empty“ bis „into the beige carpet“ – Mit rund 180 Wörtern deutlich unter dem Richtwert von etwa 250; insbesondere nach der Namensnennung bleibt die Begegnung nur knapp entwickelt.",
+          "„It wasn't a question.“ – Abgegriffener und hier überflüssiger Nachsatz: „You're Yvonne“ ist bereits eindeutig als Feststellung formuliert.",
+          "„let the quiet reset her“ – Abstrakte, geläufige Erholungsformel anstelle einer individuellen Wahrnehmung oder Handlung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "E",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2084,
+    "out": 2214,
+    "thinking": 1024
+  },
+  "costUsd": 0.026308
+}

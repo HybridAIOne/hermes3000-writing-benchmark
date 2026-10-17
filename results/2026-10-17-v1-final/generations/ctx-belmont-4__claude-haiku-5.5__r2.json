@@ -1,0 +1,18 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "claude-haiku-5.5",
+  "run": 2,
+  "text": "Der Schlitten kommt gegen Abend, als das Licht über dem Belmontpass schon blau geworden ist. Elise steht am Fenster des Ganges im ersten Stock, die Stirn an das Glas gelehnt, und sieht zu, wie das Gespann zwischen den Schneewänden hervortaucht. Der Pferdeatem steht in Wolken vor den Nüstern. Am Kutschbock sitzt ein Mann in einem Mantel, der bis zu den Knöcheln reicht, und das Licht der Laterne fängt sich in seinem Gepäck, Lederkoffer, zwei Kisten, eine Schreibmappe, die er mit beiden Armen gegen die Brust drückt, als wäre sie das Einzige, was er mitgebracht hat.\n\nDie Scheibe ist so kalt, dass ihr Atem an den Rändern gefriert. Sie wischt mit dem Ärmel eine Stelle frei und sieht, wie der Mann absteigt, zögert, den Blick den Hang hinauf richtet, zum Haus, zu den dunklen Fenstern des Ostflügels, die man von vorn nicht sehen kann und die sie doch in jedem Traum sieht. Dann dreht er sich weg.\n\nUnten im Vestibül riecht es nach Karbol und nassem Wollstoff. Hedwig Goss steht in der Küchentür, die Schürze mit Mehl bestäubt, die Hände in ein Tuch gewickelt. Sie hat den Kopf schräg gelegt, so wie sie ihn immer schräg legt, wenn sie hören will, und Elise weiß inzwischen, dass es das linke Ohr ist, das sie zur Tür dreht.\n\n»Der Pass war seit Mittag zu«, sagt Frau Goss, ohne aufzublicken. »Der Bote hat's nur geschafft, weil er die alte Route über die Lichtung nahm. Eine Hand voll Schnee, die man nicht sieht, und man liegt drin.« Sie reibt die Hände am Tuch. »Und so einer kommt mit Koffern. Im Dezember. Man sieht das Gesicht nicht, aber den Mantel kennt man. Leder, bis hinab zu den Knien. Die Sorte Mann, die Fragen stellt, bevor er sich setzt.«\n\n»Woher wissen Sie, wer es ist?«\n\nFrau Goss zuckt die Schultern. »Ich weiß, wer kommt. Ich weiß nicht, warum.« Sie sieht Elise einen Herzschlag lang an, ein Blick, der wie eine Frage gebaut ist, und geht in die Küche zurück, ehe Elise eine Antwort findet.\n\nDas Vestibül ist leer. Die Messinggeländer glänzen schwach, und in der Stille hört sie das Tropfen der Heizungsrohre, das sie in den ersten Nächten für Schritte gehalten hat. Ihr Medaillon liegt kalt auf dem Brustbein. Sie hält es mit zwei Fingern fest, wie sie es seit Wochen tut, und denkt an die Fotografie darin: zwei Kinder, nebeneinander, ein Bild, das sie nicht mehr deutlich sieht, weil sie es zu oft angeschaut hat.\n\nWer ist der Mann?, denkt sie, und die Frage hat etwas Befreiendes. Sie richtet sich nach außen. Auf den Pass, auf den Mantel, auf die Koffer, die Fremden, die nicht hierhergehören. Es ist leichter, nach einem Fremden zu fragen, als nach sich selbst, leichter, Schuld in einem Gesicht zu suchen, das sie nicht kennt, als in dem eigenen, das ihr im Spiegel des Waschraums so unbekannt begegnet.\n\nOben im Gang schlägt eine Tür. Dann Schritte, schwer und unregelmäßig, der Rhythmus eines Stocks, der auf Holz trifft. Sie kennt diesen Schritt. Sie kennt ihn aus dem Behandlungszimmer, aus der Stille, bevor der Vorhang sich bewegt.\n\nElise tritt vom Fenster zurück. Sie hält das Medaillon fest und wartet, bis die Schritte die Treppe erreichen, und sie denkt, mit einer Klarheit, die sie erschreckt: Dieser Mann ist nicht gekommen, um zu bleiben. Und irgendetwas in diesem Haus hat ihn gerufen.",
+  "usage": {
+    "in": 9297,
+    "out": 2212,
+    "thinking": 618
+  },
+  "costUsd": 0.0020357,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 13433,
+  "meta": [],
+  "at": "2026-10-17T17:38:57.523Z"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "The chapel door was propped open, which it never was. Dana almost kept walking — the med cart on 4-West had a sticky drawer she wanted to fix before five — but someone was in the third pew, and at four in the morning that was her business.\n\nHe was maybe sixty, in a canvas jacket that smelled faintly of cold air. Not a patient. No wristband, no gown under the coat. He sat with his hands flat on his knees like a man waiting for a bus.\n\n\"Sir, the chapel's for family of patients after midnight.\"\n\n\"I know.\" He didn't turn around. \"You're Dana Okonkwo. You work nights because the differential pays for your mother's aide.\"\n\nShe stopped one step inside the door. The exit sign hummed. Somewhere above them a floor buffer started up, then stopped.\n\n\"I don't know you.\"\n\n\"No,\" he agreed, as if she'd said something reasonable. He looked at the altar, or at the wall behind it — there was no cross, just a wooden panel the hospital had chosen to offend no one. \"You have a good voice when you think the rooms are empty. The man in 418 asked me to tell you that.\"\n\n\"418 is unresponsive. He's been unresponsive for three weeks.\"\n\n\"I know that too.\"\n\nDana's hand found the radio at her shoulder and then let go of it. Security would take twenty minutes. The man wasn't bothering anyone. That was the thing she couldn't explain to herself later — that she stood there calculating response times like this was a fall risk and not a stranger saying her name in the dark.\n\nWhen she looked again, the pew was empty.\n\nOn the cushion he'd left a single paper clip, bent carefully open into the shape of a bird.",
+  "usage": {
+    "in": 139,
+    "out": 396,
+    "thinking": 27
+  },
+  "costUsd": 0.004769939999999999,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Wafer",
+  "latencyMs": 5064,
+  "meta": [],
+  "at": "2026-10-17T17:20:45.431Z"
+}

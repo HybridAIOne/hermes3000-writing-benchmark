@@ -1,0 +1,139 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "B": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "grok-4.3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "\"Die Genossenschaft arbeitet nicht auf Gewinnmaximierung aus\" – falsche Wendung (richtig: \"ist nicht auf Gewinnmaximierung ausgerichtet\" oder \"arbeitet nicht auf … hin\")",
+          "\"Ein privat gewinnorientierter Betreiber hätte an dieser Strecke vermutlich kaum Interesse\" – grammatisch schief (\"privater, gewinnorientierter\") und eine Spekulation ohne Quellenbeleg",
+          "Der Absatz \"Warum ist die Genossenschaft für diese Fähre die passende Rechtsform?\" zählt zunächst technische Daten auf (212 Meter, sieben Minuten, 85 kW), die die Frage nicht beantworten.",
+          "\"Bei der Hitzacker Fähre\" – Durchkopplung fehlt (\"Hitzacker-Fähre\" oder \"Hitzackerer Fähre\")",
+          "\"Ein lebendiges Beispiel dafür\" – Floskel"
+        ],
+        "unsupported": [
+          "\"gründeten kurzerhand ihren eigenen Fährbetrieb\"",
+          "\"Ein privat gewinnorientierter Betreiber hätte an dieser Strecke vermutlich kaum Interesse\"",
+          "\"eine öffentliche Trägerschaft hatte sich bereits 1953 zurückgezogen\"",
+          "\"ein Ziel, an dem alle Mitglieder ein gemeinsames Interesse haben\""
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "\"werden Erträge nicht an externe Anteilseigner ausgeschüttet, sondern der Sache zugutekommen\" – grammatisch falsch (richtig: \"sondern kommen der Sache zugute\")",
+          "\"dass jede Einnahme unmittelbar in die Erhaltung und Modernisierung der Fähre zurückfließt\" – widerspricht der Quelle, nach der nur die Überschüsse in die Rücklage fließen",
+          "\"dass genau jene, die die Überfahrt benötigen, auch die Entscheider sind\" – unbelegte Behauptung",
+          "\"die Meinungen der Mehrheit überstimmen\" – schiefe Formulierung, überstimmt werden Personen, nicht Meinungen",
+          "Die Technikangaben im zweiten Absatz stehen isoliert vor der Erklärung, wie eine Genossenschaft funktioniert."
+        ],
+        "unsupported": [
+          "\"nicht mit resigniertem Warten\"",
+          "\"unverzichtbare Infrastruktur für den Alltag der Menschen auf beiden Ufern\"",
+          "\"dass genau jene, die die Überfahrt benötigen, auch die Entscheider sind\"",
+          "\"dass jede Einnahme unmittelbar in die Erhaltung und Modernisierung der Fähre zurückfließt\""
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Der Einstieg mit Flussbreite und Motorleistung verzögert die Erklärung, wie eine Genossenschaft funktioniert.",
+          "\"Die Rücklage hat ein konkretes Ziel: …\" – Ein-Satz-Absatz, der den Textfluss unnötig unterbricht",
+          "\"Sie hatten ein gemeinsames Interesse: Die Verbindung über den Fluss sollte erhalten bleiben.\" – naheliegende, aber nicht belegte Ausdeutung"
+        ],
+        "unsupported": [
+          "\"Die Verbindung über den Fluss sollte erhalten bleiben\" (Motiv der Gründer)",
+          "\"eine Einrichtung, die der Region dient\""
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "\"gründeten 1953 41 Landwirte\" – zwei Zahlen direkt hintereinander erschweren das Lesen",
+          "\"getragen von denen, die sie betreiben und nutzen\" – unbelegte Gleichsetzung von Mitgliedern und Nutzern",
+          "\"entwickelt sich so Schritt für Schritt weiter\" – Füllformulierung",
+          "\"Der Betrieb ist für Menschen auf beiden Seiten des Flusses wichtig und muss dauerhaft laufen.\" – Behauptung ohne Quellenbeleg"
+        ],
+        "unsupported": [
+          "\"muss dauerhaft laufen\"",
+          "\"getragen von denen, die sie betreiben und nutzen\""
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"seither treibt ein 85-kW-Dieselmotor sie an\" – Die Quelle sagt nur \"heute\", nicht \"seit 1978\".",
+          "\"die selbst auf die Überfahrt angewiesen sind oder vom Tourismus profitieren\" – unbelegt",
+          "\"Jedes erwirbt mindestens einen Anteil\" – elliptisch und holprig",
+          "\"nachhaltig zu modernisieren\", \"kurzfristigen Gewinninteressen\" – Buzzwords",
+          "Der erste Absatz übernimmt das Quellmaterial fast wörtlich und erklärt für Laien kaum etwas."
+        ],
+        "unsupported": [
+          "\"seither treibt ein 85-kW-Dieselmotor sie an\"",
+          "\"die selbst auf die Überfahrt angewiesen sind oder vom Tourismus profitieren\"",
+          "\"eine wichtige regionale Verbindung\"",
+          "\"unverzichtbare Infrastruktur\""
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "B",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 7049,
+    "out": 3747,
+    "thinking": 1712
+  },
+  "costUsd": 0.103136
+}

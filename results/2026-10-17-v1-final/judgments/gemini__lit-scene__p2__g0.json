@@ -1,0 +1,113 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Auf dem Küchentisch stand ein Glas mit einem fingerbreit Wasser. [Großschreibung: Fingerbreit; zudem wäre das Wasser nach Wochen des Leerstands und der Bestattungsabwicklung längst verdunstet]",
+          "unten weit genug ausgestellt, dass man beim Vorbeigehen daran streifte. [Schiefe Konstruktion: 'so weit ausgestellt, dass' oder 'weit genug ..., um daran zu streifen']"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "Er war schwerer, als sie ihn in Erinnerung hatte, oder ihre Hand war leichter geworden. [Prätentiöse Pseudopoesie]",
+          "die Fensterläden geschlossen wie Lider [Abgegriffenes Klischee]",
+          "die Uhr über der Tür, die stehen geblieben war um zwanzig nach vier [Abgegriffenes Motiv]",
+          "nur nicht als diejenige, die sie geworden war. [Erklärende Floskel statt sinnlicher Darstellung]"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Sie konnte die Schrift von hier aus nicht lesen. Sie wusste trotzdem, dass es die ihrer Mutter war. [Antiklimaktische Pointe, da im Satz zuvor bereits erklärt wurde, dass die Mutter alle Gläser beschriftet hat]",
+          "und nach etwas darunter, das sie nicht sofort fand. [Ungelenke Metaphorik: einen Geruch 'unter' einem anderen 'finden']"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "mit dem Daumen gegen den Bart drücken [Schiefe Mechanik: Der Bart steckt im Schloss, man drückt gegen die Reide/den Griff]",
+          "Auf der Fensterbank lag ein trockenes Blatt, vom Wind oder von einer Hand dorthin getragen. [Unfreiwillig komische Dramatisierung eines welken Blattes]",
+          "Der Staub teilte sich, und unter ihm kam ein schmaler, heller Halbkreis zum Vorschein. Sie wusste nicht, ob er von einer Tasse stammte. [Unlogisch: Ein Tassenrand hinterlässt einen Abdruck im Staub oder einen Fleck im Holz, keinen sauberen Halbkreis unter einer Staubschicht]",
+          "wie etwas, das sich erst erinnern musste, wie man fließt. [Kitschige Personifikation]"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "Es war die, mit der ihre Mutter früher immer die Gartenerde – und einmal auch etwas ganz anderes – unter den Fingernägeln hervorgeschrubbt hatte. [Plumper Holzhammer-Teaser auf Kolportage-Niveau]",
+          "Im spröden Grün war noch immer der Daumenabdruck ihrer Mutter eingeprägt [Sachlich kaum möglich bei benutzter, nasser und dann steinhart getrockneter Seife]",
+          "Das dumpfe Geräusch auf den Dielen ... schnitt blasse Trapeze in den Staub auf dem Parkett. [Kontinuitätsfehler beim Bodenbelag innerhalb von zwei Sätzen]",
+          "wo das abgedeckte Klavier wie ein gestrandetes Tier im Halbdunkel kauerte. [Überstrapaziertes Klischee; zudem Perspektivfehler, da sie den Raum gar nicht betritt]",
+          "roch sie es: unter dem Staub [Kleinschreibung nach Doppelpunkt bei folgendem Hauptsatz]"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3228,
+    "out": 1027,
+    "thinking": 0
+  },
+  "costUsd": 0.016726
+}

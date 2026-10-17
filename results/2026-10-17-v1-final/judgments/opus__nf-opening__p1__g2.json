@@ -1,0 +1,120 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "Vier Absätze statt eines Einstiegsabsatzes: „Du hattest dir vorher zurechtgelegt …“ beginnt bereits einen zweiten Absatz.",
+          "Mit rund 280 Wörtern leicht über dem Umfang.",
+          "„Die meisten Führungskräfte, die ich kenne“ führt eine Ich-Erzählerin ein, die im Buchrahmen nicht etabliert ist.",
+          "„wie du solche Gespräche vorbereitest, führst und danach nicht bereust“ ist eine holprige Reihung, weil „bereust“ syntaktisch nicht zu den übrigen Verben passt.",
+          "„Es geht um Klarheit, um den Mut …“ liegt nah an einer Floskel."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "Floskelhafte Bilder statt Praxis: „die wahre Feuerprobe“, „begibst du dich auf dünnes Eis“.",
+          "„ein handfester Konflikt geworden ist, der die Stimmung in der gesamten Abteilung vergiftet“ ist ein Klischee.",
+          "Perspektivbruch: „Deshalb schieben wir solche Gespräche vor uns her“ mitten in der Du-Ansprache.",
+          "„ob dein Team dich als echte Führungskraft akzeptiert“ ist pathetisch zugespitzt.",
+          "Die Vorwegnahme „Er wird sofort dichtmachen …“ wird erzählt statt gezeigt und verkürzt die Szene."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„fragt, ob du auch so einen Kaffee willst“ ist leicht unklar, denn bisher ist kein Kaffee erwähnt.",
+          "Mit rund 270 Wörtern knapp über dem Umfang.",
+          "„Dann bist du in guter Gesellschaft.“ ist eine geläufige Floskel.",
+          "Der Titelbezug „Führen ohne Titel“ klingt nur indirekt an („gestern noch selbst einer von ihnen“)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "Mit rund 300 Wörtern deutlich zu lang.",
+          "Der Text nimmt im Einstieg schon Kapitelinhalt vorweg: „In Ruhe kannst du sagen, was passiert ist, welche Folgen es … hatte und was du künftig brauchst.“",
+          "„Was also tun?“ ist ein Füllsatz.",
+          "Die dreifache Anapher „vielleicht fehlt ihm etwas, vielleicht hat er …, vielleicht hält er …“ wirkt schematisch.",
+          "„Zunächst brauchst du keinen besonders geschickten Satz, sondern einen Termin“ ist ein umständlicher Übergang."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "Mit rund 310 Wörtern deutlich zu lang.",
+          "„Die zehn Minuten sind vorbei“: Der Zeitrahmen wurde vorher nicht eingeführt.",
+          "„Solche Momente gehören zum Führungsalltag.“ ist ein allgemeiner Füllsatz.",
+          "Der Text nimmt im Einstieg schon die Methode vorweg: „was du beobachtet hast, warum es wichtig ist und was sich ändern soll“.",
+          "„schiebt man sie gern auf“ wechselt von der Du-Ansprache ins unpersönliche „man“."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "E",
+      "A",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 5243,
+    "out": 2237,
+    "thinking": 870
+  },
+  "costUsd": 0.065712
+}

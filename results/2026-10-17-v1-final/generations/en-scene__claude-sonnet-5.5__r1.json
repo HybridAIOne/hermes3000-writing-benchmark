@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "At ten to four, Ines took the long way back from the sluice room, past the chapel, because the corridor lights there ran on a motion sensor and she liked the small courtesy of them coming up for her.\n\nThe door was propped open with a rubber wedge. Inside, a man sat in the second pew with his coat still buttoned, hands hanging between his knees. No visitor's lanyard. No patient's band.\n\n\"You can't really be in here after,\" she began, though no one had ever said after what.\n\n\"Ines,\" he said. It wasn't a question. His voice was pleasant and a little hoarse, as if he'd been saying it silently for some time.\n\nHer badge hung turned against her hip, the way she wore it on nights, photo facing in. She did not touch it.\n\n\"Do I know you?\"\n\n\"No.\" He looked toward the front of the room, where there was a table with a cloth, a vase of silk lilies, and a window of frosted glass that wasn't a window at all, only a lightbox. \"I'm not here for anything. I wanted to sit somewhere that was awake.\"\n\nShe should call security. She thought of Mr. Adeyemi in 12, whose pump would alarm at four-fifteen. She thought of the phone in her pocket, the weight of it.\n\n\"Ten minutes,\" she said.\n\nHe nodded. She stayed in the doorway. Behind her the corridor light timed out, and the room settled into the color of the lightbox, a flat, steady white, the silk lilies throwing no shadow at all.",
+  "usage": {
+    "in": 91,
+    "out": 1148,
+    "thinking": 674
+  },
+  "costUsd": 0.011662,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 10388,
+  "meta": [],
+  "at": "2026-10-17T17:45:33.854Z"
+}

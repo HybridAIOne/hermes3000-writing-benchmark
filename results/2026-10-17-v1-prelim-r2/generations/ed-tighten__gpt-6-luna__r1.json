@@ -1,0 +1,18 @@
+{
+  "task": "ed-tighten",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "Wer heute mit dem Fahrrad den Elberadweg entlangfährt und bei Hitzacker auf die andere Flussseite möchte, kommt an der kleinen Seilfähre kaum vorbei. Viele wissen nicht, dass dahinter eine Genossenschaft steht, die es seit 1953 gibt. Damals wollte der Landkreis den Fährbetrieb nicht weiterführen. Deshalb schlossen sich 41 Landwirte und Händler von beiden Elbseiten zusammen, um die für Alltag und Geschäfte unverzichtbare Fähre selbst zu betreiben. Heute zählt die Genossenschaft insgesamt 312 Mitglieder. Ein Anteil kostet 250 Euro. In der Generalversammlung hat jedes Mitglied genau eine Stimme, unabhängig von der Zahl seiner Anteile. Bei normalem Wasserstand dauert die Überfahrt etwa sieben Minuten. Jährlich bringt die Fähre rund 64.000 Menschen über den Fluss; im Sommer sind es vor allem Radfahrerinnen und Radfahrer. Gewinne werden nicht ausgeschüttet, sondern fließen vollständig in eine Rücklage. Damit möchte die Genossenschaft bis 2031 einen Elektroantrieb für die Fähre finanzieren.",
+  "usage": {
+    "in": 384,
+    "out": 760,
+    "thinking": 521
+  },
+  "costUsd": 0.0004184,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 7240,
+  "meta": [],
+  "at": "2026-10-17T17:18:27.198Z"
+}

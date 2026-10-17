@@ -1,0 +1,118 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Er roch nach Rasierwasser und der klimatisierten Luft aus dem ICE.“ – widerspricht „ich nehme den Mietwagen für den Rest der Strecke“",
+          "„Ich zieh mich an“ – als Antwort auf die Kältefrage unidiomatisch, gemeint ist „warm an“",
+          "„ratterten ohrenbetäubend über das geriffelte Eisenblech“ – Übertreibung",
+          "„Zu dick für einen bloßen Wochenendbesuch.“ – erklärt, was das Bild schon zeigt",
+          "Mit rund 520 Wörtern deutlich über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Die Fähre hält nicht ewig“ – rückt sehr nah an das Verkaufsthema heran, das noch nicht angesprochen werden soll",
+          "„eher so, wie Männer lachen, wenn sie merken, dass sie ein Spiel schon verloren haben“ – verallgemeinernde Floskel",
+          "„Er hatte nie begriffen, dass man an einer Fähre nichts reparieren lassen konnte, ohne dass sich danach alles andere veränderte.“ – Erklärung statt Szene, zudem vage",
+          "„feine Risse wie auf altem Porzellan“ / „als hätte sie keine Eile“ – abgegriffene Bilder",
+          "„Die Klappe des Fährhauses stand offen.“ – eine Klappe passt nicht zu einem Haus; zudem redet die wortkarge Ilse am Schluss auffällig viel"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„sah auf den Becher in ihrer Hand“ – sie hält zu diesem Zeitpunkt die Kanne, den Becher nimmt sie erst danach",
+          "„Er hatte sich nicht verändert, und doch war alles an ihm anders.“ – Klischee",
+          "„aber er tat nicht so“ – unklar und unidiomatisch",
+          "„und sie ließ Jonas nicht merken, dass sie es hörte“ – logisch schief"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Hinter ihm wartete der Bäckerwagen.“ – taucht unvermittelt auf, die Abfolge von Auffahrt und Abfahrt bleibt unklar",
+          "Durchgehend sehr kurze Sätze – stellenweise wird das zur Masche",
+          "„Im Steuerhaus ist es trocken“ – als Schlussentscheidung recht leise"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Sie löste die Leine wieder vom Poller.“ vs. später „prüfte die Leine. Der Knoten saß.“ – Logikbruch",
+          "„zog den Reißverschluss seiner Jacke“ vs. „Der Regen hatte seinen Mantel dunkel gemacht“ – Inkonsistenz",
+          "„strich sich mit dem Handrücken über die Stirn, obwohl es regnete“ – unlogisches „obwohl“",
+          "„Den Ersatzschlüssel ließ sie dort liegen. Den Haustürschlüssel nahm sie heraus.“ – die Schlussentscheidung bleibt unverständlich",
+          "„Ilse hätte ihm sagen können … Sie hätte sagen können …“ – Wiederholungsmasche"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "B",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 8032,
+    "out": 3892,
+    "thinking": 2550
+  },
+  "costUsd": 0.109968
+}

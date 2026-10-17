@@ -1,0 +1,95 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„in dem etwas Klirrte“ (Rechtschreibfehler: „klirrte“ muss kleingeschrieben werden)",
+          "„Sie zog den Fähranleger aus dem Schilf, Seil um Seil, bis die Plattform knarrend an das Ufer stieß.“ (Sachfehler/Begriffsverwirrung: Der Anleger ist die feste Uferkonstruktion, gemeint ist die Fähre bzw. der Fährprahm; zudem zieht kein Mensch allein eine Elbfähre von Hand gegen die Strömung über den Strom)",
+          "„Fahr dich rüber nach Hause, Meinke“, sagte Ilse, obwohl die Meinke ja gerade erst hier war (Unidiomatischer, unverständlicher Satz und grober Logikbruch in der Raumorientierung: Die Meinke wollte nach Hitzacker zum Getränkemarkt, ist gerade ausgestiegen und schleppt noch ihr Leergut)",
+          "„Neunundachtzig warst du mal krank.“ – „Da war ich neun.“ (Rechenfehler: Wenn Ilse in der Gegenwart 61 Jahre alt ist, war sie im Jahr 1989 nicht neun, sondern Mitte zwanzig; falls das Alter 89 gemeint sein sollte, ergibt es bei einer 61-Jährigen ebenfalls keinen Sinn)",
+          "„ein einzelner Baum, der davor stand“ (Kasusfehler: Die Apposition zu „eine dunklere Linie“ im Akkusativ müsste „einen einzelnen Baum“ lauten)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Drüben auf der Hitzacker-Seite wartete niemand; sie konnte den Anleger durch das Fernglas sehen ... Leer. Nur die Weiden und das Kopfsteinpflaster, das im Nieselregen glänzte.“ (Kontinuitätsbruch: Zuvor herrschte dichtester Nebel, eine „weiße Suppe“, die das Ufer komplett verschluckte; ohne Erwähnung, dass der Nebel sich gelichtet hat, kann sie nicht plötzlich mit dem Fernglas über die gesamte Elbe bis aufs Pflaster blicken)",
+          "„musste mit der Hartholzlappe aufs Kabel dreschen“ (Fragwürdige Wortwahl: „Hartholzlappe“ existiert fachsprachlich nicht, gemeint ist wohl eine Hartholzlatte oder -klappe)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Er würde von Immobilienpreisen reden, vom Winter, der vor der Tür stand, davon, dass das Haus am Deich zu groß für sie allein war und die Fähre sich nicht mehr rechnete. Er würde mit seiner ruhigen, geschulten Beraterstimme auf sie einreden ...“ (Leichter Verstoß gegen die Vorgabe „ohne Rückblenden-Exposition“: Hier wird der gesamte Hintergrundkonflikt mit dem Sohn erklärend als Block eingeschoben)",
+          "„drehte den Zündschlüssel und drückte den Starterknopf ... stellte die Gierwinden ein ... Den Rest erledigte die Elbe.“ (Technischer Widerspruch im Text: Erst wird ein schwerer Dieselmotor gestartet, der das Schiff antreibt, im nächsten Absatz ist es plötzlich eine reine Gierseilfähre, die nur von der Strömung geschoben wird)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "„Sie hatte den Motor schon vor zehn Minuten angelassen ... Um diese Zeit war der Fluss am stillsten. Kein Wind, kein Vogel, nur das leise Klatschen des Wassers gegen den Rumpf.“ (Logikbruch: Wenn auf der Fähre seit zehn Minuten ein Schiffsdiesel läuft, herrscht dort keine Stille, in der man nur das Wasser klatschen hört)",
+          "„irgendwo über ihr, in der Nebeldecke, war der erste Laut des Tages: ein Boot, das die Elbe überquerte, ohne dass jemand das Ufer sehen konnte.“ (Logik- und Bildbruch: Warum ist das Boot „über ihr in der Nebeldecke“? Und wie hört man einem Boot an, dass niemand das Ufer sehen kann?)",
+          "„Der Nebel schlug ihr feucht ins Gesicht, legte sich auf ihre Haut wie eine zweite Haut.“ (Stilblüte und ungeschickte Wortwiederholung von „Haut“)",
+          "„Ihr Handy summte. ... Sie drückte das Display aus und legte das Handy zurück in die Tasche. Es summte noch einmal. Dann war es still.“ (Unklare Umsetzung der Vorgabe: Zweimaliges kurzes Summen beschreibt den Eingang von Textnachrichten, keinen Telefonanruf)",
+          "„Der Kaffeeautomat zischte.“ (Atmosphärischer Bruch: Ein zischender Kaffeeautomat passt kaum in das enge, kalte Steuerhäuschen einer alten Seilfähre)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 7867,
+    "out": 1298,
+    "thinking": 0
+  },
+  "costUsd": 0.028714
+}

@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "At 4:07, Mara found a man sitting in the chapel with his coat folded across his knees.\n\nThe room was lit by a square of fluorescent light over the sink. The votive candles were electric, each with a small orange bulb. He looked about sixty, though the hospital blanket over his shoulders made it hard to tell.\n\n“You can’t sleep here,” she said.\n\n“I wasn’t sleeping.”\n\nHis eyes moved to her badge. “Mara.”\n\nShe put one hand over the plastic. “Do I know you?”\n\n“No.”\n\nThe monitor at the nurses’ station sounded twice, then stopped. In the chapel, a paper cup sat on the floor beside his shoe. He had pressed its rim flat.\n\n“Are you waiting for someone?” she asked.\n\nHe considered this. “I think so.”\n\nMara had heard versions of that answer all night. People waiting for scans, for transport, for a doctor to come back and finish a sentence. She pulled the chapel door open wider.\n\n“Tell me their name. I can check.”\n\nHe shook his head. “I only know yours.”\n\nShe looked again at his face, trying to place it among the patients’ relatives she’d guided down these corridors. The man stood carefully, as if the floor might shift. He left the blanket on the chair.\n\nAt the door he paused beside her. His sleeve smelled faintly of rain.\n\nMara watched him go toward the elevators. The doors were open, the car empty. He stepped inside and turned to face her.\n\nWhen they closed, she noticed the cup he’d left behind. A bead of water had gathered in its dented bottom, holding the orange chapel lights upside down.",
+  "usage": {
+    "in": 59,
+    "out": 404,
+    "thinking": 54
+  },
+  "costUsd": 0.0002079,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 5971,
+  "meta": [],
+  "at": "2026-10-17T17:18:34.201Z"
+}

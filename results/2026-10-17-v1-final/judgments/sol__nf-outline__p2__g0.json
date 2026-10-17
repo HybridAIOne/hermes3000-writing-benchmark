@@ -1,0 +1,108 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Verantwortung zu delegieren“ in Kapitel 5 steht vor „klare Ziele“ in Kapitel 6. Für einen konsequent aufbauenden Praxisleitfaden sollten die Ziele vor der Aufgabenübertragung geklärt werden.",
+          "„Du hast die Rolle bekommen, bevor dir jemand erklärt hat, was sie bedeutet“ wiederholt zunächst die Ausgangslage der Zielgruppe. Der ohnehin lange Beschreibungssatz würde durch einen direkten Einstieg in die angekündigten Handlungsschritte gewinnen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Schaffe verlässliche Abläufe im Team“ kommt als Kapitel 8 spät: Besprechungs- und Rückmelderoutinen bilden bereits für Arbeitsplanung, Delegation und Problembearbeitung eine Grundlage.",
+          "„Du findest einen guten Einstieg“ bleibt als Beschreibung des ersten Kapitels zu allgemein. Welche konkreten ersten Schritte das Kapitel vermittelt, wird nicht deutlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„obwohl du weder Gehälter erhöhen noch Abmahnungen schreiben darfst“ setzt Befugnisgrenzen voraus, die sich aus der beschriebenen Zielgruppe nicht ergeben. Ein frühes Kapitel zur Klärung des tatsächlichen Auftrags fehlt.",
+          "„warum du nicht mehr der beste Sachbearbeiter sein darfst“ formuliert ein unbegründetes Verbot und verengt die Zielgruppe auf Sachbearbeitung. Gemeint sein dürfte, dass eigene Fachleistung nicht mehr die erste Priorität hat.",
+          "„vom sturköpfigen Urgestein […] bis zum fordernden Berufseinsteiger“ ersetzt eine differenzierte Beschreibung der Teammitglieder durch stereotype Zuschreibungen.",
+          "„Sagen, was Sache ist“ und „Führen ohne Machtwort“ sind nicht sauber getrennt: Klare Ansagen, Ziele, Akzeptanz und Verbindlichkeit greifen in beiden Kapiteln ineinander.",
+          "„Verschiedene Köpfe unter einen Hut bringen“ behandelt das Verständnis unterschiedlicher Teammitglieder erst in Kapitel 7. Als Grundlage für Kommunikation und Delegation wäre dieses Thema früher sinnvoller."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„jede Person […] was sie von dir brauchen“ enthält einen Numerusfehler: Der Bezug auf „jede Person“ verlangt „was sie von dir braucht“.",
+          "„Rückmeldung im Tagesgeschäft: Lob und Kritik“ und „Konflikt-, Leistungs- und Konsequenzgespräche“ sind nicht deutlich genug abgegrenzt. Die Beschreibungen müssten alltägliche Rückmeldung und förmliche Problemklärung klarer unterscheiden.",
+          "„gehst danach sauber damit um“ bleibt unbestimmt. Nachbereitung, Dokumentation oder Überprüfung der Vereinbarungen sollten konkret benannt werden.",
+          "„Chef oben, Team unten“ vereinfacht die Vermittlungsrolle zu einem schematischen Oben-unten-Verhältnis und ist weniger präzise als die zugehörige Kapitelbeschreibung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "B",
+      "A",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2675,
+    "out": 1375,
+    "thinking": 489
+  },
+  "costUsd": 0.0191
+}

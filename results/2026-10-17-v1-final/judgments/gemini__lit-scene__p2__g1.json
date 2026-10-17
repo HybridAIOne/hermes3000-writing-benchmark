@@ -1,0 +1,110 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„während das Haus um sie herum plötzlich den Atem anzuhalten schien.“ – Abgegriffenes Genre-Klischee am Schluss.",
+          "„Das Haus hatte Helga schneller vergessen, als Vera es je gekonnt hatte.“ – Behauptendes Erklären (Tell), zudem unlogisch angesichts des Mantels und der Kaffeetasse, die noch genau so dastehen.",
+          "„Im Ausguss, direkt neben einem steinhart getrockneten Schwamm, klebte ein bläulich-grüner Schmierfilm. Terpentin. Und preußischblaues Öl.“ – Der Plot-Twist wirkt sehr konstruiert und reißt den Text aus dem literarischen Roman in Richtung Krimi-Kolportage."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„auf dem in Kugelschreiber *Haus Brandt* stand“ – Unidiomatisch; im Deutschen steht etwas „mit Kugelschreiber“ geschrieben.",
+          "„Hinter ihr tropfte nichts. Das Wasser war ja abgestellt. Trotzdem drehte sie sich um.“ – Der Schlusseffekt ist etwas bemüht auf unheimlich getrimmt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Ihre Mutter hatte jeden Abend davon genommen, jeden Abend, zwanzig Jahre lang, hatte es im Flur nach Rosen gerochen, wenn sie die Treppe heraufkam.“ – Schwerer Logikbruch zur Prämisse: Wenn die Tochter zwanzig Jahre nicht im Haus war, kann sie das unmöglich wissen oder erlebt haben.",
+          "„der Deckel mit einem Film aus Staub überzogen. [...] Die Creme war unberührt“ – Unstimmig: Warum kauft die Mutter eine neue Dose, die dann unberührt verstaubt, wenn sie sie doch angeblich jeden Abend benutzt hat?",
+          "„Sie hatte gedacht, die Zeit würde sich wie eine Strecke anfühlen, die man zurücklegt. Stattdessen stand alles noch an seinem Platz, als hätte es nur auf sie gewartet, und die einzige Veränderung war die, die sie selbst mitgebracht hatte.“ – Ausbuchstabierte Moral am Ende (Tell statt Show)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„An der Wand hing noch der Kalender, ein Monat im Jahr, das sie nicht mehr wusste.“ – Sinnwidrig und ungelenk formuliert: Wenn der Kalender vor ihrer Nase hängt, steht das Jahr darauf, oder sie erkennt es nicht; man „weiß“ ein sichtbares Kalenderblatt nicht „nicht mehr“.",
+          "„Im Becken lag ein kleiner weißer Knopf, vier Löcher, am Rand noch ein Fadenrest. [...] Sie legte ihn auf die Fensterbank, ohne zu wissen, warum.“ – Das geforderte Detail wirkt völlig willkürlich; die Ratlosigkeit der Autorin wird einfach auf die Figur übertragen.",
+          "„Von oben kam ein einzelnes Knacken, als hätte jemand sein Gewicht verlagert. [...] ‚Ich bin’s‘, sagte sie. Das Haus antwortete nicht.“ – Abgedroschene Schauerroman-Versatzstücke."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„**Orangen**“ – Unnötige Überschrift (gefordert war die Eröffnungsszene eines Romans, kein Kurzgeschichtentitel, der zudem die Pointe vorwegnimmt).",
+          "„das Radio auf dem Kühlschrank, dessen Antenne jemand sorgfältig eingefahren hatte.“ – Grammatisch falscher Bezug des Relativpronomens (bezieht sich streng genommen auf den Kühlschrank statt auf das Radio).",
+          "„und horchte ins Haus hinein, das nicht antwortete.“ – Leicht klischeehafte Schlusswendung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "A",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3289,
+    "out": 1108,
+    "thinking": 0
+  },
+  "costUsd": 0.017658
+}

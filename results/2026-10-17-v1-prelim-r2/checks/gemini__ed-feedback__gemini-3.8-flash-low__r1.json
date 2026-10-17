@@ -1,0 +1,20 @@
+{
+  "task": "ed-feedback",
+  "model": "gemini-3.8-flash-low",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "found": [
+      "tempus",
+      "fahrgaeste",
+      "hupe"
+    ],
+    "false_alarms": 2
+  },
+  "usage": {
+    "in": 1216,
+    "out": 56,
+    "thinking": 0
+  },
+  "costUsd": 0.002992
+}

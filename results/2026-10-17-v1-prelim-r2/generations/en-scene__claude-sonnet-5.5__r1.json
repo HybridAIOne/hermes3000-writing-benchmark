@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "The chapel was on the ground floor past the vending machines, a windowless room the hospital had never decided how to furnish. Marit only went in to turn off the lights someone always left on.\n\nTonight a man sat in the third row, coat still buttoned, hands open on his knees as if he'd been handed something and then asked to give it back.\n\n\"Sorry, visiting hours are over,\" she said. \"I can find you a waiting room with a better chair.\"\n\n\"Marit,\" he said.\n\nHer badge had swung around on its lanyard. She could feel the plastic edge against her ribs, blank side out. She waited for the rest of it: a patient's husband, a parent from pediatrics, where she'd floated in March. He looked at her without urgency, the way you look at a street you used to live on.\n\n\"It's all right,\" he said. \"I don't need anything. I wanted to sit somewhere that was awake.\"\n\nShe should have called security. She noted that she should, the way she'd note a pulse slightly off, and then did nothing. The ventilation ticked. On the altar table someone had left a paper cup with an inch of coffee, a skin forming on it.\n\n\"Do you want me to sit with you a minute?\" she heard herself ask.\n\nHe shook his head, not unkindly.\n\nDown the corridor a call light chimed, twice. She stayed where she was. The man turned toward the front of the room, where the lamp over the empty lectern laid a small, steady circle on the carpet, and he watched it as though it were a fire.",
+  "usage": {
+    "in": 91,
+    "out": 1315,
+    "thinking": 846
+  },
+  "costUsd": 0.013332,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 11571,
+  "meta": [],
+  "at": "2026-10-17T17:18:50.823Z"
+}

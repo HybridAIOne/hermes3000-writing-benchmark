@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "gemini-3.8-flash-low",
+  "run": 1,
+  "text": "Es ist Montagmorgen, kurz nach halb zehn, und dein Magen zieht sich zusammen. Du stehst vor der Kaffeemaschine, starrst auf das zähe Rinnsal in deine Tasse und hoffst insgeheim, dass der Kelch an dir vorübergeht. Doch das wird er nicht. In zwanzig Minuten sitzt du mit Carsten im Besprechungsraum drei. Carsten, der seit zehn Jahren im Betrieb ist, der eigentlich jede Schraube mit Vornamen kennt – und der seit Wochen Deadlines reißt, im Daily genervt abwinkt und die Stimmung im Team vergiftet. \n\nDu hast keine disziplinarische Keule im Schrank. Du kannst ihn weder abmahnen noch versetzen, und genau das macht die Sache so verdammt ungemütlich. Wahrscheinlich hast du das Gespräch schon dreimal im Kopf durchgespielt. Jedes Mal endete es entweder in eisigem Schweigen oder in einer lautstarken Rechtfertigung, nach der ihr beide frustrierter wart als zuvor. Dein erster Impuls? Die Sache noch ein paar Tage aussitzen. Vielleicht fängt er sich ja wieder. Vielleicht löst sich das Problem von selbst.\n\nTut es nicht. Das weißt du längst. \n\nWenn du Menschen führst, ohne ihr Chef auf dem Papier zu sein, sind schwierige Gespräche deine härteste Bewährungsprobe. Du kannst dich hinter keinen Paragrafen verstecken und hinter keinem Organigramm. Alles, was du hast, ist deine Beziehung zu den Leuten und die Art und Weise, wie du die Dinge auf den Tisch packst. Atme noch einmal tief durch, nimm deinen Kaffee und lass uns genau ansehen, wie du dieses Minenfeld betrittst, ohne dass es dir um die Ohren fliegt.",
+  "usage": {
+    "in": 151,
+    "out": 382,
+    "thinking": 0
+  },
+  "costUsd": 0.0014053000000000002,
+  "finish": "STOP",
+  "reportedModel": "gemini-3.8-flash",
+  "upstream": null,
+  "latencyMs": 5270,
+  "meta": [],
+  "at": "2026-10-17T17:18:58.863Z"
+}

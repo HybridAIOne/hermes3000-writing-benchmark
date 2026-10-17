@@ -1,0 +1,114 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Sie lächelt traurig“: Die Regie benennt das Gefühl ausdrücklich, statt es durch eine präzisere, weniger vorgeprägte Handlung sichtbar zu machen.",
+          "„Sie fragt nach allem, was sie nicht versteht.“: Auffällig zugespitzte, für die Lesenden formulierte Replik; die Figur spricht hier eher einen bedeutungsschweren Merksatz.",
+          "„Welchen?“ / „Welchen?“: Das wiederholte Ausweichen bei Brief und Schlüssel lässt die Informationsverknappung stellenweise konstruiert wirken.",
+          "„Ich habe dich gebeten zu kommen. Nicht zu schweigen.“ / „Wir schweigen doch beide.“: Der Subtext wird am Ende unnötig erläutert; die vorherige Gesprächsführung hat das bereits gezeigt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Ich hab’s nicht so gemeint. Damals. Zumindest nicht alles.“: Der damalige Streit wird zwar nicht erklärt, aber ausdrücklich angesprochen. Damit bleibt der Konflikt weniger konsequent unausgesprochen als verlangt.",
+          "„Früher war vieles anders.“: Allgemeine, häufig gebrauchte Konfliktreplik; sie behauptet Veränderung, statt eine charakteristische Einzelheit dafür zu finden.",
+          "„rührt in seinem Kaffee, der längst umgerührt ist“: Die Regie erklärt die Zwecklosigkeit der Geste etwas umständlich; das nervöse Weiterrühren ließe sich knapper und anschaulicher zeigen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Ich werfe Dinge nicht einfach weg, nur weil sie unbequem werden“ / „Bis kein Platz mehr zum Atmen ist.“: Die Figuren formulieren ihre gegenseitigen Vorwürfe offen. Der geforderte unausgesprochene Konflikt wird dadurch weitgehend zum ausgesprochenen Streit.",
+          "„rührt in seinem leeren Tee“: Semantisch missglückte Formulierung. Leer kann die Tasse sein, nicht der Tee.",
+          "„Man gewöhnt sich ja an den bitteren Geschmack.“: Die Übertragung vom Tee auf die Beziehung ist demonstrativ vorbereitet und wirkt entsprechend aufgesetzt.",
+          "„Ein Schnitt, und schon existiert die Vergangenheit nicht mehr. Sehr praktisch.“: Ausformulierte Anklage statt Subtext; zudem erklärt die Replik die unmittelbar vorhergehende Wendung „tabula rasa“ nochmals.",
+          "„Es war ein Fehler.“ / „Welcher von den vielen?“: Vorhersehbare Schluss-Pointe, die die Verletzung noch einmal effektvoll ausstellt, statt den Figuren eine eigenständige Schlussbewegung zu geben."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Hätte ja sein können.“ / „Was?“ / „Dass du welchen hineintust.“: Die Verzögerung hält die Doppeldeutigkeit etwas demonstrativ offen; hier wird die sonst natürliche Gesprächsführung kurz als Konstruktion sichtbar.",
+          "„Der Kaffee ist noch heiß.“ / „Du musst nicht warten, bis er kalt ist.“: Der Schluss versieht den alltäglichen Vorgang recht deutlich mit einer zweiten Bedeutung. Etwas weniger Pointe würde zur sonstigen Zurückhaltung passen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Sie bestellen. Als sie fortgeht, rückt Jonas seine Tasse genau in die Mitte.“: Die Tasse erscheint unmittelbar nach der Bestellung, ohne dass das Servieren oder ein Zeitsprung kenntlich wird. Das ist eine kleine Anschlusslücke.",
+          "„Für einen Augenblick sieht es aus, als wolle er etwas anderes sagen.“: Die Schlussregie erklärt die unausgesprochene Absicht, statt eine konkrete, spielbare Bewegung dafür zu finden.",
+          "„Du machst das immer noch.“ / „Was?“ / „Nichts.“: Die demonstrative Andeutung bleibt ohne individuellen Erkenntniswert; sie erzeugt vor allem künstliche Geheimnishaftigkeit.",
+          "„Ich dachte, du magst inzwischen lieber die Wand im Rücken.“: Die psychologische Anspielung wirkt ohne weitere Verankerung auffällig gesetzt und weniger beiläufig als das übrige Gespräch."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "A",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2861,
+    "out": 1622,
+    "thinking": 484
+  },
+  "costUsd": 0.021942
+}

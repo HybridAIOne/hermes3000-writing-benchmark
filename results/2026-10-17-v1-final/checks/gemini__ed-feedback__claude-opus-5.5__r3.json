@@ -1,0 +1,23 @@
+{
+  "task": "ed-feedback",
+  "model": "claude-opus-5.5",
+  "run": 3,
+  "judge": "gemini",
+  "verdict": {
+    "found": [
+      "rampe",
+      "tempus",
+      "perspektive",
+      "wiederholung",
+      "fahrgaeste",
+      "hupe"
+    ],
+    "false_alarms": 4
+  },
+  "usage": {
+    "in": 1407,
+    "out": 76,
+    "thinking": 0
+  },
+  "costUsd": 0.003574
+}

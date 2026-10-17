@@ -1,0 +1,123 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Die Fähre ist kein Mittel, um Rendite zu erzielen“: Die Quelle belegt den Verzicht auf Gewinnausschüttungen, nicht den so umfassend formulierten Ausschluss einer Renditeorientierung.",
+          "„Auch beim Geld unterscheidet sich die Genossenschaft von einem Unternehmen, das Gewinne an Eigentümer auszahlt“: Der Vergleich ist zwar eingeschränkt formuliert, erklärt aber weniger präzise als eine unmittelbare Beschreibung der konkreten Rücklagenregelung."
+        ],
+        "unsupported": [
+          "„Die Fähre ist kein Mittel, um Rendite zu erzielen“: Diese ausdrückliche Zweckbestimmung steht nicht im Quellmaterial."
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Menschen aus beiden Ufern“: Unidiomatische Ortsangabe; richtig wäre „Menschen von beiden Ufern“.",
+          "„In der Generalversammlung hat jedes Mitglied eine Stimme – unabhängig davon, wie viele Anteile es besitzt. Damit richtet sich das Stimmgewicht nicht nach der Höhe der eingebrachten Anteile. Die Mitglieder entscheiden also nach dem Prinzip ‚eine Person, eine Stimme‘.“: Drei unmittelbar aufeinanderfolgende Formulierungen erklären denselben Sachverhalt; eine davon ist entbehrlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„aus beiden Elbufern“: Trotz Übernahme aus der Quelle unidiomatisch; richtig wäre „von beiden Elbufern“.",
+          "„Für diese Fähre ist die Genossenschaft eine passende Rechtsform“: Der anschließende Wechsel zu Führungsseil, Antrieb und Beförderungszahlen unterbricht die angekündigte Erklärung der Rechtsform.",
+          "„Die Mitglieder finanzieren über Anteile mit, und Überschüsse bleiben als Rücklage für die Erneuerung der Fähre erhalten“: Wiederholt weitgehend bereits erläuterte Informationen, statt die Eignung der Rechtsform weiter zu erschließen.",
+          "„ohne dass einzelne Mitglieder wegen vieler Anteile mehr Stimmrecht erhalten“: Schwerfällige Wiederholung der unmittelbar vorausgehenden Stimmrechtsregel."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„getragen von denen, die sie betreiben und nutzen“: Setzt Mitglieder, Betreiber und Fahrgäste unbelegt miteinander gleich.",
+          "„anders als ein gewöhnliches Unternehmen“: Sachlich irreführender Gegensatz. Auch andere Unternehmen können Überschüsse einbehalten; Ausschüttungen definieren kein „gewöhnliches Unternehmen“.",
+          "„aus beiden Elbufern“: Unidiomatisch; richtig wäre „von beiden Elbufern“.",
+          "„Wer Mitglied werden will, hält mindestens einen Anteil“: Beitrittsabsicht und bestehender Anteilsbesitz werden sprachlich vermischt. Präzise wäre die Quellenformulierung „Jedes Mitglied hält …“.",
+          "„Die Fähre, die bis 1978 allein von der Strömung bewegt wurde und heute von einem 85-kW-Dieselmotor angetrieben wird, entwickelt sich so Schritt für Schritt weiter“: Überladener Schlusssatz; die nachgetragenen technischen Angaben schwächen die abschließende Erklärung."
+        ],
+        "unsupported": [
+          "„Der Betrieb […] muss dauerhaft laufen“: Eine solche Notwendigkeit oder Verpflichtung nennt die Quelle nicht.",
+          "„getragen von denen, die sie betreiben und nutzen“: Die Quelle sagt nicht, dass die Mitglieder zugleich Betreiber und Nutzer der Fähre sind."
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„finanziert die Gemeinschaft die technische Weiterentwicklung aus eigener Kraft“: Angesichts des ausdrücklich genannten Gemeindezuschusses irreführend; eine ausschließlich eigenständige Finanzierung der Rücklage ist nicht belegt.",
+          "„Es geht nicht darum, Gewinne für externe Investoren zu maximieren“: Führt eine nicht belegte Investorengruppe und eine nicht dokumentierte Abgrenzung der Unternehmensziele ein.",
+          "„Auch die Finanzen dienen allein dem Erhalt des Betriebs“: Die ausschließliche Zweckbindung sämtlicher Finanzmittel geht über die Quellenangabe zur Verwendung der Überschüsse hinaus.",
+          "„warum ist sie für manche Aufgaben die ideale Lösung?“: Werbliche Überhöhung statt der verlangten sachlichen Erklärung einer passenden Rechtsform.",
+          "„Das Grundprinzip ist denkbar einfach“: Entbehrlicher Bewertungssatz; die folgende Erklärung ist auch ohne diese Ankündigung verständlich."
+        ],
+        "unsupported": [
+          "„Es geht nicht darum, Gewinne für externe Investoren zu maximieren“: Externe Investoren und diese ausdrückliche Zielabgrenzung werden im Quellmaterial nicht erwähnt.",
+          "„Auch die Finanzen dienen allein dem Erhalt des Betriebs“: Belegt ist die Zweckbindung der Überschüsse für die Erneuerung, nicht eine entsprechende Aussage über sämtliche Finanzmittel.",
+          "„finanziert die Gemeinschaft die technische Weiterentwicklung aus eigener Kraft“: Die Herkunft der Rücklagenmittel wird nicht gesondert ausgewiesen; zugleich nennt die Quelle einen Gemeindezuschuss als Umsatzbestandteil."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3021,
+    "out": 2138,
+    "thinking": 821
+  },
+  "costUsd": 0.027422
+}

@@ -1,0 +1,119 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Text hat vier Absätze statt eines Einstiegsabsatzes und rund 320 Wörter, deutlich über der Vorgabe von etwa 250",
+          "„Die meisten Führungskräfte kennen diesen Moment gut. Man hat die Information …“ – Wechsel von der Du-Ansprache ins unpersönliche „man“",
+          "„wir müssen über die Übergabe reden“ – der Anlass bleibt vage, die Verbindung zur verspäteten Lieferung wird nur angedeutet",
+          "„Es geht um eine Haltung, um gute Vorbereitung und um ein paar einfache Handgriffe“ – generische Kapitelankündigung, leicht floskelhaft",
+          "„Das Problem ist nur: Das Warten macht es nicht leichter. Es macht es teurer.“ – wirkungsvoll, wiederholt aber den folgenden Gedanken"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„nicht das Wochenende verderben\"“ – gerades statt typografisches deutsches Abführungszeichen, ebenso bei „Na, alles gut bei dir?\"“ und „Ja, alles gut.\"“",
+          "„schaut dabei auf die Spülmaschine statt zu dir“ – Präpositionswechsel holpert, besser „statt dich an“",
+          "„als gereizte Mail, als Streit in der Besprechung oder als Kündigung“ – Aufzählung nach Komma statt nach Doppelpunkt oder Gedankenstrich, wirkt angehängt",
+          "„und zwar nicht aus Faulheit“ – kleine Füllformel"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„„Kurz mit Jens sprechen.\"“ – gerades statt typografisches Abführungszeichen",
+          "„Meistens ist es genau umgekehrt: Dir liegt etwas an Jens“ – „umgekehrt“ passt logisch nur auf „die Sache egal“, nicht auf „Mut fehlt“",
+          "„Fast jeder, der ein Team führt … weil ihm der Mut fehlt“ – Wechsel von „fast jeder“ zurück zu „dir“ ist etwas sprunghaft",
+          "Mit rund 270 Wörtern leicht über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Genau diese Momente sind die wahre Feuerprobe“ – Phrasen und Klischees wie „wahre Feuerprobe“, „auf dünnes Eis“, „vergiftet“ und „echte Führungskraft“",
+          "„Deshalb schieben wir solche Gespräche vor uns her“ – Wechsel von „du“ zu „wir“",
+          "„jetzt vor dem Wochenmeeting“ – Anglizismus, steht im Widerspruch zur Vorgabe „keine Buzzwords“",
+          "„einen handfester Konflikt …, der die Stimmung in der gesamten Abteilung vergiftet“ – dramatisierend und übertrieben für einen Sachbuchton",
+          "Mit rund 290 Wörtern über der Vorgabe; der Schluss baut Pathos auf statt das Kapitel anzukündigen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Was also tun? Zunächst brauchst du … einen Termin mit Martin“ – der Einstieg liefert bereits die Lösung vorweg, statt in das Kapitel einzuführen",
+          "„Zum dritten Mal in diesem Monat hast du deshalb morgens selbst nacharbeiten müssen.“ – das „deshalb“ ist unklar bezogen und die Zeitlogik holpert",
+          "„bevor der nächste Kundentermin drängt“ – Wiederholung von „Kundentermin“",
+          "Keine Kapitelankündigung, der Absatz wirkt wie ein Ratgeberabschnitt aus der Kapitelmitte",
+          "Mit rund 290 Wörtern über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "A",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 5220,
+    "out": 2962,
+    "thinking": 1404
+  },
+  "costUsd": 0.08012
+}

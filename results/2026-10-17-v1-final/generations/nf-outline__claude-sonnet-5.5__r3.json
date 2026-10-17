@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "claude-sonnet-5.5",
+  "run": 3,
+  "text": "# Führen ohne Titel: Gliederung\n\n**1. Plötzlich Chef: Der Rollenwechsel**\nDu erfährst, was sich ändert, wenn aus dem Kollegen die Teamleiterin oder der Teamleiter wird, und wie du die ersten Tage und Wochen übersteht, ohne dich zu verbiegen.\n\n**2. Was wird eigentlich von dir erwartet?**\nDu klärst, was deine Geschäftsführung, dein Team und du selbst von dir erwartest, und wo dein Entscheidungsspielraum wirklich liegt.\n\n**3. Dein Team kennenlernen**\nDu lernst in Einzelgesprächen und durch Beobachten, wer in deinem Team was kann, was die Einzelnen antreibt und wo es hakt.\n\n**4. Aufgaben abgeben, ohne die Kontrolle zu verlieren**\nDu lernst, Arbeit so zu übergeben, dass sie erledigt wird, und aufzuhören, alles selbst zu machen.\n\n**5. Klarheit schaffen: Ziele, Prioritäten und Besprechungen**\nDu sorgst dafür, dass alle wissen, was gerade wichtig ist, und hältst Meetings, die nicht nur Zeit kosten.\n\n**6. Rückmeldung im Alltag**\nDu gibst Lob und Kritik zeitnah und konkret, und du nimmst selbst Rückmeldung an, ohne dich zu rechtfertigen.\n\n**7. Schwierige Gespräche führen**\nDu bereitest Gespräche über Leistungsprobleme, Fehlverhalten, schlechte Nachrichten und Konflikte vor, führst sie und kommst mit einem Ergebnis wieder heraus.\n\n**8. Zwischen den Stühlen: Führen nach oben und zur Seite**\nDu vertrittst dein Team gegenüber Vorgesetzten und anderen Abteilungen, auch wenn du Entscheidungen mittragen musst, die dir selbst nicht gefallen.\n\n**9. Dich selbst führen: Zeit, Belastung und Grenzen**\nDu schützt deine Energie, setzt Grenzen und gehst mit Zweifeln, Fehlern und dem Gefühl um, nie genug zu sein.\n\n**10. Deine eigene Haltung**\nDu fasst zusammen, was du aus den Kapiteln mitnimmst, und entwickelst daraus ein persönliches Verständnis von Führung, das zu dir passt und auch ohne Titel trägt.\n\n---\n\n**Der rote Faden:** Die Kapitel 1 bis 3 klären Rolle, Erwartungen und Menschen. Die Kapitel 4 bis 7 behandeln das Handwerk im Umgang mit dem Team. Kapitel 8 weitet den Blick auf das Umfeld, Kapitel 9 und 10 gehen nach innen, bis zur eigenen Haltung.",
+  "usage": {
+    "in": 242,
+    "out": 1978,
+    "thinking": 949
+  },
+  "costUsd": 0.020264,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 14906,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:51:06.882Z"
+}

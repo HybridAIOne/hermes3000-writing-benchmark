@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "text": "# Gliederung: Führen ohne Titel\n\n**Kapitel 1: Der erste Tag – du bist jetzt Teamleiter, ob du willst oder nicht**  \nWie du den Rollenwechsel vom Kollegen zur Führungskraft annimmst und die erste Unsicherheit aushältst.\n\n**Kapitel 2: Was du entscheiden darfst – und was nicht**  \nWie du deinen Auftrag, deine Grenzen und deine Verantwortung klärst, bevor du handelst.\n\n**Kapitel 3: Erst zuhören, dann führen**  \nWie du in den ersten Wochen Team, Aufgaben und ungeschriebene Regeln verstehst, ohne sofort etwas umzubauen.\n\n**Kapitel 4: Erwartungen klar aussprechen**  \nWie du mit deinem Team und deinem Chef abgleichst, was von dir erwartet wird und was du erwartest.\n\n**Kapitel 5: Aufgaben verteilen und Prioritäten setzen**  \nWie du Arbeit klar zuweist, Termine realistisch planst und Verantwortung abgibst, ohne alles selbst zu machen.\n\n**Kapitel 6: Feedback geben, ohne Beziehungen zu zerstören**  \nWie du regelmäßig und konkret sagst, was gut läuft und was sich ändern muss.\n\n**Kapitel 7: Schwierige Gespräche**  \nWie du Konflikte, Fehler und Überlastung rechtzeitig ansprichst, statt sie auszusitzen.\n\n**Kapitel 8: Zwischen Chef und Team**  \nWie du Druck von oben auffängst, Entscheidungen erklärst und dein Team nach oben vertrittst.\n\n**Kapitel 9: Deine Haltung als Führungskraft**  \nWie du aus Erfahrungen eigene Regeln entwickelst, Grenzen setzt und auch unter Druck bei dir bleibst.",
+  "usage": {
+    "in": 164,
+    "out": 2461,
+    "thinking": 2047
+  },
+  "costUsd": 0.0015011999999999998,
+  "finish": "stop",
+  "reportedModel": "deepseek/deepseek-v4.1-flash",
+  "upstream": "Together",
+  "latencyMs": 8146,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:24:49.942Z"
+}

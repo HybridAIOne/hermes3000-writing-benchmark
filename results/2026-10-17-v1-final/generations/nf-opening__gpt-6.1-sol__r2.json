@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "gpt-6.1-sol",
+  "run": 2,
+  "text": "Es ist kurz nach neun, als du zum dritten Mal in dieser Woche die falschen Zahlen in der Auftragsübersicht entdeckst. In einer Stunde braucht der Vertrieb die Liste. Du korrigierst zwei Zellen, dann hältst du inne. Die Einträge stammen wieder von Martin. Gestern hast du sie stillschweigend ausgebessert, vorgestern auch. Jetzt sitzt er drei Schreibtische weiter, trinkt Kaffee und bespricht mit einer Kollegin das Wochenende. Du merkst, wie du die Zähne zusammenbeißt. Am liebsten würdest du quer durch den Raum fragen, ob er seine Arbeit eigentlich irgendwann noch kontrolliert. Stattdessen sagst du erst einmal nichts. Schließlich bist du nicht sein Chef. Aber du sollst dafür sorgen, dass die Aufträge sauber durchlaufen. Genau hier werden Gespräche schwierig: Du musst etwas ansprechen, ohne dich hinter einer Position verstecken zu können. Vielleicht befürchtest du, kleinlich zu wirken. Vielleicht kennst du Martin schon lange und willst das gute Verhältnis nicht belasten. Also besser später, wenn weniger los ist? Nur wird aus später leicht nächste Woche, und aus einem korrigierbaren Fehler wird ein fester Ärger über einen Kollegen. Für ein gutes Gespräch musst du weder besonders schlagfertig sein noch jede mögliche Reaktion vorhersehen. Du brauchst zunächst einen klaren Blick darauf, was passiert ist, welche Folgen es hat und was du künftig brauchst. Dann kannst du Martin beiseitenehmen und sagen: „Mir sind diese Woche dreimal falsche Zahlen in der Übersicht aufgefallen. Ich habe sie korrigiert, damit der Vertrieb weiterarbeiten kann. Lass uns schauen, wie wir das künftig vermeiden.“ Seine Antwort kennst du noch nicht. Aber jetzt lässt sich darüber reden.",
+  "usage": {
+    "in": 152,
+    "out": 366,
+    "thinking": 0
+  },
+  "costUsd": 0.003964,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 15021,
+  "meta": [],
+  "at": "2026-10-17T17:47:57.031Z"
+}

@@ -1,0 +1,20 @@
+{
+  "task": "lit-dialogue",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "[Ein Café an der Ecke. Regen an den Scheiben. Mara steht am Tisch; Leon kommt herein.]\n\n**MARA:** Du hast den gleichen Mantel an.\n\n**LEON:** Der hält noch.\n\n**MARA:** Das hat er früher auch schon.\n\n**LEON:** Früher hast du dich immer darüber beschwert.\n\n**MARA:** Ich erinnere mich.\n\n[Ein kurzer Blick. Leon zieht den Stuhl zurück, den Mara freigelassen hat.]\n\n**LEON:** Ist der Platz frei?\n\n**MARA:** Sonst hätte ich meine Tasche draufgestellt.\n\n**LEON:** Stimmt.\n\n[Er setzt sich. Sie rühren beide in ihren Tassen, ohne zu trinken.]\n\n**MARA:** Du bestellst noch immer schwarz.\n\n**LEON:** Du auch.\n\n**MARA:** Ich habe mich umgestellt.\n\n**LEON:** Worauf?\n\n**MARA:** Auf weniger Zucker.\n\n**LEON:** Ah.\n\n[Eine Kellnerin geht vorbei. Keiner von beiden sieht ihr nach.]\n\n**LEON:** Ich wusste nicht, ob du kommst.\n\n**MARA:** Ich wusste nicht, ob du fragst.\n\n**LEON:** Ich habe lange überlegt.\n\n**MARA:** Das hast du immer.\n\n**LEON:** Nicht immer lang genug.\n\n[Mara schaut in ihre Tasse.]\n\n**MARA:** Wie geht es deiner Mutter?\n\n**LEON:** Besser. Sie fragt manchmal nach dir.\n\n**MARA:** Und was sagst du?\n\n**LEON:** Dass du viel zu tun hast.\n\n**MARA:** Das ist freundlich.\n\n**LEON:** Es stimmt ja.\n\n[Stille. Draußen fährt ein Bus vorbei.]\n\n**MARA:** Weißt du noch, wie wir den hier verpasst haben?\n\n**LEON:** Du hattest den Fahrplan falsch gelesen.\n\n**MARA:** Du hast gesagt, du hättest ihn gelesen.\n\n**LEON:** Ja.\n\n[Sie sehen einander an. Mara lächelt kaum merklich.]\n\n**MARA:** Wir sind trotzdem angekommen.\n\n**LEON:** Spät.\n\n**MARA:** Aber zusammen.\n\n[Leon legt die Hand auf den Tisch. Mara bewegt ihre nicht.]\n\n**LEON:** Möchtest du noch einen Kaffee?\n\n**MARA:** Vielleicht.\n\n**LEON:** Ich bleibe.\n\n**MARA:** Das sehe ich.",
+  "usage": {
+    "in": 64,
+    "out": 741,
+    "thinking": 254
+  },
+  "costUsd": 0.0003769,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 8477,
+  "meta": [
+    "signoff"
+  ],
+  "at": "2026-10-17T17:46:04.384Z"
+}

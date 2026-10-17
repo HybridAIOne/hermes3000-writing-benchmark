@@ -1,0 +1,104 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "1. Der erste Tag: Wie du in der neuen Rolle ankommst, was du in den ersten Wochen tust und was du besser lässt. / 3. Vom Kollegen zum Vorgesetzten: Wie du mit deinen früheren Kollegen umgehst, wenn du plötzlich über ihnen stehst (inhaltliche Überschneidung bei der Rollenfindung zu Beginn)",
+          "6. Feedback als Gewohnheit (unnötiger Anglizismus/Buzzword im Kontext der Vorgabe)",
+          "7. Schwierige Gespräche / 8. Streit im Team (thematische Überschneidung bei Konfliktgesprächen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "7. Triff Entscheidungen, auch wenn nicht alles klar ist / 8. Schaffe einen verlässlichen Arbeitsrhythmus (Aufbau unlogisch: Grundlegende Arbeitsorganisation und Entscheidungsfindung kommen erst nach dem Kapitel über schwierige Gespräche)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "wie du die ersten Tage und Wochen übersteht (Grammatikfehler: überstehst)",
+          "was deine Geschäftsführung, dein Team und du selbst von dir erwartest (Kongruenzfehler bei Aufzählung: erwarten)",
+          "und hältst Meetings (Anglizismus trotz Buzzword-Verbot, besser: Besprechungen)",
+          "Der rote Faden: Die Kapitel 1 bis 3 klären Rolle... (nicht geforderter Zusatztext außerhalb der Gliederung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Aufbau: Die Kapitel 1 und 2 klären deine Rolle... (nicht geforderter Zusatztext außerhalb der Gliederung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3304,
+    "out": 681,
+    "thinking": 0
+  },
+  "costUsd": 0.013418
+}

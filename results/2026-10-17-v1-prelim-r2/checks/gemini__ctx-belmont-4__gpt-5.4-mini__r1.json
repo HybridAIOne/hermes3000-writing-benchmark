@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "gpt-5.4-mini",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 2967,
+    "out": 32,
+    "thinking": 0
+  },
+  "costUsd": 0.006254
+}

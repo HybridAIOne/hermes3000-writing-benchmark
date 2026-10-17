@@ -1,0 +1,121 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„einen dieser Kaffee in Pappbechern“: Falsche Pluralform; richtig wäre „einen dieser Kaffees“.",
+          "„die er ihr einmal mitgebracht und die sie nicht hatte austrinken können“: Kleine Rückblenden-Exposition unmittelbar beim Anruf; widerspricht der ausdrücklichen Vorgabe, ohne solche Einschübe auszukommen.",
+          "„Der Wind drehte um diese Jahreszeit gegen zehn“: Eine täglich derart verlässliche Winddrehung wird als gesichertes Wissen behauptet. Das wirkt meteorologisch schematisch und soll Ilses Erfahrung zu bequem beglaubigen.",
+          "„Sie stehen drauf“, „Dann zwei fünfzig“, „Ich hab nur noch nicht abgelegt“, „Dann fass es nicht an“: Die wiederholten schlagfertigen Repliken machen aus Ilses Wortkargheit stellenweise eine Pointenmasche."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„den Henning vor zwanzig Jahren aus Cuxhaven mitgebracht hatte“: Explizite biografische Rückblenden-Exposition entgegen der Aufgabenstellung.",
+          "„Über die Verträge für den Verkauf der Fährrechte, über die Maklerin aus Lüneburg, über die Treppen in ihrem Haus“: Ein ganzer Hintergrundkonflikt wird referierend eingeschoben. Das erklärt die Beziehung, statt sie zunächst durch die gegenwärtige Situation erfahrbar zu machen.",
+          "„Es war sechs Uhr siebenundvierzig“ / „Für ein paar Minuten“ / „Neunundvierzig Minuten nach sechs“: Die genaue Zeitrechnung passt kaum zum ausführlichen Einschiffen dreier Parteien, Kassieren, Ablegen und anschließenden mehrminütigen Übersetzen.",
+          "„milchige Suppe“, „feuchten Watte des Nebels“, „kahle, schwarze Finger“: Gehäufte vertraute Nebel- und Landschaftsbilder machen die Atmosphäre austauschbar.",
+          "„die Ilse mehr ermüdete als jeder Sturm auf der Elbe“: Übersteigerte Erklärung ihres Verhältnisses zu Jonas; nimmt dem Nichtannehmen des Anrufs seine subtilere Aussagekraft."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Sie wusste auch so, wer es war“: Der Anrufer wird weder als Jonas noch eindeutig als ihr Sohn identifiziert. Das ausdrücklich verlangte Erkennungsmerkmal fehlt.",
+          "„Hundertzwanzig Meter bis zur ersten Boje, dann eine Linkskurve“ / „wie das Schiff unter ihr in die Kurve ging“: Die frei gesteuerte Kurvenfahrt wird nicht mit der zuvor beschriebenen, von Pfahl zu Pfahl führenden Seilführung vereinbar gemacht.",
+          "„Der erste war Kolb“ / „Der dritte kam zuletzt“: Die substantivierten Ordnungszahlen müssen hier „Erste“ und „Dritte“ heißen.",
+          "„Sie hatte ihm vor Jahren einmal ein Stück Wurst zugeworfen“: Rückblenden-Exposition entgegen der Vorgabe. Die Fortsetzung „und seitdem nicht mehr vergessen, dass er es bemerkt hatte“ ist zudem gedanklich umständlich und wenig aussagekräftig.",
+          "„Sie hörte, wie er nach einer Antwort suchte“: Ein innerer Suchvorgang wird ohne hörbares Anzeichen als akustische Wahrnehmung ausgegeben; unpräzise personale Vermittlung."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Bei den Münzen blieb sie kurz stehen“: Im bereits stationären Kassieren ist die räumliche Wendung unscharf; gemeint ist offenbar, dass sie beim Zählen innehielt.",
+          "„Drei Fahrgäste. Zwei Autos, ein Fahrrad.“: Die ausdrückliche Bilanz wiederholt bereits anschaulich Gezeigtes und lässt kurz die Aufgabencheckliste durchscheinen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„sie wussten beide, dass sie sie nicht wiederkriegen würde“: Die Erzählung behauptet auch Mattis’ inneres Wissen als Tatsache und verlässt damit punktuell die strikt an Ilse gebundene personale Perspektive.",
+          "„Sie steckte sie ihm an den Lenker“ / „Das Licht blinkte rot“: Als Abhilfe für das fehlende Fahrradlicht ist eine rot blinkende Leuchte vorn sachlich verfehlt. Ilses fürsorgliche Sachkunde wird dadurch unbeabsichtigt unterlaufen.",
+          "„weil es seit dreiundzwanzig Jahren an derselben Stelle war“: Die Formulierung verwechselt Ilses Erfahrungsdauer mit der Beständigkeit des Ufers. Der beabsichtigte trockene Ton geht zulasten der Präzision.",
+          "„„Moin\", sagte er“: Deutsches öffnendes Anführungszeichen wird mit einem geraden schließenden Zeichen kombiniert; dieser typografische Fehler zieht sich durch die Dialoge.",
+          "„Die Elbe war still an diesem Morgen, aber nicht ruhig“ / „grau und schwer und gleichgültig“: Der Einstieg setzt auf vertraute bedeutungsschwere Flussformeln, bevor die konkreteren Beobachtungen den Text eigenständiger machen."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c1"
+        ]
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "E",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 7822,
+    "out": 2308,
+    "thinking": 920
+  },
+  "costUsd": 0.038724
+}

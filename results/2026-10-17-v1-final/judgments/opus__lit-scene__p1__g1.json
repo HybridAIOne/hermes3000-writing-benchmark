@@ -1,0 +1,118 @@
+{
+  "task": "lit-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„wie ein Obstkorb, der zu lange in der Sonne stand“ – Tempus, besser „gestanden hatte“",
+          "„Sie hielt die Hand darunter. Das Wasser schmeckte nach Eisen“ – das Trinken fehlt, ein kleiner Handlungssprung",
+          "„Das Haus war kleiner, aber nicht auf die Art, von der alle sprachen“ – erklärend, der Kleiner-als-erinnert-Topos wird nur umgangen",
+          "„es gab dasselbe Geräusch von sich wie früher“ – etwas umständlich"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„der Duft traf mich so unvermittelt, dass ich mich am Tresen festhalten musste“ – melodramatisch, „Tresen“ in einer Wohnküche schief",
+          "„mit einer Wärme füllte, die nicht von der Heizung kam“ – Kitschformel",
+          "„als jemand sie zuletzt angehalten hatte“ – eine Uhr bleibt stehen, „angehalten“ passt logisch nicht",
+          "„sich auf den Fliesen zu flachen Pfützen sammelte“ – überladenes Bild",
+          "„Wer hätte das auch tun sollen.“ – Fragesatz mit Punkt, als Stilmittel grenzwertig"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„ein Monat im Jahr, das sie nicht mehr wusste“ – grammatisch schief und unidiomatisch („ein Jahr wissen“)",
+          "„Damals war sie mit einem Koffer hinausgegangen und hatte sich nicht umgedreht“ – Klischee",
+          "„Das Haus antwortete nicht.“ – abgegriffene Personifikation",
+          "„Das Geräusch lief durch die Räume und kam verändert zurück“ – vage",
+          "Zu viele gleichrangige Details (Schuh, Knopf, Kalender, Tüte), das tragende Detail bleibt unscharf"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "„aus angeschlagenem Emaille“ – falsches Genus, richtig „angeschlagener Emaille“",
+          "„wie ein gestrandetes Tier im Halbdunkel kauerte“ – Klischee",
+          "„und einmal auch etwas ganz anderes“ – plumper Wink mit dem Zaunpfahl",
+          "„auf den Dielen“ / „Staub auf dem Parkett“ – Widerspruch beim Boden; zudem „Eisen“ und „Messing“ unklar zugeordnet",
+          "„Zwanzig Jahre schrumpften auf die Breite einer Türschwelle zusammen.“ / „chemische Geisterspur“ – pathetisch, überladen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Am neunzehnten“ – substantiviert, richtig „Am Neunzehnten“",
+          "„Ihr Körper wusste es vor ihr.“ – leicht erklärend",
+          "Viele Rätselspuren (Haar, Kümmel, Schuhe, Kalender) drohen das zentrale Detail zu verwässern"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "A",
+      "C",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 5722,
+    "out": 3166,
+    "thinking": 1897
+  },
+  "costUsd": 0.086208
+}

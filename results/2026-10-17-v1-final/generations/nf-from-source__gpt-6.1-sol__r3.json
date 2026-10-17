@@ -1,0 +1,18 @@
+{
+  "task": "nf-from-source",
+  "model": "gpt-6.1-sol",
+  "run": 3,
+  "text": "Wie eine Genossenschaft funktioniert, lässt sich an der Fähre in Hitzacker zeigen: Eine Aufgabe, die für Menschen vor Ort wichtig ist, wird gemeinschaftlich getragen. Als der Landkreis den Betrieb der Seilfähre eingestellt hatte, gründeten 1953 insgesamt 41 Landwirte und Händler von beiden Elbufern die Fährgenossenschaft Hitzacker eG. Sie nahmen die Verbindung damit selbst in die Hand.\n\nHeute hat die Genossenschaft 312 Mitglieder. Jedes Mitglied hält mindestens einen Anteil im Wert von 250 Euro. Die Anteile bilden die finanzielle Beteiligung; über das Stimmgewicht entscheiden sie jedoch nicht. In der Generalversammlung hat jedes Mitglied genau eine Stimme, unabhängig davon, wie viele Anteile es besitzt. Wer mehr Geld in Anteilen einbringt, erhält also nicht mehr Stimmen. Darin liegt ein wesentliches Merkmal dieser gemeinschaftlichen Organisationsform: Finanzielle Beteiligung und Mitbestimmung sind nicht nach demselben Maßstab verteilt.\n\nAuch der Umgang mit Überschüssen zeigt, welchem Zweck die Genossenschaft dient. Sie werden nicht an die Mitglieder ausgeschüttet, sondern fließen in eine Rücklage für die Erneuerung der Fähre. Das Geld bleibt damit dem Fährbetrieb gewidmet. Bis 2031 soll die Rücklage ausreichen, um einen Elektroantrieb einzubauen. Heute treibt ein Dieselmotor mit 85 Kilowatt die am Führungsseil hängende Fähre an; bis 1978 bewegte allein die Strömung das Fahrzeug.\n\nDie wirtschaftliche Grundlage bilden Fahrkartenverkäufe und ein Zuschuss der Gemeinde. Von den 186.000 Euro Umsatz im Jahr 2024 stammten 71 Prozent aus Fahrkarten und 29 Prozent aus dem Gemeindezuschuss. Jährlich befördert die Fähre rund 64.000 Personen, im Sommer vor allem Radfahrer auf dem Elberadweg. Bei normalem Wasserstand dauert die Überfahrt über die hier 212 Meter breite Elbe sieben Minuten.\n\nFür diese Fähre passt die genossenschaftliche Rechtsform deshalb gut: Sie verbindet die Beteiligung vieler Mitglieder mit gleichem Stimmrecht und richtet die Verwendung der Überschüsse auf den langfristigen Erhalt der Verbindung aus. Im Mittelpunkt steht nicht die Ausschüttung von Gewinnen, sondern die gemeinsame Aufgabe.",
+  "usage": {
+    "in": 402,
+    "out": 554,
+    "thinking": 62
+  },
+  "costUsd": 0.006344,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 14025,
+  "meta": [],
+  "at": "2026-10-17T17:47:42.010Z"
+}

@@ -1,0 +1,112 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Er läuft\", sagte Ilse. (Falsche Anführungszeichen im gesamten Text)",
+          "man sah es an der Art, wie er die Zehen hob. (Bildbruch: In geschlossenen Lederschuhen sieht man nicht, wie jemand die Zehen hebt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Sie löste die Leine wieder vom Poller. ... Sie ging an ihm vorbei zur Anlegerseite und prüfte die Leine. Der Knoten saß. (Logikbruch: Erst macht sie die gerade angelegte Fähre grundlos wieder los, später prüft sie den Knoten derselben Leine)",
+          "Er lächelte, aber es blieb ihm nicht lange im Gesicht. (Schiefe Formulierung / unidiomatisch)",
+          "er strich sich mit dem Handrücken über die Stirn, obwohl es regnete. (Unlogische Kausalität im Satzbau)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Bis kein Wind mehr geht.“ – „Die Strömung bleibt.“ (Sachfehler: Eine Seilfähre fährt mit Strömung oder Motor, nicht mit dem Wind)",
+          "An der rechten Sohle löste sich ein schmaler Streifen (Passt nicht zur Figur des erfolgreichen Münchner Unternehmensberaters)",
+          "Sie stieg auf die Fähre und löste die Leine. (Räumliche Unschärfe: Wo stand sie vorher, als sie die Mütze von der Fensterbank des Steuerhauses nahm?)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "Er hatte nie begriffen, dass man an einer Fähre nichts reparieren lassen konnte, ohne dass sich danach alles andere veränderte. (Pseudotiefsinniger Küchenkalender-Satz)",
+          "mit diesem trockenen Rattern, das sie in den Zähnen spürte. (Widerspruch zum Vorgabetext: Die Bohlen sind nass)",
+          "Die Klappe des Fährhauses stand offen. ... ging ins Fährhaus und ließ die Tür offen stehen (Räumliches Chaos zwischen Fähre, Anleger, Motorkasten und Wohnhaus)",
+          "eher so, wie Männer lachen, wenn sie merken, dass sie ein Spiel schon verloren haben. (Abgedroschenes Klischee)",
+          "„Ich habe dir zweimal geschrieben\", sagte er. (Falsche Anführungszeichen im gesamten Text)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "obwohl das Hanfseil nur die gewohnte Feuchtigkeit hinterlassen hatte, diesen Geruch nach Schlick und altem Eisen (Vermischung von Festmacherleine am Poller und dem eisernen Führungsseil der Seilfähre im Wasser)",
+          "„Lass das Ding stehen. Über das Kopfsteinpflaster ziehst du dir nur die Rollen kaputt.“ – Er hob den Koffer am Griff hoch, statt ihn zu ziehen, und folgte ihr auf das flache Deck. (Logikbruch: Sie schickt ihn Richtung Fährhaus/Kopfsteinpflaster an Land, geht dann aber selbst aufs Deck der Fähre)",
+          "Unter seinen Augen lagen dunkle Schatten, die nicht von der frischen Luft kamen. (Unfreiwillig komisch: Augenringe kommen nie von frischer Luft)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "E",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 4523,
+    "out": 1023,
+    "thinking": 0
+  },
+  "costUsd": 0.019276
+}

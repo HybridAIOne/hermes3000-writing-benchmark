@@ -1,0 +1,74 @@
+{
+  "task": "nf-from-source",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Im zweiten Absatz leichte Redundanz: der gleiche Sachverhalt (Stimmrecht unabhängig von Anteilen) wird in drei aufeinanderfolgenden Sätzen wiederholt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "\"aus beiden Elbufern\" – unidiomatische Präposition (aus dem Quellmaterial unkorrigiert übernommen, korrekt wäre \"von beiden Elbufern\")",
+          "\"1953 41\" – zwei Zahlen direkt hintereinander lesen sich im Buchsatz unschön.",
+          "\"2024 betrug der Umsatz 186.000 Euro. [...] Das Geld bleibt im Betrieb.\" – sachlich ungenau formuliert, da nicht der Umsatz im Betrieb bleibt, sondern nur die zuvor genannten Überschüsse."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "\"Die an einem Führungsseil hängende Fähre überquert die an dieser Stelle 212 Meter breite Elbe\" – schwerfälliger Nominalstil durch doppelte Partizipial- bzw. Attributkonstruktion.",
+          "\"wobei es sich im Sommer vor allem um Radfahrer auf dem Elberadweg handelt.\" – hölzerner, bürokratischer Anschluss."
+        ],
+        "unsupported": [
+          "\"wächst das finanzielle Polster stetig\" – das Quellmaterial besagt nur, dass Überschüsse in die Rücklage fließen, nicht aber, dass jedes Jahr stetig Überschüsse erzielt werden."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2734,
+    "out": 534,
+    "thinking": 0
+  },
+  "costUsd": 0.010808
+}

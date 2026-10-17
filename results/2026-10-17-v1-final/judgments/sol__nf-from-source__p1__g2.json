@@ -1,0 +1,133 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„was sich für einen einzelnen Eigentümer kaum lohnen würde“: Für diese wirtschaftliche Bewertung fehlen Angaben zu Kosten und Rentabilität.",
+          "„Ihr Zweck ist nicht, Gewinne zu erzielen“: Nichtausschüttung bedeutet nicht, dass keine Gewinne erzielt werden sollen. Belegt ist die Verwendung der Überschüsse.",
+          "„Heute gehört die Fähre auf diese Weise 312 Mitgliedern“: Verkürzt die Eigentumsverhältnisse ungenau. Die Mitgliedschaft an der Genossenschaft ist nicht mit unmittelbarem Eigentum an der Fähre gleichzusetzen.",
+          "„setzt die Fähre jährlich über die hier 212 Meter breite Elbe über“: Die Häufung von „über“ ist grammatisch möglich, aber stilistisch schwerfällig."
+        ],
+        "unsupported": [
+          "„Heute gehört die Fähre auf diese Weise 312 Mitgliedern.“ Die Quelle nennt die Mitgliederzahl, aber keine unmittelbaren Eigentumsrechte der Mitglieder an der Fähre.",
+          "„Ihr Zweck ist nicht, Gewinne zu erzielen, sondern die Verbindung über den Fluss zu sichern.“ Diese ausdrückliche Zweckbestimmung steht nicht in der Quelle; insbesondere folgt der Verzicht auf Gewinnerzielung nicht aus der Nichtausschüttung.",
+          "„was sich für einen einzelnen Eigentümer kaum lohnen würde“: Die Wirtschaftlichkeit eines Betriebs durch einen einzelnen Eigentümer ist nicht belegt."
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„auf den Menschen und Orte beiderseits der Elbe angewiesen sind“: Die behauptete Abhängigkeit geht über die belegte Nutzung der Fähre hinaus."
+        ],
+        "unsupported": [
+          "„auf den Menschen und Orte beiderseits der Elbe angewiesen sind“: Das Quellmaterial belegt die Nutzung, nicht das Angewiesensein auf diese Verbindung."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Solche Vorhaben lassen sich nur finanzieren, wenn Überschüsse über Jahre hinweg zurückgelegt werden“: Unbelegte Ausschließlichkeitsbehauptung; die Quelle beschreibt einen Finanzierungsplan, keine zwingende Finanzierungsvoraussetzung.",
+          "„anders umgegangen als in einem gewöhnlichen Unternehmen“: Irreführender Gegensatz. Auch andere Unternehmen können Überschüsse einbehalten und Rücklagen bilden.",
+          "„Ein Angebot dieser Art dauerhaft zu sichern, verlangt Menschen, die es gemeinsam tragen und kontrollieren“: Erklärt gemeinschaftliche Trägerschaft ohne Beleg zur notwendigen Bedingung.",
+          "„die viele Menschen auf beiden Elbufern brauchen“: Der Bedarf wird behauptet; belegt sind lediglich die Nutzung und die Beförderungszahl.",
+          "„aus beiden Elbufern“: Unidiomatische Präposition, auch wenn sie aus der Quelle übernommen wurde. Richtig wäre hier „von beiden Elbufern“."
+        ],
+        "unsupported": [
+          "„Die Fähre ist eine Verbindung, die viele Menschen auf beiden Elbufern brauchen.“ Die Quelle belegt Nutzung, nicht die behauptete Notwendigkeit.",
+          "„Ein Angebot dieser Art dauerhaft zu sichern, verlangt Menschen, die es gemeinsam tragen und kontrollieren.“ Diese notwendige Voraussetzung lässt sich aus dem Material nicht ableiten.",
+          "„Solche Vorhaben lassen sich nur finanzieren, wenn Überschüsse über Jahre hinweg zurückgelegt werden.“ Andere Finanzierungsmöglichkeiten werden durch die Quelle nicht ausgeschlossen."
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„Die Zahlen zeigen, dass das Modell trägt“: Umsatz, Zuschussanteil und Beförderungszahl reichen ohne Kostenangaben nicht aus, um wirtschaftliche Tragfähigkeit nachzuweisen.",
+          "„Eine Fähre, die ihren Nutzern gehört“: Setzt Nutzer und Mitglieder gleich, obwohl die Quelle diese Gleichsetzung nicht erlaubt.",
+          "„ein Gemeinschaftsgut ist, das nicht von einem einzelnen Eigentümer abhängen soll“: Führt eine nicht belegte Einordnung und Zielsetzung ein.",
+          "„Die Menschen, die sie brauchen, betreiben sie selbst“: Weder die Identität von Nutzern und Mitgliedern noch deren persönliche Mitwirkung am Betrieb ist belegt.",
+          "„anders um als ein gewinnorientiertes Unternehmen“: Zu pauschaler Gegensatz; auch gewinnorientierte Unternehmen können Überschüsse vollständig zurücklegen."
+        ],
+        "unsupported": [
+          "„Eine Fähre, die ihren Nutzern gehört“: Die Quelle sagt nicht, dass Nutzer und Mitglieder identisch sind oder die Nutzer unmittelbar Eigentümer der Fähre sind.",
+          "„Die Genossenschaft entstand 1953 aus einer Notlage.“ Belegt ist die Betriebseinstellung, nicht die darüber hinausgehende Charakterisierung als Notlage.",
+          "„Die Zahlen zeigen, dass das Modell trägt.“ Angaben zu Kosten und Ergebnis fehlen.",
+          "„weil die Fähre für die Region ein Gemeinschaftsgut ist, das nicht von einem einzelnen Eigentümer abhängen soll“: Weder diese Einordnung noch die behauptete Zielsetzung steht im Material.",
+          "„Die Menschen, die sie brauchen, betreiben sie selbst“: Die Quelle belegt weder die Gleichsetzung von Nutzern und Mitgliedern noch einen persönlichen Betrieb durch diese Menschen."
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„weil es den Gründern wie auch den heutigen Mitgliedern nicht um finanzielle Gewinne geht“: Unterstellt beiden Gruppen ein nicht dokumentiertes Motiv. Belegt ist nur, dass Überschüsse nicht ausgeschüttet werden.",
+          "„ideal“, „die passende Rechtsform“ und „genau richtig“: Die Eignung wird mehrfach wertend behauptet. Eine einmalige, sachlich hergeleitete Begründung wäre präziser und weniger werblich.",
+          "„um einen Elektroantrieb einzubauen und den Fährbetrieb so für die Zukunft zu sichern“: Der Einbau ist als Ziel belegt; dass er den zukünftigen Betrieb sichert, ist eine zusätzliche Schlussfolgerung."
+        ],
+        "unsupported": [
+          "„weil es den Gründern wie auch den heutigen Mitgliedern nicht um finanzielle Gewinne geht, sondern um den Erhalt der Fährverbindung“: Die persönlichen Motive beider Gruppen werden im Quellmaterial nicht angegeben.",
+          "„den Fährbetrieb so für die Zukunft zu sichern“: Die Quelle nennt den geplanten Elektroantrieb, belegt aber nicht, dass dessen Einbau den künftigen Betrieb sichert."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3218,
+    "out": 3090,
+    "thinking": 1506
+  },
+  "costUsd": 0.037336
+}

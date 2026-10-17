@@ -1,0 +1,110 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Die Fahrt dauerte elf Minuten, hin und zurück ein Vierteljahrstündchen“ – Rechenfehler/Logikbruch: zweimal elf Minuten sind 22 Minuten, keine Viertelstunde (15 Minuten).",
+          "„wo der alte Außenborder unter einer Persenning hockte“ – Sachlicher Fehler: Eine Autofähre auf der Elbe („von der Rampe rollte der letzte Wagen“) lässt sich nicht mit einem Außenbordmotor betreiben.",
+          "„„Seit Mittwoch.““ – Unplausibles Hellseher-Klischee: Sie wusste schon zwei Tage vor seiner Buchung, dass er unangekündigt kommt, und hat das Bett bezogen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ilse klappte die Rampe herunter“ – Leichter Ablaufbruch: Im Startabsatz hat sie bereits die Festmacherleine doppelt verzurrt, während Passagiere noch hinter verschlossener Rampe warten mussten.",
+          "„„Stell den Koffer in die Kabine“, sagte sie. „Und halt das. Aber erst loslassen, wenn ich es sage.““ – Logisch unscharf: Wenn er die Leine am Poller an Land löst und festhält, während sie ablegt, bleibt er am Ufer zurück, statt mit rüberzufahren."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Da dachte ich, ich nehme den Mietwagen für den Rest der Strecke. Er nickte den Deich hinauf, wo ein silberner Kombi mit Münchner Kennzeichen neben ihrem rostigen Caddy parkte.“ – Logikbruch zur Vorlage: Im vorgegebenen Absatz steht Jonas mit seinem Rollkoffer auf den nassen Bohlen des Anlegers; wer mit dem Auto anreist, lässt den Rollkoffer im Kofferraum am Haus, statt ihn über den Deich auf den Fähranleger zu zerren.",
+          "„Er roch nach Rasierwasser und der klimatisierten Luft aus dem ICE.“ – Widerspruch im selben Absatz: Eben hieß es, er rieche nach ICE, unmittelbar darauf sagt er, er komme mit dem Mietwagen aus Hamburg."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie nahm die Leine vom Poller und legte sie über den Arm. [...] Ilse band die Leine fest und prüfte den Knoten mit dem Daumen.“ – Eklatanter Kontinuitätsfehler: Im letzten Satz der Vorgabe hat sie die Leine bereits über den Poller geworfen und zweimal festgezogen; hier nimmt sie sie grundlos wieder ab und bindet sie erneut fest.",
+          "„Sie hängte ihren Mantel an den Nagel. [...] Ilse stellte den Kessel auf die Platte.“ – Schauplatz-Konfusion: Die Hütte am Anleger ist plötzlich gleichzeitig Fährbüro (Dieselgeruch, Fahrtenbuch, Blick auf den Anleger) und Wohnhaus (Küche, Stube zum Schlafen), während sie im Begriff ist, noch einmal überzusetzen.",
+          "„Draußen rief jemand vom anderen Ufer.“ – Sachlicher Unsinn: Die Elbe bei Hitzacker ist rund 200 bis 300 Meter breit, da ruft niemand mal eben aus dem Stand zur geschlossenen Hütte herüber."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "„Beim letzten Hochwasser hat er geklemmt. Seitdem zieh ich mit der Hand.“ – Völliger Sach- und Logikbruch: Eine Elbfähre zieht man nicht mit bloßen Händen über den Strom; zudem hat Jonas im Startabsatz gehört, dass der Motor unrund läuft oder kaputt ist, hier behauptet Ilse („Ich hab's gehört“), der Motor stehe seit dem letzten Hochwasser komplett still.",
+          "„legtesie auf die Ducht [...] wenn sie das Ruder und die Leine nahm“ – nautischer Unsinn: Eine Seilfähre ist kein Ruderboot mit „Ducht“ (Ruderbank) und „Ruder“.",
+          "„Öl und feuchtes Holz schlugen ihr entgegen, vertraut wie das eigene Kissen.“ – Stilblüte / schiefer Vergleich.",
+          "„Die Elbe war braun und schnell, sie trug Äste mit sich und einen einzelnen Schuh“ – Abgegriffenes Klischeebild (der einzelne treibende Schuh)."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "A",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 4467,
+    "out": 1260,
+    "thinking": 0
+  },
+  "costUsd": 0.021534
+}

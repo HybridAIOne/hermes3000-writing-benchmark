@@ -1,0 +1,18 @@
+{
+  "task": "ed-feedback",
+  "model": "gpt-6.1-sol",
+  "run": 3,
+  "text": "1. **„Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.“** – Die Reihenfolge ist unlogisch: Die Rampe müsste zum Einsteigen bereits heruntergelassen sein.\n\n2. **„Ilse stellt den Motor an und wartete“** – „Stellt“ steht entgegen dem Erzähltempus im Präsens und muss „stellte“ heißen.\n\n3. **„die drei Fahrgäste“ / „Die Frau mit dem Fahrrad“ / „Der Mann im grauen Mantel“ / „Der Junge mit den Kopfhörern“ / „die alte Frau Lüders“** – Es werden vier Fahrgäste eingeführt, obwohl zuvor nur drei genannt wurden; falls Frau Lüders die Radfahrerin ist, muss diese Identität deutlich werden.\n\n4. **„dass sie das andere Ufer nicht sah“ / „Am Anleger drüben wartete schon der Bäcker mit seinem Pferdewagen“** – Die personale Erzählperspektive vermittelt hier einen für Ilse nicht sichtbaren Sachverhalt als Gewissheit, ohne ihn als Schlussfolgerung aus dem Hupen und der bekannten Routine kenntlich zu machen.",
+  "usage": {
+    "in": 294,
+    "out": 685,
+    "thinking": 428
+  },
+  "costUsd": 0.007438,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 20019,
+  "meta": [],
+  "at": "2026-10-17T17:42:53.038Z"
+}

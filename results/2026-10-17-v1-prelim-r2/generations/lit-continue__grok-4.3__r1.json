@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "Ilse richtete sich auf und strich die Hände an ihrer Jacke ab. Das Seil lag fest um den Poller, sie zupfte noch einmal daran, obwohl es nicht nötig war. Jonas stand mit dem Rollkoffer da und sah ihr zu, als erwarte er eine Antwort auf seine Bemerkung. Sie ging an ihm vorbei zum Bug, prüfte die Ketten und die Halterung des Seils, das sich über das Wasser spannte. Die Elbe führte viel Wasser, braun und träge, und der Wind kam von stromabwärts.\n\n„Der Motor tuckert wie immer“, sagte Jonas. „Aber er klingt dünn.“\n\nIlse nickte, ohne sich umzudrehen. Sie zog die Plane über die Bank an der Reling zurecht, obwohl niemand darauf saß. Die Plane war ausgeblichen, an einer Stelle hatte der Wind sie aufgerissen. Henning hätte sie geflickt, mit dem Nähzeug aus dem Schuppen. Sie hatte es nie gelernt, die Stiche ordentlich zu machen.\n\nJonas rollte den Koffer näher und blieb stehen, wo das Wasser gegen die Bohlen schlug. „München ist noch warm“, sagte er. „Hier riecht es schon nach Herbst.“\n\nSie hörte ihm zu, ohne zu antworten. Der Geruch nach nassem Holz und Diesel war ihr vertraut, er gehörte zum Anleger wie das Seil und die Poller. Jonas roch nach etwas anderem, nach einem Mantel, der zu wenig mit Flussluft in Berührung gekommen war. Sie stieg die drei Stufen zum Steuerhaus hinauf, öffnete die Tür und ließ sie offen stehen. Drinnen stand die Thermoskanne, die sie am Morgen gefüllt hatte. Der Kaffee war noch lauwarm. Sie goss sich ein in die Emailletasse mit dem Sprung am Rand und trank einen Schluck, ohne sich umzudrehen.\n\nHinter ihr hörte sie Jonas den Koffer auf die Bohlen stellen. Er sagte nichts mehr. Die Fähre schaukelte leicht, als ein Schubboot mit leerem Schlepper vorbeizog. Ilse stellte die Tasse ab und sah auf den Wasserstand am Pfahl. Er war seit dem Morgen um zwei Striche gefallen. Sie überlegte, ob sie die nächste Fahrt ausfallen lassen sollte, weil niemand wartete. Dann entschied sie sich, den Motor nicht abzuschalten.",
+  "usage": {
+    "in": 525,
+    "out": 2137,
+    "thinking": 1628
+  },
+  "costUsd": 0.00599875,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "upstream": "xAI",
+  "latencyMs": 35258,
+  "meta": [],
+  "at": "2026-10-17T17:22:29.539Z"
+}

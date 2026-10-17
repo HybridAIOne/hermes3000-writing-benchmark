@@ -1,0 +1,102 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "Aber seit drei Monaten lässt er schleifen. (Unvollständige Redewendung: es fehlt das Objekt 'es' – 'lässt er es schleifen')",
+          "zwei Türen weiter. Dort sitzt Markus. Markus ist seit acht Jahren im Betrieb, kennt jede Maschine im Schlaf ... aufzustehen und in sein Büro zu gehen (Unstimmiges Setting: Maschinenbediener mit Schichten und Sicherheitsvorschriften sitzen selten zwei Bürotüren weiter im eigenen Einzelbüro)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 9,
+        "fehler": [
+          "ob du auch so einen Kaffee willst. (Etwas unpräziser Bezug im Kontext, gemeint ist schlicht 'ob du auch einen Kaffee willst')"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "Das wolltest du so nicht hören lassen (Unidiomatisch/falscher Ausdruck im Deutschen)",
+          "„Dann war's das also mit mir?\" (Thematischer Bruch: Ein Teamleiter 'ohne Titel' führt keine Kündigungsgespräche; zudem falsche Schlusszeichen bei den Anführungszeichen)",
+          "Kennst du das? (Aufgabenverfehlung: Der Text ist in vier Absätze gegliedert, gefordert war 'den Einstiegsabsatz')"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Während Jana ihren Rechner aufklappt, sortierst du im Kopf deine Sätze ... Also fragst du nach dem Wochenende. (Logischer Bruch in der Szene: 'Also' suggeriert eine Konsequenz aus dem Sortieren der Sätze, obwohl sie danach zehn Minuten lang das Thema komplett vermeidet)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "D",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2838,
+    "out": 669,
+    "thinking": 0
+  },
+  "costUsd": 0.012366
+}

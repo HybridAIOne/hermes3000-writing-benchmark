@@ -1,0 +1,115 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "Hast du die Beförderung bekommen, für die du so... gekämpft hast? (Konflikt wird plump ausgesprochen statt angedeutet; zudem fehlt das Leerzeichen vor den Auslassungspunkten)",
+          "Der Kellner stellt ein Kännchen Milch auf den Tisch (Logikbruch: Niemand hat im Dialog Milch oder Hafermilch nachbestellt)",
+          "Loyalität ist heutzutage wirklich ein teurer Luxus. Man kann sich so leicht daran verbrennen. (Abgedroschene Phrasen, hölzerner Erklär-Dialog)",
+          "Ich brauchte einen radikalen Schnitt. Alles Alte musste weg. (Überdeutliche, klischeehafte Küchenpsychologie)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Zwei Löffel, wie früher. (Verstoß gegen die Textsorte: Das ist erzählende Innensicht/Vergangenheit, keine spielbare Regieanweisung)",
+          "Ob es hier noch was zu reparieren gibt. (Hier kippt der bis dahin gute Subtext in zu deutlichen, fast kitschigen Symbolismus)",
+          "Ich hab mich dran gewöhnt, dass sie leckt. (Etwas bemühte Metaphorik mit der gesprungenen Tasse)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "LENA: Willst du was trinken? / TOM: Wenn du schon bestellt hast. / LENA: Hab ich. / Sie winkt der Kellnerin. Niemand kommt. / Die Kellnerin stellt zwei Tassen ab. (Massiver Logikbruch: Lena hat zu Beginn bereits ihre Tasse vor sich, behauptet dann, für Tom mitbestellt zu haben, winkt vergeblich, und plötzlich kommen zwei neue Tassen)",
+          "Ich hab dich letzte Woche am Bahnhof gesehen. (Verstoß gegen die Vorgabe, dass sie sich zum ersten Mal wiedersehen, oder unsaubere Trennung von Sehen und Treffen)",
+          "Du konntest schon immer das letzte Wort haben. (Unidiomatisch; korrekt wäre: 'Du musstest schon immer das letzte Wort haben')",
+          "Erinnerst du dich an den Sommer am See? (Klischeehaftes Versatzstück, das Tiefe nur behauptet)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Beide zögern, ob sie sich umarmen sollen. (Unpräzise Regieanweisung; beschreibt innere Überlegung statt sichtbarer Handlung)",
+          "rührt in seinem Kaffee, der längst umgerührt ist (Erzählerischer Kommentar in der Regieanweisung)",
+          "Die Kellnerin stellt ein Glas Wasser vor Martin ab. (Unmotiviert: Er ist gerade erst zur Tür hereingekommen und hat nichts bestellt)",
+          "Ich hab’s nicht so gemeint. Damals. Zumindest nicht alles. (Bricht die Vorgabe des unausgesprochenen Konflikts durch zu direkte Thematisierung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "Als Jakob kommt, nimmt er seine Jacke vom zweiten Stuhl. [...] Martin nimmt die Jacke vom Stuhl neben sich und hängt sie an den Haken. (Kontinuitätsfehler: Wohin hat er die Jacke beim ersten Mal genommen, wenn sie am Ende immer noch auf einem Stuhl neben ihm liegt?)",
+          "Ich konnte sie noch aufhalten, wenn du etwas anderes willst. (Grammatikalisch/Tempus schief: Gemeint ist Konjunktiv II 'Ich könnte sie noch aufhalten', da die Kellnerin gerade erst am Tisch war)",
+          "Jakob: Du sitzt noch immer hier. / Martin: Die anderen Plätze waren frei. (Unlogische Replik: 'Noch immer' zielt auf die Gewohnheit/Zeit ab, die Antwort passt nicht dazu)",
+          "Du hast ihn glatt gestrichen. (Erklärt im Dialog, was in die Regieanweisung gehört; wirkt gestelzt und künstlich bedeutungsschwanger)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "E",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3362,
+    "out": 1180,
+    "thinking": 0
+  },
+  "costUsd": 0.018524
+}

@@ -1,0 +1,16 @@
+{
+  "task": "ctx-saltzbrueck-5",
+  "model": "claude-sonnet-5.5",
+  "run": 3,
+  "judge": "sol",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 1835,
+    "out": 41,
+    "thinking": 19
+  },
+  "costUsd": 0.00408
+}

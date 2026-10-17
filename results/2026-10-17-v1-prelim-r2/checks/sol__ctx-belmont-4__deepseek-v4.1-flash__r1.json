@@ -1,0 +1,22 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-4",
+      "b4-5"
+    ],
+    "evidence": [
+      "Vielleicht war Konrad nicht auf dem Pass gestorben, sondern etwas anderem ausgewichen.",
+      "und begriff, dass sie nicht länger allein ihrem eigenen Gedächtnis misstraute, sondern jedem in diesem Haus."
+    ]
+  },
+  "usage": {
+    "in": 2101,
+    "out": 210,
+    "thinking": 124
+  },
+  "costUsd": 0.006302
+}

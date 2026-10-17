@@ -1,0 +1,93 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "D": {
+      "model": "glm-5.3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "Deine war nie besetzt (unidiomatisch für Mobilfunknummern; wer nichts voneinander hört, prüft nicht ständig durch Anrufen, ob besetzt ist)",
+          "Ein Kaffee ist ein Anfang. / Oder ein Kaffee. (abgedroschener Drehbuch-Spruch am Ende)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Wahl von Prosadialog-Anführungszeichen ohne Sprecherzuweisung bei manchen Blöcken, kombiniert mit eckigen Klammern für Regieanweisungen (etwas hybride Form, wenn auch stets nachvollziehbar)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "Er zieht die Hände zurück, als hätte er sich verbrannt. (Metapher in einer Regieanweisung verstößt gegen das Prinzip knapper, darstellbarer Bühnen-/Drehbuchanweisungen)",
+          "Anna: Hast du manchmal daran gedacht? / Jonas: An was genau? / Anna: An uns. (klingt nach Liebespaar nach Trennung, nicht nach alten Freunden)",
+          "Du musst nicht so tun, als wärst du die Einzige, die verletzt wurde. (Konflikt und Vorwurf werden hier explizit ausgesprochen statt nur spürbar zu bleiben)",
+          "Ich bin gekommen. / Das ist kein Satz. (sachlich falsch, es ist ein Satz; zudem hohles Pseudo-Tiefsinn-Geplänkel)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 4,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "Trocken geschafft doch. (ungrammatischer Satzbau am Ende)",
+          "Das ist für meinen Kaffee. Und deins. (Grammatikfehler: Bezug auf 'deinen Espresso/Kaffee' oder 'deiner', 'deins' passt zu keinem denkbaren Bezugswort im Kontext)",
+          "Jonas trinkt zu schnell, verbrennt sich leicht. ... rührt den unberührten Espresso um. (massiver Logikbruch: erst trinkt er, dann ist der Espresso unberührt)",
+          "Hier ist noch frei, oder? (völlig unplausible Begrüßung für zwei alte Freunde, die sich zu einem Treffen verabredet haben)",
+          "# Alte Wunden (ungefragte Überschrift, die das Thema zudem sehr platt benennt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2748,
+    "out": 757,
+    "thinking": 0
+  },
+  "costUsd": 0.013066
+}

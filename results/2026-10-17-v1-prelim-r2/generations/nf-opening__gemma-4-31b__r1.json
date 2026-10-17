@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "text": "Du sitzt an deinem Schreibtisch, starrst auf den Bildschirm und spürst, wie sich dein Magen zusammenzieht. In zehn Minuten musst du Markus in dein Büro rufen. Markus ist fachlich brillant, aber in den letzten zwei Wochen hat er die Stimmung im Team systematisch vergiftet. Er unterbricht Kollegen, lässt sarkastische Kommentare fallen und ignoriert Absprachen. Du weißt genau, was passieren wird: Sobald du das Thema ansprichst, wird er es abstreiten, die Schuld bei anderen suchen oder versuchen, das Gespräch durch eine technische Diskussion über ein aktuelles Projekt zu lenken.\n\nVielleicht hast du das Gespräch schon dreimal im Kopf durchgespielt. Du überlegst, wie du es formulieren kannst, damit er nicht sofort auf stur schaltet. Oder du hoffst insgeheim, dass er heute gar nicht kommt oder dass es sich irgendwie von selbst löst, wenn du nur lange genug wartest. Aber das Problem ist: Je länger du wartest, desto mehr signalisierst du dem restlichen Team, dass dieses Verhalten akzeptabel ist.\n\nWir alle hassen diese Momente. Ob es die Kritik an einer schlechten Leistung ist, ein Konflikt zwischen zwei Mitarbeitern oder die Nachricht, dass ein Projekt gestoppt wird – schwierige Gespräche rauben uns Energie. Doch genau hier trennt sich die Spreu vom Weizen. Führung passiert nicht dann, wenn alles glattläuft, sondern genau in diesen Momenten, in denen es unangenehm wird.",
+  "usage": {
+    "in": 166,
+    "out": 319,
+    "thinking": 0
+  },
+  "costUsd": 0.0001608,
+  "finish": "stop",
+  "reportedModel": "google/gemma-4-31b-it",
+  "upstream": "ModelRun",
+  "latencyMs": 1679,
+  "meta": [],
+  "at": "2026-10-17T17:24:24.254Z"
+}

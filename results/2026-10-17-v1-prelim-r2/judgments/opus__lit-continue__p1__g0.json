@@ -1,0 +1,120 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "D": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "E": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„als hätte jemand sie an einem Faden geführt“ – schiefes Bild für einen Starenschwarm",
+          "„so fest, wie man ein Seil zieht, das man nicht loslassen will“ – am Schluss leicht ins Sentimentale kippend",
+          "„ein kleines, ungeduldiges Atmen, das die Strömung durch die Planken schickte“ – etwas gesuchte Metapher",
+          "„Vom Ufer her roch es nach feuchtem Schilf und nach Bratwurst, der Stand hatte seit Ostern wieder auf“ – Kommaverkettung, Exkurs bremst die Szene"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie löste die Leine wieder, zog sie durch den Ring“ – unmotiviert, die Fähre hat gerade erst festgemacht; später schlägt die „lose Leine“, die Fähre liegt also ungesichert",
+          "„Dann nahm sie die Leine vom Haken neben der Tür und zog die kleine Glocke am Anleger einmal“ – räumlich und logisch unklar",
+          "„Dein Zimmer ist noch dasselbe“ – im Fährhäuschen am Anleger deplatziert",
+          "„Die Steckdose hatte Henning einmal neu eingesetzt, mit einer Sicherung, die zu groß war, hatte er gesagt. Sie hatte es vergessen.“ – loses Detail ohne Funktion",
+          "„Kein Ruf, nur ein Zeichen, dass die nächste Überfahrt noch nicht kam“ – die Schlussentscheidung wird erklärt statt gezeigt und bleibt diffus"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Er griff nach dem Griff seines Koffers“ – Wortwiederholung",
+          "„Sie strich die nassen Haarsträhnen unter ihrer Mütze hervor“ – Bewegung unlogisch, gemeint ist wohl unter die Mütze",
+          "„Bei diesem Wind holte man sich den Tod“ / „Zu rasch.“ / „Er hat eben Charakter.“ – Klischees",
+          "„Hast du die Frühschicht genommen?“ – passt nicht zu einem Unternehmensberater",
+          "„Es war der Blick eines Mannes, der eine Rechnung aufmachte, Posten für Posten.“ – erklärend, nimmt das Verkaufsthema vorweg"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 4,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "„würden diese Ärmel ihm niemand auffallen“ – ungrammatisch",
+          "„in der Karabinerhake verschwinden“ – falsches Wort und Genus (der Karabinerhaken)",
+          "„stellte sie auf die Herdplatte … ließ die Maschine blubbern … stellte die Tasse unter den Auslauf“ – das Kaffeekochen ist logisch wirr",
+          "„der Riemen des Ziehseils lag lose auf dem Wasser“ / „Da lag das Wasser in einer Schicht, die so dünn war, dass man die Strömung sah“ – unsinnige Bilder",
+          "„Sie stellte sich auf“ – falsche Idiomatik; dazu „Wie lange noch, Mutter?“ – rührt fast direkt an den Verkauf"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„wenn sie wusste, dass sie gleich zurückkommt“ – Tempusbruch, richtig wäre „zurückkam“",
+          "„wie lange er bleibt … ob er sich krank fühlt“ – Präsens in der Präteritum-Erzählung",
+          "„Sie zog den Schlüssel aus dem Schloss und schloss das Steuerhaus ab“ – Handlungsfolge verdreht",
+          "„Der Hof in Dannenberg hat den Zylinderkopf da“ – „Hof“ für eine Werkstatt ist unklar",
+          "„Dann entschied sie, dass er im Haus schlafen sollte“ – die Entscheidung wird benannt statt gezeigt"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 8219,
+    "out": 3876,
+    "thinking": 2294
+  },
+  "costUsd": 0.110396
+}

@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "# Führen ohne Titel\n\n**1. Die ersten Wochen ohne Gebrauchsanleitung**\nWas in deinen ersten Tagen als Teamleiter wirklich zählt, und warum du nicht sofort alles umkrempeln musst.\n\n**2. Vom Kollegen zum Vorgesetzten**\nWie du die Beziehung zu Menschen, mit denen du gestern noch auf Augenhöhe gearbeitet hast, neu ordnest, ohne dich zu verbiegen.\n\n**3. Wer macht eigentlich was?**\nWie du dir einen ehrlichen Überblick über Aufgaben, Zuständigkeiten und Engpässe verschaffst, bevor du Entscheidungen triffst.\n\n**4. Aufgaben abgeben, ohne die Kontrolle zu verlieren**\nWie du delegierst, so dass Verantwortung wirklich wandert, und wo Kontrolle hingehört und wo sie nur Misstrauen ist.\n\n**5. Reden, bevor es brennt**\nWie du mit Einzelgesprächen und festen Besprechungen einen Rhythmus aufbaust, in dem Probleme früh auftauchen und nicht erst eskalieren.\n\n**6. Das schwierige Gespräch**\nWie du Kritik, Leistungsprobleme oder Konflikte vorbereitest, klar ansprichst und durchstehst, auch wenn dein Gegenüber laut, verletzt oder schweigend wird.\n\n**7. Entscheiden, auch wenn nicht alle zustimmen**\nWie du Entscheidungen triffst, sie begründest und dazu stehst, wenn nicht jeder im Team begeistert ist.\n\n**8. Die Brücke nach oben**\nWie du zwischen Geschäftsführung und Team vermittelst, eigene Anliegen vertrittst und dich gegenüber deinem Chef abgrenzst, ohne dich unbeliebt zu machen.\n\n**9. Warum du das eigentlich machst**\nWie du deine eigene Haltung zur Führung findest, mit Zweifeln und Fehlern umgehst und erkennst, wann du dich weiterentwickeln solltest.",
+  "usage": {
+    "in": 242,
+    "out": 1996,
+    "thinking": 1230
+  },
+  "costUsd": 0.0010222,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 9851,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:50:46.458Z"
+}

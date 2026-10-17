@@ -1,0 +1,19 @@
+{
+  "task": "ed-feedback",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "found": [
+      "tempus",
+      "wiederholung"
+    ],
+    "false_alarms": 1
+  },
+  "usage": {
+    "in": 1629,
+    "out": 85,
+    "thinking": 58
+  },
+  "costUsd": 0.008216
+}

@@ -1,0 +1,110 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Maren walks the fourth-floor corridor ... checking pumps ... The chapel is at the end of the west wing (Logikbruch: Kapellen liegen im Krankenhaus nicht mitten auf einer Bettenstation, während man im Gehen Infusionspumpen kontrolliert)",
+          "with her badge turned face-in against her scrubs ... Her name tag says M. OSTRANDER in small letters, so he would have had to read it (Widerspruch: Erst ist das Schild verdeckt/umgedreht, dann überlegt sie, ob er das Kleingedruckte darauf gelesen hat)",
+          "\"Your hair was longer.\" Her hair is still short. (Logikfehler: 'still short' ergibt als Reaktion auf 'war länger' keinen Sinn, es müsste 'is short now' oder 'has always been short' heißen)",
+          "set it down on the pew beside him, carefully, in the ring it has already left (Unplausibles Detail: Ein kalter Pappbecher hinterlässt keinen sichtbaren Ring auf einer Kirchenbank aus Holz, den man im Halbdunkel anvisieren könnte)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Wait for him to turn around ... He was looking at his own hands, folded loosely over a blue visitor’s pass that lacked a printed destination (Perspektivfehler: Wenn er mit dem Rücken zu ihr in der dritten Reihe sitzt und sich nicht umdreht, kann sie von der Tür aus nicht sehen, was auf seinem Schoß liegt und dass der Pass unbedruckt ist)",
+          "damp at the shoulders, though it hadn't rained since her shift began at seven ... a single melted gray slush-print (Widerspruch: Erst wird suggeriert, es sei seit neun Stunden trocken, am Ende liegt dort plötzlich frischer Schneematsch)",
+          "Nora’s hand went instinctively to her chest, covering the laminated badge (Abgegriffenes Genre-Klischee)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "**Second Pew** (Verstoß gegen die Textsorte: Eine kurze Szene innerhalb eines Romans hat keine eigene fettgedruckte Überschrift)",
+          "a man in a canvas jacket ... smelling of wet wool (Kontinuitätsfehler: Eine Segeltuchjacke aus Baumwolle riecht nicht nach nasser Wolle)",
+          "You sat with my mother. Room twelve. You did her hair. (Verstoß gegen die Aufgabenstellung: Liefert eine explizite, rührselige Auflösung des Rätsels, statt zurückhaltend zu bleiben)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "the ordinary machinery of people keeping one another alive (Stilbruch: Zu erklärend und pathetisch für den geforderten zurückhaltenden Ton)",
+          "On the sill, a paper cup trembled slightly whenever the heating came on. (Schwaches, leicht klischeehaftes Schlussbild im Vergleich zur restlichen Szene)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "as if he'd been saying it silently for some time (Unlogisches Bild: Vom lautlosen Formen eines Wortes wird die Stimme nicht heiser)",
+          "At ten to four (Kleine Abweichung von der Vorgabe 'at 4 a.m.')"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "D",
+      "B",
+      "C",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2638,
+    "out": 1007,
+    "thinking": 0
+  },
+  "costUsd": 0.015346
+}

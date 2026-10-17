@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "# Führen ohne Titel – Gliederung\n\n**1. Plötzlich Chef: Der Rollenwechsel**\nDu klärst, was sich ab dem ersten Tag ändert, was deine Vorgesetzten von dir erwarten und wie du mit der neuen Distanz zu ehemaligen Kollegen umgehst.\n\n**2. Die ersten 90 Tage: Erst verstehen, dann verändern**\nDu lernst dein Team, die Abläufe und die ungeschriebenen Regeln kennen, bevor du anfängst, Dinge umzukrempeln.\n\n**3. Aufgaben abgeben, ohne die Kontrolle zu verlieren**\nDu erfährst, wie du Arbeit so übergibst, dass sie richtig erledigt wird, und warum „Ich mach's lieber selbst\" dich und dein Team ausbremst.\n\n**4. Rückmeldung im Alltag: Lob und Kritik, die ankommen**\nDu übst, im normalen Arbeitsalltag knapp, konkret und zeitnah zu sagen, was gut läuft und was nicht, bevor aus Kleinigkeiten Probleme werden.\n\n**5. Schwierige Gespräche führen**\nDu bekommst eine Vorgehensweise für Konflikte, anhaltend schwache Leistung, unbequeme Nachrichten und Gespräche mit Menschen, die du schon lange kennst.\n\n**6. Menschen fördern, die du nicht befördern kannst**\nDu findest heraus, was jede und jeden in deinem Team antreibt und wie du auch ohne Gehaltserhöhung oder neue Titel Entwicklung ermöglichst.\n\n**7. Führen nach oben und zur Seite**\nDu lernst, Entscheidungen der Geschäftsführung glaubwürdig ins Team zu tragen, für dein Team Ressourcen auszuhandeln und mit anderen Abteilungen zusammenzuarbeiten, ohne Weisungsbefugnis zu haben.\n\n**8. Dich selbst nicht verheizen**\nDu gehst mit dem Dauerspagat zwischen Fachaufgabe und Führung, mit Überlastung und mit Zweifeln um, ohne dich dabei zu verlieren.\n\n**9. Deine eigene Haltung**\nDu formulierst, welche Art von Führungskraft du sein willst, woran du dich bei Entscheidungen orientierst und wie du auch ohne Titel Autorität gewinnst.",
+  "usage": {
+    "in": 242,
+    "out": 1812,
+    "thinking": 948
+  },
+  "costUsd": 0.018604,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 14299,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:20:40.500Z"
+}

@@ -1,0 +1,73 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Logikbruch: \"with her badge turned face-in\" und \"He doesn't look up\" widersprechen \"Her name tag says M. OSTRANDER in small letters, so he would have had to read it\" (und selbst dann stünde dort nur 'M.', nicht 'Maren').",
+          "Logikbruch: \"Your hair was longer.\" gefolgt von \"Her hair is still short.\" ('still' impliziert, dass es durchgehend kurz war, was dem ersten Satz widerspricht, oder es ist schief formuliert).",
+          "Klischee (Verstoß gegen Aufgabe): \"It isn't a question.\" und \"You did once.\" sind abgedroschene Thriller-Floskeln."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "Leichte Unschärfe: \"Photograph facing her leg\" lässt minimal offen, ob der Name vielleicht auf der Rückseite lesbar war, aber im Kontext ist die Absicht klar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "Kontinuitätsfehler im Raum: Erst sitzt er auf \"padded chairs\", später stellt er den Becher auf \"the blonde wood of the pew\".",
+          "Physischer Logikbruch: \"held a flattened paper coffee cup\" vs. \"leaving the paper cup on the blonde wood\" (ein plattgedrückter Pappbecher lässt sich nicht einfach hinstellen).",
+          "Verstoß gegen Aufgabe ('restrained, no clichés'): \"Room 312 had been converted into a supply closet three years ago\" und \"two crescents of grey slush\" (obwohl es trocken war) bedienen sehr abgedroschene Geistergeschichten-Tropen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 1899,
+    "out": 572,
+    "thinking": 0
+  },
+  "costUsd": 0.009518
+}

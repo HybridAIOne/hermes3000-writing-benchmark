@@ -1,0 +1,20 @@
+{
+  "task": "ctx-saltzbrueck-5",
+  "model": "gpt-6.1-sol",
+  "run": 2,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "s5-7"
+    ],
+    "evidence": [
+      "Gustav Sahlmann hatte dort gestanden und ihr versichert, in solchen Zeiten sei Vertrauen das einzige Kapital. Dabei hatte er auf ihre Halskette geblickt."
+    ]
+  },
+  "usage": {
+    "in": 1848,
+    "out": 265,
+    "thinking": 201
+  },
+  "costUsd": 0.006346
+}

@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "glm-5.3",
+  "run": 1,
+  "text": "The chapel lights were off when Marisol passed the doorway, which was why she noticed the shape inside—one of the back pews, someone sitting very still.\n\nShe should have kept walking. Her rounds ended at the NICU, and the coffee in the break room had her name on it, literally, written on the cup in her own handwriting. But 4 a.m. had its own gravity, and she stepped in.\n\n\"Visiting hours are—\"\n\n\"Marisol Vega.\" The voice was quiet, unhurried. A woman, sixty maybe, in a raincoat dry despite the storm outside. \"You were in room 412 last spring. The night of the fourteenth.\"\n\nMarisol's badge was turned backward against her chest. She checked it without meaning to. Her name faced the wall.\n\n\"You drew the blinds before the family came in,\" the woman said. \"You held his hand for eleven minutes first. I counted.\"\n\nA lot of people had died in this building. That was the simple arithmetic of the place. Marisol waited for the rest of it—grief, accusation, some version of *why didn't you*—but the woman just sat there, hands folded, looking at the small cross backlit in blue above the altar.\n\n\"The chapel's open all night,\" Marisol said finally. \"You can stay.\"\n\n\"I know. I've been staying a long time.\"\n\nMarisol left her to it. In the hallway the storm pressed against the windows, and far down at the nurses' station a phone rang and rang, and no one she could see was picking it up.",
+  "usage": {
+    "in": 65,
+    "out": 344,
+    "thinking": 14
+  },
+  "costUsd": 0.0016564000000000001,
+  "finish": "stop",
+  "reportedModel": "z-ai/glm-5.3",
+  "upstream": "Crusoe",
+  "latencyMs": 2563,
+  "meta": [],
+  "at": "2026-10-17T17:20:47.994Z"
+}

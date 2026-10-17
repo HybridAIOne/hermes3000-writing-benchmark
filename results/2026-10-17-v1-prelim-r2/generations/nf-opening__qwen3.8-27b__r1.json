@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "Du hast um 14:32 einen Zettel auf deinen Bildschirm geklebt. Ein einzelner Buchstabe: M. Keine Monogramme sonst in deiner Abteilung. M steht für Maik. Maik, der seit September im Team sitzt, Maik, der früher jeden Liefertermin exakt getroffen hat und jetzt seit drei Wochen jedes Ergebnis um ein paar Tage verschiebt. Maik, bei dem du im kurzen Zwischenruf sagst: „Kriegst du das noch hin?\" und er nickt, und dann nicht.\n\nDu starrst auf den Zettel. Draußen auf dem Flur rollen Bürostühle über den PVC-Boden, die Servicefachfrau bringt die zweite Kaffeerunde, irgendjemand druckt eine Absendungsbestätigung in dreifacher Ausfertigung. Normaler Dienstagnachmittag. Aber in deinem Kopf rotiert nur eine Frage, und sie klingt dabei nicht nach Führung, nicht nach Entwicklungsgespräch, nicht nach „Ich wollte mal kurz checken, wie es dir so geht.\" Sie klingt nach: Was sagst du, wenn er es dir anders erzählt als das, was du im HeadTracking-Board gelesen hast? Oder: Sagst du es ihm erst, wenn die zweite Beschwerde vom Kunden auf dem Schreibtisch liegt? Oder: Geht es ihm eigentlich so schlecht, dass du ihm mit der Ankündigung, du wolltest „ein bisschen reden\", nur noch den Rest des Nachmittags versauerst?\n\nDu klemmst den Zettel in eine Mappe. Morgen, denkst du. Morgen sagst du es ihm.\n\nUnd morgen ist Donnerstag. Der Zettel liegt noch dort, unter der Tastatur, ein bisschen verbogen.",
+  "usage": {
+    "in": 161,
+    "out": 1392,
+    "thinking": 1037
+  },
+  "costUsd": 0.00310104,
+  "finish": "stop",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "upstream": "ModelRun",
+  "latencyMs": 7243,
+  "meta": [],
+  "at": "2026-10-17T17:24:29.027Z"
+}

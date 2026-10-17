@@ -1,0 +1,20 @@
+{
+  "task": "nf-from-source",
+  "model": "claude-opus-5.5",
+  "run": 2,
+  "text": "**Eine Fähre in eigener Hand**\n\nWie eine Genossenschaft funktioniert, lässt sich gut an einem Fluss beobachten. In Hitzacker verbindet eine Seilfähre die beiden Ufer der Elbe, die an dieser Stelle 212 Meter breit ist. Eine Überfahrt dauert bei normalem Wasserstand sieben Minuten. Dass es diese Verbindung noch gibt, ist keine Selbstverständlichkeit: 1953 stellte der Landkreis den Betrieb der Fähre ein. Daraufhin taten sich 41 Landwirte und Händler von beiden Elbufern zusammen und gründeten die Fährgenossenschaft Hitzacker eG. Sie brauchten die Fähre und übernahmen sie deshalb selbst.\n\nGenau das ist der Kern einer Genossenschaft: Menschen mit einem gemeinsamen Bedarf schließen sich zusammen, um ihn gemeinsam zu decken. Wer Mitglied werden will, erwirbt mindestens einen Anteil, in Hitzacker zu 250 Euro. Heute zählt die Genossenschaft 312 Mitglieder. Wichtige Entscheidungen fallen in der Generalversammlung, und dort gilt eine besondere Regel: Jedes Mitglied hat eine Stimme, ganz gleich, wie viele Anteile es besitzt. Wer mehr Geld einbringt, erhält dadurch nicht mehr Einfluss.\n\nAuch mit dem Geld geht die Genossenschaft anders um als ein gewöhnliches Unternehmen. 2024 betrug der Umsatz 186.000 Euro. 71 Prozent davon stammten aus dem Fahrkartenverkauf, 29 Prozent aus einem Zuschuss der Gemeinde. Überschüsse werden nicht an die Mitglieder ausgeschüttet, sondern fließen in eine Rücklage für die Erneuerung der Fähre. Bis 1978 bewegte allein die Strömung die Fähre über den Fluss, heute treibt sie ein 85-kW-Dieselmotor an. Bis 2031 soll die Rücklage ausreichen, um einen Elektroantrieb einzubauen.\n\nWarum passt diese Rechtsform so gut zu einer Fähre? Ihr Zweck ist vor allem, verlässlich überzusetzen. Rund 64.000 Menschen fährt sie pro Jahr über die Elbe, im Sommer vor allem Radfahrer auf dem Elberadweg. Es geht nicht darum, Geldgebern eine Rendite zu verschaffen. Die Genossenschaft bündelt das Interesse vieler an dieser Verbindung, verteilt das Mitspracherecht gleichmäßig und legt Erträge für die Zukunft der Fähre zurück. So bleibt die Fähre in der Hand derer, die sie brauchen.",
+  "usage": {
+    "in": 780,
+    "out": 2366,
+    "thinking": 1329
+  },
+  "costUsd": 0.05044,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 20994,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:50:13.615Z"
+}

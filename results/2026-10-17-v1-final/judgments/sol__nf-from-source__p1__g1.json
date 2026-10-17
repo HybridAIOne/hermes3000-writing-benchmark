@@ -1,0 +1,124 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 7,
+        "fehler": [
+          "„vierzig Landwirte und Händler“: Sachfehler; laut Quelle waren es 41.",
+          "„Zugleich gibt die gleiche Stimme jedem Mitglied ein Mitspracherecht – unabhängig davon, wie viele Anteile es hält.“: Wiederholt die bereits im zweiten Absatz ausführlich erklärte Stimmverteilung nahezu vollständig."
+        ],
+        "unsupported": [
+          "„vierzig Landwirte und Händler“ widerspricht der Quellenangabe von 41 Gründungsmitgliedern."
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Als der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte“: Die Quelle datiert die Gründung auf 1953, nicht ausdrücklich die vorherige Betriebseinstellung.",
+          "„warteten die Menschen an beiden Elbufern nicht auf eine Lösung von außen“: Fügt eine nicht belegte Darstellung ihres Verhaltens hinzu.",
+          "„Die Menschen, die den Übergang brauchen, tragen und steuern ihn selbst“: Setzt Nutzer und Mitglieder gleich; diese Übereinstimmung ist nicht belegt.",
+          "„Das ist der Grundgedanke jeder Genossenschaft: Menschen mit einem gemeinsamen Bedarf tun sich zusammen und betreiben gemeinsam, was einzelne nicht stemmen könnten.“: Die behauptete Unmöglichkeit einer individuellen Umsetzung ist keine notwendige Eigenschaft jeder Genossenschaft."
+        ],
+        "unsupported": [
+          "„Als der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte“: Das Jahr der Betriebseinstellung wird in der Quelle nicht ausdrücklich genannt.",
+          "„warteten die Menschen an beiden Elbufern nicht auf eine Lösung von außen“: Über ein solches Warten oder Nichtwarten enthält die Quelle keine Angaben.",
+          "„Die Menschen, die den Übergang brauchen, tragen und steuern ihn selbst“: Dass die heutigen Mitglieder zugleich die auf die Fähre angewiesenen Menschen sind, geht aus der Quelle nicht hervor."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„1953 stellte der Landkreis den Betrieb der Fähre ein.“: Die Quelle nennt 1953 als Gründungsjahr; das Datum der vorausgegangenen Betriebseinstellung bleibt offen.",
+          "„Sie brauchten die Fähre und übernahmen sie deshalb selbst.“: Schreibt den Gründern einen konkreten Bedarf und ein ausdrückliches Motiv zu, die nicht genannt werden.",
+          "„So bleibt die Fähre in der Hand derer, die sie brauchen.“: Die Gleichsetzung von Mitgliedern und auf die Fähre angewiesenen Nutzern ist nicht belegt.",
+          "„Auch mit dem Geld geht die Genossenschaft anders um als ein gewöhnliches Unternehmen.“: Der Gegensatz ist sachlich unscharf. Auch Genossenschaften sind Unternehmen; andere Unternehmen können ebenfalls Überschüsse zurücklegen.",
+          "„Rund 64.000 Menschen fährt sie pro Jahr über die Elbe“: Für den sachbuchtypischen Ton weniger idiomatisch und präzise als „befördert sie“."
+        ],
+        "unsupported": [
+          "„1953 stellte der Landkreis den Betrieb der Fähre ein.“: Die Quelle datiert nur die Gründung ausdrücklich auf dieses Jahr.",
+          "„Sie brauchten die Fähre und übernahmen sie deshalb selbst.“: Der persönliche Bedarf der Gründer und diese ausdrückliche Motivzuschreibung stehen nicht in der Quelle.",
+          "„So bleibt die Fähre in der Hand derer, die sie brauchen.“: Die Quelle belegt keine entsprechende Zusammensetzung der heutigen Mitgliedschaft."
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Sie ist auf gemeinsame Kontrolle ausgelegt, nicht auf die Auszahlung von Gewinnen an Einzelne.“: Verallgemeinert die konkrete Rücklagenpraxis zur Eigenschaft der Rechtsform. Genossenschaften können grundsätzlich Überschüsse ausschütten.",
+          "„aus beiden Elbufern“: Unidiomatische Herkunftsangabe; richtig wäre „von beiden Elbufern“. Die Formulierung ist zwar aus der Quelle übernommen, bleibt aber sprachlich fehlerhaft.",
+          "„Auch mit den Überschüssen wird anders verfahren als in einem gewöhnlichen Unternehmen.“: Unscharfer Gegensatz, der Genossenschaften sprachlich aus der Gruppe der Unternehmen herausrückt und deren Rücklagenpraxis als grundsätzlich anders darstellt.",
+          "„Eine Fähre, die über Jahrzehnte fahren soll, braucht genau diese Mischung aus gemeinsamer Entscheidung und langfristigem Denken.“: Rhetorisch überzogen; gemeinsame Entscheidung ist keine notwendige Voraussetzung für einen langfristigen Fährbetrieb.",
+          "„Wie funktioniert eine Genossenschaft? Am Beispiel der Fährgenossenschaft Hitzacker eG lässt sich das gut zeigen.“: Der Einstieg kündigt die Erklärung lediglich an, statt unmittelbar ins Beispiel einzuführen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„eine gemeinsame Aufgabe gemeinsam zu tragen“: Vermeidbare Wortwiederholung im ersten Satz.",
+          "„Die Mitglieder beteiligen sich finanziell, entscheiden mit gleichem Stimmgewicht und verwenden Überschüsse für die Erneuerung statt für Ausschüttungen.“: Der Schluss fasst die zentralen Aussagen sinnvoll zusammen, wiederholt sie jedoch recht ausführlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3159,
+    "out": 2194,
+    "thinking": 846
+  },
+  "costUsd": 0.028258
+}

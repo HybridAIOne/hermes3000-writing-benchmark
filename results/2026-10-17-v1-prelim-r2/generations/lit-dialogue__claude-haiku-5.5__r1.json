@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "*Ein Café am Bahnhof. Regen am Fenster. Lena sitzt schon am Tisch, als Tom hereinkommt. Er bleibt kurz stehen, dann zieht er den Stuhl zurück.*\n\n**TOM:** Du bist früher gekommen.\n\n**LENA:** Ich wollte nicht warten müssen.\n\n**TOM:** Das ist neu.\n\n**LENA:** Vieles ist neu.\n\n*Die Kellnerin stellt zwei Tassen ab, ohne zu fragen. Beide sehen auf den Kaffee.*\n\n**TOM:** Du rührst immer noch so lange.\n\n**LENA:** Und du trinkst deinen Kaffee noch schwarz, obwohl er dir nicht bekommt.\n\n**TOM:** Er bekommt mir gut.\n\n**LENA:** Wie du meinst.\n\n*Draußen fährt ein Zug ein. Keiner von beiden schaut hin.*\n\n**TOM:** Wie geht es deiner Mutter?\n\n**LENA:** Sie fragt nach dir.\n\n**TOM:** Sag ihr, ich –\n\n**LENA:** Sag es ihr selbst.\n\n*Er lacht kurz, ohne dass es lustig wäre.*\n\n**TOM:** Du siehst gut aus.\n\n**LENA:** Du auch. Älter.\n\n**TOM:** Wir sind beide älter.\n\n**LENA:** Ja. Anscheinend ist das passiert.\n\n*Sie greift nach ihrer Tasche, lässt sie wieder los.*\n\n**TOM:** Ich habe das Haus verkauft.\n\n**LENA:** Ich weiß. Anna hat es mir erzählt.\n\n**TOM:** Ich wollte es dir selbst sagen.\n\n**LENA:** Wann denn?\n\n*Er öffnet den Mund, schweigt, schiebt die Tasse ein Stück von sich weg.*\n\n**TOM:** Ich weiß nicht.\n\n**LENA:** Nein.\n\n*Stille. Die Kellnerin kommt vorbei, bemerkt die Stimmung und verschwindet wieder.*\n\n**LENA:** Ich muss los. Mein Zug geht in zehn Minuten.\n\n**TOM:** Natürlich.\n\n*Sie steht auf, legt Geld auf den Tisch. Zögert.*\n\n**LENA:** Schön, dich zu sehen.\n\n**TOM:** Ja. Schön.\n\n*Sie geht. Tom bleibt sitzen und rührt in seinem Kaffee, obwohl er längst kalt ist.*",
+  "usage": {
+    "in": 126,
+    "out": 1971,
+    "thinking": 1092
+  },
+  "costUsd": 0.0009981,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 9582,
+  "meta": [],
+  "at": "2026-10-17T17:19:39.446Z"
+}

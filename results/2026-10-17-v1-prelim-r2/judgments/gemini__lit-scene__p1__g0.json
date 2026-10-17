@@ -1,0 +1,113 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "B": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "C": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "D": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Das Haus stand niedriger, als sie es erinnerte.“ (Anglizismus: Im Deutschen heißt es korrekt „als sie es in Erinnerung hatte“ oder „als sie sich erinnerte“)",
+          "„Sie zählte die Tropfen, bis sie aufhörte, sie zu zählen.“ (Stilistische Tautologie als Schlusspointe, die ins Leere läuft)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "„Die Zeit war hier nicht vergangen; sie war lediglich gefroren. Und Elena wusste, dass sie das Eis jetzt eigenhändig brechen musste.“ (Massiver Kitsch und abgedroschene Metaphorik, direkter Verstoß gegen die Aufgabenstellung)",
+          "„einen Stoß aus abgestandenem Staub und kalter Luft ausstieß“ (Wortwiederholung „Stoß / ausstieß“ und unpräzises Bild: eine nach innen aufgehende Tür stößt dem Eintretenden keinen Luftstoß entgegen)",
+          "„um etwas zu holen und nie zurückgekehrt zu sein.“ (Grammatikalisch schiefe Infinitivkonstruktion, Bruch der Zeitenfolge)",
+          "„den Linoleumboden [...], der an den Rändern bereits hochzuspringen begann.“ (Unpassendes Verb: Linoleum wellt oder rollt sich, es „springt“ nicht)",
+          "„ihr Blick blieb an einem Detail hängen, das völlig fehlte: [...] bis auf einen einzigen, kreisförmigen hellen Fleck“ (Logischer Widerspruch: Sie sieht den Fleck, nicht ein fehlendes Detail)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 3,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "„Keine einzige von den zwanzig Jahren“ (Grammatikfehler: „Das Jahr“ ist Neutrum, es müsste „Keines“ heißen)",
+          "„wo der linke Tischbein trifft“ (Grammatikfehler und unvollständiger Satz: „Das Tischbein“ ist Neutrum; worauf trifft es?)",
+          "„Der Linoleum ist blass“ (Grammatikfehler: Es heißt „das Linoleum“)",
+          "„Kein Möbel. [...] Sie legt die Hand auf den Küchentisch.“ (Logikbruch innerhalb weniger Zeilen: Erst ist das Haus komplett leer, dann steht dort plötzlich ein Tisch)",
+          "„Ein einzelner, dünner Faden aus der Furnierschicht“ (Sachlicher Fehler: Furnier besteht aus Holz, es zieht keine textilen Fäden)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Unter dem Löffel hatte sich ein dünner, grauer Staubfilm gebildet, der sich beim Anheben in einer scharfen Kante löste.“ (Physikalischer Unsinn: Staub bildet sich auf und neben einem liegenden Objekt, nicht isoliert darunter)",
+          "„Die Frau blieb vor der Tür stehen, bis der Motor des Mietwagens verstummt war.“ (Logikbruch: Wenn es ihr Mietwagen ist, hat sie ihn selbst abgestellt; warum läuft der Motor noch, als sie schon an der Haustür steht?)",
+          "„Sie zog den Schlüssel aus der Manteltasche. Er war schwerer, als sie ihn in Erinnerung hatte“ (Unglaubwürdig: Sie hat den Schlüssel vorher schon eingesteckt, bemerkt das Gewicht aber erst beim Herausziehen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„An einem hing ein Kopftuch, braun-beige, das sie nie an ihrer Mutter gesehen hatte. In der Küche tropfte der Wasserhahn. [...] Jemand hatte ihn so hingelegt“ (Sehr viele konkurrierende Dingsymbole und Andeutungen für 300 Wörter; zudem ist unklar, ob das Haus tatsächlich zwanzig Jahre leer stand oder die Mutter erst kürzlich starb)",
+          "„setzte sich und hörte zu, wie es nicht zu hören war.“ (Etwas manieriertes Paradoxon am Schluss, da zuvor etabliert wurde, dass man durchaus ein „weiches, gleichmäßiges Pochen“ hört)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "A",
+      "D",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2967,
+    "out": 1171,
+    "thinking": 0
+  },
+  "costUsd": 0.017644
+}

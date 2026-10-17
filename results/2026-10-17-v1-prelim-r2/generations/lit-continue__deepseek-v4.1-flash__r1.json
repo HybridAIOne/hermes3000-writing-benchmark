@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "text": "Er trug den Mantel offen, obwohl es in den Nachmittag hineinregnete, dünner Niesel, der sich auf den Bohlen sammelte und dort stand, weil das Holz schon voll war. Ilse zog die Leine ein zweites Mal fest, ohne ihn anzusehen. Der Motor tickte unter Deck, wie er immer tickte, wenn sie ihn zu früh abgestellt hatte.\n\n„Der Hof in Dannenberg hat den Zylinderkopf da“, sagte sie. „Zwei Wochen.“\n\n„Zwei Wochen.“\n\n„Ja.“\n\nJonas sah auf das Wasser. Drüben, hinter dem Altarm, lagen die Pappeln gelb im Dunst, und der Kahn stand schief an der Seite, so wie sie ihn immer festmachte, wenn sie wusste, dass sie gleich zurückkommt. Er hatte den Rollkoffer neben sich gestellt, aufgerichtet, den Griff oben. Wie auf einem Bahnsteig, dachte sie wieder, und das machte sie ärgerlich, ohne dass sie hätte sagen können, worüber.\n\n„Du hättest anrufen können“, sagte sie.\n\n„Ich hab angerufen. Zweimal. Vorletzte Woche, und Dienstag.“\n\nSie wusste es. Sie hatte die Nummer auf dem Display gesehen, beide Male, und beide Male das Telefon liegen lassen, weil sie im Gatter gestanden hatte und die Schafe durchgelassen hatte, und weil es einfach gewesen war. Sie hätte es sagen können. Sie sagte es nicht.\n\n„Dienstag war ich am Deich.“\n\nEr nickte, als hätte sie ihm etwas Wichtiges erklärt. Er nickte immer so, das hatte er von Henning, dieses Nicken, das keine Zustimmung war, sondern nur ein Weiterreden.\n\n„Wie geht's dem Haus?“, fragte er.\n\n„Es steht.“\n\n„Und dir?“\n\n„Es geht.“\n\nDer Regen wurde stärker, kurz, dann wieder dünner. Er ging seitlich an ihr vorbei nach achtern, wie er als Kind gegangen war, ohne sich am Geländer zu halten, und blieb vor dem Steuerhaus stehen. Sie hätte ihn fragen können, wie lange er bleibt, sie hätte ihn fragen können, ob er sich krank fühlt, so blass, wie er im Herbstlicht aussah, aber sie fragte nichts. Sie zog den Schlüssel aus dem Schloss und schloss das Steuerhaus ab, was sie sonst nie tat, nicht einmal im Winter.\n\n„Komm“, sagte sie, „es wird früh dunkel.“\n\nSie hob den Koffer nicht auf. Sie ging über die Bohlen, einmal den ganzen Steg hinunter, und hörte hinter sich das Rumpeln der Rollen über die Fugen, und das war gut, das war ein Geräusch, das sie nicht hatte machen müssen. Am Ende des Stegs blieb sie stehen und wartete, ohne sich umzudrehen, und sah über den Fluss, wo das Wasser gegen die Buhne lief und sich brach.\n\nDann entschied sie, dass er im Haus schlafen sollte und nicht im Bootshaus, und ging weiter.",
+  "usage": {
+    "in": 373,
+    "out": 1647,
+    "thinking": 971
+  },
+  "costUsd": 0.0010441499999999998,
+  "finish": "stop",
+  "reportedModel": "deepseek/deepseek-v4.1-flash",
+  "upstream": "GMICloud",
+  "latencyMs": 16408,
+  "meta": [],
+  "at": "2026-10-17T17:22:38.989Z"
+}

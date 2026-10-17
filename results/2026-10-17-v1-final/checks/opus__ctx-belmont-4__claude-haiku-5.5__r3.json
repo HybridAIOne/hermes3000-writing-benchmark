@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "claude-haiku-5.5",
+  "run": 3,
+  "judge": "opus",
+  "verdict": {
+    "violated": [
+      "b4-5"
+    ],
+    "evidence": [
+      "Vielleicht ist es nicht der Berg, der sie einschließt. Vielleicht ist es das, was der Mann mitgebracht hat."
+    ]
+  },
+  "usage": {
+    "in": 3590,
+    "out": 526,
+    "thinking": 454
+  },
+  "costUsd": 0.02488
+}

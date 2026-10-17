@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "At four the chapel smelled of floor wax and carnations someone had forgotten to throw out. Maren stopped in the doorway with the chart still under her arm. Her shoes made no sound on the carpet. The man in the third pew sat with his coat buttoned to the collar, as if he expected to be called back out at any moment.\n\nShe had seen people sit like that a thousand times. Mostly families. Men who had driven in from farms and didn't know where to put their hands.\n\n\"Maren,\" he said. Not loudly.\n\nShe had not told him her name. She had not said anything at all.\n\nHis face was familiar the way faces from a bus or a checkout line are familiar, the kind you forget by noon. Gray at the temples. A plastic bag of someone's belongings sat on the pew beside him, the hospital tag still knotted to its handle.\n\n\"I'm sorry,\" she said. \"Do I know you?\"\n\n\"Not yet, maybe.\" He turned his hat over in his hands. \"I wanted to see the room first.\"\n\nShe didn't ask before what. Down the corridor a monitor chimed twice and went quiet. Someone's slippers hurried past the door and faded.\n\nShe should go. Her unit was short two nurses, and Dev would be texting. Instead she stood there while he waited, and the only light came from the small lamp above the altar, where a candle had burned down to a stub in its red glass.\n\nThrough the side window the parking structure was beginning to gray. A crow lifted off the top level, circled once over the empty cars, and settled back down where it had been.",
+  "usage": {
+    "in": 91,
+    "out": 1362,
+    "thinking": 875
+  },
+  "costUsd": 0.0006901,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 8755,
+  "meta": [],
+  "at": "2026-10-17T17:18:42.800Z"
+}

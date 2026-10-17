@@ -1,0 +1,118 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "D": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Du weißt schon, wie es laufen wird: Sie wird erst abwimmeln […] und am Ende vielleicht sogar weinen.“ Die Reaktion wird vorweggenommen und die Mitarbeiterin schematisch charakterisiert. Für einen praxisnahen Gesprächseinstieg wäre die Unterscheidung zwischen Befürchtung und tatsächlichem Verhalten wichtig.",
+          "„Trotzdem sitzt du da und überlegst, wie du anfangen sollst.“ Zusammen mit den folgenden Entscheidungsfragen und dem Rückblick aufs Aufschieben tritt die Szene zunehmend auf der Stelle.",
+          "„Du stehst auf, gehst zur Tür und machst auf.“ Der Schluss beendet die Szene, eröffnet aber noch keine erkennbare Perspektive auf den Nutzen des Kapitels.",
+          "„am Flur“ ist im überregionalen Standarddeutsch unidiomatisch; hier wäre „auf dem Flur“ passend."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Solche Momente kennt jeder, der Verantwortung im Team übernimmt.“ Pauschaler Übergangssatz; die konkrete Szene trägt die Aussage bereits.",
+          "„Du brauchst einen Anlass, etwas Zeit und die Bereitschaft, auch zuzuhören.“ Als Vorbereitung auf ein schwieriges Gespräch etwas dünn: Das zuvor genannte Klärungsziel wäre hier wichtiger als der ohnehin vorhandene Anlass.",
+          "„Solche Momente kennt jeder“ beginnt einen zweiten Absatz. Gefordert war ein Einstiegsabsatz; inhaltlich funktioniert der Übergang, formal wird die Vorgabe nicht ganz eingehalten."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "„Normaler Dienstagnachmittag.“ / „Und morgen ist Donnerstag.“ Ohne erzählten Zeitsprung widersprechen sich die Zeitangaben. Die vermeintliche Pointe erzeugt einen Anschlussfehler.",
+          "„Du klemmst den Zettel in eine Mappe.“ / „Der Zettel liegt noch dort, unter der Tastatur“ widersprechen sich räumlich. „Noch dort“ verweist auf keinen zuvor etablierten Ablageort.",
+          "„HeadTracking-Board“ ist ein unerklärter, künstlich wirkender Fachausdruck und verletzt die Vorgabe, ohne Buzzwords zu schreiben.",
+          "„Keine Monogramme sonst in deiner Abteilung.“ Der einzelne Erinnerungsbuchstabe wird ohne nachvollziehbaren Grund als Monogramm behandelt; die elliptische Formulierung erschwert zusätzlich das Verständnis.",
+          "„Maik, bei dem du im kurzen Zwischenruf sagst“ ist idiomatisch schwerfällig. Die anschließende Konstruktion „und er nickt, und dann nicht“ lässt unnötig offen, ob das Nicken oder das Erledigen gemeint ist."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„Du weißt genau, was passieren wird“ erklärt eine erwartete Abwehrreaktion zur Gewissheit. Damit wird eine voreingenommene Gesprächshaltung vorgeführt, ohne sie als Problem kenntlich zu machen.",
+          "„die Stimmung im Team systematisch vergiftet“ ist eine stark wertende, Absicht unterstellende Charakterisierung. Die anschließend genannten Verhaltensweisen wären als Beschreibung ausreichend.",
+          "„Wir alle hassen diese Momente.“ Unbelegte Verallgemeinerung und unnötiger Wechsel von der konkreten Du-Perspektive zum pauschalen Wir.",
+          "„hier trennt sich die Spreu vom Weizen“ ist eine abgegriffene und abwertende Bewährungsformel statt einer hilfreichen Orientierung für die Zielgruppe.",
+          "„Führung passiert nicht dann, wenn alles glattläuft“ ist eine zugespitzte, sachlich zu absolute Schlussbehauptung. Sie ersetzt den konkreten Ausblick auf das Kapitel durch einen Führungsspruch."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Du kannst nicht mit Konsequenzen drohen.“ Fehlende disziplinarische Befugnisse bedeuten nicht, dass es keine ansprechbaren Konsequenzen oder Eskalationswege gibt. Die absolute Aussage verengt die Handlungsmöglichkeiten sachlich unangemessen.",
+          "„aus falscher Harmoniesucht“ diagnostiziert und verurteilt das Motiv der angesprochenen Person. Der Text wechselt damit von nachvollziehbarer Unsicherheit zu einer belehrenden Zuschreibung.",
+          "„Jedes Gespräch, das du […] vermeidest, untergräbt deine Position im Team“ ist zu pauschal und stellt die eigene Position stärker in den Vordergrund als die notwendige Klärung der Zusammenarbeit.",
+          "„Die Kaffeetasse vor dir ist heiß, aber in deiner Magengegend macht sich ein kaltes, schweres Gefühl breit.“ Der inszenierte Heiß-kalt-Kontrast wirkt für den nüchternen, praxisnahen Sachbuchton etwas aufgesetzt.",
+          "„Es ist die unsichtbare Mauer, vor der wir stehen“ ersetzt die zuvor anschauliche Situation durch eine geläufige Metapher und wechselt unnötig von Du zu Wir."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "E",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2300,
+    "out": 1667,
+    "thinking": 361
+  },
+  "costUsd": 0.02127
+}

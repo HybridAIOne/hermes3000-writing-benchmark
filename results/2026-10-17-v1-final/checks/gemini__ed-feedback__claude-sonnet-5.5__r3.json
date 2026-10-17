@@ -1,0 +1,23 @@
+{
+  "task": "ed-feedback",
+  "model": "claude-sonnet-5.5",
+  "run": 3,
+  "judge": "gemini",
+  "verdict": {
+    "found": [
+      "rampe",
+      "fahrgaeste",
+      "tempus",
+      "perspektive",
+      "wiederholung",
+      "hupe"
+    ],
+    "false_alarms": 0
+  },
+  "usage": {
+    "in": 1314,
+    "out": 54,
+    "thinking": 0
+  },
+  "costUsd": 0.003168
+}

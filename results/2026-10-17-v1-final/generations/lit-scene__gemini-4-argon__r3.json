@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "gemini-4-argon",
+  "run": 3,
+  "text": "Der Schlüssel klemmte an genau derselben Stelle wie vor zwanzig Jahren. Man musste ihn einen Millimeter zurückziehen, den Griff leicht anheben und die Schulter gegen das gequollene Eichenholz drücken. Als das Schloss schließlich nachgab, klang es im stillen Treppenhaus wie ein trockener Husten. \n\nVera trat über die Schwelle. Die Luft im Flur stand, schwer und kalt, konserviert wie in einem Einmachglas. Es roch nicht nach dem Lavendelwasser ihrer Mutter, auch nicht nach Tod, sondern nach feuchtem Kalk, altem Papier und Mottenkugeln. Das Haus hatte Helga schneller vergessen, als Vera es je gekonnt hatte.\n\nSie ließ die Reisetasche auf den abgetretenen Kokosläufer sinken. Durch die schmalen Milchglasfenster neben der Tür fiel ein diffuses, graues Novemberlicht und schnitt blasse Rechtecke in die Dunkelheit. An der Garderobe hing noch immer der dunkelgrüne Lodenmantel, stumm und schwer, als warte er darauf, dass jemand in seine Ärmel schlüpfte, um noch schnell vor dem Frost das Fallobst aufzulesen.\n\nVera ging in die Küche. Ihre Schritte klangen fremd auf dem Linoleum, zu laut, fast unverschämt. Auf dem Wachstuchtisch, dessen Rosenmuster unter einer grauen Staubschicht verblasst war, stand eine einzelne Kaffeetasse. Keine Untertasse, kein Löffel. Nur das rissige weiße Porzellan mit einem verkrusteten dunklen Rand am Boden. \n\nErst als Vera an die Spüle trat, um das Fenster zu öffnen, bemerkte sie den Geruch. Unter der Kälte und dem Staub lag eine scharfe, harzige Note. Im Ausguss, direkt neben einem steinhart getrockneten Schwamm, klebte ein bläulich-grüner Schmierfilm. Terpentin. Und preußischblaues Öl. \n\nVera starrte auf den verfärbten Edelstahl. Sie rieb mit der Fingerkuppe über die kalte, leicht klebrige Spur und roch daran. Der beißende Duft von Balsamterpentin stieg ihr in die Nase, frisch genug, um erst wenige Tage alt zu sein. Ihre Mutter hatte seit dreißig Jahren keinen Pinsel mehr angerührt. Und seit zwei Wochen war sie tot. Vera zog die Hand zurück, während das Haus um sie herum plötzlich den Atem anzuhalten schien.",
+  "usage": {
+    "in": 102,
+    "out": 541,
+    "thinking": 0
+  },
+  "costUsd": 0.005614,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 21247,
+  "meta": [],
+  "at": "2026-10-17T17:42:57.440Z"
+}

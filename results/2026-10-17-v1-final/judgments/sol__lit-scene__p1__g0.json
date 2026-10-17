@@ -1,0 +1,118 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Zwanzig Jahre hatte sie nicht mehr hier gestanden.“ Die Zeitspanne ist erfüllt; dass dies das Haus ihrer verstorbenen Mutter ist, wird jedoch nirgends erkennbar. Ein wesentlicher Teil der Ausgangssituation fehlt.",
+          "„An der Wand hing noch der Kalender, ein Monat im Jahr, das sie nicht mehr wusste.“ Die Formulierung ist unpräzise und umständlich: Gemeint ist offenbar, dass sie das Jahr nicht mehr zuordnen kann.",
+          "„Das Haus antwortete nicht.“ Nach dem Knacken und „Ich bin’s“ wirkt diese ausdrückliche Vermenschlichung wie eine konventionelle Schauerpointe. Der tropfende Wasserhahn hätte als Schlussbild genügt.",
+          "„wie Schlüssel in alten Häusern klemmen“ eröffnet mit einer pauschalen Vertrautheitsbehauptung statt mit einer unverwechselbaren Beobachtung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„aus angeschlagenem Emaille“: „Emaille“ ist feminin; richtig wäre „aus angeschlagener Emaille“ oder „aus angeschlagenem Email“.",
+          "„und einmal auch etwas ganz anderes“ ist eine demonstrativ ausgesparte Information. Die Erzählinstanz kündigt ein Geheimnis an, statt es durch eine konkrete Wahrnehmung entstehen zu lassen.",
+          "„als wehrte sich das Messing“, „als atmete das Haus“ und „wie ein gestrandetes Tier“ häufen belebende Vergleiche. Dadurch erscheint die Atmosphäre stärker hergestellt als beobachtet.",
+          "„Nichts war verändert worden, und doch war alles verschoben.“ Die allgemeine Gegensatzformel erklärt vorab, was die anschließende Beschreibung des Flurs bereits anschaulich vermittelt.",
+          "„Räumen, die seit Monaten keinen menschlichen Atem mehr aufgenommen hatten“ etabliert den Leerstand; der Tod der Mutter bleibt dagegen ungesichert. Die Aufgabenprämisse wird nur teilweise vermittelt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„An der Garderobe hing der Mantel meiner Mutter“ etabliert die Mutter, aber weder ihren Tod noch die weibliche Identität der Ich-Figur. Damit bleiben zwei Bestandteile der vorgegebenen Ausgangslage offen.",
+          "„Vor zwanzig Jahren hatte ich diese Dose zuletzt gesehen“ datiert die letzte Begegnung mit der Dose, nicht eindeutig die letzte Anwesenheit im Haus. Die geforderte Rückkehr nach zwanzig Jahren wird nur nahegelegt.",
+          "„Ich rührte mich nicht.“ Hier endet der Text bereits nach rund 235 Wörtern. Gegenüber „etwa 300“ ist das eine merkliche Unterschreitung; die Rückkehrsituation bleibt entsprechend knapp etabliert.",
+          "„einer Wärme [...], die nicht von der Heizung kam“ greift auf eine vertraute Gefühlsformel zurück und legt die emotionale Bedeutung des Kaffeedufts unnötig aus.",
+          "„als könnte das Geräusch etwas wecken“ ist eine geläufige Spannungsformel. Das konkrete Rätsel der frischen Bohnen trägt die Beunruhigung bereits ohne diese zusätzliche Markierung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„wie er immer geklemmt hatte“ und „was ihre Hand noch wusste“ vermitteln eine Rückkehr, legen aber keine zwanzigjährige Abwesenheit fest. Die ausdrücklich verlangte Zeitspanne fehlt.",
+          "„Der Notar hatte am Telefon von ‚Räumung‘ gesprochen, von ‚Fristen‘.“ Der Nachlasskontext deutet den Tod der Mutter an, stellt ihn aber nicht eindeutig her.",
+          "„Ihre Mutter hatte Quitten nie gemocht. Das wusste Judith genau. Sie hatte sie nie gekauft, nie gekocht, nie auch nur erwähnt.“ Die wiederholten Negationen unterstreichen das Rätsel zu nachdrücklich. Besonders das nie erfolgte Erwähnen belegt die behauptete Abneigung nicht.",
+          "„so wie man etwas einsteckt, das man später erklären muss“ deutet die Schlussgeste bereits aus und kündigt ihre spätere Funktion an. Das Einstecken der duftenden Frucht wäre auch ohne diesen Kommentar bedeutungsvoll."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„die Fensterläden geschlossen wie Lider“ ist ein verbrauchter Vergleich. Zusammen mit „Das Haus stand geduckt“ beginnt die Hausbeschreibung mit konventioneller Vermenschlichung.",
+          "„oder ihre Hand war leichter geworden“ wirkt wie eine auf Bedeutung zielende Pointe, deren körperliche oder psychische Grundlage noch fehlt.",
+          "„aus einer Zeit, über die in diesem Haus nicht gesprochen worden war“ erklärt den Geheimnischarakter der Vatererinnerung, statt ihn zunächst im konkreten Ölgeruch und in Hannas Reaktion wirken zu lassen.",
+          "„als hätte das Haus sie erwartet, nur nicht als diejenige, die sie geworden war“ fasst den Identitätskonflikt abstrakt zusammen. Diese Deutung ist weniger präzise als die überzeugenden materiellen Spuren des frisch geölten Schlosses und der entfernten Teppiche."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "D",
+      "A",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2779,
+    "out": 2207,
+    "thinking": 857
+  },
+  "costUsd": 0.027628
+}

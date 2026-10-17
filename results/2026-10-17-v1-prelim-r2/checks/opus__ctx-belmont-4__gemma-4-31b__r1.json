@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "violated": [
+      "b4-3"
+    ],
+    "evidence": [
+      "Der Belmontpass war nun endgültig zu; die weiße Mauer hatte das Sanatorium vollständig umschlossen."
+    ]
+  },
+  "usage": {
+    "in": 3435,
+    "out": 376,
+    "thinking": 308
+  },
+  "costUsd": 0.02126
+}

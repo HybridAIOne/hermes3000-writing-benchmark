@@ -1,0 +1,80 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "Überschneidung Kap. 6/7: „Du gibst Lob und Kritik regelmäßig, konkret“ vs. „Leistungsprobleme … klar zu führen“",
+          "Überschneidung Kap. 7/8: „schlechte Nachrichten von oben“ vs. „Du vertrittst Entscheidungen, die du nicht getroffen hast“",
+          "Überschneidung Kap. 7/9: „Streit im Team“ vs. „Streit mit Kunden … hältst dein Team zusammen“",
+          "Kap. 1 als unvollständiger Satz, anders als die übrigen: „Wie du den Rollenwechsel … gestaltest, … und was du in den ersten Wochen besser lässt.“",
+          "Überladener Schlusssatz: „Du weißt, wofür du stehst, wo deine Grenzen liegen und wie du dich weiterentwickelst, auch ohne offizielle Ausbildung.“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Uneinheitliche Titelform: Imperative („Entscheide, was jetzt zählt“) neben Nominalphrasen („Gestern Kollege, heute Teamleiter“, „Erst verstehen, dann verändern“)",
+          "Kap. 1 vermischt Zeitpunkt und Thema: „Dein erster Tag: Kläre, wofür du zuständig bist“ – das Klären mit der Führungskraft geschieht meist vor dem ersten Tag",
+          "Leichte Nähe Kap. 4/5: „triffst Entscheidungen und erklärst, was dafür liegen bleibt“ vs. „Kontrollpunkte so, dass andere Verantwortung übernehmen“",
+          "Etwas abstrakt: „Arbeit nicht zwischen Zuständigkeiten stecken bleibt“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "Grammatikfehler: „bei Fehlern, Trödelei oder dicke Luft im Team“ (richtig: „dicker Luft“)",
+          "Verfehlt die Zielgruppe: „auch ohne offizielle Weisungsbefugnis zuverlässig erledigt wird“ – Teamleiter haben die Rolle, nur keine Ausbildung",
+          "Überschneidung Kap. 3/4: „die typische Falle des ‚Selbermachens‘“ vs. „Aufgaben richtig abgeben“; ebenso Kap. 1/2: „klar zeigst, dass du jetzt die Fäden in der Hand hältst“ vs. „deinem Team deutlich machst, wofür du ab sofort zuständig bist“",
+          "Fremdes Zweitthema im Schlusskapitel: „und lernst, wie du nach Feierabend den Kopf wirklich freibekommst“",
+          "Füllsatz und Buzzword-Nähe: „Hier ist der Entwurf für die Gliederung …“, „Der Informations-Knotenpunkt“"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 4287,
+    "out": 2167,
+    "thinking": 1026
+  },
+  "costUsd": 0.060488
+}

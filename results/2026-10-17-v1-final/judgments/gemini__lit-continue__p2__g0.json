@@ -1,0 +1,108 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Dabei war er auf diesen Bohlen laufen gelernt.“ (Grammatikfehler: Falsches Hilfsverb, korrekt wäre „hatte ... laufen gelernt“)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Und wenn kein Wind ist?“ (Figurenlogik: Dass Jonas, der auf der Fähre aufgewachsen ist, eine solche Frage stellt, ist als Einstieg wenig glaubwürdig, auch wenn er es im nächsten Satz relativiert)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "„... und war erst angelegt, als das Schiff ruhig im Wasser lag.“ (Grammatikfehler und logischer Unsinn: falsches Hilfsverb „war angelegt“ statt „hatte angelegt“, zudem liegt ein Schiff erst nach dem Anlegen ruhig).",
+          "„Ich hab dir geschrieben“, sagte Jonas. (Widerspruch zur Vorgabe: Jonas ist „unangekündigt angereist“).",
+          "„... und ich erzähl dir, was ich mir überlegt habe.“ (Verstoß gegen die Vorgabe, das Anliegen/den Verkauf noch nicht direkt anzusprechen; zudem Redundanz durch Nacherzählung des bisherigen Kapitels im dritten Absatz).",
+          "„Vom Deich wehte der Wind Gras und Salz herunter...“ (Sachfehler/Klischee: Hitzacker liegt im Binnenland an der Elbe, dort weht kein Salz vom Deich).",
+          "„Der Fluss schob braunes Wasser nach Norden, ruhig und gleichgültig, wie er es seit Jahrhunderten tat.“ (Abgedroschene Phrase)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Sie ging an ihm vorbei zum Steuerhaus, hakte die Kette an der Rampe ein...“ (Räumliche Unschärfe: Steuerhaus und Rampe liegen an unterschiedlichen Stellen; zudem steht Jonas laut Vorgabe auf dem Anleger, am Ende stehen die Stiefel auf den Bohlen vor ihm, während Ilse am Steuerhaus ist).",
+          "„... weil ein Radfahrer mit seinem Rad über die Rampe schob...“ (Ausdruck: Entweder „ein Radfahrer sein Rad schob“ oder „mit seinem Rad über die Rampe ging“)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ilse bückte sich nach dem schweren Eisenkeil und schob ihn unter die Auffahrtsklappe. Das Metall knirschte auf dem Kies.“ (Anschlussfehler zur Vorgabe: Dort steht Jonas auf den „nassen Bohlen“ eines hölzernen Anlegers, nicht auf einer Kiesrampe).",
+          "„Der Schlüssel liegt unter dem alten Schöpfkelle-Topf“ (Unidiomatisches, unverständliches Kompositum).",
+          "„Es klang nicht besorgt, eher wie eine Feststellung, die er für eine spätere Rechnung notierte.“ (Stilbruch: Erzähler greift erklärend vorweg)."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "A",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 4407,
+    "out": 954,
+    "thinking": 0
+  },
+  "costUsd": 0.018354
+}

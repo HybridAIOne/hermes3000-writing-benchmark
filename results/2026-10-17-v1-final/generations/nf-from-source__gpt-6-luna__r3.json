@@ -1,0 +1,18 @@
+{
+  "task": "nf-from-source",
+  "model": "gpt-6-luna",
+  "run": 3,
+  "text": "Als der Landkreis den Betrieb der Seilfähre einstellte, schlossen sich 1953 vierzig Landwirte und Händler von beiden Elbufern zusammen. Sie gründeten die Fährgenossenschaft Hitzacker eG, um die Verbindung über den Fluss weiterzuführen. Das Beispiel zeigt einen einfachen Grundgedanken der Genossenschaft: Menschen bündeln ihre Kräfte, um eine gemeinsame Aufgabe zu erfüllen.\n\nHeute hat die Genossenschaft 312 Mitglieder. Jedes hält mindestens einen Anteil im Wert von 250 Euro. In der Generalversammlung hat jedes Mitglied eine Stimme – unabhängig davon, wie viele Anteile es besitzt. Die Entscheidungsmacht richtet sich also nicht nach der Höhe der Beteiligung. Die Mitglieder können gemeinsam über die Angelegenheiten der Genossenschaft beraten und abstimmen.\n\nDie Fähre überquert die Elbe an einer 212 Meter breiten Stelle; bei normalem Wasserstand dauert die Fahrt sieben Minuten. Sie hängt an einem Führungsseil und wird heute von einem Dieselmotor angetrieben. Bis 1978 nutzte sie allein die Strömung. Pro Jahr befördert sie rund 64.000 Personen, im Sommer vor allem Radfahrer auf dem Elberadweg. Die Einnahmen stammen nicht nur aus Fahrkarten: 2024 kamen 71 Prozent des Umsatzes von 186.000 Euro aus Fahrkartenverkäufen, 29 Prozent aus einem Zuschuss der Gemeinde.\n\nÜberschüsse werden nicht an die Mitglieder ausgeschüttet. Sie fließen in eine Rücklage, die für die Erneuerung der Fähre bestimmt ist. Bis 2031 soll sie ausreichen, um einen Elektroantrieb einzubauen. Das macht die Genossenschaft für diese Fähre besonders passend: Die Verbindung dient Menschen auf beiden Elbufern, und ihre Erhaltung ist eine gemeinsame, langfristige Aufgabe. Statt kurzfristig Erträge zu verteilen, können die Mitglieder Geld für die Zukunft des Betriebs zurücklegen. Zugleich gibt die gleiche Stimme jedem Mitglied ein Mitspracherecht – unabhängig davon, wie viele Anteile es hält.",
+  "usage": {
+    "in": 402,
+    "out": 630,
+    "thinking": 200
+  },
+  "costUsd": 0.0003552,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 6502,
+  "meta": [],
+  "at": "2026-10-17T17:47:20.814Z"
+}

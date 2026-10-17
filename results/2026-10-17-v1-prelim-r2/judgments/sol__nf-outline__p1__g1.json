@@ -1,0 +1,108 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„deinen Auftrag, deine Grenzen und deine Verantwortung klärst“ und „abgleichst, was von dir erwartet wird“: Kapitel 2 und 4 sind nicht vollständig voneinander abgegrenzt. Die Klärung des Auftrags und der Erwartungen des Chefs behandelt teilweise dieselbe Frage.",
+          "„Feedback geben, ohne Beziehungen zu zerstören“: Der Titel dramatisiert eine alltägliche Führungsaufgabe unnötig; eine sachlichere Formulierung wäre für die Zielgruppe hilfreicher."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Da du keine formale Macht hast“: Der Text setzt fehlende Weisungsbefugnis voraus. Vorgegeben ist jedoch eine fehlende formale Führungsausbildung; Teamleiter können durchaus Entscheidungs- und Weisungsbefugnisse haben.",
+          "„Minderleistung, Regelbrüche oder Konflikte“ und „Stress, Fehler und Veränderungen“: Kapitel 6 und 8 sind nicht trennscharf angelegt. Gerade der Umgang mit Fehlern und daraus entstehenden Konflikten müsste deutlicher zugeordnet werden.",
+          "„Warum du nicht mehr der beste Facharbeiter sein darfst“: Die Formulierung verengt die Zielgruppe unnötig auf Facharbeiter und verwechselt das Abgeben operativer Aufgaben mit einem Verbot fachlicher Spitzenleistung.",
+          "„Raus aus dem Hamsterrad“, „ohne Porzellan zu zerschlagen“ und „deinen Chef abholst“: Die Häufung abgegriffener Bilder und die Managementfloskel „abholen“ schwächen den gewünschten direkten, buzzwordfreien Ton."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„ohne Gehaltserhöhung oder neue Titel Entwicklung ermöglichst“: Die fehlende Möglichkeit, Gehälter oder Positionen zu verändern, wird zusätzlich vorausgesetzt. Sie folgt nicht zwingend aus der beschriebenen Zielgruppe.",
+          "„wie du Arbeit so übergibst, dass sie richtig erledigt wird“: Die Kapitelbeschreibung bleibt an dieser Stelle unspezifisch. Konkrete Übergabekriterien würden den versprochenen Praxisnutzen deutlicher machen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 4,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "„Wie du der Aufgabe, die dich zum Aufstieg gebracht hat, abgewöhnen kannst, sie noch schnell selbst zu machen“: Fehlerhafte Konstruktion von „abgewöhnen“. Gemeint ist: „Wie du dir abgewöhnst, die Aufgabe … noch schnell selbst zu machen“.",
+          "„aus den Situations“: Falsche Wortform; richtig ist „aus den Situationen“.",
+          "„ohne, dass danach einer die Tür zuschlägt“: Das Komma innerhalb von „ohne dass“ ist falsch.",
+          "„Deine alten Kollegen sitzen jetzt drüben vom Tisch“: Unidiomatische Ortsangabe; gemeint ist „auf der anderen Seite des Tisches“.",
+          "„Du machst den Job nicht mehr selbst“ / „Loslassen, was du am besten kannst“ sowie „Deine Leute haben dich nicht gewählt“ / „Deine alten Kollegen sitzen jetzt drüben vom Tisch“: Kapitel 1 und 5 überschneiden sich beim Abgeben der Facharbeit, Kapitel 2 und 7 beim veränderten Verhältnis zu bisherigen Kollegen. Die zusätzliche Behauptung „Kein Kapitel greift ein anderes auf“ löst diese strukturellen Doppelungen nicht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "A",
+      "C",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3031,
+    "out": 1508,
+    "thinking": 512
+  },
+  "costUsd": 0.021142
+}

@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "gemini-4-argon",
+  "run": 2,
+  "text": "Es ist Dienstagmorgen, 8:15 Uhr. Du stehst in der Teeküche und wartest darauf, dass der Kaffee durchläuft, als Markus hereinkommt. Er murmelt ein knappes „Morgen“, starrt auf sein Handy und verschwindet sofort wieder. Eigentlich müsstest du ihm jetzt nachgehen. Du müsstest ihn darauf ansprechen, dass sein Teil der Kundenpräsentation gestern wieder fehlerhaft war – zum dritten Mal in diesem Monat. Und dass das restliche Team langsam die Geduld verliert, weil es seine Nachlässigkeiten ständig ausbügeln muss. Aber du bleibst stehen. Du redest dir ein, dass jetzt vor dem Wochenmeeting ohnehin kein guter Zeitpunkt ist. Vielleicht heute Nachmittag. Oder morgen, wenn der gröbste Stress vorbei ist. Während du deine Tasse nimmst, spürst du diesen vertrauten, dumpfen Druck im Magen. Denn du weißt genau, was passieren wird, wenn du Markus ansprichst: Er wird sofort dichtmachen, die Schuld bei der unklaren Zuarbeit der anderen suchen und am Ende den Satz fallen lassen, der dich jedes Mal kalt erwischt: „Seit wann bist du eigentlich mein Chef?“ Genau diese Momente sind die wahre Feuerprobe für jeden, der ein Team ohne formale Macht leitet. Du kannst keine Abmahnung androhen und kein Machtwort sprechen, das kraft deines Titels gilt. Wenn du Kritik äußerst, begibst du dich auf dünnes Eis. Deshalb schieben wir solche Gespräche vor uns her, bis aus einem kleinen Ärgernis ein handfester Konflikt geworden ist, der die Stimmung in der gesamten Abteilung vergiftet. Doch genau hier entscheidet sich, ob dein Team dich als echte Führungskraft akzeptiert – oder nur als denjenigen, der die Arbeit verteilt.",
+  "usage": {
+    "in": 184,
+    "out": 394,
+    "thinking": 0
+  },
+  "costUsd": 0.004308,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 10057,
+  "meta": [],
+  "at": "2026-10-17T17:43:27.156Z"
+}

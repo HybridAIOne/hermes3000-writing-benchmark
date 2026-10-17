@@ -1,0 +1,111 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Es ist Dienstagnachmittag …“, „Du hattest dir vorher zurechtgelegt …“, „Kennst du das?“ und „Dieses Kapitel zeigt dir …“: Der Text besteht aus vier Absätzen statt aus dem verlangten Einstiegsabsatz.",
+          "„vor dir ein Ausdruck mit den Zahlen des letzten Quartals“: Trotz ausführlicher Szenengestaltung bleibt unklar, welches konkrete Problem mit Markus besprochen werden soll. Die Zahlen bleiben Kulisse.",
+          "„Kennst du das? Die meisten Führungskräfte, die ich kenne …“: Der Wechsel von der anschaulichen Szene zur persönlichen Autoritätsbehauptung wirkt wie eine standardisierte Ratgeberüberleitung.",
+          "„wie du solche Gespräche vorbereitest, führst und danach nicht bereust“: Das Versprechen ist zu weitgehend; auch ein gut geführtes Gespräch kann Anlass zum Bedauern geben."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Kennst du das? Dann bist du in guter Gesellschaft.“: Austauschbare Ratgeberformel, die nach der treffenden Szene keinen zusätzlichen Gedanken liefert.",
+          "„Das Problem verschwindet dadurch aber nicht. Es wird größer“: Die zwangsläufige Verschärfung wird pauschal behauptet; präziser wäre eine mögliche Entwicklung.",
+          "„ein paar einfache Gewohnheiten, die du schon morgen ausprobieren kannst“: Der Schluss bleibt werblich und unbestimmt, statt bereits einen konkreten Ansatz für schwierige Gespräche zu vermitteln."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Die zehn Minuten sind vorbei“: Die konkrete Zeitspanne wird als bekannt vorausgesetzt, obwohl zuvor keine Gesprächsdauer genannt wurde. Eine kleine Anschlussunschärfe."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Du kannst niemanden einfach anweisen, sein Verhalten zu ändern.“: Fehlende disziplinarische Verantwortung schließt fachliche Weisungsbefugnis nicht aus. Die Aussage müsste für die Zielgruppe differenziert werden.",
+          "„Du stehst mit einer Kaffeetasse vor dem Besprechungsraum“ / „Jetzt sitzt er an seinem Platz“: Der räumliche Anschluss bleibt unscharf. Der Text wechselt unvermittelt von der Tür des Besprechungsraums zu Martins Arbeitsplatz."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Aber seit drei Monaten lässt er schleifen.“: Die feste Wendung lautet „es schleifen lassen“; das notwendige „es“ fehlt.",
+          "„Als Teamleiter ohne disziplinarische Macht hast du kein Druckmittel in der Hinterhand.“ / „Deine einzige Währung ist das Gespräch auf Augenhöhe.“: Sachlich zu absolut. Auch ohne disziplinarische Befugnisse bestehen Handlungsmöglichkeiten, etwa verbindliche Absprachen und die Einbindung zuständiger Vorgesetzter.",
+          "„Und genau deshalb drückst du dich davor“: Der Text erklärt das zuvor geschilderte Zögern nun monokausal aus fehlenden Druckmitteln. Dieser Zusammenhang ist weder zwingend noch hinreichend entwickelt.",
+          "„sie gären im Hintergrund weiter und vergiften schleichend die Stimmung“ / „Deine einzige Währung“ / „auf dünnes Eis“: Die Häufung geläufiger Metaphern überlädt den Text und ersetzt sachliche Präzision durch Dramatisierung.",
+          "„ob dein Team dich als echte Führungskraft ernst nimmt oder nur als jemanden, der die Urlaubslisten abzeichnet“: Der Schluss konstruiert eine falsche Alternative und wertet organisatorische Führungsarbeit ab. Er erhöht den Statusdruck, statt einen praktikablen Zugang zum Gespräch zu eröffnen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "B",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2416,
+    "out": 1414,
+    "thinking": 376
+  },
+  "costUsd": 0.018972
+}

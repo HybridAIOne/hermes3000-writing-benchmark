@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "gpt-5.4-mini",
+  "run": 1,
+  "text": "[Ein Café. Es regnet draußen.]\n\n**Anna:** Du bist pünktlich.\n\n**Jonas:** Du auch. Das hätte ich nicht erwartet.\n\n**Anna:** Ich bin gern überraschend berechenbar.\n\n**Jonas:** Das warst du früher nicht.\n\n**Anna:** Früher war vieles anders.\n\n**Jonas:** Ja.\n\n[Stille.]\n\n**Anna:** Du siehst müde aus.\n\n**Jonas:** Du siehst aus, als würdest du das gleich bereuen.\n\n**Anna:** Vielleicht bereue ich es schon.\n\n**Jonas:** Dann hätten wir beide etwas gemeinsam.\n\n[Er zieht die Hände zurück, als hätte er sich verbrannt.]\n\n**Anna:** Du hast nichts bestellt.\n\n**Jonas:** Ich wusste nicht, ob du wirklich kommst.\n\n**Anna:** Und trotzdem bist du hier.\n\n**Jonas:** Manche Fehler machen sich nicht von allein.\n\n**Anna:** Das klingt, als wolltest du klug wirken.\n\n**Jonas:** Nein. Nur vorsichtig.\n\n**Anna:** Vorsichtig warst du nie.\n\n**Jonas:** Und du warst nie geduldig.\n\n**Anna:** Das haben wir damals reichlich bewiesen.\n\n**Jonas:** Damals.\n\n[Die Kellnerin stellt zwei Gläser Wasser ab. Niemand bedankt sich sofort.]\n\n**Anna:** Hast du manchmal daran gedacht?\n\n**Jonas:** An was genau?\n\n**Anna:** An uns.\n\n**Jonas:** Jedenfalls nicht so, wie du es meinst.\n\n**Anna:** Natürlich nicht.\n\n**Jonas:** Du musst nicht so tun, als wärst du die Einzige, die verletzt wurde.\n\n**Anna:** Ich tue gar nichts.\n\n**Jonas:** Genau das ist das Problem.\n\n[Anna lächelt kurz, ohne Wärme.]\n\n**Anna:** Wir hätten uns das sparen können.\n\n**Jonas:** Ja.\n\n**Anna:** Aber dann wären wir nicht hier.\n\n**Jonas:** Nein.\n\n[Wieder Stille. Draußen wird der Regen stärker.]\n\n**Anna:** Und?\n\n**Jonas:** Und was?\n\n**Anna:** Sag irgendetwas.\n\n**Jonas:** Ich bin gekommen.\n\n**Anna:** Das ist kein Satz.\n\n**Jonas:** Für heute reicht er.",
+  "usage": {
+    "in": 64,
+    "out": 449,
+    "thinking": 0
+  },
+  "costUsd": 0.0020685,
+  "finish": "stop",
+  "reportedModel": "gpt-5.4-mini-2026-03-17",
+  "upstream": null,
+  "latencyMs": 2469,
+  "meta": [],
+  "at": "2026-10-17T17:19:35.372Z"
+}

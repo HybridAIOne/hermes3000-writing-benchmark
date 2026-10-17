@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "*Zwei Männer mittleren Alters treffen sich auf einer Parkbank. Blätter rascheln. Thomas kommt mit einer Papiertüte, Markus sitzt bereits da.*\n\nThomas: Schön, dass es geklappt hat.  \nMarkus: Ja. Überraschend.  \n\nThomas: *setzt sich* Du siehst müde aus.  \nMarkus: Die Nächte sind kurz geworden.  \nThomas: Bei mir auch. Immer diese Termine.  \nMarkus: Termine. Klar.  \n\nThomas: Wie geht es deiner Frau?  \nMarkus: Gut. Sie fragt manchmal nach dir.  \nThomas: Sag ihr Hallo von mir.  \nMarkus: Wird sie nicht verstehen.  \nThomas: Warum nicht?  \nMarkus: Einfach so.  \n\nThomas: *öffnet die Tüte* Ich habe die alten Fotos mitgebracht. Aus dem Urlaub damals.  \nMarkus: Ach ja. Dem Urlaub.  \nThomas: Wir haben viel gelacht.  \nMarkus: Manche Dinge vergisst man nicht.  \nThomas: Und andere schon?  \nMarkus: Kommt drauf an.  \n\nThomas: Ich habe dir nie gesagt, wie es wirklich war.  \nMarkus: Nein. Hast du nicht.  \nThomas: Es ging nicht.  \nMarkus: Es ging schon. Nur nicht mit mir.  \nThomas: Das stimmt nicht.  \nMarkus: Wie du meinst.  \n\nThomas: Du hast damals nicht angerufen.  \nMarkus: Du auch nicht.  \nThomas: Ich war...  \nMarkus: Ja.  \n\nThomas: Es tut mir leid.  \nMarkus: Das reicht nicht.  \nThomas: Was soll ich denn sagen?  \nMarkus: Nichts. Sag einfach nichts.  \nThomas: Vielleicht hätten wir...  \nMarkus: Hätten wir. Aber haben wir nicht.  \n\n*Ein Windstoß. Blätter fallen auf die Bank.*  \nThomas: Willst du gehen?  \nMarkus: Ich weiß nicht.  \nThomas: Ich auch nicht.  \nMarkus: *steht langsam auf* Bis dann.  \nThomas: Bis dann.  \n\n*Markus geht. Thomas bleibt sitzen und starrt auf die Tüte.*",
+  "usage": {
+    "in": 256,
+    "out": 2500,
+    "thinking": 2046
+  },
+  "costUsd": 0.00657,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "upstream": "xAI",
+  "latencyMs": 26568,
+  "meta": [],
+  "at": "2026-10-17T17:23:05.558Z"
+}

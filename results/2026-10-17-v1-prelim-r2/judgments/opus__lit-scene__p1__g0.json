@@ -1,0 +1,120 @@
+{
+  "task": "lit-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "B": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "E": {
+      "model": "gemma-4-31b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Das Haus stand niedriger, als sie es erinnerte\" – transitives 'erinnern' ist regional oder umgangssprachlich; standardsprachlich: 'als sie es in Erinnerung hatte'.",
+          "Die zwanzig Jahre werden nirgends erwähnt, der Tod der Mutter nur indirekt – eine Kernvorgabe bleibt implizit.",
+          "\"Sie zählte die Tropfen, bis sie aufhörte, sie zu zählen.\" – manierierter Schlusseffekt.",
+          "\"Das Licht, das durch die Scheiben kam, war weiß und ohne Kontur. Der Geruch kam zuerst\" – 'zuerst' steht nach dem Licht, die Reihenfolge der Wahrnehmung ist unlogisch.",
+          "\"das sich auf ihre Jacke legte wie Staub\" – der Vergleich trägt wenig, und 'Staub' kehrt im Haus sogleich wieder."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 4,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Der Linoleum ist blass\" – falsches Genus, richtig: 'Das Linoleum'.",
+          "\"wo der linke Tischbein trifft\" – falsches Genus, richtig: 'das linke Tischbein'.",
+          "\"Keine einzige von den zwanzig Jahren\" – falsches Genus (das Jahr), richtig: 'Keines'.",
+          "\"in denen sie an diesem Haus vorbeigegangen ist\" – Logikbruch: Wer zwanzig Jahre lang am Haus vorbeigeht, kehrt nicht nach zwanzig Jahren zurück.",
+          "\"Ein einzelner, dünner Faden aus der Furnierschicht\" – Furnier hat keine Fäden; zudem 'Kein Möbel', aber es steht ein Küchentisch da."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "\"Ihr Körper wusste das noch.\" – erklärt, was die Geste zuvor bereits gezeigt hat.",
+          "\"Die Wörter hatten ihr bis hierher geholfen.\" – leicht ausbuchstabierend.",
+          "Mit über 330 Wörtern etwas über der Vorgabe.",
+          "\"Von draußen hatte das Haus kleiner ausgesehen.\" – der Kontrast ist leicht unklar, weil der Text nur 'außen' gegen 'innen' setzt, nicht 'damals' gegen 'heute'."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 5,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"# Das Haus\" – Überschrift bzw. Markdown, kein reiner Buchtext.",
+          "\"mit einem Seufzen, den nur altes Holz von sich gibt\" – Genusfehler, richtig: 'das'.",
+          "\"die Hausverwalterin hatte es offenbar nicht für nötig gehalten\" – Satz unvollständig (es fehlt 'wegzuräumen'), zudem Kommaspleiß.",
+          "\"Marlene hob das Glas nicht an. Sie hob es gar nicht.\" – redundante, unbeholfene Wiederholung.",
+          "\"Das Haus hatte geduldig gewartet\" / \"nach verschlossener Zeit\" – abgegriffene Personifikation, Kitschnähe."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 5,
+        "stil": 3,
+        "aufgabe": 5,
+        "fehler": [
+          "\"als wäre jemand erst vor einer Sekunde aufgestanden, um etwas zu holen und nie zurückgekehrt zu sein\" – grammatisch verunglückte Konstruktion.",
+          "\"Sie spürte den metallischen Geschmack von Angst auf der Zunge\" – Klischee.",
+          "\"Die Zeit war hier nicht vergangen; sie war lediglich gefroren. Und Elena wusste, dass sie das Eis jetzt eigenhändig brechen musste.\" – Kitsch, erklärender Schluss.",
+          "\"an einem Detail hängen, das völlig fehlte\" – Logikbruch bzw. schiefe Formulierung.",
+          "\"tanzenden Partikeln im Sonnenlicht\" / \"wie ein blindes Auge, das sie beobachtete\" – Stockbilder."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "D",
+      "E",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 5397,
+    "out": 3015,
+    "thinking": 1373
+  },
+  "costUsd": 0.081888
+}

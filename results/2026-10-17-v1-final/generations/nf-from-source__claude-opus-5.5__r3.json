@@ -1,0 +1,18 @@
+{
+  "task": "nf-from-source",
+  "model": "claude-opus-5.5",
+  "run": 3,
+  "text": "Wie eine Genossenschaft funktioniert, lässt sich gut an der Elbe bei Hitzacker beobachten. Dort verkehrt eine Seilfähre an einer Stelle, an der der Fluss 212 Meter breit ist. Bei normalem Wasserstand dauert die Überfahrt sieben Minuten. Die Fähre hängt an einem Führungsseil. Bis 1978 bewegte allein die Strömung sie von Ufer zu Ufer, heute treibt sie ein Dieselmotor mit 85 kW an.\n\nDass es die Fähre noch gibt, verdankt sie einer Entscheidung aus dem Jahr 1953. Damals stellte der Landkreis den Betrieb ein. Daraufhin gründeten 41 Landwirte und Händler von beiden Elbufern die Fährgenossenschaft Hitzacker eG. Sie betrieben gemeinsam, was jeder von ihnen brauchte, aber allein kaum hätte tragen können. Das ist der Grundgedanke einer Genossenschaft.\n\nHeute hat die Genossenschaft 312 Mitglieder. Wer dazugehören will, erwirbt mindestens einen Anteil zu 250 Euro. Eine Regel unterscheidet die Genossenschaft dabei von vielen anderen Unternehmen: In der Generalversammlung hat jedes Mitglied genau eine Stimme, ganz gleich, wie viele Anteile es besitzt. Wer mehr Geld einbringt, gewinnt dadurch keinen größeren Einfluss.\n\nAuch mit dem Geld geht die Genossenschaft auf eigene Weise um. 2024 betrug der Umsatz 186.000 Euro. 71 Prozent davon stammten aus dem Verkauf von Fahrkarten, 29 Prozent aus einem Zuschuss der Gemeinde. Überschüsse werden nicht an die Mitglieder ausgeschüttet. Sie fließen in eine Rücklage für die Erneuerung der Fähre, die bis 2031 ausreichen soll, um einen Elektroantrieb einzubauen.\n\nWarum passt diese Rechtsform so gut zu der Fähre? Sie ist vor allem eine Verbindung, auf die viele Menschen angewiesen sind, und erst in zweiter Linie ein Geschäft. Rund 64.000 Personen setzt sie jedes Jahr über, im Sommer vor allem Radfahrer auf dem Elberadweg. Die Genossenschaft legt die Fähre in die Hände derer, die sie brauchen, und gibt allen Mitgliedern dasselbe Mitspracherecht. Zugleich sorgt sie dafür, dass das erwirtschaftete Geld dort bleibt, wo es gebraucht wird: bei der Fähre selbst.",
+  "usage": {
+    "in": 780,
+    "out": 2398,
+    "thinking": 1404
+  },
+  "costUsd": 0.05108,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 21593,
+  "meta": [],
+  "at": "2026-10-17T17:50:19.870Z"
+}

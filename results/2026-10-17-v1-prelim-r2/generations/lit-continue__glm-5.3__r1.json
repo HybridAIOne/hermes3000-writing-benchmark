@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "glm-5.3",
+  "run": 1,
+  "text": "„Der Motor läuft\", sagte Ilse. „Wenn man ihn versteht.\"\n\nSie hörte, wie Jonas den Koffer über die Bohlen zog, das Poltern der kleinen Rollen über die Fugen. Sie warf die Ladebrücke aus, prüfte mit dem Fuß, ob sie saß. Der einzige Passagier dieser Fahrt, ein Radfahrer aus Dannenberg, der jede Woche zweimal rüberfuhr, war längst unterwegs. Sie hätte die Fähre ganz blijven lassen können. Aber sie hatte den Motor gestartet, obwohl das Wasser ruhig war und man auch mit der Hand hätte übersetzen können. Sie wusste nicht, warum. Vielleicht damit er es hörte: dass hier noch etwas arbeitete.\n\n„Deine Nachrichten\", sagte Jonas. „Du rufst nicht zurück. Ich schreibe dir, du schreibst nicht zurück.\"\n\n„Ich hatte zu tun.\"\n\n„Du hast eine Fähre, Mutter. Viermal am Tag, wenn überhaupt.\"\n\nSie zog an der Leine, ob der Knoten hielt. Er hielt. Er hielt immer. „Und du hast ein Handy\", sagte sie. „Man kann damit auch einfach herkommen. Ohne anzukündigen.\" Sie sah ihn dabei nicht an, aber sie spürte, wie er das Gesicht verzog, dieses kurze Zusammenziehen der Brauen, das er schon mit acht gemacht hatte, wenn er einen Fehler gefunden hatte, den niemand sonst sah.\n\nEr stellte den Koffer ab, zu genau am Rand des Dachs, dort wo keine Pfütze war, und schaute sich um. Über die Seile, die gespannt waren zwischen den Ufern. Über das Häuschen mit dem Büro, in dem seit zwanzig Jahren der Teekoch auf derselben Platte stand. Über den Anstrich am Bug, den sie im Frühling selbst erneuert hatte, grün wie immer, weil die Leute das so kannten.\n\n„Es ist alles so klein\", sagte er. „Wenn ich weggehe, kommt es mir klein vor. Wenn ich lange weg bin, vergesse ich, wie klein.\"\n\n„Der Fluss ist nicht klein\", sagte Ilse. „Der Fluss ist breiter geworden, seit Henning angefangen hat. Er gräbt sich. Er nimmt sich, was er will.\"\n\nJonas sah sie an. Zum ersten Mal, seit er an Bord war, richtig. Sie war sechzig geworden im Herbst, und in seinem Gesicht stand kurz das, was in solchen Gesichtern stand: ein Erstaunen darüber, dass Zeit auch an anderen Leuten vorbeiging, nicht nur an einem selbst.\n\n„Fährst du noch rüber? Er muss ja wieder zurück\", sagte er und deutete auf den Koffer, als gehörte der Koffer jemandem, mit dem man Mitleid haben müsse.\n\n„Ich fahre, wenn jemand rüber will\", sagte Ilse. „Das ist der Unterschied zwischen einer Fähre und einem Motorboot.\"\n\nDann löste sie die Leine vom Poller. Nicht, weil ein Passagier rüber wollte. Sondern weil drüben am Ostufer, am Treppenaufgang, alte Krause stand mit seinem Fahrrad und wartete, wie jeden Nachmittag. Er winkte nicht. Er winkte nie. Er wartete einfach, und darauf konnte man sich verlassen, mehr als auf alles andere hier.\n\nIlse legte Hand an das Seil und ließ die Fähre treiben.",
+  "usage": {
+    "in": 342,
+    "out": 761,
+    "thinking": 22
+  },
+  "costUsd": 0.00368016,
+  "finish": "stop",
+  "reportedModel": "z-ai/glm-5.3",
+  "upstream": "Decart",
+  "latencyMs": 7646,
+  "meta": [],
+  "at": "2026-10-17T17:22:26.654Z"
+}

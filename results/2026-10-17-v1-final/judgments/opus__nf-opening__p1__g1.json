@@ -1,0 +1,119 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 6,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Das wolltest du so nicht hören lassen, und auch nicht so sagen.“ – grammatisch verunglückt und unverständlich",
+          "Die Szene bleibt unklar: Worum es bei dem „Ausdruck“ geht, erfährt man nicht.",
+          "„Dann war's das also mit mir?\" – Das Schlusszeichen ist ein gerades Anführungszeichen statt „“.",
+          "Vier Absätze statt eines Einstiegsabsatzes, außerdem leicht über dem Umfang",
+          "„Kennst du das?“ – abgegriffene Überleitung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Was gibt dir also das Recht, etwas anzusprechen? Eine ganze Menge:“ – idiomatisch schief, „das Recht“ und „eine ganze Menge“ passen nicht zusammen.",
+          "Ein einziger Textblock ohne Gliederung erschwert das Lesen.",
+          "„Du stehst mit einer Tasse Kaffee am Drucker“ – das Bild ist klischeehaft.",
+          "„Nur der Ärger geht mit.“ – leicht manieriert",
+          "Der Fokus liegt auf einem Kollegen statt auf der Teamleiterrolle, das ist knapp an der Zielgruppe."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Kurz sprechen – Jens\" – das Schlusszeichen ist ein gerades Anführungszeichen statt „“.",
+          "„Dann bist du in guter Gesellschaft.“ – Floskel",
+          "„ein paar handfesten Werkzeugen“ – Ratgeberfloskel",
+          "„ohne dass sie eskalieren“ – leicht abgegriffen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Also wartest du, bis die Besprechung vorbei ist.“ – Das widerspricht der zuvor als bequem verworfenen Option „später darüber sprecht“.",
+          "„auf den Tisch legt“ / „zu viel auf dem Tisch“ – unschöne Wiederholung",
+          "Kein Ausblick auf das Kapitel, die Einordnung bleibt vage.",
+          "Die Szene ist lang, die Reflexion kommt spät, der Umfang liegt über 250 Wörtern.",
+          "„Schwierige Gespräche beginnen selten mit einem großen Knall.“ – Gemeinplatz"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Na, auch schon da?\", – das Schlusszeichen ist ein gerades Anführungszeichen statt „“.",
+          "Mit rund 200 Wörtern etwas unter dem Umfang, zudem zwei Absätze",
+          "„wie Markus an seinen Platz schleicht“ – die Wertung im Verb nimmt das Urteil vorweg.",
+          "„Fast jeder Teamleiter kennt solche Momente.“ – Floskel"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "E",
+      "B",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 4995,
+    "out": 2123,
+    "thinking": 933
+  },
+  "costUsd": 0.06244
+}

@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "gemini-3.8-flash-low",
+  "run": 1,
+  "text": "The sanctuary smelled of floor wax and the sour dregs of vending-machine tea.\n\nMiriam sat in the third row, her clogs squeaking against the vinyl until she tucked her heels tight beneath the wood. Her pager hummed once against her hip—a low-priority lab alert from telemetry—and went silent.\n\n\"Room six is sleeping,\" a voice said.\n\nMiriam didn't jump, but the muscle beneath her collarbone pulled flat. A man sat four pews ahead, on the aisle, wearing a canvas barn jacket too heavy for the thermostat. His neck was creased, the skin there greyed with grain dust or concrete residue. He hadn't been there when she pushed through the swing doors.\n\n\"Miriam,\" he said, not turning. \"The bag was empty at three. They hung saline.\"\n\nShe should have asked for his badge, or directed him to the waiting area by the elevators where the lights were bright enough to show the grease on the vinyl chairs. A family member, probably. The son from the farm out past the reservoir who hadn't made it before the shift change.\n\n\"They're monitoring his output,\" she said. Her voice felt thick, unused since midnight.\n\nThe man stood, his joints popping with the dry snap of kindling. He was shorter than she’d thought, his spine curved from decades of looking down at small engines or ditch lines. He didn't look at her face as he stepped into the aisle, only at her hands, which were resting flat on the back of the pew in front of her.\n\nOn the small brass altar, the pilot light of an unlit votive flickered in the draft from the return vent, its wick charred down to a black knot the size of a seed.",
+  "usage": {
+    "in": 59,
+    "out": 369,
+    "thinking": 0
+  },
+  "costUsd": 0.0012984099999999998,
+  "finish": "STOP",
+  "reportedModel": "gemini-3.8-flash",
+  "upstream": null,
+  "latencyMs": 6124,
+  "meta": [],
+  "at": "2026-10-17T17:18:01.758Z"
+}

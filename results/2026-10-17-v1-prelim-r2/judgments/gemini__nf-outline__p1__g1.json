@@ -1,0 +1,109 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "grok-4.3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Kritik, Konflikte und unangenehme Wahrheiten anspricht (Tippfehler/Grammatikfehler: es muss 'ansprichst' heißen)",
+          "Trennungsgespräche (inhaltlicher Bruch mit dem Buchtitel 'Führen ohne Titel': Wer ohne formalen Titel oder disziplinarische Befugnis führt, führt in der Regel keine Kündigungsgespräche)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 6,
+        "fehler": [
+          "Und du führst diese Gespräche, statt sie aufzuschieben. (Verstoß gegen die Vorgabe 'ein Satz, worum es geht': Kapitel 7 besteht aus zwei Sätzen)",
+          "Zur Abgrenzung: Kapitel 6 behandelt die alltägliche, regelmäßige Rückmeldung. (Ungefragter Meta-Kommentar am Ende sowie leichte thematische Überschneidung zwischen Kapitel 6 und 7 bzw. 2 und 8, die überhaupt erst erklärt werden muss)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "Wie du mit deinem Team und deinem Chef abgleichst, was von dir erwartet wird (Thematische Überschneidung: Das Klären der Erwartungen des Chefs war bereits Thema in Kapitel 2: 'Wie du deinen Auftrag, deine Grenzen und deine Verantwortung klärst')",
+          "Kapitel 6: Feedback geben, ohne Beziehungen zu zerstören (Leichte Überschneidung mit Kapitel 7 'Schwierige Gespräche', da kritisches Feedback oft Teil davon ist)",
+          "Wie du ... (Stilistische Monotonie: Ausnahmslos jede Kapitelbeschreibung beginnt mit 'Wie du', als Ellipsen ohne Hauptsatz)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Arbeit übergeben, ohne loszulassen (Unglückliche, widersprüchliche Formulierung für ein Führungskapitel: Gutes Delegieren erfordert gerade das Loslassen, sonst wirkt es wie Mikromanagement)",
+          "Du startest mit den ersten Gesprächen und machst dir klar... (Inhaltliche Überschneidung zwischen Kapitel 1, 2 und 3: In allen drei Kapiteln geht es um erste Gespräche und das Kennenlernen/Klären zum Start)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "die Fähigkeiten der einzelnen verbesserst (Rechtschreibfehler: 'Einzelnen' muss hier als Substantivierung großgeschrieben werden)",
+          "Kapitel 8: Mit Widerstand und Konflikten umgehen (Massive Überschneidung mit Kapitel 5 'Schwierige Gespräche führen', in dem ebenfalls 'Leistungsprobleme, Fehlverhalten oder Konflikte' behandelt werden)",
+          "Es geht darum, wie du... / Es geht um... / Zum Schluss geht es darum... (Schwerfällige Füllsatz-Konstruktionen in fünf von neun Kapiteln)",
+          "ohne ständig im operativen Geschäft zu versinken (Berater-Jargon/Buzzword: 'operatives Geschäft' passt schlecht zur geforderten bodenständigen Sprache)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "C",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3073,
+    "out": 965,
+    "thinking": 0
+  },
+  "costUsd": 0.015796
+}

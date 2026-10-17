@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "At four, Leah went to the chapel because the staff room smelled of reheated fish. She carried tea in a specimen cup, the only clean container she had found.\n\nA man sat in the second row. His coat was folded beside him, lining out. He had placed both shoes squarely beneath his knees.\n\n“Leah,” he said.\n\nShe stopped with her hand still on the door.\n\n“Have we met?”\n\n“I’m not sure.”\n\nHer badge was clipped at her hip, turned toward her leg. She set the cup on the little table where people left prayer requests.\n\n“Are you waiting for someone?”\n\n“Yes.”\n\n“Which ward?”\n\nHe rubbed a mark on his thumbnail. “I was told to wait here.”\n\nShe could have asked who had told him. Instead she sat across the aisle, leaving the door open. From the corridor came the uneven rattle of a trolley wheel.\n\nThe chapel had six rows, a sink concealed in a cupboard, and a notice asking visitors not to leave food. Someone had left a pear beneath the notice.\n\n“You should drink that,” the man said.\n\n“It needs to cool.”\n\nHe nodded. Neither of them looked at the cup.\n\nAfter a while, her pager vibrated. She stood and smoothed the front of her trousers.\n\n“Will you be all right here?”\n\n“For now.”\n\nShe took her tea. At the door she glanced back. He was unfolding his coat across his lap, carefully easing one sleeve from inside the other. Its empty cuff rested on his knee, buttoned shut.",
+  "usage": {
+    "in": 59,
+    "out": 535,
+    "thinking": 216
+  },
+  "costUsd": 0.005468,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 22585,
+  "meta": [],
+  "at": "2026-10-17T17:18:55.677Z"
+}

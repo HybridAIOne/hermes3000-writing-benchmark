@@ -1,0 +1,125 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "\"2024 beförderte sie rund 64.000 Personen\" – die Quelle nennt diese Zahl pro Jahr, nicht für 2024",
+          "\"Wie wichtig das ist, zeigen die Zahlen.\" – die folgenden technischen Angaben belegen die behauptete Wichtigkeit nicht; der Übergang ist logisch schief",
+          "\"Die Einstiegshürde ist also überschaubar.\" – Wertung, die aus der Quelle nicht folgt",
+          "\"in sieben Minuten\" – die Einschränkung \"bei normalem Wasserstand\" fehlt"
+        ],
+        "unsupported": [
+          "2024 beförderte sie rund 64.000 Personen (Quelle: pro Jahr, ohne Jahresangabe)",
+          "fehlte plötzlich die Verbindung zwischen beiden Elbufern",
+          "Die Einstiegshürde ist also überschaubar"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "\"vierzig Landwirte und Händler\" – falsche Zahl, laut Quelle 41",
+          "\"Die Mitglieder können gemeinsam über die Angelegenheiten der Genossenschaft beraten und abstimmen.\" – Füllsatz",
+          "\"Zugleich gibt die gleiche Stimme jedem Mitglied ein Mitspracherecht – unabhängig davon, wie viele Anteile es hält.\" – wiederholt fast wörtlich den zweiten Absatz",
+          "\"Die Einnahmen stammen nicht nur aus Fahrkarten:\" – umständliche Doppelung vor der Zahlenangabe"
+        ],
+        "unsupported": [
+          "vierzig Landwirte und Händler (Quelle: 41)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "\"Das zeigt sich im Blick auf die Zukunft:\" – unklarer, holpriger Bezug",
+          "\"Warum passt diese Rechtsform zu einer Fähre? Die Fähre ist ein Verkehrsmittel für viele Menschen.\" – der Absatz beantwortet die Frage nicht, sondern reiht nur Zahlen auf",
+          "\"Die Seilfähre über die Elbe bei Hitzacker gibt es seit 1953 als Fährgenossenschaft.\" – ungelenker Einstieg, die Fähre selbst ist keine Genossenschaft",
+          "\"die Zukunft des Schiffs\" – Wiederholung von \"Fähre\"/\"Schiff\" im Schlussabsatz wirkt unruhig"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "\"Bis 1978 bewegte allein die Strömung die Fähre über den Fluss, heute treibt sie ein 85-kW-Dieselmotor an.\" – Technikangabe steht unpassend im Geldabsatz",
+          "\"Sie brauchten die Fähre und übernahmen sie deshalb selbst.\" – Motiv leicht zugespitzt, nur indirekt aus der Quelle ableitbar"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "\"weil es den Gründern wie auch den heutigen Mitgliedern nicht um finanzielle Gewinne geht\" – Behauptung über die Motive der Mitglieder, die nicht in der Quelle steht",
+          "\"warum diese Rechtsform ideal ist\" – werbliche Übertreibung",
+          "\"Wurde das Schiff bis 1978 allein durch die Strömung bewegt, sorgt heute ein 85-kW-Dieselmotor für den Antrieb.\" – gestelzte Konstruktion",
+          "\"nicht an die 312 Mitglieder ausgeschüttet\" – unnötige Wiederholung der Mitgliederzahl",
+          "\"Das Grundprinzip ist einfach und demokratisch\" – floskelhaft; zudem liegt der Text deutlich über dem Umfang"
+        ],
+        "unsupported": [
+          "es geht den Gründern wie auch den heutigen Mitgliedern nicht um finanzielle Gewinne",
+          "Überschüsse fließen komplett in die Rücklage",
+          "den Fährbetrieb so für die Zukunft zu sichern"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "C",
+      "E",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 6928,
+    "out": 2473,
+    "thinking": 870
+  },
+  "costUsd": 0.077172
+}

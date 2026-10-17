@@ -1,0 +1,101 @@
+{
+  "task": "en-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "C": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "D": {
+      "model": "glm-5.3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"sat in the end of a pew\" – idiomatisch schief, üblich wäre \"at the end of a pew\"",
+          "Die Uhrzeit 4 a.m. wird nirgends verankert; die Vorgabe ist nur implizit erfüllt",
+          "\"The name came out level\" – das Subjekt \"name\" für die Stimme des Mannes ist unscharf",
+          "\"The skin there looked newer than the rest of his hand\" – die Deutung hängt dem Bild nach und erklärt ein wenig",
+          "Die Figur als Krankenschwester ist nur über Indizien wie \"unit clerk\" und \"ambulance bay\" erkennbar, recht dünn"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "\"the pilot light of an unlit votive flickered\" – Logikbruch: Eine unangezündete Votivkerze hat keine flackernde Flamme, und Votivkerzen haben keine Zündflamme",
+          "\"grain dust or concrete residue\" / \"from decades of looking down at small engines or ditch lines\" – die Erzählerin spekuliert und erklärt, statt zu zeigen",
+          "\"the dry snap of kindling\" – abgegriffener Vergleich",
+          "\"the grease on the vinyl chairs\" – \"vinyl\" wiederholt das \"vinyl\" aus dem zweiten Absatz",
+          "Mit rund 290 Wörtern über der Längenvorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"4 a.m. had its own gravity\" – Klischee",
+          "\"in a raincoat dry despite the storm outside\" / \"I've been staying a long time\" – Geister-Andeutung, die auf eine Enthüllung zuläuft statt auf Zurückhaltung",
+          "\"had her name on it, literally\" – geschwätziger, flapsiger Einschub",
+          "\"A lot of people had died in this building. That was the simple arithmetic of the place.\" – erklärt, statt zu zeigen",
+          "\"Her name faced the wall\" – der umgedrehte Ausweis ist ein bekannter Genre-Trick"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "\"more like a waiting room for the inevitable\" – Klischee",
+          "\"and he hadn't spoken to her since she entered\" – Logikbruch: Er hat gerade zu ihr gesprochen",
+          "\"She froze.\" / \"devoid of malice or warmth\" – abgegriffene Formeln",
+          "\"a small, rusted key\" – mysteriöses Requisit, wirkt wie eine Pseudo-Enthüllung statt eines zurückhaltenden Bildes",
+          "\"heavy oak doors\" und \"on the marble\" – generische Ausstattung, für eine Krankenhauskapelle unglaubwürdig"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3168,
+    "out": 2010,
+    "thinking": 893
+  },
+  "costUsd": 0.052872
+}

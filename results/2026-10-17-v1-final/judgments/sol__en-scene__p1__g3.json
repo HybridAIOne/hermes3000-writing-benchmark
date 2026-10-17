@@ -1,0 +1,75 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„At ten to four“: Die Begegnung beginnt ausdrücklich um 3.50 Uhr statt zur vorgegebenen Zeit um vier. Eine kleine, aber eindeutige Abweichung.",
+          "„as if he'd been saying it silently for some time“: Der Vergleich wirkt gesucht: Aus der angenehmen, leicht heiseren Stimme lässt sich gerade dieses vorherige stumme Wiederholen nicht sinnlich erschließen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Her hair is still short. She thinks about saying so“: Als gedankliche Erwiderung auf „Your hair was longer“ ist das unscharf. Dass ihr Haar weiterhin kurz ist, widerspricht seiner Aussage über eine frühere Begegnung nicht; der beabsichtigte Zweifel bleibt unpräzise.",
+          "„the radiator knocks like it's trying to get out“ und „the door sighs shut“: Die dicht aufeinanderfolgenden Personifikationen sind vertraute atmosphärische Schreibgesten. Sie machen die Inszenierung merklicher, statt die verlangte Zurückhaltung zu unterstützen.",
+          "„At four the hospital goes quiet in a way that has nothing to do with sleep“: Der Einstieg behauptet eine besondere nächtliche Stille, bleibt dabei aber abstrakt und formelhaft. Die späteren konkreten Beobachtungen tragen die Atmosphäre überzeugender."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 10,
+        "fehler": [
+          "„lay a wide-toothed comb, pale green, a single grey hair wound through its teeth like thread on a spool“: Das Schlussbild ist durch „You did her hair“ bereits deutlich vorbereitet und wirkt als bewusst arrangiertes Erinnerungsstück. Die zusätzliche Haarspur samt Vergleich überbetont seine Bedeutung; hier droht sentimentaler Symbolkitsch.",
+          "„I just wanted to see what you looked like when you weren't busy“: Der Satz liefert eine auffällig pointierte, emotional zugeschnittene Erklärung für den Besuch. Er klingt stärker nach einer für die Szene formulierten Botschaft als nach beiläufiger Figurenrede.",
+          "„beside the hymnals no one opened“: Die pauschale Behauptung geht über die konkrete Wahrnehmung der Figur hinaus und versieht das Schlussbild mit einem unnötigen zusätzlichen Bedeutungssignal.",
+          "„the pew creaked as it gave up his weight“: Die Personifikation ist gegenüber dem einfachen, sinnlich ausreichenden Knarren sprachlich überarbeitet."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 1487,
+    "out": 1192,
+    "thinking": 512
+  },
+  "costUsd": 0.014894
+}

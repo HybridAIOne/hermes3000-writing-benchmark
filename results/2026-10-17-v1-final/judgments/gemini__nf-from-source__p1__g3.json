@@ -1,0 +1,72 @@
+{
+  "task": "nf-from-source",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "Stil/Einstieg: 'Wie eine Genossenschaft in der Praxis funktioniert und warum diese Rechtsform ideal ist, um ein gemeinsames Anliegen zu verwirklichen, zeigt das Beispiel...' plappert die Aufgabenstellung trocken nach.",
+          "Struktur: Der dritte Absatz wirkt wie ein unmotivierter Faktenblock, in dem Maße, Passagierzahlen und Umsatzdaten ohne roten Faden aneinandergereiht werden."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "Stil/Satzrhythmus: Im ersten Absatz stehen mehrere sehr kurze Hauptsätze direkt hintereinander ('Dort verkehrt... Bei normalem Wasserstand... Die Fähre hängt...'), was den Einstieg minimal stakkatoartig macht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Zeichensetzung: '...egal wie viele Anteile es hält.' (Vor 'wie' fehlt das Komma zur Einleitung des Nebensatzes).",
+          "Stil/Rhythmus: Der erste Absatz reiht zu viele kurze Sätze im gleichen Muster aneinander ('Dort ist... Eine Überfahrt... Die Fähre hängt...').",
+          "Aufgabe/Struktur: Gefordert war 'ein Abschnitt von etwa 300 Wörtern', der Text nutzt jedoch eine eigene Überschrift und zerstückelt die 280 Wörter in sechs teils sehr kurze Mini-Absätze."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2790,
+    "out": 502,
+    "thinking": 0
+  },
+  "costUsd": 0.0106
+}

@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "claude-sonnet-5.5",
+  "run": 3,
+  "text": "The chapel was supposed to be locked after midnight, but the latch had been broken since March, and Inés checked it only out of habit, the way she checked the sluice room and the stairwell fire door.\n\nA man sat in the second pew. Sixties, maybe. His raincoat was still buttoned, and his hands rested on his knees as if he were waiting to be called in for something. No visitor sticker. No flowers, no paperback, no phone glowing in his palm.\n\n\"You're not really meant to be in here now,\" she said. \"I mean, you can. But if you need someone, there's a kettle in the family lounge on four.\"\n\n\"I'm all right, Inés.\"\n\nHer badge was turned backward under her cardigan. She'd flipped it hours ago because the clip kept scratching her collarbone. She didn't touch it now.\n\n\"Have we met?\"\n\n\"No.\" He seemed to weigh whether that was true. \"Not the way you mean.\"\n\nShe waited for him to go on. He didn't. Down the corridor a call bell chimed twice and stopped. That would be Mr. Pell in 12, who rang when he wanted company, not help. Inés looked at the stranger's shoes. They were dry, though it had been raining since dusk.\n\n\"I should answer that.\"\n\n\"Of course.\"\n\nShe lingered a moment longer. The radiator ticked. At the front of the room hung the panel of colored glass that had never been a window, just a lightbox with a strip bulb behind it, set to a permanent, patient amber.\n\nAt the door she looked back. He hadn't moved. The false dawn lay across his folded hands, and he held them open to it, a little, as though it were warm.",
+  "usage": {
+    "in": 91,
+    "out": 1332,
+    "thinking": 811
+  },
+  "costUsd": 0.013502,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 12778,
+  "meta": [],
+  "at": "2026-10-17T17:45:41.774Z"
+}

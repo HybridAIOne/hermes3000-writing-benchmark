@@ -1,0 +1,16 @@
+{
+  "task": "ctx-saltzbrueck-5",
+  "model": "claude-haiku-5.5",
+  "run": 2,
+  "judge": "opus",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 4101,
+    "out": 275,
+    "thinking": 258
+  },
+  "costUsd": 0.021904
+}

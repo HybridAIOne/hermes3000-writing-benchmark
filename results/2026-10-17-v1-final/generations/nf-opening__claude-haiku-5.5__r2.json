@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "claude-haiku-5.5",
+  "run": 2,
+  "text": "Es ist Dienstagnachmittag, kurz nach vier. Du sitzt im kleinen Besprechungsraum neben der Kaffeemaschine, vor dir ein Ausdruck mit den Zahlen des letzten Quartals, und du weißt schon jetzt, dass die nächsten zwanzig Minuten unangenehm werden. Gegenüber sitzt Markus, seit sechs Jahren in eurer Firma, bisher einer der Verlässlichsten im Team, zumindest hast du das immer gedacht. Den Termin hast du zweimal verschoben. Jetzt ist er da, schaut dich freundlich an und fragt: „Was gibt's denn?“\n\nDu hattest dir vorher zurechtgelegt, wie du anfängst. Doch als du den Mund aufmachst, kommt etwas anderes heraus. Erst ein Satz über das Wetter, dann einer über den Projektplan, dann ein „Ach, eigentlich nur eine Kleinigkeit“. Markus wartet. Du spürst, wie dir die Hitze in den Hals steigt, und dein Blick wandert immer wieder zu dem Ausdruck, als könnte der für dich sprechen.\n\nKennst du das? Die meisten Führungskräfte, die ich kenne, können Zahlen präsentieren, Projekte steuern und Budgets verteidigen. Sobald es aber um das geht, was zwischen zwei Menschen schiefläuft, werden sie vorsichtig, ausweichend oder lauter als nötig. Das Gespräch, das sie seit Wochen vor sich herschieben, wird am Ende trotzdem geführt, nur eben schlechter, als es hätte sein können.\n\nDieses Kapitel zeigt dir, wie du solche Gespräche vorbereitest, führst und danach nicht bereust. Es geht dabei nicht um Rhetorik-Kniffe. Es geht um Klarheit, um den Mut, einen Satz früher auszusprechen, als dir lieb ist, und um die Bereitschaft, auch dann zuzuhören, wenn dir die Antwort nicht gefällt.",
+  "usage": {
+    "in": 278,
+    "out": 1654,
+    "thinking": 911
+  },
+  "costUsd": 0.0008548,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 7921,
+  "meta": [],
+  "at": "2026-10-17T17:50:21.495Z"
+}

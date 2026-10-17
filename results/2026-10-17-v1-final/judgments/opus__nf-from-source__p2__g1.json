@@ -1,0 +1,130 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"1953 stellte der Landkreis den Betrieb der Fähre ein\" – die Quelle datiert nur die Gründung auf 1953, nicht die Einstellung.",
+          "\"Bis 1978 bewegte allein die Strömung die Fähre über den Fluss\" – die Technikangabe steht unvermittelt im Absatz über Geld und unterbricht die Argumentation.",
+          "\"Sie brauchten die Fähre und übernahmen sie deshalb selbst.\" – Das ist eine Deutung. Laut Quelle wurde eine Genossenschaft gegründet, eine Übernahme der Fähre steht dort nicht."
+        ],
+        "unsupported": [
+          "1953 als Jahr der Betriebseinstellung durch den Landkreis",
+          "\"übernahmen sie deshalb selbst\" (Übernahme der Fähre nicht belegt)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Die Zahlen zeigen, dass das Modell trägt.\" – Die Wertung ist nicht belegt, zumal 29 Prozent aus einem Zuschuss stammen.",
+          "\"Eine Fähre, die ihren Nutzern gehört\" – Dass die Mitglieder die Nutzer sind, steht nicht in der Quelle.",
+          "\"Dort ist der Fluss 212 Meter breit. Eine Überfahrt mit der Fähre dauert ... Die Fähre hängt an einem Führungsseil.\" – Der Einstieg ist eine abgehackte Faktenreihung, die nichts zur Genossenschaft beiträgt.",
+          "\"das nicht von einem einzelnen Eigentümer abhängen soll\" – Die Begründung ist nicht aus der Quelle abgeleitet."
+        ],
+        "unsupported": [
+          "\"Die Zahlen zeigen, dass das Modell trägt\"",
+          "Mitglieder = Nutzer (\"die ihren Nutzern gehört\", \"Die Menschen, die sie brauchen, betreiben sie selbst\")",
+          "\"entstand 1953 aus einer Notlage\" (Wertung)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "\"eine gemeinsame Aufgabe gemeinsam zu tragen\" – Pleonasmus gleich im ersten Satz.",
+          "\"Der laufende Betrieb finanziert sich aus Fahrkartenverkäufen und einem Zuschuss der Gemeinde. Im Jahr 2024 ... 71 Prozent stammten aus Fahrkartenverkäufen, 29 Prozent aus dem Gemeindezuschuss.\" – Die Angabe wird doppelt gemacht.",
+          "\"Heute treibt ein 85-kW-Dieselmotor die am Führungsseil hängende Fähre an\" – Das technische Detail ist ohne Bezug zur Argumentation angehängt.",
+          "\"Für diese Fähre passt die genossenschaftliche Rechtsform, weil sie die gemeinsame Trägerschaft mit gleichberechtigter Mitsprache verbindet.\" – Die Begründung bleibt abstrakt und zirkulär und wiederholt nur die vorherigen Absätze."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Warum passt diese Rechtsform zu einer Fähre? Die Fähre ist ein Verkehrsmittel für viele Menschen. Sie überquert die Elbe an einer 212 Meter breiten Stelle\" – Auf die Frage folgen Fakten, die sie nicht beantworten.",
+          "\"Die Seilfähre über die Elbe bei Hitzacker gibt es seit 1953 als Fährgenossenschaft.\" – Die Formulierung ist schief: Die Fähre ist keine Genossenschaft, und sie bestand schon vorher.",
+          "\"Sie werden nicht an Eigentümer ausgeschüttet\" – Das ist unstimmig, denn die Mitglieder sind die Eigentümer.",
+          "\"sichern mit ihren Überschüssen die Zukunft des Schiffs\" – Die Überschüsse gehören der Genossenschaft, nicht den einzelnen Mitgliedern.",
+          "\"Das zeigt sich im Blick auf die Zukunft:\" – Füllsatz."
+        ],
+        "unsupported": [
+          "\"gibt es seit 1953 als Fährgenossenschaft\" (missverständlich, als wäre die Fähre 1953 entstanden)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "\"ist auch die zukünftige Erneuerung der Fähre bereits abgesichert\" – Die Quelle sagt nur, die Rücklage \"soll bis 2031 ausreichen\".",
+          "\"Auf diese Weise lässt sich der laufende Betrieb dauerhaft sichern und technisch anpassen.\" – Die Behauptung ist nicht belegt.",
+          "\"Wie eine Genossenschaft funktioniert und warum sie die passende Rechtsform für den Betrieb einer Fähre ist, lässt sich am Beispiel ... nachvollziehen.\" – Der Einstieg wiederholt nur die Aufgabenstellung.",
+          "\"aus beiden Elbufern\" – Die Präposition ist unidiomatisch, richtig wäre \"von beiden Elbufern\".",
+          "\"Die grundlegende Funktionsweise der Genossenschaft zeigt sich heute im Zusammenwirken ihrer mittlerweile 312 Mitglieder.\" – Der Satz ist nominal und leer. Was eine Genossenschaft ist, wird nirgends erklärt."
+        ],
+        "unsupported": [
+          "\"die zukünftige Erneuerung der Fähre bereits abgesichert\"",
+          "\"lässt sich der laufende Betrieb dauerhaft sichern und technisch anpassen\"",
+          "\"Durch diesen Zusammenschluss konnte der Fährbetrieb ... weitergeführt werden\" (Deutung)"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "A",
+      "E",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 7119,
+    "out": 3685,
+    "thinking": 1458
+  },
+  "costUsd": 0.102176
+}

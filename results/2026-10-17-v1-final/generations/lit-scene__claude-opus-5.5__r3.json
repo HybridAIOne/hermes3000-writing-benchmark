@@ -1,0 +1,20 @@
+{
+  "task": "lit-scene",
+  "model": "claude-opus-5.5",
+  "run": 3,
+  "text": "**Das Gewicht der Uhr**\n\nDer Schlüssel lag noch dort, wo er vor zwanzig Jahren gelegen hatte, unter dem dritten Blumentopf links von der Tür. Ines ärgerte sich darüber, dass sie es gewusst hatte, ohne nachzudenken. Der Topf war leer bis auf eine Kruste Erde, die beim Anheben in ihrer Hand zerfiel.\n\nDas Schloss gab ohne Widerstand nach. Im Flur roch es nach kaltem Kalk und nach etwas Süßlichem, das sie erst nach einer Weile als Bohnerwachs erkannte. An der Garderobe hing der graue Mantel, der linke Ärmel nach innen gestülpt, als hätte ihn jemand in Eile abgestreift. Sie berührte ihn nicht.\n\nDrei Wochen, hatte der Notar gesagt. Die Nachbarin habe sie gefunden, im Sessel, das Radio noch an. Er hatte es in einem Ton gesagt, der Trost sein sollte, und Ines hatte genickt, als ginge es um einen Liefertermin.\n\nSie ging in die Küche, weil man in diesem Haus immer zuerst in die Küche gegangen war. Das Wachstuch auf dem Tisch hatte noch den Brandfleck in Form eines Halbmonds, den sie mit vierzehn hinterlassen hatte. Auf der Fensterbank standen drei Gläser mit eingekochten Birnen, beschriftet in der steilen, nach rechts fallenden Schrift ihrer Mutter. Das Datum war vom letzten Herbst.\n\nDann hörte sie es.\n\nÜber der Tür hing die Pendeluhr, ein dunkles, unansehnliches Ding, das ihr Vater aus dem Haus seiner Eltern mitgebracht hatte. Sie tickte. Ines kannte das Geräusch so genau, dass sie es zuerst für eine Erinnerung hielt. Aber der Pendel schwang, und das Messinggewicht hing hoch oben an seiner Kette, fast unter dem Gehäuse.\n\nDie Uhr lief acht Tage. Ihre Mutter hatte sie jeden Sonntag nach dem Abendessen aufgezogen, mit dem kleinen Schlüssel, den sie in der Zuckerdose aufbewahrte, damit niemand außer ihr ihn fand.\n\nInes stand lange da und zählte die Schläge. Dann hob sie den Deckel der Zuckerdose.\n\nSie war leer.",
+  "usage": {
+    "in": 149,
+    "out": 1726,
+    "thinking": 822
+  },
+  "costUsd": 0.035116,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 20635,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:49:43.719Z"
+}

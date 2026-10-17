@@ -1,0 +1,78 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "mit dem Daumen gegen den Bart drücken (Sachfehler: Der Schlüsselbart steckt im Schloss, man drückt gegen die Reide/den Griff)",
+          "wie etwas, das sich erst erinnern musste, wie man fließt (kitschige Personifikation)",
+          "vom Wind oder von einer Hand dorthin getragen (bemüht bedeutungsschwanger)",
+          "Beides ließ sich sagen, ohne dass sich etwas daran änderte (hohle Phrase)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Sie öffnete den Schrank unter der Spüle. (unmotivierte Handlung direkt beim Betreten der Küche)",
+          "ein Werbeprospekt auf dem Rücken (schiefe Metapher für ein Druckerzeugnis)",
+          "Sie hielt sie länger in der Hand, als nötig gewesen wäre. (überflüssiges Erklären; für das bloße Herausnehmen bestand ohnehin keine Notwendigkeit)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "Nora war ihm dankbar dafür. (Aufgabenverfehlung: Der Tod der Mutter wird im gesamten Text nicht erwähnt, das Haus könnte auch verkauft worden sein)",
+          "Der Novembertag hatte sich nicht hineingetraut. (kitschige Personifikation)",
+          "ohne sie gefragt zu haben (abgegriffene Floskel)",
+          "vielleicht von ihrem Luftzug, vielleicht schon vorher (billiger Grusel-Effekt statt literarischer Atmosphäre)",
+          "Hinter ihr tropfte nichts. (manierierte Konstruktion am Ende)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2223,
+    "out": 546,
+    "thinking": 0
+  },
+  "costUsd": 0.009906
+}

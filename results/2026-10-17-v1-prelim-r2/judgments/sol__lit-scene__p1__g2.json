@@ -1,0 +1,99 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "B": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Das Haus stand niedriger, als sie es erinnerte.“ Die zwanzigjährige Abwesenheit wird weder hier noch andernorts kenntlich. Auch der Tod der Mutter bleibt lediglich erschließbar; damit fehlen zwei zentrale Vorgaben als eindeutige Informationen.",
+          "„Die Fenster waren blind vom Schmutz“ und „die Möbel unter weißen Tüchern“: Die Beschreibung arbeitet zunächst mit vertrautem Leerstandsrepertoire. Erst die Bohnenschote gibt dem Haus eine individuelle Geschichte.",
+          "„Sie zählte die Tropfen, bis sie aufhörte, sie zu zählen.“ Der betont bedeutungsvolle Schlusssatz bleibt gegenüber dem präzisen, körperlichen Samendetail abstrakt und etwas selbstzweckhaft."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "„Der Linoleum“: Falsches Genus; richtig ist „das Linoleum“.",
+          "„wo der linke Tischbein trifft“: Falsches Genus bei „Tischbein“; außerdem fehlt die Angabe, worauf das Tischbein trifft. Die räumliche Beziehung bleibt sprachlich unvollständig.",
+          "„Kein Möbel. Kein Bild. Nur die Wände“ gegenüber „Sie legt die Hand auf den Küchentisch“: Der Geltungsbereich der behaupteten Möbelleere ist unklar. Falls nur der Flur gemeint ist, muss die räumliche Begrenzung deutlicher werden.",
+          "„was eine Wand ist, wenn niemand mehr spricht, der sie mit dem Rücken berührt“: Das Geruchsbild lässt sich sinnlich kaum nachvollziehen. Zusammen mit dem unsicheren Licht und dem zurückgebliebenen Herbst entsteht eine Häufung poetischer Zuschreibungen statt präziser Wahrnehmung.",
+          "„von den zwanzig Jahren, in denen sie an diesem Haus vorbeigegangen ist“: Das etabliert regelmäßiges Vorbeigehen, aber nicht eindeutig zwanzig Jahre seit dem letzten Betreten. Auch die verstorbene Mutter wird überhaupt nicht eingeführt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 9,
+        "fehler": [
+          "„der Hahn des Fensters“: Unidiomatische Bauteilbezeichnung; gemeint ist offenbar der Fenstergriff beziehungsweise die Fensterolive.",
+          "„Aber es hielt etwas zurück, das war deutlich, und es würde es nicht ewig zurückhalten.“ Der Schluss kündigt das Geheimnis ausdrücklich an, statt es aus der Wahrnehmung entstehen zu lassen. Die Hauspersonifikation kippt hier in ein konventionelles Spannungsversprechen.",
+          "„Benennen hätte ihn zerstört.“ Die pauschale Erklärung behauptet eine besondere Empfindung, ohne sie erfahrbar zu machen; zudem wurden die Geruchsbestandteile unmittelbar zuvor bereits recht genau benannt.",
+          "„als könnte sie ihr etwas sagen“ und „leicht wie nichts“: Die Apfelschale ist ein brauchbares konkretes Detail, wird aber durch unbestimmte Bedeutungszuschreibung und eine wenig präzise Gewichtsangabe abgeschwächt.",
+          "„Bis zuletzt, offenbar.“ Der Tod der Mutter wird nahegelegt, jedoch nicht eindeutig etabliert. Die übrigen zentralen Vorgaben, einschließlich der zwanzig Jahre und des ungefähren Umfangs, sind erfüllt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„ein Haus, das seit Monaten niemand betreten hatte. Oder seit Jahren, wenn man die Abwesenheit genauer nahm.“ Die Formulierung verwischt tatsächlichen Leerstand und emotionale Abwesenheit. Die geforderten zwanzig Jahre seit Claras letztem Aufenthalt werden im gesamten Text nicht etabliert; auch der Tod der Mutter bleibt unausgesprochen.",
+          "„Als Clara das Gartentor aufstieß“ bis „als müsse sie verhindern, dass er ihr entglitt“: Mit rund 390 Wörtern liegt die Szene deutlich über dem Richtwert. Vor allem die ausführliche Annäherung bietet Kürzungspotenzial.",
+          "„als hätte es sich über die Jahre das Sprechen abgewöhnt“, „wie ein vergessenes Tier“, „wie ein Fundstück aus einem anderen Leben“, „weiß wie Knochen“: Die hohe Vergleichsdichte überformt die Gegenstände; mehrere Bilder stammen aus vertrautem melancholischem beziehungsweise unheimlichem Erzählrepertoire.",
+          "„Der Klang war dumpf und endgültig.“ „Endgültig“ deutet den Türschluss für die Leserin aus und setzt ein konventionelles Bedeutungssignal.",
+          "„ohne zu wissen warum, schloss sie die Finger darum“: Die Bedeutung des Knopfes wird durch eine unspezifische, rätselhafte Reaktion markiert. Ein individueller körperlicher oder erinnerungsbezogener Impuls wäre überzeugender."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2335,
+    "out": 1729,
+    "thinking": 512
+  },
+  "costUsd": 0.02196
+}

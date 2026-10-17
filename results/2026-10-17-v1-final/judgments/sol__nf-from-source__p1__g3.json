@@ -1,0 +1,79 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Wer mehr Geld in Anteilen einbringt, erhält also nicht mehr Stimmen.“ – Verständlich, aber redundant: Die beiden vorangehenden Sätze haben die Unabhängigkeit des Stimmrechts von der finanziellen Beteiligung bereits erklärt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„ist auch die zukünftige Erneuerung der Fähre bereits abgesichert“ – Macht aus einem Finanzierungsziel eine bestehende Sicherheit. Die Quelle sagt lediglich, dass die Rücklage bis 2031 ausreichen soll.",
+          "„Auf diese Weise lässt sich der laufende Betrieb dauerhaft sichern und technisch anpassen.“ – Die dauerhafte Sicherung des laufenden Betriebs ist nicht belegt; die Rücklage ist laut Quelle für die Erneuerung bestimmt.",
+          "„aus beiden Elbufern“ – Unidiomatische Ortsangabe; richtig wäre hier „von beiden Elbufern“.",
+          "„Die grundlegende Funktionsweise der Genossenschaft zeigt sich heute im Zusammenwirken ihrer mittlerweile 312 Mitglieder.“ – Abstrakter Ankündigungssatz mit wenig Erklärungswert. Wie die Mitglieder zusammenwirken, erläutern erst die folgenden Sätze."
+        ],
+        "unsupported": [
+          "„Auf diese Weise lässt sich der laufende Betrieb dauerhaft sichern“ – Eine dauerhafte Betriebssicherheit lässt sich aus den Quellenangaben nicht ableiten.",
+          "„ist auch die zukünftige Erneuerung der Fähre bereits abgesichert“ – Belegt ist nur das Ziel einer bis 2031 ausreichenden Rücklage für einen Elektroantrieb, keine bereits gesicherte Finanzierung."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Mitglied wird, wer mindestens einen Geschäftsanteil von 250 Euro hält.“ – Verwechselt eine Voraussetzung beziehungsweise Eigenschaft der Mitgliedschaft mit einer hinreichenden Aufnahmebedingung. Die Quelle beschreibt nicht, wie man Mitglied wird.",
+          "„Die Fähre überquert an dieser Stelle eine 212 Meter breite Elbe“ – Unnatürliche Formulierung: Nicht eine beliebige Elbe ist gemeint, sondern die Elbe, die an dieser Stelle 212 Meter breit ist.",
+          "„Geldanteil und Stimmrecht sind also nicht gleichzusetzen.“ – Begrifflich unscharfe Erläuterung. Entscheidend ist, dass die Anzahl der Anteile das Stimmgewicht nicht verändert, nicht die ohnehin offensichtliche Verschiedenheit von Geldanteil und Stimmrecht."
+        ],
+        "unsupported": [
+          "„Mitglied wird, wer mindestens einen Geschäftsanteil von 250 Euro hält.“ – Die Quelle nennt den Mindestanteil bestehender Mitglieder, aber keine hinreichende Bedingung für den Erwerb der Mitgliedschaft."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2251,
+    "out": 1089,
+    "thinking": 353
+  },
+  "costUsd": 0.015392
+}

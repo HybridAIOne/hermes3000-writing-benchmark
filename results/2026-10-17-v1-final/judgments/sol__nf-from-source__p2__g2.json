@@ -1,0 +1,136 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„ist auch die zukünftige Erneuerung der Fähre bereits abgesichert“: Macht aus dem angestrebten Stand der Rücklage bis 2031 eine bereits bestehende Finanzierungssicherheit.",
+          "„Auf diese Weise lässt sich der laufende Betrieb dauerhaft sichern“: Die Quelle belegt keine dauerhafte Betriebssicherheit; die Rücklage dient der Erneuerung.",
+          "„aus beiden Elbufern“: Unidiomatische Ortsangabe, auch wenn sie aus dem Quellmaterial übernommen wurde. Richtig wäre „von beiden Elbufern“.",
+          "„Wie eine Genossenschaft funktioniert und warum sie die passende Rechtsform für den Betrieb einer Fähre ist, lässt sich am Beispiel […] nachvollziehen“: Der Einstieg kündigt die Erklärung umständlich an, statt unmittelbar einzusteigen.",
+          "„Die grundlegende Funktionsweise […] zeigt sich heute im Zusammenwirken“: Abstrakte, wenig anschauliche Formulierung; das behauptete Zusammenwirken wird erst anschließend konkretisiert."
+        ],
+        "unsupported": [
+          "„Auf diese Weise lässt sich der laufende Betrieb dauerhaft sichern“: Eine dauerhafte Sicherung des Betriebs ist nicht belegt.",
+          "„ist auch die zukünftige Erneuerung der Fähre bereits abgesichert“: Belegt ist lediglich, dass die Rücklage bis 2031 für einen Elektroantrieb ausreichen soll."
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Sie ist auf gemeinsame Kontrolle ausgelegt, nicht auf die Auszahlung von Gewinnen an Einzelne“: Verallgemeinert die konkrete Ausschüttungspraxis dieser Fährgenossenschaft zu einem vermeintlichen Merkmal der Rechtsform. Genossenschaften können Gewinne ausschütten.",
+          "„Auch mit den Überschüssen wird anders verfahren als in einem gewöhnlichen Unternehmen“: Der pauschale Gegensatz ist sachlich unscharf. Auch andere Unternehmen können Überschüsse einbehalten.",
+          "„aus beiden Elbufern“: Unidiomatisch; richtig wäre „von beiden Elbufern“.",
+          "„Die Fähre ist also eine Einrichtung, die vielen Menschen dient und deren Betrieb auf Dauer gesichert sein muss“: Der erste Teil wiederholt die Beförderungszahl abstrakt; der zweite formuliert eine Forderung statt einer Erklärung.",
+          "„Eine Fähre, die über Jahrzehnte fahren soll, braucht genau diese Mischung aus gemeinsamer Entscheidung und langfristigem Denken“: Gefälliger, aber pauschaler Schlusssatz; erklärt nicht genauer, warum gerade diese Rechtsform passt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Finanzielle Beteiligung und Mitbestimmung sind nicht nach demselben Maßstab verteilt“: Für ein Publikum ohne Vorwissen unnötig abstrakte Wiederholung der unmittelbar zuvor verständlich erklärten Stimmregel."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„was sich für einen einzelnen Eigentümer kaum lohnen würde“: Erfindet eine wirtschaftliche Bewertung, für die das Quellmaterial keine Grundlage bietet.",
+          "„Ihr Zweck ist nicht, Gewinne zu erzielen“: Verwechselt Gewinnerzielung mit Gewinnausschüttung. Die Quelle beschreibt ausdrücklich den Umgang mit Überschüssen, nicht den Verzicht darauf.",
+          "„Als der Landkreis 1953 den Betrieb […] einstellte“: Überträgt das belegte Gründungsjahr auf die vorherige Betriebseinstellung.",
+          "„Heute gehört die Fähre auf diese Weise 312 Mitgliedern“: Setzt Mitgliedschaft und unmittelbares Eigentum an der Fähre gleich; diese Eigentumsbehauptung ist nicht belegt.",
+          "„setzt die Fähre jährlich über die hier 212 Meter breite Elbe über“: Die doppelte Verwendung von „über“ ist sprachlich schwerfällig und leicht vermeidbar."
+        ],
+        "unsupported": [
+          "„an einer kleinen Fähre“: Die Größe der Fähre ist nicht angegeben.",
+          "„Als der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte“: Für die Betriebseinstellung nennt die Quelle kein Jahr.",
+          "„Heute gehört die Fähre auf diese Weise 312 Mitgliedern“: Belegt sind 312 Mitglieder und ihre Anteile, nicht deren unmittelbares Eigentum an der Fähre.",
+          "„Ihr Zweck ist nicht, Gewinne zu erzielen“: Diese Zweckbestimmung steht nicht in der Quelle; belegt ist der Verzicht auf Ausschüttungen.",
+          "„was sich für einen einzelnen Eigentümer kaum lohnen würde“: Zur Rentabilität für einen einzelnen Eigentümer enthält die Quelle keine Angaben."
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 5,
+        "fehler": [
+          "„Eine Fähre, die ihren Nutzern gehört“ und „Wer auf die Fähre angewiesen war, wurde damit zum Mitbesitzer“: Setzt Nutzer beziehungsweise auf die Fähre angewiesene Personen mit Mitgliedern gleich. Diese Gleichsetzung ist nicht belegt.",
+          "„Als der Landkreis 1953 den Betrieb […] einstellte, fehlte plötzlich die Verbindung“: Ergänzt sowohl ein unbelegtes Einstellungsjahr als auch eine nicht dokumentierte Unterbrechung der Verbindung.",
+          "„2024 beförderte sie rund 64.000 Personen“: Ordnet die allgemeine jährliche Beförderungszahl ohne Beleg dem Jahr 2024 zu.",
+          "„Die Fähre überquert die 212 Meter breite Elbe in sieben Minuten“: Lässt die sachlich wichtige Einschränkung „bei normalem Wasserstand“ weg.",
+          "„Das Geld bleibt im Betrieb, und die Fähre bleibt erhalten“: Stellt den Erhalt als gesicherte Folge dar. Die Rücklagenbildung allein belegt diese Sicherheit nicht."
+        ],
+        "unsupported": [
+          "„Eine Fähre, die ihren Nutzern gehört“: Dass Nutzer und Mitglieder identisch sind, ist nicht belegt.",
+          "„Als der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte“: Das Jahr der Betriebseinstellung wird nicht genannt.",
+          "„fehlte plötzlich die Verbindung zwischen beiden Elbufern“: Eine tatsächliche Unterbrechung der Verbindung ist nicht dokumentiert.",
+          "„Wer auf die Fähre angewiesen war, wurde damit zum Mitbesitzer“: Die Quelle behauptet weder, dass alle angewiesenen Personen beitraten, noch ein unmittelbares Miteigentum an der Fähre.",
+          "„Die Einstiegshürde ist also überschaubar“: Die Bewertung der finanziellen Zugangshürde ist durch die bloße Angabe des Anteilspreises nicht belegt.",
+          "„die Fähre bleibt erhalten“: Ein gesicherter zukünftiger Erhalt lässt sich aus der Quelle nicht ableiten.",
+          "„Die Fähre überquert die 212 Meter breite Elbe in sieben Minuten“: Ohne die Einschränkung auf normalen Wasserstand geht die Aussage über die Quelle hinaus.",
+          "„2024 beförderte sie rund 64.000 Personen“: Die Beförderungszahl wird nur als jährliche Größenordnung genannt.",
+          "„Die Menschen, die sie brauchen, betreiben sie gemeinsam und entscheiden gleichberechtigt“: Belegt sind Betrieb und Stimmrecht der Mitglieder, nicht die Mitgliedschaft aller Menschen, die die Fähre benötigen."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "A",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3159,
+    "out": 2640,
+    "thinking": 856
+  },
+  "costUsd": 0.032718
+}

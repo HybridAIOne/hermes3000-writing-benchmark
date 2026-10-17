@@ -1,0 +1,120 @@
+{
+  "task": "lit-dialogue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "D": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "E": {
+      "model": "gemma-4-31b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Keine Sprecherangaben: Wer „Du sitzt noch immer mit dem Rücken zur Wand.“ sagt, muss die Leserin erst erschließen; die Zuordnung bleibt stellenweise unsicher.",
+          "Mit gut 300 Wörtern deutlich über den geforderten etwa 250.",
+          "„[Martin zieht die Hand zurück.]“ – die Geste ist nicht vorbereitet; vorher greift er nach nichts.",
+          "„Ich wollte es nur gleich sagen.“ – leicht erklärend, schwächt die sonst konsequente Untertextführung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Manche Dinge sehen von außen gut aus und innen ist alles verfault.“ – Die Metapher ist zu deutlich; der Konflikt wird fast ausgesprochen.",
+          "„(er lacht kurz, ohne Humor)“ – abgegriffene Regieformel.",
+          "„Der Garten damals, bei deinem Fünfzigsten—“ – rührt den Konflikt direkt an und schwächt die Vorgabe „unausgesprochen“.",
+          "„Dann zieht er Thomas' Glas zu sich herüber und lässt es stehen.“ – Die Schlussgeste ist unklar und wirkt bemüht.",
+          "Die Echo-Wiederholungen („Vorbeigefahren.“, „In der Gegend.“, „Das stimmt ja auch.“, „Das nächste Mal.“) werden zur Masche."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 5,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "„Die Hand bleibt am Stuhllehnen hängen.“ – Grammatikfehler, korrekt wäre „an der Stuhllehne“.",
+          "„Er rührt in seine Tasse.“ – Kasusfehler, korrekt wäre „in seiner Tasse“.",
+          "„MARCUS steht auf, als THOMAS die Tür des Cafés öffnet. Drei Sekunden starrt er auf seine Tasse“ – Die Bewegungslogik ist unklar, zudem setzt sich Marcus nie wieder hin.",
+          "„Er lässt die Jacke auf dem Schoß liegen. Nicht ab.“ – Der Satz ist verunglückt und ergibt keinen Sinn.",
+          "„Die Leute hier sind nett.“ / „Welche Leute?“ – Der Wortwechsel bleibt rätselhaft statt spannungsvoll; auch „Du hast mir die Nummer von jemandem gegeben“ ist unverständlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Miro: (setzt sich) Manches ändert sich.“ … „Miro: (setzt sich langsam) Soll ich gehen?“ – Logikbruch: Miro setzt sich zweimal.",
+          "„Auf das, was wir nicht sagen.“ – benennt den unausgesprochenen Konflikt explizit und hebelt damit die Aufgabe aus.",
+          "„Dein Haar ist kürzer.“ / „Deine Ausreden auch.“ – Schlagfertigkeits-Pointe statt Untertext, wirkt wie ein Sketch.",
+          "„Seit ich aufgehört habe, mir Vorwürfe zu machen.“ / „Ich habe damit angefangen.“ – spricht die Schuldfrage offen aus.",
+          "Das durchgehende Retourkutschen-Ping-Pong wird zur Wiederholungsmasche („Und trotzdem.“ / „Und trotzdem.“)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 3,
+        "fehler": [
+          "„Du wusstest genau, dass du es konntest. Du wolltest es nur nicht.“ – Der Konflikt wird offen ausgesprochen, was der Kernvorgabe widerspricht.",
+          "„Ich weiß. Ich habe die Nachrichten gesehen.“ vs. „Du hast dich nicht gemeldet.“ – Logikbruch.",
+          "„Der Kaffee hier ist immer noch der Beste in der Stadt.“ – Rechtschreibfehler, korrekt wäre „der beste“.",
+          "„(lacht kurz und freudlos)“ – Klischee-Regieanweisung.",
+          "„Manche Dinge ändern sich eben nie.“ / „Vielleicht ist das ja das Problem.“ / „Oder die einzige Chance.“ – Phrasen statt Untertext; mit ca. 210 Wörtern zudem eher zu kurz."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "D",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 5786,
+    "out": 2850,
+    "thinking": 1110
+  },
+  "costUsd": 0.080144
+}

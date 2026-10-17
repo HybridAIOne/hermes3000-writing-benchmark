@@ -1,0 +1,109 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Hier ist die Gliederung für das Sachbuch **„Führen ohne Titel“**:“ (Unnötiger Einleitungs-Meta-Satz vor dem eigentlichen Text)",
+          "„Dieses Kapitel zeigt dir, warum du nicht mehr der beste Sachbearbeiter sein darfst“ (Verengung der Zielgruppe auf Büroberufe; im Mittelstand sind viele Teamleiter in Handwerk oder Produktion tätig)",
+          "„Kapitel 7: Verschiedene Köpfe unter einen Hut bringen“ (Fällt im Aufbau aus der Rolle: Team-Kennenlernen und Akzeptanz gehören an den Anfang und überschneiden sich hier mit Kapitel 1 und 4)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Du besprichst mit deiner Führungskraft“ (Hölzerner Konzern- und HR-Jargon, unpassend für den Mittelstand)",
+          "„Lerne die Menschen im Team kennen“ (Widersprüchlich für jemanden, der aus dem eigenen Team in die Rolle gerutscht ist)",
+          "„8. Schaffe verlässliche Abläufe im Team“ (Chronologischer Bruch im Aufbau: Grundlegende Besprechungsroutinen erst nach schwierigen Konfliktgesprächen einzuführen, ergibt keinen Sinn)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„und hältst nach, ohne jeden Handgriff zu kontrollieren.“ (Idiomatik: „nachhalten“ ist unschönes Berater- und Behördendeutsch, außerdem hier falsch ohne direktes Objekt verwendet)",
+          "„Du klärst mit deiner Führungskraft“ (Steriler HR-Begriff statt mittelstandsnaher Sprache wie „Chef“ oder „Geschäftsführer“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„*Zur Abgrenzung:* Kapitel 6 behandelt die laufende, alltägliche Rückmeldung. [...]“ (Ungefragter Meta-Kommentar am Ende; wenn die Abgrenzung der Kapitel einer extra Erklärung bedarf, ist die Gliederung selbst nicht trennscharf genug)",
+          "„Kapitel 1: Der erste Montag“ / „Kapitel 2: Gestern Kollege, heute Chef“ (Redundanz im Aufbau: Beide Kapitel behandeln das Ankommen in den ersten Tagen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Abgeben statt selbermachen“ (Rechtschreibung nach Duden: „selber machen“ wird getrennt geschrieben)",
+          "„jede Person [...], mit ihren Stärken, Erwartungen und der Frage, was sie von dir brauchen.“ (Grammatik/Kongruenz: „jede Person“ ist Singular, das Verb „brauchen“ steht falsch im Plural)",
+          "„und gehst danach sauber damit um.“ (Stilistisch schwache, vage Phrase am Satzende)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "A",
+      "E",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3303,
+    "out": 924,
+    "thinking": 0
+  },
+  "costUsd": 0.015846
+}

@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "„Der Motor läuft\", sagte Ilse.\n\n„Er stottert.\" Jonas schob den Rollkoffer über die Lücke zwischen Fähre und Ufer. Die Räder ratterten auf den Bohlen, dann stand das Ding still, als hätte es hier nichts verloren. „Ich hab's vom Parkplatz gehört.\"\n\n„Man hört viel, wenn man zuhört.\"\n\nSie sah ihn nicht an. Sie sah, dass er einen neuen Mantel trug, grau, mit so einem Kragen, der im Wendland niemandem nützte, und dass er die Schuhe geputzt hatte, bevor er sich auf die schlammige Straße hinterm Deich gemacht hatte. Oder jemand hatte sie geputzt.\n\n„Hättest angerufen\", sagte sie.\n\n„Du gehst nicht ran.\"\n\n„Wenn ich fahre, geh ich nicht ran.\"\n\n„Du gehst auch nicht ran, wenn du nicht fährst.\"\n\nIlse löste die Leine vom Poller und hängte sie über den Haken an der Reling. Unter der Fähre schob sich das Wasser, braun und geduldig, und trug ein paar Blätter mit, die längst keine mehr waren. Am gegenüberliegenden Ufer stand niemand. Um diese Jahreszeit stand da selten jemand, und trotzdem fuhr sie, sieben Uhr bis sieben Uhr, weil es in der Konzession stand und weil Henning es immer so gemacht hatte.\n\n„Ich helf dir rüber\", sagte Jonas.\n\n„Ich fahr nicht rüber. Es steht keiner.\"\n\n„Dann helf ich dir eben mit dem Koffer.\"\n\nEr hob ihn an, bevor sie etwas sagen konnte, und trug ihn die Böschung hinauf, den Mantel über dem Arm, die Schuhe schon nicht mehr geputzt. Ilse ging hinterher. Sie hätte sagen können, dass das Haus verschlossen war, dass sie noch drei Stunden Dienst hatte, dass er hätte anrufen sollen. Stattdessen blieb sie stehen, wo der Weg sich teilte, und sah zu, wie er voranschritt, als kenne er den Weg noch auswendig.\n\nTat er vielleicht auch.\n\nAm Schuppen setzte er den Koffer ab und drehte sich um. „Wie viele fährst du am Tag?\"\n\n„Unterschiedlich.\"\n\n„Ilse.\"\n\nDas Ilse hatte er von Henning. Diesen Ton, der klang, als wäre Geduld eine Leistung, die jemand erbringen musste. Sie ging an ihm vorbei zur Tür und schloss auf. Die Flur roch nach dem nassen Hund, den sie nicht mehr hatte, und nach Kohle.\n\n„Kaffee\", sagte sie. „Dann musst du wieder runter. Um vier kommt der Lütjens mit dem Anhänger.\"\n\n„Lütjens lebt noch?\"\n\n„Lütjens lebt.\"\n\nJonas stellte den Koffer in die Ecke, wo früher die Stiefel gestanden hatten, und blieb in der Tür stehen, als warte er auf eine Einladung, die er kennen müsste. Ilse nahm den Kessel vom Herd, trug ihn zum Waschbecken und ließ Wasser ein. Dann stellte sie zwei Tassen auf den Tisch. Nicht die guten. Aber zwei.",
+  "usage": {
+    "in": 470,
+    "out": 859,
+    "thinking": 50
+  },
+  "costUsd": 0.010397459999999999,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Wafer",
+  "latencyMs": 14123,
+  "meta": [],
+  "at": "2026-10-17T17:22:22.581Z"
+}

@@ -1,0 +1,119 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Du wägest ab“ – falsche Verbform, korrekt: „Du wägst ab“",
+          "Kapitel 8 „Schaffe einen verlässlichen Arbeitsrhythmus“ steht nach Konfliktgesprächen und Entscheidungen; dieses Grundlagenthema gehört weiter nach vorn, der Aufbau trägt hier nicht",
+          "„Mach klar, was wichtig ist“ (Prioritäten) und „klare Absprachen, damit Informationen fließen“ (Kap. 8) überschneiden sich",
+          "„Du findest den Übergang vom Kollegen zum Teamleiter“ – unidiomatisch, gemeint ist eher „Du gestaltest den Übergang“",
+          "Kapitel 3 „Vertrauen entsteht im Alltag“ bleibt allgemein: „verlässlich handelst, aufmerksam zuhörst und dein Team fair behandelst“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "„obwohl du formal keine Anweisungen geben darfst“ – Fehldeutung der Zielgruppe; Teamleiter haben Weisungsbefugnis, „ohne Titel“ meint die fehlende Ausbildung",
+          "Kapitel 9 „wie du nach Feierabend wirklich abschaltest und wie dein nächster Schritt aussieht“ – das Buch endet nicht bei der eigenen Haltung, wie vorgegeben",
+          "„vom geschätzten Kollegen zum Respektierten“ – schiefe Formulierung, das Bezugswort fehlt",
+          "Kein schlüssiger Aufbau: Die Klärung mit dem Chef kommt erst in Kapitel 6, Delegieren schon in Kapitel 2",
+          "„damit niemand innerlich kündigt“ und „Hier ist der Entwurf“ – Schlagwort bzw. Füllsatz"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die Kapitel 6 bis 8 behandeln Kommunikation, von der alltäglichen Rückmeldung bis zum Konflikt“ – Kapitel 8 handelt vom Stand zwischen Leitung und Team, nicht vom Konflikt; Widerspruch zur eigenen Gliederung",
+          "Kapitelbeschreibungen sind keine vollständigen Sätze, sondern Fragmente („Wie du …“, „Was sich …“) – verlangt war ein Satz",
+          "„vorbereitest, führst und nachhältst“ – „nachhalten“ ist Büro-Jargon",
+          "Leichte Überschneidung zwischen Kapitel 9 „Dich selbst nicht verlieren“ und Kapitel 10 „Deine eigene Art zu führen“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "Kapitel 4 „Vom Kollegen zum Vorgesetzten“ überschneidet sich mit Kapitel 1 „Der erste Tag“ und steht im Aufbau zu spät",
+          "Kapitel 9 mischt Haltung mit Belastung: „wie du mit Fehlern, Druck und eigenen Zweifeln umgehst“",
+          "Kapitel 1: „…bedeutet, und hier erfährst du…“ – überladener Satz, der zwei Gedanken zusammenzwängt",
+          "„wo du Grenzen nach oben ziehen musst“ – unidiomatisch, besser: „wo du Grenzen nach oben setzen musst“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 6,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„wie du die ersten Tage und Wochen übersteht“ – falsche Verbform, korrekt: „überstehst“",
+          "„was deine Geschäftsführung, dein Team und du selbst von dir erwartest“ – Kongruenzfehler, korrekt: „erwarten“",
+          "„dem Gefühl um, nie genug zu sein“ – unidiomatisch, korrekt: „nie gut genug zu sein“",
+          "„Du fasst zusammen, was du aus den Kapiteln mitnimmst“ – Meta-Formulierung statt eigenem Inhalt",
+          "„hältst Meetings“ neben „Besprechungen“ – uneinheitlich und Anglizismus"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "A",
+      "E",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 6217,
+    "out": 2883,
+    "thinking": 1240
+  },
+  "costUsd": 0.082528
+}

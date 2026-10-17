@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "Der Schlüssel ließ sich nicht drehen. Sie stand eine Weile auf der Schwelle, den Koffer neben sich, und versuchte es noch einmal, langsamer, so wie es früher verlangt worden war: erst leicht anheben, dann nach rechts. Das Schloss gab nach mit einem Geräusch, das sie vergessen hatte und sofort wiedererkannte.\n\nDrinnen roch es nach kaltem Staub und nach etwas Süßlichem, das sie nicht gleich benennen konnte. Die Luft stand. Durch den Flur fiel graues Licht vom Oberfenster über der Treppe, und auf dem Garderobenhaken hing der Mantel der Mutter, der dunkelgrüne mit dem abgewetzten Kragen, als würde gleich jemand danach greifen. Sie rührte ihn nicht an.\n\nIm Bad stand das Glas mit der Handcreme auf dem Waschbecken, Rosenglyzerin, der Deckel mit einem Film aus Staub überzogen. Sie drehte ihn ab. Er klebte, dann gab er nach. Die Creme war unberührt, bis zur Schulter des Glases gefüllt, die Oberfläche glatt, als hätte sie nie jemand mit den Fingern aufgerissen. Ihre Mutter hatte jeden Abend davon genommen, jeden Abend, zwanzig Jahre lang, hatte es im Flur nach Rosen gerochen, wenn sie die Treppe heraufkam. Sie tauchte den Zeigefinger hinein. Die Creme war kühl und fest und roch so genau nach den Händen ihrer Mutter, dass sie sich auf den Wannenrand setzen musste.\n\nDraußen fuhr ein Traktor vorbei, dann war es wieder still. Irgendwo tropfte es, gleichmäßig, aus einer Leitung, die niemand mehr abgestellt hatte.\n\nSie wischte den Finger an ihrer Hose ab und sah zur Tür, durch die man den Flur sehen konnte, den Mantel, die Treppe, das Licht. Zwanzig Jahre. Sie hatte gedacht, die Zeit würde sich wie eine Strecke anfühlen, die man zurücklegt. Stattdessen stand alles noch an seinem Platz, als hätte es nur auf sie gewartet, und die einzige Veränderung war die, die sie selbst mitgebracht hatte.",
+  "usage": {
+    "in": 149,
+    "out": 2208,
+    "thinking": 1345
+  },
+  "costUsd": 0.0011189000000000001,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 12636,
+  "meta": [],
+  "at": "2026-10-17T17:48:52.332Z"
+}

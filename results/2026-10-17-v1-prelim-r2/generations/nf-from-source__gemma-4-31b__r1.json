@@ -1,0 +1,18 @@
+{
+  "task": "nf-from-source",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "text": "Um zu verstehen, wie eine Genossenschaft funktioniert, lohnt ein Blick auf die Fährgenossenschaft Hitzacker eG. Diese wurde 1953 von 41 Landwirten und Händlern beider Elbufer gegründet, als der Landkreis den Betrieb der Seilfähre eingestellt hatte. Das Ziel war es, die Überquerung der 212 Meter breiten Elbe eigenständig zu sichern.\n\nDas Prinzip einer Genossenschaft basiert auf der Gemeinschaft. Heute gehören der Fähre 312 Mitglieder an. Jeder hält mindestens einen Anteil im Wert von 250 Euro. Ein entscheidender Aspekt der demokratischen Gestaltung ist, dass jedes Mitglied in der Generalversammlung eine Stimme hat – und zwar unabhängig davon, wie viele Anteile die Person besitzt.\n\nWarum ist diese Rechtsform für die Fähre so passend? Eine Genossenschaft dient primär der gemeinsamen Selbsthilfe und nicht der Gewinnmaximierung. Das zeigt sich in Hitzacker deutlich bei der Verwendung der Überschüsse: Diese werden nicht an die Mitglieder ausgeschüttet, sondern fließen in eine Rücklage für die Erneuerung der Fähre. So wird sichergestellt, dass die technische Ausstattung – heute ein 85-kW-Dieselmotor, früher bis 1978 lediglich die Strömung – zukunftsfähig bleibt. Die Rücklage soll bis 2031 ausreichen, um einen Elektroantrieb einzubauen.\n\nFinanziell trägt sich der Betrieb durch eine Mischung aus Erlösen und Unterstützung. Im Jahr 2024 betrug der Umsatz 186.000 Euro, wovon 71 Prozent aus Fahrkartenverkäufen und 29 Prozent aus einem Gemeindezuschuss stammten. Die soziale Bedeutung der Genossenschaft zeigt sich in den rund 64.000 Personen, die jährlich befördert werden, wobei im Sommer vor allem Radfahrer des Elberadwegs die siebenminütige Überfahrt nutzen. Die Genossenschaft ermöglicht es so, eine lebenswichtige Infrastruktur durch die gemeinschaftliche Kraft ihrer Mitglieder und der Gemeinde dauerhaft zu erhalten.",
+  "usage": {
+    "in": 439,
+    "out": 449,
+    "thinking": 0
+  },
+  "costUsd": 0.00026740000000000005,
+  "finish": "stop",
+  "reportedModel": "google/gemma-4-31b-it",
+  "upstream": "DeepInfra",
+  "latencyMs": 15007,
+  "meta": [],
+  "at": "2026-10-17T17:24:09.965Z"
+}

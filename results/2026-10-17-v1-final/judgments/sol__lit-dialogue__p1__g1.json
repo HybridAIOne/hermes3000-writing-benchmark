@@ -1,0 +1,116 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„rührt in seinem leeren Tee“: Semantisch misslungen und als Handlung nicht ausführbar. Leer sein kann die Tasse, nicht der Tee.",
+          "„Ich werfe Dinge nicht einfach weg, nur weil sie unbequem werden“ / „Und du machst lieber tabula rasa“: Die gegenseitigen Vorwürfe werden ausformuliert. Dadurch verliert die Szene den geforderten Subtext, obwohl der konkrete Streitanlass ungenannt bleibt.",
+          "„Man gewöhnt sich ja an den bitteren Geschmack“: Die symbolische Bedeutung des Getränks wird demonstrativ ausgesprochen; die Bitterkeitsmetapher ist abgegriffen.",
+          "„Ja. Mit Mantel. Auf dem Sprung. Wie immer, wenn es ernst wird.“: Der Dialog erklärt die zuvor bereits verständlich gezeigte Mantelgeste und nimmt ihr damit Wirkung.",
+          "„Welcher von den vielen?“: Erwartbare Schlussverletzung statt einer individuellen Wendung. Insgesamt liegt der Text zudem deutlich über dem Richtwert von 250 Wörtern."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ich hab’s nicht so gemeint. Damals. Zumindest nicht alles.“: Der frühere Streit wird unmittelbar zum Gesprächsthema. Sein Inhalt bleibt zwar offen, die Spannung entsteht hier aber weniger durch Unausgesprochenes als durch eine ausdrücklich eingeschränkte Entschuldigung.",
+          "„Früher war vieles anders.“: Austauschbare Formulierung, die Vergangenheit behauptet, ohne dieser Freundschaft etwas Eigenes zu geben.",
+          "„Du siehst gut aus.“ / „Du lügst immer noch schlecht.“: Geläufiger Dialogbaustein; die Vertrautheit wird mit einer fertigen Pointe markiert.",
+          "„rührt in seinem Kaffee, der längst umgerührt ist“: Umständliche und tautologische Regieanweisung. Das nervöse Weiterrühren ließe sich genauer und knapper zeigen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Manche Dinge ändern sich nicht.“ / „Andere schon.“: Abgegriffenes Gegensatzpaar; hier sprechen eher die Anforderungen der Szene als zwei unverwechselbare Menschen.",
+          "„Ein Foto fällt heraus. Beide sehen es an. Keiner hebt es auf.“: Ein vertrautes dramaturgisches Hilfsmittel macht die gemeinsame Vergangenheit sichtbar. Funktional, aber auffällig arrangiert.",
+          "„Das Ende ist das Beste.“ / „Man muss erst mal hinkommen.“: Die zweite Bedeutung ist sehr sauber zugespitzt; stellenweise wirkt der Dialog deshalb geschrieben statt beiläufig gesprochen.",
+          "„Wiedersehen“: Die zusätzliche Überschrift entspricht nicht ganz der strikten Vorgabe, ausschließlich Dialog und knappe Regieanweisungen zu liefern."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Die Füße kennen ihn noch.“: Eine geläufige poetische Formel, die gegenüber den sonst präzisen Alltagsäußerungen etwas gesetzt wirkt.",
+          "„Der Kaffee ist noch heiß.“ / „Du musst nicht warten, bis er kalt ist.“: Auch der Schluss erhält eine erkennbare zweite Bedeutung. Nach den zahlreichen doppeldeutigen Alltagsbemerkungen wird das Verfahren hier etwas vorhersehbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Sie rühren beide in ihren Tassen“ / „Du bestellst noch immer schwarz.“: Leon ist gerade erst angekommen; Bestellung und Servieren fehlen. Der Übergang zu zwei bereits gefüllten Tassen ist szenisch unsauber.",
+          "„Wir sind trotzdem angekommen.“ / „Spät.“ / „Aber zusammen.“: Die gemeinsame Busgeschichte wird zur deutlich ausgestellten Beziehungsmetapher. Das klingt versöhnlich zugerichtet und streift den Kitsch.",
+          "„Ich wusste nicht, ob du kommst.“ / „Ich wusste nicht, ob du fragst.“: Die spiegelbildliche Konstruktion ist effektvoll, aber zusammen mit den weiteren pointierten Antwortpaaren entsteht eine erkennbare Dialogmasche.",
+          "„Sie fragt manchmal nach dir.“ / „Dass du viel zu tun hast.“: Konventioneller Umweg über eine Angehörige; die Szene gewinnt dadurch wenig individuelle Geschichte.",
+          "„Ich bleibe.“ / „Das sehe ich.“: Der Schluss benennt die Annäherung zusätzlich, statt der bereits gezeigten Situation zu vertrauen. Die ursprüngliche Spannung wird dabei recht glatt aufgelöst."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "C",
+      "B",
+      "E",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2828,
+    "out": 1973,
+    "thinking": 772
+  },
+  "costUsd": 0.025386
+}

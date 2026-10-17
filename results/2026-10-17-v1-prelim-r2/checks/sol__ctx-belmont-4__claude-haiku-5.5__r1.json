@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-5"
+    ],
+    "evidence": [
+      "Und sie denkt, mit einer Erleichterung, die sie beschämt, dass die Gefahr nicht von innen kommt. Sie kommt von draußen, über den Pass, in einem Lederrmantel, mit einem Buch in der Brusttasche."
+    ]
+  },
+  "usage": {
+    "in": 1666,
+    "out": 168,
+    "thinking": 90
+  },
+  "costUsd": 0.005012
+}

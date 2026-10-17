@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "Du sitzt an deinem Schreibtisch, der Bildschirm ist schon dunkel, und du starrst auf die Uhr am anderen Ende des Raums. Gleich klopft es, und dann kommt Sabine herein. Sie hat gestern wieder eine Lieferung falsch adressiert, zum dritten Mal in zwei Monaten. Die Kunden haben sich beschwert, der Lagerleiter hat dir eine kurze Mail geschickt, und zwei Kollegen aus dem Team haben dir am Flur gesagt, dass sie es nicht mehr mitmachen wollen. Du hast die Nachricht gelesen und gleich wieder zugemacht. Jetzt musst du mit ihr reden. Nicht in einer großen Runde, nicht mit irgendwelchen Formularen, einfach nur du und sie. Du weißt schon, wie es laufen wird: Sie wird erst abwimmeln, dann sagen, dass alle anderen auch Fehler machen, und am Ende vielleicht sogar weinen. Du hast das schon öfter erlebt. Trotzdem sitzt du da und überlegst, wie du anfangen sollst. Ob du direkt auf den Vorfall eingehen oder erst fragen sollst, wie es ihr geht. Ob du ihr sagen sollst, dass das so nicht weitergeht, oder ob du erst mal zuhören musst. Du hast schon versucht, solche Gespräche aufzuschieben, bis es nicht mehr ging. Das hat meistens nur dafür gesorgt, dass sich der Ärger im Team weiter aufgestaut hat. Jetzt ist es wieder so weit. Du stehst auf, gehst zur Tür und machst auf.",
+  "usage": {
+    "in": 351,
+    "out": 1202,
+    "thinking": 884
+  },
+  "costUsd": 0.00344375,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "upstream": "xAI",
+  "latencyMs": 15273,
+  "meta": [],
+  "at": "2026-10-17T17:24:18.733Z"
+}

@@ -1,0 +1,107 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 7,
+        "fehler": [
+          "„Na, auch schon da?\" (falsches schließendes Anführungszeichen, Zollzeichen statt deutschem Abführungszeichen)",
+          "oder nicht sicher bist, ob du überhaupt im Recht bist (verfehlt leicht das Buchthema „Führen ohne Titel“, da es allgemein bleibt, statt das fehlende Mandat zu thematisieren)",
+          "Zwei Absätze statt des geforderten einen Einstiegsabsatzes (208 Wörter)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Es ist kurz nach neun, als du zum dritten Mal in dieser Woche (Zeitlogik bricht im Folgesatz: „Gestern hast du sie stillschweigend ausgebessert, vorgestern auch“ – dann ist das heute das erste Mal an diesem Tag, nicht kurz nach neun schon dreimal)",
+          "Dann kannst du Martin beiseitenehmen und sagen: [...] (greift als Einstiegsabsatz bereits der konkreten Lösung und den Gesprächsleitfäden des Kapitels vor, statt das Kapitel nur zu eröffnen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "Perspektivwechsel in der Mitte von „Du“ zu „Wir“ („Wir drücken uns vor unangenehmen Wahrheiten“) und zurück zu „Du“, stilistisch etwas unruhig, aber im Sachbuch vertretbar"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "Vier Absätze statt des geforderten einen Einstiegsabsatzes (293 Wörter)",
+          "Die meisten Führungskräfte kennen diesen Moment gut. (ignoriert den Buchtitel „Führen ohne Titel“ komplett; das Dilemma der fehlenden disziplinarischen Macht wird nirgends erwähnt)",
+          "Man hat die Information, man hat den Anlass, man hat sogar die Zeit. (unnötiger Wechsel von der geforderten Du-Ansprache ins unpersönliche „man“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Kurz sprechen – Jens\" (falsches schließendes Anführungszeichen, Zollzeichen statt deutschem Abführungszeichen)",
+          "ohne dass sie eskalieren, und ohne dass du dich (überflüssiges Komma vor „und“ bei gleichrangigen Nebensätzen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "E",
+      "B",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2786,
+    "out": 801,
+    "thinking": 0
+  },
+  "costUsd": 0.013582
+}

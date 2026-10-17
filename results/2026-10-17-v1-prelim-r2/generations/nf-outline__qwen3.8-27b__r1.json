@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "# Führen ohne Titel\n\n**Gliederung**\n\n---\n\n**Kapitel 1 – Du machst den Job nicht mehr selbst**\nDer Moment, in dem aus dem besten Fachmann im Team jemand wird, der dafür sorgt, dass die Arbeit erledigt wird – und warum das ein anderer Muskel ist als der, den du bisher trainiert hast.\n\n**Kapitel 2 – Deine Leute haben dich nicht gewählt**\nWie du dir im Alltag Respekt erarbeitest, wenn deine Teammitglieder dich vor drei Monaten noch mit „Du\" auf dem Flur angerempelt haben und im Stillen fragen, was du denn jetzt eigentlich kannst, was sie nicht können.\n\n**Kapitel 3 – Nach oben, ohne Amt**\nWie du deinem Chef klarmachst, was du brauchst und was du nicht mehr allein stemmst, obwohl dir kein „Führungskraft\" auf der Visitenkarte hilft, ein Thema durchzusetzen oder einen Termin in seinem Kalender zu verteidigen.\n\n**Kapitel 4 – Ein Rhythmus, den du dir selbst baust**\nWie du aus dem Mittelstands-„wir reden halt mal kurz durch\" ein funktionierendes wöchentliches Gerüst machst, das den Überblick gibt, ohne dass du jeden Dienstag um vier vor dem Bildschirm sitzt und Protokolle tippst.\n\n**Kapitel 5 – Loslassen, was du am besten kannst**\nWie du der Aufgabe, die dich zum Aufstieg gebracht hat, abgewöhnen kannst, sie noch schnell selbst zu machen, weil du sie „besser und in 20 Minuten\" erledigst – und warum dein Team es spürt, wenn du das nicht tust.\n\n**Kapitel 6 – Das Gespräch, das du nicht noch eine Woche verschieben solltest**\nWie du einen Mitarbeiter ansprichst, der seit drei Wochen die gleichen Fehler macht, zwei Leute aus dem Team, die sich nicht mehr in die Augen sehen, oder deinen Chef, der dir ein Unmögliches zumontiert – vorbereitet, konkret und ohne, dass danach einer die Tür zuschlägt.\n\n**Kapitel 7 – Deine alten Kollegen sitzen jetzt drüben vom Tisch**\nWie du mit dem Gefühl umgehst, auf beiden Seiten der Glaswand zu stehen, wenn dir Leute vertrauen, die du seit vier Jahren in der Mittagspause kritisieren durftest – und was du mit dem einsamen Gefühl machst, dass niemand in der Firma wirklich versteht, was du jetzt durchstehst.\n\n**Kapitel 8 – Was du tust, wenn niemand zuschaut**\nWie du am Ende des ersten Jahres ein paar Sätze formulierst, die sagen, wofür du stehst und was du in deiner Rolle nicht mehr tolerierst – nicht aus einem Handbuch, sondern aus den Situations, die du selbst schon durchlebt hast.\n\n---\n\n*Aufbau in einem Zug:* Das Buch beginnt dort, wo du stehst, als dir die neue Rolle zum ersten Mal bewusst wird (Kap. 1), arbeitet sich über die Außenbeziehung – Team, dann Chef (Kap. 2–3) – hin zur alltäglichen Arbeitsorganisation (Kap. 4–5), trifft auf die härtesten Momente (Kap. 6), wandert dann nach innen zur eigenen Identität (Kap. 7) und schließt mit der Haltung, die du dir selbst gibst, wenn alle Anleitungen aufgebraucht sind (Kap. 8). Kein Kapitel greift ein anderes auf: Vertrauen wird einmal aufgebaut, Struktur einmal eingeführt, schwierige Gespräche einmal durchgespielt.",
+  "usage": {
+    "in": 131,
+    "out": 2421,
+    "thinking": 1666
+  },
+  "costUsd": 0.00535764,
+  "finish": "stop",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "upstream": "Wafer",
+  "latencyMs": 17979,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:25:00.881Z"
+}

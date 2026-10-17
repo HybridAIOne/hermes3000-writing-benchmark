@@ -1,0 +1,109 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„4. Loslassen lernen“ vs. „5. Sag klar, was du willst“ (leichte thematische Überschneidung: Aufgaben ordentlich abgeben setzt klare Ziel- und Erwartungsformulierung voraus)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„abgrenzst“ (Rechtschreibfehler in Kap. 8, korrekt: abgrenzt)",
+          "„Was in deinen ersten Tagen als Teamleiter wirklich zählt, und warum...“ (überflüssiges Komma vor „und“, da beide Nebensätze von „Was/warum“ eingeleitet auf derselben Ebene stehen bzw. kein eingeschobener Nebensatz endet)",
+          "„1. Die ersten Wochen...“ und „3. Wer macht eigentlich was?“ (Überschneidung: Überblick verschaffen, bevor man alles umkrempelt, ist auf zwei Kapitel verteilt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„bei Fehlern, Trödelei oder dicke Luft im Team“ (Grammatikfehler in Kap. 6, Dativ erforderlich: „dicker Luft“)",
+          "„Der Informations-Knotenpunkt“ (unnötige/unübliche Bindestrich-Schreibung in Kap. 5)",
+          "„Kapitel 2: ... Erwartungen klären nach oben und unten“ vs. „Kapitel 7: Zwischen Baum und Borke – Dein Platz zwischen Geschäftsführung und Werkstatt“ (starke thematische Überschneidung)",
+          "„Kapitel 3: Raus aus dem Tagesgeschäft...“ vs. „Kapitel 4: Aufgaben richtig abgeben...“ (starke Überschneidung beim Thema Delegation)",
+          "„Du erfährst, wie... / Du lernst, wie... / Dieses Kapitel zeigt dir, wie...“ (schwerfällige, repetitive Satzanfänge auf Meta-Ebene)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„5. Dein Kalender gehört dir... Zwischen Tagesgeschäft, Meetings...“ (Verwendung des englischen Business-Begriffs „Meetings“ trotz Buzzword-Verbot)",
+          "„2. Was von dir erwartet wird... Du klärst mit Geschäftsführung, Team...“ vs. „8. Zwischen den Stühlen: ... übersetzt zwischen Geschäftsführung und Team“ (leichte Überschneidung der Schnittstellenfunktion)",
+          "Inkonsistente Syntax in Kapitel 1 (Relativsatz „Wie du...“) im Vergleich zu den Kapiteln 2 bis 10 (jeweils Hauptsätze „Du klärst...“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„6. Hilf deinen Leuten, besser zu werden: Du gibst im Arbeitsalltag konkretes Feedback...“ (Anglizismus/Modewort „Feedback“ trotz Vorgabe „keine Buzzwords“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "D",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3342,
+    "out": 935,
+    "thinking": 0
+  },
+  "costUsd": 0.016034
+}

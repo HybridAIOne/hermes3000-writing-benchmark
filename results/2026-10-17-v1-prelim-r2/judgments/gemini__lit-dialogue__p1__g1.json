@@ -1,0 +1,114 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 5,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "*(dreht sich um. Die Hand bleibt am Stuhllehnen hängen.)* (Grammatikfehler: an der Stuhllehne)",
+          "Er rührt in seine Tasse. (Grammatikfehler: in seiner Tasse)",
+          "Er lässt die Jacke auf dem Schoß liegen. Nicht ab. (Unidiomatische Ellipse, da zuvor 'lassen' und nicht 'ablegen' verwendet wurde)",
+          "Du trinkst nach wie vor nur Schwarz. (Rechtschreibfehler: 'schwarz' als Adjektiv klein)",
+          "THOMAS: *(rührt mit dem Löffel in der leeren Tasse)* (Logikbruch: Er hat sich gerade erst gesetzt, noch nichts bestellt, hat aber eine leere Tasse vor sich und zahlt am Ende zehn Euro)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "*(blickt auf, das Lächeln erreicht seine Augen nicht)* (Abgegriffenes Standard-Klischee)",
+          "LEO sitzt am Tisch, rührt in einer leeren Tasse. (Unlogische, klischeehafte Übersprungshandlung: Man rührt nicht minutenlang im Nichts)",
+          "Ich trinke jetzt Tee. [...] Der Tee ist noch gar nicht da. (Logikbruch: Es wurde zu keinem Zeitpunkt Tee bei einer Bedienung bestellt)",
+          "Vor allem nichts aufwärmen, was besser kalt bleibt. (Der Subtext wird hier zu platt und direkt in Metaphern erklärt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "Thomas: Ich habe dir nie gesagt, wie es wirklich war. [...] Thomas: Es tut mir leid. Markus: Das reicht nicht. (Verfehlung der Aufgabe: Der Konflikt bleibt nicht als Subtext im Hintergrund, sondern wird frontal – wenn auch vage – ausdiskutiert)",
+          "Thomas: Sag ihr Hallo von mir. Markus: Wird sie nicht verstehen. Thomas: Warum nicht? Markus: Einfach so. (Hölzerner, unnatürlicher Dialog ohne echte psychologische Schärfe)",
+          "Ich habe die alten Fotos mitgebracht. Aus dem Urlaub damals. (Plumpes Erzähl-Requisit, das am Ende nicht einmal genutzt wird)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Du trinkst ja doch noch Hellbier. (Unidiomatisch: Im normalen Sprachgebrauch heißt es 'Helles', nicht 'Hellbier')",
+          "Manche Dinge sehen von außen gut aus und innen ist alles verfault. (Stilistisch etwas zu deutlicher Holzhammer-Subtext im Vergleich zum ansonsten sehr subtilen Dialog)",
+          "Zwei Männer um die fünfzig [...] damals, bei deinem Fünfzigsten (Leichte Unschärfe: Wenn der 50. Geburtstag schon 'damals' war, sind sie eher Mitte/Ende fünfzig)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "Bevor man wieder Fehler macht. [...] Es klang damals eher nach einer… bewussten Entscheidung. [...] Wir haben beide Entscheidungen getroffen, Jonas. Ich habe nur die Konsequenzen getragen. (Verfehlung der Aufgabe: Statt den Konflikt spürbar unausgesprochen zu lassen, reden die Figuren in abstrakten Phrasen direkt über den Streit)",
+          "seine Fingerknöchel treten weiß hervor (Abgedroschenes Klischee für Anspannung)",
+          "Ich laufe nicht weg, Jonas. Nicht mehr. (Kitschige, pathetische Schlusspointe wie aus einer Seifenoper)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "E",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3296,
+    "out": 1068,
+    "thinking": 0
+  },
+  "costUsd": 0.017272
+}

@@ -1,0 +1,113 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "E": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Du kannst das Ding nicht ewig allein über den Gierwinkel drücken, Mama. Der Wasserdruck bei Hochwasser –“ (Ungelenker Info-Dump im Dialog; Fachbegriffe wirken wie aus Wikipedia aufgesagt)",
+          "Für zwei Tage fuhr er nicht durch die halbe Republik, nur um nach ihrer Gesundheit zu sehen oder den alten Hilfsmotor zu bemängeln, der seit Juli verrußt unter seiner Plane schwieg. Er hatte eine Aktentasche an den Griff seines Rollkoffers gesteckt. Schwarzes Leder, prall gefüllt. (Zu deutlicher, fast klischeehafter Wink mit dem Zaunpfahl bezüglich seiner Verkaufsabsichten)",
+          "Jonas sah auf die Gierseile hinauf, die sich schwer und ölig gegen den grauen Himmel spannten (Sachlich schief: Eine Gierseilfähre an der Elbe hängt meist an einem Längsseil im Fluss oder einer Hochseilanlage; „die Gierseile“ im Plural oben am Himmel ist unpräzise)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Sie löste die Leine wieder, zog sie durch den Ring und legte sie ordentlich auf. (Logikbruch: Im letzten Absatz des Prompts hat sie die Fähre gerade erst mit dieser Leine am Poller festgemacht. Warum löst sie sie sofort wieder, während die Fähre am Anleger bleibt?)",
+          "Draußen schlug die lose Leine gegen den Poller. (Folgefehler: Erst war die Leine fest, dann ordentlich aufgelegt, jetzt schlägt sie lose gegen den Poller)",
+          "Dann nahm sie die Leine vom Haken neben der Tür und zog die kleine Glocke am Anleger einmal. Kein Ruf, nur ein Zeichen, dass die nächste Überfahrt noch nicht kam. (Unlogisch: Wem gibt sie am leeren Anleger mit einem Glockenschlag das Zeichen, dass sie *nicht* fährt?)",
+          "Dort gab es vermutlich für alles einen anderen Weg, auch für den Regen. (Phrasenhafte, pseudo-tiefsinnige Kalenderblatt-Metaphorik)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "Im Kreuz blieb ein Ziehen, bis sie den Fuß anders setzte. Jonas hatte es gesehen; sie merkte es daran, dass er ihr ins Gesicht blickte. (Leichte Perspektivunschärfe, aber durch den Nachsatz noch im Rahmen der personalen Erzählweise gehalten)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 2,
+        "stil": 2,
+        "aufgabe": 3,
+        "fehler": [
+          "Sie nahm die erste, stellte sie auf die Herdplatte. [...] ließ die Maschine blubbern. [...] Ilse hob den Kessel. [...] Sie stellte die Tasse unter den Auslauf, ließ ihn laufen, bis der braune Schaum dünn wurde. [...] stellte die Tasse wieder auf die Ablage, umgedreht. (Völlig wirre, halluzinierte Kaffeezubereitung zwischen Herdplatte, Kessel und Auslauf; am Ende stellt sie eine volle Tasse umgedreht weg)",
+          "würden diese Ärmel ihm niemand auffallen (Grammatikfehler / Wortbruch)",
+          "in der Karabinerhake verschwinden (Grammatik/Wortwahl: es heißt „im Karabinerhaken“, zudem befestigt man keine Elbfähre mit einem Karabiner)",
+          "Sie rieb sich die Hände an der Leine, bis die rissigen Stellen glatt wurden (Semantischer Unsinn: Man reibt sich nicht an einem Schiffstau die rissigen Hände glatt)",
+          "ein Boot aus Lüneburg fuhr mit gedrosseltem Gang auf dem Ostufer vorbei (Geografischer und sprachlicher Unsinn: Lüneburg liegt an der Ilmenau, ein Boot fährt nicht „auf dem Ufer“ und hat keinen „gedrosselten Gang“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "Ilse zog die Leine ein zweites Mal fest, ohne ihn anzusehen. (Kontinuitätsfehler zum Prompt: Dort zog sie die Leine bereits zweimal fest)",
+          "Der Motor tickte unter Deck, wie er immer tickte, wenn sie ihn zu früh abgestellt hatte. (Widerspruch zum Prompt und zum eigenen Text: Im Prompt ist der Motor unrepariert, im nächsten Satz fehlt der Zylinderkopf in Dannenberg – der Motor kann also nicht gerade gelaufen sein)",
+          "Drüben, hinter dem Altarm, lagen die Pappeln gelb im Dunst, und der Kahn stand schief an der Seite, so wie sie ihn immer festmachte, wenn sie wusste, dass sie gleich zurückkommt. (Logikbruch: Sie steht auf der Fähre am Anleger, aber „drüben“ liegt „der Kahn“, den sie festgemacht hat)",
+          "Dann entschied sie, dass er im Haus schlafen sollte und nicht im Bootshaus, und ging weiter. (Plumpes Erklären statt Zeigen; die Aufgabenstellung „kleine Entscheidung“ wird mechanisch mit dem Verb „entscheiden“ abgehakt, zudem ist unmotiviert, warum der Sohn sonst im Bootshaus schlafen sollte)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 4624,
+    "out": 1412,
+    "thinking": 0
+  },
+  "costUsd": 0.023368
+}

@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "claude-sonnet-5.5",
+  "run": 2,
+  "text": "# Führen ohne Titel: Gliederung\n\n**1. Plötzlich Chef: Der Rollenwechsel**\nDu erfährst, warum sich die Beziehung zu ehemaligen Kollegen verändert und wie du diesen Wechsel offen ansprichst, statt ihn zu überspielen.\n\n**2. Dein Auftrag: Was von dir erwartet wird**\nDu klärst mit deinem Vorgesetzten, wofür du verantwortlich bist, was du entscheiden darfst und woran man deine Arbeit misst.\n\n**3. Dein Team: Wen du da eigentlich führst**\nDu lernst jede Person in Einzelgesprächen kennen, mit ihren Stärken, Erwartungen und der Frage, was sie von dir brauchen.\n\n**4. Ordnung im Alltag: Prioritäten, Absprachen, Besprechungen**\nDu baust einfache Routinen auf, damit dein Team weiß, was wichtig ist, und nicht jede Woche aufs Neue Feuerwehr spielt.\n\n**5. Abgeben statt selbermachen: Delegieren**\nDu übergibst Aufgaben so, dass sie ankommen und gelingen, und hältst aus, dass andere sie anders erledigen als du.\n\n**6. Rückmeldung im Tagesgeschäft: Lob und Kritik**\nDu gibst zeitnah und konkret Feedback, damit Kritik zur Normalität wird und nicht zum Ausnahmefall.\n\n**7. Wenn es schwierig wird: Gespräche, die du lieber vermeiden würdest**\nDu bereitest Konflikt-, Leistungs- und Konsequenzgespräche vor, führst sie klar und fair und gehst danach sauber damit um.\n\n**8. Zwischen den Stühlen: Chef oben, Team unten**\nDu vertrittst Entscheidungen, hinter denen du nicht voll stehst, und bleibst dabei gegenüber beiden Seiten glaubwürdig.\n\n**9. Du selbst: Zeit, Druck und Grenzen**\nDu erkennst, wo du dich überlastest, setzt Grenzen und sorgst dafür, dass du als Führungskraft nicht ausbrennst.\n\n**10. Deine Haltung: Wie du führen willst**\nDu ziehst Bilanz aus deinen Erfahrungen und formulierst, wofür du als Führungskraft stehst, auch wenn kein Titel auf deiner Visitenkarte es dir vorschreibt.",
+  "usage": {
+    "in": 242,
+    "out": 1852,
+    "thinking": 977
+  },
+  "costUsd": 0.019004,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 14270,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:51:03.242Z"
+}

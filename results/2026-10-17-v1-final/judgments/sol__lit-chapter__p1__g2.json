@@ -1,0 +1,118 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„einen dieser Kaffee in Pappbechern“: Falsche Pluralform; richtig wäre „einen dieser Kaffees in Pappbechern“.",
+          "„die er ihr einmal mitgebracht und die sie nicht hatte austrinken können“: Rückblickende Exposition zur Beziehung mit Jonas; widerspricht der Vorgabe, ohne Rückblenden-Exposition auszukommen.",
+          "„Der Wind drehte um diese Jahreszeit gegen zehn“: Eine auffällig pauschale meteorologische Gewissheit soll Ilses Erfahrung beglaubigen, wirkt aber konstruiert.",
+          "„Der Junge grinste, als hätte sie einen Witz gemacht. Sie hatte keinen gemacht.“: Die nachgeschobene Erklärung legt Ilses Wortkargheit aus, statt die Wirkung des Dialogs stehen zu lassen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„in einem der umgebauten Katen“: Falsches Genus; es heißt „die Kate“, also „in einer der umgebauten Katen“.",
+          "„den Henning vor zwanzig Jahren aus Cuxhaven mitgebracht hatte“ und „Über die Verträge für den Verkauf der Fährrechte, über die Maklerin aus Lüneburg“: Der Schluss lädt die Szene mit rückblickender und erklärender Vorgeschichte auf; die Vorgabe ohne Rückblenden-Exposition wird deutlich verfehlt.",
+          "„Es war sechs Uhr siebenundvierzig“ / „Für ein paar Minuten“ / „Neunundvierzig Minuten nach sechs“: Innerhalb von zwei Minuten sollen sämtliche Einschiffungs-, Bezahl- und Ablegemanöver sowie bereits mehrere Minuten Überfahrt stattfinden. Die Zeitführung ist widersprüchlich.",
+          "„die milchige Suppe“, „der feuchten Watte des Nebels“, „kahle, schwarze Finger“: Gehäufte, verbrauchte Nebel- und Landschaftsbilder überladen die ansonsten konkrete Beobachtung.",
+          "„Und er würde reden wollen“: Der anschließende ausführliche Themenkatalog erklärt den Familienkonflikt vorab und nimmt dem nicht angenommenen Anruf seine Offenheit."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Wenn wir ankommen, sind wir da“ und „Wenn Schluss ist“: Die wiederholten tautologischen Antworten machen aus Wortkargheit eine vorhersehbare Pointenmasche. Ilse wirkt zunehmend demonstrativ abweisend.",
+          "„Sie müssen nicht dauernd danke sagen“: Der junge Mann hat im dargestellten Gespräch erst einmal gedankt. Die Zurechtweisung ist szenisch nicht vorbereitet und wirkt für die Figurenzeichnung erzwungen.",
+          "„Ilse drehte das Rad weiter“ / „den Druck zu halten und die Fähre gerade zu führen“ / „drehte die Fähre zurück und zog das Seil an“: Antrieb und Führung der Seilfähre bleiben technisch und räumlich unklar; die Arbeitsabläufe benötigen eine Plausibilitätsprüfung.",
+          "„Sie hatte heute Morgen den zweiten Handschuh nicht gleich gefunden“: Der anschließende kleine Rückblick unterbricht die Überfahrt, ohne eine entsprechende erzählerische Funktion zu gewinnen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie wusste auch so, wer es war“: Der Anrufer wird weder als Jonas noch als ihr Sohn identifiziert. Damit ist die ausdrücklich verlangte Erkennbarkeit nicht gegeben.",
+          "„Hundertzwanzig Meter bis zur ersten Boje, dann eine Linkskurve“: Die frei ansteuerbare Kurvenroute passt nicht zur zuvor beschriebenen Führung durch eine „Stahlleine, die von Pfahl zu Pfahl durch den Strom lief“. Das technische Konzept der Fähre bleibt widersprüchlich.",
+          "„Der erste war Kolb mit seinem Dackel“: Ohne zuvor genanntes substantivisches Bezugswort ist „Erste“ hier großzuschreiben.",
+          "„Sie hatte ihm vor Jahren einmal ein Stück Wurst zugeworfen“: Unnötige Rückblenden-Exposition; der folgende Zusatz „nicht mehr vergessen, dass er es bemerkt hatte“ ist zudem umständlich und in seiner Aussage wenig plausibel.",
+          "„November“, „Dann fahren wir eben drumherum“, „Das Seil ist seit 1978 nicht gerissen“: Die Häufung demonstrativ trockener Antworten ersetzt individuelle Figurenzeichnung zunehmend durch ein wiederkehrendes Dialogmuster."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Die Frau klopfte an die offene Tür“ / „Sie öffnete die Tür einen Spalt“: Kleiner Anschlussfehler; zwischen beiden Stellen wird kein Schließen der Tür erzählt.",
+          "„Auf dem Display erschien sein Name ein zweites Mal, als müsste sie ihn erst lesen“: Das erneute Erscheinen des Namens ist technisch beziehungsweise wahrnehmungslogisch nicht vorbereitet. Der erklärende Vergleich schwächt außerdem den sonst zurückhaltend inszenierten Schluss."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "A",
+      "C",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 7714,
+    "out": 2875,
+    "thinking": 1536
+  },
+  "costUsd": 0.044178
+}

@@ -1,0 +1,18 @@
+{
+  "task": "nf-from-source",
+  "model": "claude-haiku-5.5",
+  "run": 2,
+  "text": "Wie funktioniert eine Genossenschaft? Am Beispiel der Fährgenossenschaft Hitzacker eG lässt sich das gut zeigen. Gegründet wurde sie 1953 von 41 Landwirten und Händlern aus beiden Elbufern, nachdem der Landkreis den Betrieb der Seilfähre eingestellt hatte. Die Menschen vor Ort übernahmen die Verantwortung selbst.\n\nWer Mitglied wird, übernimmt Anteile. Jedes Mitglied hält mindestens einen Anteil zu 250 Euro, heute zählt die Genossenschaft 312 Mitglieder. Entscheidend ist die Stimmverteilung: In der Generalversammlung hat jedes Mitglied eine Stimme, unabhängig davon, wie viele Anteile es besitzt. Wer viel eingezahlt hat, hat also nicht mehr zu sagen als jemand mit dem Mindestanteil. Gewicht hat der Kopf, nicht das Kapital.\n\nAuch mit den Überschüssen wird anders verfahren als in einem gewöhnlichen Unternehmen. Sie werden nicht ausgeschüttet, sondern in eine Rücklage für die Erneuerung der Fähre eingezahlt.\n\nEin Blick auf die Zahlen zeigt, warum dieses Modell passt. 2024 betrug der Umsatz 186.000 Euro. 71 Prozent stammten aus Fahrkartenverkäufen, 29 Prozent aus einem Zuschuss der Gemeinde. Rund 64.000 Personen nutzen die Fähre pro Jahr, im Sommer vor allem Radfahrer auf dem Elberadweg. Die Fähre ist also eine Einrichtung, die vielen Menschen dient und deren Betrieb auf Dauer gesichert sein muss.\n\nGenau dafür eignet sich die Genossenschaft. Sie ist auf gemeinsame Kontrolle ausgelegt, nicht auf die Auszahlung von Gewinnen an Einzelne. Das Geld bleibt bei der Fähre. Die Rücklage soll bis 2031 ausreichen, um einen Elektroantrieb einzubauen. Eine Fähre, die über Jahrzehnte fahren soll, braucht genau diese Mischung aus gemeinsamer Entscheidung und langfristigem Denken.",
+  "usage": {
+    "in": 780,
+    "out": 2493,
+    "thinking": 1646
+  },
+  "costUsd": 0.0013245,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 10363,
+  "meta": [],
+  "at": "2026-10-17T17:49:40.541Z"
+}

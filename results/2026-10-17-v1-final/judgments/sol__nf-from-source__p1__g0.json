@@ -1,0 +1,144 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Die Fahrgeldeinnahmen allein bilden somit nicht die gesamte Finanzierung.“ – Redundanter Erklärungssatz: Dass daneben ein Gemeindezuschuss steht, wurde unmittelbar zuvor bereits zweimal erläutert.",
+          "„Für Entscheidungen zählt also nicht die Höhe der finanziellen Beteiligung, sondern die Mitgliedschaft.“ – Wiederholt die bereits verständlich erklärte Stimmrechtsregel, ohne einen weiteren Aspekt hinzuzufügen.",
+          "„Für diese Verbindung führt die Genossenschaft Beteiligung, gleiches Stimmrecht und Vorsorge zusammen“ – Der Schluss fasst ausführlich bereits Gesagtes zusammen; eine Straffung würde dem Abschnitt mehr Prägnanz geben."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„wächst das finanzielle Polster stetig“ – Behauptet eine kontinuierliche finanzielle Entwicklung, zu der die Quelle keine Angaben macht. Die Zuführung von Überschüssen belegt kein stetiges Wachstum.",
+          "„Als der Landkreis im Jahr 1953 den Betrieb der dortigen Seilfähre einstellte“ – Überträgt das belegte Gründungsjahr auf die Betriebseinstellung; deren Jahr nennt die Quelle nicht.",
+          "„weil es den Beteiligten nicht um persönliche Gewinnmaximierung geht“ – Schreibt den Beteiligten ein persönliches Motiv zu. Belegt ist die Nichtausschüttung der Überschüsse, nicht die Motivation sämtlicher Beteiligter.",
+          "„Das sichert den Betrieb langfristig.“ – Macht aus der Rücklagenbildung eine nicht belegte Zusicherung des langfristigen Betriebs.",
+          "„den Fortbestand und die Modernisierung der Fähre ideal unterstützt“ – „Ideal“ ist eine unbegründete Steigerung. Für die Erklärung der Eignung genügt eine sachliche Beschreibung der konkreten Vorteile."
+        ],
+        "unsupported": [
+          "„Als der Landkreis im Jahr 1953 den Betrieb der dortigen Seilfähre einstellte“ – Die Quelle datiert die Gründung auf 1953, nicht ausdrücklich die Betriebseinstellung.",
+          "„weil es den Beteiligten nicht um persönliche Gewinnmaximierung geht“ – Die persönlichen Motive der Beteiligten werden nicht genannt.",
+          "„Das sichert den Betrieb langfristig.“ – Eine langfristige Betriebssicherung durch die Rücklage ist nicht belegt.",
+          "„den Fortbestand und die Modernisierung der Fähre ideal unterstützt“ – Eine ideale Eignung der Rechtsform ist durch die Angaben nicht nachgewiesen.",
+          "„wächst das finanzielle Polster stetig“ – Angaben über die zeitliche Entwicklung der Rücklage fehlen."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 7,
+        "fehler": [
+          "„was jeder von ihnen brauchte, aber allein kaum hätte tragen können“ – Erfindet sowohl den individuellen Bedarf aller Gründungsmitglieder als auch deren begrenzte wirtschaftliche Möglichkeiten.",
+          "„Damals stellte der Landkreis den Betrieb ein.“ – Bezieht die Betriebseinstellung auf das zuvor genannte Jahr 1953. Belegt ist nur, dass sie vor der Gründung erfolgte.",
+          "„auf die viele Menschen angewiesen sind, und erst in zweiter Linie ein Geschäft“ – Behauptet eine Abhängigkeit der Nutzer und eine Rangfolge der Funktionen, die aus den Beförderungszahlen und der Überschussverwendung nicht hervorgehen.",
+          "„Die Genossenschaft legt die Fähre in die Hände derer, die sie brauchen“ – Setzt Mitglieder und auf die Fähre angewiesene Nutzer gleich; deren tatsächliches Verhältnis ist nicht beschrieben.",
+          "„Auch mit dem Geld geht die Genossenschaft auf eigene Weise um.“ – Vage Überleitung. Die anschließende konkrete Erklärung der Rücklagenbildung ist deutlich aussagekräftiger."
+        ],
+        "unsupported": [
+          "„Damals stellte der Landkreis den Betrieb ein.“ – Das Jahr der Betriebseinstellung ist nicht angegeben.",
+          "„was jeder von ihnen brauchte“ – Ein persönlicher Bedarf jedes einzelnen Gründungsmitglieds ist nicht belegt.",
+          "„aber allein kaum hätte tragen können“ – Über die wirtschaftlichen Möglichkeiten der Gründungsmitglieder enthält die Quelle nichts.",
+          "„auf die viele Menschen angewiesen sind“ – Die Quelle nennt Nutzungszahlen, aber keine Abhängigkeit von dieser Verbindung.",
+          "„erst in zweiter Linie ein Geschäft“ – Diese Rangfolge ist nicht ausdrücklich belegt und folgt nicht zwingend aus der Nichtausschüttung von Überschüssen.",
+          "„Die Genossenschaft legt die Fähre in die Hände derer, die sie brauchen“ – Dass die Mitglieder gerade die auf die Fähre angewiesenen Nutzer sind, steht nicht in der Quelle."
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„2024 beförderte sie rund 64.000 Personen“ – Ordnet die allgemeine Jahreszahl der Beförderten unbelegt dem Jahr 2024 zu.",
+          "„Als der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte, fehlte plötzlich die Verbindung zwischen beiden Elbufern.“ – Ergänzt sowohl das Jahr der Einstellung als auch den plötzlichen Wegfall der Verbindung; beides ist so nicht belegt.",
+          "„Wer auf die Fähre angewiesen war, wurde damit zum Mitbesitzer.“ – Macht aus den 41 belegten Gründern pauschal die auf die Fähre angewiesenen Menschen.",
+          "„Die Fähre überquert die 212 Meter breite Elbe in sieben Minuten“ – Lässt die notwendige Einschränkung „bei normalem Wasserstand“ weg und stellt die Fahrtdauer als uneingeschränkt gültig dar.",
+          "„Die Einstiegshürde ist also überschaubar.“ – Unbegründete Bewertung der finanziellen Zugänglichkeit; der Mindestanteil von 250 Euro allein rechtfertigt sie nicht."
+        ],
+        "unsupported": [
+          "„Eine Fähre, die ihren Nutzern gehört“ – Belegt ist die Mitgliedschaft, nicht die Gleichsetzung von Mitgliedern und Nutzern.",
+          "„Als der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte“ – Das Einstellungsjahr wird nicht genannt.",
+          "„fehlte plötzlich die Verbindung zwischen beiden Elbufern“ – Über den genauen Ablauf, die Dauer einer Unterbrechung oder andere Verbindungen macht die Quelle keine Angaben.",
+          "„Wer auf die Fähre angewiesen war, wurde damit zum Mitbesitzer.“ – Weder die Abhängigkeit der Gründer noch eine Mitgliedschaft aller Betroffenen ist belegt.",
+          "„Die Einstiegshürde ist also überschaubar.“ – Eine Bewertung der finanziellen Zugänglichkeit enthält die Quelle nicht.",
+          "„die Fähre bleibt erhalten“ – Die Rücklagenbildung allein belegt keinen gesicherten Fortbestand.",
+          "„Die Fähre überquert die 212 Meter breite Elbe in sieben Minuten“ – Die Quelle nennt diese Fahrtdauer nur für normalen Wasserstand.",
+          "„2024 beförderte sie rund 64.000 Personen“ – Die Zahl wird in der Quelle als allgemeine jährliche Beförderungszahl angegeben, nicht ausdrücklich für 2024.",
+          "„Die Menschen, die sie brauchen, betreiben sie gemeinsam“ – Die Gleichsetzung der Mitglieder mit den auf die Fähre angewiesenen Menschen ist nicht belegt."
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„anders umgegangen als in einem gewöhnlichen Unternehmen“ – Sachlich irreführende Verallgemeinerung: Auch andere Unternehmen können Überschüsse einbehalten. Die Nichtausschüttung ist hier eine konkrete Regel der Fährgenossenschaft.",
+          "„sichern mit ihren Überschüssen die Zukunft des Schiffs“ – Formuliert den künftigen Erhalt als gesichert, während die Quelle lediglich die Rücklagenbildung und ein geplantes Finanzierungsziel beschreibt.",
+          "„aus beiden Elbufern“ – Unidiomatische Ortsangabe; richtig wäre hier „von beiden Elbufern“.",
+          "„Die Seilfähre über die Elbe bei Hitzacker gibt es seit 1953 als Fährgenossenschaft.“ – Vermischt Verkehrsmittel und betreibende Organisation. Gegründet wurde die Genossenschaft, nicht die Fähre als Genossenschaft.",
+          "„Das zeigt sich im Blick auf die Zukunft“ – Blasse Überleitung; der konkrete Plan für den Elektroantrieb kann unmittelbar anschließen."
+        ],
+        "unsupported": [
+          "„sichern mit ihren Überschüssen die Zukunft des Schiffs“ – Ein gesicherter künftiger Erhalt ist nicht belegt; genannt werden die Rücklagenverwendung und das bis 2031 angestrebte Finanzierungsziel."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "C",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3250,
+    "out": 3052,
+    "thinking": 978
+  },
+  "costUsd": 0.03702
+}

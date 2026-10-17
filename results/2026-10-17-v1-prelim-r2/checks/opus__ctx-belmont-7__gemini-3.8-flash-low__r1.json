@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-7",
+  "model": "gemini-3.8-flash-low",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "violated": [
+      "b7-4"
+    ],
+    "evidence": [
+      "»Du hast mich ihm ausgeliefert«, sagte sie, und ihre Stimme zitterte nicht mehr. Sie war so klar und kalt wie das Eis des Bergsees. »Du hast mich zur Patientin gemacht, damit ich deine Zeugin bin, ohne es zu wissen.«"
+    ]
+  },
+  "usage": {
+    "in": 3490,
+    "out": 639,
+    "thinking": 505
+  },
+  "costUsd": 0.02674
+}

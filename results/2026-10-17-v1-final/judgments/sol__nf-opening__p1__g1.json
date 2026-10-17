@@ -1,0 +1,110 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Das wolltest du so nicht hören lassen“ ist unidiomatisch. Gemeint ist offenbar: „So sollte das nicht klingen.“",
+          "„Dann war's das also mit mir?“ eröffnet ein mögliches Kündigungsszenario, ohne den Gesprächsanlass ausreichend zu klären. Dadurch bleibt die zentrale Konfliktsituation unnötig unbestimmt.",
+          "„Schwierige Gespräche gehören zu den Aufgaben, auf die dich niemand vorbereitet hat“ und „stand aber in keiner Stellenbeschreibung“ setzen eine Berufsbiografie voraus, die nicht auf alle angesprochenen Teamleiter zutrifft.",
+          "„Dieses Kapitel setzt an einer anderen Stelle an“ ist eine vage Überleitung: Welche andere Stelle gemeint ist, erschließt sich erst aus den folgenden Sätzen.",
+          "Der Text besteht aus vier Absätzen statt aus dem verlangten Einstiegsabsatz."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Er ist heute wieder zwanzig Minuten zu spät gekommen“ und „halb fertig, mit denselben Tippfehlern wie letzte Woche“ häufen unterschiedliche Verfehlungen. Ein klar fokussierter Anlass würde den Gesprächskonflikt präziser machen.",
+          "„Und um das, was danach kommt, wenn du dich für das Gespräch entschieden hast“ bleibt als Kapitelankündigung auffällig unbestimmt.",
+          "„Du kannst sie nur früh oder spät führen, gut vorbereitet oder aus dem Affekt“ verengt die Möglichkeiten rhetorisch zu stark: Auch ein schlecht vorbereitetes Gespräch muss nicht aus dem Affekt entstehen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„während du wartest, wird aus einer verpassten Frist schnell ein Muster“ ist sachlich unscharf: Erst weitere versäumte Fristen ergeben ein Muster, nicht das bloße Warten.",
+          "„So beginnen viele schwierige Gespräche“ bezeichnet eigentlich das Vermeiden eines Gesprächs. Die Überleitung könnte diesen Unterschied präziser benennen.",
+          "„einen konkreten Anlass, die Bereitschaft zuzuhören und den Mut“ sowie „ohne Menschen kleinzumachen“ bleiben gegenüber der anschaulichen Eingangsszene recht allgemeine Ratgeberformulierungen.",
+          "Der Text besteht aus vier Absätzen statt aus dem verlangten Einstiegsabsatz."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Kaum etwas schieben Teamleiter so zuverlässig vor sich her“ ist eine pauschale Steigerung, die der Text für seine Argumentation nicht benötigt.",
+          "„Meistens liegt es daran, dass du die Leute magst […] dass du gestern noch selbst einer von ihnen warst“ legt die Ursachen der Vermeidung und die Vorgeschichte der Lesenden unnötig fest.",
+          "„Dann bist du in guter Gesellschaft“ ist eine entbehrliche Ratgeberfloskel zwischen der überzeugenden Szene und ihrer Einordnung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "E",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2377,
+    "out": 1395,
+    "thinking": 512
+  },
+  "costUsd": 0.018704
+}

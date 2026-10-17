@@ -1,0 +1,109 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Das Bett oben ist frisch bezogen.“ (Räumlicher und logischer Bruch: Zuvor ist von der 'Klappe des Fährhauses' und dem Gang 'zum Heck' die Rede, was auf das Steuerhäuschen auf der Fähre hindeutet. Am Ende geht sie in dieses 'Fährhaus', in dem es plötzlich ein Obergeschoss mit Gästebett gibt.)",
+          "„Er hatte nie begriffen, dass man an einer Fähre nichts reparieren lassen konnte, ohne dass sich danach alles andere veränderte.“ (Küchenphilosophisch und sachlich unsinnig für ein Arbeitsgerät wie eine Fähre.)",
+          "„eher so, wie Männer lachen, wenn sie merken, dass sie ein Spiel schon verloren haben.“ (Abgegriffenes Klischee.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Hinter ihm wartete der Bäckerwagen.“ (Leichte Unschärfe in der Choreografie: Jonas steht auf dem Anleger, sie macht die Fähre fest, der Wagen wartet hinter ihm auf die Auffahrt – dass sie sofort wieder ablegt, ohne dass jemand von der vorherigen Fahrt abfährt, wirkt minimal gerafft, funktioniert aber im Text.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Die Strömung reicht“, sagte Ilse. (Sachlicher Widerspruch zum Prompt: Eine Gierseilfähre, die nur mit der Strömung fährt, hat gar keinen Antriebsmotor, den Jonas im letzten Absatz des Prompts bemängelt hat.)",
+          "„unter dem alten Schöpfkelle-Topf“ (Unidiomatisches, frei erfundenes Kompositum.)",
+          "„Ilse bückte sich nach dem schweren Eisenkeil und schob ihn unter die Auffahrtsklappe. [...] löste die Bremse der Winde.“ (Handlungslogik: Sie keilt die Klappe auf dem Kies fest, legt dann aber ab, ohne den Keil wieder wegzunehmen oder die Klappe hochzuziehen.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Sie nahm die Leine vom Poller und legte sie über den Arm. [...] Ilse band die Leine fest und prüfte den Knoten mit dem Daumen.“ (Direkter Widerspruch zum letzten Satz der Vorgabe, in dem sie die Leine gerade erst über den Poller geworfen und zweimal festgezogen hat.)",
+          "„Draußen rief jemand vom anderen Ufer.“ (Geografischer Unsinn: Die Elbe bei Hitzacker ist mehrere hundert Meter breit, da ruft niemand mal eben aus der Hütte hörbar vom anderen Ufer herüber.)",
+          "„Sie ging an ihm vorbei zur Hütte. [...] Du kannst in der Stube schlafen“ (Räumliche Konfusion: Die Hütte am Anleger riecht nach Diesel und hat den Fahrplan, plötzlich hat sie aber auch eine Stube mit gemachtem Bett und Herdplatte.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ihre Knie meldeten sich dabei, wie sie es neuerdings taten, und sie ließ Jonas nicht merken, dass sie es hörte.“ (Schiefe Formulierung: Man hört das Melden der Knie nicht, und der Bezug von 'es' ist unglücklich.)",
+          "„Es war noch eine Fahrt eingetragen, die von 17 Uhr, für niemanden, den sie kannte. Vielleicht kam keiner.“ (Sachlogik: Eine kleine Seilfähre fährt nach festem Fahrplan oder bei Bedarf auf Sicht, aber nicht nach namentlicher Voranmeldung im Buch für eine reguläre 17-Uhr-Fahrt.)",
+          "„Im Fenster des Fährhauses stand die Thermoskanne [...] sah auf den Becher in ihrer Hand, als müsste er erst rechnen, was er bedeutete. Sie nahm Hennings Becher vom Fensterbrett“ (Ablauffehler: Sie hat im Satz zuvor nur die Kanne in die Hand genommen, hält dann plötzlich schon einen Becher in der Hand und nimmt ihn im nächsten Satz erst vom Fensterbrett.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "E",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 4419,
+    "out": 1209,
+    "thinking": 0
+  },
+  "costUsd": 0.020928
+}

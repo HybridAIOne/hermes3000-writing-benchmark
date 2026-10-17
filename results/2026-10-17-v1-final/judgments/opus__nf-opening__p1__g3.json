@@ -1,0 +1,80 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„gut vorbereitet oder aus dem Affekt“ – idiomatisch üblich ist „im Affekt“",
+          "„Wie das gelingt, schauen wir uns jetzt Schritt für Schritt an.“ – formelhafter Überleitungssatz, Füllcharakter",
+          "„Und um das, was danach kommt, wenn du dich für das Gespräch entschieden hast.“ – umständlich, wiederholt „Gespräch“",
+          "„Schwierige Gespräche gehören zu deinem Alltag als Teamleiter, ob du willst oder nicht.“ – Allgemeinplatz"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Wir drücken uns vor unangenehmen Wahrheiten“ – Wechsel von Du- zu Wir-Perspektive bricht die vorgegebene Du-Ansprache",
+          "„um seine Schlamperei auszubügeln“ – abwertende Wortwahl, widerspricht dem Anliegen fairer Gesprächsführung",
+          "„du führst kein Jahresendgespräch mit ihm“ – unüblicher Begriff (üblich: Jahresgespräch, Mitarbeitergespräch)",
+          "„weil wir fürchten, dass die Situation eskaliert oder wir auf Granit beißen“ – Häufung von Redewendungen („Bauchgrummeln“, „auf die Füße treten“, „auf Granit beißen“, „aussitzen“)",
+          "„du leitest das Projekt erst seit drei Monaten“ – verschiebt die Rolle vom Teamleiter zur Projektleitung, passt nur bedingt zur Zielgruppe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Text in vier Absätze gegliedert – verlangt war ein Einstiegsabsatz",
+          "„wird aus einer verpassten Frist schnell ein Muster“ – logisch schief: durch Warten entsteht aus einer einzelnen Frist kein Muster",
+          "„So beginnen viele schwierige Gespräche: nicht mit einem großen Knall, sondern mit einem kleinen Moment“ – abgegriffene Kontrastformel",
+          "„Ein klares Gespräch ist nicht automatisch hart.“ – allgemein gehaltener Mittelteil, verliert die Konkretheit der Szene",
+          "„Auch wenn deine Stimme dabei anfangs ein wenig zittert.“ – nachgeschobenes Satzfragment als Pointe wirkt bemüht"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3611,
+    "out": 2090,
+    "thinking": 1103
+  },
+  "costUsd": 0.056244
+}

@@ -1,0 +1,97 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "B": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "Überschneidung: Kapitel 3 „wie du Aufgaben so übergibst, dass das Ergebnis stimmt“ und Kapitel 4 „Aufgaben schrittweise an dein Team zu delegieren“ behandeln dasselbe Thema.",
+          "Überschneidung: Kapitel 3 „nach oben sowie nach unten glasklar kommunizierst“ greift Kapitel 6 „die Anforderungen der Geschäftsleitung so an dein Team weiterzugeben“ vorweg.",
+          "Meta-Einleitung und Formatierungsreste: „Hier ist der Entwurf für die Gliederung:“ sowie „***“.",
+          "Doppelter Doppelpunkt im Titel: „Kapitel 1: Gestern Kollege, heute Chef: Dein Rollenwechsel“.",
+          "Floskeln statt Praxisnähe: „meisterst“, „handfeste Methoden“, „glasklar“."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "Klare Überschneidung entgegen der Vorgabe: Kapitel 5 „Leistungsprobleme, Fehlverhalten oder Konflikte direkt ansprichst“ und Kapitel 8 „Mit Widerstand und Konflikten umgehen“.",
+          "Groß- und Kleinschreibung: „die Fähigkeiten der einzelnen verbesserst“ – richtig ist „der Einzelnen“.",
+          "Teilüberschneidung: Kapitel 2 „Stärken, Schwächen und Arbeitsweisen der einzelnen Teammitglieder“ und Kapitel 7 „die Fähigkeiten der einzelnen verbesserst“.",
+          "Monotone Satzanfänge: „Es geht darum“, „Es geht um“ und „Es geht um“ wiederholen sich.",
+          "Das Thema Druck von oben wird erst im Schlusskapitel nebenbei angehängt: „wenn der Druck von oben oder von mehreren Seiten kommt“."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Grammatikfehler: „Wie du Kritik, Konflikte und unangenehme Wahrheiten anspricht“ – richtig ist „ansprichst“.",
+          "Die Kapitelbeschreibungen sind keine vollständigen Sätze, sondern Fragmente: „Wie du in wenigen Wochen herausfindest, wer was kann …“",
+          "Kapitel 7 ist überladen und für die Zielgruppe fragwürdig: „inklusive Gesprächsvorbereitung und einem Leitfaden für Trennungsgespräche“.",
+          "Leichte Überschneidung: Kapitel 4 „Erwartungen und Prioritäten so formulierst“ und Kapitel 6 „Absprachen einforderst“."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Etwas schiefer Kapiteltitel: „Nicht alles kann zuerst fertig sein“.",
+          "Leichte Nähe zwischen Kapitel 4 „vereinbarten Kontrollpunkten“ und Kapitel 5 „verbindlichen Vereinbarungen“."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "C",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 4910,
+    "out": 2402,
+    "thinking": 1150
+  },
+  "costUsd": 0.06768
+}

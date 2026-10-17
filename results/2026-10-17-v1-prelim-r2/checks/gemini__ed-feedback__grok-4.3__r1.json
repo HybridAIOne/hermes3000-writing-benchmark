@@ -1,0 +1,21 @@
+{
+  "task": "ed-feedback",
+  "model": "grok-4.3",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "found": [
+      "rampe",
+      "fahrgaeste",
+      "tempus",
+      "perspektive"
+    ],
+    "false_alarms": 0
+  },
+  "usage": {
+    "in": 1031,
+    "out": 45,
+    "thinking": 0
+  },
+  "costUsd": 0.002512
+}

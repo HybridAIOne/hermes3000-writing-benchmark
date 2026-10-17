@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "Das Haus roch nach Kälte und nach etwas Süßlichem, das Hanna nicht gleich zuordnen konnte. Sie blieb auf der Schwelle stehen, den Koffer noch in der Hand, und wartete, ob sich der Geruch zu einem Namen fügen würde. Er tat es nicht.\n\nDer Schlüssel war überflüssig. Sie hatte ihn den ganzen Weg im Mantel getragen, den schweren, messingfarbenen mit dem abgegriffenen Anhänger, den die Mutter von einer Reise an die Adria mitgebracht hatte. Die Tür war nur angelehnt gewesen. Herr Brandl, der Nachbar, hatte am Telefon gesagt, er schaue jede Woche nach dem Rechten. Hanna hatte sich bedankt und nicht gefragt, wie er hereinkam.\n\nIm Flur standen die Hausschuhe der Mutter, die Spitzen nach innen gedreht, als hätte jemand sie eben erst abgestreift. Der graue Mantel hing an der Garderobe. Hanna berührte ihn nicht.\n\nDurch die Küchentür sah sie den Tisch mit der Wachstuchdecke, die Zitronen darauf waren verblasst bis zur Unkenntlichkeit. Auf dem Fensterbrett stand eine Blechdose mit der Aufschrift »Pfefferminz«. Sie wusste, ohne sie zu öffnen, dass darin keine Bonbons lagen, sondern Zettel, eng beschrieben in der Schrift ihrer Mutter. Sie öffnete den Deckel nicht.\n\nÜber dem Herd tickte eine Uhr. Hanna sah hin. Die Zeiger zeigten kurz nach halb drei, und sie begriff erst nach einem Moment, dass sie nicht wusste, welcher Tag heute war, und auch nicht, wann jemand das Uhrwerk zuletzt aufgezogen hatte.\n\nDraußen fiel Licht schräg über den Hof. Eine Krähe saß auf dem Zaun und sah zu ihr herüber, ohne sich zu rühren. Hanna stellte den Koffer ab, ohne ihn loszulassen, und lauschte dem Ticken, das klang, als wartete es auf etwas.",
+  "usage": {
+    "in": 149,
+    "out": 2298,
+    "thinking": 1486
+  },
+  "costUsd": 0.0011639,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 12447,
+  "meta": [],
+  "at": "2026-10-17T17:19:52.383Z"
+}

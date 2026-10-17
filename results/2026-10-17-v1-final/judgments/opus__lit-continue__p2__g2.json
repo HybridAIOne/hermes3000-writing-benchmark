@@ -1,0 +1,119 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„log sie ruhig“ – benennt die Lüge, statt sie wirken zu lassen (Erklären statt Zeigen)",
+          "„Zu dick für einen bloßen Wochenendbesuch.“ – deutet den Verkaufsanlass sehr direkt an, der Subtext wird ausbuchstabiert",
+          "„ratterten ohrenbetäubend über das geriffelte Eisenblech“ – Übertreibung",
+          "„dieses schnelle, glatte Lächeln“ / „glatte Lederschuhe“ – unschöne Wortwiederholung",
+          "„Es zieht wie Hechtsuppe.“ – abgegriffene Redewendung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„hin und zurück ein Vierteljahrstündchen“ – kein deutsches Wort (gemeint ist „Viertelstündchen“); zudem Logikbruch, denn eine Fahrt dauert elf Minuten, die Hin- und Rückfahrt kann also keine Viertelstunde dauern",
+          "„er hatte erst gestern Abend den Zug gebucht“ – Ilse kann das nicht wissen, Bruch der personalen Perspektive",
+          "„der alte Außenborder unter einer Persenning hockte“ – ein Außenborder an einer Seilfähre mit Autorampe ist unplausibel",
+          "„Das Seil spannte sich und sang leise.“ – leicht poetisierend, und das bei festgemachter Fähre",
+          "„dieses Schweigen, das mehr Platz brauchte als ein Satz“ – erklärend"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Ilse nahm die Leine vom Poller und wickelte sie ordentlich auf“ – Logikbruch: Sie hatte gerade festgemacht, danach geht sie in die Hütte und lässt die Fähre lose",
+          "„als ließe sich das Problem mit genug Kraft beheben“ – kommentierend",
+          "„Auf dem Tisch lag der Schraubenschlüssel, den Henning zuletzt benutzt hatte.“ – das Symbol ist etwas aufgesetzt",
+          "„Es war ein Lächeln, das gleich wieder verschwand.“ – redundant nach „lächelte kurz“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„legte sie auf die Ducht“ – falscher Fachbegriff, eine Ducht ist die Sitzbank eines Ruderboots",
+          "„Ilse merkte, dass sie den Atem angehalten hatte“ – Klischee",
+          "„zog das Jackett aus“ – vorher wird kein Jackett erwähnt, die Szene ist unklar motiviert: Warum kurbelt Jonas sofort den Motor an?",
+          "„Dann griff er nach dem Koffer.“ – die Entscheidung liegt eher bei Jonas als bei Ilse, die Vorgabe ist nur schwach erfüllt",
+          "„Der Bus nach Dannenberg fuhr um fünf“ – funktionsloses Detail; zudem widerspricht „so wie immer“ dem defekten Motor"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„die aussah, als sei sie für Regen gemacht, und es vermutlich nicht war“ – syntaktisch holprig",
+          "„wie jeden Abend um diese Zeit im Oktober“ – verallgemeinernd und füllend",
+          "„in eine dieser Tabellen, von denen er am Telefon manchmal erzählte, mit Farben für gut und schlecht“ – leicht überdeutlich",
+          "„Er läuft, wie ein alter Raucher läuft.“ – Vergleich etwas bemüht"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "C",
+      "B",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 7918,
+    "out": 4064,
+    "thinking": 2606
+  },
+  "costUsd": 0.112952
+}

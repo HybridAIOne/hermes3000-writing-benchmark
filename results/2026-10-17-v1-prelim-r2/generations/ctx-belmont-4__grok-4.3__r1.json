@@ -1,0 +1,18 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "Der Schnee fällt seit Tagen in dichten, lautlosen Lagen, und die Fenster im Speisesaal zeigen nur noch graue Streifen, wo früher der See lag. Elise sitzt am Rand der langen Tafel, das Medaillon unter dem Kleid drückt gegen die Haut. Sie hört die Schritte, bevor sie den Mann sieht: ein hagerer Schatten im Lederreisemantel, der sich den Gang entlangschiebt und Schnee von den Schultern klopft. Die Kälte, die er mitbringt, ist anders als die des Hauses; sie riecht nach Zugluft und nach etwas, das draußen geblieben ist.\n\nHedwig Goss stellt den Kessel ab, die mehlbestäubten Hände ruhen auf dem Rand des Herds. „Der Sohn des Doktors ist gekommen“, sagt sie beiläufig, als spräche sie von einem neuen Vorrat an Kohlen. „Über den Pass. Kaum zu glauben, bei dem Wetter.“ Sie wischt sich die Hände an der Schürze ab und schaut nicht auf. Elise blickt auf die dampfenden Tassen vor ihr. Der Sohn. Das Wort bleibt stehen, schwer und ohne weiteren Zusatz.\n\nSpäter, im Gang, begegnet sie ihm. Matthias Vossberg trägt das Notizbuch wie eine zweite Hand. Seine grauen Augen gleichen dem Licht hinter den beschlagenen Scheiben des Wintergartens. Er nickt knapp, sagt nichts. Sie sieht den Vater hinter ihm, den silbernen Stock, der auf den Steinboden stößt, die blaue Kälte im Blick. Keiner der beiden spricht zuerst. Der Chefarzt bleibt stehen, das Hinken macht die Pause länger. „Du hättest telegraphieren können“, sagt er endlich. Die Stimme ist ruhig, als prüfe er eine Messingarmatur auf Dichtigkeit. Matthias antwortet nicht sofort. Er schlägt den Mantelkragen um, und der Schnee, der noch darin liegt, rieselt auf den Boden.\n\nElise geht weiter, doch die Worte folgen ihr. Sie bleiben in den kalten Fluren hängen, wo der Karbolgeruch stärker ist als sonst. Im Behandlungszimmer brennt nur eine Lampe. Sie erinnert sich nicht, warum sie dorthin gegangen ist, doch die Tür steht einen Spalt offen, und sie hört den jungen Assistenten, der leise widerspricht. Vosskuhl spricht von Gesprächen, von etwas, das nicht vergessen werden dürfe. Vossberg schweigt. Zwischen den beiden Männern steht jetzt ein dritter, der das Schweigen noch dichter macht.\n\nAm Abend bringt Thea wieder keine Botschaft, sondern nur eine kalte Hand, die sich kurz an Elises Arm legt und wieder geht. Elise bleibt am Fenster des Korridors stehen. Draußen sinkt der Schnee weiter, und der Pass, von dem Frau Goss gesprochen hat, ist nur noch eine weiße Linie unter dem Himmel. Sie denkt an das, was sie nicht erinnern will, und plötzlich ist es nicht mehr allein ihr eigener Verlust, der dort liegt. Es ist etwas, das jemand anders hereingetragen hat, etwas, das der Sohn mit seinem Notizbuch sucht.\n\nDer Geruch von nassem Leder und kaltem Rauch haftet noch an den Wänden, als sie sich zurückzieht. Sie tastet nach dem Medaillon, ohne es zu öffnen. Draußen, unter dem Schnee, bewegt sich etwas, das nicht zum Haus gehört, und zum ersten Mal seit ihrer Ankunft richtet sich der Verdacht nicht mehr allein gegen das, was in ihr selbst verborgen liegt.",
+  "usage": {
+    "in": 5319,
+    "out": 1629,
+    "thinking": 860
+  },
+  "costUsd": 0.01072125,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "upstream": "xAI",
+  "latencyMs": 28419,
+  "meta": [],
+  "at": "2026-10-17T17:17:05.413Z"
+}

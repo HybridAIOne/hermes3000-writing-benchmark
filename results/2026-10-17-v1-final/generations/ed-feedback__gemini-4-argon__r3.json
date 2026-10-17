@@ -1,0 +1,20 @@
+{
+  "task": "ed-feedback",
+  "model": "gemini-4-argon",
+  "run": 3,
+  "text": "Hier sind meine Lektoratsanmerkungen zum vorliegenden Textausschnitt:\n\n1. **„Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.“**\n   Sachlogischer Fehler: Eine Fährrampe muss vor dem Betreten heruntergelassen werden und wird nach dem Einsteigen für die Überfahrt hochgezogen.\n\n2. **„über sie“**\n   Unfreiwillig doppeldeutiger Pronominalbezug: Da „Ilse“ und „die Rampe“ beide feminin sind, klingt es grammatikalisch so, als seien die Fahrgäste über Ilse an Bord gegangen.\n\n3. **„Die Frau mit dem Fahrrad stellte es an die Reling.“**\n   Grammatikfehler beim Pronominalbezug: „Fahrrad“ steht im Dativ und ist nur Teil eines präpositionalen Attributs, weshalb es im selben Satz nicht problemlos durch das Akkusativpronomen „es“ wiederaufgenommen werden kann (besser: „stellte ihr Rad“).\n\n4. **„Ilse stellt den Motor an“**\n   Tempusfehler: Das Verb „stellt“ steht im Präsens, während der gesamte Erzähltext im Präteritum gehalten ist („stellte“).\n\n5. **„Ich hatte diesen Moment immer gemocht, dachte sie“**\n   Tempusfehler in der direkten Gedankenrede: Aus Ilses unmittelbarer Gegenwartsperspektive müsste der Gedanke im Präsens oder Perfekt stehen („Ich mag diesen Moment immer“ / „Ich habe diesen Moment schon immer gemocht“), nicht im Plusquamperfekt.\n\n6. **„die drei Fahrgäste“ vs. „Die Frau mit dem Fahrrad [...] Der Mann im grauen Mantel [...] Der Junge mit den Kopfhörern [...] die alte Frau Lüders“**\n   Kontinuitätsfehler: Eingangs werden explizit drei Fahrgäste erwähnt, im Verlauf des Absatzes werden jedoch vier verschiedene Passagiere aufgezählt.\n\n7. **„Der Junge mit den Kopfhörern tippte auf seinem Handy“ vs. „der Bäcker mit seinem Pferdewagen, wie jeden Morgen seit dem Krieg“**\n   Anachronismus in der Zeitgestaltung: Wenn es bereits Smartphones („tippte auf seinem Handy“) gibt, liegt das Ende des Zweiten Weltkriegs mindestens 60 bis 70 Jahre zurück, weshalb derselbe Bäcker unmöglich seitdem jeden Morgen mit einem Pferdewagen fahren kann.\n\n8. **„dass sie das andere Ufer nicht sah. Der Nebel schluckte jedes Geräusch.“ vs. „Am Anleger drüben wartete schon der Bäcker mit seinem Pferdewagen [...] und hupte zweimal.“**\n   Perspektivbruch und innerer Widerspruch: In der personalen Erzählperspektive aus Ilses Sicht kann sie den Bäcker am anderen Ufer nicht sehen, wenn dieses im dichten Nebel unsichtbar ist, und das Hupen widerspricht der Aussage, dass der Nebel „jedes Geräusch“ schluckt.\n\n9. **„mit seinem Pferdewagen [...] und hupte zweimal.“**\n   Sachlogischer Fehler: Ein Pferdewagen verfügt normalerweise nicht über eine Hupe (allenfalls über eine Klingel oder der Kutscher nutzt eine Ballhupe, was präzisiert werden müsste).",
+  "usage": {
+    "in": 329,
+    "out": 724,
+    "thinking": 0
+  },
+  "costUsd": 0.007898,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 12903,
+  "meta": [
+    "preamble"
+  ],
+  "at": "2026-10-17T17:41:04.082Z"
+}

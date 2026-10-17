@@ -1,0 +1,109 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„im Teammeeting genervt abgebissen“: Nicht idiomatisch. Gemeint ist offenbar, dass Thomas eine Kollegin angefahren oder ihr eine patzige Antwort gegeben hat.",
+          "„Aus einer kleinen Unpässlichkeit wird ein Muster“: „Unpässlichkeit“ bezeichnet gewöhnlich ein körperliches Unwohlsein und passt nicht zu den beschriebenen Leistungs- und Verhaltensproblemen.",
+          "„bevor sie sich von selbst führen“: Die zugespitzte Formulierung ergibt kein klares Bild. Gespräche führen sich nicht selbst; gemeint ist vermutlich eine Eskalation, die ein Gespräch erzwingt.",
+          "„Fangen wir mit dem Anfang an, denn der entscheidet meist schon, wie das Gespräch endet.“: Redundanter Übergang mit einer überzogenen Behauptung über die Bedeutung des Gesprächseinstiegs.",
+          "„Das ist normal.“ / „Dabei sind schwierige Gespräche keine Charakterfrage.“ / „In diesem Kapitel geht es“: Der Einstieg wird über vier Absätze ausgebaut und umfasst rund 310 Wörter. Das überschreitet den gewünschten Umfang merklich und erfüllt die Vorgabe eines Einstiegsabsatzes nicht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Zum dritten Mal in dieser Woche, mit einem knappen ‚Morgen‘ und dem Blick knapp an dir vorbei.“: Der Gesprächsanlass bleibt unklar. Beschrieben wird zunächst nur ein wiederkehrender Küchenbesuch mit zurückhaltender Begrüßung; ein klärungsbedürftiges Fehlverhalten ist daraus nicht erkennbar.",
+          "„Oder bis zum Jahresgespräch, wo es dann in drei Sätzen abgehandelt wird, die niemand mehr versteht.“: Die Zuspitzung ist wenig nachvollziehbar. Warum die Sätze unverständlich sein sollten, wird nicht deutlich.",
+          "„Du kennst das.“ / „In diesem Kapitel geht es um genau diese Gespräche“: Der Text ist in drei Absätze gegliedert statt als ein Einstiegsabsatz gestaltet."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„bevor aus einer Kleinigkeit ein echtes Problem wird“: Die bereits beschriebenen wiederholten Verspätungen und unvollständigen Prüfberichte werden nachträglich als Kleinigkeit verharmlost.",
+          "„so, dass danach keiner von euch beiden schlechter schläft“: Der Schluss verspricht eine emotionale Wirkung, die auch ein gut geführtes schwieriges Gespräch nicht gewährleisten kann. Das schwächt die ansonsten realistische Darstellung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Es geht nicht darum, wie du jemanden fertigmachst“: Unnötig aggressive Gegenfolie. Der Text unterstellt damit ein Anliegen, das weder zur geschilderten Unsicherheit noch zur Zielgruppe passt.",
+          "„wie du klar wirst, ohne dabei die Person zu verlieren“: Der zentrale Kapitelanspruch bleibt sprachlich unscharf. „Klar werden“ kann innere Klarheit meinen; „die Person verlieren“ lässt offen, ob Beziehung, Vertrauen oder Mitarbeit gemeint ist.",
+          "„mit dem Gespräch schon einmal zu spät dran bist“: „Schon einmal“ macht die zeitliche Einordnung unnötig mehrdeutig: Geht es um eine frühere Gelegenheit oder um das bereits verspätete aktuelle Gespräch?",
+          "„Vielleicht kennst du diesen Augenblick.“ / „Dieses Kapitel handelt von genau solchen Gesprächen.“: Drei Absätze statt des geforderten einzelnen Einstiegsabsatzes."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "C",
+      "B",
+      "E",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2306,
+    "out": 1996,
+    "thinking": 980
+  },
+  "costUsd": 0.024572
+}

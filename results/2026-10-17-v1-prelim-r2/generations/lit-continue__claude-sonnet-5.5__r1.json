@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "„Er läuft\", sagte sie.\n\n„Er läuft schlecht. Ich hab ihn gehört, als du reingekommen bist. Das war kein gesunder Ton.\"\n\n„Er war nie ein gesunder Ton.\" Ilse bückte sich und prüfte den Knoten, obwohl sie wusste, dass er hielt. Das Wasser schob gegen den Rumpf, braun und träge, und das Stahlseil über ihnen sang leise in der Spannung. Zwei Radfahrer und ein Transporter vom Getränkehandel waren an Land gerollt, ohne dass Jonas einen von ihnen angesehen hätte. Er sah auf den Motorraum, auf die Farbe, die am Geländer abblätterte, auf alles, was sich in einer Tabelle hätte erfassen lassen.\n\n„Du siehst müde aus\", sagte er.\n\n„Es ist halb zwölf.\"\n\n„Ich meine allgemein.\"\n\nSie richtete sich auf. Er hatte Hennings Art, die Schultern hochzuziehen, wenn er etwas Weiches sagen wollte und nicht wusste, wohin damit. Das hatte sie vergessen gehabt. Oder nicht vergessen, nur eingepackt, so wie man Winterstiefel wegräumt.\n\n„Hast du gegessen?\", fragte sie.\n\n„Im Zug.\"\n\n„Das heißt nein.\"\n\nEr lächelte kurz, und es war nicht das Lächeln aus München, das sie vom Telefon kannte, wo man es hören konnte wie ein Hemd, das gebügelt wurde. Es war schiefer. „Das heißt: ein Brötchen.\"\n\nAm anderen Ufer hupte jemand, kurz und höflich. Drüben stand schon wieder ein Auto am Anleger, ein heller Kombi mit Hamburger Kennzeichen, Leute, die den Fluss für eine Sehenswürdigkeit hielten. Ilse kannte ihre Gesichter, ehe sie sie sah. Sie würden fragen, ob die Fähre wirklich noch mit Strömung fahre, und sie würden das Foto vom Seil machen, und eine Frau würde sagen, wie wunderbar, dass es so etwas noch gibt. Dann würden sie bezahlen, passend oder mit einem Schein, für den sie wechseln musste.\n\nJonas folgte ihrem Blick. „Ich kann warten\", sagte er. „Ich hab Zeit bis heute Abend.\"\n\nEr sagte es freundlich. Genau das machte es ihr schwer. Sie hatte sich auf einen Sohn eingestellt, der Zahlen mitbrachte und Sätze, die mit „Wir sollten mal realistisch sein\" anfingen. Auf den Jungen mit dem Rollkoffer, der auf nassen Bohlen stand und nicht wusste, ob er die Hand ausstrecken durfte, war sie nicht vorbereitet.\n\nSie ging an ihm vorbei zum Fährhäuschen. An der Innenseite der Tür hing das Pappschild, das Henning noch mit dickem Filzstift beschriftet hatte: *Bin gleich wieder da.* Sie hatte es in zwölf Jahren vielleicht fünfmal gebraucht.\n\nIlse nahm es vom Haken und hängte es draußen an den Nagel. Dann sah sie hinüber zum Kombi, hob die Hand, flach, einmal, und wartete nicht ab, ob man sie verstand.\n\n„Komm\", sagte sie. „Im Kühlschrank ist Suppe.\"",
+  "usage": {
+    "in": 593,
+    "out": 1742,
+    "thinking": 494
+  },
+  "costUsd": 0.018606,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 17026,
+  "meta": [],
+  "at": "2026-10-17T17:19:29.863Z"
+}

@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-1"
+    ],
+    "evidence": [
+      "An seiner Seite ging Dr. Vosskuhl, der beim Anblick des Fremden unmerklich stutzte und mit einer verlegenen Bewegung an seiner randlosen Brille rückte, seine braunen Augen weiteten sich in stummer Warnung."
+    ]
+  },
+  "usage": {
+    "in": 2150,
+    "out": 237,
+    "thinking": 156
+  },
+  "costUsd": 0.00667
+}

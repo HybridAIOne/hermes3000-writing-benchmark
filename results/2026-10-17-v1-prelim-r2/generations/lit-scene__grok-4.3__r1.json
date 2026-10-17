@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "Die Frau blieb vor der Tür stehen, bis der Motor des Mietwagens verstummt war. Das Haus lag in der flachen Nachmittagsstille, nur das Blätterrauschen der alten Linde drang von der Straße herüber. Sie zog den Schlüssel aus der Manteltasche. Er war schwerer, als sie ihn in Erinnerung hatte, und das Metall roch nach Öl und Taschenfutter. Beim ersten Drehen widerstand das Schloss, dann gab es mit einem trockenen, metallischen Knacken nach.\n\nDrinnen war die Luft kühl und geschlossen. Sie ließ die Tür offen, damit das Licht ausreichte. Der Flur roch nach trockenem Putz und etwas Schärferem, das sie nicht gleich einordnen konnte. Sie ging nicht weiter als bis zur ersten Tür. In der Küche standen die Schränke noch, ohne Türen. Auf dem Spülstein lag ein einzelner Löffel, dessen Griff sich von der weißen Emaille abhob. Als sie ihn berührte, war das Metall überraschend kalt. Unter dem Löffel hatte sich ein dünner, grauer Staubfilm gebildet, der sich beim Anheben in einer scharfen Kante löste. Sie rieb den Daumen darüber. Der Staub fühlte sich körnig an, fast wie feiner Sand, und hinterließ einen schwachen, metallischen Geruch auf der Haut.\n\nSie stellte den Löffel zurück, an dieselbe Stelle. Draußen bewegte sich nichts. Nur das Licht fiel jetzt schräger durch das Fenster und ließ den Schatten des Wasserhahns über die Spüle wandern. Sie hörte, wie sich irgendwo im Haus ein Fensterladen lockerte und gegen die Wand schlug, einmal, dann wieder. Das Geräusch war regelmäßig und ohne Eile. Sie blieb stehen und wartete, bis es aufhörte.",
+  "usage": {
+    "in": 266,
+    "out": 2688,
+    "thinking": 2296
+  },
+  "costUsd": 0.0070525,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "upstream": "xAI",
+  "latencyMs": 20647,
+  "meta": [],
+  "at": "2026-10-17T17:23:22.035Z"
+}

@@ -1,0 +1,77 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Wir sind früher auch über Zäune gekommen.“ / „Früher hast du mich aufgefangen.“ – Die metaphorische Doppeldeutigkeit ist sehr passgenau gebaut; hier wirkt der Dialog kurz eher komponiert als gesprochen.",
+          "„Du hast früher keinen verpasst.“ / „Du hast früher gewartet.“ – Die wiederholte Früher-heute-Gegenüberstellung wird gegen Ende zum erkennbaren Verfahren.",
+          "„Dein Kaffee ist noch heiß.“ – Der Schluss funktioniert als indirekte Einladung, greift aber auf ein vertrautes Versöhnungsmotiv zurück."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Mein Vater hat oft nach dir gefragt. Am Ende.“ – Der mutmaßliche Tod des Vaters bringt spät ein zusätzliches emotionales Schwergewicht hinein. Das wirkt stärker auf Wirkung angelegt als die zuvor konkret entwickelte Spannung um Werkstatt und Briefe.",
+          "„Ob es regnet.“ / „Es regnet nicht.“ / „Noch nicht.“ – Der Wetterdialog ist als Stellvertreter für die Beziehung deutlich erkennbar, aber wenig individuell und gegenüber den konkreteren Gesprächsgegenständen schwächer.",
+          "„Beide greifen gleichzeitig nach dem Zucker. Beide ziehen die Hand zurück.“ – Konventionelle Choreografie für wechselseitige Befangenheit; die anschließende mehrfach wiederholte Zuckergeste verstärkt den Eindruck einer arrangierten Szene.",
+          "„Ein Café am Marktplatz.“ bis „Martin schiebt ihm den Zucker hin.“ – Mit rund 350 Wörtern auch ohne Sprecherbezeichnungen deutlich über der Vorgabe von etwa 250 Wörtern; der Text müsste gestrafft werden."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Deine Mutter lässt grüßen.“ / „Sie fragt noch immer nach dir?“ / „Du könntest zurückrufen.“ – Die Gesprächslogik der Mutterpassage ist unstimmig: Mara übermittelt Grüße von Daniels Mutter, Daniel behandelt die Mutter anschließend jedoch wie eine Person, die Mara über ihn nach ihr fragen lässt. Wer mit wem Kontakt hat und wer wen zurückrufen soll, bleibt ohne nachvollziehbare Grundlage.",
+          "„Ist bitter.“ / „Der Kaffee?“ / „Vielleicht.“ – Die Bitterkeit als Beziehungsmetapher ist abgegriffen; die Nachfrage stellt den ohnehin offensichtlichen Subtext zusätzlich aus.",
+          "„Nein. Das war immer deine Stärke.“ / „Und deine, alles stehen zu lassen, bis jemand anders es aufhebt.“ – Die gegenseitigen Charakterurteile sprechen die Vorwürfe weitgehend aus, statt sie durch beiläufige Rede und Verhalten spürbar zu machen.",
+          "„Früher wärst du trotzdem zu früh gekommen.“ / „Früher hattest du bessere Uhren.“ – Die schlagfertige Antwort klingt konstruiert und liefert weder eine präzise Beobachtung noch eine überzeugende alltägliche Ausweichbewegung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 1975,
+    "out": 1444,
+    "thinking": 650
+  },
+  "costUsd": 0.01839
+}

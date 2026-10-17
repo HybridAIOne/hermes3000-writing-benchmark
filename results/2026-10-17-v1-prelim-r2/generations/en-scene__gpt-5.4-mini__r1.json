@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "gpt-5.4-mini",
+  "run": 1,
+  "text": "At 4:03 a.m., Mara found the chapel light on.\n\nThe door stuck a little at the frame, giving a small dry complaint when she pushed it open. Inside, the room was the same as always: two rows of narrow chairs, a low altar with a white cloth gone gray at the hem, a box of votive candles no one had lit in months. The air smelled faintly of bleach from the corridor and old dust from the vents.\n\nA man sat in the last row, hands folded between his knees.\n\nHe wasn’t in scrubs. No visitor badge. Dark coat still on, collar turned up as if he had come in from rain, though the windows showed only the parking lot, silvered by the streetlamps. He looked up when she stepped in.\n\n“Sorry,” he said. “I didn’t mean to startle you.”\n\nMara stayed by the door with her badge still clipped to her chest. “Visiting hours are over.”\n\n“I know.”\n\nHis voice was quiet, careful. Not unkind. She took in the shaved cheeks, the tired eyes, the familiar shape of his mouth before she placed him anywhere, and then she couldn’t.\n\n“You know you can’t sleep in here,” she said.\n\n“I’m not sleeping.”\n\nHe shifted his hands, one thumb rubbing the other knuckle. “Mara.”\n\nShe felt the name as a tap at the inside of her wrist.\n\n“Do I know you?”\n\n“No,” he said. Then, after a beat: “Not yet.”\n\nSomewhere in the corridor, a monitor chimed and went silent. The chapel’s fluorescent light hummed overhead. Mara looked at the empty candle box, the unlit wicks lined up like tiny black stems. Then at the man, still as a statue in the last pew, his coat dark against the pale wall.\n\nOutside the chapel window, a plow passed slowly through the parking lot, pushing a clean ridge of snow toward the curb.",
+  "usage": {
+    "in": 59,
+    "out": 404,
+    "thinking": 0
+  },
+  "costUsd": 0.00186225,
+  "finish": "stop",
+  "reportedModel": "gpt-5.4-mini-2026-03-17",
+  "upstream": null,
+  "latencyMs": 2368,
+  "meta": [],
+  "at": "2026-10-17T17:18:36.569Z"
+}

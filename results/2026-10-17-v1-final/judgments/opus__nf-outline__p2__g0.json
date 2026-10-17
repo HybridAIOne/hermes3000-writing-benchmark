@@ -1,0 +1,117 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Überschneidung Kapitel 1 und 3: „indem du erst zuhörst, Fragen stellst“ vs. „Du verschaffst dir ein Bild davon, wer was kann“",
+          "Überschneidung Kapitel 8 und 7: „damit Informationen fließen und Reibungen früh angesprochen werden“",
+          "Aufbau stockt: „Gestalte die Zusammenarbeit im Alltag“ folgt erst nach den schwierigen Gesprächen, obwohl es Grundlagenarbeit ist",
+          "Der Rollenwechsel vom Kollegen zur Führungskraft fehlt, obwohl er für die Zielgruppe zentral ist"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Kapitel 4 bündelt zwei Themen: „setzt ... klare Prioritäten, triffst Entscheidungen und erklärst, was dafür liegen bleibt“",
+          "„Dein erster Tag: Kläre, wofür du zuständig bist“ – Titel verspricht den ersten Tag, der Satz behandelt aber nur die Auftragsklärung",
+          "Leicht umgangssprachlich: „bevor es knallt“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 6,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„wie du die ersten Tage und Wochen übersteht“ (richtig: überstehst)",
+          "„was deine Geschäftsführung, dein Team und du selbst von dir erwartest“ (Kongruenzfehler, richtig: erwartet)",
+          "Überschneidung Kapitel 6 und 7: „Du gibst Lob und Kritik“ vs. Gespräche über „Leistungsprobleme, Fehlverhalten“",
+          "Überschneidung Kapitel 9 und 10 sowie Meta-Satz: „Du fasst zusammen, was du aus den Kapiteln mitnimmst“",
+          "„Plötzlich Chef“ – abgegriffene Formel"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "Fehldeutung der Zielgruppe: „obwohl du formal keine Anweisungen geben darfst“",
+          "Endpunkt verfehlt die eigene Haltung: „wie du nach Feierabend wirklich abschaltest und wie dein nächster Schritt aussieht“",
+          "Unidiomatisch: „vom geschätzten Kollegen zum Respektierten“",
+          "Phrasen/Buzzwords: „damit niemand innerlich kündigt“, „den Rücken freihältst“",
+          "Meta-Einleitung: „Hier ist der Entwurf für die Gliederung des Sachbuchs“; der erste Tag bzw. die Auftragsklärung fehlt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Aufbau: „Vom Kollegen zum Vorgesetzten“ steht erst an vierter Stelle, gehört aber an den Anfang",
+          "Überladener Satz: „Du hast die Rolle bekommen, bevor dir jemand erklärt hat, was sie bedeutet, und hier erfährst du ...“",
+          "Wiederholung: „bevor du anfängst, Dinge zu verändern“ / „bevor du es veränderst“",
+          "Überschneidung Kapitel 6 und 7: „verlässliche Regeln für Rückmeldungen und feste Gesprächsformate“"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "E",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 5991,
+    "out": 2407,
+    "thinking": 1082
+  },
+  "costUsd": 0.072104
+}

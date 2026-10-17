@@ -1,0 +1,108 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "In the glass, the cleaner’s machine passed again, turning the corridor’s ceiling lights into a slow, wavering line. (Unklares Bild: Eine Bodenreinigungsmaschine fährt am Boden entlang und kann kaum die Deckenlichter im Glas der Tür in eine wabernde Linie verwandeln.)",
+          "Somewhere above them, a monitor gave a single brief beep, then stopped. (Akustisch kaum plausibel, dass man einen einzelnen Monitor-Piepton durch die Decke eines anderen Stockwerks in der Kapelle hört.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "She noticed that his shoes were dry, though water had collected beneath the hem of his coat. (Szenisch leicht widersprüchlich: Wenn so viel Wasser vom Mantel tropft, dass es sich am Boden sammelt, ist es kaum möglich, dass die Schuhe völlig trocken geblieben sind.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "In her pocket, her fingers found the comb. A long grey hair was still wound through its teeth. (Schwerer Logik- und Hygieneverstoß: Eine Krankenschwester bewahrt keinen Kamm mit den Haaren einer im März verstorbenen Patientin monatelang ungereinigt in ihrer Arbeitskitteltasche auf; zudem bricht dies die Vorgabe 'end on an image rather than a revelation' durch einen kitschigen Twist.)",
+          "\"Ines,\" he said, without turning. (Logikbruch: Wenn er sich nicht umdreht, kann er nicht wissen, wer gerade hinter ihm die Kapelle betreten hat.)",
+          "\"Bed fourteen. March, I think. You did my mother's hair before they came for her.\" (Verstoß gegen die Zurückhaltung/Restraint: Alles wird sofort auserklärt, der mysteriöse Moment verpufft durch direkte Exposition.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "Her badge was turned backward under her cardigan. She'd flipped it hours ago because the clip kept scratching her collarbone. (Anatomisch und logisch unsinnig: Das bloße Umdrehen des Ausweisschildes ändert nichts daran, dass der Halteclip am Schlüsselbein kratzt.)",
+          "Down the corridor a call bell chimed twice and stopped. That would be Mr. Pell in 12 (Räumlicher Logikbruch: Die Kapelle liegt hier offenbar direkt auf der Pflegestation neben den Patientenzimmern und dem Fäkalienraum/'sluice room', was in Krankenhäusern nicht der Fall ist.)",
+          "The false dawn lay across his folded hands, and he held them open to it, a little, as though it were warm. (Widerspruch im selben Satz: 'folded hands' können nicht gleichzeitig 'held open' sein.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "Maren had stopped on her way back from the med room to refill the water pitcher, out of a habit she didn't examine. (Räumlicher Unsinn: Eine Schwester läuft nicht um 4 Uhr morgens vom Medikamentenraum einer Station über den 2. Stock zwischen Radiologie und Laderampe durch die Kapelle, um einen Wasserkrug aufzufüllen.)",
+          "He stood slowly and pushed the hymnal back into its slot, squaring its spine with the others. (Kontinuitätsfehler: Zuvor hieß es ausdrücklich 'his hands on his knees', er hatte kein Gesangbuch in der Hand.)",
+          "\"No. You knew my wife, maybe. Or you were kind to her. She said so.\" (Dialog-Erklärung und das Klischee der singenden Krankenschwester unterwandern die geforderte Zurückhaltung; mit ca. 320 Wörtern zudem deutlich über der Längenvorgabe.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "D",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2700,
+    "out": 1133,
+    "thinking": 0
+  },
+  "costUsd": 0.01673
+}

@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "# „Führen ohne Titel\" — Gliederung\n\n## Kapitel 1: Plötzlich Chef – und jetzt?\nDu bist gestern noch Fachkollege gewesen, heute trägst du Verantwortung für dein Team: Dieses Kapitel hilft dir, die ersten Wochen ruhig anzugehen und die häufigsten Anfangsfehler zu vermeiden.\n\n## Kapitel 2: Deine Rolle verstehen – was sich wirklich ändert\nDu klärst, was deine neue Aufgabe konkret ist, wo deine alten Gewohnheiten nicht mehr funktionieren und was dein Chef, dein Team und die Firma realistisch von dir erwarten.\n\n## Kapitel 3: Vom Kollegen zum Vorgesetzten – Nähe und Distanz finden\nDu lernst, wie du mit ehemaligen Kollegen und Freunden im Team umgehst, ohne dich künstlich zu verstellen oder deine Autorität zu verspielen.\n\n## Kapitel 4: Dein Team kennenlernen – mit Augenmaß zuhören\nDu findest heraus, wer in deinem Team wie arbeitet, was die Menschen antreibt und welche stillen Konflikte es gibt – bevor du irgendetwas veränderst.\n\n## Kapitel 5: Aufgaben verteilen, ohne sich unbeliebt zu machen\nDu lernst, Arbeit sinnvoll abzugeben, klare Absprachen zu treffen und trotzdem die Übersicht zu behalten, statt alles selbst zu machen.\n\n## Kapitel 6: Rückmeldung geben – Lob und Kritik, die ankommen\nDu übst, deinem Team ehrliches Feedback zu geben, das konkret bleibt und wirkt – statt Konflikte auszuweichen oder Menschen zu verletzen.\n\n## Kapitel 7: Schwierige Gespräche führen\nDu bekommst eine klare Vorbereitung und Gesprächsstruktur für die unangenehmen Fälle: schlechte Leistung, Querelen im Team, Kündigungsgespräche und Widerstand gegen deine Entscheidungen.\n\n## Kapitel 8: Entscheiden und dazu stehen\nDu lernst, Entscheidungen mit den Mitteln zu treffen, die du hast, sie verständlich zu begründen und auch bei Gegenwind durchzuhalten.\n\n## Kapitel 9: Deine eigene Haltung – Führung, die zu dir passt\nDu ziehst Bilanz: Welche Werte leiten dich, wo sind deine Grenzen, und wie entwickelst du einen Führungsstil, den du langfristig glaubwürdig leben kannst?",
+  "usage": {
+    "in": 240,
+    "out": 694,
+    "thinking": 10
+  },
+  "costUsd": 0.008358359999999999,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Phala",
+  "latencyMs": 6176,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:24:35.204Z"
+}

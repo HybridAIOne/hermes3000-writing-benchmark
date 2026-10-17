@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "glm-5.3",
+  "run": 1,
+  "text": "Es ist Montagmorgen, kurz nach acht. Du stehst vor der Tür deines Mitarbeiters Thomas und überlegst zum dritten Mal, ob du jetzt klopfen sollst oder lieber noch einen Kaffee holst. Thomas hat in der letzten Woche zwei Kundenmails falsch beantwortet, eine Frist verpasst und am Freitag im Teammeeting genervt abgebissen, als eine Kollegin nachhakte. Du weißt: Das Gespräch muss heute stattfinden. Und trotzdem schiebst du es seit Tagen vor dir her wie eine Rechnung, die man nicht öffnen will.\n\nDas ist normal. Die meisten Teamleiter, die ich kenne, verbringen mehr Zeit mit dem Ausweichen schwieriger Gespräche als mit den Gesprächen selbst. Wir schreiben die Botschaft erst mal per Mail, hoffen, dass es sich von selbst erledigt, oder warten, bis der Druck von oben so groß wird, dass nichts mehr geht. Das Problem: Je länger du wartest, desto schwerer wird das Gespräch. Aus einer kleinen Unpässlichkeit wird ein Muster, aus einem Missverständnis ein Konflikt, aus einem Konflikt manchmal eine Kündigung, die niemand wollte.\n\nDabei sind schwierige Gespräche keine Charakterfrage. Du musst kein geborener Verhandlungsführer sein, um einem Mitarbeiter ehrlich zu sagen, dass seine Leistung nicht reicht, dass sein Verhalten im Team stört oder dass eine Beförderung diesmal nicht klappt. Es ist eine Frage von Haltung, Vorbereitung und ein paar konkreten Techniken, die du üben kannst.\n\nIn diesem Kapitel geht es nicht darum, wie du solche Gespräche angenehmer machst – das sind sie selten. Es geht darum, wie du sie führst, bevor sie sich von selbst führen. Und wie du danach wieder auf Augenhöhe mit dem Menschen arbeiten kannst, der dir gegenübersitzt. Fangen wir mit dem Anfang an, denn der entscheidet meist schon, wie das Gespräch endet.",
+  "usage": {
+    "in": 163,
+    "out": 437,
+    "thinking": 0
+  },
+  "costUsd": 0.00211064,
+  "finish": "stop",
+  "reportedModel": "z-ai/glm-5.3",
+  "upstream": "DeepInfra",
+  "latencyMs": 3278,
+  "meta": [],
+  "at": "2026-10-17T17:24:21.783Z"
+}

@@ -1,0 +1,120 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„auch wenn du bisher Kollegin oder Kollege im Team warst und nicht sofort alles wissen musst“ – schiefe Verknüpfung: Das zweite Glied gehört nicht in den Konzessivsatz.",
+          "„Schaffe verlässliche Abläufe im Team“ – Routinen erst nach Delegation, Entscheidungen und schwierigen Gesprächen; das bricht den Aufbau.",
+          "„einfache Besprechungs- und Rückmelderoutinen“ – Rückmeldung überschneidet sich mit Kapitel 7 („Probleme früh, konkret und respektvoll an“).",
+          "„Entwickle deine eigene Haltung“ – blasse, austauschbare Titel ohne Bild aus dem Alltag der Zielgruppe.",
+          "„was die einzelnen Personen brauchen, um gut arbeiten zu können“ – floskelhaft."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Dein erster Tag: Kläre, wofür du verantwortlich bist“ – Der Rollenwechsel gegenüber den Kollegen gehört eher an den ersten Tag als die Klärung mit dem Vorgesetzten.",
+          "„Du gibst konkrete Rückmeldungen“ – leichte Überschneidung mit Kapitel 7 („wiederholte Fehler … direkt an“).",
+          "„Organisiere die Zusammenarbeit im Alltag“ – sehr allgemeiner Kapitelzuschnitt.",
+          "„Gestern Kollege, heute Teamleiter“ – Die Formulierung schließt Teamleiterinnen aus, während der übrige Text neutral bleibt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„dich gegenüber deinem Chef abgrenzst“ – falsche Verbform, richtig: „abgrenzt“.",
+          "„Wie du …“ – Die Kapitelbeschreibungen sind durchgehend Satzfragmente statt vollständiger Sätze.",
+          "„Reden, bevor es brennt“ / „Das schwierige Gespräch“ – Kapitel 5 und 6 überschneiden sich (Probleme früh ansprechen).",
+          "„was in deinen ersten Tagen als Teamleiter wirklich zählt“ – Füllwort „wirklich“.",
+          "„Die ersten Wochen ohne Gebrauchsanleitung“ und „Vom Kollegen zum Vorgesetzten“ – Die Trennung zwischen Kapitel 1 und 2 ist unscharf."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„schlechte Nachrichten von oben“ (Kap. 7) vs. „vertrittst Entscheidungen, die du nicht getroffen hast“ (Kap. 8) – Überschneidung.",
+          "„Streit im Team“ (Kap. 7) vs. „Streit mit Kunden“ (Kap. 9) – Konfliktthemen sind auf mehrere Kapitel verteilt.",
+          "„Wie du den Rollenwechsel … gestaltest“ – als einziges Kapitel nicht mit „Du …“ formuliert, also uneinheitlich.",
+          "„Der erste Tag“ – Titel und Beschreibung („in den ersten Wochen“) passen nicht zusammen.",
+          "„für das, was Führung wirklich braucht“ – Füllwort und Floskel."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Zum Aufbau: …“ – nicht verlangter Zusatzabschnitt.",
+          "„Sag klar, was du willst“ – überschneidet sich mit Kapitel 4 (Aufgaben ordentlich abgeben).",
+          "„Rückmeldungen im Alltag“ (Kap. 6) vs. Kapitel 7 – leichte Überschneidung.",
+          "„Pass auf dich auf“ / „Wofür du stehst“ – Die Abgrenzung zwischen Kapitel 9 und 10 ist dünn.",
+          "„und warum das Verhältnis zu deinen früheren Kollegen nicht bleiben kann, wie es war“ – sehr lange Kapitelbeschreibung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "B",
+      "D",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 5573,
+    "out": 3124,
+    "thinking": 1499
+  },
+  "costUsd": 0.084772
+}

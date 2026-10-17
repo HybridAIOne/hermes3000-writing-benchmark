@@ -1,0 +1,75 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„The chapel was supposed to be locked after midnight“: Die ausdrücklich verlangte Uhrzeit vier Uhr morgens wird nirgends etabliert. Nachtschicht und Dunkelheit allein erfüllen diese Vorgabe nicht.",
+          "„Not the way you mean.“: Eine formelhafte rätselhafte Antwort, die vor allem Spannung zurückhält, statt den Fremden individuell zu charakterisieren.",
+          "„They were dry, though it had been raining since dusk.“: Die trockenen Schuhe dienen als konventionelles Signal des Unheimlichen; ihre besondere Bedeutung wird eher nahegelegt als szenisch begründet."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„a wide-toothed comb, pale green, a single grey hair wound through its teeth like thread on a spool“: Das Schlussbild erfüllt die Vorgabe, wirkt aber stark arrangiert: Kamm und Haar illustrieren die zuvor erwähnte Haarpflege nahezu demonstrativ. Der Spulenvergleich schmückt das bereits aussagekräftige Detail zusätzlich aus.",
+          "„beside the hymnals no one opened“: Die pauschale Erzählerbehauptung ist weniger präzise als die sonst eng an Ines gebundene Wahrnehmung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„a half-circle of condensation was already shrinking“: Das Schlussbild ist physikalisch unzureichend vorbereitet. Weshalb die auf dem Holz ruhende Hand einen halbkreisförmigen Kondensationsfilm hinterlässt, bleibt unplausibel; als übernatürliches Zeichen wirkt der Effekt konstruiert.",
+          "„He wore a wool coat damp at the shoulders, though it hadn't rained since Tuesday.“: Die auffällige Wetterinformation markiert den Fremden schematisch als unheimlich. Seine spätere Erklärung, er suche Schutz vor der Kälte, lässt die Feuchtigkeit nicht zwingend rätselhaft werden.",
+          "„searching for the geometry of someone she had intubated“: „Geometry“ bleibt als Gegenstand des Wiedererkennens unpräzise. Die auffällige Metapher überlagert den einfachen Vorgang, einen früheren Patienten erkennen zu wollen.",
+          "„keeping her voice in the flat, neutral register she used for disoriented patients“: Der Nachsatz erklärt die professionelle Haltung, die bereits aus ihrer kontrollierten Ansprache hervorgeht."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 1503,
+    "out": 1025,
+    "thinking": 350
+  },
+  "costUsd": 0.013256
+}

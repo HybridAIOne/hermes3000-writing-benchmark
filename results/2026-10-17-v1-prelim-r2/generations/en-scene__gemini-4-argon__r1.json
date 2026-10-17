@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "text": "At four in the morning, the third-floor air tasted like copper and bleach. Sarah pushed open the heavy oak door of the interfaith chapel, looking for five minutes of quiet before the pre-dawn blood draws. \n\nA man sat in the third row. He wore a damp beige raincoat, though it hadn’t rained since Tuesday, and held a paper cup from the lobby vending machine between two flat palms. \n\nHospital policy dictated she ask if he was visiting a patient. Sarah stayed by the door, her sneakers sticking slightly to the linoleum. \"The cafeteria doesn't open until six,\" she said, keeping her voice pitched to the low hum of the ventilation system.\n\nHe didn’t turn around. The back of his neck was creased, his gray hair flattened on one side as if he’d been sleeping against a window. \n\n\"You switched shifts with Miller,\" he said. His voice was dry, entirely conversational. \"You usually don't work Fridays, Sarah.\"\n\nHer hand stayed on the brass push-plate of the door. She mentally ran through the charts on the ICU floor, looking for a matching last name, an estranged father, a confused uncle. Her ID badge was clipped to her scrub pocket, facing inward. He couldn't have read it.\n\n\"Sir,\" she said, the word automatic. \"Do you have someone upstairs?\"\n\nHe finally tilted his head, just enough for her to see the sharp profile of his nose and a dark bruise yellowing beneath his jaw. He set the paper cup down on the carpeted kneeler between his feet. Inside the cup, three quarters and a house key sat at the bottom of an inch of cold coffee.",
+  "usage": {
+    "in": 89,
+    "out": 352,
+    "thinking": 0
+  },
+  "costUsd": 0.003698,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 32056,
+  "meta": [],
+  "at": "2026-10-17T17:18:31.440Z"
+}

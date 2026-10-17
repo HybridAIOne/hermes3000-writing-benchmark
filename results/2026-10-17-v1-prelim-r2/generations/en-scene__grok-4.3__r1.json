@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "Lena pushed the chapel door with her shoulder and let it close behind her. The room held the usual hush, the kind that came from thick carpet and no windows. She walked to the front and sat in the end of a pew, her back against the wall so she could see the door. Her shoes were still damp from the rain that had come through the ambulance bay earlier.\n\nA man sat three rows back on the opposite side. He had the look of someone who had been there a while, coat unbuttoned, one ankle resting on the opposite knee. When she glanced over he was already watching her.\n\n“Lena,” he said.\n\nShe kept her hands in her lap. The name came out level, the way the unit clerk called it when a chart needed signing. She didn’t answer. The radiator along the side wall knocked once and settled.\n\nHe looked forward again, toward the empty stand where the book usually sat. His fingers tapped once against his shin, then stopped. Outside, a cart rolled past in the corridor, one wheel catching and releasing with each turn.\n\nLena stood. The cushion made a small sound as it lifted. She walked the side aisle toward the door, the same way she had come in. At the last pew she noticed the cuff of his coat had slipped back on his wrist, revealing a thin red line where a watchband had been. The skin there looked newer than the rest of his hand.",
+  "usage": {
+    "in": 244,
+    "out": 1276,
+    "thinking": 985
+  },
+  "costUsd": 0.003495,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "upstream": "xAI",
+  "latencyMs": 26844,
+  "meta": [],
+  "at": "2026-10-17T17:21:04.390Z"
+}

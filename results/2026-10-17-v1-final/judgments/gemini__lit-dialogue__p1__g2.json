@@ -1,0 +1,111 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "in seinem leeren Tee (schiefe Metapher/Semantik: eine Tasse kann leer sein, der Tee selbst nicht)",
+          "Man gewöhnt sich ja an den bitteren Geschmack (abgegriffene, überdeutliche Holzhammer-Metapher)",
+          "Nein, du hebst alles auf. Jeden Zettel, jedes Wort. Bis kein Platz mehr zum Atmen ist. (Konflikt und Charaktervorwurf werden hier direkt ausformuliert, statt unausgesprochen im Subtext zu bleiben)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 4,
+        "aufgabe": 3,
+        "fehler": [
+          "Die Bedienung kommt. Sie bestellen. Als sie fortgeht, rückt Jonas seine Tasse genau in die Mitte. (schwerer Logikbruch: Sie bestellen gerade erst, aber die Tasse steht bereits auf dem Tisch)",
+          "Mara nimmt einen Schluck Kaffee. / Jonas: Der ist kalt. (Logikbruch: Der Kaffee wurde vor wenigen Sekunden überhaupt erst bestellt, wurde nie serviert und ist nun plötzlich kalt)",
+          "Für einen Augenblick sieht es aus, als wolle er etwas anderes sagen. (unsaubere Regieanweisung: spekulativ und erzählend statt darstellend)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "Jan rührt in einer Tasse, in der noch nichts ist. / Die Kellnerin stellt zwei Tassen ab. (Logikbruch: Er rührt in einer leeren Tasse, bevor die Kellnerin die Tassen überhaupt erst bringt)",
+          "Jan setzt sich langsam. (Logikbruch: Nach der Aufforderung 'Setz dich' zu Beginn und dem Abstellen des Kaffees vor ihm saß er längst; es gab keine Anweisung, dass er aufgestanden wäre)",
+          "Ein kurzes Lächeln, das sofort wieder verschwindet. (abgedroschene Standard-Regieanweisung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "Ich konnte sie noch aufhalten, wenn du etwas anderes willst. (Tempus-/Modusfehler: gemeint ist 'Ich könnte sie noch aufhalten')",
+          "Als Jakob kommt, nimmt er seine Jacke vom zweiten Stuhl. / Martin nimmt die Jacke vom Stuhl neben sich und hängt sie an den Haken. (Logikbruch in der Choreografie: Er nimmt dieselbe Jacke zweimal vom Stuhl)",
+          "Die anderen Plätze waren frei. (unlogische Replik auf 'Du sitzt noch immer hier')"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "PETER: Willst du etwas bestellen? / PETER: Wasser. (Logikbruch: Hanna bestellt nichts, nur Peter bestellt ein Wasser, hat aber am Ende auch gar kein Getränk für sie bezahlt oder bestellt, während ihre Tasse schon da war)",
+          "Sie lächelt traurig und schiebt ihm die Tasse zu. (Kitsch und unplausible Geste: Warum schiebt sie ihm am Ende des Treffens ihre benutzte Kaffeetasse hin, zumal er gerade sagte, er trinke dort keinen Kaffee?)",
+          "Den mit den drei Zeilen. / Ich dachte, du hättest ihn verbrannt. (überdramatisches Seifenoper-Klischee)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "E",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3289,
+    "out": 1003,
+    "thinking": 0
+  },
+  "costUsd": 0.016608
+}

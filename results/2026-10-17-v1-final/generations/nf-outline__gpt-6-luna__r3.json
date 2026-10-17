@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "gpt-6-luna",
+  "run": 3,
+  "text": "# **Führen ohne Titel**\n\n1. **Dein erster Tag in der neuen Rolle**  \n   Du findest einen guten Einstieg, indem du erst zuhörst, Fragen stellst und nicht sofort alles verändern willst.\n\n2. **Kläre, wofür du verantwortlich bist**  \n   Du besprichst mit deiner Führungskraft, was von dir erwartet wird, welche Entscheidungen du treffen darfst und wo deine Grenzen liegen.\n\n3. **Lerne dein Team und seine Arbeit kennen**  \n   Du verschaffst dir ein Bild davon, wer was kann, was den Alltag erschwert und worauf das Team stolz ist.\n\n4. **Schaffe Klarheit bei Zielen und Prioritäten**  \n   Du machst verständlich, was zuerst zählt, was warten kann und woran ihr erkennt, dass die Arbeit gut erledigt ist.\n\n5. **Gib Verantwortung sinnvoll ab**  \n   Du überträgst Aufgaben mit einem klaren Ziel und genügend Spielraum, ohne dich aus der Verantwortung zu ziehen.\n\n6. **Triff Entscheidungen und erkläre sie**  \n   Du lernst, auch mit unvollständigen Informationen abzuwägen, rechtzeitig zu entscheiden und deine Gründe offen zu benennen.\n\n7. **Führe schwierige Gespräche**  \n   Du bereitest Gespräche über Fehler, Leistung oder Konflikte so vor, dass du klar bleibst, zuhörst und konkrete nächste Schritte vereinbarst.\n\n8. **Gestalte die Zusammenarbeit im Alltag**  \n   Du etablierst einfache Absprachen und Routinen, damit Informationen fließen und Reibungen früh angesprochen werden.\n\n9. **Finde deine eigene Haltung als Führungskraft**  \n   Du entwickelst eine Art zu führen, die zu dir passt, und lernst, aus Erfolgen, Fehlern und Rückmeldungen weiterzuwachsen.",
+  "usage": {
+    "in": 123,
+    "out": 824,
+    "thinking": 440
+  },
+  "costUsd": 0.0004243,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 10765,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:48:08.329Z"
+}

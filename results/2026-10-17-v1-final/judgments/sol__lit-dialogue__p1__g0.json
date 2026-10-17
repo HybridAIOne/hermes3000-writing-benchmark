@@ -1,0 +1,114 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Jan rührt in einer Tasse, in der noch nichts ist.“ – Die Tasse ist nicht eingeführt; die bestellten Tassen werden erst später gebracht. Als Nervositätsgeste verständlich, in der Requisitenführung aber unsauber.",
+          "„Jan setzt sich langsam.“ – Ein erneutes Hinsetzen wird beschrieben, ohne dass zuvor ein Aufstehen gezeigt wurde. Die körperliche Handlung bleibt dadurch unklar.",
+          "„Gut. Sie fragt nicht mehr nach dir.“ – Die beiläufige Nachfrage wird zur passgenauen Verletzung. Das transportiert den Konflikt zuverlässig, wirkt aber wie ein vertrautes Versatzstück solcher Versöhnungsszenen.",
+          "„Nur den Kaffee.“ / „Nur den Kaffee.“ – Der spiegelnde Schluss ist stimmig, aber sehr erwartbar; er rundet die Annäherung etwas zu demonstrativ ab."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ob es hier noch was zu reparieren gibt.“ – Die Bohrmaschine wird ausdrücklich zur Beziehungsmetapher erklärt. Damit tritt an die Stelle des bis dahin tragfähigen Subtexts eine fast ausgesprochene Versöhnungsfrage.",
+          "„Ich werf nichts weg, nur weil es mal Ärger macht.“ – Zusammen mit „Ich hab mich dran gewöhnt, dass sie leckt“ häufen sich auffällig passgenaue Gegenstandsmetaphern. Die Figuren sprechen stellenweise erkennbar für die Konstruktion der Szene.",
+          "„Gut. […] Sie lässt dich grüßen.“ / „Wirklich?“ / „Nein.“ – Schlagkräftig, aber pointenhaft arrangiert. Der kurze Schlagabtausch klingt eher nach zugespitztem Bühnenwitz als nach unwillkürlich verletzendem Alltagsgespräch."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„rührt in einer leeren Tasse“ / „Ich hab nicht bestellt.“ – Die auffällige Requisite erhält keine plausible Herkunft. Das anschließende Gespräch über den vermeintlich kalten Kaffee verstärkt den Eindruck einer konstruierten Geste.",
+          "„nimmt Julias Bestellung auf, geht wieder“ / „Sie greift nach ihrer Tasse“ – Das Bringen der Bestellung fehlt. Gerade weil einzelne Bedienungshandlungen ausdrücklich inszeniert werden, fällt dieser Anschlussfehler auf.",
+          "„Erinnerst du dich an den Sommer am See?“ – Die gemeinsame Vergangenheit wird über eine unspezifische Erinnerungsformel behauptet. Ein individuelles Detail, das diese Freundschaft unverwechselbar machen könnte, bleibt aus.",
+          "„das Horn klingt lang und dunkel“ – Der atmosphärische Schluss legt eine konventionelle Melancholie über die Szene, statt ihre konkrete Spannung weiterzuentwickeln."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„nimmt er seine Jacke vom zweiten Stuhl“ / „Martin nimmt die Jacke vom Stuhl neben sich“ – Dieselbe Handlung wird am Ende wiederholt, ohne dass die Jacke zwischenzeitlich zurückgelegt wurde. Ein klarer Anschlussfehler.",
+          "„Ich konnte sie noch aufhalten, wenn du etwas anderes willst.“ – Für die gegenwärtige Möglichkeit wäre „könnte“ erforderlich. Das Präteritum passt hier nicht zum anschließenden Angebot.",
+          "„Du hast ihn glatt gestrichen.“ – Diese für den Dialog entscheidende Handlung wurde nicht gezeigt. Sie ist zwar nachträglich erschließbar, wirkt aber wie ein eigens für Jakobs Entlarvung ergänztes Detail."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Sie bestellen. Als sie fortgeht, rückt Jonas seine Tasse genau in die Mitte.“ – Bestellen und Servieren werden unklar ineinandergeschoben; unmittelbar nach der Bestellaufnahme steht bereits eine Tasse vor Jonas.",
+          "„Für einen Augenblick sieht es aus, als wolle er etwas anderes sagen.“ – Die Regieanweisung deutet eine innere Absicht aus, statt eine präzise spielbare Geste zu setzen. Der Schluss erklärt damit gerade jene Unausgesprochenheit, die der Dialog tragen sollte.",
+          "„Du machst das immer noch.“ / „Was?“ / „Nichts.“ / „Gut.“ – Der Austausch signalisiert Spannung, gibt ihr aber wenig spezifischen Gehalt. Das Verschweigen wird zur austauschbaren Dialogmasche.",
+          "„Ich dachte, du magst inzwischen lieber die Wand im Rücken.“ – Die Wachsamkeitsmetapher ist deutlich aufgeladen, erhält aber keinen konkreten situativen Anhalt. Der Satz wirkt stärker auf Subtext hin entworfen als natürlich gesprochen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "A",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2841,
+    "out": 1694,
+    "thinking": 465
+  },
+  "costUsd": 0.022622
+}

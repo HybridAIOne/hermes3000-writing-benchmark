@@ -1,0 +1,77 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Drei. Das Fahrrad, der Stoffbeutel, die Kiste.“ Die ausdrücklich nachgereichte Zählung wirkt etwas demonstrativ: Die drei Fahrgäste sind bereits eindeutig eingeführt. Eine kleine stilistische Übermarkierung, kein Vorgabenverstoß."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Das Rattern des Seils setzte wieder ein.“ Die Rückfahrt beginnt, ohne dass nach dem Aussteigen das Schließen der Absperrung, das Anheben der Rampe oder ein entsprechender Bedienungsschritt erkennbar wird. Gerade angesichts der sonst ausführlich beschriebenen Handgriffe bleibt der Betriebsablauf unzureichend vermittelt.",
+          "„Sie hörte, wie das Seil über eine Rolle sprang und wieder in die Führung fand.“ Dass Ilse diesen potenziell gefährlichen Vorgang anschließend als normal abtut, beschädigt die technische Glaubwürdigkeit. Ein gewöhnliches Betriebsgeräusch müsste anders beschrieben werden.",
+          "„Drüben kommt man aber raus, oder?“ / „Und wenn man die Anleger nicht sieht?“ / „Da ist ja wirklich Land“. Alle drei Fahrgäste bedienen dieselbe Nebelangst. Das erzeugt eine Wiederholungsmasche und lässt besonders den Jungen am Schluss wie einen Stichwortgeber wirken.",
+          "„Ilse sah auf die Zahl neben seinem Namen, bis der Bildschirm heller wurde.“ Welche Zahl gemeint ist und weshalb das Display erst jetzt heller wird, bleibt unklar. Die auffälligen Details tragen weder zur Handlung noch zu Ilses Wahrnehmung überzeugend bei.",
+          "„Der Morgen war kalt, aber nicht kalt genug, dass das Wasser am Geländer gefror.“ Kälte und Nebel etablieren die Jahreszeit nur allgemein; der ausdrücklich verlangte November bleibt unkenntlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Darunter das kleine Bild, das er selbst eingestellt hatte, als er im Sommer hier gewesen war“. Das ist eine ausdrückliche rückblickende Hintergrundinformation und widerspricht der Vorgabe „ohne Rückblenden-Exposition“. Der Anruf benötigt diese Erklärung nicht.",
+          "„… und als die Rampe kam, war sie die Erste, die ging“. Das Mädchen ist auf dieser Überfahrt der einzige eingeführte Fahrgast. „Die Erste“ suggeriert weitere Aussteigende und erzeugt eine vermeidbare Unstimmigkeit, ohne bereits einen zusätzlichen Fahrgast zu etablieren.",
+          "„… hockte sich neben das Hinterrad und drehte zweimal an der Schraube.“ Die Reparatur bleibt technisch beliebig: Weder die betreffende Schraube noch der Zusammenhang zwischen ihrem Verstellen und der schleifenden Bremse werden verständlich. Die scheinbar präzise Handbewegung ersetzt hier die sachliche Präzision.",
+          "„Sie dachte an nichts Bestimmtes. Sie dachte an die Bremse von dem Mädchen und daran, dass Kahle immer zu weit links fuhr.“ Die unmittelbar folgende Aufzählung konkreter Gedanken unterläuft den ersten Satz. Zugleich erklärt der Text Ilses Ausweichen, statt es allein durch ihr Verhalten beim Anruf sichtbar zu machen.",
+          "„… als wollte es auch hinüber“ / „… als wollte er sich verabschieden, wie man sich von jemandem verabschiedet, mit dem man eine Strecke gegangen ist“. Die wiederholten Vergleichskonstruktionen deuten bereits verständliche Beobachtungen zusätzlich aus; besonders der zweite Vergleich bremst und verwässert die Szene."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 4811,
+    "out": 1538,
+    "thinking": 632
+  },
+  "costUsd": 0.025002
+}

@@ -1,0 +1,111 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Logikbruch bei der Uhrzeit: Am Anfang ist es „06:42 Uhr. Noch drei Minuten“ (Abfahrt also 6:45 Uhr). Dann kommt ein Fahrgast „Eine Minute vor dreiviertel sieben“ (6:44 Uhr), danach legt Ilse ab, die Fähre fährt auf den Strom hinaus, und plötzlich heißt es: „Es war vierundvierzig Minuten nach sechs“ (wieder 6:44 Uhr).",
+          "Erklärende Exposition am Ende („Es würde um das Haus gehen. Oder um die Werft-Rechnung [...] Oder um das Betreute Wohnen in Lüneburg, von dem er neulich ein Prospekt geschickt hatte“) wirkt wie das Abarbeiten von Plot-Stichpunkten statt organischer Innensicht.",
+          "Umgangssprachliches Genus: „ein Prospekt“ (standardsprachlich korrekt: einen Prospekt, da der Prospekt)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Schwerer Logikbruch im ersten Satz: „Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur an dem Geräusch erkannte, das es machte: ein leises Klopfen, wenn die Strömung die Fähre gegen die Bohlen am Anleger drückte.“ (Die Fähre liegt am diesseitigen Anleger; das Klopfen gegen die Bohlen ist das eigene Ufer, nicht das andere Ufer auf der gegenüberliegenden Elbseite).",
+          "Stilistische Unschärfe: „Die Planken waren nass, nicht vom Regen, sondern von allem.“ („von allem“ klingt nach bedeutungsschwerer Pose ohne konkreten Sinn)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "Leichte Redundanz in der Figurenzeichnung: Sowohl bei den Fahrgästen als auch beim Anruf am Ende wird das Motiv des ungerührten Schweigens/Nichtreagierens fast formelhaft durchgespielt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Sprachliche Unschärfe am Ende: „Auf dem Display erschien sein Name ein zweites Mal, als müsste sie ihn erst lesen.“ (Wenn das Telefon durchgehend klingelt/vibriert, steht der Name dauerhaft da; falls ein zweiter Anrufversuch gemeint ist, fehlt das vorherige Aufhören).",
+          "Unklare Beschreibung: „Im Fenster stand ihr Gesicht, gelblich und schmal.“ („stand“ für ein Spiegelbild in der Scheibe ist schief gewählt)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 4,
+        "stil": 3,
+        "aufgabe": 2,
+        "fehler": [
+          "Grammatikfehler: „Der Motor kam husten, dann ruhig.“",
+          "Vorgabe c4 verletzt: Der Anrufer wird nicht als Jonas benannt („sie erkannte den Namen, ohne ihn lesen zu müssen“).",
+          "Massive Kontinuitäts- und Logikbrüche beim Einsteigen: Ilse legt ab („Die Fähre löste sich von der Anlegestelle“), nimmt dann am Ufer den ersten Fahrgast auf, legt wieder ab („ließ die Rampe hochschwingen“), dann kommt plötzlich eine Radfahrerin „den Deich herunter“ und steigt ein, obwohl die Fähre schon abgelegt hat.",
+          "massiver Logikbruch beim Telefon: „begann das Telefon in ihrer Jackentasche zu vibrieren. Sie hatte es in den Steuerstand gelegt, neben die Thermoskanne, und das Summen klang auf dem Blech lauter“ – am Ende heißt es wieder: „Ilse ließ es in der Jacke.“",
+          "Sinnwidriges Adjektiv/Metapher: „Die Bücher klirrten nicht, sie waren nur schwer.“ (Warum sollten Bücher klirren?)."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "B",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 8295,
+    "out": 1157,
+    "thinking": 0
+  },
+  "costUsd": 0.02816
+}

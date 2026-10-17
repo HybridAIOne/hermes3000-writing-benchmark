@@ -1,0 +1,125 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Als er am Westufer ausstieg“ / „Ilse ließ die Fähre am Westufer liegen“: Nach der zweiten Überfahrt liegt die Fähre bereits am Westufer. Frau Timms anschließende Überfahrt müsste zum Ostufer führen; ohne erzählte Rückfahrt liegt die Fähre danach dennoch wieder im Westen.",
+          "„Um halb sieben […] obwohl es längst Tag sein sollte“: Anfangslogik und Jahreszeit passen nicht zusammen. Im November ist es bei Hitzacker um halb sieben noch nicht längst hell.",
+          "„Wenn jemand käme, würde sie hupen“: Der Satz weist das Hupen Ilse zu; anschließend wird es als Signal der wartenden Fahrgäste erklärt. Der Bezug müsste eindeutig sein.",
+          "„eineNummer“: Fehlendes Leerzeichen.",
+          "„geduldig wie sie selbst“: Der Schluss erklärt Ilses Charakter ausdrücklich, statt die zuvor gezeigte Geduld wirken zu lassen. Auch die wiederholten Verallgemeinerungen über Menschen und Fluss überfrachten die ansonsten anschauliche Alltagsszene."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„das Deck, die drei Menschen, der Hund und der Nebel“: An Bord befinden sich einschließlich Ilse vier Menschen. Die Aufzählung unterschlägt die Perspektivfigur, obwohl sie ausdrücklich den verbleibenden sichtbaren Raum erfasst.",
+          "„nicht weil sie ihn brauchte, sondern weil er die Planken wärmte“: Der laufende Motor als Plankenheizung bleibt technisch und als alltägliche Betriebspraxis unzureichend plausibilisiert.",
+          "„Es war Sonntag gewesen, dachte sie, oder nein, es war nicht Sonntag“: Der kurze Erinnerungsansatz unterbricht die präzise gegenwärtige Szene, ohne etwas Konkretes beizutragen.",
+          "„Das Telefon vibrierte in ihrer Hand wie etwas Lebendiges“: Konventioneller Vergleich, der hinter der sonst deutlich individuelleren Beobachtung und Dialogführung zurückbleibt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„zog sie den Motor zurück“: Unpassende technische und sprachliche Bezeichnung. Zurückgenommen wird das Gas beziehungsweise der Bedienhebel, nicht der Motor.",
+          "„schob die Hände fester um den Schaltknüppel“: Unidiomatische Verbindung. Hände lassen sich fester um etwas schließen, nicht fester darum schieben.",
+          "„Ist das normal, dass man nichts sieht?“ fragte er.: Nach der schließenden Anführung fehlt das Komma vor dem Begleitsatz.",
+          "„Immerhin die letzte Seilfähre auf diesem Stück Elbe“: Der Dialog transportiert auffällig eine Information aus der Aufgabenstellung. Für die konkrete Gesprächssituation klingt die Bemerkung erklärend statt beiläufig.",
+          "„Man sieht die andere Seite kaum“ / „Ist das normal, dass man nichts sieht?“: Die beiden Fahrgastfragen erfüllen nahezu dieselbe Funktion. Zusammen mit den wiederholten Kälte-, Nebel- und Motorbeobachtungen entsteht eher eine Abfolge ähnlicher Feststellungen als eine sich entwickelnde Szene."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 3,
+        "fehler": [
+          "„der erste Fahrgast“ / „Die zweite Fahrgästin“: Es treten insgesamt nur zwei Fahrgäste auf. Der ausdrücklich verlangte dritte fehlt.",
+          "„Es gab nur einen Menschen, der um diese Zeit anrief“: Der Anrufer wird weder Jonas genannt noch anderweitig eindeutig als Jonas identifiziert. Seine Identität ist aus diesem Text nicht erkennbar.",
+          "„die Fähre löste sich vom Ponton“ / „Die zweite Fahrgästin kam in letzter Minute“: Die Fähre ist bereits abgefahren, bevor die zweite Fahrgästin erscheint und offenbar an Bord gelangt. Das ist ein unmittelbarer Anschlussfehler.",
+          "„Sie sah nur auf das Display, das sich durch den Stoff nicht zeigte“: Das Telefon bleibt in der Tasche; ein Blick auf sein Display wird trotzdem behauptet. Die Formulierung widerspricht der beschriebenen Sichtbarkeit.",
+          "„am Hitzacker Ufer“: Fehlerhafte Ortsadjektivbildung. Gemeint ist „am Hitzackerer Ufer“ oder „am Ufer bei Hitzacker“."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c3",
+          "c4"
+        ]
+      },
+      {
+        "label": "E",
+        "sprache": 2,
+        "stil": 2,
+        "aufgabe": 3,
+        "fehler": [
+          "„Ich stand am Steg“: Durchgehende Ich-Erzählung statt der geforderten personalen Erzählweise in der dritten Person.",
+          "„als er noch in Hamburg gewohnt hatte und einmal die Woche anrief“: Ausdrückliche Rückblenden-Exposition über Jonas; der anschließende Bericht über seinen Beruf setzt sie fort. Das widerspricht der Vorgabe, auf Rückblenden-Exposition zu verzichten.",
+          "„sie verschwanden beides“: Falsche Form für zwei bezeichnete Lebewesen; richtig wäre „beide“.",
+          "„wo man hintradieren konnte, wenn der Strom stärker war“: „hintradieren“ ergibt hier weder als Tätigkeit noch als nautischer Ausdruck einen nachvollziehbaren Sinn.",
+          "„er sagnte nichts“: Schreibfehler; richtig ist „sagte“."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c1"
+        ]
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 6904,
+    "out": 3454,
+    "thinking": 2048
+  },
+  "costUsd": 0.048348
+}

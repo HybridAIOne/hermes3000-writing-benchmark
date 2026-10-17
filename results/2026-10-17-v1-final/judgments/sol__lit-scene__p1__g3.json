@@ -1,0 +1,76 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Sie hielt die Hand darunter. Das Wasser schmeckte nach Eisen“: Der Handlungsschritt des Kostens fehlt. Gerade in dieser genau beobachteten Passage wirkt der Übergang von der Hand zur Geschmacksempfindung unsauber.",
+          "„Sie konnte die Schrift von hier aus nicht lesen. Sie wusste trotzdem, dass es die ihrer Mutter war.“: Der Schluss inszeniert eine Erkenntnis, deren Informationswert gering bleibt: Die Beschriftungsgewohnheit der Mutter wurde unmittelbar zuvor bereits erklärt.",
+          "„Das Haus war kleiner, aber nicht auf die Art, von der alle sprachen.“: Der pauschale Verweis auf „alle“ bleibt unpräzise und ruft das bekannte Heimkehrmotiv zunächst ausdrücklich auf, bevor der eigenständigere Heizkostenvergleich folgt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„dann mit dem Daumen gegen den Bart drücken“: Der Schlüsselbart steckt beim Aufschließen im Schloss und ist für den Daumen nicht erreichbar. Die konkrete Handlungsbeschreibung ist mechanisch nicht plausibel.",
+          "„wie etwas, das sich erst erinnern musste, wie man fließt“: Die abschließende Personifikation erklärt das Wasser zum Erinnerungsträger. Das wirkt gegenüber den zuvor nüchternen Beobachtungen gesucht und bedient eine vertraute poetische Formel.",
+          "„Sie wusste nicht, ob er von einer Tasse stammte. Sie wusste nur, dass ihre Mutter immer die Tasse mit dem abgesprungenen blauen Rand benutzt hatte.“: Die betonte Wiederholung behauptet einen Zusammenhang, den die Beobachtung des Halbkreises nicht ausreichend trägt. Die Erinnerung wirkt dadurch eher eingesetzt als ausgelöst.",
+          "„vom Wind oder von einer Hand dorthin getragen“: Die beliebige Alternative erweitert die Wahrnehmung nicht und erzeugt eine vage Bedeutsamkeit ohne konkreten Ertrag."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Jetzt stand es seit sieben Monaten leer. Der Notar hatte von einer Immobilie gesprochen“: Leerstand und Nachlasskontext legen den Tod der Mutter nahe, stellen ihn aber nicht eindeutig fest. Eine zentrale inhaltliche Vorgabe bleibt damit nur erschließbar.",
+          "„Ihr Körper wusste es vor ihr.“: Die körperliche Erinnerung wird nach der anschaulichen Türbewegung noch einmal mit einer geläufigen literarischen Formel erklärt.",
+          "„Sie hielt sie länger in der Hand, als nötig gewesen wäre.“: Der Satz markiert ausdrücklich die Bedeutung des Gegenstands, statt sie allein aus Judiths Verhalten und der anschließenden Kümmelerinnerung entstehen zu lassen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 1871,
+    "out": 1190,
+    "thinking": 466
+  },
+  "costUsd": 0.015642
+}

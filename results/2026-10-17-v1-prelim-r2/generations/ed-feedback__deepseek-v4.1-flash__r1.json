@@ -1,0 +1,18 @@
+{
+  "task": "ed-feedback",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "text": "1. „Ilse stellt den Motor an und wartete“ – Tempusbruch: Im Präteritum-Zusammenhang muss es „stellte“ heißen.\n\n2. „Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.“ – Logischer Widerspruch: Wenn die Fahrgäste bereits über die Rampe an Bord gegangen sind, kann Ilse die Rampe nicht erst danach heruntergelassen haben.\n\n3. „Ich hatte diesen Moment immer gemocht, dachte sie, wenn die Fähre sich vom Ufer löst.“ – Innerhalb des Gedankens wechselt die Zeit von Plusquamperfekt zu Präsens, obwohl der habituelle Nebensatz im Vergangenheitszusammenhang stehen müsste („löste“).",
+  "usage": {
+    "in": 346,
+    "out": 5614,
+    "thinking": 5427
+  },
+  "costUsd": 0.0034203000000000002,
+  "finish": "stop",
+  "reportedModel": "deepseek/deepseek-v4.1-flash",
+  "upstream": "InferenceNet",
+  "latencyMs": 31169,
+  "meta": [],
+  "at": "2026-10-17T17:19:51.465Z"
+}

@@ -1,0 +1,121 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die Hütte war enger, als er sie in Erinnerung hatte.“ – Bruch der personalen Perspektive: Ilse kann Jonas’ Erinnerung nicht kennen.",
+          "„Und wenn kein Wind ist?“ – unplausible Frage für jemanden, der sagt: „Ich weiß, wie sie funktioniert“; wirkt konstruiert für die Pointe.",
+          "„oben einen Knopf zu wenig geschlossen für das Wetter“ – umständlich formuliert.",
+          "„Krüger hob ebenfalls die Hand und stellte den Motor ab“ – danach „winkte Krüger herunter“: kleine Unschärfe in der Handlungsabfolge."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„unter dem alten Schöpfkelle-Topf“ – missglücktes Kompositum, zudem grammatisch holprig.",
+          "„ließen sich in den grauen Buhnen nieder“ – idiomatisch falsch, richtig: „auf den Buhnen“.",
+          "„Das Metall knirschte auf dem Kies“ – Ortslogik: Sie stehen auf Bohlen und Deck, nicht auf Kies.",
+          "„eher wie eine Feststellung, die er für eine spätere Rechnung notierte“ – erklärend statt zeigend und zu deutlich auf den Verkauf hingeschrieben.",
+          "Adjektivhäufung: „dunkelblauen Wollmantel“, „kleinen Hartplastikrollen“, „verwitterte Eichenholz“, „schweren Eisenkeil“, „kalten Stahlhebel“; zudem deutlich über 400 Wörter."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Er läuft",
+          ") „Dann ist er kaputt.“ – leichter Widerspruch zum Motorzustand.",
+          "Typografie: öffnende deutsche Anführungszeichen („) werden durchgehend mit geraden Zeichen (\") geschlossen.",
+          "„in diesem Mantel, der nicht für Bohlen gemacht war“ – schiefes Bild; gemeint sind eigentlich die Schuhe.",
+          "„und wartete, dass jemand ihm sagte, wohin er gehörte“ – leicht erklärend und überdeutlich.",
+          "„nie hatte abstellen können und irgendwann nicht mehr hatte abstellen wollen“ – etwas gesuchte Wendung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„und war erst angelegt“ – falsches Hilfsverb, richtig: „hatte erst angelegt“; außerdem eine Wiederholung der bereits erzählten Vorgeschichte.",
+          "„Vom Deich wehte der Wind Gras und Salz herunter“ – Salzluft an der Elbe bei Hitzacker ist sachlich falsch.",
+          "„ruhig und gleichgültig, wie er es seit Jahrhunderten tat“ / „Der Fluss hat keinen Fahrplan.“ – Klischees.",
+          "„Er läuft, weil du ihn jeden Morgen anschiebst“ – unklares Bild für einen Fährmotor.",
+          "„ich erzähl dir, was ich mir überlegt habe“ – rückt sehr nah an das Verkaufsthema; zudem ist es unlogisch, dass Ilse die gerade festgemachte Leine löst und sie ihm hinhält."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie löste die Leine wieder vom Poller“ vs. später „prüfte die Leine. Der Knoten saß.“ – Logikbruch: Die Leine wird nie wieder festgemacht.",
+          "„Reißverschluss seiner Jacke“ vs. „hatte seinen Mantel dunkel gemacht“ – Inkonsistenz bei der Kleidung.",
+          "„strich sich mit dem Handrücken über die Stirn, obwohl es regnete“ – unklare Logik des „obwohl“.",
+          "„Den Ersatzschlüssel ließ sie dort liegen. Den Haustürschlüssel nahm sie heraus.“ – die Schlüsselchoreografie am Ende ist verwirrend, die Entscheidung bleibt undeutlich.",
+          "„Ilse hätte ihm sagen können…“ / „Sie hätte sagen können…“ – wiederholte Satzmasche."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "E",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 8067,
+    "out": 3855,
+    "thinking": 2147
+  },
+  "costUsd": 0.109368
+}

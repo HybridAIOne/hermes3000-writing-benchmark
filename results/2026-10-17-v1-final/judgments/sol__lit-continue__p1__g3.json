@@ -1,0 +1,76 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Ilse bückte sich nach dem schweren Eisenkeil und schob ihn unter die Auffahrtsklappe.“ – Vor dem erneuten Ablegen wird dieser Keil nicht entfernt; die Betriebsabläufe bleiben dadurch räumlich und mechanisch unklar.",
+          "„Es klang nicht besorgt, eher wie eine Feststellung, die er für eine spätere Rechnung notierte.“ – Die Deutung legt Jonas’ Absicht sehr ausdrücklich fest. Zusammen mit „Wie einer, der sich die Schuhe nicht schmutzig machen wollte“ wird seine Distanz mehrfach ausgedeutet, statt dem Dialog und seinen Handlungen zu vertrauen.",
+          "„Sie würde heute noch die Spätschicht dranhängen. Wenigstens noch eine Stunde“ – Die Entscheidung wird vor der abschließenden Handlung vollständig erklärt. Dadurch verliert der Schluss an Spannung und Subtilität.",
+          "„bis das letzte Licht ganz aus dem Fluss gewichen war“ – Konventionelle poetische Ausschmückung, die gegenüber Ilses ansonsten sachlicher Wahrnehmung aufgesetzt wirkt.",
+          "„Die Strömung reicht“ bis „Es dauert noch“ – Mit rund 500 Wörtern die deutlichste Abweichung von der gewünschten Länge. Vor allem beschreibende Zusätze und wiederholte Distanzsignale wären ohne Substanzverlust kürzbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Sie nahm die Kanne in die Hand“ / „sah auf den Becher in ihrer Hand“ / „Sie nahm Hennings Becher vom Fensterbrett“ – Anschlussfehler bei den Gegenständen: Ilse hält zunächst die Kanne, dann unvermittelt einen Becher, bevor sie Hennings Becher überhaupt aufnimmt.",
+          "„Er hatte sich nicht verändert, und doch war alles an ihm anders.“ – Austauschbare, effektbetonte Gegensatzformel. Die anschließenden konkreten Beobachtungen vermitteln die Veränderung überzeugender als dieser vorangestellte Erklärungssatz.",
+          "„Es war noch eine Fahrt eingetragen, die von 17 Uhr“ – Die ausstehende Fahrt wird unmittelbar vor der Schlusswendung eingeführt, aber nicht in Ilses Entscheidung einbezogen. Ob sie weiter wartet oder mit Jonas zur Suppe geht, bleibt unnötig unklar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Sie hatte ihn seit zwanzig gesehen.“ – Unidiomatische Zeitkonstruktion. Für das frühere Entdecken wäre „vor zwanzig Minuten“ passend, für die fortdauernde Wahrnehmung etwa „schon seit zwanzig Minuten im Blick“.",
+          "„Als Kind hatte er jede Überfahrt vorn am Gatter gestanden“ / „für einen Augenblick sah sie den Jungen wieder“ – Zwei eng benachbarte Kindheitserinnerungen erfüllen nahezu dieselbe Funktion. Die zweite verliert dadurch etwas von ihrer Wirkung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2766,
+    "out": 1812,
+    "thinking": 1024
+  },
+  "costUsd": 0.023652
+}

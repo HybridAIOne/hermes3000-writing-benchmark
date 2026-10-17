@@ -1,0 +1,81 @@
+{
+  "task": "lit-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"**Orangen**\" – Überschrift in Markdown-Formatierung gehört nicht zum reinen Buchtext der Szene",
+          "\"Das Geräusch war zu laut.\" – abgegriffene Formel für Stille im leeren Haus",
+          "\"nicht aus Trauer, sondern aus einer Art Schwindel\" – erklärt die Emotion, statt sie allein dem Bild zu überlassen",
+          "\"gegen die Motten, gegen alles\" – die Reihung kippt leicht ins Manierierte",
+          "\"horchte ins Haus hinein, das nicht antwortete\" – konventioneller Schluss"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "Die zwanzig Jahre Abwesenheit werden nirgends benannt, sie sind nur über \"ein wenig kleiner als verabredet\" zu erschließen – zentrale Vorgabe der Aufgabe nur implizit erfüllt",
+          "\"Erst in der Küche roch sie es.\" – die Quitte liegt jedoch oben im Wäscheschrank, dass der Duft gerade in der Küche am stärksten sein soll, ist logisch wackelig",
+          "\"Sie hatte genickt, obwohl er es nicht sehen konnte.\" – verbrauchte Wendung",
+          "\"Kein Moder, wie sie erwartet hatte\" – syntaktisch doppeldeutig (\"kein Moder, anders als erwartet\" wäre gemeint)",
+          "\"Das wusste Judith genau. Sie hatte sie nie gekauft, nie gekocht, nie auch nur erwähnt.\" – überdeutliche Dreierreihung, die das Rätsel ausbuchstabiert"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Spüle aus angeschlagenem Emaille\" / \"zurück auf das Emaille\" – \"Emaille\" ist feminin, korrekt wäre \"aus angeschlagener Emaille\" bzw. \"auf die Emaille\"",
+          "\"und einmal auch etwas ganz anderes\" – plumper, ausgestellter Vorausdeutungs-Wink statt eines subtil angelegten Details",
+          "\"Zwanzig Jahre schrumpften auf die Breite einer Türschwelle zusammen.\" – behauptender Pathos-Satz, ein Klischee",
+          "\"wie ein gestrandetes Tier im Halbdunkel kauerte\" / \"eine chemische Geisterspur\" – überladene, kitschnahe Bilder",
+          "\"Geräusch auf den Dielen\" vs. \"Staub auf dem Parkett\" – widersprüchliche Angaben zum Boden; dazu \"keine modrige Fäulnis\" als Pleonasmus"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 4019,
+    "out": 2172,
+    "thinking": 1086
+  },
+  "costUsd": 0.059516
+}

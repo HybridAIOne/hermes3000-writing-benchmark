@@ -1,0 +1,120 @@
+{
+  "task": "lit-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„**Das Gewicht der Uhr**“ – Markdown-Überschrift gehört nicht zum geforderten reinen Buchtext",
+          "„Aber der Pendel schwang“ – standardsprachlich bei der Uhr „das Pendel“",
+          "„das Messinggewicht hing hoch oben an seiner Kette, fast unter dem Gehäuse“ – räumlich unklar, das Gewicht hängt in der Regel im Gehäuse",
+          "„Drei Wochen, hatte der Notar gesagt.“ – mehrdeutig: seit dem Tod oder Liegezeit bis zum Auffinden?",
+          "„als ginge es um einen Liefertermin“ – Vergleich etwas naheliegend"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Die Mutter wird an keiner Stelle erwähnt – die Kernvorgabe (Haus der verstorbenen Mutter) bleibt nur erschließbar",
+          "„dort lagen vier Quitten … Neben der fünften Quitte“ – irritierende Zählung, liest sich zunächst wie ein Logikfehler",
+          "„Eine Bewegung, die ihr Körper nach zwanzig Jahren noch kannte, ohne sie gefragt zu haben.“ – abgegriffenes Körpergedächtnis-Motiv",
+          "„Der Novembertag hatte sich nicht hineingetraut.“ – bemühte Personifikation",
+          "„Jemand hatte gedacht, hatte aufgeräumt, hatte es gut gemeint.“ – mechanische Dreierreihung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„dann mit dem Daumen gegen den Bart drücken“ – sachlich unmöglich, der Bart steckt im Schloss",
+          "„das ihre Mutter offenbar zuletzt vor langer Zeit benutzt hatte“ – unbeholfen, die Schlussfolgerung bleibt unbegründet",
+          "„Nicht aus Ehrfurcht, sagte sie sich“ – erklärt, statt zu zeigen",
+          "„wie etwas, das sich erst erinnern musste, wie man fließt“ – preziöser Schlussvergleich",
+          "Das tragende Detail (Halbkreis, Tasse) bleibt blass, Spiegel und Blatt konkurrieren damit"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ihr Körper wusste es vor ihr.“ – gängiges Körpergedächtnis-Motiv",
+          "Detailhäufung (Schuhe, Seife mit Haar, Kümmel, Kalender) schwächt das eine tragende Detail",
+          "„Eine Frau hielt darin eine Pfanne hoch, als hätte sie etwas gewonnen.“ – leicht verspielt für den Ton",
+          "„Sie hielt sie länger in der Hand, als nötig gewesen wäre.“ – formelhafte Wendung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„dass ich mich am Tresen festhalten musste“ – melodramatisch, zudem ist „Tresen“ für eine Wohnküche schief",
+          "„mit einer Wärme füllte, die nicht von der Heizung kam“ – Kitsch-Klischee",
+          "„Vor zwanzig Jahren hatte ich diese Dose zuletzt gesehen, leer, der Rand grau vor Staub.“ – unplausible, konstruierte Erinnerung",
+          "„stehengeblieben“ – nach amtlicher Regel bei wörtlicher Bedeutung „stehen geblieben“",
+          "„Wer hätte das auch tun sollen.“ – rhetorische Floskel, erklärt die Leere, statt sie zu zeigen"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "C",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 5592,
+    "out": 3422,
+    "thinking": 1952
+  },
+  "costUsd": 0.090808
+}

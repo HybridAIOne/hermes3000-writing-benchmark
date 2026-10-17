@@ -1,0 +1,115 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "B": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "E": {
+      "model": "gemma-4-31b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„den die anderen inzwischen offen mit den Augen rollen“ – falsche Konstruktion, korrekt etwa „über den die anderen … die Augen verdrehen“",
+          "„Kommt dir das bekannt vor? Dann bist du in guter Gesellschaft.“ – abgegriffene Ratgeberfloskel",
+          "„dass du danach ruhig schlafen kannst“ – Klischee",
+          "Mit gut 280 Wörtern in drei Absätzen etwas über dem Umfang; verlangt war ein Einstiegsabsatz"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„genervt abgebissen“ – falsches Verb, gemeint ist etwa „abgeblockt“ oder „patzig reagiert“",
+          "„mit dem Ausweichen schwieriger Gespräche“ – falsche Rektion, korrekt „mit dem Ausweichen vor schwierigen Gesprächen“",
+          "„Aus einer kleinen Unpässlichkeit“ – falsches Wort (Unpässlichkeit bedeutet leichtes Unwohlsein)",
+          "„bevor sie sich von selbst führen“ – schiefes Bild",
+          "Mit über 300 Wörtern in vier Absätzen deutlich zu lang für einen Einstiegsabsatz"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Du musst nicht erst eine Leitungsposition haben“ – weicht vom Fokus auf Teamleiter ab und erweitert die Zielgruppe",
+          "„Dafür brauchst du keine perfekte Formulierung. Du brauchst einen Anlass, etwas Zeit und die Bereitschaft, auch zuzuhören.“ – leicht formelhaft"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "Keine konkrete Szene: „Es geht um den Kollegen … Um die Mitarbeiterin … Oder um den Kunden“ ist eine Aufzählung statt eines Alltagsmoments",
+          "Wechsel von „man“ („schiebt man gerne vor sich her“) zur Du-Ansprache – inkonsistent",
+          "„Schwierige Gespräche gehören deshalb nicht zu den Ausnahmefällen im Führungsalltag, sondern zu den Aufgaben, an denen sich zeigt, wie du führst.“ – abstrakt, Füllsatz",
+          "„überlässt dem Zufall, dem Ärger und dem Gerede das Feld“ – gestelzt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Doch genau hier trennt sich die Spreu vom Weizen.“ – abgegriffene Redewendung",
+          "„Wir alle hassen diese Momente.“ – pauschal, Füllsatz",
+          "„Führung passiert nicht dann, wenn alles glattläuft“ – Kalenderspruch-Ton",
+          "Kein Ausblick auf das Kapitel, das Ende wirkt abgeschnitten"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "E",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 5225,
+    "out": 2307,
+    "thinking": 1096
+  },
+  "costUsd": 0.06704
+}

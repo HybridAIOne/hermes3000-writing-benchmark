@@ -1,0 +1,114 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Drinnen ist welcher“, sagte sie. — Die pronominale Referenz auf ‚Kaffee‘ über acht Sätze und einen Absatz hinweg ist selbst für gesprochene Sprache zu weit gespannt.",
+          "Vom Deich kam ein Lieferwagen herunter. [...] Der Wagen hielt oben an der Ausweiche — Räumlicher Widerspruch: Wenn er bereits vom Deich herunterkommt, hält er nicht mehr oben.",
+          "Das Seil hing dunkel über dem Wasser. — Sachlich unpräzise: Das Trag- oder Zugseil einer Elb-Seilfähre verläuft im Wasser, nicht frei in der Luft über den Strom."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "wenn sie das Ruder und die Leine nahm, so wie immer. — Grober Sachfehler: Eine Wagen- und Personenfähre auf der Elbe ist kein Ruderboot mit einer ‚Ducht‘ (Ruderbank), das eine 61-Jährige mal eben von Hand über den Strom zieht.",
+          "„Dann hältst du die Leine.\" — Unlogisch: Die Festmacherleine dient zum Anlegen am Poller, während der Überfahrt hält man keine Leine fest.",
+          "vertraut wie das eigene Kissen. — Stilbruch: Kitschiger und unpassender Vergleich für den Geruch von Motoröl und nassem Holz.",
+          "stand still, wie ein Tier, das sich totstellt. — Abgegriffenes, bemühtes Bild.",
+          "am gegenüberliegenden Ufer bogen sich die Weiden im Wind, als hätten sie es eilig. — Schiefes Bild."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Da dachte ich, ich nehme den Mietwagen für den Rest der Strecke.“ Er nickte den Deich hinauf, wo ein silberner Kombi mit Münchner Kennzeichen [...] parkte. — Logikfehler: Ein in Hamburg angemieteter Wagen hat in der Regel kein Münchner Kennzeichen, zudem passt der Satz „Er roch nach [...] der klimatisierten Luft aus dem ICE“ nicht zu einer längeren Autofahrt.",
+          "Eine Mappe aus schwarzem Leder ragte ein Stück aus seiner Reisetasche, die auf dem Koffer aufgesteckt war. Zu dick für einen bloßen Wochenendbesuch. — Holzhammer-Dramaturgie: Das plötzliche Auftauchen einer zusätzlichen Reisetasche samt verdächtiger Aktenmappe wirkt konstruiert.",
+          "lächelte er jetzt dieses schnelle, glatte Lächeln, das sie von den Fotos auf seiner Firmenwebseite kannte. — Klischeehafte Charakterisierung des Großstadt-Beraters."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Er läuft\", sagte Ilse. — Widerspricht der Prämisse im vorgegebenen Absatz („Du hast den Motor nicht mehr reparieren lassen“) oder ignoriert sie unmotiviert.",
+          "Die Fahrt dauerte elf Minuten, hin und zurück ein Vierteljahrstündchen — Rechenfehler und Stilbruch: Zweimal elf Minuten plus Be- und Entladen sind rund 25 Minuten, keine Viertelstunde; der Diminutiv ‚Vierteljahrstündchen‘ passt überhaupt nicht zur herben Erzählstimme.",
+          "wo der alte Außenborder unter einer Persenning hockte. — Sachfehler: Eine Elbfähre für Kraftfahrzeuge („der letzte Wagen, ein Kombi“) wird nicht mit einem kleinen Außenborder betrieben.",
+          "Sie schlang sie einmal um den Unterarm, prüfte das Gewicht und hielt Jonas das Ende hin. — Unlogische Handlung: Warum schlingt sie sich die Festmacherleine um den Arm, wenn sie sie Jonas geben und ablegen will?"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Er läuft\", sagte Ilse. — Widerspricht der Vorgabe aus dem Startabsatz, wonach der Motor defekt ist und Jonas das sofort bemerkt hat.",
+          "Das Wasser war jetzt bis an seine Knöchel durch das Leder gedrungen — Sachlich völlig übertrieben: Auf nassem Holz („auf den nassen Bohlen“) steht das Wasser nicht knöcheltief, sodass es von oben oder durch das Leder bis an die Knöchel zieht.",
+          "Der klingt wie ein Traktor mit Bronchitis. — Stilistisch abgedroschener Vergleich."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "C",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 4516,
+    "out": 1253,
+    "thinking": 0
+  },
+  "costUsd": 0.021562
+}

@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "Es ist Donnerstag, kurz nach halb fünf. Du hast den Satz schon dreimal im Kopf formuliert: auf dem Weg vom Kaffeeautomaten zurück an deinen Schreibtisch, beim Blick auf die Uhr, beim Öffnen der E-Mail vom Kunden, der sich zum zweiten Mal über die verspätete Lieferung beschwert. Der Satz lautet: „Markus, wir müssen über die Übergabe reden.“ Mehr nicht. Du weißt, dass Markus gleich in der Tür stehen wird, weil er um diese Zeit immer seine Ausdrucke holt. Und du weißt, dass du den Satz trotzdem nicht sagst. Stattdessen klickst du auf den Posteingang, liest dieselbe Nachricht zum vierten Mal und hoffst, dass sich das Problem von selbst erledigt.\n\nKennst du das? Die meisten Führungskräfte kennen diesen Moment gut. Man hat die Information, man hat den Anlass, man hat sogar die Zeit. Und trotzdem fühlt sich das Gespräch an wie ein Schritt über eine Kante, hinter der alles schiefgehen könnte: Markus ärgert sich, die Geschichte spricht sich im Team herum, und beim nächsten Mal sitzt er genauso verschlossen da wie beim letzten Mal. Also wartet man. Einen Tag, dann noch einen.\n\nDas Problem ist nur: Das Warten macht es nicht leichter. Es macht es teurer. Der Kunde wird ungeduldiger, die Kollegen aus dem Vertrieb fangen an, selbst nachzuhaken, und Markus wundert sich, warum ihn plötzlich alle so seltsam ansehen. Dein Schweigen schützt weder dich noch ihn. Es verschiebt nur den Moment, in dem das Gespräch unvermeidlich wird, und macht ihn meist unangenehmer.\n\nDieses Kapitel handelt davon, wie du solche Gespräche führst, bevor sie dir über den Kopf wachsen. Es geht nicht um Tricks oder Formulierungen, die man auswendig lernen kann. Es geht um eine Haltung, um gute Vorbereitung und um ein paar einfache Handgriffe, die im Alltag funktionieren, auch wenn es gerade unbequem ist.",
+  "usage": {
+    "in": 278,
+    "out": 2065,
+    "thinking": 1221
+  },
+  "costUsd": 0.0010603,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 9418,
+  "meta": [],
+  "at": "2026-10-17T17:50:13.573Z"
+}

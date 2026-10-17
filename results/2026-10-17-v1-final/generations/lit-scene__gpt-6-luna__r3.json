@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "gpt-6-luna",
+  "run": 3,
+  "text": "Der Schlüssel klemmte, wie Schlüssel in alten Häusern klemmen: nicht ganz, nur so, dass man den Druck der eigenen Hand spürte. Mara zog ihn zurück, setzte noch einmal an. Im Schloss gab etwas nach. Die Tür öffnete sich um eine Handbreit und stieß gegen einen Schuh, der dahinter lag.\n\nSie schob ihn mit der Fußspitze beiseite. Ein brauner Hausschuh, flach getreten, innen grau vom Staub. Sie ließ ihn liegen.\n\nZwanzig Jahre hatte sie nicht mehr hier gestanden. Damals war sie mit einem Koffer hinausgegangen und hatte sich nicht umgedreht. Jetzt roch der Flur nach kalter Asche und etwas Süßlichem, das sie nicht einordnen konnte. Sie trat ein und zog die Tür hinter sich zu. Das Geräusch lief durch die Räume und kam verändert zurück.\n\nDie Möbel waren abgedeckt. Unter den Laken zeichneten sich die vertrauten Formen ab: der schmale Tisch, die Kommode, der Sessel mit der hohen Lehne. An der Wand hing noch der Kalender, ein Monat im Jahr, das sie nicht mehr wusste. Die Blätter hatten sich an den Ecken eingerollt.\n\nIn der Küche drehte sie den Wasserhahn auf. Erst kam Luft, dann ein dünner, rostfarbener Strahl. Sie wartete, bis das Wasser klar wurde, und trank aus der hohlen Hand. Es schmeckte nach Metall. Im Becken lag ein kleiner weißer Knopf, vier Löcher, am Rand noch ein Fadenrest. Mara nahm ihn heraus. Er war kalt und glitschig zwischen den Fingern.\n\nSie legte ihn auf die Fensterbank, ohne zu wissen, warum.\n\nDraußen stand der Garten bis an die Scheiben. Die Johannisbeersträucher waren höher als der Zaun; an einem Ast hing eine durchsichtige Plastiktüte, die sich kaum bewegte. Mara stellte den Koffer neben die Treppe. Von oben kam ein einzelnes Knacken, als hätte jemand sein Gewicht verlagert.\n\nSie sah hinauf. Die Stufen waren dunkel, in der Mitte blank getreten.\n\n„Ich bin’s“, sagte sie.\n\nDas Haus antwortete nicht. Nur der Wasserhahn tropfte weiter, langsam, in die leere Spüle.",
+  "usage": {
+    "in": 76,
+    "out": 1100,
+    "thinking": 596
+  },
+  "costUsd": 0.0005576,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 14386,
+  "meta": [],
+  "at": "2026-10-17T17:46:47.587Z"
+}

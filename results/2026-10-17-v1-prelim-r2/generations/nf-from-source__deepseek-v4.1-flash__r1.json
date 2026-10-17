@@ -1,0 +1,18 @@
+{
+  "task": "nf-from-source",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "text": "Wie eine Genossenschaft funktioniert, lässt sich gut am Beispiel der Fährgenossenschaft Hitzacker eG zeigen. Die Fähre überquert die Elbe an einer Stelle, an der der Fluss 212 Meter breit ist; eine Überfahrt dauert bei normalem Wasserstand sieben Minuten. Als der Landkreis den Betrieb der Seilfähre eingestellt hatte, gründeten 1953 41 Landwirte und Händler aus beiden Elbufern die Genossenschaft. Heute hat sie 312 Mitglieder. Jedes Mitglied hält mindestens einen Anteil zu 250 Euro. In der Generalversammlung hat jedes Mitglied eine Stimme, unabhängig von der Zahl seiner Anteile. So entscheiden die Mitglieder gemeinsam, ohne dass einzelne Mitglieder wegen vieler Anteile mehr Stimmrecht erhalten. Überschüsse werden nicht ausgeschüttet, sondern in eine Rücklage für die Erneuerung der Fähre eingezahlt. Diese Rücklage soll bis 2031 ausreichen, um einen Elektroantrieb einzubauen.\n\nFür diese Fähre ist die Genossenschaft eine passende Rechtsform, weil viele Menschen aus der Region den Betrieb gemeinsam tragen. Die Fähre hängt an einem Führungsseil und wird heute von einem 85-kW-Dieselmotor angetrieben; bis 1978 bewegte die Strömung die Fähre allein. Die Genossenschaft befördert pro Jahr rund 64.000 Personen, im Sommer vor allem Radfahrer auf dem Elberadweg. 2024 betrug der Umsatz 186.000 Euro, davon stammten 71 Prozent aus Fahrkartenverkäufen und 29 Prozent aus einem Zuschuss der Gemeinde. Die Mitglieder finanzieren über Anteile mit, und Überschüsse bleiben als Rücklage für die Erneuerung der Fähre erhalten. So passt die Genossenschaft zu einem Betrieb, der nicht auf Gewinnausschüttung, sondern auf gemeinsamer Erhaltung der Fähre beruht.",
+  "usage": {
+    "in": 477,
+    "out": 1324,
+    "thinking": 875
+  },
+  "costUsd": 0.0008659499999999999,
+  "finish": "stop",
+  "reportedModel": "deepseek/deepseek-v4.1-flash",
+  "upstream": "Morph",
+  "latencyMs": 12801,
+  "meta": [],
+  "at": "2026-10-17T17:24:03.458Z"
+}

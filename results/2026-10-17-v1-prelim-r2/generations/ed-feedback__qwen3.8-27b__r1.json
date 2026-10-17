@@ -1,0 +1,18 @@
+{
+  "task": "ed-feedback",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "1. **Stelle:** „Ilse stellt den Motor an und wartete, bis das Seil sich spannte.\"\n   **Problem:** Zeitungsprung – der Präsens *stellt* bricht die durchgängige Präteritum-Erzählebenordnung.\n\n2. **Stelle:** „Der Nebel lag dicht über dem Wasser. Der Nebel war so dicht, dass sie das andere Ufer nicht sah.\"\n   **Problem:** Das Adverb *dicht* und der Subjektanfang *Der Nebel* werden in zwei aufeinanderfolgenden Sätzen wortwörtlich wiederholt, ohne dass der zweite Satz inhaltlich über die Feststellung hinausgeht, er *lag* dicht.\n\n3. **Stelle:** „Der Nebel lag dicht … / Der Nebel war so dicht … / Der Nebel schluckte jedes Geräusch.\"\n   **Problem:** Drei aufeinanderfolgende Sätze beginnen mit dem identischen Subjekt *Der Nebel*, was den Satzrhythmus monoton und das Übergewicht des Motivs auf eine einzige Syntaxebene reduziert.",
+  "usage": {
+    "in": 306,
+    "out": 2170,
+    "thinking": 1940
+  },
+  "costUsd": 0.00484744,
+  "finish": "stop",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "upstream": "ModelRun",
+  "latencyMs": 9968,
+  "meta": [],
+  "at": "2026-10-17T17:19:30.806Z"
+}

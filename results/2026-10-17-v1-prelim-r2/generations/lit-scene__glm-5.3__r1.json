@@ -1,0 +1,20 @@
+{
+  "task": "lit-scene",
+  "model": "glm-5.3",
+  "run": 1,
+  "text": "# Das Haus\n\nDer Schlüssel passte noch, aber widerwillig, als hätte das Schloss in den zwanzig Jahren gelernt, dass niemand mehr hineingehörte. Marlene musste mit der Schulter gegen die Tür drücken; sie gab nach mit einem Seufzen, den nur altes Holz von sich gibt.\n\nDrinnen roch es nach verschlossener Zeit – nicht nach Verfall, sondern nach Stillstand. Staub, der sich gesetzt hatte wie Sediment, und darunter, kaum noch, aber doch: der Geruch ihrer Mutter. Lavendelseife und etwas Bitteres, Medizinisches. Marlene blieb in der Diele stehen und atmete durch den Mund, bis der Geruch zu einer bloßen Information wurde.\n\nDas Licht fiel schräg durch die Fensterläden, in Streifen, die im Treppenhaus lagen wie zurückgelassene Gegenstände. Sie ging nicht sofort weiter. Sie kannte das Haus auswendig und wusste doch nicht, was sie erwarten durfte – ob ein leerstehendes Haus noch das Haus war, in dem man aufgewachsen war, oder nur dessen Hülle, besetzt von einer fremden Stille.\n\nIn der Küche blieb sie stehen. Auf dem Tisch stand noch das Glas, das letzte, das ihre Mutter benutzt haben musste, die Hausverwalterin hatte es offenbar nicht für nötig gehalten. Am Boden des Glases hatte sich ein bräunlicher Ring abgesetzt, die Spur von Kräutertee, schwarz geworden am Rand.\n\nMarlene hob das Glas nicht an. Sie hob es gar nicht. Sie sah nur die Tropfenspuren daneben auf dem Holztisch, dunkel getränkt in die Maserung, dort, wo jemand – ihre Mutter, an einem bestimmten Tag, den es einmal gegeben hatte – unvorsichtig gewesen war.\n\nSie setzte ihre Tasche ab. Sie würde viel Zeit brauchen. Das Haus hatte geduldig gewartet, und es schien zu wissen, dass Eile jetzt niemandem mehr half.",
+  "usage": {
+    "in": 86,
+    "out": 442,
+    "thinking": 0
+  },
+  "costUsd": 0.00212848,
+  "finish": "stop",
+  "reportedModel": "z-ai/glm-5.3",
+  "upstream": "Decart",
+  "latencyMs": 4899,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:23:15.764Z"
+}

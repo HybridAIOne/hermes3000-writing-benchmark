@@ -1,0 +1,106 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„nicht das Wochenende verderben\" (falsche Anführungszeichen oben statt deutscher Schlusszeichen)",
+          "Vor zwei Wochen hat er die Kundenpräsentation verschoben, ohne Bescheid zu sagen. Du hast es erst gemerkt, als der Kunde anrief. (sachlich wenig plausibel, dass eine verschobene Präsentation zwei Wochen lang unbemerkt bleibt, bis der Kunde anruft)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 7,
+        "fehler": [
+          "Was gibt's denn? (gerader Apostroph statt typografischem)",
+          "Es ist Dienstagnachmittag... (Text besteht aus vier Absätzen, gefordert war „den Einstiegsabsatz“ im Singular)",
+          "am Mittwoch hattest du Jahresgespräche / Budgets verteidigen (ignoriert den Buchtitel „Führen ohne Titel“, impliziert klassische disziplinarische Führungskraft)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [
+          "„Kurz mit Jens sprechen.\" (falsches Schlusszeichen, Punkt steht im Deutschen nach dem Anführungszeichen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "sind die wahre Feuerprobe... begibst du dich auf dünnes Eis... die Stimmung in der gesamten Abteilung vergiftet (Häufung abgedroschener Phrasen und schiefer Metaphern)",
+          "Deshalb schieben wir solche Gespräche vor uns her (unmotivierter Perspektivwechsel vom „Du“ zum „Wir“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "Jana den Monatsbericht auf den Tisch legt... Zum dritten Mal in diesem Monat. (Logikfehler: Ein Monatsbericht wird nicht dreimal im selben Monat vorgelegt)",
+          "Du könntest jetzt sagen, dass ihr später darüber sprecht... Beides wäre bequem... Also wartest du, bis die Besprechung vorbei ist. (Logikbruch: Erst wird das Verschieben auf nach der Besprechung als bequeme Ausrede abgetan, im nächsten Satz macht das „Du“ aber genau das als vorbildliche Lösung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "D",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2775,
+    "out": 759,
+    "thinking": 0
+  },
+  "costUsd": 0.01314
+}

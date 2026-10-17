@@ -1,0 +1,120 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„auch wenn du bisher Kollegin oder Kollege im Team warst und nicht sofort alles wissen musst“ – der Nachsatz hängt grammatisch am „auch wenn“ und ergibt so keinen Sinn.",
+          "Aufbau: „Schaffe verlässliche Abläufe im Team“ kommt erst als Kapitel 8, nach den schwierigen Gesprächen. Routinen gehören logisch vor die Eskalation.",
+          "„lässt genug Spielraum, ohne den Überblick zu verlieren“ – eine generische Floskel ohne Anschauung.",
+          "„Du prüfst regelmäßig, was für dich gutes Führen bedeutet“ – das Haltungskapitel bleibt vage und unkonkret.",
+          "„# **Führen ohne Titel**“ – doppelte Auszeichnung von Überschrift und Fettdruck."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„*Zur Abgrenzung:* Kapitel 6 behandelt …“ – ein Zusatzabschnitt, den die Vorgabe (Titel plus ein Satz pro Kapitel) nicht verlangt.",
+          "„was dein eigener Chef von dir erwartet“ (Kap. 1) überschneidet sich teilweise mit „Zwischen den Stühlen“ (Kap. 8).",
+          "„Du bekommst ein Gespür dafür“ – eine leicht abgenutzte Wendung.",
+          "Einige Kapitelsätze sind sehr lang, zum Beispiel Kap. 4 und Kap. 10, und dehnen damit die Vorgabe „ein Satz“."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Dein erster Tag: Kläre, wofür du verantwortlich bist“ – der Titel verschmilzt zwei Themen und wirkt überladen.",
+          "Es fehlt ein Kapitel zum Kennenlernen der einzelnen Teammitglieder. „Gib dem Team eine klare Richtung“ kommt, bevor die Leute bekannt sind.",
+          "„verlässlichen Informationswegen“ – Verwaltungsdeutsch, das nicht praxisnah wirkt.",
+          "Entscheiden unter Unsicherheit und die Sandwich-Position fehlen als Themen. Der Aufbau bleibt dadurch dünn.",
+          "„Gestern Kollege, heute Teamleiter“ – rein männliche Form, während im Text sonst neutral formuliert wird."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„dich gegenüber deinem Chef abgrenzst“ – Konjugationsfehler, richtig ist „abgrenzt“.",
+          "„Was in deinen ersten Tagen als Teamleiter wirklich zählt, und warum …“ – alle Kapitelbeschreibungen sind Satzfragmente statt ganzer Sätze.",
+          "„so dass Verantwortung wirklich wandert, und wo Kontrolle hingehört und wo sie nur Misstrauen ist“ – verschachtelt und schief konstruiert.",
+          "„Reden, bevor es brennt“ (Kap. 5) und „Das schwierige Gespräch“ (Kap. 6) überschneiden sich beim Thema Probleme und Eskalation.",
+          "„ohne dich zu verbiegen“ / „ohne dich unbeliebt zu machen“ – dasselbe Satzmuster wiederholt sich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Du lernst jede Person … kennen, mit … der Frage, was sie von dir brauchen“ – Numerusfehler, richtig ist „braucht“.",
+          "„auch wenn kein Titel auf deiner Visitenkarte es dir vorschreibt“ – schiefe Logik, denn ein Titel schreibt keine Haltung vor.",
+          "„Du gibst zeitnah und konkret Feedback“ – Anglizismus, obwohl die Vorgabe keine Buzzwords verlangt.",
+          "„Konsequenzgespräche“ und „gehst danach sauber damit um“ – Jargon und eine vage Formulierung.",
+          "Der „erste Tag“ als Einstieg wird nicht ausdrücklich behandelt. Kapitel 1 beginnt direkt mit dem Rollenwechsel."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 5650,
+    "out": 3805,
+    "thinking": 2126
+  },
+  "costUsd": 0.0987
+}

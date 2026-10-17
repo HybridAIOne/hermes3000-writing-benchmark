@@ -1,0 +1,18 @@
+{
+  "task": "nf-from-source",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "Stellen Sie sich vor, der Landkreis stellt den Betrieb einer Seilfähre ein – und die Menschen auf beiden Elbufern reagieren nicht mit resigniertem Warten, sondern mit einem Gründungsakt. So geschah es 1953 in Hitzacker: 41 Landwirte und Händler schlossen sich zusammen und gründeten die Fährgenossenschaft Hitzacker eG, um die Überfahrt über die Elbe selbst in die Hand zu nehmen.\n\nDie Elbe ist an dieser Stelle 212 Meter breit; eine Überfahrt dauert bei normalem Wasserstand sieben Minuten. Die Fähre hängt an einem Führungsseil und wird heute von einem 85-Kilowatt-Dieselmotor angetrieben – bis 1978 bewegte die Strömung die Fähre allein.\n\nWas genau eine Genossenschaft ausmacht, lässt sich an diesem Beispiel gut zeigen. Erstens gehört sie den Menschen, die sich zusammenschließen. Heute zählt die Hitzackerer Genossenschaft 312 Mitglieder. Jedes Mitglied hält mindestens einen Anteil zu 250 Euro und verfügt in der Generalversammlung über genau eine Stimme – unabhängig von der Zahl seiner Anteile. Damit kann niemand mit größerem Kapital die Meinungen der Mehrheit überstimmen; Entscheidungen werden demokratisch getroffen.\n\nZweitens werden Erträge nicht an externe Anteilseigner ausgeschüttet, sondern der Sache zugutekommen. Bei der Fährgenossenschaft fließen Überschüsse in eine Rücklage für die Erneuerung der Fähre. Im Jahr 2024 betrug der Umsatz 186.000 Euro, davon stammten 71 Prozent aus Fahrkartenverkäufen und 29 Prozent aus einem Zuschuss der Gemeinde. Pro Jahr befördert die Fähre rund 64.000 Personen, im Sommer vor allem Radfahrer auf dem Elberadweg. Die Rücklage soll bis 2031 ausreichen, um einen Elektroantrieb einzubauen – das gesparte Geld bleibt also in der Gemeinschaft und sichert die Zukunft des Betriebs.\n\nWarum ist die Genossenschaft hier die passende Rechtsform? Weil die Fähre keine Ware ist, die ein Investor gegen Rendite vermarktet, sondern unverzichtbare Infrastruktur für den Alltag der Menschen auf beiden Ufern. Die Genossenschaft stellt sicher, dass genau jene, die die Überfahrt benötigen, auch die Entscheider sind – und dass jede Einnahme unmittelbar in die Erhaltung und Modernisierung der Fähre zurückfließt.",
+  "usage": {
+    "in": 433,
+    "out": 6203,
+    "thinking": 5673
+  },
+  "costUsd": 0.01375052,
+  "finish": "stop",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "upstream": "Tenstorrent",
+  "latencyMs": 286463,
+  "meta": [],
+  "at": "2026-10-17T17:28:38.857Z"
+}

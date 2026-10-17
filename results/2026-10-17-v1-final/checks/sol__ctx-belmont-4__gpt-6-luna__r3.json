@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "gpt-6-luna",
+  "run": 3,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-3"
+    ],
+    "evidence": [
+      "Elise dachte an die geschlossene Straße, an den Mann mit dem Notizbuch und an das Jahr, das Vossberg nicht hören wollte."
+    ]
+  },
+  "usage": {
+    "in": 1993,
+    "out": 197,
+    "thinking": 139
+  },
+  "costUsd": 0.005956
+}

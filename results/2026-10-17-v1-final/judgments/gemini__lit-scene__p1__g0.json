@@ -1,0 +1,111 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "**Orangen** (Eine Kapitelüberschrift war nicht Teil der Aufgabe für eine reine Szene)",
+          "der sich kaum merklich bewegte, als hätte ihn eben jemand gestreift (Physikalisch fragwürdig bei einer nach innen oder außen schwingenden Tür an einer geschützten Garderobe, wirkt leicht konstruiert für den Grusel-Effekt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "Ihre Mutter hatte jeden Abend davon genommen, jeden Abend, zwanzig Jahre lang, hatte es im Flur nach Rosen gerochen, wenn sie die Treppe heraufkam. (Schwerer Perspektiv- und Logikbruch: Die Protagonistin war zwanzig Jahre lang nicht in diesem Haus, kann also nicht wissen, wie es in diesen zwanzig Jahren abends im Flur roch)",
+          "Die Creme war unberührt, bis zur Schulter des Glases gefüllt, die Oberfläche glatt, als hätte sie nie jemand mit den Fingern aufgerissen. (Das rätselhafte Detail eines neuen Cremeglases unter einer Staubschicht trägt kaum erzählerisches Potenzial im Vergleich zu den anderen Texten, zudem widerspricht der dicke Staub einem kürzlichen Tod, oder der Tod liegt lange zurück, bleibt aber völlig unerwähnt)",
+          "Sie hatte gedacht, die Zeit würde sich wie eine Strecke anfühlen, die man zurücklegt. Stattdessen stand alles noch an seinem Platz, als hätte es nur auf sie gewartet, und die einzige Veränderung war die, die sie selbst mitgebracht hatte. (Stilistischer Abfall am Ende: auserzählte Kalenderblatt-Philosophie statt szenischem Zeigen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "im stillen Treppenhaus (Widerspricht dem Bild eines Hauses mit Haustür aus Eichenholz, Milchglasfenstern daneben und eigenem Obstgarten; ein Mehrfamilienhaus hat ein Treppenhaus, ein Einfamilienhaus einen Flur oder Windfang innen)",
+          "während das Haus um sie herum plötzlich den Atem anzuhalten schien. (Abgegriffenes Spannungs-Klischee als Schlusssatz)",
+          "Das Haus hatte Helga schneller vergessen, als Vera es je gekonnt hatte. (Unnötig erklärendes Tell, zudem seltsame Verwendung des Vornamens der Mutter aus der Perspektive der Tochter)",
+          "als warte er darauf, dass jemand in seine Ärmel schlüpfte, um noch schnell vor dem Frost das Fallobst aufzulesen. (Überladenes, leicht kitschiges Bild)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Erst in der Küche roch sie es. [...] Im Wäscheschrank oben fand sie die Frucht schließlich doch (Räumlicher und olfaktorischer Bruch: Sie riecht die Quitte intensiv unten in der Küche, sucht dort im Kühlschrank und unter der Spüle, findet die Quelle des Geruchs aber erst ein Stockwerk höher im geschlossenen Wäscheschrank zwischen Bettbezügen)",
+          "so wie man etwas einsteckt, das man später erklären muss. (Etwas bemüht bedeutungsschwangerer Schlusssatz)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Nur beim letzten Stück musste sie die Tür mit der Schulter anheben. (Unidiomatisch und anatomisch schief: Man drückt mit der Schulter gegen eine Tür, man hebt sie an der Klinke mit der Hand an)",
+          "mit einem fingerbreit Wasser (Rechtschreibfehler: mit einem Fingerbreit Wasser)",
+          "Das Holz hatte sich verzogen, oder es war schon immer so gewesen und ihre Mutter hatte es nur nie erwähnt. (Unlogisch: Sie hat selbst vor zwanzig Jahren dort gelebt, sie wüsste aus eigener Erfahrung, ob die Haustür schon immer geklemmt hat, nicht aus Erzählungen der Mutter)",
+          "An seiner Unterseite ertastete sie drei dicht beieinanderliegende Kerben. [...] Auf dem Küchentisch stand ein Glas mit einem fingerbreit Wasser. Am Rand haftete ein blasser Lippenabdruck. [...] In der Ablage der Tür lag eine einzelne Zitrone (Unfokussiert: Der Text streut drei verschiedene sinnliche Details ohne klaren Schwerpunkt, statt eines gezielt aufzubauen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "E",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3278,
+    "out": 1246,
+    "thinking": 0
+  },
+  "costUsd": 0.019016
+}

@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "„Er läuft\", sagte Ilse.\n\n„Er läuft schlecht. Ich hab ihn vom Ufer aus gehört.\" Jonas trat einen Schritt zur Seite, weil ein Radfahrer mit seinem Rad über die Rampe schob, und der Koffer folgte ihm mit einem Rattern, das über das Wasser hinweg zu laut war. Der Radfahrer nickte Ilse zu. Sie nickte zurück und nahm ihm das Geld ab, zwei Euro fünfzig, passend.\n\nDer Nebel hing noch tief über dem anderen Ufer. Man sah die Pappeln dort nur bis zur Hälfte, als wären sie abgeschnitten. Das Seil spannte sich schräg durch die Strömung, tropfend, und die Fähre zog daran wie ein Tier an der Kette. Ilse kannte jedes Geräusch, das dieses Zusammenspiel machte. Das Knarren des Rollenbocks, das Schlagen des Wassers gegen den Rumpf. Das leise Klirren der Kette am Steuerhaus, das Henning nie hatte abstellen können und irgendwann nicht mehr hatte abstellen wollen.\n\n„Der Motor ist für den Notfall\", sagte sie. „Die Strömung macht die Arbeit.\"\n\n„Und wenn Notfall ist?\"\n\n„Dann ist er kaputt. Das weiß ich dann ja.\"\n\nJonas lachte kurz, ohne den Mund dabei richtig zu bewegen. Er sah älter aus als zu Weihnachten, oder vielleicht sah er nur anders aus, in diesem Mantel, der nicht für Bohlen gemacht war. Die Schuhe waren schon bis zur Naht dunkel vom Wasser. Er bemerkte es nicht, oder er ließ es sich nicht anmerken. Das hatte er schon als Kind gekonnt, wenn er nasse Füße hatte und lieber den ganzen Weg heimlief, als zu sagen, dass es ihm unangenehm war.\n\n„Du hättest anrufen können\", sagte sie.\n\n„Du hättest abgenommen?\"\n\nSie antwortete nicht. Sie ging an ihm vorbei zum Steuerhaus, hakte die Kette an der Rampe ein, prüfte sie mit dem Fuß. Hinter der Tür, auf dem Boden neben dem Ölzeug, standen Hennings Gummistiefel. Sie standen dort seit drei Jahren, Größe zweiundvierzig, der linke mit dem Flicken am Schaft. Ilse hatte nie überlegt, sie wegzustellen. Sie hatte sie auch nie angezogen. Sie hatte sie nur jeden Morgen mit dem Knie ein Stück zur Seite geschoben, um an den Haken mit dem Schlüssel zu kommen.\n\nJonas stand noch auf dem Anleger, den Griff des Koffers in der Hand, und wartete, dass jemand ihm sagte, wohin er gehörte.\n\nIlse bückte sich, nahm die Stiefel am Schaft und stellte sie auf die Bohlen vor ihn, nebeneinander, die Spitzen zu ihm gedreht.\n\n„Die Fähre fährt in zehn Minuten wieder\", sagte sie. „Wenn du mitwillst, zieh die an.\"",
+  "usage": {
+    "in": 593,
+    "out": 1660,
+    "thinking": 481
+  },
+  "costUsd": 0.017786,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 15787,
+  "meta": [],
+  "at": "2026-10-17T17:47:38.019Z"
+}

@@ -1,0 +1,117 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„löste die Bremse und spürte, wie der Strom die Fähre sofort wieder vom Ufer wegzog“: Die im vorgegebenen Absatz zweimal festgezogene Festmacherleine wird nicht gelöst. Für das ausdrücklich sofortige Ablegen fehlt ein notwendiger Handlungsschritt.",
+          "„das Ding nicht ewig allein über den Gierwinkel drücken“: Technisch unpräzise und sprachlich missglückt. Der Gierwinkel ist die Stellung der Fähre zur Strömung, kein Hindernis, über das man sie drückt.",
+          "„Er war dünner geworden um die Augen. Müder.“: Die erste Formulierung erzeugt kein klares körperliches Bild; das nachgeschobene Adjektiv verstärkt den Eindruck einer routinierten Verkürzungsmasche.",
+          "„Schwarzes Leder, prall gefüllt“ und „seine schwarze Tasche sofort auf das Wachstuch gelegt hätte“: Die Tasche wird mehrfach als Bedrohungsrequisit markiert. Das macht den unausgesprochenen Besuchszweck etwas zu demonstrativ sichtbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„als ein Schubboot mit leerem Schlepper vorbeizog“: Verwechslung nautischer Begriffe. Ein Schlepper ist ein motorisiertes Schleppschiff, kein beladbarer Schubleichter; „leer“ ergibt in der beschriebenen Zusammenstellung keinen nachvollziehbaren Sinn.",
+          "„sie zupfte noch einmal daran, obwohl es nicht nötig war“ und „zog die Plane […] zurecht, obwohl niemand darauf saß“: Wiederholte Ausweichhandlungen nach demselben Muster. Zudem begründet eine unbesetzte Bank nicht, weshalb das Zurechtziehen ihrer Plane unnötig wäre.",
+          "„Der Motor tuckert wie immer“: Jonas relativiert seine unmittelbar vorausgehende Beanstandung der unterlassenen Reparatur, ohne dass diese Verschiebung im Gespräch erkennbar motiviert wird.",
+          "„Sie überlegte, ob sie die nächste Fahrt ausfallen lassen sollte […] Dann entschied sie sich, den Motor nicht abzuschalten“: Überlegung und Entscheidung betreffen verschiedene Dinge. Der Schluss lässt offen, ob sie fahren oder lediglich mit laufendem Motor warten will; die Entscheidung bleibt dadurch dramaturgisch unscharf.",
+          "„Sie goss sich ein in die Emailletasse“: Holprige Wortstellung mit unnötig ausgespartem Objekt; im ansonsten schlichten Sprachduktus wirkt das nicht wie eine kontrollierte stilistische Setzung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„weil er glaubte, das Wasser sei tiefer als der Steg“: Der Vergleich bleibt räumlich unverständlich. Gemeint sein könnte die Wassertiefe im Verhältnis zur Höhe des Stegs; die konkrete kindliche Befürchtung wird aber nicht nachvollziehbar.",
+          "„so fest, wie man ein Seil zieht, das man nicht loslassen will“: Der Schluss übersetzt die Annäherung ausdrücklich in eine Bindungsmetapher. Das bereits aussagekräftige Handreichen wird dadurch sentimental übererklärt.",
+          "„Die Strömung trug die Fähre, das Seil führte sie, der Rest war Gewohnheit“: Die zugespitzte Lebensformel glättet die konkrete Arbeit zur Symbolik und klingt stärker nach Erzählerarrangement als nach Ilses Wahrnehmung.",
+          "„den sie seit Jahrzehnten nicht mehr bemerkte, außer an Tagen wie diesem“: Eine pauschale Bedeutungsankündigung. Was gerade diesen Tag für ihre Sinneswahrnehmung verändert, müsste die Szene stärker selbst vermitteln."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„wischte über das Geländer, obwohl es nichts zu wischen gab“: Konventionelle Verlegenheitsbeschäftigung, deren psychologische Funktion durch den erläuternden Nachsatz zusätzlich ausgestellt wird.",
+          "„wie jemand, der das Tragen nicht gewohnt war“: Die sichtbare Körperhaltung wird sofort ausgedeutet. Die vorgebeugten Schultern hätten als Beobachtung genügt.",
+          "„Sie hatte es nie weggeräumt. Sie hatte es auch nie angefasst“: Die doppelte Erklärung lädt Hennings Ölzeug vor der Schlussgeste etwas stark symbolisch auf. Der Gegenstand und Ilses Zögern könnten diese Bedeutung subtiler tragen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Hast du die Frühschicht genommen?“: Für den Unternehmensberater, dessen Anreise hier offenbar erfragt wird, ist „Frühschicht“ der falsche beziehungsweise unmotivierte Begriff. Falls eine frühe Zugverbindung gemeint ist, müsste diese benannt werden.",
+          "„Sie strich die nassen Haarsträhnen unter ihrer Mütze hervor“: Das bedeutet, dass sie die Strähnen unter der Mütze herausstreicht. Falls sie die Haare verstauen soll, beschreibt die Formulierung die entgegengesetzte Bewegung.",
+          "„Morgennebel, der noch immer wie ein zerrissener Schleier […] hing“ und „Mantel von der Farbe taubenblauer Kiesel“: Konventionelles Nebelbild und auffällig gesuchte Farbumschreibung überladen die sachlich angelegte Wahrnehmung.",
+          "„Es war der Blick eines Mannes, der eine Rechnung aufmachte, Posten für Posten“: Jonas’ Absicht wird vorzeitig ausbuchstabiert. Die bereits beschriebenen prüfenden Blicke auf Rost und Lack leisten diese Charakterisierung subtiler.",
+          "„Ich dachte, du hättest erst am Freitag Urlaub“: Die neu eingeführte Kenntnis seines Urlaubsplans schwächt die Ausgangssituation der unangekündigten Ankunft. Sie ist nicht ausgeschlossen, braucht aber eine klarere Einbettung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "C",
+      "E",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 4054,
+    "out": 2541,
+    "thinking": 1024
+  },
+  "costUsd": 0.033518
+}

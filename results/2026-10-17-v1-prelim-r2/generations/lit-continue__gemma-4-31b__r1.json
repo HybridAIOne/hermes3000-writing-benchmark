@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "text": "Sie sah ihn nicht an, während sie den Knoten sicherte. Sein Anzug war glatt, die Schuhe aus einem Leder, das so dunkel und poliert war, dass es die grauen Wolken des Hitzacker-Himmels widerspiegelte. Er passte nicht hierher. Er passte nicht einmal auf die Bohlen, die unter seinen Füßen leicht nachgaben.\n\n„Der Motor läuft“, entgegnete sie knapp. Ihre Stimme klang nach einer langen Zeit des Schweigens rau. „Er stottert nur manchmal. Das macht nichts.“\n\n„Stottern ist bei einem Motor kein Zustand, Mutter, sondern ein Symptom“, erwiderte Jonas. Er setzte den Koffer ab und verschränkte die Arme vor der Brust. „Ich habe es dir im letzten Telefonat gesagt. Die Ersatzteile für diese alten Maschinen bekommt man kaum noch. Irgendwann bleibt er einfach stehen, mitten auf dem Fluss.“\n\nIlse richtete sich auf. Die Kälte kroch durch die dünne Stoffschicht ihrer Strickjacke, doch sie zitterte nicht. Sie betrachtete das Wasser, das träge an den Uferkanten vorbeizog. Die Elbe war heute aufgewühlt, kleine, weiße Kappen tanzten auf den Wellen. Es war ein unruhiger Tag, ein Tag, an dem man die Natur spürte, wenn man nicht gerade in einem klimatisierten Büro in München saß.\n\n„Ich kenne meine Maschine“, sagte sie. „Sie hat mich noch nie im Stich gelassen. Und Henning auch nicht.“\n\nJonas seufzte. Es war dieses kurze, scharfe Ausatmen, das sie so sehr an ihren eigenen Vater erinnerte, wenn er die Geduld mit ihr verloren hatte. Er wollte etwas sagen, seine Lippen formten bereits die Worte, doch Ilse drehte sich weg. Sie spürte seinen Blick im Rücken, fordernd und analysierend, als wäre sie ein Problem, das es zu lösen galt. Er suchte nach Rissen in der Fassade, nach dem Moment, in dem sie endlich zugeben würde, dass die Kraft nachließ.\n\nSie ging langsam den Steg hinauf in Richtung des kleinen Hauses. Der Geruch von feuchtem Holz und Flusswasser lag in der Luft. Sie hörte das Rattern seines Koffers hinter sich, ein unnatürliches Geräusch in der Stille des Ufers. \n\nAm Ende des Stegs hielt sie inne. Normalerweise führte sie jeden Gast zuerst in die Küche, bot einen Kaffee an, hielt die Höflichkeit ein, auch wenn sie innerlich bereits die Tür geschlossen hatte. Doch heute war es anders. Sie sah den schweren Schlüsselbund an ihrem Gürtel und dann auf das verschlossene Tor zum Garten, hinter dem die alten Obstbäume im Wind schwankten.\n\nSie blieb stehen und entschied sich, ihm den Weg zum Haus nicht zu weisen. Stattdessen blieb sie stumm und wartete, bis er selbst den Weg finden musste.",
+  "usage": {
+    "in": 337,
+    "out": 634,
+    "thinking": 0
+  },
+  "costUsd": 0.000321,
+  "finish": "stop",
+  "reportedModel": "google/gemma-4-31b-it",
+  "upstream": "CoreWeave",
+  "latencyMs": 11514,
+  "meta": [],
+  "at": "2026-10-17T17:22:41.053Z"
+}

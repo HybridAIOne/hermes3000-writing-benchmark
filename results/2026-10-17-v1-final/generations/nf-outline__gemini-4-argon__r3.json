@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "gemini-4-argon",
+  "run": 3,
+  "text": "Hier ist die Gliederung für das Sachbuch **„Führen ohne Titel“**:\n\n**Kapitel 1: Gestern Kollege, heute Chef**\nDu lernst, wie du den Rollenwechsel vor deinem Team klar benennst und die ersten Wochen überstehst, ohne dich zu verbiegen oder falsche Versprechen zu machen.\n\n**Kapitel 2: Die eigene Facharbeit loslassen**\nDieses Kapitel zeigt dir, warum du nicht mehr der beste Sachbearbeiter sein darfst und wie du Aufgaben so abgibst, dass sie auch wirklich in deinem Sinne erledigt werden.\n\n**Kapitel 3: Sagen, was Sache ist**\nDu erfährst, wie du im Arbeitsalltag klare Ansagen machst, Ziele verständlich formulierst und Besprechungen so leitest, dass am Ende jeder weiß, was er zu tun hat.\n\n**Kapitel 4: Führen ohne Machtwort**\nHier lernst du, wie du Akzeptanz und Verbindlichkeit im Team schaffst, obwohl du weder Gehälter erhöhen noch Abmahnungen schreiben darfst.\n\n**Kapitel 5: Zwischen Baum und Borke**\nDu bekommst Werkzeuge an die Hand, um den Druck der Geschäftsführung abzufedern und gleichzeitig die Interessen deines Teams nach oben wirksam zu vertreten.\n\n**Kapitel 6: Wenn es knirscht: Schwierige Gespräche führen**\nEin konkreter Leitfaden zeigt dir, wie du Minderleistung, Trödelei oder dicke Luft im Team direkt und fair ansprichst, ohne dass die Stimmung komplett kippt.\n\n**Kapitel 7: Verschiedene Köpfe unter einen Hut bringen**\nDu lernst, wie du mit den Eigenheiten im Mittelstand umgehst – vom sturköpfigen Urgestein, das dich noch als Azubi kannte, bis zum fordernden Berufseinsteiger.\n\n**Kapitel 8: Raus aus dem Feuerwehrmodus**\nDieses Kapitel hilft dir, wiederkehrende Probleme an der Wurzel zu packen und Abläufe mit deinem Team so zu verbessern, dass du nicht jeden Tag dieselben Brände löschen musst.\n\n**Kapitel 9: Dein eigener Stil und deine Grenzen**\nZum Abschluss reflektierst du, welche Art von Vorgesetztem du langfristig sein willst und wie du verhinderst, dass du die Probleme der Firma mit nach Hause nimmst.",
+  "usage": {
+    "in": 154,
+    "out": 519,
+    "thinking": 0
+  },
+  "costUsd": 0.005498,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 10851,
+  "meta": [
+    "preamble"
+  ],
+  "at": "2026-10-17T17:44:30.419Z"
+}

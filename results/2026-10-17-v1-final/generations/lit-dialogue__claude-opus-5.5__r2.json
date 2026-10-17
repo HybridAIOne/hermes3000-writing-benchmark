@@ -1,0 +1,20 @@
+{
+  "task": "lit-dialogue",
+  "model": "claude-opus-5.5",
+  "run": 2,
+  "text": "**Wiedersehen**\n\n*Ein Café am Bahnhof. MARTIN sitzt am Fenster. JONAS tritt an den Tisch, die Jacke noch an.*\n\nJONAS: Ist hier frei?\n\nMARTIN: War es die ganze Zeit.\n\n*Jonas setzt sich. Er legt ein Buch auf den Tisch und schiebt es nicht hinüber.*\n\nJONAS: Du trinkst ihn immer noch schwarz.\n\nMARTIN: Manche Dinge ändern sich nicht.\n\nJONAS: Andere schon.\n\n*Pause. Martin rührt in der Tasse, obwohl nichts drin ist zum Umrühren.*\n\nMARTIN: Wie geht's Sabine?\n\nJONAS: Gut. Sie lässt grüßen.\n\nMARTIN: Wirklich?\n\nJONAS: *nach einer Weile* Nein.\n\nMARTIN: Wenigstens das.\n\n*Die Kellnerin kommt. Jonas schüttelt den Kopf. Sie geht.*\n\nJONAS: Ich bleib nicht lange.\n\nMARTIN: Das kenn ich.\n\nJONAS: *schiebt das Buch über den Tisch* Deins. Hat ein bisschen gedauert.\n\nMARTIN: Drei Jahre.\n\nJONAS: Zwei. Und ein paar Monate.\n\nMARTIN: Hast du's gelesen?\n\nJONAS: Angefangen. Bin nicht weit gekommen.\n\nMARTIN: Das Ende ist das Beste.\n\nJONAS: Man muss erst mal hinkommen.\n\n*Martin schlägt das Buch auf. Ein Foto fällt heraus. Beide sehen es an. Keiner hebt es auf.*\n\nMARTIN: Das hab ich gesucht.\n\nJONAS: Ich weiß.\n\nMARTIN: Du hättest anrufen können.\n\nJONAS: Du auch.\n\n*Stille. Draußen fährt ein Zug ein.*\n\nJONAS: Deiner?\n\nMARTIN: Nein. Ich hab Zeit.\n\nJONAS: Seit wann?\n\nMARTIN: *legt das Foto zurück ins Buch, klappt es zu* Seit kurzem.\n\n*Jonas zieht langsam die Jacke aus und hängt sie über die Stuhllehne.*\n\nJONAS: *zur Kellnerin, ohne Martin anzusehen* Doch. Einen. Schwarz.",
+  "usage": {
+    "in": 126,
+    "out": 1344,
+    "thinking": 502
+  },
+  "costUsd": 0.027384,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 14373,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:48:39.695Z"
+}

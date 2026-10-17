@@ -1,0 +1,119 @@
+{
+  "task": "en-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "\"the ordinary machinery of people keeping one another alive\" – erklärende, leicht gesuchte Sentenz, bricht die Zurückhaltung",
+          "\"a monitor gave one brief, insistent beep, then stopped\" – abgegriffenes Krankenhaus-Atmosphärendetail",
+          "\"Sir, visiting hours are over.\" – formelhafter Einstieg in den Dialog",
+          "\"I was told to sit here.\" / \"I don't remember.\" – das Rätsel bleibt etwas generisch",
+          "Mit rund 280 Wörtern leicht über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "\"second row of padded chairs\" vs. \"the blonde wood of the pew\" – Stühle werden zur Kirchenbank (Logikbruch)",
+          "\"Room 312 had been converted into a supply closet three years ago\" – grenzt an die Enthüllung, die die Aufgabe vermeiden soll",
+          "\"the grey, porous skin of a heavy smoker\" – Klischee-Charakterisierung",
+          "\"grated by lack of sleep\" – schiefe Formulierung; \"blonde wood\" – bei Holz üblich \"blond\"",
+          "\"the bright misery of the ICU waiting room\" – ausgestellte Formulierung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "\"*Can you come back?*\" – Markdown-Kursivierung im Buchtext",
+          "\"The chapel lights were on a timer; only the aisle and the electric candles were lit.\" – etwas umständliche Erklärung",
+          "\"She could have asked his name, then called upstairs.\" – Innensicht leicht erklärend",
+          "Mit rund 280 Wörtern leicht über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "\"with her badge turned face-in\" vs. \"Her name tag says M. OSTRANDER ... so he would have had to read it\" – Logikbruch, das Schild ist verdeckt",
+          "\"goes quiet in a way that has nothing to do with sleep\" – abgegriffener Eröffnungstopos",
+          "\"It isn't a question.\" – Klischeewendung",
+          "\"the radiator knocks like it's trying to get out\" / \"the door sighs shut\" – verbrauchte Bilder",
+          "\"Her hair is still short.\" – \"still\" verunklart, was gemeint ist; außerdem mit rund 300 Wörtern zu lang"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"It wasn't a question.\" – Klischeewendung",
+          "\"I wanted to sit somewhere that was awake.\" – etwas zu literarisch gesetzte Pointe",
+          "\"She thought of the phone in her pocket, the weight of it.\" – formelhafte Anhängsel-Konstruktion",
+          "Mit rund 280 Wörtern leicht über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "E",
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3777,
+    "out": 2264,
+    "thinking": 1079
+  },
+  "costUsd": 0.060388
+}

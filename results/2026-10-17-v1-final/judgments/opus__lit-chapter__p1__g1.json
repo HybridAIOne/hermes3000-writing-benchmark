@@ -1,0 +1,123 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Ist das die Strecke nach Neu Darchau?“ – „Die Fähre fährt nach Hitzacker-Ufer“, sagte Ilse. „Das ist das Gleiche.“ (geografisch und logisch unstimmig)",
+          "„die drei Menschen darauf, die sie nicht kannte, bis auf Wessel und Hahn“ (widersprüchliche Konstruktion)",
+          "„Er hatte seinen Transporter auf der Hitzacker-Seite stehen lassen, weil die Brücke in Dannenberg gesperrt war“ (Begründung ergibt keinen Sinn)",
+          "„Hahn zündete sich eine neue Zigarette an“ (direkt nach der Zurechtweisung, unmotiviert)",
+          "„als könne er den Fluss riechen“ (leerer Vergleich, der Hund riecht ihn ohnehin)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„und ließ das Fenster hoch“ (unidiomatisch)",
+          "„aber sie wies trotzdem“ (intransitives „weisen“ wirkt holprig)",
+          "„hörte zu und prüfte den Strom“ (mehrdeutig: Strömung oder Elektrizität)",
+          "„als müsste sie ihn erst lesen“ (unklarer Vergleich)",
+          "Staccato-Hauptsätze wirken stellenweise mechanisch"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„erst der Mann mit dem Fahrrad, dann die Frau, dann der Lieferwagen. Nein, die waren schon drüben.“ (Logikbruch; zudem war es ein Junge, kein Mann)",
+          "„Ilse nahm Gas heraus und gab dem Boot einen kurzen Schub, bevor es gegen die Landung stieß“ (widersprüchlich)",
+          "„Auch der Nebel schien an der Bewegung der Fähre teilzunehmen, statt sie nur zu umgeben“ (vage)",
+          "„Die roten Rücklichter erschienen im Dunst“ (räumlich unklar, der Wagen steht direkt auf dem Deck)",
+          "„Am Ufer wäre jetzt die Anlegestelle gewesen“ (schiefer Konjunktiv)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Mit rund 1150 Wörtern deutlich über der Vorgabe von etwa 900",
+          "„Sie schob das Rad ein Stück vor und zurück“ (Bezug von „Sie“ unklar)",
+          "„Ihre Knie meldeten sich“ (abgegriffen)",
+          "„*Jonas.*“ (Markdown-Sternchen im Buchtext)",
+          "„so ruhig lag wie ein Tisch“ (schiefer Vergleich)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„Sie wusste, was auf dem Display stand, ohne hinzusehen“ (Anrufer wird nie als Jonas erkennbar)",
+          "„hörte sie den ersten Motor oben auf dem Deich“ – „Es war Frau Wulf mit dem Fahrrad“ (Logikbruch)",
+          "„Zwei Euro fünfzig“ … „Da musst du links“ (Wechsel zwischen Sie und Du gegenüber dem Monteur)",
+          "„Als gäbe es ein Früher, das man von einem Jetzt trennen konnte.“ (erklärende Reflexion)",
+          "„als hätte es ihn nie gegeben“ (Klischee)"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "A",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 14306,
+    "out": 4113,
+    "thinking": 2714
+  },
+  "costUsd": 0.139484
+}

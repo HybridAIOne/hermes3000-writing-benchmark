@@ -1,0 +1,109 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Heute gehören der Fähre 312 Mitglieder an“ – Die Mitglieder gehören der Genossenschaft an, nicht der Fähre.",
+          "„eine lebenswichtige Infrastruktur“ – überzeichnende Wertung, die die Quelle nicht hergibt.",
+          "„heute ein 85-kW-Dieselmotor, früher bis 1978 lediglich die Strömung“ – holprige Konstruktion; „früher“ und „bis 1978“ sind doppelt, die Strömung ist keine „technische Ausstattung“.",
+          "„zukunftsfähig bleibt“ und „durch die gemeinschaftliche Kraft ihrer Mitglieder“ – Buzzword und Floskel.",
+          "„Die soziale Bedeutung der Genossenschaft zeigt sich in den rund 64.000 Personen“ – unscharfe Verknüpfung von Fahrgastzahl und sozialer Bedeutung."
+        ],
+        "unsupported": [
+          "„lebenswichtige Infrastruktur“",
+          "„Das Ziel war es, die Überquerung … eigenständig zu sichern“ (abgeleitete Zielsetzung, nicht in der Quelle)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die Einnahmen kommen 2024 zu 71 Prozent“ – Tempusfehler, richtig wäre „kamen“; zudem fehlt die Umsatzzahl von 186.000 Euro.",
+          "„weil Menschen aus beiden Ufern“ – falsche Präposition, richtig wäre „von beiden Ufern“.",
+          "„Eine Überfahrt dauert … sieben Minuten. Sie hängt an einem Führungsseil“ – Der Bezug von „Sie“ ist unklar, grammatisch zielt es auf „Überfahrt“.",
+          "„Damit richtet sich das Stimmgewicht nicht nach der Höhe der eingebrachten Anteile. Die Mitglieder entscheiden also …“ – doppelte Wiederholung des bereits Gesagten."
+        ],
+        "unsupported": [
+          "„weil Menschen aus beiden Ufern die Fährverbindung gemeinsam tragen“ – Die Herkunft der heutigen Mitglieder nennt die Quelle nicht, nur die der Gründer."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Finanzielle Beteiligung und Mitbestimmung sind also unterschiedlich geregelt: Zusätzliche Anteile bringen keine zusätzlichen Stimmen.“ – Redundanz, der Punkt wurde bereits zweimal gemacht.",
+          "„Im Mittelpunkt steht nicht die Ausschüttung von Überschüssen, sondern die Fähre als gemeinsame Aufgabe“ – wiederholt den dritten Absatz und ist als Schluss ein Füllsatz.",
+          "„So verbindet das Beispiel … verbindet“ – Wortwiederholung von „verbindet“ in aufeinanderfolgenden Sätzen.",
+          "„Bei normalem Wasserstand dauert die Überfahrt sieben Minuten. Sie hängt an einem Führungsseil“ – unklarer Bezug von „Sie“.",
+          "Mit rund 370 Wörtern deutlich über dem Umfang."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„finanziert die Gemeinschaft die technische Weiterentwicklung aus eigener Kraft“ – widerspricht dem Gemeindezuschuss von 29 Prozent.",
+          "„fließen vollständig in eine Rücklage“ – Die Quelle sagt nicht „vollständig“.",
+          "„die ideale Lösung“ und „Das Grundprinzip ist denkbar einfach“ – werbliche Floskeln.",
+          "„Gewinne für externe Investoren zu maximieren“ – Kontrastfigur, die mit der Fähre nichts zu tun hat.",
+          "Die technische Entwicklung erscheint im Finanzabsatz verschachtelt, der Text springt zwischen Zweck, Technik und Finanzen."
+        ],
+        "unsupported": [
+          "„aus eigener Kraft“ (Widerspruch zum Gemeindezuschuss)",
+          "„vollständig“ (Rücklage)",
+          "„um die Flussquerung in eigener Regie weiterzuführen“ (Motiv nicht in der Quelle)"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 5892,
+    "out": 2762,
+    "thinking": 1116
+  },
+  "costUsd": 0.078808
+}

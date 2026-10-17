@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 4171,
+    "out": 531,
+    "thinking": 514
+  },
+  "costUsd": 0.027304
+}
