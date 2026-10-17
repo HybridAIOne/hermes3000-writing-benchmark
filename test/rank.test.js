@@ -14,7 +14,11 @@ test('a group ranking yields all ordered pairs, skipping same-model pairs', () =
 test('Bradley-Terry orders a consistent tournament and centres on 1000', () => {
   const pairs = [];
   for (let i = 0; i < 20; i++) {
-    pairs.push({ winner: 'a', loser: 'b' }, { winner: 'b', loser: 'c' }, { winner: 'a', loser: 'c' });
+    pairs.push(
+      { winner: 'a', loser: 'b' },
+      { winner: 'b', loser: 'c' },
+      { winner: 'a', loser: 'c' }
+    );
   }
   pairs.push({ winner: 'b', loser: 'a' }, { winner: 'c', loser: 'b' });
   const r = bradleyTerry(['a', 'b', 'c'], pairs);
@@ -24,7 +28,8 @@ test('Bradley-Terry orders a consistent tournament and centres on 1000', () => {
 
 test('bootstrap interval contains the point rating and is deterministic for a seed', () => {
   const groups = [];
-  for (let i = 0; i < 30; i++) groups.push(pairsFromRanking(i % 4 ? ['a', 'b', 'c'] : ['b', 'a', 'c'], {}));
+  for (let i = 0; i < 30; i++)
+    groups.push(pairsFromRanking(i % 4 ? ['a', 'b', 'c'] : ['b', 'a', 'c'], {}));
   const r1 = rateWithCI(['a', 'b', 'c'], groups, 200, 7);
   const r2 = rateWithCI(['a', 'b', 'c'], groups, 200, 7);
   assert.deepStrictEqual(r1, r2);
@@ -51,7 +56,8 @@ test('leave-own-family-out drops only pairs a related judge decided', () => {
 test('groups are deterministic, complete, never size 1, and keep one model per group where possible', () => {
   const { makeGroups } = require('../src/judge');
   const items = [];
-  for (const m of ['a', 'b', 'c', 'd', 'e', 'f', 'g']) for (const run of [1, 2]) items.push({ model: m, run });
+  for (const m of ['a', 'b', 'c', 'd', 'e', 'f', 'g'])
+    for (const run of [1, 2]) items.push({ model: m, run });
   const g1 = makeGroups(items, 5, 42);
   const g2 = makeGroups(items, 5, 42);
   assert.deepStrictEqual(g1, g2);

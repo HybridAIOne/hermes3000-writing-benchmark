@@ -14,7 +14,7 @@ function norm(s) {
     .trim();
 }
 
-const words = (s) => (norm(s).match(/\S+/g) || []);
+const words = (s) => norm(s).match(/\S+/g) || [];
 
 /** Word-level Levenshtein similarity in [0,1]. */
 function wordSimilarity(a, b) {
@@ -74,7 +74,9 @@ function factCoverage(facts, output) {
 /** Numbers in the output that the source never mentions — invented figures. */
 function inventedNumbers(source, output) {
   const nums = (s) =>
-    new Set((norm(s).match(/\d[\d.,]*/g) || []).map((n) => n.replace(/[.,]$/, '').replace(/[.,\s]/g, '')));
+    new Set(
+      (norm(s).match(/\d[\d.,]*/g) || []).map((n) => n.replace(/[.,]$/, '').replace(/[.,\s]/g, ''))
+    );
   const src = nums(source);
   return [...nums(output)].filter((n) => !src.has(n));
 }
@@ -102,11 +104,18 @@ function scoreTighten(task, output) {
 
 /** Meta text a writer would have to delete (preamble, heading, sign-off). */
 function metaText(text) {
-  const first = String(text || '').split('\n')[0].trim();
+  const first = String(text || '')
+    .split('\n')[0]
+    .trim();
   const hits = [];
-  if (/^(hier ist|hier sind|gerne|natürlich|klar[,!]|sure|here is|here's|certainly)/i.test(first)) hits.push('preamble');
-  if (/^#{1,6}\s/.test(first) || /^\*\*[^*]+\*\*$/.test(first) || /^(titel|title)\s*:/i.test(first)) hits.push('heading');
-  if (/(ich hoffe|lass mich wissen|möchtest du|let me know|hope this)/i.test(String(text).slice(-300))) hits.push('signoff');
+  if (/^(hier ist|hier sind|gerne|natürlich|klar[,!]|sure|here is|here's|certainly)/i.test(first))
+    hits.push('preamble');
+  if (/^#{1,6}\s/.test(first) || /^\*\*[^*]+\*\*$/.test(first) || /^(titel|title)\s*:/i.test(first))
+    hits.push('heading');
+  if (
+    /(ich hoffe|lass mich wissen|möchtest du|let me know|hope this)/i.test(String(text).slice(-300))
+  )
+    hits.push('signoff');
   return hits;
 }
 

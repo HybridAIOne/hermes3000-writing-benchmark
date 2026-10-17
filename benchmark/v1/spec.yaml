@@ -8,6 +8,9 @@ tracks:
   literary: { label: "Literary prose", judged: true }
   nonfiction: { label: "Non-fiction", judged: true }
   editing: { label: "Copy-editing", judged: false } # scored against answer keys
+  # Writing inside a large, frozen book context: checked against known assertions
+  # (name confusion, spoilers, hallucinated characters, invariants).
+  context: { label: "Book context fidelity", judged: false }
 
 stages:
   # Preliminary round: every model, every task.

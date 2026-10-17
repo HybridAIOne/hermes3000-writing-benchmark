@@ -161,7 +161,8 @@ async function callGoogle(m, { system, prompt, maxTokens, timeoutMs, schema }) {
 async function callModel(m, req) {
   const start = Date.now();
   let r;
-  if (m.provider === 'openai' || m.provider === 'openrouter') r = await callOpenAICompat(m.provider, m, req);
+  if (m.provider === 'openai' || m.provider === 'openrouter')
+    r = await callOpenAICompat(m.provider, m, req);
   else if (m.provider === 'anthropic') r = await callAnthropic(m, req);
   else if (m.provider === 'google') r = await callGoogle(m, req);
   else throw new Error(`unknown provider ${m.provider}`);

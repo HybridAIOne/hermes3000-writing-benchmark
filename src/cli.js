@@ -30,7 +30,8 @@ function loadEnv() {
 function args(argv) {
   const a = { _: [] };
   for (let i = 0; i < argv.length; i++) {
-    if (argv[i].startsWith('--')) a[argv[i].slice(2)] = argv[i + 1] && !argv[i + 1].startsWith('--') ? argv[++i] : true;
+    if (argv[i].startsWith('--'))
+      a[argv[i].slice(2)] = argv[i + 1] && !argv[i + 1].startsWith('--') ? argv[++i] : true;
     else a._.push(argv[i]);
   }
   return a;
@@ -40,7 +41,9 @@ async function main() {
   loadEnv();
   const a = args(process.argv.slice(2));
   const cmd = a._[0];
-  const bench = loadBenchmark(a.version || 'v1', { privateDir: process.env.PRIVATE_TASKS_DIR || undefined });
+  const bench = loadBenchmark(a.version || 'v1', {
+    privateDir: process.env.PRIVATE_TASKS_DIR || undefined,
+  });
   if (!a.id) throw new Error('--id <runId> is required');
 
   if (cmd === 'report') {
@@ -50,20 +53,24 @@ async function main() {
   }
   if (cmd === 'finalists') {
     const n = Number(a.n) || bench.spec.stages.final.finalists;
-    for (const f of finalists(a.id, bench, n)) console.log(`${f.key}\t(mean rank ${(f.meanRank + 1).toFixed(1)})`);
+    for (const f of finalists(a.id, bench, n))
+      console.log(`${f.key}\t(mean rank ${(f.meanRank + 1).toFixed(1)})`);
     return;
   }
   if (cmd !== 'run' && cmd !== 'generate-only') throw new Error(`unknown command ${cmd}`);
 
   const stage = a.stage || 'prelim';
   const runs = Number(a.runs) || bench.spec.stages[stage].runs;
-  const pick = (list, csv, key) => (csv ? list.filter((x) => csv.split(',').includes(x[key])) : list);
+  const pick = (list, csv, key) =>
+    csv ? list.filter((x) => csv.split(',').includes(x[key])) : list;
   const models = pick(bench.models, a.models, 'key');
   const tasks = pick(bench.tasks, a.tasks, 'id');
   if (!models.length || !tasks.length) throw new Error('no models or tasks selected');
 
   writeManifest(a.id, bench, { models, stage, runs });
-  console.log(`run ${a.id}: ${models.length} models × ${tasks.length} tasks × ${runs} runs, fingerprint ${bench.fingerprint}`);
+  console.log(
+    `run ${a.id}: ${models.length} models × ${tasks.length} tasks × ${runs} runs, fingerprint ${bench.fingerprint}`
+  );
   await generate(a.id, bench, { models, tasks, runs });
   if (cmd === 'generate-only') return;
 
@@ -71,7 +78,9 @@ async function main() {
   await judgeRanked(a.id, bench, { tasks, generations });
   await judgeChecklists(a.id, bench, { tasks, generations });
   const r = report(a.id, bench);
-  console.log(`done — results/${a.id}/report.md · generation $${r.R.generationCostUsd.toFixed(2)} · judging $${r.R.judgeCostUsd.toFixed(2)}`);
+  console.log(
+    `done — results/${a.id}/report.md · generation $${r.R.generationCostUsd.toFixed(2)} · judging $${r.R.judgeCostUsd.toFixed(2)}`
+  );
 }
 
 main().catch((err) => {

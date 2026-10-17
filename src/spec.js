@@ -14,7 +14,9 @@ const ROOT = path.join(__dirname, '..');
 function listFiles(dir) {
   return fs
     .readdirSync(dir, { withFileTypes: true })
-    .flatMap((e) => (e.isDirectory() ? listFiles(path.join(dir, e.name)) : [path.join(dir, e.name)]))
+    .flatMap((e) =>
+      e.isDirectory() ? listFiles(path.join(dir, e.name)) : [path.join(dir, e.name)]
+    )
     .sort();
 }
 
@@ -69,7 +71,8 @@ function loadBenchmark(version, opts = {}) {
     models,
     tasks: all,
     fingerprint: fingerprint(dir),
-    privateFingerprint: opts.privateDir && fs.existsSync(opts.privateDir) ? fingerprint(opts.privateDir) : null,
+    privateFingerprint:
+      opts.privateDir && fs.existsSync(opts.privateDir) ? fingerprint(opts.privateDir) : null,
   };
 }
 

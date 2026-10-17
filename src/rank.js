@@ -79,7 +79,8 @@ function rateWithCI(items, groups, samples = 1000, seed = 1) {
   const draws = Object.fromEntries(items.map((m) => [m, []]));
   for (let b = 0; b < samples; b++) {
     const resampled = [];
-    for (let k = 0; k < groups.length; k++) resampled.push(...groups[Math.floor(rand() * groups.length)]);
+    for (let k = 0; k < groups.length; k++)
+      resampled.push(...groups[Math.floor(rand() * groups.length)]);
     const r = bradleyTerry(items, resampled, 60);
     for (const m of items) draws[m].push(r[m]);
   }

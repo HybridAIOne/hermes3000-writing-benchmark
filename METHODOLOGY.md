@@ -7,13 +7,14 @@ and scores it).
 ## What the benchmark answers
 
 Which language model should write, structure and edit **German book text** — the work authors do
-in the writing app [Hermes 3000](https://hermes3000.ai)? Three tracks:
+in the writing app [Hermes 3000](https://hermes3000.ai)? Four tracks:
 
 | Track | Tasks | How it is scored |
 |---|---|---|
 | Literary prose | opening scene · dialogue with unspoken conflict · continuing a novel scene from book context · 900-word chapter opening with fixed constraints · English scene (control) | blind group rankings by three judges, rubric scores, constraint checklist |
 | Non-fiction | chapter opening · book outline · explanatory text written **from supplied source material** | blind group rankings, rubric scores, fact coverage (deterministic), unsupported claims |
 | Copy-editing | proofreading (20 planted errors, 10 traps) · tightening by 40 % without losing facts · editorial notes on a passage with 6 planted problems | answer keys and counts — no judge for the first two; a checklist for the notes |
+| Book context fidelity | writing a chapter inside a large frozen book context (36 and 119 characters, places and things; summaries of all chapters) — three chapters from two test novels | known assertions per chapter: name confusion, spoilers, hallucinated characters, invariants; majority of three judges |
 
 German is the primary language; the English scene is a control.
 
@@ -79,10 +80,30 @@ belongs to the family of either model in the pair. Per-judge orderings are liste
 The editing score is the mean of the three. Proofreading is close to the ceiling for current
 models; most of the spread comes from tightening and editorial notes.
 
+## Book context fidelity
+
+In real use a model writes inside a book: a cast list, places, objects, the plan of every chapter.
+Three tasks take a chapter from two test novels written for this purpose (originally for the
+worldbuilding evaluation of Hermes 3000) and freeze the full book context into the prompt —
+19,000 and 64,000 characters. The context deliberately includes the summaries of **later**
+chapters: the author knows the whole plan, the chapter must not leak it.
+
+The novels are built around traps: two doctors called Adrian with opposite traits, a third
+character sharing one surname; seven Wilhelms and five Annas in a merchant town; a brother who
+counts as dead until chapter 5; an uncle who exists only in letters and must never appear; a wing
+that stays sealed until chapter 6. Each task lists its assertions (`assertions`, with a dimension
+each). All three judges check every text against them (`rubrics/context-check.md`) and quote
+evidence; an assertion counts as violated when a majority of judges says so. Score = share of
+assertions kept. The report also gives the cost of one chapter with the full context, which is
+where input prices start to matter.
+
+One assertion type — the psychological state of a character at this point of the arc — is softer
+than the others; it is reported with "selectivity" and weighs like any other assertion.
+
 ## Stages
 
 1. **Preliminary** — all models, all tasks, 2 samples each.
-2. **Final** — the best models by mean rank across the three tracks (`finalists`) get a third
+2. **Final** — the best models by mean rank across the four tracks (`finalists`) get a third
    sample per task and the human panel.
 
 ### Human panel

@@ -14,6 +14,7 @@ answer keys, rubrics, code and every generated text are public.
 | **Literary prose** (German) | opening scene, dialogue, continuing a novel scene from book context, 900-word chapter with fixed constraints; English scene as a control | blind group rankings by three judges from three providers → Bradley–Terry rating with 95 % intervals |
 | **Non-fiction** (German) | chapter opening, book outline, explanatory text **written from supplied source material** | blind rankings plus fact coverage and invented claims |
 | **Copy-editing** (German) | proofreading with 20 planted errors and 10 traps, tightening without losing facts, editorial notes on 6 planted problems | answer keys and counts |
+| **Book context fidelity** (German) | writing a chapter inside a frozen book context of up to 119 characters, places and things | assertions on name confusion, spoilers, hallucinated characters and invariants |
 
 Plus cost per standard page (1,800 characters, reasoning tokens included), speed and reliability.
 Details: [METHODOLOGY.md](METHODOLOGY.md).
@@ -39,7 +40,7 @@ directly at their providers or via OpenRouter, so no Hermes 3000 account is need
 ## Kurzfassung (Deutsch)
 
 Der hermes3000 Writing Benchmark prüft, welches Sprachmodell **deutsche Buchtexte** am besten
-schreibt, gliedert und lektoriert: literarisches Schreiben, Sachbuch und Lektorat. Bewertet wird
+schreibt, gliedert und lektoriert: literarisches Schreiben, Sachbuch, Lektorat und Kontexttreue im großen Buch (Verwechslungen, Spoiler, erfundene Figuren). Bewertet wird
 blind durch drei KI-Judges verschiedener Anbieter, ergänzt um menschliche Urteile in der
 [Arena](https://arena.hermes3000.ai) und um Lösungsschlüssel, wo sich etwas objektiv messen lässt.
 Jede Zahl lässt sich aus den veröffentlichten Daten nachrechnen.

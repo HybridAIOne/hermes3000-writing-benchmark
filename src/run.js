@@ -27,7 +27,10 @@ function runDir(runId) {
 
 function gitCommit() {
   try {
-    return execSync('git rev-parse --short HEAD', { cwd: ROOT, stdio: ['ignore', 'pipe', 'ignore'] })
+    return execSync('git rev-parse --short HEAD', {
+      cwd: ROOT,
+      stdio: ['ignore', 'pipe', 'ignore'],
+    })
       .toString()
       .trim();
   } catch {
@@ -94,37 +97,43 @@ async function generate(runId, bench, { models, tasks, runs, log = console.log }
   const jobs = [];
   for (const t of tasks)
     for (const m of models)
-      for (let r = 1; r <= runs; r++) if (!fs.existsSync(genFile(runId, t.id, m.key, r))) jobs.push({ t, m, r });
+      for (let r = 1; r <= runs; r++)
+        if (!fs.existsSync(genFile(runId, t.id, m.key, r))) jobs.push({ t, m, r });
   log(`generate: ${jobs.length} texts to write`);
-  await pooled(jobs, (j) => j.m.provider, g.concurrency_per_provider, async ({ t, m, r }) => {
-    const prompt = renderPrompt(t);
-    try {
-      const res = await callModel(m, {
-        system: t.system,
-        prompt,
-        maxTokens: g.max_output_tokens,
-        timeoutMs: g.timeout_seconds * 1000,
-      });
-      writeJson(genFile(runId, t.id, m.key, r), {
-        task: t.id,
-        model: m.key,
-        run: r,
-        text: res.text,
-        usage: res.usage,
-        costUsd: costOf(m, res.usage),
-        finish: res.finish,
-        reportedModel: res.reportedModel,
-        latencyMs: res.latencyMs,
-        meta: metaText(res.text),
-        at: new Date().toISOString(),
-      });
-      log(`  ✓ ${m.key} ${t.id} r${r} ${(res.latencyMs / 1000).toFixed(0)}s`);
-    } catch (err) {
-      // Not written: the next invocation retries it. Persistent failures show up in the
-      // report as missing texts.
-      log(`  ✗ ${m.key} ${t.id} r${r}: ${String(err.message).slice(0, 160)}`);
+  await pooled(
+    jobs,
+    (j) => j.m.provider,
+    g.concurrency_per_provider,
+    async ({ t, m, r }) => {
+      const prompt = renderPrompt(t);
+      try {
+        const res = await callModel(m, {
+          system: t.system,
+          prompt,
+          maxTokens: g.max_output_tokens,
+          timeoutMs: g.timeout_seconds * 1000,
+        });
+        writeJson(genFile(runId, t.id, m.key, r), {
+          task: t.id,
+          model: m.key,
+          run: r,
+          text: res.text,
+          usage: res.usage,
+          costUsd: costOf(m, res.usage),
+          finish: res.finish,
+          reportedModel: res.reportedModel,
+          latencyMs: res.latencyMs,
+          meta: metaText(res.text),
+          at: new Date().toISOString(),
+        });
+        log(`  ✓ ${m.key} ${t.id} r${r} ${(res.latencyMs / 1000).toFixed(0)}s`);
+      } catch (err) {
+        // Not written: the next invocation retries it. Persistent failures show up in the
+        // report as missing texts.
+        log(`  ✗ ${m.key} ${t.id} r${r}: ${String(err.message).slice(0, 160)}`);
+      }
     }
-  });
+  );
 }
 
 function loadGenerations(runId) {
