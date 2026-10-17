@@ -121,8 +121,13 @@ than the others; it is reported with "selectivity" and weighs like any other ass
 ### Human panel
 
 Judged German texts are exported as random cross-model pairs (`arena-pairs.json`) for blind
-pairwise votes at [arena.hermes3000.ai](https://arena.hermes3000.ai). Human votes are reported
-separately and used to state how well the model judges agree with people.
+pairwise votes at [arena.hermes3000.ai](https://arena.hermes3000.ai) (benchmark mode, `/benchmark`,
+named judges with a personal key). Each pair shows the task and two texts, sides randomised, no
+model names; the judge picks left, right or "equal" and may give a reason. The arena's export is
+stored as `results/<run>/human-votes.json` (`npm run bench -- human --id <run> --file <export>`).
+The report then adds a human rating per track (Bradley–Terry over decisive votes, each vote its own
+bootstrap unit), the raw win/tie/loss counts, and the **agreement** — the share of decisive votes
+in which the person preferred the model the AI judges rate higher.
 
 ## Reproducibility
 

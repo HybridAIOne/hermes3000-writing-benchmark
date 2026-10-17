@@ -53,6 +53,55 @@ function rubricMeans(judgments, field) {
   return Object.fromEntries(Object.entries(acc).map(([m, v]) => [m, mean(v)]));
 }
 
+/**
+ * Human votes (results/<run>/human-votes.json, written by `bench human`): per track a
+ * Bradley-Terry rating over decisive votes (each vote is its own bootstrap unit), the raw
+ * win/tie/loss counts, and how often the model judges' rating order agrees with the person.
+ */
+function humanPanel(runId, models, taskById, tracks, samples) {
+  const file = path.join(runDir(runId), 'human-votes.json');
+  if (!fs.existsSync(file)) return null;
+  const { votes } = readJson(file);
+  const keys = models.map((m) => m.key);
+  const out = { votes: votes.length, judges: [...new Set(votes.map((v) => v.judge))], tracks: {} };
+  for (const track of ['literary', 'nonfiction']) {
+    const tv = votes.filter((v) => taskById[v.task]?.track === track);
+    if (!tv.length) continue;
+    const counts = Object.fromEntries(keys.map((k) => [k, { w: 0, t: 0, l: 0 }]));
+    const groups = [];
+    let agree = 0;
+    let decisive = 0;
+    for (const v of tv) {
+      const [a, b] = [v.left.model, v.right.model];
+      if (!counts[a] || !counts[b]) continue;
+      if (v.choice === 'tie') {
+        counts[a].t++;
+        counts[b].t++;
+        continue;
+      }
+      const [winner, loser] = v.choice === 'left' ? [a, b] : [b, a];
+      counts[winner].w++;
+      counts[loser].l++;
+      groups.push([{ winner, loser }]);
+      const rw = tracks[track].all[winner].rating;
+      const rl = tracks[track].all[loser].rating;
+      if (rw !== rl) {
+        decisive++;
+        if (rw > rl) agree++;
+      }
+    }
+    out.tracks[track] = {
+      votes: tv.length,
+      ties: tv.filter((v) => v.choice === 'tie').length,
+      counts,
+      ratings: groups.length ? rateWithCI(keys, groups, samples, 7) : null,
+      agreement: decisive ? agree / decisive : null,
+      decisive,
+    };
+  }
+  return out;
+}
+
 function build(runId, bench) {
   const manifest = readJson(path.join(runDir(runId), 'manifest.json'));
   const models = bench.models.filter((m) => manifest.models.includes(m.key));
@@ -279,6 +328,9 @@ function build(runId, bench) {
       totalUsd: cost,
     };
   }
+  // --- Human panel: blind pairwise votes from arena.hermes3000.ai (`bench human`).
+  R.human = humanPanel(runId, models, taskById, R.tracks, samples);
+
   R.judgeCostUsd = [...judgments, ...checks].reduce((n, j) => n + (j.costUsd || 0), 0);
   R.generationCostUsd = gens.reduce((n, g) => n + (g.costUsd || 0), 0);
   return { R, models, gens, tasks };
@@ -394,6 +446,35 @@ function writeMarkdown(runId, bench, { R, models }) {
 
   md.push('## English control', '', ratingTable(models, R.tracks.english), '');
 
+  if (R.human) {
+    md.push(
+      '## Human panel (blind pairwise votes)',
+      '',
+      `${R.human.votes} votes by ${R.human.judges.length} ${R.human.judges.length === 1 ? 'person' : 'people'} at arena.hermes3000.ai: two texts for the same task, sides randomised, no model names. Ratings use decisive votes only; with this few votes the intervals are wide. "Agreement" is the share of decisive votes where the person preferred the model the AI judges rate higher.`,
+      ''
+    );
+    for (const [track, h] of Object.entries(R.human.tracks)) {
+      md.push(
+        `### ${track === 'literary' ? 'Literary prose' : 'Non-fiction'} — ${h.votes} votes, ${h.ties} ties, agreement with AI judges ${h.agreement === null ? '–' : pct(h.agreement)}`,
+        '',
+        '| Model | Human rating (95 % CI) | Won / tied / lost | AI-judge rating |',
+        '|---|---|---|---|'
+      );
+      const rows = [...models].sort(
+        (a, b) => (h.ratings?.[b.key]?.rating ?? 0) - (h.ratings?.[a.key]?.rating ?? 0)
+      );
+      for (const m of rows) {
+        const c = h.counts[m.key];
+        if (!c.w && !c.t && !c.l) continue;
+        const r = h.ratings?.[m.key];
+        md.push(
+          `| ${m.label} | ${r ? `**${r.rating}** (${r.lo}–${r.hi})` : '–'} | ${c.w} / ${c.t} / ${c.l} | ${R.tracks[track].all[m.key].rating} |`
+        );
+      }
+      md.push('');
+    }
+  }
+
   md.push('## Cost, speed, reliability', '');
   md.push(
     '| Model | Cents per standard page | Median seconds per text | Texts delivered | No text (failed) | Cut off | Preamble/heading |',
@@ -464,6 +545,7 @@ function writeBlind(runId, { gens, tasks }) {
 function writeArenaPairs(runId, bench, { gens, tasks }, perTask = 12) {
   const rand = rng(777);
   const pairs = [];
+  const seen = new Set();
   for (const t of tasks.filter((x) => bench.spec.tracks[x.track].judged && x.language === 'de')) {
     const texts = gens.filter((g) => g.task === t.id && g.text);
     for (let k = 0; k < perTask && texts.length > 1; k++) {
@@ -472,6 +554,11 @@ function writeArenaPairs(runId, bench, { gens, tasks }, perTask = 12) {
       if (!others.length) break;
       const b = others[Math.floor(rand() * others.length)];
       const [left, right] = rand() < 0.5 ? [a, b] : [b, a];
+      // The same two samples drawn twice would count one comparison twice; skip, don't redraw
+      // (redrawing would change every later pair of an already-imported run).
+      const id = [`${a.model}#${a.run}`, `${b.model}#${b.run}`].sort().join('|');
+      if (seen.has(`${t.id}|${id}`)) continue;
+      seen.add(`${t.id}|${id}`);
       pairs.push({
         task: t.id,
         title: t.title,

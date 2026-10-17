@@ -8,6 +8,7 @@
  *   npm run bench -- report --id <runId>
  *   npm run bench -- finalists --id <prelimRunId>
  *   npm run bench -- generate-only --id <runId> ...   (no judging, e.g. for a smoke test)
+ *   npm run bench -- human --id <runId> --file <arena-export.json>   (human panel votes)
  *
  * `run` is resumable: re-running the same command only does what is missing.
  */
@@ -49,6 +50,23 @@ async function main() {
   if (cmd === 'report') {
     const r = report(a.id, bench);
     console.log(`report written to results/${a.id}/report.md (${r.arenaPairs} arena pairs)`);
+    return;
+  }
+  if (cmd === 'human') {
+    // The arena's export (GET /api/bench/export?runId=…) is stored verbatim next to the run,
+    // minus nothing: judges are named people who agreed to be named, reasons stay with the vote.
+    if (!a.file) throw new Error('--file <arena-export.json> is required');
+    const data = JSON.parse(fs.readFileSync(a.file, 'utf8'));
+    if (data.runId !== a.id) throw new Error(`export is for run ${data.runId}, not ${a.id}`);
+    if (!Array.isArray(data.votes)) throw new Error('export has no votes');
+    fs.writeFileSync(
+      path.join(ROOT, 'results', a.id, 'human-votes.json'),
+      JSON.stringify(data, null, 2) + '\n'
+    );
+    const r = report(a.id, bench);
+    console.log(
+      `${data.votes.length} human votes stored; report rewritten (${r.arenaPairs} arena pairs)`
+    );
     return;
   }
   if (cmd === 'finalists') {
