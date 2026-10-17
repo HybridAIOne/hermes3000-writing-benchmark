@@ -1,0 +1,17 @@
+{
+  "task": "lit-scene",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "Als sie nach dem Tod der Mutter vor dem Haus stand, war die Straße heller, als hätte jemand das Licht am Horizont etwas zu weit geöffnet. Zwanzig Jahre lagen zwischen ihr und dem Schlüssel in der Hand; er hatte sich nicht verändert, war aber kühler, schwerer, als hätte man ihm ein zweites, unsichtbares Blei angehängt. Das Tor fiel auf, nicht mit einem Knall, sondern mit einem dumpfen Schlag, der in den Beinen ankam.\n\nDer Vorgarten hatte sich nicht gelegt. Die Beete waren zu Rasen geworden, doch die Steine lagen noch dort, wo die Mutter sie gesetzt hatte: zwei Kreise um ein unsichtbares Zentrum. Dazwischen drückte sich Kresse durch die Fugen, ein schmaler grüner Rand, der an einen vergessenen Saum erinnerte.\n\nDie hintere Tür ließ sich öffnen, die vordere nicht. In der Diele roch es nach Kalk, nassem Holz und etwas Süßlichem, das unter der Kälte lag und sich nicht fassen ließ. Der Flur ging nach hinten, leer bis in die Tiefe, als hätte man alles Nötige längst mitgenommen, außer dem, was schwer zu benennen war. Das Licht durch die schmalen Fenster hob Staub aus den Ecken; er hing in der Luft wie feiner Sand, den eine Hand anhielt und sofort wieder fallen ließ.\n\nDie Treppe knarrte nicht. Sie trug ihre Schritte still, als zählte das Haus sie, ohne sie zu beantworten. Im ersten Zimmer standen die Dinge noch so, wie man sie verlassen hatte: Sessel zum Fenster, Korb am Boden, ein Tisch mit einer leeren Platte. Auf der Fensterbank, neben einem Topf ohne Erde, lag ein kleiner, glatter Kiesel, in der Größe eines Daumennagels, von Hand abgerieben. Sie nahm ihn. Er war leichter, als er aussah, und kühl bis in die Handfläche, obwohl die Sonne auf seiner Oberfläche lag.\n\nDraußen fiel ein Ast vom Ahorn. Das Haus hörte nicht auf. Es gab nur leise etwas zurück, einen Nachhall in den Wänden.",
+  "usage": {
+    "in": 123,
+    "out": 12144,
+    "thinking": 11679
+  },
+  "costUsd": 0.026746320000000004,
+  "finish": "stop",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "latencyMs": 162207,
+  "meta": [],
+  "at": "2026-10-17T15:08:47.396Z"
+}

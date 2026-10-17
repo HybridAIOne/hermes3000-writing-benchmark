@@ -1,0 +1,112 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "D": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Dann nehme ich Tee.“ ... [Die Bedienung kommt. Martin bestellt Kaffee.] (Entweder ein Logikbruch oder unklare Sprecherzuordnung, da die Namen im Dialog fehlen)",
+          "„Ich wollte nur—“ (Kompromissloser Geviertstrich ohne Leerzeichen entspricht nicht der deutschen Typografie)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "**Mara:** Kaffee? / **Jonas:** Schwarz. ... **Jonas:** Du hast ihn schon bestellt. (Logikbruch: Erst bietet sie ihm scheinbar Kaffee an oder fragt ihn danach, kurz darauf heißt es, sie habe ihn bereits vorab bestellt)",
+          "[Er trinkt. Sie sieht auf die Uhr, obwohl sie es nicht eilig hat.] (Unzulässiger Eingriff eines allwissenden Erzählers in eine Regieanweisung)",
+          "**Mara:** Du nimmst noch immer keinen Zucker. (Unlogisch als Feststellung, wenn sie den Kaffee selbst bereits ungesüßt für ihn bestellt hat)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "BEDIENUNG: Geht aufs Haus. Für Stammgäste. (Verstoß gegen die Vorgabe: Dialog zwischen zwei alten Freunden, keine dritte Sprechrolle)",
+          "„Wie früher.\" (Falsches schließendes Anführungszeichen: Zollzeichen statt deutschem Abführungszeichen)",
+          "BEDIENUNG: Geht aufs Haus. Für Stammgäste. (Inhaltlich unglaubwürdig, wenn die beiden seit zwei Jahren nicht mehr gemeinsam dort waren)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "**ANTON:** Nimm sie mit. ... *Draußen bleibt Josef im Regen stehen und trinkt aus der Tasse.* (Grober Logikbruch: Man nimmt keine Porzellantasse aus einem Café mit auf die Straße, um im Regen daraus zu trinken)",
+          "**ANTON:** *(sieht ihn zum ersten Mal an)* Deine auch nicht. Sie hätte nur klingeln müssen. (Grammatischer Bezugsfehler und inhaltlicher Unsinn: Eine Telefonnummer klingelt nicht)",
+          "**ANTON:** Deine Mutter hatte im Frühjahr Geburtstag, nein? (Unidiomatischer Anglizismus mit „nein?“)",
+          "**ANTON:** Wir haben viel gegessen, damals. (Unbeholfene, unfreiwillig komische Formulierung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "*Der Kellner stellt einen Kaffee vor ihn.* (Logikbruch in der Szene: Es gab zuvor keinerlei Bestellung und kein Signal an den Kellner)",
+          "**TOM:** Wie lange bleibst du? ... *Er steht auf, legt Geld auf den Tisch, zögert.* (Widersprüchliches Verhalten: Er stellt fest, dass sie noch Zeit hat, bricht aber im selben Moment abrupt auf)",
+          "**TOM:** Ich wollte das nicht so stehen lassen. / **ANNA:** Dann lass es jetzt stehen. (Konflikt wird hier fast direkt thematisiert, statt wie gefordert im Subtext zu bleiben)",
+          "**TOM:** Ich hab's mir anders überlegt. (Typografisch falsches Apostroph: Ersatzzeichen statt echtem Auslassungszeichen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "E",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3278,
+    "out": 988,
+    "thinking": 0
+  },
+  "costUsd": 0.016436
+}

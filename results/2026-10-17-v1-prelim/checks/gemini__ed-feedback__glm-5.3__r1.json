@@ -1,0 +1,21 @@
+{
+  "task": "ed-feedback",
+  "model": "glm-5.3",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "found": [
+      "tempus",
+      "perspektive",
+      "wiederholung",
+      "hupe"
+    ],
+    "false_alarms": 1
+  },
+  "usage": {
+    "in": 1244,
+    "out": 63,
+    "thinking": 0
+  },
+  "costUsd": 0.003118
+}

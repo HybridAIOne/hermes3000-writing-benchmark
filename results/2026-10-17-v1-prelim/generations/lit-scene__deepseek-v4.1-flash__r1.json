@@ -1,0 +1,17 @@
+{
+  "task": "lit-scene",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "text": "Die Straße war kürzer als ihre Erinnerung. Die Kastanien, unter denen sie als Kind gespielt hatte, standen noch, aber ihre Kronen waren beschnitten, so dass das Licht hart auf den Asphalt fiel. Das Haus lag am Ende, grau verputzt, mit einem Riss über dem Sturz, der aussah wie ein trockener Fluss. Ihre Mutter war vor drei Wochen gestorben. Seitdem hatte niemand die Tür geöffnet. Sie blieb vor dem Tor stehen, bis die Kälte durch die Sohlen kroch. Dann ging sie weiter.\n\nDer Schlüssel passte. Er drehte sich schwer, dann mit einem Knacken, das mehr im Handgelenk saß als im Ohr. Die Tür schwang auf, und es kam ihr entgegen: kalter Rauch, Staub, ein Hauch von Essig. Kein Parfüm, keine Blumen. Das war gut.\n\nIm Flur war es dunkler, als sie gedacht hatte. Die Dielen lagen nackt. An den Wänden helle Rechtecke, wo Bilder gehangen hatten. Sie ging langsam, ohne die Hand an die Wand zu legen. In der Küche roch es nach Metall. Die Fenster waren von innen beschlagen, obwohl niemand atmete. Auf der Fensterbank stand ein leeres Einmachglas. Darin: drei Knöpfe, ein Haargummi, ein rostiger Schlüssel. Nichts, was sie behalten wollte.\n\nSie öffnete den Kühlschrank. Leer, ausgeschaltet, die Gummidichtung schwarz. Sie schloss ihn wieder.\n\nDann sah sie den Nagel. Er stand schief aus der Diele vor der Küchentür, genau dort, wo ihr Fuß ihn immer gefunden hatte. Damals hatte sie sich den Strumpf aufgerissen, und ihre Mutter hatte gesagt: Ich mache ihn morgen fest. Zwanzig Jahre war der Nagel geblieben. Sie kniete sich hin, berührte den kalten Kopf mit dem Daumen. Er bewegte sich nicht. Sie drückte fester, bis der Abdruck in der Haut blieb.\n\nDraußen fuhr ein Zug vorbei, ohne dass sie ihn sah. Das Haus zitterte kaum. Sie stand auf und ließ die Küchentür offen.",
+  "usage": {
+    "in": 107,
+    "out": 4226,
+    "thinking": 3706
+  },
+  "costUsd": 0.00255165,
+  "finish": "stop",
+  "reportedModel": "deepseek/deepseek-v4.1-flash",
+  "latencyMs": 32957,
+  "meta": [],
+  "at": "2026-10-17T15:06:05.189Z"
+}

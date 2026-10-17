@@ -1,0 +1,17 @@
+{
+  "task": "en-scene",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "At 4:06, Mara found him in the chapel, sitting in the last pew with his hands flat on his knees. His coat was wet at the shoulders. The hospital was quiet except for the carts rattling somewhere beyond the doors.\n\nShe stopped just inside. “You can’t stay here.”\n\nHe looked up. “Mara Vale.”\n\nHer badge was clipped beneath her cardigan, turned toward her chest. She touched it without thinking.\n\n“Who are you?”\n\n“I was waiting.”\n\n“For someone?”\n\nHe glanced toward the narrow window, where the parking garage showed a few lit squares. “I’m not sure.”\n\nMara had spent the night explaining things people didn’t want explained: the delay in a scan, the empty bed, the doctor who was on the way. She felt the familiar urge to make a form out of the moment. Name. Date of birth. Who to call.\n\n“Do you need help?” she asked.\n\n“No.”\n\nShe took one step farther into the room. The air smelled faintly of dust and the lilies someone had left in a jar by the door. Their stems had gone soft in the water.\n\n“You know my name,” she said.\n\n“Yes.”\n\nHe didn’t offer more. Neither did she. In the corridor, a monitor began its steady alarm, then stopped. A voice called for her over the intercom.\n\nMara turned toward the door.\n\nWhen she looked back, the stranger was still seated, his gaze lowered to the polished floor. A thin strip of dawn lay across his shoes.",
+  "usage": {
+    "in": 59,
+    "out": 636,
+    "thinking": 318
+  },
+  "costUsd": 0.00032389999999999996,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "latencyMs": 8059,
+  "meta": [],
+  "at": "2026-10-17T14:50:21.305Z"
+}

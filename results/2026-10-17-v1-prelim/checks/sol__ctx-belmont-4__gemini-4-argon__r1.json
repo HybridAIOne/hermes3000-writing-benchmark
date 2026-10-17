@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-1"
+    ],
+    "evidence": [
+      "Neben ihm erschien Dr. Vosskuhl, der beim Anblick des Ankömmlings stehen blieb und sich nervös an die randlose Brille fasste, die braunen Augen weit geöffnet."
+    ]
+  },
+  "usage": {
+    "in": 2282,
+    "out": 348,
+    "thinking": 278
+  },
+  "costUsd": 0.008044
+}

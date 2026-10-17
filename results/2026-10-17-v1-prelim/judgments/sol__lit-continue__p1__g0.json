@@ -1,0 +1,116 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 6,
+        "stil": 3,
+        "aufgabe": 3,
+        "fehler": [
+          "„Ich habe dich gesehen, bevor du anlegtest“, sagt Ilse zu Jonas. Das vertauscht die Ausgangssituation: Ilse hat angelegt, Jonas stand bereits am Anleger.",
+          "„Warum bist du nicht gestiegen?“ – „Weil du nicht gestiegen bist.“ Ohne „ein-“ oder eine Richtungsangabe ist „gestiegen“ hier unidiomatisch. Auch inhaltlich ergibt der Austausch keine nachvollziehbare Verständigung.",
+          "„Sie kannte, wann das Wasser höher stand“: falsche Verbkonstruktion; richtig wäre etwa „Sie wusste, wann …“.",
+          "„Da fahre ich nicht nach München.“ Die Replik reagiert auf keine erkennbare Bitte oder Ankündigung. Der Dialog wirkt nicht durch Subtext verknappt, sondern lässt notwendige Zusammenhänge aus.",
+          "„mit einem Ton, der in ihrem Kopf wie ein Wort klang, das sie nicht aussprach“: aufgesetzte Bedeutungsandeutung ohne konkreten Wahrnehmungs- oder Gedankeninhalt. Solche unbestimmten Aufladungen ersetzen mehrfach die Entwicklung der Szene."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Ein Besuch würde daran nichts ändern, entschied sie. Auch dieser nicht.“ Die bereits durch Ablegen und Dialog gezeigte Entscheidung wird nachträglich erklärt und noch einmal bekräftigt. Das schwächt den ansonsten überzeugend ausgespielten Schluss.",
+          "„wie man Fremden zunickt“ und „wie man etwas festhält, das einem nicht recht gehört“: Die dicht aufeinanderfolgenden Vergleichskonstruktionen erklären die Distanz zwischen den Figuren etwas demonstrativ."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 4,
+        "fehler": [
+          "„wo die nächste Fähre schon vom anderen Ufer ablegte“: widerspricht der Vorgabe, dass Ilse die letzte Seilfähre betreibt. Zudem liegt ihre eigene Fähre gerade bei ihr am Anleger.",
+          "„löste sie die Leine vom Poller, legte sie zweimal um […] und zog den Gashebel zurück“: Die Abfolge ist technisch und räumlich unstimmig. Ilse löst die Befestigung, legt die Leine offenbar erneut um den Poller und bedient dann den Antrieb für die angekündigte Überfahrt.",
+          "„auf den Fluss, wo die nächste Fähre schon vom anderen Ufer ablegte“ und anschließend „Steig ein“: Die zusätzliche Fähre wird eingeführt, ohne dass ihre Bedeutung für Ilses unmittelbar folgende Handlung verständlich wird. Gerade am Entscheidungspunkt verliert die Szene ihre räumliche Klarheit.",
+          "„Gleich würde er von Gutachtern anfangen, von Kosten, von Zahlen, die er im Kopf hatte und die sie nicht hören wollte.“ Die erwartete Auseinandersetzung wird recht vollständig vorformuliert, statt sich aus Jonas’ Verhalten und dem Gespräch zu entwickeln."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„Du hast den Motor nicht mehr reparieren lassen“ bis „so wie Henning es ihr beigebracht hatte“: Der gesamte vorgegebene letzte Absatz wird wiederholt, statt die Szene unmittelbar fortzusetzen.",
+          "„Das alte Gehäuse vibrierte noch, obwohl der Motor längst aus war.“ Dafür fehlt eine plausible Ursache. Auch Jonas’ anschließendes „Das klingt nicht nach Laufen“ setzt ein Motorgeräusch voraus, obwohl der Motor erst später gestartet wird.",
+          "„Ilse zog den Poller frei“: Gemeint ist offenbar, dass sie die Leine vom Poller nimmt. Der fest montierte Poller selbst wird nicht freigezogen.",
+          "„Ich fahr dich rüber.“ – „Und die Fähre?“ – „Die fährt auch.“ Der Austausch ist als wortkarger Witz angelegt, aber Jonas’ Frage hat in dieser Situation keinen nachvollziehbaren Anlass."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Hinter Jonas wartete der Wagen mit den beiden Rädern auf dem Anhänger, die er wohl in Hitzacker abgestellt hatte“: Gegenstände, Relativsatzbezug und räumliche Situation bleiben unverständlich. Was wurde abgestellt, und weshalb befindet es sich zugleich hinter Jonas?",
+          "„Du könntest wenigstens sagen, dass du gekommen bist“: Jonas steht bereits vor ihr. Falls Ilse eine vorherige Ankündigung verlangt, müsste es sinngemäß „dass du kommst“ heißen; die vorliegende Replik verfehlt ihren erkennbaren Gesprächszweck.",
+          "„mit einer dünnen Haut aus Licht an der Mitte“: „an der Mitte“ ist hier unidiomatisch; gemeint ist offenbar „in der Mitte“.",
+          "Der Text umfasst rund 580 Wörter und überschreitet „etwa 400 Wörter“ deutlich. Besonders der ausführliche Kaffeeablauf verzögert die Szene, ohne entsprechend viel zusätzliche Spannung zu erzeugen.",
+          "„als suche er dort den Fehler wie in einer Bilanz“ und „als müsse er prüfen, ob hier wirklich jemand arbeitete“: Die Vergleiche legen Jonas wiederholt auf dieselbe kontrollierende Beraterhaltung fest und erklären seine Gesten stärker, als nötig wäre."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "C",
+      "E",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 3936,
+    "out": 2899,
+    "thinking": 1536
+  },
+  "costUsd": 0.036862
+}

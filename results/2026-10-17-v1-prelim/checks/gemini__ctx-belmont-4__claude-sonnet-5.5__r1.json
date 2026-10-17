@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 1949,
+    "out": 25,
+    "thinking": 0
+  },
+  "costUsd": 0.004148
+}

@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 1980,
+    "out": 34,
+    "thinking": 0
+  },
+  "costUsd": 0.0043
+}

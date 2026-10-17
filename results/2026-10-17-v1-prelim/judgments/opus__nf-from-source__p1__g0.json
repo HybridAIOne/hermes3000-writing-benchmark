@@ -1,0 +1,138 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„29 Prozent durch einen Zuschuss der Gemeinde erwirtschaftet wurden“ – ein Zuschuss wird nicht erwirtschaftet",
+          "„Während die Überfahrt bei normalem Wasserstand sieben Minuten dauert und die Seilfähre, die bis 1978 rein durch die Strömung bewegt wurde, heute von einem 85-kW-Dieselmotor angetrieben wird, spart die Gemeinschaft bereits vorausschauend“ – überladener Satz, Technikdaten ohne Bezug zum Argument",
+          "„Die Rechtsform erweist sich als ideal, da sie den Fortbestand der Verbindung […] sichert“ – Begründung bleibt behauptet statt erklärt",
+          "„71 Prozent durch Fahrkartenverkäufe von rund 64.000 beförderten Personen“ – vermengt Jahresumsatz 2024 und Jahresdurchschnitt der Fahrgäste",
+          "„Finanziell steht das Modell auf soliden Beinen“ – unbelegte Wertung"
+        ],
+        "unsupported": [
+          "„Finanziell steht das Modell auf soliden Beinen“",
+          "„vollständig in eine Rücklage eingezahlt“",
+          "„umweltfreundlichen Elektroantrieb“",
+          "„die wichtige Flussquerung in eigener Regie weiterzuführen“",
+          "Verknüpfung der 71 Prozent Fahrkartenumsatz 2024 mit den „rund 64.000 beförderten Personen“"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Statt die Verbindung allein dem Landkreis zu überlassen“ – unlogisch, der Landkreis hatte den Betrieb gerade eingestellt",
+          "„Gerade darin liegt ein wichtiger Unterschied zwischen dem eingebrachten Geld und dem Einfluss auf gemeinsame Entscheidungen.“ – Füllsatz, wiederholt den Vorsatz",
+          "„Daraufhin gründeten 41 Landwirte und Händler von beiden Elbufern die Genossenschaft.“ – wiederholt die Gründung aus dem Satz davor",
+          "„Die Genossenschaft bündelt somit die Beteiligung ihrer Mitglieder für einen Betrieb, der weit über diesen Kreis hinaus genutzt wird.“ – abstrakt, für Laien wenig anschaulich",
+          "Text deutlich über 300 Wörter, Fakten zur Fähre stehen verstreut im Begründungsteil"
+        ],
+        "unsupported": [
+          "„Statt die Verbindung allein dem Landkreis zu überlassen“ – widerspricht dem Ablauf in der Quelle"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„So entscheidet nicht allein die Höhe der eingebrachten Anteile über das Stimmgewicht.“ – sachlich schief, die Anteile spielen für das Stimmgewicht gar keine Rolle",
+          "„Die Mitglieder tragen die Genossenschaft gemeinsam und bestimmen nach dem gleichen Stimmprinzip über ihre Angelegenheiten.“ – Füllsatz",
+          "„So bleibt der Zweck der Genossenschaft nicht auf den laufenden Betrieb beschränkt: Sie plant auch für die Zukunft der Fähre.“ – floskelhafter Schluss",
+          "„Für diese Fähre ist die Genossenschaft passend, weil sie die Beteiligung vieler Menschen mit einer langfristigen gemeinsamen Aufgabe verbindet.“ – Begründung bleibt allgemein",
+          "Rücklage und Umsatzzahlen werden in einem Absatz unverbunden vermischt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„übernahmen die Anwohner die Verantwortung selbst“ – laut Quelle Landwirte und Händler, nicht pauschal Anwohner",
+          "„diese Anteile bilden das Kapital, mit dem die Genossenschaft wirtschaftet“ – nicht durch die Quelle gedeckt",
+          "„aus beiden Elbufern“ – idiomatisch „von beiden Elbufern“",
+          "Absatz 2 übernimmt den Wortlaut der Quelle nahezu wörtlich",
+          "Die Einstellung durch den Landkreis wird doppelt erzählt"
+        ],
+        "unsupported": [
+          "„diese Anteile bilden das Kapital, mit dem die Genossenschaft wirtschaftet“",
+          "„übernahmen die Anwohner die Verantwortung“",
+          "„Jeder kann mit einem überschaubaren Anteil einsteigen“"
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Im Jahr 1953 stellte der Landkreis den Betrieb der Seilfähre bei Hitzacker ein.“ – die Quelle datiert nur die Gründung, nicht die Einstellung, auf 1953",
+          "„## Gemeinsam über den Fluss: die Fährgenossenschaft Hitzacker“ – Markdown-Überschrift, obwohl nur Buchtext verlangt war",
+          "„Das Ziel der Fährgenossenschaft ist nicht, Gewinn zu erzielen.“ – aus der Quelle nicht belegte Zielaussage",
+          "„nahm die Genossenschaft 186.000 Euro ein“ – Umsatz, ungenau wiedergegeben",
+          "„an einer kleinen Fähre“ / „ein überschaubarer Betrieb“ – unbelegte Wertungen"
+        ],
+        "unsupported": [
+          "Einstellung des Fährbetriebs durch den Landkreis „Im Jahr 1953“",
+          "„Das Ziel der Fährgenossenschaft ist nicht, Gewinn zu erzielen.“",
+          "„jeder erwirtschaftete Euro bleibt im Betrieb“",
+          "„einer kleinen Fähre“ / „ein überschaubarer Betrieb“"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "E",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 7249,
+    "out": 3495,
+    "thinking": 1284
+  },
+  "costUsd": 0.098896
+}

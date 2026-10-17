@@ -1,0 +1,100 @@
+{
+  "task": "lit-dialogue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 5,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Jonas lässt sich fallen, nicht setzt sich.\" – ungrammatisch, gemeint ist etwa: \"Jonas setzt sich nicht, er lässt sich fallen.\"",
+          "\"Siehst du besser aus.\" – falsche Wortstellung für eine Aussage, liest sich als Frage ohne Fragezeichen.",
+          "\"Jonas: Du hast recht. / Markus: Mit was? / Jonas: Dass ich nichts will.\" – Logikbruch: Markus hatte \"Ich will nichts\" über sich gesagt, die Erwiderung ergibt keinen Sinn.",
+          "\"Ich nehme ihn nicht.\" … \"Jonas lässt sich fallen\" – widersprüchlich und unklar, auf welchen Platz er sich setzt.",
+          "\"Er hält den Moment, in dem er gehen könnte, fest.\" – gestelzte, abstrakte Regieanweisung, dazu weitere erklärende Vergleiche wie \"als wäre dort ein Ausweg\"."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Es wirkt wie eine Barrikade.\" – erklärt, statt zu zeigen.",
+          "\"Ich kannte das Ende ja schon. Es geht nicht gut aus für die beiden.\" – überdeutliche Metapher, macht den Konflikt beinahe ausgesprochen.",
+          "\"Altlasten loswerden, weißt du?\" – zu direkt, der Subtext wird zum Text.",
+          "Schlüssel, Haarschnitt und Trennungsmotiv lassen eher ein Ex-Paar als zwei \"alte Freunde\" erkennen – die Vorgabe ist verfehlt.",
+          "\"ein kurzes, schmerzhaftes Lächeln\" / \"schluckt schwer\" / \"Manche Dinge ändern sich wohl nie\" – abgegriffene Formeln."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "\"Ist bitterer geworden, das Leben.\" – zu ausgesprochene Pointe, streift das Sentimentale.",
+          "\"Manche Dinge ändern sich nicht.\" – Floskel, wird allerdings durch \"Andere schon\" gebrochen.",
+          "\"**Elf Jahre**\" – der Titel geht über die Vorgabe \"nur Dialog und knappe Regieanweisungen\" hinaus.",
+          "\"Ohne Partner.\" – ein deutlicher Fingerzeig, der knapp an der Grenze zum Aussprechen des Konflikts liegt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "\"Benedikt: Gut. / Thomas: Gut.\", \"Also. / Also.\", \"Drei Wochen. / Drei Wochen.\" – Echo-Wiederholung als Masche.",
+          "\"Der Kaffee ist heiß.\" – Logikbruch: Der Kaffee wird nur angeboten, aber nie bestellt oder serviert.",
+          "\"Das Wetter meint es gut.\" / \"Meint es das?\" – gekünstelter Doppelsinn.",
+          "\"Ich wollte mich setzen. Wenn du nichts dagegen hast.\" – der Schauplatz bleibt ungeklärt; Benedikt rückt den Stuhl zurück, als wäre er Gastgeber.",
+          "\"Pause.\" – Regieanweisung uneinheitlich formatiert, ohne Klammern."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "B",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 5172,
+    "out": 2303,
+    "thinking": 928
+  },
+  "costUsd": 0.066748
+}

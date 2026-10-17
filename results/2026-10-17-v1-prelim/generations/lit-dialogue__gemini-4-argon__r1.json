@@ -1,0 +1,17 @@
+{
+  "task": "lit-dialogue",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "text": "*Ein kleines Café. LUKAS sitzt an einem Ecktisch und dreht seine Kaffeetasse. MARIE tritt an den Tisch, den Mantel noch zugeknöpft.*\n\nMARIE\nDu bist schon da.\n\nLUKAS\n*(ohne aufzusehen)*\nIch bin immer zehn Minuten zu früh. Das weißt du doch.\n\nMARIE\n*(zögert, zieht den Stuhl zurück, legt den Mantel aber nicht ab)*\nJa. Stimmt. Manche Dinge ändern sich wohl nie.\n\nLUKAS\n*(blickt auf, ein kurzes, schmerzhaftes Lächeln)*\nManche schon. Setz dich doch. Ich hab dir eine Apfelschorle bestellt.\n\nMARIE\n*(setzt sich auf die Stuhlkante)*\nIch trinke inzwischen lieber Wasser. Aber danke.\n\nLUKAS\n*(schiebt das Glas ein Stück beiseite)*\nOh. Okay. Merk ich mir.\n\n*(Schweigen. Marie knetet ihre Hände im Schoß.)*\n\nMARIE\nDu siehst müde aus, Lukas.\n\nLUKAS\nViel Arbeit. Das Projekt im Büro... naja, es frisst ziemlich viel Zeit. Und du? Die kurzen Haare stehen dir.\n\nMARIE\n*(fährt sich unbewusst durchs Haar)*\nIch brauchte einen radikalen Schnitt. Altlasten loswerden, weißt du?\n\nLUKAS\n*(sein Blick verhärtet sich kurz)*\nVerstehe. Das ist dir gelungen.\n\nMARIE\nLukas, ich... \n\nLUKAS\n*(unterbricht sie sanft, greift in seine Jackentasche)*\nIch hab deine Sachen mitgebracht. Also, den Schlüssel. Und das Buch, das du mir damals geliehen hast. \n\n*(Er legt beides zwischen die Gläser auf den Tisch. Es wirkt wie eine Barrikade.)*\n\nMARIE\n*(starrt auf den Schlüssel)*\nHast du es wenigstens zu Ende gelesen?\n\nLUKAS\nNein. Ich kannte das Ende ja schon. Es geht nicht gut aus für die beiden.\n\nMARIE\n*(schluckt schwer, nimmt den Schlüssel, lässt das Buch liegen)*\nBehalt das Buch. Vielleicht liest du es irgendwann noch mal. Mit etwas Abstand.\n\nLUKAS\n*(sieht aus dem Fenster)*\nVielleicht. \n\nMARIE\nIch muss dann auch wieder. \n\nLUKAS\n*(nickt langsam, sieht sie wieder an)*\nPass auf dich auf, Marie.\n\nMARIE\n*(steht auf)*\nDu auch. Lukas.",
+  "usage": {
+    "in": 93,
+    "out": 552,
+    "thinking": 0
+  },
+  "costUsd": 0.005706,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "latencyMs": 19341,
+  "meta": [],
+  "at": "2026-10-17T14:50:25.781Z"
+}

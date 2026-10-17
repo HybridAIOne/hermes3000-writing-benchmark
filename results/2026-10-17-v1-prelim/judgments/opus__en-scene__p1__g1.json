@@ -1,0 +1,118 @@
+{
+  "task": "en-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "\"the chapel alcove had the last working cold tap that didn’t rattle the pipes\" – konstruierter Vorwand, ein Trinkbrunnen in der Kapelle wirkt unglaubwürdig",
+          "\"rounding his shoulders into the shape of the oak bench\" – schiefes Bild",
+          "\"the usual excuses—a mother in ICU\" – eine Mutter auf der Intensivstation als „Ausrede“ ist tonal schief",
+          "\"frosted casement\" / \"frosted glass\" – Wortwiederholung im engen Abstand",
+          "\"pulsing rhythmically\" – überflüssiges Adverb"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"I heard someone call you that. Downstairs.\" – die Erklärung entschärft das Rätsel um den Namen weitgehend",
+          "\"He picked them off individually\" – „individually“ klingt hölzern, „one by one“ wäre idiomatischer",
+          "\"He had the tired, recently shaved look of someone who had expected to be home by now.\" – erklärende Zuschreibung statt Zeigen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"the lamp by the altar was still on, though no one had been in all night\" – Logikbruch, der Mann sitzt im Raum",
+          "\"smelled of carpet cleaner and old flowers\" vs. \"the plastic flowers kept their color\" – Widerspruch",
+          "\"let the beeping fade\" / \"Her feet ached\" – abgegriffene Pflegekraft-Klischees",
+          "\"Not praying. Just folded.\" – manierierter Stakkato-Effekt",
+          "\"and the man didn't flinch, and in 412 a woman would be waking soon..., and the coffee\" – Polysyndeton als Masche"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "\"You switched from pediatrics in November, Clara... The night shift suits you better.\" – Thriller-Klischee des allwissenden Fremden, kippt Richtung Enthüllung",
+          "\"carried easily in the small, acoustic space\" – „acoustic“ unpräzise",
+          "\"His voice was dry, unhurried\" – Standardformel",
+          "\"though he still didn't look at her\" – „still“ redundant, er hat sich nie umgedreht",
+          "\"keeping her voice pitched to the low, neutral register she used for disoriented patients\" – erklärend"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Länge ca. 330 Wörter – deutlich über den geforderten etwa 250",
+          "\"Not the way you mean.\" – mystisch-klischeehafte Rätselantwort",
+          "\"It seems to hold still, but it doesn't. Each minute it slides a little farther... though she can never catch it moving.\" – das Schlussbild wird überdeutlich erklärt",
+          "\"the way her father used to consider a question about weather\" – etwas bemühter Vergleich"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "A",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3729,
+    "out": 2389,
+    "thinking": 1204
+  },
+  "costUsd": 0.062696
+}

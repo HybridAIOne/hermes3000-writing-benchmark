@@ -1,0 +1,98 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "\"Wenn du ehrlich bist, kennst du diese Szene.\" – leicht formelhafte Überleitung",
+          "\"und draußen im Flur kommt Markus näher\" – \"draußen\" ist neben \"im Flur\" überflüssig",
+          "\"ohne Rhetoriktricks und ohne Seminarfloskeln\" – grenzt sich ab, statt Konkretes anzukündigen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "\"wie du diese Situationen meisterst\" – Ratgeber-Floskel, widerspricht der Vorgabe \"keine Buzzwords\"",
+          "\"Wir reden über Klartext, ohne dabei die Menschlichkeit zu verlieren.\" – Phrase ohne Gehalt",
+          "\"Dieses Gefühl kennen wir alle.\" – Wechsel ins \"wir\" bricht die Du-Ansprache, zudem Allgemeinplatz",
+          "Drei Absätze statt des geforderten einen Einstiegsabsatzes",
+          "\"Markus ist fachlich brillant, aber [...] hat er die Stimmung im Team systematisch vergiftet.\" – klischeehafte Figurenzeichnung, Szene wird behauptet statt gezeigt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Aber das Gespräch hat begonnen, das tatsächlich nötig ist.\" – holpriger Satzbau, nachgestellter Relativsatz",
+          "Mit gut 300 Wörtern deutlich über der Vorgabe von etwa 250",
+          "Der Text nimmt Kapitelinhalt (Formulierungsbeispiel, Gesprächsaufbau) vorweg, statt nur einzusteigen",
+          "\"Gerade wenn du ein Team leitest, ohne disziplinarisch verantwortlich zu sein\" – thematisch passend, aber abrupt eingeführt",
+          "\"Vielleicht ist es auch gar nicht so schlimm.\" – dreifache Vielleicht-Reihe wirkt etwas schematisch"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"bis sie größer geworden sind als das eigentliche Problem\" – unscharfe Logik: Das Gespräch wird nicht größer als das Problem",
+          "\"bist du in guter Gesellschaft\" – abgegriffene Wendung",
+          "Mit etwa 290 Wörtern etwas über der Vorgabe",
+          "\"Und eigentlich ist er ein feiner Kerl.\" – umgangssprachlich, im Ton aber vertretbar"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 4233,
+    "out": 1826,
+    "thinking": 771
+  },
+  "costUsd": 0.053452
+}

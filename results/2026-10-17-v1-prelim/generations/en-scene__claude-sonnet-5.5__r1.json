@@ -1,0 +1,17 @@
+{
+  "task": "en-scene",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "The chapel was at the end of the east corridor, past the vending machines, and Ines only went in at night to turn off the lights someone had left on. At ten to four she pushed the door open and found a man in the second pew.\n\nHe wasn't praying. His hands lay open on his knees, as if he were waiting to be handed something. Gray overcoat, good shoes, no visitor's sticker.\n\n\"Sir, the chapel's open, but I can't have people here unaccompanied after...\" She had no idea how that sentence ended. There was no rule.\n\n\"Hello, Ines,\" he said.\n\nShe touched her badge. It was turned inward, the way she always wore it, because the photo made her look arrested. She had worn it that way for six years. Only the white back showed.\n\n\"Are you visiting someone?\"\n\n\"No.\" He seemed to consider whether this was rude. \"It's quiet here. The machine on three only takes exact change, did you know that?\"\n\n\"Yes.\"\n\n\"Well.\"\n\nShe should have called security. She thought of the call, the two men arriving and their keys, and the way he would stand up politely. Instead she stayed in the doorway, one hand holding it open, while the ventilation ticked and the rack of electric candles hummed.\n\n\"Do I know you?\"\n\nHe looked toward the front, where the cross was bolted to the wall, plain as a coat hook. \"You were kind to the man in 12,\" he said. \"Tonight, I mean.\"\n\nThen he turned back to the altar, and she let the door close on its slow hinge.\n\nAt the station she kept looking down the corridor. Through the chapel's narrow window she could see the back of his head, perfectly still, and one candle in the rack stuttering on and off beside him.",
+  "usage": {
+    "in": 91,
+    "out": 1212,
+    "thinking": 678
+  },
+  "costUsd": 0.012302,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "latencyMs": 13982,
+  "meta": [],
+  "at": "2026-10-17T14:50:39.535Z"
+}

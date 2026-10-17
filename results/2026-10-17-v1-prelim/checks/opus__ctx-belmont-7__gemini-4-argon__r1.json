@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-7",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "violated": [
+      "b7-4"
+    ],
+    "evidence": [
+      "„Nein“, antwortete Elise und ließ das Medaillon in ihrer Tasche los. „Ich erinnere mich an alles.“"
+    ]
+  },
+  "usage": {
+    "in": 4081,
+    "out": 570,
+    "thinking": 498
+  },
+  "costUsd": 0.027724
+}

@@ -1,0 +1,94 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Die Küche war kleiner, als sie sie behalten hatte.“ – Idiomatisch unvollständig: Gemeint ist „in Erinnerung behalten hatte“.",
+          "„Die letzte Seite war herausgerissen worden“ / „Unter seinem Boden lag ein zweiter Schlüssel.“ – Die Häufung rätselhafter Fundstücke am Schluss wirkt etwas arrangiert. Die sinnlich und biografisch überzeugend eingeführte Nelke hätte bereits genügend Spannung getragen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„ein leeres Einmachglas. Darin: drei Knöpfe, ein Haargummi, ein rostiger Schlüssel.“ – Unmittelbarer sachlicher Widerspruch: Das Glas ist nicht leer.",
+          "„Die Fenster waren von innen beschlagen, obwohl niemand atmete.“ – Die Formulierung suggeriert einen physikalischen Widerspruch, der keiner ist. Zugleich erzeugt sie etwas demonstrativ eine unheimliche Atmosphäre.",
+          "„Die Straße war kürzer als ihre Erinnerung.“ – Verständliche, aber konventionelle Verkürzung des Motivs vom geschrumpften Kindheitsort; weniger eigenständig als das später entwickelte Nagelmotiv."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Damals war die Mutter schon krank“ / „Nicht die Mutter selbst, nur die Spur von ihr.“ – Dass die Mutter inzwischen verstorben ist, wird lediglich nahegelegt, nicht hinreichend etabliert. Ein zentraler Bestandteil der Ausgangssituation bleibt unklar.",
+          "„Als sie den Schlüssel drehte“ bis „kalt an wie Stein“ – Mit rund 360 Wörtern liegt die Szene merklich über dem Richtwert. Vor allem die wiederholten atmosphärischen Ausdeutungen bieten Kürzungspotenzial.",
+          "„als hielte das Haus den Atem an“ / „das Haus hatte noch geatmet“ – Das vertraute Bild vom atmenden Haus wird innerhalb kurzer Distanz wiederholt und anschließend ausdrücklich erklärt.",
+          "„fast beleidigten Knacken“ / „als könne es sie erkennen“ / „als hätte ihn jemand hastig belastet“ – Die Häufung personifizierender und hypothetischer Zuschreibungen überformt die konkreten Beobachtungen.",
+          "„Nicht die Mutter selbst, nur die Spur von ihr.“ – Erklärt die emotionale Bedeutung des Geruchs, statt sie durch Wahrnehmung und Handlung entstehen zu lassen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„die Nachbarin, deren Namen ihr nicht mehr einfiel“ – Kasusfehler: Das Subjekt zu „einfiel“ muss „deren Name“ heißen.",
+          "„wie der Notar gesagt hatte“ / „Zwanzig Jahre.“ – Nachlasskontext und lange Abwesenheit werden angedeutet; der Tod der Mutter und die zwanzig Jahre seit der letzten Rückkehr werden jedoch nicht eindeutig festgestellt.",
+          "„Er war kälter, als Metall im Oktober sein sollte“ – Atmosphärisch zugespitzt, aber unpräzise: Für die behauptete ungewöhnliche Kälte fehlt ein nachvollziehbarer Bezugspunkt."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2396,
+    "out": 1380,
+    "thinking": 512
+  },
+  "costUsd": 0.018592
+}

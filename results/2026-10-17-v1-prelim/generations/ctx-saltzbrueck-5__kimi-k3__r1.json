@@ -1,0 +1,17 @@
+{
+  "task": "ctx-saltzbrueck-5",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "",
+  "usage": {
+    "in": 20175,
+    "out": 16000,
+    "thinking": 16000
+  },
+  "costUsd": 0.1970925,
+  "finish": "length",
+  "reportedModel": "moonshotai/kimi-k3",
+  "latencyMs": 181684,
+  "meta": [],
+  "at": "2026-10-17T14:54:42.373Z"
+}

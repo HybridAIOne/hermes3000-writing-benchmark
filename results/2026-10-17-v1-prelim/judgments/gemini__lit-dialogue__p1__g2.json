@@ -1,0 +1,97 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Die Kellnerin kommt. Ralf schüttelt den Kopf. [...] THOMAS: Immer noch zwei Stück? RALF: Drei. Inzwischen.",
+          "Manche Dinge ändern sich nicht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "Ben sitzt an einem Ecktisch, zwei Gläser Wasser vor sich. [...] Bier? [...] Das Bier wird schal.",
+          "[Sie sehen sich an. Keiner blinzelt.]",
+          "Ein paar Glühbirnen wurden getauscht. Das Licht ist jetzt kälter. [...] Man sieht die Dinge klarer. [...] Oder man sieht einfach zu viel.",
+          "Auf die alten Zeiten? [...] Auf das, was davon übrig ist."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "Es wirkt wie eine Barrikade.",
+          "Also, den Schlüssel. Und das Buch, das du mir damals geliehen hast.",
+          "Nein. Ich kannte das Ende ja schon. Es geht nicht gut aus für die beiden.",
+          "Ich brauchte einen radikalen Schnitt. Altlasten loswerden, weißt du?",
+          "ein kurzes, schmerzhaftes Lächeln"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 2,
+        "stil": 2,
+        "aufgabe": 3,
+        "fehler": [
+          "(Jonas lässt sich fallen, nicht setzt sich. Seine Hände bleiben in den Taschen.)",
+          "Siehst du besser aus.",
+          "Er rührt den Kaffee, obwohl er kalt ist.",
+          "Er schaut aus dem Fenster, als wäre dort ein Ausweg.",
+          "Markus: Mit was? Jonas: Dass ich nichts will."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2946,
+    "out": 592,
+    "thinking": 0
+  },
+  "costUsd": 0.011812
+}

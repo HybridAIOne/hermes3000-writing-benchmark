@@ -1,0 +1,107 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "Kurz darauf kommt Jürgen Brandt in dein Büro ... Dann klopft es, Jürgen steckt den Kopf zur Tür herein",
+          "dass seine Abteilung das Budget für das nächste Quartal nicht bekommt ... und dass ein Teil seiner Aufgaben künftig bei den Kollegen aus der Logistik landet",
+          "die Lieder der Firmengeschichte auswendig können",
+          "Genau an diesem Punkt stehen Führungskräfte häufig"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Donnerstag, 16:52.",
+          "die Kundenrückmeldung gerettet"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Am Dienstagmorgen steht Anna mit zwei Kaffeebechern vor dem Besprechungsraum. Der eine ist für dich. Sie stellt ihn ab, setzt sich und sagt: „Ich weiß nicht, wie ich es ansprechen soll.“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 3,
+        "stil": 3,
+        "aufgabe": 6,
+        "fehler": [
+          "Jonas sitzt an seinem Platz und räumt Paletten auf, dabei bleibt er mehrfach stehen.",
+          "Die anderen haben dich nicht von oben ernannt, sondern du bist aus dem Kreis herausgezogen worden",
+          "vergisst er vielleicht, dass es eine Sache für später gibt.",
+          "Der Kunde hat gefragt, ob so etwas wiederkommen kann.",
+          "In der Abteilung weiß es jeder, wahrscheinlich nicht ganz, aber gut genug."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "D",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2722,
+    "out": 618,
+    "thinking": 0
+  },
+  "costUsd": 0.011624
+}

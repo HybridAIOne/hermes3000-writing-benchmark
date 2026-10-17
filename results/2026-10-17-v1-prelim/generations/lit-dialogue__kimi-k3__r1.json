@@ -1,0 +1,19 @@
+{
+  "task": "lit-dialogue",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "**Stammgäste**\n\n*Ein Café. Nachmittag. JONAS sitzt an einem Tisch am Fenster, vor ihm zwei Tassen. BEN kommt herein, bleibt einen Moment stehen.*\n\nBEN: Du hast schon bestellt.\n\nJONAS: Schwarz, ohne Zucker. Ich hoffe, das stimmt noch.\n\nBEN *(setzt sich, behält die Jacke an)*: Es stimmt noch.\n\nJONAS: Gut.\n\n*Stille. Draußen Regen.*\n\nBEN: Der Laden hat sich nicht verändert.\n\nJONAS: Nur die Preise.\n\nBEN *(fast ein Lächeln)*: Nur die Preise. Wie lange ist es her? Zwei Jahre?\n\nJONAS: Du weißt es genau.\n\nBEN: Du auch.\n\nJONAS: Wie geht es deiner Mutter?\n\nBEN: Besser. Sie fragt nach dir. Manchmal.\n\nJONAS: Manchmal.\n\nBEN: Sie weiß ja nicht –\n\nJONAS: Nein. Natürlich nicht.\n\n*Ben dreht seine Tasse zwischen den Händen.*\n\nBEN: Du siehst ausgeschlafen aus.\n\nJONAS: Ich schlafe gut. Und du?\n\nBEN: Ich arbeite viel.\n\nJONAS: Das hast du immer gesagt.\n\nBEN: Weil es immer stimmte.\n\n*Bens Handy leuchtet auf. Er dreht es um.*\n\nJONAS: Du kannst rangehen.\n\nBEN: Es ist nichts Wichtiges.\n\nJONAS: War es nie.\n\n*Die Bedienung stellt Kuchen auf den Tisch.*\n\nJONAS: Das haben wir nicht bestellt.\n\nBEDIENUNG: Geht aufs Haus. Für Stammgäste.\n\nJONAS: Wir sind keine –\n\nBEN: Danke. Wir nehmen ihn.\n\n*Die Bedienung geht. Jonas sieht den Kuchen an.*\n\nJONAS: Mit Kirschen.\n\nBEN: Wie früher.\n\nJONAS: Sag das nicht.\n\nBEN: Was denn?\n\nJONAS: „Wie früher.\"\n\n*Ben nickt langsam. Er zieht die Jacke aus und hängt sie über den Stuhl.*\n\nBEN: Der Regen lässt nach.\n\nJONAS: Dann bleib noch.\n\n*Er schiebt den Kuchen in die Mitte. Zwei Gabeln.*",
+  "usage": {
+    "in": 156,
+    "out": 4290,
+    "thinking": 3731
+  },
+  "costUsd": 0.0512694,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "latencyMs": 36643,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T15:05:03.559Z"
+}

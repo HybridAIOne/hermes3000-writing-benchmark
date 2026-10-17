@@ -1,0 +1,117 @@
+{
+  "task": "en-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "glm-5.3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "\"the orange going cold in her hand\" – schiefes Bild, eine Orange ist nicht warm",
+          "\"Its flame was a bent piece of plastic over a small bulb\" – „flame“ wird bildlich doppelt belegt und widerspricht sich leicht mit dem folgenden „doing the still work of a flame“",
+          "\"though neither was she, strictly\" – leicht gekünstelte Nachstellung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "\"**Second Pew**\" – Titel; die Vorgabe verlangt reinen Buchtext",
+          "\"You did my wife's dressings. March.\" – erklärt, woher er den Namen kennt, und nähert sich damit der Auflösung, die die Aufgabe vermeiden will",
+          "\"He considered this longer than the question deserved.\" – erklärender Erzählerkommentar",
+          "\"the way they did every morning at four-thirty, though she had never before stayed long enough to watch\" – Widerspruch: Woher kennt sie den Ablauf, wenn sie ihn nie gesehen hat?"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "\"more like a waiting room for the inevitable\" – Klischee",
+          "\"he smelled faintly of ozone and old paper\" – abgegriffenes Mystery-Signal",
+          "\"as if her name were a word he had been rehearsing for a long time\" – erklärt, statt zu zeigen",
+          "\"polished mahogany of the altar\" / \"marble\" / \"vaulted space\" – für eine Krankenhauskapelle unglaubwürdige Ausstattung",
+          "\"The badge clipped to her scrubs was turned inward, the plastic backing facing out\" – redundante Doppelung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "\"A thin strip of dawn lay across his shoes\" – Dämmerung wenige Minuten nach 4:06 ist kaum plausibel, zudem ein vertrautes Schlussbild",
+          "\"“I was waiting.” … “I’m not sure.”\" – vage, mystifizierende Dialogfloskeln",
+          "\"a monitor began its steady alarm, then stopped\" – Alarm hinter geschlossener Kapellentür hörbar und folgenlos, leicht beliebig",
+          "\"The hospital was quiet except for the carts rattling\" – Standardformel"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "\"when someone wipes the board clean\" – Tempusbruch ins Präsens",
+          "\"Her badge said R. FERRARO. Strangers read it all the time and said *Ruth*\" – Logikbruch: Aus „R.“ lässt sich „Ruth“ nicht ablesen",
+          "\"The *-ie* had gone out of the world years ago, with her grandmother.\" – legt eine Geisterdeutung nahe und gerät damit in die Nähe einer Auflösung",
+          "Mit etwa 310 Wörtern deutlich über der Längenvorgabe",
+          "\"because leaving felt rude and so did staying\" – leicht formelhafte Antithese"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "E",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3614,
+    "out": 2137,
+    "thinking": 900
+  },
+  "costUsd": 0.057196
+}

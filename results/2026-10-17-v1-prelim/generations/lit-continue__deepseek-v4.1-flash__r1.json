@@ -1,0 +1,17 @@
+{
+  "task": "lit-continue",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "text": "„Das Wasser“, sagte Ilse. Sie zog die Leine noch einmal nach, obwohl sie schon saß. „Das Wasser war letzte Woche zu hoch. Da dreht der Gier nicht mehr.“\n\nJonas sah auf den Fluss, als könnte er dort eine Antwort finden. Sein Mantel war zu dünn für den Wind, der von Norden über die Elbe kam, und er stand immer noch auf den Bohlen, als hätte er Angst, sich zu bewegen.\n\n„Du hättest anrufen können“, sagte sie.\n\n„Du hättest rangehen können.“\n\nIlse hob die Schultern und ließ sie wieder fallen. Sie ging zum Steuerhaus, wischte mit dem Handrücken über die Scheibe, obwohl kein Wasser drauf war. Im Spiegel über dem Ruder sah sie ihn näher kommen, vorsichtig, Schritt für Schritt, den Koffer hinter sich her ziehend wie etwas, das ihn aufhielt.\n\n„Wie lange fährt sie noch?“, fragte er. „Die Saison.“\n\n„Solange das Eis nicht kommt.“\n\n„Und dann?“\n\n„Dann kommt das Eis.“\n\nJonas lachte kurz, aber es klang nicht wie Lachen. Er lehnte sich an die Reling, die nach Diesel roch und nach altem Tauwerk. Am anderen Ufer brannte schon das Licht der Bootswerft, gelb und schief im Nebel. Ilse sah hinüber, weil es leichter war, als ihn anzusehen.\n\n„Ich bin nicht gekommen, um dir was wegzunehmen“, sagte er.\n\n„Nein“, sagte sie.\n\n„Mama.“\n\nSie drehte sich nicht um. Am Steuerhaus hing die zweite Rettungsweste, ausgeblichenes Orange, das Klettband schon hart. Henning hatte sie immer dort aufgehängt, weil sie dort am schnellsten zu greifen war. Ilse nahm sie vom Haken, klopfte sie zweimal gegen das Holz, dass der Staub herausging, und hielt sie ihrem Sohn hin.\n\nJonas sah sie an, dann die Weste, dann wieder sie.\n\n„Was soll ich damit?“\n\n„Wenn du mitfährst“, sagte Ilse und schob den Gashebel nach vorn.\n\nDer Motor ruckte, fing sich, brummte. Die Bohlen zitterten. Jonas stand noch einen Moment, den Koffer in der einen, den Mantelkragen in der anderen Hand. Dann stellte er den Koffer ab, nahm die Weste und zog sie sich über, ohne ein Wort, und das war gut so, denn Ilse hätte ohnehin nicht gewusst, was sie darauf hätte sagen sollen.",
+  "usage": {
+    "in": 373,
+    "out": 1281,
+    "thinking": 1261
+  },
+  "costUsd": 0.0008245500000000001,
+  "finish": "stop",
+  "reportedModel": "deepseek/deepseek-v4.1-flash",
+  "latencyMs": 13948,
+  "meta": [],
+  "at": "2026-10-17T15:03:22.219Z"
+}

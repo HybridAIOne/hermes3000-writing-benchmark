@@ -1,0 +1,19 @@
+{
+  "task": "nf-outline",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "text": "Hier ist ein Entwurf für dein Sachbuch. Der Fokus liegt auf dem Weg vom „Kollegen zum Leiter“, ohne akademische Theorie, sondern mit Fokus auf den Alltag im Mittelstand.\n\n### Titelvorschlag: Führen ohne Titel\n**Untertitel: Dein Wegweiser vom Kollegen zur Führungskraft – pragmatisch, ehrlich und ohne Management-Studium.**\n\n---\n\n**Kapitel 1: Der Moment, in dem es passierte**\nDu sortierst deine neue Rolle und verstehst, warum du jetzt anders mit deinen ehemaligen Kollegen umgehen musst, ohne dich zu verstellen.\n\n**Kapitel 2: Dein neues Betriebssystem: Was Führung wirklich bedeutet**\nDu lernst, dass dein Job nicht mehr darin besteht, die beste Fachkraft zu sein, sondern die Rahmenbedingungen zu schaffen, damit dein Team die beste Arbeit leisten kann.\n\n**Kapitel 3: Die ersten 100 Tage: Vertrauen aufbauen und Orientierung geben**\nDu gehst die ersten Schritte in der Kommunikation mit deinem Team, um Unsicherheiten zu nehmen und klare Erwartungen an beide Seiten zu formulieren.\n\n**Kapitel 4: Aufgaben verteilen statt selbst machen**\nDu lernst, wie du delegierst, ohne die Kontrolle zu verlieren oder dein Team mit Mikromanagement zu nerven.\n\n**Kapitel 5: Die Kunst des Feedbacks: Entwickeln statt Kritisieren**\nDu erfährst, wie du deine Meinung so formulierst, dass die Leute wirklich besser werden und nicht nur beleidigt sind.\n\n**Kapitel 6: Wenn es kracht: Schwierige Gespräche führen**\nDu bekommst ein konkretes Werkzeug an die Hand, um Konflikte, Leistungsabfälle oder Fehlverhalten direkt und fair anzusprechen.\n\n**Kapitel 7: Der Puffer zwischen oben und unten**\nDu lernst, wie du Anforderungen der Geschäftsführung filterst und dein Team schützt, ohne die strategischen Ziele aus den Augen zu verlieren.\n\n**Kapitel 8: Zeitdiebe bändigen und Prioritäten setzen**\nDu organisierst deinen neuen Arbeitsalltag so, dass du nicht mehr nur Brände löschst, sondern Zeit für deine Leute und deine Planung hast.\n\n**Kapitel 9: Deine Haltung: Vom Verwalter zum Vorbild**\nDu definierst deine persönlichen Werte als Führungskraft und entwickelst eine Authentizität, durch die Menschen dir folgen – nicht wegen deines Titels, sondern wegen deiner Person.",
+  "usage": {
+    "in": 136,
+    "out": 518,
+    "thinking": 0
+  },
+  "costUsd": 0.00023440000000000003,
+  "finish": "stop",
+  "reportedModel": "google/gemma-4-31b-it",
+  "latencyMs": 17365,
+  "meta": [
+    "preamble"
+  ],
+  "at": "2026-10-17T15:11:37.455Z"
+}

@@ -1,0 +1,17 @@
+{
+  "task": "en-scene",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "The chapel door sighed shut behind her. Lena stood for a moment with her hand on the handle, letting her eyes adjust. The room was empty except for one figure in the last row, shoulders rounded under a dark coat. She had come in only to escape the corridor lights.\n\nShe walked along the side aisle, meaning to sit two rows ahead and rest her eyes. As she passed, the man lifted his head.\n\n“Lena.”\n\nHer name sounded ordinary in his mouth, like something he had read off a chart. She paused, one hand on the back of a pew. The wood was smooth where countless hands had rested.\n\nShe studied him without turning fully. He was perhaps fifty, clean-shaven, the skin under his eyes slightly darker than the rest of his face. No badge, no visitor sticker. His hands rested on his knees, palms up, as if he had set something down and forgotten it.\n\nThe small electric candle on the altar gave off a steady white point of light. It reflected once in the metal cap of the baptismal font and nowhere else.\n\nShe nodded once, the way she acknowledged patients who called her by name in the middle of the night when she could not remember theirs. Then she continued down the aisle, chose a seat, and folded her hands in her lap. The bench was cold through her scrubs. She kept her gaze on the plain wall ahead, where a narrow window showed the last square of parking-lot sodium light before the sky began to lift.",
+  "usage": {
+    "in": 244,
+    "out": 791,
+    "thinking": 489
+  },
+  "costUsd": 0.0022825,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "latencyMs": 9878,
+  "meta": [],
+  "at": "2026-10-17T14:58:06.003Z"
+}

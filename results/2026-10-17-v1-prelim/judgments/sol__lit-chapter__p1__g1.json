@@ -1,0 +1,128 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "B": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "„Er nickte, gab Gas und verschwand so schnell in der weißen Wand, wie er aufgetaucht war.“ – Der Golf fährt auf die Fähre und anschließend wieder davon, ohne dass eine Überfahrt erzählt wird. Die zentrale Handlungsabfolge ist lückenhaft.",
+          "„Henning hatte ihr die Feinheiten der Seilführung beigebracht, bevor er gestorben war.“ – Ausdrückliche Rückblenden-Exposition; auch der anschließende Bericht über Hennings Lebensweisheit widerspricht der Aufgabenstellung.",
+          "„Wahrscheinlich wollte er wissen, ob sie schon über die Erbschaft des Hauses nachgedacht hatte“ – Ein bislang nicht eingeführter Erbschaftskonflikt und die anschließenden beruflichen Schlagwörter erklären die Familienkonstellation schematisch, statt sie szenisch anzulegen.",
+          "„die zwei Euro Münzen“ – Fehlerhafte Wortverbindung. Gemeint sind entweder „die Zwei-Euro-Münzen“ oder „die beiden Euromünzen“.",
+          "„wie eine nasse, graue Wolldecke“ / „im Zentrum zwischen zwei Ufern“ – Konventionelle Nebelmetapher und ausdrücklich ausformulierte Schwellenmetaphorik; der Text erklärt seine Stimmung und Bedeutung mehrfach."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "„Sie zog es nicht heraus.“ – Der Anrufer bleibt vollständig unidentifiziert. Dass Jonas anruft, ist aus dem Buchtext nicht erkennbar.",
+          "„Ilse löste das Seil von der Verankerung und zog die Fähre langsam vom Ufer.“ – Führungsseil, Antrieb und Festmacher werden nicht nachvollziehbar unterschieden. Das spätere Strafferziehen und Einziehen des Seils verstärkt die technische Unklarheit.",
+          "„gegen die hölzernen Kufen“ – Kufen sind hier kein plausibel bezeichnetes Bauteil des schwimmenden Fährkörpers.",
+          "„Dieselmachine“ – Rechtschreibfehler; richtig wäre „Dieselmaschine“.",
+          "„Die Fähre bewegte sich gleichmäßig durch den Nebel.“ – Beispiel für die überwiegend referierende, austauschbare Darstellung. Mit nur ungefähr 550 Wörtern bleibt der Text zudem deutlich unter dem gewünschten Umfang und entwickelt die Szene kaum."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Ich nehm die nächste rüber.“ – Nach den drei ausgestiegenen Personen wird ein weiterer ausdrücklich überfahrtswilliger Fahrgast eingeführt. Damit bleibt die Szene nicht bei den verlangten genau drei Fahrgästen.",
+          "„die Hand noch immer an der Hosentasche, in der sie nicht nach dem Hörer gegriffen hatte“ – Räumlich und gegenständlich unstimmig: Das Telefon steht zuvor im Aufenthaltsraum; sein Hörer wäre nicht in ihrer Hosentasche zu suchen.",
+          "„Sie kannte die Stimme nicht, oder doch nur flüchtig vom Sehen.“ – Die Wahrnehmungsebenen werden ungeschickt vermischt: Eine Stimme kennt man nicht vom Sehen.",
+          "„Jonas. Sie wusste es, ohne hinzusehen.“ – Ohne Displayanzeige oder ein anderes Erkennungsmerkmal bleibt die sichere Identifikation unbegründet. Die gewünschte Schlusswendung wird behauptet statt plausibel vorbereitet.",
+          "„Nicht beim Wetter. Nicht bei dem leeren Platz am Mittagstisch. Nicht bei dem Telefon“ – Demonstrativ bedeutungsschwere Wiederholungsfigur. Zusammen mit dem zusätzlichen Anlegerdialog und mehrfachen Nebelbeschreibungen dehnt sie den Text auf deutlich über den Zielumfang aus."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c3"
+        ]
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Er wusste keine Antwort darauf“ – Kurzzeitiger Zugriff auf das Innere des Fahrgasts statt konsequenter Bindung an Ilses Wahrnehmung. Eine beobachtbare Reaktion wäre perspektivisch sauberer.",
+          "„wartete, dass der Tag sich entschied, ob er einer werden wollte“ – Gefällige, aber deutlich gesetzte Autorenformulierung; die Personifikation trägt weniger zur konkreten Wahrnehmung Ilses bei als die anschließenden Arbeitsdetails.",
+          "„Das hier ist dünn.“ – Als schroffe Beschwichtigung funktioniert der Satz, steht aber in Spannung zur zuvor nahezu aufgehobenen Sicht. Ob Ilse die Gefahr bewusst herunterspielt, bleibt etwas unterbestimmt.",
+          "„als er das letzte Mal hier gewesen war“ – Kleiner rückblickender Erklärungseinschub beim Telefonfoto. Keine ausgeführte Rückblende, aber für die ausdrücklich expositionarme Aufgabe entbehrlich."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c1"
+        ]
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„auf der anderen Seite wartete schon jemand mit einem Anhänger“ – Der Schluss führt zusätzlich zu den drei beförderten Personen einen weiteren wartenden Fährkunden ein. Die strikte Beschränkung auf genau drei Fahrgäste wird dadurch unterlaufen.",
+          "„Einen Fünfziger.“ – Im gegenwärtigen Sprachgebrauch bezeichnet das gewöhnlich einen Fünfzig-Euro-Schein. Die anschließende Bezahlung mit einem Euro legt dagegen fünfzig Cent nahe; die Preisangabe ist unnötig missverständlich.",
+          "„sie ging sie jeden Morgen, und sie ging sie immer gleich“ – Die Wiederholung wirkt hier bereits demonstrativ. Ähnliche Reihungen und Nachsätze prägen anschließend viele Absätze und werden zur erkennbaren Stilmasche.",
+          "„Sie hätte nichts sagen müssen. Sie sagte es trotzdem, weil sie es wusste“ – Die Erklärung liefert der zuvor gut beobachteten knappen Rede nachträglich eine etwas konstruierte psychologische Bedeutung.",
+          "„Es waren zwei Minuten vergangen, oder drei“ – Nach der Angabe von ungefähr sieben Minuten Fahrzeit folgt nahezu unmittelbar die Ankunft. Eine bewusste Zeitraffung ist möglich, der Übergang bleibt jedoch unsauber."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c3"
+        ]
+      }
+    ],
+    "ranking": [
+      "D",
+      "E",
+      "C",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 7442,
+    "out": 2551,
+    "thinking": 1001
+  },
+  "costUsd": 0.040394
+}

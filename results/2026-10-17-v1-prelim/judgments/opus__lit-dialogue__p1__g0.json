@@ -1,0 +1,120 @@
+{
+  "task": "lit-dialogue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Wie früher.\" – gerades statt typografisches Schlusszeichen",
+          "BEN *(fast ein Lächeln)* – abgegriffene Regieformel",
+          "JONAS: Sag das nicht. / BEN: Was denn? / JONAS: „Wie früher.\" – rückt den Konflikt nah an die Oberfläche",
+          "*(setzt sich, behält die Jacke an)* … *Er zieht die Jacke aus* – naheliegendes Versöhnungsmotiv"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "BEN: Im Lassen. – Pointe zu ausgestellt, erklärt den Subtext",
+          "BEN: Ich hab oft angefangen, dir zu schreiben. – benennt die Funkstille fast offen",
+          "nicht auf Bens, aber in dessen Nähe – unklarer Bezug von „dessen“",
+          "JONAS: Sag ihr, ja. – Komma statt Doppelpunkt, holprig",
+          "*(Pause. Die Kellnerin stellt zwei Kaffee ab. Keiner hatte bestellt.)* – Plusquamperfekt in der Regie unglücklich"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "**Mara:** Kaffee? … **Jonas:** Du hast ihn schon bestellt. – Logikbruch: erst Frage, dann bereits bestellt",
+          "**Jonas:** Gut. / **Mara:** Meistens. / **Jonas:** Natürlich. – Wiederholungsmasche einsilbiger Repliken",
+          "[Sie sieht auf die Uhr, obwohl sie es nicht eilig hat.] – erklärt statt zeigt",
+          "**Mara:** Ich hab’s gerade gesagt. / **Jonas:** Ja. Hast du. – Schluss läuft ins Leere",
+          "Etwa 290 Wörter, leicht über Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Dann nehme ich Tee.“ … [Martin bestellt Kaffee.] – widersprüchlich bzw. unklar, wer was trinkt",
+          "Keine Sprecherangaben – Zuordnung der Repliken oft nicht nachvollziehbar",
+          "„Sonst hätte ich ihn nicht hingestellt.“ – passt nicht zu „zieht einen Stuhl zurück“",
+          "„Er war innen hohl.“ / „Von außen sah er gut aus.“ – Symbolik zu deutlich",
+          "Rund 370 Wörter, deutlich über ‚etwa 250‘"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "„Hast du erwartet, dass ich so tue, als wäre nichts gewesen?“ – Konflikt wird offen thematisiert, verletzt ‚unausgesprochen‘",
+          "[Beide setzen sich nicht wirklich.] … „Also sitzen wir nur hier.“ – Logikbruch",
+          "„Für manche Dinge reicht ein Abend, um lange zu dauern.“ – schiefe Formulierung",
+          "[Ein bitteres Lächeln, auf beiden Seiten.] – Klischee; [Zwei alte Freunde stehen sich gegenüber.] – erklärend",
+          "„Ich bin nicht hier, um…“ – fehlendes Leerzeichen vor Auslassungspunkten; Länge ca. 370 Wörter"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "D",
+      "C",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 5858,
+    "out": 2883,
+    "thinking": 1524
+  },
+  "costUsd": 0.081092
+}

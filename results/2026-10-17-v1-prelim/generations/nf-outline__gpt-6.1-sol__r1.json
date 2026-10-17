@@ -1,0 +1,19 @@
+{
+  "task": "nf-outline",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "# Führen ohne Titel\n## Gliederung\n\n1. **Dein erster Tag: Kläre, wofür du zuständig bist**  \n   Du klärst mit deiner vorgesetzten Person, was von dir erwartet wird, was du selbst entscheiden darfst und wo du Unterstützung brauchst.\n\n2. **Gestern Kollege, heute Teamleiter**  \n   Du gestaltest deine neue Beziehung zum Team und findest einen fairen Umgang mit alten Freundschaften, Erwartungen und Vorbehalten.\n\n3. **Nicht alles ist gleich wichtig**  \n   Du übersetzt die Aufgaben deines Teams in klare Ziele und legst fest, was zuerst erledigt wird – und was vorerst liegen bleibt.\n\n4. **Aufgaben abgeben, ohne sie zurückzuholen**  \n   Du überträgst Verantwortung so, dass Zuständigkeit, Spielraum und Ergebnis klar sind, ohne jeden Arbeitsschritt zu kontrollieren.\n\n5. **Zusammenarbeit braucht klare Absprachen**  \n   Du organisierst Informationsfluss, Übergaben und Besprechungen so, dass dein Team im Alltag verlässlich zusammenarbeiten kann.\n\n6. **Menschen beim Besserwerden unterstützen**  \n   Du erkennst Stärken und Lernbedarf und vereinbarst passende nächste Schritte, statt bei jeder Wissenslücke selbst einzuspringen.\n\n7. **Schwierige Gespräche führen, statt sie aufzuschieben**  \n   Du sprichst wiederholte Fehler, gebrochene Absprachen und Konflikte konkret an, hörst die andere Sicht und vereinbarst verbindliche Konsequenzen.\n\n8. **Unter Druck handlungsfähig bleiben**  \n   Du gehst mit Engpässen und widersprüchlichen Forderungen um, setzt Belastungsgrenzen und holst rechtzeitig Entscheidungen von oben ein.\n\n9. **Deine Haltung: Wofür willst du stehen?**  \n   Du entwickelst aus deinen Erfahrungen eigene Führungsgrundsätze, an denen du dein Handeln prüfst – auch wenn es unbequem wird.",
+  "usage": {
+    "in": 123,
+    "out": 597,
+    "thinking": 178
+  },
+  "costUsd": 0.006216,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "latencyMs": 15307,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T14:52:08.310Z"
+}

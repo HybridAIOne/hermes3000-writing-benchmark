@@ -1,0 +1,17 @@
+{
+  "task": "lit-scene",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "Die Frau schob den Schlüssel ins Schloss und spürte, wie der Widerstand nachließ, als hätte das Metall sich in den Jahren an diese Bewegung erinnert. Die Tür ging mit einem kurzen, trockenen Knarren auf. Drinnen roch es nach abgestandener Luft, nach Staub und etwas Süßlichem, das sie nicht gleich einordnen konnte. Sie ließ die Hand auf dem Türrahmen liegen, spürte das kühle, leicht raue Holz unter der Haut. Das Licht fiel schräg durch die hohen Fenster und zeichnete bleiche Rechtecke auf den Dielenboden. Auf einem der Rechtecke lag ein einzelnes, vertrocknetes Lorbeerblatt, grau und brüchig, als hätte es jahrelang dort gelegen, ohne dass jemand es weggefegt hätte.\n\nSie ging nicht weiter als bis in die Mitte des Flurs. Die Stille war nicht leer, sondern gefüllt mit dem leisen Summen der Leitungen hinter den Wänden. In der Küche stand noch der alte Emailleherd, die schwarzen Ringe auf den Herdplatten unverändert. Als sie die Hand auf die Kante des Spülbeckens legte, war das Porzellan überraschend kalt. Ein feiner Riss verlief vom Überlauf bis zum Abfluss, so schmal, dass man ihn erst bemerkte, wenn man mit dem Fingernagel darüberfuhr. Das Geräusch, das dabei entstand, war fast unhörbar, ein kurzes, trockenes Kratzen. Sie zog die Hand zurück und rieb Daumen und Zeigefinger gegeneinander, als müsse sie den Staub abstreifen, der sich dort angesammelt hatte.\n\nDraußen begann es zu regnen, leise, ohne Wind. Das Wasser schlug gegen die Scheiben, und für einen Moment hörte sie nur das eigene Atmen und das gleichmäßige Tropfen irgendwo in den Rohren. Sie blieb stehen, den Schlüssel noch in der Hand, und wartete, bis das Geräusch des Regens das andere, leisere Geräusch übertönte, das aus dem Haus selbst zu kommen schien.",
+  "usage": {
+    "in": 266,
+    "out": 1438,
+    "thinking": 995
+  },
+  "costUsd": 0.0039275,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "latencyMs": 25174,
+  "meta": [],
+  "at": "2026-10-17T15:05:32.231Z"
+}

@@ -65,3 +65,51 @@ test('groups are deterministic, complete, never size 1, and keep one model per g
   assert.ok(g1.every((g) => g.length >= 2));
   for (const g of g1) assert.strictEqual(new Set(g.map((x) => x.model)).size, g.length);
 });
+
+test('a failed text loses to every text of its task (build)', () => {
+  const fs = require('fs');
+  const path = require('path');
+  const os = require('os');
+  const { loadBenchmark, ROOT } = require('../src/spec');
+  const { build } = require('../src/report');
+  const bench = loadBenchmark('v1');
+  const runId = `_test-${process.pid}`;
+  const dir = path.join(ROOT, 'results', runId);
+  fs.mkdirSync(path.join(dir, 'generations'), { recursive: true });
+  try {
+    fs.writeFileSync(
+      path.join(dir, 'manifest.json'),
+      JSON.stringify({
+        models: ['gpt-6-luna', 'qwen3.8-27b', 'kimi-k3'],
+        runs: 1,
+        fingerprint: bench.fingerprint,
+      })
+    );
+    const gen = (model, text) =>
+      fs.writeFileSync(
+        path.join(dir, 'generations', `lit-scene__${model}__r1.json`),
+        JSON.stringify({
+          task: 'lit-scene',
+          model,
+          run: 1,
+          text,
+          usage: { in: 1, out: 1 },
+          costUsd: 0.001,
+          latencyMs: 1000,
+          meta: [],
+        })
+      );
+    gen('gpt-6-luna', 'Ein Text.');
+    gen('kimi-k3', 'Noch ein Text.');
+    gen('qwen3.8-27b', '');
+    const { R } = build(runId, bench);
+    assert.deepStrictEqual(R.failures, [{ task: 'lit-scene', model: 'qwen3.8-27b', run: 1 }]);
+    const r = R.tracks.literary.all;
+    assert.ok(r['qwen3.8-27b'].rating < r['gpt-6-luna'].rating);
+    assert.ok(r['qwen3.8-27b'].rating < r['kimi-k3'].rating);
+    assert.strictEqual(R.cost['qwen3.8-27b'].failed, 1);
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+  void os;
+});

@@ -1,0 +1,19 @@
+{
+  "task": "ed-feedback",
+  "model": "glm-5.3",
+  "run": 1,
+  "text": "# Lektoratsanmerkungen zu „Die Fährfrau\" (Ausschnitt)\n\n1. **„Ilse stellt den Motor an\"** – Tempusfehler: Die Erzählung steht im Präteritum, hier rutscht der Text ins Präsens (muss „stellte\" heißen).\n\n2. **„Ich hatte diesen Moment immer gemocht, dachte sie\"** – Perspektivfehler: Bei personaler Erzählweise in der dritten Person ist das Ich-Pronomen falsch; korrekt wäre „Sie hatte diesen Moment immer gemocht, dachte sie\".\n\n3. **„Der Nebel lag dicht über dem Wasser. Der Nebel war so dicht, dass… Der Nebel schluckte jedes Geräusch.\"** – Dreifache anaphorische Wiederholung des Satzbeginns mit redundanter Doppelung von „dicht\" in den ersten beiden Sätzen; es wirkt wie ein unfreiwilliges Stilmittel und sollte gestrafft werden, sofern die Wiederholung nicht bewusst als Refrain gesetzt ist (bitte Autorin ansprechen).\n\n4. **„Am Anleger drüben wartete schon der Bäcker … wie jeden Morgen seit dem Krieg, und hupte zweimal\"** – Logik-/Plausibilitätsproblem: Ein Pferdewagen hat kein Signalhorn; ein Hupen müsste begründet oder etwa durch Klingeln/Rufen ersetzt werden – oder es fehlt eine Angabe, woher das Signal kommt.\n\n5. **„Am / Anleger\"** – Formales: Zeilenumbruch mitten im Wort/Satz im Manuskript (vermutlich Übertragungsfehler, bitte prüfen).\n\nEin Hinweis am Rande: Die Namen der Nebenfiguren („die alte Frau Lüders\") und die_Kopfhörer-_und-Handy-Details setzen eine moderne Zeit voraus, während „Pferdewagen wie jeden Morgen seit dem Krieg\" stark veraltet wirkt – hier sollte geklärt werden, welche Epoche eigentlich erzählt wird.",
+  "usage": {
+    "in": 319,
+    "out": 585,
+    "thinking": 131
+  },
+  "costUsd": 0.00283352,
+  "finish": "stop",
+  "reportedModel": "z-ai/glm-5.3",
+  "latencyMs": 3252,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T14:54:46.482Z"
+}

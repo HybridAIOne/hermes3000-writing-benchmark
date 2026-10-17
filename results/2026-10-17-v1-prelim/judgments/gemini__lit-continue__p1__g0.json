@@ -1,0 +1,113 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 5,
+        "stil": 4,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ilse ignorte die Frage.“ (Wort existiert nicht, gemeint ist „ignorierte“)",
+          "„Der Geruch von Diesel und brackigem Wasser“ (Sachfehler: Bei Hitzacker ist die Elbe ein reiner Süßwasserfluss, Brackwasser gibt es erst ab der Unterelbe hinter Hamburg)",
+          "„den Blick prüfend über die verwitterten Holzhütten und die rostigen Anker geworfen“ (Schiefes Partizip II bei gleichzeitigem Vorgang)",
+          "„Dort gab es nur den Lärm der Effizienz.“ (Physisch leeres Klischee, erklärter Konflikt statt gezeigter Szene)",
+          "„Ilse griff in die Tasche ihrer Schürze“ (Figurenklischee: Eine Fährfrau im Fährbetrieb trägt keine Hausfrauenschürze)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„Du hast den Motor nicht mehr reparieren lassen“, sagte Jonas statt einer Begrüßung. [...] (Aufgabenverstoß: Der letzte Absatz aus dem Prompt wurde komplett wiederholt, statt die Szene nur weiterzuschreiben)",
+          "„„Ich fahr dich rüber.“ / „Und die Fähre?“ / „Die fährt auch.““ (Logikbruch: Er steht bereits auf der Fähre, sie lässt den Fähr-Motor an – die Frage nach der Fähre ergibt keinen Sinn)",
+          "„Ilse zog den Poller frei und nahm die Leine in die Hand.“ (Schiefe Idiomatik: Man wirft eine Leine vom Poller los, man zieht nicht den Poller frei)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„deren Spitzen vom feuchten Holz weich wurden.“ (Sachlich schiefes Detail: Graphitminen werden durch feuchtes Holz nicht weich)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 2,
+        "stil": 1,
+        "aufgabe": 2,
+        "fehler": [
+          "„„Ich habe dich gesehen, bevor du anlegtest“, sagte sie. / „Warum bist du nicht gestiegen?“ / [...] / „Weil du nicht gestiegen bist.““ (Kompletter Unsinn in Dialog und Logik: Ilse hat angelegt, nicht Jonas; „gestiegen“ ist unidiomatisch)",
+          "„Der Motor stand noch im Schuppen, zerlegt auf dem Holzbrett“ (Logikbruch: Wie hat die Fähre gerade angelegt, wenn der Motor zerlegt im Schuppen liegt?)",
+          "„Sie sah auf seine Schuhe, die am Poller klebten, und auf den Riss in seiner Jacke“ (Widerspruch zur Figur des Münchner Unternehmensberaters und absurdes Bild der am Poller klebenden Schuhe)",
+          "„Sie kannte, wann das Wasser höher stand“ (Grammatikfehler: „kennen“ kann nicht allein mit einem temporalen Nebensatz stehen)",
+          "„auf den nassen Fußboden, der noch nach Salz und Öl roch.“ (Sachfehler: Süßwasserfluss; auf einer Fähre spricht man vom Deck, nicht vom Fußboden)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„wo die Abdeckung des Außenborders noch die Delle von vor zwei Wintern hatte.“ (Sachfehler: Eine autofähige Elb-Seilfähre, die Traktoren und Postwagen trägt, wird nicht mit einem simplen Außenborder betrieben)",
+          "„und wenn du mitfährst, hältst du das Seil.“ (Sachfehler: Das Stahlseil einer Wagenfähre steht unter enormer Spannung und läuft durch Führungsrollen, ein Passagier kann es unmöglich mit der Hand halten)",
+          "„an dem Stahlseil zog, das schräg über den Fluss hing wie eine gespannte Linie ins Graue.“ (Sachfehler: Das Führungsseil einer Grundseilfähre liegt im Flussbett, es hängt nicht als Linie über den Fluss)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "E",
+      "B",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 4365,
+    "out": 1147,
+    "thinking": 0
+  },
+  "costUsd": 0.0202
+}

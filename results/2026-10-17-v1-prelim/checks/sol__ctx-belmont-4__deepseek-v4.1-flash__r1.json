@@ -1,0 +1,22 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-1",
+      "b4-6"
+    ],
+    "evidence": [
+      "Matthias Vossberg hatte ein Notizbuch offen und schrieb nicht darin. Er hatte die Augen seines Vaters. Dasselbe Blau, nur jünger, und darunter etwas, das noch nicht wusste, wohin es sich wenden sollte.",
+      "Er hatte die Augen seines Vaters. Dasselbe Blau, nur jünger, und darunter etwas, das noch nicht wusste, wohin es sich wenden sollte."
+    ]
+  },
+  "usage": {
+    "in": 1754,
+    "out": 288,
+    "thinking": 174
+  },
+  "costUsd": 0.006388
+}

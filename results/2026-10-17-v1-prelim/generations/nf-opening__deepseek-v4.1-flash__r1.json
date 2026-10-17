@@ -1,0 +1,17 @@
+{
+  "task": "nf-opening",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "text": "Donnerstag, 16:52. Du hast den Termin zweimal verschoben, jetzt steht er. Nadine sitzt dir gegenüber, den Kaffeebecher in beiden Händen, den fragenden Blick auf dich gerichtet. Sie weiß nicht, warum sie hier ist. Du weißt es sehr genau.\n\nAuf deinem Notizzettel stehen drei Stichpunkte, und je länger du sie ansiehst, desto mehr klingen sie nach Anklage: redet dazwischen, wird laut, bremst andere aus. Vor zwei Wochen kamen zwei Kollegen zu dir, unabhängig voneinander, und haben fast dasselbe gesagt. In den Teammeetings traut sich kaum noch einer etwas zu sagen, wenn Nadine dabei ist. Keiner von beiden wollte, dass du es weitergibst. Und Nadine ist fachlich stark — sie hat im letzten Quartal allein die Kundenrückmeldung gerettet, an der drei andere gescheitert sind.\n\nJetzt sitzt sie da und wartet. Und du hast zwei Möglichkeiten im Kopf. Die erste fängt an mit „Ich muss dir mal was sagen\" — in dem Moment weiß sie, dass etwas im Argen liegt, und du redest gegen eine Wand, die du selbst aufgebaut hast. Die zweite besteht aus lauter schönen, runden Sätzen, in denen das eigentliche Thema nicht vorkommt. Beide kennst du. Beide hast du schon ausprobiert.\n\nUm diesen Moment geht es in diesem Kapitel: um die fünf Minuten, in denen du etwas sagen musst, das du lieber nicht sagen würdest — und um die Vorbereitung, mit der du dabei weder der Feigling noch der Rammbock bist.",
+  "usage": {
+    "in": 187,
+    "out": 2239,
+    "thinking": 1850
+  },
+  "costUsd": 0.0013714499999999998,
+  "finish": "stop",
+  "reportedModel": "deepseek/deepseek-v4.1-flash",
+  "latencyMs": 11599,
+  "meta": [],
+  "at": "2026-10-17T15:09:49.925Z"
+}

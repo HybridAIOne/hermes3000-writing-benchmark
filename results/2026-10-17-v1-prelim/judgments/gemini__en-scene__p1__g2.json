@@ -1,0 +1,95 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "the visitor sticker on his jacket has curled at one corner. (Perspektivfehler: Er sitzt mit dem Rücken zu ihr in einer Kirchenbank, das Revers ist von der Tür aus nicht sichtbar)",
+          "two empty, then a man in the last pew, then the candles (Raumlogik: Man betritt eine Kapelle von hinten; wenn man zum Altar mit den Kerzen blickt, ist die letzte Bank die erste, die man sieht)",
+          "with a chart under one arm (Anachronismus im Gegenwartsroman: Patientenakten sind digital und werden nicht nachts auf Papier in die Kapelle getragen)",
+          "Outside, the light from the parking structure comes through the frosted window at an angle and lays a pale rectangle across the floor. Each minute it slides a little farther (Physikalischer Unsinn: Fest installierte Parkhauslampen wandern nicht wie die Sonne über den Himmel, und Milchglas streut das Licht, statt scharfe Rechtecke zu werfen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "stripped wax (Krankenhausböden werden nicht mitten in der Nacht während des laufenden Betriebs auf den Stationen abgebeizt)",
+          "pressing against the uncapped tip of a ballpoint pen (Unplausibles Detail: Keine Pflegekraft trägt einen offenen Kugelschreiber lose in der Kitteltasche, das ruiniert die Kleidung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "The chapel door sighed shut behind her. (Abgegriffenes Klischee, Verstoß gegen die Vorgabe)",
+          "The wood was smooth where countless hands had rested. (Klischeehafte Füllphrase)",
+          "like something he had read off a chart (Erklärt nicht, warum das ungewöhnlich ist; möglicherweise trägt sie ein Namensschild, wodurch die Prämisse verpufft)",
+          "She nodded once, the way she acknowledged patients who called her by name in the middle of the night (Nimmt der Szene jede Spannung; die Prämisse wird als völlig alltäglich abgetan)",
+          "before the sky began to lift (Um 4 Uhr morgens ist es noch stockdunkel, die Dämmerung setzt erst später ein)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "the orange going cold in her hand (Physikalischer Unsinn: Ein Gegenstand auf Raumtemperatur wird in einer warmen menschlichen Hand nicht kalt)",
+          "The chapel was the only room on four without a television (Sachlich falsch: Auf einer Krankenhausstation haben weder Flure noch Behandlungsräume, Lager oder Dienstzimmer alle einen Fernseher)",
+          "doing the still work of a flame without ever moving (Etwas bemüht-poetische Formulierung am Schluss)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2180,
+    "out": 846,
+    "thinking": 0
+  },
+  "costUsd": 0.01282
+}

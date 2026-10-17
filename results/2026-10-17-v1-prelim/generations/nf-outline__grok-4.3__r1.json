@@ -1,0 +1,19 @@
+{
+  "task": "nf-outline",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "Hier ist eine stringente Gliederung mit 9 Kapiteln. Die Kapitel bauen schrittweise aufeinander auf – von der ersten Orientierung bis zur eigenen Haltung.\n\n**Kapitel 1: Die ersten Wochen ohne Titel**  \nEs geht darum, wie du in den ersten Wochen Klarheit über deine neue Rolle gewinnst, ohne formale Macht und ohne in alte Kollegenmuster zurückzufallen.\n\n**Kapitel 2: Vertrauen aufbauen, statt Autorität zu beanspruchen**  \nEs geht darum, wie du bei den Kollegen echte Akzeptanz erreichst, indem du Verlässlichkeit und Fairness zeigst statt Status zu spielen.\n\n**Kapitel 3: Tägliche Führung im Gespräch**  \nEs geht darum, wie du durch kurze, regelmäßige Gespräche Richtung gibst und Probleme früh erkennst, bevor sie groß werden.\n\n**Kapitel 4: Erwartungen klar machen**  \nEs geht darum, wie du Ziele, Standards und Verantwortlichkeiten so formulierst, dass sie für alle verständlich und verbindlich sind.\n\n**Kapitel 5: Schwierige Gespräche führen**  \nEs geht darum, wie du kritische Themen wie Leistung, Fehlverhalten oder Konflikte direkt und konstruktiv ansprichst, ohne zu eskalieren oder auszuweichen.\n\n**Kapitel 6: Aufgaben abgeben, ohne Kontrolle zu verlieren**  \nEs geht darum, wie du Verantwortung sinnvoll verteilst und gleichzeitig sicherstellst, dass nichts untergeht oder falsch läuft.\n\n**Kapitel 7: Widerstände und Konflikte im Team**  \nEs geht darum, wie du mit Spannungen, Blockaden oder Gruppenverhalten umgehst, ohne dich als Schiedsrichter zu verbrauchen.\n\n**Kapitel 8: Entwicklung von einzelnen fördern**  \nEs geht darum, wie du Stärken und Schwächen der Teammitglieder erkennst und gezielt unterstützt, ohne sie zu bevormunden.\n\n**Kapitel 9: Die eigene Haltung halten**  \nEs geht darum, wie du langfristig eine klare, authentische Führungshaltung entwickelst und dabei nicht ausbrennst oder dich verbiegst.",
+  "usage": {
+    "in": 318,
+    "out": 1051,
+    "thinking": 570
+  },
+  "costUsd": 0.003025,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "latencyMs": 13402,
+  "meta": [
+    "preamble"
+  ],
+  "at": "2026-10-17T15:10:13.226Z"
+}

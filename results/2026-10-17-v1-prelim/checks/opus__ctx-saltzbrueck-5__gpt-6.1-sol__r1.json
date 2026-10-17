@@ -1,0 +1,16 @@
+{
+  "task": "ctx-saltzbrueck-5",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 4021,
+    "out": 365,
+    "thinking": 348
+  },
+  "costUsd": 0.023384
+}

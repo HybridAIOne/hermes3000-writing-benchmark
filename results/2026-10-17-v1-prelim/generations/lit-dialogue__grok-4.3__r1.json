@@ -1,0 +1,17 @@
+{
+  "task": "lit-dialogue",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "*Thomas bleibt am Tisch stehen, die Hände in den Jackentaschen.*\n\nThomas: „Hallo, Sabine.“\n\nSabine: „Hallo. Du bist pünktlich.“\n\n*Sie rührt ihren Kaffee um, ohne aufzublicken.*\n\nThomas: „War nicht schwer. Die Straßen sind leer um diese Zeit.“\n\nSabine: „Früher warst du nie so früh da.“\n\nThomas: „Manche Dinge ändern sich.“\n\n*Er zieht den Stuhl zurück, setzt sich langsam.*\n\nSabine: „Wie geht’s deiner Mutter?“\n\nThomas: „Gut. Sie fragt manchmal nach dir.“\n\nSabine: „Sag ihr, es geht mir auch gut.“\n\n*Eine Pause. Thomas nickt, ohne zu antworten.*\n\nThomas: „Du hast deine Haare kürzer.“\n\nSabine: „Weniger Arbeit damit. Man muss nicht alles pflegen.“\n\nThomas: „Manches lässt sich nicht mehr retten.“\n\nSabine: „Manches will man auch nicht mehr retten.“\n\n*Sie schiebt ihm die Zuckerdose hin, obwohl er keinen nimmt.*\n\nThomas: „Ich hab den alten Film noch. Den mit dem Boot.“\n\nSabine: „Ich hab ihn nie zu Ende gesehen.“\n\nThomas: „Ich weiß.“\n\n*Sabine blickt kurz auf, dann wieder in die Tasse.*\n\nSabine: „Du siehst müde aus.“\n\nThomas: „Es war ein langer Weg hierher.“\n\nSabine: „Manchmal ist der Weg länger als gedacht.“\n\n*Thomas lächelt schwach, ohne die Augen zu heben.*\n\nThomas: „Ja. Manchmal.“",
+  "usage": {
+    "in": 256,
+    "out": 851,
+    "thinking": 524
+  },
+  "costUsd": 0.0024475,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "latencyMs": 10468,
+  "meta": [],
+  "at": "2026-10-17T15:04:26.915Z"
+}

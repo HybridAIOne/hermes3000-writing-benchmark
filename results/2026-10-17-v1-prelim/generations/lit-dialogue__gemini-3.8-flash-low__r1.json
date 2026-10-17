@@ -1,0 +1,17 @@
+{
+  "task": "lit-dialogue",
+  "model": "gemini-3.8-flash-low",
+  "run": 1,
+  "text": "[Kneipe. Leise Hintergrundgeräusche. Ben sitzt an einem Ecktisch, zwei Gläser Wasser vor sich. Jonas kommt zögernd auf ihn zu.]\n\nJONAS\n(bleibt am Tisch stehen)\nDu hast noch denselben Mantel.\n\nBEN\n(blickt auf, lächelt flüchtig)\nEr hält eben warm. Setz dich. \n\n[Jonas setzt sich, schiebt die Hände tief in die Jackentaschen.]\n\nJONAS\nPünktlich. Wie immer.\n\nBEN\nManche Gewohnheiten legt man nicht ab. Bier?\n\nJONAS\nNur Wasser, danke. Ich fahre noch.\n\nBEN\nNatürlich. Du hast jetzt den langen Weg. \n\nJONAS\n(schaut sich um)\nHier hat sich nichts verändert.\n\nBEN\nEin paar Glühbirnen wurden getauscht. Das Licht ist jetzt kälter.\n\nJONAS\n(nickt langsam)\nMan sieht die Dinge klarer. \n\nBEN\n(umklammert sein Glas)\nOder man sieht einfach zu viel. Wie läuft das Projekt? Ich habe gehört, ihr habt die Förderung bekommen.\n\nJONAS\n(weicht seinem Blick aus)\nJa. Letzte Woche. Es… war viel Arbeit. Für alle.\n\nBEN\nDas glaube ich dir aufs Wort. Du wusstest ja schon immer, wie man Dinge zu Ende bringt.\n\nJONAS\n(spitzt die Lippen)\nEs ging nicht anders, Ben. Irgendwer musste die Entscheidung treffen.\n\nBEN\n(ruhig)\nIch habe doch gar nichts gesagt. Glückwunsch übrigens. Ehrlich.\n\nJONAS\nDanke. Es… fühlt sich seltsam an. Ohne…\n\nBEN\n(unterbricht ihn leise)\nLass gut sein. Das Bier wird schal.\n\nJONAS\n(schweigt, fixiert die Holzmaserung des Tisches)\nIch dachte nur, wir könnten vielleicht…\n\nBEN\nWir trinken etwas zusammen, Jonas. Wir sitzen hier. Das ist doch schon mehr, als ich im Juni gedacht hätte.\n\nJONAS\n(schluckt)\nIm Juni war es heiß.\n\nBEN\nUnerträglich heiß.\n\n[Sie sehen sich an. Keiner blinzelt.]\n\nJONAS\n(hebt sein Glas)\nAuf die alten Zeiten?\n\nBEN\n(zögert, stößt dann ganz leicht an)\nAuf das, was davon übrig ist.",
+  "usage": {
+    "in": 62,
+    "out": 535,
+    "thinking": 0
+  },
+  "costUsd": 0.0018665100000000003,
+  "finish": "STOP",
+  "reportedModel": "gemini-3.8-flash",
+  "latencyMs": 7043,
+  "meta": [],
+  "at": "2026-10-17T14:50:06.439Z"
+}

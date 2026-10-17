@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "grok-4.3",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 2816,
+    "out": 557,
+    "thinking": 540
+  },
+  "costUsd": 0.022404
+}

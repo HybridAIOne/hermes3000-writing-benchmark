@@ -1,0 +1,98 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "B": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "„Ilse ignorte die Frage.“ – Rechtschreibfehler: „ignorierte“.",
+          "„Der Geruch von Diesel und brackigem Wasser“ – Sachlich unpassende Milieuschilderung: Bei Hitzacker führt die Elbe Süßwasser, kein Brackwasser.",
+          "„das flache Boot, das im Takt der Strömung sanft gegen den Poller stieß“ – Räumlich-technisch unstimmig: Der Poller dient auf dem Anleger als Befestigungspunkt; ein Anstoßen des Bootes daran ist ohne besondere bauliche Erklärung nicht plausibel.",
+          "„Dort gab es nur den Lärm der Effizienz.“ – Abstrakte, klischeehafte München-Chiffre statt einer individuellen Wahrnehmung Ilses. Ähnlich schematisch bleibt Jonas als „Fremdkörper“ mit „analytischer Distanz“.",
+          "„Dann entschied sie sich“ / „wo es weniger Zugluft gab und man weniger vom weiten, fordernden Fluss sehen musste“ – Die Schlussentscheidung wird ausdrücklich etikettiert und anschließend übererklärt. Der Küchenzugang erhält eine symbolische Bedeutung, die szenisch nicht vorbereitet ist."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„wenn der nicht ansprang, dann trieb man halt ein Stück ab und holte das Ufer wieder ran“ – Für die ausdrücklich vorgegebene Seilfähre eine technisch unzureichende Erklärung: Die Bindung ans Seil und das konkrete Manöver bleiben ausgespart. Gerade Ilses berufliche Routine müsste hier präziser sein.",
+          "„Sie legte die Kette um Rampe und Bolzen, zwei Umdrehungen“ – Mechanisch schwer vorstellbar. Welche Teile die Kette wie sichert, wird durch die scheinbar genaue Angabe nicht deutlich.",
+          "„wie man ein schlafendes Kind trägt“ / „wie ein Schild“ – Der Koffer erhält kurz nacheinander zwei deutlich verschiedene Vergleichsfunktionen. Das wirkt etwas arrangiert.",
+          "„Jonas stand da wie ein Mann zwischen zwei Zügen.“ – Wiederholt das bereits im Manuskript gesetzte Bahnsteigmotiv, ohne es wesentlich weiterzuentwickeln."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„legte die Kette um, die den beiden Fahrzeugen auf dem Deck den Weg gesperrt hatte“ – Die zentrale Handlung ist missverständlich beschrieben: Zum Ausschiffen müsste Ilse die Sperrkette lösen. „Die Kette umlegen“ bezeichnet das nicht eindeutig; anschließend fährt der Postbote bereits vorbei.",
+          "„einem Traktor und einem Lieferwagen der Post“ / „Dann war es still“ – Nur die Abfahrt des Postwagens wird erzählt. Der ebenfalls eingeführte Traktor verschwindet aus dem Ablauf, obwohl sein Verbleib für das erneute Ablegen relevant ist.",
+          "„das Gesicht, das mager geworden war und älter, als es sein durfte“ – Der nachgestellte Vergleich ist emotional pauschal und weniger präzise als die sonst überzeugenden körperlichen Beobachtungen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Nimm die Tasche“ – Zuvor ist ausschließlich ein Koffer eingeführt. Die wechselnde Gegenstandsbezeichnung erzeugt einen vermeidbaren Anschlussfehler.",
+          "„Seit Henning tot ist“ / „Gerd macht nur noch auf Vorbestellung für die Angler“ – Der Zusammenhang zwischen Hennings Tod und Gerds eingeschränktem Gasthofbetrieb bleibt unerklärt. Die auffällig gesetzte Verbindung wirkt dadurch konstruiert.",
+          "„eine flache Scheibe aus Titan, an der kein Tropfen haften blieb“ – Überpräzise Materialbestimmung und unbegründete Oberflächeneigenschaft. Das Detail dient erkennbar der demonstrativen Charakterisierung des wohlhabenden Sohnes.",
+          "„Er hatte seinen Zeitplan im Kopf, seine Argumente, sauber sortiert wie die Belege in seinen Aktenmappen.“ – Erklärt Jonas nach einem bereits verständlichen Blick auf die Uhr nochmals schematisch als kontrollierenden Geschäftsmann.",
+          "„wie geliehen für einen feierlichen Anlass, zu dem niemand gekommen war“ – Aufwendiger, aber wenig trennscharfer Vergleich. Zusammen mit „Masse aus Blei“ und den „grauen Rippen“ entsteht eine merkliche Bildhäufung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 3405,
+    "out": 1570,
+    "thinking": 413
+  },
+  "costUsd": 0.02251
+}

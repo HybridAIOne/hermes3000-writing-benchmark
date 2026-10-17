@@ -1,0 +1,121 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "„Hinter Jonas wartete der Wagen mit den beiden Rädern auf dem Anhänger, die er wohl in Hitzacker abgestellt hatte“ – Logikbruch: Der Wagen steht hinter ihm, soll aber in Hitzacker abgestellt sein; dazu passt der Rollkoffer nicht.",
+          "„stellte den Emailkessel auf die Platte und drehte den Hahn auf“ / „Sie füllte Wasser ein, zündete den Kocher an“ – derselbe Vorgang wird doppelt und widersprüchlich erzählt; der Kaffee wird später nie aufgebrüht.",
+          "„Sie stellte die Tassen bereit, die mit dem abgesplitterten Rand.“ / „nahm stattdessen die mit dem dunklen Sprung am Henkel“ – Die Tassen sind inkonsistent.",
+          "„Ihre Finger waren kalt geworden, obwohl sie erst seit wenigen Minuten auf dem Wasser gewesen waren“ – unklarer Bezug („Finger“ statt Ilse) und unlogische Begründung.",
+          "„Der Kies knirschte unter ihren Stiefeln“ – Sie geht über Bohlen; dazu ist der Text mit rund 600 Wörtern deutlich zu lang."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„Du hast den Motor nicht mehr reparieren lassen“, sagte Jonas statt einer Begrüßung. … – Der vorgegebene letzte Absatz wird wörtlich wiederholt, statt die Szene fortzusetzen.",
+          "„Ilse zog den Poller frei“ – Einen Poller kann man nicht freiziehen; gemeint ist die Leine.",
+          "„Das alte Gehäuse vibrierte noch, obwohl der Motor längst aus war“ – physikalisch unplausibles Detail.",
+          "„Als er nach ihr greifen wollte, ließ sie ihn diesmal gewähren.“ – unklarer Bezug (Leine oder Ilse?), die Schlusspointe verschwimmt.",
+          "„Das erklärte nichts und sollte vermutlich auch nichts erklären.“ – Die Erzählerin kommentiert, statt zu zeigen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„wo die Abdeckung des Außenborders noch die Delle von vor zwei Wintern hatte“ – Ein Außenborder passt nicht zu einer Seilfähre, die Traktor und Lieferwagen trägt.",
+          "„legte die Kette um“ … „Sie hakte die Kette an der Rampe wieder aus.“ – Der Ablauf mit der Kette bleibt unklar und wirkt widersprüchlich.",
+          "„das Gesicht, das mager geworden war und älter, als es sein durfte“ – leicht formelhaft.",
+          "„Ich habe ein paar Sachen mitgebracht. Unterlagen.“ – streift die Verkaufsfrage sehr nah, bleibt aber gerade noch indirekt.",
+          "„wie eine gespannte Linie ins Graue“ – etwas bemühtes Bild."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„wo die nächste Fähre schon vom anderen Ufer ablegte“ – Logikbruch: Ilse betreibt die letzte und einzige Seilfähre.",
+          "„löste sie die Leine vom Poller, legte sie zweimal um, so wie Henning es ihr beigebracht hatte“ – Lösen und Umlegen widersprechen sich; die Formulierung kopiert die Vorgabe.",
+          "„und zog den Gashebel zurück“ – Sie steht am Anleger, nicht am Steuerstand.",
+          "„Gleich würde er von Gutachtern anfangen, von Kosten, von Zahlen“ – rückt den Verkauf nah heran und erklärt, statt zu zeigen.",
+          "„Die Überfahrt dauert zehn Minuten.“ – Es bleibt unklar, warum Jonas übersetzen soll; er ist ja gerade auf dieser Seite angekommen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Nimm die Tasche“ – Jonas hat einen Rollkoffer, keine Tasche.",
+          "„Der Strom zog träge vorbei, geräuschlos, wie eine Masse aus Blei.“ – abgegriffenes Bild.",
+          "„Es war das vertrauteste Geräusch ihres Lebens.“ – erklärender, sentimentaler Satz.",
+          "„Er hatte seinen Zeitplan im Kopf, seine Argumente, sauber sortiert wie die Belege in seinen Aktenmappen.“ – Klischee über den Berater, erzählt statt gezeigt.",
+          "„wenn er noch fünf Minuten so stehenblieb“ – Getrenntschreibung „stehen blieb“ vorzuziehen; mit rund 530 Wörtern zudem deutlich zu lang."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "E",
+      "B",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 8199,
+    "out": 3983,
+    "thinking": 2058
+  },
+  "costUsd": 0.112456
+}

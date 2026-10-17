@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "gpt-5.4-mini",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-5"
+    ],
+    "evidence": [
+      "Sie spürt, wie sich ihr Verdacht, bislang richtungslos im Inneren bewegend, plötzlich nach außen richtet, fort von der eigenen dunklen Lücke, hin zu dem Mann mit dem Notizbuch, der den Schnee mit sich ins Haus gebracht hat."
+    ]
+  },
+  "usage": {
+    "in": 2664,
+    "out": 205,
+    "thinking": 123
+  },
+  "costUsd": 0.007378
+}

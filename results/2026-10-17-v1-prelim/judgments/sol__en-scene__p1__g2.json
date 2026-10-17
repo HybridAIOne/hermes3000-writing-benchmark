@@ -1,0 +1,95 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "B": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„though neither was she, strictly“: Warum die Pflegekraft die Kapelle ebenfalls nicht betreten dürfte, bleibt offen. Der Einschub führt eine Regel ein, die für die Situation relevant wäre, aber nicht nachvollziehbar wird.",
+          "„doing the still work of a flame without ever moving“: Das konkrete Schlussbild wird durch eine ausdeutende, leicht bedeutungsschwere Formulierung verlängert. Ohne diesen Nachsatz wäre es präziser und zurückhaltender."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„before the sky began to lift“: Der Text verankert die Begegnung nicht erkennbar um vier Uhr. Die Morgendämmerung ersetzt die verlangte Zeitangabe nicht eindeutig.",
+          "„The chapel door sighed shut“: Das Seufzen einer Tür ist eine konventionelle Personifizierung; gerade angesichts der Vorgabe, Klischees zu vermeiden, wäre eine konkretere Geräuschbeschreibung besser.",
+          "„It reflected once in the metal cap of the baptismal font and nowhere else“: „and nowhere else“ behauptet eine kaum überprüfbare Ausschließlichkeit. Die vermeintliche Präzision wirkt stärker arrangiert als beobachtet.",
+          "„The wood was smooth where countless hands had rested“: Ein vertrautes Andachtsraum-Motiv, das die Szene atmosphärisch auffüllt, aber wenig Eigenes über diese Begegnung vermittelt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„You switched from pediatrics in November, Clara“ / „The night shift suits you better“: Die zusätzliche Kenntnis ihres Berufswechsels und die persönliche Bewertung verschieben die Szene in Richtung demonstrativer Thriller-Bedrohung. Das ist weniger zurückhaltend als die verlangte Ausgangssituation.",
+          "„Her thumb found the seam of her pocket, pressing against the uncapped tip of a ballpoint pen“: Die auffällige Betonung der ungeschützten Stiftspitze liest sich wie die Vorbereitung einer improvisierten Waffe. Sie verstärkt die genretypische Bedrohungsinszenierung.",
+          "„His voice was dry, unhurried, and carried easily in the small, acoustic space“: „acoustic space“ ist hier unspezifisch und technisch-abstrakt. Die Wortwahl beschreibt die tatsächliche Klangwirkung weniger genau, als sie vorgibt.",
+          "„keeping her voice pitched to the low, neutral register she used for disoriented patients“: Die Erklärung liefert die professionelle Bedeutung ihrer Sprechweise gleich mit. Eine knappere Darstellung würde stärker auf das hörbare Verhalten vertrauen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„At 4:07“ / „while the clock over the baptismal font turned from four to five“: Die zeitliche Führung ist unklar. Falls die Stunden gemeint sind, verstreicht beinahe eine Stunde reglosen Wartens ohne erzählerische Vermittlung; für einen Minutenwechsel passen die Angaben nicht zusammen.",
+          "„Before you decide I’m one of them“: Die unbestimmte Gruppenzugehörigkeit ist eine typische Mystery-Andeutung. Sie erzeugt Spannung durch vorenthaltene Information statt durch die konkrete Begegnung und schwächt die geforderte Zurückhaltung.",
+          "„Outside, the parking-lot lamps shifted from white to amber and stayed there“: Der Farbwechsel bleibt technisch und situativ unmotiviert. Das Schlussbild wirkt deshalb eher als gesetztes rätselhaftes Signal denn als zwingende Beobachtung.",
+          "„shoes too clean for the chapel floor“: Der Vergleich suggeriert Bedeutsamkeit, ohne einen nachvollziehbaren Maßstab zu liefern. Warum saubere Schuhe an diesem Ort auffällig sein sollen, erschließt sich nicht."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 1732,
+    "out": 1517,
+    "thinking": 512
+  },
+  "costUsd": 0.018634
+}

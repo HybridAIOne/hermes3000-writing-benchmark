@@ -1,0 +1,17 @@
+{
+  "task": "nf-opening",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "Du stehst um kurz vor zehn im Flur neben dem Lager und hältst deinen Kaffeebecher in der Hand, obwohl du seit fünf Minuten nichts getrunken hast. Im Team ist es ruhiger als sonst. Jonas sitzt an seinem Platz und räumt Paletten auf, dabei bleibt er mehrfach stehen. Du kennst seinen Blick. Gestern hat er beim Kunden eine Lieferung falsch etikettiert. Er hat es sofort eingeräumt, aber es war seine dritte Unvorsichtigkeit in dieser Woche. Der Kunde hat gefragt, ob so etwas wiederkommen kann. In der Abteilung weiß es jeder, wahrscheinlich nicht ganz, aber gut genug. Du willst mit Jonas reden. Nicht, weil du ihn abservieren willst. Du musst wissen, was los ist: Arbeitslast, unklare Vorgaben, mangelnde Einarbeitung oder vielleicht etwas, das mit der Arbeit nichts zu tun hat. Allerdings fällt dir die Situation schwer. Du führst ohne formellen Titel. Die anderen haben dich nicht von oben ernannt, sondern du bist aus dem Kreis herausgezogen worden und teilst nach wie vor die Arbeit. Wenn du Jonas jetzt in einen Raum ziehst, kann das so rüberkommen, als würdest du gegen ihn vorgehen. Sprichst du zu direkt, fühlt er sich schnell angegriffen. Bleibst du zu vage, vergisst er vielleicht, dass es eine Sache für später gibt. Du überlegst, ob du im Flur bleibst, an seinem Platz vorbeigehst oder einen Termin im Kalender markierst. Jetzt wird klar, worum es geht: nicht um eine Leistung, die nachjustiert werden muss, sondern um einen Moment, in dem Vertrauen, Klarheit und Ruhe aufeinandertreffen. Du atmest durch und gehst.",
+  "usage": {
+    "in": 199,
+    "out": 15897,
+    "thinking": 15525
+  },
+  "costUsd": 0.03502116,
+  "finish": "stop",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "latencyMs": 46947,
+  "meta": [],
+  "at": "2026-10-17T15:10:36.874Z"
+}

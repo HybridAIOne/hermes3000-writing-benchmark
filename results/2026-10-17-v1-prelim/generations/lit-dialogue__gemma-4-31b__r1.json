@@ -1,0 +1,17 @@
+{
+  "task": "lit-dialogue",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "text": "*(Ein kleines Café. Ein runder Tisch. Marc sitzt bereits da, starrt in seine Tasse. Julian tritt ein, bleibt kurz stehen, setzt sich dann langsam gegenüber.)*\n\nJulian: Du bist also wirklich gekommen.\n\nMarc: *(ohne aufzusehen)* Ich habe gesagt, ich komme.\n\nJulian: Sieht gut aus. Die Jacke ist neu.\n\nMarc: Zwei Jahre, Julian. Da kauft man eine neue Jacke.\n\nJulian: *(kurze Pause)* Der Kaffee hier ist immer noch zu stark.\n\nMarc: Ich weiß. Ich bestelle ihn immer noch schwarz.\n\nJulian: *(lächelt schwach)* Manche Dinge ändern sich eben nicht.\n\nMarc: *(sieht ihn zum ersten Mal direkt an)* Manche Dinge schon.\n\n*(Stille. Julian spielt mit der Serviette, reißt sie langsam in der Mitte durch.)*\n\nJulian: Ich bin letzte Woche durch die alte Straße gefahren.\n\nMarc: Und?\n\nJulian: Es ist ein Bäcker dort, wo früher die Werkstatt war.\n\nMarc: *(trocken)* Effizient.\n\nJulian: Ich wollte anrufen. Vor ein paar Monaten.\n\nMarc: Aber das Telefon funktioniert in beide Richtungen.\n\nJulian: *(leise)* Ich weiß.\n\nMarc: *(lehnt sich zurück)* Also. Was gibt es zu erzählen?\n\nJulian: Ich weiß nicht, wo ich anfangen soll.\n\nMarc: Fang einfach dort an, wo es nicht wehtut.\n\n*(Julian starrt auf die zerrissene Serviette. Marc trinkt einen Schluck Kaffee, schaut aus dem Fenster.)*\n\nJulian: Ich habe einen Hund.\n\nMarc: *(fast unmerklich)* Schön. Erzähl mir davon.",
+  "usage": {
+    "in": 73,
+    "out": 365,
+    "thinking": 0
+  },
+  "costUsd": 0.0001606,
+  "finish": "stop",
+  "reportedModel": "google/gemma-4-31b-it",
+  "latencyMs": 12901,
+  "meta": [],
+  "at": "2026-10-17T15:05:16.461Z"
+}

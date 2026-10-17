@@ -1,0 +1,120 @@
+{
+  "task": "lit-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "B": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "\"der Lack blieb nicht an ihr hängen, aber das Glas fühlte sich kalt an wie Stein\" – unlogisches \"aber\", der Satz verpufft am Schluss",
+          "\"als hielte das Haus den Atem an\" – abgegriffenes Bild; dazu Wiederholungsmasche mit \"als könne es sie erkennen\", \"als hätte ihn jemand hastig belastet\", \"als hätte jemand ihn jahrelang\"",
+          "\"Dann gab es nach mit einem trockenen, fast beleidigten Knacken\" – holprige Nachstellung",
+          "\"dieser Geruch nach Lavendel und Seife\" – klischeehaftes Muttergeruch-Motiv, dazu erklärend: \"Nicht die Mutter selbst, nur die Spur von ihr\"",
+          "Das bedeutungstragende Detail zerfasert (Kassenbon, Haken, Lackrest), der Text ist mit rund 380 Wörtern deutlich zu lang"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 4,
+        "fehler": [
+          "\"**Werkstattnotiz:** Das gepflanzte Detail ist der Eisengeschmack … Sag Bescheid, wenn ich die Szene fortsetzen soll\" – Meta-Kommentar verstößt gegen die Vorgabe \"nur Buchtext\"",
+          "\"Auf dem Tisch die blasse Blöße, wo die Zuckerdose gestanden hatte\" – gesuchte Alliteration, \"Blöße\" ist schief",
+          "\"aus einem Impuls, der älter war als sie selbst\" – pathetische Floskel",
+          "\"Sie ließ ihn im Mund, wie etwas, das ihr zustand.\" – Bedeutung wird ausbuchstabiert",
+          "\"Zwanzig Jahre.\" / \"Zwanzig Jahre lang\" – doppelte Betonung der Zeitspanne wirkt markiert"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "Die zwanzig Jahre Abwesenheit kommen im Text nicht vor – eine zentrale Vorgabe der Aufgabe fehlt",
+          "\"als wäre dort lange ein Glas gestanden\" – regionales Perfekt mit \"sein\", standardsprachlich \"als hätte\"",
+          "\"hörte dann das Wasser im Becken nachträglich tropfen\" – \"nachträglich\" ist unidiomatisch",
+          "\"dann gab die Tür nach und stieß gegen etwas im Flur\" – angelegtes Detail bleibt folgenlos",
+          "\"als zähle jemand mit\" – leicht konventionelle Schlusspointe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 3,
+        "aufgabe": 4,
+        "fehler": [
+          "\"die ihr immer an die Sonntage mit ihrer Mutter erinnert hatte\" – Kasusfehler, richtig: \"die sie … erinnert hatte\"",
+          "\"das ferne Echo eines Lachens zu hören, das nicht von dieser Welt stammte\" – Kitsch und Genre-Übernatürliches statt literarischer Andeutung",
+          "\"Staub tanzte in den schmalen Lichtstreifen … in ein schmutziges Gold tauchten\" – Klischeehäufung",
+          "\"wie eine Versammlung von gespenstischen Hügeln\" / \"als wäre die Zeit im Flur einfach stehen geblieben\" – schiefe bzw. abgenutzte Bilder",
+          "\"als hätte es seit Jahrzehnten nicht mehr eingeatmet\" – widerspricht den zwanzig Jahren; die Zeitspanne wird zudem nie konkret benannt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"**Salz**\" – vorangestellte Überschrift ist keine Eröffnungsszene im engeren Sinn",
+          "\"Ihr Körper erinnerte sich daran, bevor sie selbst es tat.\" – vertraute Formel",
+          "\"als ließe sich damit etwas ungeschehen machen\" – erklärt das Gefühl, statt es zu zeigen",
+          "\"gegen die Feuchtigkeit, gegen den Schimmel, gegen etwas, das sie nie benannte\" – leicht routinierte Dreierfigur"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "C",
+      "B",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 6140,
+    "out": 2965,
+    "thinking": 1287
+  },
+  "costUsd": 0.08386
+}

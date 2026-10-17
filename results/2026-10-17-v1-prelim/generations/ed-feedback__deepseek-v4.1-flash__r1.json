@@ -1,0 +1,17 @@
+{
+  "task": "ed-feedback",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "text": "1. „Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.“ – Die Chronologie ist widersprüchlich, weil die Fahrgäste nicht über eine Rampe an Bord gegangen sein können, die Ilse erst danach herunterlässt.\n\n2. „Ilse stellt den Motor an“ – Tempusfehler: In der Präteritum-Erzählung muss es „stellte“ heißen.\n\n3. „wenn die Fähre sich vom Ufer löst“ – Der Tempuswechsel ins Präsens ist innerhalb des in die Vergangenheit eingebetteten Gedankens inkonsistent und müsste „löste“ lauten.\n\n4. „Der Nebel schluckte jedes Geräusch.“ – Das steht in Widerspruch zu „hupte zweimal“, weil ein vollständig geschluckter Ton nicht mehr wahrgenommen werden kann.\n\n5. „Am Anleger drüben wartete schon der Bäcker mit seinem Pferdewagen ... und hupte zweimal.“ – Aus Ilses personaler Perspektive ist nicht nachvollziehbar, wie sie bei dichtem Nebel und geschluckten Geräuschen wissen kann, dass der Bäcker am anderen Ufer wartet und hupt.\n\n6. „der Bäcker mit seinem Pferdewagen ... und hupte zweimal“ – Ein Pferdewagen hat keine Hupe, daher ist „hupte“ ohne erklärende Zusatzinformation unplausibel.",
+  "usage": {
+    "in": 346,
+    "out": 12701,
+    "thinking": 12361
+  },
+  "costUsd": 0.007672499999999999,
+  "finish": "stop",
+  "reportedModel": "deepseek/deepseek-v4.1-flash",
+  "latencyMs": 70446,
+  "meta": [],
+  "at": "2026-10-17T14:55:56.929Z"
+}

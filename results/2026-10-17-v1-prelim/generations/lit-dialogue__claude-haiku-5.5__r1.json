@@ -1,0 +1,17 @@
+{
+  "task": "lit-dialogue",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "*Ein Café am Bahnhof. Draußen Nieselregen. Anna sitzt am Fenster und rührt in ihrer Tasse. Tom kommt herein, bleibt kurz im Türrahmen stehen, dann setzt er sich ihr gegenüber.*\n\n**TOM:** Du bist früher gekommen.\n\n**ANNA:** Ich war in der Gegend.\n\n**TOM:** Ach so.\n\n*Der Kellner stellt einen Kaffee vor ihn. Tom lässt die Jacke an.*\n\n**ANNA:** Du kannst sie ausziehen. Es ist warm hier.\n\n**TOM:** Passt schon.\n\n*Pause. Anna lächelt flüchtig.*\n\n**ANNA:** Du siehst müde aus.\n\n**TOM:** Du siehst aus wie immer.\n\n**ANNA:** Soll das ein Kompliment sein?\n\n**TOM:** Nimm es, wie du willst.\n\n*Sie sieht auf ihre Uhr. Er bemerkt es.*\n\n**TOM:** Musst du weg?\n\n**ANNA:** Nein. Ich dachte nur, du kommst nicht.\n\n**TOM:** Ich hab's mir anders überlegt.\n\n**ANNA:** Wann?\n\n**TOM:** Heute Morgen. Beim Zähneputzen.\n\n*Ein kurzes Lachen, beide werden sofort wieder ernst.*\n\n**ANNA:** Wie geht's deiner Mutter?\n\n**TOM:** Gut. Sie fragt nach dir.\n\n**ANNA:** Grüß sie von mir.\n\n**TOM:** Mach ich.\n\n*Stille. Ein Löffel klirrt gegen Porzellan.*\n\n**ANNA:** Du hast auf meine Nachricht nicht reagiert.\n\n**TOM:** Du auch nicht auf meine.\n\n**ANNA:** Stimmt.\n\n**TOM:** Ich wollte das nicht so stehen lassen.\n\n**ANNA:** Dann lass es jetzt stehen.\n\n*Er sieht aus dem Fenster. Der Regen wird stärker.*\n\n**TOM:** Wie lange bleibst du?\n\n**ANNA:** Der Zug geht um sechs.\n\n**TOM:** Dann hast du noch Zeit.\n\n*Er steht auf, legt Geld auf den Tisch, zögert.*\n\n**ANNA:** Setz dich wieder.\n\n*Er bleibt stehen. Sie sieht ihn nicht an.*\n\n**ANNA:** Bitte.\n\n*Er setzt sich. Keiner von beiden sagt etwas.*",
+  "usage": {
+    "in": 126,
+    "out": 2060,
+    "thinking": 1167
+  },
+  "costUsd": 0.0010425999999999999,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "latencyMs": 9823,
+  "meta": [],
+  "at": "2026-10-17T14:51:27.941Z"
+}

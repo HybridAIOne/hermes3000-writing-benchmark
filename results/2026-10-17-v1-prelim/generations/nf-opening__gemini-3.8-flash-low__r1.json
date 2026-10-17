@@ -1,0 +1,17 @@
+{
+  "task": "nf-opening",
+  "model": "gemini-3.8-flash-low",
+  "run": 1,
+  "text": "Dein Kaffee ist längst kalt, aber du starrst trotzdem auf die Tasse. In zwanzig Minuten sitzt Markus bei dir am Tisch. Eigentlich schätzt du ihn: Er ist seit fünf Jahren im Team, fachlich macht ihm keiner was vor, und wenn die Hütte brennt, bleibt er bis Mitternacht. Aber seit drei Monaten häufen sich die Beschwerden. Er fährt Kollegen im Meeting über den Mund, blockiert neue Prozesse und lässt Entwürfe von Nachwuchskräften mit spöttischen Kommentaren auflaufen. Das Team ist genervt, die Stimmung kippt – und alle schauen dich an. \n\nGenau hier beginnt das Dilemma, das du nur zu gut kennst. Auf dem Papier bist du vielleicht nur die fachliche Koordination, der Projektleiter oder der dienstälteste Kollege. Du kannst Markus weder abmahnen noch versetzen, und eine Gehaltskürzung kannst du ihm auch nicht androhen. Trotzdem musst du jetzt handeln. Wenn du wegschaust, verlierst du den Rest der Truppe. Wenn du die Sache falsch anpackst, macht Markus komplett dicht.\n\nDein Magen zieht sich zusammen, und der Impuls ist groß, den Termin auf nächste Woche zu verschieben. Schließlich steht der Quartalsabschluss an, da kann man Unruhe gar nicht gebrauchen. Doch das ist eine Falle. Konflikte lösen sich nicht in Luft auf, sie faulen vor sich hin. Du brauchst keine disziplinarische Keule, um dieses Gespräch zu führen. Was du brauchst, ist ein klarer Kopf, eine präzise Beobachtung und der Mut, das Offensichtliche auszusprechen, ohne den anderen zu demütigen. Atme einmal tief durch. Wir gehen das jetzt Schritt für Schritt durch.",
+  "usage": {
+    "in": 151,
+    "out": 379,
+    "thinking": 0
+  },
+  "costUsd": 0.0013950700000000002,
+  "finish": "STOP",
+  "reportedModel": "gemini-3.8-flash",
+  "latencyMs": 5218,
+  "meta": [],
+  "at": "2026-10-17T14:50:42.395Z"
+}

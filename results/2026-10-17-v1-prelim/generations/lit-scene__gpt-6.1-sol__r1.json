@@ -1,0 +1,17 @@
+{
+  "task": "lit-scene",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "Der Schlüssel ging nur zur Hälfte ins Schloss. Judith zog ihn heraus, wischte ihn am Mantelfutter ab und versuchte es noch einmal. Früher hatte man die Tür beim Aufschließen anheben müssen. Ihr Körper wusste es, bevor sie sich erinnerte.\n\nIm Flur lag Post. Die Umschläge waren unter der Briefklappe zu einem flachen Fächer zusammengeschoben, Rechnungen, Werbung, ein Fensterumschlag mit rotem Rand. Sie trat darüber hinweg und ließ die Haustür offen. Vom Gehweg kam das Schaben einer Schneeschaufel, obwohl es nicht geschneit hatte.\n\nZwanzig Jahre lang war sie nicht hier gewesen. Nun war ihre Mutter seit elf Tagen tot, und Judith hatte drei Schlüssel, eine Sterbeurkunde und bis Montag Urlaub.\n\nSie stellte die Tasche auf die unterste Treppenstufe. An der Wand hing noch der Spiegel, dessen untere Ecke blind geworden war. Als Kind hatte sie sich auf die Zehenspitzen stellen müssen, um ihr Gesicht über dem grauen Fleck zu sehen. Jetzt sah sie darin den Kragen ihres Mantels.\n\nDie Küche war kleiner, als sie sie behalten hatte. Auf dem Herd stand ein Topf mit aufgelegtem Deckel. Judith hob ihn nicht an. Sie öffnete stattdessen das Fenster, doch der Griff bewegte sich nur ein Stück. Zwischen Rahmen und Flügel klebte ein Streifen vergilbtes Papier.\n\nIn der Besteckschublade roch es nach Nelken. Der Geruch war trocken und scharf, derselbe wie an den Fingern ihrer Mutter, wenn sie sonntags den Braten gespickt hatte. Unter dem Einsatz lag eine einzelne Gewürznelke, schwarz, mit abgebrochenem Kopf. Judith nahm sie auf. Die Spitze drückte eine kleine Delle in ihre Fingerkuppe.\n\nDraußen verstummte das Schaben.\n\nAuf dem Küchentisch lag ein kariertes Heft. Die letzte Seite war herausgerissen worden; im Falz standen die Papierfasern aufrecht. Daneben hatte jemand ein Glas umgedreht. Unter seinem Boden lag ein zweiter Schlüssel.\n\nJudith legte die Nelke zurück in die Schublade und schloss sie vorsichtig, damit sie nicht klapperte.",
+  "usage": {
+    "in": 76,
+    "out": 612,
+    "thinking": 129
+  },
+  "costUsd": 0.006272,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "latencyMs": 21832,
+  "meta": [],
+  "at": "2026-10-17T14:51:51.491Z"
+}

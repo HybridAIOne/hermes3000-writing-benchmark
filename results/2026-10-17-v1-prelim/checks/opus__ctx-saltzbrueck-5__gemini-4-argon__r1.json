@@ -1,0 +1,16 @@
+{
+  "task": "ctx-saltzbrueck-5",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 4257,
+    "out": 356,
+    "thinking": 339
+  },
+  "costUsd": 0.024148
+}

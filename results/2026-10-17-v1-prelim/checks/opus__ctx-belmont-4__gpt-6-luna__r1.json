@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "violated": [
+      "b4-5"
+    ],
+    "evidence": [
+      "Der Verdacht, den sie bisher nur gegen ihre eigene Erinnerung gerichtet hatte, bekam ein anderes Gesicht: das eines Fremden mit grauen Augen und einem Notizbuch, das sich nicht schließen ließ."
+    ]
+  },
+  "usage": {
+    "in": 3853,
+    "out": 584,
+    "thinking": 470
+  },
+  "costUsd": 0.027092
+}

@@ -1,0 +1,17 @@
+{
+  "task": "en-scene",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "The chapel was behind the neurology ward, past the locked supply room and a door that had been painted brown in the eighties. At 4:07, Mara heard the chair scrape before she saw him.\n\nHe wore a visitor’s lanyard, no badge, and shoes too clean for the chapel floor. A paper cup sat between his shoes, cold.\n\n“Mara. You’re the one who left the light on in 412,” he said.\n\nShe stopped at the door. The fluorescent tube above the small altar hummed, but the chapel was darker than the hall.\n\n“I don’t remember leaving a light on.”\n\n“He kept calling for the nightlight. The boy. You laughed, but you turned it on, and left it.”\n\nMara looked at the pews, the dust on the kneeler rails, the small window with its view of the parking lot and the generator shed. Her shoes had gone wet somewhere near the nurses’ station; the floor tiles pressed that dampness into her heels.\n\n“Who are you?”\n\nHe did not answer. He held up the cup. There was a ring of tea at the bottom, brown and thin.\n\n“Sit down,” he said. “Before you decide I’m one of them.”\n\nShe did not sit. She stayed where the hallway light made a rectangle on the floor and watched him lift the cup to his mouth, not drinking, only balancing it there while the clock over the baptismal font turned from four to five. Outside, the parking-lot lamps shifted from white to amber and stayed there.",
+  "usage": {
+    "in": 108,
+    "out": 7257,
+    "thinking": 5154
+  },
+  "costUsd": 0.01599132,
+  "finish": "stop",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "latencyMs": 92752,
+  "meta": [],
+  "at": "2026-10-17T15:00:31.688Z"
+}

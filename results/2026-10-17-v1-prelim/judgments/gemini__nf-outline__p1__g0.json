@@ -1,0 +1,110 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "dass du nicht an der Substanz zehnst (Kapitel 8: Tippfehler und falsche Präposition, korrekt wäre „von der Substanz zehrst“)",
+          "Meetings (Kapitel 3: unnötiger Anglizismus/Business-Jargon)",
+          "Wie du deine Rolle so führst (Kapitel 8: unidiomatisch, man füllt eine Rolle aus oder gestaltet sie, man führt sie nicht)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "mit deiner vorgesetzten Person (Kapitel 1: wirkt im sonst sehr direkten, bodenständigen Ton etwas gestelzt und bürokratisch)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "lernen, wie du mit Regelbrüchen umgehst (Kapitel 6) vs. Gespräche über Leistungsprobleme, Fehlverhalten und Konflikte (Kapitel 7) – klare inhaltliche Überschneidung entgegen der Vorgabe",
+          "Aufgaben abgeben (Kapitel 5) vs. Stärken, Reibungspunkten (Kapitel 3) – der Aufbau springt zwischen Team-Analyse, Tugenden (Kap. 4) und Handwerk hin und her, statt organisch aufzubauen",
+          "Transparenz (Kapitel 4) und Feedback (Kapitel 8) – typisches Management-Vokabular, das nah am Buzzword-Verbot kratzt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "*Zum Aufbau:* Die Kapitel 1 bis 2 decken den Einstieg ab... (Ungefragter Meta-Kommentar am Ende, der die strikte Formatvorgabe sprengt)",
+          "Abgegrenzt sind vor allem Kapitel 5 und 6 (Der nachgeschobene Erklärungsversuch zeigt, dass die Abgrenzung in den Kapiteln selbst nicht scharf genug gelungen ist)",
+          "Plötzlich Chef (Kapitel 1) / Feuerwehr und Chef (Kapitel 9) (Widerspricht dem Buchtitel „Führen ohne Titel“, da ein Teamleiter ohne formale Rolle meist gerade nicht der „Chef“ im Sinne von Vorgesetzter/Geschäftsführer ist)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "Hier ist der Entwurf für die Gliederung: (Überflüssiger Chatbot-Einleitungssatz)",
+          "Der Puffer im Sandwich (Kapitel 6) / Meetings (Kapitel 4) / Deadlines (Kapitel 7) (Verstoß gegen das Buzzword-Verbot und unnötige Anglizismen)",
+          "den mentalen Schalter ... umlegst / Butter bei die Fische / Wenn die Hütte brennt (Stilistisch zu stark in abgedroschene Phrasen und Floskeln abgerutscht)",
+          "die eigene Haltung – Gesund bleiben und deinen Stil finden (Kapitel 8 vermischt das Thema Selbstschutz/Burnout-Prävention mit der Führungs-Haltung, statt Haltung als inneren Kompass zu begreifen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "D",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3345,
+    "out": 971,
+    "thinking": 0
+  },
+  "costUsd": 0.0164
+}

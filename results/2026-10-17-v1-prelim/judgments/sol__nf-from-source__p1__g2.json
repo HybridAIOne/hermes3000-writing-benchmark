@@ -1,0 +1,87 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "glm-5.3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„die weder auf Gewinnausschüttung noch auf externe Eigentümer angewiesen ist“: Die Aussage über externe Eigentümer ist nicht belegt. Zudem werden hier Ausschüttungspolitik und Eigentumsverhältnisse wenig schlüssig miteinander verbunden.",
+          "„aus beiden Elbufern“: Unidiomatische Präposition, bereits im Quellmaterial vorhanden. Richtig wäre „von beiden Elbufern“.",
+          "„Sie hängt an einem Führungsseil und wird heute von einem 85-kW-Dieselmotor angetrieben“: Die technischen Einzelheiten stehen unvermittelt am Schluss, nachdem die Eignung der Rechtsform bereits erklärt wurde. Das schwächt den gedanklichen Abschluss.",
+          "„Die Fährgenossenschaft Hitzacker eG wurde 1953 …“: Der gesamte Abschnitt umfasst nur etwa 240 Wörter und bleibt damit merklich unter dem Richtwert von etwa 300 Wörtern."
+        ],
+        "unsupported": [
+          "„die weder auf Gewinnausschüttung noch auf externe Eigentümer angewiesen ist“: Dass die Fähre nicht auf externe Eigentümer angewiesen sei, wird im Quellmaterial nicht ausgesagt; belegt ist lediglich der Verzicht auf Gewinnausschüttungen."
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„braucht eine Trägerschaft, die den Nutzern selbst gehört“: Aus den Beförderungszahlen folgt weder die Notwendigkeit dieser Eigentumsform noch, dass Mitglieder und Nutzer identisch sind. Die Begründung ersetzt Erklärung durch eine unbelegte Setzung.",
+          "„was eine öffentliche Stelle nicht länger weiterführen wollte“: Die Quelle nennt die Betriebseinstellung, aber keinen Willen oder Beweggrund des Landkreises.",
+          "„aus beiden Elbufern“: Unidiomatische Präposition aus der Vorlage; richtig wäre „von beiden Elbufern“.",
+          "„Das Geld bleibt im Betrieb und dient dem Zweck, für den es da ist“: Der zweite Satzteil ist eine inhaltsarme Wiederholung statt einer zusätzlichen Erklärung.",
+          "„Wie funktioniert eine Genossenschaft?“ und „Warum passt diese Rechtsform gerade zu dieser Fähre?“: Die doppelte Frage-Antwort-Rahmung wirkt schematisch und unterbricht den ansonsten gut verständlichen Buchtext."
+        ],
+        "unsupported": [
+          "„was eine öffentliche Stelle nicht länger weiterführen wollte“: Die Quelle belegt die Einstellung des Betriebs, nicht eine entsprechende Absicht oder Motivation.",
+          "„Ein Verkehrsmittel, das so viele Menschen auf beiden Seiten des Flusses verbindet, braucht eine Trägerschaft, die den Nutzern selbst gehört“: Die behauptete Notwendigkeit einer nutzereigenen Trägerschaft ist nicht belegt. Auch dass die Nutzer selbst Eigentümer beziehungsweise Mitglieder sind, geht aus der Quelle nicht hervor."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Jeder kann mit einem überschaubaren Anteil einsteigen“: Die Quelle nennt den Mindestanteil bestehender Mitglieder, aber keine allgemein offene Aufnahme. „Überschaubar“ bewertet außerdem die finanzielle Belastung ohne Grundlage.",
+          "„Die Geschichte der Fähre beginnt mit einem Rückzug“: Die Geschichte der Genossenschaft beginnt hier, nicht die der Fähre. Diese wurde bereits zuvor vom Landkreis betrieben.",
+          "„aus beiden Elbufern“: Unidiomatische Präposition aus dem Quellmaterial; richtig wäre „von beiden Elbufern“.",
+          "„nicht in die Taschen einzelner“: Die polemische Wendung trägt eine unnötige moralische Wertung in die sachliche Erklärung des Ausschüttungsverzichts."
+        ],
+        "unsupported": [
+          "„Die Geschichte der Fähre beginnt mit einem Rückzug“: Als Aussage über den Beginn der Fährgeschichte ist dies nicht belegt und widerspricht dem bereits zuvor bestehenden Fährbetrieb.",
+          "„Jeder kann mit einem überschaubaren Anteil einsteigen“: Eine Aufnahmeberechtigung für jedermann wird nicht genannt. Auch die Bewertung des Anteils als finanziell überschaubar stammt nicht aus der Quelle."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2285,
+    "out": 2564,
+    "thinking": 1536
+  },
+  "costUsd": 0.03021
+}

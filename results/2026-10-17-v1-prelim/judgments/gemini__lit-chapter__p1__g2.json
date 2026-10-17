@@ -1,0 +1,58 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "„Er nickte, gab Gas und verschwand so schnell in der weißen Wand, wie er aufgetaucht war.“ (Schwerer Logikbruch: Der Fahrer fährt auf die Fähre, bezahlt, gibt Gas und verschwindet im Nebel, ohne dass die Fähre überhaupt abgelegt hat – er müsste in der Elbe landen.)",
+          "„Kurz darauf tauchten zwei Gestalten auf dem gegenüberliegenden Ufer auf. [...] Ilse legte den Hebel um. [...] Als die Frauen an Bord gingen [...]“ (Logikbruch in der Perspektive und Physik: Im extrem dichten Nebel sieht Ilse plötzlich Personen am anderen Ufer, fährt hinüber, und im nächsten Satz gehen sie ohne Anlegemanöver direkt an Bord.)",
+          "„zwei Euro Münzen“ (Rechtschreibfehler: Es muss entweder „Zwei-Euro-Münzen“ oder „zwei Euromünzen“ heißen.)",
+          "„beieinander hergingen“ (Idiomatikfehler: Man geht nebeneinander her, nicht beieinander her.)",
+          "„Er hatte immer gesagt, dass man die Fähre nicht steuert, sondern dass man sich von ihr führen lässt.“ (Tempusbruch und Kitsch: Unmotivierter Wechsel ins Präsens im Nebensatz, zudem fachlicher Unsinn für eine Seilfähre.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Vorne an der Kette stand der alte Krogmann neben seinem weinroten Golf [...] ‚Wird nicht heller heute, Ilse‘, rief er durch das halb heruntergelassene Fenster.“ (Räumlicher Logikbruch: Wenn Krogmann draußen neben seinem Auto steht, ergibt es keinen Sinn, dass er durch das halb heruntergelassene Fenster ruft.)",
+          "„Der Hund, den Krogmann letzte Woche mit rübergenommen hatte“ (Logische Unschärfe: Ein einzelner Hund hinterlässt auf einer belüfteten Fähre keinen Geruch, der eine ganze Woche lang anhält.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 4222,
+    "out": 597,
+    "thinking": 0
+  },
+  "costUsd": 0.014414
+}

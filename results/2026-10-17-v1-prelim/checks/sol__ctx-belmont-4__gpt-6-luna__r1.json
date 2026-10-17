@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-1"
+    ],
+    "evidence": [
+      "Vosskuhl, der an der Tür stand, senkte den Blick."
+    ]
+  },
+  "usage": {
+    "in": 1866,
+    "out": 232,
+    "thinking": 188
+  },
+  "costUsd": 0.006052
+}

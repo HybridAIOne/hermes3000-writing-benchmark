@@ -1,0 +1,17 @@
+{
+  "task": "en-scene",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "text": "The chapel was empty except for him.\n\nMarisol came in at four the way she always did, to sit in the back pew and let the beeping fade. Her feet ached. She hadn't sat down since midnight. The room smelled of carpet cleaner and old flowers. A bulletin from last Sunday lay curled on the floor. Someone had left a coat over the hymnal rack, and the lamp by the altar was still on, though no one had been in all night.\n\n\"You're Marisol,\" the man said.\n\nHe sat three rows up, hands folded. Not praying. Just folded.\n\nShe stopped. The door clicked shut behind her.\n\n\"I am.\"\n\nHe nodded, as if she'd confirmed something for him. A windbreaker, salt on his shoes. He didn't look at her again.\n\nShe could have asked. She'd been a nurse eleven years; she knew how to ask. But the vending machine down the hall dropped something with a thud, and the man didn't flinch, and in 412 a woman would be waking soon to ask for water, and the coffee in the break room was going cold.\n\nDown the hall, a gurney rattled past. Neither of them turned.\n\nShe sat down two rows behind him and folded her own hands, not praying either. Above the altar the fluorescent tube buzzed and flickered, and the plastic flowers kept their color.",
+  "usage": {
+    "in": 85,
+    "out": 5486,
+    "thinking": 5199
+  },
+  "costUsd": 0.0033043499999999997,
+  "finish": "stop",
+  "reportedModel": "deepseek/deepseek-v4.1-flash",
+  "latencyMs": 32717,
+  "meta": [],
+  "at": "2026-10-17T14:58:58.935Z"
+}

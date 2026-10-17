@@ -1,0 +1,141 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die kleine Anteilssumme ermöglicht vielen Menschen die Mitgliedschaft“: Die finanzielle Zugänglichkeit wird behauptet, ist durch die bloße Angabe des Anteilspreises aber nicht belegt.",
+          "„aus beiden Elbufern“: Unidiomatische Präposition; richtig wäre „von beiden Elbufern“. Der Fehler steht bereits im Quellmaterial, bleibt aber im Buchtext korrekturbedürftig.",
+          "„Die Fähre überquert die Elbe … Die Fähre hängt …“: Der lange Mittelteil übernimmt weitgehend die Reihenfolge und Formulierungen der Quelle. Es entsteht eher eine Datenaufzählung als eine durchgehend entwickelte Erklärung.",
+          "„eine Stimme, unabhängig von der Zahl seiner Anteile“ / „die eine Stimme pro Mitglied unabhängig von der Zahl der Anteile“: Die nahezu wörtliche Wiederholung verlängert den Text, ohne den Zusammenhang wesentlich zu vertiefen."
+        ],
+        "unsupported": [
+          "„Die kleine Anteilssumme ermöglicht vielen Menschen die Mitgliedschaft“: Die Quelle enthält keine Angaben dazu, für wie viele Menschen 250 Euro erschwinglich sind oder ob der Betrag die Mitgliedschaft erleichtert."
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 5,
+        "fehler": [
+          "„Wirtschaftlich wird solide gearbeitet, aber ohne Gewinnabsicht“: Weder wirtschaftliche Solidität noch fehlende Gewinnabsicht sind belegt. Nichtausschüttung und Gewinnerzielung schließen einander nicht aus.",
+          "„Eine Genossenschaft sichert genau das“: Die Rechtsform wird als Garantie für einen dauerhaft durchgängigen Betrieb dargestellt. Das lässt sich aus dem Material nicht ableiten.",
+          "„Statt darauf zu warten, dass ein Investor oder die öffentliche Hand die Verbindung wiederbelebt“: Der Text ergänzt eine nicht dokumentierte Entscheidungssituation der Gründer.",
+          "„ihr Erfolg misst sich nicht am Erlös, sondern am durchgängigen Betrieb“: Dieser ausdrücklich gesetzte Erfolgsmaßstab steht nicht in der Quelle; die Gegenüberstellung wertet wirtschaftliche Anforderungen zudem unnötig ab.",
+          "„verlangt Geduld statt Rendite“: Die zugespitzte Formel ersetzt eine präzise Erklärung durch eine nicht belegte Bewertung."
+        ],
+        "unsupported": [
+          "„Statt darauf zu warten, dass ein Investor oder die öffentliche Hand die Verbindung wiederbelebt“: Eine solche Alternative oder Erwartung der Gründer wird nicht genannt.",
+          "„Heute gehören der Genossenschaft 312 Menschen an“: Belegt sind 312 Mitglieder, nicht ausschließlich natürliche Personen.",
+          "„Wirtschaftlich wird solide gearbeitet“: Umsatz und Einnahmenverteilung erlauben ohne Angaben zu Kosten und Ergebnis kein solches Urteil.",
+          "„ohne Gewinnabsicht“: Belegt ist nur, dass Überschüsse nicht ausgeschüttet werden.",
+          "„der Betrieb überdauerte Technikwechsel und Generationen“: Ein Technikwechsel ist dokumentiert; Aussagen über Generationen von Beteiligten enthält die Quelle nicht.",
+          "„verlangt Geduld statt Rendite“: Diese Anforderung an den Betrieb wird nicht belegt.",
+          "„ihr Erfolg misst sich nicht am Erlös, sondern am durchgängigen Betrieb“: Ein solcher Erfolgsmaßstab wird nicht genannt.",
+          "„Eine Genossenschaft sichert genau das“: Eine Garantie für den durchgängigen Betrieb folgt aus den Angaben nicht.",
+          "„Eigentum in der Hand derer, die das Angebot brauchen“: Dass sämtliche Mitglieder selbst auf das Fährangebot angewiesen sind, steht nicht in der Quelle."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ausgangspunkt waren 41 Landwirte und Händler“: Die Gründer als „Ausgangspunkt“ zu bezeichnen, ist unnötig abstrakt. „Gegründet wurde sie von …“ wäre präziser und anschaulicher.",
+          "„Bei der Fährgenossenschaft Hitzacker ist diese gemeinsame Aufgabe die Überquerung der Elbe“: Der Satz erklärt noch einmal, was nach dem ersten Absatz bereits feststeht, und verzögert den Übergang zur Funktionsweise.",
+          "„tragen gemeinsam Verantwortung, entscheiden gemeinsam und sorgen gemeinsam dafür“: Die dreifache Wiederholung von „gemeinsam“ wirkt formelhaft; der Schluss könnte die bereits erläuterten Mechanismen knapper bündeln."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„weil sie nicht auf Gewinn zielt“: Aus dem Verzicht auf Ausschüttungen folgt keine fehlende Gewinnerzielungsabsicht. Die belegte Besonderheit ist die Verwendung der Überschüsse.",
+          "„Für Landwirte und Händler … brauchten sie für ihre Arbeit“: Die berufliche Nutzung wird als historische Tatsache ergänzt, obwohl die Quelle keine konkreten Nutzungszwecke der Gründer nennt.",
+          "„eine Fähre, die keinem Konzern und keiner Behörde gehört, sondern 312 Menschen“: Der Einstieg setzt Mitglieder mit unmittelbaren Eigentümern der Fähre gleich und unterstellt, dass alle Mitglieder natürliche Personen sind.",
+          "„Wirtschaftlich trägt sich das Modell zu einem großen Teil selbst“: Der Anteil der Fahrkarteneinnahmen am Umsatz belegt nicht, in welchem Umfang die Betriebskosten gedeckt werden.",
+          "„was einzeln nicht zu leisten wäre“: Als allgemeine Erklärung ist die Formulierung zu absolut. Gemeinsames Wirtschaften setzt nicht zwingend voraus, dass die Aufgabe für Einzelne unmöglich wäre."
+        ],
+        "unsupported": [
+          "„eine Fähre, die keinem Konzern und keiner Behörde gehört, sondern 312 Menschen“: Die Quelle nennt 312 Mitglieder, beschreibt aber weder deren Rechtsnatur noch ein unmittelbares Eigentum dieser Mitglieder an der Fähre.",
+          "„die Verbindung … brauchten sie für ihre Arbeit“: Eine berufliche Abhängigkeit der Gründer von der Fähre wird nicht angegeben.",
+          "„Wirtschaftlich trägt sich das Modell zu einem großen Teil selbst“: Zur Kostendeckung fehlen Angaben.",
+          "„weil sie nicht auf Gewinn zielt“: Die Quelle beschreibt die Rücklagenbildung, nicht den Verzicht auf Gewinnerzielung."
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Daher werden erwirtschaftete Überschüsse nicht an die Mitglieder ausgeschüttet“: Der Anschluss an die allgemeine Erklärung stellt die Nichtausschüttung als generelle Folge der Rechtsform dar. Belegt ist sie nur für diese Genossenschaft; Genossenschaften können grundsätzlich ausschütten.",
+          "„Finanziell steht das Modell auf soliden Beinen“: Diese wirtschaftliche Bewertung ist ohne Kosten-, Ergebnis- oder Vermögensangaben nicht gedeckt.",
+          "„Die Rechtsform erweist sich als ideal, da sie den Fortbestand … sichert“: „Ideal“ und „sichert“ überhöhen die begründbare Eignung der Rechtsform zur Erfolgsgarantie.",
+          "„Während die Überfahrt … sieben Minuten dauert und die Seilfähre, die bis 1978 …“: Der Schlusssatz verschachtelt Fahrtdauer, Technikgeschichte und Investitionsplanung. „Während“ verbindet Aussagen, zwischen denen kein klarer zeitlicher oder gegensätzlicher Zusammenhang besteht.",
+          "„Wie … funktioniert, lässt sich anschaulich … zeigen“ / „Das Grundprinzip ist denkbar einfach“: Solche Ankündigungen und Selbstbewertungen beanspruchen Platz, statt die Funktionsweise unmittelbar zu erklären."
+        ],
+        "unsupported": [
+          "„Finanziell steht das Modell auf soliden Beinen“: Die Quelle liefert keine ausreichenden Angaben zur finanziellen Stabilität.",
+          "„71 Prozent durch Fahrkartenverkäufe von rund 64.000 beförderten Personen“: Die Formulierung ordnet die jährliche Beförderungszahl dem Umsatzjahr 2024 zu. Die Quelle nennt sie nur als allgemeine Jahresgröße.",
+          "„Die Rechtsform erweist sich als ideal“: Eine gegenüber anderen Rechtsformen nachgewiesene optimale Eignung ist nicht belegt.",
+          "„da sie den Fortbestand der Verbindung … sichert“: Eine solche Bestandsgarantie enthält die Quelle nicht.",
+          "„umweltfreundlichen Elektroantrieb“: Die Quelle nennt einen geplanten Elektroantrieb, bewertet dessen Umweltwirkung aber nicht."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "D",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3191,
+    "out": 2945,
+    "thinking": 969
+  },
+  "costUsd": 0.035832
+}

@@ -1,0 +1,99 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "D": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„formale Disziplinargewalt“: unnötig verwaltungssprachlich für ein praxisnahes Sachbuch, das ohne Fachjargon auskommen soll.",
+          "„mit der Faust auf den Tisch hauen oder mit einer Abmahnung winken“: Die klischeehafte Gegenüberstellung verengt Führung zunächst auf Einschüchterung, auch wenn der nächste Halbsatz das relativiert.",
+          "„zahlst du einen hohen Preis“, „Die Stimmung im Team kippt“, „deine eigene Autorität bröckelt Stück für Stück“: Die Häufung geläufiger Warnformeln dramatisiert stärker, als sie den konkreten Vorgang erklärt.",
+          "„ob du dein Team wirklich führst oder die Arbeit nur verwaltest“: Der Schluss stellt eine pauschale Entweder-oder-Wertung auf und wirkt dadurch eher belehrend als unterstützend.",
+          "„Kennst du diesen Moment?“: Hier beginnt ein zweiter Absatz; verlangt war ein einzelner Einstiegsabsatz."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„das Gespräch durch eine technische Diskussion über ein aktuelles Projekt zu lenken“: Die Wendung bleibt idiomatisch unvollständig. Gemeint ist, vom Thema abzulenken oder das Gespräch auf ein anderes Thema zu lenken.",
+          "„die Stimmung im Team systematisch vergiftet“: Die Formulierung unterstellt planvolles schädigendes Verhalten und legt den Leser früh auf ein Feindbild fest.",
+          "„Du weißt genau, was passieren wird“: Die Reaktion des Gegenübers wird als Gewissheit dargestellt. Das verstärkt die Vorverurteilung, statt zwischen Befürchtung und Beobachtung zu unterscheiden.",
+          "„Dieses Gefühl kennen wir alle“, „desto größer wird der Berg“, „ohne dabei die Menschlichkeit zu verlieren“: Allgemeinplätze ersetzen die Genauigkeit der anfänglichen Situation.",
+          "„Vielleicht hast du das Gespräch schon dreimal im Kopf durchgespielt.“ / „Dieses Gefühl kennen wir alle.“: Die Absatzwechsel machen aus dem verlangten Einstiegsabsatz drei Absätze; zudem bleibt der Text mit rund 220 Wörtern etwas unter dem Richtwert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Gestern sollte eine Rückmeldung kommen, der Kunde wartet seit Freitag“: Am Montagmorgen bedeutet „gestern“ Sonntag. Das ist möglich, wirkt ohne Erklärung für den geschilderten Büroalltag aber unnötig unstimmig.",
+          "„Dann wird aus einer einfachen Klärung ein Verteidigungsgespräch, aus einem Hinweis ein Vorwurf, aus einem Missverständnis ein offener Konflikt.“: Die dreifache Steigerung ist verständlich, aber schematisch; „Verteidigungsgespräch“ klingt zudem konstruiert.",
+          "„Schwierige Gespräche beginnen selten mit einem lauten Knall. Oft fangen sie leise an“: Eine abgegriffene Gegensatzfigur, die nach der konkreten Szene wenig zusätzlichen Erkenntniswert liefert.",
+          "„wie du Klarheit hineinbringst“, „wie du Spannung aushältst“, „wie du ein Gespräch so führst“: Die lange dreigliedrige Kapitelankündigung lässt den Schluss gegenüber dem anschaulichen Einstieg abstrakter und formelhafter werden."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„die Kundenrückmeldung gerettet“: Unklare, unidiomatische Wortverbindung. Offen bleibt, ob Nadine eine Kundenbeziehung, einen Auftrag oder die Bearbeitung einer Rückmeldung gerettet hat.",
+          "„in dem Moment weiß sie, dass etwas im Argen liegt, und du redest gegen eine Wand, die du selbst aufgebaut hast“: Der Text erklärt eine mögliche Reaktion zur sicheren Folge und bewertet die Gesprächseröffnung dadurch zu pauschal.",
+          "„weder der Feigling noch der Rammbock“: Die zugespitzten Etiketten sind einprägsam, wirken gegenüber der angesprochenen Führungskraft aber unnötig abwertend.",
+          "„Auf deinem Notizzettel stehen drei Stichpunkte“ / „Jetzt sitzt sie da und wartet“ / „Um diesen Moment geht es in diesem Kapitel“: Die vierteilige Absatzstruktur widerspricht der Vorgabe, einen Einstiegsabsatz zu schreiben."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 1972,
+    "out": 1574,
+    "thinking": 440
+  },
+  "costUsd": 0.019684
+}

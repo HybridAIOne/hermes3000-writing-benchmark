@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-7",
+  "model": "gemini-3.8-flash-low",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 2190,
+    "out": 60,
+    "thinking": 38
+  },
+  "costUsd": 0.00498
+}

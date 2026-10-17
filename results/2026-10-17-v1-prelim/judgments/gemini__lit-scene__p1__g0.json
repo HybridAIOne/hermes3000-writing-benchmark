@@ -1,0 +1,113 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "B": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "in den Jahren (Aufgabenverfehlung: Die geforderten zwanzig Jahre und die verstorbene Mutter fehlen komplett im Text)",
+          "als hätte das Metall sich in den Jahren an diese Bewegung erinnert (abgegriffenes Klischee)",
+          "als hätte es jahrelang dort gelegen, ohne dass jemand es weggefegt hätte (redundante Erklärung, pleonastische Konstruktion)",
+          "ein kurzes, trockenes Knarren ... ein kurzes, trockenes Kratzen (Wortwiederholung auf engem Raum)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 6,
+        "fehler": [
+          "**Werkstattnotiz:** Das gepflanzte Detail ist der Eisengeschmack (schwerer Verstoß gegen das Format: Meta-Kommentar außerhalb des eigentlichen Buchtextes)",
+          "die blasse Blöße (stilistisch unglückliche, unfreiwillig komische Formulierung für eine helle Stelle im Holz)",
+          "aus einem Impuls, der älter war als sie selbst (etwas prätentiöse Behauptung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Ihre Mutter hatte das Haus seit dem Winter nicht mehr bewohnt (Aufgabenverfehlung: Die geforderten zwanzig Jahre Abwesenheit der Tochter werden nirgends erwähnt)",
+          "dann gab die Tür nach und stieß gegen etwas im Flur ... Mara schob die Tür weiter auf. Ein schmales Stück Tapete löste sich und klappte zurück (Logikbruch: Wogegen stößt die Tür mitten im Flur, und warum löst sich davon ein Stück Tapete?)",
+          "als wäre dort lange ein Glas gestanden (regional gefärbtes Perfekt mit 'sein'; standardsprachlich in diesem Kontext 'hatte gestanden')",
+          "Der letzte Strich lag knapp über ihrem Kopf. Neben ihm stand kein Datum, nur ein kleines Kreuz (inhaltlich überkonstruiertes, fast schauerliterarisches Klischee)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "Die Sitzflächen zeigten nach oben wie die Bäuche von Tieren (schiefes Bild: Wenn Stühle verkehrt herum auf dem Tisch stehen, zeigen die Unterseiten der Sitzflächen nach oben, nicht die Sitzflächen selbst)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "wie ihre Mutter ihn getragen hatte (Aufgabenverfehlung: Es wird nicht klar, dass die Mutter verstorben ist, nur die zwanzig Jahre Abwesenheit werden genannt)",
+          "Maren berührte das kalte Metall nicht (Logikbruch: Woher weiß sie, dass das Metall kalt ist, wenn sie es nicht berührt?)",
+          "konserviert unter einer Glocke aus Stillstand (abgedroschene, leicht kitschige Metapher)",
+          "Das Haus schien den Atem anzuhalten, lauernd, wie ein ertapptes Tier (Klischee; zudem unpassendes Bild: Ein ertapptes Tier erstarrt, es lauert nicht)",
+          "Mehlstaub längst zerfallener Tapeten (sachlicher Unsinn: Tapeten zerfallen nicht zu Mehlstaub)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "C",
+      "E",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 3362,
+    "out": 989,
+    "thinking": 0
+  },
+  "costUsd": 0.016614
+}

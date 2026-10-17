@@ -1,0 +1,17 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "",
+  "usage": {
+    "in": 5201,
+    "out": 16000,
+    "thinking": 16000
+  },
+  "costUsd": 0.03644824,
+  "finish": "length",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "latencyMs": 96370,
+  "meta": [],
+  "at": "2026-10-17T14:50:38.548Z"
+}

@@ -1,0 +1,17 @@
+{
+  "task": "en-scene",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "text": "The fluorescent hum of the corridor died as Elena pushed open the chapel doors. It was 4:12 a.m., the hour when the hospital felt less like a medical facility and more like a waiting room for the inevitable. \n\nA man sat in the third pew from the back. He wasn't praying; he was leaning forward, elbows on knees, staring at the polished mahogany of the altar. He wore a charcoal coat that looked too heavy for October, and he smelled faintly of ozone and old paper.\n\nElena stopped a few feet away, her sneakers squeaking on the marble. \"We’re closing the wing for cleaning in twenty minutes,\" she said, her voice sounding thin in the vaulted space.\n\nThe man didn't look up, but he spoke. \"You’re late with the rounds, Elena.\"\n\nShe froze. The badge clipped to her scrubs was turned inward, the plastic backing facing out. She had never seen this man in the wards, and he didn't have a visitor's pass. He didn't sound threatening; he sounded tired, as if her name were a word he had been rehearsing for a long time.\n\nHe finally turned his head. His eyes were a flat, washed-out grey. He didn't explain how he knew her or why he was there. Instead, he reached into his pocket and placed a small, smooth river stone on the pew beside him.\n\nHe stood and walked past her without a second glance, leaving the stone to catch the dim, amber light of the sanctuary lamp.",
+  "usage": {
+    "in": 70,
+    "out": 323,
+    "thinking": 0
+  },
+  "costUsd": 0.0001432,
+  "finish": "stop",
+  "reportedModel": "google/gemma-4-31b-it",
+  "latencyMs": 59075,
+  "meta": [],
+  "at": "2026-10-17T15:00:12.472Z"
+}

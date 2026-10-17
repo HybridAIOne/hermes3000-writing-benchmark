@@ -1,0 +1,111 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "gemma-4-31b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "Entwicklung von einzelnen fördern (Rechtschreibfehler: 'Einzelnen' muss als Substantivierung großgeschrieben werden)",
+          "zeigst statt Status zu spielen (Zeichensetzung: Komma vor 'statt' fehlt zur Abgrenzung der Infinitivgruppe)",
+          "Es geht darum, wie du (Stil: neunmal exakt derselbe, uninspirierte Satzanfang)",
+          "Kapitel 5: Schwierige Gespräche führen [...] Konflikte direkt und konstruktiv ansprichst vs. Kapitel 7: Widerstände und Konflikte im Team (Vorgabenverstoß: deutliche thematische Überschneidung)",
+          "Die eigene Haltung halten (Stil: ungeschickte Wortwiederholung im Titel)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "vom Kritikgespräch über die Gehaltsabsage bis zur Trennung (Inhalt/Zielgruppe: Wer 'ohne Titel' führt, hat meist keine disziplinarische Macht über Gehälter und Kündigungen; das verfehlt die spezifische Buchprämisse)",
+          "6. Feedback, das ankommt vs. 7. Schwierige Gespräche führen — Vom Kritikgespräch (Leichte Überschneidung: Korrigierendes Feedback und Kritikgespräch liegen sehr nah beieinander)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Kapitel 6: Keine Macht, aber Wirkung – Wie du führst, obwohl du niemanden abmahnen kannst (Dramaturgie/Aufbau: Dieses absolute Grundlagen-Thema des Buches kommt viel zu spät, erst nachdem bereits delegiert und kritisiert wurde)",
+          "Kapitel 2: [...] dass die Arbeit verlässlich gemacht wird vs. Kapitel 3: [...] dass jeder genau weiß, was bis wann zu tun ist (Vorgabenverstoß: Überschneidung bei der Aufgabenverteilung und -kontrolle)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Du wägest ab (Grammatik/Idiomatik: Indikativ Präsens lautet 'du wägst ab', 'wägest' ist Konjunktiv I oder veraltet)",
+          "3. Lerne dein Team kennen (Inhalt/Zielgruppe: Wer in die Rolle 'gerutscht' ist, kommt meist aus dem eigenen Team und kennt die Kollegen bereits)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "Dein neues Betriebssystem (Vorgabenverstoß: klassisches Coaching-Buzzword)",
+          "Mikromanagement (Vorgabenverstoß: Management-Buzzword)",
+          "Kapitel 1: Der Moment, in dem es passierte [...] vs. Kapitel 3: Die ersten 100 Tage: Vertrauen aufbauen und Orientierung geben (Aufbau/Überschneidung: unlogische Trennung der Startphase durch ein allgemeines Kapitel 2)",
+          "Kapitel 4: Aufgaben verteilen statt selbst machen vs. Kapitel 8: Zeitdiebe bändigen und Prioritäten setzen (Überschneidung: Selbstmanagement und Delegation greifen hier ineinander, zudem kommt Kapitel 8 im Aufbau zu spät)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "C",
+      "E",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 3416,
+    "out": 1005,
+    "thinking": 0
+  },
+  "costUsd": 0.016882
+}

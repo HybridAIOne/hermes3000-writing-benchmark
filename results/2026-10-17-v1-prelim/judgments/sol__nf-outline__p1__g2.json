@@ -1,0 +1,99 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gemma-4-31b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Schwierige Gespräche führen“ und „Widerstände und Konflikte im Team“ sind nicht trennscharf: Kapitel 5 behandelt ausdrücklich bereits „Konflikte“, Kapitel 7 erneut „Spannungen“ und „Blockaden“. Die geforderte Überschneidungsfreiheit fehlt hier.",
+          "„ohne formale Macht“ setzt fehlende Führungsbefugnisse voraus. Vorgegeben ist jedoch fehlende formale Führungsausbildung; das ist nicht dasselbe. Dadurch wird die Zielgruppe unnötig verengt.",
+          "„Entwicklung von einzelnen fördern“: Das substantivierte „Einzelnen“ muss großgeschrieben werden.",
+          "„Es geht darum, wie du“ eröffnet sämtliche Kapitelbeschreibungen. Die neunfache Wiederholung wirkt schematisch und belastet den Text mit entbehrlicher Einleitung.",
+          "„Die eigene Haltung halten“ ist eine gezwungene Formulierung und passt nur bedingt zur Beschreibung: Dort soll die Haltung erst entwickelt werden."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Angekommen in der Rolle“ und „Was sich jetzt wirklich ändert“ behandeln beide die Klärung der neuen Rolle und die Abgrenzung zur bisherigen Fachrolle. Für zwei aufeinander aufbauende Kapitel fehlen deutlich unterschiedliche Arbeitsziele.",
+          "„Aufgaben, Prioritäten und Verantwortlichkeiten“ in Kapitel 4 überschneidet sich mit „Abstimmung, Prioritäten“ in Kapitel 7. Erwartungsklärung und laufende Arbeitsorganisation müssten deutlicher getrennt werden.",
+          "„Mit deinem Chef und anderen Schnittstellen klar bleiben“ bezeichnet Personen beziehungsweise Ansprechpartner als „Schnittstellen“. Das ist abstrakter Organisationsjargon statt der verlangten alltagsnahen Sprache.",
+          "„Wenn du möchtest, kann ich dir daraus auch direkt ein Inhaltsverzeichnis mit Unterkapiteln oder eine ausführliche Buchstruktur mit Nutzenversprechen pro Kapitel machen.“ Dieser Nachsatz gehört nicht zur Gliederung und müsste für eine Buchvorlage entfallen.",
+          "„Worum es geht:“ wird jedem Kapitelsatz vorangestellt, obwohl dessen Funktion bereits eindeutig ist. Die wiederholte Formel kann vollständig gestrichen werden."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„nicht mehr alles über deinen Tisch laufen muss“ nimmt in Kapitel 3 bereits das Delegieren aus Kapitel 4 vorweg. Die Grenze zwischen Zuständigkeiten klären und Verantwortung übertragen könnte noch schärfer gezogen werden.",
+          "„Abgeben, ohne loszulassen“ ist als Titel missverständlich: Gemeint ist angemessene Begleitung, die Formulierung kann aber auch nach fortgesetztem Festhalten an Aufgaben klingen.",
+          "„Zum Aufbau: Die Kapitel 1 bis 2 decken den Einstieg ab“ eröffnet eine zusätzliche Erläuterung, die überwiegend die bereits erkennbare Gliederung nacherzählt. Für die fertige Vorlage ist dieser Anhang entbehrlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Dein neues Betriebssystem“, „Mikromanagement“ und „entwickelst eine Authentizität“ widersprechen der gewünschten schlichten, buzzwordfreien Sprache. Besonders die letzte Wendung bleibt abstrakt und klingt werblich.",
+          "„Der Moment, in dem es passierte“, „Was Führung wirklich bedeutet“ und „Die ersten 100 Tage“ verteilen Rollenwechsel und Einstiegsorientierung auf drei Kapitel, ohne deren Gegenstände ausreichend voneinander abzugrenzen.",
+          "„Die Kunst des Feedbacks: Entwickeln statt Kritisieren“ und „Wenn es kracht: Schwierige Gespräche führen“ überschneiden sich bei kritischer Rückmeldung zu Leistung und Verhalten. Eine klare Grenze zwischen alltäglicher Rückmeldung und belasteten Gesprächen fehlt.",
+          "„wie du deine Meinung so formulierst, dass die Leute wirklich besser werden und nicht nur beleidigt sind“ verkürzt hilfreiche Rückmeldung auf Meinungsäußerung und stellt die Reaktion der Mitarbeitenden unnötig abwertend dar.",
+          "„Vom Verwalter zum Vorbild“ und „Menschen dir folgen – nicht wegen deines Titels, sondern wegen deiner Person“ setzen auf pauschale Gegensätze und ein personenbezogenes Führungsideal, statt die angekündigte eigene Haltung konkret zu erschließen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2563,
+    "out": 1577,
+    "thinking": 451
+  },
+  "costUsd": 0.020896
+}

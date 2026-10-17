@@ -1,0 +1,17 @@
+{
+  "task": "ed-feedback",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "1. **„Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.“** – Die zeitliche Abfolge ist widersprüchlich, da die Rampe zum Einsteigen bereits heruntergelassen sein musste.\n\n2. **„Ilse stellt den Motor an und wartete“** – „Stellt“ steht entgegen dem Erzähltempus im Präsens und muss „stellte“ heißen.\n\n3. **„die drei Fahrgäste“ / „Die Frau mit dem Fahrrad“ / „Der Mann im grauen Mantel“ / „Der Junge mit den Kopfhörern“ / „die alte Frau Lüders“** – Die Aufzählung legt vier statt drei Fahrgäste nahe; falls Frau Lüders die Frau mit dem Fahrrad ist, fehlt eine eindeutige Zuordnung.",
+  "usage": {
+    "in": 294,
+    "out": 600,
+    "thinking": 419
+  },
+  "costUsd": 0.006588,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "latencyMs": 16580,
+  "meta": [],
+  "at": "2026-10-17T14:50:02.245Z"
+}

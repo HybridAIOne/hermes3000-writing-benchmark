@@ -1,0 +1,19 @@
+{
+  "task": "nf-outline",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "# Führen ohne Titel\n\n**1. Der Tag, an dem sich alles verschob**\nDu erfährst, was sich im Umgang mit früheren Kollegen ändert, wenn du plötzlich für deren Ergebnisse verantwortlich bist.\n\n**2. Was von dir erwartet wird**\nDu klärst, welche Ziele dein Chef wirklich meint, wo deine Entscheidungsbefugnis endet und welche Aufgaben du getrost liegen lassen kannst.\n\n**3. Das Team, wie es wirklich ist**\nDu machst dir ein ehrliches Bild von Stärken, Reibungspunkten und informellen Machtverhältnissen, bevor du Veränderungen anstößt.\n\n**4. Verlässlichkeit als Fundament**\nDu lernst, wie du mit Zusagen, Transparenz und gleichbleibendem Verhalten Vertrauen aufbaust, auch wenn du noch nicht alle Antworten hast.\n\n**5. Aufgaben abgeben, ohne die Kontrolle zu verlieren**\nDu findest heraus, welche Arbeit zu wem gehört, wie du delegierst und wie viel Nachfassen sinnvoll ist, ohne zum Kontrollfreak zu werden.\n\n**6. Regeln, Standards und Grenzen**\nDu legst fest, welche Spielregeln im Team gelten, und lernst, wie du mit Regelbrüchen umgehst, ohne jedes Mal ein Drama zu veranstalten.\n\n**7. Das schwierige Gespräch**\nDu bereitest dich auf Gespräche über Leistungsprobleme, Fehlverhalten und Konflikte vor, führst sie klar und fair und sorgst dafür, dass danach etwas passiert.\n\n**8. Anerkennung und Feedback im Alltag**\nDu erfährst, wie du regelmäßig und konkret Rückmeldung gibst, Leistung würdigst und so verhinderst, dass Probleme erst im Jahresgespräch auftauchen.\n\n**9. Führen nach oben und zur Seite**\nDu lernst, Ressourcen zu verhandeln, Entscheidungen der Geschäftsführung zu vertreten, ohne dein Team zu verraten, und mit anderen Abteilungen klarzukommen.\n\n**10. Deine eigene Haltung**\nDu klärst, welche Führungskraft du sein willst, wie du mit Zweifeln und Fehlern umgehst und wo du dir selbst Unterstützung holst.",
+  "usage": {
+    "in": 242,
+    "out": 2020,
+    "thinking": 1142
+  },
+  "costUsd": 0.0010342,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "latencyMs": 9858,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T14:52:15.814Z"
+}

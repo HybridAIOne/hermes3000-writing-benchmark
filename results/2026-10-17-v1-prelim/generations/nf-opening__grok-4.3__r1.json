@@ -1,0 +1,17 @@
+{
+  "task": "nf-opening",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "Du kommst gerade aus der Werkstatt zurück, als dir auffällt, dass auf deinem Schreibtisch eine Nachricht liegt. Der Kunde aus Stuttgart hat noch mal angerufen. Die Teile sind immer noch nicht da, und er droht jetzt mit Stornierung. Du weißt genau, wer dafür zuständig ist: Markus. Er sitzt zwei Tische weiter, tippt konzentriert und scheint den Ärger noch nicht mitbekommen zu haben. Du hast ihn letzte Woche schon mal darauf angesprochen, dass er bei Lieferterminen genauer nachhaken muss. Damals hat er genickt und gesagt, er kümmert sich. Jetzt sitzt du da mit dem Zettel in der Hand und merkst, wie schwer es wird, noch einmal das Thema anzusprechen. Du willst nicht den Oberlehrer spielen, aber du kannst den Kunden auch nicht hängen lassen. Gleichzeitig fragst du dich, ob Markus vielleicht andere Gründe hat – vielleicht fehlen ihm Infos oder er ist überlastet. Der Gang zum Kaffeeautomaten dauert plötzlich länger als sonst. Du überlegst, ob du ihn einfach nach dem Feierabend kurz ansprechen sollst oder lieber gleich jetzt. Draußen regnet es, drinnen ist es still. Nur das Klackern der Tastaturen ist zu hören. Du stehst auf, gehst zu ihm rüber und bleibst neben seinem Schreibtisch stehen. Markus schaut hoch. Jetzt musst du etwas sagen.",
+  "usage": {
+    "in": 351,
+    "out": 1060,
+    "thinking": 756
+  },
+  "costUsd": 0.00308875,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "latencyMs": 15305,
+  "meta": [],
+  "at": "2026-10-17T15:09:30.826Z"
+}

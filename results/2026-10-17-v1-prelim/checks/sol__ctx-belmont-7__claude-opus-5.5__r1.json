@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-7",
+  "model": "claude-opus-5.5",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 1839,
+    "out": 55,
+    "thinking": 33
+  },
+  "costUsd": 0.004228
+}

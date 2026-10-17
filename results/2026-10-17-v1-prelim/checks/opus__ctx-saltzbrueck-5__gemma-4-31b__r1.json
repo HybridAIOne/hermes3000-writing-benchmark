@@ -1,0 +1,16 @@
+{
+  "task": "ctx-saltzbrueck-5",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 3894,
+    "out": 332,
+    "thinking": 315
+  },
+  "costUsd": 0.022216
+}

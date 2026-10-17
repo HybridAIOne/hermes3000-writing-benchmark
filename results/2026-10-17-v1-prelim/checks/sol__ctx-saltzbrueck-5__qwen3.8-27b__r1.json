@@ -1,0 +1,16 @@
+{
+  "task": "ctx-saltzbrueck-5",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 1802,
+    "out": 51,
+    "thinking": 29
+  },
+  "costUsd": 0.004114
+}

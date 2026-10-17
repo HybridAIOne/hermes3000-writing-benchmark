@@ -1,0 +1,1665 @@
+{
+  "runId": "2026-10-17-v1-prelim",
+  "manifest": {
+    "benchmark": "hermes3000-writing-benchmark/v1",
+    "fingerprint": "120df69b42478182",
+    "privateTasks": null,
+    "stage": "prelim",
+    "runs": 1,
+    "passes": 1,
+    "models": [
+      "gpt-6-luna",
+      "gpt-6.1-sol",
+      "gpt-5.4-mini",
+      "claude-haiku-5.5",
+      "claude-sonnet-5.5",
+      "claude-opus-5.5",
+      "gemini-3.8-flash-low",
+      "gemini-4-argon",
+      "grok-4.3",
+      "kimi-k3",
+      "glm-5.3",
+      "deepseek-v4.1-flash",
+      "qwen3.8-27b",
+      "gemma-4-31b"
+    ],
+    "judges": [
+      "opus",
+      "sol",
+      "gemini"
+    ],
+    "started": "2026-10-17T14:48:22.127Z",
+    "node": "v22.22.2",
+    "commit": "b3a264c"
+  },
+  "tracks": {
+    "literary": {
+      "all": {
+        "gpt-6-luna": {
+          "rating": 1089,
+          "lo": 1017,
+          "hi": 1187
+        },
+        "gpt-6.1-sol": {
+          "rating": 1535,
+          "lo": 1368,
+          "hi": 1845
+        },
+        "gpt-5.4-mini": {
+          "rating": 693,
+          "lo": 468,
+          "hi": 825
+        },
+        "claude-haiku-5.5": {
+          "rating": 1000,
+          "lo": 875,
+          "hi": 1133
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1386,
+          "lo": 1230,
+          "hi": 1605
+        },
+        "claude-opus-5.5": {
+          "rating": 1608,
+          "lo": 1518,
+          "hi": 1749
+        },
+        "gemini-3.8-flash-low": {
+          "rating": 889,
+          "lo": 678,
+          "hi": 1071
+        },
+        "gemini-4-argon": {
+          "rating": 1096,
+          "lo": 940,
+          "hi": 1294
+        },
+        "grok-4.3": {
+          "rating": 578,
+          "lo": 332,
+          "hi": 671
+        },
+        "kimi-k3": {
+          "rating": 1219,
+          "lo": 1077,
+          "hi": 1430
+        },
+        "glm-5.3": {
+          "rating": 902,
+          "lo": 655,
+          "hi": 1177
+        },
+        "deepseek-v4.1-flash": {
+          "rating": 1056,
+          "lo": 897,
+          "hi": 1272
+        },
+        "qwen3.8-27b": {
+          "rating": 142,
+          "lo": -59,
+          "hi": 316
+        },
+        "gemma-4-31b": {
+          "rating": 806,
+          "lo": 458,
+          "hi": 994
+        }
+      },
+      "noOwnFamily": {
+        "gpt-6-luna": {
+          "rating": 993,
+          "lo": 841,
+          "hi": 1154
+        },
+        "gpt-6.1-sol": {
+          "rating": 1467,
+          "lo": 1296,
+          "hi": 1795
+        },
+        "gpt-5.4-mini": {
+          "rating": 616,
+          "lo": 301,
+          "hi": 787
+        },
+        "claude-haiku-5.5": {
+          "rating": 1129,
+          "lo": 989,
+          "hi": 1301
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1339,
+          "lo": 1188,
+          "hi": 1573
+        },
+        "claude-opus-5.5": {
+          "rating": 1679,
+          "lo": 1494,
+          "hi": 1772
+        },
+        "gemini-3.8-flash-low": {
+          "rating": 805,
+          "lo": 567,
+          "hi": 993
+        },
+        "gemini-4-argon": {
+          "rating": 1192,
+          "lo": 996,
+          "hi": 1426
+        },
+        "grok-4.3": {
+          "rating": 644,
+          "lo": 402,
+          "hi": 737
+        },
+        "kimi-k3": {
+          "rating": 1203,
+          "lo": 1089,
+          "hi": 1407
+        },
+        "glm-5.3": {
+          "rating": 916,
+          "lo": 631,
+          "hi": 1315
+        },
+        "deepseek-v4.1-flash": {
+          "rating": 1093,
+          "lo": 930,
+          "hi": 1354
+        },
+        "qwen3.8-27b": {
+          "rating": 171,
+          "lo": -49,
+          "hi": 408
+        },
+        "gemma-4-31b": {
+          "rating": 753,
+          "lo": 430,
+          "hi": 1018
+        }
+      },
+      "rubric": {
+        "sprache": {
+          "claude-haiku-5.5": 8.25,
+          "grok-4.3": 8,
+          "claude-opus-5.5": 9.333333333333334,
+          "kimi-k3": 8.833333333333334,
+          "gemini-3.8-flash-low": 8.75,
+          "gpt-6-luna": 8.666666666666666,
+          "claude-sonnet-5.5": 8.833333333333334,
+          "gpt-5.4-mini": 7.833333333333333,
+          "gpt-6.1-sol": 9,
+          "deepseek-v4.1-flash": 8.416666666666666,
+          "gemma-4-31b": 7.333333333333333,
+          "gemini-4-argon": 8.916666666666666,
+          "qwen3.8-27b": 5,
+          "glm-5.3": 8.444444444444445
+        },
+        "stil": {
+          "claude-haiku-5.5": 7.083333333333333,
+          "grok-4.3": 4.666666666666667,
+          "claude-opus-5.5": 8.5,
+          "kimi-k3": 7.75,
+          "gemini-3.8-flash-low": 6.083333333333333,
+          "gpt-6-luna": 7,
+          "claude-sonnet-5.5": 8.333333333333334,
+          "gpt-5.4-mini": 4.916666666666667,
+          "gpt-6.1-sol": 8.5,
+          "deepseek-v4.1-flash": 6.75,
+          "gemma-4-31b": 4.666666666666667,
+          "gemini-4-argon": 7,
+          "qwen3.8-27b": 3.4444444444444446,
+          "glm-5.3": 7.111111111111111
+        },
+        "aufgabe": {
+          "claude-haiku-5.5": 6.666666666666667,
+          "grok-4.3": 4.583333333333333,
+          "claude-opus-5.5": 8.916666666666666,
+          "kimi-k3": 7.166666666666667,
+          "gemini-3.8-flash-low": 6.583333333333333,
+          "gpt-6-luna": 6.583333333333333,
+          "claude-sonnet-5.5": 8.583333333333334,
+          "gpt-5.4-mini": 5.333333333333333,
+          "gpt-6.1-sol": 8.666666666666666,
+          "deepseek-v4.1-flash": 7,
+          "gemma-4-31b": 6.166666666666667,
+          "gemini-4-argon": 7.75,
+          "qwen3.8-27b": 4.777777777777778,
+          "glm-5.3": 6.111111111111111
+        }
+      }
+    },
+    "nonfiction": {
+      "all": {
+        "gpt-6-luna": {
+          "rating": 1123,
+          "lo": 982,
+          "hi": 1293
+        },
+        "gpt-6.1-sol": {
+          "rating": 1150,
+          "lo": 977,
+          "hi": 1421
+        },
+        "gpt-5.4-mini": {
+          "rating": 1106,
+          "lo": 933,
+          "hi": 1291
+        },
+        "claude-haiku-5.5": {
+          "rating": 984,
+          "lo": 716,
+          "hi": 1165
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1209,
+          "lo": 1031,
+          "hi": 1541
+        },
+        "claude-opus-5.5": {
+          "rating": 1207,
+          "lo": 1056,
+          "hi": 1443
+        },
+        "gemini-3.8-flash-low": {
+          "rating": 883,
+          "lo": 571,
+          "hi": 1109
+        },
+        "gemini-4-argon": {
+          "rating": 1038,
+          "lo": 815,
+          "hi": 1246
+        },
+        "grok-4.3": {
+          "rating": 704,
+          "lo": 460,
+          "hi": 851
+        },
+        "kimi-k3": {
+          "rating": 1087,
+          "lo": 949,
+          "hi": 1238
+        },
+        "glm-5.3": {
+          "rating": 1145,
+          "lo": 996,
+          "hi": 1397
+        },
+        "deepseek-v4.1-flash": {
+          "rating": 1076,
+          "lo": 870,
+          "hi": 1294
+        },
+        "qwen3.8-27b": {
+          "rating": 608,
+          "lo": 194,
+          "hi": 804
+        },
+        "gemma-4-31b": {
+          "rating": 680,
+          "lo": 492,
+          "hi": 765
+        }
+      },
+      "noOwnFamily": {
+        "gpt-6-luna": {
+          "rating": 1010,
+          "lo": 830,
+          "hi": 1181
+        },
+        "gpt-6.1-sol": {
+          "rating": 1133,
+          "lo": 889,
+          "hi": 1596
+        },
+        "gpt-5.4-mini": {
+          "rating": 1061,
+          "lo": 802,
+          "hi": 1329
+        },
+        "claude-haiku-5.5": {
+          "rating": 941,
+          "lo": 556,
+          "hi": 1279
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1266,
+          "lo": 1037,
+          "hi": 1628
+        },
+        "claude-opus-5.5": {
+          "rating": 1152,
+          "lo": 893,
+          "hi": 1491
+        },
+        "gemini-3.8-flash-low": {
+          "rating": 918,
+          "lo": 512,
+          "hi": 1217
+        },
+        "gemini-4-argon": {
+          "rating": 965,
+          "lo": 619,
+          "hi": 1276
+        },
+        "grok-4.3": {
+          "rating": 821,
+          "lo": 620,
+          "hi": 952
+        },
+        "kimi-k3": {
+          "rating": 1224,
+          "lo": 1099,
+          "hi": 1442
+        },
+        "glm-5.3": {
+          "rating": 1162,
+          "lo": 1018,
+          "hi": 1419
+        },
+        "deepseek-v4.1-flash": {
+          "rating": 1183,
+          "lo": 943,
+          "hi": 1570
+        },
+        "qwen3.8-27b": {
+          "rating": 566,
+          "lo": 128,
+          "hi": 854
+        },
+        "gemma-4-31b": {
+          "rating": 597,
+          "lo": 313,
+          "hi": 748
+        }
+      },
+      "rubric": {
+        "sprache": {
+          "gemini-3.8-flash-low": 8.777777777777779,
+          "deepseek-v4.1-flash": 8.777777777777779,
+          "glm-5.3": 8.333333333333334,
+          "gpt-6-luna": 8.88888888888889,
+          "claude-opus-5.5": 9.555555555555555,
+          "gpt-6.1-sol": 9.222222222222221,
+          "claude-sonnet-5.5": 9.444444444444445,
+          "kimi-k3": 9,
+          "gemini-4-argon": 9.222222222222221,
+          "gpt-5.4-mini": 9,
+          "gemma-4-31b": 8.555555555555555,
+          "grok-4.3": 8.222222222222221,
+          "claude-haiku-5.5": 8.88888888888889,
+          "qwen3.8-27b": 6
+        },
+        "stil": {
+          "gemini-3.8-flash-low": 6.444444444444445,
+          "deepseek-v4.1-flash": 7,
+          "glm-5.3": 8,
+          "gpt-6-luna": 7.555555555555555,
+          "claude-opus-5.5": 8.555555555555555,
+          "gpt-6.1-sol": 8,
+          "claude-sonnet-5.5": 8.777777777777779,
+          "kimi-k3": 8.222222222222221,
+          "gemini-4-argon": 7.222222222222222,
+          "gpt-5.4-mini": 7.111111111111111,
+          "gemma-4-31b": 6.111111111111111,
+          "grok-4.3": 5.666666666666667,
+          "claude-haiku-5.5": 7.222222222222222,
+          "qwen3.8-27b": 5.5
+        },
+        "aufgabe": {
+          "gemini-3.8-flash-low": 7.111111111111111,
+          "deepseek-v4.1-flash": 7.444444444444445,
+          "glm-5.3": 8.11111111111111,
+          "gpt-6-luna": 8.11111111111111,
+          "claude-opus-5.5": 8.222222222222221,
+          "gpt-6.1-sol": 8.777777777777779,
+          "claude-sonnet-5.5": 8.333333333333334,
+          "kimi-k3": 7.111111111111111,
+          "gemini-4-argon": 7.888888888888889,
+          "gpt-5.4-mini": 8.11111111111111,
+          "gemma-4-31b": 6.333333333333333,
+          "grok-4.3": 6.444444444444445,
+          "claude-haiku-5.5": 6.888888888888889,
+          "qwen3.8-27b": 7.333333333333333
+        }
+      }
+    },
+    "english": {
+      "all": {
+        "gpt-6-luna": {
+          "rating": 808,
+          "lo": 559,
+          "hi": 1001
+        },
+        "gpt-6.1-sol": {
+          "rating": 1459,
+          "lo": 1002,
+          "hi": 1660
+        },
+        "gpt-5.4-mini": {
+          "rating": 708,
+          "lo": 492,
+          "hi": 912
+        },
+        "claude-haiku-5.5": {
+          "rating": 1042,
+          "lo": 786,
+          "hi": 1252
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1637,
+          "lo": 1142,
+          "hi": 1778
+        },
+        "claude-opus-5.5": {
+          "rating": 1172,
+          "lo": 1001,
+          "hi": 1313
+        },
+        "gemini-3.8-flash-low": {
+          "rating": 1008,
+          "lo": 576,
+          "hi": 1301
+        },
+        "gemini-4-argon": {
+          "rating": 1048,
+          "lo": 785,
+          "hi": 1582
+        },
+        "grok-4.3": {
+          "rating": 953,
+          "lo": 653,
+          "hi": 1168
+        },
+        "kimi-k3": {
+          "rating": 1314,
+          "lo": 1002,
+          "hi": 1617
+        },
+        "glm-5.3": {
+          "rating": 1106,
+          "lo": 903,
+          "hi": 1369
+        },
+        "deepseek-v4.1-flash": {
+          "rating": 918,
+          "lo": 562,
+          "hi": 1158
+        },
+        "qwen3.8-27b": {
+          "rating": 413,
+          "lo": 228,
+          "hi": 771
+        },
+        "gemma-4-31b": {
+          "rating": 416,
+          "lo": 157,
+          "hi": 1000
+        }
+      },
+      "noOwnFamily": {
+        "gpt-6-luna": {
+          "rating": 755,
+          "lo": 626,
+          "hi": 1001
+        },
+        "gpt-6.1-sol": {
+          "rating": 1372,
+          "lo": 1000,
+          "hi": 1553
+        },
+        "gpt-5.4-mini": {
+          "rating": 772,
+          "lo": 613,
+          "hi": 1001
+        },
+        "claude-haiku-5.5": {
+          "rating": 971,
+          "lo": 635,
+          "hi": 1219
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1597,
+          "lo": 1000,
+          "hi": 1725
+        },
+        "claude-opus-5.5": {
+          "rating": 1092,
+          "lo": 918,
+          "hi": 1294
+        },
+        "gemini-3.8-flash-low": {
+          "rating": 1237,
+          "lo": 1000,
+          "hi": 1351
+        },
+        "gemini-4-argon": {
+          "rating": 897,
+          "lo": 746,
+          "hi": 1020
+        },
+        "grok-4.3": {
+          "rating": 989,
+          "lo": 651,
+          "hi": 1236
+        },
+        "kimi-k3": {
+          "rating": 1430,
+          "lo": 1001,
+          "hi": 1620
+        },
+        "glm-5.3": {
+          "rating": 1121,
+          "lo": 981,
+          "hi": 1332
+        },
+        "deepseek-v4.1-flash": {
+          "rating": 827,
+          "lo": 546,
+          "hi": 1050
+        },
+        "qwen3.8-27b": {
+          "rating": 413,
+          "lo": 254,
+          "hi": 720
+        },
+        "gemma-4-31b": {
+          "rating": 527,
+          "lo": 372,
+          "hi": 1001
+        }
+      }
+    }
+  },
+  "perJudge": {
+    "literary": {
+      "opus": {
+        "gpt-6-luna": {
+          "rating": 1055,
+          "lo": 859,
+          "hi": 1302
+        },
+        "gpt-6.1-sol": {
+          "rating": 1216,
+          "lo": 1075,
+          "hi": 1478
+        },
+        "gpt-5.4-mini": {
+          "rating": 697,
+          "lo": 301,
+          "hi": 1010
+        },
+        "claude-haiku-5.5": {
+          "rating": 927,
+          "lo": 712,
+          "hi": 1117
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1322,
+          "lo": 1037,
+          "hi": 1613
+        },
+        "claude-opus-5.5": {
+          "rating": 1666,
+          "lo": 1463,
+          "hi": 1870
+        },
+        "gemini-3.8-flash-low": {
+          "rating": 868,
+          "lo": 458,
+          "hi": 1146
+        },
+        "gemini-4-argon": {
+          "rating": 1177,
+          "lo": 946,
+          "hi": 1516
+        },
+        "grok-4.3": {
+          "rating": 706,
+          "lo": 413,
+          "hi": 906
+        },
+        "kimi-k3": {
+          "rating": 1161,
+          "lo": 918,
+          "hi": 1476
+        },
+        "glm-5.3": {
+          "rating": 846,
+          "lo": 328,
+          "hi": 1508
+        },
+        "deepseek-v4.1-flash": {
+          "rating": 1160,
+          "lo": 791,
+          "hi": 1531
+        },
+        "qwen3.8-27b": {
+          "rating": 296,
+          "lo": 34,
+          "hi": 729
+        },
+        "gemma-4-31b": {
+          "rating": 902,
+          "lo": 505,
+          "hi": 1282
+        }
+      },
+      "sol": {
+        "gpt-6-luna": {
+          "rating": 1158,
+          "lo": 1007,
+          "hi": 1300
+        },
+        "gpt-6.1-sol": {
+          "rating": 1840,
+          "lo": 1541,
+          "hi": 1911
+        },
+        "gpt-5.4-mini": {
+          "rating": 822,
+          "lo": 667,
+          "hi": 962
+        },
+        "claude-haiku-5.5": {
+          "rating": 1056,
+          "lo": 862,
+          "hi": 1324
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1342,
+          "lo": 1015,
+          "hi": 1701
+        },
+        "claude-opus-5.5": {
+          "rating": 1526,
+          "lo": 1326,
+          "hi": 1617
+        },
+        "gemini-3.8-flash-low": {
+          "rating": 718,
+          "lo": 612,
+          "hi": 876
+        },
+        "gemini-4-argon": {
+          "rating": 1186,
+          "lo": 937,
+          "hi": 1429
+        },
+        "grok-4.3": {
+          "rating": 562,
+          "lo": 204,
+          "hi": 781
+        },
+        "kimi-k3": {
+          "rating": 1291,
+          "lo": 1112,
+          "hi": 1607
+        },
+        "glm-5.3": {
+          "rating": 638,
+          "lo": 280,
+          "hi": 1027
+        },
+        "deepseek-v4.1-flash": {
+          "rating": 1162,
+          "lo": 917,
+          "hi": 1409
+        },
+        "qwen3.8-27b": {
+          "rating": 193,
+          "lo": 14,
+          "hi": 664
+        },
+        "gemma-4-31b": {
+          "rating": 506,
+          "lo": 254,
+          "hi": 758
+        }
+      },
+      "gemini": {
+        "gpt-6-luna": {
+          "rating": 1006,
+          "lo": 878,
+          "hi": 1146
+        },
+        "gpt-6.1-sol": {
+          "rating": 1675,
+          "lo": 1414,
+          "hi": 1824
+        },
+        "gpt-5.4-mini": {
+          "rating": 687,
+          "lo": 153,
+          "hi": 972
+        },
+        "claude-haiku-5.5": {
+          "rating": 1154,
+          "lo": 921,
+          "hi": 1374
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1241,
+          "lo": 1065,
+          "hi": 1477
+        },
+        "claude-opus-5.5": {
+          "rating": 1608,
+          "lo": 1273,
+          "hi": 1739
+        },
+        "gemini-3.8-flash-low": {
+          "rating": 998,
+          "lo": 795,
+          "hi": 1214
+        },
+        "gemini-4-argon": {
+          "rating": 962,
+          "lo": 572,
+          "hi": 1444
+        },
+        "grok-4.3": {
+          "rating": 617,
+          "lo": 342,
+          "hi": 797
+        },
+        "kimi-k3": {
+          "rating": 1208,
+          "lo": 1020,
+          "hi": 1402
+        },
+        "glm-5.3": {
+          "rating": 739,
+          "lo": 264,
+          "hi": 1189
+        },
+        "deepseek-v4.1-flash": {
+          "rating": 868,
+          "lo": 658,
+          "hi": 1094
+        },
+        "qwen3.8-27b": {
+          "rating": 258,
+          "lo": 32,
+          "hi": 752
+        },
+        "gemma-4-31b": {
+          "rating": 979,
+          "lo": 617,
+          "hi": 1365
+        }
+      }
+    },
+    "nonfiction": {
+      "opus": {
+        "gpt-6-luna": {
+          "rating": 956,
+          "lo": 665,
+          "hi": 1164
+        },
+        "gpt-6.1-sol": {
+          "rating": 1056,
+          "lo": 837,
+          "hi": 1447
+        },
+        "gpt-5.4-mini": {
+          "rating": 1065,
+          "lo": 733,
+          "hi": 1495
+        },
+        "claude-haiku-5.5": {
+          "rating": 1024,
+          "lo": 822,
+          "hi": 1206
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1541,
+          "lo": 1057,
+          "hi": 1729
+        },
+        "claude-opus-5.5": {
+          "rating": 1274,
+          "lo": 1027,
+          "hi": 1488
+        },
+        "gemini-3.8-flash-low": {
+          "rating": 864,
+          "lo": 382,
+          "hi": 1429
+        },
+        "gemini-4-argon": {
+          "rating": 939,
+          "lo": 622,
+          "hi": 1209
+        },
+        "grok-4.3": {
+          "rating": 761,
+          "lo": 544,
+          "hi": 886
+        },
+        "kimi-k3": {
+          "rating": 1118,
+          "lo": 999,
+          "hi": 1345
+        },
+        "glm-5.3": {
+          "rating": 1143,
+          "lo": 890,
+          "hi": 1572
+        },
+        "deepseek-v4.1-flash": {
+          "rating": 975,
+          "lo": 475,
+          "hi": 1515
+        },
+        "qwen3.8-27b": {
+          "rating": 593,
+          "lo": 136,
+          "hi": 1011
+        },
+        "gemma-4-31b": {
+          "rating": 690,
+          "lo": 393,
+          "hi": 1000
+        }
+      },
+      "sol": {
+        "gpt-6-luna": {
+          "rating": 1425,
+          "lo": 1097,
+          "hi": 1704
+        },
+        "gpt-6.1-sol": {
+          "rating": 1438,
+          "lo": 1171,
+          "hi": 1679
+        },
+        "gpt-5.4-mini": {
+          "rating": 1370,
+          "lo": 1016,
+          "hi": 1717
+        },
+        "claude-haiku-5.5": {
+          "rating": 847,
+          "lo": 316,
+          "hi": 1205
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1046,
+          "lo": 703,
+          "hi": 1276
+        },
+        "claude-opus-5.5": {
+          "rating": 1263,
+          "lo": 717,
+          "hi": 1734
+        },
+        "gemini-3.8-flash-low": {
+          "rating": 854,
+          "lo": 571,
+          "hi": 1051
+        },
+        "gemini-4-argon": {
+          "rating": 838,
+          "lo": 414,
+          "hi": 1267
+        },
+        "grok-4.3": {
+          "rating": 883,
+          "lo": 643,
+          "hi": 1049
+        },
+        "kimi-k3": {
+          "rating": 984,
+          "lo": 860,
+          "hi": 1090
+        },
+        "glm-5.3": {
+          "rating": 952,
+          "lo": 687,
+          "hi": 1234
+        },
+        "deepseek-v4.1-flash": {
+          "rating": 1231,
+          "lo": 1001,
+          "hi": 1382
+        },
+        "qwen3.8-27b": {
+          "rating": 296,
+          "lo": 93,
+          "hi": 714
+        },
+        "gemma-4-31b": {
+          "rating": 572,
+          "lo": 314,
+          "hi": 828
+        }
+      },
+      "gemini": {
+        "gpt-6-luna": {
+          "rating": 1089,
+          "lo": 910,
+          "hi": 1327
+        },
+        "gpt-6.1-sol": {
+          "rating": 1038,
+          "lo": 674,
+          "hi": 1588
+        },
+        "gpt-5.4-mini": {
+          "rating": 990,
+          "lo": 694,
+          "hi": 1189
+        },
+        "claude-haiku-5.5": {
+          "rating": 1011,
+          "lo": 703,
+          "hi": 1296
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1222,
+          "lo": 892,
+          "hi": 1742
+        },
+        "claude-opus-5.5": {
+          "rating": 1168,
+          "lo": 849,
+          "hi": 1569
+        },
+        "gemini-3.8-flash-low": {
+          "rating": 904,
+          "lo": 322,
+          "hi": 1235
+        },
+        "gemini-4-argon": {
+          "rating": 1295,
+          "lo": 938,
+          "hi": 1710
+        },
+        "grok-4.3": {
+          "rating": 559,
+          "lo": 200,
+          "hi": 788
+        },
+        "kimi-k3": {
+          "rating": 1171,
+          "lo": 641,
+          "hi": 1533
+        },
+        "glm-5.3": {
+          "rating": 1190,
+          "lo": 993,
+          "hi": 1566
+        },
+        "deepseek-v4.1-flash": {
+          "rating": 1038,
+          "lo": 592,
+          "hi": 1407
+        },
+        "qwen3.8-27b": {
+          "rating": 521,
+          "lo": 107,
+          "hi": 983
+        },
+        "gemma-4-31b": {
+          "rating": 804,
+          "lo": 593,
+          "hi": 962
+        }
+      }
+    }
+  },
+  "editing": {
+    "gpt-6-luna": {
+      "feedback": {
+        "score": 0.2833333333333333,
+        "found": 2,
+        "of": 6,
+        "falseAlarms": 1
+      },
+      "proofread": {
+        "score": 0.9740458015267175,
+        "recall": 0.95,
+        "protect": 1,
+        "missed": [
+          "zeitenfolge"
+        ]
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 143,
+        "invented": []
+      },
+      "score": 0.752459711620017
+    },
+    "gpt-6.1-sol": {
+      "feedback": {
+        "score": 0.5,
+        "found": 3,
+        "of": 6,
+        "falseAlarms": 0
+      },
+      "proofread": {
+        "score": 0.9740458015267175,
+        "recall": 1,
+        "protect": 0.9,
+        "missed": []
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 139,
+        "invented": []
+      },
+      "score": 0.8246819338422391
+    },
+    "gpt-5.4-mini": {
+      "feedback": {
+        "score": 0.5,
+        "found": 3,
+        "of": 6,
+        "falseAlarms": 0
+      },
+      "proofread": {
+        "score": 0.9990458015267176,
+        "recall": 1,
+        "protect": 1,
+        "missed": []
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 146,
+        "invented": []
+      },
+      "score": 0.8330152671755725
+    },
+    "claude-haiku-5.5": {
+      "feedback": {
+        "score": 0.45,
+        "found": 3,
+        "of": 6,
+        "falseAlarms": 1
+      },
+      "proofread": {
+        "score": 0.9740458015267175,
+        "recall": 0.95,
+        "protect": 1,
+        "missed": [
+          "zeitenfolge"
+        ]
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 136,
+        "invented": []
+      },
+      "score": 0.8080152671755725
+    },
+    "claude-sonnet-5.5": {
+      "feedback": {
+        "score": 0.7833333333333333,
+        "found": 5,
+        "of": 6,
+        "falseAlarms": 1
+      },
+      "proofread": {
+        "score": 0.9740458015267175,
+        "recall": 1,
+        "protect": 0.9,
+        "missed": []
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 136,
+        "invented": []
+      },
+      "score": 0.9191263782866836
+    },
+    "claude-opus-5.5": {
+      "feedback": {
+        "score": 0.6333333333333333,
+        "found": 5,
+        "of": 6,
+        "falseAlarms": 4
+      },
+      "proofread": {
+        "score": 0.9740458015267175,
+        "recall": 1,
+        "protect": 0.9,
+        "missed": []
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 141,
+        "invented": []
+      },
+      "score": 0.8691263782866837
+    },
+    "gemini-3.8-flash-low": {
+      "feedback": {
+        "score": 0.6166666666666666,
+        "found": 4,
+        "of": 6,
+        "falseAlarms": 1
+      },
+      "proofread": {
+        "score": 1,
+        "recall": 1,
+        "protect": 1,
+        "missed": []
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 121,
+        "invented": []
+      },
+      "score": 0.8722222222222222
+    },
+    "gemini-4-argon": {
+      "feedback": {
+        "score": 0.5666666666666667,
+        "found": 4,
+        "of": 6,
+        "falseAlarms": 2
+      },
+      "proofread": {
+        "score": 0.9740458015267175,
+        "recall": 1,
+        "protect": 0.9,
+        "missed": []
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 136,
+        "invented": []
+      },
+      "score": 0.8469041560644613
+    },
+    "grok-4.3": {
+      "feedback": {
+        "score": 0.2833333333333333,
+        "found": 2,
+        "of": 6,
+        "falseAlarms": 1
+      },
+      "proofread": {
+        "score": 1,
+        "recall": 1,
+        "protect": 1,
+        "missed": []
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 133,
+        "invented": []
+      },
+      "score": 0.7611111111111111
+    },
+    "kimi-k3": {
+      "feedback": {
+        "score": 0.9,
+        "found": 6,
+        "of": 6,
+        "falseAlarms": 2
+      },
+      "proofread": {
+        "score": 0.9480916030534351,
+        "recall": 0.9,
+        "protect": 1,
+        "missed": [
+          "kongruenz",
+          "zeitenfolge"
+        ]
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 147,
+        "invented": []
+      },
+      "score": 0.9493638676844783
+    },
+    "glm-5.3": {
+      "feedback": {
+        "score": 0.6166666666666666,
+        "found": 4,
+        "of": 6,
+        "falseAlarms": 1
+      },
+      "proofread": {
+        "score": 0.9471374045801526,
+        "recall": 0.9,
+        "protect": 1,
+        "missed": [
+          "kongruenz",
+          "als-einziger"
+        ]
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 141,
+        "invented": []
+      },
+      "score": 0.8546013570822731
+    },
+    "deepseek-v4.1-flash": {
+      "feedback": {
+        "score": 0.35,
+        "found": 3,
+        "of": 6,
+        "falseAlarms": 3
+      },
+      "proofread": {
+        "score": 1,
+        "recall": 1,
+        "protect": 1,
+        "missed": []
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 129,
+        "invented": []
+      },
+      "score": 0.7833333333333333
+    },
+    "qwen3.8-27b": {
+      "feedback": {
+        "score": 0,
+        "found": 0,
+        "of": 6,
+        "falseAlarms": 0
+      },
+      "proofread": {
+        "score": 0.9740458015267175,
+        "recall": 0.95,
+        "protect": 1,
+        "missed": [
+          "als-einziger"
+        ]
+      },
+      "tighten": {
+        "score": 0,
+        "coverage": 0,
+        "words": 0,
+        "invented": []
+      },
+      "score": 0.32468193384223915
+    },
+    "gemma-4-31b": {
+      "feedback": {
+        "score": 0.3333333333333333,
+        "found": 2,
+        "of": 6,
+        "falseAlarms": 0
+      },
+      "proofread": {
+        "score": 1,
+        "recall": 1,
+        "protect": 1,
+        "missed": []
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 117,
+        "invented": []
+      },
+      "score": 0.7777777777777778
+    }
+  },
+  "nonfiction": {
+    "gpt-6-luna": {
+      "factCoverage": 1,
+      "unsupportedMedian": 0,
+      "chapterViolations": 0
+    },
+    "gpt-6.1-sol": {
+      "factCoverage": 1,
+      "unsupportedMedian": 1,
+      "chapterViolations": 0
+    },
+    "gpt-5.4-mini": {
+      "factCoverage": 1,
+      "unsupportedMedian": 0,
+      "chapterViolations": 1
+    },
+    "claude-haiku-5.5": {
+      "factCoverage": 1,
+      "unsupportedMedian": 2,
+      "chapterViolations": 0
+    },
+    "claude-sonnet-5.5": {
+      "factCoverage": 1,
+      "unsupportedMedian": 3,
+      "chapterViolations": 0
+    },
+    "claude-opus-5.5": {
+      "factCoverage": 1,
+      "unsupportedMedian": 4,
+      "chapterViolations": 0
+    },
+    "gemini-3.8-flash-low": {
+      "factCoverage": 1,
+      "unsupportedMedian": 5,
+      "chapterViolations": 0
+    },
+    "gemini-4-argon": {
+      "factCoverage": 1,
+      "unsupportedMedian": 1,
+      "chapterViolations": 0
+    },
+    "grok-4.3": {
+      "factCoverage": 1,
+      "unsupportedMedian": 1,
+      "chapterViolations": 1
+    },
+    "kimi-k3": {
+      "factCoverage": 1,
+      "unsupportedMedian": 4,
+      "chapterViolations": 0
+    },
+    "glm-5.3": {
+      "factCoverage": 1,
+      "unsupportedMedian": 2,
+      "chapterViolations": null
+    },
+    "deepseek-v4.1-flash": {
+      "factCoverage": 1,
+      "unsupportedMedian": 1,
+      "chapterViolations": 0
+    },
+    "qwen3.8-27b": {
+      "factCoverage": 0,
+      "unsupportedMedian": null,
+      "chapterViolations": null
+    },
+    "gemma-4-31b": {
+      "factCoverage": 0.8333333333333334,
+      "unsupportedMedian": 4,
+      "chapterViolations": 0
+    }
+  },
+  "context": {
+    "gpt-6-luna": {
+      "score": 1,
+      "texts": 3,
+      "byDim": {},
+      "centsPerChapter": 0.19228333333333333
+    },
+    "gpt-6.1-sol": {
+      "score": 1,
+      "texts": 3,
+      "byDim": {},
+      "centsPerChapter": 3.0693333333333332
+    },
+    "gpt-5.4-mini": {
+      "score": 0.9523809523809524,
+      "texts": 3,
+      "byDim": {
+        "psyche": 1
+      },
+      "centsPerChapter": 1.56985
+    },
+    "claude-haiku-5.5": {
+      "score": 1,
+      "texts": 3,
+      "byDim": {},
+      "centsPerChapter": 0.3663833333333333
+    },
+    "claude-sonnet-5.5": {
+      "score": 1,
+      "texts": 3,
+      "byDim": {},
+      "centsPerChapter": 6.486666666666667
+    },
+    "claude-opus-5.5": {
+      "score": 1,
+      "texts": 3,
+      "byDim": {},
+      "centsPerChapter": 13.279333333333334
+    },
+    "gemini-3.8-flash-low": {
+      "score": 1,
+      "texts": 3,
+      "byDim": {},
+      "centsPerChapter": 1.1820593333333334
+    },
+    "gemini-4-argon": {
+      "score": 1,
+      "texts": 3,
+      "byDim": {},
+      "centsPerChapter": 3.3119333333333336
+    },
+    "grok-4.3": {
+      "score": 1,
+      "texts": 3,
+      "byDim": {},
+      "centsPerChapter": 1.4625000000000001
+    },
+    "kimi-k3": {
+      "score": 0.6666666666666666,
+      "texts": 3,
+      "byDim": {},
+      "centsPerChapter": 5.588163
+    },
+    "glm-5.3": {
+      "score": 1,
+      "texts": 3,
+      "byDim": {},
+      "centsPerChapter": 4.490642666666667
+    },
+    "deepseek-v4.1-flash": {
+      "score": 0.9047619047619048,
+      "texts": 3,
+      "byDim": {
+        "confusion": 1,
+        "consistency": 1
+      },
+      "centsPerChapter": 0.29384499999999997
+    },
+    "qwen3.8-27b": {
+      "score": 0.6666666666666666,
+      "texts": 3,
+      "byDim": {},
+      "centsPerChapter": 3.0471640000000004
+    },
+    "gemma-4-31b": {
+      "score": 1,
+      "texts": 3,
+      "byDim": {},
+      "centsPerChapter": 0.22242000000000003
+    }
+  },
+  "cost": {
+    "gpt-6-luna": {
+      "texts": 14,
+      "expected": 14,
+      "centsPerPage": 0.05491093833328656,
+      "medianSeconds": 10.7265,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 1,
+      "totalUsd": 0.0108684
+    },
+    "gpt-6.1-sol": {
+      "texts": 14,
+      "expected": 14,
+      "centsPerPage": 0.8408924144769462,
+      "medianSeconds": 19.9675,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 1,
+      "totalUsd": 0.16960800000000004
+    },
+    "gpt-5.4-mini": {
+      "texts": 14,
+      "expected": 14,
+      "centsPerPage": 0.2784135899927132,
+      "medianSeconds": 3.306,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 0,
+      "totalUsd": 0.07641525000000002
+    },
+    "claude-haiku-5.5": {
+      "texts": 14,
+      "expected": 14,
+      "centsPerPage": 0.1281134705498547,
+      "medianSeconds": 11.286999999999999,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 1,
+      "totalUsd": 0.023998500000000002
+    },
+    "claude-sonnet-5.5": {
+      "texts": 14,
+      "expected": 14,
+      "centsPerPage": 1.9495315752949338,
+      "medianSeconds": 13.7985,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 3,
+      "totalUsd": 0.37456999999999996
+    },
+    "claude-opus-5.5": {
+      "texts": 14,
+      "expected": 14,
+      "centsPerPage": 3.8375875345616173,
+      "medianSeconds": 18.3425,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 6,
+      "totalUsd": 0.8250600000000001
+    },
+    "gemini-3.8-flash-low": {
+      "texts": 14,
+      "expected": 14,
+      "centsPerPage": 0.2720782421508232,
+      "medianSeconds": 7.099,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 2,
+      "totalUsd": 0.06600466999999999
+    },
+    "gemini-4-argon": {
+      "texts": 14,
+      "expected": 14,
+      "centsPerPage": 0.7063404810398883,
+      "medianSeconds": 20.6935,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 2,
+      "totalUsd": 0.171472
+    },
+    "grok-4.3": {
+      "texts": 14,
+      "expected": 14,
+      "centsPerPage": 0.5767744494390512,
+      "medianSeconds": 15.527999999999999,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 1,
+      "totalUsd": 0.08482750000000001
+    },
+    "kimi-k3": {
+      "texts": 13,
+      "expected": 14,
+      "centsPerPage": 7.3585156286721505,
+      "medianSeconds": 66.86,
+      "failed": 1,
+      "truncated": 0,
+      "metaText": 4,
+      "totalUsd": 1.2524193600000002
+    },
+    "glm-5.3": {
+      "texts": 13,
+      "expected": 14,
+      "centsPerPage": 3.4619944653477375,
+      "medianSeconds": 70.639,
+      "failed": 1,
+      "truncated": 0,
+      "metaText": 1,
+      "totalUsd": 0.6338527200000001
+    },
+    "deepseek-v4.1-flash": {
+      "texts": 14,
+      "expected": 14,
+      "centsPerPage": 0.226493648123441,
+      "medianSeconds": 20.883499999999998,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 1,
+      "totalUsd": 0.043383599999999994
+    },
+    "qwen3.8-27b": {
+      "texts": 9,
+      "expected": 14,
+      "centsPerPage": 3.2975815652173917,
+      "medianSeconds": 62.141,
+      "failed": 5,
+      "truncated": 0,
+      "metaText": 0,
+      "totalUsd": 0.37922188
+    },
+    "gemma-4-31b": {
+      "texts": 14,
+      "expected": 14,
+      "centsPerPage": 0.04894714661984197,
+      "medianSeconds": 15.133,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 2,
+      "totalUsd": 0.009291800000000001
+    }
+  },
+  "judgeCostUsd": 4.572764000000002,
+  "failures": [
+    {
+      "task": "ctx-belmont-4",
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    {
+      "task": "ctx-saltzbrueck-5",
+      "model": "kimi-k3",
+      "run": 1
+    },
+    {
+      "task": "ed-feedback",
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    {
+      "task": "ed-tighten",
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    {
+      "task": "lit-chapter",
+      "model": "glm-5.3",
+      "run": 1
+    },
+    {
+      "task": "lit-chapter",
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    {
+      "task": "nf-from-source",
+      "model": "qwen3.8-27b",
+      "run": 1
+    }
+  ],
+  "generationCostUsd": 4.12099368
+}

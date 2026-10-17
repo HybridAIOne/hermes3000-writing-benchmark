@@ -1,0 +1,90 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "Wortwiederholung im ersten Satz des zweiten Absatzes und davor: 'diesen leichten Druck' / 'Kennst du diesen Moment? Dieses stille Abwägen'",
+          "Leicht abgegriffene Phrasen wie 'wie ein Minenfeld' oder 'Stück für Stück'"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Schiefe Metapher: 'lässt Entwürfe von Nachwuchskräften mit spöttischen Kommentaren auflaufen' (Personen laufen auf, nicht Entwürfe)",
+          "Wortwiederholung am Ende: 'Atme einmal tief durch. Wir gehen das jetzt Schritt für Schritt durch.'"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Grob unlogischer Zeitbezug: 'Dienstagmorgen ... Na, wie war dein Wochenende? ... Zum dritten Mal diese Woche.' (An einem Dienstagmorgen kann man nicht schon dreimal in derselben Woche nach dem Wochenende gefragt worden sein)",
+          "Gedanklicher Bruch: 'Stimmt. Genau deshalb ist es deine Aufgabe.' (Dass man nicht der Vorgesetzte ist, begründet nicht kausal, warum es die eigene Aufgabe ist)",
+          "Für einen Einstiegsabsatz zu stark zergliedert (fünf kurze Absätze)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Etwas hölzerner Übergang von der Szene zur allgemeinen Regel: 'Du bist nicht nur unsicher, du bist sauer. Solche Gespräche werden selten leichter, wenn du sie aufschiebst.'",
+          "Greift für einen reinen Einstiegsabsatz schon zu weit in die konkrete Lösung vor (liefert bereits ausformulierte Muster-Sätze für das Gespräch)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2499,
+    "out": 635,
+    "thinking": 0
+  },
+  "costUsd": 0.011348
+}

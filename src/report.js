@@ -31,9 +31,9 @@ function groupsOf(judgments) {
   );
 }
 
-function ratings(models, judgments, familyOf, samples) {
+function ratings(models, judgments, familyOf, samples, failureGroups = []) {
   const keys = models.map((m) => m.key);
-  const groups = groupsOf(judgments);
+  const groups = [...groupsOf(judgments), ...failureGroups];
   return {
     all: rateWithCI(keys, groups, samples),
     noOwnFamily: rateWithCI(keys, withoutOwnFamily(groups, familyOf), samples),
@@ -75,12 +75,44 @@ function build(runId, bench) {
     judgeCostUsd: 0,
   };
 
+  // --- Failures: a text that never arrived (e.g. thinking exhausted the token limit).
+  // An author gets nothing in that case, so it is scored, not skipped: in ranked tasks it
+  // loses against every text of its task, in keyed tracks it scores 0.
+  const runTasks = tasks.filter((t) => gens.some((g) => g.task === t.id));
+  const failures = [];
+  for (const t of runTasks)
+    for (const m of models)
+      for (let r = 1; r <= manifest.runs; r++)
+        if (!gens.some((g) => g.task === t.id && g.model === m.key && g.run === r && g.text))
+          failures.push({ task: t.id, model: m.key, run: r });
+  R.failures = failures;
+  const failureGroupsFor = (taskFilter) =>
+    failures
+      .filter((f) => taskFilter(taskById[f.task]))
+      .map((f) => {
+        const winners = [
+          ...new Set(gens.filter((g) => g.task === f.task && g.text).map((g) => g.model)),
+        ].filter((w) => w !== f.model);
+        return winners.map((w) => ({
+          winner: w,
+          loser: f.model,
+          judge: 'failure',
+          judgeFamily: null,
+        }));
+      })
+      .filter((g) => g.length);
+  const failedCount = (model, taskId) =>
+    failures.filter((f) => f.model === model && f.task === taskId).length;
+
   // --- Ranked tracks
   for (const track of ['literary', 'nonfiction']) {
     const tj = judgments.filter(
       (j) => taskById[j.task]?.track === track && taskById[j.task]?.language === 'de'
     );
-    R.tracks[track] = ratings(models, tj, familyOf, samples);
+    const fg = failureGroupsFor(
+      (t) => t.track === track && t.language === 'de' && bench.spec.tracks[t.track].judged
+    );
+    R.tracks[track] = ratings(models, tj, familyOf, samples, fg);
     R.tracks[track].rubric = {
       sprache: rubricMeans(tj, 'sprache'),
       stil: rubricMeans(tj, 'stil'),
@@ -90,13 +122,19 @@ function build(runId, bench) {
     for (const jk of bench.spec.judging.judges) {
       R.perJudge[track][jk] = rateWithCI(
         models.map((m) => m.key),
-        groupsOf(tj.filter((j) => j.judge === jk)),
+        [...groupsOf(tj.filter((j) => j.judge === jk)), ...fg],
         Math.min(samples, 300)
       );
     }
   }
   const en = judgments.filter((j) => taskById[j.task]?.language === 'en');
-  R.tracks.english = ratings(models, en, familyOf, samples);
+  R.tracks.english = ratings(
+    models,
+    en,
+    familyOf,
+    samples,
+    failureGroupsFor((t) => t.language === 'en')
+  );
 
   // --- Non-fiction from source: facts and unsupported claims
   const src = tasks.find((t) => t.source);
@@ -109,7 +147,10 @@ function build(runId, bench) {
           if (j.labels[t.label]?.model === m.key) unsupported.push(t.unsupported.length);
       }
       R.nonfiction[m.key] = {
-        factCoverage: mean(texts.map((g) => det.factCoverage(src.facts, g.text).coverage)),
+        factCoverage: mean([
+          ...texts.map((g) => det.factCoverage(src.facts, g.text).coverage),
+          ...Array(failedCount(m.key, src.id)).fill(0),
+        ]),
         unsupportedMedian: median(unsupported),
       };
     }
@@ -136,7 +177,11 @@ function build(runId, bench) {
     for (const t of tasks.filter((x) => x.track === 'editing')) {
       const texts = gens.filter((g) => g.task === t.id && g.model === m.key && g.text);
       if (t.fixes) {
-        const s = texts.map((g) => det.scoreProofread(t, g.text));
+        const zero = { score: 0, recall: 0, protect: 0, missed: ['(no text)'] };
+        const s = [
+          ...texts.map((g) => det.scoreProofread(t, g.text)),
+          ...Array(failedCount(m.key, t.id)).fill(zero),
+        ];
         e.proofread = {
           score: mean(s.map((x) => x.score)),
           recall: mean(s.map((x) => x.recall)),
@@ -144,7 +189,11 @@ function build(runId, bench) {
           missed: s.flatMap((x) => x.missed),
         };
       } else if (t.facts && t.target_words) {
-        const s = texts.map((g) => det.scoreTighten(t, g.text));
+        const zero = { score: 0, coverage: 0, words: 0, invented: [] };
+        const s = [
+          ...texts.map((g) => det.scoreTighten(t, g.text)),
+          ...Array(failedCount(m.key, t.id)).fill(zero),
+        ];
         e.tighten = {
           score: mean(s.map((x) => x.score)),
           coverage: mean(s.map((x) => x.coverage)),
@@ -167,6 +216,8 @@ function build(runId, bench) {
             score: Math.max(0, found / t.issues.length - 0.05 * falseAlarms),
           };
         });
+        for (let k = 0; k < failedCount(m.key, t.id); k++)
+          runs.push({ found: 0, falseAlarms: 0, score: 0 });
         e.feedback = {
           score: mean(runs.map((r) => r.score)),
           found: mean(runs.map((r) => r.found)),
@@ -197,6 +248,7 @@ function build(runId, bench) {
         perText.push(1 - violated.length / t.assertions.length);
         for (const a of violated) byDim[a.dim] = (byDim[a.dim] || 0) + 1;
       }
+      for (let k = 0; k < failedCount(m.key, t.id); k++) perText.push(0); // no chapter delivered
     }
     const ctxGens = gens.filter(
       (g) => g.model === m.key && g.text && ctxTasks.some((t) => t.id === g.task)
@@ -214,12 +266,14 @@ function build(runId, bench) {
     const mine = gens.filter((g) => g.model === m.key);
     const ok = mine.filter((g) => g.text);
     const chars = ok.reduce((n, g) => n + g.text.length, 0);
-    const cost = ok.reduce((n, g) => n + (g.costUsd || 0), 0);
+    // Cost includes texts that never arrived: the thinking tokens were billed anyway.
+    const cost = mine.reduce((n, g) => n + (g.costUsd || 0), 0);
     R.cost[m.key] = {
       texts: ok.length,
       expected: tasks.length * manifest.runs,
       centsPerPage: chars ? (cost / chars) * 1800 * 100 : NaN,
       medianSeconds: median(ok.map((g) => g.latencyMs / 1000)),
+      failed: failures.filter((f) => f.model === m.key).length,
       truncated: ok.filter((g) => /length|max_tokens/i.test(String(g.finish))).length,
       metaText: ok.filter((g) => g.meta && g.meta.length).length,
       totalUsd: cost,
@@ -342,20 +396,20 @@ function writeMarkdown(runId, bench, { R, models }) {
 
   md.push('## Cost, speed, reliability', '');
   md.push(
-    '| Model | Cents per standard page | Median seconds per text | Texts | Truncated | Preamble/heading |',
-    '|---|---|---|---|---|---|'
+    '| Model | Cents per standard page | Median seconds per text | Texts delivered | No text (failed) | Cut off | Preamble/heading |',
+    '|---|---|---|---|---|---|---|'
   );
   for (const m of [...models].sort(
     (a, b) => R.cost[a.key].centsPerPage - R.cost[b.key].centsPerPage
   )) {
     const c = R.cost[m.key];
     md.push(
-      `| ${m.label} | ${f2(c.centsPerPage)} | ${Math.round(c.medianSeconds)} | ${c.texts}/${c.expected} | ${c.truncated} | ${c.metaText} |`
+      `| ${m.label} | ${f2(c.centsPerPage)} | ${Math.round(c.medianSeconds)} | ${c.texts}/${c.expected} | ${c.failed} | ${c.truncated} | ${c.metaText} |`
     );
   }
   md.push(
     '',
-    `A standard page (Normseite) is 1,800 characters of output; thinking tokens are included in cost. Generation cost of this run: $${R.generationCostUsd.toFixed(2)}, judging: $${R.judgeCostUsd.toFixed(2)}.`,
+    `A standard page (Normseite) is 1,800 characters of output; thinking tokens are included in cost, also for texts that never arrived. "No text": the model spent the whole token budget thinking and returned nothing — scored as a failure in every track. Generation cost of this run: $${R.generationCostUsd.toFixed(2)}, judging: $${R.judgeCostUsd.toFixed(2)}.`,
     ''
   );
   fs.writeFileSync(path.join(runDir(runId), 'report.md'), md.join('\n'));

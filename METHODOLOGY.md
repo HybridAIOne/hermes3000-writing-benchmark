@@ -25,6 +25,11 @@ Models are called directly at their provider or via OpenRouter, with the setting
 `models.yaml` (for example reasoning effort). Nothing is post-processed: a preamble, heading or
 sign-off the model adds stays in the text and is counted against it (`metaText`).
 
+**Failures are scored, not skipped.** Some reasoning models occasionally spend the whole token
+budget (16,000) thinking and return no text. An author would get nothing — and still pay. Such a
+text loses against every text of its task in the ranked tracks and scores 0 in the keyed tracks
+(copy-editing, facts, book context); the report lists the count per model.
+
 Cost is computed from the token counts the provider reports and the list prices in
 `models.yaml`, including reasoning tokens, and reported **per standard page** (Normseite,
 1,800 characters of output) — the unit German publishing uses.

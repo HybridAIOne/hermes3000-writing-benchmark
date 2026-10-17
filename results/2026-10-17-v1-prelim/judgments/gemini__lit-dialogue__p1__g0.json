@@ -1,0 +1,113 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "B": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "D": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "Benedikt: (atmet aus) Der Kaffee ist heiß.",
+          "Benedikt: Ich habe lange genug gewartet. / Thomas: (hebt den Kopf) Benedikt. / Benedikt: (schaut weg) Trink. Sonst wird er kalt.",
+          "Benedikt: (zieht Stuhl zurück)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Julian: Der Kaffee hier ist immer noch zu stark.",
+          "Marc: Aber das Telefon funktioniert in beide Richtungen.",
+          "Marc: Fang einfach dort an, wo es nicht wehtut."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "[Eine Pause. Beide setzen sich nicht wirklich.]",
+          "„Also sitzen wir nur hier.“ ... [Beide bleiben sitzen.]",
+          "„Für manche Dinge reicht ein Abend, um lange zu dauern.“",
+          "„Vielleicht ist später das Einzige, was uns geblieben ist.“",
+          "„Ich bin nicht hier, um…“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "Sie schiebt ihm die Zuckerdose hin, obwohl er keinen nimmt.",
+          "Sabine: „Weniger Arbeit damit. Man muss nicht alles pflegen.“ / Thomas: „Manches lässt sich nicht mehr retten.“ / Sabine: „Manches will man auch nicht mehr retten.“",
+          "Thomas: „Hallo, Sabine.“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "JONAS: Mehr hab ich nicht gefragt.",
+          "Die Kellnerin stellt zwei Kaffee ab. Keiner hatte bestellt.",
+          "BEN: Du bist früh. / JONAS: Der Zug war pünktlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "A",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3097,
+    "out": 675,
+    "thinking": 0
+  },
+  "costUsd": 0.012944
+}

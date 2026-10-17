@@ -1,0 +1,17 @@
+{
+  "task": "en-scene",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "At 4:10 the chapel on the third floor is the only room in the building that doesn't hum. Ines stops in the doorway with a chart under one arm and coffee going cold in her hand. She counts the rows the way she counts beds: two empty, then a man in the last pew, then the candles nobody has relit since Tuesday.\n\nHe doesn't turn around. Beside him is a paper cup from the machine in the lobby, and the visitor sticker on his jacket has curled at one corner.\n\n\"Ines,\" he says.\n\nNobody on this floor calls her that. Her badge says I. FERREIRA, RN. The charge nurse says Ferreira, patients say Nurse, and when they are frightened, Sweetheart. Her mother has been dead eleven years. Her sister has never once gotten the vowels right.\n\n\"Do I know you?\"\n\nHe considers this seriously, the way her father used to consider a question about weather. \"Not the way you mean.\"\n\nHer pager is silent. Down the hall a monitor begins its thin complaint, and someone's sneakers answer it, then fade.\n\nShe should go. Instead she sits two pews back and sets the chart on the wood beside her. She waits for him to explain himself, but he only looks up at the small brass cross above the altar. Outside, the light from the parking structure comes through the frosted window at an angle and lays a pale rectangle across the floor. It seems to hold still, but it doesn't. Each minute it slides a little farther toward the front of the room, though she can never catch it moving.\n\nEventually it reaches the toe of his shoe. He doesn't move his foot, and neither does she.",
+  "usage": {
+    "in": 91,
+    "out": 1332,
+    "thinking": 811
+  },
+  "costUsd": 0.0006751,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "latencyMs": 7789,
+  "meta": [],
+  "at": "2026-10-17T14:50:33.084Z"
+}

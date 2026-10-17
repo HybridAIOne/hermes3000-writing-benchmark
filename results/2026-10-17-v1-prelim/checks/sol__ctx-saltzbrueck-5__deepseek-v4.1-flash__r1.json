@@ -1,0 +1,16 @@
+{
+  "task": "ctx-saltzbrueck-5",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 1932,
+    "out": 88,
+    "thinking": 66
+  },
+  "costUsd": 0.004744
+}

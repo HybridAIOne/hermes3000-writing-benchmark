@@ -1,0 +1,61 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Die Fähre lag gerade genug an der Rampe.“ – unidiomatisch, unklar",
+          "„Unter seinem Namen lief die Zeit noch nicht.“ – kryptisch, der Sinn erschließt sich kaum",
+          "„Er steckte die Stöpsel nicht wieder ein.“ – missverständlich (gemeint: ins Ohr)",
+          "„Quittung?“ / „Brauch ich.“ – Sprecherzuordnung unklar",
+          "Durchgehend gleichförmiger Kurzsatz-Staccato, stellenweise monoton"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„das Seil über ihr begann leise zu singen“ / „wie ein feuchtes Tuch“ – abgegriffene Bilder",
+          "„wartete, dass der Tag sich entschied, ob er einer werden wollte“ – gewollt originell",
+          "Ilse ist durchgehend schlagfertig und gesprächig („Und einmal im Monat stimmt es.“, „Der Bus wartet. Der wartet immer auf mich.“) – widerspricht der Figurenvorgabe „wortkarg“",
+          "„Ilse kannte den Fluss gut genug, um zu wissen, dass …“ – Erklären statt Zeigen",
+          "„Der Ton brach ab.“ – zuvor war nur von Summen und Vibrieren die Rede, kein Ton"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 6820,
+    "out": 1946,
+    "thinking": 1369
+  },
+  "costUsd": 0.0662
+}

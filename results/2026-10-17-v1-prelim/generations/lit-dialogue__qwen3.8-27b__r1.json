@@ -1,0 +1,17 @@
+{
+  "task": "lit-dialogue",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "(Markus sitzt am Tisch, rückt die Tasse zentimeterweise nach links. Jonas tritt ein, bleibt kurz stehen.)\n\nMarkus: Du bist pünktlich.  \nJonas: Du hast gesagt, du wärst schon da.  \nMarkus: Bin ich.  \n(Stille. Er rührt den Kaffee, obwohl er kalt ist.)  \nJonas: Hast du noch immer diesen Platz?  \nMarkus: Der war frei.  \nJonas: Ich nehme ihn nicht.  \nMarkus: Niemand hat es verlangt.  \n(Jonas lässt sich fallen, nicht setzt sich. Seine Hände bleiben in den Taschen.)  \nJonas: Siehst du besser aus.  \nMarkus: Und du?  \nJonas: Gut. Danke.  \nMarkus: Ist das alles?  \nJonas: Was soll es noch sein?  \n(Er schaut aus dem Fenster, als wäre dort ein Ausweg.)  \nJonas: Ich hätte kommen sollen.  \nMarkus: Ja.  \nJonas: Aber ich hab’s nicht getan.  \nMarkus: Hm.  \n(Jonas nimmt die Hand aus der Tasche, legt sie flach auf den Tisch, dann wieder zurück.)  \nJonas: War das deine Art, mir etwas zu sagen?  \nMarkus: Was soll ich sagen?  \nJonas: Dass es dich gestört hat?  \nMarkus: Gestört?  \n(Jonas lacht, doch es klingt wie ein Husten.)  \nJonas: Ich bin gern hier.  \nMarkus: Du kannst gehen.  \nJonas: Ich weiß.  \nMarkus: Oder bleiben.  \nJonas: Wenn du willst.  \nMarkus: Ich will nichts.  \n(Stille. Die Tür klingelt.)  \nJonas: Du hast recht.  \nMarkus: Mit was?  \nJonas: Dass ich nichts will.  \n(Jonas steht auf. Er hält den Moment, in dem er gehen könnte, fest.)  \nJonas: Kaffee?  \nMarkus: Nein.  \nJonas: Gut.  \n(Er bleibt stehen. Seine Finger streichen über die Tischkante.)  \nJonas: Ich bin nicht dein Feind.  \nMarkus: Niemand hat das gesagt.  \nJonas: Aber alle dachten es.  \nMarkus: Alle?  \n(Jonas zuckt die Schultern, als trüge er etwas Schweres.)  \nJonas: Du zum Beispiel?  \nMarkus: Ich?  \n(Endlich schaut er ihn an. Nur einen Moment. Dann wendet er den Blick ab.)  \nMarkus: Komm schon.  \nJonas: Was?  \nMarkus: Setz dich.",
+  "usage": {
+    "in": 111,
+    "out": 2952,
+    "thinking": 2402
+  },
+  "costUsd": 0.0065210400000000005,
+  "finish": "stop",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "latencyMs": 18578,
+  "meta": [],
+  "at": "2026-10-17T15:05:07.056Z"
+}

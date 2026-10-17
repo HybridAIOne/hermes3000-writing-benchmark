@@ -1,0 +1,17 @@
+{
+  "task": "lit-dialogue",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "text": "Thomas: (bleibt zwei Schritte entfernt stehen) Lange her.  \nBenedikt: (nickt, Hände in den Jackentaschen) Ja. Sehr lange.  \nThomas: Du siehst gut aus.  \nBenedikt: Danke. Du auch. (kurz) Das Wetter meint es gut.  \nThomas: Meint es das?  \nBenedikt: (sieht zum Fenster) Für heute, ja.  \nThomas: Ich hatte nicht erwartet, dich hier zu sehen.  \nBenedikt: Ich auch nicht. Die Stadt ist klein.  \nThomas: Zu klein manchmal.  \nBenedikt: (lächelt knapp) Vielleicht.  \nThomas: Ich wollte mich setzen. Wenn du nichts dagegen hast.  \nBenedikt: Warum sollte ich?  \nThomas: Weiß nicht. Manche Dinge bleiben hängen.  \nBenedikt: (zieht Stuhl zurück) Setz dich.  \nThomas: Danke.  \nBenedikt: Kaffee?  \nThomas: Wie früher?  \nBenedikt: Früher war vieles einfacher. Aber ja, schwarz.  \nThomas: (lacht nicht) Schwarz.  \nBenedikt: Also.  \nThomas: Also.  \nPause.  \nBenedikt: Wie lange bist du schon wieder da?  \nThomas: Drei Wochen.  \nBenedikt: Drei Wochen.  \nThomas: Ja.  \nBenedikt: Und du hast nicht …  \nThomas: (hebt kurz die Hand) Bitte.  \nBenedikt: Schon gut.  \nThomas: Es ist nicht gut. Aber es ist jetzt so.  \nBenedikt: Das klingt nach dir.  \nThomas: Und das nach dir.  \nBenedikt: (sieht auf die Tasse) Wie geht es deiner Mutter?  \nThomas: Besser. Sie fragt manchmal nach dir.  \nBenedikt: Das ist nett.  \nThomas: Ist es das?  \nBenedikt: Was soll ich sagen?  \nThomas: Nichts. Du musst nichts sagen.  \nBenedikt: Gut.  \nThomas: Gut.  \nPause.  \nBenedikt: Ich hätte anrufen können.  \nThomas: Ja.  \nBenedikt: Du auch.  \nThomas: Ja.  \nBenedikt: (atmet aus) Der Kaffee ist heiß.  \nThomas: Dann warte kurz.  \nBenedikt: Ich habe lange genug gewartet.  \nThomas: (hebt den Kopf) Benedikt.  \nBenedikt: (schaut weg) Trink. Sonst wird er kalt.",
+  "usage": {
+    "in": 94,
+    "out": 4924,
+    "thinking": 4354
+  },
+  "costUsd": 0.0029685,
+  "finish": "stop",
+  "reportedModel": "deepseek/deepseek-v4.1-flash",
+  "latencyMs": 15927,
+  "meta": [],
+  "at": "2026-10-17T15:04:48.477Z"
+}

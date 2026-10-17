@@ -1,0 +1,17 @@
+{
+  "task": "lit-dialogue",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "[Vor einem Café. Paul steht auf, als Martin näher kommt.]\n\n„Du bist früh.“\n\n„Die Uhr am Bahnhof geht noch immer vor.“\n\n„Du hast dir keine eigene gekauft?“\n\n„Die alte läuft.“\n\n[Paul zieht einen Stuhl zurück.]\n\n„Hier?“\n\n„Wenn der frei ist.“\n\n„Sonst hätte ich ihn nicht hingestellt.“\n\n[Martin setzt sich, ohne die Jacke auszuziehen.]\n\n„Sie haben die Tische ausgetauscht.“\n\n„Vor zwei Jahren.“\n\n„Ach.“\n\n„Der Kaffee ist derselbe.“\n\n„Dann nehme ich Tee.“\n\n[Paul legt die Hände um seine Tasse.]\n\n„Früher hast du gesagt, Tee wäre heißes Wasser mit Ausrede.“\n\n„Früher hast du über alles gelacht.“\n\n„Nicht über alles.“\n\n[Die Bedienung kommt. Martin bestellt Kaffee.]\n\n„Milch steht da.“\n\n„Ich sehe sie.“\n\n„Ich wollte nur—“\n\n„Ja.“\n\n[Am Nebentisch fällt ein Löffel.]\n\n„Deine Mutter wohnt noch in der Gartenstraße?“\n\n„Sie fragt manchmal nach dir.“\n\n„Was sagst du dann?“\n\n„Dass ich dich länger nicht gesehen habe.“\n\n„Das stimmt.“\n\n„Ja.“\n\n[Martin faltet die Serviette einmal, dann noch einmal.]\n\n„Der Kastanienbaum ist weg.“\n\n„Er war innen hohl.“\n\n„Von außen sah er gut aus.“\n\n„Das tun sie manchmal.“\n\n[Paul schiebt die Milch in die Mitte.]\n\n„Du hast noch meinen Schraubenschlüssel.“\n\n„Unten in der blauen Kiste.“\n\n„Ich brauche ihn gerade nicht.“\n\n„Ich hätte ihn trotzdem bringen können.“\n\n„Heute?“\n\n„Irgendwann.“\n\n[Die Bedienung stellt den Kaffee ab. Martin rührt, obwohl er keinen Zucker genommen hat.]\n\n„Ich muss um vier am Bahnhof sein.“\n\n„Es ist erst drei.“\n\n„Ich weiß.“\n\n„Du könntest den späteren nehmen.“\n\n[Martin legt den Löffel neben die Tasse.]\n\n„Fährt der noch?“\n\n„Um fünf siebzehn.“\n\n„Du kennst den Fahrplan.“\n\n„Manches merkt man sich.“\n\n[Martin zieht die Jacke aus.]\n\n„Dann noch einen Kaffee. Nachher.“\n\n„Ja. Nachher.“",
+  "usage": {
+    "in": 64,
+    "out": 527,
+    "thinking": 63
+  },
+  "costUsd": 0.005398,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "latencyMs": 18103,
+  "meta": [],
+  "at": "2026-10-17T14:51:29.658Z"
+}

@@ -1,0 +1,99 @@
+{
+  "task": "en-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "D": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "\"because the copier on three had jammed again and she needed the code from maintenance\" – implausible motivation for going to the chapel",
+          "\"coat folded beside them like a careful animal\" – \"them\" clashes with the later \"his\"; the image is mannered",
+          "\"Not old, not young.\" – stock formula",
+          "\"He smiled without showing teeth.\" – cliché",
+          "\"The kind that comes before fear has decided what shape to take.\" – explains instead of showing"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"You were kind to the man in 12\" – edges toward a revelation instead of staying open",
+          "\"Through the chapel's narrow window she could see the back of his head\" – a view from the station to the end of the corridor is spatially doubtful",
+          "\"plain as a coat hook\" – a slightly forced comparison",
+          "About 300 words, somewhat over the target"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "\"The wood was smooth where countless hands had rested.\" – stock image",
+          "The time of 4 a.m. is never named, and the night shift is only implied",
+          "The stranger's knowledge of her name barely generates tension; the scene stays flat",
+          "\"like something he had read off a chart\" – weakens the mystery right away"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"while the clock over the baptismal font turned from four to five\" – logic break: she stands there an hour; also clumsy idiom",
+          "\"Mara heard the chair scrape\" – contradicts the pews",
+          "\"Before you decide I'm one of them.\" – vague, mystery-mongering",
+          "\"Her shoes had gone wet somewhere near the nurses' station\" – unmotivated detail",
+          "\"He wore a visitor's lanyard, no badge\" – awkwardly compressed"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3272,
+    "out": 1465,
+    "thinking": 717
+  },
+  "costUsd": 0.042388
+}

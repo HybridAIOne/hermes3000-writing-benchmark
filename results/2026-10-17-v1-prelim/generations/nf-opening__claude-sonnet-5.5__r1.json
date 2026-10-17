@@ -1,0 +1,17 @@
+{
+  "task": "nf-opening",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "Es ist Dienstag, kurz nach acht. Du stehst in der Teeküche, der Kaffee läuft durch, und draußen im Flur kommt Markus näher. Du weißt genau, was du ihm sagen müsstest: dass der Bericht zum dritten Mal zu spät war, dass Kunden schon nachgefragt haben und dass die Kollegen langsam murren. Du hast dir den Satz sogar zurechtgelegt, gestern Abend, unter der Dusche. Jetzt steht er vor dir, sagt „Morgen, alles gut?\", und du hörst dich antworten: „Ja, bei dir?\" Dann nimmst du deine Tasse und gehst zurück an den Schreibtisch. Das Gespräch ist wieder verschoben, und du redest dir ein, der Moment sei eben ungünstig gewesen. Er war nicht ungünstig. Er war unangenehm, und das ist ein Unterschied. Wenn du ehrlich bist, kennst du diese Szene. Vielleicht ging es bei dir nicht um einen Bericht, sondern um einen Ton in der Besprechung, um eine ungerechte Urlaubsplanung oder um jemanden, der seit Wochen nur noch Dienst nach Vorschrift macht. Das Muster ist immer dasselbe: Du wartest, dass es sich von selbst erledigt. Meistens tut es das nicht. Es wird größer, und irgendwann sprichst du an einem schlechten Tag, mit zu viel Ärger und zu wenig Geduld, über alles auf einmal. In diesem Kapitel geht es darum, wie du früher und ruhiger ins Gespräch kommst, ohne Rhetoriktricks und ohne Seminarfloskeln. Du brauchst dafür keinen Titel. Du brauchst ein paar klare Sätze und den Mut, den ersten auch wirklich auszusprechen.",
+  "usage": {
+    "in": 278,
+    "out": 878,
+    "thinking": 209
+  },
+  "costUsd": 0.009336,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "latencyMs": 7885,
+  "meta": [],
+  "at": "2026-10-17T14:52:05.955Z"
+}

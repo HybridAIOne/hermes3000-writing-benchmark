@@ -1,0 +1,17 @@
+{
+  "task": "nf-opening",
+  "model": "gpt-5.4-mini",
+  "run": 1,
+  "text": "Montagmorgen, 8:17 Uhr. Du stehst mit dem Kaffee in der Hand am Rand des Büros und merkst schon an der Art, wie dein Kollege den Bildschirm zuklappt, dass heute kein guter Tag für ein lockeres Gespräch ist. Gestern sollte eine Rückmeldung kommen, der Kunde wartet seit Freitag, und in der kurzen E-Mail von eben steht mehr Gereiztheit als Inhalt. Du weißt: Wenn du jetzt nichts sagst, zieht sich das Problem weiter durch den Tag, vielleicht durch die ganze Woche. Wenn du etwas sagst, kann es kippen. Dann wird aus einer einfachen Klärung ein Verteidigungsgespräch, aus einem Hinweis ein Vorwurf, aus einem Missverständnis ein offener Konflikt. Genau an diesem Punkt stehen viele Führungskräfte und Teamleiter immer wieder. Nicht bei der großen Krise, sondern mitten im Alltag, wenn die Stimmung schon angespannt ist und trotzdem jemand das Gespräch führen muss, das keiner gern führt. Schwierige Gespräche beginnen selten mit einem lauten Knall. Oft fangen sie leise an: mit ausweichenden Antworten, einem genervten Ton, einem Fehler, der sich wiederholt, oder einem Verhalten, das im Team langsam Vertrauen kostet. Und gerade weil diese Gespräche so unscheinbar beginnen, werden sie oft zu spät angegangen oder falsch geführt. In diesem Kapitel geht es deshalb nicht um perfekte Formulierungen, sondern darum, wie du Klarheit hineinbringst, ohne unnötig zu verletzen, wie du Spannung aushältst, ohne hart zu werden, und wie du ein Gespräch so führst, dass am Ende mehr geklärt ist als nur die Frage, wer recht hat.",
+  "usage": {
+    "in": 152,
+    "out": 349,
+    "thinking": 0
+  },
+  "costUsd": 0.0016845,
+  "finish": "stop",
+  "reportedModel": "gpt-5.4-mini-2026-03-17",
+  "latencyMs": 2698,
+  "meta": [],
+  "at": "2026-10-17T14:51:53.002Z"
+}

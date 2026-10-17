@@ -1,0 +1,19 @@
+{
+  "task": "nf-from-source",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "**Wenn allen die Fähre gehört: Die Fährgenossenschaft Hitzacker**\n\nAls der Landkreis 1953 den Betrieb der Seilfähre über die Elbe einstellte, griffen die Betroffenen selbst ein: 41 Landwirte und Händler von beiden Elbufern gründeten die Fährgenossenschaft Hitzacker. Sie taten, was Genossenschaften auszeichnet – sie lösten ein gemeinsames Problem durch Selbsthilfe. Statt darauf zu warten, dass ein Investor oder die öffentliche Hand die Verbindung wiederbelebt, wurden sie selbst zu Eigentümern.\n\nDas Prinzip ist einfach: Wer Mitglied wird, zeichnet mindestens einen Geschäftsanteil zu 250 Euro. Entscheidungen trifft die Generalversammlung, und dort gilt: ein Mitglied, eine Stimme – gleichgültig, wie viele Anteile jemand hält. Nicht der größte Geldbeutel bestimmt also den Kurs, sondern die Mehrheit der Mitglieder. Heute gehören der Genossenschaft 312 Menschen an.\n\nWirtschaftlich wird solide gearbeitet, aber ohne Gewinnabsicht. 2024 betrug der Umsatz 186.000 Euro; 71 Prozent stammten aus dem Fahrkartenverkauf, 29 Prozent aus einem Zuschuss der Gemeinde. Überschüsse werden nicht ausgeschüttet, sondern fließen in eine Rücklage für die Erneuerung der Fähre. Bis 2031 soll genug zusammengekommen sein, um einen Elektroantrieb einzubauen – ein Zeithorizont, der zeigt, wie langfristig Genossenschaften denken können.\n\nPro Jahr setzt die Fähre rund 64.000 Personen über die 212 Meter breite Elbe, bei normalem Wasserstand in sieben Minuten; im Sommer nutzen vor allem Radfahrer auf dem Elberadweg die Überfahrt. Heute treibt ein 85-kW-Dieselmotor das Gefährt am Führungsseil an, bis 1978 bewegte die Strömung es allein – der Betrieb überdauerte Technikwechsel und Generationen.\n\nGerade darin liegt die Passung der Rechtsform: Die Fähre erfüllt eine dauerhafte Aufgabe für die Region, verlangt Geduld statt Rendite, und ihr Erfolg misst sich nicht am Erlös, sondern am durchgängigen Betrieb. Eine Genossenschaft sichert genau das – Eigentum in der Hand derer, die das Angebot brauchen, und Geschicke, die von ihnen selbst bestimmt werden.",
+  "usage": {
+    "in": 595,
+    "out": 5287,
+    "thinking": 4623
+  },
+  "costUsd": 0.06330528,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "latencyMs": 81996,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T15:08:38.530Z"
+}

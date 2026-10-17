@@ -1,0 +1,17 @@
+{
+  "task": "lit-scene",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "Der Schlüssel passte noch. Das überraschte sie mehr als alles andere, mehr als der Briefkasten, in dem Werbung und ein vergilbter Umschlag mit dem Stempel des Nachlassgerichts steckten. Sie drehte ihn zweimal, bis das Schloss nachgab, und blieb dann in der Tür stehen, ohne einzutreten.\n\nDie Luft roch nach kaltem Staub und nach etwas Süßlichem, das sie nicht gleich zuordnen konnte. Im Flur stand noch die Schuhbank, darauf ein einzelner Gummistiefel in der Größe der Mutter, der Schaft nach innen geknickt, als hätte jemand ihn eilig abgestreift. Niemand hatte geräumt. An der Wand, wo der Spiegel gehangen hatte, zeichnete sich ein helleres Rechteck ab, scharf umrissen.\n\nIn der Küche fiel das Licht schräg durch die Fenster. Im Staub darin hing es golden, und sie empfand das als Zumutung, weil es so tat, als müsste es etwas bedeuten. Auf der Fensterbank stand ein Glas Honig. Er war fest geworden, weiß und körnig, und ein Löffel steckte senkrecht darin, festgewachsen. Sie zog daran. Er gab nicht nach.\n\nSie kannte diesen Honig. Die Mutter hatte ihn jedes Frühjahr vom Imker am Ende der Straße geholt und im Winter nie aufgegessen. Zwanzig Jahre hatte Sie nichts von ihr gehört, abgesehen von dem einen Anruf, den sie nicht angenommen hatte.\n\nSie drückte den Daumen in die Oberfläche. Die Kristalle knirschten leise, dann gab die Masse nach, und an der Fingerkuppe blieb eine Spur zurück, klebrig und fest zugleich. Sie roch daran. Blüte, Sommer, ein Geruch, der irgendwo in ihr einen Raum öffnete, den sie seit Jahren verschlossen hielt.",
+  "usage": {
+    "in": 149,
+    "out": 2337,
+    "thinking": 1596
+  },
+  "costUsd": 0.0011834,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "latencyMs": 12434,
+  "meta": [],
+  "at": "2026-10-17T14:51:40.377Z"
+}

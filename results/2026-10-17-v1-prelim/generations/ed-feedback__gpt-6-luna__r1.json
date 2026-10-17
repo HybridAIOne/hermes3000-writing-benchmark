@@ -1,0 +1,17 @@
+{
+  "task": "ed-feedback",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "1. „nachdem die drei Fahrgäste schon über sie an Bord gegangen waren“ – Die Fahrgäste können nicht über die Rampe an Bord gegangen sein, bevor Ilse sie herunterließ.\n\n2. „Ilse stellt den Motor an“ – Das Präsens bricht die vorgegebene Erzählzeit Präteritum.\n\n3. „Der Nebel schluckte jedes Geräusch“ / „und hupte zweimal“ – Wenn der Nebel jedes Geräusch schluckt und Ilse das andere Ufer nicht sehen kann, kann die personale Erzählung nicht feststellen, dass der Bäcker gerade hupt.",
+  "usage": {
+    "in": 294,
+    "out": 1219,
+    "thinking": 1069
+  },
+  "costUsd": 0.0006389,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "latencyMs": 12980,
+  "meta": [],
+  "at": "2026-10-17T14:49:46.789Z"
+}

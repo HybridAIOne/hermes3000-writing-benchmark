@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-7",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 1903,
+    "out": 33,
+    "thinking": 0
+  },
+  "costUsd": 0.004136
+}

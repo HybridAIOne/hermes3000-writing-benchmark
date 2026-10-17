@@ -1,0 +1,17 @@
+{
+  "task": "lit-scene",
+  "model": "gemini-3.8-flash-low",
+  "run": 1,
+  "text": "Das Schloss wehrte sich nicht. Es gab mit einem trockenen, mehligen Knirschen nach, als fresse das Eisen den eigenen Rost. \n\nMaren stieß die Tür auf und blieb auf der Schwelle stehen. Die Luft im Flur schmeckte nach kaltem Kalk, nach dem Mehlstaub längst zerfallener Tapeten und diesem spezifischen, herben Bodensatz aus getrocknetem Lavendel und Bohnerwachs, den zwanzig Jahre Abwesenheit nicht hatten tilgen können. Es war der Geruch ihrer Kindheit, konserviert unter einer Glocke aus Stillstand.\n\nSie machte keinen Schritt vorwärts. Das Haus schien den Atem anzuhalten, lauernd, wie ein ertapptes Tier.\n\nDraußen, im verwilderten Garten, strich der Novemberwind durch die nackten Kronen der Apfelbäume; drinnen herrschte eine taube, lastende Stille. Ihre Stiefel hinterließen dunkle Ovale auf den ungepflegten Dielen, als sie schließlich doch eintrat und die Tür hinter sich ins Schloss zog. Das Geräusch hallte zu lange nach.\n\nIn der Küche stand der Resopaltisch noch an derselben Stelle, schief gerückt zum matten Licht des Hoffensters. Maren strich mit dem Daumen über die Kante. Nichts war ausgeräumt worden. Auf der Anrichte stand die Emailledose für Zwiebeln, daneben das abgegriffene Holzbrett, in dessen Mitte sich eine tiefe, fast schwarze Mulde gebildet hatte – das Resultat von vierzig Jahren rhythmischen Hackens. \n\nIhr Blick fiel auf die Fensterbank. Zwischen vertrockneten Fliegenleibern lag ein einzelner, kleiner Gegenstand: ein messingfarbener Vorsteckkamm, wie ihre Mutter ihn getragen hatte, um die widerspenstigen Schläfenhaare zu bändigen. Drei der Zinken waren abgebrochen, aber in die geschwungene Oberkante war mit groben, fast gewaltsamen Kerben ein Buchstabe geritzt worden. Ein *K*, das dort nicht hingehörte. \n\nMaren berührte das kalte Metall nicht. Sie zog die Hände zurück und steckte sie tief in die Manteltaschen. Im ersten Stock knarrte ein Balken, langsam und schwer, als verlagerte jemand im Schlaf das Gewicht.",
+  "usage": {
+    "in": 73,
+    "out": 516,
+    "thinking": 0
+  },
+  "costUsd": 0.0018092000000000002,
+  "finish": "STOP",
+  "reportedModel": "gemini-3.8-flash",
+  "latencyMs": 7155,
+  "meta": [],
+  "at": "2026-10-17T14:50:32.936Z"
+}

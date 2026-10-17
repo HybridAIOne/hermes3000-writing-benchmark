@@ -1,0 +1,101 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "B": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "gemma-4-31b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "„Jonas blieb stehen, den Rollkoffer neben sich.“ / „Jonas lehnte sich an die Reling.“ – unklar, wann und ob Jonas an Bord gegangen ist; Logikbruch",
+          "„Ilse dachte an den Koffer, der auf den Bohlen gestanden hatte“ – Verbleib des Koffers widersprüchlich zum Schluss „sah sie zum Koffer“",
+          "„Bevor sie den Motor wieder anließ“ – der Motor wurde beim Anlegen nie abgestellt",
+          "„Sie löste die Leine, warf sie auf Deck und schob die Fähre vom Anleger.“ – Ilse legt sofort wieder ab, ohne auf Jonas zu reagieren; die Szene verliert ihren Konflikt, und die Schlussentscheidung ist beliebig",
+          "„Das alte Tuckern füllte die Luft … das sie kannte wie ihren eigenen Atem.“ – abgegriffenes Bild; dazu monotone Reihung kurzer Hauptsätze"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 4,
+        "stil": 3,
+        "aufgabe": 3,
+        "fehler": [
+          "„Ich habe dich gesehen, bevor du anlegtest“ – Jonas legt nicht an, Ilse legt an; Logikfehler",
+          "„Warum bist du nicht gestiegen?“ / „Weil du nicht gestiegen bist.“ – unidiomatisch und sinnleer",
+          "„Der Motor stand noch im Schuppen, zerlegt“ – widerspricht der eben mit Motor angelegten Fähre",
+          "„nach Salz und Öl roch“ – Salzgeruch an der Elbe bei Hitzacker passt nicht; dazu „Schuhe, die am Poller klebten“",
+          "„mit einem Ton, der in ihrem Kopf wie ein Wort klang, das sie nicht aussprach“ – vage, prätentiöse Bildlichkeit; der Schluss mit dem Knauf neben dem Poller bleibt räumlich unklar"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„ratterten ohrenbetäubend laut über das Riffelblech“ – Übertreibung",
+          "„der kurz gegen den Geruch von kaltem Flusswasser, Diesel und faulem Laub ankämpfte“ – abgegriffenes Bild",
+          "„Abschreibungswerte. Instandhaltungskosten.“ – leicht erklärend; streift das Verkaufsthema, nennt es aber nicht",
+          "„Der Zug ab Dannenberg fährt nicht mehr so oft … Du hättest in Lüneburg bleiben sollen.“ – Gedankengang unklar",
+          "Mit rund 520 Wörtern deutlich über der Zielvorgabe von etwa 400"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ilse ignorte die Frage.“ – Tippfehler (ignorierte)",
+          "„eine vergessene Zeitung, eine Plastiktüte mit Einkäufen, die jemand im Eifer des Ausstiegs vergessen hatte“ – Doppelung „vergessen“",
+          "„Er wollte sie nicht einfach besuchen; er wollte eine Situation bewerten.“ – Erklären statt Zeigen",
+          "„Dort gab es nur den Lärm der Effizienz.“ – Kitsch",
+          "„fast wie ein Herzschlag, der das einzige Maß für die Zeit an diesem Ort war“ – Klischee; ebenso „weiten, fordernden Fluss“"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 6505,
+    "out": 2812,
+    "thinking": 1435
+  },
+  "costUsd": 0.08226
+}

@@ -1,0 +1,110 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "glm-5.3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Er war nicht ungünstig. Er war unangenehm“: Die zugespitzte Gegenüberstellung unterstellt, dass die Teeküche tatsächlich ein geeigneter Ort für dieses Gespräch gewesen wäre. Das gibt die Szene nicht her.",
+          "„Das Muster ist immer dasselbe“: Unnötige Verabsolutierung. Die zuvor genannten Konflikte können durchaus unterschiedliche Gesprächshürden mit sich bringen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Stimmt. Genau deshalb ist es deine Aufgabe.“: Logischer Fehlschluss. Aus der fehlenden Vorgesetztenrolle ergibt sich noch keine Zuständigkeit; diese müsste aus der Teamleitungsaufgabe begründet werden.",
+          "„Und die riskierst du nicht, wenn du es aussprichst.“: Unhaltbare Zusicherung. Auch ein notwendiges Gespräch kann die Beziehung belasten; entscheidend ist unter anderem, wie es geführt wird.",
+          "„Und der liegt in deiner Hand.“: Schreibt der angesprochenen Person zu viel Kontrolle über den Gesprächsausgang zu und blendet die Eigenständigkeit des Gegenübers aus.",
+          "„Dienstagmorgen, Viertel vor neun.“ bis „Und der liegt in deiner Hand.“: Der Text besteht aus fünf Absätzen statt aus dem verlangten Einstiegsabsatz."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 9,
+        "fehler": [
+          "„Jonas sitzt an seinem Platz und räumt Paletten auf, dabei bleibt er mehrfach stehen.“: Widersprüchliche räumliche Inszenierung. Sitzen, Palettenaufräumen und wiederholtes Stehenbleiben ergeben keine nachvollziehbare Bewegung.",
+          "„Bleibst du zu vage, vergisst er vielleicht, dass es eine Sache für später gibt.“: Inhaltlich kaum verständlich. Weder die „Sache“ noch der Bezug auf „später“ werden deutlich.",
+          "„ob so etwas wiederkommen kann“: Für einen wiederholten Etikettierungsfehler unidiomatisch; gemeint ist „ob so etwas wieder passieren kann“.",
+          "„In der Abteilung weiß es jeder, wahrscheinlich nicht ganz, aber gut genug.“: Unklare Abstufung zwischen Wissen und Nichtwissen; auch „gut genug“ bleibt ohne erkennbaren Maßstab.",
+          "„nicht um eine Leistung, die nachjustiert werden muss, sondern um einen Moment, in dem Vertrauen, Klarheit und Ruhe aufeinandertreffen“: Die abstrakte Schlusswendung verdrängt den konkreten Klärungsbedarf und konstruiert einen falschen Gegensatz. „Nachjustiert“ wirkt zudem unnötig technisch."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„weil wir Angst haben, etwas kaputtzumachen. Vor der Stimmung.“: Der fragmentarische Anschluss verschiebt den Sinn zu „Angst vor der Stimmung“. Gemeint ist offenbar die Angst, die Stimmung zu beschädigen.",
+          "„Denn schwierige Gespräche sind selten schwierig wegen des Inhalts.“: Pauschale Behauptung, die sachliche Komplexität, unklare Zuständigkeiten und widerstreitende Interessen ausblendet.",
+          "„Und du spürst, wie deine Position ein bisschen ins Wackeln gerät“: Lenkt nach der Demütigung einer Kollegin unvermittelt auf den eigenen Status. Für den Einstieg wäre die Verantwortung gegenüber der Kollegin und dem Team der überzeugendere Schwerpunkt.",
+          "„Du bist seit drei Tagen an Marcels Schreibtisch vorbeigelaufen.“ bis „macht es ein Stück größer.“: Fünf Absätze statt des verlangten Einstiegsabsatzes."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "B",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2441,
+    "out": 1452,
+    "thinking": 421
+  },
+  "costUsd": 0.019402
+}

@@ -1,0 +1,19 @@
+{
+  "task": "ed-feedback",
+  "model": "grok-4.3",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "found": [
+      "tempus",
+      "perspektive"
+    ],
+    "false_alarms": 1
+  },
+  "usage": {
+    "in": 744,
+    "out": 55,
+    "thinking": 24
+  },
+  "costUsd": 0.002038
+}

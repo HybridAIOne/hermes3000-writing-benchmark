@@ -1,0 +1,20 @@
+{
+  "task": "ed-feedback",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "found": [
+      "rampe",
+      "tempus",
+      "hupe"
+    ],
+    "false_alarms": 3
+  },
+  "usage": {
+    "in": 1915,
+    "out": 530,
+    "thinking": 501
+  },
+  "costUsd": 0.01826
+}

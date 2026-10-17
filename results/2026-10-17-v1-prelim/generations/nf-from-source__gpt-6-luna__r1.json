@@ -1,0 +1,17 @@
+{
+  "task": "nf-from-source",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "Als der Landkreis den Betrieb der Seilfähre einstellte, gründeten 1953 insgesamt 41 Landwirte und Händler von beiden Elbufern die Fährgenossenschaft Hitzacker. Sie sorgten damit gemeinsam dafür, dass die Verbindung über den Fluss weiterbetrieben werden konnte. Das Beispiel zeigt einen Grundgedanken der Genossenschaft: Menschen schließen sich zusammen, um eine Aufgabe gemeinsam zu erfüllen, die für sie wichtig ist.\n\nHeute hat die Fährgenossenschaft 312 Mitglieder. Jedes hält mindestens einen Anteil im Wert von 250 Euro. In der Generalversammlung hat jedes Mitglied eine Stimme – unabhängig davon, wie viele Anteile es besitzt. So entscheidet nicht allein die Höhe der eingebrachten Anteile über das Stimmgewicht. Die Mitglieder tragen die Genossenschaft gemeinsam und bestimmen nach dem gleichen Stimmprinzip über ihre Angelegenheiten.\n\nDie Fähre verbindet die beiden Ufer an einer 212 Meter breiten Stelle der Elbe. Bei normalem Wasserstand dauert die Überfahrt sieben Minuten. Sie hängt an einem Führungsseil und wird heute von einem 85-kW-Dieselmotor angetrieben; bis 1978 bewegte allein die Strömung das Schiff. Jährlich werden rund 64.000 Personen befördert, im Sommer vor allem Radfahrer auf dem Elberadweg.\n\nAuch der Umgang mit Überschüssen macht den gemeinschaftlichen Zweck sichtbar: Sie werden nicht an die Mitglieder ausgeschüttet, sondern in eine Rücklage für die Erneuerung der Fähre eingezahlt. 2024 kamen 71 Prozent des Umsatzes von 186.000 Euro aus Fahrkartenverkäufen, 29 Prozent aus einem Zuschuss der Gemeinde. Die Rücklage soll bis 2031 für den Einbau eines Elektroantriebs ausreichen.\n\nFür diese Fähre ist die Genossenschaft passend, weil sie die Beteiligung vieler Menschen mit einer langfristigen gemeinsamen Aufgabe verbindet. Die Mitglieder können die Verbindung über die Elbe gemeinsam tragen und Mittel für ihre Erneuerung zurücklegen. So bleibt der Zweck der Genossenschaft nicht auf den laufenden Betrieb beschränkt: Sie plant auch für die Zukunft der Fähre.",
+  "usage": {
+    "in": 402,
+    "out": 680,
+    "thinking": 224
+  },
+  "costUsd": 0.00038019999999999997,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "latencyMs": 8176,
+  "meta": [],
+  "at": "2026-10-17T14:51:42.178Z"
+}

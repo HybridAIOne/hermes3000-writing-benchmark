@@ -1,0 +1,17 @@
+{
+  "task": "lit-scene",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "Maren kam mit dem Nachmittagszug, und weil am Bahnhof kein Wagen wartete, ging sie die letzten dreihundert Meter zu Fuß, den Koffer in der Hand; die Rollen hätten auf dem Kies nur gelärmt. Gegenüber bewegte sich ein Vorhang. Das Dorf wusste also schon Bescheid.\n\nDas Schloss war noch dasselbe. Zwanzig Jahre, und die Mutter hatte es nicht austauschen lassen. Der Schlüssel drehte sich widerwillig, dann mit einem Klacken, das lauter war als alles andere an diesem Novemberdienstag.\n\nSie ließ die Tür offen, aus Aberglaube oder Höflichkeit, sie hätte es nicht sagen können. Der Flur roch nach kaltem Rauch und dem süßen, flachen Staub verriegelter Räume, nicht nach der Mutter. Darauf hatte sie sich vorbereitet, ohne es zu wissen: auf einen Geruch. Stattdessen roch es nach nichts, das sie hätte benennen können, und das war schlimmer.\n\nDie Matratzen fehlten, der Kühlschrank stand offen und leer. Eine Haushaltshilfe aus dem Ort, hatte der Notar gesagt, und Maren war dankbar für jede fremde Hand gewesen, die ihr das abnahm. Zur Beerdigung war sie nicht gekommen; jetzt blieben ihr zwei Wochen für das, was übrig war. Ihr Fuß fand die Vertiefung in der dritten Treppenstufe von selbst, als hätte der Körper die zwanzig Jahre nur überbrückt.\n\nIm Wohnzimmer, zwischen den schiefen Rahmen, ein Rechteck helleren Papiers. Sie fuhr mit dem Finger über die Kante: glatt, scharf, kein Staub. Kürzlich erst. Das Konfirmationsbild, war sie sich fast sicher, hatte dort gehangen, ihr vierzehnjähriges Gesicht über dem Sofa. Sie hätte gern gewusst, wer es abgenommen hatte – die Haushaltshilfe oder die Mutter, in einem ihrer letzten Monate. Der Nagel steckte noch in der Wand.\n\nUnten zog sie die Jacke aus und hängte sie an den leeren Haken im Flur. Im Gasthof am Ortseingang hatte sie ein Zimmer gebucht. Sie wusste schon, dass sie es nicht brauchen würde.\n\n---\n\nDas angelegte Detail ist das helle Rechteck mit dem Nagel: jemand hat das Bild vor kurzem entfernt – ob die Mutter selbst oder eine fremde Hand, bleibt offen und kann später aufgelöst werden. Sag gern Bescheid, wenn du eine andere Tonlage (kälter, lakonischer, näher an der Figur) oder eine erste statt dritte Person möchtest.",
+  "usage": {
+    "in": 175,
+    "out": 10566,
+    "thinking": 9873
+  },
+  "costUsd": 0.12621053999999998,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "latencyMs": 107210,
+  "meta": [],
+  "at": "2026-10-17T15:07:00.798Z"
+}

@@ -1,0 +1,19 @@
+{
+  "task": "ed-feedback",
+  "model": "grok-4.3",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "found": [
+      "tempus",
+      "perspektive"
+    ],
+    "false_alarms": 1
+  },
+  "usage": {
+    "in": 952,
+    "out": 36,
+    "thinking": 0
+  },
+  "costUsd": 0.002264
+}

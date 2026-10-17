@@ -1,0 +1,17 @@
+{
+  "task": "nf-opening",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "Es ist kurz nach neun, und du stehst mit einer Tasse Kaffee vor dem Besprechungsraum. Drinnen wartet ein Kollege, der zum dritten Mal eine zugesagte Aufgabe nicht fertigbekommen hat. Gestern Abend hast du seine Zahlen noch selbst ergänzt, damit der Bericht rausgehen konnte. Jetzt müsstest du das ansprechen. Stattdessen überlegst du, ob du nicht erst nach seinem Wochenende fragen solltest. Vielleicht war privat etwas los. Vielleicht hast du die Frist nicht deutlich genug genannt. Vielleicht ist es auch gar nicht so schlimm. Gleichzeitig merkst du, wie fest du die Tasse hältst. Du bist nicht nur unsicher, du bist sauer. Solche Gespräche werden selten leichter, wenn du sie aufschiebst. Was heute eine versäumte Zusage ist, wird nächste Woche womöglich ein Vorwurf: „Auf dich kann man sich einfach nicht verlassen.“ Dann geht es plötzlich um den ganzen Menschen statt um eine konkrete Aufgabe. Gerade wenn du ein Team leitest, ohne disziplinarisch verantwortlich zu sein, kannst du dich nicht auf deine Position berufen. Du musst aussprechen, was passiert ist, welche Folgen es hatte und was du künftig brauchst. Dazu gehört auch, die Sicht des anderen anzuhören, ohne dein Anliegen beim ersten Einwand wieder einzupacken. Du brauchst dafür weder eine besonders harte Ansage noch einen auswendig gelernten Gesprächsleitfaden. Ein brauchbarer Anfang wäre: „Die Zahlen waren gestern zum vereinbarten Zeitpunkt nicht da. Ich habe sie abends ergänzt. Ich möchte mit dir klären, woran es lag und wie wir das beim nächsten Mal vermeiden.“ Damit ist noch nichts gelöst. Aber das Gespräch hat begonnen, das tatsächlich nötig ist.",
+  "usage": {
+    "in": 152,
+    "out": 359,
+    "thinking": 0
+  },
+  "costUsd": 0.003894,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "latencyMs": 12748,
+  "meta": [],
+  "at": "2026-10-17T14:52:00.669Z"
+}

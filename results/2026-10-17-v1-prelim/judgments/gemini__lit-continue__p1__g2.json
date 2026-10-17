@@ -1,0 +1,95 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "wo die nächste Fähre schon vom anderen Ufer ablegte. (Logikbruch zur Vorgabe 'die letzte Seilfähre' und zur Realität von Seilfähren, die nicht im Parallelbetrieb am selben Seil kreuzen)",
+          "löste sie die Leine vom Poller, legte sie zweimal um (Unlogischer Handlungsablauf beim Ablegen: Wenn man die Leine löst, legt man sie nicht sofort wieder um den Poller)",
+          "Jonas sah sich um, als suche er etwas, das er wiedererkennen könnte. Die Bank neben dem Häuschen, die Henning gestrichen hatte, vor drei Jahren oder vier. (Perspektivische Unschärfe: Es klingt zunächst nach Jonas' Wahrnehmung, wechselt im selben Satzgefüge aber in Ilses Erinnerungswissen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "die Schulkinder aus Wussegel (Sachlicher Fehler: Um halb neun morgens sind Schulkinder längst in der Schule, nicht auf der Fähre)",
+          "das Seil lief nass und glänzend in die Strömung hinein, bevor es wieder auftauchte, weiter draußen, wo die Elbe breiter wurde. (Schiefes technisches Bild: Ein Fährseil läuft quer zum Fluss zum anderen Ufer oder verankert stromaufwärts, taucht aber nicht einfach 'weiter draußen, wo die Elbe breiter wurde' wieder auf)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "Sie stieß mit der Stange ab. [...] ohne die Leine zu lösen! (Logikbruch zum vorangehenden Absatz: Ilse hatte die Fähre gerade erst festgemacht, stößt hier aber ab, ohne die Leine wieder vom Poller zu lösen)",
+          "„Braucht keinen“, sagte Ilse. „Der Strom arbeitet umsonst.“ (Widerspruch zum Prompt: Jonas bemängelt im Startabsatz das Geräusch bzw. den Zustand des Motors, die Fähre hat also einen Motor und ist keine reine Gierseilfähre ohne Antrieb)",
+          "„Wie lange braucht ihr so?“ (Unglaubwürdiger Dialog: Jonas ist hier aufgewachsen, er weiß, wie lange die Überfahrt über die Elbe dauert)",
+          "„Fahrpreis in die Dose“, sagte Ilse. [...] Er hatte immer bezahlt, wenn er kam. (Psychologisch unglaubwürdiges Klischee für Wortkargheit und Distanz zwischen Mutter und Sohn)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "Hinter Jonas wartete der Wagen mit den beiden Rädern auf dem Anhänger, die er wohl in Hitzacker abgestellt hatte, bevor er zum Anleger kam. (Vollkommener Unsinn: Wenn er den Wagen in Hitzacker abgestellt hat, kann dieser nicht hinter ihm am Anleger warten; zudem unsinniger Bezug des Relativpronomens 'die')",
+          "für einen Mann, der mit ihr auf einer Fähre stand. (Räumlicher Kontinuitätsbruch: Laut Startabsatz steht Jonas mit dem Koffer auf dem Anleger, nicht auf der Fähre; kurz darauf läuft Ilse mit ihm 'über die Bohlen zum kleinen Schuppen' an Land)",
+          "Ilse stellte die Kanne auf den Tisch. [...] Sie nahm eine Tasse, blies einmal hinein und trank einen Schluck (Handlungslogik: Zuvor wurde nur ein Wasserkessel aufgesetzt, es wurde nie Kaffee aufgebrüht, plötzlich steht eine fertige Kanne da)",
+          "gestellt den Emailkessel auf die Platte und drehte den Hahn auf. [...] Sie füllte Wasser ein, zündete den Kocher an (Reihenfolge komplett verdreht: Erst Kessel auf die Platte, dann Hahn auf, dann Tassen holen, dann erst Wasser einfüllen und Kocher anzünden)",
+          "„Du könntest wenigstens sagen, dass du gekommen bist“, sagte sie, ohne ihn anzusehen. „Ich bin gekommen.“ (Unfreiwillig komischer, inhaltsleerer Dialog)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3803,
+    "out": 1129,
+    "thinking": 0
+  },
+  "costUsd": 0.018896
+}

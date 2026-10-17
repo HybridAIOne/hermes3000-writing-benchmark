@@ -1,0 +1,93 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "Zwanzig Jahre hatte Sie nichts von ihr gehört (Rechtschreibfehler: 'sie' muss kleingeschrieben werden)",
+          "Drückte den Daumen in die Oberfläche. Die Kristalle knirschten leise, dann gab die Masse nach (Logikbruch: Zuvor hieß es, der Honig sei so fest, dass selbst ein Löffel darin wie 'festgewachsen' steckt und nicht nachgibt; mit dem bloßen Daumen lässt sich kristallisierter Honig dann erst recht nicht eindrücken)",
+          "ein Geruch, der irgendwo in ihr einen Raum öffnete, den sie seit Jahren verschlossen hielt (Abgegriffene Metapher am Schluss, erklärt das Gefühl, statt es zu zeigen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 5,
+        "stil": 3,
+        "aufgabe": 4,
+        "fehler": [
+          "die ihr immer an die Sonntage mit ihrer Mutter erinnert hatte (Grammatikfehler: 'erinnern an' verlangt den Akkusativ -> 'die sie immer ... erinnert hatte')",
+          "als wäre die Zeit im Flur einfach stehen geblieben, während draußen die Welt weitergerast war (Abgedroschenes Klischee, Verstoß gegen das Kitsch-Verbot)",
+          "wie eine Versammlung von gespenstischen Hügeln / Echo eines Lachens zu hören, das nicht von dieser Welt stammte (Genrefehler und Kitsch: Trivialer Schauerroman-Ton statt literarischer Prosa)",
+          "durch das rhythmische Ticken einer Uhr unterbrochen wurde, die eigentlich hätte stehen müssen (Unmotiviertes Schauer-Klischee ohne sinnlichen Mehrwert)",
+          "In der Mitte des Tisches, unbedeckt und fremd in dieser staubigen Ödnis, lag ein kleiner, tiefblauer Glasbecher. (Schiefe Bildlogik: Ein Becher steht für gewöhnlich; wenn er auf der Seite liegt, müsste das präziser beschrieben werden)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Unter dem Einsatz lag eine einzelne Gewürznelke [...] Auf dem Küchentisch lag ein kariertes Heft. Die letzte Seite war herausgerissen worden [...] Unter seinem Boden lag ein zweiter Schlüssel. (Leichte Überfrachtung: Statt eines einzelnen bedeutungstragenden Details werden gleich mehrere Rätsel-Requisiten wie in einem Krimi platziert)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "Das angelegte Detail ist das helle Rechteck mit dem Nagel: [...] Sag gern Bescheid, wenn du eine andere Tonlage [...] möchtest. (Schwerer Verstoß gegen die Textsorte: Meta-Kommentar und Dienstleister-Nachrede gehören nicht in einen literarischen Text)",
+          "Der Flur roch nach kaltem Rauch und dem süßen, flachen Staub verriegelter Räume [...] Stattdessen roch es nach nichts, das sie hätte benennen können (Direkter Selbstwiderspruch innerhalb desselben Absatzes: Erst benennt der Text den Geruch präzise als kalten Rauch und süßen Staub, zwei Sätze später ist er unbenennbar)",
+          "Sie fuhr mit dem Finger über die Kante: glatt, scharf, kein Staub. (Sinnlich unplausibel: Ein fehlendes Bild an einer Tapete hinterlässt einen Farbunterschied durch Lichteinfall, aber keine fühlbare, 'scharfe' Kante)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2733,
+    "out": 999,
+    "thinking": 0
+  },
+  "costUsd": 0.015456
+}

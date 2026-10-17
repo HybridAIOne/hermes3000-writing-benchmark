@@ -1,0 +1,17 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "Der Schnee fiel in dichten, lautlosen Flocken, als der Schlitten vor dem Sanatorium hielt. Elise stand am Fenster des Speisesaals und sah, wie der Mann ausstieg, den Kragen seines Lederreismantels hochgeschlagen, ein Notizbuch in der behandschuhten Hand. Der Passbote, vermummt bis an die Augen, reichte ihm eine Mappe und verschwand wieder in die weiße Wand, die sich hinter ihm schloss. \n\nFrau Goss schob eine Schüssel mit dampfendem Kohl durch die Tür und murmelte, ohne aufzublicken: „Der Sohn des Doktors. Über den Pass, wo keiner mehr durchkommt. Der will was über den alten Brand wissen.“\n\nElise spürte, wie sich etwas in ihr verschob, ein leises, metallisches Klicken, wie ein Schlüssel, der sich nicht drehen wollte. Sie hatte den Namen Vossberg bisher nur mit dem Chefarzt verbunden, mit der kühlen Stimme, die ihr das Vergessen als Medizin anbot. Nun stand der Sohn da, hager, das dunkle Haar vom Schnee befeuchtet, und blickte zum Gebäude auf, als suche er eine Stelle, an der es brüchig war.\n\nIm Korridor hörte sie die unregelmäßigen Schritte des Vaters, den Stock auf den Steinplatten. Dr. Vossberg blieb stehen, als er den Ankömmling sah. Keine Umarmung, kein Wort der Begrüßung. Nur das kurze Nicken zweier Männer, die sich in der Kälte begegneten.\n\n„Matthias“, sagte der Vater. Die Silbe klang wie ein Befehl, der zu spät kam.\n\n„Vater.“ Der Sohn zog die Handschuhe aus. Seine Hände waren rot von der Kälte. „Ich bleibe ein paar Tage. Die Papiere über den Brand von neunzehnzehn.“\n\nVossberg stützte sich schwerer auf den Stock. „Es gibt keine Papiere mehr. Du weißt das.“\n\n„Manche Dinge verschwinden nicht, nur weil man sie verbrennt.“\n\nElise trat einen Schritt zurück in den Schatten des Vorhangs. Der Atem des Sohnes stand weiß in der Luft zwischen den beiden Männern. Sie dachte an das silberne Medaillon unter ihrem Kleid, an die beiden Kinder auf dem kleinen Bild, und plötzlich erschien ihr der Name Konrad nicht mehr wie eine verschlossene Tür, sondern wie ein Name, den jemand absichtlich aus einem Register gestrichen hatte.\n\nIm Wintergarten, später, saß sie allein bei den beschlagenen Scheiben. Draußen bewegte sich nichts außer dem fallenden Schnee. Drinnen hörte sie das leise Klirren von Messing, als Schwester Marlene den Schlüsselbund ordnete. Elise schloss die Augen und sah für einen Augenblick nicht den Schlitten, der sie hergebracht hatte, sondern einen anderen Schlitten, der schneller fuhr, und eine Hand, die sich nach ihr ausstreckte. Die Erinnerung zerfaserte, bevor sie greifbar wurde.\n\nDer Sohn des Arztes hatte den Pass überquert, als der Schnee schon alles zudeckte. Das allein genügte, um den Verdacht aus dem Inneren nach außen zu lenken. Elise öffnete die Augen wieder. Auf dem Tisch vor ihr lag ein einzelnes, zerknittertes Blatt Papier, das der Wind durch ein undichtes Fenster hereingetrieben hatte. Es zeigte nur eine Ecke eines Grundrisses, auf dem der Ostflügel als leeres Rechteck markiert war.",
+  "usage": {
+    "in": 5319,
+    "out": 1135,
+    "thinking": 384
+  },
+  "costUsd": 0.00948625,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "latencyMs": 20448,
+  "meta": [],
+  "at": "2026-10-17T14:48:42.666Z"
+}

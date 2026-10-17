@@ -1,0 +1,98 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "„Jonas lässt sich fallen, nicht setzt sich.“ – Fehlerhafte Wortstellung. Gemeint wäre etwa: „Jonas setzt sich nicht, er lässt sich fallen.“",
+          "„Du hast recht.“ / „Mit was?“ / „Dass ich nichts will.“ – Der Anschluss ist nicht nachvollziehbar: Markus hatte selbst gesagt „Ich will nichts“, nicht Jonas diese Haltung zugeschrieben. Der Sprecherwechsel erzeugt keine produktive Mehrdeutigkeit, sondern Verwirrung.",
+          "„Siehst du besser aus.“ – Ohne weiteren sprachlichen Kontext wirkt diese Verberststellung unidiomatisch; weder eine klare Frage noch ein überzeugend formulierter Ausruf.",
+          "„Er hält den Moment, in dem er gehen könnte, fest.“ – Abstrakte Deutung statt knapper, spielbarer Regieanweisung. Ähnlich erklärend sind die Bilder vom „Ausweg“ und von der schweren Last.",
+          "„Was soll es noch sein?“, „Was soll ich sagen?“, „Mit was?“, „Alle?“, „Ich?“, „Was?“ – Die wiederholten Rückfragen ersetzen zunehmend eine Entwicklung der Begegnung. Der gegenüber den angepeilten 250 Wörtern deutlich ausgedehnte Text gewinnt dadurch kaum zusätzliche Spannung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ist bitterer geworden, das Leben.“ – Die Bitterkeitsmetapher erklärt die zuvor durch die veränderte Zuckermenge bereits verständliche Bedeutung. Der Zusatz schwächt den Subtext und klingt sentenziös.",
+          "„Manche Dinge ändern sich nicht.“ / „Andere schon.“ – Sehr vertraute Dialogformel; sie etabliert Spannung, gibt den Figuren aber noch keine eigene Stimme.",
+          "„rührt in der Tasse, obwohl kein Zucker darin ist“ und „eine Spur zu hart“ – Konventionelle Gesten zur Kennzeichnung innerer Unruhe. Funktional, aber für eine stilistisch eigenständige Buchfassung noch überarbeitungsbedürftig."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Also.“ / „Also.“ und „Gut.“ / „Gut.“ sowie die wiederholten „Ja.“ – Das stockende Gespräch wird zu häufig mit demselben Mittel gebaut. Statt unterschiedlicher Abwehrstrategien entsteht ein hörbares Wiederholungsmuster.",
+          "„Das Wetter meint es gut.“ und „Früher war vieles einfacher.“ – Austauschbare Gesprächsbausteine. Die gemeinsame Vergangenheit bleibt dadurch überwiegend behauptet, statt durch individuelle Details Kontur zu bekommen.",
+          "„Es ist nicht gut. Aber es ist jetzt so.“ – Benennt den beschädigten Zustand der Beziehung recht direkt. Die Spannung wird hier ausgesprochen, statt ausschließlich unter dem Gesagten zu liegen.",
+          "„Ich habe lange genug gewartet.“ – Die Übertragung vom heißen Kaffee auf die Beziehung ist sehr deutlich markiert. Der Schluss wirkt dadurch eher konstruiert als beiläufig entstanden."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Das Bier wird schal.“ – Anschlussproblem der Requisitenführung: Eingeführt sind zwei Wassergläser; Jonas lehnt Bier ausdrücklich ab. Ein bestelltes oder vorhandenes Bier, auf das Ben sich beziehen könnte, fehlt.",
+          "„Es ging nicht anders, Ben. Irgendwer musste die Entscheidung treffen.“ – Die Rechtfertigung einer damaligen Entscheidung bringt den Konflikt ausdrücklich ins Gespräch. Damit wird die Vorgabe des unausgesprochenen Konflikts erheblich abgeschwächt.",
+          "„Das Licht ist jetzt kälter.“ / „Man sieht die Dinge klarer.“ / „Oder man sieht einfach zu viel.“ – Drei aufeinanderfolgende symbolische Aussagen machen den Subtext demonstrativ. Die Figuren sprechen hier eher in arrangierten Bedeutungsbildern als miteinander.",
+          "„Keiner blinzelt.“ und „Auf das, was davon übrig ist.“ – Überhöhte Konfrontationsgeste und abgegriffene Schlussformel. Die gewünschte unterschwellige Spannung kippt ins demonstrativ Dramatische.",
+          "„Es… war viel Arbeit.“ und „Es… fühlt sich seltsam an.“ – Bei der Auslassung ganzer Wörter beziehungsweise einer Sprechpause muss zwischen dem vollständigen Wort und den Auslassungspunkten ein Leerzeichen stehen: „Es …“."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2489,
+    "out": 2123,
+    "thinking": 990
+  },
+  "costUsd": 0.026208
+}

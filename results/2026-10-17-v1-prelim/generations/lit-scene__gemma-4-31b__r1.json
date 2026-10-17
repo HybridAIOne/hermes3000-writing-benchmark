@@ -1,0 +1,17 @@
+{
+  "task": "lit-scene",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "text": "Der Schlüssel passte noch, doch das Schloss wehrte sich mit einem trockenen, metallischen Keuchen, als hätte es seit Jahrzehnten nicht mehr eingeatmet. Als die Tür aufschwang, schlug Clara nicht die Erinnerung entgegen, sondern ein Geruch: eine Mischung aus kaltem Kalk, abgestandenem Zeitungsdruck und jener spezifischen, süßlichen Note von verwelkten Nelken, die ihr immer an die Sonntage mit ihrer Mutter erinnert hatte.\n\nDas Haus stand in einem Zustand der Starre, als wäre die Zeit im Flur einfach stehen geblieben, während draußen die Welt weitergerast war. Staub tanzte in den schmalen Lichtstreifen, die durch die schweren, vergilbten Vorhänge drangen und den Boden in ein schmutziges Gold tauchten. Alles wirkte gedämpft, fast unter Wasser. Die Stille war nicht friedlich; sie war massiv, ein physischer Druck auf den Trommelfellen, der nur durch das rhythmische Ticken einer Uhr unterbrochen wurde, die eigentlich hätte stehen müssen.\n\nClara ging langsam in den Wohnraum. Die Möbel waren mit grauen Laken überzogen, wie eine Versammlung von gespenstischen Hügeln. Sie hielt den Atem an, während sie die Oberfläche des schweren Eichentisches berührte. In der Mitte des Tisches, unbedeckt und fremd in dieser staubigen Ödnis, lag ein kleiner, tiefblauer Glasbecher. Er war kaum größer als ein Fingerhut, doch er fing das Licht ein und warf einen scharfkantigen, saphirblauen Reflex an die gegenüberliegende Wand. \n\nSie erinnerte sich nicht an diesen Gegenstand. Er passte nicht in die strenge Geometrie ihrer Kindheit. Als sie die Hand ausstreckte, um ihn zu berühren, zitterte die Luft zwischen ihren Fingern, und für einen Moment glaubte sie, das ferne Echo eines Lachens zu hören, das nicht von dieser Welt stammte.",
+  "usage": {
+    "in": 84,
+    "out": 434,
+    "thinking": 0
+  },
+  "costUsd": 0.00019040000000000005,
+  "finish": "stop",
+  "reportedModel": "google/gemma-4-31b-it",
+  "latencyMs": 28835,
+  "meta": [],
+  "at": "2026-10-17T15:07:28.019Z"
+}

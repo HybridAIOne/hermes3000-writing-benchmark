@@ -1,0 +1,121 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ilse brachte die Fähre zurück in die Mitte und stellte den Hebel auf Leerlauf.“ — Grober sachlicher Fehler: Eine Fährfrau parkt ihre Fähre zum Teetrinken nicht mitten auf der Elbe in der Fahrrinne.",
+          "„Draußen setzte die Kette wieder an.“ — Logikbruch: Die Fähre steht im Leerlauf und Ilse macht Tee, warum sollte die Kette von selbst wieder anlaufen?",
+          "„Sie prüfte den Verschluss, dann die Leine, dann noch einmal den Verschluss.“ — Vage Platzhalterbegriffe; es fehlt das präzise handwerkliche Vokabular für eine Seilfähre.",
+          "„Es war, als hinge die Fähre an einem grauen Faden und sonst an nichts.“ — Abgegriffenes Bild, zudem wechselt der Text unentschlossen zwischen Kette, Tau und Seil.",
+          "Der Text bleibt mit rund 670 Wörtern deutlich unter der Zielvorgabe von etwa 900 Wörtern."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Sie löste die Leine, warf sie auf das Deck und stellte das Ruder schräg. Der Fluss fasste sofort zu.“ — Sachlich ungenau: Hier wird die Technik einer motorlosen Gierseilfähre beschrieben, obwohl zuvor ein Motor erwähnt wurde und die reale Fähre in Hitzacker anders funktioniert.",
+          "„Das Stahlseil verschwand nach beiden Seiten im Grau“ vs. „das Seil über ihr begann leise zu singen“ — Widersprüchliche Verortung des Seils im Raum.",
+          "„wartete, dass der Tag sich entschied, ob er einer werden wollte.“ — Etwas bemühte, leicht verkitschte Personifikation gleich im ersten Absatz.",
+          "Mit rund 670 Wörtern deutlich kürzer als die geforderten 900 Wörter."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "„Ein Name erschien nicht auf einem Display, nur das Klingeln [...] Jonas. Sie wusste es, ohne hinzusehen.“ — Verletzt die Vorgabe (c4) und die Logik: Auf einem alten, schwarzen Festnetztelefon ohne Display (noch dazu auf einer fahrenden Fähre) ist der Anrufer nicht erkennbar, Hellseherei passt nicht zum realistischen Setting.",
+          "„Am Anleger auf dieser Seite tauchte eine Gestalt auf [...] der Mann vom Markt, ein Stammgast“ — Verletzt die Vorgabe (c3) von genau drei Fahrgästen durch die Einführung eines vierten Fahrgasts.",
+          "„Nicht bei dem leeren Platz am Mittagstisch.“ — Plumpes Erklären statt Zeigen (Expositions-Holzhammer zur Witwenschaft).",
+          "„Ihre Hände arbeiteten automatisch, als hätten sie ein eigenes Gedächtnis.“ — Abgedroschene Phrase.",
+          "„die Hand noch immer an der Hosentasche, in der sie nicht nach dem Hörer gegriffen hatte.“ — Sprachlicher Unsinn: Der Hörer eines Festnetztelefons befindet sich nicht in ihrer Hosentasche."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c3",
+          "c4"
+        ]
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Unter seinem Namen lief die Zeit noch nicht.“ — Ungelenke, unidiomatische Formulierung für den Bildschirmstatus vor dem Annehmen eines Gesprächs.",
+          "„Die Überfahrt dauerte so lange, wie sie dauerte.“ — Flache Tautologie, die Tiefe nur behauptet.",
+          "Mit rund 650 Wörtern deutlich unter der Längenvorgabe von etwa 900 Wörtern."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Im dichten Nebel, in dem man eben noch das Ufer nicht sah: [...] und auf der anderen Seite wartete schon jemand mit einem Anhänger, der den Motor laufen ließ.“ — Schwerer Kontinuitäts- und Logikbruch: Der Nebel ist explizit so dicht, dass man das andere Ufer nicht sehen kann, plötzlich sieht sie dort Details.",
+          "„auf der anderen Seite wartete schon jemand“ — Bringt unnötig einen vierten Fahrgast ins Spiel (Grenzfall zu c3).",
+          "„Ihre Hände waren rot von der Kälte, obwohl sie Handschuhe hatte, sie trug sie nie.“ — Kommafehler (Run-on-Satz) und unlogische Aussage (warum hat sie Handschuhe, wenn sie sie nie trägt?).",
+          "„Das Gesicht war alt, es war ein Foto von vor Jahren“ — Semantischer Widerspruch: Auf einem Jahre alten Foto ist das Gesicht eines 34-Jährigen jünger, nicht alt; zudem erneuter Kommafehler (Satzreihe ohne Konjunktion).",
+          "„vorsichtig, als trüge es mehr Gewicht, als es trug.“ — Umständliche und leere Wortwiederholung (ebenso wie „weil sie es wusste, und weil es gut war, morgens etwas zu wissen“)."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "A",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 8542,
+    "out": 1405,
+    "thinking": 0
+  },
+  "costUsd": 0.031134
+}

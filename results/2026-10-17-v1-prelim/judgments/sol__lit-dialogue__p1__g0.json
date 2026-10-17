@@ -1,0 +1,117 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "D": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Sag ihr, ja.“: Das Komma ist hier nicht korrekt; die als Antwort gemeinte direkte Rede müsste entsprechend markiert werden, etwa: „Sag ihr: ‚Ja.‘“",
+          "„Manches ändert sich eben nicht.“: Abgegriffene Subtextformel; sie benennt die symbolische Funktion der unveränderten Tassen unnötig deutlich.",
+          "„Worin?“ – „Im Lassen.“: Die Nachfrage wirkt vor allem dafür gesetzt, eine pointierte Antwort zu ermöglichen.",
+          "„nicht auf Bens, aber in dessen Nähe“: Verständliches Versöhnungszeichen, allerdings ein vertrautes Bild für vorsichtige Wiederannäherung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„BEDIENUNG: Geht aufs Haus. Für Stammgäste.“: Die Bedienung erhält eine eigene Dialogrolle. Damit wird die Vorgabe eines Dialogs zwischen zwei Personen unnötig erweitert.",
+          "„Geht aufs Haus. Für Stammgäste.“: Das kostenlose Kuchenangebot wirkt als dramaturgische Hilfskonstruktion, die genau im benötigten Moment gemeinsame Vergangenheit und Annäherung bereitstellt.",
+          "„Sag das nicht.“ – „Was denn?“ – „„Wie früher.\"“: Die ausdrückliche Beanstandung der Wendung erklärt deren emotionale Sprengkraft stärker, als nötig wäre.",
+          "„„Wie früher.\"“: Innerhalb der Replik werden ein deutsches öffnendes und ein gerades schließendes Anführungszeichen kombiniert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 9,
+        "fehler": [
+          "„Manche Dinge ändern sich eben nicht.“ – „Manche Dinge schon.“: Sehr geläufige Gegensatzformel; der Konflikt wird schematisch signalisiert statt individuell erfahrbar.",
+          "„Aber das Telefon funktioniert in beide Richtungen.“: Abgegriffener Vorwurf, der die Verletzung vergleichsweise direkt ausspricht.",
+          "„Fang einfach dort an, wo es nicht wehtut.“: Auffällig geschliffener Sinnspruch; die Figur spricht hier eher eine literarische Pointe als eine spontane Antwort.",
+          "„Der Kaffee hier ist immer noch zu stark.“ – „Ich weiß. Ich bestelle ihn immer noch schwarz.“: Die Antwort greift die Stärke des Kaffees nicht präzise auf; die Verbindung entsteht hauptsächlich durch die Wiederholung von „immer noch“.",
+          "„Julian spielt mit der Serviette, reißt sie langsam in der Mitte durch.“: Konventionelles Nervositätssignal. Zusammen mit den zahlreichen Blick-, Pausen- und Sprechregien wird die Spannung etwas übermarkiert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Nimm sie mit.“ – „Ich bringe sie zurück.“: Die Mitnahme einer Cafétasse wird ohne Rückfrage oder sonstige Vorbereitung als selbstverständlich behandelt. Der symbolische Rückkehranlass geht hier zulasten der Alltagsp plausibilität.",
+          "„Manche Enden sind schlecht. Trotzdem schreibt jemand sie.“: Die Buchbesprechung wird zur demonstrativen Beziehungsmetapher; besonders die zweite Aussage wirkt für ihre Pointe konstruiert.",
+          "„Deine auch nicht. Sie hätte nur klingeln müssen.“: Die Telefonnummer übernimmt sprachlich die Funktion des Telefons. Das Bild ist verständlich, aber unpräzise und als Vorwurf sehr ausformuliert.",
+          "„Draußen bleibt Josef im Regen stehen und trinkt aus der Tasse.“: Das Schlussbild verstärkt die bereits etablierte Tassensymbolik noch einmal und wirkt dadurch arrangiert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Sie sieht auf die Uhr, obwohl sie es nicht eilig hat.“: Die Regieanweisung erklärt einen inneren Zustand, statt ihn durch beobachtbares Verhalten erschließbar zu machen.",
+          "„Früher hast du immer gesagt“, „Früher war das Fenster undicht“, „noch immer keinen Zucker“, „Das hast du früher auch nicht“: Vergangenheit und Veränderung werden wiederholt nach demselben Muster aufgerufen. Die Subtexttechnik wird dadurch sichtbar.",
+          "„Der alte war zu groß.“ – „Er hat dir immer gepasst.“ – „Das dachtest du.“: Der Mantel wird sehr gezielt zum Stellvertreter einer grundsätzlichen Fehleinschätzung; der Austausch wirkt stärker konstruiert als beiläufig.",
+          "„Ich hab’s gerade gesagt.“ – „Ja. Hast du.“: Die Schlussrepliken wiederholen lediglich die Unsicherheit der Einladung, statt die Beziehung noch einmal erkennbar zu verschieben."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "E",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2676,
+    "out": 2537,
+    "thinking": 1291
+  },
+  "costUsd": 0.030722
+}

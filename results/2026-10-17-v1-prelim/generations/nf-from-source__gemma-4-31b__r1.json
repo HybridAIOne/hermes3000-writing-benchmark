@@ -1,0 +1,17 @@
+{
+  "task": "nf-from-source",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "text": "Ein anschauliches Beispiel für das Prinzip einer Genossenschaft ist die Fährgenossenschaft Hitzacker eG. Ihre Gründung im Jahr 1953 zeigt bereits den Kern dieser Rechtsform: Als der Landkreis den Betrieb der Seilfähre eingestellt hatte, nahmen 41 Landwirte und Händler von beiden Elbufern die Sache selbst in die Hand. Das Ziel war nicht die Gewinnmaximierung, sondern die Sicherung einer wichtigen Verbindung über die 212 Meter breite Elbe.\n\nWie funktioniert eine solche Genossenschaft in der Praxis? Heute zählt der Verein 312 Mitglieder. Jeder von ihnen hält mindestens einen Anteil im Wert von 250 Euro. Entscheidend für die demokratische Struktur ist, dass jedes Mitglied in der Generalversammlung eine Stimme besitzt – und zwar unabhängig davon, wie viele Anteile die Person hält.\n\nDie finanzielle Logik unterscheidet sich grundlegend von einer Aktiengesellschaft. Die Einnahmen setzen sich aus Fahrkartenverkäufen und einem Gemeindezuschuss zusammen – im Jahr 2024 betrug der Umsatz insgesamt 186.000 Euro. Doch anstatt Überschüsse an die Mitglieder auszuschütten, fließen diese in eine Rücklage für die Erneuerung der Fähre. So wird gemeinsam für die Zukunft investiert: Die Rücklage soll bis 2031 ausreichen, um den derzeitigen 85-kW-Dieselmotor durch einen Elektroantrieb zu ersetzen.\n\nFür den Betrieb der Fähre ist die Genossenschaft die ideale Rechtsform, da sie den gemeinsamen Nutzen in den Vordergrund stellt. Die Fähre befördert jährlich rund 64.000 Personen, wobei im Sommer vor allem Radfahrer auf dem Elberadweg die siebenminütige Überfahrt nutzen. Durch die genossenschaftliche Organisation bleibt die Infrastruktur erhalten, weil die Nutzer und lokalen Akteure gemeinsam Verantwortung übernehmen und die Mittel direkt wieder in den Erhalt des Betriebes investieren.",
+  "usage": {
+    "in": 439,
+    "out": 418,
+    "thinking": 0
+  },
+  "costUsd": 0.000255,
+  "finish": "stop",
+  "reportedModel": "google/gemma-4-31b-it",
+  "latencyMs": 18267,
+  "meta": [],
+  "at": "2026-10-17T15:09:17.131Z"
+}

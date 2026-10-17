@@ -1,0 +1,16 @@
+{
+  "task": "ctx-saltzbrueck-5",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 2176,
+    "out": 25,
+    "thinking": 0
+  },
+  "costUsd": 0.004602
+}

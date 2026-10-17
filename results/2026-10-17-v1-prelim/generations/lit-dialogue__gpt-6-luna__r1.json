@@ -1,0 +1,17 @@
+{
+  "task": "lit-dialogue",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "[Ein Café. Mara sitzt am Fenster. Jonas bleibt kurz an ihrem Tisch stehen.]\n\n**Mara:** Du hast den Platz gefunden.\n\n**Jonas:** Der ist schwer zu übersehen.\n\n**Mara:** Früher hast du immer gesagt, ich sitze zu nah am Fenster.\n\n**Jonas:** Früher war das Fenster undicht.\n\n**Mara:** Ist es immer noch.\n\n**Jonas:** Dann hat sich wenigstens etwas nicht verändert.\n\n[Er setzt sich. Sie rückt ihre Tasse ein Stück zur Seite.]\n\n**Mara:** Kaffee?\n\n**Jonas:** Schwarz.\n\n**Mara:** Ich weiß.\n\n**Jonas:** Das dachte ich mir.\n\n[Sie lächelt, aber nur kurz.]\n\n**Mara:** Du siehst müde aus.\n\n**Jonas:** Du auch.\n\n**Mara:** Ich schlafe inzwischen besser.\n\n**Jonas:** Gut.\n\n**Mara:** Meistens.\n\n**Jonas:** Natürlich.\n\n[Eine Bedienung stellt den Kaffee ab. Jonas bedankt sich, ohne aufzusehen.]\n\n**Mara:** Du nimmst noch immer keinen Zucker.\n\n**Jonas:** Du hast ihn schon bestellt.\n\n**Mara:** Ich wollte nicht raten müssen.\n\n**Jonas:** Das hast du früher auch nicht.\n\n**Mara:** Nein.\n\n[Stille. Draußen fährt ein Bus vorbei.]\n\n**Jonas:** Dein Mantel ist neu.\n\n**Mara:** Der alte war zu groß.\n\n**Jonas:** Er hat dir immer gepasst.\n\n**Mara:** Das dachtest du.\n\n**Jonas:** Vielleicht.\n\n[Mara dreht den Löffel zwischen den Fingern.]\n\n**Mara:** Wie geht’s deiner Mutter?\n\n**Jonas:** Sie fragt manchmal nach dir.\n\n**Mara:** Und was sagst du?\n\n**Jonas:** Dass du beschäftigt bist.\n\n**Mara:** Das stimmt ja meistens.\n\n**Jonas:** Ja.\n\n[Er trinkt. Sie sieht auf die Uhr, obwohl sie es nicht eilig hat.]\n\n**Mara:** Wir könnten irgendwann wieder hierherkommen.\n\n**Jonas:** Wenn du möchtest.\n\n**Mara:** Ich hab’s gerade gesagt.\n\n**Jonas:** Ja. Hast du.\n\n[Beide bleiben sitzen.]",
+  "usage": {
+    "in": 64,
+    "out": 688,
+    "thinking": 229
+  },
+  "costUsd": 0.00035039999999999995,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "latencyMs": 7442,
+  "meta": [],
+  "at": "2026-10-17T14:51:11.555Z"
+}

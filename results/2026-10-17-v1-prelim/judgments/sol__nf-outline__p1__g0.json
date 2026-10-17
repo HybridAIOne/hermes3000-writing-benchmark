@@ -1,0 +1,108 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "B": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Die Abgrenzung zwischen „Feedback, das ankommt“ mit „im Alltag lobst und korrigierst“ und „Schwierige Gespräche führen“ mit „Vom Kritikgespräch“ bleibt unscharf: Kritikgespräche können zu beiden Kapiteln gehören.",
+          "„Welche Fachaufgaben du ab jetzt abgibst“ in Kapitel 2 nimmt einen Teil von Kapitel 4 vorweg: „Wie du Aufgaben mitsamt der Verantwortung übergibst“. Rollenklärung und praktische Aufgabenübergabe sollten deutlicher getrennt werden.",
+          "„Prioritäten setzt“ ist im Kapitel „Abgeben, ohne dass alles an dir hängen bleibt“ nur mit untergebracht; Priorisierung und Delegation sind unterschiedliche Führungsaufgaben."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Wer was von dir erwartet, welche Entscheidungen sofort nötig sind“ in Kapitel 1 überschneidet sich mit „wofür du wirklich zuständig bist, was du allein entscheiden darfst“ in Kapitel 3. Die erste Orientierung und die anschließende Rollenklärung sind noch nicht deutlich genug abgegrenzt.",
+          "„Lob und Kritik“ in Kapitel 5 und „Konflikte, Fehler, Versäumnisse“ in Kapitel 6 überschneiden sich. Es fehlt eine erkennbare Schwelle zwischen alltäglicher Rückmeldung und einem ausdrücklich schwierigen Gespräch."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Arbeit so zu übergeben, dass sie erledigt wird“ in Kapitel 4 und „formulierst Aufträge verständlich“ in Kapitel 5 behandeln beide die Aufgabenübertragung. Die Kapitel brauchen eine schärfere Zuständigkeitsgrenze.",
+          "„Was Geschäftsführung, Team und du selbst von dir erwarten“ sowie „Erwartungen […], die sich widersprechen“ in Kapitel 2 greifen bereits die Vermittlungsrolle aus „Zwischen den Stühlen“ auf. Die Unterscheidung zwischen anfänglicher Auftragsklärung und späterem Interessenausgleich sollte ausdrücklich werden.",
+          "„Dieses Kapitel zeigt dir“ ist eine entbehrliche Metaformulierung: Statt den Inhalt unmittelbar zu benennen, kündigt der Satz seine Vermittlung an."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Zehnst“ in „nicht an der Substanz zehnst“ ist falsch; richtig ist „zehrst“.",
+          "„Deine Rolle so führst“ ist keine idiomatische Verbindung. Eine Rolle wird ausgefüllt oder gestaltet; geführt wird beispielsweise ein Team.",
+          "„Die Zusammenarbeit nicht zerreibst“ ist eine schiefe Wortverbindung. Gemeint ist vermutlich, die Zusammenarbeit nicht zu beschädigen.",
+          "„Abläufe für Aufgaben“ in Kapitel 3 und „verteilst Aufgaben“ in Kapitel 7 lassen offen, welches Kapitel die Aufgabenverteilung und Delegation tatsächlich behandelt. Ein grundlegendes Führungswerkzeug erscheint dadurch spät und ohne klare Abgrenzung.",
+          "„Welche Entscheidungen du selbst triffst“ wird erst in Kapitel 4 geklärt, nachdem bereits der Arbeitsalltag organisiert wurde. Für den geforderten aufbauenden Verlauf sollten Entscheidungsbefugnisse vor der Gestaltung von Abläufen feststehen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "A",
+      "C",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2648,
+    "out": 1681,
+    "thinking": 727
+  },
+  "costUsd": 0.022106
+}

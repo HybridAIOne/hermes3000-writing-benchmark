@@ -1,0 +1,92 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„um die Verbindung selbst weiterzuführen, die bei normalem Wasserstand eine Überfahrt in sieben Minuten ermöglicht“: Der nachgestellte Relativsatz ist schwerfällig, und sein Bezug auf „Verbindung“ ist unklar.",
+          "„Warum diese Rechtsform ideal für den Fährbetrieb ist“: Das ist eine Überhöhung; die Aufgabe fragt nach „passend“.",
+          "„Das Grundprinzip dieser Rechtsform beruht auf gemeinschaftlicher Beteiligung und Demokratie“: abstrakter Einstieg mit Schlagwortcharakter.",
+          "„Diese Ausrichtung auf den langfristigen Erhalt statt auf schnelle Gewinnverteilung sichert die notwendige Modernisierung der Technik.“: nominal und behauptend, wenig anschaulich.",
+          "„Stattdessen fließt das Geld vollständig in eine Rücklage“: „vollständig“ ist eine Zuspitzung, die die Quelle so nicht formuliert."
+        ],
+        "unsupported": [
+          "„fließt das Geld vollständig in eine Rücklage“ (das Wort „vollständig“ steht nicht in der Quelle)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Heute zählt der Verein 312 Mitglieder.“: Sachlich falsch, denn eine eG ist kein Verein. Das ist für Leser ohne Vorwissen irreführend.",
+          "„um den derzeitigen 85-kW-Dieselmotor durch einen Elektroantrieb zu ersetzen“: Die Quelle spricht nur vom Einbau eines Elektroantriebs.",
+          "„weil die Nutzer und lokalen Akteure gemeinsam Verantwortung übernehmen“: Dass Nutzer Mitglieder sind, steht nicht in der Quelle; „Akteure“ ist zudem Jargon.",
+          "„Das Ziel war nicht die Gewinnmaximierung, sondern die Sicherung einer wichtigen Verbindung“: Das ist eine Deutung der Gründungsmotive, die nicht belegt ist.",
+          "„Für den Betrieb der Fähre ist die Genossenschaft die ideale Rechtsform“: Die Begründung bleibt allgemein und überhöht."
+        ],
+        "unsupported": [
+          "„der Verein“ (falsche Rechtsformbezeichnung)",
+          "„den derzeitigen 85-kW-Dieselmotor durch einen Elektroantrieb zu ersetzen“",
+          "„Das Ziel war nicht die Gewinnmaximierung“",
+          "„weil die Nutzer und lokalen Akteure gemeinsam Verantwortung übernehmen“"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„denn die Verbindung über den 212 Meter breiten Fluss brauchten sie für ihre Arbeit“: Diese Begründung für die Gründung ist erfunden.",
+          "„Eine Fähre, die ihren Nutzern gehört“: Die Überschrift setzt Nutzer und Mitglieder gleich, das gibt die Quelle nicht her.",
+          "„Die Rücklage soll bis 2031 reichen … Bis 1978 bewegte noch die Strömung die Fähre allein“: Der Zeitsprung zurück wirkt in der Abfolge unruhig.",
+          "„Die Genossenschaft passt hier, weil sie nicht auf Gewinn zielt“: Der Schluss ist knapp und begründet die Eignung zu dünn.",
+          "„die keinem Konzern und keiner Behörde gehört, sondern 312 Menschen“: „Menschen“ ist eine Präzisierung, die über die Quelle („Mitglieder“) hinausgeht."
+        ],
+        "unsupported": [
+          "„die Verbindung … brauchten sie für ihre Arbeit“",
+          "„Eine Fähre, die ihren Nutzern gehört“",
+          "„gehört … 312 Menschen“ (Quelle nennt nur Mitglieder)"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 4896,
+    "out": 2743,
+    "thinking": 1243
+  },
+  "costUsd": 0.074444
+}

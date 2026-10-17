@@ -1,0 +1,76 @@
+{
+  "task": "nf-from-source",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "B": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "Fachlicher Fehler/Begriffsunschärfe: \"Heute zählt der Verein 312 Mitglieder.\" (Eine eingetragene Genossenschaft eG ist rechtlich kein Verein – gerade in einem einführenden Sachbuch für Laien fatal).",
+          "Unbelegte Annahme im Text: \"um den derzeitigen 85-kW-Dieselmotor durch einen Elektroantrieb zu ersetzen.\" (Das Quellmaterial spricht nur davon, einen Elektroantrieb einzubauen, nicht zwingend vom Ausbau/Ersatz des Dieselmotors)."
+        ],
+        "unsupported": [
+          "Heute zählt der Verein 312 Mitglieder. (Widerspruch zur Rechtsform eG)",
+          "um den derzeitigen 85-kW-Dieselmotor durch einen Elektroantrieb zu ersetzen. (Quelle sagt nur \"Elektroantrieb einzubauen\")"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 7,
+        "fehler": [
+          "Präpositionsfehler (aus dem Quellmaterial ungeprüft übernommen): \"aus beiden Elbufern\" statt korrekt \"von beiden Elbufern\".",
+          "Struktureller Mangel am Textende: \"Die Fähre überquert die Elbe an einer Stelle, an der der Fluss 212 Meter breit ist [...] bis 1978 bewegte die Strömung die Fähre allein.\" (Die technischen Daten aus dem Quellmaterial wurden völlig zusammenhanglos ans Ende gehängt, statt den Text abzurunden).",
+          "Stilistisch unselbstständig: Fast alle Sätze sind wortwörtlich aus dem Quellmaterial kopiert und nur minimal umgestellt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Präpositionsfehler (aus dem Quellmaterial übernommen): \"aus beiden Elbufern\" statt korrekt \"von beiden Elbufern\".",
+          "Leichte Überdehnung der Fakten: \"braucht eine Trägerschaft, die den Nutzern selbst gehört.\" (Im Sommer sind die Nutzer vor allem Radfahrer auf dem Elberadweg, also Touristen, denen die Genossenschaft nicht gehört)."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2643,
+    "out": 650,
+    "thinking": 0
+  },
+  "costUsd": 0.011786
+}

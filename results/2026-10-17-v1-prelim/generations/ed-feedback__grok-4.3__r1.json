@@ -1,0 +1,17 @@
+{
+  "task": "ed-feedback",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "1. „Ilse stellt den Motor an“ – Die Verbform steht im Präsens, während der gesamte Text im Präteritum erzählt wird.\n\n2. „Ich hatte diesen Moment immer gemocht, dachte sie“ – Die personale Erzählsituation wird durch die plötzliche Verwendung der ersten Person für Ilse durchbrochen.\n\n3. „Der Junge mit den Kopfhörern tippte auf seinem Handy“ – Die Erwähnung eines Handys steht im Widerspruch zur dargestellten Zeit (Pferdewagen „wie jeden Morgen seit dem Krieg“).",
+  "usage": {
+    "in": 487,
+    "out": 884,
+    "thinking": 760
+  },
+  "costUsd": 0.00281875,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "latencyMs": 10007,
+  "meta": [],
+  "at": "2026-10-17T14:54:43.229Z"
+}

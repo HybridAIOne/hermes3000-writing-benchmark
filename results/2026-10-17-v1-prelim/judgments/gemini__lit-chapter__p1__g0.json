@@ -1,0 +1,117 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "Neben ihm saß sein Hund auf dem nassen Holz, einen Schäferhundmischling mit grauer Schnauze, der nicht einmal den Kopf hob. (Grammatikfehler: Akkusativ statt Nominativ 'ein Schäferhundmischling')",
+          "Um sechs Uhr zwölf hatte sie abgelegt. [...] Jetzt, kurz vor sieben, war die Welt auf die Länge des Decks zusammengeschrumpft [...] Noch etwa vier Minuten. (Massiver Logikbruch: Eine Überfahrt über die Elbe dauert wenige Minuten, hier ist die Fähre bereits über eine Dreiviertelstunde unterwegs)",
+          "Das Seil lief durch ihre Hände, kalt und feucht (Sachlicher Unsinn: Ein Stahlseil einer Autofähre lässt man nicht mit bloßen Händen durchlaufen, und man zieht eine Autofähre auch nicht von Hand am Seil über die Elbe)",
+          "Auf dem Display stand ein Name, das wusste sie, ohne nachzusehen, und sie wusste auch, um welche Uhrzeit er anrief, und dass er um diese Uhrzeit in München schon im Büro saß (Verletzung von c4/Perspektive: Der Name 'Jonas' fällt nie, und da sie nicht aufs Display schaut, kann sie in personaler Perspektive auch nicht sicher wissen, wer anruft)"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 3,
+        "fehler": [
+          "der Motor der kleinen Dieselmachine tuckerte (Rechtschreibfehler: 'Dieselmachine' statt 'Dieselmaschine')",
+          "Auf halbem Weg vibrierte das Telefon in ihrer Jackentasche. Sie zog es nicht heraus. Es klingelte weiter, zweimal, dreimal. Dann war es still. (Verletzung der Vorgabe c4: Es wird mit keinem Wort erwähnt, dass der Anruf von Jonas kommt)",
+          "Das Wasser schlug leise gegen die hölzernen Kufen (Wortwahl/Sachfehler: Schlitten und Helikopter haben Kufen, Fähren haben einen Rumpf oder Pontons)",
+          "Ilse löste das Seil von der Verankerung und zog die Fähre langsam vom Ufer. (Sachlicher Unsinn: Eine Seilfähre ist fest mit dem Seil verbunden, man löst nicht das Seil von der Verankerung am Ufer und zieht das Boot von Hand)"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Sie sah es an dem grünen Streifen am Pfahl, ohne hinzusehen. (Stilblüte/Paradoxon: Man kann etwas nicht sehen, ohne hinzusehen)",
+          "Dann fand er ein Zweieurostück und zwei Zehncentmünzen und hielt sie ihr hin, und Ilse nahm sie und sagte nichts davon, dass es für Fußgänger nur einen Euro fünfzig kostete. Sie gab ihm siebzig Cent zurück. (Logikfehler: Wenn es 1,50 Euro kostet, warum gibt er 2,20 Euro hin? Und wenn sie ihm 70 Cent Wechselgeld gibt, erfährt er doch sofort, dass es nur 1,50 Euro kostet)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "rückte den Haken zurecht, an dem nichts hing. (Logik-/Vorstellungsfehler: Einen Kleiderhaken an der Wand rückt man nicht einfach so zurecht)",
+          "Drei Überfahrten, drei Fahrgäste. (Leichte Dehnung der Aufgabenstellung: Statt einer Szene mit drei Fahrgästen auf der Fähre werden drei separate Überfahrten im Zeitraffer erzählt, was den Dialog stark fragmentiert)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "Sie blickte auf die Uhr über der Instrumententafel: sieben Uhr achtundzwanzig. [...] Es war acht Uhr fünfunddreißig in München. (Massiver Logikbruch: Die Überfahrt dauert wenige Minuten, und München liegt in derselben Zeitzone wie Hitzacker)",
+          "Dann hob sie die Münze auf, griff in die Tasche ihrer Lederweste, zog fünfzig Cent heraus und drückte beides in die behandschuhte Hand der Referendarin. (Logikbruch: Wenn Ilse ihr die 2-Euro-Münze UND 50 Cent gibt, schenkt sie der Kundin 50 Cent, statt 1,50 Euro zu kassieren)",
+          "Das Führungsseil über ihren Köpfen straffte sich, Wassertropfen sprühten davon ab wie feiner Staub, als die Laufkatze mit einem trockenen Rasseln Fahrt aufnahm. (Technischer Widerspruch und geografischer Fehler: Eine Hochseil-/Gierseilfähre hat kein 'Fährseil am Rumpf' mit einer 'Haspel', und auf der breiten Elbe mit Schiffsverkehr sind Hochseile unmöglich)",
+          "Die Neue an der Grundschule drüben in Dömitz [...] auf den Deichen der mecklenburgischen Seite (Geografischer Fehler: Die Fähre Hitzacker fährt nach Bitter/Amt Neuhaus in Niedersachsen; Dömitz liegt über 15 Kilometer stromaufwärts)",
+          "Die Referendarin fingerte mit klammen Fingern (Unschöne Wortwiederholung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "E",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 8030,
+    "out": 1471,
+    "thinking": 0
+  },
+  "costUsd": 0.03077
+}

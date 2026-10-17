@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-7",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 3587,
+    "out": 231,
+    "thinking": 214
+  },
+  "costUsd": 0.018968
+}

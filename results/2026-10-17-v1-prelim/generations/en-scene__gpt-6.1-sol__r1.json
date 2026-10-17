@@ -1,0 +1,17 @@
+{
+  "task": "en-scene",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "At four, Mara went to the chapel because the staff room microwave had burned another container of rice.\n\nA man sat in the second row, holding a paper cup between his knees. His coat was folded beside him. He had the tired, recently shaved look of someone who had expected to be home by now.\n\nShe stopped at the little table of leaflets.\n\n“You can turn the light on, Mara,” he said.\n\nHer badge was in her pocket. She had put it there after a confused patient kept pulling at the cord.\n\n“Do I know you?”\n\n“No.”\n\nThe switch was beside her hand. She left it alone.\n\n“Are you waiting for someone?”\n\nHe rubbed his thumb along the cup’s seam. “They told me to wait somewhere.”\n\n“Which ward?”\n\n“I’ve got it written down.”\n\nHe made no move to find the paper.\n\nMara could hear a trolley passing beyond the chapel doors: one wheel clicking at regular intervals. She had twelve minutes left of her break. In her pocket, beneath the badge, was a biscuit she had taken from a patient’s supper tray with his permission.\n\nShe sat across the aisle.\n\n“How did you know my name?”\n\n“I heard someone call you that. Downstairs.”\n\nIt was possible. She had been downstairs twice.\n\nShe took out the biscuit and offered it. He shook his head, then changed his mind.\n\nWhen he opened the wrapper, a few crumbs fell onto his coat. He picked them off individually and collected them in the hollow of his palm.",
+  "usage": {
+    "in": 59,
+    "out": 385,
+    "thinking": 72
+  },
+  "costUsd": 0.003968,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "latencyMs": 15869,
+  "meta": [],
+  "at": "2026-10-17T14:50:37.174Z"
+}

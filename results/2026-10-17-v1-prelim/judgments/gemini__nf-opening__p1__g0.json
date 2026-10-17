@@ -1,0 +1,101 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "B": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "D": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Sie sind schwierig, weil wir Angst haben, etwas kaputtzumachen. Vor der Stimmung. Vor der Reaktion. (Satzbruch im Anschluss: Man hat Angst *davor*, etwas kaputtzumachen, aber die Ellipsen knüpfen mit 'Vor' an das Nomen 'Angst' an – grammatisch schief)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "versuchen, das Gespräch durch eine technische Diskussion über ein aktuelles Projekt zu lenken. (Unidiomatisch/unvollständig: 'durch ... in eine andere Richtung zu lenken' oder 'auf eine ... zu lenken')",
+          "musst du Markus in dein Büro rufen ... die Beziehung zu deinem Mitarbeiter (Widerspricht dem Buchtitel 'Führen ohne Titel', da hier klassische disziplinarische Vorgesetzten-Macht vorausgesetzt wird)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Montagmorgen, 8:17 Uhr. ... Gestern sollte eine Rückmeldung kommen (Sachliche Unplausibilität im Büroalltag: 'Gestern' wäre Sonntag gewesen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Draußen regnet es, drinnen ist es still. Nur das Klackern der Tastaturen ist zu hören. (Belletristische Füllsätze, unpassend für ein praxisnahes Sachbuch)",
+          "Markus schaut hoch. Jetzt musst du etwas sagen. (Aufgabe nur teilweise erfüllt: Es ist eine reine Szene ohne Überleitung zum Kapitelthema eines Sachbuchs)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "A",
+      "C",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2691,
+    "out": 655,
+    "thinking": 0
+  },
+  "costUsd": 0.011932
+}

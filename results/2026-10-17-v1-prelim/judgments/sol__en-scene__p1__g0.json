@@ -1,0 +1,108 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "D": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„She said you had cold hands and apologized every time.“ Der Bezug von „apologized“ ist missverständlich: Die Satzkonstruktion legt zunächst nahe, dass die Frau sich entschuldigte; gemeint ist offenbar Ruth.",
+          "„the way they did every morning at four-thirty, though she had never before stayed long enough to watch“: Der erklärende Nachsatz überlädt das ansonsten tragfähige Schlussbild."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„I was waiting.“ / „For someone?“ / „I’m not sure.“ und später „You know my name“ / „Yes.“: Die wiederholt ausweichenden Antworten erzeugen vor allem künstlichen Informationsentzug. Der Fremde bleibt eher Rätselvorrichtung als konkrete Figur.",
+          "„A thin strip of dawn lay across his shoes.“ Das geforderte Schlussbild ist vorhanden, wirkt aber als vertraute literarische Lichtsetzung wenig eigenständig.",
+          "„She touched it without thinking.“ Eine routinierte Reaktionsformel, die den ohnehin verständlichen Griff zum verborgenen Namensschild zusätzlich erklärt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„a waiting room for the inevitable“: Eine abgegriffene Todesumschreibung, die Bedeutung ausdrücklich vorgibt statt sie aus der Szene entstehen zu lassen. Das widerspricht der verlangten Zurückhaltung und Klischeefreiheit.",
+          "„he smelled faintly of ozone and old paper“: Aufgeladenes, wenig situativ begründetes Duftarrangement; es signalisiert konventionelle Unheimlichkeit.",
+          "„She froze.“ und „His eyes were a flat, washed-out grey.“: Vertraute Spannungsbausteine ersetzen eine individuell beobachtete Reaktion beziehungsweise Charakterisierung.",
+          "„as if her name were a word he had been rehearsing for a long time“: Der Vergleich behauptet eine bedeutungsvolle Vorgeschichte, ohne dafür einen konkreten wahrnehmbaren Anhaltspunkt zu liefern.",
+          "„leaving the stone to catch the dim, amber light of the sanctuary lamp“: Der eigens eingeführte Stein wirkt als bedeutungsschweres Schlussrequisit; das Bild ist stärker inszeniert als aus der Begegnung entwickelt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„though no one had been in all night“: Die eng an Marisol gebundene Erzählung behauptet hier ein Wissen über die Kapelle, dessen Grundlage nicht erkennbar ist.",
+          "„She could have asked. She’d been a nurse eleven years; she knew how to ask.“ Die anschließende Aufzählung von Stationsreizen begründet nur schwach, warum sie die auffällige Namenskenntnis des Fremden vollständig übergeht. Die Zurückhaltung wirkt dadurch etwas arrangiert.",
+          "„hands folded. Not praying. Just folded.“ und „folded her own hands, not praying either“: Die ausdrückliche Wiederaufnahme erläutert die Parallele stärker als nötig; die gemeinsame Haltung hätte sie bereits vermittelt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "A",
+      "D",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2031,
+    "out": 1686,
+    "thinking": 769
+  },
+  "costUsd": 0.020922
+}

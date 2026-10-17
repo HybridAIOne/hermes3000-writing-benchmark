@@ -1,0 +1,19 @@
+{
+  "task": "nf-from-source",
+  "model": "claude-opus-5.5",
+  "run": 1,
+  "text": "## Gemeinsam über den Fluss: die Fährgenossenschaft Hitzacker\n\nWie eine Genossenschaft funktioniert, lässt sich an einer kleinen Fähre über die Elbe gut zeigen. Im Jahr 1953 stellte der Landkreis den Betrieb der Seilfähre bei Hitzacker ein. Daraufhin schlossen sich 41 Landwirte und Händler von beiden Elbufern zusammen und gründeten die Fährgenossenschaft Hitzacker eG. Das Kürzel „eG“ steht für „eingetragene Genossenschaft“.\n\nDie Fähre selbst ist ein überschaubarer Betrieb. Sie hängt an einem Führungsseil und überquert die Elbe an einer Stelle, an der der Fluss 212 Meter breit ist. Bei normalem Wasserstand dauert eine Überfahrt sieben Minuten. Bis 1978 bewegte allein die Strömung die Fähre, heute treibt sie ein 85-kW-Dieselmotor an. Rund 64.000 Personen setzt sie jedes Jahr über, im Sommer vor allem Radfahrer auf dem Elberadweg.\n\nGetragen wird die Fähre von ihren Mitgliedern, heute sind es 312. Wer Mitglied wird, erwirbt mindestens einen Anteil zu 250 Euro. Entscheidend ist, wie abgestimmt wird: In der Generalversammlung hat jedes Mitglied genau eine Stimme, ganz gleich, wie viele Anteile es besitzt. Anders als bei einem Unternehmen, in dem mehr Kapital auch mehr Einfluss bedeutet, zählt hier jede Person gleich viel.\n\nAuch beim Geld zeigt sich der Unterschied. Im Jahr 2024 nahm die Genossenschaft 186.000 Euro ein, 71 Prozent davon aus dem Verkauf von Fahrkarten und 29 Prozent aus einem Zuschuss der Gemeinde. Bleibt ein Überschuss, wird er nicht an die Mitglieder ausgeschüttet. Er fließt stattdessen in eine Rücklage für die Erneuerung der Fähre. Bis 2031 soll diese Rücklage ausreichen, um einen Elektroantrieb einzubauen.\n\nWarum passt diese Rechtsform so gut? Das Ziel der Fährgenossenschaft ist nicht, Gewinn zu erzielen. Sie soll die Verbindung zwischen den Ufern erhalten. Viele Menschen tragen mit kleinen Beträgen dazu bei, niemand kann allein bestimmen, und jeder erwirtschaftete Euro bleibt im Betrieb. So sichert die Genossenschaft die Zukunft der Fähre.",
+  "usage": {
+    "in": 780,
+    "out": 1719,
+    "thinking": 723
+  },
+  "costUsd": 0.0375,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "latencyMs": 17945,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T14:52:12.328Z"
+}

@@ -1,0 +1,135 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Heute zählt der Verein 312 Mitglieder.“ – Eine eingetragene Genossenschaft ist kein Verein. Die falsche Rechtsformbezeichnung ist gerade in diesem Erklärtext ein erheblicher Sachfehler.",
+          "„Die finanzielle Logik unterscheidet sich grundlegend von einer Aktiengesellschaft.“ – Der pauschale Vergleich wird weder erklärt noch belegt. Auch Aktiengesellschaften können Überschüsse für Investitionen zurückbehalten.",
+          "„Das Ziel war nicht die Gewinnmaximierung“ – Der Text schreibt den Gründern eine konkrete wirtschaftliche Zielsetzung zu, die das Material nicht nennt.",
+          "„weil die Nutzer und lokalen Akteure gemeinsam Verantwortung übernehmen“ – Dass die Mitglieder zugleich Nutzer der Fähre sind, geht aus der Quelle nicht hervor.",
+          "„die siebenminütige Überfahrt“ – Die Angabe wird ohne die sachlich relevante Einschränkung „bei normalem Wasserstand“ übernommen."
+        ],
+        "unsupported": [
+          "„Heute zählt der Verein 312 Mitglieder.“ – Die Quelle bezeichnet die Organisation als Genossenschaft, nicht als Verein.",
+          "„Das Ziel war nicht die Gewinnmaximierung“ – Eine solche Zielsetzung wird nicht ausdrücklich angegeben und folgt auch nicht zwingend aus dem Verzicht auf Ausschüttungen.",
+          "„Die finanzielle Logik unterscheidet sich grundlegend von einer Aktiengesellschaft.“ – Dieser konkrete Vergleich ist durch das Material nicht gedeckt.",
+          "„im Sommer vor allem Radfahrer auf dem Elberadweg die siebenminütige Überfahrt nutzen“ – Eine uneingeschränkte Überfahrtsdauer von sieben Minuten ist nicht belegt; die Quelle bindet sie an normalen Wasserstand.",
+          "„weil die Nutzer und lokalen Akteure gemeinsam Verantwortung übernehmen“ – Eine Beteiligung der Fahrgäste an der Trägerschaft ist nicht angegeben."
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„Das Ziel der Fährgenossenschaft ist nicht, Gewinn zu erzielen.“ – Nichtausschüttung und Verzicht auf Gewinnerzielung sind verschiedene Dinge. Die Quelle nennt ausdrücklich Überschüsse als Mittel zur Rücklagenbildung.",
+          "„jeder erwirtschaftete Euro bleibt im Betrieb“ – Belegt ist nur die vollständige Zuführung der Überschüsse zur Rücklage, nicht diese weitergehende Aussage über sämtliche erwirtschafteten Mittel.",
+          "„Im Jahr 1953 stellte der Landkreis den Betrieb der Seilfähre bei Hitzacker ein.“ – 1953 ist als Gründungsjahr belegt, nicht ausdrücklich als Jahr der Betriebseinstellung.",
+          "„niemand kann allein bestimmen“ – Aus gleichen Stimmrechten folgt keine uneingeschränkte Aussage über sämtliche Entscheidungsbefugnisse und Abstimmungssituationen.",
+          "„Auch beim Geld zeigt sich der Unterschied.“ – Der Anschluss an den vorherigen Kapitalvergleich legt nahe, der Ausschüttungsverzicht sei ein allgemeines Unterscheidungsmerkmal der Rechtsform. Belegt ist hier nur die Praxis dieser Genossenschaft."
+        ],
+        "unsupported": [
+          "„Im Jahr 1953 stellte der Landkreis den Betrieb der Seilfähre bei Hitzacker ein.“ – Die Quelle datiert lediglich die nachfolgende Gründung auf 1953.",
+          "„Das Ziel der Fährgenossenschaft ist nicht, Gewinn zu erzielen.“ – Eine solche Zielsetzung steht nicht im Material.",
+          "„Viele Menschen tragen mit kleinen Beträgen dazu bei“ – Bekannt sind Mindestanteil und Mitgliederzahl, nicht die tatsächlich eingebrachten Beträge der einzelnen Mitglieder.",
+          "„niemand kann allein bestimmen“ – Die Quelle beschreibt das Stimmrecht in der Generalversammlung, nicht sämtliche Entscheidungsbefugnisse.",
+          "„jeder erwirtschaftete Euro bleibt im Betrieb“ – Die Quelle macht diese Aussage nur über Überschüsse und deren Rücklagenzuführung."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„So entscheidet nicht allein die Höhe der eingebrachten Anteile über das Stimmgewicht.“ – Unnötig unpräzise: Die Anteilshöhe entscheidet überhaupt nicht über das Stimmgewicht. Die unmittelbar vorhergehende Erklärung ist klarer.",
+          "„Die Mitglieder tragen die Genossenschaft gemeinsam und bestimmen nach dem gleichen Stimmprinzip über ihre Angelegenheiten.“ – Wiederholt die bereits erläuterte gemeinsame Trägerschaft und das gleiche Stimmrecht, ohne einen zusätzlichen Erkenntnisgewinn."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Als der Landkreis im Jahr 1953 den Betrieb einer Seilfähre […] einstellte“ – Das Material datiert die Gründung, nicht ausdrücklich die Betriebseinstellung.",
+          "„Diese Ausrichtung […] sichert die notwendige Modernisierung der Technik.“ – Aus einem Sparziel wird eine Erfolgsgarantie. Die Quelle sagt lediglich, dass die Rücklage bis 2031 ausreichen soll.",
+          "„die Verbindung selbst weiterzuführen, die bei normalem Wasserstand eine Überfahrt in sieben Minuten ermöglicht“ – Schwerfällige Relativsatzkonstruktion: Die Angabe zur Fahrtdauer wäre in einem eigenen Satz über die Fähre verständlicher.",
+          "„Warum diese Rechtsform ideal für den Fährbetrieb ist“ – „Ideal“ behauptet mehr als die geforderte Eignung und setzt einen nicht geleisteten Vergleich mit anderen Rechtsformen voraus.",
+          "„Die Genossenschaft erweist sich somit als passende Rechtsform, weil das Geld im Betrieb bleibt“ – Der Schluss wiederholt vor allem die Rücklagenbildung, statt die zuvor erläuterte demokratische Trägerschaft noch einmal mit dem konkreten Nutzen zu verbinden."
+        ],
+        "unsupported": [
+          "„Als der Landkreis im Jahr 1953 den Betrieb einer Seilfähre […] einstellte“ – Das Jahr der Betriebseinstellung ist nicht ausdrücklich genannt.",
+          "„Diese Ausrichtung auf den langfristigen Erhalt statt auf schnelle Gewinnverteilung sichert die notwendige Modernisierung der Technik.“ – Weder eine gesicherte Finanzierung noch die behauptete Notwendigkeit der Modernisierung ist im Material festgestellt."
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Statt die Verbindung allein dem Landkreis zu überlassen“ – Der Gegensatz ist sachlich schief: Der Landkreis hatte den Betrieb bereits eingestellt. Die Gründer übernahmen eine aufgegebene Aufgabe, nicht eine weiterhin allein vom Landkreis getragene Verbindung.",
+          "„für einen Betrieb, der weit über diesen Kreis hinaus genutzt wird“ – Naheliegend, aber nicht nachgewiesen: Die jährliche Beförderungszahl sagt nichts darüber aus, wie viele Fahrgäste Mitglieder sind.",
+          "„Gerade darin liegt ein wichtiger Unterschied zwischen dem eingebrachten Geld und dem Einfluss auf gemeinsame Entscheidungen.“ – Abstrakte, wenig ergiebige Wiederholung des unmittelbar zuvor klar erklärten Verhältnisses von Anteilen und Stimmrecht.",
+          "„Sie entstand 1953 […] Daraufhin gründeten 41 Landwirte und Händler […] die Genossenschaft.“ – Die Gründung wird in zwei unmittelbar aufeinanderfolgenden Sätzen doppelt erzählt."
+        ],
+        "unsupported": [
+          "„Statt die Verbindung allein dem Landkreis zu überlassen“ – Die Formulierung unterstellt eine fortbestehende Alternative der alleinigen Trägerschaft durch den Landkreis; laut Quelle hatte dieser den Betrieb eingestellt.",
+          "„für einen Betrieb, der weit über diesen Kreis hinaus genutzt wird“ – Die Quelle nennt Mitgliederzahl und jährliche Beförderungszahl, aber keine Aufteilung der Fahrgäste nach Mitgliedschaft."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "E",
+      "D",
+      "B",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 3218,
+    "out": 2544,
+    "thinking": 734
+  },
+  "costUsd": 0.031876
+}

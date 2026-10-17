@@ -1,0 +1,134 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "Aufbau: Die Fakten zu Flussbreite, Dauer und Antrieb stehen nach der Begründung der Rechtsform; der Abschnitt endet ohne Abschluss mit technischen Details.",
+          "„Diese Rechtsform passt zur Fähre, weil sie eine dauerhafte, gemeinschaftlich getragene Infrastruktur sichert, die weder auf Gewinnausschüttung noch auf externe Eigentümer angewiesen ist.“ – abstrakt und für Laien schwer greifbar",
+          "Große Teile sind wörtlich aus der Quelle übernommen, etwa „Die Fähre überquert die Elbe an einer Stelle, an der der Fluss 212 Meter breit ist; eine Überfahrt dauert bei normalem Wasserstand sieben Minuten.“",
+          "Umsatz und Fahrgastzahlen stehen unverbunden neben der Erklärung zur Rücklage; der Bezug zur Funktionsweise fehlt.",
+          "„Eine Genossenschaft ist eine Rechtsform, bei der sich Mitglieder mit Anteilen beteiligen“ – die Definition wird nach dem Gründungssatz nachgeschoben."
+        ],
+        "unsupported": [
+          "„Nach dem Rückzug des Landkreises übernahmen die Gründungsmitglieder die Verantwortung, um die Verbindung zwischen den Elbufern aufrechtzuerhalten.“ – das Motiv ist erschlossen."
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„Als der Landkreis 1953 den Betrieb der Seilfähre über die Elbe einstellte“ – die Quelle datiert nur die Gründung auf 1953, nicht die Einstellung.",
+          "„**Wenn allen die Fähre gehört: Die Fährgenossenschaft Hitzacker**“ – Überschrift mit Markdown-Formatierung, obwohl nur Buchtext verlangt ist",
+          "„über die 212 Meter breite Elbe“ – verallgemeinert; laut Quelle ist der Fluss nur an dieser Stelle 212 Meter breit",
+          "„und Geschicke, die von ihnen selbst bestimmt werden“ – unidiomatisch, gemeint ist wohl „deren Geschicke sie selbst lenken“",
+          "„der Betrieb überdauerte Technikwechsel und Generationen“ – Ausschmückung ohne Beleg"
+        ],
+        "unsupported": [
+          "Einstellung des Fährbetriebs durch den Landkreis im Jahr 1953",
+          "„Statt darauf zu warten, dass ein Investor oder die öffentliche Hand die Verbindung wiederbelebt“",
+          "„der Betrieb überdauerte Technikwechsel und Generationen“",
+          "„ohne Gewinnabsicht“"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ausgangspunkt waren 41 Landwirte und Händler“ – ungenaue Wortwahl, gemeint sind die Gründer",
+          "„Die Mitglieder tragen gemeinsam Verantwortung, entscheiden gemeinsam und sorgen gemeinsam dafür“ – die dreifache Wiederholung wirkt etwas floskelhaft",
+          "Der Absatz zur Technik (Führungsseil, Dieselmotor) trägt wenig zur Erklärung der Genossenschaft bei.",
+          "Umfang mit rund 340 Wörtern leicht über der Vorgabe"
+        ],
+        "unsupported": [
+          "„weil sie die Fährverbindung erhalten wollten“ – das Motiv ist erschlossen, wenn auch naheliegend."
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ein Verkehrsmittel, das so viele Menschen auf beiden Seiten des Flusses verbindet, braucht eine Trägerschaft, die den Nutzern selbst gehört.“ – die Quelle sagt nicht, dass die Mitglieder die Nutzer sind; die Begründung ist schwach.",
+          "„Die Elbe ist an der Überfahrtstelle 212 Meter breit“ – die Flussbreite trägt nichts zur Begründung der Rechtsform bei.",
+          "„was eine öffentliche Stelle nicht länger weiterführen wollte“ – die Quelle nennt kein Motiv des Landkreises.",
+          "„Das Geld bleibt im Betrieb und dient dem Zweck, für den es da ist.“ – Füllsatz",
+          "Umfang mit rund 350 Wörtern über der Vorgabe"
+        ],
+        "unsupported": [
+          "Gleichsetzung der Mitglieder mit den Nutzern der Fähre",
+          "„nicht länger weiterführen wollte“ – Absicht des Landkreises nicht belegt"
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 3,
+        "aufgabe": 5,
+        "fehler": [
+          "Ein einziger Textblock ohne Absätze ist für Laien schwer lesbar.",
+          "Der größte Teil ist nahezu wörtlich aus dem Quellmaterial übernommen, etwa „Die Fähre hängt an einem Führungsseil und wird heute von einem 85-kW-Dieselmotor angetrieben“.",
+          "„die eine Stimme pro Mitglied unabhängig von der Zahl der Anteile sichert gleiche Mitsprache“ – schwerfällige Konstruktion",
+          "„Die kleine Anteilssumme ermöglicht vielen Menschen die Mitgliedschaft“ – Wertung ohne Beleg",
+          "Technische Daten und Umsatzzahlen stehen ohne Bezug zur Erklärung der Genossenschaft."
+        ],
+        "unsupported": [
+          "„Die kleine Anteilssumme ermöglicht vielen Menschen die Mitgliedschaft“ – Wertung ohne Beleg"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "B",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 6829,
+    "out": 3119,
+    "thinking": 979
+  },
+  "costUsd": 0.089696
+}

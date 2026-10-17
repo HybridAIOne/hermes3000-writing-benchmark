@@ -1,0 +1,118 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„wie du mangelnde Leistung, schwieriges Verhalten und Konflikte vorbereitest und fair führst“: Falsche Verbbezüge; vorbereiten und führen kannst du die Gespräche darüber, nicht Leistung oder Verhalten.",
+          "„Wie du Führung, eigene Projekte und die täglichen Brände einteilst“: Unpassende Wortverbindung; einteilen lässt sich die Zeit dafür, nicht die genannten Tätigkeiten und Probleme selbst.",
+          "„welche Ergebnisse von dir erwartet werden, wie weit deine Spielräume reichen“ und „Wie du Aufträge nach oben verhandelst“: Kapitel 2 und 7 behandeln teilweise dieselbe Auftrags- und Erwartungsklärung; auch der Überlastungsschutz in Kapitel 7 überschneidet sich mit Kapitel 8.",
+          "„inklusive Einstiegssätzen für die ersten zwei Sätze, an denen es immer hakt“: Redundante Formulierung und unbegründete Verallgemeinerung durch „immer“.",
+          "„Sag Bescheid, wenn ich einzelne Kapitel […] ausarbeiten soll“: Überflüssiger Gesprächsnachsatz außerhalb der verlangten Gliederung; auch die Einleitung und die abschließende Etappenerklärung sind entbehrlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Du wägest ab“: Im hier verwendeten Indikativ muss es „Du wägst ab“ heißen.",
+          "„Gib Rückmeldung, die weiterhilft“ und „Führe schwierige Gespräche“: Die Kapitel sind grundsätzlich sinnvoll getrennt, ihre Beschreibung grenzt alltägliche Rückmeldung und schwierige Korrekturgespräche aber noch nicht vollständig voneinander ab.",
+          "„Dein erster Tag in der neuen Rolle“: Der gewünschte zeitliche Einstieg ist klar, der konkrete Mittelstandskontext bleibt jedoch hier wie in der übrigen Gliederung weitgehend unsichtbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Wie du führst, obwohl du niemanden abmahnen kannst“: Unterstellt eine fehlende Befugnis, die aus der Aufgabenstellung nicht hervorgeht; fehlende Führungsausbildung bedeutet nicht fehlende disziplinarische Zuständigkeit.",
+          "„Aufgaben abgeben ohne schlechtes Gewissen“, „Wie ihr redet, damit wirklich gearbeitet wird“ und „Abläufe schaffen, die auch ohne dich funktionieren“: Aufgabenorganisation, Absprachen und eigenständig funktionierende Arbeit werden auf mehrere Kapitel verteilt, ohne deren Zuständigkeiten sauber abzugrenzen.",
+          "„Zwischen Baum und Borke – Deinen eigenen Chef führen“: Die Klärung von Auftrag und Befugnissen erscheint erst in Kapitel 5 und dort nur indirekt; als Grundlage für das vorher behandelte Delegieren kommt sie zu spät.",
+          "„Fehler, Trödelei oder schlechte Laune“: Vermischt beobachtbare Arbeitsprobleme mit einer pauschalen Bewertung von Stimmung; „Trödelei“ wirkt zudem abwertend statt sachlich.",
+          "„im typischen Mittelstands-Chaos“ und „dafür sorgst, dass deine Leute gerne zur Arbeit kommen und über sich hinauswachsen“: Klischeehafte Zielgruppenzeichnung und ein überzogenes Wirkungsversprechen statt präziser, realistischer Praxisorientierung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Du eignest dir an, wie du Arbeit so übergibst“: Unidiomatischer Anschluss; passend wäre „Du lernst, wie …“ oder „Du eignest dir Verfahren an, mit denen …“.",
+          "„Die ersten 30 Tage – Orientierung statt Aktionismus“: Die frühe Klärung von Auftrag, Erwartungen und Entscheidungsbefugnissen mit der eigenen Führungskraft fehlt; die Teamanalyse ersetzt diesen notwendigen Schritt nicht.",
+          "„dein Team vor Überlastung schützt“ und „Prioritäten radikal kürzt“: Kapitel 6 und 7 überschneiden sich bei Kapazitätsgrenzen und Priorisierung; dauerhafte Grenzsetzung und akute Krisenarbeit müssten deutlicher getrennt werden.",
+          "„Der Puffer im Sandwich“, „Wenn die Hütte brennt“ und „Projekthavarien, Deadlines“: Gehäufte Floskeln, Mischbilder und Managementvokabeln statt der verlangten schlichten, konkreten Sprache.",
+          "„ohne schlaflose Nächte“: Verspricht eine emotionale Sicherheit, die auch eine gute Gesprächsstruktur nicht gewährleisten kann."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„wie du mit Regelbrüchen umgehst“ und „Gespräche über Leistungsprobleme, Fehlverhalten und Konflikte“: Kapitel 6 greift bereits in das zentrale Thema von Kapitel 7 ein; die Trennung zwischen Regeln vereinbaren und Verstöße besprechen bleibt unscharf.",
+          "„Das schwierige Gespräch“ vor „Anerkennung und Feedback im Alltag“: Der Aufbau führt erst zum anspruchsvollen Sonderfall und anschließend zur alltäglichen Grundlage; die umgekehrte Reihenfolge wäre schlüssiger.",
+          "„welche Ziele dein Chef wirklich meint“ und „ohne dein Team zu verraten“: Unterstellt verschleierte Erwartungen beziehungsweise einen Loyalitätskonflikt und gibt der Führungssituation unnötig einen misstrauischen Grundton.",
+          "„Verlässlichkeit als Fundament“: Verständlich, aber abstrakter als die übrigen Kapitelüberschriften; der konkrete Handlungsnutzen wird erst im Beschreibungssatz sichtbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "A",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3102,
+    "out": 1883,
+    "thinking": 449
+  },
+  "costUsd": 0.025034
+}

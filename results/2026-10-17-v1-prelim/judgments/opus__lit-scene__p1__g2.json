@@ -1,0 +1,100 @@
+{
+  "task": "lit-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "D": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Zwanzig Jahre hatte Sie nichts von ihr gehört\" – falsche Großschreibung des Pronomens",
+          "\"ein vergilbter Umschlag mit dem Stempel des Nachlassgerichts\" – Logikbruch: Ein Schreiben des Nachlassgerichts kann nach dem kürzlichen Tod nicht vergilbt sein",
+          "\"ein Geruch, der irgendwo in ihr einen Raum öffnete, den sie seit Jahren verschlossen hielt\" – abgegriffene Erinnerungsmetapher, die erklärt statt zeigt",
+          "\"Im Staub darin hing es golden\" – unklarer Bezug, holprige Fügung",
+          "\"Niemand hatte geräumt.\" vs. fehlender Spiegel – kleiner Widerspruch, der unaufgelöst bleibt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "\"Das Geräusch schluckte das Haus sofort.\" – Subjekt und Objekt sind mehrdeutig, die Pointe kippt",
+          "\"sezierte den Raum in helle und dunkle Quadrate\" – schiefes Bild, falsche Rektion von \"sezieren\"",
+          "\"lag die graue Staubschicht so gleichmäßig wie frisch gefallener Schnee\" – nach nur zwei Wochen Leerstand unplausibel, zudem eine abgegriffene Vergleichsfigur",
+          "\"mit den Füßen voran\" / \"der Abwesenheit von Stimmen\" – Floskeln",
+          "\"die drei tiefen, parallelen Kerben im Emaille\" – Genus schwankend (die Emaille), außerdem drei parallele Kerben durch ein einziges Abrutschen fraglich"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"Die Fenster waren von innen beschlagen, obwohl niemand atmete.\" – physikalisch fragwürdig, wirkt gewollt",
+          "\"genau dort, wo ihr Fuß ihn immer gefunden hatte. Damals hatte sie sich den Strumpf aufgerissen\" – \"immer\" und das einmalige \"damals\" reiben sich",
+          "\"Kein Parfüm, keine Blumen. Das war gut.\" – Staccato-Masche, die zur Manier zu werden droht",
+          "\"drei Knöpfe, ein Haargummi, ein rostiger Schlüssel\" – konkurrierende Details verwässern das zentrale Nagel-Motiv"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 5,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Die hintere Tür ließ sich öffnen, die vordere nicht.\" – Logikbruch: Der Schlüssel aus dem ersten Absatz passt offenbar nicht, und der Ortswechsel nach innen wird übersprungen",
+          "\"Der Vorgarten hatte sich nicht gelegt.\" – unidiomatisch, sinnlos",
+          "\"Das Tor fiel auf\" – falsche Idiomatik (ein Tor fällt zu)",
+          "\"als hätte man ihm ein zweites, unsichtbares Blei angehängt\" – schiefes, überladenes Bild",
+          "\"Das Haus hörte nicht auf.\" – unverständlich; Vergleichsketten (\"als hätte\", \"als zählte\", \"wie feiner Sand\") werden zur Masche"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 4705,
+    "out": 2809,
+    "thinking": 1469
+  },
+  "costUsd": 0.075
+}

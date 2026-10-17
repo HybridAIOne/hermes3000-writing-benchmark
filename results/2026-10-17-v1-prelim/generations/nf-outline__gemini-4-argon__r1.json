@@ -1,0 +1,19 @@
+{
+  "task": "nf-outline",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "text": "Hier ist der Entwurf für die Gliederung des Sachbuchs **„Führen ohne Titel“**:\n\n**Kapitel 1: Plötzlich mittendrin – Wie du vom Kollegen zum Verantwortlichen wirst**\nDu lernst, wie du den Rollenwechsel vor deinem Team klar benennst und warum du dich ab sofort ein Stück weit aus der Kumpel-Ecke verabschieden musst.\n\n**Kapitel 2: Wer nicht loslässt, hat die Hände voll – Aufgaben abgeben ohne schlechtes Gewissen**\nDu erfährst, wie du aufhörst, jede Fachaufgabe selbst zu erledigen, und stattdessen Verantwortung so an dein Team übergibst, dass die Arbeit verlässlich gemacht wird.\n\n**Kapitel 3: Klartext im Alltag – Wie ihr redet, damit wirklich gearbeitet wird**\nHier zeige ich dir, wie du Besprechungen kurz hältst, klare Ansagen machst und dafür sorgst, dass jeder genau weiß, was bis wann zu tun ist.\n\n**Kapitel 4: Wenn es knirscht – Schwierige Gespräche führen, ohne Porzellan zu zerschlagen**\nDu bekommst einen klaren Leitfaden an die Hand, wie du Fehler, Trödelei oder schlechte Laune im Team direkt, fair und unter vier Augen ansprichst.\n\n**Kapitel 5: Zwischen Baum und Borke – Deinen eigenen Chef führen und das Team abschirmen**\nDu lernst, wie du unrealistische Vorgaben von oben abwehrst, den Rücken deines Teams freihältst und trotzdem die Ziele der Geschäftsführung erreichst.\n\n**Kapitel 6: Keine Macht, aber Wirkung – Wie du führst, obwohl du niemanden abmahnen kannst**\nDieses Kapitel zeigt dir, wie du dir durch Verlässlichkeit, Fachwissen und echtes Interesse an den Leuten den Respekt verdienst, den dir kein Türschild der Welt geben kann.\n\n**Kapitel 7: Feuerlöscher war gestern – Abläufe schaffen, die auch ohne dich funktionieren**\nDu erfährst, wie du im typischen Mittelstands-Chaos einfache Routinen aufbaust, damit du nicht jeden Tag dieselben Probleme lösen musst.\n\n**Kapitel 8: Wenn das Team auf der Stelle tritt – Leute fordern, fördern und bei Laune halten**\nDu lernst, wie du auch ohne Budget für Gehaltserhöhungen dafür sorgst, dass deine Leute gerne zur Arbeit kommen und über sich hinauswachsen.\n\n**Kapitel 9: Dein eigener Kompass – Wie du gesund bleibst und deinen eigenen Stil findest**\nZum Schluss schauen wir darauf, wie du nach Feierabend wirklich abschaltest, mit dem Druck der Zwischenposition umgehst und ein Chef wirst, den du selbst gerne hättest.",
+  "usage": {
+    "in": 154,
+    "out": 599,
+    "thinking": 0
+  },
+  "costUsd": 0.006298,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "latencyMs": 13132,
+  "meta": [
+    "preamble"
+  ],
+  "at": "2026-10-17T14:51:06.292Z"
+}

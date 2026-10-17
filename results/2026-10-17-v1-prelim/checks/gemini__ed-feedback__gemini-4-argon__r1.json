@@ -1,0 +1,22 @@
+{
+  "task": "ed-feedback",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "found": [
+      "rampe",
+      "fahrgaeste",
+      "tempus",
+      "perspektive",
+      "hupe"
+    ],
+    "false_alarms": 1
+  },
+  "usage": {
+    "in": 1365,
+    "out": 49,
+    "thinking": 0
+  },
+  "costUsd": 0.00322
+}

@@ -1,0 +1,17 @@
+{
+  "task": "en-scene",
+  "model": "gemini-3.8-flash-low",
+  "run": 1,
+  "text": "The sanctuary smelled of damp wool and industrial floor wax. Sarah went in only because the vending machine on three was broken and the chapel alcove had the last working cold tap that didn’t rattle the pipes.\n\nA man sat in the fourth pew, wearing a dark canvas coat that hadn't dried from the sleet at midnight. He didn't turn around when her rubber soles squeaked against the linoleum. \n\n\"The ice is sticking to the skybridge, Sarah,\" he said.\n\nHer hand stayed on the brass lever of the fountain. The hum of the small compressor beneath the basin filled the silence between them. Her plastic badge was turned backward against her scrubs, the blank white laminate facing out; she had pinned it that way during handover so the clip wouldn't snag on the bed rails. \n\n\"Visiting hours were over eight hours ago,\" she said. Her voice sounded thin, worn down by four rounds of vitals and two catheter changes.\n\n\"I know.\" \n\nHe didn't move to stand, nor did he offer the usual excuses—a mother in ICU, a delayed train, a missed connection. His hands were tucked deep into his pockets, rounding his shoulders into the shape of the oak bench. The chapel had no stained glass, only high, narrow slits of frosted casement looking out onto the gravel roof of the boiler room. \n\nOutside, a salt spreader reversed somewhere near the ambulance bay, its yellow strobe pulsing rhythmically against the frosted glass, slicing his shadow in two, then mending it, then slicing it again.",
+  "usage": {
+    "in": 59,
+    "out": 322,
+    "thinking": 0
+  },
+  "costUsd": 0.00113814,
+  "finish": "STOP",
+  "reportedModel": "gemini-3.8-flash",
+  "latencyMs": 4615,
+  "meta": [],
+  "at": "2026-10-17T14:49:34.932Z"
+}

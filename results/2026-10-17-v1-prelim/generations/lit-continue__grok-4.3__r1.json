@@ -1,0 +1,17 @@
+{
+  "task": "lit-continue",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "Ilse richtete sich auf und wischte sich die Hände an der Hose ab. Der Poller glänzte feucht, der Tau roch nach Fluss und Teer. Sie ging zum Steuerstand, ohne Jonas anzusehen, und startete den Motor. Das alte Tuckern füllte die Luft, ein unregelmäßiges Geräusch, das sie kannte wie ihren eigenen Atem. Jonas blieb stehen, den Rollkoffer neben sich. Sein Mantel war zu dünn für diesen Wind.\n\nSie löste die Leine, warf sie auf Deck und schob die Fähre vom Anleger. Das Seil straffte sich über dem Wasser. Ilse hielt das Steuer mit beiden Händen, spürte die Spannung im Arm. Der Fluss zog, grau und träge, mit kleinen Wellen, die gegen den Rumpf schlugen. Jonas kam näher, blieb aber auf Abstand. Er sagte nichts mehr. Sie hörte nur das Tuckern und das leise Klirren der Kette.\n\nAls sie in der Mitte des Stroms waren, blickte sie kurz zum anderen Ufer. Die Böschung war schlammig, die Weiden hingen schwer vom Regen. Henning hätte den Motor längst auseinandergenommen, hätte gesagt, dass so ein Geräusch nicht normal sei. Sie hatte es nicht getan. Es reichte, wie es war.\n\nJonas lehnte sich an die Reling. Seine Schuhe waren schon nass. Ilse dachte an den Koffer, der auf den Bohlen gestanden hatte, als gehöre er nicht hierher. Sie stellte den Motor ein Stück zurück, damit die Fähre ruhiger lag. Der Wind kam von Norden, kühl und feucht. Sie zog den Kragen ihrer Jacke höher.\n\nAm anderen Anleger legte sie an, warf die Leine und machte fest. Zwei Touristen warteten mit Fahrrädern, nickten ihr zu. Ilse half ihnen an Bord, nahm das Geld, steckte es in die Tasche. Jonas stand noch immer da, als wäre er selbst ein Passagier. Sie ging an ihm vorbei zum Steuerstand, ohne ein Wort. Bevor sie den Motor wieder anließ, sah sie zum Koffer. Dann entschied sie, dass er ihn selbst tragen sollte.",
+  "usage": {
+    "in": 525,
+    "out": 1007,
+    "thinking": 539
+  },
+  "costUsd": 0.00317375,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "latencyMs": 15322,
+  "meta": [],
+  "at": "2026-10-17T15:02:05.915Z"
+}

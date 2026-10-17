@@ -1,0 +1,19 @@
+{
+  "task": "nf-from-source",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "**Eine Fähre, die ihren Nutzern gehört**\n\nWer in Hitzacker die Elbe überqueren will, steigt auf eine Fähre, die keinem Konzern und keiner Behörde gehört, sondern 312 Menschen. Sie sind Mitglieder der Fährgenossenschaft Hitzacker eG. An diesem Beispiel lässt sich gut erkennen, wie eine Genossenschaft funktioniert.\n\nDie Geschichte beginnt 1953. Der Landkreis hatte den Betrieb der Seilfähre eingestellt. Für Landwirte und Händler an beiden Elbufern war das ein Problem, denn die Verbindung über den 212 Meter breiten Fluss brauchten sie für ihre Arbeit. 41 von ihnen nahmen die Sache selbst in die Hand und gründeten die Genossenschaft. Das ist der Kerngedanke dieser Rechtsform: Menschen mit einem gemeinsamen Bedarf tun sich zusammen und erledigen gemeinsam, was einzeln nicht zu leisten wäre.\n\nDie Regeln sind einfach. Wer beitreten möchte, erwirbt mindestens einen Anteil zu 250 Euro. In der Generalversammlung hat jedes Mitglied genau eine Stimme, auch wenn es mehrere Anteile hält. Wer mehr Geld einbringt, bekommt also nicht mehr Macht.\n\nAuch der Umgang mit Gewinnen unterscheidet die Genossenschaft von einem renditeorientierten Unternehmen. Überschüsse werden nicht ausgeschüttet, sondern in eine Rücklage für die Erneuerung der Fähre eingezahlt. Das Geld bleibt im Betrieb. Die Rücklage soll bis 2031 reichen, um einen Elektroantrieb einzubauen. Bis 1978 bewegte noch die Strömung die Fähre allein, heute treibt sie ein 85-kW-Dieselmotor an.\n\nWirtschaftlich trägt sich das Modell zu einem großen Teil selbst: Von den 186.000 Euro Umsatz im Jahr 2024 stammten 71 Prozent aus Fahrkarten, 29 Prozent aus einem Zuschuss der Gemeinde. Rund 64.000 Personen nutzen die Fähre jährlich, im Sommer vor allem Radfahrer auf dem Elberadweg.\n\nDie Genossenschaft passt hier, weil sie nicht auf Gewinn zielt, sondern darauf, die Überfahrt dauerhaft zu sichern.",
+  "usage": {
+    "in": 780,
+    "out": 1197,
+    "thinking": 275
+  },
+  "costUsd": 0.01353,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "latencyMs": 9083,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T14:51:57.635Z"
+}

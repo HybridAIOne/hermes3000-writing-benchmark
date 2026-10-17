@@ -1,0 +1,17 @@
+{
+  "task": "nf-outline",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "1. **Dein erster Tag in der Rolle** — Du klärst, was sich mit der Teamleitung konkret ändert, welche Aufgaben du ab sofort trägst und wie du die ersten Tage ohne Überforderung startest.\n\n2. **Das Team verstehen, bevor du handelst** — Du führst in den ersten Wochen kurze Gespräche mit jedem Teammitglied, um Arbeit, Probleme und Erwartungen an dich zu erfassen, ohne sofort Lösungen zu liefern.\n\n3. **Den Arbeitsalltag verlässlich machen** — Du richtest einfache Abläufe für Aufgaben, Meetings und Informationen ein, damit der Betrieb läuft, ohne dass alles bei dir landet.\n\n4. **Entscheidungen treffen, die tragen** — Du lernst, welche Entscheidungen du selbst triffst, welche du vorbereitest und wie du sie im Team klar kommunizierst, damit danach gearbeitet werden kann.\n\n5. **Schwierige Gespräche führen** — Du übst, wie du Leistungsprobleme, Konflikte und Grenzen ansprichst, konkrete Ergebnisse erreichst und die Zusammenarbeit nicht zerreibst.\n\n6. **Nach oben und zur Seite arbeiten** — Du lernst, Erwartungen deiner Vorgesetzten und Zusammenarbeit mit anderen Teams so zu klären, dass Prioritäten stimmen und du nicht im Streit um Zuständigkeiten festsitzt.\n\n7. **Menschen passend einsetzen und stärken** — Du erkennst, wer was gut kann, und verteilst Aufgaben so, dass das Team besser arbeitet und einzelne Menschen mehr Verantwortung übernehmen.\n\n8. **Deine eigene Haltung finden** — Du überlegst, was du als Teamleiter im Zweifel willst, welche Gewohnheiten du aus der Facharbeit mitbringst und wie du deine Rolle so führst, dass du nicht an der Substanz zehnst.",
+  "usage": {
+    "in": 173,
+    "out": 8685,
+    "thinking": 8313
+  },
+  "costUsd": 0.01914852,
+  "finish": "stop",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "latencyMs": 66607,
+  "meta": [],
+  "at": "2026-10-17T15:12:06.513Z"
+}

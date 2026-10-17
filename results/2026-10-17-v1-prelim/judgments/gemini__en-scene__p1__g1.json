@@ -1,0 +1,113 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "At 4:07 a.m., Mara pushed open the chapel door because the copier on three had jammed again and she needed the code from maintenance.",
+          "Someone who knew your shift starts at seven",
+          "He looked as if he had been waiting in a place where waiting was the point.",
+          "He smiled without showing teeth.",
+          "Mara felt, absurdly, a flare of irritation at the accuracy of it. The kind that comes before fear has decided what shape to take."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "**Second Pew**",
+          "Her badge was clipped to her scrub pants, flipped backward. She'd worn it that way since the year a man followed her to her car.",
+          "You did my wife's dressings. March. She said you had cold hands and apologized every time."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 3,
+        "aufgabe": 5,
+        "fehler": [
+          "It was 4:12 a.m., the hour when the hospital felt less like a medical facility and more like a waiting room for the inevitable.",
+          "he smelled faintly of ozone and old paper",
+          "His eyes were a flat, washed-out grey.",
+          "We’re closing the wing for cleaning in twenty minutes",
+          "Instead, he reached into his pocket and placed a small, smooth river stone on the pew beside him."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "At ten to four she pushed the door open",
+          "At the station she kept looking down the corridor. Through the chapel's narrow window she could see the back of his head"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "At four, Mara went to the chapel because the staff room microwave had burned another container of rice.",
+          "When he opened the wrapper, a few crumbs fell onto his coat. He picked them off individually and collected them in the hollow of his palm."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "E",
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2653,
+    "out": 724,
+    "thinking": 0
+  },
+  "costUsd": 0.012546
+}

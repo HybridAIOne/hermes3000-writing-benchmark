@@ -1,0 +1,123 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„das Echo wurde sofort vom Wattemeer der Luft verschluckt“ – schiefes, überladenes Bild",
+          "„Ein einzelnes gelbes Pünktchen schob sich langsam von Süden heran […] gegen den Strom“ – geografisch unstimmig, gegen den Strom käme der Verband von Nordwesten",
+          "„das Gummi an den Rändern ausgefranst“ – bei abgeschnittenen Handschuhen unpassend, Gummi franst nicht aus",
+          "„Henning hatte immer gesagt, man müsse die Elbe die Arbeit machen lassen“ – leichte Erinnerungseinschübe, aber noch vertretbar",
+          "„genauso fehl am Platz wirkte wie Lackschuhe im Schweinestall“ – abgegriffener Vergleich"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "„Er nickte, gab Gas und verschwand so schnell in der weißen Wand, wie er aufgetaucht war“ – Logikbruch: Der zahlende Fahrgast fährt weg, statt übergesetzt zu werden",
+          "„Es waren die Pendler, die nur einmal die Woche kamen“ – Widerspruch in sich",
+          "„Sie nahm die zwei Euro Münzen entgegen“ – richtig: Zwei-Euro-Münzen",
+          "„Henning hatte ihr die Feinheiten der Seilführung beigebracht, bevor er gestorben war“ – erklärende Exposition",
+          "„wie eine nasse, graue Wolldecke“ / „ein einsames, klagendes Geräusch“ / „Sie liebte diese Stille“ – Klischees, Erklären statt Zeigen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„dann das Knarren der Kette“ – bei einer Seilfähre falsch; zudem wechseln Kette und „Tau“ uneinheitlich",
+          "„Draußen setzte die Kette wieder an“ – Logikbruch: Ilse steht in der Kabine, der Hebel ist auf Leerlauf, niemand steuert die Fähre",
+          "„Ilse brachte die Fähre zurück in die Mitte und stellte den Hebel auf Leerlauf“ – unplausibles Manöver mitten im Strom",
+          "„„Dann wird er dichter.““ – das Muster aus knapper Frage und lakonischer Antwort wird zur Wiederholungsmasche",
+          "„stellte sie neben die Untertasse, die einen Sprung am Rand hatte“ – unklare, umständliche Handlung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "„der Mann vom Markt, ein Stammgast […] „Ich nehm die nächste rüber““ – ein vierter Fahrgast unterläuft die Vorgabe „genau drei“",
+          "„Ein Name erschien nicht auf einem Display […] in der sie nicht nach dem Hörer gegriffen hatte“ – Telefon widersprüchlich zwischen Festnetz und Handy in der Hosentasche, „Glocke des Telefons“",
+          "„Ilse war gerade wieder an Bord zurückgekommen“ – sie war die ganze Zeit an Bord",
+          "„„Und Sie“, sagte die Frau im roten Mantel.“ – unklarer, unfertig wirkender Dialog",
+          "Länge deutlich über 900 Wörter, mit leerlaufenden Passagen („Ilse richtete sie nicht. Sie setzte sich nicht.“)"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c3"
+        ]
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„Neben ihm saß sein Hund […], einen Schäferhundmischling“ – Kasusfehler, richtig: ein Schäferhundmischling",
+          "„Um sechs Uhr zwölf hatte sie abgelegt. […] Jetzt, kurz vor sieben“ – Logikbruch: Überfahrt von 300 Metern dauert fast eine Stunde",
+          "„Das Seil lief durch ihre Hände“ vs. „Ilse legte den Hebel um“ – Handzugfähre mit Auto und Hebel ist technisch inkonsistent",
+          "„Die dritte Fahrgästin“ – unidiomatische Wortbildung",
+          "„Auf dem Display stand ein Name, das wusste sie“ – Jonas wird nie genannt, nur über München erschließbar"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "E",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 15884,
+    "out": 4326,
+    "thinking": 2631
+  },
+  "costUsd": 0.150056
+}

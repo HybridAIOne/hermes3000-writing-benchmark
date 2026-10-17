@@ -1,0 +1,21 @@
+{
+  "task": "ed-feedback",
+  "model": "gemini-3.8-flash-low",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "found": [
+      "rampe",
+      "fahrgaeste",
+      "tempus",
+      "hupe"
+    ],
+    "false_alarms": 0
+  },
+  "usage": {
+    "in": 2094,
+    "out": 291,
+    "thinking": 254
+  },
+  "costUsd": 0.014196
+}

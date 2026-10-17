@@ -1,0 +1,99 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Überschneidung: Kap. 1 „welche Entscheidungen sofort nötig sind“ / Kap. 3 „was du allein entscheiden darfst“ / Kap. 7 „Entscheiden, wenn du nicht alles weißt“ – das Thema Entscheiden ist auf drei Kapitel verteilt",
+          "Überschneidung Kap. 1 „wer was von dir erwartet“ mit Kap. 3 „wofür du wirklich zuständig bist“",
+          "Der Wechsel vom Kollegen zur Führungskraft, die Kernsituation der Zielgruppe, fehlt als eigenes Thema",
+          "„Führung ohne Titel langfristig leben“ – blasser, floskelhafter Kapiteltitel",
+          "„Druck von oben und aus dem Team“ – Titel ohne Du-Bezug, im Stil uneinheitlich zu den übrigen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Menschen beim Besserwerden unterstützen“ – „Besserwerden“ ist ein unidiomatischer, holpriger Titel",
+          "„mit deiner vorgesetzten Person“ – steif, wirkt bürokratisch",
+          "„vereinbarst verbindliche Konsequenzen“ – unklar, ob Folgen oder nächste Schritte gemeint sind",
+          "„Gestern Kollege, heute Teamleiter“ – rein männliche Form, uneinheitlich zu „vorgesetzten Person“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Zwischen Baum und Borke“, „Wer nicht loslässt, hat die Hände voll“, „Feuerlöscher war gestern“ – Phrasen und Sprüche statt klarer Titel; das widerspricht der Vorgabe ohne Buzzwords bzw. Floskeln",
+          "Aufbau springt: „Abläufe schaffen“ (Kap. 7) und „Keine Macht, aber Wirkung“ (Kap. 6) stehen nach den schwierigen Gesprächen (Kap. 4); der Aufbau vom ersten Tag an ist nicht folgerichtig",
+          "Überschneidung Kap. 2 Delegieren / Kap. 3 „dafür sorgst, dass jeder genau weiß, was bis wann zu tun ist“",
+          "„obwohl du niemanden abmahnen kannst“ und „ohne Budget für Gehaltserhöhungen“ – unbelegte Pauschalannahmen über die Zielgruppe",
+          "„Hier ist der Entwurf für die Gliederung …“ und „Hier zeige ich dir“ / „Dieses Kapitel zeigt dir“ – Füllsatz und uneinheitliche Perspektive"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Überschneidung Kap. 6 „wie du mit Regelbrüchen umgehst“ mit Kap. 7 „Gespräche über … Fehlverhalten“",
+          "Reihenfolge: „Anerkennung und Feedback im Alltag“ (Kap. 8) steht nach dem schwierigen Gespräch, obwohl es die Grundlage dafür ist – das widerspricht dem Aufbauprinzip",
+          "„Der Tag, an dem sich alles verschob“ – vager, wenig aussagekräftiger Titel",
+          "„ohne zum Kontrollfreak zu werden“ – umgangssprachlich"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 5010,
+    "out": 2258,
+    "thinking": 919
+  },
+  "costUsd": 0.0652
+}

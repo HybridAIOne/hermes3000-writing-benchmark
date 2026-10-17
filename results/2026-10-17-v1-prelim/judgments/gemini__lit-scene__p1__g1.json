@@ -1,0 +1,114 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "B": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 5,
+        "stil": 4,
+        "aufgabe": 7,
+        "fehler": [
+          "das Licht am Horizont etwas zu weit geöffnet (schiefes Bild: Licht lässt sich nicht öffnen)",
+          "ein zweites, unsichtbares Blei (impliziert fälschlich, ein normaler Haustürschlüssel bestehe bereits aus Blei)",
+          "Das Tor fiel auf (unidiomatisch für 'schwang auf' oder 'fiel ins Schloss', besonders in Kombination mit 'dumpfen Schlag')",
+          "Der Vorgarten hatte sich nicht gelegt (unidiomatisch; Sturm oder Aufregung legt sich, kein Garten)",
+          "Im ersten Zimmer standen die Dinge noch so, wie man sie verlassen hatte (Logikbruch/Widerspruch zu 'leer bis in die Tiefe, als hätte man alles Nötige längst mitgenommen')"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Die Straße war kürzer als ihre Erinnerung (verkürzter Vergleich: kürzer als in ihrer Erinnerung)",
+          "ein leeres Einmachglas. Darin: drei Knöpfe, ein Haargummi, ein rostiger Schlüssel (Widerspruch: wenn Gegenstände darin liegen, ist es nicht leer)",
+          "obwohl niemand atmete (sachlich falsch, da die Protagonistin selbst im Raum ist und atmet)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "als hielte das Haus den Atem an ... fast beleidigten Knacken ... als könne es sie erkennen (überstrapazierte Personifikation des Hauses auf engstem Raum)",
+          "den Koffer in der einen, die Handtasche in der anderen Hand (Logikbruch: sie hat soeben den Schlüssel im klemmenden Schloss gedreht, hat aber keine Hand frei)",
+          "von den Spuren kleiner Tiere, die sich in den vergangenen Wochen durch das Haus gearbeitet hatten ('gearbeitet' ist das falsche Verb für Tierspuren im Staub)",
+          "vergilbter Kassenbon ...roter Lackrest (unentschiedenes Anhäufen von bedeutungsschwangeren Details statt Fokus auf eines)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "sechs, sieben Früchte (etwas ungenau aus der personalen Perspektive bei einer so überschaubaren Menge)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "Das Geräusch schluckte das Haus sofort (grammatische Inversion führt zu groteskem Bild: Das Geräusch frisst das Haus)",
+          "Vor zwei Wochen ... lag die graue Staubschicht so gleichmäßig wie frisch gefallener Schnee (sachlich unsinnig: in zwei Wochen entsteht in einem geschlossenen Flur keine schneedicke Staubschicht, und wenn der Fleck der Schale noch staubfrei ist, müsste die Schale erst vor extrem kurzer Zeit entfernt worden sein)",
+          "schwer von altem Bohnerwachs und der Abwesenheit von Stimmen (abgegriffenes Stil-Klischee / Zeugma)",
+          "Das Geräusch des schweren Fleischermessers, das damals abgerutscht war (Küchenpsychologie/Melodram mit dem Holzhammer)",
+          "ein einzelner Fingerhut aus Silber ... drei tiefen, parallelen Kerben (überladen mit konkurrierenden Symbol-Details)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "C",
+      "E",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 3232,
+    "out": 998,
+    "thinking": 0
+  },
+  "costUsd": 0.016444
+}

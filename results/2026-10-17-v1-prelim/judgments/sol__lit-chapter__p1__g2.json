@@ -1,0 +1,60 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„In der Bude stellte sie den Becher in die Spüle“ bis „Sie machte die Fähre klar.“: Nach dem nicht angenommenen Anruf folgen mehrere abschließende Handlungen und Betrachtungen. Dadurch verliert der verlangte Schlussmoment an Gewicht.",
+          "„Das war das Gespräch.“ / „Drei Überfahrten, drei Fahrgäste. Ein gewöhnlicher Dienstag.“: Der Text erklärt und bilanziert, was die Szene bereits vermittelt. Besonders die Fahrgastzählung wirkt wie eine sichtbare Abarbeitung der Aufgabenstellung.",
+          "„Ilse kannte jede Faser dieses Morgens.“: Die bildliche Zusammenfassung ist weniger präzise als die konkreten Arbeitsbeobachtungen und überhöht die ansonsten überzeugend nüchterne Figurenstimme.",
+          "„An der Rampe drüben rammte die Fähre leise ins Holz.“: „rammte“ suggeriert einen heftigen Zusammenstoß; „leise“ und der gewöhnliche Anlegevorgang passen dazu nur schlecht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Neben ihm saß sein Hund auf dem nassen Holz, einen Schäferhundmischling mit grauer Schnauze“: Falscher Kasus der Apposition; richtig wäre „ein Schäferhundmischling“.",
+          "„Um sechs Uhr zwölf hatte sie abgelegt.“ / „Jetzt, kurz vor sieben“ / „Noch etwa dreihundert Meter. Noch etwa vier Minuten.“: Die gewöhnliche Überfahrt dauert bereits annähernd eine Dreiviertelstunde. Für die örtliche Flussquerung ist das ohne geschilderte Verzögerung unplausibel.",
+          "„Lübbe fuhr jeden Morgen um diese Zeit nach Dannenberg, zum Arzt, wie er einmal erwähnt hatte“: Eingeschobene Vorgeschichte statt gegenwärtiger Szene; das widerspricht der gewünschten Vermeidung von Rückblenden-Exposition. „jeden Morgen erwähnte er es nicht mehr“ ist zudem unnötig verschraubt.",
+          "„Man musste nicht alles wissen, um zu wissen, wann jemand nicht reden wollte.“ / „Sie kannte Leute, die mit dem Rücken zur Welt fuhren“: Wiederholte allgemeine Lebensweisheiten erklären Ilses Haltung, statt sie allein durch Verhalten und Dialog sichtbar werden zu lassen.",
+          "„Die junge Frau am Bug drehte sich kurz um, dann wieder zurück zum Nebel. Lübbe sah auf seine Schuhe. Der Passat hupte nicht.“: Die aufgereihten Nichtreaktionen wirken inszeniert. Besonders das ausbleibende Hupen besitzt ohne vorherigen Anlass keinen erkennbaren Aussagewert."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3209,
+    "out": 2196,
+    "thinking": 1488
+  },
+  "costUsd": 0.028378
+}

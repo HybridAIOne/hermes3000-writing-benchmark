@@ -1,0 +1,17 @@
+{
+  "task": "nf-opening",
+  "model": "glm-5.3",
+  "run": 1,
+  "text": "Du bist seit drei Tagen an Marcels Schreibtisch vorbeigelaufen. Dreimal hattest du das Gespräch im Kopf fertig: den ersten Satz, die Argumente, sogar den Abschluss. Und dreimal hast du es weitergeschoben. Am Montag, weil er gerade telefonierte. Am Dienstag, weil dein Kalender voll war. Und heute Morgen, weil er so gut gelaunt war und du dir dachtest: Jetzt nicht.\n\nWas vorgefallen ist, weißt du genau. In der Besprechung letzte Woche hat er die neue Kollegin vor allen lächerlich gemacht. Ihre Frage abgeschnitten, gelacht, den Kopf geschüttelt wie ein Lehrer, der einen Schüler für dumm hält. Danach war der Raum still, alle haben auf ihre Laptops gestarrt, und du hast schnell zum nächsten Tagesordnungspunkt übergeleitet. Das war die einfachste Option. Sie war auch die falsche.\n\nDie Kollegin ist seitdem zurückgezogen. Zwei Leute aus deinem Team haben dir vorsichtig zu verstehen gegeben, dass sie sich so etwas nicht gefallen lassen würden. Und du spürst, wie deine Position ein bisschen ins Wackeln gerät, seit die Sache ungelöst in der Luft hängt. Denn schwierige Gespräche sind selten schwierig wegen des Inhalts. Sie sind schwierig, weil wir Angst haben, etwas kaputtzumachen. Vor der Stimmung. Vor der Reaktion. Vor dem Blick des anderen, wenn er merkt: Jetzt wird es ernst.\n\nDeshalb dieses Kapitel. Es nimmt dir die Nervosität nicht ab – die gehört dazu. Aber es zeigt dir, wie du trotzdem hingehst: gut vorbereitet, klar in der Sache, fair im Ton. Denn eines ist sicher: Das Problem löst sich nicht von selbst, nur weil du wartest. Und jede Woche, in der du weiter an Marcels Schreibtisch vorbeiläufst, macht es ein Stück größer.",
+  "usage": {
+    "in": 163,
+    "out": 4272,
+    "thinking": 4146
+  },
+  "costUsd": 0.020518639999999998,
+  "finish": "stop",
+  "reportedModel": "z-ai/glm-5.3",
+  "latencyMs": 25997,
+  "meta": [],
+  "at": "2026-10-17T15:09:56.823Z"
+}

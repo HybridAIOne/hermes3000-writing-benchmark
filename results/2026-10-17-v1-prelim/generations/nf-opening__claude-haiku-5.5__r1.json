@@ -1,0 +1,17 @@
+{
+  "task": "nf-opening",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "Es ist kurz nach halb acht, als du merkst, dass dein Kaffee kalt geworden ist, ohne dass du einen Schluck davon getrunken hast. Vor dir liegt der Ausdruck einer Tabelle, und in der dritten Spalte steht eine Zahl, die dir seit gestern Abend keine Ruhe lässt. Du hast sie dreimal nachgerechnet. Sie bleibt gleich. Kurz darauf kommt Jürgen Brandt in dein Büro, Leiter der Fertigungsplanung, seit gut zwanzig Jahren im Haus, einer von den Menschen, die bei der Weihnachtsfeier die Lieder der Firmengeschichte auswendig können. Du weißt, was du ihm sagen musst: dass seine Abteilung das Budget für das nächste Quartal nicht bekommt, das er sich vorgestellt hat, und dass ein Teil seiner Aufgaben künftig bei den Kollegen aus der Logistik landet. Du hast dir zwei Sätze zurechtgelegt. Beide klingen im Kopf vernünftig und im Mund nach Ausrede. Dann klopft es, Jürgen steckt den Kopf zur Tür herein und fragt, ob du kurz Zeit hast, er habe da eine Idee zur Terminplanung. Du sagst ja, und während er zu erzählen beginnt, spürst du, wie sich dein Magen zusammenzieht. Das Gespräch, das du in den nächsten Minuten führen musst, wird nicht angenehm, egal wie gut du es vorbereitest. Und du weißt auch, dass du es nicht verschieben solltest, denn jeder Tag des Wartens macht es für beide schwerer. Genau an diesem Punkt stehen Führungskräfte häufig: zwischen dem, was längst entschieden ist, und dem Menschen, der es hören muss.",
+  "usage": {
+    "in": 278,
+    "out": 1655,
+    "thinking": 987
+  },
+  "costUsd": 0.0008552999999999999,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "latencyMs": 7567,
+  "meta": [],
+  "at": "2026-10-17T14:52:05.202Z"
+}

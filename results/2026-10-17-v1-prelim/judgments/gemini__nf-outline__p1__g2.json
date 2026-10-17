@@ -1,0 +1,92 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "B": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„wie du mangelnde Leistung, schwieriges Verhalten und Konflikte vorbereitest und fair führst“ (Zeugma/Kollokationsfehler: Man führt Gespräche, aber nicht mangelnde Leistung oder Verhalten)",
+          "„Einstiegssätzen für die ersten zwei Sätze“ (unschöne Wortwiederholung/Tautologie)",
+          "Falsche Anführungszeichen oben am Wortende: '...ändert\"' statt '…“'"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Inhaltliche Überschneidung zwischen Kapitel 1 („wer was von dir erwartet, welche Entscheidungen sofort nötig sind“) und Kapitel 3 („wofür du wirklich zuständig bist, was du allein entscheiden darfst“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "Starke inhaltliche Überschneidung zwischen Kapitel 1 („die neue Rolle klar zu sehen“) und Kapitel 2 („Was sich jetzt wirklich ändert“)",
+          "Redundanz zwischen Kapitel 4 („Aufgaben, Prioritäten ... erklären“) und Kapitel 7 („Prioritäten ... im Tagesgeschäft“)",
+          "Monotone Füllphrasen in fast jedem Satz („Worum es geht: Hier geht es darum...“, „Dieses Kapitel zeigt dir...“)",
+          "Verwendung von Business-Jargon/Buzzwords („Meetings“, „Schnittstellen“)",
+          "Typografisch falsche Gedankenstriche (Geviertstriche „—“ ohne Leerzeichen statt Halbgeviertstrichen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "Typografische Unsauberkeit in Kapitel 4: „Ich mach's lieber selbst\" (Ersatzzeichen statt echter Anführungszeichen und Apostrophe)",
+          "Kapitel 1: „heute bist du Chef“ widerspricht leicht der Buchprämisse „Führen ohne Titel“ (Teamleiter ist nicht zwingend „Chef“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3014,
+    "out": 673,
+    "thinking": 0
+  },
+  "costUsd": 0.012758
+}

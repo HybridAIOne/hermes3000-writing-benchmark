@@ -1,0 +1,113 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "glm-5.3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "„die ihr immer an die Sonntage mit ihrer Mutter erinnert hatte“: Kasusfehler; richtig ist „die sie immer … erinnert hatte“.",
+          "„seit Jahrzehnten nicht mehr eingeatmet“ und „Sonntage mit ihrer Mutter“: Weder die Rückkehr nach zwanzig Jahren noch der Tod der Mutter werden hinreichend etabliert.",
+          "„als wäre die Zeit im Flur einfach stehen geblieben“, „Staub tanzte“ und „gespenstischen Hügeln“: Gehäufte, abgegriffene Bilder ersetzen eine eigenständige Wahrnehmung des Hauses.",
+          "„Die Stille war nicht friedlich; sie war massiv, ein physischer Druck auf den Trommelfellen“: Die emotionale Wirkung wird ausdrücklich erklärt und zusätzlich übersteigert.",
+          "„zitterte die Luft zwischen ihren Fingern“ und „das nicht von dieser Welt stammte“: Der Schluss wechselt unvermittelt ins Übernatürliche und überlädt den bereits auffällig inszenierten Glasbecher mit Bedeutung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Ihre Mutter hatte das Haus seit dem Winter nicht mehr bewohnt; seit der Beerdigung war niemand hineingegangen“: Leerstand und Tod sind etabliert, Maras zwanzigjährige Abwesenheit jedoch nicht.",
+          "„Neben ihm stand kein Datum, nur ein kleines Kreuz, sorgfältig nachgezogen“: Ein wirkungsvoller, aber deutlich arrangierter Rätselreiz; seine Verbindung zu den zuvor genannten Wachstumsmarkierungen bleibt vorerst unscharf.",
+          "„als zähle jemand mit“: Der Schluss erklärt die unheimliche Wirkung des Tropfens durch eine konventionelle Personifizierung, statt dem konkreten Geräusch zu vertrauen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "„Die Frau schob den Schlüssel ins Schloss“ und „in den Jahren“: Die zentrale Konstellation bleibt unbestimmt. Weder die verstorbene Mutter noch die Rückkehr nach zwanzig Jahren werden kenntlich gemacht.",
+          "„Sie ging nicht weiter als bis in die Mitte des Flurs“ / „Als sie die Hand auf die Kante des Spülbeckens legte“: Räumlicher Anschlussfehler; ohne weitere Bewegung befindet sie sich plötzlich am Spülbecken in der Küche.",
+          "„als hätte das Metall sich in den Jahren an diese Bewegung erinnert“: Geläufige Vermenschlichung, die schon im Auftakt eine konkrete Beobachtung durch eine konventionelle Bedeutungsaufladung ersetzt.",
+          "„ein kurzes, trockenes Kratzen“, „das gleichmäßige Tropfen“ und „das andere, leisere Geräusch“: Die wiederholten leisen Geräuschreize entwickeln sich kaum weiter; der letzte bleibt besonders vage."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Ihr Körper erinnerte sich daran, bevor sie selbst es tat“: Eine vertraute Formel für Körpergedächtnis; der vorangehende konkrete Bewegungsablauf vermittelt diesen Zusammenhang bereits."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„Werkstattnotiz:“ bis „oben wartet das Zimmer“: Der angehängte Kommentar verletzt die Vorgabe, ausschließlich Buchtext zu liefern. Er erklärt zudem die Motive und nimmt ihnen einen Teil ihrer Offenheit.",
+          "„Auf dem Tisch die blasse Blöße“: Die auffällige Alliteration und die abstrakte Benennung wirken gesucht; die konkrete Spur der fehlenden Zuckerdose tritt dahinter zurück.",
+          "„aus einem Impuls, der älter war als sie selbst“: Pathetische Überhöhung einer zunächst alltäglichen Handlung; der behauptete vorpersönliche Ursprung bleibt ohne erzählerische Grundlage.",
+          "„Zwanzig Jahre lang, überall sonst, hatte Wasser nur nach Wasser geschmeckt“: Die absolute Gegenüberstellung vereinfacht die Erinnerungserfahrung zugunsten einer pointierten Aussage."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "E",
+      "C",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2889,
+    "out": 1610,
+    "thinking": 512
+  },
+  "costUsd": 0.021878
+}

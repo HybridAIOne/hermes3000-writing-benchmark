@@ -1,0 +1,17 @@
+{
+  "task": "lit-chapter",
+  "model": "grok-4.3",
+  "run": 1,
+  "text": "Ilse löste das Seil von der Verankerung und zog die Fähre langsam vom Ufer. Der Nebel stand so dicht, dass die gegenüberliegende Böschung nur als grauer Schatten zu erkennen war. Das Wasser schlug leise gegen die hölzernen Kufen, und der Motor der kleinen Dieselmachine tuckerte gleichmäßig. Drei Personen warteten bereits an der Anlegestelle auf der anderen Seite. Ilse sah sie erst, als die Fähre näher kam: einen älteren Mann mit Jagdjacke und Gummistiefeln, eine Frau mittleren Alters mit Fahrrad und einen jungen Kerl in Arbeitskleidung, der eine Thermoskanne in der Hand hielt.\n\n„Morgen“, sagte der Mann mit der Jagdjacke, als er an Bord stieg. Er nickte Ilse kurz zu und stellte sich an die Reling.\n\nDie Frau schob ihr Fahrrad vorsichtig über die schmale Klappe. „Kalt heute“, murmelte sie. Ilse antwortete nicht. Sie wartete, bis alle drei an Bord waren, dann löste sie das Seil auf der anderen Seite und ließ die Fähre wieder anlaufen. Der Nebel schluckte die Geräusche, nur das Tuckern des Motors und das leise Klirren des Seils an den Rollen blieben.\n\nDer junge Mann lehnte sich an die Kabine. „Fährt die noch lange, die Fähre hier?“ Er sah Ilse an, als erwarte er eine Antwort. Sie zog das Seil straffer und blickte auf das Wasser.\n\n„Solange es geht“, sagte sie schließlich.\n\nDer Mann mit der Jagdjacke lachte kurz. „Solange Sie noch können, meinen Sie. Meine Frau sagt immer, irgendwann kommt die Brücke. Dann ist hier Ruhe.“\n\nDie Frau mit dem Fahrrad stellte ihren Lenker gegen die Reling. „Brücke oder nicht, die Fähre ist praktisch. Ich muss nicht bis nach Dömitz fahren.“ Sie zog ihre Handschuhe fester. „Wann ist die nächste Fahrt zurück?“\n\n„In einer halben Stunde“, sagte Ilse. Sie hielt den Blick auf das Seil gerichtet. Die Fähre bewegte sich gleichmäßig durch den Nebel. Die Umrisse der Bäume am Ufer tauchten auf und verschwanden wieder.\n\nDer junge Mann schraubte den Deckel seiner Thermoskanne auf. „Kaffee?“ Er hielt sie Ilse hin. Sie schüttelte den Kopf. Er goss sich selbst ein und trank einen Schluck. „Ich fahre nach Hitzacker zur Baustelle. Die neue Uferbefestigung. Dauert noch Wochen.“\n\n„Wenigstens Arbeit“, sagte der Mann mit der Jagdjacke. „Hier ist sonst nicht viel los im November.“\n\nDie Fähre erreichte das andere Ufer. Ilse legte an, spannte das Seil fest und öffnete die Klappe. Die drei stiegen nacheinander ab. Der junge Mann hob die Hand zum Abschied. „Bis später vielleicht.“ Die Frau schob ihr Fahrrad den kleinen Hang hinauf. Der Mann mit der Jagdjacke ging ohne ein weiteres Wort davon.\n\nIlse wartete, bis sie verschwunden waren, dann machte sie die Fähre für die Rückfahrt bereit. Der Nebel hatte sich kaum gelichtet. Sie zog das Seil ein, startete den Motor erneut und fuhr zurück. Auf halbem Weg vibrierte das Telefon in ihrer Jackentasche. Sie zog es nicht heraus. Es klingelte weiter, zweimal, dreimal. Dann war es still. Sie blickte auf das Wasser, das sich grau und flach vor der Fähre ausbreitete, und zog das Seil ein Stück weiter.",
+  "usage": {
+    "in": 400,
+    "out": 1405,
+    "thinking": 620
+  },
+  "costUsd": 0.0040125,
+  "finish": "stop",
+  "reportedModel": "x-ai/grok-4.3",
+  "latencyMs": 22236,
+  "meta": [],
+  "at": "2026-10-17T14:59:38.878Z"
+}

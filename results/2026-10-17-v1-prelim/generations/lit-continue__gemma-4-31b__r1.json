@@ -1,0 +1,17 @@
+{
+  "task": "lit-continue",
+  "model": "gemma-4-31b",
+  "run": 1,
+  "text": "Sie sah ihn nicht an. Ihr Blick galt dem grauen Band der Elbe, das träge an der Fähre vorbeifloss und kleine, schaumige Wirbel an den Pfählen hinterließ. Der Geruch von Diesel und brackigem Wasser hing schwer in der Luft, ein Geruch, der in ihre Haut eingezogen war und den sie an sich selbst kaum noch wahrnahm.\n\n„Der Motor läuft“, antwortete sie knapp.\n\n„Er stottert, Mutter. Das hat man schon beim Anlegen gehört.“ Jonas machte einen Schritt auf sie zu, die teuren Lederschuhe waren bereits von der Feuchtigkeit der Bohlen dunkel verfärbt. Er sah aus wie ein Fremdkörper in dieser Landschaft, zu glatt gebügelt, zu präzise in seinen Schnitten. „Wie lange willst du das noch so machen? Mit dem Provisorium?“\n\nIlse ignorte die Frage. Sie trat auf das Deck und begann, die wenigen zurückgelassenen Gegenstände eines Fahrgastes aufzusammeln – eine vergessene Zeitung, eine Plastiktüte mit Einkäufen, die jemand im Eifer des Ausstiegs vergessen hatte. Ihre Bewegungen waren ökonomisch, geübt, ohne unnötigen Schwung.\n\n„Ich habe im Büro ein Projekt abgeschlossen. Ich habe ein paar Tage frei“, sagte er hinter ihr. Er versuchte, seine Stimme weicher klingen zu lassen, doch darin schwang immer noch diese analytische Distanz mit, die sie so sehr anstrengte. Er wollte sie nicht einfach besuchen; er wollte eine Situation bewerten.\n\nSie hörte das ferne Rufen eines Vogels, ein einsames Echo über den Ufern. In München, so stellte sie sich vor, gab es keine solche Stille. Dort gab es nur den Lärm der Effizienz.\n\n„Es gibt Kaffee in der Küche“, sagte sie, ohne sich umzudrehen. „Wenn du willst.“\n\n„Das will ich.“\n\nSie stieg die schmale Treppe zum Land hinauf. Ihr Knie schmerzte bei jedem Schritt, ein dumpfes Ziehen, das sie seit dem letzten Winter begleitete. Oben angekommen, hielt sie kurz inne und sah zurück auf das flache Boot, das im Takt der Strömung sanft gegen den Poller stieß. Es war ein rhythmisches Klopfen, fast wie ein Herzschlag, der das einzige Maß für die Zeit an diesem Ort war.\n\nJonas stand neben ihr, die Arme vor der Brust verschränkt, den Blick prüfend über die verwitterten Holzhütten und die rostigen Anker geworfen. Er wartete auf eine Einladung, auf eine Öffnung, auf den Moment, in dem sie endlich zugab, dass alles hier zu schwer geworden war.\n\nIlse griff in die Tasche ihrer Schürze und holte den schweren Eisenschlüssel hervor. Sie hätte ihn direkt in das Schloss der Haustür stecken können, doch sie blieb einen Moment stehen und betrachtete die kleinen Risse in der Fassade ihres Hauses. Dann entschied sie sich und führte ihn nicht durch den Haupteingang, sondern über den schmalen Pfad zum Nebeneingang der Küche, wo es weniger Zugluft gab und man weniger vom weiten, fordernden Fluss sehen musste.",
+  "usage": {
+    "in": 337,
+    "out": 698,
+    "thinking": 0
+  },
+  "costUsd": 0.0003466,
+  "finish": "stop",
+  "reportedModel": "google/gemma-4-31b-it",
+  "latencyMs": 23782,
+  "meta": [],
+  "at": "2026-10-17T15:04:32.550Z"
+}

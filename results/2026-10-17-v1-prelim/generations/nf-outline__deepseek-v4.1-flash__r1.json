@@ -1,0 +1,19 @@
+{
+  "task": "nf-outline",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "text": "**Gliederung: „Führen ohne Titel“ – 9 Kapitel**\n\n1. **Tag eins: Jetzt bist du dran** – Du verschaffst dir im Tagesgeschäft einen Überblick, wer was von dir erwartet, welche Entscheidungen sofort nötig sind und was warten kann.\n2. **Die ersten Wochen: erst verstehen, dann verändern** – Du lernst Team, Aufgaben, gewachsene Abläufe und ungeschriebene Regeln kennen, bevor du etwas umstellst.\n3. **Deine Rolle: Auftrag, Grenzen, Entscheidungen** – Du findest heraus, wofür du wirklich zuständig bist, was du allein entscheiden darfst und wo du Rücksprache halten musst.\n4. **Arbeit verteilen: klar sagen, wer was bis wann macht** – Du formulierst Aufgaben, Erwartungen und Kontrollpunkte so, dass du nicht alles selbst machst und dein Team weiß, worauf es ankommt.\n5. **Feedback im Alltag: sagen, was du siehst** – Du gibst Lob und Kritik konkret, zeitnah und respektvoll, damit deine Leute wissen, woran sie sind und was besser werden soll.\n6. **Schwierige Gespräche: nicht aussitzen, sondern führen** – Du sprichst Konflikte, Fehler, Versäumnisse und schlechte Nachrichten ruhig an und kommst zu klaren Vereinbarungen.\n7. **Entscheiden, wenn du nicht alles weißt** – Du triffst auch mit unvollständigen Informationen Entscheidungen, erklärst sie nachvollziehbar und stehst zu ihnen.\n8. **Druck von oben und aus dem Team** – Du vertrittst dein Team gegenüber der Geschäftsführung, setzt Grenzen im Team und bleibst handlungsfähig, wenn beide Seiten etwas anderes wollen.\n9. **Deine Haltung: Führung ohne Titel langfristig leben** – Du entwickelst deinen eigenen Maßstab, kennst deine Grenzen und entscheidest, was für dich als Führungskraft dauerhaft trägt.",
+  "usage": {
+    "in": 165,
+    "out": 5282,
+    "thinking": 4801
+  },
+  "costUsd": 0.0031939499999999997,
+  "finish": "stop",
+  "reportedModel": "deepseek/deepseek-v4.1-flash",
+  "latencyMs": 23031,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T15:10:59.906Z"
+}

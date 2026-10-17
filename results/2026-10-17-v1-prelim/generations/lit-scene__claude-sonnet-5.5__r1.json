@@ -1,0 +1,17 @@
+{
+  "task": "lit-scene",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "Der Schlüssel lag, wie der Notar gesagt hatte, im Briefkasten. Er war kälter, als Metall im Oktober sein sollte, und er drehte sich im Schloss, ohne zu zögern. Anna hatte mit Widerstand gerechnet, mit Rost, mit irgendetwas, das ihr Zeit gab.\n\nDie Diele roch nach Stein und ausgekühltem Linoleum. Darunter lag etwas anderes, Süßliches, das sie nicht sofort einordnen konnte. Sie ließ die Reisetasche neben der Garderobe stehen. Die Haken waren leer bis auf einen, an dem ein Kleiderbügel hing, schief, als hätte jemand eben erst einen Mantel heruntergenommen.\n\nZwanzig Jahre. Sie hatte erwartet, das Haus kleiner zu finden, wie man es von Kindheitsorten behauptet. Aber die Decke war genauso hoch, der Flur genauso schmal, und die dritte Stufe der Treppe, das wusste sie, würde knarren. Sie stieg nicht hinauf.\n\nIn der Küche stand der Tisch an seinem Platz, abgeräumt und abgewischt. Jemand hatte sich Mühe gegeben, vermutlich die Nachbarin, deren Namen ihr nicht mehr einfiel. Der Wasserhahn tropfte in langen, ungleichen Abständen. Anna drehte ihn fester zu, und er tropfte weiter.\n\nDer Geruch war hier stärker. Sie folgte ihm zur Speisekammer, zog die Tür auf, und er schlug ihr entgegen: Quitten. Auf dem untersten Brett lagen sechs, sieben Früchte auf Zeitungspapier, gelb, mit braunen Druckstellen, noch fest. Der Quittenbaum war gefällt worden, noch vor ihrem Auszug. Sie erinnerte sich an das Kreischen der Säge und daran, dass ihre Mutter nicht hingesehen hatte.\n\nAnna nahm eine Frucht in die Hand. Der Flaum ließ sich mit dem Daumen abreiben. Die Zeitung darunter war von dieser Woche.",
+  "usage": {
+    "in": 149,
+    "out": 1579,
+    "thinking": 796
+  },
+  "costUsd": 0.016088,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "latencyMs": 15160,
+  "meta": [],
+  "at": "2026-10-17T14:51:48.551Z"
+}

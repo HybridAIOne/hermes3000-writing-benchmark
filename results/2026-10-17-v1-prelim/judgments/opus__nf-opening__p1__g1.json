@@ -1,0 +1,120 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„sie hat im letzten Quartal allein die Kundenrückmeldung gerettet“ – schiefe Kollokation, eine Rückmeldung „rettet“ man nicht (gemeint wohl Kundenbeziehung oder Kundenprojekt)",
+          "„Vor zwei Wochen kamen zwei Kollegen zu dir, unabhängig voneinander, und haben fast dasselbe gesagt“ – Tempusmischung aus Präteritum und Perfekt im selben Satz",
+          "Vier Absätze statt eines Einstiegsabsatzes",
+          "„Die erste fängt an mit „Ich muss dir mal was sagen“ — in dem Moment weiß sie …“ – holpriger Anschluss, der Bezug von „in dem Moment“ ist unscharf"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Montagmorgen … Gestern sollte eine Rückmeldung kommen“ – Logikfehler, gestern war Sonntag",
+          "„Genau an diesem Punkt stehen viele Führungskräfte und Teamleiter immer wieder“ – generischer Füllsatz, bricht die Du-Perspektive",
+          "„wie du Klarheit hineinbringst, ohne unnötig zu verletzen, wie du Spannung aushältst, ohne hart zu werden“ – formelhafte Ratgeberrhetorik",
+          "„dein Kollege“ – unscharf für das Verhältnis Teamleiter–Mitarbeiter",
+          "Die Szene geht schnell in Abstraktion über, und die zweite Hälfte wiederholt Gedanken („Schwierige Gespräche beginnen selten …“, „gerade weil diese Gespräche so unscheinbar beginnen“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Kurz darauf kommt Jürgen Brandt in dein Büro“ und später „Dann klopft es, Jürgen steckt den Kopf zur Tür herein“ – doppelter, widersprüchlicher Auftritt",
+          "„Leiter der Fertigungsplanung … dass seine Abteilung das Budget … nicht bekommt“ – Szenario mit Budgetentscheidung über einen Abteilungsleiter passt nicht zur Zielgruppe Teamleiter",
+          "„die Lieder der Firmengeschichte auswendig können“ – unklares, schiefes Bild",
+          "„Genau an diesem Punkt stehen Führungskräfte häufig“ – generischer Schlusssatz, der die Kapitelfunktion nur andeutet",
+          "Mit rund 280 Wörtern etwas über dem Umfang"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "Kein Übergang zum Kapitelthema: Der Text endet in der Szene und leistet die Einstiegsfunktion nicht",
+          "„Der Gang zum Kaffeeautomaten dauert plötzlich länger als sonst“ – widerspricht der Situation, denn du sitzt am Schreibtisch und stehst erst danach auf",
+          "„nach dem Feierabend“ – idiomatisch „nach Feierabend“",
+          "„Draußen regnet es, drinnen ist es still. Nur das Klackern der Tastaturen ist zu hören.“ – Stimmungsfüller ohne Funktion",
+          "„wie schwer es wird, noch einmal das Thema anzusprechen“ – ungünstige Wortstellung („das Thema noch einmal“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„Dienstagmorgen, Viertel vor neun … Zum dritten Mal diese Woche.“ – Logikfehler, am Dienstagmorgen kaum möglich",
+          "Rund 330 Wörter in fünf Absätzen – deutlich über dem Umfang und kein einzelner Einstiegsabsatz",
+          "„Er könnte antworten: „Du bist nicht mein Vorgesetzter.“ Stimmt. Genau deshalb ist es deine Aufgabe.“ – argumentativer Kurzschluss",
+          "„Kommt dir das bekannt vor?“ – abgegriffene Ratgeberformel",
+          "„die führen, ohne offiziell der Chef zu sein“ – ein Teamleiter ist formal Vorgesetzter, die Zielgruppe wird umgedeutet"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 4900,
+    "out": 3043,
+    "thinking": 1369
+  },
+  "costUsd": 0.08046
+}

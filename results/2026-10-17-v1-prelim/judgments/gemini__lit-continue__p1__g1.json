@@ -1,0 +1,108 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "E": {
+      "model": "glm-5.3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 2,
+        "fehler": [
+          "Sie löste die Leine, warf sie auf Deck und schob die Fähre vom Anleger. (Gravierender Logikbruch: Im letzten Absatz des Prompts hat sie gerade erst angelegt und die Leine zweimal festgezogen. Außerdem steht Jonas noch auf dem Anleger, ist im nächsten Satz aber plötzlich auf der fahrenden Fähre.)",
+          "der Tau roch nach Fluss und Teer (Grammatikfehler/Bedeutungsverwechslung: 'der Tau' ist der Niederschlag, das Seil heißt 'das Tau'.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Es war nicht der Blick des Jungen, der früher im Sommer von der Bordwand ins trübe Wasser gesprungen war. Es war der Blick eines Mannes, der Zahlen schätzte. Abschreibungswerte. Instandhaltungskosten. (Stilistisch zu erklärend: Die Vorgabe 'Unternehmensberater' wird hier etwas holzschnittartig auserzählt.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "Da dreht der Gier nicht mehr. (Fachlicher und sprachlicher Unsinn: Gierfähren nutzen die Strömung durch das Gieren; 'der Gier' als sich drehendes Bauteil am Motor existiert nicht.)",
+          "„Wenn du mitfährst“, sagte Ilse und schob den Gashebel nach vorn. Der Motor ruckte, fing sich, brummte. (Logikbruch: Die Leine wurde zu Szenenbeginn doppelt festgezogen und nie gelöst, trotzdem fährt sie einfach los; zudem widerspricht der reibungslos startende Motor der Prämisse aus dem Prompt.)",
+          "Dann stellte er den Koffer ab, nahm die Weste und zog sie sich über (Verfehlung der Aufgabe: Das Ende beschreibt eine Entscheidung von Jonas, nicht von Ilse.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Ein Frachter schob sich elbaufwärts, weit drüben in der Fahrrinne (Geografischer Logikbruch: Wenn die Fahrrinne 'weit drüben' am anderen Ufer liegt, kann eine querende Seilfähre dort nicht verkehren, da das Seil den Schiffsverkehr blockieren würde.)",
+          "„Nimm die Tasche“, sagte sie (Kontinuitätsfehler: Im Prompt und im Text selbst ist es ein Rollkoffer, keine Tasche.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "Stellte man das Boot schräg, schob die Strömung es von allein über den Fluss; den Diesel brauchte man nur zum Anlegen, und wenn der nicht ansprang, dann trieb man halt ein Stück ab und holte das Ufer wieder ran. (Sinnfehler: Eine Seilfähre hängt am Seil und kann nicht einfach frei abtreiben; das Prinzip von Gierseilfähre und frei fahrender Motorfähre wird hier vermischt.)",
+          "jetzt trug er das Ding unbeholfen vor sich her, wie man ein schlafendes Kind trägt. (Kontinuitätsbruch zum Prompt, in dem der Koffer auf den Bohlen steht, und ein schiefes Bild für einen Rollkoffer.)",
+          "und sein Handy fand kein Netz. (Perspektivbruch: Das kann Ilse aus der personalen Perspektive auf Distanz nicht wahrnehmen.)",
+          "„Steig ein\", sagte sie. „Den Koffer lass da.\" ... „Da muss noch ein Rad drauf\", sagte Ilse. (Logikbruch: Auf einer Autofähre ist ein Rollkoffer kein Platzhindernis für ein einzelnes Fahrrad am anderen Ufer.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "E",
+      "C",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 4316,
+    "out": 1099,
+    "thinking": 0
+  },
+  "costUsd": 0.019622
+}

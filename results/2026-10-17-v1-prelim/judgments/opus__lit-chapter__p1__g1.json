@@ -1,0 +1,122 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "D": {
+      "model": "deepseek-v4.1-flash",
+      "run": 1
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Es war acht Uhr fünfunddreißig in München.“ – Logikbruch: München liegt in derselben Zeitzone, kurz zuvor war es „sieben Uhr achtundzwanzig“.",
+          "„Kalli zog die Nase hoch, kurbelte das Fenster wieder hoch“ – unschöne Wortwiederholung.",
+          "„Die Kette rasselte durch die Klüsen, fiel scheppernd ins Wasser.“ – technisch unklar bei einer Seilfähre; Haspel, Ruder und Speichen werden durcheinandergeworfen.",
+          "„zwanzig Tonnen Holz und Eisen hielten die Balance … gehalten von nichts als ein paar Millimetern Stahl und ihrem eigenen Gewicht gegen das Ruder“ – überladen, pathetisch.",
+          "„Er kannte die Regeln. Auf der Fähre wurde geschwiegen“ – erklärt, statt zu zeigen; dazu Klischees wie „flüssigen Gips“ und „sündhaft teures Fernglas“."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Man sieht ja die Hand vor Augen nicht\"“ – uneinheitliche Anführungszeichen: „ öffnend, \" schließend.",
+          "„Sie sah es an dem grünen Streifen am Pfahl, ohne hinzusehen.“ – gewollte Paradoxie, wirkt leicht bemüht.",
+          "„Das Seil hob sich vor dem Bug tropfend aus dem Wasser“ – technisch eher Ketten- als Seilfährenbild, vertretbar.",
+          "„als hätte sie ihm etwas Persönliches mitgeteilt“ – kleine Pointenmanier, an der Grenze zur Masche."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 5,
+        "stil": 3,
+        "aufgabe": 3,
+        "fehler": [
+          "„Sie zog es nicht heraus.“ – Der Anrufer bleibt unbekannt, der Anruf ist nicht erkennbar von Jonas.",
+          "„Dieselmachine“ – Rechtschreibfehler („Dieselmaschine“).",
+          "„dann löste sie das Seil auf der anderen Seite und ließ die Fähre wieder anlaufen“ – Fahrtlogik und Ufer bleiben verworren.",
+          "„das Wasser schlug leise gegen die hölzernen Kufen“ – Fähren haben keine Kufen; auch „zog das Seil straffer“ ist technisch sinnlos.",
+          "Mit rund 500 Wörtern deutlich zu kurz; die Dialoge sind generisch und erklärend („Hier ist sonst nicht viel los im November“)."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Ihre Hände waren rot von der Kälte, obwohl sie Handschuhe hatte, sie trug sie nie.“ – widersprüchlich und grammatisch holprig.",
+          "„Ein Gesicht in klein, das Gesicht war alt“ – unbeholfene Formulierung.",
+          "„Ich fahre sonst über die Brücke. Aber die ist gesperrt, oder?“ – bei Hitzacker gibt es keine Elbbrücke, ein Logikbruch im Setting.",
+          "„Dann ist das das.“ / „Da fährt man hier.“ – die Echo-Dialoge werden zur Masche.",
+          "„als trüge es mehr Gewicht, als es trug“ – gewollte Wendung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Heute war Dienstag. Es war halb sieben.“ – Logikbruch: Drei Überfahrten mit Ein- und Ausstieg zwischen „Kurz nach Viertel“ und halb sieben sind kaum möglich.",
+          "„das immer auf der Festlandseite wartete“ – beide Elbufer sind Festland.",
+          "„An der Rampe drüben rammte die Fähre leise ins Holz.“ – „rammen“ und „leise“ widersprechen sich.",
+          "„Ilse kannte jede Faser dieses Morgens.“ – Klischee.",
+          "„„Morgen.\"“ – uneinheitliche Anführungszeichen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "E",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 14901,
+    "out": 3982,
+    "thinking": 2354
+  },
+  "costUsd": 0.139244
+}

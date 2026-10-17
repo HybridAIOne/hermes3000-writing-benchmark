@@ -1,0 +1,17 @@
+{
+  "task": "lit-scene",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "Der Schlüssel drehte sich erst beim zweiten Versuch. Im Schloss gab es einen trockenen Widerstand, dann gab die Tür nach und stieß gegen etwas im Flur. Mara blieb auf der Schwelle stehen.\n\nDrinnen roch es nach kaltem Holz und dem Staub, der sich auf Heizkörpern sammelt. Sie stellte die Tasche ab. Ihre Mutter hatte das Haus seit dem Winter nicht mehr bewohnt; seit der Beerdigung war niemand hineingegangen. Trotzdem stand der Schirmständer an seinem Platz, die drei Spazierstöcke darin, als könnte einer von ihnen gleich gebraucht werden.\n\nMara schob die Tür weiter auf. Ein schmales Stück Tapete löste sich und klappte zurück. Im Flur war es kühler als draußen. Sie zog die Jacke nicht aus.\n\nIn der Küche lag das Licht flach auf dem Tisch. Die Stühle waren untergeschoben, bis auf einen. Der stand mit der Lehne zur Wand, dicht am Fenster. Mara sah hin, ohne zu wissen, weshalb. Auf der Fensterbank hatte sich im Staub ein sauberer, heller Halbkreis erhalten, als wäre dort lange ein Glas gestanden. Sie strich nicht darüber.\n\nDer Wasserhahn gab beim Aufdrehen einen kurzen, heiseren Laut von sich. Erst kam Luft, dann ein dünner Strahl, der gegen das Becken schlug. Sie ließ das Wasser laufen, bis es klar war. Der Geruch aus dem Abfluss war metallisch und fremd.\n\nAn der Speisekammertür fand sie die Bleistiftstriche, die ihre Mutter über die Jahre dort eingezeichnet hatte. Namen, Daten, Höhen. Mara beugte sich näher. Der letzte Strich lag knapp über ihrem Kopf. Neben ihm stand kein Datum, nur ein kleines Kreuz, sorgfältig nachgezogen.\n\nSie richtete sich auf. Im oberen Stockwerk knackte es. Vielleicht das Gebälk, vielleicht eine Tür, die sich im Luftzug bewegte. Sie wartete, bis das Haus wieder still war, und hörte dann das Wasser im Becken nachträglich tropfen: langsam, in gleichmäßigen Abständen, als zähle jemand mit.",
+  "usage": {
+    "in": 76,
+    "out": 912,
+    "thinking": 453
+  },
+  "costUsd": 0.00046360000000000005,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "latencyMs": 12181,
+  "meta": [],
+  "at": "2026-10-17T14:51:34.001Z"
+}

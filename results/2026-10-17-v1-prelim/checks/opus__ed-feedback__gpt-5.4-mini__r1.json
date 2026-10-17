@@ -1,0 +1,20 @@
+{
+  "task": "ed-feedback",
+  "model": "gpt-5.4-mini",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "found": [
+      "tempus",
+      "perspektive",
+      "hupe"
+    ],
+    "false_alarms": 0
+  },
+  "usage": {
+    "in": 1677,
+    "out": 30,
+    "thinking": 0
+  },
+  "costUsd": 0.007308
+}

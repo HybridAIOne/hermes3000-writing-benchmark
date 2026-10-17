@@ -1,0 +1,19 @@
+{
+  "task": "nf-outline",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "# Führen ohne Titel – Gliederung\n\n**1. Montagmorgen, neue Rolle**\nGestern warst du noch Kollege, heute bist du Chef, und dieses Kapitel zeigt dir, was sich in den ersten Tagen wirklich ändert und wie du damit anfängst.\n\n**2. Was von dir erwartet wird**\nDu klärst, was Geschäftsführung, Team und du selbst von dir erwarten, und wie du mit Erwartungen umgehst, die sich widersprechen.\n\n**3. Dein Team kennenlernen**\nDu findest in Einzelgesprächen heraus, wer was kann, was jeden antreibt und wo es im Team bisher hakt.\n\n**4. Aufgaben abgeben, ohne die Kontrolle zu verlieren**\nDu lernst, Arbeit so zu übergeben, dass sie erledigt wird, und warum „Ich mach's lieber selbst\" dich auf Dauer ausbremst.\n\n**5. Klare Ansagen und brauchbare Besprechungen**\nDu setzt Prioritäten, formulierst Aufträge verständlich und gestaltest Teamrunden so, dass sie Orientierung geben und keine Zeit fressen.\n\n**6. Rückmeldung im Alltag**\nDu gibst regelmäßig Lob und sachliche Kritik, bevor kleine Probleme groß werden, und holst dir selbst ehrliches Feedback ab.\n\n**7. Schwierige Gespräche**\nDu bereitest dich auf Konflikte, anhaltende Leistungsprobleme und unangenehme Nachrichten vor und führst solche Gespräche fair, klar und ohne Ausweichen.\n\n**8. Zwischen den Stühlen**\nDu vertrittst Entscheidungen, die du nicht selbst getroffen hast, gegenüber dem Team und trägst Anliegen des Teams nach oben, ohne dich dabei aufzureiben.\n\n**9. Dich selbst im Griff behalten**\nDu gehst mit Zeitdruck, Selbstzweifeln, Fehlern und deiner eigenen Belastung so um, dass du langfristig führungsfähig bleibst.\n\n**10. Deine eigene Haltung**\nDu entwickelst aus allem, was du erlebt hast, ein klares Bild davon, wie du führen willst und wofür du als Führungskraft stehst.",
+  "usage": {
+    "in": 242,
+    "out": 1527,
+    "thinking": 698
+  },
+  "costUsd": 0.015754,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "latencyMs": 12263,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T14:52:24.592Z"
+}

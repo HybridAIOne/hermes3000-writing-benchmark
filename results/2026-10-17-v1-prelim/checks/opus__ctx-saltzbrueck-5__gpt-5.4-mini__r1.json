@@ -1,0 +1,16 @@
+{
+  "task": "ctx-saltzbrueck-5",
+  "model": "gpt-5.4-mini",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 4969,
+    "out": 438,
+    "thinking": 421
+  },
+  "costUsd": 0.028636
+}

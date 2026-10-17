@@ -1,0 +1,119 @@
+{
+  "task": "lit-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "\"Er war kälter, als Metall im Oktober sein sollte\" – leicht bemühte Formulierung",
+          "\"die dritte Stufe der Treppe, das wusste sie, würde knarren\" – abgegriffenes Heimkehrmotiv",
+          "\"wie man es von Kindheitsorten behauptet\" – etwas essayistisch erklärend",
+          "\"Darunter lag etwas anderes, Süßliches, das sie nicht sofort einordnen konnte\" – geläufige Formel"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 4,
+        "fehler": [
+          "\"Das angelegte Detail ist das helle Rechteck mit dem Nagel ... Sag gern Bescheid, wenn du eine andere Tonlage ... möchtest.\" – Kommentar außerhalb des Buchtextes, verletzt die Vorgabe",
+          "\"Unten zog sie die Jacke aus\" – Logikbruch: Sie war nie oben, die Szene spielt im Erdgeschoss",
+          "\"Das Konfirmationsbild, war sie sich fast sicher, hatte dort gehangen\" – syntaktisch holprige Einschaltung (\"da war sie sich fast sicher\")",
+          "\"aus Aberglaube oder Höflichkeit\" – idiomatisch \"aus Aberglauben\"",
+          "\"Stattdessen roch es nach nichts, das sie hätte benennen können, und das war schlimmer.\" – erklärt das Gefühl, statt es zu zeigen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "Mutter, Tod und die zwanzig Jahre kommen im Text nicht vor (nur vage \"in den Jahren\") – zentrale Vorgaben nicht erfüllt",
+          "\"Die Stille war nicht leer, sondern gefüllt mit dem leisen Summen\" – Klischee",
+          "\"mit einem kurzen, trockenen Knarren\" / \"ein kurzes, trockenes Kratzen\" – wiederholte Adjektivformel",
+          "\"als hätte das Metall sich in den Jahren an diese Bewegung erinnert\" – leicht kitschige Beseelung",
+          "\"das andere, leisere Geräusch, das aus dem Haus selbst zu kommen schien\" – vage, raunender Schluss"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "\"Das Haus schien den Atem anzuhalten, lauernd, wie ein ertapptes Tier\" – Klischee und widersprüchliches Bild (lauernd vs. ertappt)",
+          "\"konserviert unter einer Glocke aus Stillstand\" – Kitsch und Bildüberladung",
+          "\"Das Schloss wehrte sich nicht. Es gab mit einem trockenen, mehligen Knirschen nach, als fresse das Eisen den eigenen Rost\" – widersprüchlich; zudem Wiederholung \"mehligen\"/\"Mehlstaub\"",
+          "\"dem Mehlstaub längst zerfallener Tapeten\" – Logikbruch: Die Mutter ist erst kürzlich gestorben und \"nichts war ausgeräumt\"",
+          "\"Im ersten Stock knarrte ein Balken ... als verlagerte jemand im Schlaf das Gewicht\" – Schauerroman-Effekt statt literarischer Spannung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"Die Küche war kleiner, als sie sie behalten hatte\" – elliptisch, idiomatisch \"in Erinnerung behalten\"",
+          "\"Sie öffnete stattdessen das Fenster, doch der Griff bewegte sich nur ein Stück\" – \"öffnete\" widerspricht dem Misslingen",
+          "Zu viele Rätselsignale (Schneeschaufel, Topf, Papierstreifen, Heft, zweiter Schlüssel, Nelke) schwächen das eine tragende Detail",
+          "\"Ihr Körper wusste es, bevor sie sich erinnerte\" – erklärend, geläufige Formel"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "B",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 5893,
+    "out": 3212,
+    "thinking": 1621
+  },
+  "costUsd": 0.087812
+}

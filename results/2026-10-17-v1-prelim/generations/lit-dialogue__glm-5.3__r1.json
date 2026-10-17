@@ -1,0 +1,17 @@
+{
+  "task": "lit-dialogue",
+  "model": "glm-5.3",
+  "run": 1,
+  "text": "*Ein Café, Nachmittag. ANTON sitzt am Fenstertisch und rührt in einem Kaffee, den er nicht trinkt. JOSEF bleibt kurz in der Tür, dann setzt er sich.*\n\n**ANTON:** Du hast den Tisch gefunden.\n\n**JOSEF:** Er ist der einzige mit zwei Tassen.\n\n*Stille. Josef umfasst die zweite Tasse mit beiden Händen. Er trinkt nicht.*\n\n**JOSEF:** Danke fürs Kommen.\n\n**ANTON:** Ich war sowieso in der Nähe. *(Pause)* So ungefähr.\n\n**JOSEF:** Das Wetter—\n\n**ANTON:** Warm. Für die Jahreszeit.\n\n**JOSEF:** Sehr warm.\n\n*Beide schauen aus dem Fenster. Es regnet.*\n\n**ANTON:** Der Kuchen hier ist besser geworden. Damals war er trocken.\n\n**JOSEF:** Damals haben wir ihn trotzdem gegessen.\n\n**ANTON:** Wir haben viel gegessen, damals.\n\n*Pause.*\n\n**ANTON:** Deine Mutter hatte im Frühjahr Geburtstag, nein?\n\n**JOSEF:** Im März. Sie fragt nach dir.\n\n**ANTON:** *(in die Tasse)* Das muss nicht sein.\n\n**JOSEF:** Sie wartet. Seit drei Jahren, oder so.\n\n**ANTON:** Man muss nicht alles zählen.\n\n*Josef öffnet den Mund. Schließt ihn wieder.*\n\n**JOSEF:** Ich wollte—\n\n**ANTON:** Schon gut.\n\n*Josef legt ein zerlesenes Buch auf den Tisch.*\n\n**JOSEF:** Dein Buch. Ich hab es zu Ende gelesen.\n\n**ANTON:** Und?\n\n**JOSEF:** Das Ende ist schlecht.\n\n**ANTON:** Manche Enden sind schlecht. Trotzdem schreibt jemand sie.\n\n*Josef legt die Hand auf das Buch. Er schiebt es nicht zurück.*\n\n**JOSEF:** Deine Nummer hab ich nie gelöscht.\n\n**ANTON:** *(sieht ihn zum ersten Mal an)* Deine auch nicht. Sie hätte nur klingeln müssen.\n\n*Josef steht auf, legt Geld neben die unberührte Tasse. Anton schiebt sie ihm hin.*\n\n**ANTON:** Nimm sie mit.\n\n**JOSEF:** Ich bringe sie zurück.\n\n*Josef geht. Anton rührt weiter, trinkt dann zum ersten Mal. Draußen bleibt Josef im Regen stehen und trinkt aus der Tasse.*",
+  "usage": {
+    "in": 74,
+    "out": 7154,
+    "thinking": 6633
+  },
+  "costUsd": 0.03434511999999999,
+  "finish": "stop",
+  "reportedModel": "z-ai/glm-5.3",
+  "latencyMs": 45896,
+  "meta": [],
+  "at": "2026-10-17T15:05:13.587Z"
+}

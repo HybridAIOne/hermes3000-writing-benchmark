@@ -1,0 +1,19 @@
+{
+  "task": "ed-feedback",
+  "model": "claude-opus-5.5",
+  "run": 1,
+  "text": "**Lektoratsanmerkungen zu „Die Fährfrau“**\n\n1. **„Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.“** Die Reihenfolge ist unlogisch: Die Fahrgäste können nicht über die Rampe gehen, bevor sie heruntergelassen ist, und vor dem Ablegen müsste Ilse die Rampe eher hochziehen.\n\n2. **„die drei Fahrgäste“** Im Folgenden treten vier Fahrgäste auf (die Frau mit dem Fahrrad, der Mann im grauen Mantel, der Junge mit den Kopfhörern und Frau Lüders), die Zahl stimmt also nicht.\n\n3. **„Ilse stellt den Motor an“** Hier steht Präsens statt Präteritum, korrekt wäre „stellte“.\n\n4. **„Ich hatte diesen Moment immer gemocht, dachte sie, wenn die Fähre sich vom Ufer löst.“** Direkte Gedankenrede (Ich-Form, Präsens „löst“) und erzählerische Rückverschiebung („hatte gemocht“) sind vermischt, sodass weder die direkte noch die indirekte Form sauber durchgehalten wird (etwa: „Ich habe diesen Moment immer gemocht“ oder „Sie hatte diesen Moment immer gemocht“).\n\n5. **„Der Nebel war so dicht, dass sie das andere Ufer nicht sah.“ / „Am Anleger drüben wartete schon der Bäcker“** Das ist ein Widerspruch: Wenn Ilse das andere Ufer nicht sieht, kann sie den Bäcker dort nicht warten sehen.\n\n6. **„Der Nebel schluckte jedes Geräusch.“ / „und hupte zweimal“** Auch hier liegt ein Widerspruch vor, denn das Hupen ist trotz des angeblich alles verschluckenden Nebels hörbar.\n\n7. **„mit seinem Pferdewagen […] und hupte zweimal“** Ein Pferdewagen hat keine Hupe.\n\n8. **„wie jeden Morgen seit dem Krieg“** Die Gegenwartshandlung (Handy, Kopfhörer) und „seit dem Krieg“ ergeben eine kaum plausible Zeitspanne von rund 80 Jahren für denselben Bäcker, was zu klären wäre (welcher Krieg, oder ist ein Familienbetrieb gemeint?).\n\n9. **„Am / Anleger drüben“** Der Zeilenumbruch mitten im Satz ist ein Formatierungsfehler im Manuskript und sollte entfernt werden.",
+  "usage": {
+    "in": 551,
+    "out": 2156,
+    "thinking": 1194
+  },
+  "costUsd": 0.045324,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "latencyMs": 20707,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T14:50:08.798Z"
+}

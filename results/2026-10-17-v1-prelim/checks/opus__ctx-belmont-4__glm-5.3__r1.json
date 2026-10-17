@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "glm-5.3",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 3783,
+    "out": 354,
+    "thinking": 337
+  },
+  "costUsd": 0.022212
+}

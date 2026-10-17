@@ -1,0 +1,19 @@
+{
+  "task": "ed-feedback",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "found": [
+      "rampe",
+      "tempus"
+    ],
+    "false_alarms": 1
+  },
+  "usage": {
+    "in": 754,
+    "out": 72,
+    "thinking": 42
+  },
+  "costUsd": 0.002228
+}

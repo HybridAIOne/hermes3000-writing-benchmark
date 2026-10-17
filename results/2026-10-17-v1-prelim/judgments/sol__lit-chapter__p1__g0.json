@@ -1,0 +1,117 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Drei waren es.“ – Die Fahrgastzahl wird ausdrücklich bestätigt, obwohl die klar gegliederte Ankunftsszene sie bereits zweifelsfrei vermittelt. Eine kleine Überdeutlichkeit.",
+          "„Die Überfahrt dauerte so lange, wie sie dauerte.“ – Die tautologische Sentenz wirkt gegenüber den sonst präzisen, sinnlichen Beobachtungen etwas vorgefertigt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„sieben Uhr achtundzwanzig“ / „Es war acht Uhr fünfunddreißig in München.“ – Während einer kurzen Überfahrt vergeht unvermittelt mehr als eine Stunde. München hat keine abweichende Ortszeit, die den Sprung erklären könnte.",
+          "„zog fünfzig Cent heraus und drückte beides in die behandschuhte Hand der Referendarin“ – „Beides“ bezeichnet hier die aufgehobene Zwei-Euro-Münze und die fünfzig Cent. Ilse zahlt damit zweifünfzig aus, statt für den Fahrpreis von anderthalb Euro fünfzig Cent zurückzugeben.",
+          "„Henning hatte immer gesagt, die Fähre sei wie ein Drachen im Wind, nur eben unter Wasser.“ – Rückblickende Beziehungsexposition entgegen der ausdrücklichen Vorgabe, ohne Rückblenden-Exposition zu erzählen.",
+          "„Ilse drehte das Ruderblatt drei Speichen nach Steuerbord.“ – Verwechselt das bediente Steuerrad mit dem Ruderblatt. Zusammen mit Haspel, Hebel, Laufkatze und wechselnden Seilbezeichnungen entsteht technische Geschäftigkeit ohne hinreichend klare Mechanik.",
+          "„die Welt jenseits der Buhne Gestalt annahm“ / „flüssigen Gips zwischen die Ufer gegossen“ / „hinter ihnen das Nichts“ – Die gehäuften Atmosphärenbilder überladen den gewöhnlichen Morgen. Besonders der Schluss steigert die Routineüberfahrt unnötig zum existenziellen Balanceakt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„um halb sieben“ / „um sechs Uhr vierunddreißig“ – Die Uhrzeit springt im kontinuierlich erzählten Ablauf von 6.30 Uhr auf 6.34 Uhr zurück. Das ist ein eindeutiger Kontinuitätsfehler.",
+          "„Henning hatte immer gesagt“ / „wo Henning früher immer seine Lesebrille an einem Nagel aufgehängt hatte“ – Der Text schiebt ausdrücklich untersagte Rückblenden-Exposition ein. Der zurückgebliebene Nagel setzt zusätzlich ein recht konventionelles Trauersymbol.",
+          "„stand der alte Krogmann neben seinem weinroten Golf“ / „rief er durch das halb heruntergelassene Fenster“ – Krogmann steht zunächst außerhalb des Wagens, spricht unmittelbar darauf aber wie ein Insasse durch dessen Fenster. Ein entsprechender Ortswechsel fehlt.",
+          "„Sie wusste, was er sagen würde. Er würde fragen, ob der Gutachter von der Gemeinde schon da gewesen sei.“ – Der anschließende Katalog zu Gutachter, Heizkosten und Umzug erklärt den familiären Konflikt vorab, statt ihn szenisch entstehen zu lassen. Der Schluss verliert dadurch Offenheit und Spannung.",
+          "„vom Wattemeer der Luft verschluckt“ / „wie Lackschuhe im Schweinestall“ / „schwarz wie verbranntes Reisig“ – Die auffälligen, teils konventionellen Vergleiche häufen sich und konkurrieren mit der nüchternen Figurenzeichnung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„nur die Fähre und die drei Menschen darauf“ – An Bord befinden sich drei Fahrgäste und Ilse, also vier Menschen. Die Fahrgastvorgabe wird eingehalten, die zusammenfassende Beschreibung zählt jedoch falsch.",
+          "„Sie sah es an dem grünen Streifen am Pfahl, ohne hinzusehen.“ – Die Formulierung widerspricht sich unmittelbar. Dass Ilse den Pegel routiniert erfasst, wird durch die behauptete Wahrnehmung ohne Hinsehen nicht präziser.",
+          "„Die kommt seit dreißig Jahren“ / „Das Seil weiß es“ – Treffende Einzelrepliken, deren Häufung Ilse allerdings stellenweise zur Lieferantin druckfertiger Pointen macht. Ihre Wortkargheit wirkt dadurch stärker inszeniert als in A.",
+          "„Der Nebel hatte sich nicht bewegt. Er würde sich vor Mittag nicht bewegen.“ – Die bestimmte Wettervorhersage ist nicht als Ilses Einschätzung markiert und klingt kurz nach übergeordneter Erzählergewissheit."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ilse brachte die Fähre zurück in die Mitte und stellte den Hebel auf Leerlauf.“ / „Draußen setzte die Kette wieder an.“ – Nach dem Aussteigen fährt Ilse ohne erkennbaren Anlass zur Flussmitte und unterbricht dort die Fahrt für Tee. Anschließend läuft die zuvor stillgestellte Kette ohne erzählte Bedienhandlung wieder an. Der Betriebsablauf bleibt widersprüchlich beziehungsweise unzureichend motiviert.",
+          "„Ilse zog den Kragen ihrer Jacke hoch und trat hinaus.“ / „In der Kabine stellte sie den Wasserkocher an.“ – Ilse befindet sich offenbar zunächst an einem geschützten Steuerstand; nach ihrem Hinaustreten wird der spätere Wechsel zurück in die Kabine nicht erzählt. Zusammen mit der unklaren Rückfahrt verliert die räumliche Inszenierung an Verlässlichkeit.",
+          "„Und wenn der Nebel noch dichter wird?“ / „Dann wird er dichter.“ – Die Dialoge wiederholen systematisch dasselbe Muster aus naiver Fahrgastfrage und abweisender Kurzantwort. Ilse erscheint dadurch eher demonstrativ schroff als individuell wortkarg.",
+          "„niemand hatte etwas Wichtiges zu sagen“ – Der Erzählerkommentar wertet die Gespräche pauschal ab und erklärt die Banalität, die die Szene bereits zeigt.",
+          "„Sie prüfte den Verschluss, dann die Leine, dann noch einmal den Verschluss.“ / „Sie wischte die Hände an einem Lappen ab, obwohl sie nicht schmutzig waren.“ – Wiederholte, ausdrücklich unnötige Handgriffe dienen als ähnliche Bedeutungssignale. Ohne weitere Differenzierung wird daraus eine erkennbare Charakterisierungsmasche."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "E",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 8535,
+    "out": 2140,
+    "thinking": 512
+  },
+  "costUsd": 0.03847
+}

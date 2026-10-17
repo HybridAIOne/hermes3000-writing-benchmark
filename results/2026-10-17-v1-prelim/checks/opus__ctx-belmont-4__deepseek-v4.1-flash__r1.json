@@ -1,0 +1,22 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "deepseek-v4.1-flash",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "violated": [
+      "b4-6",
+      "b4-1"
+    ],
+    "evidence": [
+      "Er hatte die Augen seines Vaters. Dasselbe Blau, nur jünger",
+      "Er hatte die Augen seines Vaters. Dasselbe Blau, nur jünger"
+    ]
+  },
+  "usage": {
+    "in": 3539,
+    "out": 385,
+    "thinking": 294
+  },
+  "costUsd": 0.021856
+}

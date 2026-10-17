@@ -1,0 +1,17 @@
+{
+  "task": "lit-continue",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "Ilse nickte. Der Motor stand noch im Schuppen, zerlegt auf dem Holzbrett, mit einem Teil, das in der letzten Woche nicht da war und in der nächsten Woche kommen sollte. Sie sagte es nicht. Sie sah auf seine Schuhe, die am Poller klebten, und auf den Riss in seiner Jacke, an dem das Wasser von der Elbe in kleinen, dunklen Punkten haftete.\n\n„Ich habe dich gesehen, bevor du anlegtest“, sagte sie.\n„Warum bist du nicht gestiegen?“\nIlse wischte die Hand an der Leine ab. Die Leine rieb ihr über den Daumen, rau von den Knoten, und sie spürte, dass die Luft kühler wurde, obwohl die Sonne über dem Wasser lag.\n„Weil du nicht gestiegen bist.“\nJonas lachte, leise, wie er es seit Jahren tat, wenn er etwas sagte, das ihm selbst wie eine Ausrede klang. Er stellte den Koffer auf die mittlere Bohle und zog die Jacke enger. Die Fähre schwang minimal, und das Seil, das hinter ihnen in die Elbe fiel, schlug gegen das Holz, mit einem Ton, der in ihrem Kopf wie ein Wort klang, das sie nicht aussprach.\n\n„Ich bin heute gekommen“, sagte er. „Morgen früh bin ich wieder weg.“\n„Morgen früh“, wiederholte Ilse. „Da fahre ich nicht nach München.“\nEr antwortete nicht. Er blickte auf das Wasser, das unter den Planken durchbrach, grau und still, obwohl die Strömung dort nicht still war. Er stand da, als erwartete er, dass die Fähre sich von selbst umdrehen würde, und die Elbe lief an den Spundwänden entlang, leise und gleichmäßig. Ilse sah, wie sich eine kleine Welle unter dem Koffer sammelte und wieder zurücklief, als hätte das Wasser etwas geprüft.\nSie kannte die Stelle. Sie kannte, wann das Wasser höher stand und wann die Leine auf der unteren Seite zu viel Spiel hatte.\n\nJonas hob den Koffer. „Darf ich das hier lassen?“\nIlse sah auf den Koffer, auf das Metallstück, das vom Griff abgebrochen war, und auf den nassen Fußboden, der noch nach Salz und Öl roch. Sie hätte nein sagen können. Sie hätte auch zur Kabine gehen können. Stattdessen ging sie zwei Schritte zurück, stellte sich neben den Poller und legte die flache Hand auf den Knauf, den man drehte, wenn man die Tür zum Fährhaus öffnete. Die Tür war zu. Dahinter stand die Kanne, der alte Kessel, das Telefon, das Henning einmal für wichtiger gehalten hatte als die Uhr.\n\nSie drehte den Knauf nicht.",
+  "usage": {
+    "in": 375,
+    "out": 7257,
+    "thinking": 6644
+  },
+  "costUsd": 0.0160554,
+  "finish": "stop",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "latencyMs": 54226,
+  "meta": [],
+  "at": "2026-10-17T15:04:16.446Z"
+}

@@ -1,0 +1,19 @@
+{
+  "task": "nf-outline",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "# **Führen ohne Titel**\n\n1. **Dein erster Tag in der neuen Rolle**  \n   Du findest heraus, was sich für dich und dein Team ändert – und wie du den Rollenwechsel offen ansprichst.\n\n2. **Kläre, was von dir erwartet wird**  \n   Du besprichst mit deiner eigenen Führungskraft deinen Auftrag, deinen Entscheidungsspielraum und woran ihr erkennt, dass deine Arbeit gelingt.\n\n3. **Lerne dein Team kennen**  \n   Du hörst zu, fragst nach Erfahrungen und Erwartungen und verschaffst dir ein klares Bild davon, wer was braucht und einbringt.\n\n4. **Bring Ordnung in die gemeinsame Arbeit**  \n   Du machst Prioritäten sichtbar, klärst Zuständigkeiten und gestaltest Besprechungen so, dass sie dem Team wirklich helfen.\n\n5. **Gib Verantwortung weiter**  \n   Du überträgst Aufgaben mit klaren Erwartungen und lässt anderen genug Spielraum, den eigenen Weg zur Lösung zu finden.\n\n6. **Gib Rückmeldung, die weiterhilft**  \n   Du sprichst zeitnah und konkret an, was gut läuft und was sich ändern sollte.\n\n7. **Führe schwierige Gespräche**  \n   Du bereitest dich auf heikle Themen vor, bleibst bei beobachtbaren Fakten und vereinbarst mit deinem Gegenüber nächste Schritte.\n\n8. **Triff Entscheidungen, auch wenn nicht alles klar ist**  \n   Du wägest ab, wann du das Team einbeziehst, wann du selbst entscheidest und wie du deine Entscheidung erklärst.\n\n9. **Finde deine eigene Art zu führen**  \n   Du entwickelst Maßstäbe für dein Handeln, setzt Grenzen und lernst, auch in anspruchsvollen Situationen verlässlich zu bleiben.",
+  "usage": {
+    "in": 123,
+    "out": 768,
+    "thinking": 391
+  },
+  "costUsd": 0.00039630000000000004,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "latencyMs": 9036,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T14:52:00.527Z"
+}

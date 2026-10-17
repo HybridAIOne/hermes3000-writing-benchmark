@@ -1,0 +1,19 @@
+{
+  "task": "lit-dialogue",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "**Café am Bahnhof. Regen. Jonas sitzt schon am Tisch, als Ben hereinkommt.**\n\nBEN: Du bist früh.\n\nJONAS: Der Zug war pünktlich. Ausnahmsweise.\n\n*(Ben zögert, dann setzt er sich. Die Jacke behält er an.)*\n\nBEN: Gut siehst du aus.\n\nJONAS: Du auch. Ein bisschen müde vielleicht.\n\nBEN: Viel Arbeit.\n\nJONAS: Ja. Bei mir auch.\n\n*(Pause. Die Kellnerin stellt zwei Kaffee ab. Keiner hatte bestellt.)*\n\nBEN: Die haben hier immer noch dieselben Tassen.\n\nJONAS: Manches ändert sich eben nicht.\n\n*(Ben rührt Zucker in seinen Kaffee. Jonas sieht ihm dabei zu.)*\n\nJONAS: Du nimmst jetzt Zucker?\n\nBEN: Seit einer Weile.\n\nJONAS: Das wusste ich nicht.\n\nBEN: Woher auch.\n\n*(Jonas lächelt knapp und sieht aus dem Fenster.)*\n\nJONAS: Wie geht es deiner Mutter?\n\nBEN: Besser. Sie hat gefragt, ob du …\n\n*(Er bricht ab.)*\n\nJONAS: Ob ich was?\n\nBEN: Ach, nichts. Ob du noch in derselben Wohnung wohnst.\n\nJONAS: Sag ihr, ja.\n\n*(Ben nickt. Die Stille zieht sich. Draußen fährt ein Zug ein.)*\n\nBEN: Ich hab oft angefangen, dir zu schreiben.\n\nJONAS: Ich auch.\n\nBEN: Und?\n\nJONAS: Hab’s gelassen.\n\n*(Ben schiebt die Tasse ein Stück von sich weg.)*\n\nBEN: Dann sind wir ja beide gut darin.\n\nJONAS: Worin?\n\nBEN: Im Lassen.\n\n*(Jonas antwortet nicht. Nach einer Weile legt er die Hand auf den Tisch, nicht auf Bens, aber in dessen Nähe.)*\n\nJONAS: Bleibst du noch auf einen zweiten Kaffee?\n\n*(Ben sieht auf die Hand, dann zur Uhr. Er zieht langsam die Jacke aus.)*\n\nBEN: Einen zweiten. Mehr nicht.\n\nJONAS: Mehr hab ich nicht gefragt.",
+  "usage": {
+    "in": 126,
+    "out": 1094,
+    "thinking": 221
+  },
+  "costUsd": 0.011192,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "latencyMs": 9242,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T14:51:33.390Z"
+}

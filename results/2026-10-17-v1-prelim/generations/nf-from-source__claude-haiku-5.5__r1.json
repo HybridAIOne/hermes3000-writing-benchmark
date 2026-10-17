@@ -1,0 +1,17 @@
+{
+  "task": "nf-from-source",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "Wie funktioniert eine Genossenschaft? Am Beispiel der Fährgenossenschaft Hitzacker eG lässt sich das gut zeigen. Sie wurde 1953 von 41 Landwirten und Händlern aus beiden Elbufern gegründet, nachdem der Landkreis den Betrieb der Seilfähre eingestellt hatte. Die Menschen vor Ort übernahmen also selbst, was eine öffentliche Stelle nicht länger weiterführen wollte.\n\nDas Grundprinzip ist einfach: Wer mitmacht, wird Mitglied und hält mindestens einen Anteil zu 250 Euro. Heute zählt die Genossenschaft 312 Mitglieder. Entscheidend ist die Mitbestimmung. Jedes Mitglied hat in der Generalversammlung eine Stimme, unabhängig davon, wie viele Anteile es besitzt. Wer mehr eingezahlt hat, hat damit nicht mehr zu sagen als jemand mit dem Mindestanteil. Genau darin unterscheidet sich die Genossenschaft von vielen Unternehmen, in denen sich Einfluss nach dem Kapital richtet.\n\nAuch der Umgang mit dem Geld folgt diesem Gedanken. Überschüsse werden nicht an die Mitglieder ausgeschüttet, sondern in eine Rücklage für die Erneuerung der Fähre eingezahlt. Das Geld bleibt im Betrieb und dient dem Zweck, für den es da ist.\n\nWarum passt diese Rechtsform gerade zu dieser Fähre? Die Elbe ist an der Überfahrtstelle 212 Meter breit, eine Überfahrt dauert bei normalem Wasserstand sieben Minuten. Pro Jahr befördert die Fähre rund 64.000 Personen, im Sommer vor allem Radfahrer auf dem Elberadweg. Ein Verkehrsmittel, das so viele Menschen auf beiden Seiten des Flusses verbindet, braucht eine Trägerschaft, die den Nutzern selbst gehört. Hinzu kommt die Finanzierung. Der Umsatz lag 2024 bei 186.000 Euro, davon stammten 71 Prozent aus Fahrkartenverkäufen und 29 Prozent aus einem Zuschuss der Gemeinde. Die Fahrgäste tragen also den größeren Teil, die Gemeinde ergänzt ihn.\n\nDie Rücklage soll zudem bis 2031 ausreichen, um einen Elektroantrieb einzubauen. Heute treibt ein 85-kW-Dieselmotor die Fähre an. Die Genossenschaft plant damit nicht nur den Erhalt, sondern die Erneuerung ihrer Fähre, und sie finanziert diesen Schritt aus eigenen Überschüssen.",
+  "usage": {
+    "in": 780,
+    "out": 2809,
+    "thinking": 1794
+  },
+  "costUsd": 0.0014825,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "latencyMs": 11464,
+  "meta": [],
+  "at": "2026-10-17T14:51:54.383Z"
+}

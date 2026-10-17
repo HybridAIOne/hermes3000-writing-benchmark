@@ -1,0 +1,16 @@
+{
+  "task": "ctx-saltzbrueck-5",
+  "model": "gemini-3.8-flash-low",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 2678,
+    "out": 325,
+    "thinking": 300
+  },
+  "costUsd": 0.008606
+}

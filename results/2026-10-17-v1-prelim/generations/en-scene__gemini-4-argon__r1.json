@@ -1,0 +1,17 @@
+{
+  "task": "en-scene",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "text": "The fourth-floor corridor smelled of stripped wax and lemon disinfectant. Clara pushed the chapel door open, her rubber soles catching slightly on the threshold. She only wanted five minutes away from the telemetry monitors.\n\nA man sat in the third row. Most people in the chapel at four in the morning were either sleeping across two chairs or leaning forward with their faces in their hands. This man sat upright, his gray wool coat still buttoned to the neck, his hands resting flat on his thighs.\n\nClara stopped by the rack of bilingual pamphlets. \"Visiting hours ended at eight,\" she said, keeping her voice pitched to the low, neutral register she used for disoriented patients. \"Unless you're immediate family.\"\n\nHe didn't turn around. His hair was cropped close to a pale scalp, indented slightly above the left ear. \n\n\"You switched from pediatrics in November, Clara,\" he said. His voice was dry, unhurried, and carried easily in the small, acoustic space. \"The night shift suits you better.\"\n\nClara looked down at her chest. Her lanyard was tucked inside her scrub top, the plastic badge hidden behind the V-neck cotton. \n\n\"I need to see a visitor's pass,\" she said. Her thumb found the seam of her pocket, pressing against the uncapped tip of a ballpoint pen. \n\nHe stood up then, smoothing the front of his coat, though he still didn't look at her. He walked toward the secondary exit at the far side of the room, leaving a damp, crescent-shaped smudge of street salt on the beige carpet where his heel had rested.",
+  "usage": {
+    "in": 89,
+    "out": 339,
+    "thinking": 0
+  },
+  "costUsd": 0.003568,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "latencyMs": 14104,
+  "meta": [],
+  "at": "2026-10-17T14:49:45.228Z"
+}

@@ -1,0 +1,19 @@
+{
+  "task": "nf-outline",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "# „Führen ohne Titel\" — Gliederung\n\n1. **Gestern Kollege, heute Chef** — Wie du die ersten Wochen in der neuen Rolle angehst, das Verhältnis zu deinen ehemaligen Kollegen neu sortierst und die typischen Anfängerfehler vermeidest.\n\n2. **Was jetzt dein Job ist — und was nicht mehr** — Du klärst mit der Geschäftsführung, was von dir erwartet wird, welche Entscheidungen dir gehören und welche Fachaufgaben du ab jetzt abgibst.\n\n3. **Vertrauen verdienen statt Autorität fordern** — Wie du durch Zuverlässigkeit, echtes Zuhören und klare Ansagen die Basis legst — auch bei Leuten, die älter sind oder fachlich mehr wissen als du.\n\n4. **Abgeben, ohne dass alles an dir hängen bleibt** — Wie du Aufgaben mitsamt der Verantwortung übergibst, Prioritäten setzt und aufhörst, die beste Fachkraft im Team sein zu wollen.\n\n5. **Entscheiden, auch wenn es unbequem ist** — Wie du auch mit halben Informationen Entscheidungen triffst, sie verständlich begründest und Fehler eingestehst, statt sie auszusitzen.\n\n6. **Feedback, das ankommt** — Wie du im Alltag lobst und korrigierst: konkret, zeitnah und so, dass dein Gegenüber weiß, was es beim nächsten Mal anders macht.\n\n7. **Schwierige Gespräche führen** — Vom Kritikgespräch über die Gehaltsabsage bis zur Trennung: Wie du unangenehme Gespräche vorbereitest, ruhig durchziehst und das Verhältnis danach wieder stabilisierst.\n\n8. **Zwischen Team und Geschäftsführung** — Wie du dein Team nach oben vertrittst, Entscheidungen glaubwürdig vermittelst, die du selbst nicht gut findest, und dir Rückendeckung holst.\n\n9. **Wofür du stehst: Deine Haltung als Führungskraft** — Wie du deine Werte und Grenzen kennst, einen Stil findest, der zu dir passt statt zu einem Lehrbuch, und dich auch ohne Seminare und Zertifikate weiterentwickelst.\n\n**Zur Dramaturgie:** Die Kapitel bewegen sich von außen nach innen — von der Situation (1–2) über das Handwerkszeug (3–6) und die harten Fälle (7–8) bis zur Person, die du als Führungskraft sein willst (9).",
+  "usage": {
+    "in": 239,
+    "out": 7005,
+    "thinking": 6323
+  },
+  "costUsd": 0.08371139999999999,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "latencyMs": 66860,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T15:11:20.087Z"
+}

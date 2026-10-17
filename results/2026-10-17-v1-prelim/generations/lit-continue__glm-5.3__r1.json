@@ -1,0 +1,17 @@
+{
+  "task": "lit-continue",
+  "model": "glm-5.3",
+  "run": 1,
+  "text": "„Er läuft\", sagte Ilse. „Wenn ich ihn brauche.\"\n\nJonas wartete, wie er immer gewartet hatte, wenn ihm eine Antwort nicht genügte. Also sagte sie nichts von der Werkstatt in Dannenberg, die den Motor fünf Wochen behalten und am Ende trotzdem nicht gerichtet hatte. Auch nichts davon, dass die Elbe das meiste ohnehin erledigte. Stellte man das Boot schräg, schob die Strömung es von allein über den Fluss; den Diesel brauchte man nur zum Anlegen, und wenn der nicht ansprang, dann trieb man halt ein Stück ab und holte das Ufer wieder ran. Henning hätte das in einem Satz erklären können.\n\nJonas stand da wie ein Mann zwischen zwei Zügen. Seine Schuhe waren aus einem Leder, das den Regen nicht vertrug, und den Koffer hatte er über den Deich gerollt, bis die kleinen Räder in den Fugen der Bohlen stecken blieben; jetzt trug er das Ding unbeholfen vor sich her, wie man ein schlafendes Kind trägt. Er roch nach Zug und nach einer Seife, die es hier nirgends zu kaufen gab, und sein Handy fand kein Netz. Zweieinhalb Jahre war es her. Zur Beerdigung war er zuletzt da gewesen, drei Tage, dann München. Kein Anruf, keine Karte.\n\n„Ich hab nicht angerufen, weil so etwas am Telefon nichts wird\", sagte Jonas. „Es gibt etwas, über das ich mit dir reden muss.\"\n\nIlse sagte nichts. Sie legte die Kette um Rampe und Bolzen, zwei Umdrehungen, so wie es sich gehörte, und fragte nicht, wovon er redete.\n\nDie Sonne stand hinter dem Deich, das Wasser glatt und grau; nur in der Flussmitte lag noch ein Streifen Licht. Am anderen Ufer hob jemand die Hand. Ein Fahrradscheinwerfer flackerte, ein Gepäckkorb, ein Winken. Dienstags, dachte Ilse. Die Frau vom Hof drüben, rüber zur Chorprobe.\n\nEigentlich hatte sie den Tag abgeschlossen. Sie konnte hinüberwinken: erst morgen früh, Fähre schläft. Das hätte man drüben verstanden. Ilse sah hinüber, dann zu Jonas, der den Koffer vor sich hielt wie ein Schild.\n\n„Steig ein\", sagte sie. „Den Koffer lass da.\"\n\nJonas sah sie an, dann den Koffer, dann das Wasser.\n\n„Da muss noch ein Rad drauf\", sagte Ilse.\n\nEr stieg ein, vorsichtig, die Schuhe wie auf Eis gesetzt. Sie nahm die Leine vom Poller und stellte das Ruder; das Boot legte sich schräg, die Strömung fasste es und trug es hinaus, ruhig, wie immer, mit oder ohne Motor.\n\nAuf den nassen Bohlen stand der Koffer und wurde kleiner.",
+  "usage": {
+    "in": 342,
+    "out": 14726,
+    "thinking": 14083
+  },
+  "costUsd": 0.07071216000000001,
+  "finish": "stop",
+  "reportedModel": "z-ai/glm-5.3",
+  "latencyMs": 141776,
+  "meta": [],
+  "at": "2026-10-17T15:04:27.691Z"
+}

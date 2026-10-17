@@ -1,0 +1,17 @@
+{
+  "task": "lit-dialogue",
+  "model": "gpt-5.4-mini",
+  "run": 1,
+  "text": "[Ein Café. Es ist stiller als sonst. Zwei alte Freunde stehen sich gegenüber.]\n\n„Du bist also wirklich gekommen.“\n\n„Ich hätte auch wieder umdrehen können.“\n\n„Ja. Das hättest du.“\n\n„Du klingst, als hättest du damit gerechnet.“\n\n„Ich rechne seit Monaten mit allem.“\n\n„Monate. So lang ist das also schon.“\n\n„Für manche Dinge reicht ein Abend, um lange zu dauern.“\n\n„Und für andere?“\n\n„Für andere offenbar nicht.“\n\n[Eine Pause. Beide setzen sich nicht wirklich.]\n\n„Du siehst müde aus.“\n\n„Du auch.“\n\n„Danke.“\n\n„War nicht als Angriff gemeint.“\n\n„Bei dir weiß man das nie so genau.“\n\n„Stimmt. Bei uns wusste man das nie so genau.“\n\n[Der Kellner stellt zwei Gläser Wasser ab.]\n\n„Ich habe gedacht, es wird einfacher, wenn genug Zeit vergeht.“\n\n„Und?“\n\n„Es ist eher leiser geworden.“\n\n„Leiser heißt nicht weg.“\n\n„Nein.“\n\n„Hast du erwartet, dass ich so tue, als wäre nichts gewesen?“\n\n„Nein.“\n\n„Gut.“\n\n„Und du?“\n\n„Ich habe gar nichts erwartet.“\n\n„Das klingt schlimmer.“\n\n„Ist es wahrscheinlich auch.“\n\n[Sie sehen beide kurz weg.]\n\n„Ich bin nicht hier, um…“\n\n„Ich weiß.“\n\n„Nein, du weißt es nicht.“\n\n„Dann sag es.“\n\n„Vielleicht später.“\n\n„Immer noch später.“\n\n„Vielleicht ist später das Einzige, was uns geblieben ist.“\n\n„Oder das Einzige, was wir gut können.“\n\n[Ein bitteres Lächeln, auf beiden Seiten.]\n\n„Kaffee?“\n\n„Nein.“\n\n„Ich auch nicht.“\n\n„Natürlich nicht.“\n\n„Also sitzen wir nur hier.“\n\n„Anscheinend.“\n\n„Und was soll das werden?“\n\n„Ich dachte, du wüsstest das.“\n\n„Ich dachte, du würdest es mir sagen.“\n\n„Das habe ich früher oft genug getan.“\n\n„Ja.“\n\n[Stille.]\n\n„Schön, dich zu sehen.“\n\n„Lüg nicht.“\n\n„Dann: schwer, dich zu sehen.“\n\n„Das stimmt eher.“\n\n[Beide bleiben sitzen.]",
+  "usage": {
+    "in": 64,
+    "out": 443,
+    "thinking": 0
+  },
+  "costUsd": 0.0020415,
+  "finish": "stop",
+  "reportedModel": "gpt-5.4-mini-2026-03-17",
+  "latencyMs": 3542,
+  "meta": [],
+  "at": "2026-10-17T14:51:21.819Z"
+}

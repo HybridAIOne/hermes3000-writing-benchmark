@@ -1,0 +1,118 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "grok-4.3",
+      "run": 1
+    },
+    "B": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "C": {
+      "model": "glm-5.3",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "Überschneidung: „Kapitel 5: Schwierige Gespräche führen … Konflikte“ vs. „Kapitel 7: Widerstände und Konflikte im Team“",
+          "„Entwicklung von einzelnen fördern“ (substantiviert: „Einzelnen“; zudem holpriger Titel)",
+          "Monotone Satzanfänge: neunmal „Es geht darum, wie du …“",
+          "„ohne formale Macht“ – ein Teamleiter hat formale Befugnisse; Missverständnis des Buchtitels",
+          "„Die eigene Haltung halten“ – unschöne Doppelung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„dass du nicht an der Substanz zehnst“ (richtig: „zehrst“)",
+          "„die Zusammenarbeit nicht zerreibst“ – schiefe Kollokation",
+          "„wie du deine Rolle so führst“ – unidiomatisch (eine Rolle führt man nicht)",
+          "Leichte Überschneidung: Kapitel 3 „ohne dass alles bei dir landet“ vs. Kapitel 7 „verteilst Aufgaben so“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„inklusive Einstiegssätzen für die ersten zwei Sätze“ – tautologisch",
+          "Überschneidung: Kapitel 2 „Klartext mit deinem Chef“ vs. Kapitel 7 „Nach oben und zur Seite führen“; ebenso „Überlastung“ in Kapitel 7 und 8",
+          "„ohne als unbequem durchzugehen“ – unidiomatisch (besser: „zu gelten“)",
+          "Beschreibungen teils überlang bzw. mit Fragmenten statt eines klaren Satzes, z. B. „Das Gespräch, das du in deiner ersten Woche führen solltest: …“",
+          "Kapitel 6 bündelt zu viel (Förderung, Einarbeitung Neuer, Vertretung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "Floskeln/Buzzwords: „Butter bei die Fische“, „Wenn die Hütte brennt“, „den mentalen Schalter … umlegst“",
+          "„Prioritäten radikal kürzt“ – schiefe Formulierung",
+          "„Projekthavarien“, „Status quo“, „Aktionismus“ – Jargon statt Praxissprache",
+          "„Du eignest dir an, wie du Arbeit so übergibst“ – holprig",
+          "Kapitel 8 vermischt Gesundheit und Haltung; kein eigenes Kapitel zu Selbstorganisation, Haltung wirkt angehängt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Leichte Überschneidung: „Zuständigkeiten“ in Kapitel 3 vs. „Aufgaben samt Verantwortung zu übertragen“ in Kapitel 4",
+          "Leichte Überschneidung: „Erwartungen deines eigenen Vorgesetzten“ (Kapitel 2) vs. Kapitel 8 „Zwischen den Stühlen“",
+          "„Abgeben, ohne loszulassen“ – Paradox, das Leser verwirren kann"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "C",
+      "B",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 6629,
+    "out": 2609,
+    "thinking": 1312
+  },
+  "costUsd": 0.078696
+}

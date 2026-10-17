@@ -1,0 +1,17 @@
+{
+  "task": "nf-opening",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "Am Dienstagmorgen steht Anna mit zwei Kaffeebechern vor dem Besprechungsraum. Der eine ist für dich. Sie stellt ihn ab, setzt sich und sagt: „Ich weiß nicht, wie ich es ansprechen soll.“ Seit Wochen liefert ein Kollege aus ihrem Team seine Zahlen zu spät. Andere müssen dann nacharbeiten, Termine geraten ins Rutschen. Anna hat ihn schon zweimal daran erinnert, jedes Mal freundlich, jedes Mal ohne sichtbare Veränderung. Jetzt ist sie frustriert und zugleich unsicher: Wird ein klares Gespräch die Zusammenarbeit beschädigen? Oder macht sie es schlimmer, wenn sie weiter schweigt?\n\nVielleicht kennst du solche Momente. Du willst niemanden vor den Kopf stoßen. Du möchtest fair bleiben und zugleich dafür sorgen, dass die Arbeit gelingt. Also wartest du auf den passenden Zeitpunkt, suchst nach den richtigen Worten oder hoffst, dass sich das Problem von allein erledigt. Oft wird das Gespräch dadurch nicht leichter. Im Gegenteil: Aus einer versäumten Rückmeldung wird Ärger, aus einer Unklarheit ein Vorwurf.\n\nSchwierige Gespräche gehören zur Führungsarbeit – auch dann, wenn du keinen Titel hast und niemandem offiziell vorgesetzt bist. Du kannst trotzdem ansprechen, was nicht funktioniert, Erwartungen klären und gemeinsam nach einer Lösung suchen. Dafür musst du weder besonders hart auftreten noch jede Formulierung vorher auswendig lernen. Entscheidend ist, dass du den Anlass benennen kannst, bei der Sache bleibst und dem anderen wirklich zuhörst.\n\nIn diesem Kapitel geht es darum, solche Gespräche rechtzeitig zu führen: klar genug, damit etwas in Bewegung kommt, und respektvoll genug, damit die Zusammenarbeit eine Chance behält.",
+  "usage": {
+    "in": 152,
+    "out": 417,
+    "thinking": 60
+  },
+  "costUsd": 0.0002237,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "latencyMs": 5401,
+  "meta": [],
+  "at": "2026-10-17T14:51:50.303Z"
+}

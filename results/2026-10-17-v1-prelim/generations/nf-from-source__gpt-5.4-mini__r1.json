@@ -1,0 +1,17 @@
+{
+  "task": "nf-from-source",
+  "model": "gpt-5.4-mini",
+  "run": 1,
+  "text": "Die Fährgenossenschaft Hitzacker eG wurde 1953 gegründet, nachdem der Landkreis den Betrieb der Seilfähre eingestellt hatte. Ausgangspunkt waren 41 Landwirte und Händler von beiden Ufern der Elbe. Sie schlossen sich zusammen, weil sie die Fährverbindung erhalten wollten. Genau darin liegt das Wesen einer Genossenschaft: Menschen mit einem gemeinsamen Bedarf tun sich zusammen, um eine Aufgabe selbst zu organisieren, die für alle wichtig ist.\n\nBei der Fährgenossenschaft Hitzacker ist diese gemeinsame Aufgabe die Überquerung der Elbe an einer Stelle, an der der Fluss 212 Meter breit ist. Eine Fahrt dauert bei normalem Wasserstand sieben Minuten. Die Fähre hängt an einem Führungsseil; heute wird sie von einem 85-kW-Dieselmotor angetrieben, bis 1978 nutzte sie allein die Strömung. Sie befördert pro Jahr rund 64.000 Personen, im Sommer vor allem Radfahrer auf dem Elberadweg.\n\nDie Genossenschaft zählt heute 312 Mitglieder. Jedes Mitglied hält mindestens einen Anteil zu 250 Euro. Wichtig ist dabei: In der Generalversammlung hat jedes Mitglied eine Stimme, unabhängig davon, wie viele Anteile es besitzt. Damit bleibt die Genossenschaft demokratisch organisiert. Nicht Kapital, sondern die Mitgliedschaft entscheidet.\n\nAuch der Umgang mit dem Geld zeigt, wie eine Genossenschaft funktioniert. 2024 betrug der Umsatz 186.000 Euro. Davon stammten 71 Prozent aus Fahrkartenverkäufen und 29 Prozent aus einem Zuschuss der Gemeinde. Überschüsse werden nicht ausgeschüttet, sondern in eine Rücklage für die Erneuerung der Fähre eingezahlt. Diese Rücklage soll bis 2031 ausreichen, um einen Elektroantrieb einzubauen.\n\nFür diese Fähre ist die genossenschaftliche Rechtsform passend, weil sie den Betrieb dauerhaft an den Bedürfnissen der Menschen vor Ort ausrichtet. Die Mitglieder tragen gemeinsam Verantwortung, entscheiden gemeinsam und sorgen gemeinsam dafür, dass die Fähre erneuert werden kann. So bleibt eine Verbindung erhalten, die für beide Elbufer wichtig ist.",
+  "usage": {
+    "in": 402,
+    "out": 446,
+    "thinking": 0
+  },
+  "costUsd": 0.0023085,
+  "finish": "stop",
+  "reportedModel": "gpt-5.4-mini-2026-03-17",
+  "latencyMs": 2722,
+  "meta": [],
+  "at": "2026-10-17T14:51:44.901Z"
+}

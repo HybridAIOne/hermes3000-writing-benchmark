@@ -1,0 +1,19 @@
+{
+  "task": "ed-feedback",
+  "model": "gemini-3.8-flash-low",
+  "run": 1,
+  "text": "Hier sind die Lektoratsanmerkungen zu den handwerklichen und logischen Fehlern im Textauszug:\n\n1. **„Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.“**  \nHier liegt ein logischer Handlungsfehler vor: Um ablegen zu können, muss die Rampe hochgezogen werden, und die Gäste hätten sie vorher nicht betreten können, wenn sie noch gar nicht heruntergelassen war.\n\n2. **„[…] nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.“**  \nEs handelt sich um einen Kontinuitätsfehler bei der Personenzahl, da im weiteren Verlauf vier Fahrgäste an Bord beschrieben werden (die Frau mit dem Fahrrad, der Mann im grauen Mantel, der Junge mit den Kopfhörern und Frau Lüders).\n\n3. **„Ilse stellt den Motor an und wartete, bis das Seil sich spannte.“**  \nHier liegt ein grammatischer Fehler durch einen unmotivierten Tempuswechsel ins Präsens vor („stellt“ statt „stellte“ im sonst durchgängigen Präteritum).\n\n4. **„Der Nebel war so dicht, dass sie das andere Ufer nicht sah.“ im Widerspruch zu „Am Anleger drüben wartete schon der Bäcker mit seinem Pferdewagen […]“**  \nInnerhalb der gewählten personalen Erzählhaltung entsteht ein logischer Wahrnehmungsbruch, da Ilse den Bäcker am anderen Ufer nicht sehen kann, wenn dieses vollständig im dichten Nebel liegt.\n\n5. **„[…] wartete schon der Bäcker mit seinem Pferdewagen, wie jeden Morgen seit dem Krieg, und hupte zweimal.“**  \nDies ist ein sachlicher Fehler, da ein traditioneller Pferdewagen keine Hupe besitzt.",
+  "usage": {
+    "in": 291,
+    "out": 2351,
+    "thinking": 1968
+  },
+  "costUsd": 0.008214790000000001,
+  "finish": "STOP",
+  "reportedModel": "gemini-3.8-flash",
+  "latencyMs": 20093,
+  "meta": [
+    "preamble"
+  ],
+  "at": "2026-10-17T14:49:29.562Z"
+}

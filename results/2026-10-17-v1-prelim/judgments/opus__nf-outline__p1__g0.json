@@ -1,0 +1,116 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-5.4-mini",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gemma-4-31b",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Überschneidung: „klare Ansagen“ (Kap. 3) und „Prioritäten setzt“ (Kap. 4) gehören eher in ein gemeinsames Kapitel zur Arbeitsorganisation",
+          "Überschneidung: „lobst und korrigierst“ (Kap. 6) gegenüber „Vom Kritikgespräch“ (Kap. 7)",
+          "„Zur Dramaturgie: … die harten Fälle (7–8)“ – Zusatz, der nicht gefordert war; Kap. 8 ist zudem eher Schnittstellenarbeit als ein harter Fall",
+          "Einige Kapitelsätze sind überladen, etwa Kap. 9 mit drei Teilaussagen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Gern — hier ist eine passende Gliederung“ / „Wenn du möchtest, kann ich dir daraus auch direkt …“ – Füllsätze, die nicht ins Manuskript gehören",
+          "„Worum es geht:“ wird neunmal wiederholt, dazu Füllformeln wie „Hier geht es darum“",
+          "Überschneidung: „Prioritäten“ in Kap. 4 und erneut in Kap. 7",
+          "Kap. 1 („die neue Rolle klar zu sehen“) und Kap. 2 („Was sich jetzt wirklich ändert“) sind kaum abgegrenzt",
+          "Der Aufbau bricht: Das Tagesgeschäft (Kap. 7) folgt erst nach den schwierigen Gesprächen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Du klärst, was Geschäftsführung, Team und du selbst von dir erwarten, und wie du …“ – unsaubere Parallelführung im Satz",
+          "Leichte Nähe zwischen Kap. 2 (Erwartungen der Geschäftsführung) und Kap. 8 („Zwischen den Stühlen“)",
+          "Kap. 9 und Kap. 10 liegen thematisch nah beieinander (Selbstführung und Haltung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "Buzzwords trotz Verbot: „Dein neues Betriebssystem“, „Die Kunst des Feedbacks“, „Authentizität“, „Mikromanagement“, „strategischen Ziele“",
+          "„Der Fokus liegt … mit Fokus auf den Alltag“ – Wortwiederholung im Einleitungssatz",
+          "Nicht verlangter Untertitel: „Dein Wegweiser vom Kollegen zur Führungskraft …“",
+          "Der Aufbau bricht: „Zeitdiebe bändigen und Prioritäten setzen“ (Kap. 8) gehört an den Anfang",
+          "Überschneidung zwischen Kap. 1 und Kap. 3 („Die ersten 100 Tage“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Du wägest ab“ – falsche Form, richtig ist „wägst ab“",
+          "Der Aufbau ist fraglich: Das Entscheidungskapitel (8) steht erst nach den schwierigen Gesprächen",
+          "„Du sprichst zeitnah und konkret an, was gut läuft und was sich ändern sollte.“ – sehr knapp und kaum vom Folgekapitel abgegrenzt"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "E",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 5936,
+    "out": 2260,
+    "thinking": 913
+  },
+  "costUsd": 0.068944
+}

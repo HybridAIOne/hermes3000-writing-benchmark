@@ -1,0 +1,116 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-3.8-flash-low",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "qwen3.8-27b",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„wie ihre Mutter ihn getragen hatte“: Auch diese rückblickende Formulierung stellt nicht eindeutig klar, dass die Mutter verstorben ist. Eine zentrale Voraussetzung der Aufgabe bleibt unausgesprochen.",
+          "„Das Haus schien den Atem anzuhalten, lauernd, wie ein ertapptes Tier.“: Konventionelle Hauspersonifikation; „lauernd“ und „ertappt“ setzen zudem unterschiedliche, hier nicht ausgearbeitete Verhaltensbilder.",
+          "„konserviert unter einer Glocke aus Stillstand“: Abstrakte, pathetische Überhöhung eines bereits ausführlich beschriebenen Geruchs. Die Atmosphäre wird zusätzlich erklärt statt verdichtet.",
+          "„Ein K, das dort nicht hingehörte.“: Der rätselhafte Buchstabe wird ausdrücklich als verdächtig markiert, ohne dass die Figur dafür schon einen nachvollziehbaren Maßstab liefert. Das wirkt wie ein gesetztes Spannungssignal.",
+          "„als verlagerte jemand im Schlaf das Gewicht“: Nach Atemanhalten, lauerndem Tier und überlangem Nachhall ein weiteres unheimliches Signal derselben Art. Die Häufung macht die Wirkung vorhersehbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„die graue Staubschicht so gleichmäßig wie frisch gefallener Schnee“: Geläufiger Vergleich, der wenig Eigenes zur Wahrnehmung dieser Figur beiträgt.",
+          "„sezierte den Raum in helle und dunkle Quadrate“: Das auffällige Verb und die exakte geometrische Angabe wirken stärker arrangiert als beobachtet; die räumlichen Voraussetzungen der Quadrate bleiben unanschaulich.",
+          "„schwer von altem Bohnerwachs und der Abwesenheit von Stimmen“: Die Verbindung von konkretem Geruch und abstrakter Abwesenheit ist verständlich, bedient aber eine vertraute Formel atmosphärischer Verlassenheit."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 9,
+        "fehler": [
+          "„Der Vorgarten hatte sich nicht gelegt.“: Ohne einen passenden Bezug ist „sich legen“ hier keine verständliche idiomatische Beschreibung eines Gartens. Die folgende Verwilderung klärt die Formulierung nicht.",
+          "„Das Haus hörte nicht auf. Es gab nur leise etwas zurück“: Es bleibt unklar, welche Tätigkeit oder welches Geräusch nicht aufhört. Der Schluss behauptet Bedeutung, ohne einen ausreichend bestimmten Wahrnehmungsvorgang zu bieten.",
+          "„als hätte man ihm ein zweites, unsichtbares Blei angehängt“: Das „zweite“ Blei setzt bildlich ein erstes voraus, das nicht eingeführt wurde. Das Bild wirkt unnötig konstruiert.",
+          "„wie feiner Sand, den eine Hand anhielt und sofort wieder fallen ließ“: Der Vergleich macht die Staubbewegung nicht anschaulicher; insbesondere das Anhalten des Sandes durch eine Hand bleibt räumlich unbestimmt.",
+          "„als hätte jemand das Licht am Horizont etwas zu weit geöffnet“: Schon der Auftakt übersetzt eine einfache Wahrnehmung in eine schwer konkretisierbare Metapher. Zusammen mit den zahlreichen folgenden Als-ob-Bildern entsteht eine gleichförmige poetische Überformung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 7,
+        "fehler": [
+          "„Das angelegte Detail ist das helle Rechteck mit dem Nagel“: Der nachgestellte Werkstattkommentar gehört nicht zum Romantext und verletzt die Vorgabe, ausschließlich Buchtext zu liefern. Zudem erklärt er eine Wirkung, die die Szene selbst bereits ausreichend vorbereitet.",
+          "„Sag gern Bescheid, wenn du eine andere Tonlage“: Das anschließende Gesprächsangebot ist ebenfalls aufgabenfremd und müsste vor einer Buchveröffentlichung vollständig gestrichen werden.",
+          "„Das Dorf wusste also schon Bescheid.“: Der bewegte Vorhang führt unmittelbar zur geläufigen Formel vom allwissenden Dorf. Das ist etwas schematischer als die sonst präzise und zurückhaltende Figurenzeichnung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Zwanzig Jahre hatte Sie nichts von ihr gehört“: Das Personalpronomen muss hier kleingeschrieben werden: „sie“.",
+          "„Zwanzig Jahre hatte Sie nichts von ihr gehört“: Inhaltlich bezeichnet der Satz zwanzig Jahre Kontaktlosigkeit, nicht ausdrücklich zwanzig Jahre Abwesenheit vom Haus. Die zeitliche Kernvorgabe wird nahegelegt, aber nicht eindeutig eingelöst.",
+          "„ein Geruch, der irgendwo in ihr einen Raum öffnete, den sie seit Jahren verschlossen hielt“: Konventionelles Erinnerungsbild mit erklärender Gefühlszuschreibung. Gegenüber dem präzisen Honigdetail fällt der Schluss ins Allgemeine zurück.",
+          "„weil es so tat, als müsste es etwas bedeuten“: Die demonstrative Abwehr symbolischer Bedeutung kommentiert das eigene atmosphärische Verfahren. Sie wirkt etwas bemüht, zumal der Honig anschließend selbst deutlich als Erinnerungsträger eingesetzt wird."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "E",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2894,
+    "out": 2172,
+    "thinking": 842
+  },
+  "costUsd": 0.027508
+}

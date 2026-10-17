@@ -1,0 +1,17 @@
+{
+  "task": "ed-feedback",
+  "model": "qwen3.8-27b",
+  "run": 1,
+  "text": "",
+  "usage": {
+    "in": 344,
+    "out": 16000,
+    "thinking": 16000
+  },
+  "costUsd": 0.03528256,
+  "finish": "length",
+  "reportedModel": "qwen/qwen3.8-27b",
+  "latencyMs": 70725,
+  "meta": [],
+  "at": "2026-10-17T14:56:26.935Z"
+}

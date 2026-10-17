@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-7",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "judge": "opus",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 3374,
+    "out": 310,
+    "thinking": 293
+  },
+  "costUsd": 0.019696
+}
