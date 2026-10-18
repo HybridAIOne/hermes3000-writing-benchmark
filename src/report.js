@@ -213,13 +213,20 @@ function build(runId, bench) {
   // An author gets nothing in that case, so it is scored, not skipped: in ranked tasks it
   // loses against every text of its task, in keyed tracks it scores 0.
   const runTasks = tasks.filter((t) => gens.some((g) => g.task === t.id));
+  // A failure is an answer WITHOUT text (the model returned nothing). A generation that is
+  // missing altogether never got an answer — an API error or an interrupted run — and is not
+  // the model's fault: it is listed as `missing`, flagged in the report, and not scored.
   const failures = [];
+  const missing = [];
   for (const t of runTasks)
     for (const m of models)
-      for (let r = 1; r <= manifest.runs; r++)
-        if (!gens.some((g) => g.task === t.id && g.model === m.key && g.run === r && g.text))
-          failures.push({ task: t.id, model: m.key, run: r });
+      for (let r = 1; r <= manifest.runs; r++) {
+        const g = gens.find((x) => x.task === t.id && x.model === m.key && x.run === r);
+        if (!g) missing.push({ task: t.id, model: m.key, run: r });
+        else if (!g.text) failures.push({ task: t.id, model: m.key, run: r });
+      }
   R.failures = failures;
+  R.missing = missing;
   const failureGroupsFor = (taskFilter) =>
     failures
       .filter((f) => taskFilter(taskById[f.task]))
@@ -503,6 +510,11 @@ function writeMarkdown(runId, bench, { R, models }) {
     : null;
   md.push(`# hermes3000 Writing Benchmark — run \`${runId}\``, '');
   if (summaryLink) md.push(summaryLink, '');
+  if (R.missing.length)
+    md.push(
+      `> **Incomplete run:** ${R.missing.length} generation(s) never received an answer (API error or interrupted run) and are not scored: ${R.missing.map((x) => `${x.model}/${x.task}/r${x.run}`).join(', ')}. Re-run the same command to fill them in before publishing.`,
+      ''
+    );
   md.push(
     `Benchmark ${m0.benchmark}, fingerprint \`${m0.fingerprint}\`${m0.privateTasks ? `, private tasks \`${m0.privateTasks}\`` : ''}, stage **${m0.stage}**, ${m0.runs} sample(s) per task and model, started ${m0.started.slice(0, 10)}, code \`${m0.commit || 'n/a'}\`. Judges: ${m0.judges.map((k) => bench.spec.judges[k].model).join(', ')}.`,
     ''

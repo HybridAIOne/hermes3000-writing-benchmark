@@ -25,7 +25,7 @@ Models are called directly at their provider or via OpenRouter, with the setting
 `models.yaml` (for example reasoning effort). Nothing is post-processed: a preamble, heading or
 sign-off the model adds stays in the text and is counted against it (`metaText`).
 
-Every reasoning model runs at an explicit effort (`medium` unless `models.yaml` says otherwise).
+Every reasoning model runs with a fixed, bounded thinking setting: `medium` for OpenAI and for models served through OpenRouter, the provider's default for Claude and Gemini 4 Argon (both bounded by design), and `low` for Gemini 3.8 Flash, which is how the Hermes 3000 app runs it. The thinking tokens each text used are recorded and reported.
 Without one, models served through OpenRouter think without bound and may spend the whole token
 budget before writing — a configuration artefact, not a property of the model. OpenRouter also
 serves one model from several hosts; each text records the host that produced it (`upstream`).
@@ -33,7 +33,9 @@ serves one model from several hosts; each text records the host that produced it
 **Failures are scored, not skipped.** Some reasoning models occasionally spend the whole token
 budget (16,000) thinking and return no text. An author would get nothing — and still pay. Such a
 text loses against every text of its task in the ranked tracks and scores 0 in the keyed tracks
-(copy-editing, facts, book context); the report lists the count per model.
+(copy-editing, facts, book context); the report lists the count per model. A generation that
+never received an answer at all — an API error, an interrupted run — is not the model's failure: the
+report flags it as an incomplete run and does not score it, and an incomplete run is not published.
 
 Cost is computed from the token counts the provider reports and the list prices in
 `models.yaml`, including reasoning tokens, and reported **per standard page** (Normseite,
