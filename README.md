@@ -21,7 +21,7 @@ Details: [METHODOLOGY.md](METHODOLOGY.md).
 
 ## Results
 
-**Latest: [final 2026-10-17](results/2026-10-17-v1-final/report.md)** — six finalists, three samples
+**Latest: final 2026-10-17** — [short version](results/2026-10-17-v1-final/SUMMARY.md) · [Kurzfassung](results/2026-10-17-v1-final/ZUSAMMENFASSUNG.md) · [full report](results/2026-10-17-v1-final/report.md) — six finalists, three samples
 per task, two judging passes. In German literary prose and non-fiction GPT-6.1 Sol and Claude Opus 5.5
 lead with overlapping intervals, ahead of Claude Sonnet 5.5; Sonnet leads copy-editing. GPT-6 Luna
 delivers fourth place at roughly 1/14 of Sol's and 1/65 of Opus's cost per standard page.

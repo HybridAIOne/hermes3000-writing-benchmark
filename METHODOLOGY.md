@@ -136,6 +136,10 @@ in which the person preferred the model the AI judges rate higher.
   cannot be resumed under a different fingerprint.
 - A change that alters what is measured (tasks, keys, rubrics, judging rules) is a new benchmark
   version (`v2`), never an edit of `v1`.
+- Every published run carries a short **summary for readers and press** (`SUMMARY.md`, German
+  `ZUSAMMENFASSUNG.md`): headline, key findings with their numbers, quotable sentences, method and
+  limits in a paragraph each. It is written by hand after reviewing the run and only states what the
+  report's numbers support; the generated `report.md` links to it at the top.
 - Every generated text, verdict and check is stored as its own JSON file under
   `results/<run>/`. The report is computed from these files alone (`npm run bench -- report`).
 - Runs are resumable: re-running a command only does what is missing.

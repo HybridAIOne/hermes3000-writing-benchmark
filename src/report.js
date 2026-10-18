@@ -358,7 +358,13 @@ function ratingTable(models, r, extra = () => '') {
 function writeMarkdown(runId, bench, { R, models }) {
   const md = [];
   const m0 = R.manifest;
+  // A hand-written press summary (SUMMARY.md, optionally ZUSAMMENFASSUNG.md) is linked first:
+  // it is what most readers want, and this report is the evidence behind it.
+  const summaryLink = fs.existsSync(path.join(runDir(runId), 'SUMMARY.md'))
+    ? `**Short version for readers and press:** [SUMMARY.md](SUMMARY.md)${fs.existsSync(path.join(runDir(runId), 'ZUSAMMENFASSUNG.md')) ? ' · [ZUSAMMENFASSUNG.md](ZUSAMMENFASSUNG.md)' : ''}`
+    : null;
   md.push(`# hermes3000 Writing Benchmark — run \`${runId}\``, '');
+  if (summaryLink) md.push(summaryLink, '');
   md.push(
     `Benchmark ${m0.benchmark}, fingerprint \`${m0.fingerprint}\`${m0.privateTasks ? `, private tasks \`${m0.privateTasks}\`` : ''}, stage **${m0.stage}**, ${m0.runs} sample(s) per task and model, started ${m0.started.slice(0, 10)}, code \`${m0.commit || 'n/a'}\`. Judges: ${m0.judges.map((k) => bench.spec.judges[k].model).join(', ')}.`,
     ''
