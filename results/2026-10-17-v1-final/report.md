@@ -78,6 +78,32 @@ Violation columns count texts × assertions violated, summed over all samples.
 | 5 | Gemini 4 Argon | **748** (605–838) | 725 (528–842) |
 | 6 | Claude Haiku 5.5 | **590** (417–701) | 627 (367–761) |
 
+## Human panel (blind pairwise votes)
+
+42 votes by 1 person at arena.hermes3000.ai: two texts for the same task, sides randomised, no model names. Ratings use decisive votes only; with this few votes the intervals are wide. "Agreement" is the share of decisive votes where the person preferred the model the AI judges rate higher.
+
+### Literary prose — 25 votes, 1 ties, agreement with AI judges 54 %
+
+| Model | Human rating (95 % CI) | Won / tied / lost | AI-judge rating |
+|---|---|---|---|
+| Gemini 4 Argon | **1140** (838–1453) | 3 / 0 / 1 | 743 |
+| Claude Opus 5.5 | **1043** (827–1348) | 4 / 0 / 3 | 1275 |
+| GPT-6.1 Sol | **1039** (771–1326) | 3 / 0 / 2 | 1298 |
+| Claude Sonnet 5.5 | **978** (701–1228) | 6 / 0 / 5 | 1106 |
+| GPT-6 Luna | **968** (754–1193) | 5 / 1 / 5 | 877 |
+| Claude Haiku 5.5 | **832** (524–991) | 3 / 1 / 8 | 700 |
+
+### Non-fiction — 17 votes, 2 ties, agreement with AI judges 60 %
+
+| Model | Human rating (95 % CI) | Won / tied / lost | AI-judge rating |
+|---|---|---|---|
+| Claude Haiku 5.5 | **1078** (773–1399) | 3 / 1 / 2 | 911 |
+| Claude Opus 5.5 | **1054** (800–1363) | 4 / 0 / 3 | 1162 |
+| GPT-6.1 Sol | **1035** (695–1353) | 2 / 0 / 2 | 1187 |
+| GPT-6 Luna | **991** (670–1318) | 2 / 1 / 2 | 976 |
+| Claude Sonnet 5.5 | **986** (680–1273) | 3 / 1 / 3 | 983 |
+| Gemini 4 Argon | **856** (557–1160) | 1 / 1 / 3 | 781 |
+
 ## Cost, speed, reliability
 
 | Model | Cents per standard page | Median seconds per text | Texts delivered | No text (failed) | Cut off | Preamble/heading |

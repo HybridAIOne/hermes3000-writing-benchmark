@@ -757,6 +757,153 @@
   },
   "judgeCostUsd": 10.058486000000004,
   "failures": [],
-  "human": null,
+  "human": {
+    "votes": 42,
+    "judges": [
+      "stephan"
+    ],
+    "tracks": {
+      "literary": {
+        "votes": 25,
+        "ties": 1,
+        "counts": {
+          "gpt-6-luna": {
+            "w": 5,
+            "t": 1,
+            "l": 5
+          },
+          "gpt-6.1-sol": {
+            "w": 3,
+            "t": 0,
+            "l": 2
+          },
+          "claude-haiku-5.5": {
+            "w": 3,
+            "t": 1,
+            "l": 8
+          },
+          "claude-sonnet-5.5": {
+            "w": 6,
+            "t": 0,
+            "l": 5
+          },
+          "claude-opus-5.5": {
+            "w": 4,
+            "t": 0,
+            "l": 3
+          },
+          "gemini-4-argon": {
+            "w": 3,
+            "t": 0,
+            "l": 1
+          }
+        },
+        "ratings": {
+          "gpt-6-luna": {
+            "rating": 968,
+            "lo": 754,
+            "hi": 1193
+          },
+          "gpt-6.1-sol": {
+            "rating": 1039,
+            "lo": 771,
+            "hi": 1326
+          },
+          "claude-haiku-5.5": {
+            "rating": 832,
+            "lo": 524,
+            "hi": 991
+          },
+          "claude-sonnet-5.5": {
+            "rating": 978,
+            "lo": 701,
+            "hi": 1228
+          },
+          "claude-opus-5.5": {
+            "rating": 1043,
+            "lo": 827,
+            "hi": 1348
+          },
+          "gemini-4-argon": {
+            "rating": 1140,
+            "lo": 838,
+            "hi": 1453
+          }
+        },
+        "agreement": 0.5416666666666666,
+        "decisive": 24
+      },
+      "nonfiction": {
+        "votes": 17,
+        "ties": 2,
+        "counts": {
+          "gpt-6-luna": {
+            "w": 2,
+            "t": 1,
+            "l": 2
+          },
+          "gpt-6.1-sol": {
+            "w": 2,
+            "t": 0,
+            "l": 2
+          },
+          "claude-haiku-5.5": {
+            "w": 3,
+            "t": 1,
+            "l": 2
+          },
+          "claude-sonnet-5.5": {
+            "w": 3,
+            "t": 1,
+            "l": 3
+          },
+          "claude-opus-5.5": {
+            "w": 4,
+            "t": 0,
+            "l": 3
+          },
+          "gemini-4-argon": {
+            "w": 1,
+            "t": 1,
+            "l": 3
+          }
+        },
+        "ratings": {
+          "gpt-6-luna": {
+            "rating": 991,
+            "lo": 670,
+            "hi": 1318
+          },
+          "gpt-6.1-sol": {
+            "rating": 1035,
+            "lo": 695,
+            "hi": 1353
+          },
+          "claude-haiku-5.5": {
+            "rating": 1078,
+            "lo": 773,
+            "hi": 1399
+          },
+          "claude-sonnet-5.5": {
+            "rating": 986,
+            "lo": 680,
+            "hi": 1273
+          },
+          "claude-opus-5.5": {
+            "rating": 1054,
+            "lo": 800,
+            "hi": 1363
+          },
+          "gemini-4-argon": {
+            "rating": 856,
+            "lo": 557,
+            "hi": 1160
+          }
+        },
+        "agreement": 0.6,
+        "decisive": 15
+      }
+    }
+  },
   "generationCostUsd": 4.8982002000000024
 }
