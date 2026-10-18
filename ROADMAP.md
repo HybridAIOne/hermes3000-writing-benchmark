@@ -8,6 +8,17 @@ presentation and tooling can change between runs of the same version.
 - **Render markdown** when presenting texts to people (arena benchmark mode, blind page). Raw
   `#` and `**` distract from the prose. Render both sides the same way; a heading or preamble
   the model added must stay visible, since it is part of what is judged.
+- **Less reading per vote.** 81 full pairs (up to 900 words a side) is more than anyone reads
+  carefully; one judge stopped at 42. Options:
+  - Judge an **excerpt** (the opening ~150 words, or one passage at the same position), not
+    the whole text — a reader decides about prose within the first paragraphs anyway.
+  - **Short sessions, many people:** 10 pairs per session instead of one person doing 80.
+  - **Spend votes where they inform:** pairs whose AI-judge ratings are close or where the
+    three judges disagree. Pairs the judges already separate clearly confirm little (in v1
+    the person agreed 9 of 12 times there).
+- **Only tasks where human taste adds something:** literary scene, dialogue, chapter opening,
+  non-fiction opening. Not fact fidelity (`nf-from-source`), outlines or anything with an
+  answer key — a checklist or the key judges those better and cheaper than a reader.
 
 ## Benchmark v2
 
