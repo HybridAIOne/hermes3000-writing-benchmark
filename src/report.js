@@ -735,9 +735,17 @@ function report(runId, bench) {
 /** Finalists: best by mean rank across the two judged tracks and editing. */
 function finalists(runId, bench, n) {
   const { R, models } = build(runId, bench);
+  // Tied scores share the mean of their positions (fractional ranking). Breaking ties by list
+  // order once decided a final seat: in book context nearly every model scores 100 %, and the
+  // models listed first in models.yaml took the better ranks.
   const rankIn = (score) => {
-    const order = [...models].sort((a, b) => score(b) - score(a)).map((m) => m.key);
-    return (k) => order.indexOf(k);
+    const values = models.map((m) => score(m)).sort((a, b) => b - a);
+    const rankOf = (v) => {
+      const first = values.indexOf(v);
+      const count = values.filter((x) => x === v).length;
+      return first + (count - 1) / 2;
+    };
+    return (k) => rankOf(score(models.find((m) => m.key === k)));
   };
   const lit = rankIn((m) => R.tracks.literary.all[m.key].rating);
   const nf = rankIn((m) => R.tracks.nonfiction.all[m.key].rating);

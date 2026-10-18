@@ -113,3 +113,13 @@ test('a failed text loses to every text of its task (build)', () => {
   }
   void os;
 });
+
+test('finalists share tied ranks instead of breaking ties by list order', () => {
+  // Real preliminary run: nearly everyone scores 100 % in book context. With ties broken by
+  // models.yaml order, Claude Haiku took the sixth seat; shared ranks give it to Kimi K3.
+  const { loadBenchmark } = require('../src/spec');
+  const { finalists } = require('../src/report');
+  const keys = finalists('2026-10-17-v1-prelim-r2', loadBenchmark('v1'), 6).map((f) => f.key);
+  assert.ok(keys.includes('kimi-k3'), keys.join(','));
+  assert.ok(!keys.includes('claude-haiku-5.5'), keys.join(','));
+});
