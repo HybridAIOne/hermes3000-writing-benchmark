@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "gpt-6.1-sol",
+  "run": 3,
+  "text": "Es ist Dienstag, kurz nach neun. Du stehst mit einer Tasse Kaffee am Drucker, als dir auffällt, dass die Unterlagen für den Kundentermin wieder nicht vollständig sind. Zwei Seiten fehlen, die Zahlen stammen aus der alten Version. Du weißt sofort, wer die Datei vorbereitet hat. Und du weißt auch: Das ist diesen Monat nicht zum ersten Mal passiert. Als dein Kollege um die Ecke kommt, sagst du trotzdem nur: „Ich hab da noch schnell was angepasst.“ Er nickt, du gehst zurück an deinen Platz. Der Termin wird schon irgendwie laufen. Nur der Ärger geht mit. Vielleicht kennst du solche Momente. Du übernimmst die Korrektur, weil es schneller geht. Du hältst den Mund, weil gerade viel los ist. Oder weil du zwar die Arbeit im Team koordinierst, aber niemandes Vorgesetzter bist. Was gibt dir also das Recht, etwas anzusprechen? Eine ganze Menge: Ihr seid aufeinander angewiesen, und was liegen bleibt, landet oft bei dir oder bei anderen. Dafür brauchst du keinen Titel. Du brauchst aber die Bereitschaft, klar zu sagen, was passiert ist und was sich ändern muss. Das ist unbequem, besonders wenn ihr euch gut versteht oder dein Gegenüber länger im Betrieb ist als du. Doch mit jedem vertagten Gespräch wächst die Gefahr, dass aus einem konkreten Fehler ein pauschales Urteil wird: „Auf den kann man sich eben nicht verlassen.“ Dann sprichst du irgendwann nicht mehr über zwei fehlende Seiten, sondern rechnest einen ganzen Monat ab. Dieses Kapitel zeigt dir, wie du früher ins Gespräch kommst: ohne Anklage, ohne Herumdrucksen und ohne die Arbeit wieder still selbst zu erledigen.",
+  "usage": {
+    "in": 152,
+    "out": 360,
+    "thinking": 0
+  },
+  "costUsd": 0.003904,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 14566,
+  "meta": [],
+  "at": "2026-10-17T17:47:57.564Z"
+}

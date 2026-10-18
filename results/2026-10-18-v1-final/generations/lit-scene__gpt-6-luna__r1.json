@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "Der Schlüssel klemmte, wie er immer geklemmt hatte. Mara musste ihn erst ein Stück zurückdrehen, dann mit dem Daumen gegen den Bart drücken. Das Schloss gab nach. Im Haus roch es nach Staub, kaltem Holz und dem scharfen Rest eines Reinigungsmittels, das ihre Mutter offenbar zuletzt vor langer Zeit benutzt hatte.\n\nSie blieb im Flur stehen. Nicht aus Ehrfurcht, sagte sie sich, sondern weil ihre Augen sich an das Dunkel gewöhnen mussten. Der Lichtschalter saß noch neben der Garderobe. Sie drückte ihn. Nichts. Durch das Oberlicht fiel ein grauer Streifen auf die Dielen, gerade breit genug, um die abgetretene Stelle vor der Küchentür zu zeigen.\n\nZwanzig Jahre waren vergangen, seit sie dieses Haus verlassen hatte. Ihre Mutter war seit sechs Wochen tot. Beides ließ sich sagen, ohne dass sich etwas daran änderte.\n\nMara stellte die Reisetasche ab. Der Riemen rutschte von ihrer Schulter und schlug leise gegen die Wand. Im Flur hing noch der Spiegel mit dem blinden Fleck am unteren Rand. Darin sah sie ihr Gesicht nur bis zum Mund, und dahinter die geschlossene Haustür.\n\nIn der Küche standen zwei Stühle am Tisch. Der dritte lehnte an der Wand, als hätte jemand Platz schaffen wollen. Auf der Fensterbank lag ein trockenes Blatt, vom Wind oder von einer Hand dorthin getragen. Mara strich mit dem Finger über die Tischplatte. Der Staub teilte sich, und unter ihm kam ein schmaler, heller Halbkreis zum Vorschein.\n\nSie wusste nicht, ob er von einer Tasse stammte. Sie wusste nur, dass ihre Mutter immer die Tasse mit dem abgesprungenen blauen Rand benutzt hatte.\n\nIm Spülbecken lag ein einzelner Löffel. Als Mara den Wasserhahn aufdrehte, kam zunächst Luft, dann ein dünner, rostfarbener Strahl. Er klopfte gegen das Metall, unregelmäßig, wie etwas, das sich erst erinnern musste, wie man fließt.",
+  "usage": {
+    "in": 76,
+    "out": 881,
+    "thinking": 424
+  },
+  "costUsd": 0.0004481,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 10841,
+  "meta": [],
+  "at": "2026-10-17T17:46:35.861Z"
+}

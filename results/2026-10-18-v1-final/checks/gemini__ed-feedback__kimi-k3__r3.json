@@ -1,0 +1,23 @@
+{
+  "task": "ed-feedback",
+  "model": "kimi-k3",
+  "run": 3,
+  "judge": "gemini",
+  "verdict": {
+    "found": [
+      "rampe",
+      "tempus",
+      "perspektive",
+      "wiederholung",
+      "fahrgaeste",
+      "hupe"
+    ],
+    "false_alarms": 1
+  },
+  "usage": {
+    "in": 1386,
+    "out": 54,
+    "thinking": 0
+  },
+  "costUsd": 0.003312
+}

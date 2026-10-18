@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "claude-haiku-5.5",
+  "run": 2,
+  "text": "Sie antwortete nicht. Die Leine lag noch in ihrer Hand, feucht und schwer, und sie prüfte den Knoten, obwohl er hielt. Der Fluss schob braunes Wasser nach Norden, ruhig und gleichgültig, wie er es seit Jahrhunderten tat. Ein Schwan trieb vorbei, den Kopf unter dem Flügel.\n\n„Der Motor läuft\", sagte sie schließlich.\n\n„Er läuft, weil du ihn jeden Morgen anschiebst. Das hat Papa auch schon gesagt.\" Jonas zog den Koffer näher, und ein Rad blieb im Spalt zwischen zwei Bohlen hängen. Er zerrte, bis es sich löste, und fluchte leise, nur für sich. Ilse sah ihm zu und empfand dabei nichts, was sie hätte benennen können. Vielleicht eine Müdigkeit, die weiter zurückreichte als dieser Vormittag.\n\nSie hatte ihn gesehen, als die Fähre in der Biegung gelegen hatte. Ein dunkler Mantel am Ufergeländer, eine Hand über den Augen gegen die Sonne. Sie hatte den Blick abgewendet, hatte am Steuer gearbeitet, als gäbe es am Ufer nichts, das wichtig war, und war erst angelegt, als das Schiff ruhig im Wasser lag. Es war kindisch. Sie wusste es.\n\n„Ich hab dir geschrieben\", sagte Jonas.\n\n„Ich habe deine Nachricht gelesen.\"\n\n„Und?\"\n\nSie hob die Schultern. Vom Deich wehte der Wind Gras und Salz herunter, und oben, hinter dem Weidenzaun, stand das Haus mit den grünen Läden, die Henning im letzten Frühjahr noch gestrichen hatte. Auf der Nordseite blätterte die Farbe ab.\n\nJonas sah auf den Pfad, der den Deich hinaufführte. „Ich dachte, wir gehen erst mal hoch. Du machst Kaffee, und ich erzähl dir, was ich mir überlegt habe.\"\n\nIlse betrachtete den Koffer, seine Schuhe, die für Bohlen nicht taugten, und sein Gesicht, das dem ihres Mannes ähnlicher sah, als ihr lieb war, wenn er die Stirn so in Falten legte. Dann blickte sie zur Fähre zurück, deren Heck noch gegen den Poller drückte, und zu dem Stück Fluss dahinter, wo die Strömung am stärksten war.\n\n„Kaffee gibt es später\", sagte sie. „Erst fährst du mit rüber.\"\n\nJonas starrte sie an. „Mama, ich bin seit sechs Uhr unterwegs, ich hab im Zug kaum...\"\n\nSie löste die Leine vom Poller, Windung für Windung, und hielt sie ihm hin. „Dann setzt du dich jetzt aufs Deck, und zwar nicht auf den Koffer. Der Fluss hat keinen Fahrplan.\"",
+  "usage": {
+    "in": 593,
+    "out": 2590,
+    "thinking": 1500
+  },
+  "costUsd": 0.0013543,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 12727,
+  "meta": [],
+  "at": "2026-10-17T17:47:22.231Z"
+}

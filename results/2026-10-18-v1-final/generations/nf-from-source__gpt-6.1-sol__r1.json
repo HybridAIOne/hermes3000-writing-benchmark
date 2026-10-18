@@ -1,0 +1,18 @@
+{
+  "task": "nf-from-source",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "Eine Genossenschaft ermöglicht es Menschen, eine Aufgabe gemeinsam zu übernehmen. Wie das funktioniert, zeigt die Fährgenossenschaft Hitzacker eG: Als der Landkreis den Betrieb der Seilfähre eingestellt hatte, gründeten 1953 insgesamt 41 Landwirte und Händler von beiden Elbufern die Genossenschaft. Sie machten die Fährverbindung damit zu einer gemeinsamen Angelegenheit.\n\nHeute hat die Genossenschaft 312 Mitglieder. Jedes Mitglied hält mindestens einen Anteil im Wert von 250 Euro. Die Beteiligung verbindet sich mit einem Recht auf Mitbestimmung: In der Generalversammlung hat jedes Mitglied genau eine Stimme. Wer mehrere Anteile besitzt, erhält deshalb nicht mehr Stimmen. Für Entscheidungen zählt also nicht die Höhe der finanziellen Beteiligung, sondern die Mitgliedschaft. Darin liegt ein wichtiger Grund, weshalb diese Rechtsform zur Fähre passt: Die Mitglieder können gleichberechtigt über ihre gemeinsame Verbindung mitbestimmen.\n\nAuch der Umgang mit Überschüssen zeigt, worauf die Genossenschaft ausgerichtet ist. Sie werden nicht an die Mitglieder ausgeschüttet, sondern fließen in eine Rücklage für die Erneuerung der Fähre. Das Geld bleibt damit für deren Zukunft bestimmt. Bis 2031 soll die Rücklage ausreichen, um einen Elektroantrieb einzubauen. Heute treibt ein 85-kW-Dieselmotor die am Führungsseil hängende Fähre an; bis 1978 bewegte sie allein die Strömung.\n\nDer laufende Betrieb finanziert sich aus Fahrkartenverkäufen und einem Zuschuss der Gemeinde. Im Jahr 2024 betrug der Umsatz 186.000 Euro. Davon kamen 71 Prozent aus Fahrkartenverkäufen und 29 Prozent aus dem Gemeindezuschuss. Die Fahrgeldeinnahmen allein bilden somit nicht die gesamte Finanzierung.\n\nRund 64.000 Personen nutzen die Fähre jährlich, im Sommer vor allem Radfahrer auf dem Elberadweg. Bei normalem Wasserstand dauert die Überfahrt über die hier 212 Meter breite Elbe sieben Minuten. Für diese Verbindung führt die Genossenschaft Beteiligung, gleiches Stimmrecht und Vorsorge zusammen: Die Mitglieder tragen Anteile, entscheiden gleichberechtigt mit und lassen Überschüsse für die Erneuerung im Unternehmen. Nicht die Auszahlung von Überschüssen, sondern die gemeinsame Fährverbindung steht damit im Mittelpunkt.",
+  "usage": {
+    "in": 402,
+    "out": 548,
+    "thinking": 50
+  },
+  "costUsd": 0.006284,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 13988,
+  "meta": [],
+  "at": "2026-10-17T17:47:29.014Z"
+}

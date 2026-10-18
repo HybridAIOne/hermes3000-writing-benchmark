@@ -1,0 +1,128 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "F": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„So beginnen viele schwierige Gespräche“: Hier beginnt bereits der zweite von vier Absätzen. Gefordert ist ein Einstiegsabsatz; die Absatzstruktur müsste entsprechend angepasst werden.",
+          "„die Bereitschaft zuzuhören und den Mut, auszusprechen, was du beobachtet hast“: Der Schluss wechselt von der anschaulichen Szene zu einer recht vertrauten Ratgeberformel. Konkretere Handlungshinweise würden ihn eigenständiger machen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 9,
+        "fehler": [
+          "„Jedes Gespräch, das du heute aus falscher Rücksichtnahme vermeidest, wird in vier Wochen doppelt so schwer“: Die absolute Aussage samt genauer Zeit- und Größenangabe ist sachlich nicht haltbar. Sie müsste durch eine nachvollziehbare, abgestufte Aussage ersetzt werden.",
+          "„kostet dich bis dahin genau den Respekt, den du für deine Rolle so dringend brauchst“: Unterstellt einen zwangsläufigen Respektverlust und setzt die Lesenden unnötig unter Druck. Der drohende Ton schwächt die sachliche Orientierung.",
+          "„um seine Schlamperei auszubügeln“: Die abwertende Zuschreibung legt die Ursache bereits fest. Als innerer Gedanke ist sie möglich, bleibt hier aber ungebrochen stehen.",
+          "„tief drinnen“, „auf die Füße zu treten“, „Bauchgrummeln“, „auf Granit beißen“: Die Häufung geläufiger Wendungen macht die Sprache austauschbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„sondern längst Termin gemacht hast“: Im standardsprachlichen Buchtext fehlt der Artikel: „sondern längst einen Termin gemacht hast“. Idiomatischer wäre „einen Termin vereinbart hast“.",
+          "„Kaum eine Aufgabe wird von Führungskräften so konsequent aufgeschoben wie das schwierige Gespräch“: Unbelegte vergleichende Verallgemeinerung. Die Aussage sollte enger und weniger behauptend formuliert werden.",
+          "„Die schlechte Nachricht zuerst“ / „Die gute Nachricht“: Das vertraute Ratgeberschema ersetzt eine eigenständige gedankliche Entwicklung.",
+          "„Schwierige Gespräche sind kein Talent, sondern Handwerk“: Begrifflich unsauber: Gespräche sind kein Talent und auch kein Handwerk; ihre Führung lässt sich als Handwerk beschreiben.",
+          "„Kommt dir bekannt vor?“: Hier beginnt der zweite von fünf Absätzen. Das entspricht nicht dem verlangten einzelnen Einstiegsabsatz."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Die meisten Teamleiter schieben unangenehme Gespräche vor sich her“: Unbelegte Mehrheitsbehauptung; eine vorsichtigere Formulierung würde denselben Wiedererkennungseffekt erzielen.",
+          "„Es wird größer, und irgendwann kommt es in einer Form zurück, die du dir nicht ausgesucht hast“: Stellt eine mögliche Entwicklung als zwangsläufig dar.",
+          "„als gereizte Mail, als Streit in der Besprechung oder als Kündigung“: Die Steigerung bis zur Kündigung ist für den geschilderten Anlass nicht ausreichend vorbereitet und wirkt dramatisierend.",
+          "„ein paar einfache Gewohnheiten, die du schon morgen ausprobieren kannst“: Der Schluss bleibt ein allgemeines Nutzenversprechen, statt einen konkreten Zugang zum Kapitel anzudeuten."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Fast jeder, der ein Team führt, kennt dieses Ausweichen“: Unbelegte Verallgemeinerung, die für die Wirkung der überzeugenden Szene nicht nötig ist.",
+          "„nicht, weil ihm der Mut fehlt oder weil ihm die Sache egal ist. Meistens ist es genau umgekehrt“: Die Erklärung entlastet die Lesenden vorschnell und stellt unterschiedliche Ursachen künstlich gegeneinander. Zuneigung und fehlender Mut können gleichzeitig vorliegen.",
+          "„Nicht um Gesprächstechniken, die man auswendig lernt, sondern darum, wie du solche Gespräche führst, ohne dich zu verbiegen“: Baut einen unnötigen Gegensatz zwischen erlernbaren Techniken und persönlicher Glaubwürdigkeit auf. Zugleich bleibt das konkrete Kapitelangebot unscharf."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "F",
+      "E",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2756,
+    "out": 2049,
+    "thinking": 837
+  },
+  "costUsd": 0.026002
+}

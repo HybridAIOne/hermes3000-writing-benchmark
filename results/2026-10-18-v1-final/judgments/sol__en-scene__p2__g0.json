@@ -1,0 +1,112 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Your mother said it sometimes … Near the end. She was proud of you.“ – Die Auflösung über die verstorbene Mutter setzt auf ein vertrautes sentimentales Muster. Sie erklärt die Begegnung weitgehend aus, statt deren Spannung zurückhaltend stehen zu lassen.",
+          "„At four the hospital goes quiet“ bis „until she could breathe“ – Mit rund 350 Wörtern liegt der Text deutlich über dem gewünschten Umfang.",
+          "„Maren felt the words land somewhere under her ribs and stay there.“ – Konventionelle körperliche Metapher für emotionale Erschütterung; zusammen mit der anschließenden Sterbebetterinnerung zu stark auf Wirkung geschrieben.",
+          "„the way you'd carry a letter you didn't want to read in front of anyone“ – Der ausgreifende Vergleich macht die schlichte Bewegung unnötig bedeutungsschwer; der Zusammenhang mit dem umgedrehten Dienstausweis bleibt unpräzise.",
+          "„watched it until she could breathe“ – Das Schlussbild wird durch die ausdrückliche Benennung ihrer emotionalen Entlastung abgeschwächt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„lay a wide-toothed comb, pale green, a single grey hair wound through its teeth like thread on a spool“ – Das Erinnerungsstück bündelt die Bedeutung der Begegnung sehr demonstrativ. Besonders das einzelne Haar und der zusätzliche Vergleich wirken für die gewünschte Zurückhaltung zu sorgfältig arrangiert.",
+          "„beside the hymnals no one opened“ – Pauschale atmosphärische Behauptung, die über die konkrete Wahrnehmung der Figur hinausgeht und das Bild einer verlassenen Krankenhauskapelle routiniert verstärkt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„the chapel window held her reflection over his: her white shoes, his dark coat, the three stirrers lined up on the table between them“ – Das Schlussbild ist räumlich nicht ausreichend vorbereitet: Das zuvor kleine Fenster in der Tür soll nun Schuhe, Mantel und Tischanordnung zugleich erfassen. Zudem bleibt unklar, was Spiegelung und was Durchblick ist.",
+          "„Do you need security?“ – Als Frage der Pflegekraft an einen bislang unauffälligen Besucher wirkt das ohne weiteren Anlass unnatürlich; die Formulierung scheint vor allem die mögliche Bedrohlichkeit der Situation markieren zu sollen.",
+          "„Someone had arranged them parallel“ / „straightened the cup, though it was already steady“ – Die wiederholten Ordnungsgesten tragen viel symbolisches Gewicht, ohne dass daraus eine deutlichere individuelle Kontur der Figur entsteht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„his shoes were dry, though water had collected beneath the hem of his coat“ – Das demonstrativ rätselhafte Detail setzt einen zusätzlichen Unheimlichkeitshinweis, den die ansonsten präzise und zurückhaltende Begegnung nicht benötigt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„The chapel was supposed to be locked after midnight“ – Die ausdrücklich verlangte Uhrzeit vier Uhr morgens wird weder genannt noch eindeutig aus dem weiteren Geschehen erschließbar.",
+          "„The chapel was supposed to be locked“ bis „as though it were warm“ – Mit rund 310 Wörtern liegt der Text merklich über dem angezielten Umfang.",
+          "„Not the way you mean.“ – Vertraute, demonstrativ geheimnisvolle Dialogformel; sie erzeugt Rätselhaftigkeit durch Ausweichen statt durch eine individuell überzeugende Äußerung.",
+          "„They were dry, though it had been raining since dusk.“ – Trockene Schuhe allein begründen keine auffällige Unstimmigkeit. Das Detail wirkt als konventionelles Signal für einen möglicherweise übernatürlichen Besucher.",
+          "„a permanent, patient amber“ / „The false dawn“ / „as though it were warm“ – Die Häufung poetischer Bedeutungsangebote überhöht das Schlussbild; die konkrete Lichtquelle wäre ohne diese Ausdeutung stärker."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "C",
+      "E",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2251,
+    "out": 1627,
+    "thinking": 512
+  },
+  "costUsd": 0.020772
+}

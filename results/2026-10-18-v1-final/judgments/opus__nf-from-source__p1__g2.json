@@ -1,0 +1,131 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "\"Für diese Verbindung führt die Genossenschaft Beteiligung, gleiches Stimmrecht und Vorsorge zusammen\" – hölzern und abstrakt",
+          "\"Die Fahrgeldeinnahmen allein bilden somit nicht die gesamte Finanzierung.\" – Füllsatz, wiederholt nur die Zahlen davor",
+          "\"Nicht die Auszahlung von Überschüssen, sondern die gemeinsame Fährverbindung steht damit im Mittelpunkt.\" – redundanter Schluss nach bereits erfolgter Zusammenfassung",
+          "\"Davon kamen 71 Prozent aus Fahrkartenverkäufen und 29 Prozent aus dem Gemeindezuschuss\" – doppelt, da der Satz zuvor die Quellen schon nennt",
+          "Mit rund 370 Wörtern etwas über dem Umfang"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "\"# Die Fährgenossenschaft Hitzacker: Wie eine Genossenschaft funktioniert\" – Markdown-Überschrift entgegen \"nur den Buchtext\"",
+          "\"ein weiteres Beispiel dafür, wie die Genossenschaft auf Dauer und für das Gemeinwohl plant\" – Gemeinwohl-Behauptung nicht belegt",
+          "\"Das zeigt sich auch in den Zahlen:\" – die folgenden Umsatz- und Fahrgastzahlen belegen das gemeinsame Interesse nicht, Logikbruch",
+          "\"Dank der angesparten Rücklage soll bis 2031 ein Elektroantrieb eingebaut werden\" – Quelle sagt nur, die Rücklage soll bis 2031 ausreichen",
+          "\"und die Menschen an beiden Ufern wollten die Verbindung über den Fluss erhalten\" – Motiv hinzugedeutet"
+        ],
+        "unsupported": [
+          "\"für das Gemeinwohl plant\"",
+          "\"die Menschen an beiden Ufern wollten die Verbindung über den Fluss erhalten\"",
+          "\"soll bis 2031 ein Elektroantrieb eingebaut werden\" (Quelle: Rücklage soll bis 2031 ausreichen)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 4,
+        "fehler": [
+          "\"schlossen sich 1953 vierzig Landwirte und Händler\" – falsche Zahl, laut Quelle 41",
+          "\"Zugleich gibt die gleiche Stimme jedem Mitglied ein Mitspracherecht – unabhängig davon, wie viele Anteile es hält.\" – wörtliche Wiederholung aus dem zweiten Absatz",
+          "\"Die Mitglieder können gemeinsam über die Angelegenheiten der Genossenschaft beraten und abstimmen.\" – inhaltsarmer Füllsatz",
+          "\"Bis 1978 nutzte sie allein die Strömung.\" – unklar, die Strömung bewegte die Fähre"
+        ],
+        "unsupported": [
+          "\"vierzig Landwirte und Händler\" (Quelle: 41)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"**Wie eine Genossenschaft funktioniert – das Beispiel der Fähre in Hitzacker**\" – Überschrift entgegen \"nur den Buchtext\"",
+          "\"Warum passt diese Rechtsform zu einer Fähre? Die Fähre ist ein Verkehrsmittel für viele Menschen.\" – die Frage wird mit Betriebsdaten statt Argumenten beantwortet",
+          "\"verbindet hier das Interesse der Nutzer und der Region\" – unterstellt, Mitglieder seien Nutzer, nicht belegt",
+          "\"Das zeigt sich im Blick auf die Zukunft:\" – holpriger Übergang"
+        ],
+        "unsupported": [
+          "\"verbindet hier das Interesse der Nutzer und der Region\""
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Als der Landkreis im Jahr 1953 den Betrieb der dortigen Seilfähre einstellte\" – Jahr der Einstellung steht nicht in der Quelle, nur das Gründungsjahr",
+          "\"weil es den Beteiligten nicht um persönliche Gewinnmaximierung geht\" – unterstelltes Motiv",
+          "\"wächst das finanzielle Polster stetig\" – nicht belegt",
+          "\"den Fortbestand und die Modernisierung der Fähre ideal unterstützt\" – werbliche Floskel",
+          "\"Ein zentrales Merkmal dieser Rechtsform ist die Demokratie\" – unscharf und phrasenhaft"
+        ],
+        "unsupported": [
+          "Einstellung des Fährbetriebs durch den Landkreis \"im Jahr 1953\"",
+          "\"nicht um persönliche Gewinnmaximierung\" als Motiv der Beteiligten",
+          "\"wächst das finanzielle Polster stetig\""
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "B",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 7128,
+    "out": 2997,
+    "thinking": 1110
+  },
+  "costUsd": 0.088452
+}

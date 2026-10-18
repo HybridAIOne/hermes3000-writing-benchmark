@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "kimi-k3",
+  "run": 2,
+  "judge": "sol",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 1983,
+    "out": 51,
+    "thinking": 29
+  },
+  "costUsd": 0.004476
+}

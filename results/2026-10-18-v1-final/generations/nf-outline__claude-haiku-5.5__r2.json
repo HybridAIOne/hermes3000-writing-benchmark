@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "claude-haiku-5.5",
+  "run": 2,
+  "text": "# Führen ohne Titel\n\n**1. Der erste Tag**\nWie du in der neuen Rolle ankommst, was du in den ersten Wochen tust und was du besser lässt.\n\n**2. Was eigentlich von dir erwartet wird**\nWie du herausfindest, welche Aufgaben, Ziele und Befugnisse wirklich zu deiner Rolle gehören, und wo du nachfragen musst.\n\n**3. Vom Kollegen zum Vorgesetzten**\nWie du mit deinen früheren Kollegen umgehst, wenn du plötzlich über ihnen stehst, und welche Nähe und Distanz dir guttut.\n\n**4. Verlässlichkeit im Alltag**\nWarum Vertrauen im Team vor allem durch kleine, eingehaltene Zusagen entsteht und wie du mit deinen eigenen Fehlern umgehst.\n\n**5. Aufgaben abgeben, ohne die Kontrolle zu verlieren**\nWie du Arbeit so verteilst, dass Menschen selbstständig arbeiten können, und wie du Ergebnisse prüfst, ohne ständig hinterherzulaufen.\n\n**6. Feedback als Gewohnheit**\nWie du Lob und Kritik im Tagesgeschäft so gibst, dass sie ankommen, bevor ein Problem groß geworden ist.\n\n**7. Schwierige Gespräche**\nWie du Leistungsprobleme, Verhaltensfragen und unangenehme Entscheidungen mit einzelnen Mitarbeitenden offen, fair und ohne Ausweichen ansprichst.\n\n**8. Streit im Team und zwischen den Abteilungen**\nWie du erkennst, wann sich Kollegen gegenseitig blockieren, und wie du zwischen den Fronten Klarheit schaffst, statt zu schlichten, bis niemand mehr etwas sagt.\n\n**9. Zwischen oben und unten**\nWie du Entscheidungen der Geschäftsführung dem Team erklärst, ohne sie zu verteidigen oder zu verraten, und wann du Nein sagen musst.\n\n**10. Deine eigene Haltung**\nWarum du führst, woran du merkst, dass du es gut machst, und welche Grenzen du dir selbst setzt, damit du die Rolle dauerhaft ausfüllen kannst.",
+  "usage": {
+    "in": 242,
+    "out": 1881,
+    "thinking": 1057
+  },
+  "costUsd": 0.0009647000000000001,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 9360,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:50:48.971Z"
+}

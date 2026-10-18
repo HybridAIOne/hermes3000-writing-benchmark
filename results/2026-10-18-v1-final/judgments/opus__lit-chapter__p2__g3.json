@@ -1,0 +1,146 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "F": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Sie kurbelte die Landeklappe hoch, bis die Hydraulik übernahm“ – technisch unstimmig: Handkurbel und Hydraulik vermischt",
+          "„Ihr Blick ging routinemäßig zum Radarbildschirm“ – Radar auf einer kleinen Gierseilfähre wirkt unplausibel",
+          "„Sie griff nach der Eisenstange für den Keil und schob ihn unter Korffs rechtes Hinterrad“ – umständlich, Bezug unklar",
+          "„Über die Verträge für den Verkauf der Fährrechte, über die Maklerin aus Lüneburg, über die Treppen“ – erklärende Exposition statt Szene",
+          "„die Ilse mehr ermüdete als jeder Sturm auf der Elbe“ – leicht klischeehaft"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 3,
+        "fehler": [
+          "„Einmal leer, einmal mit einem Transporter“ / „Um zehn kam der erste Radfahrer des Tages“ – deutlich mehr als drei Fahrgäste",
+          "„Drüben löste Kallenbach sein Fahrrad, nickte, fuhr die Rampe hoch“ – Kallenbach wird zurück ans Ufer gebracht, an dem er eingestiegen ist (Logikbruch)",
+          "„der Junge stieg hinten ein und lehnte sich an die Reling“ – unklar, ob er ins Auto steigt; später „stieg er aus“",
+          "„dabei war die Thermoskanne längst kalt geworden“ – widerspricht dem Zweck der Kanne und dem späteren „lauwarm“",
+          "„Im November fotografierte keiner mehr. Aber es war November, und sie wusste es besser, und sie fotografierte zurück, mit den Augen“ – widersprüchlich und kitschig"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c3"
+        ]
+      },
+      {
+        "label": "C",
+        "sprache": 5,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "„Der Motor kam husten, dann ruhig.“ – ungrammatisch",
+          "„begann das Telefon in ihrer Jackentasche zu vibrieren. Sie hatte es in den Steuerstand gelegt“ – Widerspruch, ebenso „Ilse ließ es in der Jacke“",
+          "„sie erkannte den Namen, ohne ihn lesen zu müssen“ – Anrufer wird nie als Jonas erkennbar",
+          "„Die Fähre löste sich von der Anlegestelle … Am Ufer stand er schon“ – Fahrgast steigt nach dem Ablegen zu (Logikbruch)",
+          "„nie anders erlebt als so, wie man einen Raum kennt … man findet sich zurecht“ – verunglückter Satzbau mit Tempuswechsel"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Wenn wir ankommen, sind wir da.“ / „Wenn Schluss ist.“ / „Wenn Sie drauf sind.“ – Wiederholungsmasche tautologischer Antworten",
+          "„Am Ende hatte sie ihn doch angezogen, den mit dem dünneren Daumen.“ – folgenloses Detail, bremst den Rhythmus",
+          "„drehte die Fähre zurück“ – bei einer Seilfähre unpräzise",
+          "„setzte einen kleinen Strich in die Spalte für die Fahrgäste. Drei.“ – ein Strich für drei Fahrgäste unstimmig",
+          "„Jeden Morgen dasselbe. Das war nicht wenig.“ – erklärend"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie wusste, was auf dem Display stand, ohne hinzusehen“ – Anrufer wird nie als Jonas benannt oder erkennbar",
+          "„nur das Wasser, das Seil, die Kette der Rolle“ – unklares Bild",
+          "„summte es noch einmal kurz und kürzer“ – unidiomatisch",
+          "„Wie früher. Als gäbe es ein Früher, das man von einem Jetzt trennen konnte.“ – erklärende Reflexion",
+          "„Der zweite war ein Mann“ – grammatisch auf „Fahrgast“ bezogen, aber nach „Frau Wulf“ holprig"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "F",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Moin\", sagte er“ – gerade statt typografischer schließender Anführungszeichen, durchgehend",
+          "„Sie ging zum Fahrradständer am Heck, wo zwischen Rettungsring und Werkzeugkiste eine Schachtel stand“ – etwas umständlich",
+          "„Er lachte, als hätte sie einen Witz gemacht.“ – abgegriffene Wendung",
+          "„Das waren die Minuten, die sie mochte. Sie hätte nicht sagen können, warum.“ – leicht erklärend"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "F",
+      "A",
+      "E",
+      "D",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 18755,
+    "out": 4225,
+    "thinking": 2348
+  },
+  "costUsd": 0.15952
+}

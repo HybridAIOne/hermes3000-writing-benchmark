@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "# Führen ohne Titel – Gliederung\n\n**1. Der erste Tag: Gestern Kollege, heute Chef**\nWie du den Rollenwechsel gegenüber Leuten gestaltest, mit denen du gestern noch Mittagspause gemacht hast, und was du in den ersten Wochen besser lässt.\n\n**2. Was von dir erwartet wird (und was nicht)**\nDu klärst mit Geschäftsführung, Team und dir selbst, wofür du verantwortlich bist, was du entscheiden darfst und wo deine Rolle endet.\n\n**3. Dein Team kennenlernen**\nMit Einzelgesprächen und genauem Hinschauen findest du heraus, wer was kann, was jeden antreibt und wo es im Team schon länger hakt.\n\n**4. Aufgaben abgeben, ohne die Kontrolle zu verlieren**\nDu lernst, Arbeit so zu übergeben, dass sie erledigt wird und du trotzdem nicht alles selbst machen oder ständig nachfragen musst.\n\n**5. Dein Kalender gehört dir (zumindest ein bisschen)**\nZwischen Tagesgeschäft, Meetings und spontanen Anfragen setzt du Prioritäten und schaffst dir feste Zeiten für das, was Führung wirklich braucht.\n\n**6. Rückmeldung im Alltag**\nDu gibst Lob und Kritik regelmäßig, konkret und ohne Drumherumreden, damit dein Team weiß, woran es ist, bevor etwas schiefgeht.\n\n**7. Schwierige Gespräche führen**\nOb Leistungsprobleme, Streit im Team oder schlechte Nachrichten von oben: Hier lernst du, solche Gespräche vorzubereiten, klar zu führen und sie nicht aufzuschieben.\n\n**8. Zwischen den Stühlen**\nDu vertrittst Entscheidungen, die du nicht getroffen hast, übersetzt zwischen Geschäftsführung und Team und sorgst für Zusammenarbeit mit anderen Abteilungen, ohne dich aufzureiben.\n\n**9. Wenn es brennt**\nBei Personalausfall, Fehlern, Termindruck oder Streit mit Kunden bleibst du handlungsfähig, übernimmst Verantwortung und hältst dein Team zusammen.\n\n**10. Deine eigene Haltung**\nAus allem, was du erlebt hast, entwickelst du deinen eigenen Führungsstil: Du weißt, wofür du stehst, wo deine Grenzen liegen und wie du dich weiterentwickelst, auch ohne offizielle Ausbildung.",
+  "usage": {
+    "in": 242,
+    "out": 1683,
+    "thinking": 747
+  },
+  "costUsd": 0.017314,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 13804,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:51:00.262Z"
+}

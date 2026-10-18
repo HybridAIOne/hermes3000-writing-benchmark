@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "claude-sonnet-5.5",
+  "run": 3,
+  "text": "Der Schlüssel klemmte, wie er immer geklemmt hatte, und Judith tat, was ihre Hand noch wusste: anheben, ein Stück nach links, dann die Schulter gegen das Holz. Die Tür gab nach, als hätte sie nur auf diese Bewegung gewartet.\n\nDrinnen war es kälter als draußen. Seit dem März hatte niemand geheizt, und der Oktober hatte sich in den Wänden eingerichtet. Sie blieb auf der Fußmatte stehen, den Koffer in der Hand, und wartete darauf, dass der Flur sich in etwas verwandelte, das sie erkannte. Die Garderobe. Der Spiegel mit dem blinden Fleck unten links. Der Läufer, dessen Muster sie als Kind für eine Landkarte gehalten hatte. Alles stand da, ordentlich und ein wenig kleiner als verabredet.\n\nDer Notar hatte am Telefon von „Räumung“ gesprochen, von „Fristen“. Sie hatte genickt, obwohl er es nicht sehen konnte.\n\nSie stellte den Koffer ab. Das Geräusch ging durch das Haus und kam nicht zurück.\n\nErst in der Küche roch sie es. Kein Moder, wie sie erwartet hatte, kein Mäusekot, keine abgestandene Zeit, sondern etwas Süßes und zugleich Herbes, nach Wachs, Zitrone und Birne. Quitte. Sie öffnete den Kühlschrank, die Brotdose, das Fach unter der Spüle, nichts. Auf der Fensterbank lag eine tote Fliege auf dem Rücken, die Beine gefaltet.\n\nIm Wäscheschrank oben fand sie die Frucht schließlich doch, zwischen den Bettbezügen, eingeschrumpft, die Haut braun und weich wie altes Leder. Sie hielt sie an die Nase. Der Duft war nicht schwächer geworden, sondern dichter, fast feucht.\n\nIhre Mutter hatte Quitten nie gemocht. Das wusste Judith genau. Sie hatte sie nie gekauft, nie gekocht, nie auch nur erwähnt. Im Garten stand kein Baum.\n\nJudith setzte sich auf die Bettkante und drehte die Frucht in den Händen, bis ihre Finger den Geruch angenommen hatten. Dann steckte sie sie in die Manteltasche, so wie man etwas einsteckt, das man später erklären muss.",
+  "usage": {
+    "in": 149,
+    "out": 2651,
+    "thinking": 1764
+  },
+  "costUsd": 0.026808,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 21983,
+  "meta": [],
+  "at": "2026-10-17T17:49:23.083Z"
+}

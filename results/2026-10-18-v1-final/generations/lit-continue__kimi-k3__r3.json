@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "kimi-k3",
+  "run": 3,
+  "text": "Der Motor stotterte beim Anlegen nicht, er war nur lauter geworden seit Frühjahr. Das hätte sie ihm sagen können, tat es aber nicht.\n\n„Du stehst im Weg\", sagte sie.\n\nJonas hob den Koffer an, als könne man ihn so aus dem Weg räumen, und trat einen Schritt zurück. Seine Schuhe waren zu dünn für die Bohlen. Sie sah, wie er das Gleichgewicht suchte und es nicht fand, und für einen Moment war er wieder acht und stand zum ersten Mal allein auf der Fähre, während Henning am Hebel saß und grinste.\n\n„Ich hab angerufen\", sagte Jonas.\n\n„Ich weiß.\"\n\n„Dienstag. Und Mittwoch.\"\n\n„Da war ich draußen.\" Sie hakte die zweite Leine ein und prüfte den Sitz mit dem Daumen. „Hier draußen ist man draußen.\"\n\nEr nickte auf eine Weise, die kein Einverständnis war, sondern etwas Abgelegtes, etwas aus der Schublade seiner Besprechungen. So hatte Henning nie genickt. Henning hatte genickt wie ein Mann, der Holz nimmt: endgültig.\n\nDer Wagen des Fischhändlers rollte von der Rampe, der Fahrer hob zwei Finger. Ilse hob ihre zwei Finger zurück. Dann war der Anleger leer, und es war kein Gast mehr da, der ihr eine Ausrede hätte sein können.\n\n„Ich fahr nicht rüber\", sagte sie.\n\n„Das seh ich.\"\n\n„Eine Stunde Pause.\"\n\n„Ich hab Zeit.\"\n\nDas sagte er, und gleichzeitig sah er auf seine Uhr, und Ilse dachte, dass er es wahrscheinlich beide Male meinte und keines davon stimmen würde.\n\nSie gingen den Weg zum Haus hinauf, sie voraus, er hinterher mit dem Koffer, dessen Rollen auf dem Kiesweg klagten wie ein Tier, das man mitnimmt und das nicht mitgenommen werden will. Am Gartenzaun blieb er stehen.\n\n„Der Zaun war immer grün.\"\n\n„Er war nie grün. Er war grau und hat abgeblättert.\"\n\n„In meiner Erinnerung ist er grün.\"\n\n„Dann stimmt deine Erinnerung nicht.\"\n\nEr sagte nichts darauf, und sie war froh, denn sie hatte gehört, wie es klang. Im Flur roch es nach nassem Holz und nach dem Kaffee vom Morgen, den sie nicht weggeschüttet hatte, weil Henning immer gesagt hatte, man schütte keinen Kaffee weg, man wärmt ihn auf. Sie wärmte keinen mehr auf. Sie ließ ihn einfach stehen.\n\nJonas stellte den Koffer an die Wand, dort, wo früher die Gummistiefel standen. Die Stiefel standen jetzt draußen unter dem Vordach, alle vier, auch Henning seinen, und sie wusste, dass Jonas das sah und verstand und nicht fragen würde.\n\n„Ich mach Brot\", sagte sie.\n\n„Ich hab im Zug—\"\n\n„Ich mach Brot.\"\n\nSie nahm das Brett aus dem Schrank und das Messer und den Laib, den sie noch selbst gebacken hatte, vor zwei Tagen, und sie beschloss, dass sie ihm keinen Kaffee aufwärmen würde. Sie würde frischen kochen. Das war keine Versöhnung. Es war nur so, dass sie wusste, wie lange er bleiben würde, wenn sie es richtig machte: bis morgen früh, nicht länger.",
+  "usage": {
+    "in": 470,
+    "out": 925,
+    "thinking": 45
+  },
+  "costUsd": 0.0111855,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Wafer",
+  "latencyMs": 26547,
+  "meta": [],
+  "at": "2026-10-18T05:26:08.055Z"
+}

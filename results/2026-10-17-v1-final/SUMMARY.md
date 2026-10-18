@@ -1,3 +1,5 @@
+> **Superseded.** This final had a finalist selection error; the valid results are in [2026-10-18-v1-final](../2026-10-18-v1-final/SUMMARY.md). [Why](SUPERSEDED.md)
+
 # Which AI writes the best German book text? — Results, October 2026
 
 *hermes3000 Writing Benchmark v1 · final round, 17 October 2026 · [Deutsche Fassung](ZUSAMMENFASSUNG.md) · [full report](report.md) · [method](../../METHODOLOGY.md)*

@@ -1,0 +1,119 @@
+{
+  "task": "en-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Maren had stopped on her way back from the med room to refill the water pitcher, out of a habit she didn't examine.\" – unclear why the chapel and the pitcher belong together; the motivation is left hanging",
+          "\"She said the nurse with the cold hands was the one who sang.\" – a sentimental key line that drifts toward a revelation",
+          "\"He didn't turn when the door sighed shut behind her.\" – a worn-out personification",
+          "\"a woman on 4 West who asked for nothing but a song she couldn't finish\" – ambiguous about who couldn't finish, and it edges into kitsch",
+          "At roughly 330 words, clearly over the target of about 250, and the ending merely repeats the hymnal action shown earlier"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"where the corridor moved in pale strips\" – a hazy image whose meaning is unclear",
+          "\"coat folded beside him\" vs. \"A damp mark darkened one shoulder of his coat\" – hard to see on a folded coat; small logic break",
+          "\"the chapel window held her reflection over his: her white shoes, his dark coat, the three stirrers\" – the reflection logic is strained (shoes and table in a small door window, seen from the corridor)",
+          "\"She went to the table and straightened the cup, though it was already steady.\" – a slightly over-explained gesture",
+          "\"His voice was ordinary, almost apologetic.\" – tells rather than shows"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"She thought of the phone in her pocket, the weight of it.\" – a familiar formula",
+          "\"as if he'd been saying it silently for some time\" – a slightly explanatory simile",
+          "\"I wanted to sit somewhere that was awake.\" – a borderline line of dialogue that leans poetic",
+          "Slightly over length (approx. 270 words)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"I was told to wait.\" – hints at the supernatural more obviously than the rest of the text",
+          "\"She could have stood and asked again in the voice she used when visitors blocked a doorway.\" – a somewhat long-winded aside",
+          "\"Her badge was clipped to her waistband, turned inward. She checked it anyway.\" – a motif the other texts use too; somewhat predictable",
+          "Slightly over length (approx. 270 words)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Kindness leaves the heat on. I read that somewhere.\" – a kitschy aphorism",
+          "\"I just wanted to sit where someone kind had been, that's all.\" – sentimental, spells out the emotion",
+          "\"because people came here for the worst reasons\" – a cliché and an explanation",
+          "\"taillights two slow red breaths in the dark, going.\" – overwrought final image",
+          "\"Room 412. She died in March, right around this hour.\" – lays out the backstory as a revelation, against the restraint the task asks for"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "B",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3833,
+    "out": 2252,
+    "thinking": 1091
+  },
+  "costUsd": 0.060372
+}

@@ -1,0 +1,110 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Ines,\" he said, without turning. (Logikbruch: Er sitzt vor ihr und dreht sich nicht um, erkennt sie aber sofort mit dem Rücken zu ihr)",
+          "A long grey hair was still wound through its teeth. (Logikbruch, unplausibles Kitsch-Detail und implizite Enthüllung: Dass ein einzelnes Haar seit März in ihrem täglichen Arbeitskamm hängt und es genau das seiner Mutter sein soll, widerspricht der Vorgabe 'no clichés, end on an image rather than a revelation')"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "the chapel window held her reflection over his: her white shoes, his dark coat, the three stirrers lined up on the table between them. (Logik- und Perspektivbruch: Durch ein 'small square window in the door' auf Augenhöhe kann sie weder die Spiegelung ihrer eigenen Schuhe sehen, noch gleichzeitig drei winzige Holzstäbchen im Raum scharf dazwischen abgebildet wahrnehmen)",
+          "He was watching the small square window in the door, where the corridor moved in pale strips. (Schiefe Metapher: Ein Flur bewegt sich nicht, allenfalls Licht oder Schatten)",
+          "a paper cup held three wooden stirrers. Someone had arranged them parallel. (Wie man drei Stäbchen aufrecht in einem Becher 'parallel' anordnet, ist räumlich unklar und wirkt konstruiert bedeutungsschwanger)",
+          "“No.” He looked toward the window again. “I was sitting.” (Unidiomatischer, künstlich verrätselter Dialog)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "One wheel struck the same fault in the flooring twice, then passed. (Physisch unplausibel: Wenn ein Wagen vorbeigeschoben wird, trifft dasselbe Rad nicht zweimal dieselbe Fuge, sondern Vorder- und Hinterrad treffen sie nacheinander)",
+          "Instead, she opened the crackers. (Figurenpsychologisch sehr abrupt: Dass sie sich nach 'I was told to wait' ohne jede Scheu hinsetzt und schweigend Cracker mit dem unheimlichen Fremden teilt, wirkt etwas bemüht skurril)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Her badge was turned backward under her cardigan. She'd flipped it hours ago because the clip kept scratching her collarbone. (Kleine sachliche Unstimmigkeit: Das Umdrehen des Ausweisschildes ändert nichts daran, wo der Befestigungsclip sitzt oder kratzt, und wenn ein Clip am Schlüsselbein sitzt, ist er kaum 'under her cardigan' verborgen)",
+          "The false dawn lay across his folded hands, and he held them open to it (Kleiner Kontinuitätsfehler: Wenn die Hände 'folded' sind, hält er sie nicht gleichzeitig 'open')"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "\"Your mother said it sometimes,\" he said. \"Near the end. She was proud of you. She said you never sat down on a shift.\" (Klarer Verstoß gegen die Aufgabenstellung: Das ist eine massive melodramatische 'revelation', die durch das Schlussbild nur notdürftig kaschiert wird, zudem viel zu lang mit knapp 320 Wörtern)",
+          "Maren felt the words land somewhere under her ribs and stay there. She thought of her mother's hand, the thin wrist, the monitor's green line. (Abgegriffene, kitschige Klischees, Verstoß gegen 'restrained, no clichés')",
+          "Maren walked the fourth-floor corridor [...] The chapel was off the lobby, past the gift shop (Räumlicher Sprung: Sie läuft im vierten Stock und drückt im nächsten Satz ohne Erwähnung eines Aufzugs die Tür zur Kapelle im Erdgeschoss auf)",
+          "with her badge turned face-in against her hip, the way you'd carry a letter you didn't want to read in front of anyone. (Schiefer, prätentiöser Vergleich)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "C",
+      "A",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2743,
+    "out": 1197,
+    "thinking": 0
+  },
+  "costUsd": 0.017456
+}

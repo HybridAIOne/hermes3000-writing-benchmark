@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "gpt-6-luna",
+  "run": 2,
+  "text": "*(Vor dem geschlossenen Café. Regen. Mara hält zwei Pappbecher. Daniel bleibt unter dem Vordach stehen.)*\n\n**Mara:** Du bist pünktlich.\n\n**Daniel:** Du hast geschrieben, halb vier.\n\n**Mara:** Früher wärst du trotzdem zu früh gekommen.\n\n**Daniel:** Früher hattest du bessere Uhren.\n\n*(Sie reicht ihm einen Becher. Er nimmt ihn nicht sofort.)*\n\n**Daniel:** Ohne Zucker?\n\n**Mara:** Ich wusste nicht, ob du noch—\n\n**Daniel:** Schon gut.\n\n*(Er nimmt den Becher.)*\n\n**Mara:** Sie haben die Fenster neu gestrichen.\n\n**Daniel:** Die waren vorher auch blau.\n\n**Mara:** Nicht dieses Blau.\n\n**Daniel:** Nein. Nicht dieses.\n\n*(Ein Bus fährt vorbei. Mara sieht ihm nach.)*\n\n**Mara:** Deine Mutter lässt grüßen.\n\n**Daniel:** Sie fragt noch immer nach dir?\n\n**Mara:** Manchmal.\n\n**Daniel:** Du könntest zurückrufen.\n\n**Mara:** Könnte ich.\n\n*(Er trinkt. Sie beobachtet ihn.)*\n\n**Daniel:** Ist bitter.\n\n**Mara:** Der Kaffee?\n\n**Daniel:** Vielleicht.\n\n**Mara:** Ich kann dir einen anderen holen.\n\n**Daniel:** Lass nur. Ich hab ihn ja genommen.\n\n*(Stille.)*\n\n**Mara:** Ich bin nicht lange in der Stadt.\n\n**Daniel:** Das hast du schon geschrieben.\n\n**Mara:** Ich dachte, du solltest es wissen.\n\n**Daniel:** Danke.\n\n**Mara:** Du musst nicht so tun, als wäre das eine Nachricht wie jede andere.\n\n**Daniel:** Ich tue gar nichts.\n\n*(Mara stellt ihren Becher auf die Fensterbank.)*\n\n**Mara:** Nein. Das war immer deine Stärke.\n\n**Daniel:** Und deine, alles stehen zu lassen, bis jemand anders es aufhebt.\n\n*(Sie sieht ihn an. Er blickt auf den Becher.)*\n\n**Mara:** Wir könnten ein Stück gehen.\n\n**Daniel:** Wohin?\n\n**Mara:** Ist das wichtig?\n\n**Daniel:** Früher war es das.\n\n*(Sie nimmt ihren Becher wieder.)*\n\n**Mara:** Dann gehen wir einfach.\n\n*(Daniel wartet einen Moment. Dann tritt er neben sie. Keiner berührt den anderen.)*",
+  "usage": {
+    "in": 64,
+    "out": 596,
+    "thinking": 121
+  },
+  "costUsd": 0.00030439999999999997,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 6760,
+  "meta": [],
+  "at": "2026-10-17T17:46:07.089Z"
+}

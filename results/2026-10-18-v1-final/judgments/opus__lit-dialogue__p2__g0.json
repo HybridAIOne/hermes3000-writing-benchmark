@@ -1,0 +1,120 @@
+{
+  "task": "lit-dialogue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "\"ohne die Zeit gelesen zu haben\" – die Regieanweisung erklärt, was die Geste schon zeigt",
+          "\"Thomas lächelt kurz, dann nicht mehr.\" – wirksam, aber knapp an der Grenze zur Pointenregie",
+          "Uneinheitliche Formatierung: fette Eingangsregie gegenüber kursiven Regieanweisungen im Text",
+          "\"Früher.\" – das Echo-Motiv ist ein häufiges Subtext-Muster, hier aber sparsam eingesetzt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "\"Ich konnte sie noch aufhalten\" – hier ist der Konjunktiv \"könnte\" nötig; zudem ist die Kellnerin schon da gewesen, das Aufhalten also logisch hinfällig",
+          "\"Martin nimmt die Jacke vom Stuhl neben sich\" – Kontinuitätsbruch, die Jacke wurde bereits zu Beginn vom Stuhl genommen",
+          "\"Die anderen Plätze waren frei.\" – als Antwort auf \"Du sitzt noch immer hier\" unklar bis unverständlich",
+          "\"Dein Mantel wird nass am Boden.\" – unklar, ob Jakob den Mantel trägt, und kein Hinweis auf Nässe",
+          "Mit deutlich über 300 Wörtern klar über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "\"rührt in einer leeren Tasse\" / \"Der Kaffee sieht kalt aus\" / \"Ich hab nicht bestellt\" – dreifacher Logikbruch",
+          "\"Sie greift nach ihrer Tasse\" – die Tasse wurde nie gebracht",
+          "\"Die Post war nie das Problem.\" – benennt den Konflikt fast offen",
+          "\"Erinnerst du dich an den Sommer am See?\" – abgegriffenes Erinnerungsklischee",
+          "\"das Horn klingt lang und dunkel\" – atmosphärischer Kitsch als Schlusseffekt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "\"Vom Fahren weißt du ja was. Weiterfahren vor allem.\" – der Konflikt wird ausgesprochen statt angedeutet",
+          "\"Fast ein Lächeln. Fast.\" – Klischee-Schlussformel",
+          "\"Vieles wächst. Manches schrumpft.\" – bedeutungsschweres Kalenderspruch-Pathos",
+          "\"Da warst du vorbei.\" – unidiomatisch, besser etwa \"Da warst du also\"",
+          "\"Die Gegend ist groß geworden, seit du sie zuletzt gesehen hast\" – logisch schief, wenn es um Mareks eigene Gegend geht"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "\"Ich hänge an Sachen, die längst kaputt sind.\" – der Konflikt wird explizit und metaphorisch ausbuchstabiert",
+          "\"ihr Lächeln erreicht die Augen nicht\" – Klischee",
+          "\"Wie den Rest damals.\" / \"Man lernt ja aus Fehlern.\" – der Streit wird offen verhandelt, entgegen der Vorgabe",
+          "Wirkt wie die Trennung eines Paares, nicht wie das Wiedersehen alter Freunde",
+          "\"Kurzes, schweres Schweigen\" – abgegriffene Regie; zudem klar über 250 Wörter"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 5762,
+    "out": 3067,
+    "thinking": 1644
+  },
+  "costUsd": 0.084388
+}

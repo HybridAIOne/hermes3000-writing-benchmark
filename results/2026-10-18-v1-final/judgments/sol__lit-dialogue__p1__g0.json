@@ -1,0 +1,118 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Du hättest sie auch einfach vor die Tür stellen können. Wie den Rest damals.“: Der frühere Vorgang wird konkret zum Vorwurf gemacht. Damit tritt der Konflikt aus dem geforderten Subtext heraus.",
+          "„deinen restlichen Sachen“, „unsere Gespräche“: Die Konstellation bleibt als alte Freundschaft unzureichend erkennbar; die Rückgabe persönlicher Gegenstände legt eher eine Trennungsszene nahe.",
+          "„Ich hänge an Sachen, die längst kaputt sind.“: Die Figurenrede erklärt die Beziehungssymbolik ausdrücklich. Das nimmt den Gegenständen ihre unterschwellige Wirkung.",
+          "„ihr Lächeln erreicht die Augen nicht“, „Kurzes, schweres Schweigen“, „knetet seine Serviette“: Konventionelle Gefühlsmarker häufen sich; die Regie illustriert überwiegend bereits verständliche Spannungen.",
+          "„Ich habe... Prioritäten verschoben“ und „Ich vermisse... unsere Gespräche“: Vor den Auslassungspunkten fehlt jeweils das Leerzeichen, da keine Wortteile ausgelassen werden."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ob es hier noch was zu reparieren gibt.“: Die Übertragung von der Bohrmaschine auf die Freundschaft ist sehr deutlich. Der anschließende Austausch über die Regale führt diese ohnehin verständliche Metapher weiter aus.",
+          "„Ich werf nichts weg, nur weil es mal Ärger macht.“: Eine hörbar auf ihre zweite Bedeutung zugespitzte Replik; zusammen mit der gesprungenen Tasse und dem Reparaturmotiv entsteht etwas zu viel Beziehungssymbolik.",
+          "„Zwei Löffel, wie früher.“: Die Regie erklärt am Schluss die Bedeutung der Geste, statt sie vollständig aus dem beobachtbaren Verhalten hervorgehen zu lassen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Zeit hatten wir schon immer. […] Wir haben sie nur nie benutzt.“: Der Schluss wechselt vom konkreten Gespräch in eine allgemeine Lebensweisheit. Das klingt geschrieben und erklärt das Versäumnis der Beziehung.",
+          "„Manche Dinge ändern sich nicht.“ – „Nein. Manche nicht.“: Vertraute Subtextformel ohne besondere sprachliche oder biografische Eigenheit dieser Figuren.",
+          "„Es regnet.“ – „Es regnet nicht.“ – „Es wird regnen.“ und „Draußen fängt es an zu regnen.“: Das Wetter wird demonstrativ vorbereitet und abschließend bestätigt; die atmosphärische Klammer wirkt konstruiert.",
+          "„Miriam greift nach ihrem Mantel, legt ihn dann doch über die Stuhllehne.“: Zuvor hat sie den Mantel ausdrücklich nicht abgelegt. Der Wechsel zum nun offenbar abgelegten Mantel ist szenisch unsauber geführt.",
+          "„Wir wohnen alle noch am selben Ort, Miriam.“: Der Satz liefert die räumliche Konfliktkonstellation auffällig ausformuliert nach. Die gemeinsame Vorgeschichte wird dadurch eher erläutert als beiläufig erfahrbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„rührt in einer leeren Tasse“, „Der Kaffee sieht kalt aus“, „Ich hab nicht bestellt“: Die Requisitenführung ist irritierend. Falls Julias Bemerkung als Spott über die leere Tasse gemeint ist, fehlt dafür eine hinreichend klare szenische Markierung.",
+          "„Die Post war nie das Problem.“: Der Satz erklärt seine zweite Bedeutung selbst und wirkt stärker wie eine gesetzte Pointe als wie individuelle Figurenrede.",
+          "„Erinnerst du dich an den Sommer am See?“: Eine austauschbare Chiffre für gemeinsame Vergangenheit. Weil keine eigentümliche Erinnerung folgt, bleibt auch die alte Freundschaft wenig konkret.",
+          "„Willst du bleiben?“ – „Ich weiß nicht.“: Der Schluss wiederholt die bereits etablierte Unentschiedenheit, ohne ihr eine wesentlich neue Bedeutung zu geben.",
+          "„das Horn klingt lang und dunkel“: Atmosphärische Schlussunterstreichung, die dem offenen Ende zusätzlich Schwere verleiht, statt die Spannung allein zwischen den Figuren zu belassen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ich hab’s nicht so gemeint. Damals. Zumindest nicht alles.“: Der konkrete Streit bleibt zwar unbenannt, doch die Rechtfertigung macht die Gesprächsfunktion ausdrücklich. Hier verliert der ansonsten indirekte Austausch an Subtilität.",
+          "„Du siehst gut aus.“ – „Du lügst immer noch schlecht.“: Eine geläufige Dialogschablone, die wenig zur Individualisierung der Freunde beiträgt.",
+          "„Früher hast du mich warten lassen.“ – „Früher war vieles anders.“: Die Wiederholung setzt den Gegensatz zwischen früher und heute schematisch, bevor die Geburtstagskarte ihn wesentlich konkreter vermittelt.",
+          "„rührt in seinem Kaffee, der längst umgerührt ist“: Die Regie formuliert den nervösen Leerlauf umständlich; „längst umgerührt“ ist als Zustandsbeschreibung wenig präzise."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "C",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2941,
+    "out": 2388,
+    "thinking": 1024
+  },
+  "costUsd": 0.029762
+}

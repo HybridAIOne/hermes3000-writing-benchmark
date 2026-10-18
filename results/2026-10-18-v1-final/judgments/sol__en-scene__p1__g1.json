@@ -1,0 +1,110 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„a wide-toothed comb, pale green, a single grey hair wound through its teeth like thread on a spool“: Das Schlussbild erfüllt die Vorgabe, wirkt aber deutlich arrangiert. Kamm, Haar und Spulenvergleich bündeln die Erinnerungssymbolik stärker, als der zurückhaltende Ton verträgt.",
+          "„He seemed to weigh the word“: Konventionelle Formulierung für bedeutungsvolles Zögern; sie deutet Tiefe an, statt eine präzisere Wahrnehmung anzubieten."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„the chapel window held her reflection over his: her white shoes, his dark coat, the three stirrers lined up on the table between them“: Das Schlussbild ist räumlich schwer lesbar. Spiegelung, Durchblick und Gegenstände werden in der zuvor als klein beschriebenen Scheibe zu einer auffällig komponierten Gesamtansicht zusammengezogen.",
+          "„I know your name“: Die Antwort wiederholt lediglich die Ausgangsinformation. Die konsequente Verweigerung weiterer Auskunft erzeugt Spannung, lässt den Fremden aber eher als Mittel zur Verrätselung denn als eigenständige Figur erscheinen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„The chapel was supposed to be locked after midnight“: Die Szene ist nachts verortet, aber die ausdrücklich verlangte Uhrzeit vier Uhr wird nirgends etabliert.",
+          "„Not the way you mean“: Eine geläufige Ausweichformel geheimnisvoller Fremder. Sie gibt dem ansonsten sehr konkreten Text kurz einen schematischen Mystery-Ton.",
+          "„She'd flipped it hours ago because the clip kept scratching her collarbone“: Die ausführliche Erklärung des verdeckten Namensschilds macht die Absicherung der Ausgangssituation unnötig sichtbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Kindness leaves the heat on. I read that somewhere“: Die Sentenz formuliert die emotionale Bedeutung der Szene ausdrücklich aus. Sie wirkt sentimental und widerspricht der geforderten Zurückhaltung.",
+          "„taillights two slow red breaths in the dark, going“: Die Atemmetapher poetisiert das Schlussbild demonstrativ; besonders „going“ verstärkt den Abschiedspathos.",
+          "„right around this hour“: Auch zusammen mit „You work nights“ wird daraus keine Verortung um vier Uhr. Die konkrete Zeitvorgabe bleibt unerfüllt.",
+          "„because people came here for the worst reasons“: Pauschale Erklärung, die dem Dialog die gewünschte mitfühlende Lesart bereits vorgibt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„The chapel sat on the second floor“ bis „its spine turned out toward the room“: Mit rund 330 Wörtern liegt die Szene merklich über dem Richtwert von etwa 250. Vor allem Rückblende und Abgang ließen sich ohne Substanzverlust straffen.",
+          "„squaring its spine with the others“ / „the hymnal stood square with the rest“: Das Schlussbild wiederholt nahezu unverändert eine unmittelbar zuvor hervorgehobene Handlung. Dadurch erscheint seine symbolische Bedeutung vorbereitet und nachdrücklich ausgestellt.",
+          "„the nurse with the cold hands was the one who sang“: Das Motiv der singenden, fürsorglichen Pflegekraft ist emotional bereits stark vorgeprägt. Die anschließende Rückblende bestätigt diese Wirkung, statt sie durch eine überraschendere Einzelheit zu differenzieren."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2268,
+    "out": 1923,
+    "thinking": 911
+  },
+  "costUsd": 0.023766
+}

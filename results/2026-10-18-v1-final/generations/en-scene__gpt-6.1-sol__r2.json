@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "gpt-6.1-sol",
+  "run": 2,
+  "text": "At four, Elena went into the chapel to eat a pear. The staff room fridge had leaked again, and someone was asleep in the only chair without a split seat.\n\nA man sat halfway down the short row of benches. His coat was buttoned incorrectly, one side hanging lower than the other. Beside his shoes stood a supermarket bag.\n\n“Hello, Elena,” he said.\n\nShe stopped with her thumb under the pear’s label. Her badge was clipped to her waistband, photograph facing her leg.\n\n“Have we met?”\n\nHe looked at the space beside him, then back at her.\n\n“Would you rather I left?”\n\n“No. It’s open to everyone.”\n\nShe stayed near the door. Through the wall came the knock of a trolley wheel, repeating until somebody steered it onto another corridor.\n\n“Are you waiting for news?” she asked.\n\n“I was told to wait here.”\n\n“Which ward?”\n\nHe rubbed a small patch on his trouser knee. She knew the gesture from relatives who had been asked too many questions by too many people.\n\n“I can find someone,” she said.\n\n“Could you sit for a minute?”\n\nHer break had nine minutes left. She took the bench across from him, leaving the aisle between them, and set her phone face down.\n\nNeither spoke. She worked the label off the pear. It tore, leaving a little white paper on the skin.\n\nAt the man’s feet, the empty bag slowly opened in the warm air from the floor vent, then folded in on itself again.",
+  "usage": {
+    "in": 59,
+    "out": 555,
+    "thinking": 241
+  },
+  "costUsd": 0.005668,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 22098,
+  "meta": [],
+  "at": "2026-10-17T17:44:12.095Z"
+}

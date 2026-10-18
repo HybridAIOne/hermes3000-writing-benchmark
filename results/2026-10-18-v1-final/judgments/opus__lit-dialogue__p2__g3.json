@@ -1,0 +1,139 @@
+{
+  "task": "lit-dialogue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "F": {
+      "model": "kimi-k3",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Jan setzt sich langsam.“ – Logikbruch: Jan sitzt nach Jackenspiel, Bestellung und dem Rühren in der Tasse offenbar längst, sonst wäre das Rühren im Stehen unplausibel.",
+          "„Jan hängt die Jacke über die Stuhllehne, nimmt sie wieder ab“ – unklar, ob er sitzt; die Inszenierung bleibt widersprüchlich.",
+          "„Keiner dankt ihr.“ – Regieanweisung kommentiert, statt nur zu zeigen.",
+          "„Ein kurzes Lächeln, das sofort wieder verschwindet.“ – abgegriffene Formel."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Ich war erst dort.“ – idiomatisch schief, gemeint ist „gerade eben dort“.",
+          "Mit deutlich über 250 Wörtern zu lang für die Vorgabe.",
+          "„Sie steht meistens hinten.“ / „Wenn man sie braucht, geht es.“ – der Subtext wird hier so verschlüsselt, dass der Konflikt kaum noch spürbar ist.",
+          "„Draußen fährt ein Bus vorbei.“ – austauschbares Requisit."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Keiner rührt seinen an.“ / „MARTIN: (rührt im Kaffee)“ – Widerspruch in der Regie.",
+          "„Mein Vater hat oft nach dir gefragt. Am Ende.“ – benennt den Konflikt fast offen und wirkt melodramatisch gesetzt.",
+          "„Lange Stille. Draußen fährt ein Bus vorbei.“ – Klischee-Requisit.",
+          "Mit rund 350 Wörtern deutlich über der Längenvorgabe.",
+          "„Beide greifen gleichzeitig nach dem Zucker. Beide ziehen die Hand zurück.“ – überdeutliche Symbolgeste."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Und deine, alles stehen zu lassen, bis jemand anders es aufhebt.“ – syntaktisch holprig, und der Konflikt wird nahezu ausgesprochen.",
+          "„Du musst nicht so tun, als wäre das eine Nachricht wie jede andere.“ – erklärt den Subtext.",
+          "„Deine Mutter lässt grüßen.“ / „Sie fragt noch immer nach dir?“ – die Beziehungslogik ist verwirrend.",
+          "„Keiner berührt den anderen.“ – kommentierende Schlussregie.",
+          "Deutlich über 250 Wörter."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Du weißt welchen.“ – Komma fehlt: „Du weißt, welchen.“",
+          "„Ich habe dich gebeten zu kommen. Nicht zu schweigen.“ / „Wir schweigen doch beide.“ – Meta-Dialog, der den Subtext ausspricht.",
+          "„Sie lächelt traurig“ – Kitsch, Gefühl wird benannt.",
+          "„Hast du den Schlüssel noch?“ – verschiebt das Paar Richtung Liebesbeziehung statt Freundschaft.",
+          "Länge deutlich über 250 Wörtern."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Es fühlten sich nach mehr an.“ – Grammatikfehler, richtig: „Es fühlte sich“.",
+          "„Weißt du noch, der Sommer am See? Du hast gesagt, egal was kommt—“ – Klischee, der Konflikt wird fast ausgesprochen.",
+          "„Markus rührt weiter, obwohl der Kaffee längst kalt ist.“ – kitschiges Schlussbild, zudem ist die Zeitlogik unplausibel.",
+          "„Natürlich nicht. Konntest du noch nie.“ – zu explizit.",
+          "„(zögert an der Tür)“ – Ortssprung, der Dialog an der Tür über den Raum hinweg ist unplausibel."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C",
+      "D",
+      "E",
+      "F"
+    ]
+  },
+  "usage": {
+    "in": 7068,
+    "out": 3642,
+    "thinking": 2011
+  },
+  "costUsd": 0.101112
+}

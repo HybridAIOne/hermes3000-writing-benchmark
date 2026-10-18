@@ -1,0 +1,22 @@
+{
+  "task": "ed-feedback",
+  "model": "kimi-k3",
+  "run": 2,
+  "judge": "sol",
+  "verdict": {
+    "found": [
+      "rampe",
+      "tempus",
+      "perspektive",
+      "wiederholung",
+      "hupe"
+    ],
+    "false_alarms": 2
+  },
+  "usage": {
+    "in": 1029,
+    "out": 106,
+    "thinking": 65
+  },
+  "costUsd": 0.003118
+}

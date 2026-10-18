@@ -1,0 +1,115 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "Ich habe die Kiste mit deinen restlichen Sachen übrigens im Kofferraum. ... Du hättest sie auch einfach vor die Tür stellen können. Wie den Rest damals.",
+          "*(blickt auf, ihr Lächeln erreicht die Augen nicht)*",
+          "Ich hänge an Sachen, die längst kaputt sind.",
+          "*(Kurzes, schweres Schweigen. Lukas setzt zum Sprechen an, bricht ab.)*"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "*Thomas sieht auf die Uhr und gleich wieder weg, ohne die Zeit gelesen zu haben.*",
+          "*Thomas lächelt kurz, dann nicht mehr.*"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "Lena sitzt am Fenster und rührt in ihrer Tasse. ... *Die Kellnerin stellt zwei Tassen ab.*",
+          "*Sie winkt der Kellnerin. Niemand kommt.* ... *Die Kellnerin stellt zwei Tassen ab.*",
+          "**TOM:** Du bist noch hier. **LENA:** Ich wohne um die Ecke.",
+          "**LENA:** Du konntest schon immer das letzte Wort haben.",
+          "**TOM:** Erinnerst du dich an den Sommer am See? **LENA:** Ich erinnere mich an vieles. **TOM:** Dann weißt du ja, wovon ich rede."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "*Langes Schweigen. Miriam greift nach ihrem Mantel, legt ihn dann doch über die Stuhllehne.* (Zuvor hieß es: *(legt den Mantel nicht ab)* – sie hat ihn also noch an.)",
+          "**MIRIAM:** *(schaut aus dem Fenster)* Es regnet. **JONAS:** Es regnet nicht. **MIRIAM:** Es wird regnen.",
+          "**JONAS:** Er ist heiß. **MIRIAM:** Er wird kalt.",
+          "**MIRIAM:** Zeit hatten wir schon immer. *(leise)* Wir haben sie nur nie benutzt.",
+          "**BEIDE:** Einen Kaffee, schwarz. **MIRIAM:** *(leises Lachen)* Manche Dinge ändern sich nicht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "*Die Bedienung bringt zwei Kaffee. Keiner rührt seinen an.* (Es wurde zuvor nichts bestellt.)",
+          "**JÖRG:** *(sieht aus dem Fenster)* Ob es regnet. **MARTIN:** Es regnet nicht. **JÖRG:** Noch nicht.",
+          "**MARTIN:** *(schiebt die Dose langsam in die Mitte)* Ich hab dir damals geschrieben. ... **MARTIN:** Gut. Ich wollte nur sichergehen, dass sie angekommen sind."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "A",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3409,
+    "out": 865,
+    "thinking": 0
+  },
+  "costUsd": 0.015468
+}

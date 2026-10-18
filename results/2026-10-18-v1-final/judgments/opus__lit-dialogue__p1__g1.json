@@ -1,0 +1,120 @@
+{
+  "task": "lit-dialogue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "\"Es fühlten sich nach mehr an.\" – Kongruenzfehler, richtig: \"Es fühlte sich nach mehr an.\"",
+          "\"Markus—\" / \"egal was kommt—\" – Geviertstrich ohne Leerzeichen statt des im Deutschen üblichen Halbgeviertstrichs",
+          "\"Du hast meine Nachrichten nie beantwortet.\" – benennt den Bruch fast direkt und schwächt so den Subtext",
+          "\"Sie fragt manchmal nach dir.\" – abgegriffene Wiedersehensformel",
+          "\"Markus rührt weiter, obwohl der Kaffee längst kalt ist.\" – das Schlussbild ist vorhersehbar"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Das ist nicht fair, Lukas.\" / \"wer von uns beiden eigentlich gegangen ist\" – der Konflikt wird ausgesprochen statt nur spürbar gemacht",
+          "\"Man gewöhnt sich ja an den bitteren Geschmack.\" – plakative Doppeldeutigkeit",
+          "\"rührt in seinem leeren Tee\" – Logikbruch: In leerem Tee kann man nicht rühren",
+          "\"tabula rasa\" – im Deutschen großgeschrieben: \"Tabula rasa\"",
+          "\"Bis kein Platz mehr zum Atmen ist.\" – erklärende, überdeutliche Charakterzeichnung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Du weißt welchen.\" – Komma fehlt: \"Du weißt, welchen.\"",
+          "\"Ich habe dich gebeten zu kommen. Nicht zu schweigen.\" – der Subtext wird hier ausformuliert",
+          "\"Wir schweigen doch beide.\" – metakommentierend, benennt das Prinzip der Szene",
+          "\"Sie lacht kurz, dann nicht mehr.\" – Formel",
+          "Mit gut 330 Wörtern deutlich über den geforderten etwa 250"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Mara nimmt einen Schluck Kaffee.\" – \"Jonas: Der ist kalt.\" – unklar, wessen Kaffee gemeint ist, die Szene wirkt holprig",
+          "\"Du könntest trotzdem mitkommen.\" – logisch unklar, da Mara zu Fuß gekommen ist",
+          "\"Sie fragt manchmal nach dir.\" / \"Dass du viel zu tun hast.\" – abgegriffene Wiedersehensformel",
+          "\"Für einen Augenblick sieht es aus, als wolle er etwas anderes sagen.\" – erklärende Regieanweisung",
+          "Mit gut 320 Wörtern deutlich über den geforderten etwa 250"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "\"Hat ja auch keiner mehr geklingelt.\" – etwas zu deutlich",
+          "\"Ob es hier noch was zu reparieren gibt.\" – Metapher grenzt ans Plakative",
+          "\"Ich werf nichts weg, nur weil es mal Ärger macht.\" – überdeutliche Symbolik",
+          "Mit gut 330 Wörtern deutlich über den geforderten etwa 250"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "C",
+      "D",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 6137,
+    "out": 2616,
+    "thinking": 1271
+  },
+  "costUsd": 0.076868
+}

@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "gemini-4-argon",
+  "run": 3,
+  "text": "Es ist Donnerstagmorgen, kurz vor halb neun. Du stehst in der Teeküche und wartest darauf, dass die Kaffeemaschine endlich aufhört zu röcheln. Durch die halboffene Tür siehst du Klaus an seinem Schreibtisch sitzen. Eigentlich müsstest du jetzt zu ihm rübergehen. Du müsstest ihm sagen, dass sein Teil des Kundenprojekts schon wieder fehlerhaft war und das halbe Team gestern Überstunden schieben musste, um seine Schlamperei auszubügeln. Stattdessen nimmst du deine Tasse, lächelst ihm im Vorbeigehen knapp zu und setzt dich an deinen eigenen Platz. „Heute ist ein schlechter Tag dafür“, redest du dir ein. „Ich spreche das nächste Woche im Jour fixe an.“ Aber tief drinnen weißt du genau: Auch nächste Woche wirst du einen Grund finden, es nicht zu tun. Schließlich bist du nicht sein Chef. Du hast keine disziplinarische Macht, du führst kein Jahresendgespräch mit ihm und du entscheidest nicht über sein Gehalt. Klaus ist seit fünfzehn Jahren im Betrieb, du leitest das Projekt erst seit drei Monaten. Wer bist du schon, ihm auf die Füße zu treten? Genau dieses Bauchgrummeln kennen fast alle, die ein Team ohne formale Vorgesetztenrolle steuern. Wir drücken uns vor unangenehmen Wahrheiten, weil wir fürchten, dass die Situation eskaliert oder wir auf Granit beißen. Wir hoffen, dass sich das Problem von selbst erledigt, wenn wir es nur lange genug aussitzen. Tut es aber nicht. Im Gegenteil: Jedes Gespräch, das du heute aus falscher Rücksichtnahme vermeidest, wird in vier Wochen doppelt so schwer – und kostet dich bis dahin genau den Respekt, den du für deine Rolle so dringend brauchst.",
+  "usage": {
+    "in": 184,
+    "out": 396,
+    "thinking": 0
+  },
+  "costUsd": 0.004328,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 41833,
+  "meta": [],
+  "at": "2026-10-17T17:44:08.990Z"
+}

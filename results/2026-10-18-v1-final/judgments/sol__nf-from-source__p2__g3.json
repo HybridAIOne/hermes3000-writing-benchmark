@@ -1,0 +1,158 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "F": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Solche Vorhaben lassen sich nur finanzieren, wenn Überschüsse über Jahre hinweg zurückgelegt werden.“ – Unbelegte Ausschließlichkeit: Die Quelle beschreibt die geplante Finanzierung, nicht die einzig mögliche.",
+          "„anders umgegangen als in einem gewöhnlichen Unternehmen“ – Sachlich unscharfer Gegensatz; auch andere Unternehmen können Überschüsse zurücklegen.",
+          "„Das Geld bleibt im Betrieb.“ – Der Bezug ist unklar: Unmittelbar zuvor geht es um den Umsatz, während die Quelle nur die Verwendung der Überschüsse festlegt.",
+          "„aus beiden Elbufern“ – Unidiomatisch; richtig wäre „von beiden Elbufern“.",
+          "„Wie funktioniert eine Genossenschaft? […] Warum passt diese Rechtsform zur Fähre?“ – Die doppelte Frage-Antwort-Gliederung wirkt für einen Buchabschnitt etwas schulbuchhaft."
+        ],
+        "unsupported": [
+          "„Die Fähre ist eine Verbindung, die viele Menschen auf beiden Elbufern brauchen.“ – Die Quelle belegt die Nutzung, aber keine entsprechende Abhängigkeit der Menschen auf beiden Ufern.",
+          "„Solche Vorhaben lassen sich nur finanzieren, wenn Überschüsse über Jahre hinweg zurückgelegt werden.“ – Andere Finanzierungsmöglichkeiten werden durch die Quelle nicht ausgeschlossen."
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„vierzig Landwirte und Händler“ – Falsche Gründerzahl; laut Quelle waren es 41.",
+          "„Zugleich gibt die gleiche Stimme jedem Mitglied ein Mitspracherecht – unabhängig davon, wie viele Anteile es hält.“ – Wiederholt die Erklärung aus dem zweiten Absatz nahezu vollständig; der Schluss könnte stärker verdichten."
+        ],
+        "unsupported": [
+          "„vierzig Landwirte und Händler“ – Widerspricht der Quellenangabe von 41 Gründern."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„ist auch die zukünftige Erneuerung der Fähre bereits abgesichert“ – Macht aus einem Finanzierungsziel eine bereits bestehende Sicherheit. Das anschließende „soll“ hebt diese Übertreibung nicht auf.",
+          "„Auf diese Weise lässt sich der laufende Betrieb dauerhaft sichern und technisch anpassen.“ – Rücklagen für Erneuerungen sind kein belegter Nachweis einer dauerhaften Absicherung des laufenden Betriebs.",
+          "„aus beiden Elbufern“ – Unidiomatisch; richtig wäre „von beiden Elbufern“.",
+          "„Die grundlegende Funktionsweise […] im Zusammenwirken ihrer mittlerweile 312 Mitglieder“ – Abstrakte, umständliche Formulierung, die zunächst wenig erklärt.",
+          "„Die Fähre, die an einem Führungsseil hängt und für eine Überfahrt bei normalem Wasserstand sieben Minuten benötigt, wurde bis 1978 allein durch die Strömung bewegt“ – Überladener Satz, der Fahrtdauer und Antrieb ohne erkennbaren Erklärungsgewinn zusammenpackt."
+        ],
+        "unsupported": [
+          "„Auf diese Weise lässt sich der laufende Betrieb dauerhaft sichern“ – Die Quelle belegt eine Erneuerungsrücklage, nicht die dauerhafte finanzielle Sicherung des laufenden Betriebs.",
+          "„ist auch die zukünftige Erneuerung der Fähre bereits abgesichert“ – Laut Quelle soll die Rücklage erst bis 2031 für einen Elektroantrieb ausreichen."
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„eine Aufgabe zu lösen, die ein Einzelner nicht bewältigen kann“ – Für diese Fähre nicht belegt und als allgemeine Definition einer Genossenschaft zu absolut.",
+          "„Ziel ist nicht die Gewinnmaximierung“ – Schreibt der konkreten Genossenschaft ein nicht ausdrücklich belegtes Unternehmensziel zu.",
+          "„Dass dieses Modell trägt, zeigen die Zahlen“ – Umsatz, Zuschussanteil und Beförderungszahl allein belegen ohne Kostenangaben keine wirtschaftliche Tragfähigkeit.",
+          "„aus beiden Elbufern“ – Unidiomatisch; richtig wäre „von beiden Elbufern“.",
+          "„Wie das Seil verbindet die Genossenschaft zwei Ufer“ – Aufgesetztes Schlussbild; die Metapher ersetzt eine präzise Zusammenfassung der rechtlichen Eignung."
+        ],
+        "unsupported": [
+          "„eine Aufgabe […], die ein Einzelner nicht bewältigen kann“ – Die Quelle sagt nicht, dass ein Einzelner den Fährbetrieb nicht hätte übernehmen können.",
+          "„Ziel ist nicht die Gewinnmaximierung, sondern der dauerhafte Fortbestand des Betriebs im Interesse der Mitglieder und der Region.“ – Die Rücklagenregelung ist belegt, diese ausdrückliche Zielbestimmung einschließlich des regionalen Interesses nicht.",
+          "„Dass dieses Modell trägt, zeigen die Zahlen“ – Die genannten Zahlen erlauben ohne Angaben zu Kosten und Betriebsergebnis keinen solchen Nachweis."
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 5,
+        "fehler": [
+          "„2024 beförderte sie rund 64.000 Personen“ – Ordnet die jährliche Beförderungszahl unbelegt dem Jahr 2024 zu.",
+          "„Wer auf die Fähre angewiesen war, wurde damit zum Mitbesitzer.“ – Setzt auf die Fähre angewiesene Personen mit den Gründungsmitgliedern gleich; das steht nicht in der Quelle.",
+          "„Als der Landkreis 1953 den Betrieb […] einstellte, fehlte plötzlich die Verbindung“ – Ergänzt sowohl ein genaues Einstellungsjahr als auch eine plötzliche Unterbrechung, die nicht belegt sind.",
+          "„Die Einstiegshürde ist also überschaubar.“ – Bewertet die Erschwinglichkeit des Anteils ohne Grundlage.",
+          "„überquert die 212 Meter breite Elbe in sieben Minuten“ – Lässt die sachlich wichtige Einschränkung „bei normalem Wasserstand“ weg."
+        ],
+        "unsupported": [
+          "„Eine Fähre, die ihren Nutzern gehört“ – Die Quelle setzt Nutzer und Mitglieder nicht gleich.",
+          "„Als der Landkreis 1953 den Betrieb […] einstellte“ – 1953 ist als Gründungsjahr angegeben, nicht ausdrücklich als Jahr der Betriebseinstellung.",
+          "„fehlte plötzlich die Verbindung zwischen beiden Elbufern“ – Eine plötzliche Unterbrechung der Verbindung ist nicht beschrieben.",
+          "„Wer auf die Fähre angewiesen war, wurde damit zum Mitbesitzer.“ – Weder die Abhängigkeit der Gründer noch die Mitgliedschaft aller angewiesenen Personen ist belegt.",
+          "„Die Einstiegshürde ist also überschaubar.“ – Die Quelle nennt den Anteilspreis, bewertet aber dessen Erschwinglichkeit nicht.",
+          "„Das Geld bleibt im Betrieb, und die Fähre bleibt erhalten.“ – Die Rücklagenbildung belegt keine uneingeschränkte Bestandsgarantie.",
+          "„überquert die 212 Meter breite Elbe in sieben Minuten“ – Die sieben Minuten gelten laut Quelle nur bei normalem Wasserstand.",
+          "„2024 beförderte sie rund 64.000 Personen“ – Die Quelle nennt diese Zahl pro Jahr, ohne sie speziell 2024 zuzuordnen.",
+          "„Die Menschen, die sie brauchen, betreiben sie gemeinsam und entscheiden gleichberechtigt.“ – Belegt sind gemeinsame Trägerschaft und Stimmrecht der Mitglieder, nicht sämtlicher Menschen, die die Fähre benötigen."
+        ],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„eine gemeinsame Aufgabe gemeinsam zu tragen“ – Vermeidbare Wortwiederholung gleich im ersten Satz.",
+          "„Sie entstand 1953 […] Daraufhin gründeten 41 Landwirte und Händler […] die Genossenschaft.“ – Erzählt die Gründung unmittelbar zweimal.",
+          "„Die Mitglieder beteiligen sich finanziell, entscheiden mit gleichem Stimmgewicht und verwenden Überschüsse für die Erneuerung statt für Ausschüttungen.“ – Der Schluss wiederholt bereits ausführlich erklärte Punkte, statt sie knapp auf die Eignung für diese Fähre zuzuspitzen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "F",
+      "B",
+      "A",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3685,
+    "out": 2844,
+    "thinking": 874
+  },
+  "costUsd": 0.03581
+}

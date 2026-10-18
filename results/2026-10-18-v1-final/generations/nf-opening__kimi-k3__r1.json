@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "Dienstagmorgen, halb acht. Du stehst an der Kaffeemaschine, und da ist er wieder – der Gedanke, der dich seit einer Woche verfolgt: Du musst mit dem Kollegen aus der Fertigung sprechen. Seit Wochen kommt er zu spät, seine Übergaben sind lückenhaft, und das Team hat längst angefangen, für ihn mitzuarbeiten. Du weißt, dass du das Gespräch führen musst. Und trotzdem tust du es nicht. Stattdessen sagst du dir: Nächste Woche, wenn die Abnahme durch ist. Oder: Vielleicht reißt er sich ja noch zusammen.\n\nKommt dir bekannt vor? Dann bist du in bester Gesellschaft. Kaum eine Aufgabe wird von Führungskräften so konsequent aufgeschoben wie das schwierige Gespräch. Nicht, weil sie nicht wüssten, dass es nötig wäre. Sondern weil es sich falsch anfühlt: die Sorge vor der Reaktion, die Angst, etwas kaputtzumachen, die Hoffnung, dass sich das Problem von allein erledigt.\n\nDie schlechte Nachricht zuerst: Es erledigt sich nicht von allein. Ein angeschwiegenes Problem wird nicht kleiner, es wird teurer – für das Team, für die Ergebnisse und für deine Glaubwürdigkeit. Denn deine Leute beobachten sehr genau, was du durchgehen lässt.\n\nDie gute Nachricht: Schwierige Gespräche sind kein Talent, sondern Handwerk. Man kann sie vorbereiten, strukturieren und führen, ohne dass danach die Luft brennt. In diesem Kapitel zeige ich dir, woran du erkennst, wann ein Gespräch überfällig ist, wie du es Schritt für Schritt angehst und wie du damit umgehst, wenn dein Gegenüber ausweicht, blockt oder laut wird. Damit du beim nächsten Mal nicht an der Kaffeemaschine stehst und grübelst – sondern längst Termin gemacht hast.",
+  "usage": {
+    "in": 267,
+    "out": 554,
+    "thinking": 21
+  },
+  "costUsd": 0.0066948599999999995,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Wafer",
+  "latencyMs": 15728,
+  "meta": [],
+  "at": "2026-10-18T05:26:53.142Z"
+}

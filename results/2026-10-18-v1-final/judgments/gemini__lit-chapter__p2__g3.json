@@ -1,0 +1,134 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "F": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 5,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "Der Motor kam husten, dann ruhig. (Grammatikbruch / fehlendes Verb und ungrammatischer Infinitiv statt Partizip)",
+          "Die Fähre löste sich von der Anlegestelle [...] Am Ufer stand er schon [...] setzte sich sofort hin, als die Rampe herunterkam (schwerer Ablauf- und Logikbruch: Die Fähre legt ab, und im nächsten Moment steigen die Passagiere am selben Ufer ein)",
+          "begann das Telefon in ihrer Jackentasche zu vibrieren. Sie hatte es in den Steuerstand gelegt, neben die Thermoskanne (Kontinuitätsbruch innerhalb zweier Sätze: Ist das Telefon in der Tasche oder auf dem Blech?)",
+          "Das Telefon blieb still. Ilse ließ es in der Jacke. (Folgefehler zum Ort des Telefons; zuvor lag es offen auf dem Blech, sodass sie das Display sehen konnte)",
+          "Das Display leuchtete im Grau, sie erkannte den Namen, ohne ihn lesen zu müssen. (Verstoß gegen Vorgabe c4: Der Name Jonas fällt im gesamten Text nicht)"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Sie machte das Boot klar und zog sich zurück. (Schiefes Bild / falsche Idiomatik: 'sich zurückziehen' heißt weichen oder in die Stille gehen, nicht 'sich am Seil ans andere Ufer ziehen')",
+          "an der Mündung (Fachterminologischer Fehlgriff: Eine Fähre hat keine 'Mündung', gemeint ist die Auffahrt oder Klappe)",
+          "Sie stellte sich ans Seil und begann zu ziehen. [...] Peters fuhr den Postwagen (Sachlicher Plausibilitätsbruch: Eine über 100 Meter breite Stromelbe-Wagenfähre mit einem schweren Posttransporter an Bord zieht niemand allein per Handkraft am Seil)",
+          "Niemand kam fast nie. (Ungeschickte, unidiomatische doppelte Verneinung im Erzählertext)",
+          "„Woher wissen Sie das.\" / „Bei welcher Sicht.\" (Fehlende Fragezeichen bei eindeutigen Ergänzungsfragen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "prüfte den Strom (Unklare Wortwahl im Kontext von Funkgerät und Strudel: Meint sie die Flussströmung oder die Stromanzeige?)",
+          "Etwa 640 Wörter statt der geforderten 'etwa 900 Wörter' (etwas zu knapp geraten)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "obwohl die Dose seit drei Jahren leer im Regal über dem Funkgerät stand. (Unglaubwürdiges Klischee: Eine seit drei Jahren leere Dose riecht in einem zugigen Fährhaus nicht mehr gegen Diesel und kalten Kaffee an)",
+          "Darunter ein kleines Foto, das ihn im Anzug vor einer Glasfassade zeigte, die Sonne Münchens im Gesicht. [...] saß er entweder schon im Büro oder auf dem Rücksitz eines Taxis zum Flughafen. [...] Über die Bilanz vom dritten Quartal. Über den Makler aus Lüneburg. (Holzhammer-Exposition: Das Figurenbriefing wird unsubtil über das Handyfoto und Ilses Gedanken abgearbeitet)",
+          "Etwa 730 Wörter statt der geforderten 'etwa 900 Wörter'"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "den sie in den Fußsohlen hatte, bevor sie ihn sah. (Leicht schiefes Bild: Einen 'Zug' der Fähre kann man ohnehin nicht sehen, man sieht allenfalls die Bewegung relativ zum Ufer)",
+          "vor einem Himmel, der nicht nach Elbe aussah. (Etwas bemühte Behauptung für einen winzigen Kontakt-Avatar auf dem Handydisplay)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "Ihr Daumen lag über dem grünen Feld. Sie hörte den ersten Klingelton, dann den zweiten. Sie steckte das Telefon zurück in die Tasche. Der Ton verstummte (Schwerer Sach- und Logikfehler: Ein angerufenes Telefon vibriert/klingelt sofort; ein erster und zweiter Klingelton als Freizeichen ertönt nur, wenn man selbst jemanden anruft – zudem hat es zuvor nur vibriert)",
+          "Ilse zog den Hebel zurück in die Ausgangsstellung. Der nächste Lauf würde leer sein [...] Das Rattern des Seils setzte wieder ein. (Kontinuitätsbruch: Sie hat den Hebel in die Nullstellung gebracht und ihn nicht wieder umgelegt, trotzdem fährt die Fähre von allein wieder los)",
+          "sah auf die Zahl neben seinem Namen, bis der Bildschirm heller wurde. (Unverständliches Detail: Warum sollte ein bereits leuchtendes Display beim Anstarren 'heller' werden, und welche Zahl steht bei einem eingehenden Anruf neben dem Namen?)",
+          "irgendwo voraus gab die Glocke einen einzelnen, dumpfen Ton von sich. (Sachlich unplausibel: Auf der Binnenelbe bei Hitzacker gibt es keine Glockentonnen wie auf hoher See)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "C",
+      "D",
+      "B",
+      "F",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 10282,
+    "out": 1497,
+    "thinking": 0
+  },
+  "costUsd": 0.035534
+}

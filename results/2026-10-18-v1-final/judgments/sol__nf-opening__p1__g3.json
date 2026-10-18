@@ -1,0 +1,131 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "F": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die meisten Führungskräfte, die ich kenne“: Die unvermittelt eingeführte Ich-Stimme beansprucht persönliche Erfahrung, ohne dass zuvor eine entsprechende Erzählerposition aufgebaut wurde.",
+          "„wie du solche Gespräche vorbereitest, führst und danach nicht bereust“: Das Versprechen, ein Gespräch anschließend nicht zu bereuen, ist zu weitgehend; der eigene Gesprächsbeitrag lässt sich gestalten, der Ausgang nicht garantieren.",
+          "„Dieses Kapitel zeigt dir“: Der Text besteht aus vier Absätzen statt aus dem verlangten Einstiegsabsatz.",
+          "„Zahlen präsentieren, Projekte steuern und Budgets verteidigen“: Die allgemeine Führungskräfteperspektive verdrängt die besondere Situation des Führens ohne formale Autorität."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Jedes Gespräch, das du heute aus falscher Rücksichtnahme vermeidest, wird in vier Wochen doppelt so schwer“: Die ausnahmslose Behauptung samt scheinbar genauer Steigerung ist sachlich nicht haltbar und wirkt wie eine Drohformel.",
+          "„kostet dich bis dahin genau den Respekt, den du für deine Rolle so dringend brauchst“: Der Text behauptet einen zwangsläufigen Respektverlust und verstärkt damit den Druck, statt Orientierung zu geben.",
+          "„um seine Schlamperei auszubügeln“: Die abwertende Zuschreibung legt die Ursache vorab fest. Für einen Einstieg in faire Gesprächsführung wäre eine beobachtbare Beschreibung geeigneter.",
+          "„tief drinnen“, „Bauchgrummeln“, „auf Granit beißen“: Die Häufung geläufiger Wendungen macht den zweiten Teil sprachlich austauschbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„ein Kündigungsgespräch vorbereiten musst“ und „Aus dem freundlichen Wink wird ein Disziplinarverfahren“: Der Text setzt formale Personalbefugnisse voraus und verfehlt damit den besonderen Schwerpunkt von „Führen ohne Titel“.",
+          "„Aus dem kleinen Hinweis wird nach drei Monaten eine Eskalation“ und „wird ein Kündigungsfall“: Die Steigerungsreihe stellt gravierende Folgen als zwangsläufig dar. Das dramatisiert, statt die Gesprächssituation differenziert zu erklären.",
+          "„trotzdem wird darüber kaum gesprochen“: Die pauschale Behauptung wird durch die anschließende Gegenüberstellung von Führungsetage und Flurfunk nicht plausibler.",
+          "„wie du danach wieder ruhig schläfst“: Das Schlussversprechen vereinfacht die möglichen Folgen schwieriger Gespräche zu stark.",
+          "„In diesem Kapitel lernst du“: Der Text ist in vier Absätze gegliedert, obwohl ein einzelner Einstiegsabsatz verlangt war."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Dafür brauchst du keinen besonderen Titel“: Der Text umfasst vier Absätze statt des ausdrücklich gewünschten einen Einstiegsabsatzes.",
+          "„wird aus einer verpassten Frist schnell ein Muster, aus einer Unklarheit ein Vorwurf“: Die zugespitzte Parallelkonstruktion verkürzt unterschiedliche Entwicklungen zu einer etwas schematischen Eskalationsformel."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Meistens liegt es daran, dass du die Leute magst, mit denen du arbeitest, dass du gestern noch selbst einer von ihnen warst“: Der Text legt der angesprochenen Person Motive und eine berufliche Vorgeschichte nahe, die nicht für alle Teamleiter gelten.",
+          "„Dann bist du in guter Gesellschaft“: Die geläufige Trostformel bleibt hinter der Anschaulichkeit der vorausgehenden Szene zurück."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Du kannst niemanden einfach anweisen, sein Verhalten zu ändern“: Fehlende disziplinarische Zuständigkeit bedeutet nicht automatisch fehlende fachliche Weisungsbefugnis. Die zentrale Rollenbeschreibung ist zu pauschal.",
+          "„vor dem Besprechungsraum“ und „Jetzt sitzt er an seinem Platz“: Der Übergang zum direkten Austausch mit Martin ist räumlich nicht sauber erzählt; der notwendige Ortswechsel bleibt ausgespart.",
+          "„Zum dritten Mal in diesem Monat hast du deshalb morgens selbst nacharbeiten müssen“: Die Zeitfolge ist unscharf, weil die Nacharbeit für den gerade geschilderten Vorfall erst mit „ich mache das schnell“ angekündigt wird."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "D",
+      "F",
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2825,
+    "out": 1769,
+    "thinking": 512
+  },
+  "costUsd": 0.02334
+}

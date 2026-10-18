@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "kimi-k3",
+  "run": 3,
+  "text": "Es ist Montagmorgen, viertel vor acht. Du stehst in der Kaffeeküche und füllst deine Tasse, als Markus hereinkommt. Ihr grüßt euch kurz. Du weißt: Heute ist der Tag, an dem du mit ihm sprechen musst. Seit Wochen schleppt er sich durchs Projekt, Termine geraten ins Rutschen, zwei Kollegen decken ihm mittlerweile den Rücken. Du hast dir vorgenommen, das Gespräch schon drei Mal zu führen. Jedes Mal kam etwas dazwischen — oder, wenn du ehrlich bist: Jedes Mal hast du etwas dazwischenkommen lassen.\n\nDamit bist du nicht allein. Fast jeder, der ein Team führt, kennt dieses Gefühl im Magen, wenn ein unbequemes Gespräch ansteht. Mit dem Kollegen, der schlechte Ergebnisse liefert. Mit der Mitarbeiterin, die sich im Team danebenbenimmt. Mit dem langjährigen Angestellten, dem du eine Umstrukturierung erklären musst, die er nicht will. Diese Gespräche gehören zum Alltag eines Teamleiters — und trotzdem wird darüber kaum gesprochen. In der Führungsetage werden Quartalszahlen besprochen, im Flurfunk Strategien. Dass du aber freitagnachmittags mit Bauchschmerzen im Büro sitzt, weil du am Montag ein Kündigungsgespräch vorbereiten musst, behältst du meist für dich.\n\nDas Problem dabei: Aufgeschobene Gespräche werden nicht leichter, sie werden schwerer. Aus dem kleinen Hinweis wird nach drei Monaten eine Eskalation. Aus dem freundlichen Wink wird ein Disziplinarverfahren. Und aus dem Kollegen, der nur etwas Orientierung gebraucht hätte, wird ein Kündigungsfall.\n\nIn diesem Kapitel lernst du, schwierige Gespräche nicht als Bedrohung zu behandeln, sondern als das, was sie sind: das Kernstück deiner Arbeit. Du erfährst, wie du sie vorbereitest, wie du sie führst — und wie du danach wieder ruhig schlafst.",
+  "usage": {
+    "in": 267,
+    "out": 614,
+    "thinking": 44
+  },
+  "costUsd": 0.00741126,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Wafer",
+  "latencyMs": 11211,
+  "meta": [],
+  "at": "2026-10-18T05:27:02.783Z"
+}

@@ -1,0 +1,118 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Ilse behielt das Echolot und das Radar im Auge“: Radar und Echolot wirken auf einer kleinen Seilfähre unplausibel.",
+          "„trat den Filter auf dem Stahl aus“: Gemeint ist die Kippe, nicht der Filter. Die Formulierung ist ungenau.",
+          "„die Sonne Münchens im Gesicht“: leicht klischeehaft.",
+          "„Ihre Halbschuhe waren völlig durchnässt“ und später „ihre Absätze klackten“: kleine Unstimmigkeit beim Schuhwerk.",
+          "„Über die Bilanz vom dritten Quartal. Über den Makler aus Lüneburg.“: Hier schleicht sich Exposition ein, die erklärt statt zeigt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "„Die Fähre fuhr nicht mit Motor. Sie fuhr mit Strömung und Handkraft“: Eine Handzugfähre über die Elbe, die einen Postwagen trägt, ist unplausibel. Dazu passt „Das Seil lief durch ihre Handflächen, Glied um Glied“ nicht, denn ein Seil hat keine Glieder.",
+          "„Drüben, am Wendlandufer“: Die Ufer sind verwechselt. Hitzacker liegt selbst im Wendland, später heißt es außerdem „am Dömitzer Ufer abgesetzt“.",
+          "„Der Elmar hätte heute Geburtstag gehabt. Siebzig.“ / „ist mit Ihnen zur Schule gegangen“ / „der alten Frau“: Die Altersangaben passen nicht zu Ilse (61).",
+          "„Niemand kam fast nie.“: grammatisch falsch.",
+          "„Glied um Glied“: mehrfach wiederholt, das wird zur Masche. Dazu Kitsch wie „aufging wie ein Tropfen Tinte in Wasser“."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„einen dieser Kaffee in Pappbechern“: Richtig wäre „einen dieser Kaffees“.",
+          "„Zwei fünfzig. Fahrrad ein Euro mehr.“: Lüders kommt mit Fahrrad, sein Bezahlen wird aber nie erwähnt. Kleine Logiklücke.",
+          "„den Schulranzen auf einer Schulter“: Bei einem etwa Fünfzehnjährigen ist „Schulranzen“ unpassend.",
+          "„Sie wusste es einfach.“: erklärt, statt zu zeigen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Ich würde mich das nicht trauen.“: falsche Rektion, richtig wäre etwa „Ich würde mich das nicht trauen“ → „Ich würde mir das nicht zutrauen“ oder „Ich würde mich nicht trauen“.",
+          "„Seine roten Schuhe verschwanden bald im Nebel.“: Vorher hatte der Junge eine rote Mütze. Das ist eine Inkonsistenz.",
+          "„Das Rattern des Seils setzte wieder ein … während die Fähre in den Nebel hinausglitt“: Die Fähre legt ab, obwohl Ilse den Hebel in Ausgangsstellung gebracht hat und auf Fahrgäste warten wollte.",
+          "„Sie hörte den ersten Klingelton“: Vorher vibrierte das Telefon nur. Außerdem bleibt „die Zahl neben seinem Namen“ unklar.",
+          "Der Text setzt mitten in der Überfahrt ein, das Einsteigen und Kassieren fehlt. Die Dialoge laufen einförmig nach dem Muster „Klang nicht so.“ – „Klang immer so.“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Vom anderen Ufer erschien zuerst die Lampe.“: etwas unbeholfen formuliert.",
+          "Der durchgehend knappe Parataxe-Rhythmus droht stellenweise zur Masche zu werden.",
+          "„Ein Rücklicht blinkte an seinem Gepäckträger, obwohl er stand.“: Das Detail ist pointiert, wirkt aber leicht bemüht."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "C",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 16041,
+    "out": 4294,
+    "thinking": 2626
+  },
+  "costUsd": 0.150044
+}

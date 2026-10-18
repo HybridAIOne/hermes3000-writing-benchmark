@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "[Ein Café. Mara sitzt am Fenster. Jonas bleibt neben dem freien Stuhl stehen.]\n\n„Ist hier noch frei?“\n\n„Deine Jacke liegt schon drauf.“\n\n„Ich wusste nicht, wohin damit.“\n\n„An der Garderobe wäre Platz.“\n\n[Er nimmt die Jacke, setzt sich.]\n\n„Du kommst noch immer zu früh.“\n\n„Du noch immer genau dann, wenn der Kaffee kalt wird.“\n\n„Ich kann einen neuen bestellen.“\n\n„Der hier geht noch.“\n\n[Er legt die Hände unter den Tisch.]\n\n„Wie geht’s deiner Mutter?“\n\n„Sie fragt nach dir.“\n\n„Was sagst du ihr?“\n\n„Dass du viel zu tun hast.“\n\n„Das war nicht nötig.“\n\n„Sie schläft so besser.“\n\n[Die Bedienung kommt. Jonas bestellt Kaffee.]\n\n„Ohne Zucker?“, fragt Mara.\n\n„Inzwischen.“\n\n„Ach.“\n\n„Manches gewöhnt man sich ab.“\n\n[Mara schiebt die Zuckerdose zur Tischkante.]\n\n„Ich habe dein Buch noch.“\n\n„Du kannst es behalten.“\n\n„Dein Name steht drin.“\n\n„Den könnte man durchstreichen.“\n\n„Das mache ich nicht mit Büchern.“\n\n[Die Bedienung stellt den Kaffee hin. Beide rücken ihre Tassen zurecht.]\n\n„Weißt du noch, der See hinter der Schule?“, fragt Jonas.\n\n„Der ist jetzt eingezäunt.“\n\n„Wir sind früher auch über Zäune gekommen.“\n\n„Früher hast du mich aufgefangen.“\n\n[Er greift nach der Tasse, lässt sie stehen.]\n\n„Ich war letzte Woche dort.“\n\n„Am See?“\n\n„Vor deiner Tür.“\n\n„Die Klingel funktioniert.“\n\n„Ich weiß.“\n\n[Draußen hält ein Bus. Mara sieht ihm nach.]\n\n„Du müsstest los.“\n\n„Der nächste kommt in zwanzig Minuten.“\n\n„Du hast früher keinen verpasst.“\n\n„Du hast früher gewartet.“\n\n[Jonas zieht seine Jacke von der Stuhllehne.]\n\n„Soll ich?“\n\n[Mara nimmt die Zuckerdose zurück.]\n\n„Dein Kaffee ist noch heiß.“\n\n[Er legt die Jacke wieder hin.]",
+  "usage": {
+    "in": 64,
+    "out": 552,
+    "thinking": 113
+  },
+  "costUsd": 0.005648,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 20634,
+  "meta": [],
+  "at": "2026-10-17T17:46:25.019Z"
+}

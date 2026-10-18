@@ -1,0 +1,118 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„ein fester Ärger über einen Kollegen“ – ungewöhnliche Kollokation, besser „ein handfester Ärger“ oder „ein Groll“",
+          "„ohne dich hinter einer Position verstecken zu können“ – leicht abstrakt im sonst konkreten Fluss",
+          "Mit rund 280 Wörtern etwas über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„gut vorbereitet oder aus dem Affekt“ – falsche Wendung, korrekt „im Affekt“",
+          "„Morgen\", sagst du dir. „Wenn es sich besser anbietet.\"“ – gerade statt typografischer schließender Anführungszeichen",
+          "„Die Angebote, die er gestern hätte rausschicken sollen, liegen noch in deinem Postfach zur Freigabe, halb fertig“ – Logik unklar: rausschicken oder zur Freigabe vorlegen?",
+          "„als Teamleiter“ – setzt eine formale Führungsrolle voraus und trifft das Buchthema „Führen ohne Titel“ nur bedingt",
+          "„Wie das gelingt, schauen wir uns jetzt Schritt für Schritt an.“ – formelhafter Schlusssatz"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "Vier Absätze statt des geforderten einen Einstiegsabsatzes; mit rund 290 Wörtern über dem Umfang",
+          "„Kennst du das?“ – abgegriffene Ratgeberformel",
+          "„Jetzt ist er da“ – Bezug unklar (Termin oder Markus)",
+          "Das eigentliche Problem mit Markus bleibt vage; die Szene bleibt dadurch unkonkret",
+          "„Die meisten Führungskräfte, die ich kenne“ – Ich-Erzählstimme ohne Bezug zum Manuskript eingeführt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„Wir drücken uns vor unangenehmen Wahrheiten“ – Wechsel von der Du-Ansprache ins „Wir“",
+          "„Genau dieses Bauchgrummeln“, „auf Granit beißen“, „tief drinnen“ – Häufung von Floskeln",
+          "„seine Schlamperei auszubügeln“ – abwertend, im Ratgeberton unpassend",
+          "„Jahresendgespräch“ – unüblich, gemeint ist „Jahresgespräch“",
+          "„im Jour fixe“ – Jargon entgegen der Vorgabe „keine Buzzwords“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die zehn Minuten sind vorbei“ – zehn Minuten wurden vorher nicht eingeführt",
+          "„schiebt man sie gern auf“ – Wechsel von „du“ zu „man“",
+          "„Solche Momente gehören zum Führungsalltag.“ – setzt formale Führung voraus, Bezug zu „ohne Titel“ fehlt",
+          "Mit rund 290 Wörtern über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 5208,
+    "out": 2369,
+    "thinking": 1125
+  },
+  "costUsd": 0.068212
+}

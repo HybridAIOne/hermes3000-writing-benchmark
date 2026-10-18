@@ -1,0 +1,20 @@
+{
+  "task": "lit-dialogue",
+  "model": "kimi-k3",
+  "run": 2,
+  "text": "**Zwei Männer, ein Tisch. Draußen regnet es.**\n\n**MARKUS:** Du bist gekommen.\n\n**JONAS:** Du hast angerufen.\n\n**MARKUS:** Ja. *(Pause)* Setz dich doch.\n\n**JONAS:** *(bleibt stehen)* Ich kann nicht lange.\n\n**MARKUS:** Natürlich nicht. Konntest du noch nie.\n\n**JONAS:** *(setzt sich langsam)* Der Kaffee hier war immer schlecht.\n\n**MARKUS:** Du hast ihn trotzdem getrunken. Zwanzig Jahre lang.\n\n**JONAS:** Gewohnheit.\n\n**MARKUS:** Gewohnheit. *(rührt in seiner Tasse)* Wie geht's deiner Mutter?\n\n**JONAS:** Gut. Sie fragt manchmal nach dir.\n\n**MARKUS:** Manchmal.\n\n**JONAS:** Markus—\n\n**MARKUS:** Nein. Lass. *(winkt ab)* Ich hab nur gefragt.\n\n*(Stille. Der Regen wird lauter.)*\n\n**JONAS:** Der Laden läuft. Falls du dich fragst.\n\n**MARKUS:** Ich frage nicht.\n\n**JONAS:** Doch.\n\n**MARKUS:** *(lächelt kurz, dann nicht mehr)* Du hast meine Nachrichten nie beantwortet.\n\n**JONAS:** Du hast viele geschrieben.\n\n**MARKUS:** Drei.\n\n**JONAS:** Es fühlten sich nach mehr an.\n\n**MARKUS:** *(lehnt sich zurück)* Weißt du noch, der Sommer am See? Du hast gesagt, egal was kommt—\n\n**JONAS:** Ich weiß, was ich gesagt habe.\n\n**MARKUS:** Dann weißt du auch, was danach kam.\n\n**JONAS:** *(steht auf, nimmt seine Jacke)* Der Kaffee ist wirklich schlecht geworden.\n\n**MARKUS:** Du hast ihn nicht mal probiert.\n\n**JONAS:** *(zögert an der Tür)* Nächste Woche. Dienstag?\n\n**MARKUS:** *(schaut auf die Tasse)* Ich bin da.\n\n**JONAS:** Ich weiß.\n\n*(Er geht. Markus rührt weiter, obwohl der Kaffee längst kalt ist.)*",
+  "usage": {
+    "in": 157,
+    "out": 559,
+    "thinking": 34
+  },
+  "costUsd": 0.0067215600000000006,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Wafer",
+  "latencyMs": 11560,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-18T05:26:19.618Z"
+}

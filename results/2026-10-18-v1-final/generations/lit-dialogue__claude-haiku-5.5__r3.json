@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "claude-haiku-5.5",
+  "run": 3,
+  "text": "*Ein Café am späten Nachmittag. Lena sitzt am Fenster und rührt in ihrer Tasse. Tom bleibt in der Tür stehen, dann geht er langsam auf sie zu.*\n\n**TOM:** Du bist noch hier.\n\n**LENA:** Ich wohne um die Ecke. Das weißt du.\n\n**TOM:** Stimmt. Entschuldige.\n\n*Er setzt sich, die Jacke bleibt an.*\n\n**LENA:** Willst du was trinken?\n\n**TOM:** Wenn du schon bestellt hast.\n\n**LENA:** Hab ich.\n\n*Sie winkt der Kellnerin. Niemand kommt.*\n\n**TOM:** Du siehst gut aus.\n\n**LENA:** Danke. Du bist älter geworden.\n\n**TOM:** Das sagt die Richtige.\n\n*Pause. Draußen fährt eine Straßenbahn vorbei.*\n\n**LENA:** Deine Mutter hat angerufen.\n\n**TOM:** Hat sie das.\n\n**LENA:** Sie fragt, ob du an Weihnachten kommst.\n\n**TOM:** Und was hast du gesagt?\n\n**LENA:** Dass ich das nicht weiß.\n\n*Er lacht kurz, ohne Freude.*\n\n**TOM:** Typisch.\n\n**LENA:** Was soll das heißen?\n\n**TOM:** Nichts. Gar nichts.\n\n*Die Kellnerin stellt zwei Tassen ab. Beide sehen auf den Tisch.*\n\n**LENA:** Du hast meinen Brief nicht beantwortet.\n\n**TOM:** Ich hab dich letzte Woche am Bahnhof gesehen.\n\n**LENA:** Und?\n\n**TOM:** Du hast nicht gegrüßt.\n\n**LENA:** Du bist an mir vorbeigegangen.\n\n*Stille. Er schiebt seine Tasse ein Stück von sich weg.*\n\n**TOM:** Erinnerst du dich an den Sommer am See?\n\n**LENA:** Ich erinnere mich an vieles.\n\n**TOM:** Dann weißt du ja, wovon ich rede.\n\n*Sie greift nach ihrer Tasche, zögert und lässt sie stehen.*\n\n**LENA:** Du konntest schon immer das letzte Wort haben.\n\n**TOM:** Und du hast immer geschwiegen, bis es zu spät war.\n\n*Er steht auf. Sie sieht nicht hoch.*\n\n**LENA:** Bleibst du noch?\n\n*Lange Pause.*\n\n**TOM:** Nur einen Moment.\n\n*Er setzt sich wieder. Keiner von beiden sieht den anderen an.*",
+  "usage": {
+    "in": 126,
+    "out": 2015,
+    "thinking": 1093
+  },
+  "costUsd": 0.0010201000000000001,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 9233,
+  "meta": [],
+  "at": "2026-10-17T17:48:15.719Z"
+}

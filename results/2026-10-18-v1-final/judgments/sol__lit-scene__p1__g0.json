@@ -1,0 +1,113 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Seit zwanzig Jahren hatte sie sich eingeredet, sie werde das Haus nicht vermissen.“ – Die lange Abwesenheit ist benannt; dass die Mutter verstorben ist, bleibt dagegen ungesichert.",
+          "„als hätte das Haus beschlossen, sie nicht sofort hineinzulassen“ – Konventionelle Personifikation gleich im ersten Satz; sie nimmt der ansonsten konkreten Wahrnehmung Eigenständigkeit.",
+          "„als erwarte ihre Mutter Besuch“ – Vertrautes Bild für die konservierte Anwesenheit einer Abwesenden; erklärt die Wirkung der ordentlich eingeschobenen Stühle unnötig.",
+          "„der Geruch von Äpfeln“, „Die Tür zum Keller“ und „ein einzelnes, blaues Fädchen“ – Mehrere voneinander unabhängige Bedeutungssignale konkurrieren auf engem Raum. Besonders das abschließende Fädchen wirkt als nachträglich gesetzter Rätselhaken."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„wie er immer geklemmt hatte“ – Die Rückkehr ist durch Körpergedächtnis überzeugend vermittelt, die geforderte Abwesenheit von zwanzig Jahren wird jedoch nirgends kenntlich. Auch der Tod der Mutter bleibt lediglich erschließbar.",
+          "„Sie hatte sie nie gekauft, nie gekocht, nie auch nur erwähnt.“ – Die dreifache Bekräftigung markiert die Quitte demonstrativ als Rätsel. Zudem passt das sichere Wissen über das gesamte Verhalten der Mutter nur bedingt zur langen Abwesenheit.",
+          "„so wie man etwas einsteckt, das man später erklären muss“ – Der Schluss deutet die Bedeutung der Handlung bereits aus und kündigt ihre spätere Erzählfunktion an, statt der konkreten Geste zu vertrauen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„wie auf einer Fotografie, die zu lange in der Sonne gelegen hatte“ – Ein geläufiger Vergleich für verblasste Vergangenheit; weniger eigenständig als die präzisen Gegenstände der Szene.",
+          "„nicht aus Trauer, sondern aus einer Art Schwindel“ – Die ausdrückliche Abgrenzung erklärt die Gefühlsreaktion, die das Festhalten am Türrahmen bereits anschaulich vermittelt.",
+          "„als wäre der Boden um ein paar Zentimeter abgesackt“ – Konventionelles körperliches Erschütterungsbild; zusammen mit dem erklärten Schwindel doppelt es die Wirkung.",
+          "„horchte ins Haus hinein, das nicht antwortete“ – Der formelhafte Abschluss personifiziert das Haus und schwächt den stärkeren, konkreten Befund der noch feuchten Orangenschale etwas ab."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„offenbar hatte niemand das Glas fortgeräumt, weder die Nachbarin, die sie gefunden hatte, noch der Mann vom Bestattungsinstitut“ – Hier wird die ansonsten konsequent gegenständliche Szene kurz zur Informationsvermittlung über den Todesfall. Die Aufzählung erklärt mehr, als der Lippenabdruck für seine Wirkung benötigt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Und jemand war vor ihr hier gewesen.“ – Der Befund am Wachs beweist keinen Besuch nach dem Tod der Mutter. Die abschließende Gewissheit ist durch die Beobachtung nicht ausreichend gedeckt.",
+          "„Der Schlüssel ließ sich nicht drehen“ / „drückte die Klinke, bis das Holz nachgab“ – Der Eintritt ist mechanisch unklar: Wie das zunächst offenbar verschlossene Schloss überwunden wird, bleibt ausgespart.",
+          "„Die Hausschuhe der Mutter fehlten auch“ – Die Abwesenheit der Mutter wird gezeigt, ihr Tod jedoch im gesamten Text nicht hinreichend etabliert.",
+          "„zwei helle Flecken im Linoleum, wo Sohlen den Boden blankgerieben hatten“ – Bloß abgestellte Hausschuhe erklären keine durch Reibung blank gewordenen Stellen. Das Erinnerungsdetail wirkt materiell wenig plausibel.",
+          "„als müsste man das Haus erst wecken“ und „wie Laken über Möbel“ – Zwei vertraute Bilder für ein verlassenes Haus ersetzen eigenständige Wahrnehmung; auch das kurze Nichterkennen im Spiegel folgt einem geläufigen Rückkehrmotiv."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "C",
+      "B",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2745,
+    "out": 1895,
+    "thinking": 736
+  },
+  "costUsd": 0.02444
+}

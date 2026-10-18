@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "claude-sonnet-5.5",
+  "run": 2,
+  "text": "The chapel light was on, which was the first wrong thing. Ruth had come down only to refill the water jug on the cart, but the door stood open and a man was sitting in the second row with his hands between his knees.\n\n\"Sir, are you a relative? Visiting ended at eight.\"\n\n\"Ruth,\" he said, not as a question.\n\nShe was holding her lanyard against her chest out of habit, the photo turned inward, the way she wore it after a patient's daughter had once looked her up online. He was sixty, maybe, in a raincoat dark at the shoulders. His shoes had left wet prints on the oatmeal carpet.\n\n\"Do I know you?\"\n\n\"No.\" He seemed to consider it. \"I don't think so.\"\n\nShe waited for the rest. In eleven years she had learned that people at this hour usually supplied it unprompted: a name on a ward upstairs, a diagnosis, an apology. He only looked at the front of the room, where the cabinet of books stood closed and a battery tealight burned beside a box of tissues someone had arranged with the first tissue pulled up.\n\nHer pager hadn't gone off. Somewhere above them a bed alarm began and was silenced.\n\n\"I should get back,\" she said.\n\n\"Of course.\"\n\nShe stayed another moment anyway. Then she reached up and turned her lanyard around, so the photo faced out, and stood there letting him read whatever he liked.\n\nThe tealight shivered in its plastic cup, though no air moved.",
+  "usage": {
+    "in": 91,
+    "out": 963,
+    "thinking": 500
+  },
+  "costUsd": 0.009812,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 10426,
+  "meta": [],
+  "at": "2026-10-17T17:45:34.318Z"
+}

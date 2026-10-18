@@ -1,0 +1,116 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„nach Papier und ausgestandenem Kamin“: Unpassende Wortverbindung; ausgestanden sein können Rauch oder Luft, nicht der Kamin.",
+          "„fein wie ein Schmutzfingerrad“: Die unklare Wortbildung macht das konkrete Bild des schwarzen Streifens unnötig schwer vorstellbar.",
+          "„Die Stille hatte Konsistenz, fast einen Geruch – oder der Geruch hatte Stille“: Die nachgeschobene Umkehrung wirkt gesucht und verwischt die Wahrnehmung, statt sie zu präzisieren.",
+          "„das Haus atmete ihr entgegen“ und „darin schwebten Staubkörner“: Vertraute Versatzstücke der Heimkehrszene; zusammen mit weiteren Vergleichen entsteht eine stellenweise überinstrumentierte Atmosphäre.",
+          "„rissig wie eine Trockenheit“: Der abstrakte Vergleich bleibt hinter dem bereits anschaulichen Kaffeerand zurück."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„an den sie sich zwanzig Jahre lang gewöhnt hatte“: Die Zeitangabe bezieht sich auf die Tür. Dass Clara nach zwanzig Jahren zurückkehrt, wird damit nicht hinreichend etabliert.",
+          "„Es schmeckte scharf und unverkennbar nach bitteren Mandeln“: Der demonstrativ gesetzte Gefahrencode verschiebt den Schluss in Richtung eines konventionellen Spannungshakens; die sinnliche Entdeckung wirkt für diesen Effekt arrangiert.",
+          "„Es roch nach der Abwesenheit von allem“: Die abstrakte Totalisierung erklärt die gewünschte Wirkung und widerspricht rhetorisch der zuvor ausführlich beschriebenen Geruchsfülle.",
+          "„formlos wie eine abgelegte Haut“: Abgegriffenes Unheimlichkeitsbild, das den Mantel stärker auflädt, als die Szene benötigt.",
+          "„ein tiefes, hohles Röcheln“, „ein Beben“, „spuckte“: Die Häufung dramatisierender Ausdrücke überzeichnet den alltäglichen Vorgang des Wasseraufdrehens."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Vor zwanzig Jahren hatte ich diese Dose zuletzt gesehen“: Etabliert ausdrücklich nur die letzte Begegnung mit der Dose, nicht ebenso eindeutig die zwanzigjährige Abwesenheit vom Haus.",
+          "„Im Hof schlug eine Tür zu. Ich rührte mich nicht.“: Der Text endet bereits nach rund 235 Wörtern und bleibt damit merklich unter dem Richtwert von etwa 300 Wörtern.",
+          "„dass ich mich am Tresen festhalten musste“: Die körperliche Überwältigung durch den Kaffeeduft ist eine vertraute Abkürzung für Erinnerungsintensität.",
+          "„einer Wärme [...], die nicht von der Heizung kam“: Die erklärende Gefühlsmetapher nähert sich dem sentimentalen Klischee und schwächt das präzisere Detail der Orangennote."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Sie hielt sie länger in der Hand, als nötig gewesen wäre“: Benennt die Bedeutsamkeit der Geste etwas schematisch, statt sie ganz aus der Handlung entstehen zu lassen.",
+          "„Die Seife roch nach Kümmel“ und „Am neunzehnten stand, klein und mit Bleistift, ihr Name“: Zwei auffällig gesetzte Rätsel konkurrieren auf engem Raum. Der Kalendereintrag droht das eigenständigere sinnliche Detail am Szenenende zu übertrumpfen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„dann mit dem Daumen gegen den Bart drücken“: Bei einem bereits eingesteckten Schlüssel ist der Bart gewöhnlich nicht zugänglich. Die beschriebene Handhabung ist räumlich kaum nachvollziehbar.",
+          "„Darin sah sie ihr Gesicht nur bis zum Mund“: Der zuvor erwähnte „blinde Fleck am unteren Rand“ erklärt diese genaue Begrenzung des Spiegelbilds räumlich nicht ausreichend.",
+          "„vom Wind oder von einer Hand dorthin getragen“: Die beliebige Alternative erzeugt eine Bedeutungsschwebe, ohne die Wahrnehmung oder die Figur zu schärfen.",
+          "„wie etwas, das sich erst erinnern musste, wie man fließt“: Die abschließende Personifikation bindet den Wasserstrahl zu ausdrücklich an das Erinnerungsthema und wirkt gegenüber der sonst zurückhaltenden Prosa gemacht."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "C",
+      "E",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2748,
+    "out": 1665,
+    "thinking": 445
+  },
+  "costUsd": 0.022146
+}

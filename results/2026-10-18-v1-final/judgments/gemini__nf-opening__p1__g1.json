@@ -1,0 +1,107 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Mehrere Absätze statt des geforderten einzelnen Einstiegsabsatzes.",
+          "„Hast du kurz?“, fragt sie. ... Trotzdem sagst du: „Klar. Später vielleicht?“ – Unlogischer Dialog: Wenn Jana selbst das Gespräch sucht, weil ihr Bericht fehlt, würde sie es ansprechen; hier weicht der Teamleiter einer Frage aus, die gar keinen Vorwurf enthält."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [
+          "„Kurz mit Jens sprechen.\" – Falsches schließendes Anführungszeichen (Zollzeichen statt deutscher Typografie).",
+          "„... du willst die Stimmung im Team nicht kippen ...“ – Kollokation leicht schief: Eine Stimmung kippt (intransitiv), man „bringt sie zum Kippen“, aber man „kippt“ sie standardsprachlich nicht aktiv."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„... sondern längst Termin gemacht hast.“ – Grammatikfehler: Es fehlt der unbestimmte Artikel („einen Termin“).",
+          "„Sondern weil es sich falsch anfühlt: die Sorge vor der Reaktion, die Angst ...“ – Grammatischer Bruch nach dem Doppelpunkt (Nominativ-Aufzählung passt syntaktisch nicht zum vorangehenden Satz).",
+          "Mehrere Absätze statt des geforderten einzelnen Einstiegsabsatzes."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„... wahre Feuerprobe ... auf dünnes Eis ... Stimmung ... vergiftet.“ – Etwas hohe Dichte an abgegriffenen Sprachbildern gegen Ende des Absatzes."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Was gibt's denn?“ – Typografisch falscher Apostroph (Ersatzzeichen statt ’).",
+          "Mehrere Absätze statt des geforderten einzelnen Einstiegsabsatzes.",
+          "„... können Zahlen präsentieren, Projekte steuern und Budgets verteidigen.“ – Geht leicht an der Zielgruppe vorbei (Führen ohne Titel im Mittelstand beinhaltet selten eigene Budgethoheit)."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "A",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2858,
+    "out": 761,
+    "thinking": 0
+  },
+  "costUsd": 0.013326
+}

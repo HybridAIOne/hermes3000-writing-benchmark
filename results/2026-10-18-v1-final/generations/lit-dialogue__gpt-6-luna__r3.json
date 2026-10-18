@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "gpt-6-luna",
+  "run": 3,
+  "text": "(Sie stehen vor dem Café. Keiner macht Anstalten, sich zu umarmen.)\n\n**Mara:** Du hast noch denselben Mantel.\n\n**Jonas:** Du erkennst ihn also noch.\n\n**Mara:** Schwer zu übersehen.\n\n**Jonas:** Drinnen ist es wärmer.\n\n**Mara:** Das hast du früher auch immer gesagt.\n\n(Sie gehen hinein. Jonas hält ihr die Tür auf. Mara wartet einen Moment, bevor sie hindurchgeht.)\n\n**Jonas:** Am Fenster?\n\n**Mara:** Da saßen wir immer.\n\n**Jonas:** Ich dachte, du magst inzwischen lieber die Wand im Rücken.\n\n**Mara:** Das kommt auf den Raum an.\n\n(Sie setzen sich. Jonas legt die Hände auf den Tisch. Mara betrachtet sie.)\n\n**Jonas:** Kaffee?\n\n**Mara:** Schwarz.\n\n**Jonas:** Ohne Zucker.\n\n**Mara:** Du erinnerst dich.\n\n**Jonas:** An manches.\n\n(Die Bedienung kommt. Sie bestellen. Als sie fortgeht, rückt Jonas seine Tasse genau in die Mitte.)\n\n**Mara:** Du machst das immer noch.\n\n**Jonas:** Was?\n\n**Mara:** Nichts.\n\n**Jonas:** Gut.\n\n(Eine Pause.)\n\n**Mara:** Deine Tochter ist groß geworden.\n\n**Jonas:** Sie fragt manchmal nach dir.\n\n**Mara:** Und was sagst du?\n\n**Jonas:** Dass du viel zu tun hast.\n\n**Mara:** Das war nett.\n\n**Jonas:** Es war die Wahrheit.\n\n**Mara:** Nicht die ganze.\n\n(Jonas sieht zum Fenster. Draußen beginnt es zu regnen.)\n\n**Jonas:** Soll ich dich nachher fahren?\n\n**Mara:** Ich bin zu Fuß gekommen.\n\n**Jonas:** Natürlich.\n\n**Mara:** Du könntest trotzdem mitkommen.\n\n(Er antwortet nicht. Mara nimmt einen Schluck Kaffee.)\n\n**Jonas:** Der ist kalt.\n\n**Mara:** Dann bestell einen neuen.\n\n**Jonas:** Für uns beide?\n\n(Mara schiebt ihre Tasse ein Stück zu ihm.)\n\n**Mara:** Wenn du willst.\n\n(Jonas hebt die Hand, um die Bedienung zu rufen. Für einen Augenblick sieht es aus, als wolle er etwas anderes sagen.)",
+  "usage": {
+    "in": 64,
+    "out": 629,
+    "thinking": 160
+  },
+  "costUsd": 0.0003209,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 6756,
+  "meta": [],
+  "at": "2026-10-17T17:46:09.133Z"
+}

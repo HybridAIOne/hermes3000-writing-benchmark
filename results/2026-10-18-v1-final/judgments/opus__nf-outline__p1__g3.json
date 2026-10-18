@@ -1,0 +1,134 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "F": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "Kapitel 8 „Gestalte die Zusammenarbeit im Alltag“ steht nach den schwierigen Gespräche. Grundlegende Routinen gehörten vor Kapitel 7, der Aufbau springt hier zurück.",
+          "Teilweise Überschneidung: „was zuerst zählt“ (Kap. 4) und „einfache Absprachen und Routinen“ (Kap. 8) sind nicht klar getrennt.",
+          "Der Rollenwechsel vom Kollegen zur Führungskraft fehlt, obwohl er für die Zielgruppe zentral ist.",
+          "Generische Titel wie „Gestalte die Zusammenarbeit im Alltag“ sind wenig anschaulich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„bei Fehlern, Trödelei oder dicke Luft“: Kasusfehler, richtig wäre „dicker Luft“.",
+          "„ohne offizielle Weisungsbefugnis“: Ein Teamleiter hat Weisungsbefugnis. Der Buchtitel wird hier missverstanden.",
+          "Überschneidung zwischen Kap. 3 („Falle des ‚Selbermachens‘“) und Kap. 4 („Aufgaben richtig abgeben“).",
+          "„Der Informations-Knotenpunkt“: Das wirkt als Buzzword und widerspricht der Vorgabe.",
+          "„Hier ist der Entwurf für die Gliederung …“: Füllsatz. Dazu kommt „und lernst, wie du nach Feierabend den Kopf wirklich freibekommst“, das ein zweites Thema in das Haltungskapitel mischt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ordnung im Alltag: Prioritäten, Absprachen, Besprechungen“: Ein Kapitel bündelt drei Themen und wirkt überladen.",
+          "„auch wenn kein Titel auf deiner Visitenkarte es dir vorschreibt“: Die Logik ist schief, ein Titel schreibt keine Haltung vor.",
+          "„damit Kritik zur Normalität wird“: Das Kapitel kündigt Lob und Kritik an, der Satz nennt aber nur Kritik."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "Der Titel „Der erste Tag ohne Gebrauchsanweisung“ passt nicht zum Inhalt, der Satz spricht von „den ersten dreißig Tagen“.",
+          "„Vom Kollegen zum Vorgesetzten“ kommt erst in Kap. 4. Der Rollenwechsel gehört an den Anfang.",
+          "Kap. 6 („klare Ziele, verlässliche Regeln“) folgt erst nach dem Delegieren. Die Ziele müssten vorher geklärt sein.",
+          "„Du hast die Rolle bekommen, bevor dir jemand erklärt hat, was sie bedeutet, und hier erfährst du“: Der Satz ist überlang und angehängt.",
+          "Die Titel wechseln zwischen Infinitiv und Nominalform, das wirkt uneinheitlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Ein Kapitel zum Kennenlernen des Teams fehlt. Prioritäten (Kap. 3) kommen, bevor die Leute bekannt sind.",
+          "Mit 8 Kapiteln liegt die Gliederung an der Untergrenze, die Sandwichposition zwischen Chef und Team fehlt.",
+          "„einschließlich der Entscheidung, was liegen bleibt“ wirkt leicht bürokratisch."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Die angehängte „Zur Abgrenzung“-Notiz geht über die Vorgabe (Titel plus ein Satz) hinaus.",
+          "Leichte Überschneidung: Kap. 1 („was sich mit der neuen Rolle wirklich geändert hat“) und Kap. 2 („Gestern Kollege, heute Chef“).",
+          "Der Titel „Sagen, was du willst“ ist für ein Delegationskapitel unscharf."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "F",
+      "C",
+      "E",
+      "A",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 7042,
+    "out": 3041,
+    "thinking": 1390
+  },
+  "costUsd": 0.088988
+}

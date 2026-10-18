@@ -1,0 +1,132 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "F": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Du bleibst bis morgen früh\", sagte sie. (Für eine laut Vorgabe wortkarge Figur hält Ilse am Ende eine unpassend lange Rede von fünf Sätzen am Stück)",
+          "„Das Bett oben ist frisch bezogen.\" (Fehlende Ortslogik: Wo ist 'oben'? Im winzigen Fährhaus an der Anlegestelle wohnt man normalerweise nicht)",
+          "Er hatte nie begriffen, dass man an einer Fähre nichts reparieren lassen konnte, ohne dass sich danach alles andere veränderte. (Küchenpsychologischer Kalenderspruch, zudem technisch für eine Fährfrau unsinnig)",
+          "feine Risse wie auf altem Porzellan. (Abgegriffener Vergleich, passt außerdem optisch kaum zu einem schwarzen Gummischlauch im Motorkasten)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "Sie nahm die Leine vom Poller und legte sie über den Arm. ... Ilse band die Leine fest und prüfte den Knoten mit dem Daumen. (Schwerer Kontinuitätsfehler zum Vorgabetext, in dem sie die Leine gerade erst festgezogen hatte, und in sich widersprüchlich)",
+          "Sie würde noch einmal übersetzen müssen, bevor sie Feierabend machte. ... Ilse stellte den Kessel auf die Platte. (Handlungslogik: Am anderen Ufer ruft und wartet ein Fahrgast, aber sie kocht in Seelenruhe Wasser für zwei Tassen)",
+          "„Du kannst in der Stube schlafen“ (Räumliche Unschärfe: Die Szene spielt in der engen Fährhütte am Anleger, in der es nach Diesel riecht, plötzlich ist dort eine Wohnstube mit gemachtem Bett)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 6,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Dabei war er auf diesen Bohlen laufen gelernt. (Grammatikfehler: hatte laufen gelernt)",
+          "als hätte jemand die Schrauben nachgezogen. (Schiefes, etwas klischeehaftes Bild für ein Gesicht)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "und sie ließ Jonas nicht merken, dass sie es hörte. (Sinnfehler/Wortwahl: Man spürt Schmerzen in den Knien, oder sie knacken hörbar, aber der Satz schließt schief an 'meldeten sich' an)",
+          "Sie nahm die Kanne in die Hand ... sah auf den Becher in ihrer Hand ... Sie nahm Hennings Becher vom Fensterbrett (Continuity-Fehler in den Bewegungsabläufen: Wann hat sie welchen Becher genommen?)",
+          "Es war noch eine Fahrt eingetragen, die von 17 Uhr, für niemanden, den sie kannte. (Sachlogik: Eine Elbfähre fährt nach festem Fahrplan oder bei Bedarf im Pendelverkehr, nicht nach namentlicher Voranmeldung im Buch)",
+          "„Die Suppe läuft nicht weg.\" (Unlogischer Ablauf: Sie hat ihm gerade eine angeblich bereitstehende Suppe angeboten, gießt ihm dann aber am Fährhausfenster kalten Kaffee aus der Thermoskanne in Vaters Becher)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "Sie hakte die Leine ab ... Ilse löste die Leine und gab Gas. (Doppelung und Widerspruch zum Vorgabetext: Erst zieht sie die Leine zweimal fest, nur um sie eine Sekunde später für eine Leerfahrt wieder abzumachen – und zwar zweimal hintereinander)",
+          "und das Seil zog sie aus dem Ufer in den Strom. (Unidiomatische Präposition: vom Ufer weg / in den Strom hinaus; zudem unlogisch: Wenn sie 'Gas gibt', treibt der Motor an, nicht das Führungsseil)",
+          "sondern weil es so gehörte. (Grammatikfehler: weil es sich so gehörte)",
+          "Normalerweise wendete sie sofort und fuhr zurück (Sachfehler: Eine Seilfähre ist am Führungsseil befestigt und hat Klappen an beiden Enden, sie wendet nicht)",
+          "etwas in ihr lockerte sich, das sie den ganzen Morgen festgehalten hatte, ohne es zu wissen. (Abgedroschene Roman-Floskel, zumal sie bis zu seiner Ankunft gar nicht wusste, dass er kommt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Bis kein Wind mehr geht.“ – „Die Strömung bleibt.“ (Inkohärenter Dialoganschluss an den Vorgabetext: Jonas sprach vom defekten Motor, Ilse sagt „Geht auch so“, plötzlich redet er vom Wind, als ginge es um ein Segelboot oder eine Gierseilfähre)",
+          "Ilse ging an ihm vorbei zum Schaltkasten. (Widerspruch zu Motor und Leine aus dem Vorgabetext: Eine Diesel-Motorfähre bedient man nicht über einen Schaltkasten am Anleger)",
+          "An der rechten Sohle löste sich ein schmaler Streifen, kaum sichtbar. (Figurenlogik: Passt nicht zum wohlhabenden Münchner Unternehmensberater und ist auf Distanz bei Regenwetter kaum zu erkennen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "F",
+      "A",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 4990,
+    "out": 1498,
+    "thinking": 0
+  },
+  "costUsd": 0.02496
+}

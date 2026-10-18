@@ -1,0 +1,111 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "Da warst du vorbei. (unidiomatisch, gemeint ist: Da bist du vorbeigekommen / Da warst du in der Nähe)",
+          "*Rührt in seiner Tasse, obwohl nichts drin ist.* (Logikbruch: Der Kaffee wurde soeben erst bestellt, vor Jonas steht noch gar keine Tasse)",
+          "*Marek nickt. Fast ein Lächeln. Fast.* (abgegriffene, kitschige Schlussformel)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Deine Jacke liegt schon drauf.“ – „Ich wusste nicht, wohin damit.“ (Logikbruch zu Beginn: Jonas kommt gerade erst an den Tisch, seine Jacke liegt aber angeblich schon auf dem Stuhl)",
+          "„Ohne Zucker?“, fragt Mara. (Formbruch: Inquit-Formeln mitten im Text widersprechen der Vorgabe 'Nur Dialog und knappe Regieanweisungen', die der Text sonst durch eckige Klammern löst)",
+          "„Früher hast du mich aufgefangen.“ (stilistisch sehr holzhammerartig, überdeutliche Metapher)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "*Ein Café am Bahnhof. [...] HANNA sitzt bereits am Tisch, als PETER hereinkommt.* – **PETER:** Du bist früher gekommen. (unplausibel: Wenn sie schon sitzt, ist sie nicht gerade erst 'gekommen', sondern er ist später oder sie war schon da)",
+          "**HANNA:** Der alte war durchgescheuert. **PETER:** Das hab ich gemerkt. *Sie lacht kurz, dann nicht mehr.* (ergibt inhaltlich kaum Sinn, reiner bedeutungsschwangerer Füllsel-Dialog)",
+          "*Sie lächelt traurig und schiebt ihm die Tasse zu. Er nimmt sie nicht.* (unsinnige Handlung: Warum schiebt sie ihm zum Abschied kommentarlos ihre angetrunkene Kaffeetasse hin?)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "(Die Bedienung kommt. Sie bestellen. Als sie fortgeht, rückt Jonas seine Tasse genau in die Mitte.) (schwerer Logikbruch: Sie haben gerade erst bestellt, die Tassen sind noch gar nicht auf dem Tisch)",
+          "(Er antwortet nicht. Mara nimmt einen Schluck Kaffee.) **Jonas:** Der ist kalt. (doppelter Logikbruch: Der Kaffee wurde nie serviert, und kaum wird erstmals daraus getrunken, ist er schon kalt)",
+          "(Sie stehen vor dem Café. Keiner macht Anstalten, sich zu umarmen.) (unbeholfene, erklärende Regieanweisung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "**PAUL:** Ich hab mich dran gewöhnt, dass sie leckt. (unpassende, Holzhammer-Metapher; eine Tasse mit einem Sprung 'leckt' im normalen Sprachgebrauch kaum so, dass man trotzdem ständig daraus trinkt)",
+          "**THOMAS:** *(sieht auf die Bohrmaschine)* Ob es hier noch was zu reparieren gibt. (etwas aufdringlicher Subtext, die Metapher wird überstrapaziert)",
+          "*PAUL schiebt ihm die Zuckerdose hin. Zwei Löffel, wie früher.* (die letzte Regieanweisung verlässt die rein darstellende Ebene und wird unnötig erzählend-sentimental)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "B",
+      "C",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3376,
+    "out": 1043,
+    "thinking": 0
+  },
+  "costUsd": 0.017182
+}

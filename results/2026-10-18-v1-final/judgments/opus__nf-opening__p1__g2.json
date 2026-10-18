@@ -1,0 +1,115 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Zum dritten Mal in diesem Monat hast du deshalb morgens selbst nacharbeiten müssen.“ – „deshalb“ ist unklar bezogen, die Zeitlogik holpert.",
+          "„hinter anderen herräumen“ – idiomatisch ist „anderen hinterherräumen“.",
+          "„Zunächst brauchst du keinen besonderen Satz, sondern einen Termin mit Martin“ – der Einstieg liefert schon die Lösung, statt ins Kapitel hinzuführen.",
+          "„Kundentermin“ wird mehrfach wiederholt (Wortwiederholung).",
+          "Mit rund 280 Wörtern leicht über dem Umfang."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„gut vorbereitet oder aus dem Affekt“ – richtig ist „im Affekt“.",
+          "„„Morgen\", sagst du dir. „Wenn es sich besser anbietet.\"“ – gerades statt typografisches Schlusszeichen, uneinheitlich.",
+          "„Wie das gelingt, schauen wir uns jetzt Schritt für Schritt an.“ – formelhafter Schlusssatz."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "Vier Absätze und rund 330 Wörter statt eines Einstiegsabsatzes von etwa 250 Wörtern.",
+          "„Die meisten Führungskräfte, die ich kenne, können Zahlen präsentieren, Projekte steuern und Budgets verteidigen.“ – Fokus auf Führungskräfte mit Budgetverantwortung, passt kaum zu „Führen ohne Titel“.",
+          "„Rhetorik-Kniffe“ – unnötiger Bindestrich, besser „Rhetorikkniffe“."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 5,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„wie du danach wieder ruhig schlafst“ – richtig ist „schläfst“.",
+          "„viertel vor acht“ – richtig ist „Viertel vor acht“.",
+          "„Du hast dir vorgenommen, das Gespräch schon drei Mal zu führen.“ – missverständlich, gemeint ist: Du hast dir dreimal vorgenommen, es zu führen.",
+          "„Aus dem freundlichen Wink wird ein Disziplinarverfahren.“ / „Kündigungsgespräch“ – passt nicht zu Teamleitern ohne Titel und disziplinarische Befugnis.",
+          "„das Kernstück deiner Arbeit“ / „im Flurfunk Strategien“ – floskelhaft bzw. unklar; zudem mehrere Absätze und rund 320 Wörter."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 7,
+        "fehler": [
+          "Fünf Absätze und rund 300 Wörter statt eines Einstiegsabsatzes von etwa 250 Wörtern.",
+          "„Auch wenn deine Stimme dabei anfangs ein wenig zittert.“ – isolierter Nebensatz als Schluss, wirkt angehängt.",
+          "„Ein klares Gespräch ist nicht automatisch hart.“ – leicht thesenhaft, bricht den szenischen Fluss."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 5274,
+    "out": 2590,
+    "thinking": 1306
+  },
+  "costUsd": 0.072896
+}

@@ -1,0 +1,124 @@
+{
+  "task": "nf-from-source",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "F": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Rund 64.000 Menschen setzt die Fähre jährlich über die hier 212 Meter breite Elbe über“ (Wortdopplung „über ... über“ ist stilistisch unschön)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„seit über siebzig Jahrzehnten in Betrieb“ (Sinnfehler: 70 Jahrzehnte wären 700 Jahre, gemeint sind 70 Jahre oder sieben Jahrzehnte)",
+          "„es gilt „ein Mitglied, eine Stimme\".“ (Typografisch falsches Schlusszeichen am Zitatende)"
+        ],
+        "unsupported": [
+          "„seit über siebzig Jahrzehnten in Betrieb“ (widerspricht dem Gründungsjahr 1953)",
+          "„Der Fährbetrieb ist wirtschaftlich klein und kaum renditestark – für einen privaten Investor wenig attraktiv.“ (unbelegte Behauptung über die Renditestärke des konkreten Betriebs)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„taten sich 1953 41 Landwirte“ (Zwei direkt aufeinanderfolgende Zahlen in Ziffern sind im Buchsatz unschön und schwer lesbar)",
+          "„Landwirte und Händler aus beiden Elbufern“ (Unidiomatische Präposition aus der Vorlage ungeprüft übernommen; korrekt wäre „von beiden Elbufern“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Umfang mit rund 215 Wörtern deutlich unter der Vorgabe von etwa 300 Wörtern",
+          "„wenn der Wasserstand normal ist.“ (Stilistisch etwas unbeholfener Nebensatz am Satzende)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Wie eine Genossenschaft in der Praxis funktioniert und warum diese Rechtsform ideal ist, um ein gemeinsames Anliegen zu verwirklichen, zeigt das Beispiel der Fährgenossenschaft Hitzacker eG.“ (Einstiegssatz klingt stark nach der umformulierten Aufgabenstellung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Dort ist der Fluss 212 Meter breit. Eine Überfahrt mit der Fähre dauert bei normalem Wasserstand sieben Minuten. Die Fähre hängt an einem Führungsseil.“ (Stakkato-Stil im ersten Absatz durch aneinandergereihte Kurzsätze)",
+          "Umfang mit rund 255 Wörtern etwas knapp für die Vorgabe von etwa 300 Wörtern"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "C",
+      "F",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 4306,
+    "out": 915,
+    "thinking": 0
+  },
+  "costUsd": 0.017762
+}

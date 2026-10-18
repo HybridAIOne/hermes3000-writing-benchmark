@@ -1,0 +1,111 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Und um das, was danach kommt, wenn du dich für das Gespräch entschieden hast.“ – Vage Kapitelankündigung ohne zusätzlichen Erkenntniswert; nach der anschaulichen Szene fällt der Text hier ins Allgemeine zurück.",
+          "„Wie das gelingt, schauen wir uns jetzt Schritt für Schritt an.“ – Austauschbarer Überleitungssatz, der den Einstieg schwächer abschließt, als die konkrete Szene erwarten lässt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Du kannst niemanden einfach anweisen, sein Verhalten zu ändern.“ – Zu pauschale Darstellung der Handlungsmöglichkeiten: Auch ohne disziplinarische Verantwortung können Teamleiter fachliche Weisungsbefugnisse haben. Die konkrete Grenze müsste präziser benannt werden.",
+          "„Vielleicht kennst du solche Momente.“ – Entbehrlicher Übergang; die bereits konsequent in Du-Ansprache erzählte Szene braucht diese zusätzliche Identifikationsfrage nicht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Du könntest jetzt sagen, dass ihr später darüber sprecht. […] Beides wäre bequem – für die nächsten zehn Minuten. Also wartest du, bis die Besprechung vorbei ist.“ – Die Gegenüberstellung ist unsauber: Ein späteres Gespräch wird zunächst als bequeme Ausweichlösung abgewertet, anschließend aber praktisch genau dieses Vorgehen gewählt. Entscheidend wäre die Unterscheidung zwischen verbindlichem Vertagen und Vermeiden.",
+          "„Zum dritten Mal in diesem Monat.“ – Beim ausdrücklich genannten „Monatsbericht“ bleibt unklar, ob drei unvollständige Fassungen desselben Berichts oder unterschiedliche Vorfälle gemeint sind. Die Szene benötigt eine kleine Präzisierung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Wenn dir das bekannt vorkommt […]“ / „Dieses Kapitel nimmt dir die schwierigen Gespräche nicht ab […]“ – Der Text besteht aus drei Absätzen statt aus dem verlangten einzelnen Einstiegsabsatz.",
+          "„Kaum eine Aufgabe wird von Führungskräften so konsequent aufgeschoben wie das schwierige Gespräch.“ – Pauschale Rangbehauptung, die nach der konkreten Szene unnötig ins Allgemeine führt.",
+          "„Dass seine Ergebnisse im letzten Quartal nicht gestimmt haben.“ – Für eine praxisnahe Konfliktszene zu unbestimmt: Welche Ergebnisse waren mangelhaft, und woran zeigte sich das?",
+          "„Schwierige Gespräche werden nicht leichter, weil man sie vermeidet. Sie werden leichter, weil man sie führt.“ – Eingängige, aber vereinfachende Schlussformel. Bloßes Führen macht Gespräche noch nicht leichter; Vorbereitung und Gesprächsführung wären die entscheidenden Bedingungen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Kennst du das?“ / „Das Problem ist nur […]“ / „Dieses Kapitel handelt davon […]“ – Vier Absätze statt des verlangten einzelnen Einstiegsabsatzes; mit rund 300 Wörtern außerdem merklich über dem Richtwert.",
+          "„beim nächsten Mal sitzt er genauso verschlossen da wie beim letzten Mal“ – Führt unvermittelt ein früheres schwieriges Gespräch ein. Das verschiebt die Ausgangslage vom vermiedenen Gespräch zur Wiederholung eines bereits misslungenen Gesprächs, ohne diesen Unterschied auszuarbeiten.",
+          "„Man hat die Information, man hat den Anlass, man hat sogar die Zeit.“ – Der Wechsel von der unmittelbaren Du-Ansprache zum allgemeinen „man“ schafft unnötige Distanz und wiederholt überwiegend bereits Gezeigtes.",
+          "„Es geht um eine Haltung, um gute Vorbereitung und um ein paar einfache Handgriffe“ – Unbestimmte Kapitelankündigung; insbesondere „Haltung“ und „Handgriffe“ bleiben ohne konkreten Inhalt.",
+          "„Also wartet man. Einen Tag, dann noch einen.“ – Wiederholt das bereits ausführlich dargestellte Aufschieben. Hier ließe sich straffen, ohne Anschaulichkeit einzubüßen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "A",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2424,
+    "out": 2026,
+    "thinking": 923
+  },
+  "costUsd": 0.025108
+}

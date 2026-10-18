@@ -1,0 +1,117 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Früher war vieles anders.“ – Abgegriffene Formel, die den Bruch pauschal benennt, statt ihn durch eine individuellere Reaktion erfahrbar zu machen.",
+          "„Beide greifen gleichzeitig nach dem Zucker. Beide ziehen die Hand zurück.“ – Bekanntes Versöhnungsarrangement; die demonstrative Synchronität wirkt inszeniert.",
+          "„Ob es regnet.“ / „Es regnet nicht.“ / „Noch nicht.“ – Die Wettermetapher ist als Beziehungskommentar deutlich ausgestellt und klingt stärker nach Autorenabsicht als nach spontanem Gespräch.",
+          "„Dann zieht er die Jacke aus und hängt sie über die Stuhllehne. Martin schiebt ihm den Zucker hin.“ – Zwei unmittelbar aufeinanderfolgende Versöhnungszeichen erklären denselben Entwicklungsschritt; eines würde genügen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Ich werfe Dinge nicht einfach weg, nur weil sie unbequem werden, Anna.“ / „Und du machst lieber tabula rasa.“ – Die gegenseitigen Vorwürfe formulieren den Beziehungskonflikt ausdrücklich aus. Damit wird die zentrale Vorgabe des unausgesprochenen Konflikts deutlich verfehlt.",
+          "„rührt in seinem leeren Tee“ – Fehlerhafte Verbindung: Leer kann die Tasse sein, nicht der Tee. Zugleich bleibt unklar, worin er überhaupt rührt.",
+          "„Man gewöhnt sich ja an den bitteren Geschmack.“ – Überdeutliche Bitterkeitsmetapher gleich zu Beginn; sie nimmt dem Subtext seine Offenheit.",
+          "„ihr Blick verhärtet sich“ / „lächelt dünn“ / „ihre Stimme zittert leicht“ – Häufung konventioneller Gefühlsregie. Die Anweisungen liefern die Interpretation der ohnehin eindeutigen Repliken mit.",
+          "„Es war ein Fehler.“ / „Welcher von den vielen?“ – Pointierte, aber austauschbare Schlussabrechnung; die Figuren sprechen hier eher in vorbereiteten Wirkungssätzen als miteinander."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Wackelt er noch?“ / „Ich habe mich daran gewöhnt.“ – Die Antwort ist als Aussage über die Beziehung gut lesbar, als praktische Auskunft aber auffällig ausweichend. Hier wird die Subtextkonstruktion sichtbar.",
+          "„Die blaue gibt es noch.“ / „Sie steht meistens hinten.“ / „Da kommt man schlecht dran.“ / „Wenn man sie braucht, geht es.“ – Vierfach ausgebautes Gegenstandssymbol: Die Tasse muss zu viel Beziehungsbedeutung tragen. Eine Kürzung würde die Passage beiläufiger machen.",
+          "„Der Kaffee ist noch heiß.“ / „Du musst nicht warten, bis er kalt ist.“ – Der Schlusssatz ist als Einladung zum Handeln verständlich, wirkt im wörtlichen Gesprächszusammenhang jedoch etwas gesetzt. Die Pointe ordnet die Alltagssituation ihrer übertragenen Bedeutung unter."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ich hab’s nicht so gemeint. Damals. Zumindest nicht alles.“ – Die damalige Auseinandersetzung wird ausdrücklich zum Gesprächsgegenstand. Ihr konkreter Anlass bleibt zwar offen, der Konflikt selbst aber nicht mehr unausgesprochen.",
+          "„Früher war vieles anders.“ – Unspezifische Konfliktformel ohne eigene sprachliche Prägung.",
+          "„Du siehst gut aus.“ / „Du lügst immer noch schlecht.“ – Geläufiges Dialogmuster, das Vertrautheit und Verletzung sehr routiniert signalisiert.",
+          "„rührt in seinem Kaffee, der längst umgerührt ist“ – Umständliche, leicht erklärende Regie: Das bedeutungslose Weiterrühren ließe sich knapper und anschaulicher zeigen.",
+          "„Das wirst du auch müssen.“ – Als versöhnliche Schlussreplik verständlich, aber stark auf eine gefällige Pointe hin gebaut; die vorherige Spannung löst sich dadurch recht bequem."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Du konntest schon immer das letzte Wort haben.“ / „Und du hast immer geschwiegen, bis es zu spät war.“ – Die Figuren benennen ihre gegenseitigen Vorwürfe und ihr Konfliktmuster direkt. Das widerspricht der geforderten unausgesprochenen Spannung.",
+          "„Ich hab dich letzte Woche am Bahnhof gesehen.“ / „Du bist an mir vorbeigegangen.“ – Das erste Wiedersehen nach dem Streit wird dadurch zumindest unscharf: Offenbar gab es bereits eine Begegnung. Ein erstes Gespräch ist nicht zwingend das verlangte erste Wiedersehen.",
+          "„Erinnerst du dich an den Sommer am See?“ / „Dann weißt du ja, wovon ich rede.“ – Austauschbare Vergangenheitschiffre. Der zweite Satz behauptet eine konkrete gemeinsame Bedeutung, ohne sie durch ein individuelles Detail sinnlich oder emotional zu verankern.",
+          "„Er steht auf.“ / „Bleibst du noch?“ / „Er setzt sich wieder.“ – Der abrupte Bewegungswechsel erzeugt eine konventionelle Bleib-doch-Schlussszene; der innere Umschwung bleibt gegenüber der sichtbaren Geste unterentwickelt."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "D",
+      "E",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2967,
+    "out": 1782,
+    "thinking": 406
+  },
+  "costUsd": 0.023754
+}

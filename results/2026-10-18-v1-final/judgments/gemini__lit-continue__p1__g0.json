@@ -1,0 +1,111 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 5,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "und war erst angelegt, als das Schiff ruhig im Wasser lag (Grammatikfehler und logischer Unsinn: falsches Hilfsverb „war“ statt „hatte“; zudem kann ein Schiff nicht erst anlegen, nachdem es bereits ruhig im Wasser liegt)",
+          "Vom Deich wehte der Wind Gras und Salz herunter (Geografischer Unsinn: Hitzacker an der Elbe liegt weit im Binnenland, dort riecht der Wind nicht nach Meersalz)",
+          "Sie hatte ihn gesehen, als die Fähre in der Biegung gelegen hatte ... (Redundant: Wiederholt fast eins zu eins die Zusammenfassung aus dem Prompt, statt die Szene voranzutreiben)",
+          "Er läuft, weil du ihn jeden Morgen anschiebst. (Schiefe Metaphorik/Sachfehler: Einen Schiffsdiesel schiebt man nicht an wie ein Auto)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Ilse nahm die Leine vom Poller und wickelte sie ordentlich auf. (Logikbruch zum Prompt: Im Satz direkt davor hat sie die Fähre gerade erst am Poller festgemacht; nimmt sie die Leine ab, treibt die Fähre ab, was am Textende durch „Draußen schlug die Fähre sacht gegen den Anleger“ auch widerlegt wird)",
+          "Ich meinte, wie lange weißt du, dass es kaputt ist. (Grammatikalisch unsauberer Bezug: Es ging im Satz zuvor um „den Motor“ oder „das Geräusch“; im letzteren Fall ergäbe „kaputt“ keinen Sinn)",
+          "Das Wort lag zwischen ihnen, klein und alt. (Stilblüte/Kitsch)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Ich war in Hamburg bei einem Mandanten. Da dachte ich, ich nehme den Mietwagen ... Er roch nach Rasierwasser und der klimatisierten Luft aus dem ICE. (Logikbruch innerhalb von zwei Absätzen: Wenn er von einem Termin in Hamburg mit dem Mietwagen kommt, kann er nicht frisch nach ICE-Luft riechen; auch das Bahnsteig-Bild aus dem Prompt passt nicht zur Autoanreise)",
+          "Es zieht wie Hechtsuppe. (Abgedroschene Redewendung, passt zudem kaum zum Jargon eines 34-jährigen Münchner Beraters)",
+          "Eine Mappe aus schwarzem Leder ragte ein Stück aus seiner Reisetasche ... Zu dick für einen bloßen Wochenendbesuch. (Sehr holzhammerartige Andeutung des Verkaufsplots)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Sie ging an ihm vorbei zum Steuerhaus, hakte die Kette an der Rampe ein (Räumliche Unschärfe: Rampe und Steuerhaus liegen auf einer Fähre meist nicht direkt beieinander; die Abfolge wirkt in einem Satz etwas sprunghaft)",
+          "„Dann ist er kaputt. Das weiß ich dann ja.“ (Inhaltlich etwas zu flapsig für eine erfahrene Fährfrau in Bezug auf Sicherheitsrelevantes, auch wenn es als trockener Konter gemeint ist)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Und wenn kein Wind ist?“ – „Ist keine Segelfähre.“ – „Ich weiß, wie sie funktioniert“, sagte Jonas. Früher hatte er es gewusst. (Logikbruch in der Figurenzeichnung: Wenn Jonas auf der Fähre aufgewachsen ist, stellt er keine derart unsinnige Frage nach dem Wind)",
+          "Die Hütte war enger, als er sie in Erinnerung hatte. (Perspektivbruch: Kurzes Abrutschen aus Ilses personaler Perspektive in Jonas' Wahrnehmung, das nachfolgende „Oder er brachte jetzt mehr mit“ fängt es nur halb wieder ein)",
+          "Sie ging zur Rampe und winkte Krüger herunter. ... Dann ließ sie die Kette hängen und ging ihm die Tassen zeigen. (Handlungslogik: Sie winkt den wartenden Lieferwagen herunter, lässt ihn dann aber einfach vor der geschlossenen Kette stehen, um in Ruhe Tassen zu zeigen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "E",
+      "C",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 4400,
+    "out": 1189,
+    "thinking": 0
+  },
+  "costUsd": 0.02069
+}

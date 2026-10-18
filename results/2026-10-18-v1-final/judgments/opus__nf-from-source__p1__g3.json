@@ -1,0 +1,150 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "F": {
+      "model": "gemini-4-argon",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "\"1953 stellte der Landkreis den Betrieb der Fähre ein\" – die Quelle datiert nur die Gründung auf 1953, nicht die Einstellung",
+          "\"Bis 1978 bewegte allein die Strömung die Fähre über den Fluss, heute treibt sie ein 85-kW-Dieselmotor an.\" – Technikangabe steht unpassend im Absatz über Geld",
+          "\"Sie brauchten die Fähre und übernahmen sie deshalb selbst.\" – Motiv wird interpretiert",
+          "Mit rund 340 Wörtern etwas über dem Zielumfang"
+        ],
+        "unsupported": [
+          "Einstellung des Fährbetriebs durch den Landkreis im Jahr 1953 (Quelle nennt 1953 nur als Gründungsjahr)",
+          "\"Sie brauchten die Fähre\" (Motiv der Gründer nicht belegt)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "\"aus beiden Elbufern\" – unidiomatisch aus der Quelle übernommen, besser \"von beiden Elbufern\"",
+          "\"Wie funktioniert eine Genossenschaft?\" – abgegriffener Frageeinstieg",
+          "\"braucht genau diese Mischung\" – \"genau\" kurz zuvor schon verwendet (\"Genau dafür\")",
+          "Funktionsweise der Fähre selbst (Seil, Antrieb) bleibt unerklärt, wodurch der Elektroantrieb unvermittelt wirkt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "\"2024 beförderte sie rund 64.000 Personen\" – die Quelle nennt einen Jahresdurchschnitt, keine Zahl für 2024",
+          "\"Als der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte\" – Jahr der Einstellung ist nicht belegt",
+          "\"Die Fähre überquert die 212 Meter breite Elbe in sieben Minuten\" – die Breite gilt nur an dieser Stelle; \"bei normalem Wasserstand\" fehlt",
+          "\"Wie wichtig das ist, zeigen die Zahlen.\" – die folgenden Technikdaten belegen die These nicht",
+          "\"fehlte plötzlich die Verbindung\" – zugespitzte Ausschmückung"
+        ],
+        "unsupported": [
+          "Beförderung von 64.000 Personen im Jahr 2024",
+          "Einstellung des Fährbetriebs im Jahr 1953",
+          "\"fehlte plötzlich die Verbindung zwischen beiden Elbufern\"",
+          "Elbe pauschal als \"212 Meter breit\" bezeichnet"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "\"überquert an dieser Stelle eine 212 Meter breite Elbe\" – unidiomatischer unbestimmter Artikel",
+          "\"Geldanteil und Stimmrecht sind also nicht gleichzusetzen. Die Genossenschaft verbindet so ...\" – redundante Doppelung",
+          "\"Für den Betrieb und die Erneuerung der Fähre braucht es Einnahmen\" – Füllsatz",
+          "\"Mitglied wird, wer mindestens einen Geschäftsanteil von 250 Euro hält\" – Fachbegriff ohne Erklärung, Umdeutung der Quellangabe",
+          "Trockener Einstieg ohne Hinführung für Laien"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 8,
+        "fehler": [
+          "\"eine gemeinsame Aufgabe gemeinsam zu tragen\" – Tautologie",
+          "\"der gemeinsam getragenen Fährverbindung\" – \"gemeinsam\" wird inflationär wiederholt",
+          "\"aus Fahrkartenverkäufen und einem Zuschuss der Gemeinde ... 71 Prozent stammten aus Fahrkartenverkäufen, 29 Prozent aus dem Gemeindezuschuss\" – Doppelung",
+          "\"bewegte allein die Strömung das Fahrzeug\" – \"Fahrzeug\" für eine Fähre steif",
+          "Schlussabsatz wiederholt nur bereits Gesagtes; Technikdaten sind schlecht platziert"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "\"ist auch die zukünftige Erneuerung der Fähre bereits abgesichert\" – Überbehauptung, die Quelle sagt nur \"soll ausreichen\"",
+          "\"Da die erwirtschafteten Überschüsse vollständig in die Rücklage fließen\" – \"vollständig\" ist nicht belegt",
+          "\"Wie eine Genossenschaft funktioniert und warum sie die passende Rechtsform ... ist, lässt sich ... nachvollziehen\" – Einstieg wiederholt die Aufgabenstellung",
+          "\"Die grundlegende Funktionsweise der Genossenschaft zeigt sich heute im Zusammenwirken\" – Nominalstil und Füllfloskel",
+          "\"aus beiden Elbufern\" – unidiomatisch"
+        ],
+        "unsupported": [
+          "Erneuerung der Fähre sei \"bereits abgesichert\"",
+          "Überschüsse fließen \"vollständig\" in die Rücklage"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "A",
+      "C",
+      "E",
+      "F"
+    ]
+  },
+  "usage": {
+    "in": 7798,
+    "out": 3640,
+    "thinking": 1613
+  },
+  "costUsd": 0.103992
+}

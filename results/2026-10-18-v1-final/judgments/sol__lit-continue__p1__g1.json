@@ -1,0 +1,116 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die Hütte war enger, als er sie in Erinnerung hatte.“ – Unmarkierter Perspektivwechsel: Jonas’ Erinnerung wird als Tatsache erzählt, obwohl die Szene personal an Ilse gebunden ist.",
+          "„winkte Krüger herunter“ / „Dann ließ sie die Kette hängen und ging ihm die Tassen zeigen.“ – Die Schlussentscheidung ist emotional nachvollziehbar, betrieblich aber unsauber inszeniert: Ilse hat den wartenden Fahrer gerade zur Auffahrt bestellt und lässt ihn nun ohne Zeichen oder Erklärung stehen.",
+          "„Oder er brachte jetzt mehr mit.“ – Der zusätzliche metaphorische Kommentar erklärt die bereits durch Koffer, Kleidung und Verhalten gezeigte Entfremdung unnötig."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie löste die Leine wieder vom Poller.“ / „Sie ging an ihm vorbei zur Anlegerseite und prüfte die Leine. Der Knoten saß.“ – Anschlussfehler: Die gelöste Leine ist später ohne erneutes Festmachen wieder verknotet. Dazwischen wird sogar der Motor ausgeschaltet.",
+          "„Er hatte immer schon gefroren, sobald er aus dem Zug stieg, auch als Kind.“ – Die pauschale Verknüpfung von Frieren und Zugausstieg wirkt konstruiert; sie dient vor allem dazu, die Henning-Erinnerung einzuschieben.",
+          "„Danach nahm sie den Schlüssel wieder aus der Tasche und legte ihn in die kleine Schale im Steuerhaus. Den Ersatzschlüssel ließ sie dort liegen. Den Haustürschlüssel nahm sie heraus.“ – Die Häufung kaum unterscheidbarer Schlüsselhandlungen verschleiert den emotionalen Schlusspunkt. Die kleine Entscheidung liegt bereits im Angebot, Wasser aufzusetzen; das anschließende Inventar schwächt sie."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Dabei war er auf diesen Bohlen laufen gelernt.“ – Grammatikfehler: Es muss „hatte er … laufen gelernt“ heißen.",
+          "„seit neunzehn Jahren rauchte er dieselbe Marke“ – Die genaue Kenntnis der Zigarettenmarke eines am anderen Ufer wartenden Fahrers ist nicht vorbereitet. Das Detail behauptet Vertrautheit, statt sie überzeugend wahrnehmbar zu machen.",
+          "„nur dass bei ihm alles ein wenig straffer saß, als hätte jemand die Schrauben nachgezogen“ – Das mechanische Bild ist auffällig ausgestellt und anatomisch wenig präzise.",
+          "„Henning hätte sie längst ausgetauscht. Henning hätte auch den Motor gemacht“ – Die wiederholte Gegenüberstellung mit dem verstorbenen, praktisch allzuständigen Mann erklärt Ilses Verlust recht ausdrücklich. Hier wäre stärkere Verdichtung möglich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Seitdem zieh ich mit der Hand.“ / „Dann spuckte der Motor einen blauen Rauchring aus“ / „wenn sie das Ruder und die Leine nahm“ – Die technische Handlung bleibt widersprüchlich beziehungsweise unzureichend erklärt: Handbetrieb der Seilfähre, Ankurbeln des Dieselmotors und Fortbewegung mit Ruder und Leine werden ohne nachvollziehbaren Zusammenhang verbunden.",
+          "„Und sie sah auch, dass er sie nicht gern schmutzig machte.“ – Jonas’ innere Abneigung wird als unmittelbar sichtbare Tatsache behauptet, ohne ein entsprechendes Verhalten zu zeigen.",
+          "„Ilse merkte, dass sie den Atem angehalten hatte, und zwang sich, ihn wieder fließen zu lassen.“ – Routiniertes Spannungsklischee; die große körperliche Reaktion ist für den kleinen Handgriff nicht ausreichend motiviert.",
+          "„vertraut wie das eigene Kissen“ / „wie ein Tier, das sich totstellt“ / „als hätten sie es eilig“ – Die rasch aufeinanderfolgenden Vergleiche überladen die Szene und passen in ihrer Wirkung nicht zusammen.",
+          "„Du kannst mitfahren oder hier stehen bleiben.“ / „Dann hältst du die Leine.“ – Der Schluss setzt vor allem Jonas vor eine Entscheidung. Ilses eigene kleine Entscheidung bleibt gegenüber der geforderten Schlussbewegung weniger deutlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Im Elbtal gab es selten Empfang, wenn der Nebel so tief hing.“ – Die Erzählung behauptet einen sachlich fragwürdigen Zusammenhang zwischen tiefem Nebel und fehlendem Mobilfunkempfang. Zudem wird aus Jonas’ Tippen ohne ausreichenden Anhaltspunkt ein Empfangsproblem abgeleitet.",
+          "„Er hob den Koffer am Griff hoch, statt ihn zu ziehen, und folgte ihr auf das flache Deck.“ / „Zwei Radfahrer […] schoben ihre Räder an ihm vorbei ans Ufer“ – Die Bewegungsregie ist unsauber: Ilse führt Jonas bereits auf die Fähre, während die gerade angekommenen Fahrgäste noch aussteigen. Warum beide überhaupt an Bord gehen, obwohl sie zuvor Richtung Fährhaus weist, bleibt ebenfalls unklar.",
+          "„Das Klirren der Glieder war das einzige Geräusch weit und breit.“ – Unplausible akustische Absolutheit unmittelbar nach der Schilderung von starkem Wind und bewegtem Fluss.",
+          "„Es war nicht der Blick des Jungen […] Es war der Blick, mit dem er Tabellen prüfte.“ – Die berufliche Entfremdung wird schematisch ausbuchstabiert. Der Unternehmensberater erhält damit ein erwartbares Rollenklischee statt einer individuellen Beobachtung.",
+          "„Die Strömung reicht“ bis „ging den Deich hinauf zum Haus“ – Der Text liegt mit deutlich über 500 Wörtern merklich über dem Richtwert von etwa 400. Vor allem die ausführliche Bestandsaufnahme von Kleidung, Verfall und Innenraum bietet Kürzungspotenzial."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 4088,
+    "out": 1904,
+    "thinking": 404
+  },
+  "costUsd": 0.027216
+}

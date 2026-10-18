@@ -1,0 +1,140 @@
+{
+  "task": "lit-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "F": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Der Schlüssel ließ sich nicht drehen. ... drückte die Klinke, bis das Holz nachgab\" – unklar, ob die Tür verschlossen war; Logikbruch oder unzureichend gezeigte Fährte",
+          "\"Die Süße, die sie im Flur gerochen hatte, kam von hier.\" – ein wachsversiegeltes Glas in der Speisekammer duftet kaum bis in den Flur",
+          "\"Darin stand eine Frau Ende vierzig, die sie einen Moment lang nicht erkannte.\" – abgenutztes Spiegelmotiv",
+          "\"wie Laken über Möbel\" – naheliegender Vergleich",
+          "\"Und jemand war vor ihr hier gewesen.\" – erklärt die Pointe, statt sie dem Leser zu überlassen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "\"im stillen Treppenhaus\" – passt nicht zu einem Haus mit eigener Haustür, Settingbruch",
+          "\"während das Haus um sie herum plötzlich den Atem anzuhalten schien\" – Klischee als Schlusssatz",
+          "\"als warte er darauf, dass jemand in seine Ärmel schlüpfte\" – abgegriffene Personifikation",
+          "\"frisch genug, um erst wenige Tage alt zu sein\" – schiefe Konstruktion",
+          "\"Terpentin. Und preußischblaues Öl. ... Der beißende Duft von Balsamterpentin\" – Redundanz; zudem deutlich über 300 Wörter, überladen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "\"Der schmale Spalt darunter war dunkel, obwohl das Licht von der Küche bis an die Schwelle reichte.\" – räumlich unklar, ein Spalt unter einer offen stehenden Tür ergibt kein klares Bild",
+          "\"An ihrem Daumen klebte ein einzelnes, blaues Fädchen.\" – unmotiviert, das tragende Detail wirkt nachträglich angeklebt",
+          "\"als hätte das Haus beschlossen, sie nicht sofort hineinzulassen\" – Personifikation als Eröffnungsklischee",
+          "\"wusste nicht, wohin mit den Händen\" – Floskel",
+          "Zu viele lose Fährten (Apfelgeruch, heller Kreis, Kellertür, Faden), keine trägt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"Ihr Körper wusste es vor ihr.\" – erklärt, was die Handlung schon zeigt",
+          "Häufung von Rätselmotiven (Schuhe zur Tür, Haar, Kümmelseife, Kalender) verdünnt das zentrale Detail",
+          "\"Sie hielt sie länger in der Hand, als nötig gewesen wäre.\" – leicht formelhaft",
+          "\"Eine Frau hielt darin eine Pfanne hoch, als hätte sie etwas gewonnen.\" – pointiert, aber vom Ton her etwas außerhalb"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Erst in der Küche roch sie es.\" – die Quitte liegt oben im Wäscheschrank; dass der Duft gerade in der Küche auftritt, ist unplausibel",
+          "\"Der Duft war nicht schwächer geworden, sondern dichter\" – fehlender Bezugspunkt für den Vergleich",
+          "\"Ihre Mutter hatte Quitten nie gemocht. Das wusste Judith genau. Sie hatte sie nie gekauft, nie gekocht, nie auch nur erwähnt.\" – Wiederholungsmasche, überbetont",
+          "\"Die Tür gab nach, als hätte sie nur auf diese Bewegung gewartet.\" – Personifikation als Floskel",
+          "Mit rund 370 Wörtern deutlich über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"die Uhr über der Tür, die stehen geblieben war um zwanzig nach vier\" – abgenutztes Motiv der stehengebliebenen Uhr",
+          "\"die Fensterläden geschlossen wie Lider\" – naheliegender Vergleich",
+          "\"als hätte das Haus sie erwartet, nur nicht als diejenige, die sie geworden war\" – erklärend, leicht gefühlig",
+          "\"Er war schwerer, als sie ihn in Erinnerung hatte, oder ihre Hand war leichter geworden.\" – manieriert",
+          "Mit rund 380 Wörtern deutlich über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "E",
+      "A",
+      "F",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 6655,
+    "out": 3388,
+    "thinking": 1563
+  },
+  "costUsd": 0.09438
+}

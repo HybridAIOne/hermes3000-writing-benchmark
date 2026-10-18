@@ -1,0 +1,117 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Das wolltest du so nicht hören lassen, und auch nicht so sagen.“ – grammatisch schief und unklar",
+          "Vier Absätze statt eines Einstiegsabsatzes, mit rund 300 Wörtern deutlich über dem Umfang",
+          "„Man schiebt die Sache wochenlang vor sich her“ – Wechsel von der Du-Ansprache zu „man“",
+          "„meist auf Kosten derer, die gerade zuhören müssen“ – unscharf, wer gemeint ist",
+          "„Kennst du das?“ – abgegriffene Überleitungsfloskel"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Dann bist du in guter Gesellschaft.“ – abgegriffene Floskel",
+          "„ohne dass sie eskalieren, und ohne dass du dich danach drei Tage schlecht fühlst“ – das Komma vor „und“ ist entbehrlich",
+          "„Kommt dir das bekannt vor?“ – Standardüberleitung",
+          "„ein paar handfesten Werkzeugen“ – leicht formelhafter Ausblick"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Kommt dir bekannt vor?“ – „das“ fehlt",
+          "„sondern längst Termin gemacht hast“ – Artikel fehlt, saloppe Wendung",
+          "„Ein angeschwiegenes Problem“ – ungebräuchliche Wortbildung",
+          "„Die schlechte Nachricht zuerst … Die gute Nachricht“ – Ratgeberschablone; zudem mehrere Absätze statt eines Einstiegsabsatzes",
+          "„Dann bist du in bester Gesellschaft“ / „kein Talent, sondern Handwerk“ – Klischees"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„niemandes Vorgesetzter bist“ – passt nur bedingt zur Zielgruppe Teamleiter, wird aber über den Buchtitel aufgefangen",
+          "„Nur der Ärger geht mit.“ – leicht gewollte Pointe",
+          "Mit rund 270 Wörtern etwas über dem Umfang"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„auf den Tisch legt“ … „zu viel auf dem Tisch“ – unschöne Wortwiederholung",
+          "Die Szene nimmt mehr als die Hälfte ein, mit rund 290 Wörtern über dem Umfang",
+          "„Beides wäre bequem – für die nächsten zehn Minuten.“ – leicht formelhaft",
+          "„wächst aus einem kleinen, lösbaren Problem schnell Misstrauen“ – etwas allgemein"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "E",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 5181,
+    "out": 2063,
+    "thinking": 950
+  },
+  "costUsd": 0.061984
+}

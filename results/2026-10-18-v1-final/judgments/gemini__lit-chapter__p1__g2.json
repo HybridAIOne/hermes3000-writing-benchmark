@@ -1,0 +1,118 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Warten“, sagte sie, obwohl er sie durch die geschlossene Scheibe nicht hören konnte."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Mareike Lüders aus Bitter, vierzehn, die Kapuze bis über die Augenbrauen gezogen",
+          "„Außer Hochwasser und Eisgang.“",
+          "Der Kaffee war aus der Thermoskanne mit dem abgeplatzten Deckel",
+          "zwei Umrisse, dann einer, dann keiner."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "Vierzig Meter Drahtseil, gespannt über die Fahrrinne, und wenn es niedrig hing, klopfte es ihr beim Überqueren ans Dach des Häuschens.",
+          "Sie zog. Ziehen, Greifen, Ziehen, Greifen, und die Fähre glitt in den Nebel hinein",
+          "Sie fuhr noch zweimal vor acht. Einmal leer, einmal mit einem Transporter [...] Um zehn kam der erste Radfahrer des Tages.",
+          "und ein Schwarm Stare stand auf dem Weidezaun und fiel auseinander",
+          "„Jonas kommt zu Weihnachten?“ fragte Ines."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c3"
+        ]
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "Es würde um das Haus gehen. Oder um die Werft-Rechnung vom Oktober, die er bei seinem letzten Besuch auf dem Küchentisch gesehen hatte. Oder um das Betreute Wohnen in Lüneburg, von dem er neulich ein Prospekt geschickt hatte",
+          "Auf dem Display neben dem Ruder leuchtete die Uhrzeit: 06:42 Uhr. Noch drei Minuten. [...] Eine Minute vor dreiviertel sieben kam der dritte Fahrgast. [...] Es war vierundvierzig Minuten nach sechs.",
+          "von dem er neulich ein Prospekt geschickt hatte",
+          "das Seil sang sein leises, metallisches Lied in den Führungsrollen",
+          "Draußen schälten sich zwei gelbe Lichtkegel aus der grauen Wand."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "Er hatte seinen Transporter auf der Hitzacker-Seite stehen lassen [...] „Die Fähre fährt nach Hitzacker-Ufer“, sagte Ilse.",
+          "„Ist das die Strecke nach Neu Darchau?“ – „Die Fähre fährt nach Hitzacker-Ufer“, sagte Ilse. „Das ist das Gleiche.“",
+          "Sie ließ den Motor im Leerlauf, und das Schiff trieb langsam über die Strömung. [...] Heute war er still und grau, und die Oberfläche bewegte sich kaum.",
+          "die drei Menschen darauf, die sie nicht kannte, bis auf Wessel und Hahn",
+          "Hahn sah sie an, dann die Zigarette. Er warf sie in den Fluss. [...] Hahn zündete sich eine neue Zigarette an"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "D",
+      "C",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 8942,
+    "out": 949,
+    "thinking": 0
+  },
+  "costUsd": 0.027374
+}

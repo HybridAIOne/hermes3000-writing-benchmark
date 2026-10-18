@@ -1,0 +1,136 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„So verbindet die Rechtsform gemeinsames Engagement mit gemeinsamer Verantwortung“ – floskelhafter Schlusssatz ohne Erkenntnisgewinn",
+          "„Die Mitglieder entscheiden also nach dem Grundsatz: eine Person, eine Stimme.“ – wiederholt den vorigen Satz nur",
+          "Technik-Absatz („Die Fähre überquert die 212 Meter breite Elbe …“) steht unverbunden zwischen Stimmrecht und Überschüssen",
+          "„Für den Betrieb braucht es Einnahmen:“ – banale Überleitung",
+          "Die Frage, warum die Rechtsform passt, wird nur allgemein beantwortet („mehrere Beteiligte gemeinsam ein Vorhaben tragen“)"
+        ],
+        "unsupported": [
+          "„auf den Menschen und Orte beiderseits der Elbe angewiesen sind“"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Eine Fähre, die ihren Nutzern gehört“ – die Quelle sagt nicht, dass die Mitglieder die Nutzer sind",
+          "„Die Menschen, die sie brauchen, betreiben sie selbst“ – über die Quelle hinausgehende Behauptung",
+          "„Die Zahlen zeigen, dass das Modell trägt.“ – wertende Behauptung, die von den Zahlen (29 Prozent Zuschuss) nicht gedeckt ist",
+          "Kurze, aneinandergereihte Hauptsätze im ersten Absatz wirken etwas stakkatohaft"
+        ],
+        "unsupported": [
+          "„Eine Fähre, die ihren Nutzern gehört“",
+          "„Die Menschen, die sie brauchen, betreiben sie selbst“",
+          "„ein Gemeinschaftsgut, das nicht von einem einzelnen Eigentümer abhängen soll“",
+          "„Die Zahlen zeigen, dass das Modell trägt.“"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„was sich für einen einzelnen Eigentümer kaum lohnen würde“ – unbelegte Behauptung",
+          "Angaben zum Antrieb („Bis 1978 trieb allein die Strömung …“) stehen deplatziert im Absatz zur Frage nach der passenden Rechtsform",
+          "„Im Jahr 2024 nahm die Genossenschaft 186.000 Euro ein.“ – die Quelle spricht von Umsatz",
+          "„Ihr Zweck ist nicht, Gewinne zu erzielen, sondern die Verbindung über den Fluss zu sichern“ – als Satzungszweck nicht belegt"
+        ],
+        "unsupported": [
+          "„was sich für einen einzelnen Eigentümer kaum lohnen würde“",
+          "„Ihr Zweck ist nicht, Gewinne zu erzielen, sondern die Verbindung über den Fluss zu sichern“"
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„seit über siebzig Jahrzehnten“ – sachlich falsch (1953 bis heute sind gut sieben Jahrzehnte)",
+          "„ein Mitglied, eine Stimme\"“ – falsches schließendes Anführungszeichen",
+          "„Der Fährbetrieb ist wirtschaftlich klein und kaum renditestark – für einen privaten Investor wenig attraktiv“ – unbelegt",
+          "„das keiner allein bewältigen kann oder will“ – unbelegte Verallgemeinerung über die Gründer",
+          "Der Absatz „Heute hat die Genossenschaft 312 Mitglieder. Die Fähre selbst …“ springt unvermittelt zur Technik"
+        ],
+        "unsupported": [
+          "„seit über siebzig Jahrzehnten in Betrieb“",
+          "„Der Fährbetrieb ist wirtschaftlich klein und kaum renditestark – für einen privaten Investor wenig attraktiv“",
+          "„das keiner allein bewältigen kann oder will“"
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„weil es den Gründern wie auch den heutigen Mitgliedern nicht um finanzielle Gewinne geht“ – unbelegte Aussage über Motive",
+          "„warum diese Rechtsform ideal ist“ – wertend und floskelhaft; ‚passende Rechtsform‘ wird mehrfach wiederholt",
+          "„nicht an die 312 Mitglieder ausgeschüttet“ – unnötige Wiederholung der Zahl",
+          "„Wurde das Schiff bis 1978 allein durch die Strömung bewegt, sorgt heute …“ – Technikangaben deplatziert im Absatz über Geld",
+          "Überlanger, schwerfälliger Einleitungssatz"
+        ],
+        "unsupported": [
+          "„weil es den Gründern wie auch den heutigen Mitgliedern nicht um finanzielle Gewinne geht, sondern um den Erhalt der Fährverbindung“",
+          "„den Fährbetrieb so für die Zukunft zu sichern“"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "A",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 6948,
+    "out": 3280,
+    "thinking": 1406
+  },
+  "costUsd": 0.093392
+}

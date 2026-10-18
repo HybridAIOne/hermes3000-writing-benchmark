@@ -1,0 +1,1347 @@
+{
+  "runId": "2026-10-18-v1-final",
+  "manifest": {
+    "benchmark": "hermes3000-writing-benchmark/v1",
+    "fingerprint": "66e0bd8f75bf965c",
+    "privateTasks": null,
+    "stage": "final",
+    "runs": 3,
+    "passes": 2,
+    "models": [
+      "gpt-6-luna",
+      "gpt-6.1-sol",
+      "claude-haiku-5.5",
+      "claude-sonnet-5.5",
+      "claude-opus-5.5",
+      "gemini-4-argon",
+      "kimi-k3"
+    ],
+    "judges": [
+      "opus",
+      "sol",
+      "gemini"
+    ],
+    "started": "2026-10-18T05:21:56.084Z",
+    "node": "v22.22.2",
+    "commit": "c679e04"
+  },
+  "tracks": {
+    "literary": {
+      "all": {
+        "gpt-6-luna": {
+          "rating": 935,
+          "lo": 866,
+          "hi": 1004
+        },
+        "gpt-6.1-sol": {
+          "rating": 1382,
+          "lo": 1320,
+          "hi": 1453
+        },
+        "claude-haiku-5.5": {
+          "rating": 722,
+          "lo": 664,
+          "hi": 766
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1105,
+          "lo": 1057,
+          "hi": 1161
+        },
+        "claude-opus-5.5": {
+          "rating": 1325,
+          "lo": 1264,
+          "hi": 1401
+        },
+        "gemini-4-argon": {
+          "rating": 799,
+          "lo": 730,
+          "hi": 861
+        },
+        "kimi-k3": {
+          "rating": 733,
+          "lo": 667,
+          "hi": 792
+        }
+      },
+      "noOwnFamily": {
+        "gpt-6-luna": {
+          "rating": 960,
+          "lo": 857,
+          "hi": 1058
+        },
+        "gpt-6.1-sol": {
+          "rating": 1318,
+          "lo": 1237,
+          "hi": 1417
+        },
+        "claude-haiku-5.5": {
+          "rating": 704,
+          "lo": 623,
+          "hi": 764
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1130,
+          "lo": 1065,
+          "hi": 1215
+        },
+        "claude-opus-5.5": {
+          "rating": 1347,
+          "lo": 1264,
+          "hi": 1469
+        },
+        "gemini-4-argon": {
+          "rating": 775,
+          "lo": 689,
+          "hi": 853
+        },
+        "kimi-k3": {
+          "rating": 767,
+          "lo": 688,
+          "hi": 833
+        }
+      },
+      "rubric": {
+        "sprache": {
+          "gpt-6.1-sol": 9.13888888888889,
+          "claude-sonnet-5.5": 8.972222222222221,
+          "gpt-6-luna": 8.708333333333334,
+          "gemini-4-argon": 8.597222222222221,
+          "claude-opus-5.5": 9,
+          "claude-haiku-5.5": 8.180555555555555,
+          "kimi-k3": 7.166666666666667
+        },
+        "stil": {
+          "gpt-6.1-sol": 8.430555555555555,
+          "claude-sonnet-5.5": 7.666666666666667,
+          "gpt-6-luna": 6.805555555555555,
+          "gemini-4-argon": 5.736111111111111,
+          "claude-opus-5.5": 8.166666666666666,
+          "claude-haiku-5.5": 5.875,
+          "kimi-k3": 5.75
+        },
+        "aufgabe": {
+          "gpt-6.1-sol": 8.527777777777779,
+          "claude-sonnet-5.5": 7.583333333333333,
+          "gpt-6-luna": 7.083333333333333,
+          "gemini-4-argon": 6.430555555555555,
+          "claude-opus-5.5": 8.76388888888889,
+          "claude-haiku-5.5": 6.083333333333333,
+          "kimi-k3": 6.388888888888889
+        }
+      }
+    },
+    "nonfiction": {
+      "all": {
+        "gpt-6-luna": {
+          "rating": 1000,
+          "lo": 937,
+          "hi": 1060
+        },
+        "gpt-6.1-sol": {
+          "rating": 1266,
+          "lo": 1195,
+          "hi": 1355
+        },
+        "claude-haiku-5.5": {
+          "rating": 947,
+          "lo": 889,
+          "hi": 1003
+        },
+        "claude-sonnet-5.5": {
+          "rating": 999,
+          "lo": 937,
+          "hi": 1058
+        },
+        "claude-opus-5.5": {
+          "rating": 1226,
+          "lo": 1172,
+          "hi": 1287
+        },
+        "gemini-4-argon": {
+          "rating": 815,
+          "lo": 733,
+          "hi": 892
+        },
+        "kimi-k3": {
+          "rating": 748,
+          "lo": 684,
+          "hi": 799
+        }
+      },
+      "noOwnFamily": {
+        "gpt-6-luna": {
+          "rating": 896,
+          "lo": 815,
+          "hi": 964
+        },
+        "gpt-6.1-sol": {
+          "rating": 1265,
+          "lo": 1171,
+          "hi": 1392
+        },
+        "claude-haiku-5.5": {
+          "rating": 990,
+          "lo": 898,
+          "hi": 1090
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1016,
+          "lo": 936,
+          "hi": 1100
+        },
+        "claude-opus-5.5": {
+          "rating": 1332,
+          "lo": 1237,
+          "hi": 1482
+        },
+        "gemini-4-argon": {
+          "rating": 719,
+          "lo": 587,
+          "hi": 814
+        },
+        "kimi-k3": {
+          "rating": 783,
+          "lo": 699,
+          "hi": 845
+        }
+      },
+      "rubric": {
+        "sprache": {
+          "claude-haiku-5.5": 8.62962962962963,
+          "gemini-4-argon": 8.666666666666666,
+          "claude-opus-5.5": 9.38888888888889,
+          "kimi-k3": 8.037037037037036,
+          "gpt-6.1-sol": 9.518518518518519,
+          "claude-sonnet-5.5": 8.87037037037037,
+          "gpt-6-luna": 9.203703703703704
+        },
+        "stil": {
+          "claude-haiku-5.5": 7.685185185185185,
+          "gemini-4-argon": 6.648148148148148,
+          "claude-opus-5.5": 8.87037037037037,
+          "kimi-k3": 6.87037037037037,
+          "gpt-6.1-sol": 8.481481481481481,
+          "claude-sonnet-5.5": 8.222222222222221,
+          "gpt-6-luna": 7.777777777777778
+        },
+        "aufgabe": {
+          "claude-haiku-5.5": 7.666666666666667,
+          "gemini-4-argon": 7.166666666666667,
+          "claude-opus-5.5": 8.777777777777779,
+          "kimi-k3": 6.666666666666667,
+          "gpt-6.1-sol": 9.24074074074074,
+          "claude-sonnet-5.5": 8.074074074074074,
+          "gpt-6-luna": 7.981481481481482
+        }
+      }
+    },
+    "english": {
+      "all": {
+        "gpt-6-luna": {
+          "rating": 1041,
+          "lo": 933,
+          "hi": 1146
+        },
+        "gpt-6.1-sol": {
+          "rating": 1469,
+          "lo": 1354,
+          "hi": 1660
+        },
+        "claude-haiku-5.5": {
+          "rating": 806,
+          "lo": 658,
+          "hi": 909
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1195,
+          "lo": 1073,
+          "hi": 1353
+        },
+        "claude-opus-5.5": {
+          "rating": 970,
+          "lo": 868,
+          "hi": 1072
+        },
+        "gemini-4-argon": {
+          "rating": 813,
+          "lo": 654,
+          "hi": 930
+        },
+        "kimi-k3": {
+          "rating": 706,
+          "lo": 591,
+          "hi": 787
+        }
+      },
+      "noOwnFamily": {
+        "gpt-6-luna": {
+          "rating": 989,
+          "lo": 815,
+          "hi": 1135
+        },
+        "gpt-6.1-sol": {
+          "rating": 1410,
+          "lo": 1318,
+          "hi": 1613
+        },
+        "claude-haiku-5.5": {
+          "rating": 896,
+          "lo": 723,
+          "hi": 1044
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1192,
+          "lo": 1002,
+          "hi": 1447
+        },
+        "claude-opus-5.5": {
+          "rating": 998,
+          "lo": 852,
+          "hi": 1157
+        },
+        "gemini-4-argon": {
+          "rating": 793,
+          "lo": 601,
+          "hi": 921
+        },
+        "kimi-k3": {
+          "rating": 721,
+          "lo": 590,
+          "hi": 800
+        }
+      }
+    }
+  },
+  "perJudge": {
+    "literary": {
+      "opus": {
+        "gpt-6-luna": {
+          "rating": 926,
+          "lo": 792,
+          "hi": 1039
+        },
+        "gpt-6.1-sol": {
+          "rating": 1306,
+          "lo": 1196,
+          "hi": 1437
+        },
+        "claude-haiku-5.5": {
+          "rating": 790,
+          "lo": 687,
+          "hi": 861
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1173,
+          "lo": 1103,
+          "hi": 1274
+        },
+        "claude-opus-5.5": {
+          "rating": 1391,
+          "lo": 1277,
+          "hi": 1572
+        },
+        "gemini-4-argon": {
+          "rating": 743,
+          "lo": 611,
+          "hi": 856
+        },
+        "kimi-k3": {
+          "rating": 671,
+          "lo": 552,
+          "hi": 752
+        }
+      },
+      "sol": {
+        "gpt-6-luna": {
+          "rating": 908,
+          "lo": 840,
+          "hi": 1049
+        },
+        "gpt-6.1-sol": {
+          "rating": 1880,
+          "lo": 1718,
+          "hi": 1826
+        },
+        "claude-haiku-5.5": {
+          "rating": 624,
+          "lo": 535,
+          "hi": 730
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1038,
+          "lo": 966,
+          "hi": 1166
+        },
+        "claude-opus-5.5": {
+          "rating": 1294,
+          "lo": 1234,
+          "hi": 1415
+        },
+        "gemini-4-argon": {
+          "rating": 640,
+          "lo": 530,
+          "hi": 740
+        },
+        "kimi-k3": {
+          "rating": 615,
+          "lo": 443,
+          "hi": 775
+        }
+      },
+      "gemini": {
+        "gpt-6-luna": {
+          "rating": 924,
+          "lo": 778,
+          "hi": 1033
+        },
+        "gpt-6.1-sol": {
+          "rating": 1286,
+          "lo": 1216,
+          "hi": 1414
+        },
+        "claude-haiku-5.5": {
+          "rating": 673,
+          "lo": 527,
+          "hi": 770
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1070,
+          "lo": 993,
+          "hi": 1166
+        },
+        "claude-opus-5.5": {
+          "rating": 1289,
+          "lo": 1186,
+          "hi": 1434
+        },
+        "gemini-4-argon": {
+          "rating": 927,
+          "lo": 820,
+          "hi": 1026
+        },
+        "kimi-k3": {
+          "rating": 831,
+          "lo": 752,
+          "hi": 908
+        }
+      }
+    },
+    "nonfiction": {
+      "opus": {
+        "gpt-6-luna": {
+          "rating": 938,
+          "lo": 802,
+          "hi": 1051
+        },
+        "gpt-6.1-sol": {
+          "rating": 1195,
+          "lo": 1066,
+          "hi": 1340
+        },
+        "claude-haiku-5.5": {
+          "rating": 1028,
+          "lo": 930,
+          "hi": 1121
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1118,
+          "lo": 1011,
+          "hi": 1236
+        },
+        "claude-opus-5.5": {
+          "rating": 1344,
+          "lo": 1263,
+          "hi": 1487
+        },
+        "gemini-4-argon": {
+          "rating": 606,
+          "lo": 459,
+          "hi": 677
+        },
+        "kimi-k3": {
+          "rating": 770,
+          "lo": 651,
+          "hi": 873
+        }
+      },
+      "sol": {
+        "gpt-6-luna": {
+          "rating": 1301,
+          "lo": 1184,
+          "hi": 1449
+        },
+        "gpt-6.1-sol": {
+          "rating": 1642,
+          "lo": 1487,
+          "hi": 1815
+        },
+        "claude-haiku-5.5": {
+          "rating": 899,
+          "lo": 749,
+          "hi": 1026
+        },
+        "claude-sonnet-5.5": {
+          "rating": 818,
+          "lo": 683,
+          "hi": 924
+        },
+        "claude-opus-5.5": {
+          "rating": 1141,
+          "lo": 1018,
+          "hi": 1283
+        },
+        "gemini-4-argon": {
+          "rating": 614,
+          "lo": 444,
+          "hi": 717
+        },
+        "kimi-k3": {
+          "rating": 586,
+          "lo": 460,
+          "hi": 646
+        }
+      },
+      "gemini": {
+        "gpt-6-luna": {
+          "rating": 854,
+          "lo": 724,
+          "hi": 937
+        },
+        "gpt-6.1-sol": {
+          "rating": 1215,
+          "lo": 1115,
+          "hi": 1352
+        },
+        "claude-haiku-5.5": {
+          "rating": 877,
+          "lo": 749,
+          "hi": 993
+        },
+        "claude-sonnet-5.5": {
+          "rating": 1013,
+          "lo": 930,
+          "hi": 1100
+        },
+        "claude-opus-5.5": {
+          "rating": 1250,
+          "lo": 1172,
+          "hi": 1382
+        },
+        "gemini-4-argon": {
+          "rating": 1022,
+          "lo": 887,
+          "hi": 1178
+        },
+        "kimi-k3": {
+          "rating": 767,
+          "lo": 590,
+          "hi": 889
+        }
+      }
+    }
+  },
+  "editing": {
+    "gpt-6-luna": {
+      "feedback": {
+        "score": 0.38888888888888884,
+        "found": 2.3333333333333335,
+        "of": 6,
+        "falseAlarms": 0
+      },
+      "proofread": {
+        "score": 0.9737277353689567,
+        "recall": 0.9499999999999998,
+        "protect": 1,
+        "missed": [
+          "zeitenfolge",
+          "zeitenfolge",
+          "als-einziger"
+        ]
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 144.33333333333334,
+        "invented": []
+      },
+      "score": 0.7875388747526152
+    },
+    "gpt-6.1-sol": {
+      "feedback": {
+        "score": 0.42777777777777776,
+        "found": 2.6666666666666665,
+        "of": 6,
+        "falseAlarms": 0.3333333333333333
+      },
+      "proofread": {
+        "score": 0.9740458015267176,
+        "recall": 1,
+        "protect": 0.9,
+        "missed": []
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 133.33333333333334,
+        "invented": []
+      },
+      "score": 0.8006078597681651
+    },
+    "claude-haiku-5.5": {
+      "feedback": {
+        "score": 0.38888888888888884,
+        "found": 3.3333333333333335,
+        "of": 6,
+        "falseAlarms": 3.3333333333333335
+      },
+      "proofread": {
+        "score": 0.9647582697201017,
+        "recall": 0.9333333333333332,
+        "protect": 1,
+        "missed": [
+          "zeitenfolge",
+          "brennnesseln",
+          "zeitenfolge",
+          "seit",
+          "zeitenfolge"
+        ]
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 141.66666666666666,
+        "invented": []
+      },
+      "score": 0.7845490528696635
+    },
+    "claude-sonnet-5.5": {
+      "feedback": {
+        "score": 0.7888888888888889,
+        "found": 5.333333333333333,
+        "of": 6,
+        "falseAlarms": 2
+      },
+      "proofread": {
+        "score": 0.960591603053435,
+        "recall": 0.9416666666666668,
+        "protect": 0.9666666666666667,
+        "missed": [
+          "als-einziger",
+          "kongruenz",
+          "als-einziger",
+          "brennnesseln"
+        ]
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 137.66666666666666,
+        "invented": []
+      },
+      "score": 0.916493497314108
+    },
+    "claude-opus-5.5": {
+      "feedback": {
+        "score": 0.6888888888888888,
+        "found": 5.333333333333333,
+        "of": 6,
+        "falseAlarms": 4
+      },
+      "proofread": {
+        "score": 0.9653944020356233,
+        "recall": 0.9833333333333334,
+        "protect": 0.9,
+        "missed": [
+          "kongruenz"
+        ]
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 137.66666666666666,
+        "invented": []
+      },
+      "score": 0.8847610969748373
+    },
+    "gemini-4-argon": {
+      "feedback": {
+        "score": 0.5166666666666666,
+        "found": 4,
+        "of": 6,
+        "falseAlarms": 3
+      },
+      "proofread": {
+        "score": 0.9740458015267176,
+        "recall": 1,
+        "protect": 0.9,
+        "missed": []
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 147,
+        "invented": []
+      },
+      "score": 0.8302374893977947
+    },
+    "kimi-k3": {
+      "feedback": {
+        "score": 0.8777777777777778,
+        "found": 5.666666666666667,
+        "of": 6,
+        "falseAlarms": 1.3333333333333333
+      },
+      "proofread": {
+        "score": 0.9477735368956743,
+        "recall": 0.9166666666666666,
+        "protect": 0.9666666666666667,
+        "missed": [
+          "zeitenfolge",
+          "als-einziger",
+          "zeitenfolge",
+          "als-einziger",
+          "zeitenfolge"
+        ]
+      },
+      "tighten": {
+        "score": 1,
+        "coverage": 1,
+        "words": 127,
+        "invented": []
+      },
+      "score": 0.941850438224484
+    }
+  },
+  "nonfiction": {
+    "gpt-6-luna": {
+      "factCoverage": 1,
+      "unsupportedMedian": 1,
+      "chapterViolations": 0
+    },
+    "gpt-6.1-sol": {
+      "factCoverage": 1,
+      "unsupportedMedian": 0,
+      "chapterViolations": 0
+    },
+    "claude-haiku-5.5": {
+      "factCoverage": 1,
+      "unsupportedMedian": 0,
+      "chapterViolations": 0.6666666666666666
+    },
+    "claude-sonnet-5.5": {
+      "factCoverage": 1,
+      "unsupportedMedian": 3,
+      "chapterViolations": 0.3333333333333333
+    },
+    "claude-opus-5.5": {
+      "factCoverage": 1,
+      "unsupportedMedian": 1.5,
+      "chapterViolations": 0
+    },
+    "gemini-4-argon": {
+      "factCoverage": 1,
+      "unsupportedMedian": 2,
+      "chapterViolations": 0
+    },
+    "kimi-k3": {
+      "factCoverage": 1,
+      "unsupportedMedian": 3,
+      "chapterViolations": 0.3333333333333333
+    }
+  },
+  "context": {
+    "gpt-6-luna": {
+      "score": 1,
+      "texts": 9,
+      "byDim": {},
+      "centsPerChapter": 0.18530555555555553
+    },
+    "gpt-6.1-sol": {
+      "score": 0.9841269841269842,
+      "texts": 9,
+      "byDim": {
+        "selectivity": 1
+      },
+      "centsPerChapter": 3.054888888888889
+    },
+    "claude-haiku-5.5": {
+      "score": 0.9682539682539684,
+      "texts": 9,
+      "byDim": {
+        "psyche": 2
+      },
+      "centsPerChapter": 0.37024999999999997
+    },
+    "claude-sonnet-5.5": {
+      "score": 1,
+      "texts": 9,
+      "byDim": {},
+      "centsPerChapter": 6.714222222222222
+    },
+    "claude-opus-5.5": {
+      "score": 1,
+      "texts": 9,
+      "byDim": {},
+      "centsPerChapter": 13.488888888888887
+    },
+    "gemini-4-argon": {
+      "score": 1,
+      "texts": 9,
+      "byDim": {},
+      "centsPerChapter": 3.3643777777777775
+    },
+    "kimi-k3": {
+      "score": 1,
+      "texts": 9,
+      "byDim": {},
+      "centsPerChapter": 2.412832
+    }
+  },
+  "cost": {
+    "gpt-6-luna": {
+      "texts": 42,
+      "expected": 42,
+      "centsPerPage": 0.0557957212002024,
+      "medianSeconds": 10.83,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 4,
+      "totalUsd": 0.032469700000000004
+    },
+    "gpt-6.1-sol": {
+      "texts": 42,
+      "expected": 42,
+      "centsPerPage": 0.8363674344659298,
+      "medianSeconds": 21.9765,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 3,
+      "totalUsd": 0.5026940000000001
+    },
+    "claude-haiku-5.5": {
+      "texts": 42,
+      "expected": 42,
+      "centsPerPage": 0.1266199148835792,
+      "medianSeconds": 11.141,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 4,
+      "totalUsd": 0.07157050000000001
+    },
+    "claude-sonnet-5.5": {
+      "texts": 42,
+      "expected": 42,
+      "centsPerPage": 2.006977369939783,
+      "medianSeconds": 14.913,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 9,
+      "totalUsd": 1.2017
+    },
+    "claude-opus-5.5": {
+      "texts": 42,
+      "expected": 42,
+      "centsPerPage": 3.9222839506172837,
+      "medianSeconds": 20.8415,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 10,
+      "totalUsd": 2.5416399999999997
+    },
+    "gemini-4-argon": {
+      "texts": 42,
+      "expected": 42,
+      "centsPerPage": 0.7464831656200347,
+      "medianSeconds": 18.3545,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 6,
+      "totalUsd": 0.548126
+    },
+    "kimi-k3": {
+      "texts": 42,
+      "expected": 42,
+      "centsPerPage": 0.8374517140869798,
+      "medianSeconds": 15.7285,
+      "failed": 0,
+      "truncated": 0,
+      "metaText": 15,
+      "totalUsd": 0.5618556600000002
+    }
+  },
+  "judgeCostUsd": 11.301643999999996,
+  "failures": [],
+  "missing": [],
+  "human": {
+    "votes": 42,
+    "judges": [
+      "stephan"
+    ],
+    "tracks": {
+      "literary": {
+        "votes": 25,
+        "ties": 1,
+        "counts": {
+          "gpt-6-luna": {
+            "w": 5,
+            "t": 1,
+            "l": 5
+          },
+          "gpt-6.1-sol": {
+            "w": 3,
+            "t": 0,
+            "l": 2
+          },
+          "claude-haiku-5.5": {
+            "w": 3,
+            "t": 1,
+            "l": 8
+          },
+          "claude-sonnet-5.5": {
+            "w": 6,
+            "t": 0,
+            "l": 5
+          },
+          "claude-opus-5.5": {
+            "w": 4,
+            "t": 0,
+            "l": 3
+          },
+          "gemini-4-argon": {
+            "w": 3,
+            "t": 0,
+            "l": 1
+          },
+          "kimi-k3": {
+            "w": 0,
+            "t": 0,
+            "l": 0
+          }
+        },
+        "ratings": {
+          "gpt-6-luna": {
+            "rating": 968,
+            "lo": 754,
+            "hi": 1192
+          },
+          "gpt-6.1-sol": {
+            "rating": 1039,
+            "lo": 771,
+            "hi": 1326
+          },
+          "claude-haiku-5.5": {
+            "rating": 832,
+            "lo": 524,
+            "hi": 991
+          },
+          "claude-sonnet-5.5": {
+            "rating": 978,
+            "lo": 701,
+            "hi": 1228
+          },
+          "claude-opus-5.5": {
+            "rating": 1043,
+            "lo": 827,
+            "hi": 1348
+          },
+          "gemini-4-argon": {
+            "rating": 1140,
+            "lo": 839,
+            "hi": 1453
+          },
+          "kimi-k3": {
+            "rating": 1000,
+            "lo": 998,
+            "hi": 1002
+          }
+        },
+        "agreement": 0.5416666666666666,
+        "decisive": 24
+      },
+      "nonfiction": {
+        "votes": 17,
+        "ties": 2,
+        "counts": {
+          "gpt-6-luna": {
+            "w": 2,
+            "t": 1,
+            "l": 2
+          },
+          "gpt-6.1-sol": {
+            "w": 2,
+            "t": 0,
+            "l": 2
+          },
+          "claude-haiku-5.5": {
+            "w": 3,
+            "t": 1,
+            "l": 2
+          },
+          "claude-sonnet-5.5": {
+            "w": 3,
+            "t": 1,
+            "l": 3
+          },
+          "claude-opus-5.5": {
+            "w": 4,
+            "t": 0,
+            "l": 3
+          },
+          "gemini-4-argon": {
+            "w": 1,
+            "t": 1,
+            "l": 3
+          },
+          "kimi-k3": {
+            "w": 0,
+            "t": 0,
+            "l": 0
+          }
+        },
+        "ratings": {
+          "gpt-6-luna": {
+            "rating": 991,
+            "lo": 671,
+            "hi": 1318
+          },
+          "gpt-6.1-sol": {
+            "rating": 1035,
+            "lo": 695,
+            "hi": 1354
+          },
+          "claude-haiku-5.5": {
+            "rating": 1078,
+            "lo": 773,
+            "hi": 1399
+          },
+          "claude-sonnet-5.5": {
+            "rating": 986,
+            "lo": 680,
+            "hi": 1274
+          },
+          "claude-opus-5.5": {
+            "rating": 1054,
+            "lo": 801,
+            "hi": 1363
+          },
+          "gemini-4-argon": {
+            "rating": 856,
+            "lo": 557,
+            "hi": 1160
+          },
+          "kimi-k3": {
+            "rating": 1000,
+            "lo": 998,
+            "hi": 1002
+          }
+        },
+        "agreement": 0.5333333333333333,
+        "decisive": 15
+      }
+    }
+  },
+  "stats": {
+    "volume": {
+      "models": 7,
+      "texts": 294,
+      "words": 127973,
+      "groupVerdicts": 192,
+      "pairwiseComparisons": 2160,
+      "checklistChecks": 252,
+      "quotedErrors": 3632
+    },
+    "quotedErrorsPerText": {
+      "gpt-6.1-sol": 2.2916666666666665,
+      "claude-opus-5.5": 3.0833333333333335,
+      "kimi-k3": 4.5625,
+      "gemini-4-argon": 4.256944444444445,
+      "gpt-6-luna": 3.3819444444444446,
+      "claude-haiku-5.5": 4.138888888888889,
+      "claude-sonnet-5.5": 3.5069444444444446
+    },
+    "tracks": {
+      "literary": {
+        "winProbability": {
+          "gpt-6.1-sol": {
+            "gpt-6.1-sol": 0.5,
+            "claude-opus-5.5": 0.581301478368915,
+            "claude-sonnet-5.5": 0.8312539156520465,
+            "gpt-6-luna": 0.9291127058412668,
+            "gemini-4-argon": 0.9663013437531566,
+            "kimi-k3": 0.9767049635264207,
+            "claude-haiku-5.5": 0.9781030013517666
+          },
+          "claude-opus-5.5": {
+            "gpt-6.1-sol": 0.41869852163108506,
+            "claude-opus-5.5": 0.5,
+            "claude-sonnet-5.5": 0.7801296039931584,
+            "gpt-6-luna": 0.904220144369614,
+            "gemini-4-argon": 0.953818732599141,
+            "kimi-k3": 0.9679482219721289,
+            "claude-haiku-5.5": 0.969855570799269
+          },
+          "claude-sonnet-5.5": {
+            "gpt-6.1-sol": 0.16874608434795343,
+            "claude-opus-5.5": 0.2198703960068415,
+            "claude-sonnet-5.5": 0.5,
+            "gpt-6-luna": 0.726830072276731,
+            "gemini-4-argon": 0.8533946221118819,
+            "kimi-k3": 0.8948627896440804,
+            "claude-haiku-5.5": 0.9006730359903561
+          },
+          "gpt-6-luna": {
+            "gpt-6.1-sol": 0.0708872941587333,
+            "claude-opus-5.5": 0.09577985563038598,
+            "claude-sonnet-5.5": 0.27316992772326887,
+            "gpt-6-luna": 0.5,
+            "gemini-4-argon": 0.6863002576833125,
+            "kimi-k3": 0.761842109917936,
+            "claude-haiku-5.5": 0.7731399130767673
+          },
+          "gemini-4-argon": {
+            "gpt-6.1-sol": 0.03369865624684348,
+            "claude-opus-5.5": 0.04618126740085911,
+            "claude-sonnet-5.5": 0.14660537788811823,
+            "gpt-6-luna": 0.3136997423166875,
+            "gemini-4-argon": 0.5,
+            "kimi-k3": 0.5938553852361779,
+            "claude-haiku-5.5": 0.6090326034042396
+          },
+          "kimi-k3": {
+            "gpt-6.1-sol": 0.023295036473579323,
+            "claude-opus-5.5": 0.032051778027871104,
+            "claude-sonnet-5.5": 0.10513721035591964,
+            "gpt-6-luna": 0.238157890082064,
+            "gemini-4-argon": 0.4061446147638222,
+            "kimi-k3": 0.5,
+            "claude-haiku-5.5": 0.515824985264735
+          },
+          "claude-haiku-5.5": {
+            "gpt-6.1-sol": 0.021896998648233378,
+            "claude-opus-5.5": 0.03014442920073095,
+            "claude-sonnet-5.5": 0.09932696400964384,
+            "gpt-6-luna": 0.2268600869232327,
+            "gemini-4-argon": 0.39096739659576046,
+            "kimi-k3": 0.4841750147352649,
+            "claude-haiku-5.5": 0.5
+          }
+        },
+        "ordered": [
+          "gpt-6.1-sol",
+          "claude-opus-5.5",
+          "claude-sonnet-5.5",
+          "gpt-6-luna",
+          "gemini-4-argon",
+          "kimi-k3",
+          "claude-haiku-5.5"
+        ],
+        "agreement": [
+          {
+            "judges": [
+              "opus",
+              "sol"
+            ],
+            "same": 19,
+            "of": 21
+          },
+          {
+            "judges": [
+              "opus",
+              "gemini"
+            ],
+            "same": 18,
+            "of": 21
+          },
+          {
+            "judges": [
+              "sol",
+              "gemini"
+            ],
+            "same": 18,
+            "of": 21
+          }
+        ],
+        "selfPreference": [
+          {
+            "judge": "opus",
+            "model": "claude-haiku-5.5",
+            "ownRank": 5,
+            "othersRank": 6.5
+          },
+          {
+            "judge": "opus",
+            "model": "claude-sonnet-5.5",
+            "ownRank": 3,
+            "othersRank": 3
+          },
+          {
+            "judge": "opus",
+            "model": "claude-opus-5.5",
+            "ownRank": 1,
+            "othersRank": 1.5
+          },
+          {
+            "judge": "sol",
+            "model": "gpt-6-luna",
+            "ownRank": 4,
+            "othersRank": 4.5
+          },
+          {
+            "judge": "sol",
+            "model": "gpt-6.1-sol",
+            "ownRank": 1,
+            "othersRank": 2
+          },
+          {
+            "judge": "gemini",
+            "model": "gemini-4-argon",
+            "ownRank": 4,
+            "othersRank": 5.5
+          }
+        ]
+      },
+      "nonfiction": {
+        "winProbability": {
+          "gpt-6.1-sol": {
+            "gpt-6.1-sol": 0.5,
+            "claude-opus-5.5": 0.5573116337622928,
+            "gpt-6-luna": 0.8221846111535023,
+            "claude-sonnet-5.5": 0.8230246289217321,
+            "claude-haiku-5.5": 0.8625119039913111,
+            "gemini-4-argon": 0.9306143375182546,
+            "kimi-k3": 0.9517472964094822
+          },
+          "claude-opus-5.5": {
+            "gpt-6.1-sol": 0.44268836623770724,
+            "claude-opus-5.5": 0.5,
+            "gpt-6-luna": 0.7859966022821575,
+            "claude-sonnet-5.5": 0.7869632793894692,
+            "claude-haiku-5.5": 0.8328626902603795,
+            "gemini-4-argon": 0.9141902593095826,
+            "kimi-k3": 0.940003038370024
+          },
+          "gpt-6-luna": {
+            "gpt-6.1-sol": 0.17781538884649764,
+            "claude-opus-5.5": 0.21400339771784252,
+            "gpt-6-luna": 0.5,
+            "claude-sonnet-5.5": 0.5014391117091528,
+            "claude-haiku-5.5": 0.5756869523764296,
+            "gemini-4-argon": 0.7436345220073278,
+            "kimi-k3": 0.8100951586047567
+          },
+          "claude-sonnet-5.5": {
+            "gpt-6.1-sol": 0.17697537107826786,
+            "claude-opus-5.5": 0.21303672061053083,
+            "gpt-6-luna": 0.4985608882908471,
+            "claude-sonnet-5.5": 0.5,
+            "claude-haiku-5.5": 0.5742802036545245,
+            "gemini-4-argon": 0.7425355589430698,
+            "kimi-k3": 0.809207997485838
+          },
+          "claude-haiku-5.5": {
+            "gpt-6.1-sol": 0.13748809600868891,
+            "claude-opus-5.5": 0.16713730973962054,
+            "gpt-6-luna": 0.4243130476235704,
+            "claude-sonnet-5.5": 0.4257197963454755,
+            "claude-haiku-5.5": 0.5,
+            "gemini-4-argon": 0.6813218351663937,
+            "kimi-k3": 0.7586946201468556
+          },
+          "gemini-4-argon": {
+            "gpt-6.1-sol": 0.06938566248174542,
+            "claude-opus-5.5": 0.08580974069041739,
+            "gpt-6-luna": 0.25636547799267223,
+            "claude-sonnet-5.5": 0.25746444105693017,
+            "claude-haiku-5.5": 0.3186781648336063,
+            "gemini-4-argon": 0.5,
+            "kimi-k3": 0.5952430396515719
+          },
+          "kimi-k3": {
+            "gpt-6.1-sol": 0.04825270359051784,
+            "claude-opus-5.5": 0.059996961629975955,
+            "gpt-6-luna": 0.1899048413952433,
+            "claude-sonnet-5.5": 0.19079200251416192,
+            "claude-haiku-5.5": 0.24130537985314435,
+            "gemini-4-argon": 0.4047569603484281,
+            "kimi-k3": 0.5
+          }
+        },
+        "ordered": [
+          "gpt-6.1-sol",
+          "claude-opus-5.5",
+          "gpt-6-luna",
+          "claude-sonnet-5.5",
+          "claude-haiku-5.5",
+          "gemini-4-argon",
+          "kimi-k3"
+        ],
+        "agreement": [
+          {
+            "judges": [
+              "opus",
+              "sol"
+            ],
+            "same": 15,
+            "of": 21
+          },
+          {
+            "judges": [
+              "opus",
+              "gemini"
+            ],
+            "same": 17,
+            "of": 21
+          },
+          {
+            "judges": [
+              "sol",
+              "gemini"
+            ],
+            "same": 13,
+            "of": 21
+          }
+        ],
+        "selfPreference": [
+          {
+            "judge": "opus",
+            "model": "claude-haiku-5.5",
+            "ownRank": 4,
+            "othersRank": 4.5
+          },
+          {
+            "judge": "opus",
+            "model": "claude-sonnet-5.5",
+            "ownRank": 3,
+            "othersRank": 4.5
+          },
+          {
+            "judge": "opus",
+            "model": "claude-opus-5.5",
+            "ownRank": 1,
+            "othersRank": 2
+          },
+          {
+            "judge": "sol",
+            "model": "gpt-6-luna",
+            "ownRank": 2,
+            "othersRank": 5.5
+          },
+          {
+            "judge": "sol",
+            "model": "gpt-6.1-sol",
+            "ownRank": 1,
+            "othersRank": 2
+          },
+          {
+            "judge": "gemini",
+            "model": "gemini-4-argon",
+            "ownRank": 3,
+            "othersRank": 6.5
+          }
+        ]
+      }
+    }
+  },
+  "generationCostUsd": 5.460055860000002
+}

@@ -1,0 +1,126 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "F": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "*(rührt im Kaffee)* vs. *Keiner rührt seinen an.* (Regieanweisung widerspricht dem direkt zuvor Gesagten oder hebt es sofort wieder auf)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "rührt in einer leeren Tasse ... Der Kaffee sieht kalt aus. ... Ich hab nicht bestellt. (Schwerer Logikbruch: Ist die Tasse leer, voll mit kaltem Kaffee oder wurde gar nichts bestellt?)",
+          "Sie fragt manchmal nach dir. – Das freut mich. – Sie hat nicht gesagt, dass es sie freut. (Komplett unlogischer Dialogverlauf, ergibt semantisch keinen Sinn)",
+          "Erinnerst du dich an den Sommer am See? (Abgedroschenes Dialog-Klischee ohne konkreten Subtext)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "rührt in seinem leeren Tee (Idiomatischer Unsinn: Man kann nicht im 'leeren Tee' rühren, höchstens in der leeren Tasse, und auch das ist ein Klischee)",
+          "Jeden Zettel, jedes Wort. Bis kein Platz mehr zum Atmen ist. – Und du machst lieber tabula rasa. (Verstoß gegen die Aufgabe: Der Konflikt bleibt nicht unausgesprochen, sondern wird plakativ ausbuchstabiert)",
+          "LUKAS sitzt am Tisch und dreht seinen Ehering ... kleine Pappschachtel über den Tisch (wirkt wie ein Trennungsdialog eines Ex-Paares, nicht wie alte Freunde)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Als Jakob kommt, nimmt er seine Jacke vom zweiten Stuhl. ... (Martin nimmt die Jacke vom Stuhl neben sich und hängt sie an den Haken.) (Kontinuitätsfehler: Die Jacke wurde schon zu Beginn vom Stuhl genommen)",
+          "Ich konnte sie noch aufhalten, wenn du etwas anderes willst. (Tempus-/Modusfehler: Es müsste 'Ich könnte sie noch aufhalten' oder 'Ich kann sie noch aufhalten' heißen)",
+          "Du sitzt noch immer hier. – Die anderen Plätze waren frei. (Unlogische Replik: Wenn die anderen frei waren, erklärt das nicht, warum er ausgerechnet diesen nimmt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Ich kann dir einen anderen holen. (Unplausibel, da die erste Regieanweisung 'Vor dem geschlossenen Café' lautet und es regnet)",
+          "Und deine, alles stehen zu lassen, bis jemand anders es aufhebt. (Hier wird der Subtext zu stark in Richtung offenen Vorwurfs verlassen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "*(rührt in seinem Kaffee, der längst umgerührt ist)* (Übererklärende, ungeschickte Regieanweisung)",
+          "Die Kellnerin stellt ein Glas Wasser vor Martin ab. (Unplausibel: Er hat sich gerade erst gesetzt, nichts bestellt und wollte 'eigentlich nicht lange' bleiben)",
+          "Ich hab’s nicht so gemeint. Damals. Zumindest nicht alles. (Bricht die Vorgabe des unausgesprochenen Konflikts durch zu direkte Entschuldigung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "D",
+      "F",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3846,
+    "out": 1059,
+    "thinking": 0
+  },
+  "costUsd": 0.018282
+}

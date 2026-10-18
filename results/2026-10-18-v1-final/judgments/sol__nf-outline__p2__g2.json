@@ -1,0 +1,112 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Herzlichen Glückwunsch, Sie führen jetzt (und keiner hat Ihnen gesagt, wie)“: Die Sie-Ansprache widerspricht der ausdrücklich verlangten Du-Ansprache.",
+          "„Warum die meisten Teamleiter im Mittelstand in die Rolle hineinrutschen“ und „Wie du den Rollenwechsel gegenüber deinem Team offen ansprichst“: Die Kapitel 1 und 2 behandeln beide den Einstieg in die Führungsrolle, ohne ihre Gegenstände ausreichend voneinander abzugrenzen.",
+          "„Feedback geben, das ankommt“ und „Schwierige Gespräche führen“: Kritik einerseits und das Ansprechen schlechter Leistung andererseits überschneiden sich; eine klare Trennung zwischen alltäglicher Rückmeldung und anlassbezogenem Klärungsgespräch fehlt.",
+          "„ohne auf dicke Hose zu machen“: Die demonstrativ saloppe Formulierung wirkt eher anbiedernd als sachlich-praktisch."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Loslassen lernen“ vor „Sag klar, was du willst“: Die Reihenfolge ist didaktisch nicht optimal; klare Ziele und Erwartungen bilden die Grundlage dafür, Aufgaben sinnvoll abzugeben.",
+          "„Warum du deine alte Facharbeit nicht mehr selbst erledigen kannst“: Die Aussage ist zu pauschal für Teamleiter im Mittelstand, die häufig weiterhin Fachaufgaben übernehmen.",
+          "„Erst verstehen, dann verändern“ und „Reden, bevor es brennt“: Beide Kapitel setzen auf Gespräche zum Erkennen von Problemen; die Abgrenzung zwischen anfänglicher Bestandsaufnahme und dauerhafter Gesprächspraxis könnte ausdrücklicher sein."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Der erste Tag“: Der zugehörige Satz umfasst allgemein das Ankommen und die ersten Wochen; damit greift Kapitel 1 den anschließend behandelten Themen Rollenklärung und Kollegenverhältnis vor.",
+          "„Schwierige Gespräche“ und „Streit im Team und zwischen den Abteilungen“: Verhaltensfragen und Konfliktbearbeitung liegen eng beieinander; die Grenze zwischen Einzelgespräch und Vermittlung müsste ausdrücklich gezogen werden.",
+          "„ohne sie zu verteidigen oder zu verraten“: Entscheidungen zu „verraten“ ist hier eine unpassende Wortverbindung; unklar bleibt, ob Indiskretion, Illoyalität oder Distanzierung gemeint ist.",
+          "„statt zu schlichten, bis niemand mehr etwas sagt“: Das Bild bleibt unklar und stellt Schlichtung ohne nähere Erklärung als problematisches Verstummenlassen dar.",
+          "„wenn du plötzlich über ihnen stehst“: Die Formulierung zeichnet den Rollenwechsel unnötig hierarchisch, statt die veränderte Verantwortung zu benennen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„wie du die ersten Tage und Wochen übersteht“: Falsche Verbform; richtig ist „überstehst“.",
+          "„was deine Geschäftsführung, dein Team und du selbst von dir erwartest“: Das mehrteilige Subjekt verlangt den Plural „erwarten“.",
+          "„Klarheit schaffen: Ziele, Prioritäten und Besprechungen“ nach „Aufgaben abgeben, ohne die Kontrolle zu verlieren“: Ziele und Prioritäten sollten vor der Aufgabenübergabe geklärt werden; die Reihenfolge schwächt den aufbauenden Charakter.",
+          "„Rückmeldung im Alltag“ und „Schwierige Gespräche führen“: Kritik und Gespräche über Leistungsprobleme oder Fehlverhalten werden nicht ausreichend gegeneinander abgegrenzt.",
+          "„Du fasst zusammen, was du aus den Kapiteln mitnimmst“: Das beschreibt eher eine Leseübung als den eigenständigen sachlichen Gegenstand des Schlusskapitels."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "C",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2904,
+    "out": 1303,
+    "thinking": 233
+  },
+  "costUsd": 0.018838
+}

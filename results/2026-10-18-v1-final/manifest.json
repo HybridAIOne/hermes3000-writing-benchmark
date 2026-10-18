@@ -1,0 +1,25 @@
+{
+  "benchmark": "hermes3000-writing-benchmark/v1",
+  "fingerprint": "66e0bd8f75bf965c",
+  "privateTasks": null,
+  "stage": "final",
+  "runs": 3,
+  "passes": 2,
+  "models": [
+    "gpt-6-luna",
+    "gpt-6.1-sol",
+    "claude-haiku-5.5",
+    "claude-sonnet-5.5",
+    "claude-opus-5.5",
+    "gemini-4-argon",
+    "kimi-k3"
+  ],
+  "judges": [
+    "opus",
+    "sol",
+    "gemini"
+  ],
+  "started": "2026-10-18T05:21:56.084Z",
+  "node": "v22.22.2",
+  "commit": "c679e04"
+}

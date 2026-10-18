@@ -1,0 +1,138 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "F": {
+      "model": "gemini-4-argon",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Klar. Später vielleicht?“ – leicht widersprüchliche Antwort, das Ausweichen wirkt dadurch etwas konstruiert",
+          "„Auch wenn deine Stimme dabei anfangs ein wenig zittert.“ – nachgeschobener Satzfragment-Schluss, etwas weich",
+          "Vier Absätze statt eines Einstiegsabsatzes",
+          "„Hast du kurz?“ – sehr umgangssprachlich, im Kontext aber vertretbar"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Man hat die Information, man hat den Anlass“ – Wechsel von Du-Ansprache zu „man“",
+          "„Es geht um eine Haltung“ – leicht floskelhaft",
+          "Mit rund 300 Wörtern deutlich über dem Umfang",
+          "„wie beim letzten Mal“ – unterstellt ein früheres Gespräch, das nirgends eingeführt ist",
+          "Vier Absätze statt eines Einstiegsabsatzes"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Kurz mit Jens sprechen.\" – falsches schließendes Anführungszeichen",
+          "„bist du in guter Gesellschaft“ – abgegriffene Wendung",
+          "„Als ob das helfen würde.“ – etwas unklarer Bezug",
+          "Sehr langer Block ohne Atempause, der Übergang von der Szene zur Reflexion ist nicht markiert"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Alles gut bei dir?\" – falsches schließendes Anführungszeichen",
+          "„die schlechteste aller Strategien“ – Floskel",
+          "„bist du in guter Gesellschaft“ – abgegriffene Wendung",
+          "„Man will niemanden verletzen, man will keinen Streit“ – Wechsel zu „man“",
+          "„Dass seine Ergebnisse im letzten Quartal nicht gestimmt haben.“ – vage, wenig konkret"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„ist es elf. Am Ende sagst du im Vorbeigehen: ‚Na, auch schon da?‘“ – unlogisch, Markus ist zu diesem Zeitpunkt seit zwei Stunden da",
+          "Mit rund 200 Wörtern deutlich unter dem Umfang",
+          "„Na, auch schon da?\", – falsches schließendes Anführungszeichen",
+          "„es wird nur größer und bekommt Gesellschaft“ – etwas gesuchtes Bild"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„die wahre Feuerprobe“, „auf dünnes Eis“, „vergiftet“ – gehäufte Klischee-Metaphern",
+          "„Deshalb schieben wir solche Gespräche vor uns her“ – Wechsel von Du zu „wir“",
+          "„als echte Führungskraft akzeptiert“ – pathetischer Schluss ohne Kapitelausblick",
+          "„vor dem Wochenmeeting“ – Anglizismus, wo „Wochenbesprechung“ näherläge",
+          "Dramatisierende Zuspitzung („dumpfen Druck im Magen“, „kalt erwischt“) statt nüchterner Praxisnähe"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "D",
+      "B",
+      "E",
+      "F"
+    ]
+  },
+  "usage": {
+    "in": 5824,
+    "out": 2790,
+    "thinking": 1446
+  },
+  "costUsd": 0.079096
+}

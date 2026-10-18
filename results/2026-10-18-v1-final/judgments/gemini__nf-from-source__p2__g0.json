@@ -1,0 +1,117 @@
+{
+  "task": "nf-from-source",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„seit über siebzig Jahrzehnten“ – grober sachlicher und sprachlicher Schnitzer (70 Jahrzehnte wären 700 Jahre, gemeint sind über 70 Jahre oder sieben Jahrzehnte).",
+          "„Die Genossenschaft aber verfolgt keinen Gewinnzweck“ – nicht durch das Quellmaterial gedeckt (dort steht nur, dass Überschüsse nicht ausgeschüttet werden).",
+          "„# Die Fährgenossenschaft Hitzacker: Genossenschaft in der Praxis“ – Markdown-Formatierung im Buchtext."
+        ],
+        "unsupported": [
+          "seit über siebzig Jahrzehnten",
+          "Der Fährbetrieb ist wirtschaftlich klein und kaum renditestark – für einen privaten Investor wenig attraktiv.",
+          "Die Genossenschaft aber verfolgt keinen Gewinnzweck"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„eine 212 Meter breite Elbe“ – unidiomatisch durch den unbestimmten Artikel bei einem Flussnamen (besser: „die an dieser Stelle 212 Meter breite Elbe“).",
+          "„Die Genossenschaft verbindet so die finanzielle Beteiligung ihrer Mitglieder mit einem gleichen Stimmrecht für jedes einzelne Mitglied.“ – umständliche Wiederholung des vorherigen Satzes."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„von 41 Landwirten und Händlern aus beiden Elbufern“ – unidiomatische Präposition unreflektiert aus den Stichpunkten übernommen (korrekt: „von beiden Elbufern“).",
+          "„Wie eine Genossenschaft funktioniert und warum sie die passende Rechtsform für den Betrieb einer Fähre ist, lässt sich am Beispiel der Fährgenossenschaft Hitzacker eG nachvollziehen.“ – hölzerner Einstieg, der lediglich die Aufgabenstellung abschreibt.",
+          "„ist auch die zukünftige Erneuerung der Fähre bereits abgesichert“ – Widerspruch zur Quelle, laut der die Rücklage erst bis 2031 ausreichen soll."
+        ],
+        "unsupported": [
+          "ist auch die zukünftige Erneuerung der Fähre bereits abgesichert"
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„taten sich 1953 41 Landwirte und Händler aus beiden Elbufern zusammen“ – zwei direkt aufeinanderfolgende Zahlen wirken im Satzbild unschön; zudem unidiomatische Präposition „aus beiden Elbufern“ aus der Vorlage übernommen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„2024 beförderte sie rund 64.000 Personen“ – Verfälschung der Quelle (dort ist von „pro Jahr rund 64.000 Personen“ die Rede, nicht spezifisch vom Jahr 2024).",
+          "„Die Fähre überquert die 212 Meter breite Elbe in sieben Minuten“ – Auslassung der wichtigen Einschränkung „bei normalem Wasserstand“ und der Angabe, dass die Elbe nur „an einer Stelle“ dort so breit ist.",
+          "„gleich wie viele Anteile es besitzt“ – fehlendes Komma vor „gleich wie“ (verkürzt für „gleichgültig, wie“)."
+        ],
+        "unsupported": [
+          "Als der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte (Quelle nennt 1953 als Gründungsjahr der eG, nicht zwingend als Jahr der Einstellung)",
+          "2024 beförderte sie rund 64.000 Personen (Quelle sagt allgemein: pro Jahr)"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "E",
+      "C",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 3746,
+    "out": 1093,
+    "thinking": 0
+  },
+  "costUsd": 0.018422
+}

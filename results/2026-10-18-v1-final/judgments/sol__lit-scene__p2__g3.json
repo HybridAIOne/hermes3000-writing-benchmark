@@ -1,0 +1,133 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "F": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„als hätte das Haus beschlossen, sie nicht sofort hineinzulassen“: Die Personifizierung des widerstrebenden Hauses ist eine geläufige Eröffnungsformel und nimmt dem Einstieg Eigenständigkeit.",
+          "„Der schmale Spalt darunter war dunkel“ und „ein einzelnes, blaues Fädchen“: Zwei zusätzliche Rätselsignale konkurrieren mit dem bereits überzeugend eingeführten Apfelgeruch. Die Spannung wirkt dadurch etwas arrangiert.",
+          "„als erwarte ihre Mutter Besuch“: Der Tod der Mutter wird im gesamten Text nicht eindeutig kenntlich; eine zentrale Inhaltsvorgabe bleibt lediglich erschließbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 8,
+        "fehler": [
+          "„am Kragen ausgeblickt“: Wortfehler; gemeint ist vermutlich „abgewetzt“ oder „ausgeblichen“.",
+          "„eine Tasse, nach innen gestülpt“: Keine passende Beschreibung einer umgedrehten Tasse. Die Formulierung bezeichnet eine Verformung statt ihrer Aufstellung.",
+          "„Dass er sich zwanzig Jahre gehalten hatte, war unmöglich“: Aus Marlens zwanzigjähriger Abwesenheit folgt nicht, dass die Lavendelsäckchen ebenso lange unverändert dort lagen. Die behauptete Unmöglichkeit hat keine erzählerische Grundlage.",
+          "„wie von einem Trauerflor“ und „wie eine Hand, die etwas sucht“: Konventionelle Trauer- und Bedrohungsbilder überfrachten die ohnehin bildreiche Szene.",
+          "„ob ihre Mutter wirklich allein hier gestorben war“: Der Schluss setzt einen deutlichen Verdacht, ohne ihn durch ein hinreichend belastbares Wahrnehmungsdetail vorzubereiten. Der stärker werdende Duft trägt diese Zuspitzung nicht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Vor zwanzig Jahren hatte ich diese Dose zuletzt gesehen“: Der Text umfasst nur rund 240 Wörter und bleibt damit merklich unter dem Richtwert. Zudem bestätigt diese Zeitangabe streng genommen nur die letzte Begegnung mit der Dose, nicht ausdrücklich die letzte Rückkehr ins Haus.",
+          "„Niemand hatte ihn abgenommen. Wer hätte das auch tun sollen.“: Die Abwesenheit der Mutter wird nahegelegt, ihr Tod aber nicht eindeutig etabliert.",
+          "„dass ich mich am Tresen festhalten musste“: Die körperliche Überwältigung durch den Erinnerungsgeruch ist eine vertraute, hier recht starke Reaktionsformel.",
+          "„mit einer Wärme füllte, die nicht von der Heizung kam“: Die emotionale Bedeutung des Geruchs wird in einer abgegriffenen Wendung ausbuchstabiert, statt der konkreten Wahrnehmung zu vertrauen.",
+          "„Im Hof schlug eine Tür zu. Ich rührte mich nicht.“: Der abrupte Spannungsabschluss ist funktional, nach dem frischen Kaffee aber ein zweites, wenig individuelles Bedrohungssignal."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Aber der Pendel schwang“: Falsches Genus; richtig ist „das Pendel“.",
+          "„Dann hörte sie es.“: Der isolierte Ankündigungssatz setzt einen konventionellen Spannungseffekt vor die eigentliche Wahrnehmung. Das konkrete Uhrengeräusch könnte den Übergang selbst tragen.",
+          "„damit niemand außer ihr ihn fand“: Die Erklärung macht aus der Zuckerdose ein behauptet exklusives Versteck, obwohl Ines es offensichtlich kennt. Als Absicht der Mutter ist das möglich, wirkt hier aber vor allem auf die Schlusspointe hin konstruiert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 9,
+        "fehler": [
+          "„die Gartenerde – und einmal auch etwas ganz anderes – unter den Fingernägeln“: Der eingeschobene Hinweis hält Wissen der Figur demonstrativ zurück. Statt eines unaufdringlich bedeutungsträchtigen Details entsteht eine ausgestellte Geheimnisankündigung.",
+          "„als wehrte sich das Messing“, „als atmete das Haus“ und „wie ein gestrandetes Tier“: Die Häufung belebender Vergleiche lässt die Atmosphäre gemacht wirken; besonders das gestrandete Klavier ist ein verbrauchtes Bild.",
+          "„Zwanzig Jahre schrumpften auf die Breite einer Türschwelle zusammen“ und „Nichts war verändert worden, und doch war alles verschoben“: Zwei effektvolle Abstraktionen erklären den Rückkehrschock, den die anschließende veränderte Raumwahrnehmung bereits konkreter vermittelt.",
+          "„eine chemische Geisterspur“: Die zusätzliche Metapher benennt die unheimliche Wirkung, bevor das präzise Seifendetail sie entfalten kann.",
+          "„der Daumenabdruck ihrer Mutter“: Die Mutter ist als Erinnerungsfigur präsent, ihr Tod wird jedoch nirgends eindeutig kenntlich gemacht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Die mittlere war tiefer als die anderen; ihr Fingernagel blieb darin hängen. Sie zog die Hand weg.“: Die Rückzugsbewegung markiert die Kerben bereits recht deutlich als belastetes Erinnerungsdetail. Eine geringfügig zurückhaltendere Reaktion könnte ihre spätere Bedeutung noch offener halten."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "F",
+      "D",
+      "A",
+      "C",
+      "E",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3220,
+    "out": 1938,
+    "thinking": 512
+  },
+  "costUsd": 0.02582
+}

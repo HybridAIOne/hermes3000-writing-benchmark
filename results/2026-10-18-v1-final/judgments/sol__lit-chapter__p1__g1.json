@@ -1,0 +1,120 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Hundertzwanzig Meter bis zur ersten Boje, dann eine Linkskurve“: Die beschriebene Fahrtroute passt nicht zur zuvor etablierten, zwischen den Ufern am Seil geführten Fähre. Die nautische Handlung müsste grundlegend überprüft werden.",
+          "„Sie wusste auch so, wer es war.“: Der Anrufer bleibt unbenannt; dass es Jonas ist, wird im Text nicht erkennbar gemacht.",
+          "„Die Fähre verlor ihre Fahrt, glitt die letzten Meter aus dem Nebel und stieß sanft gegen den Anleger.“: Nach dem Telefonat folgen Nachrichtensignal und Anlegemanöver. Der verlangte Anruf bildet dadurch nicht den Schluss.",
+          "„Sie hatte ihm vor Jahren einmal ein Stück Wurst zugeworfen“: Die rückblickende Erklärung unterbricht die gegenwärtige Szene und widerspricht der gewünschten Darstellung ohne Rückblenden-Exposition.",
+          "„Die junge Frau sah sie an, unsicher, ob das ein Scherz war.“ / „Sie hörte, wie er nach einer Antwort suchte“: Wiederholt werden Reaktionen ausgedeutet, statt sie durch beobachtbares Verhalten wirksam werden zu lassen."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Am Anleger lag die nächste kleine Warteschlange in der üblichen Ordnung: erst der Mann mit dem Fahrrad, dann die Frau, dann der Lieferwagen. Nein, die waren schon drüben.“: Eine zunächst als Wahrnehmung erzählte Warteschlange wird unvermittelt widerrufen. Das führt ohne Vorbereitung eine erhebliche Verwirrung Ilses ein und stört den gewöhnlichen Arbeitsmorgen.",
+          "„Dieser hier lief zu hoch, als wäre der Fahrer es gewohnt, dass man ihm Platz machte.“: Aus einer Motordrehzahl wird eine Charaktereigenschaft abgeleitet. Die Zuschreibung wirkt konstruiert statt präzise beobachtet.",
+          "„Die Bremse. Wir schwimmen nicht weg.“: Der Einwand beantwortet die Vorsichtsmaßnahme des Fahrers nicht plausibel: Dessen Bremse sichert das Fahrzeug auf dem Deck, nicht die Fähre auf dem Fluss.",
+          "„Das andere Ufer nur daran erkannte, dass es fehlte“: Die paradoxe Eröffnung setzt einen literarischen Effekt an die Stelle einer genauen Wahrnehmung.",
+          "„Auch der Nebel schien an der Bewegung der Fähre teilzunehmen, statt sie nur zu umgeben.“: Das abstrakte Bild bleibt schwer vorstellbar und schwächt die ansonsten konkrete Arbeitsdarstellung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Offenbar war sie durch das Gras zur Garage gegangen, oder über einen Hof.“: Die spekulative Rekonstruktion erklärt ein beiläufiges Detail unnötig ausführlich.",
+          "„Drei Fahrgäste. Zwei Autos, ein Fahrrad.“: Die ausdrückliche Zählung wirkt etwas kontrollierend; die übersichtlich erzählte Einschiffung hat die Zahl bereits eindeutig vermittelt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„vor sich einen dieser Kaffee in Pappbechern“: Falsche Pluralform; korrekt wäre „einen dieser Kaffees in Pappbechern“.",
+          "„ohne dass einer von beiden etwas sagte“: Da beide Beteiligten Frauen sind, müsste es hier „eine von beiden“ heißen.",
+          "„die er ihr einmal mitgebracht und die sie nicht hatte austrinken können“: Die eingeschobene Erinnerung liefert rückblickende Beziehungsexposition, obwohl diese ausdrücklich ausgeschlossen war.",
+          "„Der Wind drehte um diese Jahreszeit gegen zehn“: Die zuverlässig zur Uhrzeit eintretende Wetteränderung wird als gesichertes Erfahrungswissen behauptet. Das wirkt schematisch und macht Ilse künstlich unfehlbar.",
+          "„Hab nicht gewartet […] Ich hab nur noch nicht abgelegt.“: Zusammen mit „Sie stehen drauf“ und „Dann fass es nicht an“ entsteht eine Häufung pointierter Abwehrsätze. Die Wortkargheit wird zur wiederholten Dialognummer."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "„Das Seil lief durch ihre Handflächen, Glied um Glied“: Ein Seil hat keine Glieder. Die wiederholte Formulierung verwechselt Seil und Kette; zugleich bleibt der Antrieb einer mit Autos beladenen Fähre durch bloßes Ziehen technisch unplausibel dargestellt.",
+          "„am Dömitzer Ufer“ / „zurück auf die Hitzacker Seite“: Der Text macht aus den Orten gegenüberliegende Fähranleger. Dömitz liegt jedoch nicht gegenüber von Hitzacker. Das ist ein erheblicher geografischer Fehler.",
+          "„Sie steht drauf.“: Gegenüber dem gesiezten männlichen Fahrgast müsste es „Sie stehen drauf“ heißen.",
+          "„Woher wissen Sie das.“ / „Bei welcher Sicht.“: Die direkten Fragen stehen fälschlich mit Punkten statt mit Fragezeichen.",
+          "„Dann steckte sie das Telefon zurück in die Tasche, griff nach dem Seil und zog die Fähre weiter, Glied um Glied, ans Ufer.“: Der Text überschreitet die verlangten etwa 900 Wörter deutlich. Wiederholte Seilhandlungen, Nebelbilder und ausgedehnte Einzelüberfahrten erzeugen dabei eher Streckung als zusätzliche szenische Substanz."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "B",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 7830,
+    "out": 1930,
+    "thinking": 512
+  },
+  "costUsd": 0.03496
+}

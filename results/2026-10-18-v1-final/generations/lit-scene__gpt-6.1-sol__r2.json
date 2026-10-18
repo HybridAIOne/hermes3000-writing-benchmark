@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "gpt-6.1-sol",
+  "run": 2,
+  "text": "Der Schlüssel ging schwer, aber er passte noch. Judith musste die Tür mit der Schulter anheben, wie früher, wenn das Holz im Herbst gequollen war. Ihr Körper wusste es vor ihr.\n\nIm Flur lag ein Werbeprospekt auf dem Rücken. Eine Frau hielt darin eine Pfanne hoch, als hätte sie etwas gewonnen. Dahinter hatten sich weitere Umschläge gestaut, die meisten an ihre Mutter adressiert. Judith schob sie mit dem Schuh beiseite und schloss die Tür. Das Geräusch war kleiner, als sie es in Erinnerung hatte.\n\nZwanzig Jahre lang hatte sie dieses Haus nur von der anderen Straßenseite gesehen, wenn überhaupt. Jetzt stand es seit sieben Monaten leer. Der Notar hatte von einer Immobilie gesprochen, von Räumung und Fristen. Am Telefon hatte sie alles mitgeschrieben.\n\nDie Garderobe hing noch immer zu tief. Ihr Vater hatte sie angebracht, bevor er ging; ihre Mutter hatte später die Tapete darum herum erneuert. Unter dem untersten Haken stand ein Paar gefütterter Schuhe. Die Spitzen zeigten zur Tür.\n\nJudith stellte ihre Tasche ab.\n\nAus der Küche kam der Geruch nach altem Fett und etwas Scharfem. Sie öffnete den Schrank unter der Spüle. Zwischen eingetrockneten Schwämmen lag ein Stück gelbe Kernseife, in dessen Oberfläche ein schwarzes Haar eingeschlossen war. Sie nahm es heraus. Die Seife roch nach Kümmel.\n\nSie hielt sie länger in der Hand, als nötig gewesen wäre.\n\nIhre Mutter hatte Kümmel gehasst. Sie hatte ihn aus Brot gepult, Korn für Korn, und auf dem Tellerrand gesammelt.\n\nVom Garten her strich ein Ast über die Scheibe. Judith legte die Seife zurück, mit dem Haar nach unten, und drehte den Wasserhahn auf. Erst kam Luft, dann ein brauner Stoß. Sie wartete, bis das Wasser klar war.\n\nÜber der Spüle hing der Kalender vom Februar. Am neunzehnten stand, klein und mit Bleistift, ihr Name.\n\nSie war an diesem Tag nicht hier gewesen.",
+  "usage": {
+    "in": 76,
+    "out": 675,
+    "thinking": 222
+  },
+  "costUsd": 0.006902,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 29014,
+  "meta": [],
+  "at": "2026-10-17T17:47:14.311Z"
+}

@@ -1,0 +1,105 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„wie du die ersten Tage und Wochen übersteht“: Falsche Verbform; richtig ist „überstehst“.",
+          "„was deine Geschäftsführung, dein Team und du selbst von dir erwartest“: Das mehrteilige Subjekt verlangt hier „erwarten“.",
+          "„kommst mit einem Ergebnis wieder heraus“: Unpräzise und umständlich; eine konkrete Vereinbarung als Gesprächsziel wäre praxisnäher."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„ohne sie zu verteidigen oder zu verraten“: Bei Entscheidungen bleibt „verraten“ semantisch unklar; zudem ist nicht nachvollziehbar, warum du Entscheidungen grundsätzlich nicht verteidigen solltest.",
+          "„statt zu schlichten, bis niemand mehr etwas sagt“: Die zugespitzte Formulierung lässt offen, welches konkrete Fehlverhalten beim Schlichten gemeint ist.",
+          "„Der erste Tag“ / „Vom Kollegen zum Vorgesetzten“: Der Rollenwechsel wird erst in Kapitel 3 behandelt, nachdem Kapitel 1 bereits die ersten Wochen abgedeckt hat; das schwächt den zeitlichen Aufbau."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Herzlichen Glückwunsch, Sie führen jetzt (und keiner hat Ihnen gesagt, wie)“: Verstößt gegen die vorgegebene Du-Ansprache.",
+          "„in die Rolle hineinrutschen“ / „Die ersten 90 Tage: Vom Kollegen zum Chef“: Kapitel 1 und 2 behandeln beide den Rollenwechsel; das erste Kapitel erhält keinen ausreichend eigenständigen Gegenstand.",
+          "„Warum die meisten Teamleiter im Mittelstand in die Rolle hineinrutschen“: Verallgemeinert die vorgegebene Situation der Zielgruppe zu einer unbelegten Mehrheitsaussage über Teamleiter im Mittelstand.",
+          "„ohne auf dicke Hose zu machen“: Die flapsige Wendung wirkt eher anbiedernd als sachlich und praxisnah.",
+          "„Hinweis: Die Kapitel bauen aufeinander auf“: Der Zusatz behauptet die Qualität des Aufbaus, statt die Überschneidung der Einstiegskapitel zu beheben."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "C",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2840,
+    "out": 1131,
+    "thinking": 393
+  },
+  "costUsd": 0.01699
+}

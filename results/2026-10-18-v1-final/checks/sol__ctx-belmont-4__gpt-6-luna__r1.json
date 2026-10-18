@@ -1,0 +1,22 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-1",
+      "b4-3"
+    ],
+    "evidence": [
+      "Als Elise sich vom Türspalt zurückzog, kam Vosskuhl mit dem Buch aus dem Treppenhaus. Er sah sie an, fragte nichts. Gemeinsam gingen sie in die andere Richtung.",
+      "Matthias war über den Pass gekommen, bevor die letzte Strecke sich schloss."
+    ]
+  },
+  "usage": {
+    "in": 1849,
+    "out": 614,
+    "thinking": 512
+  },
+  "costUsd": 0.009838
+}

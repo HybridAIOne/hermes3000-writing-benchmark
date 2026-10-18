@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "gpt-6.1-sol",
+  "run": 2,
+  "text": "# Führen ohne Titel\n## Gliederung\n\n### 1. Dein erster Tag: Kläre, wofür du verantwortlich bist\nDu klärst mit deiner Führungskraft, was von dir erwartet wird, was du selbst entscheiden darfst und wofür du Unterstützung brauchst.\n\n### 2. Gestern Kollege, heute Teamleiter\nDu gestaltest deine neue Beziehung zum Team, sprichst den Rollenwechsel offen an und findest einen fairen Umgang mit Nähe und Distanz.\n\n### 3. Gib dem Team eine klare Richtung\nDu übersetzt die Vorgaben des Unternehmens in verständliche Ziele und legst fest, was Vorrang hat – und was warten muss.\n\n### 4. Verteile Verantwortung, nicht nur Aufgaben\nDu überträgst Aufgaben passend zu Können und Erfahrung, vereinbarst Ergebnisse und hältst nach, ohne jeden Handgriff zu kontrollieren.\n\n### 5. Organisiere die Zusammenarbeit im Alltag\nDu sorgst mit klaren Absprachen, kurzen Besprechungen und verlässlichen Informationswegen dafür, dass die Arbeit im Team und mit anderen Abteilungen funktioniert.\n\n### 6. Hilf deinen Leuten, besser zu werden\nDu gibst konkrete Rückmeldungen, erkennst gute Arbeit an und schaffst Lernmöglichkeiten im laufenden Betrieb.\n\n### 7. Führe schwierige Gespräche, bevor es eskaliert\nDu sprichst wiederholte Fehler, gebrochene Absprachen und Konflikte direkt an, hörst die andere Sicht und vereinbarst verbindliche nächste Schritte.\n\n### 8. Finde heraus, wie du führen willst\nDu prüfst deine Erfahrungen, erkennst eigene Grenzen und entwickelst Grundsätze, an denen du dein Handeln auch unter Druck ausrichten kannst.",
+  "usage": {
+    "in": 123,
+    "out": 572,
+    "thinking": 203
+  },
+  "costUsd": 0.005966,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 16693,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:48:23.721Z"
+}

@@ -1,0 +1,107 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Then he said, \"Ines,\" without turning around. (Logikbruch: Woher weiß er ohne Hinsehen, wer hinter ihm den Raum betritt?)",
+          "a single grey hair wound through its teeth like thread on a spool (Stilistisch überladen, verfehlt die geforderte Zurückhaltung und dient als verkitschte Enthüllung am Ende)",
+          "a man in a canvas jacket [...] smelling of wet wool (Unstimmigkeit in der Texturbeschreibung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "as if he'd been saying it silently for some time (Leicht konstruierter Vergleich: Man hört einer Stimme nicht an, ob ein Wort vorher stumm geformt wurde)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "Maren walked the fourth-floor corridor [...] The chapel was off the lobby, past the gift shop (Räumlicher Logikbruch oder fehlender Übergang zwischen dem vierten Stock und der Lobby im Erdgeschoss)",
+          "Maren felt the words land somewhere under her ribs and stay there. (Abgegriffenes Klischee, verstößt direkt gegen die Aufgabenstellung)",
+          "\"Your mother said it sometimes,\" he said. [...] She had been holding that hand for her own reasons, and she had never once asked who else had come to sit with her. (Melodramatische Enthüllung statt Zurückhaltung)",
+          "the way you'd carry a letter you didn't want to read in front of anyone (Schiefer, unpassender Vergleich für ein umgedrehtes Namensschild)",
+          "watched it until she could breathe (Sentimentales Klischee am Schluss)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "The chapel door was propped open with a hymnal, which was how she knew someone was inside. Hospital policy said the door stayed open. Grief preferred otherwise. (Logischer Widerspruch: Wenn die Tür laut Vorschrift ohnehin immer offen steht, warum ist eine aufgekeilte Tür dann ein Zeichen dafür, dass jemand drin ist – zumal Trauernde sie eher schließen würden?)",
+          "\"You're Mara,\" he said, without turning. (Logikbruch: Er kann nicht wissen, wer hinter ihm in der Tür steht, ohne hinzusehen)",
+          "cataloguing exits (Unangemessenes Thriller-Klischee: Sie steht direkt in der offenen Tür zu ihrem eigenen Arbeitsplatz, während er ruhig mit dem Rücken zu ihr sitzt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "B",
+      "A",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2730,
+    "out": 858,
+    "thinking": 0
+  },
+  "costUsd": 0.01404
+}

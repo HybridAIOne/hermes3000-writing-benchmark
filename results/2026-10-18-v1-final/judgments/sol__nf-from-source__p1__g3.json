@@ -1,0 +1,145 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "F": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„aus beiden Elbufern“: unidiomatische Präposition; richtig wäre „von beiden Elbufern“.",
+          "„Auch mit den Überschüssen wird anders verfahren als in einem gewöhnlichen Unternehmen“: unscharfer Gegensatz. Auch andere Unternehmen können Überschüsse zurücklegen; die Genossenschaft ist ebenfalls ein Unternehmen.",
+          "„Sie ist auf gemeinsame Kontrolle ausgelegt, nicht auf die Auszahlung von Gewinnen an Einzelne“: verallgemeinert die konkrete Ausschüttungspraxis unnötig zur Eigenschaft der Rechtsform. Genossenschaften können grundsätzlich Gewinne ausschütten."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 4,
+        "fehler": [
+          "„seit über siebzig Jahrzehnten“: gravierender Zeitfehler; das wären mehr als 700 Jahre.",
+          "„wirtschaftlich klein und kaum renditestark – für einen privaten Investor wenig attraktiv“: Umsatz und Zuschussanteil belegen weder die Rentabilität noch die Attraktivität für Investoren.",
+          "„Die Genossenschaft aber verfolgt keinen Gewinnzweck“: Aus dem Verzicht auf Ausschüttungen folgt nicht, dass kein Gewinn angestrebt wird.",
+          "„ein typisches genossenschaftliches Motiv“ und „Warum ist die Genossenschaft hier die passende Rechtsform?“: schulbuchhafte Kommentierung; der Schluss erklärt die Eignung zudem überwiegend mit unbelegten Annahmen.",
+          "„es gilt „ein Mitglied, eine Stimme\"“: uneinheitliche Anführungszeichen."
+        ],
+        "unsupported": [
+          "„Der Fährbetrieb ist wirtschaftlich klein und kaum renditestark“: Insbesondere zur Rendite enthält die Quelle keine Angaben.",
+          "„für einen privaten Investor wenig attraktiv“: Zur Einschätzung privater Investoren enthält die Quelle nichts.",
+          "„Die Genossenschaft aber verfolgt keinen Gewinnzweck“: Belegt ist nur, dass Überschüsse nicht ausgeschüttet werden.",
+          "„So bleibt die Fähre seit über siebzig Jahrzehnten in Betrieb“: widerspricht dem Gründungsjahr 1953; auch ein lückenloser Betrieb ist nicht ausdrücklich belegt."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Als der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte“: Die Quelle datiert die Gründung auf 1953, nicht ausdrücklich die vorherige Betriebseinstellung.",
+          "„Bis 1978 bewegte noch die Strömung die Fähre allein“: Der anschließende technische Exkurs unterbricht die überzeugende Erklärung von Rücklagenbildung und Zukunftsplanung."
+        ],
+        "unsupported": [
+          "„Als der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte“: Das Jahr der Betriebseinstellung wird im Quellmaterial nicht genannt.",
+          "„warteten die Menschen an beiden Elbufern nicht auf eine Lösung von außen“: Über vorheriges Warten oder die Haltung zu anderen Lösungen gibt die Quelle keine Auskunft."
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„eine gemeinsame Aufgabe gemeinsam zu tragen“: vermeidbare Wortwiederholung im Einstieg.",
+          "„Die Mitglieder beteiligen sich finanziell, entscheiden mit gleichem Stimmgewicht und verwenden Überschüsse für die Erneuerung statt für Ausschüttungen“: Der Schluss wiederholt bereits ausführlich erklärte Punkte nahezu vollständig, statt sie knapper zu bündeln."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Da alle Überschüsse im Unternehmen verbleiben, wächst das finanzielle Polster stetig“: unbelegter und sachlich nicht zwingender Schluss. Rücklagen können für Erneuerungen verwendet werden; ihr stetiges Wachstum ist nicht nachgewiesen.",
+          "„Als der Landkreis im Jahr 1953 den Betrieb der dortigen Seilfähre einstellte“: überträgt das belegte Gründungsjahr auf die nicht datierte Betriebseinstellung.",
+          "„den Fortbestand und die Modernisierung der Fähre ideal unterstützt“: werbliche Überhöhung statt nüchterner Erklärung; „ideal“ wird nicht begründet."
+        ],
+        "unsupported": [
+          "„Als der Landkreis im Jahr 1953 den Betrieb der dortigen Seilfähre einstellte“: Die Quelle nennt nur das Gründungsjahr der Genossenschaft.",
+          "„wächst das finanzielle Polster stetig“: Über die tatsächliche Entwicklung der Rücklage liegen keine Angaben vor."
+        ],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 7,
+        "fehler": [
+          "„Damals stellte der Landkreis den Betrieb ein“: Im Zusammenhang mit „aus dem Jahr 1953“ wird die Betriebseinstellung unbelegt auf dieses Jahr datiert.",
+          "„was jeder von ihnen brauchte, aber allein kaum hätte tragen können“: behauptet einen individuellen Bedarf aller Gründer und deren begrenzte wirtschaftliche Möglichkeiten, ohne dass die Quelle dies ausführt.",
+          "„vor allem eine Verbindung, auf die viele Menschen angewiesen sind, und erst in zweiter Linie ein Geschäft“: Die Quelle belegt Nutzung und Finanzierung, aber weder eine Abhängigkeit der Nutzer noch diese Rangfolge.",
+          "„Die Fähre hängt an einem Führungsseil“: Der isolierte kurze Satz trägt zum etwas aufzählenden technischen Einstieg bei; die eigentliche Erklärung der Genossenschaft beginnt erst im zweiten Absatz."
+        ],
+        "unsupported": [
+          "„Damals stellte der Landkreis den Betrieb ein“: Die zeitliche Zuordnung zu 1953 ist nicht ausdrücklich belegt.",
+          "„was jeder von ihnen brauchte, aber allein kaum hätte tragen können“: Individueller Bedarf und finanzielle Möglichkeiten der einzelnen Gründer werden nicht beschrieben.",
+          "„Sie ist vor allem eine Verbindung, auf die viele Menschen angewiesen sind, und erst in zweiter Linie ein Geschäft“: Weder die behauptete Abhängigkeit noch die wirtschaftliche Zweckhierarchie stehen in der Quelle."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "C",
+      "F",
+      "E",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3686,
+    "out": 2566,
+    "thinking": 1024
+  },
+  "costUsd": 0.033032
+}

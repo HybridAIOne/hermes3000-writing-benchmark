@@ -1,0 +1,117 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Und jemand war vor ihr hier gewesen.“ – Die gelöste Wachslasche belegt keinen Besuch nach dem Tod der Mutter. Der als Enthüllung gesetzte Schluss behauptet mehr, als die Beobachtung hergibt.",
+          "„Die Süße, die sie im Flur gerochen hatte, kam von hier.“ – Wie der Geruch aus dem wieder angedrückten Verschluss bis in den Flur gelangt, bleibt unzureichend vermittelt.",
+          "„zwei helle Flecken im Linoleum, wo Sohlen den Boden blankgerieben hatten“ – Ausgerechnet die Stellplätze der Hausschuhe als blankgeriebene Flächen sind materiell wenig überzeugend.",
+          "„als müsste man das Haus erst wecken“ / „wie Laken über Möbel“ – Vertraute Bilder des verlassenen Hauses; sie erzeugen Atmosphäre, geben ihr aber wenig Eigenart.",
+          "„die sie einen Moment lang nicht erkannte“ – Das fremd gewordene eigene Spiegelbild ist ein abgegriffenes Kürzel für Entfremdung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„roch, was Häuser riechen“ – Für die gemeinte Geruchsabgabe ist die Konstruktion unidiomatisch; passend wäre etwa „roch, wonach Häuser riechen“.",
+          "„der ausgeblichene Fleck auf dem Teppich, dort, wo der Fernseher gestanden hatte“ – Unter einem abgestellten Gerät wäre eher eine vor Ausbleichen geschützte Fläche zu erwarten.",
+          "„Zwanzig Jahre alte Seife duftet nicht mehr durch einen Flur.“ – Eine pauschale Behauptung ersetzt die nachvollziehbare Prüfung des Geruchs und stellt den gewünschten Verdacht zu bequem her.",
+          "„Wer ihn abgewaschen hatte, wusste sie nicht.“ – Angesichts ihrer eigenen Anwesenheit rund um die Beerdigung wirkt der unbekannte Abwasch als auffällig konstruierter Rätselhinweis.",
+          "„wie sie ihn von ihren Knochen kannte, morgens, vor dem ersten Kaffee“ – Der Vergleich setzt einen eher alltagskomischen Ton, der zur anschließend angestrebten Beklemmung nur bedingt passt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Sie hielt die Hand darunter. Das Wasser schmeckte nach Eisen“ – Der Übergang vom Berühren zum Trinken fehlt. Gerade beim hervorgehobenen sinnlichen Detail entsteht dadurch eine kleine Handlungslücke.",
+          "„Sie hatte sich vorgenommen, nichts zu erwarten, und merkte jetzt, dass es nicht darum ging.“ – Abstrakte Selbstdeutung, deren zweite Hälfte unbestimmt bleibt; sie unterbricht die sonst konkrete Wahrnehmungsführung.",
+          "„als hätte jemand die Räume enger zusammengeschoben, um Heizkosten zu sparen“ – Eigenständig, aber demonstrativ pointiert; der Heizkostenvergleich lockert die Beklemmung eher auf, als sie zu vertiefen.",
+          "„Sie konnte die Schrift von hier aus nicht lesen. Sie wusste trotzdem, dass es die ihrer Mutter war.“ – Die abschließende Gewissheit ist durch die zuvor erwähnte Beschriftungsgewohnheit bereits vorbereitet und bringt wenig zusätzliche Spannung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 9,
+        "fehler": [
+          "„frisch genug, um erst wenige Tage alt zu sein“ – Aus der Geruchsintensität wird ohne erkennbare Grundlage eine genaue zeitliche Einordnung abgeleitet. Der zentrale Verdacht wirkt dadurch behauptet statt entwickelt.",
+          "„während das Haus um sie herum plötzlich den Atem anzuhalten schien“ – Konventionelle Schauerformel, die den bereits verständlichen Spannungsmoment zusätzlich ausdeutet.",
+          "„Das Haus hatte Helga schneller vergessen, als Vera es je gekonnt hatte.“ – Die Trauer wird ausdrücklich erklärt und zugleich dem Haus zugeschrieben; das nimmt den Gegenständen ihre offenere Wirkung.",
+          "„ein diffuses, graues Novemberlicht und schnitt blasse Rechtecke in die Dunkelheit“ – Diffuse Beleuchtung und scharf wirkendes Schneiden ergeben ein unsauberes Bild.",
+          "„wie ein trockener Husten“ / „konserviert wie in einem Einmachglas“ / „stumm und schwer, als warte er darauf“ – Die rasche Folge geläufiger Vergleiche und Belebungen überlädt die Szene."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Dann roch sie es: angesengte Wolle, schwach, aber unverkennbar.“ – Die Grenze zwischen gegenwärtigem Geruch und sinnlicher Erinnerung bleibt unscharf. Das ist produktiv lesbar, könnte aber präziser geführt werden.",
+          "„Er hatte dabei geklungen, als wäre das eine gute Nachricht.“ – Die negative Bedeutung der Räumung wird kurz kommentiert, obwohl die nachfolgenden fehlenden Gegenstände sie bereits überzeugend vermitteln."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "C",
+      "B",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2930,
+    "out": 1988,
+    "thinking": 687
+  },
+  "costUsd": 0.02574
+}

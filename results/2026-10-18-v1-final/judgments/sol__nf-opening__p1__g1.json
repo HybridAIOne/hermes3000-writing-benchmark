@@ -1,0 +1,113 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Kennst du das? Dann bist du in guter Gesellschaft.“ – Eine abgegriffene Ratgeberformel unterbricht die bis dahin anschaulich erzählte Szene.",
+          "„Die meisten Teamleiter schieben unangenehme Gespräche vor sich her“ – Die pauschale Behauptung ersetzt eine genauere Beschreibung des Vermeidungsverhaltens.",
+          "„als gereizte Mail, als Streit in der Besprechung oder als Kündigung“ – Die Eskalationsreihe wirkt zugespitzt; insbesondere die Kündigung erscheint ohne weitere Zwischenschritte dramatisierend.",
+          "„Du brauchst dafür kein Rhetoriktraining“ – Der Schluss grenzt sich von einem nicht eingeführten Gegenmodell ab. Die besondere Schwierigkeit des Führens ohne disziplinarische Befugnisse bleibt dagegen unberücksichtigt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Denn du weißt genau, was passieren wird“ – Die Reaktion des Kollegen wird als Gewissheit vorweggenommen. Damit übernimmt der Text die negative Erwartung der angesprochenen Führungskraft, statt sie als Befürchtung kenntlich zu machen.",
+          "„Wenn du Kritik äußerst, begibst du dich auf dünnes Eis.“ – Die pauschale Gefahrenbeschreibung verstärkt die Hemmung, die das Kapitel eigentlich bearbeiten soll.",
+          "„die wahre Feuerprobe“, „auf dünnes Eis“, „die Stimmung in der gesamten Abteilung vergiftet“ – Die Häufung geläufiger Krisenbilder überdramatisiert die Alltagssituation.",
+          "„ob dein Team dich als echte Führungskraft akzeptiert – oder nur als denjenigen, der die Arbeit verteilt“ – Der Schluss reduziert Führungsanerkennung auf eine zugespitzte Entweder-oder-Entscheidung und erhöht den Bewährungsdruck."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Das wolltest du so nicht hören lassen“ – Die Wendung ist in dieser Bedeutung unidiomatisch. Gemeint ist offenbar, dass die Äußerung nicht so klingen oder verstanden werden sollte.",
+          "„Auf dem Tisch liegt ein Ausdruck“ / „Den ersten sagst du“ – Sowohl der Gesprächsanlass als auch der entscheidende Satz bleiben ausgespart. Die Szene erzeugt Spannung durch Informationsentzug, statt ein konkretes Führungsproblem greifbar zu machen.",
+          "„Dann war's das also mit mir?“ – Die Szene legt eine mögliche Entlassung nahe. Für ein Buch über Führung ohne Titel müsste deutlicher werden, welche Verantwortung und welche Befugnisse die angesprochene Person tatsächlich hat.",
+          "„Kennst du das?“ – Mit diesem Satz beginnt ein zweiter von insgesamt vier Absätzen. Gefordert war ein einzelner Einstiegsabsatz.",
+          "„auf die dich niemand vorbereitet hat“ / „stand aber in keiner Stellenbeschreibung“ – Die absoluten Aussagen unterstellen allen Angesprochenen dieselbe berufliche Vorgeschichte."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„sondern längst Termin gemacht hast“ – Im standardsprachlichen Buchtext fehlt der Artikel; idiomatischer wäre „sondern längst einen Termin vereinbart hast“.",
+          "„Kommt dir bekannt vor?“ – Hier beginnt ein zweiter von insgesamt vier Absätzen. Das entspricht nicht dem verlangten einzelnen Einstiegsabsatz.",
+          "„Die schlechte Nachricht zuerst“ / „Die gute Nachricht“ – Das schematische Ratgebermuster macht den Einstieg vorhersehbar und verdrängt die konkrete Alltagsszene.",
+          "„Kaum eine Aufgabe wird von Führungskräften so konsequent aufgeschoben wie das schwierige Gespräch.“ – Eine weitreichende Vergleichsbehauptung ersetzt die präzise Beobachtung.",
+          "„Schwierige Gespräche sind kein Talent, sondern Handwerk.“ – Der Vergleich ist begrifflich unsauber: Nicht die Gespräche selbst, sondern die Fähigkeit, sie zu führen, wäre Talent oder erlernbares Handwerk."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2403,
+    "out": 1611,
+    "thinking": 512
+  },
+  "costUsd": 0.020916
+}

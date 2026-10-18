@@ -1,0 +1,20 @@
+{
+  "task": "nf-from-source",
+  "model": "kimi-k3",
+  "run": 3,
+  "text": "# Die Fährgenossenschaft Hitzacker: Wie eine Genossenschaft funktioniert\n\nAm Beispiel der Fährgenossenschaft Hitzacker eG lässt sich anschaulich zeigen, was eine Genossenschaft ausmacht. Gegründet wurde sie 1953 von 41 Landwirten und Händlern aus beiden Elbufern – aus einer Notlage heraus: Der Landkreis hatte den Betrieb der Seilfähre eingestellt, und die Menschen an beiden Ufern wollten die Verbindung über den Fluss erhalten. Also schlossen sie sich zusammen und übernahmen die Fähre selbst. Dieses Prinzip der Selbsthilfe ist der Kern jeder Genossenschaft: Menschen bündeln ihre Kräfte, um gemeinsam etwas zu bewirtschaften, das der Einzelne allein nicht stemmen könnte.\n\nHeute hat die Fährgenossenschaft 312 Mitglieder. Jedes Mitglied hält mindestens einen Anteil zu 250 Euro. Entscheidend ist das demokratische Grundprinzip: In der Generalversammlung hat jedes Mitglied genau eine Stimme – unabhängig davon, wie viele Anteile es besitzt. Wer mehr Geld eingebracht hat, hat deshalb nicht mehr Einfluss. Überschüsse werden zudem nicht an die Mitglieder ausgeschüttet, sondern fließen in eine Rücklage für die Erneuerung der Fähre. Der Zweck steht also über dem Gewinn: Es geht darum, die Fährverbindung dauerhaft zu sichern, nicht darum, Eigentümer zu bereichern.\n\nGenau deshalb ist die Genossenschaft für diese Fähre die passende Rechtsform. Sie verbindet die Menschen beider Elbufer, die ein gemeinsames Interesse an der Überfahrt haben. Das zeigt sich auch in den Zahlen: 2024 betrug der Umsatz 186.000 Euro, davon stammten 71 Prozent aus Fahrkartenverkäufen und 29 Prozent aus einem Zuschuss der Gemeinde. Pro Jahr befördert die Fähre rund 64.000 Personen, im Sommer vor allem Radfahrer auf dem Elberadweg. Die Überfahrt über die an dieser Stelle 212 Meter breite Elbe dauert bei normalem Wasserstand sieben Minuten. Die Fähre hängt an einem Führungsseil; bis 1978 bewegte die Strömung sie allein, heute treibt sie ein 85-kW-Dieselmotor an. Dank der angesparten Rücklage soll bis 2031 ein Elektroantrieb eingebaut werden – ein weiteres Beispiel dafür, wie die Genossenschaft auf Dauer und für das Gemeinwohl plant.",
+  "usage": {
+    "in": 593,
+    "out": 705,
+    "thinking": 18
+  },
+  "costUsd": 0.008595599999999998,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Wafer",
+  "latencyMs": 9013,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-18T05:26:45.377Z"
+}

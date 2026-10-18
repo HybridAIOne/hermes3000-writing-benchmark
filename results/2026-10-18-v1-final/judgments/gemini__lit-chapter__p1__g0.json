@@ -1,0 +1,119 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Auf dem Display erschien sein Name ein zweites Mal, als müsste sie ihn erst lesen.“ (Schiefe Logik im Vergleich; warum erscheint der Name bei einem laufenden Anruf plötzlich ein zweites Mal?)",
+          "„Sie stieß mit der Schuhspitze gegen den Keil am Steuerhaus.“ (Unklare Sachlogik: Ein Bremskeil für Fahrzeuge klemmt nicht am Steuerhaus fest, und ein Türkeil läge nicht über Nacht im Nassen.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 4,
+        "fehler": [
+          "„Ilse zog es nicht heraus. Sie wusste, was auf dem Display stand, ohne hinzusehen“ (Verstoß gegen die Vorgabe c4: Der Name Jonas fällt im gesamten Text nicht, der Anruf ist nicht erkennbar von ihm.)",
+          "„wie es auf dem Plan stand, den ihr Mann vor dreißig Jahren geschrieben und hinter Glas an die Steuerhauswand gehängt hatte.“ (Verstoß gegen die Vorgabe: Rückblenden-Exposition.)",
+          "„Als gäbe es ein Früher, das man von einem Jetzt trennen konnte.“ (Kalenderspruch-Pathetik, die nicht zur wortkargen Figur passt.)"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Ilse drehte das Rad weiter. Es ging schwerer als im Sommer.“ (Sachlicher Logikbruch: Eine Elbfähre für den öffentlichen Verkehr wird nicht von einer 61-jährigen Frau per Handrad über den Strom gekurbelt.)",
+          "„Sie hatte heute Morgen den zweiten Handschuh nicht gleich gefunden. Er lag im Schubfach unter den Fahrkarten, neben einem Bleistift und den Gummibändern.“ (Überflüssige Rückblende ins Belanglose, bremst die Szene aus.)",
+          "„Sie standen in einigem Abstand voneinander, als gehörten sie nicht zusammen. Das taten sie auch nicht.“ (Redundante, leere Beobachtung.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Und er würde reden wollen. Über die Verträge für den Verkauf der Fährrechte, über die Maklerin aus Lüneburg, über die Treppen in ihrem Haus, die für eine Frau über sechzig angeblich zu steil waren.“ (Plumpe Exposition mit dem Holzhammer, untergräbt die Subtilität der Schlussszene.)",
+          "„den Henning vor zwanzig Jahren aus Cuxhaven mitgebracht hatte.“ (Erklärende Rückblenden-Exposition über ein Requisit.)",
+          "„Lichtkegel schnitten durch die milchige Suppe“ (Abgegriffene Metapher; kurz darauf folgt auch noch „Brühe“ und „feuchte Watte des Nebels“.)",
+          "„ein paar Meter träges, bleifarbenes Wasser und das armdicke Stahlseil, das sich schräg in das Nichts fraß.“ (Schiefe Metapher: Ein ruhendes Seil „frisst“ sich nirgendwo hinein; zudem ist „armdick“ für ein Fährseil maßlos übertrieben.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„„Moin",
+          ",   ",
+          "“ (Durchgehend falsche, gerade Anführungszeichen am Wortende statt korrekter deutscher Abführungszeichen oben.)",
+          "„Sie prüfte das Seil, wie sie es jeden Morgen prüfte, mit der flachen Hand, die kalten Litzen entlang, bis die Haut nass war.“ (Sachlich unglaubwürdig und gefährlich: Ein gefettetes, teils rostiges Stahlseil prüft man nicht, indem man mit der bloßen Handfläche darüberstreicht.)",
+          "„Sie ging zum Fahrradständer am Heck [...] und holte eine Klemmleuchte heraus [...] steckte sie ihm an den Lenker [...] Das Licht blinkte rot in den Nebel.“ (Sachfehler: Rotes Blinklicht gehört ans Rücklicht, nicht nach vorn an den Lenker.)",
+          "„„Und dem Jungen? Ist der noch in München?",
+          "Ja.",
+          "Schön",
+          " (Sehr durchsichtiges Expositions-Abfragen der Prompt-Vorgaben durch eine Nebenfigur.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "D",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 8633,
+    "out": 1248,
+    "thinking": 0
+  },
+  "costUsd": 0.029746
+}

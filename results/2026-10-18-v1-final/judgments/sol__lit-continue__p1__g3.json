@@ -1,0 +1,133 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "F": {
+      "model": "kimi-k3",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Jonas stand an der Tür […] und sah auf den Becher in ihrer Hand“: Anschlussfehler. Ilse hält zu diesem Zeitpunkt die Thermoskanne; Hennings Becher nimmt sie erst anschließend vom Fensterbrett.",
+          "„Er hatte sich nicht verändert, und doch war alles an ihm anders.“: Pauschaler, formelhafter Gegensatz. Die anschließenden konkreten Beobachtungen leisten die Charakterisierung besser.",
+          "„Ihre Knie meldeten sich […] und sie ließ Jonas nicht merken, dass sie es hörte.“: Die körperliche Beschwerde wird durch die überdehnte Hörmetapher unnötig unpräzise.",
+          "„Sie nahm Hennings Becher vom Fensterbrett, goss ihn halb voll“: Der Schluss bündelt die Annäherung überzeugend in einer Handlung; die vorausgehende ausdrückliche Deutung „als müsste er erst rechnen, was er bedeutete“ erklärt deren Symbolik allerdings bereits vorweg."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Eine Mappe aus schwarzem Leder […] Zu dick für einen bloßen Wochenendbesuch.“: Die Dicke einer Geschäftsmappe ist kein überzeugendes Indiz gegen einen privaten Besuch, zumal Jonas gerade einen Mandantentermin als Reiseanlass genannt hat. Das gewünschte Misstrauen wird zu sichtbar arrangiert.",
+          "„Der Pegel fällt […] Ich muss die Kette am Nordufer nachspannen. Dauert eine Stunde.“: Die technische Ausrede und ihre Zeitangabe machen die kleine Ausweichentscheidung unnötig erklärungsreich. Der bereits gesetzte Schlussimpuls „Ilse ließ die rote Flagge im Eisenring stecken“ wäre subtiler.",
+          "„dieses schnelle, glatte Lächeln“: Zusammen mit Firmenwebseite, Smartphone, Ledermappe und den „ordentlich gescheitelten Haaren“ wird Jonas recht schematisch als distanzierter Geschäftsmann markiert.",
+          "„Die Strömung reicht“ bis „Dauert eine Stunde“: Die Fortsetzung überschreitet den Richtwert von etwa 400 Wörtern deutlich; vor allem Ankunftsbeschreibung und Schlussdialog bieten Kürzungspotenzial."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Er hatte nie begriffen, dass man an einer Fähre nichts reparieren lassen konnte, ohne dass sich danach alles andere veränderte.“: Eine umfassende Behauptung ohne nachvollziehbaren sachlichen oder psychologischen Zusammenhang. Der Satz klingt bedeutungsschwer, bleibt aber unbestimmt.",
+          "„Du hast nicht geantwortet.“ – „Das ist dasselbe.“: Der Bezug der Antwort bleibt unklar. Ob Jonas einmal oder zweimal geschrieben hat und ob Ilse antwortete, ist nicht dasselbe; die vermeintliche Schlagfertigkeit trägt den Dialog nicht.",
+          "„eher so, wie Männer lachen, wenn sie merken, dass sie ein Spiel schon verloren haben“: Verallgemeinernde Deutung statt genauer Wahrnehmung dieses Sohnes; zugleich ein geläufiges Beziehungsspiel-Klischee.",
+          "„Du bleibst bis morgen früh […] Ich rede unterwegs nicht.“: Die Schlussentscheidung wird zu einem ausformulierten Programm samt Gesprächsregel ausgebaut. Das wirkt demonstrativer als die verlangte kleine Entscheidung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„unter einem alten Fahrplan beschwert“: Unidiomatische Verbindung. Die Rechnung liegt unter dem Fahrplan oder wird mit beziehungsweise durch ihn beschwert.",
+          "„Sie nahm die Leine vom Poller und legte sie über den Arm“ / „Ilse band die Leine fest“: Die gerade im vorgegebenen Absatz sorgfältig befestigte Leine wird ohne erkennbaren Anlass wieder gelöst und anschließend erneut befestigt. Das wirkt wie eine mechanisch eingesetzte Beschäftigungsgeste.",
+          "„Sie würde noch einmal übersetzen müssen“ / „Ilse stellte den Kessel auf die Platte“: Der wartende Fahrgast setzt einen unmittelbaren Handlungsimpuls, der für den häuslichen Schluss wieder liegen gelassen wird. Ein kurzer Übergang würde die Prioritäten klären."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„feine Tropfen, die er noch nicht bemerkte“: Kleine perspektivische Unschärfe: Ob Jonas die Tropfen bemerkt, kann Ilse nicht unmittelbar wahrnehmen. Als ihre Vermutung wäre die Formulierung sauberer.",
+          "„Sie prüfte den Hebel, obwohl es nichts zu prüfen gab.“: Eine vertraute literarische Verlegenheitsgeste, deren Funktion zusätzlich erklärt wird. Die übrigen, spezifischeren Handlungen tragen Ilses Ausweichen bereits."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie hakte die Leine ab“ / „Ilse löste die Leine“: Dieselbe Abfahrtshandlung erfolgt zweimal, ohne dass die Leine zwischenzeitlich wieder befestigt worden wäre.",
+          "„Normalerweise wendete sie sofort und fuhr zurück, rüber und wieder rüber, bis es dunkel wurde.“: Der behauptete regelmäßige Betrieb erscheint als unablässiges Pendeln unabhängig von Fahrgästen oder Fahrplan. Dass am Ziel niemand wartet, wird ausdrücklich genannt, aber betrieblich nicht eingeordnet.",
+          "„Heute Nachmittag fährst du.“: Statt einer kleinen Entscheidung endet die Szene mit der Ankündigung, dem offenbar unerfahrenen Sohn noch am selben Tag die Bedienung zu übertragen. Das verlangt erheblich mehr Vorbereitung und Plausibilisierung.",
+          "„Nicht weil sie sich gefreut hätte – die Freude war da […] –, sondern weil es so gehörte.“: Die verschachtelte Erklärung zerlegt eine einfache Geste und benennt ihre emotionale Bedeutung mehrfach.",
+          "„wie mit einer Flamme bei Wind“ / „etwas in ihr lockerte sich“: Geläufige Gefühlsbilder ersetzen die ansonsten mögliche konkrete Darstellung der vorsichtigen Annäherung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "D",
+      "A",
+      "B",
+      "C",
+      "F"
+    ]
+  },
+  "usage": {
+    "in": 4680,
+    "out": 2409,
+    "thinking": 840
+  },
+  "costUsd": 0.03345
+}

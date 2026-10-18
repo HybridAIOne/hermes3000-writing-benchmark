@@ -1,0 +1,120 @@
+{
+  "task": "lit-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„ein Monat im Jahr, das sie nicht mehr wusste“ – holprig, korrekt wäre etwa „in einem Jahr, an das sie sich nicht mehr erinnerte“",
+          "„Sie legte ihn auf die Fensterbank, ohne zu wissen, warum.“ – markiert das Bedeutungsdetail zu offen",
+          "„als hätte jemand sein Gewicht verlagert“ – abgegriffenes Spukhaus-Motiv",
+          "„Das Haus antwortete nicht.“ – vorhersehbarer Schlusseffekt",
+          "„Mara stellte den Koffer neben die Treppe.“ – Koffer wird nach dem Küchengang unvermittelt nachgetragen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Vor zwanzig Jahren hatte ich diese Dose zuletzt gesehen, leer, der Rand grau vor Staub.“ – Logikbruch: Die Mutter lebte damals noch, Staub ist unplausibel",
+          "„eine Wärme füllte, die nicht von der Heizung kam“ – Kitsch",
+          "„dass ich mich am Tresen festhalten musste“ – melodramatisch, „Tresen“ passt nicht in eine Wohnküche",
+          "„als jemand sie zuletzt angehalten hatte“ – widerspricht dem „stehengeblieben“ zuvor",
+          "„Wer hätte das auch tun sollen.“ – erklärender Kommentar"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„im stillen Treppenhaus“ – passt nicht zu einem Einfamilienhaus, Logikbruch",
+          "„frisch genug, um erst wenige Tage alt zu sein“ – unidiomatisch",
+          "„während das Haus um sie herum plötzlich den Atem anzuhalten schien“ – Klischee",
+          "„stumm und schwer, als warte er darauf, dass jemand in seine Ärmel schlüpfte“ – abgegriffenes Bild",
+          "„Terpentin. Und preußischblaues Öl. … Der beißende Duft von Balsamterpentin“ – redundante Wiederholung, Farbe ist nicht riechbar; zudem deutlich über der Länge"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Der Geruch aus dem Flur war stärker geworden, je weiter sie ins Haus ging.“ – Tempusbruch in der je-desto-Konstruktion",
+          "„wie ein Obstkorb, der zu lange in der Sonne stand“ – besser „gestanden hatte“",
+          "„Drinnen war es kälter als draußen.“ – abgenutzte Formel",
+          "„Sie hatte sich vorgenommen, nichts zu erwarten, und merkte jetzt, dass es nicht darum ging.“ – leicht erklärend und vage"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 5,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "„am Kragen ausgeblickt“ – Rechtschreibfehler, richtig „ausgeblichen“",
+          "„eine Tasse, nach innen gestülpt“ – sachlich unsinnig, gemeint ist „umgedreht“",
+          "„nur dass Marlen es verlernt hatte … und die Hand weiß es noch“ – Widerspruch im ersten Absatz",
+          "„eingerahmt von Spinnweben wie von einem Trauerflor“ – Kitsch",
+          "„**Das Haus am Weidenweg**“ – Überschrift mit Markdown statt reinem Buchtext; dazu Klischees wie „wie eine Hand, die etwas sucht“"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "C",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 5800,
+    "out": 3690,
+    "thinking": 2269
+  },
+  "costUsd": 0.097
+}

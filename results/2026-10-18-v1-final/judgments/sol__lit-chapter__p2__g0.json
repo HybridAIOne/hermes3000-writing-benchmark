@@ -1,0 +1,121 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„als er im Sommer hier gewesen war“: Die Erläuterung zum Kontaktfoto schiebt rückblickende Exposition in den Schluss; die Vorgabe verlangt einen Anfang ohne Rückblenden-Exposition.",
+          "„und als die Rampe kam, war sie die Erste, die ging“: Bei dieser Überfahrt ist das Mädchen der einzige Fahrgast. „die Erste“ suggeriert unnötig eine Gruppe aussteigender Personen.",
+          "„Sie dachte an nichts Bestimmtes. Sie dachte an die Bremse von dem Mädchen“: Die unmittelbar anschließenden konkreten Gedanken schwächen die erste Aussage. Die Wiederholung wirkt eher arrangiert als erkenntnisreich.",
+          "„als wollte es auch hinüber“ / „so ruhig lag wie ein Tisch“: Die zusätzlichen Vergleiche dekorieren eine ansonsten präzise beobachtete Szene und machen die Bildsprache stellenweise gefällig."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Offenbar war sie durch das Gras zur Garage gegangen, oder über einen Hof“: Die spekulative Erklärung der nassen Strümpfe trägt wenig zur Szene bei und bremst kurz die ansonsten sehr konzentrierte Wahrnehmungsführung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 3,
+        "fehler": [
+          "„sie erkannte den Namen, ohne ihn lesen zu müssen“: Der Name wird dem Publikum nicht mitgeteilt. Dass Jonas anruft, ist nirgends erkennbar; außerdem folgt nach dem Anruf noch eine längere Fortsetzung bis zum Anlegen.",
+          "„Die Fähre löste sich von der Anlegestelle“ / „Am Ufer stand er schon“ / „Die zweite Passagierin kam auf dem Fahrrad“: Die Abfolge des Einsteigens ist räumlich und zeitlich nicht schlüssig. Die Fähre legt zunächst ab; später wird die Rampe für den ersten Fahrgast geschlossen, bevor die zweite Passagierin erscheint.",
+          "„das Telefon in ihrer Jackentasche“ / „Sie hatte es in den Steuerstand gelegt“ / „Ilse ließ es in der Jacke“: Der Aufenthaltsort des Telefons wechselt ohne entsprechende Handlung mehrfach.",
+          "„man findet sich zurecht, ohne etwas zu sehen“: Der Erzählertext wechselt innerhalb des Eingangsvergleichs ins Präsens und verletzt damit das verlangte durchgehende Präteritum.",
+          "„Der Motor kam husten, dann ruhig“: Die Konstruktion ist grammatisch beziehungsweise idiomatisch misslungen; gemeint ist offenbar, dass der Motor zunächst hustete und anschließend ruhig lief."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c2",
+          "c4"
+        ]
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie wusste, was auf dem Display stand, ohne hinzusehen“: Der Text nennt Jonas weder hier noch anderswo als Anrufer. Ilses behauptetes Wissen ersetzt die geforderte Erkennbarkeit für die Lesenden nicht.",
+          "„Sie wartete bis Viertel nach“ / „Um zehn nach hörte sie Schritte“: Nach der als abgeschlossen erzählten Wartezeit springt die Handlung ohne Kennzeichnung fünf Minuten zurück.",
+          "„hörte sie den ersten Motor“ / „Es war Frau Wulf mit dem Fahrrad“: Die angekündigte Motorankunft wird einem Fahrrad zugeordnet, ohne einen Motorantrieb oder eine andere Geräuschquelle einzuführen.",
+          "„Der zweite war ein Mann“: Das substantivierte Zahladjektiv muss hier „Der Zweite“ heißen.",
+          "„den ihr Mann vor dreißig Jahren geschrieben“ / „Der Sommer gehörte den Radtouristen“: Die Szene wird durch rückblickende Hintergrundvermittlung und eine verallgemeinernde Saisonbetrachtung unterbrochen. Besonders die Geschichte des Fahrplans widerspricht der gewünschten expositionfreien Gegenwartsszene."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Eine Minute vor dreiviertel sieben kam der dritte Fahrgast“ / „Es war vierundvierzig Minuten nach sechs“: Zwischen diesen beiden identischen Zeitpunkten liegen Bezahlung, Ablegemanöver und fast die gesamte Überfahrt. Die Chronologie funktioniert nicht.",
+          "„das er ihr vor zwei Jahren eingerichtet hatte“ / „bei seinem letzten Besuch“ / „von dem er neulich ein Prospekt geschickt hatte“: Der Schluss liefert gebündelte rückblickende Exposition zu Jonas und dem familiären Konflikt, obwohl diese ausdrücklich ausgeschlossen ist.",
+          "„saß er entweder schon im Taxi zum Flughafen oder er hatte die ganze Nacht im Büro durchgearbeitet“: Die anschließende Aufzählung möglicher Gesprächsthemen erklärt Jonas und den Konflikt vorab. Dadurch verliert das Nichtannehmen des Anrufs an Spannung und Offenheit.",
+          "„das weiche Grau, das alles verschluckte“ / „eine gespannte Sehne“ / „sein leises, metallisches Lied“: Die Häufung vertrauter Nebel- und Seilbilder macht die Atmosphäre austauschbarer, statt sie zu präzisieren.",
+          "„Auf dem Fluss gab es keine Fragen, auf die man antworten musste“: Der Text formuliert das Motiv ausdrücklich aus und lässt unmittelbar danach das Telefon klingeln. Diese demonstrative Vorbereitung macht die Schlusswirkung vorhersehbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "D",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 7740,
+    "out": 2143,
+    "thinking": 758
+  },
+  "costUsd": 0.03691
+}

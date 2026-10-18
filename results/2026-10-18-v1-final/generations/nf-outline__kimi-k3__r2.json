@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "kimi-k3",
+  "run": 2,
+  "text": "# Führen ohne Titel — Gliederung\n\n**Kapitel 1: Plötzlich Chef — was sich jetzt wirklich ändert**\nDu lernst, welche Erwartungen ab dem ersten Tag an dich gestellt werden und welche Fehler neue Führungskräfte in den ersten Wochen fast immer machen.\n\n**Kapitel 2: Dein Team verstehen, bevor du etwas änderst**\nDu erfährst, wie du in den ersten Wochen zuhörst, Stärken und Stimmungen im Team erkennst und dir ein echtes Bild verschaffst, statt vorschnell umzubauen.\n\n**Kapitel 3: Klare Erwartungen setzen, ohne zu überfordern**\nDu lernst, Ziele und Aufgaben so zu formulieren, dass dein Team weiß, woran es ist — und wie du nachfragst, ohne zu kontrollieren.\n\n**Kapitel 4: Aufgaben abgeben und loslassen**\nDu findest heraus, welche Aufgaben du behalten musst und welche du abgeben kannst, und wie du Übergaben so gestaltest, dass sie beim ersten Mal klappen.\n\n**Kapitel 5: Feedback geben, das ankommt**\nDu lernst, regelmäßig Rückmeldung zu geben — klar, konkret und so, dass dein Gegenüber sie annehmen kann statt in Verteidigung zu gehen.\n\n**Kapitel 6: Schwierige Gespräche führen**\nDu bekommst eine einfache Gesprächsstruktur für die unangenehmen Themen: schlechte Leistung, Konflikte im Team, Kündigungen — inklusive Vorbereitung und Umgang mit deiner eigenen Anspannung.\n\n**Kapitel 7: Zeit und Prioritäten — dein Tag als Führungskraft**\nDu lernst, deinen Kalender gegen den Strom aus Unterbrechungen und Dringendem zu verteidigen, damit Zeit für die eigentliche Führungsarbeit bleibt.\n\n**Kapitel 8: Nach oben und zur Seite — mit Geschäftsführung und Kollegen umgehen**\nDu erfährst, wie du dein Team nach außen vertrittst, Entscheidungen einforderst und mit ehemaligen Kollegen auf Augenhöhe klarkommst, die jetzt deine Mitarbeiter sind.\n\n**Kapitel 9: Fehler machen, daraus lernen, dranbleiben**\nDu lernst, wie du mit eigenen Fehlern offen umgehst, ohne Gesicht zu verlieren, und wie du Routinen aufbaust, die dich langfristig besser machen.\n\n**Kapitel 10: Deine Haltung finden — Führen auf deine Art**\nDu entwickelst aus allem Gelernten deinen eigenen Führungsstil, der zu dir und deiner Firma passt — und erkennst, dass Führung keine Technik ist, sondern eine Entscheidung, die du jeden Tag triffst.\n\n---\n\n**Hinweis zur Dramaturgie:** Die Kapitel bauen logisch aufeinander auf — von der Ankommensphase (1–2) über das Handwerkszeug (3–6) und die Arbeitsorganisation (7–8) bis zur persönlichen Weiterentwicklung (9–10). Kapitel 6 greift bewusst erst später, weil schwierige Gespräche auf dem Fundament aus Erwartungsklärung und Feedback-Praxis aufbauen.",
+  "usage": {
+    "in": 243,
+    "out": 883,
+    "thinking": 13
+  },
+  "costUsd": 0.010615920000000001,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Decart",
+  "latencyMs": 18878,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-18T05:27:13.782Z"
+}

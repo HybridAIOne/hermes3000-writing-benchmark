@@ -1,0 +1,124 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "F": {
+      "model": "gemini-4-argon",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Walks the fourth-floor corridor [...] checking pumps (Eine Pflegekraft prüft Infusionspumpen in den Patientenzimmern, nicht im Vorbeigehen auf dem Flur)",
+          "in the ring it has already left (Ein trockener Pappbecher mit kaltem Kaffee hinterlässt keinen feuchten Ring auf einer Holzbank, es sei denn, er ist undicht)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "the ordinary machinery of people keeping one another alive (Verstößt gegen die Vorgabe 'restrained, no clichés' – zu pathetisch und erklärend)",
+          "chapel window [...] parking-lot lights (Krankenhauskapellen liegen im Gebäudeinneren oder haben Buntglas; direkter Blickkontakt zu Parkplatzlampen wie in einem normalen Zimmer ist unplausibel)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 4,
+        "fehler": [
+          "**Second Pew** (Verstoß gegen die Aufgabe: Überschrift/Formatierung eingefügt statt reinem Szenentext)",
+          "Mina went there around four most nights, not to pray, but because the vending machine outside it took crumpled bills (Logikbruch: Wenn der Automat vor der Kapelle steht, gibt es keinen Grund, in die Kapelle hineinzugehen)",
+          "You changed my wife's dressing. [...] You hummed. (Nimmt das Mysterium durch eine banale Auflösung heraus, wirkt zudem leicht kitschig)",
+          "When she stood to go, he had taken off one glove (Er hatte vorher schon die Hände gefaltet und die Handlinien betrachtet – wann hatte er plötzlich Handschuhe an?)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "You knew my wife, though. Room 412. She died in March (Schwerer Verstoß gegen die Vorgabe 'restrained' und den impliziten Verzicht auf eine direkte Enthüllung/Erklärung)",
+          "Kindness leaves the heat on. I read that somewhere. (Kitschiger Kalenderspruch, bricht komplett mit dem geforderten zurückhaltenden Ton)",
+          "taillights two slow red breaths in the dark, going. (Überladenes, klischeehaftes Schlussbild)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "The Text has no 4 a.m. reference (Die Vorgabe 'at 4 a.m.' fehlt komplett im Text)",
+          "He was looking at his own hands, folded loosely over a blue visitor’s pass [...] He didn't turn his head. (Perspektivischer Logikbruch: Wenn sie an der Tür hinter ihm steht und er in der dritten Reihe sitzt, kann sie nicht sehen, was auf seinem Schoß unter seinen Händen liegt)",
+          "Wait for him to turn around [...] On the carpet beside his left boot, a single melted gray slush-print was slowly soaking (Zuvor hieß es, es habe seit 19 Uhr nicht geregnet; woher kommt um 4 Uhr morgens plötzlich ein frisch schmelzender Schneematsch-Abdruck?)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C",
+      "F",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3013,
+    "out": 1029,
+    "thinking": 0
+  },
+  "costUsd": 0.016316
+}

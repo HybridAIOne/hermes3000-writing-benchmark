@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "*Ein Bahnhofscafé, draußen Regen. Jonas sitzt schon am Tisch, als Martin hereinkommt. Beide zögern, ob sie sich umarmen sollen. Sie lassen es.*\n\n**MARTIN:** Du bist pünktlich.\n\n**JONAS:** Bin ich immer.\n\n**MARTIN:** Früher hast du mich warten lassen.\n\n**JONAS:** Früher war vieles anders. *(rührt in seinem Kaffee, der längst umgerührt ist)* Setz dich.\n\n**MARTIN:** Ich wollte eigentlich nicht lange …\n\n**JONAS:** Dann setz dich eben kurz.\n\n*Martin setzt sich. Die Jacke behält er an.*\n\n**MARTIN:** Du siehst gut aus.\n\n**JONAS:** Du lügst immer noch schlecht.\n\n**MARTIN:** Danke für die Karte. Zum Geburtstag.\n\n**JONAS:** Hat ja gedauert, bis du dich gemeldet hast.\n\n**MARTIN:** Ich wusste nicht, was ich schreiben soll.\n\n**JONAS:** „Danke“ hätte gereicht.\n\n*Pause. Die Kellnerin stellt ein Glas Wasser vor Martin ab. Keiner sieht auf.*\n\n**MARTIN:** Wie geht’s Anna?\n\n**JONAS:** Sie fragt nicht mehr nach dir. *(schnell)* Sie sagt, es sei nicht ihre Sache.\n\n**MARTIN:** Da hat sie wohl recht.\n\n**JONAS:** Meistens, ja.\n\n**MARTIN:** Ich hab’s nicht so gemeint. Damals. Zumindest nicht alles.\n\n**JONAS:** Nicht alles. *(nickt langsam)* Das ist immerhin etwas.\n\n**MARTIN:** Mehr hab ich gerade nicht.\n\n**JONAS:** Hab ich auch nicht verlangt.\n\n*Martin zieht den Reißverschluss seiner Jacke ein Stück herunter.*\n\n**JONAS:** Willst du auch einen Kaffee?\n\n**MARTIN:** Ja. Aber ich zahle.\n\n**JONAS:** *(fast lächelnd)* Das wirst du auch müssen.",
+  "usage": {
+    "in": 126,
+    "out": 1710,
+    "thinking": 914
+  },
+  "costUsd": 0.017352,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 11791,
+  "meta": [],
+  "at": "2026-10-17T17:48:20.216Z"
+}

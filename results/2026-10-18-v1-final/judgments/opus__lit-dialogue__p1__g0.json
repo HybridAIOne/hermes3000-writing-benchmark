@@ -1,0 +1,119 @@
+{
+  "task": "lit-dialogue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Jan setzt sich langsam.“ – Jan sitzt bereits (er rührt am Tisch in einer Tasse), und zuvor heißt es „Keiner bewegt sich.“: Logikbruch.",
+          "„Jan rührt in einer Tasse, in der noch nichts ist.“ – Woher kommt die leere Tasse vor der Bestellung? Die Geste ist zudem ein abgenutztes Verlegenheitsbild.",
+          "„Ein kurzes Lächeln, das sofort wieder verschwindet.“ – Die Regieanweisung erklärt mehr, als sie zeigt.",
+          "Formatbruch: Die fette Einleitungszeile steht neben kursiven Regieanweisungen in Klammern."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ist hier noch frei?“ / „Deine Jacke liegt schon drauf.“ – Die Ausgangssituation ist unklar: Jonas steht neben dem Stuhl, auf dem schon seine Jacke liegt.",
+          "„Du kommst noch immer zu früh.“ / „Du noch immer genau dann, wenn der Kaffee kalt wird.“ – Ohne Sprecherangaben ist nicht nachvollziehbar, wer was sagt.",
+          "„Früher hast du mich aufgefangen.“ – Die Zeile kippt ins Sentimentale.",
+          "Die Länge von rund 290 Wörtern liegt etwas über der Vorgabe."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Zeit hatten wir schon immer. (leise) Wir haben sie nur nie benutzt.“ – Kitschige Pointe, die den Subtext ausbuchstabiert.",
+          "„BEIDE: Einen Kaffee, schwarz.“ – Konstruierter Gleichklang.",
+          "„Manche Dinge ändern sich nicht.“ – Klischeesatz.",
+          "„Es regnet.“ … „Draußen fängt es an zu regnen.“ – Das Wettersymbol ist überdeutlich inszeniert.",
+          "Die Länge liegt mit rund 330 Wörtern deutlich über der Vorgabe; die Überschrift „Wiedersehen“ war nicht gefordert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie winkt der Kellnerin. Niemand kommt.“ … „Die Kellnerin stellt zwei Tassen ab.“ – Tom hat nie bestellt: Logikbruch.",
+          "„TOM: Wenn du schon bestellt hast.“ – Die Antwort passt nicht zur Frage „Willst du was trinken?“.",
+          "„Du konntest schon immer das letzte Wort haben.“ / „Und du hast immer geschwiegen, bis es zu spät war.“ – Der Konflikt wird offen verhandelt statt unausgesprochen.",
+          "„Deine Mutter hat angerufen … ob du an Weihnachten kommst“ – Das deutet eher auf ein Ex-Paar als auf alte Freunde.",
+          "„Er lacht kurz, ohne Freude.“ – Abgegriffene Formel."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Ich hänge an Sachen, die längst kaputt sind.“ – Der Subtext wird explizit gemacht; das wirkt kitschig.",
+          "„ihr Lächeln erreicht die Augen nicht“ – Klischee.",
+          "„Du hättest sie auch einfach vor die Tür stellen können. Wie den Rest damals.“ / „Man lernt ja aus Fehlern.“ – Der Konflikt wird fast ausgesprochen.",
+          "„Marie, bitte. Ich habe die Kiste … übrigens im Kofferraum.“ – Das „übrigens“ bricht den Ton.",
+          "Die Figuren wirken wie ein getrenntes Paar, nicht wie alte Freunde: Die Aufgabe wird verfehlt."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "D",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 5960,
+    "out": 3201,
+    "thinking": 1644
+  },
+  "costUsd": 0.08786
+}

@@ -1,0 +1,135 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "F": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Die Hütte war enger, als er sie in Erinnerung hatte.“ – Unmarkierter Wechsel in Jonas’ Erinnerung; die sonst an Ilse gebundene personale Perspektive wird verlassen.",
+          "„Dann ließ sie die Kette hängen und ging ihm die Tassen zeigen.“ – Die Schlussentscheidung ist anschaulich, aber betrieblich nicht ganz sauber vorbereitet: Ilse hat Krüger bereits zur Auffahrt heruntergewinkt und lässt ihn nun offenbar warten."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Ich stand eine halbe Stunde da drüben.“ – Die Ortsangabe passt nicht zur etablierten Ausgangslage: Jonas wartete am Anleger, an dem Ilse gerade angekommen ist. Ein vorheriger Aufenthalt am anderen Ufer wird nicht vermittelt.",
+          "„Im Elbtal gab es selten Empfang, wenn der Nebel so tief hing.“ – Die pauschale Verknüpfung von tiefem Nebel und fehlendem Mobilfunkempfang ist sachlich nicht überzeugend.",
+          "„Die Strömung reicht“ bis „ging den Deich hinauf zum Haus“ – Mit rund 570 Wörtern deutlich über dem Richtwert; insbesondere die ausführliche Ankunfts- und Zustandsbeschreibung könnte gestrafft werden.",
+          "„Es war nicht der Blick des Jungen … Es war der Blick, mit dem er Tabellen prüfte.“ – Erklärt Jonas’ Rollenwechsel schematisch und reduziert den Unternehmensberater auf ein naheliegendes Berufsbild.",
+          "„Das Klirren der Glieder war das einzige Geräusch weit und breit.“ – Überzogene akustische Ausschließlichkeit angesichts des zuvor deutlich beschriebenen Windes und des Flusses."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„und war erst angelegt, als das Schiff ruhig im Wasser lag“ – Fehlerhafte Verbkonstruktion mit Ilse als Subjekt; für ihre Handlung müsste es etwa „hatte erst angelegt“ heißen. Zudem ist die zeitliche Abfolge unklar.",
+          "„Er läuft, weil du ihn jeden Morgen anschiebst.“ – Ein fest eingebauter Fährmotor lässt sich nicht wie ein Fahrzeug anschieben; die technische Behauptung bleibt unplausibel.",
+          "„Vom Deich wehte der Wind Gras und Salz herunter“ – Das Salz ist am vorgegebenen Binnenelbe-Schauplatz unmotivierte Küstenatmosphäre.",
+          "„Sie hatte ihn gesehen, als die Fähre in der Biegung gelegen hatte.“ – Der folgende Rückblick erzählt die bereits vorgegebene Ankunft nochmals nach und bremst die Fortsetzung, statt die Szene voranzutreiben.",
+          "„Der Fluss hat keinen Fahrplan.“ – Pointierter, aber allgemeiner Sinnspruch; er ersetzt eine individuellere Reaktion und passt nur bedingt zum geregelten Fährbetrieb."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Sie hakte die Leine ab“ / „Ilse löste die Leine“ – Dieselbe Abfahrtsvorbereitung wird ohne zwischenzeitliches erneutes Befestigen zweimal ausgeführt.",
+          "„das Seil zog sie aus dem Ufer in den Strom“ – Die technische Funktion des Seils bleibt widersprüchlich: Es erscheint hier als Antrieb, später lediglich als Halterung; die Mechanik der motorisierten Seilfähre wird nicht schlüssig dargestellt.",
+          "„Am Südufer wartete niemand“ / „frei zwischen den Ufern“ – Nach der erzählten Ankunft am Südufer befindet sich der Ponton unvermittelt wieder zwischen den Ufern. Der räumliche Ablauf ist unsauber.",
+          "„Dass er anrief, bevor er kam, hatte er noch nie gelernt, auch als Kind nicht.“ – Die nachgeschobene Kindheitsparallele ist sachlich schief und wirkt wie eine erzwungene Pointe.",
+          "„die Freude war da, aber sie war vorsichtig mit ihr, wie mit einer Flamme bei Wind“ – Benennt und bebildert das Gefühl ausführlich, statt es aus Ilses Verhalten hervorgehen zu lassen; zusammen mit „etwas in ihr lockerte sich“ entsteht konventionelle Gefühlsprosa."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Sie nahm die Leine vom Poller und legte sie über den Arm.“ / „Ilse band die Leine fest“ – Das unmittelbar zuvor abgeschlossene Festmachen wird ohne erkennbaren Anlass rückgängig gemacht und wiederholt. Die Handgriffe wirken eher als Dialogfüllung denn als notwendige Arbeit.",
+          "„Auf dem Tisch lag die Rechnung für das Ersatzteil, unter einem alten Fahrplan beschwert.“ – Die räumliche Anordnung ist unpräzise: Ein Fahrplan als Beschwerung bleibt wenig anschaulich; das spätere Herunterrutschen der Rechnung wird dadurch zusätzlich erklärungsbedürftig.",
+          "„Er lächelte, aber das Lächeln blieb ihm nicht lange.“ – Konventionelle Gefühlsmarkierung; weniger präzise als die sonst gut eingesetzten gegenständlichen Beobachtungen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ihre Knie meldeten sich dabei … und sie ließ Jonas nicht merken, dass sie es hörte.“ – Die Redewendung vom Sichmelden wird unnötig ins tatsächliche Hören verlängert. Dadurch bleibt unklar, ob Schmerzen oder Gelenkgeräusche gemeint sind.",
+          "„Er hatte sich nicht verändert, und doch war alles an ihm anders.“ – Abgegriffene paradoxe Einleitung; die folgenden konkreten Beobachtungen könnten den Gegensatz ohne diese Voraberklärung tragen.",
+          "„Es war noch eine Fahrt eingetragen, die von 17 Uhr“ – Der eingetragene Fahrplantermin wird eingeführt, aber Ilses anschließendes Fortgehen und die Versorgung des Sohnes werden zeitlich nicht dazu ins Verhältnis gesetzt. Die betriebliche Situation bleibt unnötig offen.",
+          "„als müsste er erst rechnen, was er bedeutete“ – Das Rechnen mit der Bedeutung eines Bechers wirkt als demonstrative Anspielung auf Jonas’ Beruf. Zudem wird die Symbolik des anschließenden Becherreichens vorab erklärt."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "F",
+      "B",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 4746,
+    "out": 2102,
+    "thinking": 492
+  },
+  "costUsd": 0.030512
+}

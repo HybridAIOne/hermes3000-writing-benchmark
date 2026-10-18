@@ -1,0 +1,124 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "F": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„obwohl du formal keine Anweisungen geben darfst“: Die Aufgabenstellung setzt fehlende Führungsausbildung voraus, nicht fehlende Weisungsbefugnis. Hier wird die Zielgruppe unnötig eingeschränkt.",
+          "„gesund bleiben und deinen Weg finden“: Das Schlusskapitel behandelt Abschalten und berufliche Weiterentwicklung statt ausdrücklich die eigene Führungshaltung; der geforderte Endpunkt fehlt.",
+          "„Zwischen den Stühlen – der richtige Umgang mit deinem eigenen Chef“: Die Klärung von Auftrag und Rückendeckung kommt erst in Kapitel 6, nachdem bereits Aufgaben verteilt und Entscheidungen durchgesetzt werden sollen. Das schwächt den aufbauenden Charakter.",
+          "„Fehler, Trödelei oder dicke Luft“: Fehler und Konflikte werden bereits im Gesprächskapitel behandelt und im folgenden Kapitel „Wenn es brennt – Ruhe bewahren bei Druck und Fehlern“ erneut aufgegriffen, ohne die Zuständigkeiten ausreichend abzugrenzen.",
+          "„zum Respektierten“: Die substantivierte Bezeichnung klingt gestelzt und macht aus dem Rollenwechsel vor allem eine Statusfrage."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Rückmeldung im Alltag“ / „Schwierige Gespräche führen“: Kritik und Leistungsprobleme liegen eng beieinander; anders als bei einer ausdrücklich auf wiederholte oder eskalierte Probleme begrenzten Gesprächsführung bleibt die Kapitelgrenze unscharf.",
+          "„Aufgaben abgeben, ohne die Kontrolle zu verlieren“: Die Aufgabenverteilung beginnt, ohne dass zuvor gemeinsame Ziele und Prioritäten geklärt werden. Das ist eine Lücke im ansonsten nachvollziehbaren Aufbau.",
+          "„Zwischen den Stühlen“: Der Beschreibungssatz bündelt das Vertreten fremder Entscheidungen, die Vermittlung zwischen Hierarchieebenen und die Zusammenarbeit mit anderen Abteilungen. Das Kapitel ist gegenüber den übrigen deutlich weniger klar zugeschnitten."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„der beste Sachbearbeiter im Team“: Das Beispiel verengt die branchenoffene Zielgruppe unnötig auf eine bestimmte Bürotätigkeit; eine allgemeinere Formulierung wäre passender.",
+          "„Aufbau: Die Kapitel 1 und 2 klären deine Rolle.“: Der zusätzliche Erläuterungsabschnitt wiederholt überwiegend, was die übersichtliche Gliederung bereits zeigt, und ist verzichtbar."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Du richtest klare Ziele, verlässliche Regeln für Rückmeldungen und feste Gesprächsformate ein“: „Ziele einrichten“ ist keine idiomatische Verbindung. Ziele werden gesetzt oder vereinbart; das gemeinsame Verb passt nicht zu allen Aufzählungsgliedern.",
+          "„Aufgaben abgeben, ohne die Kontrolle zu verlieren“ / „Vereinbarungen treffen, statt auf Hoffnung zu bauen“: Ziele und Rückmelderegeln werden erst nach der Aufgabenübertragung eingeführt, obwohl sie deren Grundlage bilden sollten.",
+          "„was du in den ersten dreißig Tagen wirklich tun musst“: Das erste Kapitel beansprucht einen breiten Zeitraum und Aufgabenbereich, der sich mit den folgenden Kapiteln zu Auftrag, Team und Rollenwechsel überschneidet.",
+          "„Vom Kollegen zum Vorgesetzten“: Der grundlegende Beziehungswechsel wird erst in Kapitel 4 behandelt, nach dem Kennenlernen des Teams. Für den verlangten Aufbau vom ersten Tag an wäre eine frühere Platzierung schlüssiger.",
+          "„mit denen du bisher auf Augenhöhe warst“: Die Formulierung legt nahe, dass Führung eine Beziehung auf Augenhöhe beendet. Gemeint ist offenbar eine veränderte Verantwortung, nicht geringerer gegenseitiger Respekt."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "A",
+      "D",
+      "C",
+      "F",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3282,
+    "out": 1624,
+    "thinking": 507
+  },
+  "costUsd": 0.022804
+}

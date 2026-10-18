@@ -1,0 +1,107 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "Her name tag says M. OSTRANDER in small letters, so he would have had to read it, or hear someone say it. (Logikbruch: Im ersten Absatz dreht sie das Schild um, außerdem steht dort gar nicht ihr Vorname 'Maren', den der Fremde gerade benutzt hat.)",
+          "'Your hair was longer.' / Her hair is still short. (Logikbruch: 'still short' ergibt als Reaktion auf 'was longer' keinen Sinn, es müsste 'It's always been short' heißen.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "the ordinary machinery of people keeping one another alive (Stilistisch etwas zu erklärend für den ansonsten sehr zurückhaltenden Ton.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "Room 312 had been converted into a supply closet three years ago. / two crescents of grey slush (Verstoß gegen die Vorgabe 'contemporary novel': Der Text bedient massive Geistergeschichten-Klischees, anstatt realistisch und zurückhaltend zu bleiben.)",
+          "A man sat in the second row of padded chairs. / leaving the paper cup on the blonde wood of the pew (Kontinuitätsfehler: Erst sind es gepolsterte Stühle, dann plötzlich eine hölzerne Kirchenbank.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 7,
+        "fehler": [
+          "**Second Pew** (Unnötige Überschrift mit Markdown-Formatierung, gefragt war eine Szene.)",
+          "His hands were folded ... He unfolded his hands and studied them, as if the answer might be in the creases. ... he had taken off one glove (Logikbruch: Er trägt einen Handschuh, aber zuvor betrachtete sie seine gefalteten Hände und vermutete die Antwort in den Handlinien/Falten.)",
+          "You changed my wife's dressing. (Verstoß gegen die Vorgabe: Dies liefert eine klare Enthüllung/Erklärung, wer der Mann ist und woher er sie kennt.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "The tealight shivered in its plastic cup, though no air moved. (Logikbruch: Zuvor wurde es als 'battery tealight' eingeführt. Eine LED-Kerze flackert durch Elektronik, nicht durch Luftzug; oder das Plastikgehäuse selbst zittert auf übernatürliche Weise.)",
+          "Then she reached up and turned her lanyard around, so the photo faced out, and stood there letting him read whatever he liked. (Psychologisch unglaubwürdiges Verhalten angesichts der zuvor etablierten Vorsicht nach einem Stalking-Vorfall.)",
+          "At 4 a.m. (Die vorgegebene Uhrzeit wird im Text nicht klar etabliert, nur vage durch 'at this hour' angedeutet.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "D",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2603,
+    "out": 913,
+    "thinking": 0
+  },
+  "costUsd": 0.014336
+}

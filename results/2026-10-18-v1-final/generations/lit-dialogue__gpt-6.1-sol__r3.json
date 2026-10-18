@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "gpt-6.1-sol",
+  "run": 3,
+  "text": "*(Mara öffnet die Tür. Jens hält eine Papiertüte.)*\n\n**Jens:** Der Bäcker an der Ecke hat zugemacht.\n\n**Mara:** Schon im Februar.\n\n**Jens:** Ich war erst dort.\n\n**Mara:** Du bist also den alten Weg gegangen.\n\n**Jens:** Die Füße kennen ihn noch.\n\n*(Sie tritt zur Seite.)*\n\n**Mara:** Die Schuhe kannst du anlassen.\n\n**Jens:** Es regnet.\n\n**Mara:** Der Boden lässt sich wischen.\n\n*(Er stellt die Tüte auf den Tisch.)*\n\n**Jens:** Die mit Mohn waren aus.\n\n**Mara:** Du hast früher immer die letzten bekommen.\n\n**Jens:** Heute war jemand schneller.\n\n**Mara:** Setz dich. Nicht auf den Stuhl am Fenster.\n\n**Jens:** Wackelt er noch?\n\n**Mara:** Ich habe mich daran gewöhnt.\n\n*(Er nimmt den anderen Stuhl. Sie holt zwei Tassen.)*\n\n**Jens:** Die blaue gibt es noch.\n\n**Mara:** Sie steht meistens hinten.\n\n**Jens:** Da kommt man schlecht dran.\n\n**Mara:** Wenn man sie braucht, geht es.\n\n*(Sie schenkt ein.)*\n\n**Jens:** Ohne Zucker, bitte.\n\n**Mara:** Ich weiß.\n\n**Jens:** Hätte ja sein können.\n\n**Mara:** Was?\n\n**Jens:** Dass du welchen hineintust.\n\n*(Sie legt den Löffel neben seine Tasse.)*\n\n**Mara:** Du bist dünner geworden.\n\n**Jens:** Die Jacke ist zu groß.\n\n**Mara:** Es ist dieselbe.\n\n**Jens:** Ja.\n\n*(Draußen fährt ein Bus vorbei.)*\n\n**Mara:** Deiner?\n\n**Jens:** Der fährt alle zwanzig Minuten.\n\n**Mara:** Sonntags nur jede Stunde.\n\n**Jens:** Dann habe ich mich wohl verlesen.\n\n**Mara:** Der Fahrplan hängt noch unten.\n\n**Jens:** Ich habe nicht hingesehen.\n\n*(Sie öffnet die Tüte.)*\n\n**Mara:** Zwei reichen nicht bis morgen.\n\n**Jens:** Ich wusste nicht, wie viele ich mitbringen soll.\n\n**Mara:** Für heute reichen sie.\n\n*(Er zieht die Tasse näher.)*\n\n**Jens:** Der Kaffee ist noch heiß.\n\n**Mara:** Du musst nicht warten, bis er kalt ist.",
+  "usage": {
+    "in": 64,
+    "out": 698,
+    "thinking": 194
+  },
+  "costUsd": 0.007108,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 24067,
+  "meta": [],
+  "at": "2026-10-17T17:46:33.201Z"
+}

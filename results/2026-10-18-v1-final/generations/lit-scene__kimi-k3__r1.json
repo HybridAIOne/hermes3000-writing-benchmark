@@ -1,0 +1,20 @@
+{
+  "task": "lit-scene",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "**Das Haus am Weidenweg**\n\nDer Schlüssel klemmte, wie er es immer getan hatte, nur dass Marlen es verlernt hatte. Zwanzig Jahre, dachte sie, und die Hand weiß es noch: nach links ziehen, leicht heben, dann drehen. Die Tür gab nach, ohne einen Laut, als habe sie aufgehört, sich zu wehren.\n\nDrinnen stand die Luft wie Wasser in einem versunkenen Schiff. Marlen ließ die Tür offen, mehr aus Zögern als aus Vernunft, und blieb auf der Schwelle stehen. Der Flur roch nach Staub und kaltem Ofen, darunter, kaum wahrnehmbar, nach Lavendel – der Duft, den ihre Mutter in kleinen Säckchen zwischen die Wäsche gelegt hatte. Dass er sich zwanzig Jahre gehalten hatte, war unmöglich. Trotzdem war er da.\n\nIhre Schritte auf den Dielen klangen fremd, zu laut, wie die eines Eindringlings. An der Wand hing der Mantel ihrer Mutter noch auf dem Haken, grau, am Kragen ausgeblickt. Marlen wagte nicht, ihn zu berühren. Im Spiegel gegenüber sah sie sich selbst: eine Frau Mitte vierzig mit dem Gesicht ihrer Mutter, eingerahmt von Spinnweben wie von einem Trauerflor.\n\nDie Küche war dunkel, die Jalousien halb heruntergelassen. Auf dem Tisch stand eine Tasse, nach innen gestülpt, als habe jemand sie ordentlich abgewaschen und weggeräumt und dann nie wieder gebraucht. Daneben lag ein Zettel, die Schrift durch Licht ausgebleicht bis zur Unleserlichkeit. Nur zwei Wörter waren noch zu erkennen: *nicht vergessen*.\n\nMarlen setzte sich auf den Stuhl am Fenster, ihren alten Platz. Von hier aus hatte sie als Kind die Straße beobachtet und gewartet – auf wen, das wusste sie heute nicht mehr. Draußen bewegte sich die Weide im Wind, und ihr Schatten kroch über die Wand des Hauses wie eine Hand, die etwas sucht.\n\nSie blieb sitzen, bis es dunkel wurde. Der Lavendelduft wurde stärker, je kälter das Haus wurde, und Marlen fragte sich zum ersten Mal, ob ihre Mutter wirklich allein hier gestorben war.",
+  "usage": {
+    "in": 176,
+    "out": 606,
+    "thinking": 11
+  },
+  "costUsd": 0.007288439999999999,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Sail Research",
+  "latencyMs": 13337,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-18T05:26:23.488Z"
+}

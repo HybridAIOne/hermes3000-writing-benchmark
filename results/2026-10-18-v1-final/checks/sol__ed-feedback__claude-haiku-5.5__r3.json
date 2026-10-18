@@ -1,0 +1,21 @@
+{
+  "task": "ed-feedback",
+  "model": "claude-haiku-5.5",
+  "run": 3,
+  "judge": "sol",
+  "verdict": {
+    "found": [
+      "tempus",
+      "perspektive",
+      "fahrgaeste",
+      "hupe"
+    ],
+    "false_alarms": 3
+  },
+  "usage": {
+    "in": 969,
+    "out": 82,
+    "thinking": 44
+  },
+  "costUsd": 0.002758
+}

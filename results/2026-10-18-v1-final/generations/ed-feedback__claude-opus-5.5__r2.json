@@ -1,0 +1,18 @@
+{
+  "task": "ed-feedback",
+  "model": "claude-opus-5.5",
+  "run": 2,
+  "text": "1. **„Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.“** Die Fahrgäste können die Rampe nicht benutzen, bevor sie heruntergelassen ist; die Reihenfolge muss umgekehrt werden („bevor“ statt „nachdem“ oder die Sätze umstellen).\n\n2. **„die drei Fahrgäste“** Danach werden vier Fahrgäste genannt (Frau mit Fahrrad, Mann im grauen Mantel, Junge mit Kopfhörern, Frau Lüders), also muss die Zahl angepasst werden, es sei denn, Frau Lüders ist die Radfahrerin, was dann klargestellt werden muss.\n\n3. **„Ilse stellt den Motor an“** Hier steht Präsens statt Präteritum; richtig ist „stellte“.\n\n4. **„Ich hatte diesen Moment immer gemocht, dachte sie, wenn die Fähre sich vom Ufer löst.“** Im direkt wiedergegebenen Gedanken passen die Tempora nicht zusammen (Plusquamperfekt „hatte gemocht“ neben Präsens „löst“); entweder durchgehend direkt („Ich habe diesen Moment immer gemocht …“) oder als erlebte Rede in der dritten Person („Sie hatte diesen Moment immer gemocht, wenn die Fähre sich vom Ufer löste“).\n\n5. **„dass sie das andere Ufer nicht sah“ / „Am Anleger drüben wartete schon der Bäcker“** Ilse kann im Nebel nicht sehen, dass der Bäcker am gegenüberliegenden Anleger wartet; es braucht eine Markierung als Annahme oder Wissen aus Gewohnheit (etwa „würde schon … warten“).\n\n6. **„Der Nebel schluckte jedes Geräusch.“ / „und hupte zweimal“** Das Hupen widerspricht der Aussage, dass der Nebel jedes Geräusch schluckt.\n\n7. **„mit seinem Pferdewagen … und hupte zweimal“** Ein Pferdewagen hat keine Hupe; hier muss ein anderes Signal gewählt werden (Glocke, Ruf, Peitschenknall) oder der Wagen ein Fahrzeug mit Hupe sein.\n\n8. **„wie jeden Morgen seit dem Krieg“** Da der Junge ein Handy benutzt, spielt die Szene frühestens in den 2000er-Jahren; derselbe Bäcker müsste dann seit über 60 Jahren täglich kommen, was die zeitliche Einordnung unplausibel macht.\n\n9. **„Am / Anleger drüben“** Im Manuskript steht ein falscher Zeilenumbruch mitten im Satz, der beim Satz zu entfernen ist.",
+  "usage": {
+    "in": 551,
+    "out": 2328,
+    "thinking": 1313
+  },
+  "costUsd": 0.048764,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 22258,
+  "meta": [],
+  "at": "2026-10-17T17:44:10.900Z"
+}

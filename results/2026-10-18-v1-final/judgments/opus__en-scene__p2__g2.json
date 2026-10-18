@@ -1,0 +1,121 @@
+{
+  "task": "en-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"its brush turning steadily\" – the cleaner and floor machine motif appears twice, and the second appearance adds little",
+          "\"Somewhere above them, a monitor gave a single brief beep, then stopped.\" – a deliberately ominous detail that edges towards a stock effect",
+          "\"A small bead of water slipped from the fabric and darkened the floor.\" – the wet-stranger motif reads like a familiar ghost signal",
+          "\"thin as a coin\" – a slightly forced comparison for a thin film of water",
+          "\"Good morning, Mara\" – the name moment is staged without tension; her reaction stays rather schematic"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "\"because the staff room television had been left on again\" – an explanatory opening, but it is functional",
+          "\"She could have asked his name, then called upstairs.\" – one sentence too many of explanation about her inner state",
+          "\"his shoes were dry, though water had collected beneath the hem of his coat\" – the ghost hint is a little too pointed",
+          "\"One damp corner kept lifting beneath his palm.\" – a fine closing image, but the damp motif is now leaned on hard",
+          "Slightly over the target length (about 270 words)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "\"**Second Pew**\" – a title in Markdown; the brief asked for book text only",
+          "\"You sat with my mother. Room twelve. You did her hair.\" – the explanation comes close to the revelation the brief ruled out",
+          "\"I just wanted to see what you looked like when you weren't busy.\" – a sentimental, almost aphoristic line",
+          "\"a single grey hair wound through its teeth like thread on a spool\" – the comb as closing image tips towards the sentimental and the supernatural",
+          "\"hands folded not in prayer but the way people hold them when they are cold\" – a familiar turn of phrase"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"She didn't know a Miller on her floor. Miller worked pediatric oncology, two buildings over, and had retired in November.\" – a logical contradiction: she doesn't know him but knows details about him",
+          "\"Nora’s hand went instinctively to her chest\" – \"instinctively\" is telling and a cliché",
+          "\"the font was twelve-point, illegible from twenty feet away\" – overprecise, clunky technical explanation",
+          "\"a single melted gray slush-print\" – an awkward, clumsy coinage",
+          "\"The rubber soles of Nora’s shoes made no sound on the linoleum, only a faint tackiness\" – a lopsided construction (sound vs. tackiness), and an overloaded opening"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"She knew the chairs by touch.\" vs. \"the red washed once across the pews\" – a logic break: chairs or pews",
+          "\"# The Chapel at 4 A.M.\" – a title with a Markdown heading; not book text only",
+          "\"I remembered yours because I figured anyone who did that must know how much it matters.\" – explanatory and sentimental; it resolves the mystery as a revelation",
+          "\"used her name like a key earlier and she had not liked the door it opened\" – a mannered, strained metaphor",
+          "\"the necessary arithmetic of forgetting\" – a portentous abstraction that tells instead of showing; the text is also noticeably over length (about 300 words)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3761,
+    "out": 2186,
+    "thinking": 876
+  },
+  "costUsd": 0.058764
+}

@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "gpt-6.1-sol",
+  "run": 2,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-1"
+    ],
+    "evidence": [
+      "Im Gang hinter Vossberg ist Dr. Vosskuhl erschienen."
+    ]
+  },
+  "usage": {
+    "in": 1777,
+    "out": 132,
+    "thinking": 89
+  },
+  "costUsd": 0.004874
+}

@@ -1,0 +1,122 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "Wiederholungsmasche bei Ilses Repliken: „Wenn Sie drauf sind.“ / „Wenn wir ankommen, sind wir da.“ / „Wenn Schluss ist.“",
+          "„An der Mitte des Flusses änderte sich der Klang“ – unidiomatisch, gemeint ist „In der Mitte“",
+          "„Er lächelte, als hätte er nicht gewusst, ob sie scherzte“ – schiefe Zeitstufe, besser „als wüsste er nicht“",
+          "„Ilse deutete auf die Fähre. „Das hier ist kein Mobilfunkmast.““ – konstruierte Pointe, das Motiv bleibt folgenlos",
+          "„Sie hatte heute Morgen den zweiten Handschuh nicht gleich gefunden. Er lag im Schubfach …“ – Füllpassage, die den Rhythmus bremst"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "Zeitlogik: „Es war sechs Uhr siebenundvierzig“ und später „Neunundvierzig Minuten nach sechs“ – Beladen, Kassieren und Ablegen in zwei Minuten sind unmöglich",
+          "Rückblenden-Exposition entgegen der Vorgabe: „Über die Verträge für den Verkauf der Fährrechte, über die Maklerin aus Lüneburg …“",
+          "Klischees: „in das Nichts fraß“, „die milchige Suppe“, „der feuchten Watte des Nebels“, „kahle, schwarze Finger“",
+          "Inkonsistenz: Das Telefon steckt erst in der „Innentasche ihrer Jacke“, wird dann aber „zurück in die Brusttasche“ geschoben",
+          "Erklärender statt zeigender Passus: „die Ilse mehr ermüdete als jeder Sturm auf der Elbe“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "Der Anruf ist nicht erkennbar von Jonas: „Sie wusste, was auf dem Display stand, ohne hinzusehen“ – der Name fällt nie",
+          "Logikbruch: „hörte sie den ersten Motor oben auf dem Deich“, doch es kommt „Frau Wulf mit dem Fahrrad“",
+          "Anredewechsel: Ilse siezt den Fremden nicht, duzt ihn aber unmittelbar danach: „Da musst du links, hinter der Kapelle.“",
+          "„summte es noch einmal kurz und kürzer“ – unklare Fügung",
+          "„die Kette der Rolle“ – technisch vage und unidiomatisch"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "Widerspruch im Satz: „die drei Menschen darauf, die sie nicht kannte, bis auf Wessel und Hahn“",
+          "Geografischer Unsinn im Dialog: „Die Fähre fährt nach Hitzacker-Ufer“ – „Das ist das Gleiche.“",
+          "„Ein Name stand dort, in der Schrift, die sie selbst eingestellt hatte“ – unklar, gemeint ist wohl der Kontaktname",
+          "Deutlich zu kurz (etwa 750 Wörter) bei dünnem Dialog: „„Kalt heute“ … „November“ … „Hm.““",
+          "„Sie ließ den Motor im Leerlauf, und das Schiff trieb langsam über die Strömung“ – technisch unklar für eine Seilfähre"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„mit diesem leisen Zug, den sie in den Fußsohlen hatte, bevor sie ihn sah“ – einen Zug kann man nicht sehen, das Bild ist schief",
+          "Etwas über der Ziellänge (etwa 1150 Wörter); die dritte Überfahrt ist summarisch erzählt: „Einmal fragte er … Sie sagte es ihm. Er fragte …“",
+          "„Er rauchte nicht mehr, aber er hielt die Hände noch so, als täte er es“ – leicht bemühtes Detail",
+          "„Das Seil weiß, wo’s langgeht“ – naheliegende Pointe"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "A",
+      "C",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 14837,
+    "out": 4450,
+    "thinking": 2821
+  },
+  "costUsd": 0.148348
+}

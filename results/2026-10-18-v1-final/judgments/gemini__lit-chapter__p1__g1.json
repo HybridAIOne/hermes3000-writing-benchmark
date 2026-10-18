@@ -1,0 +1,116 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 6,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "Der Motor kam husten, dann ruhig. (Grammatikalisch defekt, vermutlich falscher Anglizismus)",
+          "Die Fähre löste sich von der Anlegestelle [...] Am Ufer stand er schon [...] als die Rampe herunterkam (Schwerer Logikbruch: Sie legt erst ab, dann steigen die ersten beiden Fahrgäste vom Ufer aus zu)",
+          "Auf halber Strecke begann das Telefon in ihrer Jackentasche zu vibrieren. Sie hatte es in den Steuerstand gelegt [...] Ilse ließ es in der Jacke. (Kontinuitätsbruch innerhalb desselben Absatzes)",
+          "Das Display leuchtete im Grau, sie erkannte den Namen, ohne ihn lesen zu müssen. (Verstoß gegen Vorgabe: Es wird für die Lesenden nicht erkennbar, dass der Anruf von Jonas ist)",
+          "Die Bücher klirrten nicht, sie waren nur schwer. (Unfreiwillig komische Stilblüte: Bücher klirren nie)"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "einen dieser Kaffee in Pappbechern, die er ihr einmal mitgebracht und die sie nicht hatte austrinken können. (Kleine Rückblenden-Exposition über Jonas in München, obwohl keine Rückblenden-Exposition gewünscht war)",
+          "dass man das andere Ufer nur wusste. (Etwas bemühte elliptische Formulierung gleich im ersten Satz)",
+          "Umfang mit rund 640 Wörtern deutlich unter der Zielvorgabe von etwa 900 Wörtern."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Am Anleger lag die nächste kleine Warteschlange in der üblichen Ordnung: erst der Mann mit dem Fahrrad, dann die Frau, dann der Lieferwagen. Nein, die waren schon drüben. (Wirrer, unmotivierter Sinnestäuschungs-Einschub ohne erzählerischen Mehrwert)",
+          "dann drehte sie sie zurück in die Strömung. (Sachlicher Fehler: Eine Seilfähre wird am Ufer nicht gewendet/gedreht)",
+          "dass Ilse das andere Ufer nur daran erkannte, dass es fehlte. (Stilblüte / schiefes Paradoxon im ersten Satz)",
+          "Umfang mit rund 630 Wörtern deutlich unter der Zielvorgabe von etwa 900 Wörtern."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "Sie stellte sich ans Seil und begann zu ziehen. [...] das Seil lief durch ihre Handflächen, Glied um Glied (Schwerer Sach- und Logikfehler: Eine Autofähre mit Postwagen über die breite Elbe lässt sich nicht von einer 61-Jährigen mit bloßen Händen an einer Kette ziehen; Seil und Kette werden zudem verwechselt)",
+          "Peters fuhr den Postwagen aus Dömitz [...] Nach Dömitz. Zum Friedhof. (Geografischer Unsinn: Bei Hitzacker liegt am anderen Elbufer Amt Neuhaus, Dömitz liegt rund 20 Kilometer flussaufwärts)",
+          "Der Name stand da, in ihrer eigenen Schrift, so hatte sie ihn vor Jahren eingespeichert (Logikfehler: Auf einem Handydisplay erscheint ein getippter Kontakt nicht in der eigenen Handschrift)",
+          "„Woher wissen Sie das.\" / „Bei welcher Sicht.\" (Fehlende Fragezeichen bei eindeutigen Ergänzungsfragen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Drei. Das Fahrrad, der Stoffbeutel, die Kiste. (Wirkt leicht konstruiert, als würde die Erzählerin die Prompt-Vorgabe abhaken)",
+          "Umfang mit rund 620 Wörtern deutlich unter der Zielvorgabe von etwa 900 Wörtern."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "B",
+      "C",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 8358,
+    "out": 1162,
+    "thinking": 0
+  },
+  "costUsd": 0.028336
+}

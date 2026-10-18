@@ -21,11 +21,7 @@ Details: [METHODOLOGY.md](METHODOLOGY.md).
 
 ## Results
 
-**Latest: final 2026-10-17** — [short version](results/2026-10-17-v1-final/SUMMARY.md) · [Kurzfassung](results/2026-10-17-v1-final/ZUSAMMENFASSUNG.md) · [full report](results/2026-10-17-v1-final/report.md) — six finalists, three samples
-per task, two judging passes. In German literary prose and non-fiction GPT-6.1 Sol and Claude Opus 5.5
-lead with overlapping intervals, ahead of Claude Sonnet 5.5; Sonnet leads copy-editing. GPT-6 Luna
-delivers fourth place at roughly 1/14 of Sol's and 1/65 of Opus's cost per standard page.
-Preliminary round: [`2026-10-17-v1-prelim-r2`](results/2026-10-17-v1-prelim-r2/report.md).
+**Latest: final 2026-10-18** — [short version](results/2026-10-18-v1-final/SUMMARY.md) · [Kurzfassung](results/2026-10-18-v1-final/ZUSAMMENFASSUNG.md) · [full report](results/2026-10-18-v1-final/report.md). In German literary prose and non-fiction GPT-6.1 Sol and Claude Opus 5.5 lead with overlapping intervals; Sol costs about a fifth as much per page. The best copy-editor is the open-weight Kimi K3. GPT-6 Luna takes fourth place at a fourteenth of Sol's cost. Preliminary round with all 14 models: [`2026-10-17-v1-prelim-r2`](results/2026-10-17-v1-prelim-r2/report.md) (long list in the short version).
 
 Each run lives in [`results/`](results/) with its report, every text and every verdict, a blind
 reading page and a manifest naming the benchmark fingerprint, models, judges and code commit.

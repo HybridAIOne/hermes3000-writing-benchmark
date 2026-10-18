@@ -1,0 +1,121 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Sie steckte sie ihm an den Lenker […] Das Licht blinkte rot“: Eine rote Leuchte am Lenker ersetzt kein defektes Fahrrad-Vorderlicht. Das unterläuft die ansonsten überzeugende praktische Kompetenz Ilses.",
+          "„die Kapuze über den Ohren und darauf noch die Kopfhörer“ / „er zog einen der Stöpsel heraus“: Die zunächst über der Kapuze getragenen Kopfhörer werden unvermittelt zu Ohrstöpseln.",
+          "„und sie wussten beide, dass sie sie nicht wiederkriegen würde“: Die Pointe erklärt das unausgesprochene Einverständnis, statt es beim gelungenen Dialog zu belassen; zudem wird die personale Bindung an Ilse unnötig gelockert.",
+          "„als hätte sie einen Witz gemacht“ / „als hätte sie eine lange Antwort bekommen“: Die ähnlich gebauten Kommentare erklären mehrfach die Wirkung von Ilses Wortkargheit. Das wirkt stellenweise wie eine wiederholte Pointentechnik."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Sie müssen nicht dauernd danke sagen.“: Der junge Mann hat erst einmal ausdrücklich gedankt. Ilses Zurechtweisung besitzt deshalb keine ausreichende Grundlage in der Szene.",
+          "„Wenn wir ankommen, sind wir da.“ / „Bis Feierabend.“ / „Wenn Schluss ist.“: Die Häufung ausweichender Antworten macht aus Wortkargheit eine vorgeführte Schlagfertigkeitsmasche. Die Fahrgäste dienen zunehmend als Stichwortgeber.",
+          "„Sie hatte heute Morgen den zweiten Handschuh nicht gleich gefunden. […] Am Ende hatte sie ihn doch angezogen“: Eingeschobene Rückschau auf eine frühere Alltagshandlung; sie bremst die Überfahrt und widerspricht der gewünschten Darstellung ohne Rückblenden-Exposition.",
+          "„Sie löste den Riegel, drehte die Fähre zurück und zog das Seil an.“: Die Bedienung der Seilfähre bleibt mechanisch unklar. Insbesondere das Zurückdrehen der Fähre wird als selbstverständlicher Handgriff behauptet, ohne einen nachvollziehbaren Vorgang zu zeigen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Die Fähre fährt nach Hitzacker-Ufer […] Das ist das Gleiche.“: Die Antwort auf die Frage nach Neu Darchau setzt unterschiedliche Orte ohne Erklärung gleich. Die räumliche Orientierung der Szene wird dadurch unglaubwürdig.",
+          "„die drei Menschen darauf, die sie nicht kannte, bis auf Wessel und Hahn“: Umständliche, sich unmittelbar selbst korrigierende Formulierung. Ilse kennt gerade zwei der drei Fahrgäste.",
+          "„Wessel hatte den Hof auf der Wendseite […] obwohl die Milchkühe längst verkauft waren“: Biografischer Hintergrund wird erklärend eingeschoben, statt sich aus der gegenwärtigen Handlung zu ergeben. Ähnliche Einschübe über Pfarrhausbewohner und Briefträger verstärken den Expositionscharakter.",
+          "„Ein Name stand dort, in der Schrift, die sie selbst eingestellt hatte, vor Jahren, als er noch nicht so oft anrief.“: Die Rückschau liefert Beziehungsvorgeschichte an der Stelle, an der der Anruf unmittelbar wirken sollte.",
+          "„Sie würde es gleich sehen, wenn der Nebel sich hob, oder sie würde es nicht sehen und trotzdem ankommen.“: Die ausdrücklich ausformulierte Alternative überhöht den routinierten Vorgang und erklärt die gewünschte symbolische Bedeutung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 3,
+        "fehler": [
+          "„Einmal leer, einmal mit einem Transporter“: Nach den drei eingeführten Fahrgästen kommt mindestens dessen Fahrer hinzu. Damit ist die Vorgabe von genau drei Fahrgästen verletzt; der spätere Radfahrer erweitert die Szene zusätzlich.",
+          "„Vierzig Meter Drahtseil, gespannt über die Fahrrinne“: Die beschriebene handgezogene, auch Autos tragende Fähre und die knappe Seillänge ergeben für die Elbquerung keine überzeugende technische Konstellation.",
+          "„Kallenbach saß auf seiner Bank“ / „Drüben löste Kallenbach sein Fahrrad“: Obwohl Kallenbach zuvor bereits zu seinem Zielufer befördert wurde, fährt er ohne erkennbaren Grund wieder zurück. Die Fahrgastbewegungen sind nicht sauber geführt.",
+          "„was Ilse jedes Mal sah und jedes Mal nichts sagte“: Fehlerhafte syntaktische Verknüpfung; zum zweiten Prädikat fehlt etwa „wozu“. Außerdem sind „Hitzacker Seite“ statt „Hitzacker-Seite“ und das fehlende Komma in „‚Jonas kommt zu Weihnachten?‘ fragte Ines“ zu korrigieren.",
+          "„Henning hatte immer gesagt“ / „in denen sie ihn ein einziges Mal besucht hatte“ / „Um zehn kam der erste Radfahrer des Tages“: Mehrere Rückblicke widersprechen dem Verzicht auf Rückblenden-Exposition. Der Text überschreitet den angefragten Umfang deutlich und setzt die Handlung nach dem Anruf noch unnötig fort."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c3"
+        ]
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„06:42 Uhr. Noch drei Minuten.“ / „Es war vierundvierzig Minuten nach sechs.“: Nach dem angekündigten Ablegen um 6:45 Uhr und einem bereits weitgehend vollzogenen Übersetzen kann es nicht erst 6:44 Uhr sein.",
+          "„Oder um die Werft-Rechnung vom Oktober, die er bei seinem letzten Besuch auf dem Küchentisch gesehen hatte. Oder um das Betreute Wohnen […]“: Der Schluss lädt die Gegenwartsszene mit nachgereichter Vorgeschichte auf. Das verletzt die Vorgabe ohne Rückblenden-Exposition und legt den Konflikt unnötig vollständig aus.",
+          "„er im grauen Anzug vor einer Glasfassade in München, die Arme verschränkt, das Lächeln professionell“: Schematisches Unternehmensberaterbild; die Figur wird über ein leicht verfügbares Berufsklischee statt über eine individuelle Beobachtung eingeführt.",
+          "„das Seil sang sein leises, metallisches Lied“ / „eine gespannte Sehne“: Konventionelle Bildsprache überformt die ansonsten anschaulichen Arbeitsabläufe.",
+          "„Auf dem Fluss gab es keine Fragen, auf die man antworten musste.“: Der Satz erklärt die spätere Nichtannahme des Anrufs bereits vorab. Dadurch verliert die abschließende Handlung an Offenheit und Wirkung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "E",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 8178,
+    "out": 2375,
+    "thinking": 719
+  },
+  "costUsd": 0.040106
+}

@@ -1,0 +1,114 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "„Es war letztlich eine rein geschäftliche Entscheidung der Leitung.“ / „Du warst schon immer sehr überzeugend, wenn es um deinen Vorteil ging.“ – Der berufliche Interessenkonflikt wird weitgehend ausformuliert statt unausgesprochen vermittelt.",
+          "„Nicht jeder hat den Luxus, immer nur an die Gefühle anderer zu denken.“ / „Loyalität ist heutzutage wirklich ein teurer Luxus.“ – Aus dem Gespräch werden argumentative Stellungnahmen; die Figuren erklären ihre Positionen.",
+          "„Ich brauchte einen radikalen Schnitt. Alles Alte musste weg.“ – Die symbolische Bedeutung der Frisur wird ausdrücklich nachgeliefert. Das nimmt dem Detail seine Wirkung.",
+          "„Ich brauche keinen Ballast mehr.“ / „Du tauschst es nur gegen etwas Besseres ein.“ – Abgegriffene Trennungsmetaphorik und eine allzu sauber vorbereitete Schlusspointe.",
+          "„spannt den Kiefer an“ / „lächelt bitter“ / „sieht ihr fest in die Augen“ – Konventionelle Emotionssignale schreiben die Lesart zusätzlich vor, obwohl die Repliken sie bereits deutlich machen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ralf dreht die Tasse am Henkel.“ / „Die Kellnerin bringt den Kaffee.“ – Anschlussfehler bei den Requisiten: Ralf hantiert bereits mit einer Tasse, bevor die bestellten Getränke eintreffen; eine vorher bereitgestellte Tasse wird nicht eingeführt.",
+          "„ohne die Zeit gelesen zu haben“ – Die Regieanweisung behauptet einen inneren Wahrnehmungsvorgang, statt sich auf knapp beobachtbares Verhalten zu beschränken.",
+          "„Früher.“ – Der isolierte, bedeutungsschwere Einwortsatz ist ein vertrautes Subtextsignal und wirkt gegenüber den präziseren Ausweichbewegungen des übrigen Dialogs etwas gesetzt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Dein Name steht drin.“ / „Den könnte man durchstreichen.“ – Die symbolische Übertragung vom Buch auf die Beziehung ist sehr passgenau gebaut; hier hört man kurz die Konstruktion hinter dem Gespräch.",
+          "„Früher hast du mich aufgefangen.“ / „Du hast früher keinen verpasst.“ / „Du hast früher gewartet.“ – Die wiederholten Früher-Gegenüberstellungen bündeln den Subtext wirkungsvoll, werden in dieser Häufung aber zur erkennbaren Dialogmasche."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Du konntest schon immer das letzte Wort haben.“ / „Und du hast immer geschwiegen, bis es zu spät war.“ – Die gegenseitigen Vorwürfe benennen das Beziehungsmuster ausdrücklich. Damit wird die Vorgabe des unausgesprochenen Konflikts nur teilweise erfüllt.",
+          "„Wenn du schon bestellt hast.“ – Als Antwort auf „Willst du was trinken?“ bleibt die praktische Bedeutung unklar: Ob Tom etwas möchte, wird von einer bereits erfolgten Bestellung abhängig gemacht, ohne dass diese Ausweichbewegung Kontur gewinnt.",
+          "„Dann weißt du ja, wovon ich rede.“ – Künstliche Geheimniskrämerei: Tom hat lediglich nach einer Erinnerung gefragt. Die Replik suggeriert konkrete Bedeutung, ohne sie durch ein präzises Detail entstehen zu lassen.",
+          "„Er lacht kurz, ohne Freude.“ / „Lange Pause.“ / „Keiner von beiden sieht den anderen an.“ – Überwiegend konventionelle Spannungsmarkierungen; die Regie ersetzt stellenweise individuell beobachtetes Verhalten."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Deine Mutter lässt grüßen.“ / „Sie fragt noch immer nach dir?“ / „Manchmal.“ – Der Gesprächsanschluss ist erklärungsbedürftig: Mara übermittelt einen Gruß aus eigenem Kontakt mit Daniels Mutter; Daniels Nachfrage behandelt Mara zugleich wie eine abwesende Person, nach der die Mutter sich erkundigen muss.",
+          "„Ist bitter.“ / „Der Kaffee?“ / „Vielleicht.“ – Die Doppeldeutigkeit wird demonstrativ ausgestellt. Statt beiläufigem Subtext entsteht ein erkennbar arrangiertes Wortspiel.",
+          "„Nein. Das war immer deine Stärke.“ / „Und deine, alles stehen zu lassen, bis jemand anders es aufhebt.“ – Die gegenseitigen Charakterurteile machen den Vorwurf ausdrücklich; die Becherhandlung liefert dazu eine etwas zu passende Illustration.",
+          "„Früher wärst du trotzdem zu früh gekommen.“ / „Früher hattest du bessere Uhren.“ / „Früher war es das.“ – Die wiederkehrende Früher-Formel trägt mehr Bedeutung, als die konkreten Erinnerungsdetails hergeben."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "E",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2736,
+    "out": 2007,
+    "thinking": 734
+  },
+  "costUsd": 0.025542
+}

@@ -1,0 +1,110 @@
+{
+  "task": "nf-from-source",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "aus beiden Elbufern (unidiomatisch aus dem Quellmaterial übernommen, korrekt wäre 'von beiden Elbufern')",
+          "Wie eine Genossenschaft funktioniert und warum sie die passende Rechtsform für den Betrieb einer Fähre ist, lässt sich am Beispiel der Fährgenossenschaft Hitzacker eG nachvollziehen. (hölzerner Einstieg, der fast wörtlich die Aufgabenstellung wiedergibt)",
+          "Durch diesen Zusammenschluss konnte der Fährbetrieb an einer Stelle, an der die Elbe 212 Meter breit ist, weitergeführt werden. (ungeschickte, unmotivierte Einbindung der Flussbreite)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "was einzelne nicht stemmen könnten (nach Duden-Empfehlung großzuschreiben: 'was Einzelne nicht stemmen könnten')",
+          "**Eine Fähre in Gemeinschaftshand: die Fährgenossenschaft Hitzacker** (ungefragte Überschrift für einen bloßen Buchabschnitt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "Wer mehr Geld in Anteilen einbringt, erhält also nicht mehr Stimmen. Darin liegt ein wesentliches Merkmal dieser gemeinschaftlichen Organisationsform: Finanzielle Beteiligung und Mitbestimmung sind nicht nach demselben Maßstab verteilt. (etwas redundante Erklärung desselben Sachverhalts in drei aufeinanderfolgenden Sätzen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„ein Mitglied, eine Stimme\" (falsches schließendes Anführungszeichen oben statt korrektem deutschem Abführungszeichen: „…“)",
+          "aus beiden Elbufern (unidiomatische Präposition unkorrigiert aus dem Quellmaterial übernommen)",
+          "Wie das Seil verbindet die Genossenschaft zwei Ufer, seit mehr als siebzig Jahren. (schiefe und kitschige Schlussmetapher)",
+          "Für diese Fähre die passende Rechtsform (die explizite Teilaufgabe, zu begründen, warum die Rechtsform gerade für diese Fähre passt, wird nur implizit gestreift)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "vierzig Landwirte und Händler (sachlicher Fehler gegenüber dem Quellmaterial: es waren 41)",
+          "Zugleich gibt die gleiche Stimme jedem Mitglied ein Mitspracherecht – unabhängig davon, wie viele Anteile es hält. (unnötige Wortwiederholung am Schluss, nahezu identisch mit Absatz 2)"
+        ],
+        "unsupported": [
+          "vierzig Landwirte und Händler (Widerspruch zum Quellmaterial: 41 Landwirte und Händler)"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "A",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3751,
+    "out": 874,
+    "thinking": 0
+  },
+  "costUsd": 0.016242
+}

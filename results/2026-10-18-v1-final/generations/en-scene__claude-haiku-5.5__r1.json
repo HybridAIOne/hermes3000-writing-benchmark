@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "At four the hospital goes quiet in a way that has nothing to do with sleep. Maren walks the fourth-floor corridor with her badge turned face-in against her scrubs, checking pumps, counting the hours to shift change.\n\nThe chapel is at the end of the west wing, past the vending alcove that hums. The light is on, and someone should turn it off.\n\nA man sits in the third pew with his coat still buttoned, though the radiator knocks like it's trying to get out. He doesn't look up when the door sighs shut behind her.\n\n\"Maren,\" he says. It isn't a question.\n\nShe stops. Her hand finds the doorframe. Her name tag says M. OSTRANDER in small letters, so he would have had to read it, or hear someone say it. Nobody has said it tonight.\n\n\"Do I know you?\"\n\n\"You did once.\" He turns a paper cup in his hands. Coffee, she guesses, gone cold. \"Your hair was longer.\"\n\nHer hair is still short. She thinks about saying so, and doesn't.\n\nBehind the altar stands a plain wooden cross, and the window above it is dark except for the parking lot lamps seeping through the blue glass. She waits for him to explain himself. He seems content to let the silence stand, the way some patients are when they've already decided what they will and won't tell her.\n\n\"Sit if you want,\" he says. \"It's warmer up front.\"\n\nShe doesn't sit. She stays in the doorway with one hand on the frame, her pager quiet against her hip, and watches him lift the cup and set it down on the pew beside him, carefully, in the ring it has already left.",
+  "usage": {
+    "in": 91,
+    "out": 1144,
+    "thinking": 633
+  },
+  "costUsd": 0.0005811,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 6675,
+  "meta": [],
+  "at": "2026-10-17T17:45:18.828Z"
+}

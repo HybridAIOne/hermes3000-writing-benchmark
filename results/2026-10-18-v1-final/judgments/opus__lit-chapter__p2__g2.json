@@ -1,0 +1,123 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Er kannte ihn, aber sie wies trotzdem.“ – „wies“ ohne Objekt wirkt elliptisch und holprig.",
+          "„Sie schob die Kladde unter das Pult“ vs. später „blieb an der Kladde liegen“ auf der Ablage – kleine räumliche Unstimmigkeit.",
+          "„Auf dem Display erschien sein Name ein zweites Mal, als müsste sie ihn erst lesen.“ – der Vergleich ist unklar.",
+          "„Ilse leuchtete mit der Taschenlampe darauf.“ – etwas umständlich, der Vorgang bleibt blass.",
+          "Ilses innere Haltung zum Anruf bleibt sehr karg; das Ende wirkt eher abgeschnitten als gesetzt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Am Anleger lag die nächste kleine Warteschlange in der üblichen Ordnung: erst der Mann mit dem Fahrrad … Nein, die waren schon drüben.“ – verwirrter Logikbruch, zudem wird der Junge plötzlich zum „Mann“.",
+          "„Ilse nahm Gas heraus und gab dem Boot einen kurzen Schub, bevor es gegen die Landung stieß.“ – widersprüchliche Bewegungsangabe.",
+          "„Auch der Nebel schien an der Bewegung der Fähre teilzunehmen, statt sie nur zu umgeben.“ – erklärend und vage.",
+          "„‚Morgen‘, sagte Ilse.“ – Begrüßung erst mitten auf der Überfahrt, unlogisch.",
+          "„Es zeigte das seit dem ersten Blick am Morgen, und vermutlich würde es das auch noch eine Weile tun.“ – Füllsatz."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "„Sie wusste auch so, wer es war.“ – der Anrufer wird nie als Jonas benannt, die Zuordnung bleibt Vermutung.",
+          "„Hundertzwanzig Meter bis zur ersten Boje, dann eine Linkskurve“ und „Dann fahren wir eben drumherum.“ – eine Seilfähre fährt keine Kurven und nicht um Hindernisse; Logikbruch.",
+          "„Sie hatte ihm vor Jahren einmal ein Stück Wurst zugeworfen und seitdem nicht mehr vergessen, dass er es bemerkt hatte.“ – verdrehter Satzbau.",
+          "„seit einundvierzig Jahren jeden Morgen“ – Exposition statt Szene.",
+          "Der Anruf liegt nicht am Ende; danach folgt noch die Anlegeszene."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„*Jonas.*“ – Markdown-Sternchen im Buchtext.",
+          "„obwohl die Fähre so ruhig lag wie ein Tisch“ – abgegriffener Vergleich.",
+          "„Er lachte kurz, als hätte sie einen Witz gemacht“ – Floskel.",
+          "„Sie dachte an nichts Bestimmtes. Sie dachte an die Bremse …“ – die Wiederholung wirkt leicht gesucht.",
+          "Mit gut 1050 Wörtern etwas über der Vorgabe."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„dass Ilse das andere Ufer nur an dem Geräusch erkannte … gegen die Bohlen am Anleger drückte“ – sie liegt am eigenen Anleger; Logikbruch gleich im ersten Satz.",
+          "„Dann ist er schon da, wenn ich den Motor brauche.“ – Pointe unklar.",
+          "„*Jonas*“ – Markdown-Sternchen im Buchtext.",
+          "„Sie hätte es auch ohne Finger gehalten.“ – schief.",
+          "„Die Planken waren nass, nicht vom Regen, sondern von allem.“ – manieriert."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "E",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 14644,
+    "out": 4068,
+    "thinking": 2499
+  },
+  "costUsd": 0.139936
+}

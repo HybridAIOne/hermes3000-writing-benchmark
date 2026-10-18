@@ -1,0 +1,109 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "bei Fehlern, Trödelei oder dicke Luft im Team (Grammatik: dicker Luft)",
+          "Informations-Knotenpunkt (unnötiger Bindestrich)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 6,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "wie du die ersten Tage und Wochen übersteht (Grammatik: überstehst)",
+          "was deine Geschäftsführung, dein Team und du selbst von dir erwartest (Kongruenzfehler bei Aufzählung: erwarten)",
+          "Meetings (unnötiger Anglizismus/Buzzword trotz Vorgabe)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "dich gegenüber deinem Chef abgrenzst (Rechtschreibung: abgrenzt)",
+          "oder schweigend wird (unidiomatisch, besser: verstummt oder schweigt)",
+          "Thematische Überschneidung zwischen Kapitel 1 (Die ersten Wochen) und Kapitel 2 (Vom Kollegen zum Vorgesetzten)",
+          "Kapitel 7 (Entscheiden) und 8 (Brücke nach oben) überschneiden sich bei der Vertretung unpopulärer Entscheidungen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "ohne Gesicht zu verlieren (unidiomatisch, korrekt: ohne das Gesicht zu verlieren)",
+          "annehmen kann statt in Verteidigung zu gehen (fehlendes Komma vor statt)",
+          "und mit ehemaligen Kollegen auf Augenhöhe klarkommst, die jetzt deine Mitarbeiter sind (Logikbruch/Überschneidung in Kap. 8: Das gehört in Kap. 1 und widerspricht der Überschrift 'Nach oben und zur Seite')",
+          "Kündigungen (in Kap. 6 verfehlt die Zielgruppe: Wer 'ohne Titel' führt, spricht in der Regel keine Kündigungen aus)",
+          "Englische Geviertstriche ohne Leerzeichen (wie—in) entsprechen nicht der deutschen Typografie"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "D",
+      "C",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3668,
+    "out": 733,
+    "thinking": 0
+  },
+  "costUsd": 0.014666
+}

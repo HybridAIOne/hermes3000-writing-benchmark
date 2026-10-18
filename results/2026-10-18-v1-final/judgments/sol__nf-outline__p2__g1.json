@@ -1,0 +1,112 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Du wägest ab“: Hier ist der Indikativ „Du wägst ab“ erforderlich; „wägest“ ist eine Konjunktivform.",
+          "„Du findest den Übergang vom Kollegen zum Teamleiter“: Unidiomatische Verbindung; einen Übergang „gestaltest“ oder „bewältigst“ du."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„mit ehemaligen Kollegen auf Augenhöhe klarkommst, die jetzt deine Mitarbeiter sind“: Der Rollenwechsel wird erst in Kapitel 8 konkret behandelt, obwohl er zur Ankommensphase gehört.",
+          "„Feedback geben, das ankommt“ / „Schwierige Gespräche führen“: Die Kapitelbeschreibungen grenzen alltägliche Rückmeldung und problembezogene Gespräche nicht ausreichend voneinander ab.",
+          "„welche Fehler neue Führungskräfte in den ersten Wochen fast immer machen“ / „dass sie beim ersten Mal klappen“: Pauschalisierung und überzogenes Erfolgsversprechen statt sachlich belastbarer Kapitelankündigungen.",
+          "„Fehler machen, daraus lernen, dranbleiben“ / „Deine Haltung finden“: Die langfristige persönliche Weiterentwicklung verteilt sich auf zwei nur unscharf getrennte Schlusskapitel.",
+          "„Hinweis zur Dramaturgie“: Zusätzlicher Erklärungstext außerhalb des verlangten Schemas; die behauptete Logik müsste aus der Gliederung selbst hervorgehen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„jede Person […] mit ihren Stärken, Erwartungen und der Frage, was sie von dir brauchen“: Der Bezug wechselt vom Singular zum Plural; korrekt wäre hier „was sie von dir braucht“.",
+          "„Rückmeldung im Tagesgeschäft: Lob und Kritik“ / „Konflikt-, Leistungs- und Konsequenzgespräche“: Die Abgrenzung zwischen alltäglicher Kritik und schwierigen Leistungsgesprächen bleibt zu unscharf.",
+          "„Konsequenzgespräche“: Erklärungsbedürftiger Personaljargon für eine Zielgruppe ohne formale Führungsausbildung.",
+          "„gehst danach sauber damit um“: Vage Formulierung; welche Nachbereitung gemeint ist, bleibt offen.",
+          "„Du vertrittst Entscheidungen, hinter denen du nicht voll stehst“: Verengt die Vermittlung zwischen Vorgesetzten und Team auf das Vertreten ungeliebter Entscheidungen; Interessenklärung und Rückmeldung nach oben fehlen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„bei Fehlern, Trödelei oder dicke Luft“: Nach „bei“ muss auch das letzte Aufzählungsglied im Dativ stehen: „dicker Luft“.",
+          "„die typische Falle des ‚Selbermachens‘ vermeidest“ / „Aufgaben richtig abgeben“: Kapitel 3 und 4 behandeln wesentlich denselben Gegenstand; eine klare Trennung fehlt.",
+          "„der beste Facharbeiter“ / „zwischen Geschäftsführung und Werkstatt“: Verengt die angesprochene Zielgruppe unnötig auf handwerklich-produzierende Betriebe.",
+          "„klar zeigst, dass du jetzt die Fäden in der Hand hältst“ / „Trödelei“: Machtbetonte beziehungsweise abwertende Wortwahl statt einer sachlichen, respektvollen Ansprache von Führungsproblemen.",
+          "„deinen persönlichen Führungsstil“ / „nach Feierabend den Kopf wirklich freibekommst“: Das Schlusskapitel vermischt die eigene Haltung mit persönlicher Erholung, ohne den Zusammenhang zu entwickeln."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "C",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2900,
+    "out": 1414,
+    "thinking": 394
+  },
+  "costUsd": 0.01994
+}

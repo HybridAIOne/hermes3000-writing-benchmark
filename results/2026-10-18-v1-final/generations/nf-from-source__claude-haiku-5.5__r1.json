@@ -1,0 +1,20 @@
+{
+  "task": "nf-from-source",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "text": "**Wie eine Genossenschaft funktioniert – das Beispiel der Fähre in Hitzacker**\n\nDie Seilfähre über die Elbe bei Hitzacker gibt es seit 1953 als Fährgenossenschaft. Gegründet wurde sie von 41 Landwirten und Händlern aus beiden Elbufern, nachdem der Landkreis den Betrieb eingestellt hatte. Die Menschen vor Ort übernahmen die Aufgabe selbst. Heute hat die Genossenschaft 312 Mitglieder, und jedes von ihnen ist Teil des Unternehmens.\n\nWer mitmacht, erwirbt Anteile. Jedes Mitglied hält mindestens einen Anteil zu 250 Euro. Entscheidend ist dabei das Stimmrecht: In der Generalversammlung hat jedes Mitglied eine Stimme, unabhängig von der Zahl seiner Anteile. Wer viel Kapital eingebracht hat, bestimmt also nicht mehr als jemand mit einem einzigen Anteil. Das ist der Kern des genossenschaftlichen Prinzips: Gemeinsam entscheidet der Kreis der Mitglieder, nicht der größte Geldgeber.\n\nAuch mit den Überschüssen wird anders umgegangen als in einem gewöhnlichen Unternehmen. Sie werden nicht an Eigentümer ausgeschüttet, sondern in eine Rücklage eingezahlt, die der Erneuerung der Fähre dient. Das zeigt sich im Blick auf die Zukunft: Die Rücklage soll bis 2031 ausreichen, um einen Elektroantrieb einzubauen. Heute treibt ein 85-kW-Dieselmotor die Fähre an. Bis 1978 bewegte allein die Strömung das Schiff.\n\nWarum passt diese Rechtsform zu einer Fähre? Die Fähre ist ein Verkehrsmittel für viele Menschen. Sie überquert die Elbe an einer 212 Meter breiten Stelle, die Fahrt dauert bei normalem Wasserstand sieben Minuten. Rund 64.000 Personen nutzen sie jährlich, im Sommer vor allem Radfahrer auf dem Elberadweg. Der Umsatz von 186.000 Euro im Jahr 2024 stammte zu 71 Prozent aus Fahrkarten und zu 29 Prozent aus einem Zuschuss der Gemeinde.\n\nEine Genossenschaft verbindet hier das Interesse der Nutzer und der Region mit dem Anspruch, die Fähre dauerhaft zu erhalten. Die Mitglieder tragen den Betrieb gemeinsam, bestimmen mit und sichern mit ihren Überschüssen die Zukunft des Schiffs.",
+  "usage": {
+    "in": 780,
+    "out": 2106,
+    "thinking": 1109
+  },
+  "costUsd": 0.001131,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 9390,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:49:39.488Z"
+}

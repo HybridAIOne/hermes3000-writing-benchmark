@@ -1,0 +1,20 @@
+{
+  "task": "en-scene",
+  "model": "claude-opus-5.5",
+  "run": 2,
+  "text": "**Second Pew**\n\nThe chapel was the only room on the fourth floor where the lights dimmed on their own, and Ines went there at four to sit in the half-dark for the length of a cup of tea. Tonight someone was already in the second pew: a man in a canvas jacket, hands folded not in prayer but the way people hold them when they are cold.\n\nShe would have left him to it. Then he said, \"Ines,\" without turning around.\n\nHer badge was clipped to her scrubs, facing inward. She checked anyway.\n\n\"Do I know you?\"\n\n\"No.\" He seemed to weigh the word. \"You sat with my mother. Room twelve. You did her hair.\"\n\nShe tried to find it. Twelve had held so many people. A brush, maybe. A woman who wanted her parting on the left. Or was that someone else, some other winter.\n\n\"I'm sorry,\" she said. \"I don't—\"\n\n\"That's all right. She wouldn't have expected you to.\" He stood, and the pew creaked as it gave up his weight. \"I just wanted to see what you looked like when you weren't busy.\"\n\nHe passed her in the aisle, smelling of wet wool and the burnt coffee from the lobby machine. The door eased shut on its closer.\n\nInes sat where he had been. The wood was still warm. On the narrow shelf in front of her, beside the hymnals no one opened, lay a wide-toothed comb, pale green, a single grey hair wound through its teeth like thread on a spool.",
+  "usage": {
+    "in": 91,
+    "out": 1102,
+    "thinking": 635
+  },
+  "costUsd": 0.022404,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 12396,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:45:46.714Z"
+}

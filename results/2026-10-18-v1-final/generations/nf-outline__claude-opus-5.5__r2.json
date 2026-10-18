@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "claude-opus-5.5",
+  "run": 2,
+  "text": "# Führen ohne Titel\n*Gliederung*\n\n**Kapitel 1: Der erste Montag**\nDu klärst, was sich mit der neuen Rolle wirklich geändert hat, was dein eigener Chef von dir erwartet und warum du in den ersten Wochen mehr zuhören als entscheiden solltest.\n\n**Kapitel 2: Gestern Kollege, heute Chef**\nDu findest heraus, wie du mit alten Freundschaften, Neid und der plötzlichen Distanz zu Leuten umgehst, mit denen du eben noch Mittagspause gemacht hast.\n\n**Kapitel 3: Dein Team, Mensch für Mensch**\nDu lernst in Einzelgesprächen, wer in deinem Team was kann, was jeden antreibt und wo jemand gerade Unterstützung braucht.\n\n**Kapitel 4: Sagen, was du willst**\nDu übst, Aufgaben so zu übergeben und Erwartungen so zu formulieren, dass am Ende das herauskommt, was du gemeint hast, ohne dass du alles wieder an dich ziehst.\n\n**Kapitel 5: Entscheiden, auch wenn es unbequem ist**\nDu bekommst ein Gespür dafür, wann du allein entscheidest, wann du dein Team einbeziehst und wie du mit Entscheidungen lebst, die du mit unvollständigem Wissen treffen musstest.\n\n**Kapitel 6: Rückmeldung im Alltag**\nDu gewöhnst dir an, Lob und kleine Korrekturen regelmäßig und beiläufig zu geben, damit Rückmeldung zur Normalität wird und nicht nur einmal im Jahr stattfindet.\n\n**Kapitel 7: Die Gespräche, vor denen du dich drückst**\nDu bereitest dich auf Gespräche über anhaltend schlechte Leistung, Konflikte im Team und unangenehme Nachrichten vor und führst sie so, dass danach eine Zusammenarbeit noch möglich ist.\n\n**Kapitel 8: Zwischen den Stühlen**\nDu lernst, Entscheidungen von oben vor deinem Team zu vertreten, ohne dich zu verbiegen, und die Anliegen deines Teams nach oben zu tragen, ohne als Querulant zu gelten.\n\n**Kapitel 9: Deine Kraft einteilen**\nDu findest einen Weg, Fachaufgaben, Führungsarbeit und dein eigenes Leben so auszubalancieren, dass du die Rolle nicht nur ein halbes Jahr durchhältst.\n\n**Kapitel 10: Wofür du stehst**\nDu formulierst aus deinen bisherigen Erfahrungen deine eigenen Grundsätze als Führungskraft, also woran man dich erkennen soll, wie du mit eigenen Fehlern umgehst und was du nicht mitmachst.\n\n---\n\n*Zur Abgrenzung:* Kapitel 6 behandelt die laufende, alltägliche Rückmeldung. Kapitel 7 setzt erst dort an, wo das nicht mehr reicht und ein Problem ein eigenes, vorbereitetes Gespräch braucht. Kapitel 4 dreht sich um das Übergeben von Aufgaben an andere, Kapitel 9 um deine eigene Belastbarkeit.",
+  "usage": {
+    "in": 242,
+    "out": 1959,
+    "thinking": 785
+  },
+  "costUsd": 0.040148,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 20689,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:51:23.931Z"
+}

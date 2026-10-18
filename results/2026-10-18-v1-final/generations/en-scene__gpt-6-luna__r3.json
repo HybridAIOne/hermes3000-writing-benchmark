@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "gpt-6-luna",
+  "run": 3,
+  "text": "At 4:03, Lena found a man sitting in the hospital chapel with his hands flat on his knees. He wore a damp wool coat. The room smelled faintly of floor cleaner and the lilies someone had left in a glass jar.\n\n“Sir, visiting hours are over.”\n\nHe looked up. “You’re Lena.”\n\nHer badge was turned inward beneath her cardigan. She glanced at the chapel door, then at him. “Do I know you?”\n\n“No.”\n\nShe waited. The ventilation hummed above them. Down the corridor, a monitor gave one brief, insistent beep, then stopped.\n\n“Are you here for someone?” she asked.\n\nThe man looked toward the small wooden cross on the wall. “I was told to sit here.”\n\n“By whom?”\n\nHe rubbed one thumb across the other. His hands were clean, his nails cut short. “I don’t remember.”\n\nLena considered calling security. The phone in her pocket pressed against her hip. She could hear the ward through the open door: a cart rattling, a nurse laughing softly, the ordinary machinery of people keeping one another alive.\n\n“Would you like me to find someone?” she asked.\n\nHe shook his head.\n\nShe took the chair nearest the door and sat, not beside him but close enough to keep him in sight. Her feet hurt. She had a medication round at five and a note to finish before handover.\n\nFor a while neither spoke.\n\nThe lilies leaned toward the chapel window, their pale heads caught in the blue wash of the parking-lot lights. On the sill, a paper cup trembled slightly whenever the heating came on.",
+  "usage": {
+    "in": 59,
+    "out": 602,
+    "thinking": 264
+  },
+  "costUsd": 0.0003069,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 8011,
+  "meta": [],
+  "at": "2026-10-17T17:43:49.997Z"
+}

@@ -1,0 +1,106 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Kennst du das? Die meisten Führungskräfte kennen diesen Moment gut. (Im zweiten Absatz gleitet der Text aus der vereinbarten Du-Ansprache mehrfach ins unpersönliche 'man' ab: 'Man hat die Information... Also wartet man.')",
+          "Vier separate Absätze statt des geforderten einen Einstiegsabsatzes (auch wenn es als Kapiteleinstieg gut funktioniert, ist die Formvorgabe verfehlt)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„nicht das Wochenende verderben\" (Falsche, englische Schlusszeichen statt deutscher Abführungszeichen oben; zieht sich durch den gesamten Text: „Na, alles gut bei dir?\", „Ja, alles gut.\").",
+          "am Mittwoch hattest du Jahresgespräche (Inhaltlicher Bruch zum Buchtitel 'Führen ohne Titel', da klassische Jahresgespräche meist disziplinarischen Vorgesetzten vorbehalten sind)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Du stehst mit einer Kaffeetasse vor dem Besprechungsraum, als dir auffällt, dass die Zahlen für den Kundentermin noch immer fehlen. Jetzt sitzt er an seinem Platz, schaut auf den Bildschirm und sagt: „Bin noch nicht dazu gekommen.“ (Szenischer Logikbruch/Sprung: Eben stand das Du noch vor dem Besprechungsraum, plötzlich und ohne Übergang findet ein Dialog an Martins Schreibtisch statt).",
+          "Zunächst brauchst du keinen besonders geschickten Satz, sondern einen Termin mit Martin... (Der Text gibt hier bereits die konkrete Lösung vor und liest sich wie eine Zusammenfassung des Kapitels, statt als reiner Einstiegsabsatz ins Thema hineinzuführen)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [
+          "„Kurz mit Jens sprechen.\" (Falsches Schlusszeichen: Zitat endet mit Zollzeichen statt mit deutschen Anführungszeichen oben)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Hast du kurz?“, fragt sie. Du weißt, worum es geht: Der Bericht, den sie am Freitag abgeben wollte, ist noch nicht fertig. [...] Trotzdem sagst du: „Klar. Später vielleicht?“ (Psychologisch unplausible Szene: Die Mitarbeiterin kommt von sich aus mit Kaffee, um ihre eigene Versäumnis zu beichten, und die Führungskraft blockt ab. Zudem ergibt 'Klar. Später vielleicht?' als Antwort auf 'Hast du kurz?' wenig Sinn).",
+          "Und Jana merkt womöglich, dass du unzufrieden bist, ohne zu wissen, woran sie ist. (Widerspricht dem ersten Absatz, in dem Jana selbst das Gespräch wegen des fehlenden Berichts gesucht hat – sie weiß also genau, worum es geht).",
+          "Vier Absätze statt des geforderten einen Einstiegsabsatzes."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "B",
+      "C",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2819,
+    "out": 930,
+    "thinking": 0
+  },
+  "costUsd": 0.014938
+}

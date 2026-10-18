@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "claude-opus-5.5",
+  "run": 2,
+  "text": "Es ist Donnerstag, kurz nach drei. In deinem Kalender steht seit Montag ein Termin, den du dir selbst eingetragen hast: „Kurz mit Jens sprechen.\" Kurz. Als ob das helfen würde. Seit Wochen kommen seine Angebote mit Fehlern bei dir an, zweimal hat ein Kunde schon nachgefragt, warum die Preise nicht stimmen, und die Kollegen schauen inzwischen genauer hin, ob du etwas unternimmst. Du weißt, dass du etwas unternehmen musst. Trotzdem holst du dir erst noch einen Kaffee. Dann beantwortest du drei Mails, die auch bis morgen hätten warten können. Um halb vier siehst du Jens am Fenster stehen und telefonieren, und du denkst dir, dass jetzt gerade ein schlechter Moment wäre. Um vier hat er Feierabend. Du verschiebst den Termin auf nächste Woche und fühlst dich auf dem Heimweg ein bisschen erleichtert und ein bisschen schäbig zugleich. Wenn dir diese Szene bekannt vorkommt, bist du in guter Gesellschaft. Fast jeder, der ein Team führt, kennt dieses Ausweichen, und zwar nicht, weil ihm der Mut fehlt oder weil ihm die Sache egal ist. Meistens ist es genau umgekehrt: Dir liegt etwas an Jens, du willst ihn nicht verletzen, du willst die Stimmung im Team nicht kippen, und du weißt nicht genau, wie du anfangen sollst. Genau darum geht es in diesem Kapitel. Nicht um Gesprächstechniken, die man auswendig lernt, sondern darum, wie du solche Gespräche führst, ohne dich zu verbiegen, und warum das Warten fast immer teurer ist als der unangenehme Satz am Anfang.",
+  "usage": {
+    "in": 278,
+    "out": 860,
+    "thinking": 177
+  },
+  "costUsd": 0.018312,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 10771,
+  "meta": [],
+  "at": "2026-10-17T17:50:40.199Z"
+}

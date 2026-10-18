@@ -1,0 +1,108 @@
+{
+  "task": "nf-from-source",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "bewegte allein die Strömung das Fahrzeug (Stilbruch: 'Fahrzeug' für eine Fähre wirkt steif behördendeutsch)",
+          "Wer mehr Geld in Anteilen einbringt, erhält also nicht mehr Stimmen. (Redundant zum Satz davor)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "was einzelne nicht stemmen könnten (Rechtschreibung: 'Einzelne' wird als Substantivierung großgeschrieben; 'stemmen' ist zudem arg umgangssprachlich)",
+          "braucht für die 212 Meter breite Elbe [...] sieben Minuten (schiefe Formulierung: sie braucht für die Überquerung sieben Minuten, nicht für den Fluss)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "Die an einem Führungsseil hängende Fähre überquert die an dieser Stelle 212 Meter breite Elbe (schwerfälliger Schachtelsatz mit erweiterten Attributen)",
+          "wächst das finanzielle Polster stetig (unbelegte Behauptung und abgedroschene Phrase)",
+          "Fährbetrieb von morgen (abgedroschene Werbephrase)"
+        ],
+        "unsupported": [
+          "wächst das finanzielle Polster stetig (Das Quellmaterial sagt nicht, dass jedes Jahr Überschüsse anfallen und die Rücklage stetig wächst)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "aus beiden Elbufern (unidiomatisch aus dem Quellmaterial übernommen, korrekt wäre 'von beiden Elbufern')",
+          "Es fehlen wesentliche Fakten aus dem Quellmaterial (212 Meter Breite, 7 Minuten Fahrzeit, Führungsseil, 85-kW-Dieselmotor, Strömungsantrieb bis 1978), wodurch der Text auch deutlich zu kurz gerät (ca. 240 statt 300 Wörter)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "Auch mit dem Geld geht die Genossenschaft auf eigene Weise um. (Etwas vage Überleitung, da zunächst normale Umsatzzahlen genannt werden, bevor es um die genossenschaftsspezifische Gewinnverwendung geht)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3723,
+    "out": 785,
+    "thinking": 0
+  },
+  "costUsd": 0.015296
+}

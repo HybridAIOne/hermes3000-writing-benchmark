@@ -1,0 +1,110 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "Hast du die Beförderung bekommen, für die du so... gekämpft hast? (Konflikt wird viel zu direkt benannt statt nur spürbar zu sein, zudem fehlendes Leerzeichen vor den Auslassungspunkten)",
+          "Loyalität ist heutzutage wirklich ein teurer Luxus. Man kann sich so leicht daran verbrennen. (Holzhammer-Dialog, platte Erklärungen statt echtem Subtext)",
+          "*(spannt den Kiefer an)* (Abgegriffenes Klischee in der Regieanweisung)",
+          "Ich brauchte einen radikalen Schnitt. Alles Alte musste weg. (Überdeutliche, klischeehafte Metaphorik)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "Es fühlten sich nach mehr an. (Grammatikfehler: Es fühlte sich nach mehr an.)",
+          "**JONAS:** *(bleibt stehen)* Ich kann nicht lange. [...] **JONAS:** *(steht auf, nimmt seine Jacke)* Der Kaffee ist wirklich schlecht geworden. [...] **MARKUS:** Du hast ihn nicht mal probiert. (massiver Kontinuitätsfehler: Jonas hat im gesamten Dialog keinen Kaffee bestellt oder bekommen, vor ihm steht keine Tasse)",
+          "*(Er geht. Markus rührt weiter, obwohl der Kaffee längst kalt ist.)* (Verstoß gegen die Vorgabe knapper Regieanweisungen durch auktoriales Wissen über die Temperatur des Kaffees)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "**Mara:** Zwei reichen nicht bis morgen. (Impliziert stark eine gemeinsame Übernachtung oder ein sehr enges Paarverhältnis, was die Vorgabe 'zwei alte Freunde' leicht überdehnt, handwerklich aber brillant über Gegenstände gelöst ist)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "*Lena sitzt am Fenster und rührt in ihrer Tasse.* [...] *Die Kellnerin stellt zwei Tassen ab.* (Logikbruch: Lena hat bereits eine Tasse vor sich; als sie der Kellnerin winkt, kommt niemand, dennoch bringt diese später unbestellt zwei neue Tassen)",
+          "**LENA:** Du konntest schon immer das letzte Wort haben. (Unidiomatisch: Man 'will' oder 'muss' das letzte Wort haben, 'konnte haben' ergibt hier keinen Sinn)",
+          "**LENA:** Deine Mutter hat angerufen. [...] Sie fragt, ob du an Weihnachten kommst. (Unplausibel für bloße alte Freunde, dass die Mutter des einen nach einem Zerwürfnis die andere nach dessen Weihnachtsplänen fragt)",
+          "*Er lacht kurz, ohne Freude.* (Klischeehafte Regieanweisung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "*Ralf dreht die Tasse am Henkel.* [...] *Die Kellnerin bringt den Kaffee.* (Kontinuitätsfehler: Ralf spielt bereits in der Mitte des Textes mit seiner Tasse, obwohl die Kellnerin den Kaffee erst im allerletzten Satz bringt)",
+          "*Thomas sieht auf die Uhr und gleich wieder weg, ohne die Zeit gelesen zu haben.* (Keine reine Regieanweisung mehr, sondern Innensicht, die im reinen Dialog-/Szenentext nichts verloren hat)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "E",
+      "B",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 3220,
+    "out": 1009,
+    "thinking": 0
+  },
+  "costUsd": 0.01653
+}

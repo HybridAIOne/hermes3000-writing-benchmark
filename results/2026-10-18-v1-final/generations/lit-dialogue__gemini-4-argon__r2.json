@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "gemini-4-argon",
+  "run": 2,
+  "text": "*(Ein spärlich beleuchtetes Café. LUKAS sitzt am Tisch. MARIE tritt ein, bleibt kurz stehen, setzt sich ihm dann langsam gegenüber.)*\n\nMARIE: Du bist schon da.\n\nLUKAS: Ich bin immer zu früh. Das weißt du doch. *(deutet auf eine Tasse)* Schwarz. Ohne Zucker. \n\nMARIE: *(starrt auf die Tasse)* Ich trinke ihn jetzt mit Hafermilch. \n\nLUKAS: *(nickt langsam)* Ach so. Sechs Monate sind eben eine lange Zeit. \n\nMARIE: Ja. Eine Menge kann passieren. Oder kaputtgehen.\n\nLUKAS: *(weicht ihrem Blick aus, dreht seinen Löffel)* Du siehst gut aus, Marie. Die kurzen Haare stehen dir.\n\nMARIE: Ich brauchte einen radikalen Schnitt. Alles Alte musste weg. *(Pause)* Wie läuft es im Büro? Hast du die Beförderung bekommen, für die du so... gekämpft hast?\n\nLUKAS: *(spannt den Kiefer an)* Es läuft. Ich habe das Projekt übernommen. Es war letztlich eine rein geschäftliche Entscheidung der Leitung. \n\nMARIE: Natürlich. Rein geschäftlich. Du warst schon immer sehr überzeugend, wenn es um deinen Vorteil ging.\n\nLUKAS: *(leise)* Ich habe getan, was nötig war. Nicht jeder hat den Luxus, immer nur an die Gefühle anderer zu denken. \n\nMARIE: *(lächelt bitter)* Nein. Loyalität ist heutzutage wirklich ein teurer Luxus. Man kann sich so leicht daran verbrennen.\n\n*(Schweigen. Der Kellner stellt ein Kännchen Milch auf den Tisch und geht wieder.)*\n\nLUKAS: Ich habe deine Kiste mit den Büchern noch im Keller. \n\nMARIE: Behalt sie. Oder wirf sie weg. Ich brauche keinen Ballast mehr.\n\nLUKAS: *(sieht ihr fest in die Augen)* Ich werfe nichts weg, was mir mal wichtig war.\n\nMARIE: *(greift nach ihrer Tasche, steht auf)* Nein, Lukas. Du tauschst es nur gegen etwas Besseres ein. Danke für den Kaffee. *(Sie geht, der Kaffee bleibt unberührt.)*",
+  "usage": {
+    "in": 93,
+    "out": 485,
+    "thinking": 0
+  },
+  "costUsd": 0.005036,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 10346,
+  "meta": [],
+  "at": "2026-10-17T17:42:35.630Z"
+}

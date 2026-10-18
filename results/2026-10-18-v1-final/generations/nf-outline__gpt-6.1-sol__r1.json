@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "# Führen ohne Titel\n## Ein Praxisbuch für Teamleiter, die plötzlich Verantwortung tragen\n\n### 1. Gestern Kollege, heute Teamleiter\nDu gestaltest deine ersten Tage in der neuen Rolle und sprichst mit dem Team darüber, was sich zwischen euch verändert – und was bleibt.\n\n### 2. Kläre, wofür du verantwortlich bist\nDu vereinbarst mit deinem Vorgesetzten, was du entscheiden darfst, welche Ergebnisse erwartet werden und wo du Unterstützung brauchst.\n\n### 3. Entscheide, was zuerst kommt\nDu übersetzt volle Auftragsbücher, knappe Termine und widersprüchliche Wünsche in klare Prioritäten – einschließlich der Entscheidung, was liegen bleibt.\n\n### 4. Gib Aufgaben ab, ohne sie zurückzuholen\nDu überträgst Aufgaben mit verständlichen Erwartungen und passenden Freiräumen und prüfst Ergebnisse, ohne jeden Handgriff zu kontrollieren.\n\n### 5. Sorge dafür, dass die Zusammenarbeit läuft\nDu schaffst einfache Absprachen für Übergaben, Besprechungen und Informationswege, damit das Team nicht ständig auf Rückfragen warten muss.\n\n### 6. Hilf deinen Leuten, besser zu werden\nDu gibst im Arbeitsalltag konkretes Feedback, erkennst Lernbedarf und vereinbarst Entwicklungsschritte, die auch ohne großes Weiterbildungsbudget möglich sind.\n\n### 7. Führe schwierige Gespräche, statt sie aufzuschieben\nDu bereitest Gespräche über wiederholte Fehler, unzuverlässiges Verhalten oder verletzte Grenzen vor, sprichst Probleme klar an und vereinbarst verbindliche nächste Schritte.\n\n### 8. Finde heraus, wie du führen willst\nDu prüfst deine Erfahrungen, deinen Umgang mit Macht und deine Reaktion unter Druck und entwickelst daraus eine Haltung, die dir auch bei unbequemen Entscheidungen Orientierung gibt.",
+  "usage": {
+    "in": 123,
+    "out": 578,
+    "thinking": 191
+  },
+  "costUsd": 0.006026,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 16173,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:48:21.642Z"
+}

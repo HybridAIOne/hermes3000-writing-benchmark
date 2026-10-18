@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "claude-haiku-5.5",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "violated": [
+      "b4-5"
+    ],
+    "evidence": [
+      "Seit dem Morgen hat sich ihr Misstrauen auf die Mauern gerichtet, auf die versiegelten Türen, auf die Stille der Flure, als hätte das Haus selbst etwas gegen sie. Nun hat es ein Gesicht bekommen, einen Mantel aus Leder und die Frage, wer ihn über den toten Pass geschickt hat. Die Vorstellung, dass jemand von außen kommt, um ihr etwas zu entreißen, ist leichter zu ertragen als die andere, die sich langsam in ihr auftut."
+    ]
+  },
+  "usage": {
+    "in": 2060,
+    "out": 152,
+    "thinking": 0
+  },
+  "costUsd": 0.00564
+}

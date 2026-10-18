@@ -1,0 +1,113 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 9,
+        "fehler": [
+          "„Er hatte nie begriffen, dass man an einer Fähre nichts reparieren lassen konnte, ohne dass sich danach alles andere veränderte.“ Die pauschale Behauptung bleibt sachlich und psychologisch unverständlich. Sie setzt Bedeutung, statt einen nachvollziehbaren Konflikt zu entwickeln.",
+          "„Der Motor war nicht das Thema, und Jonas wusste das so gut wie sie.“ Der Einstieg erklärt den Subtext ausdrücklich und behauptet zugleich Jonas’ Wissen, statt bei Ilses Wahrnehmung zu bleiben.",
+          "„eher so, wie Männer lachen, wenn sie merken, dass sie ein Spiel schon verloren haben“: Verallgemeinernde, klischeehafte Erklärung; das Bild vom verlorenen Spiel nimmt der Begegnung ihre individuelle Spannung.",
+          "„Du bleibst bis morgen früh“ bis „Ich rede unterwegs nicht.“ Die ausführliche Ansage formuliert Ilses Bedingungen vollständig aus. Für die wortkarge Figur und die bislang indirekt geführte Auseinandersetzung wirkt das zu ausgestellt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Der Schlüssel liegt unter dem alten Schöpfkelle-Topf“: Die Wortbildung ist unidiomatisch und lässt den bezeichneten Gegenstand unklar. Auch das Versteck ist dadurch nicht eindeutig vorstellbar.",
+          "„Sie würde heute noch die Spätschicht dranhängen.“ Zusammen mit der anschließenden Ausführung umfasst der Text insgesamt gut 500 Wörter und überschreitet die Vorgabe von etwa 400 merklich.",
+          "„eher wie eine Feststellung, die er für eine spätere Rechnung notierte“: Der beruflich rechnende Sohn wird schematisch charakterisiert; die Erklärung legt den Subtext fest, statt ihn im Gespräch entstehen zu lassen.",
+          "„Wie einer, der sich die Schuhe nicht schmutzig machen wollte.“ Das bekannte Stadtmensch-Klischee wiederholt die bereits durch Mantel, Koffer und Verhalten etablierte Distanz.",
+          "„Sie würde heute noch die Spätschicht dranhängen. Wenigstens noch eine Stunde“: Die Entscheidung wird zunächst ausdrücklich erklärt und anschließend im Dialog nochmals vermittelt. Das schwächt die Wirkung des Schlusses."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Dabei war er auf diesen Bohlen laufen gelernt.“ Grammatisch falsch: Es muss „Dabei hatte er auf diesen Bohlen laufen gelernt“ heißen.",
+          "„Jonas wusste das nicht mehr.“ Die personale Erzählung behauptet unmittelbar einen Gedächtnisinhalt des Sohnes. Als Vermutung oder aus früheren Gesprächen begründete Einschätzung Ilses wäre das perspektivisch sauberer.",
+          "„Henning hätte sie längst ausgetauscht. Henning hätte auch den Motor gemacht“: Der anschließende ausführliche Rückblick unterbricht die konkrete Ablegehandlung und erklärt die Bedeutung des verstorbenen Mannes stärker als nötig.",
+          "„auf diese glatte, ausgeschlafene Art, die er sich irgendwann zwischen Studium und erstem Firmenwagen zugelegt hatte“: Die Charakterisierung greift auf ein vertrautes Beraterklischee zurück."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Die Fahrt dauerte elf Minuten, hin und zurück ein Vierteljahrstündchen“: Die Zeitangaben widersprechen sich. Wenn eine Überfahrt elf Minuten dauert, sind Hin- und Rückfahrt nicht in ungefähr fünfzehn Minuten möglich.",
+          "„ein Vierteljahrstündchen“: Falsche Wortbildung; gemeint ist „ein Viertelstündchen“.",
+          "„er hatte erst gestern Abend den Zug gebucht“: Für dieses konkrete Wissen Ilses fehlt jede Grundlage. Die Einbettung in ihre Vorstellung von Jonas’ Gedanken behebt den perspektivischen Zugriff auf die Buchungsinformation nicht.",
+          "„wie man jemandem nachsieht, den man noch nicht wieder hereingelassen hat“: Der Vergleich erklärt die emotionale Bedeutung des vorgestellten Weggehens ausdrücklich, statt sie dem Bild zu überlassen.",
+          "„dieses Schweigen, das mehr Platz brauchte als ein Satz“: Die aphoristische Formulierung wirkt gesucht und kommentiert ein Schweigen, dessen Wirkung die Szene bereits vermittelt."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "C",
+      "B",
+      "E",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 3946,
+    "out": 1856,
+    "thinking": 690
+  },
+  "costUsd": 0.026452
+}

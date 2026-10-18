@@ -1,0 +1,109 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "His hands rested flat on his knees... On the blonde wood of the pew where his hand had rested (Logikbruch: Seine Hände lagen auf den Knien, hinterlassen aber am Ende einen Abdruck auf dem Holz der Bank)",
+          "she had intubated (Sachfehler: Krankenschwestern intubieren in der Regel nicht selbst, das ist eine ärztliche Tätigkeit)",
+          "damp at the shoulders, though it hadn't rained since Tuesday (Abgegriffenes Genre-Klischee zur Erzeugung von künstlichem Mystery)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "The tealight shivered in its plastic cup, though no air moved. (Gleich doppelt fehlerhaft: Zuvor wurde es als 'battery tealight' eingeführt, dessen Plastikflamme nicht durch Luftzug zittern kann; zudem ein abgedroschenes Geistergeschichten-Klischee)",
+          "Then she reached up and turned her lanyard around, so the photo faced out, and stood there letting him read whatever he liked. (Psychologisch völlig unglaubwürdiges Verhalten, zumal er gerade auf den Altar starrt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "# The Chapel at 4 A.M. (Unnötige Überschrift mit Markdown-Formatierung)",
+          "You were my wife's nurse. Eleven months ago... You said her name every time you came in the room. (Verstoß gegen die Vorgaben 'restrained', 'no clichés' und 'rather than a revelation': Es wird eine rührselige, klischeehafte Auflösung präsentiert)",
+          "She kept the lights off... Outside the small window, an ambulance turned off its lights at the bay, and the red washed once across the pews (Fragwürdige Räumlichkeit und Lichtlogik: Er erkennt sie im völlig dunklen Raum, bevor er sich überhaupt umdreht)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "Maren had stopped on her way back from the med room to refill the water pitcher, out of a habit she didn't examine. (Unsinnige Handlung: Warum sollte man auf dem Rückweg vom Medikamentenraum gewohnheitsmäßig eine Wasserkanne in einer Kapelle auffüllen?)",
+          "his hands on his knees... He stood slowly and pushed the hymnal back into its slot (Kontinuitätsfehler: Er hatte die Hände auf den Knien, hielt kein Gesangbuch)",
+          "She said the nurse with the cold hands was the one who sang. (Kitschige, klischeehafte Enthüllung, die gegen 'no clichés' und 'no revelation' verstößt)",
+          "He didn't turn when the door sighed shut behind her. 'Maren,' he said. (Woher weiß er ohne Hinsehen, wer hereinkommt, wenn er ihr Gesicht laut Text noch nie gesehen hat?)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "At the man’s feet, the empty bag (Leichter Perspektivfehler: Woher weiß sie, dass die aufrecht stehende Tüte komplett leer ist?)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2642,
+    "out": 983,
+    "thinking": 0
+  },
+  "costUsd": 0.015114
+}

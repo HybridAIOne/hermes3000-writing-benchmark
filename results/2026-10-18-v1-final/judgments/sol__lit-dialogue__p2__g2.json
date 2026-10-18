@@ -1,0 +1,117 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Jan setzt sich langsam.“ – Jan sitzt bereits; ein zwischenzeitliches Aufstehen wird nicht gezeigt. Die Bewegungsfolge ist unstimmig.",
+          "„Jan rührt in einer Tasse, in der noch nichts ist.“ – Die Tassen werden erst anschließend gebracht. Die Requisite ist nicht nachvollziehbar eingeführt.",
+          "„Ein kurzes Lächeln, das sofort wieder verschwindet.“ – Eine konventionelle Regieformel, die weniger präzise ist als die gelungenen Handlungen mit der Jacke.",
+          "„Nur den Kaffee.“ / „Nur den Kaffee.“ – Der versöhnliche Schluss funktioniert, ist durch die wortgleiche Wiederholung aber etwas demonstrativ abgerundet."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Da warst du vorbei.“ – Unidiomatische Formulierung; gemeint ist offenbar „Da bist du vorbeigekommen“ oder „Da warst du also“.",
+          "„Die Gegend ist groß geworden“ / „Vieles wächst. Manches schrumpft.“ – Der Austausch wirkt als konstruierte Folge von Anspielungen, nicht als beiläufiges Gespräch zweier konkret gezeichneter Menschen.",
+          "„Vom Fahren weißt du ja was. Weiterfahren vor allem.“ – Der Vorwurf wird durch das nachgeschobene Wortspiel allzu deutlich ausgestellt.",
+          "„An der ich damals… egal.“ – Das demonstrative Abbrechen deutet gemeinsame Vergangenheit schematisch an, statt sie durch eine präzise Reaktion erfahrbar zu machen.",
+          "„Fast ein Lächeln. Fast.“ – Die Wiederholung unterstreicht einen bereits vollständig vermittelten Effekt und gibt dem Schluss etwas Manieriertes."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„MARTIN sitzt bereits, rührt in einer leeren Tasse.“ – Die auffällige Verlegenheitsgeste wirkt eher als gesetztes Spannungssignal denn als individuell motivierte Handlung.",
+          "„Die Post war nie das Problem.“ – Die Replik benennt die Bedeutungsebene hinter dem Smalltalk recht ausdrücklich; der Subtext wird unnötig erläutert.",
+          "„Erinnerst du dich an den Sommer am See?“ – Ein unspezifisches Erinnerungsmotiv, das gemeinsame Geschichte behauptet, ohne sie charakteristisch werden zu lassen.",
+          "„Draußen fährt ein Schiff vorbei, das Horn klingt lang und dunkel.“ – Der atmosphärische Schluss liefert einen konventionellen Melancholieeffekt, statt die Spannung zwischen den Figuren weiterzutragen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„nimmt er seine Jacke vom zweiten Stuhl“ / „Martin nimmt die Jacke vom Stuhl neben sich“ – Dieselbe Handlung wird zweimal ausgeführt, ohne dass Martin die Jacke zwischenzeitlich wieder auf den Stuhl gelegt hätte.",
+          "„Ich konnte sie noch aufhalten, wenn du etwas anderes willst.“ – Für das gegenwärtige Angebot ist „könnte“ erforderlich; „konnte“ erzeugt einen unmotivierten Wechsel in die Vergangenheit.",
+          "„Du hast ihn glatt gestrichen.“ – Das Glattstreichen des Zuckerbeutels ist zuvor nicht gezeigt worden. Gerade weil die Szene ihre Spannung aus beobachtbaren Kleinigkeiten entwickelt, sollte diese Handlung in der Regie stehen.",
+          "„Nur die Oberfläche.“ / „Auf deiner Seite vielleicht.“ – Die doppelte Bedeutung ist wirkungsvoll, wird hier aber stellenweise so passgenau gebaut, dass die Konstruktion sichtbar wird."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Du machst das immer noch.“ / „Was?“ / „Nichts.“ / „Gut.“ – Ein schematischer Ausweichdialog; die konkrete Bedeutung der beobachteten Handlung bleibt beliebig.",
+          "„Ich dachte, du magst inzwischen lieber die Wand im Rücken.“ – Die auffällige Anspielung auf Schutzbedürfnis bleibt ohne weitere charakterliche Verankerung und wirkt dadurch gesetzt.",
+          "„Ich bin zu Fuß gekommen.“ / „Natürlich.“ – Die Antwort auf das Fahrangebot vermittelt keine hinreichend konkrete Spannung; hier muss der Ton mehr leisten, als der Wortlaut trägt.",
+          "„Für einen Augenblick sieht es aus, als wolle er etwas anderes sagen.“ – Die abschließende Regieanweisung erklärt die beabsichtigte Wirkung, statt sie durch eine präzise sichtbare Handlung zu erzeugen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "C",
+      "E",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2737,
+    "out": 1711,
+    "thinking": 512
+  },
+  "costUsd": 0.022584
+}

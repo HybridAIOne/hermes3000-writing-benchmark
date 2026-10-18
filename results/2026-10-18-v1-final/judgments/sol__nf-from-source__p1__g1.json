@@ -1,0 +1,137 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Wer mehr Geld in Anteilen einbringt, erhält also nicht mehr Stimmen.“ – Wiederholt unmittelbar die bereits vollständig erklärte Stimmrechtsregel.",
+          "„Finanzielle Beteiligung und Mitbestimmung sind nicht nach demselben Maßstab verteilt.“ – Für die Zielgruppe unnötig abstrakte Zusammenfassung eines zuvor anschaulich erklärten Sachverhalts."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Die Zahlen zeigen, dass das Modell trägt.“ – Umsatz, Einnahmenstruktur und Beförderungszahl belegen ohne Angaben zu Kosten und Ergebnis keine wirtschaftliche Tragfähigkeit.",
+          "„Eine Fähre, die ihren Nutzern gehört“ – Die Quelle setzt Mitglieder und Nutzer nicht gleich.",
+          "„das nicht von einem einzelnen Eigentümer abhängen soll“ – Führt ein nicht belegtes Motiv für die Wahl der Rechtsform ein.",
+          "„Die Genossenschaft entstand 1953 aus einer Notlage.“ – Wertet die Einstellung des Fährbetriebs als Notlage; diese Einordnung steht nicht in der Quelle.",
+          "„Die Menschen, die sie brauchen, betreiben sie selbst“ – Behauptet eine nicht belegte Gleichsetzung von Nutzern und genossenschaftlichen Betreibern."
+        ],
+        "unsupported": [
+          "„Eine Fähre, die ihren Nutzern gehört“: Dass die Nutzer zugleich Mitglieder beziehungsweise Eigentümer sind, ist nicht angegeben.",
+          "„aus einer Notlage“: Eine Notlage wird im Quellmaterial nicht festgestellt.",
+          "„Die Zahlen zeigen, dass das Modell trägt.“: Die wirtschaftliche Tragfähigkeit ist durch die genannten Daten nicht nachgewiesen.",
+          "„für die Region ein Gemeinschaftsgut“: Diese Einordnung der konkreten Fähre enthält die Quelle nicht.",
+          "„das nicht von einem einzelnen Eigentümer abhängen soll“: Ein entsprechendes Ziel oder Gründungsmotiv ist nicht überliefert.",
+          "„Die Menschen, die sie brauchen, betreiben sie selbst“: Die Quelle belegt keine Identität von Nutzern und Betreibern."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„1953 stellte der Landkreis den Betrieb der Fähre ein.“ – Die Quelle datiert die Gründung auf 1953, nicht die vorausgegangene Betriebseinstellung.",
+          "„So bleibt die Fähre in der Hand derer, die sie brauchen.“ – Setzt Mitglieder und Nutzer ohne Quellenbeleg gleich.",
+          "„Wer mehr Geld einbringt, erhält dadurch nicht mehr Einfluss.“ – Belegt ist nur das gleiche Stimmrecht; Einfluss insgesamt ist damit nicht vollständig beschrieben.",
+          "„anders um als ein gewöhnliches Unternehmen“ – Sachlich unscharfe Gegenüberstellung: Auch andere Unternehmen können Überschüsse zurücklegen statt ausschütten.",
+          "„legt Erträge für die Zukunft der Fähre zurück“ – Verwischt die zuvor korrekt erklärte Unterscheidung zwischen Erträgen und Überschüssen."
+        ],
+        "unsupported": [
+          "„1953 stellte der Landkreis den Betrieb der Fähre ein.“: Das Jahr der Betriebseinstellung ist nicht angegeben.",
+          "„Sie brauchten die Fähre“: Der persönliche Bedarf der Gründungsmitglieder wird nicht ausdrücklich genannt.",
+          "„Wer mehr Geld einbringt, erhält dadurch nicht mehr Einfluss.“: Die Quelle garantiert gleiches Stimmrecht, nicht gleichen Einfluss in jeder Hinsicht.",
+          "„So bleibt die Fähre in der Hand derer, die sie brauchen.“: Dass die Mitglieder zugleich die Nutzer sind, ist nicht belegt."
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„vierzig Landwirte und Händler“ – Falsche Gründerzahl; laut Quelle waren es 41.",
+          "„Zugleich gibt die gleiche Stimme jedem Mitglied ein Mitspracherecht“ – Unbeholfene Formulierung: Gemeint ist das gleiche Stimmrecht, nicht eine „gleiche Stimme“.",
+          "„unabhängig davon, wie viele Anteile es hält“ – Wiederholt am Schluss nahezu wörtlich die bereits im zweiten Absatz erklärte Regel.",
+          "„Die Fähre überquert die Elbe an einer 212 Meter breiten Stelle“ – Der technische und statistische Mittelteil unterbricht die Erklärung der genossenschaftlichen Funktionsweise; die Informationen könnten stärker argumentativ eingebunden werden."
+        ],
+        "unsupported": [
+          "„vierzig Landwirte und Händler“: Widerspricht der Quellenangabe von 41 Gründungsmitgliedern."
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„wie die Genossenschaft auf Dauer und für das Gemeinwohl plant“ – Unterstellt der konkreten Genossenschaft eine ausdrücklich gemeinwohlorientierte Zielsetzung, die die Quelle nicht nennt.",
+          "„Dank der angesparten Rücklage soll bis 2031 ein Elektroantrieb eingebaut werden“ – Verschiebt die Aussage: Laut Quelle soll bis 2031 die Rücklage ausreichen; ein Einbau bis zu diesem Termin wird nicht zugesichert.",
+          "„Wer mehr Geld eingebracht hat, hat deshalb nicht mehr Einfluss.“ – Verallgemeinert das gleiche Stimmrecht zu einer unbelegten Aussage über Einfluss insgesamt.",
+          "„aus beiden Elbufern“ – Unidiomatisch; richtig wäre hier „von beiden Elbufern“.",
+          "„nicht darum, Eigentümer zu bereichern“ – Unnötig polemische Zuspitzung statt einer neutralen Erklärung der ausbleibenden Ausschüttungen."
+        ],
+        "unsupported": [
+          "„aus einer Notlage heraus“: Eine Notlage wird in der Quelle nicht ausdrücklich festgestellt.",
+          "„die Menschen an beiden Ufern wollten die Verbindung über den Fluss erhalten“: Schreibt den Menschen beider Ufer pauschal ein gemeinsames Motiv zu; belegt ist die Gründung durch 41 Landwirte und Händler.",
+          "„Wer mehr Geld eingebracht hat, hat deshalb nicht mehr Einfluss.“: Belegt ist nur die von der Anteilszahl unabhängige Stimme.",
+          "„Dank der angesparten Rücklage soll bis 2031 ein Elektroantrieb eingebaut werden“: Die Quelle nennt 2031 als Ziel für die ausreichende Finanzierung, nicht ausdrücklich als Einbautermin.",
+          "„für das Gemeinwohl plant“: Eine solche Zielsetzung der konkreten Genossenschaft ist nicht angegeben."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "C",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3293,
+    "out": 2038,
+    "thinking": 465
+  },
+  "costUsd": 0.026966
+}

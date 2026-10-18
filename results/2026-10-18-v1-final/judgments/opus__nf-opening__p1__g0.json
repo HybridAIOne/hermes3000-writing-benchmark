@@ -1,0 +1,120 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„schiebt man sie gern auf“ – Wechsel von der Du-Ansprache zu „man“",
+          "„daneben eine Tasse, die längst kalt ist“ – unscharf: kalt ist der Kaffee, nicht die Tasse",
+          "„In diesem Kapitel geht es darum, genau solche Gespräche vorzubereiten und zu führen“ – formelhafte Kapitelankündigung",
+          "Mit rund 290 Wörtern etwas über der Vorgabe",
+          "Der Buchtitel „Führen ohne Titel“ (fehlende Weisungsbefugnis) wird nicht aufgegriffen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„wird ein fester Ärger über einen Kollegen“ – unidiomatisch, besser „Groll“ oder „Dauerärger“",
+          "„ohne dich hinter einer Position verstecken zu können“ – etwas abstrakt",
+          "„Du merkst, wie du die Zähne zusammenbeißt“ – leicht klischeehaft",
+          "Mit rund 270 Wörtern leicht über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Kurz sprechen – Jens\".“ – falsches schließendes Anführungszeichen (\" statt “)",
+          "„Dann bist du in guter Gesellschaft.“ – Floskel",
+          "„dieses Ziehen im Magen“ – abgegriffenes Bild",
+          "„mit einer klaren Haltung und ein paar handfesten Werkzeugen“ – formelhafter Schluss",
+          "„Fast jeder, der Verantwortung für andere übernimmt“ – generalisierender Füllsatz"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "Vier Absätze statt eines Einstiegsabsatzes, mit rund 330 Wörtern deutlich zu lang",
+          "„Die meisten Führungskräfte kennen diesen Moment gut. Man hat die Information …“ – Wechsel zu „man“, generischer Füllsatz",
+          "„Das Warten macht es nicht leichter. Es macht es teurer.“ und „macht ihn meist unangenehmer“ – Redundanz",
+          "„Es geht um eine Haltung, um gute Vorbereitung und um ein paar einfache Handgriffe“ – formelhafter Schluss",
+          "„wie ein Schritt über eine Kante, hinter der alles schiefgehen könnte“ – schiefes Bild"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„um seine Schlamperei auszubügeln“ – abwertend, verträgt sich nicht mit dem Ziel fairer Gespräche",
+          "„Wir drücken uns vor unangenehmen Wahrheiten“ – Wechsel von „du“ zu „wir“",
+          "„Jahresendgespräch“ – unüblicher Begriff (üblich: Jahresgespräch); dazu „Jour fixe“ als Bürojargon",
+          "„wird in vier Wochen doppelt so schwer“ – unbelegte Pseudo-Quantifizierung",
+          "„Bauchgrummeln“, „auf Granit beißen“, „aussitzen“ – Häufung von Floskeln"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 5291,
+    "out": 2177,
+    "thinking": 894
+  },
+  "costUsd": 0.064704
+}

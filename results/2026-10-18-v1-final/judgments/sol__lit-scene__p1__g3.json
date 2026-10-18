@@ -1,0 +1,131 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "F": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Zwanzig Jahre hatte sie nicht mehr hier gestanden.“ Die Abwesenheit ist benannt; dass dies das Haus ihrer verstorbenen Mutter ist, wird dagegen nirgends erkennbar. Damit fehlt ein zentraler Teil der Vorgabe.",
+          "„ein Monat im Jahr, das sie nicht mehr wusste“: Unidiomatische Formulierung; gemeint ist ein Jahr, an das sie sich nicht mehr erinnerte oder das sie nicht mehr nennen konnte.",
+          "„wie Schlüssel in alten Häusern klemmen“: Die pauschale Erklärung nimmt dem zunächst konkreten Einstieg seine Eigenart.",
+          "„als hätte jemand sein Gewicht verlagert“ und „Das Haus antwortete nicht“: Konventionelle Spuksignale ersetzen am Schluss die zuvor präzisere Beobachtung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Haus Brandt“ und „nach zwanzig Jahren“: Weder der Umschlag noch die Rückkehr verankern das Haus als Eigentum der verstorbenen Mutter. Mutter und Todesfall bleiben im gesamten Text unerwähnt.",
+          "„Hinter ihr tropfte nichts. Das Wasser war ja abgestellt. Trotzdem drehte sie sich um.“ Die Schlusspointe erzeugt Spannung durch ein ausdrücklich ausbleibendes Geräusch; Noras Reaktion wirkt dadurch eher arrangiert als wahrnehmungsnah.",
+          "„Der Novembertag hatte sich nicht hineingetraut.“ Eine geläufige, verniedlichende Personifikation, die gegenüber den konkreten Beobachtungen abfällt.",
+          "„vielleicht von ihrem Luftzug, vielleicht schon vorher“: Das unbegründete Weiterschwingen wird als zusätzliches Unheimlichkeitssignal ausgestellt, obwohl die Quitten bereits einen stärkeren atmosphärischen Schwerpunkt bilden."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Zwanzig Jahre alte Seife duftet nicht mehr durch einen Flur.“ Die kategorische Behauptung erklärt dem Publikum, warum der Geruch unheimlich sein soll, statt die Irritation aus Noras Wahrnehmung entstehen zu lassen.",
+          "„roch, was Häuser riechen, wenn niemand mehr in ihnen atmet“: Die verallgemeinernde, demonstrativ literarische Einleitung ist weniger präzise als die anschließenden einzelnen Gerüche.",
+          "„Wer ihn abgewaschen hatte, wusste sie nicht“ und „Irgendjemand musste danach hier gewesen sein“: Der zweite Satz wiederholt weitgehend die bereits vermittelte Ungewissheit."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 10,
+        "fehler": [
+          "„während das Haus um sie herum plötzlich den Atem anzuhalten schien“: Abgegriffene Schlussformel, die die bereits deutlich inszenierte Spannung nochmals behauptet.",
+          "„schwer und kalt, konserviert wie in einem Einmachglas“, „Das Haus hatte Helga schneller vergessen“ und „stumm und schwer, als warte er darauf“: Die Häufung von Vergleichen und Personifikationen überlädt die Szene und lässt wenig Raum für die Gegenstände selbst.",
+          "„diffuses, graues Novemberlicht“ und „schnitt blasse Rechtecke in die Dunkelheit“: Diffuse Beleuchtung und scharf schneidende Lichtflächen passen bildlich nicht recht zusammen.",
+          "„Terpentin. Und preußischblaues Öl.“ Die isolierten Benennungen wirken effektbetont; „preußischblaues Öl“ ist zudem unpräziser als eine konkrete Bezeichnung der Ölfarbe.",
+          "„frisch genug, um erst wenige Tage alt zu sein“: Die zeitliche Bestimmung wird aus dem Geruch allzu sicher abgeleitet. Dadurch wirkt der Hinweis auf die Malerei stärker für die Enthüllung eingerichtet als beiläufig entdeckt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„wenn eine Frau allein starb“: Der Todesfall ist erkennbar, die Identität der Verstorbenen als Hannas Mutter bleibt jedoch unnötig unbestimmt.",
+          "„als hätte das Haus sie erwartet, nur nicht als diejenige, die sie geworden war“: Eine abstrakte, vertraute Rückkehrformel ersetzt die konkrete Darstellung ihrer Veränderung.",
+          "„die Fensterläden geschlossen wie Lider“: Konventionelle Vermenschlichung des Hauses ohne zusätzlichen Erkenntniswert.",
+          "„Er war schwerer, als sie ihn in Erinnerung hatte, oder ihre Hand war leichter geworden.“ Die pointierte Gegenüberstellung deutet Bedeutung an, bleibt körperlich und psychologisch aber unbestimmt.",
+          "„Jemand hatte sie fortgeschafft. Jemand hatte gefegt.“ Zusammen mit „Jemand hatte den Rasen gemäht“ wird die unbekannte Tätigkeit Dritter etwas schematisch als Spannungssignal wiederholt."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "C",
+      "F",
+      "B",
+      "E",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 3433,
+    "out": 2696,
+    "thinking": 1352
+  },
+  "costUsd": 0.033826
+}

@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "„Der Motor läuft\", sagte Ilse.\n\n„Er klingt, als würde er gleich auseinanderfallen.\"\n\n„Er läuft.\" Sie hakte die Leine ab und stieg an Bord zurück, ohne ihm die Hand zu reichen. Jonas hob seinen Koffer über die Lücke zwischen Anleger und Fähre, und die Rollen klapperten über die Planken. Ein Junge, dachte sie, der seinen Koffer hinter sich herzieht wie einen Hund.\n\n„Muss man jetzt nicht zahlen?\", fragte er und lächelte schief.\n\n„Für dich mache ich eine Ausnahme.\" Sie löste die vordere Leine und stieß mit dem Haken ab. Die Strömung griff sofort in den Rumpf, drehte die Fähre einen Hauch nach draußen, bevor das Seil sie fing. Jonas hielt sich am Geländer fest, obwohl die Fahrt ruhig war. Er hatte das als Kind nie getan. Als Kind hatte er sich auf die Reling gehockt und Henning zugeschaut, wie der die Hände am Seil entlanggehen ließ, Meter für Meter.\n\n„Du hast grau geworden\", sagte Ilse.\n\n„Danke, Mama.\"\n\n„Steht dir.\"\n\nEr lachte kurz, und dann war es wieder still, nur das Wasser am Bug und das unregelmäßige Tuckern des Motors. Ilse stand am Heck und ließ das Seil durch die Hände gleiten. Henning hatte immer gesagt, man brauche den Motor nur für den Anlauf, der Fluss mache den Rest. Aber Henning war seit vier Jahren tot, und der Fluss trug einen nicht allein ans andere Ufer, wenn man alt wurde.\n\n„Wie lange bleibst du?\", fragte sie, als die Mitte des Stroms hinter ihnen lag.\n\n„Bis Sonntag.\"\n\n„Am Freitag holt die Schule die Klasse von Frau Wieck rüber. Zwanzig Kinder.\"\n\n„Dann helfe ich halt.\"\n\n„Du hast keine Handschuhe.\"\n\n„Ich bin nicht aus Zucker, Mama.\"\n\nSie sagte nichts dazu. Am anderen Ufer wartete niemand. Der Anleger lag leer im Nachmittagslicht, und dahinter stieg der Deich an, braun und still. Früher hatte dort um diese Zeit immer jemand gestanden, der Milchbauer mit seinen Kanistern oder die alte Svenja mit dem Fahrrad. Jetzt kamen nur noch die Kinder und die Radfahrer im Sommer, und die zahlten in eine Blechdose, die an einem Nagel hing.\n\nJonas stellte seinen Koffer senkrecht und sah übers Wasser zurück, als zähle er etwas. Vielleicht die Minuten. Vielleicht die Meter. Ilse kannte diesen Blick von den Leuten, die selten kamen, die alles mit den Augen aufnahmen wie ein Gutachten.\n\nSie legte an, warf die Leine, zog sie fest, zweimal.\n\n„Komm\", sagte sie und ließ den Motor laufen, obwohl sie ihn sonst immer abstellte, wenn kein Gast wartete. „Ich fahre dich gleich noch einmal rüber. Damit du siehst, dass nichts auseinanderfällt.\"",
+  "usage": {
+    "in": 470,
+    "out": 826,
+    "thinking": 36
+  },
+  "costUsd": 0.010003439999999999,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Wafer",
+  "latencyMs": 25917,
+  "meta": [],
+  "at": "2026-10-18T05:25:55.234Z"
+}

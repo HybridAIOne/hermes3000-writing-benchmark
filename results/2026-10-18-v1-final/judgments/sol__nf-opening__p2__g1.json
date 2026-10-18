@@ -1,0 +1,110 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Kommt dir das bekannt vor? Dann bist du in guter Gesellschaft.“ – Formelhafte Leseransprache; die unmittelbar verständliche Szene braucht diese doppelte Überleitung nicht.",
+          "„dass du gestern noch selbst einer von ihnen warst“ – Verengt die angesprochene Zielgruppe unnötig auf frisch aufgestiegene Teamleiter."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Es ist Dienstagnachmittag“ / „Du hattest dir vorher zurechtgelegt“ / „Kennst du das?“ / „Dieses Kapitel zeigt dir“ – Vier Absätze statt des ausdrücklich verlangten Einstiegsabsatzes.",
+          "„ein Ausdruck mit den Zahlen des letzten Quartals“ – Das eigentliche Gesprächsproblem bleibt unbenannt. Dadurch ist die Szene trotz ihrer Details weniger praxisnah als möglich.",
+          "„Die meisten Führungskräfte, die ich kenne“ – Führt unvermittelt eine persönliche Erzählerinstanz ein und ersetzt eine präzise Beobachtung durch eine pauschale Berufung auf Bekanntschaften.",
+          "„wie du solche Gespräche vorbereitest, führst und danach nicht bereust“ – Verspricht einen emotionalen Ausgang, den auch ein gut geführtes Gespräch nicht gewährleisten kann."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Denn du weißt genau, was passieren wird“ – Stellt die erwartete Abwehrreaktion als Gewissheit dar. Damit übernimmt der Text die Vorverurteilung des Gegenübers, statt sie als Befürchtung kenntlich zu machen.",
+          "„Wenn du Kritik äußerst, begibst du dich auf dünnes Eis.“ – Pauschalisiert Kritik zum persönlichen Risiko und verstärkt damit gerade die Hemmung, die das Kapitel bearbeiten sollte.",
+          "„die wahre Feuerprobe“ / „auf dünnes Eis“ / „die Stimmung in der gesamten Abteilung vergiftet“ – Gehäufte, abgegriffene Gefahrenbilder dramatisieren einen alltäglichen Führungsanlass.",
+          "„ob dein Team dich als echte Führungskraft akzeptiert – oder nur als denjenigen, der die Arbeit verteilt“ – Unnötig zugespitzte Entweder-oder-Alternative; der Schluss erhöht den Bewährungsdruck, statt einen hilfreichen Zugang zum Kapitel zu eröffnen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Es ist Dienstag“ / „Fast jeder Teamleiter“ – Der Text besteht aus zwei Absätzen statt aus dem verlangten Einstiegsabsatz.",
+          "„Na, auch schon da?\"“ – Das deutsche öffnende Anführungszeichen wird mit einem geraden statt mit einem deutschen schließenden Anführungszeichen kombiniert.",
+          "„Zum vierten Mal in drei Wochen kommt er nach halb neun“ – Ohne vereinbarte Anfangszeit oder konkrete Folgen bleibt offen, weshalb die Ankunft ein berechtigter Gesprächsanlass ist.",
+          "„ohne Rhetorikkurs und ohne dich zu verbiegen“ – Werbliche Schlussformel; sie sagt weniger über den praktischen Nutzen des Kapitels als eine konkrete Vorschau.",
+          "„In diesem Kapitel geht es darum“ – Der Text endet bereits nach rund 210 Wörtern und bleibt damit etwas unter dem angezielten Umfang von etwa 250 Wörtern."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "C",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2355,
+    "out": 1356,
+    "thinking": 392
+  },
+  "costUsd": 0.01827
+}

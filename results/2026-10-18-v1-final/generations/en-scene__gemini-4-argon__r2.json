@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "gemini-4-argon",
+  "run": 2,
+  "text": "The rubber soles of Nora’s shoes made no sound on the linoleum, only a faint tackiness left over from the third-floor mop bucket. She pushed open the heavy veneer door of the interfaith chapel, looking for five minutes without fluorescent light.\n\nA man sat in the third row. He wore a wool coat damp at the shoulders, though it hadn't rained since her shift began at seven. He wasn't looking at the brass lectern or the backlit acrylic stained glass. He was looking at his own hands, folded loosely over a blue visitor’s pass that lacked a printed destination.\n\nNora stopped by the pamphlet rack. \"Visiting hours ended at eight,\" she said, keeping her voice in the flat, neutral register she used for disoriented patients. \"The lobby waiting room has coffee.\"\n\nHe didn't turn his head. \"You switched shifts with Miller, Nora. You weren't supposed to be on until Friday.\"\n\nNora’s hand went instinctively to her chest, covering the laminated badge clipped to her scrubs. Even if he had looked, the font was twelve-point, illegible from twenty feet away in the dim amber of the wall sconces. She didn't know a Miller on her floor. Miller worked pediatric oncology, two buildings over, and had retired in November.\n\nShe waited for him to turn around, to show her a face she recognized from a chart or a grocery line. He stayed still, his posture slack, the damp wool of his coat releasing the faint, metallic smell of wet pavement into the dry radiator heat.\n\nOn the carpet beside his left boot, a single melted gray slush-print was slowly soaking into the tight industrial weave.",
+  "usage": {
+    "in": 89,
+    "out": 351,
+    "thinking": 0
+  },
+  "costUsd": 0.003688,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 10006,
+  "meta": [],
+  "at": "2026-10-17T17:41:23.668Z"
+}

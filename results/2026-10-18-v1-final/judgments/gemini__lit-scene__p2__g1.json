@@ -1,0 +1,115 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Aber der Pendel schwang“ – Falscher Artikel; im Standarddeutschen heißt es „das Pendel“.",
+          "„**Das Gewicht der Uhr**“ – Unnötige Überschrift und Markdown-Formatierung, gefragt war eine Roman-Eröffnungsszene.",
+          "„Drei Wochen, hatte der Notar gesagt.“ – Das Haus steht damit erst drei Wochen leer, während die Aufgabe leicht als zwanzigjähriger Leerstand gelesen werden kann (noch im Rahmen der Interpretation)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„und einmal auch etwas ganz anderes“ – Plumper, kolportagehafter Cliffhanger, der für einen literarischen Roman viel zu dick aufträgt.",
+          "„eine chemische Geisterspur“ – Stilistisch schiefes, unfreiwillig komisches Bild.",
+          "„Das Geräusch glich einem fallenden Würfel.“ – Abgedroschene Schicksalsmetaphorik.",
+          "„roch sie es: unter dem Staub“ – Nach dem Doppelpunkt folgt ein ganzer Hauptsatz, daher muss „Unter“ großgeschrieben werden.",
+          "„die seit Monaten keinen menschlichen Atem“ – Wenn die Mutter vor längerem gestorben ist und Clara 20 Jahre weg war, sind „Monate“ unplausibel kurz."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„roch, was Häuser riechen“ – Idiomatisch falsch; Häuser riechen nichts (transitiv), sie riechen *nach* etwas oder verströmen einen Geruch.",
+          "„erinnerte sich nicht mehr, wem.“ – Grammatisch unvollständiger Anschluss („erinnerte sich an jemanden“, nicht Dativ ohne Verb-Wiederholung).",
+          "„und darunter, ganz flach, der Rest von etwas, das einmal Seife gewesen war.“ – Logischer Widerspruch im Text selbst: Erst riecht es nach alter Seife, vier Absätze später heißt es plötzlich: „Dann roch sie es. [...] Veilchen.“",
+          "„**Das Haus**“ – Unnötige Titelzeile mit Markdown."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„Nur der Wasserhahn tropfte weiter“ – Logikbruch: Wenn ein Haus jahrelang leer steht, ist das Wasser abgestellt (oder die Leitungen sind im Winter geplatzt).",
+          "„Sie wartete, bis das Wasser klar wurde, und trank aus der hohlen Hand.“ – Unglaubwürdiges Verhalten: Niemand trinkt Stagnationswasser aus einer jahrelang unbenutzten, rostigen Leitung.",
+          "„Sie legte ihn auf die Fensterbank, ohne zu wissen, warum.“ – Das sinnliche Detail (der Knopf) bleibt völlig beliebig und wird durch die Ratlosigkeit der Figur als bedeutungslose Requisite entlarvt.",
+          "„an einem Ast hing eine durchsichtige Plastiktüte“ – Nach Jahren im Freien wäre eine dünne Plastiktüte längst zerfallen oder weggeweht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Ihre Mutter hatte jeden Abend davon genommen [...] Die Creme war unberührt, bis zur Schulter des Glases gefüllt“ – Logischer Bruch: Warum steht eine völlig unbenutzte Dose offen oder verstaubt auf dem Waschbecken, wenn die Mutter sie doch jeden Abend benutzte? Und warum erinnert sich die Tochter an den Geruch aus den letzten „zwanzig Jahren“, wenn sie zwanzig Jahre nicht dort war?",
+          "„Irgendwo tropfte es, gleichmäßig, aus einer Leitung, die niemand mehr abgestellt hatte.“ – Sachlich unplausibel bei einem langjährigen Leerstand (Frostschäden, Wasserwerke).",
+          "„Sie hatte gedacht, die Zeit würde sich wie eine Strecke anfühlen, die man zurücklegt. Stattdessen stand alles noch an seinem Platz, als hätte es nur auf sie gewartet, und die einzige Veränderung war die, die sie selbst mitgebracht hatte.“ – Klassisches Erklären statt Zeigen; eine sehr abgedroschene Kalenderblatt-Erkenntnis am Schluss."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "B",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3351,
+    "out": 1209,
+    "thinking": 0
+  },
+  "costUsd": 0.018792
+}

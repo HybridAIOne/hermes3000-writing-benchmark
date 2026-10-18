@@ -1,0 +1,115 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Zwanzig Jahre hatte sie nicht mehr hier gestanden.“ – Die Rückkehr ist eindeutig, aber weder die Mutter noch deren Tod werden im Text erkennbar. Damit bleibt ein wesentlicher Teil der vorgegebenen Situation unbestimmt.",
+          "„wie Schlüssel in alten Häusern klemmen“ – Die verallgemeinernde Erklärung schwächt den konkreten Einstieg und bedient ein vertrautes Altbauklischee.",
+          "„ein Monat im Jahr, das sie nicht mehr wusste“ – Die Formulierung bleibt umständlich und unpräzise: Gemeint ist offenbar, dass sie die Jahreszahl nicht mehr erinnert.",
+          "„als hätte jemand sein Gewicht verlagert“ / „Das Haus antwortete nicht.“ – Das vermeintliche Lebenszeichen und das anschließende Schweigen des Hauses sind konventionelle Spannungssignale. Sie überlagern die stärkeren, eigenständigeren Beobachtungen wie den Knopf und die Plastiktüte."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Haus Brandt“ / „Eine Bewegung, die ihr Körper nach zwanzig Jahren noch kannte“ – Haus und Rückkehr sind etabliert; dass es sich um das Haus ihrer verstorbenen Mutter handelt, lässt sich dagegen aus keiner konkreten Textinformation erschließen.",
+          "„Der Novembertag hatte sich nicht hineingetraut.“ – Die gefällige Personifikation erklärt die Kälte mit einem bereits stark vertrauten atmosphärischen Bild.",
+          "„vielleicht von ihrem Luftzug, vielleicht schon vorher“ – Das vermeintlich grundlose Schwingen des Bügels setzt einen konventionellen Unheimlichkeitseffekt neben das wesentlich interessantere Quittendetail.",
+          "„Hinter ihr tropfte nichts. Das Wasser war ja abgestellt. Trotzdem drehte sie sich um.“ – Der Schluss behauptet eine irritierte Reaktion, ohne eine Wahrnehmung oder einen Gedanken zu entwickeln, der sie auslöst. Das wirkt eher als gesetzte Pointe denn als zwingender Szenenmoment."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„wenn eine Frau allein starb“ – Der Todesfall ist vorhanden, die Identität der Verstorbenen als Hannas Mutter bleibt jedoch nur erschließbar. Die familiäre Ausgangssituation könnte genauer verankert sein.",
+          "„die Fensterläden geschlossen wie Lider“ – Ein abgegriffenes Bild, das dem ansonsten präzise eingeführten Haus wenig Eigenes gibt.",
+          "„Er war schwerer, als sie ihn in Erinnerung hatte, oder ihre Hand war leichter geworden.“ – Die symmetrische Gegenüberstellung klingt bedeutungsvoll, bleibt körperlich und psychologisch aber unbestimmt.",
+          "„als hätte das Haus sie erwartet, nur nicht als diejenige, die sie geworden war“ – Der Satz benennt eine allgemeine Entfremdung, statt sie szenisch erfahrbar zu machen. Er erklärt mehr, als die bis dahin überzeugenden Spuren fremder Eingriffe benötigen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 9,
+        "fehler": [
+          "„nach Papier und ausgestandenem Kamin“ – Die Verbindung ist idiomatisch unsauber: Abgestanden sein können Luft oder Gerüche; der Kamin selbst ist hier kein präzise bezeichneter Geruchsträger.",
+          "„fein wie ein Schmutzfingerrad“ – Die Wortbildung erschließt kein nachvollziehbares Bild. Gerade beim zentralen sinnlichen Detail entsteht dadurch eine erhebliche sprachliche Störung.",
+          "„rissig wie eine Trockenheit“ – Der Vergleich ersetzt die konkrete Beschaffenheit des Kaffees durch ein abstraktes Substantiv, das weder Form noch Oberfläche anschaulicher macht.",
+          "„Die Stille hatte Konsistenz, fast einen Geruch – oder der Geruch hatte Stille“ – Die Umkehrung wirkt gesucht und hält die Szene zugunsten einer ausgestellten poetischen Formulierung an.",
+          "„Keine Stimme aus der Küche. Kein Radio.“ – Die Abwesenheit wird vermittelt, der Tod der Mutter bleibt allerdings unbestätigt. Zusammen mit dem Titel ist die Vorgabe plausibel, aber nicht vollständig szenisch verankert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Sie hielt sie länger in der Hand, als nötig gewesen wäre.“ – Die Formel signalisiert Bedeutsamkeit, statt eine individuelle Reaktion zu zeigen. Haar, Geruch und anschließende Erinnerung leisten diese Arbeit bereits.",
+          "„Am neunzehnten stand, klein und mit Bleistift, ihr Name.“ / „Sie war an diesem Tag nicht hier gewesen.“ – Der Schluss setzt nach dem ungewöhnlichen Seifendetail einen zweiten, deutlich konventionelleren Rätselhaken. Dadurch wird die zuvor zurückhaltende Bedeutungsführung etwas demonstrativ."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "C",
+      "B",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2849,
+    "out": 2193,
+    "thinking": 912
+  },
+  "costUsd": 0.027628
+}

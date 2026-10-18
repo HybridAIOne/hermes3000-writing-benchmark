@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "claude-haiku-5.5",
+  "run": 2,
+  "text": "At four the hospital goes quiet in a way that has nothing to do with sleep. Maren walked the fourth-floor corridor with her badge turned face-in against her hip, the way you'd carry a letter you didn't want to read in front of anyone.\n\nThe chapel was off the lobby, past the gift shop with its grate pulled down. She had never once gone in. She pushed the door, and the light was the color of weak tea, and a man sat in the third pew with his coat still buttoned.\n\nHe looked up without surprise. \"Maren,\" he said.\n\nShe waited for the rest of it, the recognition that would tell her where she knew him from. It didn't come. He was fifty or so, gray at the temples, his hands clasped between his knees like someone who had been told to wait and was good at it.\n\n\"I'm sorry,\" she said. \"Do I--\"\n\n\"No. You wouldn't.\" He said it kindly. \"I just needed somewhere to sit that didn't have a number on the door.\"\n\nShe should have called security. Her pager was silent in her pocket. Her feet hurt. Somewhere below, a cart rattled over a seam in the linoleum, and then nothing.\n\n\"How do you know my name?\"\n\nHe didn't answer right away. He looked toward the front of the room, at the plain wooden cross and the candle someone had left burning in a red glass cup.\n\n\"Your mother said it sometimes,\" he said. \"Near the end. She was proud of you. She said you never sat down on a shift.\"\n\nMaren felt the words land somewhere under her ribs and stay there. She thought of her mother's hand, the thin wrist, the monitor's green line. She had been holding that hand for her own reasons, and she had never once asked who else had come to sit with her.\n\nShe didn't ask him anything more. The candle in its red glass leaned toward the open door, then straightened, then leaned again, and she stood on the threshold and watched it until she could breathe.",
+  "usage": {
+    "in": 91,
+    "out": 1373,
+    "thinking": 769
+  },
+  "costUsd": 0.0006956,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 8205,
+  "meta": [],
+  "at": "2026-10-17T17:45:23.892Z"
+}

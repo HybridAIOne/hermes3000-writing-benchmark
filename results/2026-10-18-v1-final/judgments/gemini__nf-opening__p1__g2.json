@@ -1,0 +1,103 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Zunächst brauchst du keinen besonders geschickten Satz, sondern einen Termin mit Martin“ (greift bereits in die konkrete Anleitung vor, statt als reiner Kapiteleinstieg zu fungieren)",
+          "„Du stehst mit einer Kaffeetasse vor dem Besprechungsraum [...] Jetzt sitzt er an seinem Platz“ (leicht unscharfer Ortswechsel innerhalb der Szene)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Zum dritten Mal in diesem Monat.“ (sachlich unplausibel bei einem Monatsbericht)",
+          "„Als du an ihrem Schreibtisch stehst, wirkt sie angespannt. „Hast du kurz Zeit?“, fragst du.“ (ein schwieriges Vier-Augen-Gespräch direkt am offenen Arbeitsplatz zu beginnen, ist fachlich fragwürdiges Vorbildverhalten)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„„Alles gut bei dir?\" — obwohl“ (falsche Anführungszeichen oben am Wortende, englische Geviertstriche statt deutscher Gedankenstriche)",
+          "„Es ist Dienstagmorgen, halb neun.“ (Text besteht aus drei Absätzen statt aus dem geforderten einen Einstiegsabsatz)",
+          "„der Kollege, mit dem du seit drei Wochen reden wolltest. [...] Dass seine Ergebnisse im letzten Quartal nicht gestimmt haben.“ (Szene bleibt generisch und blass im Vergleich zu konkreten Alltagssituationen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„„Morgen\", sagst du dir. „Wenn es sich besser anbietet.\"“ (typografisch falsche Schlusszeichen: Zollzeichen statt deutscher Anführungszeichen oben)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2764,
+    "out": 691,
+    "thinking": 0
+  },
+  "costUsd": 0.012438
+}

@@ -1,0 +1,18 @@
+{
+  "task": "ed-feedback",
+  "model": "kimi-k3",
+  "run": 2,
+  "text": "Lektoratsanmerkungen zu „Die Fährfrau\"\n\n1. „Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.\" – Logikfehler: Die Fahrgäste können nicht über die Rampe an Bord gehen, bevor sie heruntergelassen ist; die Reihenfolge der Handlungen muss getauscht werden.\n\n2. „Ilse stellt den Motor an und wartete\" – Tempusbruch: mitten im Präteritum steht hier plötzlich Präsens („stellt\" statt „stellte\").\n\n3. „Ich hatte diesen Moment immer gemocht, dachte sie\" – Erzählperspektive gebrochen: Bei personaler Erzählweise in der 3. Person muss es „Sie hatte\" heißen (erlebte Rede), oder der Satz muss als wörtliche Rede mit Anführungszeichen markiert werden.\n\n4. „wenn die Fähre sich vom Ufer löst\" – Tempusinkonsistenz innerhalb des Gedankens: Präsens statt Präteritum („löste\").\n\n5. „Der Nebel lag dicht über dem Wasser. Der Nebel war so dicht… Der Nebel schluckte jedes Geräusch.\" – Dreifache Wortwiederholung („Der Nebel\") in drei aufeinanderfolgenden Sätzen; hier sollte mit Pronomen oder Umschreibung variiert werden.\n\n6. „Der Nebel war so dicht, dass sie das andere Ufer nicht sah.\" vs. „Am Anleger drüben wartete schon der Bäcker\" – Widerspruch: Wenn das andere Ufer im Nebel unsichtbar ist, kann die Erzählerin den wartenden Bäcker dort nicht wahrnehmen.\n\n7. „Der Bäcker mit seinem Pferdewagen … hupte zweimal.\" – Sachlicher Fehler: Ein Pferdewagen hat keine Hupe; es sei denn, der Bäcker bedient ein separates Horn – das müsste dann präzisiert werden.",
+  "usage": {
+    "in": 451,
+    "out": 579,
+    "thinking": 69
+  },
+  "costUsd": 0.00704856,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Sail Research",
+  "latencyMs": 7405,
+  "meta": [],
+  "at": "2026-10-18T05:24:05.190Z"
+}

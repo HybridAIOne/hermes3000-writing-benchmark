@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "Der Schlüssel lag nicht mehr unter dem Blumentopf. Der Nachbar hatte ihn in einen Umschlag gesteckt, auf dem in Kugelschreiber *Haus Brandt* stand, als handle es sich um einen Vorgang. „Das Wasser ist abgestellt“, sagte er durch den Türspalt, „den Strom hab ich gelassen.“ Mehr nicht. Nora war ihm dankbar dafür.\n\nDie Haustür klemmte, wie sie immer geklemmt hatte, und gab erst nach, als sie mit der Hüfte nachhalf. Eine Bewegung, die ihr Körper nach zwanzig Jahren noch kannte, ohne sie gefragt zu haben.\n\nIm Flur war es kälter als draußen. Der Novembertag hatte sich nicht hineingetraut. Es roch nach Stein, nach altem Putzmittel, nach etwas Muffigem, das sie nicht benennen wollte. Die Garderobe war leer bis auf einen Kleiderbügel, der leicht schwang, vielleicht von ihrem Luftzug, vielleicht schon vorher.\n\nSie ging, ohne den Mantel auszuziehen, in die Küche. Die Uhr über dem Herd stand auf zehn nach vier. Der Kühlschrank war ausgeräumt, die Tür einen Spalt offen, damit er nicht schimmelte. Jemand hatte gedacht, hatte aufgeräumt, hatte es gut gemeint.\n\nNur auf dem Fensterbrett hatte niemand etwas angerührt. Dort lagen vier Quitten auf einer Zeitung, die Schalen zu Leder geschrumpft, dunkel gefleckt. Und doch hing ihr Duft im ganzen Raum, süß und herb zugleich, beinahe aufdringlich, ein Geruch nach Herbst, der in diesem Haus nicht hätte überdauern dürfen. Nora trat näher. Neben der fünften Quitte, die bereits halbiert war, lag ein Messer mit der Klinge zur Wand. Das Fruchtfleisch war braun geworden, aber nicht verfault.\n\nSie berührte die Schnittfläche mit dem Finger. Sie war trocken und leicht körnig, wie Sand.\n\nHinter ihr tropfte nichts. Das Wasser war ja abgestellt. Trotzdem drehte sie sich um.",
+  "usage": {
+    "in": 149,
+    "out": 1566,
+    "thinking": 708
+  },
+  "costUsd": 0.015958,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 15179,
+  "meta": [],
+  "at": "2026-10-17T17:49:07.512Z"
+}

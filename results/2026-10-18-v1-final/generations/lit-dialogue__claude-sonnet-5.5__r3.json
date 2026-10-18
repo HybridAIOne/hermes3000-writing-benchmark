@@ -1,0 +1,20 @@
+{
+  "task": "lit-dialogue",
+  "model": "claude-sonnet-5.5",
+  "run": 3,
+  "text": "**Bahnhofscafé, Regen. Thomas sitzt schon, als Ralf hereinkommt und kurz in der Tür stehen bleibt.**\n\nRALF: Du bist früh.\n\nTHOMAS: Ich bin immer früh.\n\nRALF: Stimmt. *(setzt sich, behält die Jacke an)* Ist der Platz okay? Wir könnten auch…\n\nTHOMAS: Der Platz ist okay.\n\n*Die Kellnerin kommt.*\n\nTHOMAS: Schwarz.\n\nRALF: Schwarz.\n\n*Thomas lächelt kurz, dann nicht mehr.*\n\nRALF: Wie geht's Anna?\n\nTHOMAS: Gut. Sie fragt manchmal nach dir.\n\nRALF: Und was sagst du dann?\n\nTHOMAS: Dass du viel zu tun hast.\n\nRALF: Hab ich ja auch.\n\nTHOMAS: Ich weiß. Hab ich gehört.\n\n*Ralf dreht die Tasse am Henkel.*\n\nRALF: Ich hab das Buch dabei. Das, das du mir…\n\nTHOMAS: Behalt es.\n\nRALF: Ich wollte es zurückgeben.\n\nTHOMAS: Ich hab gesagt, behalt es.\n\n*Stille. Draußen fährt ein Zug ein.*\n\nRALF: Von hier aus sieht man das Haus nicht mehr, oder?\n\nTHOMAS: Man hat es nie von hier gesehen.\n\nRALF: Doch. Früher, im Winter, wenn die Bäume kahl waren.\n\nTHOMAS: Früher.\n\n*Ralf nickt langsam.*\n\nRALF: *(leise)* Ich hätte anrufen sollen.\n\nTHOMAS: Ja. *(Pause)* Hättest du.\n\n*Thomas sieht auf die Uhr und gleich wieder weg, ohne die Zeit gelesen zu haben.*\n\nTHOMAS: Mein Zug geht erst in einer Stunde.\n\nRALF: Meiner auch.\n\n*Keiner steht auf. Die Kellnerin bringt den Kaffee.*",
+  "usage": {
+    "in": 126,
+    "out": 1665,
+    "thinking": 946
+  },
+  "costUsd": 0.016902,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 12092,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:48:27.811Z"
+}

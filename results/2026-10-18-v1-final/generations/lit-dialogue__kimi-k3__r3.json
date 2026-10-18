@@ -1,0 +1,20 @@
+{
+  "task": "lit-dialogue",
+  "model": "kimi-k3",
+  "run": 3,
+  "text": "**Zwei alte Freunde, ein Café, Nachmittag**\n\n*Jonas steht am Tisch, die Hand noch an der Stuhllehne.*\n\n**Jonas:** Du bist früher dran.\n\n**Marek:** Ich war sowieso in der Gegend.\n\n**Jonas:** In der Gegend. *Setzt sich.* Die Gegend ist groß geworden, seit du sie zuletzt gesehen hast.\n\n**Marek:** Vieles wächst. Manches schrumpft.\n\n*Die Kellnerin kommt. Beide schweigen, bis sie wieder weg ist.*\n\n**Jonas:** Derselbe Kaffee wie immer?\n\n**Marek:** Du weißt es ja noch.\n\n**Jonas:** Manche Dinge vergisst man nicht. *Rührt in seiner Tasse, obwohl nichts drin ist.* Die Treppe vor deiner Wohnung haben sie renoviert.\n\n**Marek:** Da warst du vorbei.\n\n**Jonas:** Ich bin vorbeigefahren. Das ist ein Unterschied.\n\n**Marek:** Klar. Vom Fahren weißt du ja was. Weiterfahren vor allem.\n\n*Jonas legt den Löffel hin. Sehr langsam.*\n\n**Jonas:** Die Treppe sieht gut aus. Ohne die kaputte Stufe. An der ich damals… egal.\n\n**Marek:** Genau. Egal.\n\n**Jonas:** Deine Mutter – geht's ihr gut?\n\n**Marek:** Sie fragt manchmal nach dir. Ich sage dann, ich weiß nichts.\n\n**Jonas:** Stimmt ja auch.\n\n*Der Kaffee kommt. Marek greift sofort zum Zucker, dann hält er inne.*\n\n**Marek:** Du magst ihn doch gesüßt, oder?\n\n**Jonas:** Früher.\n\n**Marek:** Früher. *Schiebt die Zuckerdose trotzdem rüber.* Man soll ja nett sein zu alten Freunden.\n\n**Jonas:** Sind wir das noch? Nett?\n\n**Marek:** Wir sitzen hier, oder?\n\n**Jonas:** Wir sitzen hier.\n\n*Lange Pause. Draußen wird es dunkel.*\n\n**Marek:** Nächstes Mal…\n\n**Jonas:** Ja.\n\n**Marek:** Ich hab noch nichts gesagt.\n\n**Jonas:** Musst du nicht. War ja schon immer so.\n\n*Marek nickt. Fast ein Lächeln. Fast.*",
+  "usage": {
+    "in": 157,
+    "out": 624,
+    "thinking": 37
+  },
+  "costUsd": 0.00749766,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Wafer",
+  "latencyMs": 13698,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-18T05:26:21.942Z"
+}

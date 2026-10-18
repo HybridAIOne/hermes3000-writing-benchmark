@@ -1,0 +1,136 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Die Fähre überquert an dieser Stelle eine 212 Meter breite Elbe\" – der unbestimmte Artikel vor dem Flussnamen ist unidiomatisch.",
+          "\"Geldanteil und Stimmrecht sind also nicht gleichzusetzen. Die Genossenschaft verbindet so die finanzielle Beteiligung ihrer Mitglieder mit einem gleichen Stimmrecht\" – der Gedanke wird doppelt formuliert, das ist ein Füllsatz.",
+          "Der dritte Absatz reiht technische Daten aneinander (\"85-kW-Dieselmotor\", \"Bis 1978 genügte dafür allein die Strömung\"), ohne sie mit der Erklärung der Rechtsform zu verbinden.",
+          "Der Text beginnt ohne Einordnung, was eine Genossenschaft grundsätzlich ist; für Leser ohne Vorwissen fehlt die Hinführung.",
+          "\"Für den Betrieb und die Erneuerung der Fähre braucht es Einnahmen\" – ein Allgemeinplatz als Überleitung."
+        ],
+        "unsupported": [
+          "\"statt die Verbindung über die Elbe aufzugeben\" (unterstellte Alternative, nicht in der Quelle)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Als der Landkreis im Jahr 1953 den Betrieb der örtlichen Seilfähre einstellte\" – laut Quelle fand 1953 die Gründung statt; wann der Betrieb eingestellt wurde, steht dort nicht.",
+          "\"weil es den Gründern wie auch den heutigen Mitgliedern nicht um finanzielle Gewinne geht\" – die Motive der Mitglieder werden erfunden.",
+          "\"warum diese Rechtsform ideal ist\" – werbliche Übertreibung.",
+          "\"nicht an die 312 Mitglieder ausgeschüttet\" – die Mitgliederzahl wird unnötig wiederholt.",
+          "\"Wurde das Schiff bis 1978 allein durch die Strömung bewegt, sorgt heute\" – der Satzbau ist umständlich, und die Antriebsgeschichte ist unpassend in den Absatz über die Gelder eingeschoben."
+        ],
+        "unsupported": [
+          "Einstellung des Fährbetriebs durch den Landkreis im Jahr 1953",
+          "\"es den Gründern wie auch den heutigen Mitgliedern nicht um finanzielle Gewinne geht, sondern um den Erhalt der Fährverbindung\"",
+          "\"komplett in eine Rücklage\"",
+          "\"den Fährbetrieb so für die Zukunft zu sichern\""
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Mit rund 370 Wörtern überschreitet der Text den Umfang von etwa 300 Wörtern deutlich.",
+          "\"Wer mehr Geld in Anteilen einbringt, erhält also nicht mehr Stimmen. Darin liegt ein wesentliches Merkmal\" – der Gedanke wird dreifach wiederholt.",
+          "\"Finanzielle Beteiligung und Mitbestimmung sind nicht nach demselben Maßstab verteilt\" – eine abstrakte Formulierung für Laien.",
+          "Die Angaben zur Überfahrt (\"212 Meter breite Elbe sieben Minuten\") stehen nachgeschoben am Ende des Wirtschaftsabsatzes."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Ein Blick auf die Zahlen zeigt, warum dieses Modell passt\" – Umsatz und Fahrgastzahlen begründen die Rechtsform nicht; die Argumentation ist schief.",
+          "\"Gewicht hat der Kopf, nicht das Kapital\" – der Gedanke wird nach der Erklärung zum dritten Mal formuliert.",
+          "\"aus beiden Elbufern\" – idiomatisch wäre \"von beiden Elbufern\".",
+          "\"Eine Fähre, die über Jahrzehnte fahren soll, braucht genau diese Mischung\" – ein floskelhafter Schluss.",
+          "\"anders verfahren als in einem gewöhnlichen Unternehmen\" – der Vergleich bleibt unbestimmt."
+        ],
+        "unsupported": [
+          "\"deren Betrieb auf Dauer gesichert sein muss\" (Wertung, nur schwach gestützt)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 4,
+        "fehler": [
+          "\"2024 beförderte sie rund 64.000 Personen\" – die Quelle nennt einen Jahresdurchschnitt, keine Zahl für 2024.",
+          "\"Als der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte\" – das Datum der Einstellung ist nicht belegt.",
+          "\"Eine Fähre, die ihren Nutzern gehört\" – dass Mitglieder und Nutzer identisch sind, steht nicht in der Quelle.",
+          "\"überquert die 212 Meter breite Elbe in sieben Minuten\" – die Einschränkung \"bei normalem Wasserstand\" fehlt.",
+          "Die Überschrift (\"**Eine Fähre ...**\") wurde nicht verlangt; \"Wie wichtig das ist, zeigen die Zahlen\" ist eine unlogische Überleitung."
+        ],
+        "unsupported": [
+          "Einstellung des Betriebs durch den Landkreis 1953",
+          "\"fehlte plötzlich die Verbindung zwischen beiden Elbufern\"",
+          "\"Wer auf die Fähre angewiesen war, wurde damit zum Mitbesitzer\"",
+          "\"Eine Fähre, die ihren Nutzern gehört\"",
+          "\"2024 beförderte sie rund 64.000 Personen\"",
+          "\"Die Menschen, die sie brauchen, betreiben sie gemeinsam\""
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "A",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 6753,
+    "out": 3526,
+    "thinking": 1309
+  },
+  "costUsd": 0.097532
+}

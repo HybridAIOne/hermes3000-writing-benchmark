@@ -1,0 +1,153 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "F": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "\"taten sich 1953 41 Landwirte und Händler\" – zwei Zahlen stoßen unmittelbar aneinander, das liest sich holprig",
+          "\"Der technische Wandel zeigt zudem den langen Atem dieses Modells.\" – unklare, schiefe Überleitung",
+          "\"Genau dafür ist die Rücklage da.\" – Füllsatz, wiederholt Gesagtes",
+          "\"Die Fährgenossenschaft Hitzacker zeigt es gut.\" – blasser Einstieg",
+          "\"Das Geld bleibt im Betrieb.\" – redundant zum Satz über die Rücklage"
+        ],
+        "unsupported": [
+          "\"Solche Vorhaben lassen sich nur finanzieren, wenn Überschüsse über Jahre hinweg zurückgelegt werden\" – Behauptung über die Finanzierung, die nicht in der Quelle steht"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "\"1953 stellte der Landkreis den Betrieb der Fähre ein\" – die Quelle datiert nur die Gründung auf 1953, nicht die Einstellung",
+          "\"Bis 1978 bewegte allein die Strömung die Fähre über den Fluss\" – Technikgeschichte steht im Geldabsatz und wirkt dort deplatziert",
+          "\"Sie brauchten die Fähre und übernahmen sie deshalb selbst.\" – Deutung, die über die Quelle hinausgeht"
+        ],
+        "unsupported": [
+          "Einstellung des Fährbetriebs durch den Landkreis im Jahr 1953",
+          "\"übernahmen sie deshalb selbst\" – dass es dieselbe Fähre war, steht nicht ausdrücklich in der Quelle"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„ein Mitglied, eine Stimme\" – falsches schließendes Anführungszeichen",
+          "\"# Die Fährgenossenschaft Hitzacker – ...\" – Markdown-Überschrift im Buchtext",
+          "\"Wie das Seil verbindet die Genossenschaft zwei Ufer\" – bemühte Metapher als Schluss",
+          "\"Dass dieses Modell trägt, zeigen die Zahlen\" – der Umsatz allein belegt das nicht, zumal 29 Prozent Zuschuss sind",
+          "Die Frage, warum die Rechtsform passt, wird nur implizit beantwortet"
+        ],
+        "unsupported": [
+          "\"im Interesse der Mitglieder und der Region\" – die Region wird in der Quelle nicht genannt",
+          "\"seit mehr als siebzig Jahren\" – aus den Jahreszahlen abgeleitet, nicht in der Quelle"
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "\"So verbindet die Rechtsform gemeinsames Engagement mit gemeinsamer Verantwortung\" – Floskel",
+          "\"Die Fähre überquert die 212 Meter breite Elbe\" – ungenau, die Breite gilt nur für diese Stelle",
+          "\"Damit richtet sich das Stimmrecht nicht nach ... Die Mitglieder entscheiden also nach dem Grundsatz\" – Doppelung",
+          "Kein erklärender Einstieg für Leserinnen und Leser ohne Vorwissen",
+          "\"bewegte allein die Strömung das Schiff\" – unpassender Begriffswechsel"
+        ],
+        "unsupported": [
+          "\"auf den Menschen und Orte beiderseits der Elbe angewiesen sind\" – Behauptung ohne Beleg in der Quelle"
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Als der Landkreis 1953 den Betrieb der Seilfähre ... einstellte\" – Jahr der Einstellung nicht belegt",
+          "\"warteten die Menschen an beiden Elbufern nicht auf eine Lösung von außen\" – erzählerische Ausschmückung",
+          "\"braucht für die 212 Meter breite Elbe\" – ungenau, die Breite gilt nur für diese Stelle",
+          "Technische Angaben stehen im Absatz über den Gewinn und wirken dort hineingeschoben",
+          "\"Die Zahlen von 2024 zeigen, wie das Modell trägt\" – vage Behauptung"
+        ],
+        "unsupported": [
+          "Einstellung des Fährbetriebs im Jahr 1953",
+          "\"warteten ... nicht auf eine Lösung von außen\"",
+          "\"Mit diesen Anteilen wird das Unternehmen finanziert\" – Finanzierung über Anteile wird in der Quelle nicht genannt"
+        ],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "\"eine gemeinsame Aufgabe gemeinsam zu tragen\" – Doppelung",
+          "\"aus Fahrkartenverkäufen und einem Zuschuss der Gemeinde ... 71 Prozent stammten aus Fahrkartenverkäufen, 29 Prozent aus dem Gemeindezuschuss\" – unmittelbare Wiederholung",
+          "\"der gemeinsam getragenen Fährverbindung\" – erneute Wiederholung, Schlussabsatz resümiert nur",
+          "Mit rund 370 Wörtern deutlich über dem Umfang",
+          "\"bewegte allein die Strömung das Fahrzeug\" – steifer Ausdruck"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "E",
+      "C",
+      "F",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 8052,
+    "out": 3743,
+    "thinking": 1714
+  },
+  "costUsd": 0.107068
+}

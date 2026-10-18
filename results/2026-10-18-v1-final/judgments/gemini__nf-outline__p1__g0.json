@@ -1,0 +1,105 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "1. Dein erster Tag in der neuen Rolle ... 8. Schaffe verlässliche Abläufe im Team (Dramaturgie bricht bei Kapitel 8 ein: Grundlegende Teamabläufe kommen erst nach schwierigen Gesprächen)",
+          "Du findest ... Du besprichst ... Du führst ... Du übersetzt (Sehr monotone Satzstruktur, jeder Beschreibungssatz beginnt identisch mit 'Du' + Verb)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Du klärst ... Du gestaltest ... Du übersetzt ... Du überträgst (Gleichförmiger Satzbau in allen acht Kapiteln, beginnt immer mit 'Du' + Verb)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "1. Der erste Tag: Wie du in der neuen Rolle ankommst ... 3. Vom Kollegen zum Vorgesetzten: Wie du mit deinen früheren Kollegen umgehst (Inhaltliche Überschneidung beim Thema Rollenwechsel in den ersten Tagen)",
+          "7. Schwierige Gespräche ... 8. Streit im Team und zwischen den Abteilungen (Überschneidung beim Thema Konfliktgespräche)",
+          "Wie du in der neuen Rolle ankommst, was du in den ersten Wochen tust und was du besser lässt. (Durchgehend Ellipsen statt vollständiger Sätze in allen zehn Beschreibungen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Zur Abgrenzung: Kapitel 6 behandelt die laufende, alltägliche Rückmeldung. (Ungefragter Metakommentar außerhalb der geforderten Gliederung)",
+          "Du klärst ... Du findest heraus ... Du lernst ... Du übst (Monotone Satzanfänge in allen zehn Kapiteln)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 9,
+        "fehler": [
+          "Wie du den Rollenwechsel gegenüber Leuten gestaltest, mit denen du gestern noch Mittagspause gemacht hast, und was du in den ersten Wochen besser lässt. (Kein vollständiger Satz in Kapitel 1)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "B",
+      "D",
+      "A",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3223,
+    "out": 750,
+    "thinking": 0
+  },
+  "costUsd": 0.013946
+}

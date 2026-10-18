@@ -1,0 +1,107 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„You switched shifts with Miller, Nora“ / „had retired in November“: Der behauptete Schichttausch passt nicht zu Millers bereits erfolgtem Ruhestand. Als übernatürliche Irritation denkbar, bleibt die Unvereinbarkeit hier jedoch eher ein erklärungsbedürftiger Handlungsknoten.",
+          "„since her shift began at seven“: Der Schichtbeginn wird genannt, die verlangte Begegnung gegen vier Uhr morgens hingegen nicht zeitlich verankert.",
+          "„the font was twelve-point, illegible from twenty feet away“: Die technische Erläuterung sichert das Rätsel demonstrativ ab; sie wirkt konstruiert und bremst die unmittelbare Wahrnehmung der Figur.",
+          "„a blue visitor’s pass that lacked a printed destination“ / „the faint, metallic smell of wet pavement“ / „a single melted gray slush-print“: Die Häufung auffälliger Indizien überinszeniert das Unheimliche und schwächt die verlangte Zurückhaltung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„people at this hour“: Die nächtliche Situation ist erkennbar, vier Uhr morgens wird aber nicht festgelegt.",
+          "„The tealight shivered in its plastic cup, though no air moved“: Die Schlusswendung greift auf das vertraute Gruselsignal einer unerklärlich bewegten Flamme zurück. Bei einem ausdrücklich batteriebetriebenen Licht ist der Hinweis auf fehlenden Luftzug zudem wenig aussagekräftig.",
+          "„which was the first wrong thing“: Der Einstieg erklärt die Beleuchtung zum Warnsignal, ohne später zu konkretisieren, weshalb sie ungewöhnlich ist."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„watched it spread beneath the pew, thin as a coin“: Der Vergleich bleibt räumlich unscharf: Gemeint sein könnten Dicke, Ausdehnung oder Form der Wasserstelle. Gerade im ansonsten präzisen Beobachtungsstil fällt diese Ungenauigkeit auf."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„which was how she knew someone was inside“ / „Hospital policy said the door stayed open“: Wenn die Tür ohnehin offen stehen soll, ist ihr Offenstehen kein verlässliches Anwesenheitszeichen. Dass gerade das Gesangbuch den entscheidenden Unterschied macht, müsste klarer werden.",
+          "„Grief preferred otherwise“: Die personifizierende Sentenz liefert eine fertige Deutung, bevor die Szene sie sinnlich oder durch Handlung entwickelt.",
+          "„people in the chapel at four were rarely dry-eyed“: Die pauschale Gleichsetzung von nächtlichem Kapellenbesuch und sichtbaren Tränen ist klischeehaft und macht Maras Überraschung wenig überzeugend.",
+          "„I'm not going to tell you anything you don't know“: Der Satz klingt stärker nach bedeutungsvoller literarischer Setzung als nach einer aus diesem Gespräch erwachsenden Äußerung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "C",
+      "B",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2147,
+    "out": 1407,
+    "thinking": 512
+  },
+  "costUsd": 0.018364
+}

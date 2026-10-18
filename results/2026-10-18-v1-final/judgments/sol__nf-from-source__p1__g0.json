@@ -1,0 +1,129 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Die Fahrgeldeinnahmen allein bilden somit nicht die gesamte Finanzierung.“ – Wiederholt lediglich die unmittelbar zuvor genannten Umsatzanteile, ohne zusätzlichen Erklärungswert.",
+          "„Die Mitglieder tragen Anteile, entscheiden gleichberechtigt mit und lassen Überschüsse für die Erneuerung im Unternehmen.“ – Die Zusammenfassung wiederholt bereits ausführlich erklärte Zusammenhänge; der Schluss könnte knapper sein."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 5,
+        "fehler": [
+          "„2024 beförderte sie rund 64.000 Personen“ – Die Quelle nennt eine jährliche Beförderungszahl, ordnet sie aber nicht ausdrücklich dem Jahr 2024 zu.",
+          "„Als der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte, fehlte plötzlich die Verbindung zwischen beiden Elbufern.“ – Weder das genaue Einstellungsjahr noch der plötzliche Wegfall der Verbindung sind belegt.",
+          "„Wer auf die Fähre angewiesen war, wurde damit zum Mitbesitzer.“ – Setzt die auf die Fähre angewiesenen Menschen mit den Gründungsmitgliedern gleich; das steht nicht in der Quelle.",
+          "„Die Fähre überquert die 212 Meter breite Elbe in sieben Minuten“ – Die Einschränkung „bei normalem Wasserstand“ fehlt.",
+          "„Die Einstiegshürde ist also überschaubar.“ – Wertet die finanzielle Zugänglichkeit ohne Grundlage; 250 Euro sind nicht für alle Leserinnen und Leser eine geringe Hürde."
+        ],
+        "unsupported": [
+          "„Eine Fähre, die ihren Nutzern gehört“ – Dass die Mitglieder zugleich die Nutzer sind, ist nicht angegeben.",
+          "„Als der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte“ – 1953 ist als Gründungsjahr belegt, nicht ausdrücklich als Jahr der Betriebseinstellung.",
+          "„fehlte plötzlich die Verbindung zwischen beiden Elbufern“ – Eine plötzlich entstandene Verbindungslücke wird nicht beschrieben.",
+          "„Wer auf die Fähre angewiesen war, wurde damit zum Mitbesitzer.“ – Die behauptete Übereinstimmung zwischen angewiesenen Personen und Mitgliedern ist unbelegt.",
+          "„Die Einstiegshürde ist also überschaubar.“ – Die Bewertung der Erschwinglichkeit ist nicht durch die Quelle gedeckt.",
+          "„Das Geld bleibt im Betrieb, und die Fähre bleibt erhalten.“ – Der Erhalt wird als gesicherte Folge dargestellt; die Quelle nennt eine zweckgebundene Rücklage, keine Bestandsgarantie.",
+          "„Die Fähre überquert die 212 Meter breite Elbe in sieben Minuten“ – Die Fahrtdauer gilt laut Quelle nur bei normalem Wasserstand.",
+          "„2024 beförderte sie rund 64.000 Personen“ – Die Jahreszahl wird der Beförderungszahl unbelegt zugeordnet.",
+          "„Die Menschen, die sie brauchen, betreiben sie gemeinsam“ – Dass Mitglieder und auf die Fähre angewiesene Menschen identisch sind, ist nicht belegt."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„aus beiden Elbufern“ – Unidiomatische Ortsangabe; richtig wäre „von beiden Elbufern“. Die Übernahme aus der Quelle beseitigt den sprachlichen Fehler nicht.",
+          "„Auch mit den Überschüssen wird anders umgegangen als in einem gewöhnlichen Unternehmen.“ – Pauschaler, sachlich irreführender Gegensatz: Auch andere Unternehmen können Überschüsse einbehalten; eine Genossenschaft ist ebenfalls ein Unternehmen.",
+          "„Die Seilfähre über die Elbe bei Hitzacker gibt es seit 1953 als Fährgenossenschaft.“ – Vermischt Verkehrsmittel und Unternehmen. Präziser wäre, dass die Genossenschaft seit 1953 besteht beziehungsweise die Fähre betreibt.",
+          "„sichern mit ihren Überschüssen die Zukunft des Schiffs“ – Rhetorisch stärker als die zuvor sachlich erläuterte Vorsorge; eine Rücklage dient der Zukunftssicherung, garantiert sie aber nicht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„auf den Menschen und Orte beiderseits der Elbe angewiesen sind“ – Eine solche Abhängigkeit behauptet die Quelle nicht.",
+          "„statt es einer einzelnen Person oder einem einzelnen Unternehmen zu überlassen“ – Der Gegensatz ist begrifflich unsauber: Auch die Genossenschaft ist ein einzelnes Unternehmen. Gemeint ist offenbar die gemeinsame statt individuelle Trägerschaft."
+        ],
+        "unsupported": [
+          "„auf den Menschen und Orte beiderseits der Elbe angewiesen sind“ – Die Quelle belegt die Nutzung der Fähre, nicht die behauptete Abhängigkeit von Menschen und Orten."
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„ist auch die zukünftige Erneuerung der Fähre bereits abgesichert“ – Macht aus einem Finanzierungsziel eine schon bestehende Sicherheit. Das widerspricht der vorsichtigen Quellenangabe „soll bis 2031 ausreichen“.",
+          "„Auf diese Weise lässt sich der laufende Betrieb dauerhaft sichern und technisch anpassen.“ – Die Erneuerungsrücklage belegt weder eine dauerhafte Absicherung des laufenden Betriebs noch eine garantierte technische Anpassung.",
+          "„aus beiden Elbufern“ – Unidiomatisch; richtig wäre „von beiden Elbufern“.",
+          "„Warum die Genossenschaft für die Fähre besonders passend ist, zeigt der Umgang mit den Einnahmen.“ – Einnahmen und Überschüsse werden argumentativ unscharf zusammengeführt. Die Umsatzaufteilung erklärt zunächst nicht die Eignung der Rechtsform.",
+          "„Die grundlegende Funktionsweise der Genossenschaft zeigt sich heute im Zusammenwirken ihrer mittlerweile 312 Mitglieder.“ – Abstrakter Ankündigungssatz ohne eigenen Erklärungswert; ähnliche Ankündigungen bremsen den Text mehrfach."
+        ],
+        "unsupported": [
+          "„Auf diese Weise lässt sich der laufende Betrieb dauerhaft sichern und technisch anpassen.“ – Eine dauerhafte Betriebssicherung durch die beschriebene Rücklagenbildung ist nicht belegt.",
+          "„ist auch die zukünftige Erneuerung der Fähre bereits abgesichert“ – Die Quelle nennt lediglich das Ziel, bis 2031 genügend Mittel für einen Elektroantrieb anzusparen."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "C",
+      "E",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3154,
+    "out": 2310,
+    "thinking": 723
+  },
+  "costUsd": 0.029408
+}

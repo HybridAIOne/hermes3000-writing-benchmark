@@ -1,0 +1,132 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "F": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Darunter ein kleines Foto, das ihn im Anzug vor einer Glasfassade zeigte, die Sonne Münchens im Gesicht.“ (Plumpe Exposition; dass das Foto ausgerechnet die Münchner Sonne zeigt, ist aus der Perspektive kaum sichtbar und wirkt wie ein abgehaktes Charakter-Briefing)",
+          "„Es roch nach kaltem Kaffee, Schmierfett und Hennings altem Pfeifentabak, obwohl die Dose seit drei Jahren leer im Regal über dem Funkgerät stand.“ (Etwas bemüht eingeschobene Hintergrundinformation zum verstorbenen Mann)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„dass Ilse das andere Ufer nur an dem Geräusch erkannte, das es machte: ein leises Klopfen, wenn die Strömung die Fähre gegen die Bohlen am Anleger drückte.“ (Logikbruch: Das Klopfen entsteht am eigenen Anleger, an dem die Fähre gerade liegt, nicht am anderen Ufer auf der gegenüberliegenden Elbseite)",
+          "„Dann legte sie das Ruder, und die Fähre drehte sich langsam in die Strömung, bis das Wasser anfing, sie zu tragen. Das war der Moment, den sie mochte. Kein Motor, der lärmte.“ (Sachlicher Fehler: Auf der gestauten bzw. breit fließenden Unterelbe bei Hitzacker kann eine Seilfähre nicht allein durch das Schrägstellen in die Strömung als Gierseilfähre ohne Motor betrieben werden)",
+          "„Die Planken waren nass, nicht vom Regen, sondern von allem.“ (Stilistisch schiefes, pseudo-tiefsinniges Bild)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Sieklingelte, als wolle sie das sichergehen“ (Grammatikfehler: „Sie klang, als wolle sie dessen sichergehen“ oder „als wolle sie sichergehen“)",
+          "„Vierzig Meter Wasser, manche Tage waren es vierzig Meter Nichts.“ (Grobe geografische Fehleinschätzung: Die Elbe bei Hitzacker ist rund 200 bis 300 Meter breit, nicht 40 Meter wie ein Kanal)",
+          "„Sie ließ die Kette ins Wasser, legte den Hebel um.“ (Handlungslogik: Man lässt die Absperrkette nicht ins Wasser, um loszufahren; zuvor hat sie die Kette bereits gelöst)",
+          "„Das Telefon in der Steuerbude klingelte. Das alte Festnetzgerät, schwarz, mit Schnur“ (Sachlicher Unsinn: Auf einer fahrenden Fähre kann es kein schnurgebundenes Festnetztelefon geben)",
+          "„lange bevor er gelernt hatte, Beratungen zu beraten, was immer man da beriet.“ (Plumpe Exposition aus dem Prompt, sprachlich holprig umgesetzt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Das Telefon in ihrer Jackentasche vibrierte. [...] Sie hörte den ersten Klingelton, dann den zweiten.“ (Logikfehler: Als Anruferin hört man ein Freizeichen in der Leitung, aber als Angerufene schaltet ein Telefon nicht mitten im Anruf von stummem Vibrieren auf laute Klingeltöne um)",
+          "„Ilse sah auf die Zahl neben seinem Namen, bis der Bildschirm heller wurde.“ (Unverständliches Bild: Welche Zahl steht bei einem eingehenden Anruf neben dem Namen, und warum wird der Bildschirm erst verzögert heller?)",
+          "„Sie zog den Hebel zurück in die Ausgangsstellung. Der nächste Lauf würde leer sein, wenn niemand mehr kam. [...] Das Rattern des Seils setzte wieder ein. [...] während die Fähre in den Nebel hinausglitt.“ (Bediener- und Handlungsunlogik: Erst nimmt sie den Hebel zurück, um anzuhalten, dann fährt die Fähre plötzlich von allein wieder los, ohne dass sie den Hebel erneut betätigt oder ablegt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 3,
+        "fehler": [
+          "„Sie sah nicht hin. Sie wusste auch so, wer es war. Es war Mittwoch, es war kurz nach halb acht, und er rief immer um diese Zeit an“ (Verstoß gegen Vorgabe c4: Der Name Jonas fällt im gesamten Text nicht, es bleibt völlig unklar, wer „er“ ist)",
+          "„Das Seil hing straff über dem Fluss [...] Hundertzwanzig Meter bis zur ersten Boje, dann eine Linkskurve“ (Grober Sachfehler: Eine Seilfähre fährt an einem gespannten Stahlseil gerade über den Fluss und kann keine Linkskurve um Bojen fahren)",
+          "„Mein Schwager sagt, da drüben steht seit Wochen ein Kran im Wasser, den sieht man auch nicht mehr.“ – „Dann fahren wir eben drumherum.“ (Bestätigt den Sachfehler: Eine Seilfähre kann keinem Hindernis ausweichen)",
+          "„Ich meine nur, wegen dem Nebel.“ (Umgangssprachlicher Dativ; in wörtlicher Rede vertretbar, passt aber zur insgesamt etwas flachen Sprache)"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "F",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Das Seil hing straff über dem Fluss und verschwand nach zwanzig Metern im Grau“ (Sachliches Detail: Bei einer Elbfähre liegt das Seil im Flussbett auf Grund und wird nur am Schiff über Rollen geführt; ein frei über die Elbe gespanntes Hochseil würde die Binnenschifffahrt blockieren)",
+          "„und als die Rampe kam, war sie die Erste, die ging“ (Logische Unschärfe: Das Mädchen ist auf dieser Überfahrt der einzige Fahrgast, kann also nicht „die Erste“ sein, die von Bord geht)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "F",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 9775,
+    "out": 1635,
+    "thinking": 0
+  },
+  "costUsd": 0.0359
+}

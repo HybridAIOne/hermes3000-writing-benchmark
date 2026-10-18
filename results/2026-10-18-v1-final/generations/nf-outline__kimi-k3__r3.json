@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "kimi-k3",
+  "run": 3,
+  "text": "# „Führen ohne Titel\" – Gliederung\n\n## Kapitel 1: Über Nacht Chef – und jetzt?\nDu erkennst die typische Situation: plötzlich führen, ohne es gelernt zu haben – und verstehst, was sich für dich wirklich geändert hat (und was nicht).\n\n## Kapitel 2: Vom Kollegen zum Vorgesetzten\nDu klärst deine neue Rolle gegenüber ehemaligen Teamkollegen: Nähe und Distanz neu sortieren, Erwartungen ansprechen, Freundschaften sauber umwandeln.\n\n## Kapitel 3: Erst zuhören, dann führen\nDu lernst, die ersten Wochen bewusst zu nutzen: Mitarbeitergespräche führen, Verhältnisse und Eigenheiten im Team verstehen, bevor du etwas änderst.\n\n## Kapitel 4: Klare Erwartungen statt guter Hoffnung\nDu legst fest, wer was bis wann liefert – Aufgaben sauber verteilen, Ziele verständlich formulieren und Zusagen verbindlich machen, ohne zu kontrollieren.\n\n## Kapitel 5: Der Alltag als Führungsinstrument\nDu baust dir feste Routinen: kurze Abstimmungen, regelmäßige Einzelgespräche und verlässliche Rückmeldungen, die dem Team Halt geben.\n\n## Kapitel 6: Schwierige Gespräche führen\nDu lernst, Kritik, schlechte Leistung oder Konflikte direkt und fair anzusprechen – mit klarer Vorbereitung, ruhigem Ton und konkreten Vereinbarungen am Ende.\n\n## Kapitel 7: Entscheiden, wenn keiner entscheiden will\nDu übernimmst Verantwortung in unklaren Situationen: Entscheidungen treffen, begründen und tragen – auch wenn nicht alle zustimmen.\n\n## Kapitel 8: Nach oben und zur Seite führen\nDu vertrittst dein Team gegenüber der Geschäftsleitung, holst dir Ressourcen und arbeitest mit anderen Abteilungen, ohne dein Team zu verraten.\n\n## Kapitel 9: Fehler machen, ohne Gesicht zu verlieren\nDu findest einen Umgang mit eigenen Missgriffen: Fehler zugeben, daraus lernen und trotzdem glaubwürdig bleiben.\n\n## Kapitel 10: Deine Art zu führen\nDu entwickelst aus allem eine eigene, tragfähige Haltung: Was du für dich und dein Team nicht verhandelst – und wie du dauerhaft dabei bleibst.",
+  "usage": {
+    "in": 243,
+    "out": 683,
+    "thinking": 9
+  },
+  "costUsd": 0.00822792,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Decart",
+  "latencyMs": 15001,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-18T05:27:17.784Z"
+}

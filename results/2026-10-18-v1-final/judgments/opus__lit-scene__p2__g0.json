@@ -1,0 +1,120 @@
+{
+  "task": "lit-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "\"fein wie ein Schmutzfingerrad\" – kein existierendes Wort, unverständlicher Vergleich",
+          "\"nach Papier und ausgestandenem Kamin\" – \"ausgestanden\" ist idiomatisch falsch (gemeint wohl: ausgekühlt/erloschen)",
+          "\"rissig wie eine Trockenheit\" – schiefer Vergleich, Abstraktum als Bildspender",
+          "\"Die Stille hatte Konsistenz, fast einen Geruch – oder der Geruch hatte Stille\" – manieriertes Wortspiel, Rhythmus kippt ins Gekünstelte",
+          "\"Das Haus der Mutter\" – Titel ist kein Buchtext; zudem \"nicht verstaubt genug für zwanzig Jahre\" verwechselt Miriams Abwesenheit mit der Leerstandszeit"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "\"ein Monat im Jahr, das sie nicht mehr wusste\" – grammatisch und idiomatisch verunglückt",
+          "\"Der Schlüssel klemmte, wie Schlüssel in alten Häusern klemmen\" – generische Einleitung, Allgemeinplatz",
+          "\"als hätte jemand sein Gewicht verlagert\" – gängiges Spukhaus-Motiv",
+          "\"„Ich bin’s“, sagte sie. Das Haus antwortete nicht.\" – vorhersehbare Schlussgeste",
+          "\"Er war kalt und glitschig zwischen den Fingern\" – Knopf als Bedeutungsträger wird mit \"ohne zu wissen, warum\" zu deutlich markiert"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"nicht aus Trauer, sondern aus einer Art Schwindel\" – erklärt die Emotion, statt sie zu zeigen",
+          "\"der sich kaum merklich bewegte, als hätte ihn eben jemand gestreift\" – abgenutztes Motiv",
+          "\"nach etwas Süßlichem darunter, das sie nicht einordnen konnte\" – formelhafte Wendung",
+          "\"Orangen\" – Titel gehört nicht zum geforderten Buchtext",
+          "\"gegen die Motten, gegen alles\" – leichte Pointenmasche"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"vier Quitten auf einer Zeitung\" … \"Neben der fünften Quitte\" – Zählung wirkt zunächst widersprüchlich",
+          "\"Der Novembertag hatte sich nicht hineingetraut\" – bemühte Personifikation",
+          "\"einen Kleiderbügel, der leicht schwang, vielleicht von ihrem Luftzug, vielleicht schon vorher\" – gängiges Unheimlichkeitsmotiv",
+          "\"Jemand hatte gedacht, hatte aufgeräumt, hatte es gut gemeint\" – Dreierreihung als Masche",
+          "\"süß und herb zugleich, beinahe aufdringlich\" – Adjektivhäufung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "\"Der Schlüssel ging nur bis zur Hälfte ins Schloss\" … \"Jetzt ließ sich der Schlüssel drehen\" – Ablauf an der Tür etwas unklar",
+          "Mehrere konkurrierende Detailträger (Kleiderbürstenhaken, Wollgeruch, Knopf, Wäschespinne) – Fokus leicht zerstreut",
+          "\"Dann roch sie es: angesengte Wolle, schwach, aber unverkennbar\" – \"unverkennbar\" formelhaft",
+          "\"Der Boden gab unter ihrem Gewicht nach; dieselbe Diele\" – elliptischer Anschluss etwas holprig"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "C",
+      "D",
+      "B",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 5934,
+    "out": 3127,
+    "thinking": 1602
+  },
+  "costUsd": 0.086276
+}

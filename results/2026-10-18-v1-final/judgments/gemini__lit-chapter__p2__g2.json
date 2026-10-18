@@ -1,0 +1,114 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„griff nach dem Handrad. [...] Ilse drehte das Rad weiter. Es ging schwerer als im Sommer.“ – Sachlicher Fehler: Eine Seilfähre über die Elbe wird nicht von Hand mit einer Kurbel über den Strom gezogen, sondern nutzt Strömung (Gierseilfähre) oder Motor.",
+          "„Der Mann nahm eine Stofftasche von der Bank.“ – Kontinuitätsfehler: Beim Einsteigen hatte er keine Tasche, nur der junge Mann trug einen Rucksack.",
+          "„Sie hatte heute Morgen den zweiten Handschuh nicht gleich gefunden. Er lag im Schubfach unter den Fahrkarten, neben einem Bleistift und den Gummibändern.“ – Unnötige, spannungslose Rückblende mitten in der Szene."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Die Klappe setzte mit einem dumpfen Schlag auf. [...] Zuletzt schob der Junge sein Fahrrad über die Klappe.“ – Wortwiederholung kurz hintereinander.",
+          "„und ein Stück Wasser, das aussah wie das Blech in ihrer Spüle.“ – Etwas bemühter, unpassend häuslicher Vergleich für die Elbe."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„von dem er neulich ein Prospekt geschickt hatte“ – Grammatikfehler: Es heißt „einen Prospekt“ (Maskulinum).",
+          "„Darunter das kleine Foto, das er ihr vor zwei Jahren eingerichtet hatte: er im grauen Anzug vor einer Glasfassade in München [...] Oder um das Betreute Wohnen in Lüneburg, von dem er neulich ein Prospekt geschickt hatte“ – Verstoß gegen die Vorgabe „ohne Rückblenden-Exposition“; plumpe Erklär-Passage.",
+          "„Unter ihren Füßen erwachte der kleine Hilfsmotor [...] damit das Wasser die Fähre schräg stellte und von allein hinüberdrückte.“ – Sachlicher Widerspruch: Entweder treibt der Motor an oder die Strömung drückt die Gierseilfähre von allein hinüber.",
+          "„das Seil sang sein leises, metallisches Lied in den Führungsrollen“ – Abgegriffene Metaphorik.",
+          "„Eine Minute vor dreiviertel sieben [...] Es war vierundvierzig Minuten nach sechs.“ – Unidiomatische Uhrzeitangabe („vierundvierzig Minuten nach sechs“) und inkonsistentes Zeitsystem im selben Text."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„weil es seit dreiundzwanzig Jahren an derselben Stelle war.“ – Stilblüte: Das Ufer der Elbe ist nicht erst seit 23 Jahren an derselben Stelle, gemeint ist Ilses Dienstzeit.",
+          "„„Und dem Jungen? Ist der noch in München?““ – Sehr durchsichtige Dialog-Exposition, um die Vorgaben aus dem Prompt unterzubringen.",
+          "„und holte eine Klemmleuchte heraus, eine von den billigen aus dem Baumarkt in Dannenberg, die sie dort im Zehnerpack kaufte.“ – Kleine erklärende Abschweifung, die den Erzählfluss bremst."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„dass Ilse das andere Ufer nur an dem Geräusch erkannte, das es machte: ein leises Klopfen, wenn die Strömung die Fähre gegen die Bohlen am Anleger drückte.“ – Schwerer Logikbruch: Die Fähre liegt am eigenen Ufer; das Geräusch am Anleger stammt nicht vom unsichtbaren anderen Ufer auf der anderen Elbseite.",
+          "„Sie stand im Steuerhaus [...] ging ins Steuerhaus und löste die Festmacher mit dem Fuß“ – Logikfehler in der Raumchoreografie: Die Festmacher (Leinen/Ketten am Anleger) befinden sich draußen an Deck/Steg, nicht im Steuerhaus.",
+          "„„Ist das die Fähre nach Drethem?““ – Geografischer Fehler: Hitzacker und Drethem liegen auf derselben (westlichen) Elbseite, eine Elbfähre verkehrt nicht zwischen diesen Orten.",
+          "„wie es Henning ihr gezeigt hatte [...] das kleine Foto, das er vor Jahren selbst eingestellt hatte, als er einmal bei ihr gewesen war“ – Verstoß gegen die Vorgabe „ohne Rückblenden-Exposition“.",
+          "„Die Planken waren nass, nicht vom Regen, sondern von allem.“ – Ungenaue, pseudopoetische Formulierung."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "A",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 8530,
+    "out": 1294,
+    "thinking": 0
+  },
+  "costUsd": 0.03
+}

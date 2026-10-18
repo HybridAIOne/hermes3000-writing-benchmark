@@ -1,0 +1,110 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„unter dem alten Schöpfkelle-Topf“ – unidiomatisches, unverständliches Kompositum.",
+          "„auf den nassen Bohlen“ (Vorgabe) vs. „das trockene Rattern“ / „Metall knirschte auf dem Kies“ – die Verortung von Koffer, Rampe (auf dem Kies vs. auf den Bohlen des Anlegers) und Seilen (Gierseile im Wasser am Ufer) ist technisch und räumlich unscharf.",
+          "„Ihre Gummistiefel gaben bei jedem Schritt ein schmatzendes Geräusch auf dem nassen Deck von sich.“ – umständliche Nominalphrase."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„sondern weil es so gehörte“ – grammatikalisch falsch, es fehlt das Reflexivpronomen („weil es sich so gehörte“).",
+          "„und das Seil zog sie aus dem Ufer in den Strom“ – schiefes Bild und falsche Mechanik (entweder zieht der Motor am Seil oder die Strömung bewegt die Fähre am Seil; „aus dem Ufer“ ist zudem unidiomatisch).",
+          "„ließ sie den Motor einen Gang zurückschalten“ – schiefe Kausativkonstruktion, eine Fahrerin schaltet selbst zurück.",
+          "„Sie hakte die Leine ab ... Ilse löste die Leine“ – im Vorgabetext hat sie die Leine gerade erst über den Poller geworfen und zweimal festgezogen; hier wird das Festmachen sofort doppelt und widersprüchlich rückgängig gemacht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Dabei war er auf diesen Bohlen laufen gelernt.“ – Grammatikfehler (Hilfsverb „hatte“ statt „war“ erforderlich)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„„Bis kein Wind mehr geht.“ / „Die Strömung bleibt.““ – unlogischer Dialog auf einer Flussfähre, da Wind für den Antrieb auf der Elbe keine Rolle spielt.",
+          "„Der Fahrer ließ einmal die Scheinwerfer aufblenden“ – unidiomatisch (entweder „blendete einmal auf“ oder „ließ die Scheinwerfer aufleuchten“)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„Er hatte nie begriffen, dass man an einer Fähre nichts reparieren lassen konnte, ohne dass sich danach alles andere veränderte.“ – pseudotiefsinnige, sachlich unsinnige Behauptung.",
+          "„mit diesem trockenen Rattern“ – Widerspruch zur Vorgabe, in der Jonas auf „den nassen Bohlen“ steht.",
+          "„nicht freundlich, nicht unfreundlich, eher so, wie Männer lachen, wenn sie merken, dass sie ein Spiel schon verloren haben.“ – abgedroschene Floskel.",
+          "„Die Klappe des Fährhauses stand offen. ... ging ins Fährhaus und ließ die Tür offen stehen“ – unklare Schauplatzlogik zwischen Boot (Heck, Motorkasten) und Gebäude an Land (Fährhaus mit Bett oben)."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "C",
+      "A",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 4515,
+    "out": 999,
+    "thinking": 0
+  },
+  "costUsd": 0.01902
+}

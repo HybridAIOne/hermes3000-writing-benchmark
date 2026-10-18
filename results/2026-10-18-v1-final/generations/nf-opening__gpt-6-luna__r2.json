@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "gpt-6-luna",
+  "run": 2,
+  "text": "Am Montagmorgen steht Jana mit zwei Kaffeebechern in der Tür. Einen stellt sie neben deinen Laptop, den anderen hält sie fest, als müsste sie sich daran wärmen. „Hast du kurz?“, fragt sie. Du weißt, worum es geht: Der Bericht, den sie am Freitag abgeben wollte, ist noch nicht fertig. Der Kunde wartet, und du hast am Wochenende schon überlegt, wie du den Termin retten kannst. Trotzdem sagst du: „Klar. Später vielleicht?“ Jana nickt und geht. Du öffnest deine Mails. Der Vormittag läuft weiter, aber das Gespräch läuft in deinem Kopf mit.\n\nSo beginnen viele schwierige Gespräche: nicht mit einem großen Knall, sondern mit einem kleinen Moment, den du gern verschieben würdest. Du willst niemanden vor den Kopf stoßen. Vielleicht hoffst du, das Problem löst sich von selbst. Oder du suchst nach den perfekten Worten und findest deshalb gar keine.\n\nDoch während du wartest, wird aus einer verpassten Frist schnell ein Muster, aus einer Unklarheit ein Vorwurf. Und Jana merkt womöglich, dass du unzufrieden bist, ohne zu wissen, woran sie ist. Ein klares Gespräch ist nicht automatisch hart. Es kann sogar fairer sein als langes Schweigen, höfliche Andeutungen oder ein genervter Satz zwischen Tür und Angel.\n\nDafür brauchst du keinen besonderen Titel und keine fertige Rede. Du brauchst einen konkreten Anlass, die Bereitschaft zuzuhören und den Mut, auszusprechen, was du beobachtet hast. In diesem Kapitel geht es darum, wie du schwierige Gespräche so führst, dass Probleme auf den Tisch kommen, ohne Menschen kleinzumachen. Auch wenn deine Stimme dabei anfangs ein wenig zittert.",
+  "usage": {
+    "in": 152,
+    "out": 459,
+    "thinking": 78
+  },
+  "costUsd": 0.0002447,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 6534,
+  "meta": [],
+  "at": "2026-10-17T17:47:39.355Z"
+}

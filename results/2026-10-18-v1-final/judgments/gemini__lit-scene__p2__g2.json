@@ -1,0 +1,114 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Der Schlüssel ließ sich nicht drehen. Sie stand auf der Stufe, den Koffer neben sich, und drückte die Klinke, bis das Holz nachgab. (Logikbruch: Wenn das Haus verschlossen ist und der Schlüssel sich nicht drehen lässt, öffnet bloßes Klinkendrücken keine Tür.)",
+          "Innen roch es nach kaltem Staub und nach etwas Süßem [...] Die Süße, die sie im Flur gerochen hatte, kam von hier. (Sachliche Unstimmigkeit: Ein einzelnes, mit Wachs versiegeltes Einmachglas in einer geschlossenen Speisekammer hinter der Küche beduftet nicht durch eine winzige gelöste Lasche hindurch das ganze Haus bis in den Flur.)",
+          "als müsste man das Haus erst wecken (Abgegriffenes Bild)",
+          "wie Laken über Möbel (Sehr konventioneller Vergleich)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "im stillen Treppenhaus [...] um noch schnell vor dem Frost das Fallobst aufzulesen. (Räumliche Unschärfe: 'Treppenhaus' vor der Eingangstür markiert eine Etagenwohnung im Mehrfamilienhaus, die Aufgabe verlangt jedoch ein leerstehendes Haus.)",
+          "Auf dem Wachstuchtisch, dessen Rosenmuster unter einer grauen Staubschicht verblasst war [...] Und seit zwei Wochen war sie tot. (Logikbruch: Nach nur zwei Wochen Leerstand liegt noch keine dichte graue Staubschicht auf dem Küchentisch.)",
+          "während das Haus um sie herum plötzlich den Atem anzuhalten schien (Abgedroschenes Spannungsklischee am Ende)",
+          "Das Haus hatte Helga schneller vergessen, als Vera es je gekonnt hatte. (Behauptete Sentimentalität, außerdem unlogisch nach erst zwei Wochen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Aus der Küche kam der Geruch nach altem Fett und etwas Scharfem. Sie öffnete den Schrank unter der Spüle. (Fehlende Motivation: Warum greift sie wegen des Geruchs sofort zielsicher in den Unterschrank zu den alten Schwämmen?)",
+          "Die Seife roch nach Kümmel. (Sachlich schwer nachvollziehbares und etwas konstruiert wirkendes Detail bei alter gelber Kernseife)",
+          "Über der Spüle hing der Kalender vom Februar. Am neunzehnten stand, klein und mit Bleistift, ihr Name. (Konkurrierendes zweites Rätsel-Motiv neben der Kümmelseife, verwässert den Fokus der kurzen Szene)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "Der schmale Spalt darunter war dunkel, obwohl das Licht von der Küche bis an die Schwelle reichte. (Optisch unsinnig: Wenn eine Tür nicht ganz geschlossen ist, ist das kein Spalt 'darunter', und ein dunkler Keller bleibt dahinter natürlich dunkel.)",
+          "An ihrem Daumen klebte ein einzelnes, blaues Fädchen. Sie wusste nicht, woher es kam. (Völlig unmotiviertes, beliebig angehängtes Schlussdetail ohne Verbindung zur vorherigen Szene oder zum Staub am Spiegel.)",
+          "als hätte das Haus beschlossen, sie nicht sofort hineinzulassen (Abgegriffene Vermenschlichung im ersten Satz)",
+          "Auf der Tischplatte zeichnete sich ein heller Kreis ab [...] Der schmale Spalt [...] ein einzelnes, blaues Fädchen (Unentschlossene Häufung von Mini-Mysterien, von denen keines wirklich trägt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Dort lagen vier Quitten [...] Neben der fünften Quitte, die bereits halbiert war (Arithmetische Ungenauigkeit: Erst wird die Gesamtzahl auf vier festgelegt, dann taucht unvermittelt eine fünfte auf.)",
+          "zu Leder geschrumpft [...] Und doch hing ihr Duft im ganzen Raum, süß und herb zugleich, beinahe aufdringlich [...] Neben der fünften Quitte, die bereits halbiert war (Widerspruch: Vier völlig vertrocknete und eine frisch angeschnittene Frucht werden im selben Atemzug beschrieben, ohne dass der zeitliche Kontrast sauber herausgearbeitet wird.)",
+          "Hinter ihr tropfte nichts. Das Wasser war ja abgestellt. Trotzdem drehte sie sich um. (Etwas effekthascherischer, konstruierter Schlusssatz)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "E",
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3190,
+    "out": 1270,
+    "thinking": 0
+  },
+  "costUsd": 0.01908
+}

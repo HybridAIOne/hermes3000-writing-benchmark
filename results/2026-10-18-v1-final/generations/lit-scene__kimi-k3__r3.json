@@ -1,0 +1,20 @@
+{
+  "task": "lit-scene",
+  "model": "kimi-k3",
+  "run": 3,
+  "text": "**Das Haus**\n\nDer Schlüssel klemmte. Nora musste die Schulter gegen die Tür legen, und das Holz gab nach mit einem Laut, wie sie ihn von ihren Knochen kannte, morgens, vor dem ersten Kaffee.\n\nZwanzig Jahre. Das letzte Mal hatte sie dieses Haus in einem Mantel verlassen, der nicht mehr passte, weil sie in den Wochen um das Begräbnis herum abgemagert war. Jetzt stand sie im Flur und roch, was Häuser riechen, wenn niemand mehr in ihnen atmet: kühler Staub, getrockneter Putz, und darunter, ganz flach, der Rest von etwas, das einmal Seife gewesen war.\n\nSie ließ den Koffer stehen.\n\nDer Flur war dunkler, als sie ihn in Erinnerung hatte, weil die Ligusterhecke vor dem Fenster in all den Jahren gewuchert war, ungestört, ohne Schere. Das Licht kam grünlich durch, wie Wasser. Ihre Mutter hätte das nicht ausgehalten. *Eine Hecke lässt man nicht*, hatte sie gesagt, als wäre Wuchs eine Unanständigkeit.\n\nNora ging von Zimmer zu Zimmer, ohne etwas anzufassen. Das Wohnzimmer: der ausgeblichene Fleck auf dem Teppich, dort, wo der Fernseher gestanden hatte, den sie vor der Beerdigung noch verkauft hatte, sie erinnerte sich nicht mehr, wem. Die Küche: auf dem Herd ein Topf, sauber, verkehrt herum abgestellt, als käme jemand zurück und würde ihn brauchen. Wer ihn abgewaschen hatte, wusste sie nicht. Ihre Mutter war im Krankenhaus gestorben. Irgendjemand musste danach hier gewesen sein.\n\nIn der Diele hing der Kalender des Todesjahres, ein Bäcker-Kalender, März. Jemand – sie selbst, vermutlich – hatte nie weitergeblättert.\n\nDann roch sie es. Fein, unverkennbar: Veilchen. Nicht Parfüm – die handgeschöpfte Seife aus der Apotheke in der Unterstadt, die ihre Mutter vierzig Jahre lang benutzt hatte, das Stück in der kleinen Blechdose, die nie ganz zuging. Zwanzig Jahre alte Seife duftet nicht mehr durch einen Flur.\n\nNora blieb stehen. Der Geruch war stärker am Fuß der Treppe, als wäre oben, im ersten Stock, vor Kurzem ein Fenster geöffnet worden.\n\nSie stellte fest, dass sie ihren Mantel nicht ausgezogen hatte, und dass sie ihn auch nicht ausziehen würde.",
+  "usage": {
+    "in": 176,
+    "out": 682,
+    "thinking": 19
+  },
+  "costUsd": 0.00819588,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Sail Research",
+  "latencyMs": 15471,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-18T05:26:37.414Z"
+}

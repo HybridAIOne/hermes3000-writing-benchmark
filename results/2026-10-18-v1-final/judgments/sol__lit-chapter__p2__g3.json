@@ -1,0 +1,141 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "F": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Das Licht blinkte rot in den Nebel.“ – Ilse befestigt die Leuchte am Lenker als Ersatz für das fehlende Fahrradlicht. Eine rot blinkende Frontbeleuchtung ist dafür ungeeignet; die fürsorgliche Handlung verliert dadurch an Glaubwürdigkeit.",
+          "„Die Elbe war still an diesem Morgen, aber nicht ruhig.“ – Die bedeutungsschwere Unterscheidung bleibt unscharf; der folgende Satz löst sie nur mit weiteren abstrakten Zuschreibungen auf.",
+          "„und sie wussten beide, dass sie sie nicht wiederkriegen würde“ – Die Pointe erklärt das unausgesprochene Einverständnis, statt dem gelungenen knappen Dialog zu vertrauen.",
+          "„Der Fahrplan sagte sieben Uhr, aber der Fahrplan hing in einem Kasten“ – Die anschließende Erklärung des beschlagenen Glases begründet die verspätete Abfahrt nicht überzeugend und wirkt wie eine eingeschobene Originalität."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Auf dem Display erschien sein Name ein zweites Mal, als müsste sie ihn erst lesen.“ – Das erneute Erscheinen bleibt technisch und wahrnehmungslogisch undeutlich. Gerade am ansonsten präzisen Schluss wirkt dieser zusätzliche Bedeutungseffekt konstruiert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Sie wusste auch so, wer es war.“ – Jonas wird weder genannt noch anderweitig eindeutig identifiziert. Außerdem folgen auf den Anruf noch Nachricht und Anlegemanöver; der geforderte Schlussanruf fehlt.",
+          "„Hundertzwanzig Meter bis zur ersten Boje, dann eine Linkskurve“ – Der geschilderte Kurs mit anschließender Kurvenfahrt passt nicht schlüssig zur zuvor beschriebenen Führung an einer zwischen zwei Pfählen gespannten Stahlleine.",
+          "„Sie hatte ihm vor Jahren einmal ein Stück Wurst zugeworfen“ – Ausdrückliche Rückblenden-Exposition entgegen der Aufgabe. Die Fortsetzung über Ilses Erinnerung daran, dass der Hund es bemerkt hatte, ist zudem unnötig verschachtelt und inhaltlich wenig ergiebig.",
+          "„Der erste war Kolb mit seinem Dackel.“ – Das substantivierte Ordinalzahlwort muss hier „Erste“ heißen.",
+          "„Das Seil ist seit 1978 nicht gerissen.“ – Als beruhigende Auskunft unglaubwürdig und als schlagfertige Replik zu deutlich auf Wirkung geschrieben. Mehrere ähnliche Antworten machen Ilse zur Lieferantin vorbereiteter Pointen."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„den Henning vor zwanzig Jahren aus Cuxhaven mitgebracht hatte“ – Explizite biografische Rückblenden-Exposition, obwohl die Aufgabe sie ausschließt.",
+          "„Über die Verträge für den Verkauf der Fährrechte, über die Maklerin aus Lüneburg, über die Treppen in ihrem Haus“ – Der Schluss lädt den noch nicht geführten Anruf mit einem ganzen Konfliktdossier auf. Das erklärt die Romananlage, statt sie im gegenwärtigen Geschehen entstehen zu lassen.",
+          "„Mit einem Griff löste sie die Halteleine“ – Ilse befindet sich nach dem ausdrücklich erzählten Schließen der Tür im Steuerhaus. Wie sie von dort die Halteleine löst, bleibt räumlich ungeklärt.",
+          "„bis die Hydraulik übernahm“ – Die zuvor beschriebene Bedienung von Winde und Kurbel geht ohne nachvollziehbaren Mechanismus in hydraulischen Betrieb über. Die technische Detailfülle erzeugt hier eher Unklarheit als Anschaulichkeit.",
+          "„milchige Suppe“, „feuchten Watte des Nebels“, „kahle, schwarze Finger“ – Die Häufung geläufiger Nebel- und Landschaftsbilder macht die Beschreibung austauschbar und überladen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 4,
+        "aufgabe": 3,
+        "fehler": [
+          "„einmal mit einem Transporter“ und „Um zehn kam der erste Radfahrer des Tages“ – Nach den drei zunächst eingeführten Fahrgästen kommen weitere hinzu. Damit wird die ausdrücklich begrenzte Fahrgastzahl überschritten.",
+          "„Kallenbach saß auf seiner Bank“ und später „Drüben löste Kallenbach sein Fahrrad“ – Kallenbach fährt von Klein Neuendorf nach Hitzacker, bleibt dort jedoch ohne Erklärung an Bord und fährt wieder zurück. Der Text behandelt diese Rückfahrt anschließend wie seinen gewöhnlichen Arbeitsweg.",
+          "„Vierzig Meter Drahtseil, gespannt über die Fahrrinne“ – Die als vollständige Flussquerung erzählte Strecke ist für den Schauplatz nicht plausibel; auch die Darstellung des über der Fahrrinne hängenden und ans Kabinendach schlagenden Seils bleibt technisch widersprüchlich.",
+          "„was Ilse jedes Mal sah und jedes Mal nichts sagte“ – Fehlerhafte Verknüpfung zweier Relativkonstruktionen: Zu „nichts sagte“ fehlt ein Anschluss wie „wozu“. Auch „auf der Hitzacker Seite“ ist keine korrekte Ortsadjektivbildung beziehungsweise Zusammenschreibung.",
+          "„Um zehn kam der erste Radfahrer des Tages.“ – Nach dem Jonas-Anruf beginnt noch eine weitere Episode. Zusammen mit den Henning-Erinnerungen, der Bürobesuchs-Exposition und dem erheblich über etwa 900 Wörter hinausgehenden Umfang entfernt sich der Text deutlich von der Aufgabe."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c3",
+          "c4"
+        ]
+      },
+      {
+        "label": "F",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Wenn wir ankommen, sind wir da.“ / „Sie müssen nicht dauernd danke sagen.“ / „Wenn Schluss ist.“ – Die Häufung abweisender Pointen macht aus Wortkargheit eine demonstrative Gesprächsverweigerung. Besonders die Zurechtweisung wegen eines einzigen „Danke“ wirkt unmotiviert.",
+          "„An der Mitte des Flusses änderte sich der Klang.“ – Unidiomatische Ortsangabe; gemeint ist „In der Mitte des Flusses“.",
+          "„Sie hatte heute Morgen den zweiten Handschuh nicht gleich gefunden.“ – Der anschließende Rückblick auf Fundort und Anziehen unterbricht die Überfahrt mit einer entbehrlichen Vorgeschichte und widerspricht der gewünschten rückblendenfreien Darstellung.",
+          "„Sie standen in einigem Abstand voneinander, als gehörten sie nicht zusammen. Das taten sie auch nicht.“ – Die nachgeschobene Bestätigung erklärt ausdrücklich, was die Beobachtung bereits vermittelt.",
+          "„Sie schrieb keine Namen dazu.“ – Nach Fahrtenbuch, Strich und ausdrücklicher Zählung liefert dieser Zusatz weder relevante Handlung noch neue Charakterisierung. Der Schlussvorlauf könnte straffer sein."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "F",
+      "D",
+      "C",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 9873,
+    "out": 2767,
+    "thinking": 1024
+  },
+  "costUsd": 0.047416
+}

@@ -1,0 +1,119 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Der Schlüssel liegt unter dem alten Schöpfkelle-Topf“: ungrammatisches, unidiomatisches Kompositum",
+          "„Im Krug ein Zimmer genommen“ und kurz darauf „Mach dir schon mal den Ofen an“: Die Unterkunftsfrage wird übergangen, nicht aufgelöst",
+          "„eher wie eine Feststellung, die er für eine spätere Rechnung notierte“: erklärt den Subtext, statt ihn zu zeigen, und spielt plump auf den Verkauf an",
+          "„Wie einer, der sich die Schuhe nicht schmutzig machen wollte.“: abgegriffener Vergleich",
+          "„Er stand noch immer auf der Rampe“: Jonas stand zuvor auf dem Anleger; dazu der Adjektivballast „kalten Stahlhebel“, „verwitterte Eichenholz“, „ließen sich in den grauen Buhnen nieder“ (statt „auf“)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Dabei war er auf diesen Bohlen laufen gelernt.“: grammatisch falsch, richtig wäre „hatte … laufen gelernt“",
+          "„Um halb zehn kam er immer, seit neunzehn Jahren, und seit neunzehn Jahren rauchte er dieselbe Marke.“: etwas bemühte Wiederholungsfigur",
+          "„Er tat es höflich, wie man einem Fremden im Zug Platz macht.“: Der Bahn-Vergleich doppelt das Bahnsteig-Bild der Vorlage",
+          "„als hätte jemand die Schrauben nachgezogen“: knapp an der Grenze zum Konstruierten"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Sie nahm die Leine vom Poller“ … „Ilse band die Leine fest“: Logikbruch, die Leine war schon fest und wird erst gelöst, dann wieder festgemacht",
+          "„unter einem alten Fahrplan beschwert“: unidiomatisch, richtig wäre „mit einem alten Fahrplan beschwert“",
+          "„aber das Lächeln blieb ihm nicht lange“: schief formuliert",
+          "Ein Mann wartet am anderen Ufer, Ilse setzt aber Tee auf: Die Handlung stockt unlogisch",
+          "Stakkato-Dialoge in Serie („Aha.“, „Seit immer.“, „Dann nein.“): Wiederholungsmasche"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Hinter ihm wartete der Bäckerwagen“ … „Erst als der Wagen langsam anrollte“ … „Der Bäcker stellte den Motor ab.“: Die Bewegung des Wagens bleibt unklar und widersprüchlich",
+          "„Stattdessen schob sie ihn mit dem Fuß ein Stück zur Seite.“: unklarer Bezug zwischen Koffer und Jonas",
+          "„Hast du gegessen?“ – „Im Zug.“: etwas schematische Mutter-Sohn-Formel",
+          "„Im kleinen Zimmer lag die abgezogene Bettwäsche auf der Matratze.“: Andeutung, die ins Leere läuft"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Sie hakte die Leine ab“ … „Ilse löste die Leine und gab Gas.“: Die Leine wird doppelt gelöst, unmittelbar nachdem sie festgemacht wurde",
+          "„die Freude war da, aber sie war vorsichtig mit ihr, wie mit einer Flamme bei Wind“: erklärt Gefühle, kitschiger Vergleich",
+          "„ließ sie den Motor einen Gang zurückschalten“ und „das Seil zog sie aus dem Ufer in den Strom“: technisch und sprachlich schief",
+          "„etwas in ihr lockerte sich, das sie den ganzen Morgen festgehalten hatte, ohne es zu wissen“: Erklärprosa, Klischee",
+          "Deutlich über 400 Wörter; „Er klingt seit zwanzig Jahren so“ steht neben „so hatte Henning es gehalten, vierzig Jahre lang“"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "C",
+      "A",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 8213,
+    "out": 3480,
+    "thinking": 1813
+  },
+  "costUsd": 0.102452
+}

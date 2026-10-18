@@ -1,0 +1,123 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„dass Ilse das andere Ufer nur an dem Geräusch erkannte, das es machte: ein leises Klopfen, wenn die Strömung die Fähre gegen die Bohlen am Anleger drückte“ – Das beschriebene Geräusch kommt vom eigenen Anleger, nicht vom anderen Ufer. Das ist ein Logikbruch gleich im ersten Satz.",
+          "„ein Junge im Anzug vor einem Birnbaum“ – Das passt schief zu einem Foto, das der erwachsene Jonas selbst eingestellt hat.",
+          "„Dann ist er schon da, wenn ich den Motor brauche.“ – Die Pointe ist unklar und wirkt bemüht.",
+          "„nicht vom Regen, sondern von allem“ – Die Formulierung ist manieriert.",
+          "„Er lachte, kurz und höflich“ – Das wirkt als Standardgeste etwas formelhaft."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„eines von denen, die man schnell wieder vergisst“ – Hier rutscht der Text ins Präsens, als generalisierende Aussage noch vertretbar.",
+          "Die Länge liegt mit deutlich über 1100 Wörtern spürbar über den geforderten etwa 900.",
+          "„Um sieben Uhr zwölf an einem Mittwoch rief er nicht an, um zu fragen, wie es ihr ging.“ – Der Satz erklärt, statt zu zeigen.",
+          "„Er lachte, ein kurzes, höfliches Lachen“ – Die Lachgeste ist formelhaft.",
+          "„Morgen\" u. a. – Die Anführungszeichen sind uneinheitlich: unten deutsch geöffnet, oben gerade geschlossen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "„Der Motor kam husten, dann ruhig.“ – Der Satz ist grammatisch fehlerhaft.",
+          "„begann das Telefon in ihrer Jackentasche zu vibrieren. Sie hatte es in den Steuerstand gelegt“ – Hier widerspricht sich der Text selbst, und am Ende heißt es erneut: „Ilse ließ es in der Jacke“.",
+          "„sie erkannte den Namen, ohne ihn lesen zu müssen“ – Der Name Jonas fällt nie, der Anrufer bleibt also unbestimmt.",
+          "„Die Fähre löste sich von der Anlegestelle … Am Ufer stand er schon“ – Die Abfolge von Ablegen und Zusteigen ist unlogisch, ebenso der dritte Fahrgast, der „einfach dagewesen“ ist.",
+          "„Die Bücher klirrten nicht, sie waren nur schwer.“ – Die Formulierung ist schief und überflüssig."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„das alten Frau“ / „Der Elmar ist mit Ihnen zur Schule gegangen … Siebzig“ – Die Altersangaben passen nicht zusammen: Ilse ist 61, ihr Mitschüler wäre 70, und die Mitschülerin heißt „alte Frau“.",
+          "„Das Seil lief durch ihre Handflächen, Glied um Glied“ – Ein Seil hat keine Glieder. Dazu kommt ein handgezogener Postwagen-Transport, was unplausibel ist.",
+          "„Drüben, am Wendlandufer, blinkte etwas durchs Grau“ – Die Geografie ist verwirrend: Ilse steht bereits am anderen Ufer, Dömitz liegt nicht gegenüber von Hitzacker, und Hitzacker liegt selbst im Wendland.",
+          "„Er kam erst mit dem Grauen“ – Gemeint ist „mit dem Morgengrauen“; so ist die Formulierung missverständlich.",
+          "„Es ist komisch, gell.“ – Das süddeutsche „gell“ passt nicht in die Elbregion. Außerdem ist der Text mit rund 1300 Wörtern deutlich zu lang."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Das hatte sie gestern ausprobieren müssen, obwohl sie es wusste.“ – Der Satz ist unklar.",
+          "„Die Fahrerin trug ihre Haare noch feucht und hatte den Kragen einer weißen Bluse unter der offenen Jacke eingeklemmt“ – Die Formulierung ist umständlich und schief.",
+          "„Drei Fahrgäste. Zwei Autos, ein Fahrrad.“ – Die Vorgabe wird hier sichtbar abgehakt.",
+          "Das durchgehende Staccato aus Kurzsätzen wirkt stellenweise mechanisch.",
+          "„Sie zog die Jacke zu, ohne den Reißverschluss zu schließen.“ – Die Geste ist unklar."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "E",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 16047,
+    "out": 3778,
+    "thinking": 1885
+  },
+  "costUsd": 0.139748
+}

@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "kimi-k3",
+  "run": 2,
+  "text": "„Der Motor läuft\", sagte sie.\n\n„Er klingt, als würde er gleich auseinanderfallen.\"\n\n„Er klingt seit zwanzig Jahren so.\" Sie hakte die Leine ab und stieg an Bord zurück, ohne ihn anzusehen. Der Koffer stand immer noch auf den Bohlen, und Jonas stand daneben, in seinem Mantel, der für München gemacht war und nicht für den November an der Elbe. „Steig ein oder bleib stehen. Ich fahr gleich rüber.\"\n\nEr hob den Koffer an Bord, und sie spürte das leichte Schwanken des Pontons unter seinem Gewicht. Früher war er an Bord herumgelaufen, hatte sich an der Reling festgehalten und die Arme ausgebreitet, wenn der Wind kam. Jetzt stellte er sich neben die Kabine, die Hände in den Taschen, als fürchte er, sich etwas an den Fässern schmutzig zu machen.\n\nIlse löste die Leine und gab Gas. Der Motor stotterte einmal, dann fing er sich, und das Seil zog sie aus dem Ufer in den Strom. Das Wasser war hoch für die Jahreszeit, bräunlich und schnell, und es trug Treibholz mit sich, das sie aus dem Augenwinkel beobachtete, ohne den Kopf zu drehen.\n\n„Wie lange bleibst du?\", fragte sie über das Motorengeräusch hinweg.\n\n„Bis Sonntag.\" Eine Pause. „Vielleicht länger.\"\n\n„Du hast kein Zimmer gebucht.\"\n\n„Ich dachte, ich schlaf bei dir.\"\n\nSie nickte. Nicht weil sie sich gefreut hätte – die Freude war da, aber sie war vorsichtig mit ihr, wie mit einer Flamme bei Wind –, sondern weil es so gehörte. Er war ihr Sohn. Dass er anrief, bevor er kam, hatte er noch nie gelernt, auch als Kind nicht.\n\nAuf der Mitte des Flusses ließ sie den Motor einen Gang zurückschalten. Das tat sie manchmal, wenn niemand an Bord war, der es eilig hatte. Das Wasser zog unter dem Ponton durch, grau und ungeduldig, und drüben am anderen Ufer standen die Weiden kahl im Dunst. Jonas schwieg. Das war neu. Früher hatte er die Stille immer gefüllt, hatte erzählt und gefragt, seit er sprechen konnte.\n\n„Du hast abgenommen\", sagte sie schließlich.\n\n„Du auch.\"\n\n„Das liegt am Essen. Deins ist zu teuer, meins zu einfach.\"\n\nEr lachte kurz, und es klang echt, und etwas in ihr lockerte sich, das sie den ganzen Morgen festgehalten hatte, ohne es zu wissen.\n\nAm Südufer wartete niemand. Kein Auto, kein Fahrrad, nur die leere Wiese und die Anlegestelle mit ihren aufgeweichten Bohlen. Normalerweise wendete sie sofort und fuhr zurück, rüber und wieder rüber, bis es dunkel wurde. So war der Rhythmus, so hatte Henning es gehalten, vierzig Jahre lang.\n\nIlse zog den Steuerhebel zu sich und legte den Motor in den Leerlauf. Der Ponton trieb einen Moment lang, frei zwischen den Ufern, nur am Seil hängend.\n\n„Komm her\", sagte sie und deutete auf den Platz neben sich in der Kabine. „Wenn du schon bis Sonntag bleibst, kannst du wenigstens lernen, wie man das Ding anlegt. Heute Nachmittag fährst du.\"",
+  "usage": {
+    "in": 470,
+    "out": 931,
+    "thinking": 44
+  },
+  "costUsd": 0.011257139999999999,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Wafer",
+  "latencyMs": 27208,
+  "meta": [],
+  "at": "2026-10-18T05:26:08.244Z"
+}

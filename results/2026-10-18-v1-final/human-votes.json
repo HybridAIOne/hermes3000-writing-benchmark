@@ -1,0 +1,679 @@
+{
+  "runId": "2026-10-18-v1-final",
+  "exportedAt": "2026-10-18T04:56:34.150Z",
+  "votes": [
+    {
+      "judge": "stephan",
+      "task": "nf-outline",
+      "left": {
+        "model": "claude-opus-5.5",
+        "run": 3
+      },
+      "right": {
+        "model": "gpt-6-luna",
+        "run": 3
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 134466,
+      "at": "2026-10-18T04:26:46.795Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-opening",
+      "left": {
+        "model": "gemini-4-argon",
+        "run": 2
+      },
+      "right": {
+        "model": "claude-sonnet-5.5",
+        "run": 1
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 55806,
+      "at": "2026-10-18T04:27:42.698Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-scene",
+      "left": {
+        "model": "claude-haiku-5.5",
+        "run": 3
+      },
+      "right": {
+        "model": "gpt-6-luna",
+        "run": 2
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 42753,
+      "at": "2026-10-18T04:33:43.427Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-scene",
+      "left": {
+        "model": "claude-sonnet-5.5",
+        "run": 2
+      },
+      "right": {
+        "model": "claude-haiku-5.5",
+        "run": 2
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 29511,
+      "at": "2026-10-18T04:34:13.015Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-scene",
+      "left": {
+        "model": "claude-opus-5.5",
+        "run": 3
+      },
+      "right": {
+        "model": "claude-haiku-5.5",
+        "run": 2
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 33405,
+      "at": "2026-10-18T04:34:46.506Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-scene",
+      "left": {
+        "model": "claude-haiku-5.5",
+        "run": 2
+      },
+      "right": {
+        "model": "gpt-6-luna",
+        "run": 3
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 22412,
+      "at": "2026-10-18T04:35:08.994Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-scene",
+      "left": {
+        "model": "claude-sonnet-5.5",
+        "run": 1
+      },
+      "right": {
+        "model": "claude-haiku-5.5",
+        "run": 3
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 28287,
+      "at": "2026-10-18T04:35:37.366Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-dialogue",
+      "left": {
+        "model": "gpt-6-luna",
+        "run": 3
+      },
+      "right": {
+        "model": "claude-sonnet-5.5",
+        "run": 3
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 27871,
+      "at": "2026-10-18T04:36:05.314Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-scene",
+      "left": {
+        "model": "claude-opus-5.5",
+        "run": 3
+      },
+      "right": {
+        "model": "gpt-6.1-sol",
+        "run": 3
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 20589,
+      "at": "2026-10-18T04:36:25.982Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-dialogue",
+      "left": {
+        "model": "claude-haiku-5.5",
+        "run": 1
+      },
+      "right": {
+        "model": "gpt-6-luna",
+        "run": 1
+      },
+      "choice": "tie",
+      "reason": null,
+      "timeSpentMs": 25952,
+      "at": "2026-10-18T04:36:52.013Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-chapter",
+      "left": {
+        "model": "claude-sonnet-5.5",
+        "run": 2
+      },
+      "right": {
+        "model": "claude-haiku-5.5",
+        "run": 1
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 74919,
+      "at": "2026-10-18T04:38:07.022Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-continue",
+      "left": {
+        "model": "gemini-4-argon",
+        "run": 1
+      },
+      "right": {
+        "model": "claude-sonnet-5.5",
+        "run": 2
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 26420,
+      "at": "2026-10-18T04:38:33.526Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-scene",
+      "left": {
+        "model": "gpt-6.1-sol",
+        "run": 3
+      },
+      "right": {
+        "model": "claude-opus-5.5",
+        "run": 1
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 30583,
+      "at": "2026-10-18T04:39:04.187Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-chapter",
+      "left": {
+        "model": "gpt-6-luna",
+        "run": 3
+      },
+      "right": {
+        "model": "claude-opus-5.5",
+        "run": 2
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 53488,
+      "at": "2026-10-18T04:39:57.748Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-outline",
+      "left": {
+        "model": "gpt-6-luna",
+        "run": 2
+      },
+      "right": {
+        "model": "gemini-4-argon",
+        "run": 3
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 44892,
+      "at": "2026-10-18T04:40:42.803Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-chapter",
+      "left": {
+        "model": "claude-haiku-5.5",
+        "run": 1
+      },
+      "right": {
+        "model": "gpt-6-luna",
+        "run": 2
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 21230,
+      "at": "2026-10-18T04:41:04.118Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-from-source",
+      "left": {
+        "model": "gemini-4-argon",
+        "run": 3
+      },
+      "right": {
+        "model": "claude-opus-5.5",
+        "run": 1
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 24245,
+      "at": "2026-10-18T04:41:28.446Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-outline",
+      "left": {
+        "model": "claude-haiku-5.5",
+        "run": 2
+      },
+      "right": {
+        "model": "claude-sonnet-5.5",
+        "run": 2
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 23276,
+      "at": "2026-10-18T04:41:51.803Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-outline",
+      "left": {
+        "model": "claude-opus-5.5",
+        "run": 1
+      },
+      "right": {
+        "model": "gpt-6.1-sol",
+        "run": 1
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 23872,
+      "at": "2026-10-18T04:42:15.748Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-continue",
+      "left": {
+        "model": "claude-sonnet-5.5",
+        "run": 3
+      },
+      "right": {
+        "model": "claude-haiku-5.5",
+        "run": 3
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 13081,
+      "at": "2026-10-18T04:42:28.912Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-continue",
+      "left": {
+        "model": "gpt-6.1-sol",
+        "run": 3
+      },
+      "right": {
+        "model": "claude-haiku-5.5",
+        "run": 3
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 18629,
+      "at": "2026-10-18T04:42:47.619Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-opening",
+      "left": {
+        "model": "gpt-6.1-sol",
+        "run": 2
+      },
+      "right": {
+        "model": "claude-sonnet-5.5",
+        "run": 1
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 14704,
+      "at": "2026-10-18T04:43:02.405Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-opening",
+      "left": {
+        "model": "claude-opus-5.5",
+        "run": 3
+      },
+      "right": {
+        "model": "claude-haiku-5.5",
+        "run": 3
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 34978,
+      "at": "2026-10-18T04:43:37.463Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-dialogue",
+      "left": {
+        "model": "claude-sonnet-5.5",
+        "run": 2
+      },
+      "right": {
+        "model": "claude-opus-5.5",
+        "run": 1
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 46642,
+      "at": "2026-10-18T04:44:24.200Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-outline",
+      "left": {
+        "model": "claude-haiku-5.5",
+        "run": 3
+      },
+      "right": {
+        "model": "claude-opus-5.5",
+        "run": 3
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 19781,
+      "at": "2026-10-18T04:44:44.062Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-dialogue",
+      "left": {
+        "model": "gpt-6-luna",
+        "run": 2
+      },
+      "right": {
+        "model": "gemini-4-argon",
+        "run": 2
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 31593,
+      "at": "2026-10-18T04:45:15.735Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-chapter",
+      "left": {
+        "model": "gemini-4-argon",
+        "run": 2
+      },
+      "right": {
+        "model": "gpt-6-luna",
+        "run": 2
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 45083,
+      "at": "2026-10-18T04:46:00.911Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-continue",
+      "left": {
+        "model": "claude-sonnet-5.5",
+        "run": 1
+      },
+      "right": {
+        "model": "claude-opus-5.5",
+        "run": 3
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 16421,
+      "at": "2026-10-18T04:46:17.412Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-continue",
+      "left": {
+        "model": "gpt-6-luna",
+        "run": 2
+      },
+      "right": {
+        "model": "gpt-6.1-sol",
+        "run": 3
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 121304,
+      "at": "2026-10-18T04:48:18.856Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-from-source",
+      "left": {
+        "model": "claude-sonnet-5.5",
+        "run": 3
+      },
+      "right": {
+        "model": "gpt-6-luna",
+        "run": 3
+      },
+      "choice": "tie",
+      "reason": null,
+      "timeSpentMs": 13988,
+      "at": "2026-10-18T04:48:32.932Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-opening",
+      "left": {
+        "model": "gpt-6.1-sol",
+        "run": 3
+      },
+      "right": {
+        "model": "claude-haiku-5.5",
+        "run": 3
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 42189,
+      "at": "2026-10-18T04:49:15.211Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-opening",
+      "left": {
+        "model": "gpt-6-luna",
+        "run": 3
+      },
+      "right": {
+        "model": "claude-sonnet-5.5",
+        "run": 2
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 33082,
+      "at": "2026-10-18T04:49:48.382Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-continue",
+      "left": {
+        "model": "gpt-6-luna",
+        "run": 1
+      },
+      "right": {
+        "model": "claude-sonnet-5.5",
+        "run": 1
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 30507,
+      "at": "2026-10-18T04:50:18.978Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-opening",
+      "left": {
+        "model": "claude-sonnet-5.5",
+        "run": 3
+      },
+      "right": {
+        "model": "gemini-4-argon",
+        "run": 1
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 24819,
+      "at": "2026-10-18T04:50:43.880Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-outline",
+      "left": {
+        "model": "gpt-6.1-sol",
+        "run": 2
+      },
+      "right": {
+        "model": "claude-opus-5.5",
+        "run": 1
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 13346,
+      "at": "2026-10-18T04:50:57.307Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-chapter",
+      "left": {
+        "model": "claude-haiku-5.5",
+        "run": 3
+      },
+      "right": {
+        "model": "claude-sonnet-5.5",
+        "run": 3
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 44820,
+      "at": "2026-10-18T04:51:42.207Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-opening",
+      "left": {
+        "model": "claude-sonnet-5.5",
+        "run": 3
+      },
+      "right": {
+        "model": "claude-haiku-5.5",
+        "run": 1
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 23516,
+      "at": "2026-10-18T04:52:05.802Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-scene",
+      "left": {
+        "model": "claude-haiku-5.5",
+        "run": 1
+      },
+      "right": {
+        "model": "gpt-6-luna",
+        "run": 1
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 54915,
+      "at": "2026-10-18T04:53:00.798Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-continue",
+      "left": {
+        "model": "claude-opus-5.5",
+        "run": 3
+      },
+      "right": {
+        "model": "gemini-4-argon",
+        "run": 3
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 46827,
+      "at": "2026-10-18T04:53:47.701Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "lit-chapter",
+      "left": {
+        "model": "gpt-6.1-sol",
+        "run": 2
+      },
+      "right": {
+        "model": "claude-sonnet-5.5",
+        "run": 2
+      },
+      "choice": "right",
+      "reason": null,
+      "timeSpentMs": 63854,
+      "at": "2026-10-18T04:54:51.646Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-opening",
+      "left": {
+        "model": "gpt-6-luna",
+        "run": 2
+      },
+      "right": {
+        "model": "claude-opus-5.5",
+        "run": 3
+      },
+      "choice": "left",
+      "reason": null,
+      "timeSpentMs": 26945,
+      "at": "2026-10-18T04:55:18.670Z"
+    },
+    {
+      "judge": "stephan",
+      "task": "nf-outline",
+      "left": {
+        "model": "gemini-4-argon",
+        "run": 1
+      },
+      "right": {
+        "model": "claude-haiku-5.5",
+        "run": 1
+      },
+      "choice": "tie",
+      "reason": null,
+      "timeSpentMs": 52370,
+      "at": "2026-10-18T04:56:11.119Z"
+    }
+  ],
+  "note": "Votes cast on pairs exported from 2026-10-17-v1-final; the texts are identical in this run (generations reused)."
+}

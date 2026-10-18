@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "text": "Der Schlüssel fasste erst beim dritten Versuch. Das Metall schabte trocken im Zylinder, ein Geräusch, das in der feuchten Herbststille des Vorgartens unnatürlich laut klang. Clara drückte die Klinke hinunter. Die Tür gab mit einem zähen Schmatzen nach, als müsste sie sich erst von dem aufgequollenen Holzrahmen lösen, an den sie sich zwanzig Jahre lang gewöhnt hatte.\n\nDie Luft im Flur stand still. Sie war um einige Grad kälter als draußen, schwer vom Geruch nach feuchtem Kalk, altem Papier und dem süßlichen Verfall von Äpfeln, die irgendwo im Keller vergessen worden waren. Kein Staubtuch hatte diese Oberflächen berührt, seit der Sarg durch genau diesen schmalen Gang getragen worden war, vorbei an der Garderobe, an der noch immer der graue Lodenmantel hing – formlos wie eine abgelegte Haut.\n\nClara ließ ihre Reisetasche nicht los. Sie machte zwei Schritte auf das Parkett, das unter ihren Sohlen schwieg. Die Fensterläden zur Straßenseite waren geschlossen; nur durch die schmalen Schlitze fiel blasses, graues Licht und schnitt scharfe Streifen in die Dämmerung. Es roch nicht nach ihrer Mutter. Es roch nach der Abwesenheit von allem.\n\nSie ging in die Küche. Auf dem Wachstuch des Tisches lag eine tote Fliege auf dem Rücken, die Beine zur Decke gekrümmt. Clara trat an die Spüle und drehte den Messinghahn auf. Zuerst kam nichts, nur ein tiefes, hohles Röcheln aus den Wänden, ein Beben in den Rohren. Dann spuckte der Hahn einen Schwall rostbrauner Brühe in das Emaillebecken.\n\nAls das Wasser schließlich klar wurde, hielt Clara die Finger darunter. Es war eisig. Sie führte die nasse Hand zum Mund, leckte gedankenverloren über die Fingerkuppen – und zuckte zusammen. Das Wasser schmeckte nicht nach Eisen oder Kalk. Es schmeckte scharf und unverkennbar nach bitteren Mandeln.",
+  "usage": {
+    "in": 102,
+    "out": 464,
+    "thinking": 0
+  },
+  "costUsd": 0.004844,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 18587,
+  "meta": [],
+  "at": "2026-10-17T17:42:48.224Z"
+}

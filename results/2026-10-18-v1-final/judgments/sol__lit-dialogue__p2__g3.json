@@ -1,0 +1,136 @@
+{
+  "task": "lit-dialogue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "F": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„Du hast meine Nachrichten nie beantwortet.“ – Hier wird ein konkreter Vorwurf ausgesprochen. Das schwächt die Vorgabe, den Konflikt ausschließlich im Subtext spürbar zu machen.",
+          "„Weißt du noch, der Sommer am See? Du hast gesagt, egal was kommt—“ – Die beschworene gemeinsame Vergangenheit samt abgebrochenem Treueversprechen ist ein vertrautes Versöhnungsdrama-Muster.",
+          "„Gewohnheit.“, „Manchmal.“, „Doch.“ – Die wiederholten Einwortrepliken erzeugen zwar Spannung, werden aber als gleichförmiges Verfahren sichtbar.",
+          "„Markus rührt weiter, obwohl der Kaffee längst kalt ist.“ – Ein konventionelles Schlussbild, das die emotionale Erstarrung etwas zu demonstrativ illustriert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Hast du den Schlüssel noch?“ / „Du weißt welchen.“ – Der Schlüssel wird als bedeutungsschweres Requisit eingeführt, erhält aber keine ausreichend konkrete Funktion. Die Unbestimmtheit wirkt eher hergestellt als selbstverständlich.",
+          "„Ich habe dich gebeten zu kommen. Nicht zu schweigen.“ / „Wir schweigen doch beide.“ – Die Figuren benennen das dramaturgische Verfahren ausdrücklich, statt die Spannung weiter indirekt auszutragen.",
+          "„Sie lacht kurz, dann nicht mehr.“ / „Sie lächelt traurig“ – Konventionelle Gefühlsregie; besonders „traurig“ legt die Interpretation fest, statt sie durch eine präzise Handlung entstehen zu lassen.",
+          "„Der Mantel ist neu.“ / „Hast du den Schlüssel noch?“ – Mantel, Schlüssel und Abschiedsritual legen auch eine ehemalige Paarbeziehung nahe. Dass sich hier zwei alte Freunde erstmals nach einem Streit begegnen, wird nicht hinreichend kenntlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Manches gewöhnt man sich ab.“ – Die Bemerkung trägt ihre übertragene Bedeutung recht offen vor sich her; der Subtext wird kurz zur ausgestellten Pointe.",
+          "„Wir sind früher auch über Zäune gekommen.“ / „Früher hast du mich aufgefangen.“ – Die Verbindung von realem Hindernis und emotionalem Auffangen ist wirkungsvoll, aber erkennbar auf Doppeldeutigkeit hin gebaut.",
+          "„Du hast früher keinen verpasst.“ / „Du hast früher gewartet.“ – Noch einmal dieselbe symmetrische Früher-heute-Konstruktion. Gegen Ende wird die kunstvolle Replikenarchitektur etwas stärker hörbar als die individuelle Sprechweise."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„Du hättest sie auch einfach vor die Tür stellen können. Wie den Rest damals.“ – Ein konkreter Bestandteil des vergangenen Konflikts wird ausdrücklich vorgeworfen; die zentrale Subtextvorgabe wird damit deutlich verletzt.",
+          "„die Kiste mit deinen restlichen Sachen“ / „Wie den Rest damals.“ – Die Szene codiert vor allem die Abwicklung einer Trennung oder eines gemeinsamen Haushalts. Eine alte Freundschaft wird daneben nicht etabliert.",
+          "„Ich hänge an Sachen, die längst kaputt sind.“ – Die Figur erklärt die symbolische Bedeutung der Gegenstände selbst. Das nimmt der Szene interpretativen Spielraum.",
+          "„ihr Lächeln erreicht die Augen nicht“ / „Kurzes, schweres Schweigen.“ – Abgegriffene beziehungsweise wertende Gefühlsregie anstelle genauer, eigenständiger Beobachtung.",
+          "„Ich habe... Prioritäten verschoben.“ / „Ich vermisse... unsere Gespräche.“ – Vor den Auslassungspunkten fehlt jeweils das Leerzeichen; es werden keine Wortteile ausgelassen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Ob es hier noch was zu reparieren gibt.“ – Die Reparaturmetapher spricht die mögliche Wiederherstellung der Freundschaft sehr deutlich aus. Gerade am Wendepunkt fehlt etwas Zurückhaltung.",
+          "„Ich werf nichts weg, nur weil es mal Ärger macht.“ – Auch diese Replik ist erkennbar für ihre übertragene Bedeutung geschrieben; als beiläufige Äußerung über die Kaffeemaschine wirkt sie weniger natürlich.",
+          "„Eine hat einen Sprung.“ / „Ich hab mich dran gewöhnt, dass sie leckt.“ – Nach Bohrmaschine und defekter Klingel verdichtet die beschädigte Tasse die Ding-Symbolik etwas zu stark.",
+          "„Die alte ging nicht mehr. Hat ja auch keiner mehr geklingelt.“ – Der Anschluss suggeriert einen Zusammenhang zwischen Defekt und ausbleibenden Besuchern, der sachlich nicht trägt. Als bittere Pointe verständlich, aber sprachlich etwas forciert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Wir sind trotzdem angekommen.“ / „Spät.“ / „Aber zusammen.“ – Die gemeinsame Busgeschichte wird zur deutlich ausformulierten Beziehungsparabel. Die Annäherung wirkt dadurch eher behauptet als erarbeitet.",
+          "„Du bestellst noch immer schwarz.“ / „Ich habe mich umgestellt.“ / „Auf weniger Zucker.“ – Schwarz bezeichnet Kaffee ohne Milch, nicht zwingend ohne Zucker. Die Repliken setzen unterschiedliche Eigenschaften gegeneinander und ergeben deshalb keinen präzisen Anschluss.",
+          "„Der hält noch.“ / „Das hat er früher auch schon.“ – Die zweite Replik liefert weder eine klare sachliche Ergänzung noch einen ausreichend bestimmten unterschwelligen Angriff; der Auftakt bleibt künstlich verrätselt.",
+          "„Du hattest den Fahrplan falsch gelesen.“ / „Du hast gesagt, du hättest ihn gelesen.“ – Die Korrektur soll offenbar ein früheres Einstehen füreinander zeigen, bleibt aber in ihrer konkreten Bedeutung unklar.",
+          "„Eine Kellnerin geht vorbei. Keiner von beiden sieht ihr nach.“ – Die Regieanweisung setzt einen Akzent auf eine folgenlose Nicht-Handlung und trägt wenig zur Spannung bei."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "E",
+      "A",
+      "B",
+      "F",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3413,
+    "out": 2354,
+    "thinking": 771
+  },
+  "costUsd": 0.030366
+}

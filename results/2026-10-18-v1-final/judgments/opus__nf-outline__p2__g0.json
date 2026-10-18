@@ -1,0 +1,116 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Kap. 7 „schlechte Nachrichten von oben“ überschneidet sich mit Kap. 8 „Du vertrittst Entscheidungen, die du nicht getroffen hast“",
+          "Kap. 7 „Streit im Team“ und Kap. 9 „Streit mit Kunden“: das Konfliktthema ist auf zwei Kapitel verteilt",
+          "„sorgst für Zusammenarbeit mit anderen Abteilungen“ ist etwas blass formuliert"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„auch wenn du bisher Kollegin oder Kollege im Team warst und nicht sofort alles wissen musst“: Die Konzessivkonstruktion ist logisch schief",
+          "Kap. 8 „Schaffe verlässliche Abläufe im Team“ steht nach den schwierigen Gesprächen, das bricht den Aufbau",
+          "„passt dein Verhalten an, ohne dich zu verstellen“ bleibt vage und floskelhaft",
+          "Die Kapitelbeschreibungen sind durchgehend generisch und wenig anschaulich, etwa „erreichbare nächste Schritte“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Kap. 1 „verstehst, was sich für dich wirklich geändert hat“ und Kap. 2 „Vom Kollegen zum Vorgesetzten“ überschneiden sich deutlich",
+          "Kap. 3 „Mitarbeitergespräche führen“ überschneidet sich mit Kap. 5 „regelmäßige Einzelgespräche“",
+          "„Zusagen verbindlich machen, ohne zu kontrollieren“ ist widersprüchlich",
+          "„Freundschaften sauber umwandeln“ ist eine unidiomatische Formulierung",
+          "Die Fragmentlisten nach Doppelpunkten ergeben keinen vollständigen Satz pro Kapitel"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Alle Beschreibungen beginnen mit „Wie du …“ und sind damit Satzfragmente statt Sätze; das wirkt monoton",
+          "Kap. 4 „und wie du mit deinen eigenen Fehlern umgehst“ ist ein themenfremder Anhang",
+          "Kap. 1 „Wie du in der neuen Rolle ankommst“ und Kap. 3 „Vom Kollegen zum Vorgesetzten“ überschneiden sich teilweise"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 6,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„bei Fehlern, Trödelei oder dicke Luft im Team“: richtig wäre „dicker Luft“",
+          "„ohne offizielle Weisungsbefugnis“ missversteht die Zielgruppe, denn Teamleiter haben Weisungsbefugnis",
+          "„Hier ist der Entwurf für die Gliederung …“ ist ein überflüssiger Einleitungssatz",
+          "„Der Informations-Knotenpunkt“ ist buzzwordnah; „die Fäden in der Hand hältst“ ist eine Floskel",
+          "Kap. 9 „wie du nach Feierabend den Kopf wirklich freibekommst“ ist themenfremd; zudem überschneiden sich Kap. 3 und Kap. 4 (Selbermachen vs. Delegieren)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "C",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 5944,
+    "out": 2474,
+    "thinking": 1139
+  },
+  "costUsd": 0.073256
+}

@@ -1,0 +1,117 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Vielleicht tat er das auch, innerlich, in eine dieser Tabellen […] mit Farben für gut und schlecht.“ Die Beratercharakterisierung wird hier recht schematisch ausgedeutet; sein beobachtendes Nicken hätte den Subtext bereits getragen.",
+          "„Henning hatte die Striche nie weggewischt. Irgendwann hatte der Regen es getan.“ Die Erinnerung ist anschaulich, ihr pointierter Abschluss wirkt allerdings etwas auf literarische Wehmut hin formuliert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie löste die Leine wieder vom Poller“ / „Sie ging […] zur Anlegerseite und prüfte die Leine. Der Knoten saß.“ Anschlussfehler: Die gelöste Leine wird zwischenzeitlich nicht wieder befestigt. Dennoch wird die Fähre anschließend verlassen.",
+          "„Danach nahm sie den Schlüssel wieder aus der Tasche und legte ihn in die kleine Schale im Steuerhaus. Den Ersatzschlüssel ließ sie dort liegen. Den Haustürschlüssel nahm sie heraus.“ Die Schlüsselabfolge ist unnötig verwickelt; insbesondere bleibt die Bedeutung des eigens erwähnten Ersatzschlüssels unklar. Dadurch verliert die Schlussentscheidung an Kontur.",
+          "„Er trug“ zwar keine neue Kleidung, aber „Jonas zog den Reißverschluss seiner Jacke“ wird später zu „Der Regen hatte seinen Mantel dunkel gemacht“. Der unbegründete Bezeichnungswechsel erzeugt einen kleinen Kontinuitätsfehler.",
+          "„Sie hätte sagen können, dass er sich ein Zimmer im Ort nehmen sollte.“ Der Text erklärt die zurückgewiesene Möglichkeit ausdrücklich, statt Ilses Widerstand stärker aus ihrem Verhalten entstehen zu lassen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 8,
+        "fehler": [
+          "„Er war grau und hat abgeblättert.“ Falsches Hilfsverb: Beim intransitiven „abblättern“ heißt es „ist abgeblättert“.",
+          "„alle vier, auch Henning seinen“: Grammatisch fehlerhafte Possessivkonstruktion in der Erzählerrede. Standardsprachlich etwa: „alle vier, auch Hennings“.",
+          "„Henning hatte genickt wie ein Mann, der Holz nimmt: endgültig.“ Der Vergleich bleibt semantisch unklar. „Holz nimmt“ vermittelt weder eine bestimmte Tätigkeit noch die behauptete Endgültigkeit.",
+          "„Ilse dachte, dass er es wahrscheinlich beide Male meinte und keines davon stimmen würde.“ Es gibt keine zwei klar unterscheidbaren Äußerungen, auf die „beide Male“ und „keines davon“ sauber zurückverweisen.",
+          "„Das war keine Versöhnung. […] bis morgen früh, nicht länger.“ Der Schluss erklärt die Bedeutung der kleinen Entscheidung nachträglich und behauptet zugleich eine kaum begründete Gewissheit über Jonas’ Aufenthaltsdauer."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Normalerweise hätte sie jetzt […] und wäre mit ihm hinauf zum Haus gegangen.“ Jonas ist unangekündigt angekommen; eine gemeinsame Heimkehr mit ihm kann deshalb nicht ohne Weiteres als normaler Ablauf dieser Situation gesetzt werden.",
+          "„Er roch nach Rasierwasser und der klimatisierten Luft aus dem ICE.“ Rasierwasser ist sinnlich konkret, „klimatisierte Luft aus dem ICE“ dagegen eine behauptete, kaum präzise identifizierbare Geruchsqualität.",
+          "„dieses schnelle, glatte Lächeln […] von den Fotos auf seiner Firmenwebseite“ und „mit gerunzelter Stirn auf das Display tippte“: Die Häufung konventioneller Beratermerkmale macht Jonas eher zum Typus als zur individuellen Figur.",
+          "„Zu dick für einen bloßen Wochenendbesuch.“ Die Mappe dient als recht auffälliges Bedeutungssignal. Dass ihre Dicke den Besuchszweck verraten soll, ist stärker behauptet als anschaulich begründet.",
+          "„Keine Menschenseele, kein Auto.“ Nach Jonas’ Hinweis und der Beschreibung des leeren Ufers wird dessen Verlassenheit nochmals ausdrücklich bestätigt. Diese Absicherung bremst den ansonsten tragfähigen Schluss."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "„Seitdem zieh ich mit der Hand“ / „Er nahm die Kurbel trotzdem“ / „Dann spuckte der Motor einen blauen Rauchring aus“: Der technische Handlungszusammenhang bleibt ungeklärt. Eine offenbar zum manuellen Ziehen eingeführte Kurbel wird unvermittelt zur Anlassvorrichtung des defekten Motors.",
+          "„mit oder ohne Motor, wenn sie das Ruder und die Leine nahm, so wie immer“: Der Antrieb der vorgegebenen Seilfähre wird nicht schlüssig dargestellt. Wie Ruder und Leine die Überfahrt ermöglichen, bleibt gerade nach der ausführlichen Motorhandlung offen.",
+          "„Ich hab's gehört“: Für diese Antwort auf Jonas’ Feststellung, sie habe den Motor nicht reparieren lassen, fehlt ein verständlicher Bezug. Auch die anschließende Erklärung löst ihn nicht eindeutig auf.",
+          "„vertraut wie das eigene Kissen“, „wie ein Tier, das sich totstellt“, „als hätten sie es eilig“, „als wäre es ein Handtuch am Badesee“: Die Vergleichshäufung überformt die nüchterne personale Erzählweise; mehrere Bilder tragen wenig zur Präzision bei.",
+          "„Und sie sah auch, dass er sie nicht gern schmutzig machte.“ Eine innere Abneigung wird als unmittelbar sichtbare Tatsache ausgegeben, obwohl Jonas die Kurbel anschließend ohne gezeigertes Zögern nimmt."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "B",
+      "C",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 4096,
+    "out": 2416,
+    "thinking": 965
+  },
+  "costUsd": 0.032352
+}

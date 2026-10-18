@@ -1,0 +1,116 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Die Fähre fährt nach Hitzacker-Ufer“, sagte Ilse. „Das ist das Gleiche.“ – Die Gleichsetzung mit dem zuvor erfragten Neu Darchau ist geografisch falsch; die erfundene Zielbezeichnung verschleiert die Strecke zusätzlich.",
+          "„Wessel hatte den Hof auf der Wendseite, und er fuhr jeden Dienstag hinüber zum Viehmarkt, auch jetzt noch, obwohl die Milchkühe längst verkauft waren.“ – Ausführliche Hintergrundexposition statt gegenwärtiger Szene; entgegen der ausdrücklichen Vorgabe.",
+          "„Sie kannte jeden Ton dieser Fähre. Sie wusste, wann der Hebel klemmte […] Sie wusste, wie der Fluss im Herbst aussah“ – Wiederholte Kompetenzbehauptungen erklären die Figur, statt ihre Erfahrung durch konkrete Entscheidungen sichtbar zu machen.",
+          "„die drei Menschen darauf, die sie nicht kannte, bis auf Wessel und Hahn“ – Umständliche, sich unmittelbar relativierende Aussage: Zwei der drei kennt sie gerade doch.",
+          "„Dann vibrierte es wieder.“ – Der zusätzliche Anruf wiederholt den bereits abgeschlossenen Schlussimpuls, statt ihn zu verstärken. Insgesamt bleibt der Text zudem deutlich unter der gewünschten Länge."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Der Mann mit dem Fahrrad schaltete sein Rücklicht aus.“ / „Sie wartete, bis das Blinken seines Rücklichts im Nebel verschwunden war.“ – Kleiner Anschlussfehler: Das zuvor ausgeschaltete Rücklicht blinkt beim Verlassen wieder, ohne dass ein erneutes Einschalten gezeigt wird."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Sie hörte, wie das Seil über eine Rolle sprang und wieder in die Führung fand.“ / „Klang immer so.“ – Ein aus der Führung springendes Führungsseil wird als belanglose Routine behandelt. Das erzeugt eine technische Gefährdung, die die Szene weder erkennt noch plausibel einordnet.",
+          "„Drüben kommt man aber raus, oder?“ / „Und wenn man die Anleger nicht sieht?“ / „War das normal?“ – Die Fahrgäste liefern nacheinander sehr ähnliche Stichworte für Ilses knappe Überlegenheitsantworten. Dadurch wirken sie funktional statt eigenständig.",
+          "„An solchen Morgen half es, sich an die kleinen Dinge zu halten: Seil, Rollen, Hebel. Der Rest kam von selbst.“ – Erklärender Merksatz über eine Haltung, die die Handgriffe bereits vermitteln; zudem recht allgemeine Lebensweisheitsformel.",
+          "„Ilse sah auf die Zahl neben seinem Namen, bis der Bildschirm heller wurde.“ – Die nicht näher bestimmte Zahl und das nachträgliche Hellerwerden des bereits abgelesenen Anrufbildschirms machen den entscheidenden Schlussmoment unnötig undeutlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "„am Dömitzer Ufer“ / „zurück auf die Hitzacker Seite“ – Dömitz und Hitzacker sind keine gegenüberliegenden Uferorte einer kurzen Querung. Die wiederholten Überfahrten beruhen auf einer grundlegend falschen räumlichen Anlage.",
+          "„Das Seil lief durch ihre Handflächen, Glied um Glied“ – Ein Seil besitzt keine Kettenglieder. Die mehrfach wiederholte Formel macht den technischen Fehler zum Leitmotiv.",
+          "„Zwei Euro zwanzig.“ / „Er schob das Geldstück durch den Spalt.“ – Den genannten Fahrpreis kann Peters nicht mit einem einzelnen regulären Eurogeldstück bezahlen; Wechselgeld oder weitere Münzen fehlen.",
+          "„Woher wissen Sie das.“ / „Bei welcher Sicht.“ / „Hitzacker Seite“ – Die direkten Fragen benötigen Fragezeichen; die Ortsnamenverbindung müsste etwa „Hitzacker-Seite“ heißen.",
+          "„als hätte die Elbe in der Nacht geatmet und vergessen, den Atem wieder einzuziehen“ / „wie Milch, in die jemand Licht gekippt hatte“ / „wie ein Tropfen Tinte in Wasser“ – Die gehäuften Bilder überladen den gewöhnlichen Morgen. Der Text überschreitet außerdem den Umfang von etwa 900 Wörtern deutlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„das andere Ufer nur an dem Geräusch erkannte, das es machte: ein leises Klopfen, wenn die Strömung die Fähre gegen die Bohlen am Anleger drückte“ – Das Klopfen der eigenen Fähre am Anleger lokalisiert das gegenwärtige, nicht das andere Ufer. Schon die räumliche Ausgangssituation ist widersprüchlich.",
+          "„ging ins Steuerhaus und löste die Festmacher mit dem Fuß“ – Die Inszenierung lässt offen, wie Ilse vom Steuerhaus aus die Festmacher am Anleger bedienen kann. Für einen so konkret beschriebenen Handgriff fehlt die räumlich-technische Plausibilität.",
+          "„wie es Henning ihr gezeigt hatte“ / „das er vor Jahren selbst eingestellt hatte, als er einmal bei ihr gewesen war“ – Zwei ausdrückliche Rückgriffe auf frühere Ereignisse tragen Hintergrundinformationen nach. Besonders die Fotoerklärung unterbricht entgegen der Vorgabe den gegenwärtigen Schlussmoment.",
+          "„Sie hätte es auch ohne Finger gehalten.“ – Das Bild soll mühelose Beherrschung vermitteln, bleibt aber sachlich leer: Wie das Ruder ohne Berührung gehalten würde, ist nicht nachvollziehbar.",
+          "„Und wenn der Notfall kommt?“ / „Dann ist er schon da, wenn ich den Motor brauche.“ – Die Antwort klingt pointiert, beantwortet aber nichts. Zusammen mit mehreren ähnlich gebauten Wortwechseln wirkt Ilses Wortkargheit zunehmend wie eine vorgeführte Schlagfertigkeitsroutine."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "E",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 7625,
+    "out": 2434,
+    "thinking": 945
+  },
+  "costUsd": 0.03959
+}

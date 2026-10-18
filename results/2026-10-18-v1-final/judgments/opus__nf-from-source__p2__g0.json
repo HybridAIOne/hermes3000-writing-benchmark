@@ -1,0 +1,130 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Sie ist vor allem eine Verbindung, auf die viele Menschen angewiesen sind, und erst in zweiter Linie ein Geschäft.“ – Der Bezug von „Sie“ ist nach der Frage zur Rechtsform kurz unklar.",
+          "„Sie betrieben gemeinsam, was jeder von ihnen brauchte, aber allein kaum hätte tragen können.“ – Deutung, die über die Quelle hinausgeht."
+        ],
+        "unsupported": [
+          "„was jeder von ihnen brauchte, aber allein kaum hätte tragen können“ (Motiv der Gründer nicht belegt)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die Zahlen zeigen, dass das Modell trägt.“ – Wertung; bei 29 Prozent Gemeindezuschuss nicht ohne Weiteres gedeckt.",
+          "„Dort ist der Fluss 212 Meter breit.“ – Die Quelle bezieht die Breite auf die Fährstelle, nicht allgemein auf Hitzacker.",
+          "„Die Genossenschaft entstand 1953 aus einer Notlage.“ – Zuspitzung über die Quelle hinaus.",
+          "Überschrift in Fettdruck, obwohl nur Buchtext verlangt war."
+        ],
+        "unsupported": [
+          "„Die Zahlen zeigen, dass das Modell trägt.“",
+          "„aus einer Notlage“",
+          "„ein Gemeinschaftsgut ist, das nicht von einem einzelnen Eigentümer abhängen soll“"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die Fahrgeldeinnahmen allein bilden somit nicht die gesamte Finanzierung.“ – Füllsatz, der nur Gesagtes wiederholt.",
+          "„Der laufende Betrieb finanziert sich aus Fahrkartenverkäufen und einem Zuschuss der Gemeinde. … 71 Prozent aus Fahrkartenverkäufen und 29 Prozent aus dem Gemeindezuschuss.“ – Doppelung.",
+          "„Heute treibt ein 85-kW-Dieselmotor die am Führungsseil hängende Fähre an“ – Technik ist unpassend in den Absatz über die Rücklage eingeschoben.",
+          "„Für diese Verbindung führt die Genossenschaft Beteiligung, gleiches Stimmrecht und Vorsorge zusammen“ – papierne Zusammenfassung, wiederholt Absatz 2 und 3."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„ist auch die zukünftige Erneuerung der Fähre bereits abgesichert“ – Überzeichnung; die Quelle sagt nur, die Rücklage „soll“ bis 2031 ausreichen.",
+          "„Da die erwirtschafteten Überschüsse vollständig in die Rücklage fließen“ – „vollständig“ ist so nicht belegt.",
+          "„Warum die Genossenschaft für die Fähre besonders passend ist, zeigt der Umgang mit den Einnahmen.“ – Die Begründung bleibt dünn; es folgen nur Zahlen.",
+          "„von 41 Landwirten und Händlern aus beiden Elbufern“ – unidiomatisch, besser „von beiden Elbufern“.",
+          "„Die grundlegende Funktionsweise der Genossenschaft zeigt sich heute im Zusammenwirken ihrer mittlerweile 312 Mitglieder.“ – Nominalstil, Füllformulierung."
+        ],
+        "unsupported": [
+          "„ist auch die zukünftige Erneuerung der Fähre bereits abgesichert“",
+          "„vollständig in die Rücklage fließen“",
+          "„lässt sich der laufende Betrieb dauerhaft sichern und technisch anpassen“"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 6,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„seit über siebzig Jahrzehnten in Betrieb“ – sachlich falsch; gemeint sind etwa sieben Jahrzehnte bzw. siebzig Jahre.",
+          "„Der Fährbetrieb ist wirtschaftlich klein und kaum renditestark – für einen privaten Investor wenig attraktiv.“ – nicht durch die Quelle gedeckt.",
+          "„es gilt „ein Mitglied, eine Stimme\".“ – falsches schließendes Anführungszeichen.",
+          "„# Die Fährgenossenschaft Hitzacker: Genossenschaft in der Praxis“ – Markdown-Überschrift, obwohl nur Buchtext verlangt war.",
+          "„Die Genossenschaft aber verfolgt keinen Gewinnzweck“ – pauschale Behauptung über diese Genossenschaft, über die Quelle hinaus."
+        ],
+        "unsupported": [
+          "„seit über siebzig Jahrzehnten in Betrieb“",
+          "„wirtschaftlich klein und kaum renditestark – für einen privaten Investor wenig attraktiv“",
+          "„verfolgt keinen Gewinnzweck“"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "B",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 7180,
+    "out": 3184,
+    "thinking": 1286
+  },
+  "costUsd": 0.0924
+}

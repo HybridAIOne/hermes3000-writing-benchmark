@@ -1,0 +1,16 @@
+{
+  "task": "ctx-saltzbrueck-5",
+  "model": "gpt-6-luna",
+  "run": 3,
+  "judge": "gemini",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 2156,
+    "out": 24,
+    "thinking": 0
+  },
+  "costUsd": 0.004552
+}

@@ -1,0 +1,139 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "F": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„hin und zurück ein Vierteljahrstündchen“ – falsches Wort (Viertelstündchen) und Logikbruch: elf Minuten pro Fahrt ergeben hin und zurück keine Viertelstunde",
+          "„Er war dünner geworden“ – direkt nach „einen Mantel, der zu dünn war“, unschöne Wortwiederholung",
+          "„in kurzen, nassen Zügen gegen die Pontons“ – „nass“ beim Wasser ist redundant",
+          "„obwohl es nichts zu kontrollieren gab“ – abgegriffene Formel",
+          "„dieses Schweigen, das mehr Platz brauchte als ein Satz“ – leicht erklärend"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Sie hatte ihn seit einer halben Stunde gesehen.“ – „seit“ mit punktuellem Verb im Plusquamperfekt ist schief (besser: „schon vor einer halben Stunde“)",
+          "„ließ einmal die Scheinwerfer aufblenden“ – umständlich und idiomatisch falsch (blendete auf)",
+          "„Bis kein Wind mehr geht.“ – Sprecherzuordnung und Sinn unklar",
+          "„Ilse ging an ihm vorbei zum Schaltkasten“ / „Sie stieg auf die Fähre“ – räumlich widersprüchlich, da sie bereits auf der Fähre stand",
+          "„Sie prüfte den Hebel, obwohl es nichts zu prüfen gab.“ – abgegriffene Formel"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "Mit rund 560 Wörtern deutlich über der Vorgabe von etwa 400",
+          "„*Betriebspause*“ – Markdown-Sternchen im Buchtext",
+          "„Es war der Blick, mit dem er Tabellen prüfte.“ – erklärend und klischeehaft",
+          "„Unter seinen Augen lagen dunkle Schatten, die nicht von der frischen Luft kamen.“ – schiefe Begründung",
+          "„Sie nickte Richtung Fährhaus. ‚Lass das Ding stehen.‘“ – anschließend trägt er den Koffer doch aufs Deck, räumlich unklar"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Der Motor war nicht das Thema, und Jonas wusste das so gut wie sie.“ – erklärt statt zu zeigen",
+          "„eher so, wie Männer lachen, wenn sie merken, dass sie ein Spiel schon verloren haben“ – Klischee",
+          "„Die Fähre hält nicht ewig“ – nähert sich dem verbotenen direkten Verkaufsthema",
+          "„feine Risse wie auf altem Porzellan“ – abgegriffener Vergleich",
+          "Ilses lange Ansage („Du bleibst bis morgen früh … Ich rede unterwegs nicht.“) passt nicht zur wortkargen Figur"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Sie löste die Leine wieder vom Poller.“ vs. später „prüfte die Leine. Der Knoten saß.“ – Logikbruch",
+          "„zog den Reißverschluss seiner Jacke“ vs. „Der Regen hatte seinen Mantel dunkel gemacht“ – Kleidungswechsel",
+          "„strich sich mit dem Handrücken über die Stirn, obwohl es regnete“ – unlogisches „obwohl“",
+          "„Den Haustürschlüssel nahm sie heraus.“ – unklare Schlüsselchoreografie, die Entscheidung („Ich setz Wasser auf“) fällt bereits früher",
+          "„Er hatte immer schon gefroren, sobald er aus dem Zug stieg, auch als Kind.“ – schief"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Dabei war er auf diesen Bohlen laufen gelernt.“ – Grammatikfehler (hatte … laufen gelernt)",
+          "„Man hört ihn bis zur Brücke.“ – für eine Seilfähre bei Hitzacker räumlich fragwürdig",
+          "„Henning hätte sie längst ausgetauscht. Henning hätte auch …“ – Anapher grenzt an Masche"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "F",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 9337,
+    "out": 4486,
+    "thinking": 2786
+  },
+  "costUsd": 0.127068
+}

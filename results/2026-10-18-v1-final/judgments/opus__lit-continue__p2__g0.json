@@ -1,0 +1,120 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Sie stieg auf die Fähre und löste die Leine.“ – unklare Choreografie: Zuvor nimmt sie die Mütze vom Steuerhaus der Fähre, nun steigt sie erst auf die Fähre.",
+          "„Sie hätte ihn nicht danach fragen müssen, wann er zuletzt hier gewesen war.“ – logisch schief, sie hat ihn gar nicht gefragt.",
+          "„Ilse ließ die Hand sinken, ohne sie noch einmal zu heben.“ – Die Hand wurde lange vorher gehoben; das Senken kommt unmotiviert.",
+          "„Bis kein Wind mehr geht.“ – als Antwort zu kryptisch, der Dialogfaden ist schwer nachzuvollziehen.",
+          "„Ich komme nicht vom Wandern.“ – etwas konstruiert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„und war erst angelegt, als das Schiff ruhig im Wasser lag“ – falsches Hilfsverb (hatte angelegt), zudem eine tautologische Logik.",
+          "„Vom Deich wehte der Wind Gras und Salz herunter“ – Salzluft bei Hitzacker an der Mittelelbe ist unplausibel.",
+          "„ruhig und gleichgültig, wie er es seit Jahrhunderten tat“ – Klischee.",
+          "„empfand dabei nichts, was sie hätte benennen können. Vielleicht eine Müdigkeit“ / „Es war kindisch. Sie wusste es.“ – Erklären statt Zeigen.",
+          "„Der Fluss hat keinen Fahrplan.“ – Sentenz wirkt aufgesetzt, die wortkarge Figur redet am Ende zu viel."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 6,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Die Fahrt dauerte elf Minuten, hin und zurück ein Vierteljahrstündchen“ – Rechenfehler (22 Minuten sind keine Viertelstunde) und falsches Wort (Viertelstündchen).",
+          "„Er war dünner geworden, oder sie hatte ihn größer in Erinnerung.“ – Der Vergleich passt nicht (dünner vs. größer).",
+          "„Das Seil spannte sich und sang leise.“ – leicht kitschig.",
+          "„Das hatte er von ihr, dachte Ilse, dieses Schweigen, das mehr Platz brauchte als ein Satz.“ – erklärt, was die Szene schon zeigt.",
+          "„der alte Außenborder unter einer Persenning hockte“ – ein Außenborder an einer Seilfähre mit Autos wirkt technisch fragwürdig."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 5,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Du hast grau geworden“ – Grammatikfehler (bist grau geworden).",
+          "„Sie hakte die Leine ab und stieg an Bord zurück“ – Sie hat gerade festgemacht; die sofortige Abfahrt mit Jonas ist unmotiviert.",
+          "„Ein Junge, dachte sie, der seinen Koffer hinter sich herzieht wie einen Hund.“ – schiefes Bild.",
+          "„und der Fluss trug einen nicht allein ans andere Ufer, wenn man alt wurde“ – erklärende Sentenz.",
+          "„die alles mit den Augen aufnahmen wie ein Gutachten“ – unscharfer Vergleich, zudem eine überdeutliche Anspielung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Ilse nahm die Leine vom Poller und wickelte sie ordentlich auf.“ – Die Fähre ist danach unvertäut, während beide in der Hütte sind (Logikbruch).",
+          "„Das Wort lag zwischen ihnen, klein und alt.“ – leicht formelhaft.",
+          "„als ließe sich das Problem mit genug Kraft beheben“ – kommentierend.",
+          "„Ich wohne hier.“ – Die Replik auf „Du auch“ bleibt in ihrer Logik unscharf."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "C",
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 7635,
+    "out": 4409,
+    "thinking": 2809
+  },
+  "costUsd": 0.11872
+}

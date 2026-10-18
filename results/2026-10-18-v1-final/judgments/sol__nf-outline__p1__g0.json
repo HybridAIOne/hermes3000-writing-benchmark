@@ -1,0 +1,113 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„obwohl du formal keine Anweisungen geben darfst“: Der Text setzt fehlende Weisungsbefugnis voraus. Die Aufgabenstellung nennt jedoch Teamleiter ohne Führungsausbildung; daraus folgt keine fehlende formale Befugnis.",
+          "„wie du dich aus dem Tagesgeschäft zurückziehst“: Für Teamleiter in mittelständischen Firmen ist ein Rückzug aus dem Tagesgeschäft kein allgemein passendes Ziel. Gefragt wäre eine praktikable Balance zwischen Mitarbeit und Führung.",
+          "„Dein eigener Kompass – gesund bleiben und deinen Weg finden“: Das Schlusskapitel behandelt Abschalten und Karriereplanung statt ausdrücklich die geforderte eigene Führungshaltung.",
+          "„Zwischen den Stühlen – der richtige Umgang mit deinem eigenen Chef“: Die Klärung von Auftrag und Rückendeckung kommt erst in Kapitel 6. Als Grundlage für Delegation und Entscheidungen müsste sie deutlich früher stehen.",
+          "„vom geschätzten Kollegen zum Respektierten“: Die substantivierte Formulierung wirkt unidiomatisch und stellt Wertschätzung und Respekt unnötig als verschiedene Rollen gegenüber."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Triff Entscheidungen, auch wenn nicht alles klar ist“: Das grundlegende Entscheidungshandwerk erscheint erst nach Delegation und schwierigen Gesprächen. Vor diesen Anwendungen wäre es im geforderten aufbauenden Ablauf schlüssiger.",
+          "„Du findest den Übergang vom Kollegen zum Teamleiter“: Die Verbindung „den Übergang finden“ ist unidiomatisch; passend wäre etwa „Du gestaltest den Übergang“.",
+          "„Du wägest ab“: Die altertümlich wirkende Form passt nicht zur sonst direkten Alltagssprache; zeitgemäß und unauffällig wäre „Du wägst ab“."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Klare Erwartungen setzen, ohne zu überfordern“ und „Aufgaben abgeben und loslassen“: Aufgabenformulierung und Nachverfolgung in Kapitel 3 überschneiden sich mit der Delegation in Kapitel 4; die Zuständigkeit der Kapitel müsste enger abgegrenzt werden.",
+          "„mit ehemaligen Kollegen auf Augenhöhe klarkommst, die jetzt deine Mitarbeiter sind“: Dieses zentrale Thema des Rollenwechsels kommt erst in Kapitel 8. Es gehört an den Anfang, nicht in das späte Kapitel zur Vertretung nach außen.",
+          "„welche Fehler neue Führungskräfte in den ersten Wochen fast immer machen“: „Fast immer“ ist eine pauschale Zuspitzung ohne sachlichen Gewinn.",
+          "„wie du Übergaben so gestaltest, dass sie beim ersten Mal klappen“: Das verspricht eine Erfolgssicherheit, die auch gute Delegation nicht gewährleisten kann.",
+          "„Führung keine Technik ist, sondern eine Entscheidung, die du jeden Tag triffst“: Der Schluss ersetzt eine konkrete Beschreibung der eigenen Haltung durch eine pathetische und sachlich zu einfache Entgegensetzung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Was sich am ersten Tag in der neuen Rolle wirklich ändert“ und die folgenden Beschreibungen nach demselben Muster: Die Erläuterungen sind durchgehend elliptische Satzfragmente statt der ausdrücklich verlangten vollständigen Sätze.",
+          "„warum du in den ersten Wochen mehr zuhören als entscheiden solltest“ und „Wie du in Einzelgesprächen herausfindest, was deine Leute antreibt“: Kapitel 1 greift das erkundende Zuhören aus Kapitel 3 vorweg; die geforderte Überschneidungsfreiheit ist dadurch nicht ganz erreicht.",
+          "„Rückmeldung im Alltag“ und „schwierige Gespräche“: Die Beschreibungen trennen alltägliche Kritik und Gespräche über schwache Leistung noch nicht trennscharf genug. Hier wäre eine ausdrückliche Grenze zwischen kurzer Rückmeldung und vorbereitetem Klärungsgespräch nötig.",
+          "„der beste Sachbearbeiter im Team“: Die Formulierung verengt die branchenübergreifende Zielgruppe unnötig auf Büro- und Verwaltungsarbeit.",
+          "„Aufbau: Die Kapitel 1 und 2 klären deine Rolle“: Der zusätzliche Absatz wiederholt überwiegend die bereits erkennbare Gliederungslogik und ist für die verlangte knappe Gliederung entbehrlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "E",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 3036,
+    "out": 1500,
+    "thinking": 311
+  },
+  "costUsd": 0.021072
+}

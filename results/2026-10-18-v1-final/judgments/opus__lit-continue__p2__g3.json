@@ -1,0 +1,139 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "F": {
+      "model": "gemini-4-argon",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die Hütte war enger, als er sie in Erinnerung hatte.“ – Blick in Jonas' Kopf, Bruch der personalen Perspektive, nur halb aufgefangen durch „Oder er brachte jetzt mehr mit.“",
+          "„Sie hob die Hand. Der Wagen hielt oben an der Ausweiche“ … „Dann ließ sie die Kette hängen“ – Krüger wird herangewinkt und dann stehen gelassen, Handlungslogik bleibt offen",
+          "„„Ich weiß, wie sie funktioniert“, sagte Jonas.“ – Replik ohne erkennbaren Anlass im Dialog",
+          "„oben einen Knopf zu wenig geschlossen für das Wetter“ – umständlich formuliert"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 4,
+        "fehler": [
+          "„Seitdem zieh ich mit der Hand.“ … „Sie holte die Handkurbel … legte sie auf die Ducht“ – widersprüchlich: Mal wird gezogen, mal wird der kaputte Motor angekurbelt; „Ducht“ und „Ruder“ passen zum Ruderboot, nicht zur Seilfähre",
+          "„Der Deutz … stand still“ – Die Fähre hat gerade angelegt, wie kam sie ohne Motor herüber? Das wird erst nachträglich und unklar erklärt",
+          "„vertraut wie das eigene Kissen“ – abgegriffener Vergleich",
+          "„Ilse merkte, dass sie den Atem angehalten hatte, und zwang sich, ihn wieder fließen zu lassen.“ – Klischee",
+          "„Der Bus nach Dannenberg fuhr um fünf, und es war kurz nach halb vier.“ – funktionsloses Detail"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Der klingt wie ein Traktor mit Bronchitis.“ – etwas zu pointiert-witzig",
+          "„Das Wasser war jetzt bis an seine Knöchel durch das Leder gedrungen, man sah es an der Art, wie er die Zehen hob.“ – schief, Knöchel und Zehen passen nicht zusammen",
+          "„Ilse wusste, dass das etwas bedeutete, und sie wusste auch, dass sie es nicht wissen wollte.“ – erklärt statt zeigt",
+          "Mit ca. 470 Wörtern leicht über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„und die Fähre zog daran wie ein Tier an der Kette“ – Die Fähre liegt fest am Poller, das Bild passt nicht zur Situation",
+          "„Wenn du mitwillst, zieh die an.“ – Warum er für die Überfahrt Stiefel braucht, bleibt unlogisch",
+          "„weil ein Radfahrer mit seinem Rad über die Rampe schob … nahm ihm das Geld ab“ – Pleonasmus; unklar, ob er an Bord geht oder von Bord kommt",
+          "„und wartete, dass jemand ihm sagte, wohin er gehörte“ – zu deutlich ausgesprochen",
+          "„Das hatte er schon als Kind gekonnt, wenn er nasse Füße hatte“ – Tempusverschiebung, besser „gehabt hatte“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„auch Henning seinen“ – umgangssprachliche Dativ-Possessivform in der Erzählstimme, richtig: „auch Hennings“",
+          "„man schütte keinen Kaffee weg, man wärmt ihn auf“ – Modusbruch in der indirekten Rede",
+          "„klagten wie ein Tier, das man mitnimmt und das nicht mitgenommen werden will“ – überladener Vergleich",
+          "„Henning hatte genickt wie ein Mann, der Holz nimmt: endgültig.“ – schiefes Bild",
+          "Mit ca. 520 Wörtern deutlich zu lang; die Schlussentscheidung ist verschwurbelt: „wenn sie es richtig machte: bis morgen früh, nicht länger“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "Mit ca. 600 Wörtern weit über der Vorgabe von etwa 400",
+          "„„Der Pegel fällt“, log sie ruhig“ – erklärt statt zeigt",
+          "„ratterten ohrenbetäubend“ – Übertreibung",
+          "„ein silberner Kombi mit Münchner Kennzeichen“ – unplausibel bei einem Mietwagen aus Hamburg; die Szene am Anleger („als wäre der Anleger ein Bahnsteig“) wird verwässert",
+          "„er roch nach Rasierwasser und der klimatisierten Luft aus dem ICE“, „dieses schnelle, glatte Lächeln“ – adjektivlastige Typisierung des Beraters"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "D",
+      "E",
+      "F",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 9478,
+    "out": 4407,
+    "thinking": 2494
+  },
+  "costUsd": 0.126052
+}

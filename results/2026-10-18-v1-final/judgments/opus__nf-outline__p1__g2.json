@@ -1,0 +1,115 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "Kap. 6 „Du gibst konkrete Rückmeldungen“ und Kap. 7 „sprichst wiederholte Fehler … direkt an“: Die Grenze zwischen Feedback und schwierigem Gespräch ist unscharf.",
+          "Kapitelsätze wie „findest einen fairen Umgang mit Nähe und Distanz“ bleiben abstrakt und wenig anschaulich.",
+          "„Du prüfst deine Erfahrungen“: Die Formulierung ist blass und unkonkret."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Kap. 3 „Wie du mit deinem eigenen Vorgesetzten klärst, was er von dir erwartet“ steht erst nach „Erst verstehen, dann verändern“. Die Auftragsklärung gehört logisch an den Anfang.",
+          "Kap. 5 „Sag klar, was du willst“ und Kap. 6 „Rückmeldungen im Alltag“ überschneiden sich leicht beim Thema Erwartungen und Feedback.",
+          "Einige Kapitelsätze sind sehr lang, etwa Kap. 1 „Was sich vom einen Tag auf den anderen ändert, … nicht bleiben kann, wie es war.“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Du wägest ab“ ist eine falsche Verbform. Richtig wäre „Du wägst ab“.",
+          "Kap. 8 „Schaffe einen verlässlichen Arbeitsrhythmus“ steht nach den Kapiteln zu schwierigen Gesprächen und Entscheidungen. Der Aufbau bricht hier, denn Alltagsorganisation gehört vor die schweren Momente.",
+          "Kap. 3 „Vertrauen entsteht im Alltag“ ist sehr allgemein gehalten: „verlässlich handelst, aufmerksam zuhörst und dein Team fair behandelst“.",
+          "Kap. 1 „Du findest den Übergang vom Kollegen zum Teamleiter“ und Kap. 2 „Kläre deinen Auftrag“ grenzen den Einstieg nicht klar voneinander ab."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Herzlichen Glückwunsch, Sie führen jetzt“ bricht mit der Sie-Form die geforderte Du-Ansprache.",
+          "„ohne auf dicke Hose zu machen“ ist zu salopp für ein Sachbuch.",
+          "„Die ersten 90 Tage“ ist eine Ratgeber-Floskel und nah am Buzzword.",
+          "Kap. 8 „Nach oben und zur Seite“ kommt zu spät. Die Klärung mit der Geschäftsführung gehört an den Anfang. Außerdem überschneidet sich Kap. 1 mit Kap. 2 beim Thema Rollenwechsel.",
+          "Der Hinweis „über die Arbeit mit dem Team (3–6) bis zur Position im Unternehmen (8)“ unterschlägt Kapitel 7."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„dich gegenüber deinem Chef abgrenzst“ ist eine falsche Verbform. Richtig wäre „abgrenzt“.",
+          "Kap. 8 „Die Brücke nach oben“ steht zu spät. Die Klärung mit dem Vorgesetzten gehört in die Anfangsphase.",
+          "Kap. 1 „warum du nicht sofort alles umkrempeln musst“ überschneidet sich mit Kap. 3 „bevor du Entscheidungen triffst“.",
+          "„so dass Verantwortung wirklich wandert“ ist eine schiefe Bildsprache."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "E",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 5661,
+    "out": 2515,
+    "thinking": 1036
+  },
+  "costUsd": 0.072944
+}

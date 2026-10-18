@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "Es ist Dienstag, kurz nach halb neun. Du stehst mit deinem Kaffee in der Teeküche, und Markus kommt herein, grüßt knapp und schaut dabei auf die Spülmaschine statt zu dir. Du weißt, was los ist. Vor zwei Wochen hat er die Kundenpräsentation verschoben, ohne Bescheid zu sagen. Du hast es erst gemerkt, als der Kunde anrief. Seitdem hast du dir dreimal vorgenommen, mit ihm zu reden. Montag war zu hektisch, am Mittwoch hattest du Jahresgespräche, und letzten Freitag wolltest du ihm „nicht das Wochenende verderben\". Jetzt steht er zwei Meter von dir entfernt, und du sagst: „Na, alles gut bei dir?\" Er sagt: „Ja, alles gut.\" Und damit ist die nächste Gelegenheit vorbei. Kennst du das? Dann bist du in guter Gesellschaft. Die meisten Teamleiter schieben unangenehme Gespräche vor sich her, und zwar nicht aus Faulheit. Sie haben Sorge, etwas kaputt zu machen: das gute Klima, die Beziehung, den eigenen Ruf als jemand, mit dem man auskommt. Das Problem verschwindet dadurch aber nicht. Es wird größer, und irgendwann kommt es in einer Form zurück, die du dir nicht ausgesucht hast, als gereizte Mail, als Streit in der Besprechung oder als Kündigung. In diesem Kapitel geht es darum, wie du solche Gespräche früher, klarer und ohne Drama führst. Du brauchst dafür kein Rhetoriktraining, aber ein paar einfache Gewohnheiten, die du schon morgen ausprobieren kannst.",
+  "usage": {
+    "in": 278,
+    "out": 730,
+    "thinking": 79
+  },
+  "costUsd": 0.007856,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 6588,
+  "meta": [],
+  "at": "2026-10-17T17:50:26.459Z"
+}

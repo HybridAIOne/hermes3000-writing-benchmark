@@ -1,0 +1,20 @@
+{
+  "task": "ed-feedback",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "judge": "gemini",
+  "verdict": {
+    "found": [
+      "rampe",
+      "tempus",
+      "fahrgaeste"
+    ],
+    "false_alarms": 0
+  },
+  "usage": {
+    "in": 974,
+    "out": 40,
+    "thinking": 0
+  },
+  "costUsd": 0.002348
+}

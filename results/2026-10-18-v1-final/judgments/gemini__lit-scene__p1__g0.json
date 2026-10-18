@@ -1,0 +1,110 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "Es schmeckte scharf und unverkennbar nach bitteren Mandeln.",
+          "dem süßlichen Verfall von Äpfeln, die irgendwo im Keller vergessen worden waren",
+          "Kein Staubtuch hatte diese Oberflächen berührt, seit der Sarg durch genau diesen schmalen Gang getragen worden war",
+          "Es roch nach der Abwesenheit von allem."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 5,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "fein wie ein Schmutzfingerrad",
+          "**Das Haus der Mutter**",
+          "rissig wie eine Trockenheit",
+          "ausgestandenem Kamin",
+          "Die Stille hatte Konsistenz, fast einen Geruch – oder der Geruch hatte Stille"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Im Flur hatte sie die Tür zum Keller übersehen. Sie war nicht ganz geschlossen. Der schmale Spalt darunter war dunkel, obwohl das Licht von der Küche bis an die Schwelle reichte.",
+          "An ihrem Daumen klebte ein einzelnes, blaues Fädchen. Sie wusste nicht, woher es kam."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Erst in der Küche roch sie es. [...] Im Wäscheschrank oben fand sie die Frucht schließlich doch"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "die Fensterläden geschlossen wie Lider",
+          "die Uhr über der Tür, die stehen geblieben war um zwanzig nach vier"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "D",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 3251,
+    "out": 635,
+    "thinking": 0
+  },
+  "costUsd": 0.012852
+}

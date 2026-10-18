@@ -1,0 +1,117 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Leichte Überschneidung: Kapitel 1 „warum du in den ersten Wochen mehr zuhören als entscheiden solltest“ greift dem Kennenlernen in Kapitel 3 und dem Entscheiden in Kapitel 5 vor",
+          "Der Anhang „Zur Abgrenzung: …“ war nicht verlangt und verrät, dass die Abgrenzung ohne Erklärung nicht selbsterklärend ist",
+          "Kapitel 10 bündelt in einem Satz drei Dinge: „woran man dich erkennen soll, wie du mit eigenen Fehlern umgehst und was du nicht mitmachst“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Chatbot-Vorspann: „Hier ist die Gliederung für das Sachbuch …“",
+          "Aufbau bricht: Das Kennenlernen des Teams („Verschiedene Köpfe unter einen Hut bringen“) steht erst in Kapitel 7, nach den schwierigen Gespräche",
+          "Unbelegte Annahme über die Rolle: „obwohl du weder Gehälter erhöhen noch Abmahnungen schreiben darfst“",
+          "Überschneidung: Kapitel 2 „Aufgaben so abgibst, dass sie … erledigt werden“ und Kapitel 3 „dass am Ende jeder weiß, was er zu tun hat“",
+          "Floskeln: „Werkzeuge an die Hand“, „Zwischen Baum und Borke“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Uneinheitliche Titelform: Die meisten Titel sind Imperative, aber „Gestern Kollege, heute Teamleiter“ und „Erst verstehen, dann verändern“ nicht",
+          "Abstrakt und blass: „Sorge dafür, dass die Zusammenarbeit läuft“",
+          "Behördenton: „Entwicklungsbedarf“, „Lerngelegenheiten“",
+          "Leichte Überschneidung von Kapitel 1 und Kapitel 4 beim Klären von Zuständigkeit und Entscheiden"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "Falsche Verbform: „abgrenzst“ statt „abgrenzt“",
+          "Die Beschreibungen sind keine vollständigen Sätze, sondern Nebensätze: „Wie du delegierst …“, „Was in deinen ersten Tagen …“",
+          "Überschneidung zwischen „Reden, bevor es brennt“ und „Das schwierige Gespräch“",
+          "Unglücklich formuliert: „wo Kontrolle hingehört und wo sie nur Misstrauen ist“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "Falsche Verbform: „Du wägest ab“ statt „Du wägst ab“",
+          "Gemeinplatz ohne Anschaulichkeit: „indem du verlässlich handelst, aufmerksam zuhörst und dein Team fair behandelst“",
+          "Überschneidungen: Kapitel 4 „setzt Prioritäten“ und Kapitel 7 (Entscheidungen) sowie Kapitel 5 „vereinbarst“ und Kapitel 8 „klare Absprachen“",
+          "Aufbau: „Schaffe einen verlässlichen Arbeitsrhythmus“ kommt erst in Kapitel 8, nach den schwierigen Gesprächen",
+          "Kapitel 1 vermischt den ersten Tag mit dem Rollenwechsel vom Kollegen zum Teamleiter, der ein eigenes Thema wäre"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "C",
+      "D",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 5899,
+    "out": 2813,
+    "thinking": 1382
+  },
+  "costUsd": 0.079856
+}

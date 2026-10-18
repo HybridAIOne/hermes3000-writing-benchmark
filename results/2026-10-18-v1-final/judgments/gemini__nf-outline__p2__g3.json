@@ -1,0 +1,129 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "F": {
+      "model": "kimi-k3",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "**6. Feedback als Gewohnheit** (Management-Anglizismus trotz Buzzword-Verbot)",
+          "**1. Der erste Tag** ... **3. Vom Kollegen zum Vorgesetzten** (Thematische Überschneidung: Der Rollenwechsel im Team ist Kern des ersten Tages)",
+          "Wie du ... Wie du ... Wie du ... (9 von 10 Beschreibungssätzen sind keine vollständigen Hauptsätze, sondern monotone 'Wie du'-Fragmente)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Hier ist die Gliederung für das Sachbuch **„Führen ohne Titel“**: (Unnötiger Chatbot-Einleitungssatz)",
+          "Zum Abschluss reflektierst du (leichtes Berater-Vokabular)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "3. **Lerne die Menschen im Team kennen** (Ignoriert die typische Mittelstands-Situation des internen Aufstiegs; klingt nach externem Neuzugang)",
+          "8. **Schaffe verlässliche Abläufe im Team** (Brüchige Dramaturgie: Grundlegende Alltagsroutinen kommen erst nach den 'schwierigen Gesprächen' in Kapitel 7)",
+          "Du besprichst mit deiner Führungskraft (Steifes Konzerndeutsch statt mittelstandsnaher Sprache)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "**Zum Aufbau:** Kapitel 1–3 behandeln den Einstieg... (Ungefragter Meta-Kommentar am Ende)",
+          "**4. Loslassen lernen** ... **5. Sag klar, was du willst** (Thematische Überschneidung beim Aufgabenverteilen und Erwartungenformulieren)",
+          "**9. Pass auf dich auf** ... **10. Wofür du stehst** (Thematische Überschneidung beim Abschlusskapitel zur eigenen Haltung/Abgrenzung)",
+          "Was sich ... Wie du ... Wie du ... (Kein einziger vollständiger Hauptsatz in den Beschreibungen, nur Nebensatz-Fragmente)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "**6. Hilf deinen Leuten, besser zu werden** / Du gibst im Arbeitsalltag konkretes Feedback (Begriff 'Feedback' grenzwertig bei Buzzword-Verbot)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "# „Führen ohne Titel\" – Gliederung (Typografischer Fehler: falsches Zollzeichen statt schließendem deutschen Anführungszeichen)",
+          "## Kapitel 1: Über Nacht Chef – und jetzt? ... ## Kapitel 2: Vom Kollegen zum Vorgesetzten (Starke Überschneidung beim Thema Rollenwechsel)",
+          "Freundschaften sauber umwandeln (Unidiomatische, gestelzte Formulierung)",
+          "## Kapitel 3: Erst zuhören, dann führen ... Verhältnisse und Eigenheiten im Team verstehen (Passt nicht zum internen Aufsteiger, der das Team längst kennt)",
+          "Du erkennst die typische Situation: plötzlich führen, ohne es gelernt zu haben (Kein sauberer Satzbau, Telegrammstil nach Doppelpunkt zieht sich durch fast alle Kapitel)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "B",
+      "A",
+      "D",
+      "C",
+      "F"
+    ]
+  },
+  "usage": {
+    "in": 3684,
+    "out": 1070,
+    "thinking": 0
+  },
+  "costUsd": 0.018068
+}

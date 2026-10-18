@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "claude-sonnet-5.5",
+  "run": 3,
+  "text": "Es ist Dienstag, kurz nach neun. Du stehst in der Teeküche, die Kaffeetasse in der Hand, und siehst durch die offene Tür, wie Markus an seinen Platz schleicht. Zum vierten Mal in drei Wochen kommt er nach halb neun, den Rucksack noch auf einer Schulter, den Blick auf den Boden gerichtet. Du hast dir vorgenommen, mit ihm zu reden. Eigentlich schon letzte Woche. Auf dem Weg zu seinem Schreibtisch legst du dir die ersten Sätze zurecht, aber dann ruft jemand deinen Namen, ein Kunde wartet in der Leitung, und als du wieder Luft hast, ist es elf. Am Ende sagst du im Vorbeigehen: „Na, auch schon da?\", mit einem Lächeln, das ein Scherz sein soll. Markus lacht kurz. Du auch. Und nichts ist geklärt.\n\nFast jeder Teamleiter kennt solche Momente. Du schiebst ein Gespräch vor dir her, weil du Streit fürchtest, die Stimmung nicht verderben willst oder nicht sicher bist, ob du überhaupt im Recht bist. Das ist menschlich. Aber das Problem verschwindet dadurch nicht, es wird nur größer und bekommt Gesellschaft: Die anderen im Team sehen, dass nichts passiert, und zählen mit. In diesem Kapitel geht es darum, wie du solche Gespräche früher, ruhiger und klarer führst, ohne Rhetorikkurs und ohne dich zu verbiegen.",
+  "usage": {
+    "in": 278,
+    "out": 817,
+    "thinking": 237
+  },
+  "costUsd": 0.008726,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 7597,
+  "meta": [],
+  "at": "2026-10-17T17:50:29.867Z"
+}

@@ -1,0 +1,120 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ich hab's gehört“, sagte sie schließlich. – passt nicht als Antwort auf Jonas' Vorwurf; der Dialog bricht logisch",
+          "„Seitdem zieh ich mit der Hand.“ vs. „Dann spuckte der Motor einen blauen Rauchring aus“ – unklar, ob der Motor defekt ist oder nur schwer anspringt",
+          "„Du kannst mitfahren oder hier stehen bleiben“ – Jonas steht bereits mit dem Koffer an der Rampe der Fähre; die räumliche Lage bleibt unklar",
+          "„Ilse merkte, dass sie den Atem angehalten hatte“ – abgegriffene Formel",
+          "„als sei es ein Fremdkörper … als wäre es ein Handtuch am Badesee“ – gehäufte Als-ob-Vergleiche; „Ducht“ ist ein Ruderbootbegriff und passt nicht zur Fähre"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Das Wasser war jetzt bis an seine Knöchel durch das Leder gedrungen“ – physikalisch schief, auf nassen Bohlen dringt das Wasser kaum bis zum Knöchel",
+          "„Ilse wusste, dass das etwas bedeutete, und sie wusste auch, dass sie es nicht wissen wollte“ – erklärend, leicht manieriert",
+          "„so wie er es als Junge getan hatte, wenn er beim Lügen erwischt worden war und es trotzdem weiter versuchen wollte“ – umständlich",
+          "Länge etwa 480 Wörter, leicht über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 6,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„auch Henning seinen“ – umgangssprachlicher Dativ-Possessiv in der Erzählstimme, korrekt wäre „auch Hennings“",
+          "„man schütte keinen Kaffee weg, man wärmt ihn auf“ – Moduswechsel zwischen Konjunktiv und Indikativ in der indirekten Rede",
+          "„er war nur lauter geworden seit Frühjahr“ – fehlender Artikel („seit dem Frühjahr“)",
+          "„wenn sie es richtig machte: bis morgen früh, nicht länger“ – die Schlusspointe ist unklar und die Logik der Entscheidung verschwimmt",
+          "Mit rund 600 Wörtern deutlich über der Vorgabe; „klagten wie ein Tier, das man mitnimmt und das nicht mitgenommen werden will“ ist überladen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„Sie nahm die Leine vom Poller und legte sie über den Arm.“ – Logikbruch: Ilse hat die Leine gerade festgezogen; kurz darauf „Ilse band die Leine fest“ erneut",
+          "„unter einem alten Fahrplan beschwert“ – falsche Präposition, korrekt wäre „mit einem alten Fahrplan beschwert“",
+          "„Sie würde noch einmal übersetzen müssen“ – trotzdem setzt sie Teewasser auf, was der Handlung widerspricht",
+          "„Jetzt sah er müde aus. Oder nur älter.“ – abgenutzte Formel",
+          "Die Stakkato-Dialoge („Aha.“, „Seit immer.“) werden zur Masche"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„ein silberner Kombi mit Münchner Kennzeichen“ – Mietwagen aus Hamburg mit Münchner Kennzeichen, dazu die „klimatisierte Luft aus dem ICE“: Logik der Anreise widersprüchlich",
+          "„log sie ruhig“ – erklärt, statt zu zeigen",
+          "„ratterten ohrenbetäubend über das geriffelte Eisenblech“ – Übertreibung",
+          "„die Schatten unter seinen Augen wirkten wie mit dem Daumen verwischt“ / „dieses schnelle, glatte Lächeln“ – adjektivlastig und konventionell",
+          "„Zu dick für einen bloßen Wochenendbesuch.“ – deutet den Verkauf sehr direkt an; Länge etwa 560 Wörter"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "A",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 8174,
+    "out": 3795,
+    "thinking": 2139
+  },
+  "costUsd": 0.108596
+}

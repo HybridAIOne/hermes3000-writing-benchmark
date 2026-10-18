@@ -1,0 +1,110 @@
+{
+  "task": "nf-from-source",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„Die Beteiligung verbindet sich mit einem Recht auf Mitbestimmung“ (unidiomatisch, besser: ist mit einem Recht verbunden)",
+          "„Die Fahrgeldeinnahmen allein bilden somit nicht die gesamte Finanzierung.“ (redundanter Füllsatz nach der direkten Aufschlüsselung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Rund 64.000 Menschen setzt die Fähre jährlich über die hier 212 Meter breite Elbe über“ (unschöne Präpositions- und Wortdopplung: über ... über)",
+          "„was sich für einen einzelnen Eigentümer kaum lohnen würde“ (unbelegte Spekulation zur Rentabilität)"
+        ],
+        "unsupported": [
+          "was sich für einen einzelnen Eigentümer kaum lohnen würde"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„auf den Menschen und Orte beiderseits der Elbe angewiesen sind“ (nicht durch das Quellmaterial gedeckt)"
+        ],
+        "unsupported": [
+          "auf den Menschen und Orte beiderseits der Elbe angewiesen sind"
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„aus beiden Elbufern“ (aus der Quelle unkorrigiert übernommen; standardsprachlich korrekt: von beiden Elbufern)",
+          "„Die Seilfähre über die Elbe bei Hitzacker gibt es seit 1953 als Fährgenossenschaft.“ (schief: Die Fähre ist kein Rechtsträger, sondern wird von der Genossenschaft betrieben)",
+          "„Das zeigt sich im Blick auf die Zukunft“ (Füllsatz und unidiomatische Präposition)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„aus beiden Elbufern“ (aus der Quelle unkorrigiert übernommen; standardsprachlich korrekt: von beiden Elbufern)",
+          "„um gemeinsam etwas zu bewirtschaften, das der Einzelne allein nicht stemmen könnte“ (schiefe Metaphernkombination: bewirtschaften / stemmen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3802,
+    "out": 741,
+    "thinking": 0
+  },
+  "costUsd": 0.015014
+}

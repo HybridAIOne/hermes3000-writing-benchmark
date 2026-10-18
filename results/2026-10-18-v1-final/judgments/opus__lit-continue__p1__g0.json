@@ -1,0 +1,119 @@
+{
+  "task": "lit-continue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„und war erst angelegt, als das Schiff ruhig im Wasser lag“ – falsches Hilfsverb (‚hatte angelegt‘), zudem schief",
+          "„Sie hatte ihn gesehen, als die Fähre in der Biegung gelegen hatte … Es war kindisch. Sie wusste es.“ – erzählt die bereits bekannte Vorgeschichte nach und erklärt, statt zu zeigen",
+          "„Vom Deich wehte der Wind Gras und Salz herunter“ – Salzluft bei Hitzacker ist unplausibel",
+          "„ruhig und gleichgültig, wie er es seit Jahrhunderten tat“ – Klischee",
+          "„Er läuft, weil du ihn jeden Morgen anschiebst“ – ein Bootsmotor wird nicht angeschoben, das Bild ist schief"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Du hast grau geworden“ – Grammatikfehler (‚Du bist grau geworden‘)",
+          "„Sie hakte die Leine ab … Sie löste die vordere Leine“ – doppeltes, unklares Ablegen",
+          "„Ein Junge, dachte sie, der seinen Koffer hinter sich herzieht wie einen Hund“ – schiefer Vergleich",
+          "„die alles mit den Augen aufnahmen wie ein Gutachten“ – schiefes Bild, die Verkaufsthematik wird angedeutet",
+          "„wie der die Hände am Seil entlanggehen ließ, Meter für Meter“ – passt technisch kaum zu einer motorisierten Seilfähre"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Die Hütte war enger, als er sie in Erinnerung hatte.“ – Perspektivbruch, Ilse kann seine Erinnerung nicht kennen",
+          "„Dann ließ sie die Kette hängen und ging ihm die Tassen zeigen.“ – Krüger, den sie eben heruntergewinkt hat, bleibt unaufgelöst wartend zurück",
+          "„„Und wenn kein Wind ist?“ – „Ist keine Segelfähre.““ – der Anschluss an das Motorgespräch ist etwas unklar",
+          "„oben einen Knopf zu wenig geschlossen für das Wetter“ – leicht verdreht"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Das Wort lag zwischen ihnen, klein und alt.“ – leicht manierierte Formel",
+          "„„Du auch.“ – „Ich wohne hier.““ – die Pointe bleibt kryptisch",
+          "„Es war ein Lächeln, das gleich wieder verschwand.“ – redundant nach „lächelte kurz“",
+          "„als ließe sich das Problem mit genug Kraft beheben“ – etwas zu deutlich erklärend"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Er hatte sich nicht verändert, und doch war alles an ihm anders.“ – Klischee",
+          "„Jonas kannte sie vermutlich auch noch, aber er tat nicht so.“ – unklare Formulierung",
+          "„Ihre Knie meldeten sich … und sie ließ Jonas nicht merken, dass sie es hörte“ – schiefes Bild",
+          "„„Die Suppe läuft nicht weg.““ – passt nicht recht zum gereichten Kaffee",
+          "„als müsste er erst rechnen, was er bedeutete“ – erklärende Deutung"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "C",
+      "E",
+      "A",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 7617,
+    "out": 3321,
+    "thinking": 1928
+  },
+  "costUsd": 0.096888
+}

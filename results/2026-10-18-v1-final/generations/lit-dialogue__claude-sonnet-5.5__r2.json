@@ -1,0 +1,20 @@
+{
+  "task": "lit-dialogue",
+  "model": "claude-sonnet-5.5",
+  "run": 2,
+  "text": "**Bahnhofscafé, Nachmittag. Thomas sitzt schon am Tisch, als Jan hereinkommt. Beide zögern.**\n\nJAN: Du bist früh.\n\nTHOMAS: Ich war in der Gegend. *(Pause.)* Setz dich.\n\n*(Jan hängt die Jacke über die Stuhllehne, nimmt sie wieder ab und legt sie über den Arm.)*\n\nJAN: Ich kann nicht lange.\n\nTHOMAS: Natürlich nicht.\n\n*(Die Kellnerin kommt.)*\n\nJAN: Einen Kaffee. Schwarz.\n\nTHOMAS: Schwarz, ja. *(Ein kurzes Lächeln, das sofort wieder verschwindet.)*\n\nJAN: Du trägst die Uhr noch.\n\nTHOMAS: Warum sollte ich sie nicht tragen?\n\nJAN: Hab ich nicht gesagt.\n\nTHOMAS: Nein. Hast du nicht.\n\n*(Schweigen. Jan rührt in einer Tasse, in der noch nichts ist.)*\n\nJAN: Wie geht's Katrin?\n\nTHOMAS: Gut. Sie fragt nicht mehr nach dir.\n\nJAN: Das ist vernünftig.\n\nTHOMAS: Sie ist vernünftig.\n\n*(Die Kellnerin stellt zwei Tassen ab. Keiner dankt ihr.)*\n\nJAN: Deine Nachricht habe ich bekommen. Im Frühjahr.\n\nTHOMAS: Und?\n\nJAN: Ich hab sie oft gelesen.\n\nTHOMAS: Aber nicht geantwortet.\n\nJAN: Ich wusste nicht, was.\n\nTHOMAS: *(leise)* Ich auch nicht. Geschrieben hab ich trotzdem.\n\n*(Jan sieht aus dem Fenster. Draußen fährt ein Zug ein.)*\n\nJAN: Das ist meiner.\n\nTHOMAS: Der fährt erst in zwanzig Minuten.\n\nJAN: Ich weiß.\n\n*(Keiner bewegt sich.)*\n\nTHOMAS: Bleib. Trink wenigstens den Kaffee.\n\n*(Jan setzt sich langsam. Die Jacke bleibt auf seinem Schoß.)*\n\nJAN: Nur den Kaffee.\n\nTHOMAS: Nur den Kaffee.",
+  "usage": {
+    "in": 126,
+    "out": 1801,
+    "thinking": 980
+  },
+  "costUsd": 0.018262,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 12037,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:48:25.321Z"
+}

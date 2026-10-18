@@ -1,0 +1,20 @@
+{
+  "task": "lit-scene",
+  "model": "kimi-k3",
+  "run": 2,
+  "text": "**Das Haus der Mutter**\n\nDer Schlüssel klemmte, wie er schon immer geklemmt hatte. Miriam musste die Tür mit der Schulter anheben, einen halben Zentimeter, die Bewegung kam aus einem Muskelgedächtnis, von dem sie nichts wusste. Dann gab das Schloss nach, und das Haus atmete ihr entgegen: kalt, trocken, nach Papier und ausgestandenem Kamin.\n\nZwanzig Jahre. Sie blieb auf der Schwelle stehen, den Koffer noch in der Hand, und wartete auf etwas, das nicht kam. Keine Stimme aus der Küche. Kein Radio. Die Stille hatte Konsistenz, fast einen Geruch – oder der Geruch hatte Stille, sie hätte es nicht zu trennen gewusst.\n\nDer Flur lag im Halbdunkel. Durch die Glasscheibe der Küchentür fiel ein schmaler Streifen Nachmittagslicht, und darin schwebten Staubkörner, als wäre erst vor einer Stunde jemand durch den Raum gegangen. Miriam stellte den Koffer ab. Ihre Stiefelabsätze klangen auf den Dielen zu laut, wie eine Anmaßung.\n\nAn der Garderobe hing noch der blaue Mantel. Sie hatte erwartet, ihn zu berühren, und tat es dann doch nicht. Stattdessen ging sie zur Treppe, legte die Hand auf den Handlauf, dessen Holz unter ihren Fingern glatt war und kühl, abgegriffen an genau der Stelle, an der eine Hand beim Hinaufgehen zuerst Halt sucht.\n\nIn der Küche stand auf dem Herd der Espressokocher. Nicht weggeräumt, nicht verstaubt genug für zwanzig Jahre. Miriam hob den Deckel. Innen, auf dem Boden des Kännchens, lag ein dunkler, harter Rand eingebrannten Kaffees, rissig wie eine Trockenheit. Sie roch daran – nichts mehr. Und doch: Als sie das Kännchen wieder abstellte, war an ihrem Daumen ein schwarzer Streifen, fein wie ein Schmutzfingerrad, und sie betrachtete ihn länger, als vernünftig war, bevor sie ihn am Mantel abstreifte. Am eigenen, nicht am blauen.\n\nDraußen begann es zu regnen. Das Wasser lief die Scheiben hinunter in Bahnen, die sich kreuzten, und Miriam stand in der Küche ihrer Mutter und zählte, ohne es zu wollen, die Dinge, die man hätte wegräumen müssen.",
+  "usage": {
+    "in": 176,
+    "out": 659,
+    "thinking": 11
+  },
+  "costUsd": 0.00792126,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Sail Research",
+  "latencyMs": 16745,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-18T05:26:36.363Z"
+}

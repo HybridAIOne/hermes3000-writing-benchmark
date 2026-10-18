@@ -1,0 +1,122 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„zwischen zwei Finger geklemmt“: Nach „zwischen“ ist hier der Dativ erforderlich: „zwischen zwei Fingern“.",
+          "„obwohl die Dose seit drei Jahren leer im Regal über dem Funkgerät stand“: Die eingeschobene Erklärung zu Hennings Tabak vermittelt rückblickend Hintergrundwissen, statt konsequent beim gegenwärtigen Morgen zu bleiben.",
+          "„Über die Bilanz vom dritten Quartal. Über den Makler aus Lüneburg.“: Der erwartete Konflikt wird als fertiges Themenpaket angekündigt. Das nimmt der Szene Offenheit und wirkt stärker nach vorbereitender Exposition als nach beiläufigem Gedanken.",
+          "„die zwei gelben Augen eines alten Traktors“ und „das weiße Nichts ringsum“: Konventionelle Bilder schwächen die ansonsten anschauliche, gegenständliche Beschreibung.",
+          "„Vor dem Bug tauchten die ersten Weiden […] auf. Ilse drosselte die Winde.“: Nach dem abgeschlossenen Anruf folgt noch ein eigener Handlungsschritt. Der verlangte Anruf bildet dadurch nicht ganz den Schluss."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Am Anleger lag die nächste kleine Warteschlange […] Nein, die waren schon drüben.“: Die bereits abgefertigten Fahrgäste erscheinen unvermittelt erneut als Wahrnehmung. Ohne weitere Vorbereitung liest sich die Selbstkorrektur wie ein Kontinuitätsfehler oder eine unbeabsichtigt eingeführte Orientierungsstörung.",
+          "„Ilse legte an, zog die Klappe hoch“: Beim Anlegen wäre zunächst das Absenken der Auffahrtsklappe zu erwarten. Der Text hatte sie bereits vor der Rückfahrt hochziehen lassen; ein zwischenzeitliches Absenken fehlt.",
+          "„dann drehte sie sie zurück in die Strömung“: Das beschriebene Wendemanöver bleibt für die vorgegebene Seilfähre technisch unklar. Auch das Zusammenspiel von Motor, Hebel und Seil wird nicht schlüssig vermittelt.",
+          "„Das Thermometer […] zeigte vier Grad“: Kälte und Nebel etablieren keinen bestimmten Monat. Dass die Szene im November spielt, bleibt ungesichert.",
+          "„Dieser hier lief zu hoch, als wäre der Fahrer es gewohnt, dass man ihm Platz machte.“: Aus der Leerlaufdrehzahl wird eine Charaktereigenschaft abgeleitet. Das wirkt konstruiert statt präzise beobachtet."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„einen dieser Kaffee in Pappbechern“: Der Genitiv Plural lautet hier „dieser Kaffees“.",
+          "„die er ihr einmal mitgebracht und die sie nicht hatte austrinken können“: Im ersten Relativsatz fehlt das Hilfsverb: „die er ihr einmal mitgebracht hatte“. Das „hatte“ des zweiten Relativsatzes vervollständigt diese Konstruktion nicht.",
+          "„die er ihr einmal mitgebracht […] hatte“: Die Erinnerung an Jonas’ früher mitgebrachten Kaffee ist eine kleine Rückblenden-Exposition und widerspricht damit der ausdrücklich gewünschten Beschränkung.",
+          "„Hab nicht gewartet […] Ich hab nur noch nicht abgelegt“ und „Sie hatte keinen gemacht“: Die demonstrative Bekräftigung ihrer trockenen Schlagfertigkeit erklärt die Figur nachträglich und lässt den Dialog stellenweise arrangiert wirken.",
+          "„Vor dem Bug tauchte […] ein dunklerer Streifen […] auf“: Nach dem verstummten Telefon folgt noch das Auslaufen zum Ufer. Der Anruf steht nahe am Ende, ist aber nicht dessen eigentlicher Schlusspunkt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„als wolle sie das sichergehen“: Die Wendung ist grammatisch falsch. Möglich wären „als wolle sie sichergehen“ oder „als wolle sie sich dessen vergewissern“.",
+          "„Vierzig Meter Wasser“: Diese Größenordnung ist für eine Elbquerung bei Hitzacker nicht plausibel und beschädigt gleich zu Beginn die räumliche Glaubwürdigkeit.",
+          "„das Seil […] glänzend vor Nässe, Glied für Glied“: Ein Stahlseil besitzt keine Kettenglieder. Hier werden zwei unterschiedliche technische Gegenstände vermischt.",
+          "„Das alte Festnetzgerät, schwarz, mit Schnur“: Ein gewöhnlicher Festnetzanschluss auf einer beweglichen Fähre wird technisch nicht erklärt. Die zusätzliche Vorgeschichte „das Henning irgendwann hatte anschließen lassen“ führt außerdem rückblickende Exposition ein.",
+          "„wie alte Leute einen berührten, wenn sie einem etwas Gutes wünschten, das längst unmöglich war“: Die Passage überhöht eine alltägliche Verabschiedung sentimental und erklärt ausführlich, welche Wirkung sie haben soll."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„eines von denen, die man schnell wieder vergisst“: Das generalisierende Präsens verlässt die ausdrücklich verlangte durchgehende Vergangenheitsform.",
+          "„Hat aufgeschrieben, wie lang du brauchst. Ich hab's gesehen.“: Der Verdacht gegen den Fremden wird nach seinen bereits auffälligen Beobachtungen nochmals ausdrücklich ausgesprochen. Das macht die Konfliktvorbereitung unnötig deutlich.",
+          "„als hätte der Fluss sich entschieden“ und „Die Elbe ist der Motor“: Zusammen mit dem Dialog über den Willen der Elbe häufen sich Personifizierungen des Flusses. Die ansonsten konkrete Darstellung wird dadurch stellenweise bedeutungsschwer.",
+          "„Am anderen Ufer, das sie nicht sehen konnte, wartete vielleicht schon jemand.“: Nach dem nicht angenommenen Anruf wird noch ein neuer Ausblick gesetzt. Der geforderte Schlussmoment verliert dadurch etwas an Gewicht."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c2"
+        ]
+      }
+    ],
+    "ranking": [
+      "E",
+      "C",
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 8014,
+    "out": 2388,
+    "thinking": 891
+  },
+  "costUsd": 0.039908
+}

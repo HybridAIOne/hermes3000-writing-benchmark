@@ -1,0 +1,130 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„was sich für einen einzelnen Eigentümer kaum lohnen würde“: Die wirtschaftliche Tragfähigkeit für einen einzelnen Eigentümer lässt sich aus den Angaben nicht beurteilen.",
+          "„Ihr Zweck ist nicht, Gewinne zu erzielen“: Nichtausschüttung und Gewinnerzielung werden unzulässig gleichgesetzt. Die Quelle belegt die Verwendung der Überschüsse, nicht diese kategorische Zweckbestimmung.",
+          "„Rund 64.000 Menschen setzt die Fähre jährlich über die hier 212 Meter breite Elbe über“: Grammatisch korrekt, aber durch die Häufung von „über“ schwerfällig.",
+          "„So tragen viele Schultern gemeinsam“: Der bildhafte Schluss ist abgegriffen und mündet zudem in eine unbelegte Behauptung."
+        ],
+        "unsupported": [
+          "„Ihr Zweck ist nicht, Gewinne zu erzielen, sondern die Verbindung über den Fluss zu sichern.“ Die Quelle nennt keinen ausdrücklichen Unternehmenszweck; insbesondere belegt die Nichtausschüttung keinen Verzicht auf Gewinnerzielung.",
+          "„was sich für einen einzelnen Eigentümer kaum lohnen würde“: Zur Rentabilität unter anderen Eigentumsverhältnissen enthält die Quelle keine Angaben."
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Geldanteil und Stimmrecht sind also nicht gleichzusetzen. Die Genossenschaft verbindet so die finanzielle Beteiligung ihrer Mitglieder mit einem gleichen Stimmrecht für jedes einzelne Mitglied.“: Die zweite Erklärung wiederholt weitgehend die erste; eine Straffung würde den Absatz prägnanter machen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Dass dieses Modell trägt, zeigen die Zahlen“: Umsatz, Zuschussanteil und Beförderungszahl belegen ohne Angaben zu Kosten oder Ergebnis keine wirtschaftliche Tragfähigkeit.",
+          "„eine Aufgabe zu lösen, die ein Einzelner nicht bewältigen kann“: Die behauptete Unmöglichkeit ist weder allgemein kennzeichnend für Genossenschaften noch für diese Fähre belegt.",
+          "„unterscheidet die Genossenschaft grundlegend von einer Kapitalgesellschaft, in der das Stimmrecht vom eingebrachten Geld abhängt“: Die pauschale Gegenüberstellung unterschlägt mögliche abweichende Stimmrechtsregelungen bei Kapitalgesellschaften.",
+          "„aus beiden Elbufern“: Unidiomatische Herkunftsangabe; richtig wäre hier „von beiden Elbufern“.",
+          "„Dieses Prinzip „ein Mitglied, eine Stimme\"“: Die inneren Anführungszeichen sind typografisch uneinheitlich."
+        ],
+        "unsupported": [
+          "„eine Aufgabe zu lösen, die ein Einzelner nicht bewältigen kann“: Dass ein Einzelner den Fährbetrieb nicht hätte übernehmen können, steht nicht in der Quelle.",
+          "„Ziel ist nicht die Gewinnmaximierung, sondern der dauerhafte Fortbestand des Betriebs im Interesse der Mitglieder und der Region.“ Diese Zielbestimmung wird in der Quelle nicht ausdrücklich genannt; belegt ist die Rücklagenbildung.",
+          "„Dass dieses Modell trägt, zeigen die Zahlen“: Ein wirtschaftlicher Tragfähigkeitsnachweis lässt sich aus den genannten Kennzahlen nicht ableiten."
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Solche Vorhaben lassen sich nur finanzieren, wenn Überschüsse über Jahre hinweg zurückgelegt werden.“: Die ausschließliche Finanzierungsmöglichkeit ist unbelegt und sachlich falsch; andere Finanzierungswege werden ohne Grundlage ausgeschlossen.",
+          "„Auch mit dem Geld wird anders umgegangen als in einem gewöhnlichen Unternehmen.“: Irreführende Gegenüberstellung. Auch andere Unternehmen können Überschüsse vollständig einbehalten und Rücklagen bilden.",
+          "„Ein Angebot dieser Art dauerhaft zu sichern, verlangt Menschen, die es gemeinsam tragen und kontrollieren.“: Die gemeinsame Trägerschaft wird als notwendige Voraussetzung dargestellt, obwohl die Quelle lediglich diese konkrete Organisationsform beschreibt.",
+          "„aus beiden Elbufern“: Unidiomatisch; hier müsste es „von beiden Elbufern“ heißen.",
+          "„Genau dafür ist die Rücklage da.“: Der Schluss wiederholt lediglich die bereits erklärte Funktion der Rücklage. Auch zuvor werden Eigentum, gemeinsame Verantwortung und einbehaltene Überschüsse mehrfach erläutert."
+        ],
+        "unsupported": [
+          "„Die Fähre ist eine Verbindung, die viele Menschen auf beiden Elbufern brauchen.“ Die Quelle belegt die Nutzung, nicht die behauptete Angewiesenheit von Menschen auf beiden Ufern.",
+          "„Ein Angebot dieser Art dauerhaft zu sichern, verlangt Menschen, die es gemeinsam tragen und kontrollieren.“ Dass gemeinschaftliche Trägerschaft und Kontrolle dafür erforderlich sind, ist nicht belegt.",
+          "„Der technische Wandel zeigt zudem den langen Atem dieses Modells.“ Aus den Antriebswechseln allein lässt sich keine besondere Leistungsfähigkeit der Rechtsform ableiten.",
+          "„Solche Vorhaben lassen sich nur finanzieren, wenn Überschüsse über Jahre hinweg zurückgelegt werden.“ Die Quelle beschreibt den vorgesehenen Finanzierungsweg, nicht dessen Alternativlosigkeit."
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„weil es den Gründern wie auch den heutigen Mitgliedern nicht um finanzielle Gewinne geht“: Den beiden Personengruppen werden unbelegte Motive zugeschrieben. Die Verwendung von Überschüssen reicht als Nachweis dafür nicht aus.",
+          "„warum diese Rechtsform ideal ist, um ein gemeinsames Anliegen zu verwirklichen“: Die pauschale Eignungsbehauptung geht über die konkrete Aufgabe hinaus und wirkt werbend statt erklärend.",
+          "„Für diese Fähre war und ist die Genossenschaft die passende Rechtsform“ und „Dass die Rechtsform der Genossenschaft hier genau richtig ist“: Die Eignung wird mehrfach behauptet; diese Wiederholung ersetzt teilweise eine präzisere Begründung.",
+          "„um einen Elektroantrieb einzubauen und den Fährbetrieb so für die Zukunft zu sichern“: Der geplante Umbau wird ohne ausreichende Grundlage zur umfassenden Zukunftssicherung aufgewertet."
+        ],
+        "unsupported": [
+          "„weil es den Gründern wie auch den heutigen Mitgliedern nicht um finanzielle Gewinne geht, sondern um den Erhalt der Fährverbindung“: Über die persönlichen Motive der Gründer und heutigen Mitglieder macht die Quelle keine Angaben.",
+          "„den Fährbetrieb so für die Zukunft zu sichern“: Die Quelle nennt den geplanten Elektroantrieb, belegt aber nicht, dass dieser die Zukunft des gesamten Betriebs sichert."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "A",
+      "E",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3242,
+    "out": 2563,
+    "thinking": 948
+  },
+  "costUsd": 0.032114
+}

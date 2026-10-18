@@ -1,0 +1,109 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„as if he'd been saying it silently for some time“: Die psychologisierende Deutung der Stimme wirkt etwas konstruiert; das lautlose Wiederholen erklärt deren Heiserkeit nicht.",
+          "„She thought of Mr. Adeyemi […] She thought of the phone“: Die unmittelbar wiederholte Gedankenformel erklärt ihren Entscheidungskonflikt stärker, als die ansonsten zurückhaltende Szene es benötigt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„which was how she knew someone was inside. Hospital policy said the door stayed open“: Der Schluss ist nicht belastbar. Wenn die Tür ohnehin offen stehen soll, beweist der verwendete Türstopper keine gegenwärtige Anwesenheit.",
+          "„Grief preferred otherwise“: Aphoristische Personifizierung, die der Szene eine vorformulierte Bedeutung aufsetzt, statt sie entstehen zu lassen.",
+          "„people in the chapel at four were rarely dry-eyed“: Pauschale Erklärung mit klischeehafter Gleichsetzung von Krankenhauskapelle und sichtbarem Weinen.",
+          "„cataloguing exits“: Die demonstrative Gefahrenreaktion ist nach der plausiblen Erklärung seiner Bekanntschaft mit ihr nur schwach motiviert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„made no sound on the linoleum, only a faint tackiness“: Missglückte syntaktisch-semantische Verknüpfung: „only“ führt hier eine Alternative zu „sound“ ein, doch Klebrigkeit lässt sich nicht entsprechend an „made“ anschließen.",
+          "„since her shift began at seven“: Der Schichtbeginn wird genannt, die geforderte Begegnung um vier Uhr morgens dagegen nicht zeitlich verankert.",
+          "„Miller worked pediatric oncology, two buildings over, and had retired in November“: Die nachgeschobene Pensionierung setzt einen demonstrativen Rätselreiz. Zusammen mit dem unmöglichen Schichtwechsel verschiebt das die Szene von zurückhaltender Irritation zu deutlich markierter Mystery.",
+          "„the font was twelve-point, illegible from twenty feet away“: Typografische und räumliche Exaktheit wirkt hier wie eine Beweisführung für das Unheimliche, nicht wie eine natürliche Wahrnehmung der Figur.",
+          "„a single melted gray slush-print was slowly soaking into the tight industrial weave“: Das Schlussbild ist mit Zustands-, Farb-, Tempo- und Materialangaben überladen; die Kombination „melted […] slush-print“ ist zudem unnötig umständlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„I thought I was“: Die rätselhaft verkürzte Antwort wirkt eher auf atmosphärische Wirkung hin formuliert als aus einer konkreten Gesprächssituation entstanden.",
+          "„thin as a coin“: Der Vergleich präzisiert die Wasserlache kaum: Gemeint sein könnte ihre geringe Tiefe oder ihre Form, doch das Bild entscheidet sich nicht klar.",
+          "„A small bead of water […] Mara watched it spread […] In the glass, the cleaner’s machine passed again“: Zwei unmittelbar aufeinanderfolgende Schlussmotive konkurrieren um Gewicht. Der Wechsel vom Wassertropfen zur Lichtspiegelung schwächt die Konzentration des Endes."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "A",
+      "E",
+      "B",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2164,
+    "out": 1475,
+    "thinking": 512
+  },
+  "costUsd": 0.019078
+}

@@ -1,0 +1,105 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Alles gut bei dir?\" — obwohl (Typografie: falsche englische Ausführungszeichen oben sowie Geviertstrich statt korrektem deutschem Gedankenstrich/Halbgeviertstrich)",
+          "der Kollege [...] dass es so nicht weitergeht (Inhaltliche Unschärfe: Es wird zwar von „Kollege“ gesprochen, aber die geschilderte Problematik wirkt wie klassische disziplinarische Führung, das Kernthema „Führen ohne Titel“ wird nicht greifbar)",
+          "Aufgabe: „Schreibe den Einstiegsabsatz“ (Formal: Der Text ist in drei separate Absätze gegliedert statt in einen einzigen Einstiegsabsatz)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "den Monatsbericht [...] Zum dritten Mal in diesem Monat. (Logikfehler: Ein Monatsbericht wird naturgemäß nur einmal im Monat vorgelegt, daher können darin nicht dreimal im selben Monat Werte fehlen)",
+          "Du könntest jetzt sagen, dass ihr später darüber sprecht. [...] Beides wäre bequem – für die nächsten zehn Minuten. Also wartest du, bis die Besprechung vorbei ist. (Logikbruch: Zuerst wird „später darüber sprechen“ als bloße Bequemlichkeit abgetan, im nächsten Satz wartet das „Du“ aber völlig zu Recht das Ende des Meetings ab, da Kritik unter vier Augen geübt werden sollte)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "Deshalb schieben wir solche Gespräche vor uns her (Stil: Kurzer Perspektivwechsel von der direkten Du-Ansprache ins „wir“, allerdings im Sachbuchkontext vertretbar)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "erzählt von seinem Sohn [...] und fragt, ob du auch so einen Kaffee willst. (Idiomatik/Logik: „so einen Kaffee“ hängt in der Luft, da zuvor kein spezieller Kaffee erwähnt wurde, auf den verwiesen werden könnte)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Morgen\", sagst du dir. „Wenn es sich besser anbietet.\" (Typografie: Falsche englische Ausführungszeichen oben statt deutscher Schlusszeichen)",
+          "und einmal hat Markus gekündigt. (Inhaltliche Unwahrscheinlichkeit: Passt schlecht zum Buchthema „Führen ohne formale Macht/Titel“, da man nicht bei einem gleichgestellten Teamleiter ohne Personalverantwortung kündigt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "A",
+      "E",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 2785,
+    "out": 857,
+    "thinking": 0
+  },
+  "costUsd": 0.01414
+}

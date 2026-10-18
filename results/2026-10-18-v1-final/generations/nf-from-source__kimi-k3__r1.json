@@ -1,0 +1,20 @@
+{
+  "task": "nf-from-source",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "# Die Fährgenossenschaft Hitzacker: Genossenschaft in der Praxis\n\nWas eine Genossenschaft ist, lässt sich anschaulich am Beispiel der Fährgenossenschaft Hitzacker erklären. Diese wurde 1953 gegründet, nachdem der Landkreis den Betrieb der Seilfähre über die Elbe eingestellt hatte. 41 Landwirte und Händler von beiden Elbufern schlossen sich zusammen, um die für sie wichtige Verbindung selbst zu betreiben – ein typisches genossenschaftliches Motiv: Menschen lösen gemeinsam ein Problem, das keiner allein bewältigen kann oder will.\n\nDie Mitglieder sind zugleich Eigentümer. Jedes Mitglied hält mindestens einen Anteil zu 250 Euro. Entscheidend ist das demokratische Grundprinzip: In der Generalversammlung hat jedes Mitglied genau eine Stimme, unabhängig davon, wie viele Anteile es hält. Wer mehr investiert, hat also nicht mehr Macht – es gilt „ein Mitglied, eine Stimme\".\n\nHeute hat die Genossenschaft 312 Mitglieder. Die Fähre selbst überquert die Elbe an einer Stelle, an der der Fluss 212 Meter breit ist; eine Überfahrt dauert bei normalem Wasserstand sieben Minuten. Die Fähre hängt an einem Führungsseil und wird von einem 85-kW-Dieselmotor angetrieben – bis 1978 bewegte die Strömung sie noch ganz allein. Pro Jahr befördert sie rund 64.000 Personen, im Sommer vor allem Radfahrer auf dem Elberadweg.\n\nEin weiteres Merkmal zeigt sich im Umgang mit Geld: Überschüsse werden nicht an die Mitglieder ausgeschüttet, sondern fließen in eine Rücklage für die Erneuerung der Fähre. Der Zweck steht vor dem Gewinn. 2024 betrug der Umsatz 186.000 Euro, davon stammten 71 Prozent aus Fahrkartenverkäufen und 29 Prozent aus einem Zuschuss der Gemeinde. Die Rücklage soll bis 2031 ausreichen, um einen Elektroantrieb einzubauen.\n\nWarum ist die Genossenschaft hier die passende Rechtsform? Der Fährbetrieb ist wirtschaftlich klein und kaum renditestark – für einen privaten Investor wenig attraktiv. Die Genossenschaft aber verfolgt keinen Gewinnzweck, sondern sichert eine Verbindung, die ihre Mitglieder brauchen. Die Gemeinde unterstützt das mit einem Zuschuss. So bleibt die Fähre seit über siebzig Jahrzehnten in Betrieb – getragen von denen, die sie nutzen.",
+  "usage": {
+    "in": 596,
+    "out": 702,
+    "thinking": 11
+  },
+  "costUsd": 0.00856068,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Decart",
+  "latencyMs": 12351,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-18T05:26:35.841Z"
+}

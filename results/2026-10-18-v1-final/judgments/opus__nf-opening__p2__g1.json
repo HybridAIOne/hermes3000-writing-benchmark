@@ -1,0 +1,116 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„als gereizte Mail, als Streit in der Besprechung oder als Kündigung“ – vor der Aufzählung wäre ein Doppelpunkt oder Gedankenstrich klarer als ein Komma.",
+          "„Kennst du das? Dann bist du in guter Gesellschaft.“ – abgegriffene Übergangsfloskel.",
+          "„Montag war zu hektisch, am Mittwoch hattest du Jahresgespräche“ – uneinheitliche Zeitangaben (ohne Artikel vs. „am“)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„wie du danach wieder ruhig schlafst“ – Rechtschreibfehler, richtig: „schläfst“.",
+          "„viertel vor acht“ – richtig: „Viertel vor acht“.",
+          "„Du hast dir vorgenommen, das Gespräch schon drei Mal zu führen.“ – „schon“ ist falsch platziert, gemeint ist „Du hast dir schon dreimal vorgenommen …“.",
+          "„In der Führungsetage werden Quartalszahlen besprochen, im Flurfunk Strategien.“ – unklares, schiefes Bild.",
+          "„Aus dem freundlichen Wink wird ein Disziplinarverfahren.“ – überzogen; dazu Gliederung in mehrere Absätze und mit rund 300 Wörtern über dem Umfang."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Kommt dir das bekannt vor? Dann bist du in guter Gesellschaft.“ – formelhafter Übergang.",
+          "„ob du auch so einen Kaffee willst“ – „so einen“ ist umgangssprachlich und unklar.",
+          "„Meistens liegt es daran, dass du die Leute magst, …, dass du gestern noch …, und dass dir niemand gezeigt hat …“ – lange Satzkette, die etwas überladen wirkt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Zunächst brauchst du keinen besonders geschickten Satz, sondern einen Termin mit Martin“ – der Einstieg gleitet in konkrete Handlungsanleitung ab, statt das Kapitel zu eröffnen.",
+          "„Du stehst mit einer Kaffeetasse vor dem Besprechungsraum … Jetzt sitzt er an seinem Platz“ – unklarer Ortswechsel in der Szene.",
+          "„Was also tun?“ – Füllfrage.",
+          "Es fehlt ein Hinweis darauf, worum es im Kapitel geht; mit rund 290 Wörtern ist der Text etwas zu lang."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Aber seit drei Monaten lässt er schleifen.“ – Objekt fehlt, richtig: „lässt er es schleifen“ bzw. „lässt er die Zügel schleifen“.",
+          "„Deine einzige Währung ist das Gespräch auf Augenhöhe.“ – Ratgeberphrase, nahe an Buzzword-Sprache.",
+          "„sie gären im Hintergrund weiter und vergiften schleichend die Stimmung“ – Bilder sind gehäuft.",
+          "„in sein Büro zu gehen“ – passt kaum zur Szene mit Maschinen und Schichtplan.",
+          "Kein Ausblick auf den Inhalt des Kapitels; mit rund 300 Wörtern über dem Umfang."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "D",
+      "E",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 5235,
+    "out": 2511,
+    "thinking": 1132
+  },
+  "costUsd": 0.07116
+}

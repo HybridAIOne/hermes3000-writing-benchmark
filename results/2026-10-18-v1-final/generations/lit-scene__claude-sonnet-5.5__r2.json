@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "claude-sonnet-5.5",
+  "run": 2,
+  "text": "Den Schlüssel hatte ihr der Nachlassverwalter in einem gepolsterten Umschlag geschickt, als könnte er zerbrechen. Johanna musste die Tür mit der Schulter aufdrücken. Das Holz hatte sich im Rahmen verzogen, und es gab dasselbe Geräusch von sich wie früher, ein kurzes, trockenes Ächzen, das sie in den Zähnen spürte.\n\nDrinnen war es kälter als draußen. Der Flur roch nach Kernseife und nach etwas darunter, das sie nicht sofort fand. Auf der Kommode lag eine dünne, gleichmäßige Staubschicht, nur in der Mitte war ein sauberes Rechteck, wo etwas gestanden hatte. Das Telefon, vermutete sie. Oder ein Bild. Sie stellte die Tasche ab und ließ die Haustür offen, damit das Licht hereinkam.\n\nIn der Küche stand eine Tasse auf dem Abtropfgestell, umgedreht, der Henkel zur Wand. Johanna drehte den Wasserhahn auf. Die Leitung gurgelte, spuckte, dann kam ein rostbrauner Strahl, der langsam klar wurde. Sie hielt die Hand darunter. Das Wasser schmeckte nach Eisen, wie eine Münze auf der Zunge, und sie spuckte es nicht aus.\n\nZwanzig Jahre. Sie hatte sich vorgenommen, nichts zu erwarten, und merkte jetzt, dass es nicht darum ging. Das Haus war kleiner, aber nicht auf die Art, von der alle sprachen. Es war eher, als hätte jemand die Räume enger zusammengeschoben, um Heizkosten zu sparen.\n\nDer Geruch aus dem Flur war stärker geworden, je weiter sie ins Haus ging. Sie folgte ihm bis zur Kellertür. Süßlich, leicht gärig, wie ein Obstkorb, der zu lange in der Sonne stand. Die Tür war nicht abgeschlossen.\n\nAuf der dritten Stufe blieb sie stehen. Unten, im Regal neben den Einmachgläsern, deren Deckel ihre Mutter immer mit Datum und Inhalt beschriftet hatte, stand ein einzelnes Glas ein Stück abseits. Der Deckel hatte sich nach oben gewölbt.\n\nSie konnte die Schrift von hier aus nicht lesen. Sie wusste trotzdem, dass es die ihrer Mutter war.",
+  "usage": {
+    "in": 149,
+    "out": 1973,
+    "thinking": 1068
+  },
+  "costUsd": 0.020028,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 19119,
+  "meta": [],
+  "at": "2026-10-17T17:49:13.787Z"
+}

@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "# „Führen ohne Titel\" — Gliederung\n\n**1. Herzlichen Glückwunsch, Sie führen jetzt (und keiner hat Ihnen gesagt, wie)**\nWarum die meisten Teamleiter im Mittelstand in die Rolle hineinrutschen — und warum das kein Nachteil ist, solange du aufhörst, so zu tun, als wäre nichts passiert.\n\n**2. Die ersten 90 Tage: Vom Kollegen zum Chef**\nWie du den Rollenwechsel gegenüber deinem Team offen ansprichst, Erwartungen klärst und die typischen Stolperfallen der Anfangszeit vermeidest — ohne auf dicke Hose zu machen.\n\n**3. Dein Team verstehen, bevor du etwas änderst**\nWie du in Einzelgesprächen herausfindest, wer was kann, wer was braucht und wo es im Alltag wirklich hakt — statt im Blindflug Anweisungen zu geben.\n\n**4. Aufgaben abgeben, ohne die Kontrolle zu verlieren**\nWie du entscheidest, was du delegierst und was nicht, wie du Aufgaben so übergibst, dass sie erledigt werden — und wie du aufhörst, alles selbst zu machen.\n\n**5. Feedback geben, das ankommt**\nWie du Lob und Kritik so formulierst, dass dein Gegenüber es annehmen kann — konkret, zeitnah und ohne Drumherumreden.\n\n**6. Schwierige Gespräche führen**\nWie du Konflikte, schlechte Leistung und unangenehme Wahrheiten ansprichst — mit Vorbereitung, klarer Sprache und ohne das Gespräch auf die lange Bank zu schieben.\n\n**7. Entscheidungen treffen und dazu stehen**\nWie du mit unvollständigen Informationen entscheidest, wann du das Team einbeziehst und wann nicht — und wie du auch mit unpopulären Entscheidungen umgehst.\n\n**8. Nach oben und zur Seite: Führen in alle Richtungen**\nWie du dich gegenüber der Geschäftsführung behauptest, Absprachen mit anderen Abteilungen triffst und die Interessen deines Teams vertrittst.\n\n**9. Deine Haltung: Führen, wie du bist**\nWie du aus allem Bisherigen deinen eigenen Stil entwickelst, Fehler als Teil der Rolle akzeptierst und Führung nicht als Titel verstehst, sondern als Verhalten.\n\n---\n\nHinweis: Die Kapitel bauen aufeinander auf — vom Rollenwechsel (1–2) über die Arbeit mit dem Team (3–6) bis zur Position im Unternehmen (8) und der persönlichen Haltung als Abschluss (9).",
+  "usage": {
+    "in": 243,
+    "out": 711,
+    "thinking": 10
+  },
+  "costUsd": 0.00856224,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Decart",
+  "latencyMs": 16793,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-18T05:27:09.936Z"
+}

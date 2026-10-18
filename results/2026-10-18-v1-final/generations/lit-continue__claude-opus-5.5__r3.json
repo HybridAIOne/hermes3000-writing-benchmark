@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "claude-opus-5.5",
+  "run": 3,
+  "text": "„Er läuft\", sagte Ilse.\n\n„Er läuft, wie ein alter Raucher läuft. Ich hab ihn vom Parkplatz aus gehört.\"\n\nSie antwortete nicht. Vom anderen Ufer schob sich der Nebel über die Wiesen, flach und langsam, wie jeden Abend um diese Zeit im Oktober. Auf dem Deck standen noch zwei Radfahrer mit ihren Satteltaschen und warteten höflich darauf, dass sich die Familienangelegenheit erledigte. Ilse klappte die Rampe herunter und nickte ihnen zu. Sie schoben an Jonas vorbei, der eine sagte „Danke schön\", der andere sah auf den Rollkoffer.\n\n„Du hättest anrufen können\", sagte sie, als die beiden fort waren.\n\n„Hätte ich. Dann hättest du gesagt, es passt gerade nicht.\"\n\nDas stimmte, und deshalb sagte sie nichts dazu. Sie nahm den Lappen vom Haken an der Kabine und wischte die Nässe vom Geländer, obwohl es gleich wieder feucht sein würde. Jonas sah ihr dabei zu. Er trug eine Jacke, die aussah, als sei sie für Regen gemacht, und es vermutlich nicht war, und Schuhe mit hellen Sohlen, auf denen der Uferweg schon seine Spuren hinterlassen hatte.\n\n„Wie viele waren es heute?\", fragte er.\n\n„Genug.\"\n\n„Mama.\"\n\n„Elf. Und der Milchwagen.\"\n\nEr nickte, als schreibe er es irgendwo auf. Vielleicht tat er das auch, innerlich, in eine dieser Tabellen, von denen er am Telefon manchmal erzählte, mit Farben für gut und schlecht. Ilse dachte daran, wie er als Junge auf dem Kabinendach gesessen und die Autos gezählt hatte, mit Kreide auf dem Blech, Striche in Fünferbündeln. Henning hatte die Striche nie weggewischt. Irgendwann hatte der Regen es getan.\n\n„Ich bleib ein paar Tage\", sagte Jonas. „Wenn das geht.\"\n\n„Das Bett im Giebelzimmer ist nicht bezogen.\"\n\n„Dann bezieh ich es.\"\n\nSie sah zur Uhr in der Kabine. Zehn vor sechs. Die letzte Überfahrt stand für sechs auf dem Schild, aber an Abenden wie diesem kam selten noch jemand, und sie hätte die Kette vorlegen und das Licht ausschalten können, und niemand hätte es ihr übelgenommen. Drüben am anderen Ufer brannte die Laterne am Anleger, ein gelber Fleck im Nebel. Darunter, klein und dunkel, stand jemand. Vielleicht ein Angler. Vielleicht nur ein Pfahl.\n\nJonas folgte ihrem Blick. „Fährst du noch mal rüber?\"\n\nIlse wrang den Lappen aus und hängte ihn zurück an den Haken. Dann ging sie zum Poller, löste die Leine, die sie eben erst festgezogen hatte, und hielt sie ihm hin.\n\n„Stell den Koffer in die Kabine\", sagte sie. „Und halt das. Aber erst loslassen, wenn ich es sage.\"",
+  "usage": {
+    "in": 593,
+    "out": 2717,
+    "thinking": 1534
+  },
+  "costUsd": 0.056712,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 27432,
+  "meta": [],
+  "at": "2026-10-17T17:48:13.283Z"
+}

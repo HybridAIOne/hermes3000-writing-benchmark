@@ -1,0 +1,126 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„was sich für einen einzelnen Eigentümer kaum lohnen würde“: Die wirtschaftliche Tragfähigkeit für einen einzelnen Eigentümer lässt sich aus der Quelle nicht beurteilen.",
+          "„Ihr Zweck ist nicht, Gewinne zu erzielen“: Nichtausschüttung und Gewinnerzielung werden verwechselt. Auch ein Unternehmen, das Überschüsse zurücklegt, kann Gewinne anstreben.",
+          "„Rund 64.000 Menschen setzt die Fähre jährlich über die hier 212 Meter breite Elbe über“: Die Häufung von „über“ macht den ansonsten verständlichen Satz unnötig schwerfällig."
+        ],
+        "unsupported": [
+          "„Ihr Zweck ist nicht, Gewinne zu erzielen“: Die Quelle nennt die Verwendung der Überschüsse, aber keinen Ausschluss eines Gewinnerzielungszwecks.",
+          "„was sich für einen einzelnen Eigentümer kaum lohnen würde“: Zur Rentabilität für einen einzelnen Eigentümer enthält die Quelle keine Angaben."
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„auf den Menschen und Orte beiderseits der Elbe angewiesen sind“: Eine solche Abhängigkeit ist nicht belegt. Die Aussage geht über die dokumentierte Nutzung und Gründungsgeschichte hinaus."
+        ],
+        "unsupported": [
+          "„auf den Menschen und Orte beiderseits der Elbe angewiesen sind“: Die Quelle belegt nicht, dass Menschen oder Orte auf die Fähre angewiesen sind."
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„warteten die Menschen an beiden Elbufern nicht auf eine Lösung von außen“: Die Quelle beschreibt die Gründung, nicht das vorherige Verhalten oder die Erwartungen der Bevölkerung.",
+          "„Das ist der Grundgedanke jeder Genossenschaft: Menschen mit einem gemeinsamen Bedarf tun sich zusammen und betreiben gemeinsam, was einzelne nicht stemmen könnten.“: Die Erklärung verabsolutiert die fehlende Leistungsfähigkeit Einzelner; diese ist keine notwendige Voraussetzung jeder Genossenschaft.",
+          "„Das Ziel ist ein dauerhaft funktionierender Fährbetrieb, nicht Profit für die Mitglieder.“: Die konkrete Zielsetzung wird als belegte Tatsache dargestellt. Dokumentiert ist lediglich, dass Überschüsse nicht ausgeschüttet werden.",
+          "„braucht für die 212 Meter breite Elbe bei normalem Wasserstand sieben Minuten“: Verkürzte, unpräzise Formulierung; gemeint ist die Überquerung der Elbe."
+        ],
+        "unsupported": [
+          "„warteten die Menschen an beiden Elbufern nicht auf eine Lösung von außen“: Eine solche Aussage über das Verhalten der Bevölkerung steht nicht in der Quelle.",
+          "„Das Ziel ist ein dauerhaft funktionierender Fährbetrieb, nicht Profit für die Mitglieder.“: Die Quelle nennt keine ausdrückliche Ziel- oder Motivbestimmung; die Nichtausschüttung ist dagegen belegt."
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 4,
+        "fehler": [
+          "„seit über siebzig Jahrzehnten“: Schwerer Zahlenfehler. Das wären mehr als 700 Jahre und widerspricht der Gründung 1953.",
+          "„wirtschaftlich klein und kaum renditestark – für einen privaten Investor wenig attraktiv“: Insbesondere Rendite und Investorenattraktivität sind ohne Angaben zu Kosten und Erträgen nicht belegbar.",
+          "„Die Genossenschaft aber verfolgt keinen Gewinnzweck“: Aus dem Verzicht auf Ausschüttungen folgt kein fehlender Gewinnzweck.",
+          "„es gilt „ein Mitglied, eine Stimme\"“: Das innere Zitat beginnt mit einem deutschen typografischen Anführungszeichen und endet mit einem geraden Zeichen; die Zeichensetzung ist uneinheitlich."
+        ],
+        "unsupported": [
+          "„Der Fährbetrieb ist wirtschaftlich klein und kaum renditestark – für einen privaten Investor wenig attraktiv.“: Eine Bewertung der wirtschaftlichen Größe wird nicht geliefert; insbesondere fehlen Belege für geringe Rentabilität und mangelnde Investorenattraktivität.",
+          "„Die Genossenschaft aber verfolgt keinen Gewinnzweck“: Die Quelle beschreibt die Rücklagenbildung, nicht den Ausschluss eines Gewinnzwecks.",
+          "„eine Verbindung, die ihre Mitglieder brauchen“: Ein entsprechender Bedarf sämtlicher heutiger Mitglieder ist nicht dokumentiert.",
+          "„So bleibt die Fähre seit über siebzig Jahrzehnten in Betrieb“: Die Zeitangabe widerspricht dem Gründungsjahr 1953. Auch ein durchgehend ununterbrochener Betrieb wird nicht ausdrücklich belegt."
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„weil es den Gründern wie auch den heutigen Mitgliedern nicht um finanzielle Gewinne geht“: Der Text schreibt beiden Gruppen ein nicht dokumentiertes Motiv zu. Die Nichtausschüttung von Überschüssen belegt diese persönliche Motivation nicht.",
+          "„Wie eine Genossenschaft in der Praxis funktioniert und warum diese Rechtsform ideal ist, um ein gemeinsames Anliegen zu verwirklichen, zeigt das Beispiel“: Der lange, abstrakte Auftakt kündigt die Erklärung nur an, statt unmittelbar mit dem anschaulichen Fall einzusetzen.",
+          "„Für diese Fähre war und ist die Genossenschaft die passende Rechtsform“ und „Dass die Rechtsform der Genossenschaft hier genau richtig ist“: Die Eignung wird wiederholt behauptet. Eine knappere Argumentation wäre überzeugender."
+        ],
+        "unsupported": [
+          "„weil es den Gründern wie auch den heutigen Mitgliedern nicht um finanzielle Gewinne geht, sondern um den Erhalt der Fährverbindung“: Die Quelle enthält keine ausdrücklichen Angaben zu den persönlichen Motiven der Gründer und der heutigen Mitglieder."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3211,
+    "out": 2843,
+    "thinking": 1428
+  },
+  "costUsd": 0.034852
+}

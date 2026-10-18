@@ -1,0 +1,126 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "F": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Kapitel 4 ('setzt Prioritäten') und Kapitel 7 ('Triff Entscheidungen') überschneiden sich thematisch und stehen an unlogischen Stellen im Aufbau.",
+          "Kapitel 8 ('Schaffe einen verlässlichen Arbeitsrhythmus') kommt für den chronologischen Aufbau viel zu spät (erst nach den schwierigen Gesprächen)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "Inhaltliches Missverständnis des Buchtitels in Kap. 2 ('obwohl du formal keine Anweisungen geben darfst') und Kap. 9 ('egal ob mit offiziellem Titel oder ohne') – es geht laut Aufgabe um Teamleiter ohne Führungsausbildung, nicht ohne formale Befugnis.",
+          "Substantivierung wirkt schief: 'den Schritt vom geschätzten Kollegen zum Respektierten machst' (Kap. 1).",
+          "Unlogischer Aufbau: Die Abstimmung mit dem eigenen Chef (Kap. 6) erfolgt erst nach den schwierigen Gesprächen (Kap. 5).",
+          "Das geforderte Schlusskapitel zur 'eigenen Haltung' wird in Kap. 9 auf Work-Life-Balance ('wie du nach Feierabend wirklich abschaltest') und Karriereplanung verengt.",
+          "Stilistisch unschöne Chatbot-Einleitung ('Hier ist der Entwurf...') und repetitive Satzanfänge ('Du erfährst', 'Du lernst', 'Hier siehst du')."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Starke Überschneidung zwischen Kapitel 1 ('Über Nacht Chef') und Kapitel 2 ('Vom Kollegen zum Vorgesetzten') – beide behandeln den unmittelbaren Rollenwechsel.",
+          "Fehlender Artikel (Telegrammstil): 'ohne Gesicht zu verlieren' statt 'ohne das Gesicht zu verlieren' (Titel Kap. 9).",
+          "Stilistisch sehr mechanisch: Fast jeder Beschreibungssatz folgt exakt demselben Muster mit einem Doppelpunkt in der Satzmitte."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Rechtschreibung: 'Abgeben statt selbermachen' (Kap. 5) – 'selber machen' wird getrennt geschrieben (oder substantiviert groß: 'Selbermachen').",
+          "Leichte Überschneidung zwischen Kapitel 6 ('Lob und Kritik') und Kapitel 7 ('Konflikt-, Leistungs- und Konsequenzgespräche').",
+          "In Kapitel 10 ('auch wenn kein Titel auf deiner Visitenkarte es dir vorschreibt') wird der Buchtitel etwas zu wörtlich genommen, obwohl die Zielgruppe laut Prompt die Rolle (Teamleiter) durchaus innehat."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "Kein einziger Beschreibungssatz ist ein vollständiger Hauptsatz; es sind allesamt fragmentarische Nebensätze ('Was in deinen ersten Tagen...', 'Wie du die Beziehung...').",
+          "Deutliche Überschneidung bei den ersten beiden Kapiteln: 'Die ersten Wochen ohne Gebrauchsanleitung' (Kap. 1) und 'Vom Kollegen zum Vorgesetzten' (Kap. 2) behandeln beide die ersten Tage.",
+          "Veraltete/unschöne Getrenntschreibung: 'so dass' statt 'sodass' (Kap. 4)."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "D",
+      "B",
+      "F",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3613,
+    "out": 1082,
+    "thinking": 0
+  },
+  "costUsd": 0.018046
+}

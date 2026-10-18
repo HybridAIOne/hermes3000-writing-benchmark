@@ -1,0 +1,112 @@
+{
+  "task": "lit-dialogue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Früher hattest du bessere Uhren.“ (Etwas gesuchte Replik, wirkt leicht konstruiert schlagfertig)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Du kommst noch immer zu früh.“ – „Du noch immer genau dann, wenn der Kaffee kalt wird.“ (Logikbruch: Mara sitzt bereits dort, Jonas kommt erst nach ihr an und bestellt seinen Kaffee sogar erst vierzehn Zeilen später.)",
+          "„Ohne Zucker?“, fragt Mara. (Verstoß gegen die formale Vorgabe „Nur Dialog und knappe Regieanweisungen“ durch klassische Prosainquit-Formeln statt Rollennamen)",
+          "„Früher hast du mich aufgefangen.“ (Zu direkter, fast kitschiger Holzhammer-Subtext)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„MARTIN sitzt bereits, rührt in einer leeren Tasse.“ – „JULIA: Der Kaffee sieht kalt aus. MARTIN: Ich hab nicht bestellt.“ (Schwerer Logikbruch: Warum rührt er in einer leeren Tasse, und wie kann der nicht vorhandene Kaffee darin kalt aussehen?)",
+          "„Die Kellnerin kommt, nimmt Julias Bestellung auf, geht wieder.“ – „Sie greift nach ihrer Tasse, zögert, lässt sie stehen.“ (Kontinuitätsfehler: Der Kaffee wurde zwischendurch nie serviert.)",
+          "„Sie hat nicht gesagt, dass es sie freut.“ (Unlogische Replik auf „Das freut mich“, da Martin von seiner eigenen Freude sprach, nicht von Lenas.)",
+          "„Draußen fährt ein Schiff vorbei, das Horn klingt lang und dunkel.“ (Melodramatisches Klischee am Ende)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Es fühlten sich nach mehr an.“ (Grammatikfehler: Inkongruenz, korrekt wäre „Es fühlte sich nach mehr an“.)",
+          "„JONAS: [...] Der Kaffee ist wirklich schlecht geworden. MARKUS: Du hast ihn nicht mal probiert.“ (Logikbruch: Jonas hat im gesamten Verlauf weder bestellt noch eine Tasse vor sich stehen.)",
+          "„Weißt du noch, der Sommer am See? Du hast gesagt, egal was kommt—“ (Plumpe Exposition mit abgedroschenem Versprechens-Klischee)",
+          "„Markus rührt weiter, obwohl der Kaffee längst kalt ist.“ (Unnötig erklärende, auktoriale Regieanweisung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 3,
+        "aufgabe": 4,
+        "fehler": [
+          "„Hast du die Beförderung bekommen, für die du so... gekämpft hast?“ – „Ich habe das Projekt übernommen. Es war letztlich eine rein geschäftliche Entscheidung“ (Völlige Verfehlung der Vorgabe „Der Konflikt bleibt unausgesprochen“: Der Grund des Streits wird explizit auserzählt.)",
+          "„Ich habe deine Kiste mit den Büchern noch im Keller.“ (Warum haben Bürokollegen nach einem beruflichen Intrigenstreit Umzugskisten des anderen im Keller? Das vermischt unmotiviert Beziehungs- und Arbeitsklischees.)",
+          "„Ich brauchte einen radikalen Schnitt. Alles Alte musste weg.“ (Plattes Dialog-Klischee, Figuren reden in unnatürlichen Metaphern)",
+          "„Der Kellner stellt ein Kännchen Milch auf den Tisch“ (Kontinuitätsfehler: Niemand hat es bestellt, der Kellner war vorher nicht am Tisch.)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "D",
+      "C",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3227,
+    "out": 1081,
+    "thinking": 0
+  },
+  "costUsd": 0.017264
+}

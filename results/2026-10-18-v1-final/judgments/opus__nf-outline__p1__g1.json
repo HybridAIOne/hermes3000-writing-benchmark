@@ -1,0 +1,117 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Verlässlichkeit im Alltag … und wie du mit deinen eigenen Fehlern umgehst“ – zwei verschiedene Themen in einem Kapitel",
+          "„Streit im Team und zwischen den Abteilungen“ grenzt nur knapp an „Schwierige Gespräche“ (Verhaltensfragen) und an „Zwischen oben und unten“",
+          "„Der erste Tag“ – der Satz behandelt dann aber die „ersten Wochen“; Titel und Inhalt passen nicht ganz zusammen"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ob Leistungsprobleme, Streit im Team oder schlechte Nachrichten von oben“ – überschneidet sich mit Kapitel 8 („übersetzt zwischen Geschäftsführung und Team“)",
+          "„Fehlern, Termindruck oder Streit mit Kunden“ – Kapitel 9 überschneidet sich mit Kapitel 7 und Kapitel 4",
+          "„Der erste Tag: Gestern Kollege, heute Chef“ – zwei Themen (Ankommen und Rollenwechsel) in einem Kapitel",
+          "„Aus allem, was du erlebt hast, entwickelst du deinen eigenen Führungsstil: …“ – überladener Schlusssatz"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„regelmäßige Einzelgespräche und verlässliche Rückmeldungen“ – überschneidet sich mit Kapitel 3 („Mitarbeitergespräche führen“) und mit Kapitel 6",
+          "„Zusagen verbindlich machen, ohne zu kontrollieren“ – widersprüchlich und unscharf",
+          "„Freundschaften sauber umwandeln“ – schiefe Formulierung",
+          "„Du erkennst die typische Situation“ – Kapitel 1 ist eine Metabetrachtung statt eines praxisnahen Einstiegs",
+          "Stichwortartige Doppelpunktlisten statt eines klaren Satzes pro Kapitel"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„auch wenn du bisher Kollegin oder Kollege im Team warst und nicht sofort alles wissen musst“ – falsch koordinierter Satz: Der zweite Teil gehört nicht in den Konzessivsatz",
+          "„Schaffe verlässliche Abläufe im Team“ steht nach den schwierigen Gesprächen; im Aufbau gehören die Routinen früher",
+          "„Mach aus Zielen einen klaren Arbeitsplan“ und „Gib Verantwortung sinnvoll weiter“ („wer was bis wann“) überschneiden sich",
+          "„was für dich gutes Führen bedeutet“ – blass und unkonkret"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Hier ist die Gliederung für das Sachbuch“ – überflüssiger Vorspann",
+          "„obwohl du weder Gehälter erhöhen noch Abmahnungen schreiben darfst“ – unbelegte Pauschalannahme über die Befugnisse der Zielgruppe",
+          "„Verschiedene Köpfe unter einen Hut bringen“ steht erst als Kapitel 7; das Kennenlernen des Teams gehört an den Anfang, der Aufbau ist nicht logisch",
+          "„Sagen, was Sache ist“ und „Führen ohne Machtwort“ überschneiden sich (Verbindlichkeit, klare Ansagen)",
+          "„Du bekommst Werkzeuge an die Hand“ / „Dieses Kapitel zeigt dir“ – Floskeln und Füllformeln"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "D",
+      "C",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 5789,
+    "out": 2899,
+    "thinking": 1440
+  },
+  "costUsd": 0.081136
+}

@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "claude-opus-5.5",
+  "run": 2,
+  "text": "Der Schlüssel lag noch dort, wo er vor zwanzig Jahren gelegen hatte, unter dem dritten Blumentopf links, in dem längst nichts mehr wuchs außer einer Kruste aus Moos und Vogelkot. Hanna wog ihn in der Hand. Er war schwerer, als sie ihn in Erinnerung hatte, oder ihre Hand war leichter geworden.\n\nDas Haus stand geduckt unter dem Märzhimmel, die Fensterläden geschlossen wie Lider. Jemand hatte den Rasen gemäht, irgendwann im Herbst vielleicht, die Halme lagen grau und verfilzt am Zaun. Die Nachbarin, vermutlich. Oder die Gemeinde. Hanna wusste nicht, wer sich um solche Dinge kümmerte, wenn eine Frau allein starb.\n\nSie steckte den Schlüssel ins Schloss und erwartete Widerstand, das Knirschen von Rost, das sie zwingen würde, sich mit der Schulter gegen die Tür zu stemmen. Aber er drehte sich mühelos, fast gefällig, und als sie die Hand zurückzog, glänzte an ihrem Zeigefinger ein dunkler Film. Sie rieb ihn zwischen Daumen und Finger. Maschinenöl, frisch, mit diesem metallischen, leicht süßlichen Geruch, den sie aus der Werkstatt ihres Vaters kannte, aus einer Zeit, über die in diesem Haus nicht gesprochen worden war.\n\nDrinnen roch es nach kaltem Ofen und Kernseife. Die Garderobe war leer bis auf einen einzelnen Bügel aus Draht, der leise gegen die Wand schlug, als der Luftzug ihn erreichte. Auf den Dielen im Flur zeichneten sich hellere Rechtecke ab, wo Teppiche gelegen hatten. Jemand hatte sie fortgeschafft. Jemand hatte gefegt.\n\nHanna blieb auf der Schwelle zur Küche stehen. Der Tisch, die Eckbank, die Uhr über der Tür, die stehen geblieben war um zwanzig nach vier. Alles an seinem Platz, und doch kam es ihr vor, als hätte das Haus sie erwartet, nur nicht als diejenige, die sie geworden war.\n\nSie wischte den Finger an ihrer Jacke ab. Der Geruch blieb.",
+  "usage": {
+    "in": 149,
+    "out": 1272,
+    "thinking": 397
+  },
+  "costUsd": 0.026036,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 16309,
+  "meta": [],
+  "at": "2026-10-17T17:49:30.097Z"
+}

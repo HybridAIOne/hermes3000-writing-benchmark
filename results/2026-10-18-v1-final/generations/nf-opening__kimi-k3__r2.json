@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "kimi-k3",
+  "run": 2,
+  "text": "Es ist Dienstagmorgen, halb neun. Du stehst in der Kaffeeküche, und da kommt er um die Ecke: der Kollege, mit dem du seit drei Wochen reden wolltest. Er grüßt freundlich, greift nach seiner Tasse, und du sagst: „Alles gut bei dir?\" — obwohl du eigentlich etwas ganz anderes sagen müsstest. Dass seine Ergebnisse im letzten Quartal nicht gestimmt haben. Dass zwei Kunden sich beschwert haben. Dass es so nicht weitergeht. Aber die Worte bleiben im Hals stecken, er wünscht dir einen schönen Tag, und das Gespräch ist wieder einmal vertagt. Auf morgen. Oder übermorgen. Oder nie.\n\nWenn dir das bekannt vorkommt, bist du in guter Gesellschaft. Kaum eine Aufgabe wird von Führungskräften so konsequent aufgeschoben wie das schwierige Gespräch. Nicht weil sie feige wären, sondern weil so ein Gespräch unangenehm ist — für beide Seiten. Man will niemanden verletzen, man will keinen Streit, man will die Stimmung im Team nicht gefährden. Also wartet man. Und das Problem wartet mit, wird aber selten kleiner dabei. Meistens wird es größer, teurer und schwerer anzusprechen, je länger man schweigt.\n\nDieses Kapitel nimmt dir die schwierigen Gespräche nicht ab — das kann kein Buch. Aber es zeigt dir, warum Aufschieben die schlechteste aller Strategien ist, wie du dich auf solche Gespräche vorbereitest, ohne dich in Formulierungen zu verlieren, und wie du in der Situation selbst ruhig bleibst, auch wenn dein Gegenüber es nicht ist. Denn eines vorweg: Schwierige Gespräche werden nicht leichter, weil man sie vermeidet. Sie werden leichter, weil man sie führt.",
+  "usage": {
+    "in": 267,
+    "out": 533,
+    "thinking": 15
+  },
+  "costUsd": 0.00644412,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Wafer",
+  "latencyMs": 9526,
+  "meta": [],
+  "at": "2026-10-18T05:26:54.904Z"
+}

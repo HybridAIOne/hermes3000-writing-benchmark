@@ -1,0 +1,111 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Lass das Ding stehen. [...]“ Er hob den Koffer am Griff hoch, statt ihn zu ziehen, und folgte ihr auf das flache Deck. (Logikbruch: Sie schickt ihn Richtung Fährhaus an Land, geht aber selbst zurück aufs Boot und er schleppt den Koffer unsinnigerweise mit aufs Deck)",
+          "Unter seinen Augen lagen dunkle Schatten, die nicht von der frischen Luft kamen. (Unfreiwillig komische Formulierung: Frische Luft macht keine Augenringe)",
+          "Es war der Blick, mit dem er Tabellen prüfte. (Behauptendes Klischee über Unternehmensberater, das aus Ilses Perspektive zu schablonenhaft wirkt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "und war erst angelegt, als das Schiff ruhig im Wasser lag. (Grammatikfehler: falsches Hilfsverb, korrekt wäre „hatte erst angelegt“) ",
+          "Er läuft, weil du ihn jeden Morgen anschiebst. (Sachlicher Unsinn: Einen Schiffsdiesel kann man nicht „anschieben“)",
+          "Vom Deich wehte der Wind Gras und Salz herunter (Geografischer Unsinn: Hitzacker liegt im Binnenland an der Elbe, dort riecht der Wind nicht nach Salz)",
+          "Sie hatte ihn gesehen, als die Fähre in der Biegung gelegen hatte. [...] (Redundant: Erzählt noch einmal ausführlich genau das nach, was laut Aufgabenstellung bereits unmittelbar vor dem Startabsatz passiert ist)",
+          "Sie löste die Leine vom Poller, Windung für Windung, und hielt sie ihm hin. (Anschlussfehler: Wenn sie auf der Fähre ablegt, kann sie die Leine nicht vom Poller am Steg lösen und sie ihm an Bord hinhalten)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Heute nur bis sechs“, rief sie. (Unklare Verortung: Da zuvor nicht etabliert wurde, dass Autos auf die Fähre warten, wirkt das plötzliche Auftauchen des Bäckerwagens hinter Jonas im ersten Moment desorientierend)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "Ilse nahm die Leine vom Poller und wickelte sie ordentlich auf. [...] Draußen schlug die Fähre sacht gegen den Anleger. (Schwerer Logik- und Anschlussbruch: Im vorgegebenen Startabsatz hat Ilse die Fähre gerade erst mit zwei Schlägen festgemacht; hier bindet sie sie sofort wieder los, lässt das Schiff ungesichert im Strom treiben und geht an Land Kaffee trinken)",
+          "Jonas sah auf den Motorraum, dessen Klappe sie mit dem Fuß zugedrückt hatte. (Anschlussbruch: Im Satz direkt davor band sie noch die Leine am Poller auf dem Steg fest)",
+          "Auf dem Tisch lag der Schraubenschlüssel, den Henning zuletzt benutzt hatte. [...] Die hatte sie vor zwei Jahren weggegeben. (Kitschiges Klischee: Wenn Henning seit mindestens zwei Jahren tot ist, liegt sein zuletzt benutzter Schraubenschlüssel nicht immer noch griffbereit mitten auf dem Tisch)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "und sie ließ Jonas nicht merken, dass sie es hörte. (Schiefe Metaphorik und Bezug: Eben „meldeten“ sich die Knie noch spürbar, plötzlich „hört“ sie es)",
+          "Das Stahlseil hing durch, tropfte, spannte sich wieder, wenn die Strömung an der Fähre zog. (Sachlich schief: Bei einer Seilfähre liegt das Führungsseil im Flussbett oder hängt hoch an Giermasten; am Anleger liegend spannt und entspannt es sich nicht im Sekundentakt)",
+          "„Du hast den Motor nicht mehr reparieren lassen“ vs. „Der Motor läuft“ – „Er hustet.“ (Schwacher Anschluss an den Startabsatz: Wenn der Motor hörbar lief, passt Jonas' Eingangsdiagnose, er sei nicht repariert, schlecht zur Antwort)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "E",
+      "D",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 4436,
+    "out": 1186,
+    "thinking": 0
+  },
+  "costUsd": 0.020732
+}

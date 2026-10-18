@@ -1,0 +1,108 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "leaving the paper cup on the blonde wood of the pew (Logikbruch: Zuvor saß er auf 'padded chairs', plötzlich ist es eine hölzerne Kirchenbank)",
+          "Room 312 had been converted into a supply closet three years ago. (Bricht die Vorgabe 'contemporary novel' durch ein abgedroschenes Geistergeschichten-Klischee)",
+          "two crescents of grey slush were slowly sinking into the nap (Das Schlussbild dient hier als übernatürliche Enthüllung/Pointe, was gegen 'rather than a revelation' verstößt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "**Second Pew** (Ungefragte Überschrift, kein reiner Buchtext)",
+          "a man in a canvas jacket ... smelling of wet wool (Logikbruch/Unpräzision: Erst trägt er Segeltuch/Canvas, dann riecht er beim Vorbeigehen nach nasser Wolle)",
+          "Or was that someone else, some other winter. (Fehlendes Fragezeichen am Ende eines Fragesatzes)",
+          "lay a wide-toothed comb, pale green, a single grey hair wound through its teeth (Das Schlussbild fungiert als sentimentale Enthüllung/Beweisstück)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "The chapel door was propped open with a hymnal, which was how she knew someone was inside. Hospital policy said the door stayed open. Grief preferred otherwise. (Logikbruch: Wenn die Tür laut Vorschrift offen bleibt und Trauernde sie sonst schließen, beweist eine offene Tür gerade nicht, dass jemand darin ist)",
+          "You wrote the time on her whiteboard in green marker (Löst das Rätsel, woher er ihren Namen kennt, komplett und banal auf, da auf den Whiteboards im Zimmer der Name der Schichtschwester steht – nimmt der Szene die Spannung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "At ten to four (Kleine Abweichung von der Vorgabe 'at 4 a.m.')",
+          "as if he'd been saying it silently for some time. (Logikschwäche/schiefes Bild: Wenn man etwas lautlos vor sich hin spricht, wird die Stimme davon nicht heiser)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "The man’s coat had a damp patch at the shoulder. A small bead of water slipped from the fabric and darkened the floor. (Physikalisch unplausibel: Aus einem bloß feuchten Fleck auf einem gefalteten Stoffmantel löst sich nach Minuten im Raum kein einzelner Wassertropfen, der auf dem Boden 'thin as a coin' zerfließt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "E",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2634,
+    "out": 909,
+    "thinking": 0
+  },
+  "costUsd": 0.014358
+}

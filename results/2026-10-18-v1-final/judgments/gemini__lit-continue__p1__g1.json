@@ -1,0 +1,115 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„das leise Singen des Seils, das sich über den Fluss spannte und irgendwo drüben im Weidengebüsch verschwand“ – Bei einer Seilfähre über die Elbe liegt das Trag-/Zugseil im Flussbett auf Grund (wegen der Schifffahrt) oder bei einer Gierseilfähre an einem Mast/Bojen; ein quer über die Elbe gespanntes Luftseil, das im Gebüsch verschwindet, ist technisch unplausibel."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„wo der alte Außenborder unter einer Persenning hockte“ – Eine Autofähre (ein Kombi rollt von der Rampe) über die Elbe wird nicht von einem abgedeckten Außenbordmotor am Heck angetrieben.",
+          "„Die Fahrt dauerte elf Minuten, hin und zurück ein Vierteljahrstündchen“ – Rechnungs- und Wortbildungsfehler: Zwei mal elf Minuten sind 22 Minuten (keine Viertelstunde), zudem ist die Wortkreuzung „Vierteljahrstündchen“ (aus Viertelstündchen und Vierteljahr) unsinnig.",
+          "„„Seit Mittwoch.“ Er sah sie an. Sie konnte beinahe hören, wie er die Zahlen sortierte: Mittwoch, heute war Freitag, er hatte erst gestern Abend den Zug gebucht.“ – Unplausibles Hellsehen der Protagonistin bei unangekündigtem Besuch, das im Text als prätentiöse Leerstelle stehen bleibt.",
+          "„Ilse löste die Leine wieder vom Poller. Sie schlang sie einmal um den Unterarm, prüfte das Gewicht und hielt Jonas das Ende hin.“ – Eine Festmacherleine für eine Elbfähre lässt sich nicht wie eine Hundeleine um den Unterarm schlingen, während die Fähre ablegt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 5,
+        "stil": 5,
+        "aufgabe": 8,
+        "fehler": [
+          "„alle vier, auch Henning seinen“ – Schwerer Grammatikfehler (Dialekt/Substandard im Erzähltext ohne Grund; zudem haben zwei Personen zusammen zwei Paare, „auch Henning seinen“ im Singular passt nicht zu „alle vier“).",
+          "„seit Frühjahr“ – Grammatisch unvollständig, es fehlt der Artikel („seit dem Frühjahr“).",
+          "„Er war grau und hat abgeblättert.“ – Falsches Hilfsverb: „abblättern“ bildet das Perfekt mit „sein“ (ist abgeblättert), zudem falscher Tempuswechsel ins Perfekt im Präteritum-Erzähltext.",
+          "„weil Henning immer gesagt hatte, man schütte keinen Kaffee weg, man wärmt ihn auf.“ – Unmotivierter Moduswechsel von Konjunktiv I („schütte“) zu Indikativ („wärmt“) innerhalb desselben Satzgefüges.",
+          "„Henning hatte genickt wie ein Mann, der Holz nimmt: endgültig.“ – Unverständlicher, schief konstruierter Vergleich („Holz nehmen“ ist kein stehender oder bildhafter Ausdruck für Endgültigkeit)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "„Beim letzten Hochwasser hat er geklemmt. Seitdem zieh ich mit der Hand.“ / „wenn sie das Ruder und die Leine nahm, so wie immer.“ – Grober Logik- und Sachfehler: Eine Elbfähre (noch dazu mit Motorkabine und Rampe) lässt sich unmöglich von einer einzelnen Person per Hand über den Strom ziehen oder mit einem Ruder bewegen.",
+          "„Sie holte die Handkurbel aus der Kiste unter dem Steuerstand, legte sie auf die Ducht“ – Eine Ducht ist die Ruderbank in einem kleinen offenen Boot, kein Bauteil einer großen Fähre mit Kabine und Steuerstand.",
+          "„Dann spuckte der Motor einen blauen Rauchring aus, hustete und blieb wieder still. [...] „Gut“, sagte Ilse. „Dann hältst du die Leine.““ – Dramaturgischer Bruch: Die ganze Szene baut darauf auf, dass Jonas den Motor ankurbelt, dieser springt aber nicht an, und die Aktion wird ohne jede Reaktion einfach fallengelassen.",
+          "„Er war der Blick vom Beifahrersitz“ – Grammatisch schiefe Referenz („Er“ bezieht sich auf „diesen Blick“, idiomatisch korrekt wäre „Es war der Blick“)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„unter dem alten Schöpfkelle-Topf“ – Unidiomatisches, sinnloses Kompositum (entweder Schöpfkelle oder Topf).",
+          "„„Die Strömung reicht“, sagte Ilse.“ – Unlogischer Anschluss an den vorgegebenen letzten Absatz: Jonas stellt fest, dass der Motor nicht repariert ist; bei einer reinen Gierseilfähre bräuchte man ohnehin keinen Motor für den Vortrieb, bei einer Motor-Seilfähre ersetzt die Strömung nicht einfach den kaputten Motor.",
+          "„Ilse bückte sich nach dem schweren Eisenkeil und schob ihn unter die Auffahrtsklappe. Das Metall knirschte auf dem Kies.“ – Räumlicher Logikbruch: Im Vorgängerabsatz steht Jonas auf den „nassen Bohlen“ des Anlegers, plötzlich liegt die Klappe auf Kies.",
+          "„Er stand noch immer auf der Rampe, genau dort, wo das rostbraune Eisen der Fähre auf die Bohlen des Anlegers traf.“ – Widerspricht dem Starttext und dem eigenen Text: Wenn er schon auf der Rampe steht, hätte Ilse nicht kurz zuvor den Keil unter die Auffahrtsklappe schieben können, während er noch vor ihr auf dem Holz stand.",
+          "„Ende an einem Punkt, an dem Ilse eine kleine Entscheidung trifft.“ – Die Entscheidung am Ende (Spätschicht dranhängen und Jonas allein ins Haus schicken) wirkt konstruiert und bricht die Dynamik der Szene ab, statt sie organisch zu schließen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 4541,
+    "out": 1598,
+    "thinking": 0
+  },
+  "costUsd": 0.025062
+}

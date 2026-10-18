@@ -1,0 +1,18 @@
+{
+  "task": "lit-dialogue",
+  "model": "claude-opus-5.5",
+  "run": 3,
+  "text": "*Ein Café am Marktplatz. Martin sitzt bereits. Jörg bleibt kurz in der Tür stehen, dann kommt er herüber.*\n\n**JÖRG:** Du hast den Tisch am Fenster genommen.\n**MARTIN:** Der war frei.\n**JÖRG:** Früher wolltest du nie am Fenster sitzen.\n**MARTIN:** Früher war vieles anders. *(Pause)* Setz dich doch.\n\n*Jörg setzt sich, behält aber die Jacke an.*\n\n**JÖRG:** Du siehst gut aus.\n**MARTIN:** Danke. Du auch.\n**JÖRG:** Lüg nicht.\n**MARTIN:** Gut. Dann eben nicht.\n\n*Die Bedienung bringt zwei Kaffee. Keiner rührt seinen an.*\n\n**JÖRG:** Wie geht's Sabine?\n**MARTIN:** Fragst du aus Höflichkeit?\n**JÖRG:** Ich frage, weil ich frage.\n**MARTIN:** Es geht ihr gut. Sie lässt grüßen.\n**JÖRG:** Hat sie das gesagt?\n**MARTIN:** *(rührt im Kaffee)* Nicht wörtlich.\n\n*Pause.*\n\n**JÖRG:** Und die Werkstatt läuft?\n**MARTIN:** Sie läuft.\n**JÖRG:** Allein?\n**MARTIN:** Man gewöhnt sich dran.\n**JÖRG:** Ich hab das Schild gesehen. Neu gemacht.\n**MARTIN:** Das alte war verwittert.\n**JÖRG:** Natürlich.\n\n*Beide greifen gleichzeitig nach dem Zucker. Beide ziehen die Hand zurück.*\n\n**MARTIN:** Nimm du.\n**JÖRG:** Nein, du. Du warst ja zuerst da.\n**MARTIN:** *(schiebt die Dose langsam in die Mitte)* Ich hab dir damals geschrieben.\n**JÖRG:** Ich weiß.\n**MARTIN:** Zweimal.\n**JÖRG:** Ich weiß, Martin.\n**MARTIN:** Gut. Ich wollte nur sichergehen, dass sie angekommen sind.\n\n*Lange Stille. Draußen fährt ein Bus vorbei.*\n\n**JÖRG:** Mein Vater hat oft nach dir gefragt. Am Ende.\n**MARTIN:** *(sieht auf)* Das hat mir keiner gesagt.\n**JÖRG:** Nein. Hat dir keiner gesagt.\n\n*Martin nickt langsam. Er sieht lange auf seine Tasse.*\n\n**MARTIN:** Wie lange bleibst du?\n**JÖRG:** Kommt drauf an.\n**MARTIN:** Worauf?\n**JÖRG:** *(sieht aus dem Fenster)* Ob es regnet.\n**MARTIN:** Es regnet nicht.\n**JÖRG:** Noch nicht.\n\n*Er zögert. Dann zieht er die Jacke aus und hängt sie über die Stuhllehne. Martin schiebt ihm den Zucker hin.*",
+  "usage": {
+    "in": 126,
+    "out": 2232,
+    "thinking": 1103
+  },
+  "costUsd": 0.045144,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 21463,
+  "meta": [],
+  "at": "2026-10-17T17:48:49.275Z"
+}

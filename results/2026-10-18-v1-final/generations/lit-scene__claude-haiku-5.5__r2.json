@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "claude-haiku-5.5",
+  "run": 2,
+  "text": "Der Schlüssel lag nicht mehr unter dem Blumentopf mit der vertrockneten Geranie. Frau Lenz von nebenan hatte ihn im Juni abgegeben, mit einem Zettel: »Alles unverändert.« Das Wort war zweimal unterstrichen, als sei es eine Warnung.\n\nDas Haus roch nach kaltem Rauch und Bohnerwachs. Ich stand im Flur und ließ die Tür offen, damit das graue Licht eines Novembernachmittags hereinfiel und sich auf den Fliesen zu flachen Pfützen sammelte. An der Garderobe hing der Mantel meiner Mutter, der dunkelgrüne mit dem abgewetzten Kragen. Niemand hatte ihn abgenommen. Wer hätte das auch tun sollen.\n\nIn der Küche war die Uhr über dem Herd stehengeblieben, bei zehn nach vier. Ich fragte mich, ob es Tag oder Nacht gewesen war, als jemand sie zuletzt angehalten hatte. Auf der Arbeitsplatte stand eine Blechdose mit Kaffee. Ich hob den Deckel, und der Duft traf mich so unvermittelt, dass ich mich am Tresen festhalten musste: dunkel, leicht bitter, mit einer Spur von Orange. Genau so hatte es früher am Sonntag gerochen, wenn sie die Bohnen mahlte und die Küche sich mit einer Wärme füllte, die nicht von der Heizung kam.\n\nDie Bohnen waren frisch. Ich roch noch einmal, dann noch einmal, bis ich mir sicher war. Vor zwanzig Jahren hatte ich diese Dose zuletzt gesehen, leer, der Rand grau vor Staub. Ich setzte den Deckel zurück, behutsam, als könnte das Geräusch etwas wecken.\n\nIm Hof schlug eine Tür zu. Ich rührte mich nicht.",
+  "usage": {
+    "in": 149,
+    "out": 2237,
+    "thinking": 1538
+  },
+  "costUsd": 0.0011334000000000001,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 11382,
+  "meta": [],
+  "at": "2026-10-17T17:48:54.667Z"
+}

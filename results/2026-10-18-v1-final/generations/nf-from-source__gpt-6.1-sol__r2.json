@@ -1,0 +1,18 @@
+{
+  "task": "nf-from-source",
+  "model": "gpt-6.1-sol",
+  "run": 2,
+  "text": "Eine Genossenschaft macht es möglich, eine gemeinsame Aufgabe gemeinsam zu tragen. Wie das funktioniert, zeigt die Fährgenossenschaft Hitzacker eG. Sie entstand 1953, nachdem der Landkreis den Betrieb der Seilfähre eingestellt hatte. Daraufhin gründeten 41 Landwirte und Händler von beiden Elbufern die Genossenschaft. Ihr gemeinsames Anliegen war die Fährverbindung über die Elbe.\n\nHeute hat die Genossenschaft 312 Mitglieder. Jedes Mitglied hält mindestens einen Anteil zu 250 Euro und beteiligt sich damit finanziell. Für die Mitbestimmung ist jedoch nicht entscheidend, wie viele Anteile jemand besitzt: In der Generalversammlung hat jedes Mitglied genau eine Stimme. Wer mehr Anteile hält, erhält also nicht mehr Stimmen. Finanzielle Beteiligung und gleichberechtigte Mitsprache bilden hier die Grundlage des gemeinsamen Unternehmens.\n\nAuch der Umgang mit Überschüssen zeigt, worauf die Genossenschaft ausgerichtet ist. Sie werden nicht an die Mitglieder ausgeschüttet, sondern fließen in eine Rücklage für die Erneuerung der Fähre. Das erwirtschaftete Geld dient damit dem Fortbestand der Verbindung. Bis 2031 soll die Rücklage ausreichen, um einen Elektroantrieb einzubauen. Heute treibt ein 85-kW-Dieselmotor die am Führungsseil hängende Fähre an; bis 1978 bewegte allein die Strömung das Fahrzeug.\n\nDer laufende Betrieb finanziert sich aus Fahrkartenverkäufen und einem Zuschuss der Gemeinde. Im Jahr 2024 betrug der Umsatz 186.000 Euro: 71 Prozent stammten aus Fahrkartenverkäufen, 29 Prozent aus dem Gemeindezuschuss. Rund 64.000 Personen nutzen die Fähre jährlich, im Sommer vor allem Radfahrer auf dem Elberadweg. Bei normalem Wasserstand dauert die Überfahrt über die hier 212 Meter breite Elbe sieben Minuten.\n\nFür diese Fähre passt die genossenschaftliche Rechtsform, weil sie die gemeinsame Trägerschaft mit gleichberechtigter Mitsprache verbindet. Die Mitglieder beteiligen sich finanziell, entscheiden mit gleichem Stimmgewicht und verwenden Überschüsse für die Erneuerung statt für Ausschüttungen. So ist die Organisation auf den dauerhaften Betrieb der gemeinsam getragenen Fährverbindung ausgerichtet.",
+  "usage": {
+    "in": 402,
+    "out": 486,
+    "thinking": 0
+  },
+  "costUsd": 0.005664,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 12007,
+  "meta": [],
+  "at": "2026-10-17T17:47:32.821Z"
+}

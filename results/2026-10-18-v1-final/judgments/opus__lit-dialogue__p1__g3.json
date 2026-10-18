@@ -1,0 +1,139 @@
+{
+  "task": "lit-dialogue",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "F": {
+      "model": "gemini-4-argon",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„obwohl nichts drin ist zum Umrühren“ – umständlich und umgangssprachlich verdreht. Zudem widerspricht es „Du trinkst ihn immer noch schwarz“: Eine leere Tasse passt nicht zu dieser Feststellung.",
+          "„JONAS: *zur Kellnerin, ohne Martin anzusehen*“ – die Kellnerin ist zuvor abgegangen, ihre Rückkehr fehlt in der Regieanweisung.",
+          "„Man muss erst mal hinkommen.“ – die Buch-Metapher wird einen Tick zu deutlich auf die Beziehung gemünzt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Leon zieht den Stuhl zurück, den Mara freigelassen hat. […] LEON: Ist der Platz frei?“ – Logikbruch: Er fragt, nachdem er den Stuhl bereits genommen hat.",
+          "„Mara steht am Tisch“ – danach rührt sie wie selbstverständlich in ihrer Tasse, ihr Hinsetzen fehlt.",
+          "„Du bestellst noch immer schwarz. / Du auch. / Ich habe mich umgestellt. / Auf weniger Zucker.“ – unlogisch, schwarzer Kaffee und Zucker werden vermischt.",
+          "„Wir sind trotzdem angekommen. / Spät. / Aber zusammen.“ – an der Grenze zum Kitsch, zu deutlich ausgesprochen.",
+          "„den gleichen Mantel“ – gemeint ist „denselben Mantel“."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„rührt in einer leeren Tasse“ vs. „Der Kaffee sieht kalt aus.“ / „Ich hab nicht bestellt.“ – dreifacher Widerspruch innerhalb weniger Zeilen.",
+          "„Die Post war nie das Problem.“ – benennt den Konflikt beinahe offen.",
+          "„Ich wusste nicht, ob du kommst.“ – abgegriffene Wiedersehensformel.",
+          "„Löffel klirrt gegen Porzellan.“ – fehlender Artikel, wirkt wie Telegrammstil.",
+          "„das Horn klingt lang und dunkel“ – stimmungsheischender Schlussakkord, leicht kitschig."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ich konnte sie noch aufhalten“ – falscher Modus/Tempus, richtig wäre „Ich kann/könnte sie noch aufhalten“.",
+          "„nimmt er seine Jacke vom zweiten Stuhl“ vs. „nimmt die Jacke vom Stuhl neben sich“ – die Jacke liegt unerklärt wieder auf einem Stuhl.",
+          "„Dein Mantel wird nass am Boden.“ – der Mantel war zuvor nie am Boden, unvermittelt.",
+          "„Die anderen Plätze waren frei.“ – die Pointe bleibt zu kryptisch und ist schwer lesbar.",
+          "Mit deutlich über 300 Wörtern klar über der Längenvorgabe."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Ich hab’s nicht so gemeint. Damals. Zumindest nicht alles.“ – spricht den Streit fast direkt an und verwässert die Vorgabe „unausgesprochen“.",
+          "„Du lügst immer noch schlecht.“ – Klischeereplik.",
+          "„Früher war vieles anders.“ – Floskel.",
+          "„rührt in seinem Kaffee, der längst umgerührt ist“ – erklärende Regieanweisung, die einen Leerlauf behauptet, statt ihn zu zeigen.",
+          "„Ich wollte eigentlich nicht lange …“ – vorhersehbares Muster des Gehenwollens."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 7,
+        "stil": 4,
+        "aufgabe": 3,
+        "fehler": [
+          "„Hast du die Beförderung bekommen, für die du so... gekämpft hast?“ / „Loyalität ist heutzutage wirklich ein teurer Luxus.“ – der Konflikt wird offen ausgesprochen, die Kernvorgabe ist verfehlt.",
+          "„Ich brauchte einen radikalen Schnitt. Alles Alte musste weg.“ – überdeutliche Symbolik, Erklären statt Zeigen.",
+          "„*(lächelt bitter)*“ / „*(sieht ihr fest in die Augen)*“ – klischeehafte Regieanweisungen.",
+          "„Eine Menge kann passieren. Oder kaputtgehen.“ – plakativ.",
+          "„so... gekämpft“ – fehlendes Leerzeichen vor den Auslassungspunkten."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "E",
+      "C",
+      "B",
+      "F"
+    ]
+  },
+  "usage": {
+    "in": 6693,
+    "out": 3366,
+    "thinking": 1504
+  },
+  "costUsd": 0.094092
+}

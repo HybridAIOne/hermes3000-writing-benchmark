@@ -1,0 +1,18 @@
+{
+  "task": "lit-continue",
+  "model": "claude-opus-5.5",
+  "run": 2,
+  "text": "„Er läuft\", sagte Ilse.\n\n„Er läuft, weil du ihn jeden Morgen anbrüllst.\" Jonas lächelte, aber nur mit dem Mund, so wie er es als Junge getan hatte, wenn er beim Lügen erwischt worden war und es trotzdem weiter versuchen wollte. „Ich hab ihn vom Ufer aus gehört. Der klingt wie ein Traktor mit Bronchitis.\"\n\nSie antwortete nicht. Ein Wagen mit Lüneburger Kennzeichen rollte von der Rampe, der Fahrer hob zwei Finger vom Lenkrad, sie nickte zurück. Dann war es still bis auf das Schlagen des Wassers gegen den Rumpf und das leise Singen des Seils, das sich über den Fluss spannte und irgendwo drüben im Weidengebüsch verschwand. Die Elbe roch nach Schlick und Diesel und ein wenig nach dem Regen von letzter Nacht.\n\n„Willst du nicht wenigstens Hallo sagen?\"\n\n„Hallo, Jonas.\"\n\nEr zog den Koffer ein Stück näher an die Kante, als wolle er an Bord kommen, und blieb dann doch stehen. Seine Schuhe waren hell, aus einem weichen Leder, das die Nässe schon dunkel fleckte. Henning hätte etwas dazu gesagt. Henning hätte überhaupt etwas gesagt, irgendeinen Satz, über den beide hätten lachen können, und dann wäre es leichter gewesen.\n\n„Ich hab angerufen\", sagte Jonas. „Dreimal.\"\n\n„Das Telefon ist im Haus.\"\n\n„Ich weiß, wo das Telefon ist, Mama.\"\n\nSie ging zum Steuerstand und legte die Hand auf den Gashebel, ohne ihn zu bewegen. Das Metall war kalt und glatt gegriffen, an der Stelle, wo Hennings Daumen dreißig Jahre lang gelegen hatte, war der Lack ganz weg. Drüben am anderen Ufer stand niemand. Die nächste Fahrt war erst in zwanzig Minuten fällig, wenn der Bus aus Dannenberg kam, und meistens stieg da sowieso keiner aus.\n\n„Wie lange bleibst du?\"\n\n„Ein paar Tage. Kommt drauf an.\" Er sah an ihr vorbei auf das Wasser, auf die braunen Wirbel, die sich an den Pfählen bildeten und wieder auflösten. „Ich hab mir freigenommen.\"\n\nDas hatte er seit der Beerdigung nicht mehr getan. Ilse wusste, dass das etwas bedeutete, und sie wusste auch, dass sie es nicht wissen wollte. Sie dachte an das Bett im Giebelzimmer, das sie nicht bezogen hatte, an den Kühlschrank mit dem halben Brot und den drei Eiern, an Hennings Gummistiefel, die noch immer neben der Tür standen, weil sie nicht wusste, wohin damit.\n\nJonas trat von einem Fuß auf den anderen. Das Wasser war jetzt bis an seine Knöchel durch das Leder gedrungen, man sah es an der Art, wie er die Zehen hob.\n\nIlse nahm die Hand vom Gashebel.\n\n„Die Stiefel von deinem Vater stehen im Flur\", sagte sie. „Größe vierundvierzig. Zieh die an, bevor du mir das Haus volltropfst.\"",
+  "usage": {
+    "in": 593,
+    "out": 1583,
+    "thinking": 342
+  },
+  "costUsd": 0.034032,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 19365,
+  "meta": [],
+  "at": "2026-10-17T17:47:57.384Z"
+}

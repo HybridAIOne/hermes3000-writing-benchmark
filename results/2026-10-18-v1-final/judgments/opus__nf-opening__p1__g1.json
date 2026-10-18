@@ -1,0 +1,116 @@
+{
+  "task": "nf-opening",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Kommt dir das bekannt vor? Dann bist du in guter Gesellschaft.“ – abgegriffene Floskel an der Nahtstelle zwischen Szene und Reflexion",
+          "Kein Absatzwechsel zwischen Szene und Kapitelausblick: Der Block ab „Kommt dir das bekannt vor?“ wirkt gedrängt.",
+          "„rausgegangen sind“ – umgangssprachlich, im Fließtext eher „verschickt wurden“"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "„Na, auch schon da?\", – schließendes Anführungszeichen typografisch falsch (\" statt “)",
+          "Mit rund 200 Wörtern spürbar unter den geforderten etwa 250 Wörtern.",
+          "„Fast jeder Teamleiter kennt solche Momente.“ – generischer Übergangssatz"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„sondern längst Termin gemacht hast“ – Artikel fehlt, umgangssprachlich („einen Termin vereinbart hast“)",
+          "„seit einer Woche verfolgt“ / „Seit Wochen kommt er zu spät“ – unschöne Dopplung mit leichtem Zeitwiderspruch",
+          "„Ein angeschwiegenes Problem“ – ungebräuchliche Wortbildung",
+          "„Die schlechte Nachricht zuerst … Die gute Nachricht:“ – abgenutztes Ratgeberschema",
+          "„Dann bist du in bester Gesellschaft.“ – Floskel"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 6,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Das wolltest du so nicht hören lassen, und auch nicht so sagen.“ – grammatisch verunglückt und unverständlich",
+          "„Dann war's das also mit mir?\" – schließendes Anführungszeichen typografisch falsch",
+          "„Kennst du das? Man schiebt die Sache wochenlang vor sich her“ – Szene zeigt kein Aufschieben, der Anschluss bricht; zudem Wechsel von „du“ zu „man“",
+          "„Den ersten sagst du“ – der Satzinhalt bleibt offen, die Szene wirkt dadurch unklar"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "„die wahre Feuerprobe“, „auf dünnes Eis“, „vergiftet“, „echte Führungskraft“ – Häufung von Phrasen und Klischees",
+          "„Deshalb schieben wir solche Gespräche vor uns her“ – Bruch der Du-Ansprache",
+          "„Du kannst keine Abmahnung androhen und kein Machtwort sprechen“ – unterstellt der Zielgruppe (Teamleiter) fehlende Weisungsbefugnis",
+          "Durchgehender Textblock ohne Absatz zwischen Szene und Einordnung",
+          "Kein Ausblick, was das Kapitel bietet; der Text endet mit einem Pathos-Satz."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "D",
+      "A",
+      "C",
+      "B"
+    ]
+  },
+  "usage": {
+    "in": 5014,
+    "out": 2639,
+    "thinking": 1420
+  },
+  "costUsd": 0.072836
+}

@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "claude-haiku-5.5",
+  "run": 3,
+  "text": "Der Schlüssel ließ sich nicht drehen. Sie stand auf der Stufe, den Koffer neben sich, und drückte die Klinke, bis das Holz nachgab. Die Tür öffnete sich mit einem trockenen Ächzen im unteren Scharnier, als müsste man das Haus erst wecken.\n\nInnen roch es nach kaltem Staub und nach etwas Süßem, das sie keinem Ding zuordnen konnte. Im Flur hing der Garderobenspiegel noch an seinem Nagel, mit dem Sprung in der linken Ecke. Darin stand eine Frau Ende vierzig, die sie einen Moment lang nicht erkannte. Zwanzig Jahre. Die Dinge hatten sich kaum verändert, nur die Stille hatte sich über sie gelegt, wie Laken über Möbel.\n\nDie Mäntel an der Garderobe fehlten. Die Hausschuhe der Mutter fehlten auch, aber der Platz davor war noch da, zwei helle Flecken im Linoleum, wo Sohlen den Boden blankgerieben hatten.\n\nSie ging in die Küche, ohne das Licht einzuschalten. Durchs Fenster fiel grauer Nachmittag auf den Tisch mit der Wachstuchdecke, auf die Zuckerdose, den Stuhl, der immer ein wenig schief gestanden hatte. Die Speisekammer lag hinter der Tür rechts. Dort standen die Regale noch, und auf dem mittleren, in einer Reihe mit anderen Gläsern, eines mit einem Papierdeckel. In der Handschrift der Mutter: *Quitten, Oktober*. Das Jahr war nicht mehr zu lesen, der Deckel war fleckig geworden.\n\nSie nahm das Glas herunter. Der Inhalt war nachgedunkelt zu einem Bernstein, fast braun. Das Wachs über dem Rand war an einer Stelle angehoben, eine kleine Lasche, sauber gelöst und wieder angedrückt.\n\nDie Süße, die sie im Flur gerochen hatte, kam von hier. Und jemand war vor ihr hier gewesen.",
+  "usage": {
+    "in": 149,
+    "out": 1924,
+    "thinking": 1154
+  },
+  "costUsd": 0.0009769,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 11823,
+  "meta": [],
+  "at": "2026-10-17T17:49:01.099Z"
+}

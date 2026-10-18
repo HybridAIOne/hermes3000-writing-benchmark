@@ -1,0 +1,20 @@
+{
+  "task": "ed-feedback",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "**Lektoratsanmerkungen**\n\n1. „Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.\" – Logikfehler: Die Rampe muss heruntergelassen werden, *bevor* die Fahrgäste an Bord gehen können; „nachdem\" muss zu „bevor\" oder die Satzteile müssen vertauscht werden.\n\n2. „Ilse stellt den Motor an und wartete\" – Tempusbruch: „stellt\" steht im Präsens, die Erzählzeit ist Präteritum („stellte\").\n\n3. „Ich hatte diesen Moment immer gemocht, dachte sie\" – Bruch in der Erzählperspektive: direktes Ich bei personaler Erzählführung; zudem Tempusfehler, da bei Gleichzeitigkeit das Präteritum („mochte\") statt des Plusquamperfekts nötig wäre – Korrektur: „Sie hatte diesen Moment immer gemocht\" (bzw. erlebte Rede).\n\n4. „Der Nebel lag dicht … Der Nebel war so dicht … Der Nebel schluckte\" – Dreifache, unmotivierte Wiederholung von „Der Nebel\" in drei aufeinanderfolgenden Sätzen, die zudem zweimal die Dichte thematisiert; Satzreihe straffen.\n\n5. „die drei Fahrgäste\" vs. „die alte Frau Lüders\" – Zählfehler: Als Fahrgäste wurden Frau mit Fahrrad, Mann im grauen Mantel und Junge mit Kopfhörern eingeführt (drei), mit Frau Lüders kommt ein vierter Fahrgast hinzu, der nie an Bord gegangen ist.\n\n6. „der Bäcker mit seinem Pferdewagen … und hupte zweimal\" – Sachlicher Widerspruch: Ein Pferdewagen kann nicht hupen; außerdem schafft der Pferdewagen „seit dem Krieg\" zusammen mit dem Handy des Jungen einen unklaren zeitlichen Rahmen, der aufeinander abgestimmt werden muss.",
+  "usage": {
+    "in": 451,
+    "out": 886,
+    "thinking": 354
+  },
+  "costUsd": 0.010714139999999999,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Sail Research",
+  "latencyMs": 10636,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-18T05:23:58.426Z"
+}

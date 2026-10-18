@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "gpt-6-luna",
+  "run": 3,
+  "text": "Am Dienstag um neun sitzt du mit Jana im kleinen Besprechungsraum neben der Warenannahme. Auf dem Tisch liegt der Ablaufplan für den Kundenauftrag, daneben eine Tasse, die längst kalt ist. Zum dritten Mal in zwei Wochen hat Jana die vereinbarte Rückmeldung nicht rechtzeitig gegeben. Du hast die fehlende Information gestern selbst zusammengesucht und den Kunden angerufen. Jetzt willst du es ansprechen. Während Jana ihren Rechner aufklappt, sortierst du im Kopf deine Sätze: nicht zu scharf, aber deutlich; erst zuhören, dann erklären; bloß keinen Streit anfangen. Also fragst du nach dem Wochenende. Ihr redet über den neuen Drucker. Die zehn Minuten sind vorbei, und das eigentliche Gespräch hat wieder nicht stattgefunden. Solche Momente gehören zum Führungsalltag. Sie sehen selten aus wie ein großer Konflikt. Meist geht es um eine verpasste Zusage, einen Ton, der im Meeting danebenlag, oder eine Aufgabe, die immer wieder bei denselben Leuten landet. Gerade weil die Dinge klein wirken, schiebt man sie gern auf. Doch wenn du wartest, bis der Ärger kaum noch zu übersehen ist, wird aus einem konkreten Problem schnell ein Urteil über die Person: „Auf dich kann man sich nie verlassen.“ Ein schwieriges Gespräch muss nicht angenehm sein, aber es kann fair und klar geführt werden. Du brauchst dafür weder die perfekte Formulierung noch eine besondere Begabung. Entscheidend ist, dass du rechtzeitig sagst, was du beobachtet hast, warum es wichtig ist und was sich ändern soll – und dass du dem anderen Raum gibst, seine Sicht zu schildern. In diesem Kapitel geht es darum, genau solche Gespräche vorzubereiten und zu führen, ohne auszuweichen und ohne unnötig zu verletzen.",
+  "usage": {
+    "in": 152,
+    "out": 520,
+    "thinking": 137
+  },
+  "costUsd": 0.00027519999999999997,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 6713,
+  "meta": [],
+  "at": "2026-10-17T17:47:42.998Z"
+}

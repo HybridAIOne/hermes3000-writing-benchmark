@@ -1,0 +1,18 @@
+{
+  "task": "lit-scene",
+  "model": "gpt-6.1-sol",
+  "run": 1,
+  "text": "Der Schlüssel ging leichter ins Schloss, als sie erwartet hatte. Nur beim letzten Stück musste sie die Tür mit der Schulter anheben. Das Holz hatte sich verzogen, oder es war schon immer so gewesen und ihre Mutter hatte es nur nie erwähnt.\n\nIm Flur roch es nach kalter Wolle. Hinter der Tür hing noch der graue Mantel, unten weit genug ausgestellt, dass man beim Vorbeigehen daran streifte. Sie schob ihn zur Seite und stellte ihre Tasche auf die Fliesen.\n\nZwanzig Jahre hatte sie dieses Haus nicht betreten. Auf der Fahrt hatte sie sich die Zimmer kleiner vorgestellt, die Decken niedriger. Jetzt wusste sie nicht, ob sie recht gehabt hatte. Sie blieb zu nah an der Tür stehen.\n\nVom Küchenfenster fiel ein schmaler Streifen Licht bis zur Treppe. Sie legte die Hand auf den Knauf des Geländers. An seiner Unterseite ertastete sie drei dicht beieinanderliegende Kerben. Die mittlere war tiefer als die anderen; ihr Fingernagel blieb darin hängen. Sie zog die Hand weg.\n\nAuf dem Küchentisch stand ein Glas mit einem fingerbreit Wasser. Am Rand haftete ein blasser Lippenabdruck. Ihre Mutter hatte zuletzt allein hier gelebt, und offenbar hatte niemand das Glas fortgeräumt, weder die Nachbarin, die sie gefunden hatte, noch der Mann vom Bestattungsinstitut.\n\nSie öffnete den Kühlschrank. Er war ausgeschaltet und ausgewischt. In der Ablage der Tür lag eine einzelne Zitrone, leicht geworden, mit harter Schale. Sie nahm sie heraus, roch daran und legte sie zurück.\n\nDraußen fuhr ein Lieferwagen vorbei. Für einen Augenblick zitterte die Scheibe über der Spüle in ihrem Rahmen.\n\nSie hätte ihre Schwester anrufen sollen. Das war vereinbart gewesen: Bescheid sagen, sobald sie angekommen war. Stattdessen zog sie einen Stuhl vom Tisch und setzte sich, noch im Mantel. Von hier aus konnte sie den oberen Treppenabsatz sehen.\n\nNach einer Weile stand sie auf und schloss die Haustür.",
+  "usage": {
+    "in": 76,
+    "out": 634,
+    "thinking": 183
+  },
+  "costUsd": 0.006492,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 25916,
+  "meta": [],
+  "at": "2026-10-17T17:47:01.777Z"
+}

@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "claude-haiku-5.5",
+  "run": 3,
+  "text": "# Führen ohne Titel\n\n**1. Der erste Tag ohne Gebrauchsanweisung**\nDu hast die Rolle bekommen, bevor dir jemand erklärt hat, was sie bedeutet, und hier erfährst du, was du in den ersten dreißig Tagen wirklich tun musst und was du getrost liegen lassen kannst.\n\n**2. Was dir gehört und was nicht**\nDu klärst, welchen Auftrag du tatsächlich hast, wo deine Entscheidungsbefugnisse enden und was die Geschäftsführung von dir erwartet, bevor du anfängst, Dinge zu verändern.\n\n**3. Dein Team kennenlernen, bevor du es veränderst**\nDu lernst, wie du Stärken, Arbeitsweisen und Reibungspunkte in deinem Team erkennst, indem du beobachtest, zuhörst und Einzelgespräche führst.\n\n**4. Vom Kollegen zum Vorgesetzten**\nDu gestaltest die Beziehung zu Menschen neu, mit denen du bisher auf Augenhöhe warst, und findest das richtige Maß an Nähe und Distanz.\n\n**5. Aufgaben abgeben, ohne die Kontrolle zu verlieren**\nDu lernst, Verantwortung zu delegieren, auf Ergebnisse statt auf jeden Arbeitsschritt zu achten und trotzdem zu wissen, wie es läuft.\n\n**6. Vereinbarungen treffen, statt auf Hoffnung zu bauen**\nDu richtest klare Ziele, verlässliche Regeln für Rückmeldungen und feste Gesprächsformate ein, die im Alltag tragen.\n\n**7. Schwierige Gespräche führen**\nDu bereitest dich auf Gespräche über Leistungsprobleme, Konflikte und Fehlverhalten vor, führst sie klar und respektvoll und sorgst danach dafür, dass Vereinbarungen eingehalten werden.\n\n**8. Entscheidungen weitergeben, die du nicht teilst**\nDu lernst, wie du Vorgaben von oben erklärst und vertrittst, auch wenn du selbst anderer Meinung bist, und wo du Grenzen nach oben ziehen musst.\n\n**9. Deine eigene Haltung**\nDu klärst, warum du führst, welche Art von Vorgesetztem du sein willst und wie du mit Fehlern, Druck und eigenen Zweifeln umgehst, damit du auch in schwierigen Zeiten verlässlich bleibst.",
+  "usage": {
+    "in": 242,
+    "out": 2296,
+    "thinking": 1402
+  },
+  "costUsd": 0.0011722,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 11776,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:50:51.976Z"
+}

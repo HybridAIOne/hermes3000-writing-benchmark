@@ -1,0 +1,121 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "E": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Bei den Münzen blieb sie kurz stehen.“ – sie steht ohnehin; gemeint ist „stockte“",
+          "„Die Fahrerin trug ihre Haare noch feucht“ – gestelzte Wendung",
+          "„Auf der Konsole rutschte er, auch auf der Gummimatte. Das hatte sie gestern ausprobieren müssen, obwohl sie es wusste.“ – umständlich und unklar",
+          "„Die Fähre ... in die Strömung“ / „Hand am Hebel“ – die Technik der Seilfähre bleibt vage",
+          "„Die Frau prüfte es nicht, schob es lose ins Portemonnaie“ – Detailkette ohne Funktion, das Tempo stockt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Es war vierundvierzig Minuten nach sechs.“ – Logikbruch: Der dritte Fahrgast kam erst „eine Minute vor dreiviertel sieben“, die Fähre ist aber schon mitten im Strom",
+          "„von dem er neulich ein Prospekt geschickt hatte“ – richtig: „einen Prospekt“",
+          "„Es würde um das Haus gehen. Oder um die Werft-Rechnung … Oder um das Betreute Wohnen“ – erklärende Exposition statt Szene",
+          "„das Seil sang sein leises, metallisches Lied“ / „durch ein vollkommenes Nichts“ – Klischees",
+          "„eine abgezählte Zwei-Euro-Münze und fünfzig Cent“ – schiefe Formulierung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„eines von denen, die man schnell wieder vergisst“ – Präsens-Ausrutscher im Präteritumtext",
+          "„Morgen\"“ – uneinheitliche Anführungszeichen (öffnend „ , schließend \")",
+          "„Die Elbe ist der Motor.“ / „Sie will immer“ – etwas zu pointiert und kalendersprüchig",
+          "„Mitte Strom wurde der Nebel noch dichter.“ – elliptisch, grenzwertig",
+          "„oder etwas, das klang wie ein Reiher“ – bekannte Floskel"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Pommerening kam jeden Dienstag rüber, zum Friseur in Hitzacker“ – Logikbruch: Die Fähre fährt von Hitzacker weg, wie die Frage „Nach Hitzacker?“ später zeigt",
+          "„noch ein Fußgänger …, der alte Pommerening mit seinem Fahrrad“ – Widerspruch",
+          "„als wolle sie das sichergehen“ – grammatisch falsch",
+          "„glänzend vor Nässe, Glied für Glied“ – ein Stahlseil hat keine Glieder",
+          "„zwei Fünfziger … zwei Fünfziger und ein Nicken“ – unklarer Betrag, dazu Wiederholung; „Vierzig Meter Wasser“ ist für die Elbe bei Hitzacker unrealistisch"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„Die Fähre fährt nach Hitzacker-Ufer … Das ist das Gleiche.“ – unsinnig, denn Hahn ließ seinen Wagen auf der Hitzacker-Seite stehen",
+          "„die drei Menschen darauf, die sie nicht kannte, bis auf Wessel und Hahn“ – verunglückte Logik",
+          "„Hahn zündete sich eine neue Zigarette an“ – widerspricht der eben gezeigten Entschuldigung",
+          "„Sie kannte jeden Ton dieser Fähre. Sie wusste, wann … Sie wusste, wie …“ – Erklären statt Zeigen, Wiederholungsmasche",
+          "„Sie wusste, dass es da war.“ – abgegriffener Einstieg; der Dialog ist dünn"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 15638,
+    "out": 4215,
+    "thinking": 2664
+  },
+  "costUsd": 0.146852
+}

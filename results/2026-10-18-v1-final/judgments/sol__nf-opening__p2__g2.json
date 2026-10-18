@@ -1,0 +1,111 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Das wolltest du so nicht hören lassen“ ist in diesem Zusammenhang unidiomatisch. Gemeint ist vermutlich: „So sollte das nicht klingen.“",
+          "„Auf dem Tisch liegt ein Ausdruck“ und „Den ersten sagst du“ sparen die entscheidenden Inhalte aus. Dadurch bleibt die Szene trotz konkreter Ausstattung im Kern unbestimmt: Was angesprochen wird und wodurch Markus sich bedroht fühlt, erfährt man nicht.",
+          "„stand aber in keiner Stellenbeschreibung“ ist eine pauschale Behauptung und eine geläufige Führungsratgeber-Floskel statt einer präzisen Beobachtung.",
+          "„Kennst du das?“, „Schwierige Gespräche gehören“ und „Dieses Kapitel setzt“ eröffnen jeweils weitere Absätze. Verlangt war ein Einstiegsabsatz, nicht eine vierteilige Einleitung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„wie du solche Gespräche führst, ohne dass sie eskalieren, und ohne dass du dich danach drei Tage schlecht fühlst“ verspricht Ergebnisse, die auch gute Gesprächsführung nicht gewährleisten kann. Das schwächt die sachliche Glaubwürdigkeit.",
+          "„Dann bist du in guter Gesellschaft“ und „mit einer klaren Haltung und ein paar handfesten Werkzeugen“ sind austauschbare Ratgeberformulierungen. Gegenüber der präzisen Ausgangsszene fällt der Schluss sprachlich ab."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Aber seit drei Monaten lässt er schleifen“: In der hier gemeinten Wendung fehlt „es“; korrekt wäre „lässt er es schleifen“.",
+          "„Als Teamleiter ohne disziplinarische Macht hast du kein Druckmittel in der Hinterhand“ ist eine sachlich unhaltbare Verabsolutierung. Auch ohne disziplinarische Befugnisse bestehen etwa Eskalationswege über Vorgesetzte.",
+          "„Deine einzige Währung ist das Gespräch auf Augenhöhe“ ersetzt eine differenzierte Beschreibung der Handlungsmöglichkeiten durch eine abgegriffene Managementmetapher.",
+          "„sie gären im Hintergrund weiter und vergiften schleichend die Stimmung im gesamten Team“ dramatisiert eine mögliche Entwicklung zur zwangsläufigen Folge.",
+          "„als echte Führungskraft ernst nimmt oder nur als jemanden, der die Urlaubslisten abzeichnet“ konstruiert einen falschen Gegensatz und wertet organisatorische Führungsarbeit unnötig ab."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„Aus dem freundlichen Wink wird ein Disziplinarverfahren“ verwendet für den beschriebenen privatwirtschaftlichen Firmenkontext einen unpassenden Begriff und stellt eine keineswegs zwangsläufige Eskalation als Automatismus dar.",
+          "„ein Kündigungsgespräch vorbereiten musst“ und „wird ein Kündigungsfall“ verschieben den Schwerpunkt auf personelle Maßnahmen, statt die besondere Gesprächsaufgabe beim Führen ohne Titel herauszuarbeiten.",
+          "„In der Führungsetage werden Quartalszahlen besprochen, im Flurfunk Strategien“ ist eine schablonenhafte Gegenüberstellung; insbesondere „im Flurfunk Strategien“ bleibt inhaltlich unscharf.",
+          "„wie du danach wieder ruhig schläfst“ ist ein unbegründetes Wirkungsversprechen und ein formelhafter Ratgeberschluss.",
+          "„Damit bist du nicht allein“, „Das Problem dabei“ und „In diesem Kapitel lernst du“ beginnen zusätzliche Absätze. Der Text liefert eine vierteilige Einleitung statt des verlangten Einstiegsabsatzes."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "A",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 2443,
+    "out": 1489,
+    "thinking": 470
+  },
+  "costUsd": 0.019776
+}

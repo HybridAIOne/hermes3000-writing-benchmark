@@ -1,0 +1,132 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„ein Mitglied, eine Stimme\" – falsches schließendes Anführungszeichen (muss “ sein)",
+          "Die Frage, warum die Genossenschaft die passende Rechtsform für diese Fähre ist, wird nicht ausdrücklich beantwortet, sondern nur angedeutet",
+          "„Dass dieses Modell trägt, zeigen die Zahlen“ – Wertung ohne Beleg; 29 Prozent Gemeindezuschuss sprechen eher gegen Eigenständigkeit",
+          "„Wie das Seil verbindet die Genossenschaft zwei Ufer“ – bemühtes Schlussbild statt Fazit",
+          "„# Die Fährgenossenschaft Hitzacker – ...“ – Markdown-Überschrift im Buchtext"
+        ],
+        "unsupported": [
+          "„Dass dieses Modell trägt, zeigen die Zahlen“ (Wertung, nicht in der Quelle)",
+          "„im Interesse der Mitglieder und der Region“",
+          "„seit mehr als siebzig Jahren“ (nur aus 1953 abgeleitet)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Warum passt diese Rechtsform so gut zu der Fähre? Sie ist vor allem eine Verbindung“ – „Sie“ bezieht sich grammatisch zunächst auf die Rechtsform, gemeint ist die Fähre",
+          "„auf die viele Menschen angewiesen sind“ – leichte Zuspitzung über die Quelle hinaus",
+          "„Dass es die Fähre noch gibt, verdankt sie einer Entscheidung“ – etwas umständlich"
+        ],
+        "unsupported": [
+          "„auf die viele Menschen angewiesen sind, und erst in zweiter Linie ein Geschäft“ (Deutung)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "Absatz 3 springt vom Umgang mit Überschüssen zu Antrieb, Seil und Flussbreite – Technikangaben stehen thematisch falsch",
+          "„warteten die Menschen an beiden Elbufern nicht auf eine Lösung von außen“ – ausgeschmückt",
+          "„Mit diesen Anteilen wird das Unternehmen finanziert“ – Quelle nennt als Einnahmen Fahrkarten und Zuschuss, nicht die Anteile",
+          "„Die Zahlen von 2024 zeigen, wie das Modell trägt“ – unbelegte Wertung",
+          "„**Eine Fähre in Gemeinschaftshand ...**“ – Formatierungszeichen im Buchtext"
+        ],
+        "unsupported": [
+          "„warteten die Menschen an beiden Elbufern nicht auf eine Lösung von außen“",
+          "„Mit diesen Anteilen wird das Unternehmen finanziert“",
+          "„Die Zahlen von 2024 zeigen, wie das Modell trägt“"
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„1953 41 Landwirte“ – zwei Zahlen direkt hintereinander, schwer lesbar",
+          "„Solche Vorhaben lassen sich nur finanzieren, wenn Überschüsse über Jahre hinweg zurückgelegt werden“ – absolute, unbelegte Behauptung",
+          "„Genau dafür ist die Rücklage da.“ – Füllsatz, wiederholt Bekanntes",
+          "„die Erträge bleiben im Projekt“ – „Projekt“ unpassend für einen seit 1953 bestehenden Betrieb",
+          "Durchgehend abgehackte Kurzsätze; mit rund 370 Wörtern über dem Umfang"
+        ],
+        "unsupported": [
+          "„Solche Vorhaben lassen sich nur finanzieren, wenn Überschüsse über Jahre hinweg zurückgelegt werden“",
+          "„zeigt zudem den langen Atem dieses Modells“ (Deutung)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Finanzielle Beteiligung und Mitbestimmung sind nicht nach demselben Maßstab verteilt“ – abstrakt, für Laien schwer greifbar",
+          "„Die wirtschaftliche Grundlage bilden Fahrkartenverkäufe und ein Zuschuss der Gemeinde. Von den 186.000 Euro ... aus Fahrkarten und 29 Prozent aus dem Gemeindezuschuss“ – Redundanz",
+          "„bewegte allein die Strömung das Fahrzeug“ – behördensprachlich",
+          "„Das Geld bleibt damit dem Fährbetrieb gewidmet“ – steif",
+          "„Darin liegt ein wesentliches Merkmal dieser gemeinschaftlichen Organisationsform“ – papieren"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "E",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 7143,
+    "out": 3317,
+    "thinking": 1530
+  },
+  "costUsd": 0.094912
+}

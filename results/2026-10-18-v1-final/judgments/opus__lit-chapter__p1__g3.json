@@ -1,0 +1,143 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "F": {
+      "model": "kimi-k3",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„vor sich einen dieser Kaffee in Pappbechern“ – Plural fehlt, korrekt wäre „einen dieser Kaffees“",
+          "„den Schulranzen auf einer Schulter“ – „Schulranzen“ passt kaum zu einem Fünfzehnjährigen",
+          "„Er nickte, als sei damit alles erklärt, und vielleicht war es das auch.“ – der Kommentar der Erzählerin erklärt, was die Szene bereits zeigt",
+          "„ein kleines, wütendes Zittern auf dem Blech“ – die Vermenschlichung ist leicht überdeutlich"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Dann fahren wir eben drumherum.“ – eine Seilfähre kann nicht ausweichen, das ist ein Logikbruch",
+          "„Hundertzwanzig Meter bis zur ersten Boje, dann eine Linkskurve“ – eine Seilfähre fährt keine Kurven",
+          "„Sie wusste auch so, wer es war.“ – Jonas wird beim Anruf nie genannt, der Anrufer ist nur zu erschließen",
+          "„als hätte es es sich anders überlegt“ – holprige Doppelung „es es“",
+          "„Ilse fragte sich kurz, wohin er wollte, dann dachte sie, dass es sie nichts anging.“ – erklärt, statt zu zeigen"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "„erst der Mann mit dem Fahrrad, dann die Frau, dann der Lieferwagen. Nein, die waren schon drüben.“ – wirre Passage, zudem wird aus dem Jungen plötzlich ein „Mann“",
+          "„dann drehte sie sie zurück in die Strömung“ – eine Seilfähre wird nicht gedreht, das ist ein Logikbruch",
+          "„Ilse nahm Gas heraus und gab dem Boot einen kurzen Schub, bevor es gegen die Landung stieß“ – der Ablauf ist widersprüchlich",
+          "„Auch der Nebel schien an der Bewegung der Fähre teilzunehmen, statt sie nur zu umgeben.“ – vage und abstrakt",
+          "Die drei Fahrgäste stehen schon zu Beginn an Deck, das Einsteigen fehlt; die zweite Hälfte ist handlungsarmer Leerlauf"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Ilse wartete, bis die Frau an ihm vorbei war“ – die Frau ging vorher schon vor dem Mann, der Ablauf ist unklar",
+          "„Vom anderen Ufer erschien zuerst die Lampe.“ – die Präposition „vom“ ist ungelenk",
+          "„Ein Centstück blieb an ihrem Handschuh hängen.“ – kollidiert damit, dass sie den rechten Handschuh ausgezogen hat",
+          "Der durchgehend knappe Hauptsatz-Staccato wirkt stellenweise etwas manieriert"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„die Sonne Münchens im Gesicht“ – kitschig",
+          "„in die zwei gelben Augen eines alten Traktors“ – abgegriffenes Bild",
+          "„Ilse behielt das Echolot und das Radar im Auge.“ – für eine kleine Seilfähre unplausibel",
+          "„Er würde über den Winter reden wollen. Über die Bilanz vom dritten Quartal. Über den Makler aus Lüneburg.“ – erklärende Exposition in Aufzählungsmasche",
+          "Die Länge liegt mit gut 1000 Wörtern über der Vorgabe"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 6,
+        "stil": 4,
+        "aufgabe": 3,
+        "fehler": [
+          "Mehr als drei Fahrgäste: Kallenbach, Ines, der Junge, dazu „einem Transporter“ und „der erste Radfahrer des Tages“",
+          "„Drüben löste Kallenbach sein Fahrrad“ – Kallenbach müsste schon am Hitzacker-Ufer ausgestiegen sein, das ist ein Logikbruch",
+          "„Um fünf holte Ilse den Kaffee aus der Thermoskanne … dabei war die Thermoskanne längst kalt geworden“ – widerspricht später „Der Kaffee war lauwarm“",
+          "„„Jonas kommt zu Weihnachten?\" fragte Ines.“ – Komma vor „fragte“ fehlt, außerdem uneinheitliche Anführungszeichen",
+          "„Aber es war November, und sie wusste es besser, und sie fotografierte zurück, mit den Augen“ – inkohärent und kitschig; der Text ist zudem mit rund 1300 Wörtern deutlich zu lang"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c3"
+        ]
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "E",
+      "B",
+      "C",
+      "F"
+    ]
+  },
+  "usage": {
+    "in": 18427,
+    "out": 5346,
+    "thinking": 3475
+  },
+  "costUsd": 0.180628
+}

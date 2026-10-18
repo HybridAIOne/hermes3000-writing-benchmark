@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "claude-haiku-5.5",
+  "run": 3,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-5"
+    ],
+    "evidence": [
+      "Und sie denkt, dass es bequem wäre, die Gefahr da draußen zu verorten, im Weiß, im Wetter, in dem Mann mit dem Notizbuch, der etwas wissen will, das sie selbst nicht weiß."
+    ]
+  },
+  "usage": {
+    "in": 1773,
+    "out": 134,
+    "thinking": 63
+  },
+  "costUsd": 0.004886
+}

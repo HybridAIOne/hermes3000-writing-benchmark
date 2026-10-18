@@ -1,0 +1,131 @@
+{
+  "task": "nf-from-source",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 4,
+        "fehler": [
+          "„schlossen sich 1953 vierzig Landwirte und Händler“ – die Quelle nennt 41, nicht vierzig.",
+          "„Zugleich gibt die gleiche Stimme jedem Mitglied ein Mitspracherecht – unabhängig davon, wie viele Anteile es hält.“ – wiederholt fast wörtlich den zweiten Absatz; das ist ein Füllsatz.",
+          "„Die Mitglieder können gemeinsam über die Angelegenheiten der Genossenschaft beraten und abstimmen.“ – inhaltsleerer Satz ohne neuen Gehalt.",
+          "„Die Einnahmen stammen nicht nur aus Fahrkarten:“ – die Überleitung wirkt umständlich, der Bezug zur Rechtsform fehlt.",
+          "„Das macht die Genossenschaft für diese Fähre besonders passend“ – „Das“ bezieht sich unklar auf die Rücklage; die Begründung kommt erst spät und bleibt knapp."
+        ],
+        "unsupported": [
+          "„vierzig Landwirte und Händler“ (Quelle: 41)"
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Das zeigt sich auch in den Zahlen:“ – die folgenden Umsatz- und Fahrgastzahlen belegen das gemeinsame Interesse nicht; die Verknüpfung ist logisch schief.",
+          "„Dank der angesparten Rücklage soll bis 2031 ein Elektroantrieb eingebaut werden“ – laut Quelle soll die Rücklage bis 2031 ausreichen; der Einbau bis 2031 ist nicht belegt.",
+          "„wie die Genossenschaft auf Dauer und für das Gemeinwohl plant“ – „Gemeinwohl“ ist eine wertende Zuschreibung ohne Quellenbeleg.",
+          "„# Die Fährgenossenschaft Hitzacker: Wie eine Genossenschaft funktioniert“ – die Markdown-Überschrift widerspricht der Vorgabe, nur Buchtext auszugeben.",
+          "Der dritte Absatz reiht nach der Begründung technische Daten aneinander, die nichts zur Rechtsform beitragen. Mit rund 380 Wörtern liegt der Text deutlich über dem Umfang."
+        ],
+        "unsupported": [
+          "„soll bis 2031 ein Elektroantrieb eingebaut werden“ (Quelle: Rücklage soll bis 2031 ausreichen)",
+          "„für das Gemeinwohl plant“"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Als der Landkreis im Jahr 1953 den Betrieb der dortigen Seilfähre einstellte“ – die Quelle datiert nur die Gründung auf 1953, nicht die Einstellung.",
+          "„wächst das finanzielle Polster stetig“ – das stetige Wachstum ist eine nicht belegte Behauptung.",
+          "„Wurde sie bis 1978 allein durch die Strömung bewegt, sorgt heute …“ – die konditional wirkende Inversion als Kontrastkonstruktion ist stilistisch holprig.",
+          "„die Modernisierung der Fähre ideal unterstützt“ – werbliche Formulierung.",
+          "„nicht um persönliche Gewinnmaximierung“ – Buzzword-Nähe; die Begründung wird vorweggenommen und am Ende wiederholt."
+        ],
+        "unsupported": [
+          "Einstellung des Fährbetriebs durch den Landkreis „im Jahr 1953“",
+          "„wächst das finanzielle Polster stetig“"
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Die Seilfähre über die Elbe bei Hitzacker gibt es seit 1953 als Fährgenossenschaft.“ – schiefer Satz: Die Fähre ist keine Genossenschaft.",
+          "„Warum passt diese Rechtsform zu einer Fähre? Die Fähre ist ein Verkehrsmittel für viele Menschen.“ – darauf folgen nur Kennzahlen, die eigentliche Begründung bleibt dünn.",
+          "„Bis 1978 bewegte allein die Strömung das Schiff.“ – die Technikgeschichte steht unvermittelt im Absatz über die Überschüsse.",
+          "„**Wie eine Genossenschaft funktioniert – …**“ – die Markdown-Formatierung widerspricht der Vorgabe, nur Buchtext auszugeben.",
+          "„und jedes von ihnen ist Teil des Unternehmens“ – vage Formulierung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„was sich für einen einzelnen Eigentümer kaum lohnen würde“ – diese Wirtschaftlichkeitsaussage über die Fähre ist nicht belegt.",
+          "„Bis 1978 trieb allein die Strömung die Fähre an …“ – die Technikgeschichte unterbricht den Begründungsabsatz.",
+          "„## Gemeinsam über den Fluss …“ – die Markdown-Überschrift widerspricht der Vorgabe, nur Buchtext auszugeben.",
+          "„Im Jahr 2024 nahm die Genossenschaft 186.000 Euro ein.“ – die Quelle spricht von „Umsatz“; vertretbar, aber unpräzise.",
+          "„Auch beim Geld zeigt sich, worum es geht.“ – leicht floskelhafte Überleitung."
+        ],
+        "unsupported": [
+          "„was sich für einen einzelnen Eigentümer kaum lohnen würde“"
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "D",
+      "B",
+      "C",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 7032,
+    "out": 3251,
+    "thinking": 1168
+  },
+  "costUsd": 0.093148
+}

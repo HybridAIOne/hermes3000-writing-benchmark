@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "claude-haiku-5.5",
+  "run": 3,
+  "text": "The chapel sat on the second floor between radiology and the loading dock, and at four in the morning only the cleaners used it, along with the occasional family member who couldn't sleep in the waiting room. Maren had stopped on her way back from the med room to refill the water pitcher, out of a habit she didn't examine.\n\nA man sat in the third pew from the front, his coat still buttoned, his hands on his knees. Gray at the temples. He didn't turn when the door sighed shut behind her.\n\n\"Maren,\" he said.\n\nShe stood with the pitcher against her hip. Her badge rode upside down on her pocket, the way it always did after a double.\n\n\"I'm sorry,\" she said. \"Do I know you?\"\n\n\"No. You knew my wife, maybe. Or you were kind to her. She said so.\" He looked at the cross above the altar, plain wood and slightly crooked, as if someone had hung it in a hurry. \"She said the nurse with the cold hands was the one who sang.\"\n\nMaren had sung once, to a woman on 4 West who asked for nothing but a song she couldn't finish. She could not remember the woman's name. She remembered the husband's hands, folded on the blanket, and that she had never seen his face.\n\n\"I don't remember,\" she said.\n\n\"That's all right. Nobody's asking you to.\" He stood slowly and pushed the hymnal back into its slot, squaring its spine with the others. Then he walked past her, careful of the pitcher, and held the door.\n\nIn the corridor the floor was waxed to a dull shine. She heard his footsteps go toward the elevators and then stop, and then the soft double chime of the doors.\n\nWhen she looked back, the chapel was dark except for the lamp over the altar. In the third pew, the hymnal stood square with the rest, its spine turned out toward the room.",
+  "usage": {
+    "in": 91,
+    "out": 1649,
+    "thinking": 1073
+  },
+  "costUsd": 0.0008336,
+  "finish": "end_turn",
+  "reportedModel": "claude-haiku-5-5",
+  "upstream": null,
+  "latencyMs": 10167,
+  "meta": [],
+  "at": "2026-10-17T17:45:28.996Z"
+}

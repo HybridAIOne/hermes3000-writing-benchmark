@@ -1,0 +1,20 @@
+{
+  "task": "en-scene",
+  "model": "claude-opus-5.5",
+  "run": 1,
+  "text": "**Second Pew**\n\nThe chapel was the only room on the fourth floor where the lights didn't hum. Mina went there around four most nights, not to pray, but because the vending machine outside it took crumpled bills without arguing.\n\nTonight a man sat in the second pew. Overcoat, no visitor sticker. His hands were folded the way people fold them when they've been told to keep still.\n\n\"You're allowed to be here,\" she said, though he hadn't asked.\n\n\"Mina,\" he said, not looking up.\n\nHer badge had been flipped backward on its clip since midnight, when the man in 412 kept tugging at it. She touched it anyway.\n\n\"Do I know you?\"\n\n\"You changed my wife's dressing. Twice a night. You hummed.\" He considered. \"Not a song. Just the parts between.\"\n\nShe tried to place him and couldn't. There had been so many wives, so many dressings. The hum she recognized. She did it without deciding to, the same way she checked IV lines in rooms she was only passing.\n\n\"How is she?\"\n\nHe unfolded his hands and studied them, as if the answer might be in the creases. Then he folded them again.\n\nMina sat at the far end of the pew. Neither of them spoke. Down the corridor a call light went on, then off. Someone else had answered it.\n\nWhen she stood to go, he had taken off one glove and set it on the wood between them, palm up, fingers slightly curled, as though it were still holding something small.",
+  "usage": {
+    "in": 91,
+    "out": 1081,
+    "thinking": 624
+  },
+  "costUsd": 0.021984,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 13148,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:45:47.002Z"
+}

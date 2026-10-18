@@ -1,3 +1,5 @@
+> **Überholt.** Dieses Finale hatte einen Fehler bei der Auswahl der Finalisten; gültig sind die Ergebnisse in [2026-10-18-v1-final](../2026-10-18-v1-final/ZUSAMMENFASSUNG.md). [Warum](SUPERSEDED.md)
+
 # Welche KI schreibt die besten deutschen Buchtexte? — Ergebnisse Oktober 2026
 
 *hermes3000 Writing Benchmark v1 · Finale, 17. Oktober 2026 · [English version](SUMMARY.md) · [vollständiger Bericht](report.md) · [Methode](../../METHODOLOGY.md)*

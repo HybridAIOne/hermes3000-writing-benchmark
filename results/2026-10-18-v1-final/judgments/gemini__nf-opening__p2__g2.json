@@ -1,0 +1,108 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Gerade weil die Dinge klein wirken, schiebt man sie gern auf.“ – unnötiger Perspektivwechsel von der direkten Du-Ansprache zum unpersönlichen „man“.",
+          "Das Buchthema „Führen ohne Titel“ (fehlende formale Autorität) wird im Einstieg gar nicht aufgegriffen, der Text könnte in jedem allgemeinen Führungsbuch stehen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„lässt er schleifen“ – idiomatisch unvollständig, im Standarddeutschen fehlt das Objekt („lässt er es schleifen“ oder „lässt er die Arbeit schleifen“).",
+          "„Markus kennt jede Maschine im Schlaf ... in sein Büro zu gehen“ – kleines Logikloch im Setting (Maschinenbediener/Schichtarbeiter mit eigenem Büro zwei Türen weiter).",
+          "„nur als jemanden, der die Urlaubslisten abzeichnet“ – widerspricht der kurz zuvor etablierten Prämisse, dass man offiziell gar nicht der Chef ist (ohne Titel zeichnet man meist auch keine Urlaubslisten ab)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Das wolltest du so nicht hören lassen, und auch nicht so sagen.“ – unidiomatisch und unlogisch (was bedeutet „nicht hören lassen“ in diesem Kontext? Zudem Kommafehler vor „und“).",
+          "„„Dann war's das also mit mir?\"“ – falsche Typografie bei den Abführungszeichen (Zollzeichen statt deutscher Anführungszeichen oben) sowie ein falscher Apostroph.",
+          "„„Dann war's das also mit mir?\"“ – inhaltlicher Bruch mit dem Buchthema „Führen ohne Titel“: Ein Teamleiter ohne disziplinarische Macht kann niemanden entlassen, daher würde ein langjähriger Kollege niemals sofort eine Kündigung vermuten.",
+          "Gefordert war „der Einstiegsabsatz“ (Singular), der Text ist jedoch in vier kurze Absätze zerstückelt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„sondern längst Termin gemacht hast.“ – Grammatikfehler, der unbestimmte Artikel fehlt („einen Termin“).",
+          "„Nicht, weil sie nicht wüssten, dass es nötig wäre. Sondern weil es sich falsch anfühlt:“ – unschöne Satzfragmente, zudem falscher Gedankenstrich (Viertelgeviertstrich statt Halbgeviertstrich) im letzten Satz.",
+          "Gefordert war „der Einstiegsabsatz“ (Singular), der Text besteht aus vier Absätzen.",
+          "Das Kernthema des Buches („Führen ohne Titel“) wird komplett ignoriert, stattdessen wird standardmäßig von „Führungskräften“ und „deinen Leuten“ gesprochen."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "B",
+      "A",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2886,
+    "out": 930,
+    "thinking": 0
+  },
+  "costUsd": 0.015072
+}

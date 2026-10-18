@@ -1,0 +1,114 @@
+{
+  "task": "nf-opening",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„Aber seit drei Monaten lässt er schleifen.“ – Die idiomatische Wendung verlangt hier ein Objekt: „lässt er es schleifen“.",
+          "„Als Teamleiter ohne disziplinarische Macht hast du kein Druckmittel in der Hinterhand.“ – Sachlich zu absolut: Fehlende Disziplinarbefugnis bedeutet nicht, dass keinerlei Einfluss- oder Eskalationsmöglichkeiten bestehen.",
+          "„Und genau deshalb drückst du dich davor“ – Unterstellt der angesprochenen Person einen eindeutigen Beweggrund, den die Szene nicht hinreichend begründet.",
+          "„sie gären im Hintergrund weiter und vergiften schleichend die Stimmung“, „Deine einzige Währung“, „auf dünnes Eis“ – Die Häufung geläufiger Metaphern macht den Absatz pathetisch und austauschbar.",
+          "„als echte Führungskraft ernst nimmt oder nur als jemanden, der die Urlaubslisten abzeichnet“ – Überzeichnete Entweder-oder-Zuspitzung; sie erhöht den Bewährungsdruck, statt einen sachlichen Zugang zum Gespräch zu eröffnen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Kommt dir das bekannt vor? Dann bist du in guter Gesellschaft.“ – Abgegriffene Ratgeberformel; unterbricht die konkrete Szene ohne zusätzlichen Erkenntnisgewinn.",
+          "„ohne dass sie eskalieren, und ohne dass du dich danach drei Tage schlecht fühlst“ – Verspricht zu weitgehend kontrollierbare Gesprächsfolgen und Gefühle.",
+          "„mit einer klaren Haltung und ein paar handfesten Werkzeugen“ – Bleibt als Kapitelversprechen unspezifisch; gerade nach der anschaulichen Szene fällt die Formulierung ins Allgemeine zurück."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Die Angebote, die er gestern hätte rausschicken sollen, liegen noch in deinem Postfach zur Freigabe, halb fertig“ – Der Arbeitsablauf bleibt unklar: Versandverantwortung, notwendige Freigabe und unfertiger Bearbeitungsstand werden vermischt.",
+          "„nicht um Rhetoriktricks oder Gesprächsformeln, sondern um den Moment davor“ / „Und um das, was danach kommt“ – Die zunächst prägnante Eingrenzung wird sofort wieder aufgeweicht; der Übergang wirkt nachgetragen.",
+          "„Du kannst sie nur früh oder spät führen, gut vorbereitet oder aus dem Affekt.“ – Unnötig schematische Alternativen: Ein unvorbereitetes Gespräch muss beispielsweise nicht aus dem Affekt entstehen.",
+          "„Wie das gelingt, schauen wir uns jetzt Schritt für Schritt an.“ – Konventioneller Ankündigungssatz ohne konkreten Informationswert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Wenn dir das bekannt vorkommt“ / „Dieses Kapitel nimmt dir die schwierigen Gespräche nicht ab“ – Der Text besteht aus drei Absätzen statt aus dem verlangten einzelnen Einstiegsabsatz.",
+          "„Dass seine Ergebnisse im letzten Quartal nicht gestimmt haben.“ – Für eine praxisnahe Szene zu unbestimmt: Welche Ergebnisse problematisch waren und welche Folgen das hatte, bleibt offen.",
+          "„Kaum eine Aufgabe wird von Führungskräften so konsequent aufgeschoben“ – Pauschale Steigerungsbehauptung statt einer präzisen Beobachtung.",
+          "„Nicht weil sie feige wären, sondern weil so ein Gespräch unangenehm ist“ – Führt mit „feige“ eine unnötig wertende Kategorie ein und bietet anschließend eine wenig ergiebige Erklärung.",
+          "„Schwierige Gespräche werden nicht leichter, weil man sie vermeidet. Sie werden leichter, weil man sie führt.“ – Eingängiger, aber vereinfachender Merksatz: Entscheidend ist auch, wie die Gespräche geführt werden."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„ein fester Ärger über einen Kollegen“ – Ungewöhnliche, wenig geschmeidige Wortverbindung; „dauerhafter Ärger“ wäre idiomatischer."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "B",
+      "C",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 2389,
+    "out": 1623,
+    "thinking": 511
+  },
+  "costUsd": 0.021008
+}

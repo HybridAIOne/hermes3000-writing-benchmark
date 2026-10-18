@@ -1,0 +1,126 @@
+{
+  "task": "en-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "F": {
+      "model": "kimi-k3",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„It isn't a question.“ – Eine abgegriffene Bekräftigung nach der Namensnennung; erklärt eine Wirkung, die der Dialog bereits erzielt.",
+          "„the radiator knocks like it's trying to get out“ – Die forcierte Personifizierung trägt mehr zur unheimlichen Atmosphäre als zur präzisen Wahrnehmung bei.",
+          "„the door sighs shut“ – Konventionelle atmosphärische Personifizierung; zusammen mit dem Heizkörper entsteht eine kleine Häufung solcher Effekte."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„A long grey hair was still wound through its teeth.“ – Der Schluss setzt offenbar voraus, dass sie denselben privaten Kamm seit dem damaligen Pflegekontakt ungereinigt mitführt. Nicht unmöglich, aber als emotionaler Beweis auffällig konstruiert und im Pflegekontext erklärungsbedürftig.",
+          "„the single sheet pulled halfway up, waiting for someone“ – Die Personifizierung unterstreicht die Trauer zusätzlich, obwohl die Situation sie bereits vermittelt; der Text nähert sich hier dem Sentimentalen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„second row of padded chairs“ / „on the blonde wood of the pew“ – Anschlussfehler in der Raumausstattung: Aus den gepolsterten Einzelstühlen wird ohne Einführung eine Kirchenbank.",
+          "„keeping her voice at the neutral, low register“ – Unidiomatische Verbindung; eine Stimme spricht „in a register“, nicht „at a register“.",
+          "„Room 312 had been converted into a supply closet three years ago.“ – Soll offenbar unheimliches Vorwissen belegen, schließt einen weiterhin vorhandenen Heizkörper aber nicht aus. Der gesetzte Hinweis trägt die beabsichtigte Irritation deshalb nur bedingt.",
+          "„The chapel was for daytime grief.“ – Pointierte, aber unbegründete Verallgemeinerung, gerade in einem nachts betriebenen Krankenhaus.",
+          "„the bright misery of the ICU waiting room“ – Pauschale literarische Elendsformel statt konkreter Beobachtung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„the ordinary machinery of people keeping one another alive“ – Der Erzähler deutet die zuvor ausreichend konkreten Krankenhausgeräusche noch einmal ausdrücklich aus.",
+          "„their pale heads caught in the blue wash of the parking-lot lights“ – Konventionell poetisierende Lichtbeschreibung. Zusammen mit dem anschließend zitternden Becher wirkt der Schluss etwas arrangiert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„# The Chapel at 4 A.M.“ – Die zusätzliche Überschrift samt Markdown-Auszeichnung gehört nicht zur verlangten reinen Romanszene.",
+          "„I remembered yours because I figured anyone who did that must know how much it matters.“ – Der Mann formuliert die emotionale Bedeutung der Begegnung vollständig aus. Das nimmt dem Dialog Subtext und Zurückhaltung.",
+          "„had used her name like a key earlier and she had not liked the door it opened“ – Die ausgedehnte Schlüssel-Tür-Metapher wirkt sichtbar hergestellt und erklärt die Verletzung, statt sie erfahrbar zu machen.",
+          "„the necessary arithmetic of forgetting“ – Abstrakte, bedeutungsschwere Formel; sie kommentiert Renatas beruflichen Selbstschutz, anstatt ihn szenisch zu vermitteln."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "E",
+      "A",
+      "B",
+      "F",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2477,
+    "out": 1539,
+    "thinking": 512
+  },
+  "costUsd": 0.020344
+}

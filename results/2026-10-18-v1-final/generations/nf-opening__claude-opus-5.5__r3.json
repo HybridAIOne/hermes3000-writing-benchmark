@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "claude-opus-5.5",
+  "run": 3,
+  "text": "Es ist Donnerstag, kurz nach vier. Du sitzt an deinem Schreibtisch und starrst seit zehn Minuten auf denselben Kalendereintrag: „Kurz sprechen – Jens\". Mehr hast du nicht hineingeschrieben, weil du selbst noch nicht weißt, wie du anfangen sollst. Jens ist seit elf Jahren in der Firma, länger als du. Er kennt jede Maschine in der Halle, und wenn etwas klemmt, rufen alle zuerst ihn. Aber in den letzten Wochen hat er dreimal die Übergabe an die Spätschicht ausfallen lassen, und gestern hat dich der Kollege aus der Logistik darauf angesprochen. Nicht freundlich. Du weißt, dass du mit Jens reden musst. Du weißt auch, dass es unangenehm wird. Also schiebst du den Termin noch einmal auf Montag. Vielleicht erledigt sich das ja von selbst. Kommt dir das bekannt vor? Dann bist du in guter Gesellschaft. Fast jeder, der Verantwortung für andere übernimmt, kennt dieses Ziehen im Magen vor einem Gespräch, das man lieber nicht führen würde. Und fast jeder hat schon erlebt, was passiert, wenn man es zu lange vor sich herschiebt: Aus einer Kleinigkeit wird ein Ärgernis, aus dem Ärgernis wird Groll, und irgendwann redet das halbe Team darüber, nur nicht mit dem Betroffenen. In diesem Kapitel geht es darum, wie du solche Gespräche führst, ohne dass sie eskalieren, und ohne dass du dich danach drei Tage schlecht fühlst. Nicht mit auswendig gelernten Sätzen, sondern mit einer klaren Haltung und ein paar handfesten Werkzeugen.",
+  "usage": {
+    "in": 278,
+    "out": 783,
+    "thinking": 110
+  },
+  "costUsd": 0.016772,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 9742,
+  "meta": [],
+  "at": "2026-10-17T17:50:39.609Z"
+}

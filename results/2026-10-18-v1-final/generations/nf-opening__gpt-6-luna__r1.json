@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "gpt-6-luna",
+  "run": 1,
+  "text": "Es ist kurz nach neun, und die Besprechung läuft seit drei Minuten, als Jana den Monatsbericht auf den Tisch legt. Du blätterst durch die Zahlen und siehst sofort, dass zwei wichtige Werte fehlen. Zum dritten Mal in diesem Monat. „Das ist noch nicht fertig“, sagt sie, bevor du fragen kannst. „Ich hatte einfach zu viel auf dem Tisch.“ Die anderen schauen auf ihre Notizen. Du könntest jetzt sagen, dass ihr später darüber sprecht. Du könntest den Bericht selbst ergänzen und hoffen, dass es beim nächsten Mal besser läuft. Beides wäre bequem – für die nächsten zehn Minuten. Also wartest du, bis die Besprechung vorbei ist. Auf dem Weg zu Janas Arbeitsplatz gehst du deinen Einstieg im Kopf durch. Nicht vorwurfsvoll klingen. Trotzdem deutlich sein. Nicht gleich die ganze Zusammenarbeit infrage stellen. Als du an ihrem Schreibtisch stehst, wirkt sie angespannt. „Hast du kurz Zeit?“, fragst du. Sie nickt, aber ihr Blick bleibt auf dem Bildschirm. Jetzt kommt es darauf an, ob du das Gespräch wirklich führst oder nur deine Verärgerung loswerden willst. Schwierige Gespräche beginnen selten mit einem großen Knall. Oft beginnen sie mit einem fehlenden Wert, einer wiederholten Verspätung oder einer Bemerkung, die im Raum stehen bleibt. Gerade deshalb lässt man sie leicht liegen. Doch wenn du zu lange wartest, wächst aus einem kleinen, lösbaren Problem schnell Misstrauen: bei dir, bei der anderen Person und im Team. Du musst dafür weder besonders schlagfertig sein noch die perfekten Worte finden. Du musst bereit sein, die Sache ruhig anzusprechen – und zuzuhören, was danach kommt.",
+  "usage": {
+    "in": 152,
+    "out": 536,
+    "thinking": 170
+  },
+  "costUsd": 0.0002832,
+  "finish": "stop",
+  "reportedModel": "gpt-6-luna",
+  "upstream": null,
+  "latencyMs": 7270,
+  "meta": [],
+  "at": "2026-10-17T17:47:36.284Z"
+}

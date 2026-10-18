@@ -1,0 +1,119 @@
+{
+  "task": "en-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"the chapel window held her reflection over his: her white shoes, his dark coat, the three stirrers lined up on the table between them\" – the reflection in the door window is optically implausible from the corridor; the final image feels constructed",
+          "\"She went in because the lights were on.\" – flat causal statement that explains rather than shows",
+          "\"She touched it, though she couldn’t see the name.\" – the logic of the gesture is unclear",
+          "\"Someone had arranged them parallel.\" – the symbolic detail is set up too deliberately",
+          "\"His voice was ordinary, almost apologetic.\" – tells the reader instead of showing"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "\"**Second Pew**\" – a title, which goes beyond the requested bare book text",
+          "\"You sat with my mother. Room twelve. You did her hair.\" – explains the stranger, so it effectively ends on a revelation despite the closing image",
+          "\"a single grey hair wound through its teeth like thread on a spool\" – the comb with the mother's hair tips into sentimentality and feels contrived",
+          "\"I just wanted to see what you looked like when you weren't busy.\" – an overly neat, epigrammatic line",
+          "\"the only room on the fourth floor where the lights dimmed on their own\" – the premise is vague and not quite logical"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "\"leaving a little white paper on the skin\" – idiomatically weak; something like \"a scrap of white paper\" would be expected",
+          "\"His coat was buttoned incorrectly\" – stiff word choice (\"buttoned wrong\")",
+          "\"She knew the gesture from relatives who had been asked too many questions by too many people.\" – a slightly explanatory interpretation",
+          "\"He looked at the space beside him, then back at her.\" – this non-answer to the name question leaves the core premise somewhat underexploited"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"which was the first wrong thing\" – a formulaic opening with no second \"wrong thing\" following",
+          "\"The tealight shivered in its plastic cup, though no air moved.\" – brushes against a ghost-story cliché",
+          "\"In eleven years she had learned that people at this hour usually supplied it unprompted\" – narratorial explanation",
+          "\"the way she wore it after a patient's daughter had once looked her up online\" – backstory squeezed into a subordinate clause, which slows the scene"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 6,
+        "stil": 4,
+        "aufgabe": 4,
+        "fehler": [
+          "\"She didn't know a Miller on her floor. Miller worked pediatric oncology, two buildings over, and had retired in November.\" – a logical break: she claims not to know him, then knows his details",
+          "\"made no sound on the linoleum, only a faint tackiness\" – tackiness is not a sound, so the comparison misfires",
+          "\"the font was twelve-point, illegible from twenty feet away\" – over-explanation and implausibly precise",
+          "\"Nora’s hand went instinctively to her chest\" – a stock gesture plus a telling adverb",
+          "\"a single melted gray slush-print was slowly soaking into the tight industrial weave\" – adjective pile-up; the whole text is overwritten and over length"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "A",
+      "B",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3716,
+    "out": 2136,
+    "thinking": 886
+  },
+  "costUsd": 0.057584
+}

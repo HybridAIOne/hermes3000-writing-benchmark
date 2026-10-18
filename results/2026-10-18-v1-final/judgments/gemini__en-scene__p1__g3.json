@@ -1,0 +1,127 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "F": {
+      "model": "kimi-k3",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Maren had stopped on her way back from the med room to refill the water pitcher\" (Logikbruch: Man füllt keinen Wasserkrug für Patienten in einer Krankenhauskapelle auf)",
+          "\"You knew my wife, maybe. Or you were kind to her. She said so.\" (Verstoß gegen die Vorgabe: Liefert eine direkte Auflösung/Enthüllung für das Rätsel des Namens und wirkt etwas rührselig)",
+          "\"when the door sighed shut\" (abgegriffene Personifikation/Klischee)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "\"a single melted gray slush-print\" (Logischer Widerspruch im Bild: Wenn der Schneematsch bereits geschmolzen ist, ist es eine Pfütze oder ein dunkler Fleck im Teppich, kein grauer 'slush-print' mehr)",
+          "\"for five minutes without fluorescent light\" (Stilistisch unpräzise: Im ersten Satz fehlt jede Verortung der Szene um 4 Uhr morgens; diese wird nur sehr indirekt über den Schichtbeginn um sieben angedeutet)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "\"the chapel window held her reflection over his: her white shoes, his dark coat, the three stirrers lined up on the table between them.\" (Schwerer räumlicher und optischer Logikbruch: Ein kleines quadratisches Türfenster auf Augenhöhe kann nicht ihre Schuhe auf dem Boden spiegeln. Zudem kann eine Spiegelung im Türglas für die Hinausgehende nicht zeigen, was hinter der Tür im Raum ist)",
+          "\"He was watching the small square window in the door, where the corridor moved in pale strips.\" (Unlogisches Bild: Ein Flur bewegt sich nicht, besonders nicht nachts um vier)",
+          "\"She touched it, though she couldn’t see the name.\" (Unbeholfene Kausalität)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"She held the packet out. He took one without touching her hand.\" (Figurenpsychologisch unglaubwürdig: Dass eine Krankenschwester nachts um vier einem unheimlichen Fremden, der ihren Namen kennt und ausweichend antwortet, wortlos Kekse anbietet, bricht den realistischen Ton)",
+          "\"In the back sat a man ... Mara took the chair nearest the door. ... Between them, a few crumbs fell onto the empty chair\" (Räumlicher Widerspruch: Wenn er hinten sitzt und sie direkt an der Tür, impliziert das eine größere Distanz, plötzlich ist aber nur genau ein leerer Stuhl zwischen ihnen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "\"Inés checked it only out of habit, the way she checked the sluice room\" (Leichte Unschärfe in der Routine: Warum prüft eine Stationsschwester mitten auf dem Rundgang um 4 Uhr morgens routinemäßig das kaputte Schloss der Kapelle? Dennoch im Kontext akzeptabel)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"# The Chapel at 4 A.M.\" (Formatierungsfehler: Überschrift im Markdown-Format gehört nicht in einen reinen Buchtext/Szenenausschnitt)",
+          "\"She kept the lights off. She knew the chairs by touch.\" (Logikbruch: Es ist stockdunkel im Raum, aber später sieht sie, wohin der Mann blickt und wie er seine Daumen über die Knöchel reibt)",
+          "\"You were my wife's nurse. Eleven months ago. Up on four.\" (Verstoß gegen die Vorgabe: Liefert eine explizite, sentimentale Auflösung statt Zurückhaltung)",
+          "\"the way you'd look at a vending machine that had taken your money\" (Stilbruch: Der saloppe Du-Vergleich reißt aus der personalen Perspektive und passt tonal nicht zur Szene)",
+          "\"when the door sighed\" (Klischee)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "E",
+      "B",
+      "D",
+      "A",
+      "C",
+      "F"
+    ]
+  },
+  "usage": {
+    "in": 3082,
+    "out": 1232,
+    "thinking": 0
+  },
+  "costUsd": 0.018484
+}

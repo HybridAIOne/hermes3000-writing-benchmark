@@ -1,0 +1,20 @@
+{
+  "task": "nf-from-source",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "**Eine Fähre, die ihren Nutzern gehört: die Fährgenossenschaft Hitzacker**\n\nAls der Landkreis 1953 den Betrieb der Seilfähre bei Hitzacker einstellte, fehlte plötzlich die Verbindung zwischen beiden Elbufern. 41 Landwirte und Händler von beiden Seiten des Flusses nahmen die Sache selbst in die Hand und gründeten die Fährgenossenschaft Hitzacker eG. Wer auf die Fähre angewiesen war, wurde damit zum Mitbesitzer.\n\nDas Prinzip ist einfach: Eine Genossenschaft gehört ihren Mitgliedern. Heute sind es 312. Jedes Mitglied hält mindestens einen Anteil zu 250 Euro. Die Einstiegshürde ist also überschaubar. Bei Entscheidungen zählt nicht das Geld, sondern der Mensch: In der Generalversammlung hat jedes Mitglied genau eine Stimme, gleich wie viele Anteile es besitzt. Wer mehr Anteile zeichnet, gewinnt dadurch keinen größeren Einfluss.\n\nAuch beim Umgang mit Überschüssen unterscheidet sich die Genossenschaft von einem Unternehmen, das Gewinne verteilt. Hier werden sie nicht ausgeschüttet, sondern in eine Rücklage für die Erneuerung der Fähre eingezahlt. Das Geld bleibt im Betrieb, und die Fähre bleibt erhalten.\n\nWie wichtig das ist, zeigen die Zahlen. Die Fähre überquert die 212 Meter breite Elbe in sieben Minuten, sie hängt an einem Führungsseil und wird heute von einem 85-kW-Dieselmotor angetrieben. Bis 1978 genügte dafür die Strömung. 2024 beförderte sie rund 64.000 Personen, im Sommer vor allem Radfahrer auf dem Elberadweg. Der Umsatz lag bei 186.000 Euro: 71 Prozent stammten aus Fahrkarten, 29 Prozent aus einem Zuschuss der Gemeinde. Die Rücklage soll bis 2031 ausreichen, um einen Elektroantrieb einzubauen.\n\nFür diese Fähre passt die Rechtsform deshalb gut. Die Menschen, die sie brauchen, betreiben sie gemeinsam und entscheiden gleichberechtigt. Was die Fähre erwirtschaftet, fließt in ihre Zukunft.",
+  "usage": {
+    "in": 780,
+    "out": 1260,
+    "thinking": 348
+  },
+  "costUsd": 0.01416,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 8862,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:49:49.404Z"
+}

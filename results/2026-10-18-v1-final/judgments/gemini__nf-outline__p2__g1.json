@@ -1,0 +1,111 @@
+{
+  "task": "nf-outline",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "6. Rückmeldung im Alltag: Du gibst Lob und Kritik regelmäßig, konkret und ohne Drumherumreden ... / 7. Schwierige Gespräche führen: Ob Leistungsprobleme, Streit im Team ... (Thematische Überschneidung zwischen Alltags-Kritik und Gesprächen über Leistungsprobleme)",
+          "5. Dein Kalender gehört dir (zumindest ein bisschen): Zwischen Tagesgeschäft, Meetings ... (Anglizismus/Buzzword 'Meetings', wo 'Besprechungen' passender wäre)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "4. Schaffe Klarheit bei Zielen und Prioritäten ... / 6. Triff Entscheidungen und erkläre sie ... (Thematische Überschneidung bei Priorisierung und Entscheidungsfindung)",
+          "8. Gestalte die Zusammenarbeit im Alltag: Du etablierst einfache Absprachen und Routinen ... (Reihenfolge unlogisch: Grundlegende Alltagsroutinen kommen erst nach Konfliktgesprächen und Delegation)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "8. Hilf deinen Leuten, besser zu werden: Du erkennst Entwicklungsbedarf und schaffst passende Lerngelegenheiten ... (Sprachlich etwas sperrige Nominalkonstruktionen für die praxisnahe Zielgruppe)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "vom geschätzten Kollegen zum Respektierten (Unidiomatisch und schief; 'zum Respektierten' ergibt hier als Substantivierung kaum Sinn)",
+          "obwohl du formal keine Anweisungen geben darfst. (Verfehlt die Zielgruppe: Ein Teamleiter im Mittelstand hat meist Weisungsbefugnis, ihm fehlt laut Aufgabe die formale Führungsausbildung)",
+          "Kapitel 9: Dein eigener Kompass – gesund bleiben und deinen Weg finden: Zum Abschluss klärst du für dich, wie du nach Feierabend wirklich abschaltest und wie dein nächster Schritt aussieht (Verfehlt die Vorgabe für das Schlusskapitel: Es geht um Work-Life-Balance und Karriereplanung statt um die 'eigene Haltung')",
+          "Hier ist der Entwurf für die Gliederung des Sachbuchs „Führen ohne Titel“: (Überflüssiger Konversations-Einleitungssatz)",
+          "Du erfährst, wie ... / Du lernst, wie ... / Hier siehst du, wie ... / Dieses Kapitel zeigt dir, wie ... (Monotone, schablonenhafte Satzanfänge mit unnötigen Meta-Formulierungen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "1. Herzlichen Glückwunsch, Sie führen jetzt (und keiner hat Ihnen gesagt, wie) (Bruch der Vorgabe 'Du-Ansprache' im ersten Titel)",
+          "Wie du Lob und Kritik so formulierst, dass dein Gegenüber es annehmen kann (Grammatik/Kongruenz: 'es' hat keinen korrekten Bezug zu 'Lob und Kritik', richtig wäre 'sie' oder 'beides')",
+          "Warum die meisten Teamleiter ... / Wie du den Rollenwechsel ... / Wie du in Einzelgesprächen ... (Keine vollständigen Sätze in den Kapitelbeschreibungen, sondern durchgehend monotone Nebensatz-Fragmente mit 'Wie du...')",
+          "5. Feedback geben, das ankommt: Wie du Lob und Kritik so formulierst ... / 6. Schwierige Gespräche führen: Wie du Konflikte, schlechte Leistung ... ansprichst (Thematische Überschneidung zwischen Kritikgesprächen und Gesprächen über schlechte Leistung)",
+          "Hinweis: Die Kapitel bauen aufeinander auf — vom Rollenwechsel (1–2) ... (Ungefragter Meta-Kommentar am Textende; zudem falscher Gebrauch von Geviertstrichen ohne korrekte Typografie)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "A",
+      "B",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3353,
+    "out": 1124,
+    "thinking": 0
+  },
+  "costUsd": 0.017946
+}

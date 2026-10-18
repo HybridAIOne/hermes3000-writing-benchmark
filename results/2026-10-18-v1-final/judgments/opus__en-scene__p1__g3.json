@@ -1,0 +1,136 @@
+{
+  "task": "en-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "F": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "Mit rund 370 Wörtern deutlich über der Vorgabe von etwa 250",
+          "\"Your mother said it sometimes ... Near the end. She was proud of you.\" – Die Auflösung ist eine Enthüllung, gegen die Vorgabe der Zurückhaltung",
+          "\"felt the words land somewhere under her ribs and stay there\" – abgegriffene Gefühlsformel",
+          "\"watched it until she could breathe\" – Klischee-Schluss",
+          "\"walked the fourth-floor corridor\" vs. \"The chapel was off the lobby\" – räumlicher Sprung ohne Übergang"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "\"From somewhere beyond the chapel came the uneven knock of a trolley wheel.\" – leicht formelhaftes Krankenhausgeräusch",
+          "\"She could have asked his name, then called upstairs.\" – erklärt, was die Szene schon zeigt",
+          "\"She noticed that his shoes were dry\" – \"noticed\" als Filterverb schwächt das Bild"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "\"second row of padded chairs\" vs. \"the blonde wood of the pew\" – Widerspruch in der Ausstattung",
+          "\"His voice was flat, grated by lack of sleep.\" – schiefe Formulierung",
+          "\"the bright misery of the ICU waiting room. The chapel was for daytime grief.\" – zu gesuchte Pointen",
+          "\"grey, porous skin of a heavy smoker\" – Typisierung",
+          "\"it hadn't rained since Tuesday\" plus \"slush\" – das Rätsel wird überdeutlich ausgestellt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"**Second Pew**\" – Überschrift gehört nicht zum geforderten reinen Szenentext",
+          "\"His hands were folded the way people fold them when they've been told to keep still.\" – Vergleichsmuster, das in solchen Texten häufig vorkommt",
+          "\"There had been so many wives, so many dressings.\" – leicht rhetorische Wiederholung"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "\"# The Chapel at 4 A.M.\" – Überschrift gegen die Vorgabe \"nur Buchtext\"",
+          "\"used her name like a key earlier and she had not liked the door it opened\" – überkonstruierte Metapher",
+          "\"the necessary arithmetic of forgetting\" – erklärende Sentenz statt Szene",
+          "\"I figured anyone who did that must know how much it matters.\" – die Figur spricht das Thema aus",
+          "\"the way you'd look at a vending machine that had taken your money\" – bemühter Vergleich"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "\"A man occupied the back pew.\" – steifes Verb",
+          "\"In the glass, the cleaner's machine passed again\" – unklarer Bezug (welches Glas?)",
+          "\"Somewhere above them, a monitor gave a single brief beep, then stopped.\" – formelhaftes Atmosphäresignal",
+          "\"thin as a coin\" – unpräziser Vergleich für eine sich ausbreitende Pfütze"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "D",
+      "F",
+      "C",
+      "E",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 4357,
+    "out": 1990,
+    "thinking": 668
+  },
+  "costUsd": 0.057228
+}

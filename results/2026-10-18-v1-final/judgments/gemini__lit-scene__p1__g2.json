@@ -1,0 +1,112 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„ein Monat im Jahr, das sie nicht mehr wusste“ – unidiomatisch (man weiß ein Jahr nicht, man erinnert sich nicht daran oder erkennt es nicht mehr).",
+          "„Im Becken lag ein kleiner weißer Knopf [...] Sie legte ihn auf die Fensterbank, ohne zu wissen, warum.“ – wirkt als das geforderte bedeutungstragende Detail sehr beliebig und unmotiviert.",
+          "„Von oben kam ein einzelnes Knacken, als hätte jemand sein Gewicht verlagert.“ – bedient ein abgegriffenes Spannungs-Klischee.",
+          "„Das Haus antwortete nicht.“ – abgedroschene Floskel am Ende."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Sie öffnete den Schrank unter der Spüle.“ – als allererste Handlung in der Küche erzählerisch leicht unmotiviert, dient etwas zu offensichtlich dem schnellen Auffinden des Details.",
+          "Zwei konkurrierende bedeutungsschwere Details am Schluss (die Kümmelseife mit dem schwarzen Haar und der Kalendereintrag), wodurch der Fokus leicht verwässert wird."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„der Nachlassverwalter“ – sachlich schief, da ein Nachlassverwalter rechtlich nur in Ausnahmefällen vom Gericht bestellt wird, nicht regulär für eine anreisende Erbin.",
+          "„Sie konnte die Schrift von hier aus nicht lesen. Sie wusste trotzdem, dass es die ihrer Mutter war.“ – als Schlusspointe schwach, da im Satz zuvor bereits etabliert wurde, dass die Mutter alle Gläser beschriftet hat."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Der Schlüssel ließ sich nicht drehen. Sie stand auf der Stufe, den Koffer neben sich, und drückte die Klinke, bis das Holz nachgab.“ – Logikbruch: Haustüren haben außen in der Regel keine Klinke; wenn sich der Schlüssel nicht drehen lässt, ist zudem entweder abgeschlossen (Klinke nutzlos) oder unverschlossen.",
+          "„Darin stand eine Frau Ende vierzig, die sie einen Moment lang nicht erkannte.“ – sehr abgedroschenes Spiegel-Klischee zur Altersbeschreibung.",
+          "„nur die Stille hatte sich über sie gelegt, wie Laken über Möbel.“ – bemühter, klischeehafter Vergleich.",
+          "„Die Süße, die sie im Flur gerochen hatte, kam von hier.“ – unplausibel, dass ein einseitig leicht angehobener Wachsverschluss auf einem Marmeladenglas in der Speisekammer bis in den Hausflur intensiv riecht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 5,
+        "aufgabe": 7,
+        "fehler": [
+          "„Als das Schloss schließlich nachgab, klang es im stillen Treppenhaus wie ein trockener Husten.“ – Logikbruch: Ein „Treppenhaus“ gehört zu einem Mehrfamilienhaus, die Aufgabenstellung (und das später erwähnte „Fallobst“) verlangt aber ein einzelnes Haus.",
+          "„während das Haus um sie herum plötzlich den Atem anzuhalten schien.“ – starkes Klischee, geht in Richtung Kitsch und Kolportage.",
+          "„Das Haus hatte Helga schneller vergessen, als Vera es je gekonnt hatte.“ – rührseliges Erklären (Telling) an der Kitschgrenze; zudem unpassender Wechsel zum Vornamen der Mutter.",
+          "„Und preußischblaues Öl.“ – sachlich ungenau: Gemeint ist Ölfarbe (Preußischblau ist das Pigment, das Öl selbst ist nicht blau)."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "A",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3277,
+    "out": 1098,
+    "thinking": 0
+  },
+  "costUsd": 0.017534
+}

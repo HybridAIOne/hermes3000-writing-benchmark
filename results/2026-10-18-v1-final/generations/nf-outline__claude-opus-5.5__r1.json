@@ -1,0 +1,20 @@
+{
+  "task": "nf-outline",
+  "model": "claude-opus-5.5",
+  "run": 1,
+  "text": "# Führen ohne Titel – Gliederung\n\n**1. Plötzlich Chef**\nWas sich vom einen Tag auf den anderen ändert, wenn du aus dem Team heraus zum Teamleiter wirst, und warum das Verhältnis zu deinen früheren Kollegen nicht bleiben kann, wie es war.\n\n**2. Erst verstehen, dann verändern**\nWie du in den ersten Wochen dein Team, die Abläufe und die ungeschriebenen Regeln kennenlernst, bevor du anfängst, irgendetwas umzubauen.\n\n**3. Zwischen den Stühlen**\nWie du mit deinem eigenen Vorgesetzten klärst, was er von dir erwartet und was du entscheiden darfst, und wie du Vorgaben von oben vertrittst, ohne dein Team zu verlieren.\n\n**4. Loslassen lernen**\nWarum du deine alte Facharbeit nicht mehr selbst erledigen kannst und wie du Aufgaben so abgibst, dass sie ordentlich gemacht werden, ohne dass du ständig nachkontrollierst.\n\n**5. Sag klar, was du willst**\nWie du Ziele und Erwartungen so formulierst, dass jeder im Team weiß, was zu tun ist, bis wann und woran man erkennt, dass es gut gelaufen ist.\n\n**6. Reden, bevor es brennt**\nWie du mit Einzelgesprächen, Teambesprechungen und Rückmeldungen im Alltag dafür sorgst, dass Probleme früh auf den Tisch kommen und Lob nicht untergeht.\n\n**7. Wenn es unangenehm wird**\nWie du schwierige Gespräche vorbereitest und führst, etwa über schwache Leistung, Fehlverhalten, Streit im Team oder schlechte Nachrichten, ohne auszuweichen oder draufzuhauen.\n\n**8. Entscheiden, auch wenn nicht alle zustimmen**\nWie du Entscheidungen triffst, wenn die Informationen nicht vollständig sind und die Meinungen auseinandergehen, und wie du danach dazu stehst.\n\n**9. Pass auf dich auf**\nWie du mit Druck, Zweifeln und dem Gefühl umgehst, plötzlich allein dazustehen, und wo du Grenzen ziehen musst, damit dich die Rolle nicht auffrisst.\n\n**10. Wofür du stehst**\nWie du aus all den Erfahrungen deine eigene Haltung als Führungskraft entwickelst, damit dein Team weiß, woran es bei dir ist.\n\n---\n\n**Zum Aufbau:** Kapitel 1–3 behandeln den Einstieg und die eigene Position. Kapitel 4–6 drehen sich um die tägliche Führungsarbeit, Kapitel 7–8 um die schweren Momente. Kapitel 9–10 führen den Blick zurück auf dich selbst.",
+  "usage": {
+    "in": 242,
+    "out": 2180,
+    "thinking": 1144
+  },
+  "costUsd": 0.044568,
+  "finish": "end_turn",
+  "reportedModel": "claude-opus-5-5",
+  "upstream": null,
+  "latencyMs": 21556,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:51:21.818Z"
+}

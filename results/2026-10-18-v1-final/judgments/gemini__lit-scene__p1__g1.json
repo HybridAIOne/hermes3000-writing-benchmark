@@ -1,0 +1,107 @@
+{
+  "task": "lit-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 1
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "mit dem Daumen gegen den Bart drücken (Logik-/Anschauungsfehler: Der Schlüsselbart steckt im Schloss, man kann nicht mit dem Daumen dagegen drücken, während man schließt)",
+          "wie etwas, das sich erst erinnern musste, wie man fließt (bemühtes, leicht kitschiges Bild zum Abschluss)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 5,
+        "stil": 4,
+        "aufgabe": 6,
+        "fehler": [
+          "am Kragen ausgeblickt (Wort existiert nicht, gemeint ist wohl 'ausgeblichen')",
+          "eine Tasse, nach innen gestülpt (anatomisch/physikalisch unmöglich, gemeint ist 'umgestülpt')",
+          "eingerahmt von Spinnweben wie von einem Trauerflor (massiver Kitsch, Verstoß gegen die Aufgabenstellung)",
+          "nur dass Marlen es verlernt hatte. Zwanzig Jahre, dachte sie, und die Hand weiß es noch (direkter logischer Widerspruch in zwei aufeinanderfolgenden Sätzen)",
+          "ihr Schatten kroch über die Wand des Hauses wie eine Hand, die etwas sucht (abgegriffenes Schauerromantik-Klischee)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "als jemand sie zuletzt angehalten hatte (unidiomatisch/unlogisch: Eine Wanduhr bleibt stehen, weil die Batterie leer ist oder das Werk abläuft, sie wird nicht aktiv 'angehalten')",
+          "Kaffee ... mit einer Spur von Orange (sachlich unplausibles Geruchsdetail bei normalen Kaffeebohnen, wirkt konstruiert)",
+          "mit einer Wärme füllte, die nicht von der Heizung kam (abgedroschene Floskel, Kitsch)",
+          "Im Hof schlug eine Tür zu. Ich rührte mich nicht. (billiger Thriller-Cliffhanger statt literarischer Romaneröffnung)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "Dann roch sie es: angesengte Wolle, schwach, aber unverkennbar. (Sachlich schwer vorstellbar, dass ein singulärer Brandgeruch von einem Bügeleisen nach zwanzig Jahren im komplett geräumten Haus noch in der Luft hängt, vermutlich eine Halluzination, aber im Text als Fakt gesetzt)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "B",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 3124,
+    "out": 801,
+    "thinking": 0
+  },
+  "costUsd": 0.014258
+}

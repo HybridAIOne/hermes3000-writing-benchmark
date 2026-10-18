@@ -1,0 +1,22 @@
+{
+  "task": "ed-feedback",
+  "model": "claude-opus-5.5",
+  "run": 2,
+  "judge": "opus",
+  "verdict": {
+    "found": [
+      "rampe",
+      "fahrgaeste",
+      "tempus",
+      "perspektive",
+      "hupe"
+    ],
+    "false_alarms": 1
+  },
+  "usage": {
+    "in": 2367,
+    "out": 703,
+    "thinking": 661
+  },
+  "costUsd": 0.023528
+}

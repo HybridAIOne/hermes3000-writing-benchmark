@@ -1,0 +1,115 @@
+{
+  "task": "lit-scene",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„musste sich am Türrahmen festhalten“ und „als wäre der Boden um ein paar Zentimeter abgesackt“: Die körperliche Überwältigung wird doppelt markiert; das vertraute Schwindelbild ist weniger eigenständig als die präzisen Beobachtungen davor.",
+          "„horchte ins Haus hinein, das nicht antwortete“: Konventionelle Schlusswendung mit einer entbehrlichen Personifizierung. Die feuchte Orangenschale setzt bereits den stärkeren Schlusspunkt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Seit dem März hatte niemand geheizt“: Die zeitliche Einordnung betrifft nur den Leerstand. Dass Judith nach zwanzig Jahren zurückkehrt, wird im gesamten Text nicht erkennbar festgelegt.",
+          "„Ihre Mutter hatte Quitten nie gemocht. Das wusste Judith genau.“ / „nie auch nur erwähnt“: Die behauptete Gewissheit über die Abneigung wird durch die nachgeschobene völlige Beziehungslosigkeit zur Frucht nicht gestützt. Das Geheimnis wirkt dadurch etwas konstruiert.",
+          "„so wie man etwas einsteckt, das man später erklären muss“: Der Schluss kündigt die spätere Bedeutung ausdrücklich an, statt sie allein durch Judiths Handlung entstehen zu lassen.",
+          "„keine abgestandene Zeit“: Die abstrakte Geruchsmetapher bleibt gegenüber der konkreten Duftbeschreibung unscharf."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„an den sie sich zwanzig Jahre lang gewöhnt hatte“: Die zwanzig Jahre beziehen sich grammatisch auf die Tür und ihren Rahmen. Claras zwanzigjährige Abwesenheit wird damit nicht vermittelt.",
+          "„scharf und unverkennbar nach bitteren Mandeln“: Der stark etablierte Giftmarker setzt einen demonstrativen Thrillerakzent. Als bedeutungstragendes Detail funktioniert er, wirkt aber weniger eigenständig und subtil als die übrige Anlage.",
+          "„Es roch nach der Abwesenheit von allem“: Abstrakte Bedeutungsbehauptung, die den zuvor differenziert beschriebenen Gerüchen die Wirkung nimmt.",
+          "„formlos wie eine abgelegte Haut“: Abgegriffenes Vergänglichkeitsbild, das die ohnehin deutliche Todesatmosphäre zusätzlich ausstellt.",
+          "„ein tiefes, hohles Röcheln“, „ein Beben“, „spuckte“, „rostbrauner Brühe“: Die Häufung dramatisierender Ausdrücke überlädt den einfachen Vorgang und bereitet die Schlusspointe allzu nachdrücklich vor."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "„auf dem Garderobenhaken hing der Mantel der Mutter“: Der Tod der Mutter wird auch im weiteren Text lediglich nahegelegt, nicht hinreichend eindeutig etabliert. Die Szene könnte ebenso nach ihrem Umzug oder ihrer Unterbringung anderswo spielen.",
+          "„Sie hatte gedacht, die Zeit würde sich wie eine Strecke anfühlen, die man zurücklegt“: Der Schluss wechselt von der sinnlichen Szene zur erklärenden Reflexion und formuliert deren Bedeutung aus.",
+          "„die einzige Veränderung war die, die sie selbst mitgebracht hatte“: Pauschale, vertraute Rückkehrerkenntnis; sie behauptet eine innere Veränderung, die die Szene noch nicht konkret sichtbar macht.",
+          "„als würde gleich jemand danach greifen“ und „als hätte es nur auf sie gewartet“: Zwei konventionelle Belebungen des verlassenen Hauses beziehungsweise seiner Gegenstände; die Wiederholung schwächt die Eigenständigkeit der Atmosphäre."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„dann mit dem Daumen gegen den Bart drücken“: Bei einem zum Drehen eingesteckten Hausschlüssel befindet sich der Bart im Schloss. Die beschriebene Handhabung ist ohne weitere Erklärung mechanisch nicht nachvollziehbar.",
+          "„Mara stellte die Reisetasche ab. Der Riemen rutschte von ihrer Schulter“: Die Bewegungsfolge ist unsauber aufgelöst. Das Abrutschen des Riemens müsste während des Abstellens erfolgen oder eigens erklärt werden.",
+          "„Beides ließ sich sagen, ohne dass sich etwas daran änderte“: Allgemeiner Reflexionssatz mit geringem Erkenntnisgewinn; die nüchternen Zeitangaben wären allein stärker.",
+          "„wie etwas, das sich erst erinnern musste, wie man fließt“: Die abschließende Personifizierung ist merklich auf poetische Wirkung angelegt und weniger präzise als das konkrete Geräusch des Wassers auf dem Löffel."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "B",
+      "D",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2810,
+    "out": 1758,
+    "thinking": 512
+  },
+  "costUsd": 0.0232
+}

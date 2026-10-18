@@ -1,0 +1,16 @@
+{
+  "task": "ctx-belmont-7",
+  "model": "kimi-k3",
+  "run": 2,
+  "judge": "opus",
+  "verdict": {
+    "violated": [],
+    "evidence": []
+  },
+  "usage": {
+    "in": 3489,
+    "out": 238,
+    "thinking": 221
+  },
+  "costUsd": 0.018716
+}

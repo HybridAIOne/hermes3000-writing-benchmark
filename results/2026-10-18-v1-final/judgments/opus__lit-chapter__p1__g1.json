@@ -1,0 +1,119 @@
+{
+  "task": "lit-chapter",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6-luna",
+      "run": 3
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Das waren die Minuten, die sie mochte. Sie hätte nicht sagen können, warum.“ – benennt das Gefühl, statt es zu zeigen",
+          "„Er lachte, als hätte sie einen Witz gemacht.“ / „als hätte sie eine lange Antwort bekommen“ – dieselbe Als-hätte-Figur kehrt wieder",
+          "„aber nicht ruhig. Unter der Oberfläche zog sie, wie sie immer zog, grau und schwer und gleichgültig“ – leicht überladenes Einstiegsbild",
+          "„Sie prüfte das Seil, wie sie es jeden Morgen prüfte“ – das Wie-jeden-Morgen-Muster wird mehrfach eingesetzt"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Seine roten Schuhe verschwanden bald im Nebel.“ – Anschlussfehler, eingeführt war eine rote Mütze",
+          "„Das Rattern des Seils setzte wieder ein.“ / „während die Fähre in den Nebel hinausglitt“ – die Fähre legt ohne Fahrgäste und ohne Bedienung sofort wieder ab, Logikbruch",
+          "„Ich würde mich das nicht trauen.“ – falscher Kasus, richtig wäre „mir“",
+          "„Ilse sah auf die Zahl neben seinem Namen“ – unklar, was gemeint ist",
+          "Die drei Fahrgäste bleiben namenlose Typen, der Ort ist kaum konkret; mit etwa 800 Wörtern zudem eher kurz"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Es war vierundvierzig Minuten nach sechs.“ – Zeitlogik bricht, die Abfahrt war erst nach 6:45",
+          "„Es würde um das Haus gehen. Oder um die Werft-Rechnung … Oder um das Betreute Wohnen in Lüneburg“ – erklärende Hintergrund-Exposition entgegen der Vorgabe",
+          "„von dem er neulich ein Prospekt geschickt hatte“ – Genus-/Kasusfehler, richtig wäre „einen Prospekt“",
+          "„das Seil sang sein leises, metallisches Lied“ – Klischee",
+          "„Kalte Luft traf auf den warmen Duft von billigem Rasierwasser.“ – schiefes, abgegriffenes Bild"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Pommerening kam jeden Dienstag rüber, zum Friseur in Hitzacker“ – Logikbruch, die erste Fahrt führt von Hitzacker weg („Nach Hitzacker?“ – „Da, wo ich herkomme“)",
+          "„als wolle sie das sichergehen“ – ungrammatisch",
+          "„obwohl es Vorschrift war, sie brennen zu lassen, solange der Nebel nicht unter hundert Meter Sicht ließ“ – verquerer, unklarer Satz",
+          "„Vierzig Meter Wasser“ – unplausibel für die Elbe bei Hitzacker",
+          "„was immer man da beriet“ / „wie alte Leute einen berührten, wenn sie einem etwas Gutes wünschten, das längst unmöglich war“ – auktoriale Kommentare mit Kitschanflug"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„„Fährt sie?“ … „Wenn Sie draufstehen.““ – Pointe bleibt unklar",
+          "„Auf dem Display erschien sein Name ein zweites Mal, als müsste sie ihn erst lesen.“ – schiefer Vergleich",
+          "Durchgehend kurze Hauptsätze; der Stakkato-Rhythmus wird stellenweise zur Masche",
+          "„die Hand an der Bedienung“ – unpräzise"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 15767,
+    "out": 4072,
+    "thinking": 2551
+  },
+  "costUsd": 0.144508
+}

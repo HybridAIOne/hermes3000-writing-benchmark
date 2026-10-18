@@ -1,0 +1,118 @@
+{
+  "task": "lit-chapter",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Sie wusste, was auf dem Display stand, ohne hinzusehen“: Der Anrufer wird weder benannt noch anderweitig als Jonas identifizierbar. Damit fehlt eine ausdrücklich verlangte Information.",
+          "„den ihr Mann vor dreißig Jahren geschrieben und hinter Glas an die Steuerhauswand gehängt hatte“: Eingeschobene Vorgeschichte statt ausschließlich gegenwärtiger Handlung; widerspricht der Vorgabe, auf Rückblenden-Exposition zu verzichten.",
+          "„Als gäbe es ein Früher, das man von einem Jetzt trennen konnte“: Der abstrakte, bedeutungsschwere Kommentar unterbricht die ansonsten überzeugend konkrete Wahrnehmung.",
+          "„Man hätte sie blind auf das Wasser setzen können, sie hätte die Mitte gefunden“: Die besondere Vertrautheit mit dem Fluss wird ausdrücklich behauptet und überhöht, nachdem die Handgriffe sie bereits gezeigt haben."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Auf dem Display erschien sein Name ein zweites Mal, als müsste sie ihn erst lesen“: Das erneute Erscheinen bleibt technisch und wahrnehmungslogisch undeutlich; die beabsichtigte Verzögerung wirkt gegenüber dem sonst präzisen Schluss etwas konstruiert.",
+          "„Sie wartete, bis der Transporterfahrer sein Fenster ganz geschlossen hatte“: Weshalb das geschlossene Fenster Voraussetzung für die Abfahrt ist, erschließt sich nicht. Zusammen mit der späteren Aufforderung zum Fensterschließen entsteht ein auffälliges, aber nicht ausreichend motiviertes Detail."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„das er selbst eingestellt hatte, als er im Sommer hier gewesen war“: Die Erklärung des Kontaktbildes schiebt ausdrücklich eine vergangene Besuchssituation ein und verletzt damit die Vorgabe gegen Rückblenden-Exposition.",
+          "„war sie die Erste, die ging“: Das Mädchen ist auf dieser Überfahrt der einzige geschilderte Fahrgast. Die Formulierung suggeriert unnötig eine Reihenfolge mehrerer aussteigender Personen.",
+          "„Sie dachte an nichts Bestimmtes. Sie dachte an die Bremse von dem Mädchen und daran, dass Kahle immer zu weit links fuhr“: Die unmittelbar anschließenden konkreten Gedanken widersprechen der ersten Aussage; die Wiederholung wirkt eher arrangiert als psychologisch präzise.",
+          "„als wollte es auch hinüber“: Die Vermenschlichung des Treibholzes ist ein vertrautes Stimmungsbild und fügt der bereits deutlich etablierten Flussatmosphäre wenig hinzu."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie klang, als wolle sie das sichergehen“: Grammatisch falsche Verbindung. Möglich wären etwa „als wolle sie sichergehen“ oder „als wolle sie sich dessen vergewissern“.",
+          "„auf das Seil, das aus dem Wasser stieg und über die Rolle lief, glänzend vor Nässe, Glied für Glied“: Ein Stahlseil besitzt keine Kettenglieder. Die technische Beschreibung verwechselt Seil und Kette.",
+          "„Vierzig Meter Wasser“: Als Beschreibung der Elbquerung bei Hitzacker ist diese Flussbreite unplausibel; zudem passt sie schlecht zur später genannten vierminütigen Überfahrt.",
+          "„Hinter dem Transporter war noch ein Fußgänger aufgefahren“: Ein Mann, der sein Fahrrad schiebt, ist nicht „aufgefahren“. Außerdem wird sein Zustieg erst nach dem Ablegen nachgetragen; die räumlich-zeitliche Inszenierung bleibt unsauber.",
+          "„Er hatte es auf dem Wasser gelernt, lange bevor er gelernt hatte, Beratungen zu beraten“: Rückblickende Erklärung der Sohnbeziehung entgegen der Expositionsvorgabe; die gewollt abschätzige Wendung „Beratungen zu beraten“ wirkt zusätzlich gesucht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„bevor die Kähne die Fahrrinne kreuzten“: Der Schubverband fährt normalerweise entlang der Fahrrinne; die Fähre kreuzt sie. Die nautische Situation wird verkehrt beschrieben.",
+          "„Hennings altem Pfeifentabak, obwohl die Dose seit drei Jahren leer im Regal über dem Funkgerät stand“: Das Erinnerungsrequisit liefert rückblickende Beziehungsexposition, obwohl diese ausdrücklich vermieden werden sollte. Der jahrelang fortbestehende Tabakgeruch wird zudem sentimental eingesetzt.",
+          "„Über die Bilanz vom dritten Quartal. Über den Makler aus Lüneburg“: Die konkrete Konfliktvorschau erklärt die Bedeutung des Anrufs vorab, statt die Spannung aus Ilses beobachtbarem Verhalten entstehen zu lassen.",
+          "„Sie kannte die Münzen am Gewicht und am geriffelten Rand“: Die demonstrative Behauptung außergewöhnlicher Routine wirkt aufgesetzt; für das gezeigte Herausgeben von Wechselgeld ist sie nicht erforderlich.",
+          "„die zwei gelben Augen eines alten Traktors“: Zusammen mit „dem weißen Nichts“ und dem „heiser und kurz“ schreienden Vogel häufen sich vertraute atmosphärische Formeln."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "A",
+      "E",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 8155,
+    "out": 1861,
+    "thinking": 510
+  },
+  "costUsd": 0.03492
+}

@@ -1,0 +1,18 @@
+{
+  "task": "ed-feedback",
+  "model": "gpt-6.1-sol",
+  "run": 2,
+  "text": "1. **„Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.“** – Die Handlungsfolge ist widersprüchlich, weil die Fahrgäste die Rampe bereits zum Einsteigen benutzt hatten, bevor Ilse sie herunterließ.\n\n2. **„Ilse stellt den Motor an und wartete“** – „Stellt“ steht ohne erkennbaren Grund im Präsens statt im sonst verwendeten Präteritum („stellte“).",
+  "usage": {
+    "in": 294,
+    "out": 623,
+    "thinking": 512
+  },
+  "costUsd": 0.006818,
+  "finish": "stop",
+  "reportedModel": "gpt-6.1-sol",
+  "upstream": null,
+  "latencyMs": 20540,
+  "meta": [],
+  "at": "2026-10-17T17:42:46.993Z"
+}

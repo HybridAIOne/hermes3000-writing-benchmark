@@ -1,0 +1,18 @@
+{
+  "task": "en-scene",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "The chapel door was propped open with a hymnal, which was how she knew someone was inside. Hospital policy said the door stayed open. Grief preferred otherwise.\n\nMara paused on the threshold. A man sat in the third pew, forward-leaning, elbows on knees, hands folded like he was waiting for a bus. Sixty, maybe. His jacket was good wool gone soft at the cuffs.\n\n\"You're Mara,\" he said, without turning.\n\nShe stopped. The name on her badge faced away from him.\n\n\"I work here,\" she said, which answered nothing.\n\n\"I know. Third floor, nights.\" He finally looked at her. His eyes were dry. That surprised her more than the name; people in the chapel at four were rarely dry-eyed. \"You checked my wife's vitals at eleven. You wrote the time on her whiteboard in green marker because the black one was dead.\"\n\nShe remembered. Room 312. The woman with pneumonia who kept apologizing for the call light.\n\n\"She's sleeping,\" Mara said. \"I just came from that end of the hall.\"\n\n\"I know that too.\" He looked back at the altar, at nothing on it. \"I couldn't sleep in that chair. The vinyl. Every time I moved, it sounded like something tearing.\"\n\nShe should have said something about the chair. She should have offered the family lounge, the blankets from the warming cabinet, coffee from the machine that made it wrong. Instead she stood there in her green scrubs, cataloguing exits.\n\n\"You can sit,\" he said. \"I'm not going to tell you anything you don't know.\"\n\nShe sat, one pew back, and folded her hands the way he had. The hymnal at the door held its page open to the hallway light.",
+  "usage": {
+    "in": 139,
+    "out": 388,
+    "thinking": 18
+  },
+  "costUsd": 0.00467442,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Wafer",
+  "latencyMs": 8866,
+  "meta": [],
+  "at": "2026-10-18T05:24:28.665Z"
+}

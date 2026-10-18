@@ -1,0 +1,119 @@
+{
+  "task": "lit-chapter",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "D": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 7,
+        "stil": 7,
+        "aufgabe": 4,
+        "fehler": [
+          "„Jonas kommt zu Weihnachten?\" fragte Ines. (Zeichensetzungsfehler: Komma nach der wörtlichen Rede fehlt; zudem falsche Anführungszeichen im gesamten Text)",
+          "Einmal leer, einmal mit einem Transporter [...] Um zehn kam der erste Radfahrer des Tages. (Schwerer Verstoß gegen Vorgabe c3: Insgesamt fünf Fahrgäste statt genau drei)",
+          "Ziehen, Greifen, Ziehen, Greifen, und die Fähre glitt in den Nebel hinein [...] Ilse fuhr auf den Ponton, der Golf ächzte (Sachlicher Logikbruch: Eine handgezogene Seilfähre über die Elbe bei Hitzacker, die gleichzeitig Autos trägt, ist physikalisch absurd)",
+          "auf der Hitzacker Seite (Grammatik/Rechtschreibung: Entweder „Hitzacker-Seite“ mit Bindestrich oder „Hitzackeraner Seite“)",
+          "Ein Schwarm Stare stand auf dem Weidezaun (Idiomatik: Vögel sitzen auf einem Zaun, sie stehen nicht darauf)"
+        ],
+        "unsupported": [],
+        "violations": [
+          "c3"
+        ]
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Kompletter Text: Nur ca. 620 Wörter statt der geforderten etwa 900 Wörter.",
+          "„Ist der Kaffee noch warm?“, fragte die Frau. Ilse blickte auf die Thermoskanne. „Meiner schon.“ (Leichte unfreiwillige Komik bzw. unlogischer Dialogbezug: Die Frau hat gar keinen Kaffee dabei, daher ergibt Ilses Betonung auf „Meiner“ wenig Sinn)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "das armdicke Stahlseil, das sich schräg in das Nichts fraß. (Stilblüte/schiefes Bild: Ein gespanntes Seil „frisst“ sich nicht ins Nichts)",
+          "Über die Verträge für den Verkauf der Fährrechte, über die Maklerin aus Lüneburg, über die Treppen in ihrem Haus, die für eine Frau über sechzig angeblich zu steil waren. (Stil/Aufgabe: Plumpes Tell, widerspricht dem Geist der Vorgabe „ohne Exposition“, indem der gesamte Romankonflikt in drei Sätzen heruntergebetet wird)",
+          "Kompletter Text: Mit ca. 715 Wörtern etwas unter der Zielvorgabe von 900 Wörtern."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 5,
+        "aufgabe": 6,
+        "fehler": [
+          "die drei Menschen darauf, die sie nicht kannte, bis auf Wessel und Hahn (Logikbruch und unfreiwillige Komik im Satzbau: Wenn sie zwei von dreien kennt, kennt sie nicht „die drei Menschen“ nicht)",
+          "„Ist das die Strecke nach Neu Darchau?“ – „Die Fähre fährt nach Hitzacker-Ufer“, sagte Ilse. „Das ist das Gleiche.“ (Geografischer Unsinn: Neu Darchau liegt kilometerweit flussabwärts, kein Einheimischer würde sagen, das sei „das Gleiche“ wie Hitzacker)",
+          "Er hatte seinen Transporter auf der Hitzacker-Seite stehen lassen, weil die Brücke in Dannenberg gesperrt war (Sachlicher Logikbruch: Die Fähre fährt von der „Wendseite“ nach Hitzacker. Wenn der Transporter in Hitzacker steht, wie ist der Briefträger samt Postkiste überhaupt ans andere Ufer gekommen?)",
+          "wie der Fluss im Herbst aussah [...] Heute war er still und grau, und die Oberfläche bewegte sich kaum. (Logikbruch: Im November ist Herbst; zudem steht die Oberfläche der Elbe wegen der starken Strömung niemals fast still)",
+          "Kompletter Text: Mit ca. 560 Wörtern deutlich zu kurz (Vorgabe: ca. 900 Wörter)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 5,
+        "fehler": [
+          "Ilse zog es nicht heraus. Sie wusste, was auf dem Display stand, ohne hinzusehen (Schwerer Verstoß gegen Vorgabe c4: Der Name Jonas fällt im gesamten Text nicht, für die Leserin ist nicht erkennbar, dass der Anruf von ihrem Sohn Jonas stammt)",
+          "Um zehn vor sieben hörte sie den ersten Motor oben auf dem Deich. [...] Es war Frau Wulf mit dem Fahrrad (Logikbruch in der Szene: Sie hört einen Motor, aber es kommt ein Fahrrad)",
+          "Er kam zu Fuß [...] „Dann bin ich einer.“ [...] „Da musst du links, hinter der Kapelle.“ (Bruch der sozialen Logik: Sie kennt den Mann nicht, duzt ihn aber aus dem Nichts, während der fremde Schuljunge sie kurz darauf siezt)",
+          "Kompletter Text: Mit ca. 625 Wörtern deutlich kürzer als die geforderten 900 Wörter."
+        ],
+        "unsupported": [],
+        "violations": [
+          "c4"
+        ]
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "E",
+      "A",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 8659,
+    "out": 1393,
+    "thinking": 0
+  },
+  "costUsd": 0.031248
+}

@@ -1,0 +1,132 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "E": {
+      "model": "gemini-4-argon",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Wer mehr Geld in Anteilen einbringt, erhält also nicht mehr Stimmen.“ – Wiederholt unmittelbar die bereits verständlich erklärte Stimmrechtsregel.",
+          "„Finanzielle Beteiligung und Mitbestimmung sind nicht nach demselben Maßstab verteilt.“ – Für die Zielgruppe unnötig abstrakte Zusammenfassung eines zuvor anschaulich erklärten Sachverhalts."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Auch mit den Überschüssen wird anders umgegangen als in einem gewöhnlichen Unternehmen.“ – Sachlich irreführender Gegensatz: Auch andere Unternehmen können Überschüsse einbehalten; Genossenschaften können grundsätzlich Überschüsse ausschütten.",
+          "„Die Seilfähre über die Elbe bei Hitzacker gibt es seit 1953 als Fährgenossenschaft.“ – Sprachlich unsaubere Gleichsetzung des Verkehrsmittels mit der Organisation, die es betreibt.",
+          "„Wer viel Kapital eingebracht hat, bestimmt also nicht mehr als jemand mit einem einzigen Anteil.“ – Verallgemeinert das gleiche Stimmrecht zu gleichem tatsächlichem Einfluss.",
+          "„Warum passt diese Rechtsform zu einer Fähre?“ – Die folgenden Strecken-, Nutzungs- und Umsatzzahlen beantworten die Frage zunächst nicht; die eigentliche Begründung folgt erst im Schlussabsatz."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„1953 stellte der Landkreis den Betrieb der Fähre ein.“ – Das Gründungsjahr wird unbelegt zum Jahr der Betriebseinstellung gemacht.",
+          "„So bleibt die Fähre in der Hand derer, die sie brauchen.“ – Setzt Mitglieder und Nutzer gleich, ohne dass die Quelle diese Gleichsetzung trägt.",
+          "„Auch mit dem Geld geht die Genossenschaft anders um als ein gewöhnliches Unternehmen.“ – Irreführende Gegenüberstellung: Die beschriebene Rücklagenbildung ist kein Alleinstellungsmerkmal von Genossenschaften.",
+          "„Sie brauchten die Fähre und übernahmen sie deshalb selbst.“ – Schreibt den Gründern einen konkreten Bedarf und ein Motiv zu, die das Material nicht ausdrücklich nennt.",
+          "„legt Erträge für die Zukunft der Fähre zurück“ – Fachlich ungenau: Zurückgelegt werden laut Quelle Überschüsse, nicht Erträge schlechthin."
+        ],
+        "unsupported": [
+          "„1953 stellte der Landkreis den Betrieb der Fähre ein.“ – Die Quelle datiert nur die Gründung auf 1953; die Betriebseinstellung lag davor.",
+          "„Sie brauchten die Fähre und übernahmen sie deshalb selbst.“ – Der persönliche Bedarf der Gründer und diese ausdrückliche Kausalität sind nicht belegt.",
+          "„So bleibt die Fähre in der Hand derer, die sie brauchen.“ – Dass die Mitglieder mit den auf die Fähre angewiesenen Menschen identisch sind, steht nicht in der Quelle."
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Dank der angesparten Rücklage soll bis 2031 ein Elektroantrieb eingebaut werden“ – Verschiebt die Aussage der Quelle: Bis 2031 soll die Rücklage ausreichen; ein Einbau bis zu diesem Zeitpunkt ist nicht ausdrücklich zugesagt.",
+          "„wie die Genossenschaft auf Dauer und für das Gemeinwohl plant“ – Die Gemeinwohlorientierung wird als Tatsache behauptet, ist aber nicht belegt.",
+          "„etwas zu bewirtschaften, das der Einzelne allein nicht stemmen könnte“ – Macht die wirtschaftliche Unfähigkeit Einzelner unzulässig zum notwendigen Merkmal jeder Genossenschaft.",
+          "„nicht darum, Eigentümer zu bereichern“ – Polemische, für ein erklärendes Sachbuch unnötig wertende Formulierung.",
+          "„Das zeigt sich auch in den Zahlen“ – Die anschließenden Umsatz-, Nutzungs- und Technikangaben belegen die behauptete besondere Eignung der Rechtsform nicht. Der Schlussabsatz wird dadurch zur wenig gegliederten Faktensammlung."
+        ],
+        "unsupported": [
+          "„aus einer Notlage heraus“ – Die Quelle nennt eine Betriebseinstellung, charakterisiert die Situation aber nicht als Notlage.",
+          "„die Menschen an beiden Ufern wollten die Verbindung über den Fluss erhalten“ – Verallgemeinert die Motivation der 41 Gründer auf die Menschen beider Ufer.",
+          "„Dank der angesparten Rücklage soll bis 2031 ein Elektroantrieb eingebaut werden“ – Belegt ist das angestrebte Ausreichen der Rücklage bis 2031, nicht ausdrücklich dieser Einbautermin.",
+          "„für das Gemeinwohl plant“ – Eine entsprechende Zielsetzung der Genossenschaft wird im Material nicht genannt."
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 6,
+        "fehler": [
+          "„Da alle Überschüsse im Unternehmen verbleiben, wächst das finanzielle Polster stetig.“ – Unbelegt und wirtschaftlich nicht zwingend: Es können Überschüsse ausbleiben oder Rücklagen für Erneuerungen verwendet werden.",
+          "„Als der Landkreis im Jahr 1953 den Betrieb der dortigen Seilfähre einstellte“ – Verlegt die Betriebseinstellung ohne Quellenbeleg in das Gründungsjahr.",
+          "„Das sichert den Betrieb langfristig.“ – Macht aus einem Instrument zur Erneuerungsfinanzierung eine nicht belegte Bestandsgarantie.",
+          "„weil es den Beteiligten nicht um persönliche Gewinnmaximierung geht“ – Behauptet persönliche Motive, obwohl die Quelle nur die tatsächliche Verwendung der Überschüsse beschreibt.",
+          "„den Fortbestand und die Modernisierung der Fähre ideal unterstützt“ – Werbliche Überhöhung; die Quelle erlaubt eine begründete Eignungsaussage, aber keinen Nachweis einer idealen Rechtsform."
+        ],
+        "unsupported": [
+          "„Als der Landkreis im Jahr 1953 den Betrieb der dortigen Seilfähre einstellte“ – Das Jahr der Betriebseinstellung wird nicht genannt.",
+          "„weil es den Beteiligten nicht um persönliche Gewinnmaximierung geht“ – Die individuellen Motive der Beteiligten sind nicht dokumentiert.",
+          "„Das sichert den Betrieb langfristig.“ – Eine langfristige Sicherung des Betriebs wird durch die genannten Fakten nicht garantiert.",
+          "„den Fortbestand und die Modernisierung der Fähre ideal unterstützt“ – Die behauptete ideale Eignung ist durch das Material nicht nachgewiesen.",
+          "„wächst das finanzielle Polster stetig“ – Über einen stetigen Zuwachs der Rücklage enthält die Quelle keine Angaben."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  "usage": {
+    "in": 3321,
+    "out": 2039,
+    "thinking": 416
+  },
+  "costUsd": 0.027032
+}

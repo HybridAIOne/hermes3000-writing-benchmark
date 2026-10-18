@@ -1,0 +1,20 @@
+{
+  "task": "ctx-belmont-4",
+  "model": "claude-opus-5.5",
+  "run": 1,
+  "judge": "sol",
+  "verdict": {
+    "violated": [
+      "b4-1"
+    ],
+    "evidence": [
+      "Dr. Vosskuhl steht im Schatten der Treppe, die Brille in der Hand, und putzt sie mit dem Taschentuch, obwohl sie sauber ist."
+    ]
+  },
+  "usage": {
+    "in": 1951,
+    "out": 311,
+    "thinking": 248
+  },
+  "costUsd": 0.007012
+}

@@ -1,0 +1,20 @@
+{
+  "task": "lit-dialogue",
+  "model": "kimi-k3",
+  "run": 1,
+  "text": "**Wiedersehen**\n\n*Ein kleines Café am Stadtrand. Herbst. Zwei Tische am Fenster, einer ist frei. Jonas steht, als Miriam eintritt. Sie bleibt in der Tür stehen.*\n\n**JONAS:** Du bist gekommen.\n\n**MIRIAM:** Du hast geschrieben. *(legt den Mantel nicht ab)*\n\n**JONAS:** Setz dich doch.\n\n**MIRIAM:** Nur kurz. Ich muss um vier wieder los.\n\n**JONAS:** Natürlich. Um vier.\n\n*Stille. Die Kellnerin kommt. Beide bestellen gleichzeitig.*\n\n**BEIDE:** Einen Kaffee, schwarz.\n\n**MIRIAM:** *(leises Lachen)* Manche Dinge ändern sich nicht.\n\n**JONAS:** Nein. Manche nicht.\n\n*Die Kellnerin geht. Jonas dreht den Zuckerstreuer in den Fingern.*\n\n**MIRIAM:** Du siehst gut aus.\n\n**JONAS:** Lüg nicht. Nicht du.\n\n**MIRIAM:** *(zögert)* Wie geht es deiner Mutter?\n\n**JONAS:** Sie fragt nach dir. Immer noch.\n\n**MIRIAM:** Sag ihr – sag ihr, ich denke an sie.\n\n**JONAS:** Sag es ihr selbst. Sie wohnt noch am selben Ort. Wir wohnen alle noch am selben Ort, Miriam.\n\n**MIRIAM:** *(schaut aus dem Fenster)* Es regnet.\n\n**JONAS:** Es regnet nicht.\n\n**MIRIAM:** Es wird regnen.\n\n*Der Kaffee kommt. Keiner trinkt.*\n\n**JONAS:** Damals, im März –\n\n**MIRIAM:** Trink deinen Kaffee, Jonas.\n\n**JONAS:** Er ist heiß.\n\n**MIRIAM:** Er wird kalt.\n\n**JONAS:** *(nach einer Pause)* Bist du glücklich? Da, wo du jetzt bist?\n\n**MIRIAM:** Bist du es? Hier, wo du geblieben bist?\n\n*Langes Schweigen. Miriam greift nach ihrem Mantel, legt ihn dann doch über die Stuhllehne.*\n\n**MIRIAM:** Noch einen Kaffee vielleicht.\n\n**JONAS:** Um vier musst du los.\n\n**MIRIAM:** *(sieht ihn zum ersten Mal direkt an)* Es ist erst halb drei.\n\n**JONAS:** *(atmet aus)* Dann haben wir ja Zeit.\n\n**MIRIAM:** Zeit hatten wir schon immer. *(leise)* Wir haben sie nur nie benutzt.\n\n*Draußen fängt es an zu regnen. Beide schauen hinaus. Keiner geht.*",
+  "usage": {
+    "in": 157,
+    "out": 670,
+    "thinking": 37
+  },
+  "costUsd": 0.0080469,
+  "finish": "stop",
+  "reportedModel": "moonshotai/kimi-k3",
+  "upstream": "Wafer",
+  "latencyMs": 14909,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-18T05:26:10.150Z"
+}

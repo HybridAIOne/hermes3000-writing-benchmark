@@ -1,0 +1,109 @@
+{
+  "task": "nf-outline",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "gpt-6-luna",
+      "run": 2
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„ohne dich unbeliebt zu machen“: Verspricht eine Absicherung, die Führung nicht leisten kann. Sachgerechte Abgrenzung kann auch auf Ablehnung stoßen.",
+          "„Die ersten Wochen ohne Gebrauchsanleitung“: Die Beschreibung bleibt mit „was […] wirklich zählt“ inhaltlich unbestimmt; welche Grundlagen dieses Einstiegskapitel vermittelt, wird nicht deutlich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„obwohl du weder Gehälter erhöhen noch Abmahnungen schreiben darfst“: Legt Befugnisse der Zielgruppe pauschal fest, obwohl die Aufgabe dazu keine Angaben macht. Fehlende Führungsausbildung bedeutet nicht fehlende formale Befugnisse.",
+          "„warum du nicht mehr der beste Sachbearbeiter sein darfst“: Verengt die Zielgruppe unnötig auf Sachbearbeitung und formuliert ein unbegründetes Verbot; entscheidend wäre, Facharbeit und Führungsaufgaben neu zu gewichten.",
+          "„Akzeptanz und Verbindlichkeit im Team“: Kapitel 4 ist gegenüber Rollenklärung, Aufgabenübergabe und klaren Ansagen in den Kapiteln 1 bis 3 nicht ausreichend abgegrenzt.",
+          "„Verschiedene Köpfe unter einen Hut bringen“: Das Kennenlernen unterschiedlicher Teammitglieder kommt erst in Kapitel 7, obwohl diese Grundlage für die vorher behandelte Kommunikation und Zusammenarbeit gebraucht wird.",
+          "„vom sturköpfigen Urgestein […] bis zum fordernden Berufseinsteiger“: Arbeitet mit abwertenden beziehungsweise schematischen Mitarbeitertypen statt mit einer differenzierten, hilfreichen Beschreibung."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Schaffe verlässliche Abläufe im Team“: Besprechungs- und Rückmelderoutinen werden erst nach den schwierigen Gesprächen eingeführt. Als Grundlage der täglichen Führung wären sie davor schlüssiger platziert.",
+          "„Du findest einen guten Einstieg“: Bleibt als Inhaltsbeschreibung zu allgemein; neben der anschließenden Zuständigkeitsklärung erhält das erste Kapitel noch keinen klar umrissenen eigenen Gegenstand."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Über Nacht Chef – und jetzt?“ und „Vom Kollegen zum Vorgesetzten“: Die Rollenveränderung bildet den Gegenstand beider Einstiegskapitel; die Beschreibungen grenzen persönliche Orientierung und Beziehungsklärung nicht deutlich genug voneinander ab.",
+          "„Freundschaften sauber umwandeln“: Unidiomatische und inhaltlich unklare Verbindung. Freundschaften werden unter veränderten Rollen gestaltet, nicht „sauber umgewandelt“.",
+          "„Zusagen verbindlich machen, ohne zu kontrollieren“: Formuliert Kontrollverzicht pauschal als Ziel. Sinnvoll wäre die Unterscheidung zwischen vereinbarter Ergebniskontrolle und übermäßiger Einmischung.",
+          "„ohne dein Team zu verraten“: Dramatisiert die Zusammenarbeit mit Geschäftsleitung und anderen Abteilungen als mögliche Illoyalität und verstärkt unnötig ein Gegeneinander.",
+          "„Erst zuhören, dann führen“: Die ausdrücklich den ersten Wochen gewidmete Bestandsaufnahme folgt erst auf zwei Kapitel zur Rollenveränderung; der zeitliche Aufbau bleibt dadurch weniger klar."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "B",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 2817,
+    "out": 1401,
+    "thinking": 428
+  },
+  "costUsd": 0.019644
+}

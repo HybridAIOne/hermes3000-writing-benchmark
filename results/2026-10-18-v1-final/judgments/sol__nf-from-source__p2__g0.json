@@ -1,0 +1,131 @@
+{
+  "task": "nf-from-source",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 2,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Auch mit den Überschüssen wird anders verfahren als in einem gewöhnlichen Unternehmen.“ – Der pauschale Gegensatz ist sachlich unsauber: Auch andere Unternehmen können Überschüsse einbehalten.",
+          "„aus beiden Elbufern“ – Unidiomatische Präposition, auch wenn sie aus der Quelle übernommen wurde. Richtig wäre „von beiden Elbufern“.",
+          "„Eine Fähre, die über Jahrzehnte fahren soll, braucht genau diese Mischung aus gemeinsamer Entscheidung und langfristigem Denken.“ – Der Schluss wiederholt die vorangegangene Erklärung und formuliert die Eignung unnötig apodiktisch."
+        ],
+        "unsupported": [
+          "„Auch mit den Überschüssen wird anders verfahren als in einem gewöhnlichen Unternehmen.“ – Die Quelle enthält keinen solchen Unternehmensvergleich."
+        ],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Die Fahrgeldeinnahmen allein bilden somit nicht die gesamte Finanzierung.“ – Wiederholt lediglich die unmittelbar zuvor genannten Umsatzanteile.",
+          "„Die Mitglieder tragen Anteile, entscheiden gleichberechtigt mit und lassen Überschüsse für die Erneuerung im Unternehmen.“ – Die Schlusszusammenfassung ist verständlich, wiederholt aber ausführlich bereits erklärte Zusammenhänge."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 6,
+        "fehler": [
+          "„Sie betrieben gemeinsam, was jeder von ihnen brauchte, aber allein kaum hätte tragen können.“ – Ergänzt einen individuellen Bedarf sämtlicher Gründer und eine nicht belegte Einschätzung ihrer finanziellen Möglichkeiten.",
+          "„Sie ist vor allem eine Verbindung, auf die viele Menschen angewiesen sind, und erst in zweiter Linie ein Geschäft.“ – Weder die Abhängigkeit der Menschen noch diese Rangfolge ist belegt.",
+          "„Die Genossenschaft legt die Fähre in die Hände derer, die sie brauchen“ – Setzt Mitglieder und auf die Fähre angewiesene Nutzer ohne Beleg gleich.",
+          "„Damals stellte der Landkreis den Betrieb ein.“ – Datiert die Einstellung auf 1953; die Quelle nennt dieses Jahr nur für die anschließende Gründung."
+        ],
+        "unsupported": [
+          "„Damals stellte der Landkreis den Betrieb ein.“ – Das Jahr der Betriebseinstellung wird in der Quelle nicht genannt.",
+          "„was jeder von ihnen brauchte“ – Ein persönlicher Bedarf jedes einzelnen Gründers ist nicht angegeben.",
+          "„aber allein kaum hätte tragen können“ – Über die finanziellen Möglichkeiten der Gründer enthält die Quelle nichts.",
+          "„auf die viele Menschen angewiesen sind“ – Die Beförderungszahl belegt Nutzung, nicht Angewiesenheit.",
+          "„erst in zweiter Linie ein Geschäft“ – Diese Gewichtung steht nicht in der Quelle.",
+          "„Die Genossenschaft legt die Fähre in die Hände derer, die sie brauchen“ – Die Quelle setzt Mitglieder und auf die Verbindung angewiesene Personen nicht gleich."
+        ],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 5,
+        "fehler": [
+          "„Die Zahlen zeigen, dass das Modell trägt.“ – Umsatz, Zuschussanteil und Beförderungszahl reichen ohne Angaben zu Kosten oder Ergebnis nicht aus, um wirtschaftliche Tragfähigkeit festzustellen.",
+          "„Eine Fähre, die ihren Nutzern gehört“ – Die Überschrift setzt Nutzer und Mitglieder gleich; das ist nicht belegt.",
+          "„ein Gemeinschaftsgut ist, das nicht von einem einzelnen Eigentümer abhängen soll“ – Ergänzt eine nicht dokumentierte Zielsetzung zur Eigentümerstruktur.",
+          "„Die Menschen, die sie brauchen, betreiben sie selbst“ – Behauptet eine Identität von angewiesenen Nutzern und Betreibern, die aus der Quelle nicht hervorgeht.",
+          "„Die Genossenschaft entstand 1953 aus einer Notlage.“ – Dramatisierende Einordnung; belegt ist die Betriebseinstellung, nicht eine näher beschriebene Notlage."
+        ],
+        "unsupported": [
+          "„Eine Fähre, die ihren Nutzern gehört“ – Dass die Nutzer zugleich Mitglieder beziehungsweise Eigentümer sind, steht nicht in der Quelle.",
+          "„aus einer Notlage“ – Eine Notlage wird im Quellmaterial nicht festgestellt.",
+          "„Die Zahlen zeigen, dass das Modell trägt.“ – Die wirtschaftliche Tragfähigkeit ist durch die vorliegenden Zahlen nicht nachgewiesen.",
+          "„weil die Fähre für die Region ein Gemeinschaftsgut ist“ – Diese Einordnung wird in der Quelle nicht vorgenommen.",
+          "„das nicht von einem einzelnen Eigentümer abhängen soll“ – Eine entsprechende Absicht oder Vorgabe ist nicht überliefert.",
+          "„Die Menschen, die sie brauchen, betreiben sie selbst“ – Die Quelle belegt weder die behauptete Angewiesenheit noch die Gleichsetzung dieser Personen mit den Betreibern."
+        ],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Mitglied wird, wer mindestens einen Geschäftsanteil von 250 Euro hält.“ – Macht aus der Mindestbeteiligung bestehender Mitglieder eine hinreichende Beitrittsbedingung. Die Quelle beschreibt kein Aufnahmeverfahren.",
+          "„eine 212 Meter breite Elbe“ – Grammatisch möglich, aber unnatürlich formuliert; gemeint ist die an dieser Stelle 212 Meter breite Elbe.",
+          "„Geldanteil und Stimmrecht sind also nicht gleichzusetzen. Die Genossenschaft verbindet so die finanzielle Beteiligung ihrer Mitglieder mit einem gleichen Stimmrecht für jedes einzelne Mitglied.“ – Umständliche Doppelung der bereits klar erklärten Stimmrechtsregel."
+        ],
+        "unsupported": [
+          "„Mitglied wird, wer mindestens einen Geschäftsanteil von 250 Euro hält.“ – Die Quelle nennt den Mindestanteil je Mitglied, nicht den Anteilserwerb als alleinige Voraussetzung des Mitgliedwerdens."
+        ],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "E",
+      "A",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3158,
+    "out": 2251,
+    "thinking": 815
+  },
+  "costUsd": 0.028826
+}

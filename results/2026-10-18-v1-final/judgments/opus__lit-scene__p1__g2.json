@@ -1,0 +1,118 @@
+{
+  "task": "lit-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 5,
+        "aufgabe": 5,
+        "fehler": [
+          "\"Es schmeckte scharf und unverkennbar nach bitteren Mandeln.\" – Die Blausäure-Pointe kippt die literarische Eröffnung in den Krimi-Effekt. Das Detail trägt nicht leise, sondern schreit.",
+          "\"an den sie sich zwanzig Jahre lang gewöhnt hatte\" – Logikbruch: Die Mutter lebte bis zuletzt im Haus, die Tür wurde also benutzt.",
+          "\"leckte gedankenverloren über die Fingerkuppen\" – unglaubwürdig nach rostbrauner Brühe aus seit Langem stillgelegten Rohren.",
+          "\"Es roch nach der Abwesenheit von allem.\" – prätentiöse Sentenz, die erklärt statt zeigt.",
+          "\"formlos wie eine abgelegte Haut\" / \"das unter ihren Sohlen schwieg\" – abgegriffene Bilder."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"**Orangen**\" – Überschrift über der Szene, nicht verlangt.",
+          "\"nicht aus Trauer, sondern aus einer Art Schwindel\" – Die Erzählerin erklärt die Emotion, die das Bild bereits zeigt.",
+          "\"horchte ins Haus hinein, das nicht antwortete\" – leicht abgenutzter Schlussgestus.",
+          "\"für den Tee im Winter, für die Wäscheschubladen, gegen die Motten, gegen alles\" – Die Aufzählungsmasche ist etwas zu kalkuliert."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"mit einem fingerbreit Wasser\" – Substantiv, richtig: \"mit einem Fingerbreit Wasser\".",
+          "\"unten weit genug ausgestellt, dass man beim Vorbeigehen daran streifte\" – holprig, idiomatisch wäre \"so weit ausgestellt, dass\".",
+          "Mehrere konkurrierende Details (Kerben, Lippenabdruck, Zitrone) verwässern das eine tragende Motiv.",
+          "\"Draußen fuhr ein Lieferwagen vorbei.\" – Die Füllpassage bremst die Dichte."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "\"die handgeschöpfte Seife\" – Fehlgriff: \"handgeschöpft\" sagt man von Papier, bei Seife heißt es handgesiedet oder handgemacht.",
+          "\"Zwanzig Jahre alte Seife duftet nicht mehr durch einen Flur.\" – Der Satz erklärt dem Leser die Pointe.",
+          "\"roch, was Häuser riechen, wenn niemand mehr in ihnen atmet\" – an der Grenze zum Kitsch.",
+          "\"Jemand – sie selbst, vermutlich – hatte nie weitergeblättert.\" – unplausibel, sie müsste es wissen.",
+          "\"**Das Haus**\" – nicht verlangte Überschrift; mit gut 370 Wörtern zudem über der Vorgabe."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Dort lagen vier Quitten ... Neben der fünften Quitte\" – Die Zählung wirkt wie ein Logikfehler und irritiert.",
+          "\"ein Kleiderbügel, der leicht schwang, vielleicht von ihrem Luftzug, vielleicht schon vorher\" – angedeuteter Spuk-Effekt, etwas billig.",
+          "\"Jemand hatte gedacht, hatte aufgeräumt, hatte es gut gemeint.\" – Die Trikolon-Masche ist erkennbar.",
+          "\"nach etwas Muffigem, das sie nicht benennen wollte\" – Floskel."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "B",
+      "C",
+      "E",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 5902,
+    "out": 2973,
+    "thinking": 1458
+  },
+  "costUsd": 0.083068
+}

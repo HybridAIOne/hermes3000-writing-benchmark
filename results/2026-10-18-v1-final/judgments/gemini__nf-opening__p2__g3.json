@@ -1,0 +1,125 @@
+{
+  "task": "nf-opening",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "F": {
+      "model": "gemini-4-argon",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "Mit rund 195 Wörtern etwas unter der Zielvorgabe von etwa 250 Wörtern.",
+          "Das Thema „Führen ohne Titel“ (laterale Führung) klingt nur kurz an („ob du überhaupt im Recht bist“)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Die meisten Führungskräfte, die ich kenne, können Zahlen präsentieren, Projekte steuern und Budgets verteidigen.“ – Verfehlt die Prämisse des Buchtitels „Führen ohne Titel“ (laterale Führung vs. klassische Führungskraft mit Budgetverantwortung).",
+          "Mehrere Textabsätze statt des geforderten einen Einstiegsabsatzes.",
+          "„Was gibt's denn?“ – Typografisch falscher Apostroph (Schreibmaschinen-Apostroph)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 9,
+        "fehler": [
+          "„Dann kannst du Martin beiseitenehmen und sagen: [...]“ – Greift als Einstiegsabsatz bereits stark in die konkrete Lösung und Gesprächsführung vor, statt das Kapitel nur zu eröffnen."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 6,
+        "stil": 7,
+        "aufgabe": 5,
+        "fehler": [
+          "„und wie du danach wieder ruhig schlafst.“ – Grammatikfehler (korrekt: schläfst).",
+          "„weil du am Montag ein Kündigungsgespräch vorbereiten musst“ sowie „Disziplinarverfahren“ – Grober inhaltlicher Widerspruch zum Buchtitel „Führen ohne Titel“ (wer ohne formale Macht führt, führt keine Kündigungsgespräche).",
+          "„Du hast dir vorgenommen, das Gespräch schon drei Mal zu führen.“ – Unlogische Satzstellung (gemeint ist: Du hast dir schon dreimal vorgenommen, das Gespräch zu führen).",
+          "„viertel vor acht“ – Kleinschreibung ist hier zwar nach neuerer Auslegung teils geduldet, im Buchsatz aber unschön bzw. standardmäßig „Viertel vor acht“.",
+          "Vier Absätze statt des geforderten Einstiegsabsatzes."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 10,
+        "aufgabe": 9,
+        "fehler": [
+          "„Kurz sprechen – Jens\" – Falsches schließendes Anführungszeichen (Zollzeichen statt deutschem Abführungszeichen).",
+          "Der Aspekt „ohne Titel“ wird nur implizit über das Dienstalter („länger als du“) transportiert, nicht explizit gemacht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„Jour fixe“ – Könnte für manche Leser schon nah am Business-Jargon sein, ist im Mittelstand aber etabliert."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "F",
+      "E",
+      "C",
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 3166,
+    "out": 922,
+    "thinking": 0
+  },
+  "costUsd": 0.015552
+}

@@ -1,0 +1,119 @@
+{
+  "task": "lit-scene",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "kimi-k3",
+      "run": 1
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "C": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "D": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 6,
+        "stil": 4,
+        "aufgabe": 5,
+        "fehler": [
+          "\"am Kragen ausgeblickt\" – Tippfehler, gemeint ist \"ausgeblichen\"",
+          "\"Dass er sich zwanzig Jahre gehalten hatte, war unmöglich.\" – Logikbruch: Die Mutter lebte bis zu ihrem Tod im Haus, der Duft muss also nicht zwanzig Jahre alt sein.",
+          "\"eingerahmt von Spinnweben wie von einem Trauerflor\" – überdeutliches, kitschnahes Bild",
+          "\"eine Tasse, nach innen gestülpt\" – falsches Wort, gemeint ist \"umgestülpt\"",
+          "\"ob ihre Mutter wirklich allein hier gestorben war\" – effekthascherischer Schluss, der den Vergleichsreigen (\"wie Wasser in einem versunkenen Schiff\", \"wie eine Hand, die etwas sucht\") noch überbietet"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "\"Es schmeckte scharf und unverkennbar nach bitteren Mandeln.\" – Zyankali-Signal: Das kippt ins Krimihafte und verfehlt den literarischen Ton.",
+          "\"an den sie sich zwanzig Jahre lang gewöhnt hatte\" – Logikbruch: Durch diese Tür wurde zuletzt der Sarg getragen, sie war also nicht zwanzig Jahre verschlossen.",
+          "\"Es roch nach der Abwesenheit von allem.\" – abgegriffene, erklärende Formel",
+          "\"leckte gedankenverloren über die Fingerkuppen\" – konstruierte Handlung, nachdem gerade rostbraune Brühe aus dem Hahn kam",
+          "\"formlos wie eine abgelegte Haut\" – naheliegendes Bild"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "\"Vor zwanzig Jahren hatte ich diese Dose zuletzt gesehen, leer, der Rand grau vor Staub.\" – unlogisch: Damals lebte die Mutter noch im Haus und benutzte die Küche.",
+          "\"als jemand sie zuletzt angehalten hatte\" – Eine stehengebliebene Uhr wird nicht angehalten; das Bild ist unscharf.",
+          "\"am Tresen festhalten\" – In einer Wohnküche gibt es keinen Tresen; falsches Wort.",
+          "\"die Küche sich mit einer Wärme füllte, die nicht von der Heizung kam\" – sentimentale Formel",
+          "Mit gut 260 Wörtern deutlich unter der vorgegebenen Länge."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 9,
+        "aufgabe": 8,
+        "fehler": [
+          "\"mit einem fingerbreit Wasser\" – Substantiv, richtig: \"einem Fingerbreit\"",
+          "\"unten weit genug ausgestellt, dass man\" – holprig, idiomatisch wäre \"so weit ausgestellt, dass\"",
+          "\"noch im Mantel\" – kurz missverständlich, weil zuvor nur der Mantel der Mutter erwähnt wurde",
+          "Kerben, Lippenabdruck und Zitrone konkurrieren als bedeutungstragende Details; das schwächt die Fokussierung leicht."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "\"wie ein Obstkorb, der zu lange in der Sonne stand\" – Tempus, richtig: \"gestanden hatte\"",
+          "\"Sie hielt die Hand darunter. Das Wasser schmeckte nach Eisen\" – Lücke: Das Trinken bzw. Kosten fehlt.",
+          "\"spuckte\" … \"spuckte es nicht aus\" – unschöne Wortwiederholung im selben Absatz",
+          "\"nicht auf die Art, von der alle sprachen\" – leicht erklärend"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "D",
+      "E",
+      "C",
+      "B",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 5649,
+    "out": 2849,
+    "thinking": 1316
+  },
+  "costUsd": 0.079576
+}

@@ -1,0 +1,117 @@
+{
+  "task": "nf-outline",
+  "judge": "opus",
+  "judgeFamily": "anthropic",
+  "pass": 2,
+  "group": 1,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 1
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 3
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "„Organisiere die Zusammenarbeit im Alltag“ – das Kapitel grenzt sich nur unscharf von Kapitel 3 („Gib dem Team eine klare Richtung“) ab.",
+          "„Dein erster Tag: Kläre, wofür du verantwortlich bist“ – der Rollenwechsel unter früheren Kollegen folgt erst in Kapitel 2, obwohl er am ersten Tag am drängendsten ist.",
+          "„Finde heraus, wie du führen willst“ – das Kapitel erwähnt Druck und eigene Belastung nur am Rande, ein Selbstschutz-Aspekt fehlt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„Der erste Tag ohne Gebrauchsanweisung“ / „Was dir gehört und was nicht“ – die Kapitel 1 und 2 überschneiden sich, denn beide behandeln die Erwartungen und Aufgaben zu Beginn.",
+          "„Du hast die Rolle bekommen, bevor dir jemand erklärt hat, was sie bedeutet, und hier erfährst du, was du …“ – der Satz ist überlang und mit „und hier“ holprig angehängt.",
+          "„Vom Kollegen zum Vorgesetzten“ – der Rollenwechsel kommt erst in Kapitel 4, also zu spät im Aufbau.",
+          "„verlässliche Regeln für Rückmeldungen und feste Gesprächsformate“ – das Kapitel bleibt vage und überschneidet sich mit Kapitel 5."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 7,
+        "stil": 6,
+        "aufgabe": 6,
+        "fehler": [
+          "„mit ehemaligen Kollegen auf Augenhöhe klarkommst, die jetzt deine Mitarbeiter sind“ – der Rollenwechsel steht erst in Kapitel 8 und bricht damit den Aufbau.",
+          "„und wie du nachfragst, ohne zu kontrollieren“ – das überschneidet sich mit Kapitel 4 („Aufgaben abgeben und loslassen“).",
+          "„so, dass dein Gegenüber sie annehmen kann statt in Verteidigung zu gehen“ – die Wendung „in Verteidigung gehen“ ist unidiomatisch, außerdem fehlt das Komma vor „statt“.",
+          "„Fehler machen, daraus lernen, dranbleiben“ – das Kapitel überschneidet sich mit Kapitel 10 zur Haltung.",
+          "„Kapitel 6 greift bewusst erst später“ – die Meta-Erklärung ist ein Füllsatz und steht im Widerspruch zum zeitmanagement-lastigen Kapitel 7, das erst danach folgt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Was sich vom einen Tag auf den anderen ändert, wenn …“ – die Inhaltsangaben sind durchgehend Satzfragmente statt vollständiger Sätze.",
+          "„Sag klar, was du willst“ steht nach „Loslassen lernen“ – Ziele werden erst nach dem Delegieren geklärt, die Reihenfolge ist unlogisch.",
+          "„Reden, bevor es brennt“ / „Wenn es unangenehm wird“ – die Abgrenzung zwischen Kapitel 6 und 7 ist unscharf.",
+          "„mit deinem eigenen Vorgesetzten klärst, was er von dir erwartet“ – die Formulierung ist unnötig auf das Maskulinum festgelegt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 6,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "„wie du die ersten Tage und Wochen übersteht“ – Konjugationsfehler, richtig ist „überstehst“.",
+          "„was deine Geschäftsführung, dein Team und du selbst von dir erwartest“ – die Kongruenz ist falsch, der Satz ist verunglückt.",
+          "„dem Gefühl um, nie genug zu sein“ – unidiomatisch, gemeint ist „nie gut genug“.",
+          "„und hältst Meetings, die nicht nur Zeit kosten“ – das Anglizismus-Wort widerspricht dem Anspruch, keine Buzzwords zu verwenden.",
+          "„Plötzlich Chef: Der Rollenwechsel“ / „Was wird eigentlich von dir erwartet?“ – die beiden Kapitel überschneiden sich leicht beim Einstieg."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "B",
+      "D",
+      "E",
+      "C"
+    ]
+  },
+  "usage": {
+    "in": 6344,
+    "out": 3190,
+    "thinking": 1479
+  },
+  "costUsd": 0.089176
+}

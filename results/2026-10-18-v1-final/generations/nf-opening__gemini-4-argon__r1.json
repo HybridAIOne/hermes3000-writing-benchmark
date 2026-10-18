@@ -1,0 +1,18 @@
+{
+  "task": "nf-opening",
+  "model": "gemini-4-argon",
+  "run": 1,
+  "text": "Es ist Donnerstag, 16:30 Uhr, und du starrst seit zwanzig Minuten auf dieselbe Excel-Tabelle, ohne eine einzige Zahl wirklich zu lesen. Deine Gedanken sind zwei Türen weiter. Dort sitzt Markus. Markus ist seit acht Jahren im Betrieb, kennt jede Maschine im Schlaf und war schon da, als du noch nicht einmal wusstest, dass diese Firma überhaupt existiert. Aber seit drei Monaten lässt er schleifen. Er überzieht die Pausen, winkt bei den neuen Sicherheitsvorschriften ab und gestern hat er vor versammelter Mannschaft deinen Vorschlag für den neuen Schichtplan mit einem lauten Schnauben abgetan. Du weißt genau, dass du mit ihm reden musst. Eigentlich hättest du es schon vor vier Wochen tun sollen. Doch jedes Mal, wenn du den Impuls spürst, aufzustehen und in sein Büro zu gehen, meldet sich diese innere Stimme: „Warte lieber noch ab, vielleicht hat er nur eine schlechte Phase.“ Oder noch ehrlicher: „Was, wenn er mich auflaufen lässt? Ich bin doch offiziell gar nicht sein Chef.“ Genau dieses Zögern kostet dich jeden Tag Energie. Unausgesprochene Konflikte verschwinden nicht, sie gären im Hintergrund weiter und vergiften schleichend die Stimmung im gesamten Team. Als Teamleiter ohne disziplinarische Macht hast du kein Druckmittel in der Hinterhand. Du kannst nicht mit einer Abmahnung winken oder das Gehalt kürzen. Deine einzige Währung ist das Gespräch auf Augenhöhe. Und genau deshalb drückst du dich davor – weil du spürst, dass du dich auf dünnes Eis begibst. Dabei sind es genau diese unangenehmen Vier-Augen-Gespräche, in denen sich entscheidet, ob dein Team dich als echte Führungskraft ernst nimmt oder nur als jemanden, der die Urlaubslisten abzeichnet.",
+  "usage": {
+    "in": 184,
+    "out": 404,
+    "thinking": 0
+  },
+  "costUsd": 0.004408,
+  "finish": "STOP",
+  "reportedModel": "gemini-4-argon",
+  "upstream": null,
+  "latencyMs": 11580,
+  "meta": [],
+  "at": "2026-10-17T17:43:17.099Z"
+}

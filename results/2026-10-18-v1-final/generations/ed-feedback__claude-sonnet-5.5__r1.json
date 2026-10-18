@@ -1,0 +1,20 @@
+{
+  "task": "ed-feedback",
+  "model": "claude-sonnet-5.5",
+  "run": 1,
+  "text": "**Lektoratsanmerkungen**\n\n1. **„Ilse ließ die Rampe herunter, nachdem die drei Fahrgäste schon über sie an Bord gegangen waren.\"**: Die Reihenfolge ist unlogisch, denn die Fahrgäste können die Rampe nur benutzen, wenn sie bereits unten ist. Gemeint ist vermutlich „hochziehen“ oder „einholen“.\n\n2. **„die drei Fahrgäste\"**: Der Text nennt danach vier Personen (Frau mit Fahrrad, Mann im grauen Mantel, Junge mit Kopfhörern, Frau Lüders), die Zahl stimmt also nicht.\n\n3. **„Ilse stellt den Motor an\"**: Hier rutscht das Tempus ins Präsens, der Text steht sonst im Präteritum („stellte“).\n\n4. **„Ich hatte diesen Moment immer gemocht, dachte sie, wenn die Fähre sich vom Ufer löst.\"**: Der Satz ist in sich uneinheitlich. „Ich“ ist ein Bruch in der personalen Er-Perspektive, das Plusquamperfekt („hatte … gemocht“) passt nicht zum Präsens im Nebensatz („löst“), und zusammen mit „dachte sie“ ist unklar, ob direkte Gedankenrede oder erlebte Rede gemeint ist. Mögliche Lösung: „Sie hatte diesen Moment immer gemocht, wenn die Fähre sich vom Ufer löste.“\n\n5. **„Der Nebel schluckte jedes Geräusch.\"** und **„und hupte zweimal\"**: Die Behauptung, der Nebel schlucke *jedes* Geräusch, widerspricht dem Hupen, das offenbar bis zur Fähre dringt. Außerdem hat die Fähre eben erst abgelegt, der Bäcker hupt aber schon.\n\n6. **„Am Anleger drüben wartete schon der Bäcker mit seinem Pferdewagen\"**: Das ist ein Perspektivbruch. Ilse sieht das andere Ufer wegen des Nebels nicht, der Erzähler schildert die Szene aber so, als sähe sie den Bäcker. Hier müsste es als Wissen oder Hörwahrnehmung markiert sein.\n\n7. **„mit seinem Pferdewagen … und hupte zweimal\"**: Ein Pferdewagen hat üblicherweise keine Hupe. Wenn das Detail nicht bewusst überraschend gemeint ist, ist es sachlich unplausibel.",
+  "usage": {
+    "in": 551,
+    "out": 2174,
+    "thinking": 1267
+  },
+  "costUsd": 0.022842,
+  "finish": "end_turn",
+  "reportedModel": "claude-sonnet-5-5",
+  "upstream": null,
+  "latencyMs": 16067,
+  "meta": [
+    "heading"
+  ],
+  "at": "2026-10-17T17:43:43.418Z"
+}

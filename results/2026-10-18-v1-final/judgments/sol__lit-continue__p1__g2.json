@@ -1,0 +1,111 @@
+{
+  "task": "lit-continue",
+  "judge": "sol",
+  "judgeFamily": "openai",
+  "pass": 1,
+  "group": 2,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "C": {
+      "model": "gpt-6.1-sol",
+      "run": 2
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "E": {
+      "model": "claude-sonnet-5.5",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "„und war erst angelegt, als das Schiff ruhig im Wasser lag“: Das aktive „anlegen“ verlangt hier „hatte“. Auch die zeitliche Abfolge bleibt unklar: Das ruhige Liegen wird zur Voraussetzung des Anlegens erklärt.",
+          "„Er läuft, weil du ihn jeden Morgen anschiebst.“: Das Anschieben passt zu einem Fahrzeug mit Bodenkontakt, nicht zum beschriebenen Bootsmotor. Die technische Unstimmigkeit beschädigt die Glaubwürdigkeit des Konflikts.",
+          "„Vom Deich wehte der Wind Gras und Salz herunter“: Salz als örtlicher Sinneseindruck ist an der Binnenelbe bei Hitzacker geografisch unplausibel.",
+          "„Vielleicht eine Müdigkeit, die weiter zurückreichte als dieser Vormittag.“: Abstrakte, vertraute Gefühlsformel anstelle einer präzisen Wahrnehmung; sie erklärt eine Tiefe, die die Szene selbst vermitteln sollte.",
+          "„Der Fluss hat keinen Fahrplan.“: Der pointierte Schlusssatz klingt eher nach einem vorbereiteten Sinnspruch als nach der wortkargen Figur und ist für einen Fährbetrieb zudem sachlich schief."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 8,
+        "fehler": [
+          "„auch Henning seinen“: Fehlerhafte standardsprachliche Possessivkonstruktion im Erzähltext; korrekt wäre beispielsweise „auch Hennings“.",
+          "„dass er es wahrscheinlich beide Male meinte und keines davon stimmen würde“: „Beide Male“ hat keinen eindeutigen Bezug. Jonas hat nur einmal behauptet, Zeit zu haben; der anschließende Blick auf die Uhr ist keine zweite gleichartige Aussage.",
+          "„Henning hatte genickt wie ein Mann, der Holz nimmt: endgültig.“: „Holz nimmt“ bezeichnet keine anschauliche, geläufige Handlung. Der Vergleich bleibt unverständlich, während „endgültig“ seine gewünschte Wirkung ausdrücklich nachliefert.",
+          "„dessen Rollen auf dem Kiesweg klagten wie ein Tier, das man mitnimmt und das nicht mitgenommen werden will“: Der ausgedehnte Vergleich überlädt ein einfaches Geräusch und verschiebt die Aufmerksamkeit von der Begegnung zur sprachlichen Konstruktion.",
+          "„Das war keine Versöhnung. […] bis morgen früh, nicht länger.“: Der Schluss erklärt und begrenzt die Bedeutung der kleinen Entscheidung mehrfach. Das nimmt dem ansonsten brauchbaren Entgegenkommen seine Offenheit."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 10,
+        "fehler": [
+          "„in eine dieser Tabellen, von denen er am Telefon manchmal erzählte, mit Farben für gut und schlecht“: Die berufliche Prägung wird etwas schematisch zum Beraterklischee verkürzt. Das vorangehende registrierende Nicken vermittelt denselben Konflikt bereits subtiler.",
+          "„Henning hatte die Striche nie weggewischt. Irgendwann hatte der Regen es getan.“: Die Erinnerung ist anschaulich, ihr Abschluss jedoch auffällig auf poetische Nachwirkung gesetzt und als Vergänglichkeitsbild recht vertraut."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 10,
+        "stil": 8,
+        "aufgabe": 7,
+        "fehler": [
+          "„Die Fahrt dauerte elf Minuten, hin und zurück ein Vierteljahrstündchen“: Widersprüchliche Zeitangaben. Bei elf Minuten für eine Überfahrt dauert die Hin- und Rückfahrt mindestens zweiundzwanzig Minuten.",
+          "„er hatte erst gestern Abend den Zug gebucht“: Diese konkrete Information ist für Ilse nicht zugänglich gemacht worden. Innerhalb ihrer Vorstellung von Jonas’ Gedanken erscheint sie dennoch als feststehende Tatsache; die personale Perspektive wird dadurch unsauber.",
+          "„dieses Schweigen, das mehr Platz brauchte als ein Satz“: Die zugespitzte Erklärung benennt die Bedeutung des Schweigens, statt dessen Wirkung allein im Dialog entstehen zu lassen.",
+          "„wie man jemandem nachsieht, den man noch nicht wieder hereingelassen hat“: Der Vergleich deutet die emotionale Situation ausdrücklich aus. Zusammen mit der vorherigen Schweigeformel entsteht eine Tendenz, bereits sichtbaren Subtext nachzuerklären."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "D",
+      "E",
+      "B",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 3850,
+    "out": 2158,
+    "thinking": 1024
+  },
+  "costUsd": 0.02928
+}

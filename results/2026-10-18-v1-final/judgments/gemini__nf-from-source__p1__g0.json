@@ -1,0 +1,109 @@
+{
+  "task": "nf-from-source",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "claude-haiku-5.5",
+      "run": 2
+    },
+    "B": {
+      "model": "gemini-4-argon",
+      "run": 2
+    },
+    "C": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "D": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "E": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "von 41 Landwirten und Händlern aus beiden Elbufern (unidiomatische Präposition aus der Vorlage unreflektiert übernommen; korrekt wäre 'von beiden Elbufern')",
+          "Es fehlen sämtliche Angaben aus dem Quellmaterial zur Beschaffenheit und Technik der Fähre (212 Meter Breite, sieben Minuten Fahrtdauer, Führungsseil, 85-kW-Dieselmotor, Strömungsantrieb bis 1978).",
+          "Der Text ist mit rund 235 Wörtern recht kurz (Vorgabe: etwa 300 Wörter)."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 9,
+        "fehler": [
+          "Der dritte Absatz wirkt wie ein unverbundener Faktenblock: Technische Daten, Fahrgastzahlen und Umsatzzahlen werden ohne erkennbaren Bezug zum Thema Genossenschaft aneinandergereiht.",
+          "wobei es sich im Sommer vor allem um Radfahrer auf dem Elberadweg handelt (schwerfälliger, papierener Stil)",
+          "wächst das finanzielle Polster stetig (Floskel, zudem im Quellmaterial nicht explizit für jedes Jahr belegt)"
+        ],
+        "unsupported": [
+          "wächst das finanzielle Polster stetig"
+        ],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 10,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 8,
+        "stil": 7,
+        "aufgabe": 8,
+        "fehler": [
+          "# Die Fährgenossenschaft Hitzacker: Wie eine Genossenschaft funktioniert (Markdown-Überschrift passt nicht zur Vorgabe 'Schreibe einen Abschnitt' und 'Gib nur den Buchtext aus')",
+          "von 41 Landwirten und Händlern aus beiden Elbufern (unidiomatische Präposition aus der Vorlage unreflektiert übernommen)",
+          "Im letzten Absatz werden die technischen Fakten (Flussbreite, Fahrtdauer, Führungsseil, Motoren) relativ zusammenhanglos an die Umsatzzahlen angehängt."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 9,
+        "fehler": [
+          "Die Fahrgeldeinnahmen allein bilden somit nicht die gesamte Finanzierung. (redundanter Füllsatz, der nur das zuvor Gesagte banal wiederholt)",
+          "Die Sätze zu Antrieb und Flussbreite wirken im 3. und 5. Absatz etwas isoliert eingeschoben.",
+          "Für diese Verbindung führt die Genossenschaft Beteiligung, gleiches Stimmrecht und Vorsorge zusammen (etwas hölzerne, abstrakte Zusammenfassung am Ende)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "C",
+      "E",
+      "B",
+      "D",
+      "A"
+    ]
+  },
+  "usage": {
+    "in": 3772,
+    "out": 836,
+    "thinking": 0
+  },
+  "costUsd": 0.015904
+}

@@ -1,0 +1,107 @@
+{
+  "task": "en-scene",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 1,
+  "group": 0,
+  "labels": {
+    "A": {
+      "model": "gpt-6.1-sol",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-opus-5.5",
+      "run": 3
+    },
+    "C": {
+      "model": "kimi-k3",
+      "run": 2
+    },
+    "D": {
+      "model": "gemini-4-argon",
+      "run": 1
+    },
+    "E": {
+      "model": "gpt-6-luna",
+      "run": 1
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 10,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 10,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "A long grey hair was still wound through its teeth. (Unplausibel und unhygienisch nach vielen Monaten im Krankenhausalltag; bricht zudem die Vorgabe 'end on an image rather than a revelation', da es als kitschige Pointe funktioniert)",
+          "Bed fourteen. March, I think. You did my mother's hair before they came for her. (Nimmt der Szene das Mysterium durch eine sehr konventionelle, fast klischeehafte Auflösung in der Mitte)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 10,
+        "stil": 6,
+        "aufgabe": 7,
+        "fehler": [
+          "Kindness leaves the heat on. I read that somewhere. (Kitschiger Kalenderspruch, verstößt gegen die Vorgabe 'restrained, no clichés')",
+          "taillights two slow red breaths in the dark, going. (Überbemühte, leicht verkitschte Metapher am Ende)",
+          "You work nights, Dana. I wasn't sure you'd still be on this floor. (Logikbruch: Wenn er nicht einmal ohne Weiteres ihr Gesicht erkennt, ohne sich umzudrehen, woher weiß er ihren Namen und ihren Schichtplan?)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "though it hadn't rained since Tuesday (Perspektivfehler/Allwissenheit in der Einleitung oder unlogisches Detail: Wie soll Elena sofort beim Reinkommen die genaue Art der Nässe auf seiner Schulter mit dem Wetterbericht seit Dienstag abgleichen?)",
+          "His hands rested flat on his knees ... On the blonde wood of the pew where his hand had rested (Kontinuitätsfehler: Erst liegen die Hände auf seinen Knien, am Ende war eine Hand die ganze Zeit auf dem Holz der Bank)",
+          "a half-circle of condensation was already shrinking in the dry heat. (Verstößt gegen 'contemporary novel' durch ein plumpes Geister-Klischee: Kondenswasser durch Kälte auf Holz und unmögliche Nässe auf den Schultern)",
+          "someone she had intubated (Sachlich ungenau: Pflegekräfte intubieren in der Regel nicht selbst, sie assistieren dabei)",
+          "He didn't turn around. ... 'You switched to the orthopedic floor,' he said. (Logikbruch: Er erkennt sie und ihren Stationswechsel an der Stimme, ohne hinzusehen)"
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "The man’s coat had a damp patch at the shoulder. A small bead of water slipped from the fabric and darkened the floor. (Physikalisch unplausibel: Ein bloß feuchter Fleck im Stoff gibt keine Wassertropfen ab, die auf den Boden fallen und sich dort münzgroß ausbreiten)",
+          "Somewhere above them, a monitor gave a single brief beep, then stopped. (Akustisch kaum glaubwürdig durch geschlossene Decken und Türen in einer Krankenhauskapelle)"
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "E",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "usage": {
+    "in": 2617,
+    "out": 948,
+    "thinking": 0
+  },
+  "costUsd": 0.014714
+}

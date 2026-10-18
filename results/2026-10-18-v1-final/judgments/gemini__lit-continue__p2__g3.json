@@ -1,0 +1,129 @@
+{
+  "task": "lit-continue",
+  "judge": "gemini",
+  "judgeFamily": "google",
+  "pass": 2,
+  "group": 3,
+  "labels": {
+    "A": {
+      "model": "claude-sonnet-5.5",
+      "run": 1
+    },
+    "B": {
+      "model": "claude-haiku-5.5",
+      "run": 1
+    },
+    "C": {
+      "model": "gemini-4-argon",
+      "run": 3
+    },
+    "D": {
+      "model": "claude-opus-5.5",
+      "run": 2
+    },
+    "E": {
+      "model": "kimi-k3",
+      "run": 3
+    },
+    "F": {
+      "model": "gpt-6-luna",
+      "run": 2
+    }
+  },
+  "verdict": {
+    "texts": [
+      {
+        "label": "A",
+        "sprache": 9,
+        "stil": 9,
+        "aufgabe": 10,
+        "fehler": [
+          "„weil ein Radfahrer mit seinem Rad über die Rampe schob“ – unidiomatisch/unvollständig:entweder ‚ein Radfahrer sein Rad schob‘ oder ‚mit seinem Rad über die Rampe ging‘."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "B",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 7,
+        "fehler": [
+          "„Seitdem zieh ich mit der Hand.“ – Sachlicher Unsinn bei einer Elb-Seilfähre (insbesondere wenn am Ende ein Auto oder Passagiere übersetzen sollen).",
+          "„Die nächste Überfahrt ging in zehn Minuten, mit oder ohne Motor, wenn sie das Ruder und die Leine nahm, so wie immer.“ – Erneut sachlich falsch für eine Seilfähre auf der Elbe.",
+          "„Dann spuckte der Motor einen blauen Rauchring aus, hustete und blieb wieder still.“ – Abgegriffenes Comic-Klischee."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "C",
+        "sprache": 9,
+        "stil": 7,
+        "aufgabe": 6,
+        "fehler": [
+          "„Er roch nach Rasierwasser und der klimatisierten Luft aus dem ICE.“ vs. „Da dachte ich, ich nehme den Mietwagen für den Rest der Strecke. Er nickte den Deich hinauf, wo ein silberner Kombi mit Münchner Kennzeichen neben ihrem rostigen Caddy parkte.“ – Logikbruch zur Vorgabe (warum schleppt er den Rollkoffer auf den Anleger, wenn sein Auto oben am Deich parkt?) und unplausibel mit der ICE-Luft.",
+          "„Es zieht wie Hechtsuppe.“ – Unpassende, altbackene Redewendung für einen 34-jährigen Unternehmensberater.",
+          "„Eine Mappe aus schwarzem Leder ragte ein Stück aus seiner Reisetasche, die auf dem Koffer aufgesteckt war. Zu dick für einen bloßen Wochenendbesuch.“ – Sehr plumpe, klischeehafte Andeutung des Verkaufsanliegens."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "D",
+        "sprache": 9,
+        "stil": 8,
+        "aufgabe": 8,
+        "fehler": [
+          "„Das Wasser war jetzt bis an seine Knöchel durch das Leder gedrungen“ – Sachlicher Unsinn: Er steht auf den nassen Bohlen des Anlegers, nicht knöcheltief im Fluss.",
+          "„Der klingt wie ein Traktor mit Bronchitis.“ – Abgegriffener, bemüht witziger Vergleich."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "E",
+        "sprache": 5,
+        "stil": 5,
+        "aufgabe": 8,
+        "fehler": [
+          "„alle vier, auch Henning seinen“ – Schwerer Grammatikfehler (Dialekt/Dativ-Possessiv unpassend im Erzähltext) und unlogisch (Gummistiefel zählt man paarweise oder als zwei Stück pro Person; was bedeuten ‚alle vier‘ und dann Einzahl ‚seinen‘?).",
+          "„seit Frühjahr“ – Grammatikfehler, Artikel fehlt (‚seit dem Frühjahr‘).",
+          "„Henning hatte genickt wie ein Mann, der Holz nimmt: endgültig.“ – Stilblüte, unverständlicher und bemüht bedeutungsschwangerer Vergleich.",
+          "„dessen Rollen auf dem Kiesweg klagten wie ein Tier, das man mitnimmt und das nicht mitgenommen werden will.“ – Umständliches, schiefes Bild.",
+          "„weil Henning immer gesagt hatte, man schütte keinen Kaffee weg, man wärmt ihn auf.“ – Unmotivierter Moduswechsel von Konjunktiv I zu Indikativ."
+        ],
+        "unsupported": [],
+        "violations": []
+      },
+      {
+        "label": "F",
+        "sprache": 8,
+        "stil": 6,
+        "aufgabe": 5,
+        "fehler": [
+          "„Sie nahm die Leine vom Poller und legte sie über den Arm. [...] Ilse band die Leine fest und prüfte den Knoten mit dem Daumen.“ – Direkter Logikbruch zum vorgegebenen letzten Absatz, in dem sie die Leine bereits über den Poller geworfen und zweimal festgezogen hat.",
+          "„Draußen rief jemand vom anderen Ufer.“ – Grober Verstoß gegen die Realität der Schauplätze: Die Elbe bei Hitzacker ist rund 200 bis 300 Meter breit, da ruft niemand mal eben vom anderen Ufer in eine geschlossene Hütte hinein.",
+          "„unter einem alten Fahrplan beschwert.“ – Kontamination aus ‚unter einem Fahrplan begraben/versteckt‘ und ‚mit einem Fahrplan beschwert‘.",
+          "„Sie nahm den Kessel vom Haken.“ – Anachronistisches Detail (in der Gegenwart hängen Wasserkessel nicht an Haken)."
+        ],
+        "unsupported": [],
+        "violations": []
+      }
+    ],
+    "ranking": [
+      "A",
+      "D",
+      "B",
+      "C",
+      "E",
+      "F"
+    ]
+  },
+  "usage": {
+    "in": 5195,
+    "out": 1312,
+    "thinking": 0
+  },
+  "costUsd": 0.02351
+}
