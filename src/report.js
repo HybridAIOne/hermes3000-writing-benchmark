@@ -494,6 +494,10 @@ function writeMarkdown(runId, bench, { R, models }) {
     `A standard page (Normseite) is 1,800 characters of output; thinking tokens are included in cost, also for texts that never arrived. "No text": the model spent the whole token budget thinking and returned nothing — scored as a failure in every track. Generation cost of this run: $${R.generationCostUsd.toFixed(2)}, judging: $${R.judgeCostUsd.toFixed(2)}.`,
     ''
   );
+  // Hand-written observations about the run (what we would do differently next time) live in
+  // notes.md next to the data, so re-computing the report never loses them.
+  const notes = path.join(runDir(runId), 'notes.md');
+  if (fs.existsSync(notes)) md.push(fs.readFileSync(notes, 'utf8').trim(), '');
   fs.writeFileSync(path.join(runDir(runId), 'report.md'), md.join('\n'));
 }
 
