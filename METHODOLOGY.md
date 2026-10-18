@@ -70,6 +70,22 @@ Every judge has a relative among the candidates. The report therefore shows, nex
 from all judges, a rating **without own-family judges**: an outcome is dropped when the judge
 belongs to the family of either model in the pair. Per-judge orderings are listed as well.
 
+### What the report adds to every run
+
+Ratings alone invite reading too much into a rank. Each report therefore also computes
+(section "Statistics"):
+
+- **Head-to-head probabilities.** A rating gap translates into the probability that a text of one
+  model is preferred over a text of the other: p = 1 / (1 + 10^(−gap/400)). 0 points is a coin toss,
+  200 points about 3 in 4, 400 points about 9 in 10.
+- **Judge agreement.** For every pair of judges, the share of model pairs both order the same way by
+  their own ratings. Low agreement means the ranking depends on who judges.
+- **Own-family preference.** The rank each judge gives its own family's models, against the mean
+  rank the other judges give them. This is what the "without own-family judges" rating corrects.
+- **Volume.** Texts, words, group verdicts, pairwise comparisons, checklist checks and errors
+  quoted verbatim — what the numbers rest on.
+- **Errors quoted per text** per model, averaged over judges.
+
 ## Copy-editing scoring
 
 - **Proofreading** (`ed-proofread`): each planted error has a key (`wrong` → `right`, compared

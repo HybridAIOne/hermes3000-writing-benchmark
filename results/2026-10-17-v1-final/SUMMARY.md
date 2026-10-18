@@ -35,6 +35,23 @@ the final.
 - "Every finalist kept a book of 119 characters, places and objects straight — consistency across a
   book is no longer what separates the models."
 
+## In numbers
+
+- **448 texts**, about **194,000 words**, written by 14 models (preliminary round and final).
+- **264 group verdicts** by three AI judges = **2,208 pairwise comparisons**, plus 384 checklist
+  checks and **4,381 errors quoted word for word**.
+- **Head to head** (literary prose, from the rating gap): Sol vs Opus 53 : 47 — a coin toss;
+  Sol vs Sonnet 75 %; Sol vs GPT-6 Luna 92 %.
+- **Uncertainty:** 95 % intervals from 1,000 bootstrap resamples. Sol 1,233–1,391 and Opus
+  1,227–1,337 overlap; Sonnet reaches at most 1,172.
+- **Judge agreement:** of 15 model pairs, two judges ordered on average 13 the same way in literary
+  prose and almost 12 in non-fiction.
+- **Own-family preference:** each judge ranks its own family a little higher — Opus put Opus first,
+  Sol put Sol first, Gemini put Gemini 4 Argon fourth where the other two put it sixth. The ranking
+  without own-family verdicts keeps the same top three in literary prose.
+- **Errors quoted per text** in the final: GPT-6.1 Sol 2.5 · Claude Opus 5.5 3.3 · GPT-6 Luna 3.6 ·
+  Claude Sonnet 5.5 3.6 · Claude Haiku 5.5 4.3 · Gemini 4 Argon 4.3.
+
 ## How it was measured
 
 14 language models wrote 14 tasks in German — literary scenes and a 900-word chapter, non-fiction

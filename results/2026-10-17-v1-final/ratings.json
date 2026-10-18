@@ -905,5 +905,274 @@
       }
     }
   },
+  "stats": {
+    "volume": {
+      "models": 6,
+      "texts": 252,
+      "words": 108300,
+      "groupVerdicts": 192,
+      "pairwiseComparisons": 1584,
+      "checklistChecks": 216,
+      "quotedErrors": 3093
+    },
+    "quotedErrorsPerText": {
+      "gpt-6-luna": 3.5555555555555554,
+      "gpt-6.1-sol": 2.4583333333333335,
+      "claude-opus-5.5": 3.3055555555555554,
+      "claude-sonnet-5.5": 3.5902777777777777,
+      "claude-haiku-5.5": 4.277777777777778,
+      "gemini-4-argon": 4.291666666666667
+    },
+    "tracks": {
+      "literary": {
+        "winProbability": {
+          "gpt-6.1-sol": {
+            "gpt-6.1-sol": 0.5,
+            "claude-opus-5.5": 0.5330513938844411,
+            "claude-sonnet-5.5": 0.7512407935337106,
+            "gpt-6-luna": 0.9185996494207045,
+            "gemini-4-argon": 0.9606395144955483,
+            "claude-haiku-5.5": 0.969002622496188
+          },
+          "claude-opus-5.5": {
+            "gpt-6.1-sol": 0.46694860611555894,
+            "claude-opus-5.5": 0.5,
+            "claude-sonnet-5.5": 0.7256856462717871,
+            "gpt-6-luna": 0.908134935731807,
+            "gemini-4-argon": 0.9553164906282028,
+            "claude-haiku-5.5": 0.9647691275832381
+          },
+          "claude-sonnet-5.5": {
+            "gpt-6.1-sol": 0.2487592064662893,
+            "claude-opus-5.5": 0.27431435372821295,
+            "claude-sonnet-5.5": 0.5,
+            "gpt-6-luna": 0.7888870682101548,
+            "gemini-4-argon": 0.8898878421811328,
+            "claude-haiku-5.5": 0.9119053076034237
+          },
+          "gpt-6-luna": {
+            "gpt-6.1-sol": 0.08140035057929543,
+            "claude-opus-5.5": 0.09186506426819294,
+            "claude-sonnet-5.5": 0.21111293178984536,
+            "gpt-6-luna": 0.5,
+            "gemini-4-argon": 0.6838163141936586,
+            "claude-haiku-5.5": 0.7347570893165466
+          },
+          "gemini-4-argon": {
+            "gpt-6.1-sol": 0.039360485504451724,
+            "claude-opus-5.5": 0.04468350937179727,
+            "claude-sonnet-5.5": 0.11011215781886716,
+            "gpt-6-luna": 0.3161836858063414,
+            "gemini-4-argon": 0.5,
+            "claude-haiku-5.5": 0.5615679389736461
+          },
+          "claude-haiku-5.5": {
+            "gpt-6.1-sol": 0.030997377503811954,
+            "claude-opus-5.5": 0.03523087241676201,
+            "claude-sonnet-5.5": 0.08809469239657639,
+            "gpt-6-luna": 0.26524291068345335,
+            "gemini-4-argon": 0.43843206102635396,
+            "claude-haiku-5.5": 0.5
+          }
+        },
+        "ordered": [
+          "gpt-6.1-sol",
+          "claude-opus-5.5",
+          "claude-sonnet-5.5",
+          "gpt-6-luna",
+          "gemini-4-argon",
+          "claude-haiku-5.5"
+        ],
+        "agreement": [
+          {
+            "judges": [
+              "opus",
+              "sol"
+            ],
+            "same": 14,
+            "of": 15
+          },
+          {
+            "judges": [
+              "opus",
+              "gemini"
+            ],
+            "same": 13,
+            "of": 15
+          },
+          {
+            "judges": [
+              "sol",
+              "gemini"
+            ],
+            "same": 12,
+            "of": 15
+          }
+        ],
+        "selfPreference": [
+          {
+            "judge": "opus",
+            "model": "claude-haiku-5.5",
+            "ownRank": 5,
+            "othersRank": 5.5
+          },
+          {
+            "judge": "opus",
+            "model": "claude-sonnet-5.5",
+            "ownRank": 3,
+            "othersRank": 3
+          },
+          {
+            "judge": "opus",
+            "model": "claude-opus-5.5",
+            "ownRank": 1,
+            "othersRank": 1.5
+          },
+          {
+            "judge": "sol",
+            "model": "gpt-6-luna",
+            "ownRank": 4,
+            "othersRank": 4.5
+          },
+          {
+            "judge": "sol",
+            "model": "gpt-6.1-sol",
+            "ownRank": 1,
+            "othersRank": 2
+          },
+          {
+            "judge": "gemini",
+            "model": "gemini-4-argon",
+            "ownRank": 4,
+            "othersRank": 6
+          }
+        ]
+      },
+      "nonfiction": {
+        "winProbability": {
+          "gpt-6.1-sol": {
+            "gpt-6.1-sol": 0.5,
+            "claude-opus-5.5": 0.5359159269451023,
+            "claude-sonnet-5.5": 0.7639246991448386,
+            "gpt-6-luna": 0.7711142606875975,
+            "claude-haiku-5.5": 0.8304449113532372,
+            "gemini-4-argon": 0.9119053076034237
+          },
+          "claude-opus-5.5": {
+            "gpt-6.1-sol": 0.4640840730548977,
+            "claude-opus-5.5": 0.5,
+            "claude-sonnet-5.5": 0.7369947605406894,
+            "gpt-6-luna": 0.7447304068650347,
+            "claude-haiku-5.5": 0.809207997485838,
+            "gemini-4-argon": 0.8996383151500511
+          },
+          "claude-sonnet-5.5": {
+            "gpt-6.1-sol": 0.23607530085516135,
+            "claude-opus-5.5": 0.2630052394593107,
+            "claude-sonnet-5.5": 0.5,
+            "gpt-6-luna": 0.5100724469274385,
+            "claude-haiku-5.5": 0.6021580931747169,
+            "gemini-4-argon": 0.761842109917936
+          },
+          "gpt-6-luna": {
+            "gpt-6.1-sol": 0.22888573931240266,
+            "claude-opus-5.5": 0.25526959313496533,
+            "claude-sonnet-5.5": 0.48992755307256153,
+            "gpt-6-luna": 0.5,
+            "claude-haiku-5.5": 0.5924662305843318,
+            "gemini-4-argon": 0.7544540419421866
+          },
+          "claude-haiku-5.5": {
+            "gpt-6.1-sol": 0.1695550886467628,
+            "claude-opus-5.5": 0.19079200251416192,
+            "claude-sonnet-5.5": 0.39784190682528303,
+            "gpt-6-luna": 0.4075337694156682,
+            "claude-haiku-5.5": 0.5,
+            "gemini-4-argon": 0.6788169197947567
+          },
+          "gemini-4-argon": {
+            "gpt-6.1-sol": 0.08809469239657639,
+            "claude-opus-5.5": 0.10036168484994894,
+            "claude-sonnet-5.5": 0.238157890082064,
+            "gpt-6-luna": 0.24554595805781354,
+            "claude-haiku-5.5": 0.3211830802052434,
+            "gemini-4-argon": 0.5
+          }
+        },
+        "ordered": [
+          "gpt-6.1-sol",
+          "claude-opus-5.5",
+          "claude-sonnet-5.5",
+          "gpt-6-luna",
+          "claude-haiku-5.5",
+          "gemini-4-argon"
+        ],
+        "agreement": [
+          {
+            "judges": [
+              "opus",
+              "sol"
+            ],
+            "same": 11,
+            "of": 15
+          },
+          {
+            "judges": [
+              "opus",
+              "gemini"
+            ],
+            "same": 14,
+            "of": 15
+          },
+          {
+            "judges": [
+              "sol",
+              "gemini"
+            ],
+            "same": 10,
+            "of": 15
+          }
+        ],
+        "selfPreference": [
+          {
+            "judge": "opus",
+            "model": "claude-haiku-5.5",
+            "ownRank": 4,
+            "othersRank": 4.5
+          },
+          {
+            "judge": "opus",
+            "model": "claude-sonnet-5.5",
+            "ownRank": 3,
+            "othersRank": 3.5
+          },
+          {
+            "judge": "opus",
+            "model": "claude-opus-5.5",
+            "ownRank": 1,
+            "othersRank": 2
+          },
+          {
+            "judge": "sol",
+            "model": "gpt-6-luna",
+            "ownRank": 2,
+            "othersRank": 5.5
+          },
+          {
+            "judge": "sol",
+            "model": "gpt-6.1-sol",
+            "ownRank": 1,
+            "othersRank": 2
+          },
+          {
+            "judge": "gemini",
+            "model": "gemini-4-argon",
+            "ownRank": 5,
+            "othersRank": 6
+          }
+        ]
+      }
+    }
+  },
   "generationCostUsd": 4.8982002000000024
 }

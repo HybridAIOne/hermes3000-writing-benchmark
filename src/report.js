@@ -103,6 +103,90 @@ function humanPanel(runId, models, taskById, tracks, samples) {
   return out;
 }
 
+/** Elo-scale gap → probability that a text of the first model is preferred. */
+const winProbability = (gap) => 1 / (1 + 10 ** (-gap / 400));
+
+/**
+ * Figures that say how much a run's ratings can be trusted and what they rest on: volume,
+ * head-to-head win probabilities, how far the judges agree, how much each judge favours its
+ * own family, and how many errors the judges quoted per text.
+ */
+function runStatistics({ R, models, gens, judgments, checks, familyOf, bench }) {
+  const keys = models.map((m) => m.key);
+  const pairCount = judgments.reduce((n, j) => {
+    const k = j.verdict?.ranking?.length || 0;
+    return n + (k * (k - 1)) / 2;
+  }, 0);
+  const quoted = {};
+  for (const j of judgments)
+    for (const t of j.verdict?.texts || []) {
+      const m = j.labels?.[t.label]?.model;
+      if (m) (quoted[m] ||= []).push((t.fehler || []).length);
+    }
+  const out = {
+    volume: {
+      models: keys.length,
+      texts: gens.length,
+      words: gens.reduce((n, g) => n + (String(g.text || '').match(/\S+/g) || []).length, 0),
+      groupVerdicts: judgments.length,
+      pairwiseComparisons: pairCount,
+      checklistChecks: checks.length,
+      quotedErrors: Object.values(quoted).reduce((n, v) => n + v.reduce((a, b) => a + b, 0), 0),
+    },
+    quotedErrorsPerText: Object.fromEntries(Object.entries(quoted).map(([m, v]) => [m, mean(v)])),
+    tracks: {},
+  };
+  const judgeKeys = bench.spec.judging.judges;
+  for (const track of ['literary', 'nonfiction']) {
+    const all = R.tracks[track]?.all;
+    const pj = R.perJudge[track];
+    if (!all || !pj) continue;
+    const pairs = [];
+    for (let i = 0; i < keys.length; i++)
+      for (let k = i + 1; k < keys.length; k++) pairs.push([keys[i], keys[k]]);
+    const agreement = [];
+    for (let a = 0; a < judgeKeys.length; a++)
+      for (let b = a + 1; b < judgeKeys.length; b++) {
+        const [x, y] = [pj[judgeKeys[a]], pj[judgeKeys[b]]];
+        const same = pairs.filter(
+          ([p, q]) => x[p].rating > x[q].rating === y[p].rating > y[q].rating
+        ).length;
+        agreement.push({ judges: [judgeKeys[a], judgeKeys[b]], same, of: pairs.length });
+      }
+    // Rank each judge gives its own family's models, against the mean rank the others give.
+    const rankBy = (judge) =>
+      Object.fromEntries(
+        [...keys]
+          .sort((p, q) => pj[judge][q].rating - pj[judge][p].rating)
+          .map((m, i) => [m, i + 1])
+      );
+    const ranks = Object.fromEntries(judgeKeys.map((j) => [j, rankBy(j)]));
+    const selfPreference = [];
+    for (const j of judgeKeys) {
+      const fam = bench.spec.judges[j].family;
+      for (const m of keys.filter((k) => familyOf[k] === fam)) {
+        const others = judgeKeys.filter((o) => o !== j).map((o) => ranks[o][m]);
+        selfPreference.push({ judge: j, model: m, ownRank: ranks[j][m], othersRank: mean(others) });
+      }
+    }
+    const ordered = [...keys].sort((p, q) => all[q].rating - all[p].rating);
+    out.tracks[track] = {
+      winProbability: Object.fromEntries(
+        ordered.map((p) => [
+          p,
+          Object.fromEntries(
+            ordered.map((q) => [q, winProbability(all[p].rating - all[q].rating)])
+          ),
+        ])
+      ),
+      ordered,
+      agreement,
+      selfPreference,
+    };
+  }
+  return out;
+}
+
 function build(runId, bench) {
   const manifest = readJson(path.join(runDir(runId), 'manifest.json'));
   const models = bench.models.filter((m) => manifest.models.includes(m.key));
@@ -331,6 +415,7 @@ function build(runId, bench) {
   }
   // --- Human panel: blind pairwise votes from arena.hermes3000.ai (`bench human`).
   R.human = humanPanel(runId, models, taskById, R.tracks, samples);
+  R.stats = runStatistics({ R, models, gens, judgments, checks, familyOf, bench });
 
   R.judgeCostUsd = [...judgments, ...checks].reduce((n, j) => n + (j.costUsd || 0), 0);
   R.generationCostUsd = gens.reduce((n, g) => n + (g.costUsd || 0), 0);
@@ -353,6 +438,59 @@ function ratingTable(models, r, extra = () => '') {
     );
   });
   return lines.join('\n');
+}
+
+function writeStatistics(md, R, models) {
+  const S = R.stats;
+  if (!S) return;
+  const label = Object.fromEntries(models.map((m) => [m.key, m.label]));
+  const v = S.volume;
+  md.push(
+    '## Statistics',
+    '',
+    `**Volume.** ${v.models} models, ${v.texts} texts (${v.words.toLocaleString('en-US')} words), ${v.groupVerdicts} group verdicts = ${v.pairwiseComparisons.toLocaleString('en-US')} pairwise comparisons, ${v.checklistChecks} checklist checks, ${v.quotedErrors.toLocaleString('en-US')} errors quoted verbatim by the judges.`,
+    ''
+  );
+  for (const [track, t] of Object.entries(S.tracks)) {
+    const name = track === 'literary' ? 'Literary prose' : 'Non-fiction';
+    md.push(
+      `### ${name}: head-to-head`,
+      '',
+      'Probability that a text of the row model is preferred over a text of the column model, from the rating gap (Elo scale: p = 1 / (1 + 10^(−gap/400))).',
+      '',
+      '| | ' + t.ordered.map((m) => label[m]).join(' | ') + ' |',
+      '|---|' + t.ordered.map(() => '---').join('|') + '|'
+    );
+    for (const p of t.ordered)
+      md.push(
+        `| **${label[p]}** | ` +
+          t.ordered.map((q) => (p === q ? '–' : pct(t.winProbability[p][q]))).join(' | ') +
+          ' |'
+      );
+    md.push(
+      '',
+      `**Judge agreement** (model pairs ordered the same way by two judges' own ratings): ` +
+        t.agreement.map((a) => `${a.judges.join('–')} ${a.same}/${a.of}`).join(' · ') +
+        '.',
+      '',
+      '**Own-family preference** (rank a judge gives its own family vs. mean rank from the other judges): ' +
+        t.selfPreference
+          .map((x) => `${x.judge} → ${label[x.model]} ${x.ownRank} vs ${f1(x.othersRank)}`)
+          .join(' · ') +
+        '.',
+      ''
+    );
+  }
+  md.push(
+    '**Errors quoted per text** (mean over all judged texts and judges): ' +
+      models
+        .filter((m) => Number.isFinite(S.quotedErrorsPerText[m.key]))
+        .sort((a, b) => S.quotedErrorsPerText[a.key] - S.quotedErrorsPerText[b.key])
+        .map((m) => `${m.label} ${f1(S.quotedErrorsPerText[m.key])}`)
+        .join(' · ') +
+      '.',
+    ''
+  );
 }
 
 function writeMarkdown(runId, bench, { R, models }) {
@@ -452,6 +590,8 @@ function writeMarkdown(runId, bench, { R, models }) {
   md.push('', 'Violation columns count texts × assertions violated, summed over all samples.', '');
 
   md.push('## English control', '', ratingTable(models, R.tracks.english), '');
+
+  writeStatistics(md, R, models);
 
   if (R.human) {
     md.push(

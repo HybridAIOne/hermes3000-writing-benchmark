@@ -80,6 +80,46 @@ Violation columns count texts × assertions violated, summed over all samples.
 | 5 | Gemini 4 Argon | **748** (605–838) | 725 (528–842) |
 | 6 | Claude Haiku 5.5 | **590** (417–701) | 627 (367–761) |
 
+## Statistics
+
+**Volume.** 6 models, 252 texts (108,300 words), 192 group verdicts = 1,584 pairwise comparisons, 216 checklist checks, 3,093 errors quoted verbatim by the judges.
+
+### Literary prose: head-to-head
+
+Probability that a text of the row model is preferred over a text of the column model, from the rating gap (Elo scale: p = 1 / (1 + 10^(−gap/400))).
+
+| | GPT-6.1 Sol | Claude Opus 5.5 | Claude Sonnet 5.5 | GPT-6 Luna | Gemini 4 Argon | Claude Haiku 5.5 |
+|---|---|---|---|---|---|---|
+| **GPT-6.1 Sol** | – | 53 % | 75 % | 92 % | 96 % | 97 % |
+| **Claude Opus 5.5** | 47 % | – | 73 % | 91 % | 96 % | 96 % |
+| **Claude Sonnet 5.5** | 25 % | 27 % | – | 79 % | 89 % | 91 % |
+| **GPT-6 Luna** | 8 % | 9 % | 21 % | – | 68 % | 73 % |
+| **Gemini 4 Argon** | 4 % | 4 % | 11 % | 32 % | – | 56 % |
+| **Claude Haiku 5.5** | 3 % | 4 % | 9 % | 27 % | 44 % | – |
+
+**Judge agreement** (model pairs ordered the same way by two judges' own ratings): opus–sol 14/15 · opus–gemini 13/15 · sol–gemini 12/15.
+
+**Own-family preference** (rank a judge gives its own family vs. mean rank from the other judges): opus → Claude Haiku 5.5 5 vs 5.5 · opus → Claude Sonnet 5.5 3 vs 3.0 · opus → Claude Opus 5.5 1 vs 1.5 · sol → GPT-6 Luna 4 vs 4.5 · sol → GPT-6.1 Sol 1 vs 2.0 · gemini → Gemini 4 Argon 4 vs 6.0.
+
+### Non-fiction: head-to-head
+
+Probability that a text of the row model is preferred over a text of the column model, from the rating gap (Elo scale: p = 1 / (1 + 10^(−gap/400))).
+
+| | GPT-6.1 Sol | Claude Opus 5.5 | Claude Sonnet 5.5 | GPT-6 Luna | Claude Haiku 5.5 | Gemini 4 Argon |
+|---|---|---|---|---|---|---|
+| **GPT-6.1 Sol** | – | 54 % | 76 % | 77 % | 83 % | 91 % |
+| **Claude Opus 5.5** | 46 % | – | 74 % | 74 % | 81 % | 90 % |
+| **Claude Sonnet 5.5** | 24 % | 26 % | – | 51 % | 60 % | 76 % |
+| **GPT-6 Luna** | 23 % | 26 % | 49 % | – | 59 % | 75 % |
+| **Claude Haiku 5.5** | 17 % | 19 % | 40 % | 41 % | – | 68 % |
+| **Gemini 4 Argon** | 9 % | 10 % | 24 % | 25 % | 32 % | – |
+
+**Judge agreement** (model pairs ordered the same way by two judges' own ratings): opus–sol 11/15 · opus–gemini 14/15 · sol–gemini 10/15.
+
+**Own-family preference** (rank a judge gives its own family vs. mean rank from the other judges): opus → Claude Haiku 5.5 4 vs 4.5 · opus → Claude Sonnet 5.5 3 vs 3.5 · opus → Claude Opus 5.5 1 vs 2.0 · sol → GPT-6 Luna 2 vs 5.5 · sol → GPT-6.1 Sol 1 vs 2.0 · gemini → Gemini 4 Argon 5 vs 6.0.
+
+**Errors quoted per text** (mean over all judged texts and judges): GPT-6.1 Sol 2.5 · Claude Opus 5.5 3.3 · GPT-6 Luna 3.6 · Claude Sonnet 5.5 3.6 · Claude Haiku 5.5 4.3 · Gemini 4 Argon 4.3.
+
 ## Human panel (blind pairwise votes)
 
 42 votes by 1 person at arena.hermes3000.ai: two texts for the same task, sides randomised, no model names. Ratings use decisive votes only; with this few votes the intervals are wide. "Agreement" is the share of decisive votes where the person preferred the model the AI judges rate higher.

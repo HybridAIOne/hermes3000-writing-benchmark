@@ -37,6 +37,24 @@ erreichte das Finale.
 - „Alle Finalisten hielten ein Buch mit 119 Figuren, Orten und Gegenständen auseinander – die
   Stimmigkeit über ein ganzes Buch trennt die Modelle nicht mehr.“
 
+## In Zahlen
+
+- **448 Texte** mit rund **194.000 Wörtern**, geschrieben von 14 Modellen (Vorrunde und Finale).
+- **264 Gruppenurteile** von drei KI-Bewertern = **2.208 Einzelvergleiche**, dazu 384 Prüfungen
+  gegen Checklisten und **4.381 wörtlich zitierte Fehler**.
+- **Direkter Vergleich** (Literatur, aus dem Rating-Abstand): Sol gegen Opus 53 : 47 – ein
+  Münzwurf; Sol gegen Sonnet 75 %; Sol gegen GPT-6 Luna 92 %.
+- **Unsicherheit:** 95-%-Intervalle aus 1.000 Bootstrap-Stichproben. Sol 1.233–1.391 und Opus
+  1.227–1.337 überschneiden sich; Sonnet erreicht höchstens 1.172.
+- **Einigkeit der Bewerter:** Von 15 Modellpaaren ordneten zwei Bewerter beim literarischen
+  Schreiben im Schnitt 13 gleich, im Sachbuch knapp 12.
+- **Vorliebe für die eigene Familie:** Jeder Bewerter setzt die eigene Familie etwas höher – Opus
+  setzte Opus auf Platz 1, Sol setzte Sol auf Platz 1, Gemini setzte Gemini 4 Argon auf Platz 4,
+  wo die anderen beiden es auf Platz 6 sahen. Ohne diese Urteile bleiben beim literarischen
+  Schreiben dieselben drei vorn.
+- **Zitierte Fehler pro Text** im Finale: GPT-6.1 Sol 2,5 · Claude Opus 5.5 3,3 · GPT-6 Luna 3,6 ·
+  Claude Sonnet 5.5 3,6 · Claude Haiku 5.5 4,3 · Gemini 4 Argon 4,3.
+
 ## Wie gemessen wurde
 
 14 Sprachmodelle schrieben 14 Aufgaben auf Deutsch – literarische Szenen und ein Kapitel mit 900

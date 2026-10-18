@@ -126,6 +126,62 @@ Violation columns count texts × assertions violated, summed over all samples.
 | 13 | Gemma 4 31B ¹ | **416** (157–1000) | 527 (372–1001) |
 | 14 | Qwen 3.8 27B ¹ | **413** (228–771) | 413 (254–720) |
 
+## Statistics
+
+**Volume.** 14 models, 196 texts (79,908 words), 72 group verdicts = 600 pairwise comparisons, 159 checklist checks, 1,261 errors quoted verbatim by the judges.
+
+### Literary prose: head-to-head
+
+Probability that a text of the row model is preferred over a text of the column model, from the rating gap (Elo scale: p = 1 / (1 + 10^(−gap/400))).
+
+| | Claude Opus 5.5 | GPT-6.1 Sol | Claude Sonnet 5.5 | Kimi K3 | Gemini 4 Argon | GPT-6 Luna | DeepSeek V4.1 Flash | Claude Haiku 5.5 | GLM-5.3 | Gemini 3.8 Flash (thinking low) | Gemma 4 31B | GPT-5.4 mini | Grok 4.3 | Qwen 3.8 27B |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **Claude Opus 5.5** | – | 60 % | 78 % | 90 % | 95 % | 95 % | 96 % | 97 % | 98 % | 98 % | 99 % | 99 % | 100 % | 100 % |
+| **GPT-6.1 Sol** | 40 % | – | 70 % | 86 % | 93 % | 93 % | 94 % | 96 % | 97 % | 98 % | 99 % | 99 % | 100 % | 100 % |
+| **Claude Sonnet 5.5** | 22 % | 30 % | – | 72 % | 84 % | 85 % | 87 % | 90 % | 94 % | 95 % | 97 % | 98 % | 99 % | 100 % |
+| **Kimi K3** | 10 % | 14 % | 28 % | – | 67 % | 68 % | 72 % | 78 % | 86 % | 87 % | 92 % | 95 % | 98 % | 100 % |
+| **Gemini 4 Argon** | 5 % | 7 % | 16 % | 33 % | – | 51 % | 56 % | 63 % | 75 % | 77 % | 84 % | 91 % | 95 % | 100 % |
+| **GPT-6 Luna** | 5 % | 7 % | 15 % | 32 % | 49 % | – | 55 % | 63 % | 75 % | 76 % | 84 % | 91 % | 95 % | 100 % |
+| **DeepSeek V4.1 Flash** | 4 % | 6 % | 13 % | 28 % | 44 % | 45 % | – | 58 % | 71 % | 72 % | 81 % | 89 % | 94 % | 99 % |
+| **Claude Haiku 5.5** | 3 % | 4 % | 10 % | 22 % | 37 % | 37 % | 42 % | – | 64 % | 65 % | 75 % | 85 % | 92 % | 99 % |
+| **GLM-5.3** | 2 % | 3 % | 6 % | 14 % | 25 % | 25 % | 29 % | 36 % | – | 52 % | 63 % | 77 % | 87 % | 99 % |
+| **Gemini 3.8 Flash (thinking low)** | 2 % | 2 % | 5 % | 13 % | 23 % | 24 % | 28 % | 35 % | 48 % | – | 62 % | 76 % | 86 % | 99 % |
+| **Gemma 4 31B** | 1 % | 1 % | 3 % | 8 % | 16 % | 16 % | 19 % | 25 % | 37 % | 38 % | – | 66 % | 79 % | 98 % |
+| **GPT-5.4 mini** | 1 % | 1 % | 2 % | 5 % | 9 % | 9 % | 11 % | 15 % | 23 % | 24 % | 34 % | – | 66 % | 96 % |
+| **Grok 4.3** | 0 % | 0 % | 1 % | 2 % | 5 % | 5 % | 6 % | 8 % | 13 % | 14 % | 21 % | 34 % | – | 92 % |
+| **Qwen 3.8 27B** | 0 % | 0 % | 0 % | 0 % | 0 % | 0 % | 1 % | 1 % | 1 % | 1 % | 2 % | 4 % | 8 % | – |
+
+**Judge agreement** (model pairs ordered the same way by two judges' own ratings): opus–sol 81/91 · opus–gemini 77/91 · sol–gemini 77/91.
+
+**Own-family preference** (rank a judge gives its own family vs. mean rank from the other judges): opus → Claude Haiku 5.5 8 vs 6.5 · opus → Claude Sonnet 5.5 2 vs 3.0 · opus → Claude Opus 5.5 1 vs 2.0 · sol → GPT-6 Luna 7 vs 6.5 · sol → GPT-6.1 Sol 1 vs 2.0 · sol → GPT-5.4 mini 9 vs 12.5 · gemini → Gemini 3.8 Flash (thinking low) 7 vs 10.0 · gemini → Gemini 4 Argon 9 vs 4.5 · gemini → Gemma 4 31B 8 vs 11.0.
+
+### Non-fiction: head-to-head
+
+Probability that a text of the row model is preferred over a text of the column model, from the rating gap (Elo scale: p = 1 / (1 + 10^(−gap/400))).
+
+| | Claude Sonnet 5.5 | Claude Opus 5.5 | GPT-6.1 Sol | GLM-5.3 | GPT-6 Luna | GPT-5.4 mini | Kimi K3 | DeepSeek V4.1 Flash | Gemini 4 Argon | Claude Haiku 5.5 | Gemini 3.8 Flash (thinking low) | Grok 4.3 | Gemma 4 31B | Qwen 3.8 27B |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **Claude Sonnet 5.5** | – | 50 % | 58 % | 59 % | 62 % | 64 % | 67 % | 68 % | 73 % | 79 % | 87 % | 95 % | 95 % | 97 % |
+| **Claude Opus 5.5** | 50 % | – | 58 % | 59 % | 62 % | 64 % | 67 % | 68 % | 73 % | 78 % | 87 % | 95 % | 95 % | 97 % |
+| **GPT-6.1 Sol** | 42 % | 42 % | – | 51 % | 54 % | 56 % | 59 % | 60 % | 66 % | 72 % | 82 % | 93 % | 94 % | 96 % |
+| **GLM-5.3** | 41 % | 41 % | 49 % | – | 53 % | 56 % | 58 % | 60 % | 65 % | 72 % | 82 % | 93 % | 94 % | 96 % |
+| **GPT-6 Luna** | 38 % | 38 % | 46 % | 47 % | – | 52 % | 55 % | 57 % | 62 % | 69 % | 80 % | 92 % | 93 % | 95 % |
+| **GPT-5.4 mini** | 36 % | 36 % | 44 % | 44 % | 48 % | – | 53 % | 54 % | 60 % | 67 % | 78 % | 91 % | 92 % | 95 % |
+| **Kimi K3** | 33 % | 33 % | 41 % | 42 % | 45 % | 47 % | – | 52 % | 57 % | 64 % | 76 % | 90 % | 91 % | 94 % |
+| **DeepSeek V4.1 Flash** | 32 % | 32 % | 40 % | 40 % | 43 % | 46 % | 48 % | – | 55 % | 63 % | 75 % | 89 % | 91 % | 94 % |
+| **Gemini 4 Argon** | 27 % | 27 % | 34 % | 35 % | 38 % | 40 % | 43 % | 45 % | – | 58 % | 71 % | 87 % | 89 % | 92 % |
+| **Claude Haiku 5.5** | 21 % | 22 % | 28 % | 28 % | 31 % | 33 % | 36 % | 37 % | 42 % | – | 64 % | 83 % | 85 % | 90 % |
+| **Gemini 3.8 Flash (thinking low)** | 13 % | 13 % | 18 % | 18 % | 20 % | 22 % | 24 % | 25 % | 29 % | 36 % | – | 74 % | 76 % | 83 % |
+| **Grok 4.3** | 5 % | 5 % | 7 % | 7 % | 8 % | 9 % | 10 % | 11 % | 13 % | 17 % | 26 % | – | 53 % | 63 % |
+| **Gemma 4 31B** | 5 % | 5 % | 6 % | 6 % | 7 % | 8 % | 9 % | 9 % | 11 % | 15 % | 24 % | 47 % | – | 60 % |
+| **Qwen 3.8 27B** | 3 % | 3 % | 4 % | 4 % | 5 % | 5 % | 6 % | 6 % | 8 % | 10 % | 17 % | 37 % | 40 % | – |
+
+**Judge agreement** (model pairs ordered the same way by two judges' own ratings): opus–sol 64/91 · opus–gemini 70/91 · sol–gemini 53/91.
+
+**Own-family preference** (rank a judge gives its own family vs. mean rank from the other judges): opus → Claude Haiku 5.5 7 vs 10.0 · opus → Claude Sonnet 5.5 1 vs 4.0 · opus → Claude Opus 5.5 2 vs 4.5 · sol → GPT-6 Luna 2 vs 7.5 · sol → GPT-6.1 Sol 1 vs 6.5 · sol → GPT-5.4 mini 3 vs 7.5 · gemini → Gemini 3.8 Flash (thinking low) 11 vs 10.5 · gemini → Gemini 4 Argon 1 vs 11.0 · gemini → Gemma 4 31B 12 vs 13.0.
+
+**Errors quoted per text** (mean over all judged texts and judges): GPT-6.1 Sol 2.6 · Claude Opus 5.5 3.0 · Claude Sonnet 5.5 3.3 · Kimi K3 3.5 · GPT-6 Luna 3.6 · DeepSeek V4.1 Flash 3.6 · GLM-5.3 4.0 · Gemini 4 Argon 4.0 · Claude Haiku 5.5 4.2 · Grok 4.3 4.3 · Gemini 3.8 Flash (thinking low) 4.4 · GPT-5.4 mini 4.5 · Gemma 4 31B 4.6 · Qwen 3.8 27B 4.7.
+
 ## Cost, speed, reliability
 
 | Model | Cents per standard page | Median seconds per text | Texts delivered | No text (failed) | Cut off | Preamble/heading |
