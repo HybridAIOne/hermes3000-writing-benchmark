@@ -9,6 +9,7 @@ const path = require('path');
 const { runDir, readJson, writeJson, loadGenerations } = require('./run');
 const { loadDir } = require('./judge');
 const { pairsFromRanking, rateWithCI, withoutOwnFamily, rng } = require('./rank');
+const { renderPrompt } = require('./spec');
 const det = require('./score/deterministic');
 
 const mean = (a) => (a.length ? a.reduce((x, y) => x + y, 0) / a.length : NaN);
@@ -562,7 +563,7 @@ function writeArenaPairs(runId, bench, { gens, tasks }, perTask = 12) {
       pairs.push({
         task: t.id,
         title: t.title,
-        prompt: t.prompt,
+        prompt: renderPrompt(t), // the prompt the models saw, source material included
         left: { model: left.model, run: left.run, text: left.text },
         right: { model: right.model, run: right.run, text: right.text },
       });
