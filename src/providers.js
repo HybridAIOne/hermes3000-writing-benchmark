@@ -32,16 +32,42 @@ function apiKey(provider) {
   return k;
 }
 
-async function post(url, headers, body, timeoutMs) {
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'content-type': 'application/json', ...headers },
-    body: JSON.stringify(body),
-    signal: AbortSignal.timeout(timeoutMs),
+// node:https rather than fetch: Node's fetch (undici) gives up after 300 s without response
+// headers ("fetch failed"), whatever the AbortSignal says — and a model on its highest thinking
+// level can take longer than that before the first byte. Here only timeoutMs applies.
+const https = require('https');
+function post(url, headers, body, timeoutMs) {
+  const data = JSON.stringify(body);
+  return new Promise((resolve, reject) => {
+    const req = https.request(
+      url,
+      {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+          'content-length': Buffer.byteLength(data),
+          ...headers,
+        },
+      },
+      (res) => {
+        const chunks = [];
+        res.on('data', (c) => chunks.push(c));
+        res.on('end', () => {
+          const raw = Buffer.concat(chunks).toString('utf8');
+          if (res.statusCode < 200 || res.statusCode >= 300)
+            return reject(new Error(`${res.statusCode} ${raw.slice(0, 400)}`));
+          try {
+            resolve(JSON.parse(raw));
+          } catch (e) {
+            reject(new Error(`invalid JSON: ${raw.slice(0, 200)}`));
+          }
+        });
+      }
+    );
+    req.setTimeout(timeoutMs, () => req.destroy(new Error(`timeout after ${timeoutMs} ms`)));
+    req.on('error', reject);
+    req.end(data);
   });
-  const raw = await res.text();
-  if (!res.ok) throw new Error(`${res.status} ${raw.slice(0, 400)}`);
-  return JSON.parse(raw);
 }
 
 // --- OpenAI-compatible (OpenAI, OpenRouter) ------------------------------------------------
