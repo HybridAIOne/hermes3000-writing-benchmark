@@ -1,6 +1,6 @@
 # Have LLMs become better writers since 2023?
 
-The story experiment of Chakrabarty et al. (*Art or Artifice?*, CHI 2024) repeated with 2026
+The story experiment of Chakrabarty et al. (_Art or Artifice?_, CHI 2024) repeated with 2026
 models: same 12 one-sentence plots of New Yorker stories, same prompt, same length matching
 (rewrite until within 200 words of the original). All stories — originals, 2023 and 2026 —
 judged by the same three judges with all 14 TTCW tests. Results: [REPORT.md](REPORT.md).

@@ -256,6 +256,7 @@ function report({ plots, models, judges, tests, bench }) {
   let cost = 0;
   const rows = groups.map((g) => {
     const perStory = [];
+    const matched = [];
     const perJudge = Object.fromEntries(judges.map((j) => [j.key, []]));
     const perDim = {};
     for (const p of plots) {
@@ -273,9 +274,23 @@ function report({ plots, models, judges, tests, bench }) {
         maj.push(v);
         (perDim[t.torrance_dimension] ||= []).push(v);
       }
-      if (maj.length === tests.length) perStory.push(mean(maj));
+      if (maj.length === tests.length) {
+        perStory.push(mean(maj));
+        // Length-matched subset: stories within 200 words of the original (2026 only).
+        const st = g.year === 2026 ? read(path.join(STORIES, `${p.idx}_${g.key}.json`)) : null;
+        if (!st || Math.abs(st.words - st.target) <= 200) matched.push(mean(maj));
+      }
     }
-    return { ...g, n: perStory.length, pass: mean(perStory), perStory, perJudge, perDim };
+    return {
+      ...g,
+      n: perStory.length,
+      pass: mean(perStory),
+      nMatched: matched.length,
+      passMatched: mean(matched),
+      perStory,
+      perJudge,
+      perDim,
+    };
   });
   for (const m of models)
     for (const p of plots) {
@@ -291,12 +306,12 @@ function report({ plots, models, judges, tests, bench }) {
     '',
     "Calibration ([calibration/ttcw](../../calibration/ttcw/README.md)): these judges reproduce the experts' pass levels for New Yorker and 2023 stories and rank LLM stories about as well as one expert ranks them against two others. They do not reliably name WHICH test a story fails. Read the table as levels, not diagnoses. Two of the judges are also authors here (Sol, Opus); the per-judge columns show whether that matters.",
     '',
-    '| Stories | Year | Tests passed (judge majority) | ' +
+    '| Stories | Year | Tests passed (judge majority) | Only stories within 200 words of the original | ' +
       dims.join(' | ') +
       ' | ' +
       judges.map((j) => `${j.key} alone`).join(' | ') +
       ' |',
-    '|---|---|---|' +
+    '|---|---|---|---|' +
       dims.map(() => '---').join('|') +
       '|' +
       judges.map(() => '---').join('|') +
@@ -304,7 +319,7 @@ function report({ plots, models, judges, tests, bench }) {
   ];
   for (const r of rows)
     md.push(
-      `| ${r.year === 2026 ? '**' + r.name + '**' : r.name} | ${r.year} | **${pct(r.pass)}** (${r.n} stories) | ${dims.map((d) => pct(mean(r.perDim[d] || []))).join(' | ')} | ${judges.map((j) => pct(mean(r.perJudge[j.key]))).join(' | ')} |`
+      `| ${r.year === 2026 ? '**' + r.name + '**' : r.name} | ${r.year} | **${pct(r.pass)}** (${r.n} stories) | ${r.year === 2026 ? `${pct(r.passMatched)} (${r.nMatched})` : '—'} | ${dims.map((d) => pct(mean(r.perDim[d] || []))).join(' | ')} | ${judges.map((j) => pct(mean(r.perJudge[j.key]))).join(' | ')} |`
     );
   md.push(
     '',

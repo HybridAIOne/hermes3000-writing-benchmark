@@ -70,6 +70,69 @@ function post(url, headers, body, timeoutMs) {
   });
 }
 
+// Streaming POST for OpenAI-compatible endpoints that cannot hold a silent connection open while
+// the model thinks (hemmingway.io drops it with ETIMEDOUT on long stories). Returns the same
+// shape a non-streaming completion would.
+function postStream(url, headers, body, timeoutMs) {
+  const data = JSON.stringify({ ...body, stream: true, stream_options: { include_usage: true } });
+  return new Promise((resolve, reject) => {
+    let text = '';
+    let finish = null;
+    let usage = {};
+    let model = null;
+    let buf = '';
+    const req = https.request(
+      url,
+      {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+          'content-length': Buffer.byteLength(data),
+          ...headers,
+        },
+      },
+      (res) => {
+        if (res.statusCode < 200 || res.statusCode >= 300) {
+          const chunks = [];
+          res.on('data', (c) => chunks.push(c));
+          res.on('end', () =>
+            reject(new Error(`${res.statusCode} ${Buffer.concat(chunks).toString().slice(0, 400)}`))
+          );
+          return;
+        }
+        res.on('data', (c) => {
+          buf += c.toString();
+          const lines = buf.split('\n');
+          buf = lines.pop();
+          for (const line of lines) {
+            if (!line.startsWith('data: ') || line.includes('[DONE]')) continue;
+            try {
+              const d = JSON.parse(line.slice(6));
+              model = d.model || model;
+              if (d.usage) usage = d.usage;
+              const ch = d.choices?.[0];
+              if (ch?.delta?.content) text += ch.delta.content;
+              if (ch?.finish_reason) finish = ch.finish_reason;
+            } catch {
+              // partial or non-JSON keep-alive line
+            }
+          }
+        });
+        res.on('end', () =>
+          resolve({
+            model,
+            usage,
+            choices: [{ message: { content: text }, finish_reason: finish }],
+          })
+        );
+      }
+    );
+    req.setTimeout(timeoutMs, () => req.destroy(new Error(`timeout after ${timeoutMs} ms`)));
+    req.on('error', reject);
+    req.end(data);
+  });
+}
+
 // --- OpenAI-compatible (OpenAI, OpenRouter) ------------------------------------------------
 
 async function callOpenAICompat(provider, m, { system, prompt, maxTokens, timeoutMs, schema }) {
@@ -90,7 +153,10 @@ async function callOpenAICompat(provider, m, { system, prompt, maxTokens, timeou
     headers['HTTP-Referer'] = 'https://hermes3000.ai';
     headers['X-Title'] = 'hermes3000 Writing Benchmark';
   }
-  const d = await post(ENDPOINTS[provider], headers, body, timeoutMs);
+  const d =
+    provider === 'hemmingway' && !schema
+      ? await postStream(ENDPOINTS[provider], headers, body, timeoutMs)
+      : await post(ENDPOINTS[provider], headers, body, timeoutMs);
   const msg = d.choices?.[0]?.message || {};
   const u = d.usage || {};
   return {
