@@ -26,6 +26,30 @@ Details: [METHODOLOGY.md](METHODOLOGY.md).
 Each run lives in [`results/`](results/) with its report, every text and every verdict, a blind
 reading page and a manifest naming the benchmark fingerprint, models, judges and code commit.
 
+## Beyond the ranking: literary quality and the judges
+
+The ranking says which model writes better than another. Three studies alongside it ask what the
+judges can be trusted with, and how good the texts are in absolute terms:
+
+- **Can AI judges assess literature?** [`calibration/ttcw`](calibration/ttcw/README.md) — our three
+  judges against the 2,016 expert verdicts of *Art or Artifice?* (Chakrabarty et al., CHI 2024).
+  They reliably tell professional literature from machine text (κ 0.45–0.66, where 2023's judges
+  were at chance) and rank LLM texts about as well as one expert ranks them against two others —
+  but they cannot say reliably *which* weakness a single text has.
+- **Have LLMs become better writers since 2023?** [`experiments/ttcw-2026`](experiments/ttcw-2026/SUMMARY.md)
+  — the study's story experiment repeated with 2026 models: same twelve *New Yorker* plots, same
+  prompt, same judges. Tests passed: 2–13 % in 2023, 74–91 % in 2026; GPT-6.1 Sol 91 % against
+  the originals' 92 %. The remaining gap is originality. No 2026 story shares an 8-word sequence
+  with its original. Not yet confirmed by human experts.
+- **How reliable is Hermes 3000's style analysis?** [`experiments/eschbach-check`](experiments/eschbach-check/README.md)
+  — Andreas Eschbach's ten craft rules, as Hermes applies them: stable (±0.25 points on repeat),
+  consistent with stronger models (ρ 0.70–0.80), moderately aligned with counted features — and a
+  measure of lean modern style, not of quality: German classics score 5.7, every model 8.3–8.8.
+
+Applied to the benchmark itself: [TTCW on the final's literary texts](results/2026-10-18-v1-final/TTCW.md),
+with openings of German novellas as a human anchor — which showed that the test does not work on
+cut-off excerpts.
+
 ## Run it yourself
 
 ```bash
