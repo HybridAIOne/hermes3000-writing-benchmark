@@ -1,0 +1,79 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6-luna__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so dicht über der Elbe..."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und setzt sofort den Ton. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["dumpf und verspätet", "nasses Holz"],
+        "suggestions": ["Die Adjektive sind sparsam und treffend gewählt. Weiter so."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Morgen“, sagte die Frau.", "„Welche?“"],
+        "suggestions": ["Sehr reduziert und effektiv. Die Sprecher sind klar zugeordnet."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vielleicht Anfang vierzig"],
+        "suggestions": ["Der Text ist sehr sauber. Kaum Füllwörter vorhanden."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie schob den Riegel... und trat hinaus."],
+        "suggestions": [
+          "Handlungen werden logisch nacheinander geschildert, was den Lesefluss fördert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse schob den Riegel", "Der Nebel lag"],
+        "suggestions": ["Der Text ist fast durchgehend aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie hatte heute Morgen den zweiten Handschuh nicht gleich gefunden."],
+        "suggestions": [
+          "Die Satzlänge ist abwechslungsreich und unterstützt das ruhige Tempo der Szene."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Fährt sie?“ – „Wenn Sie drauf sind.“"],
+        "suggestions": ["Die Dialoge sind prägnant und charakterisierend."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse sah über die Schulter.", "Sie sah auf den Fluss."],
+        "suggestions": ["Direkte Wahrnehmung wird konsequent genutzt. Sehr gut."]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Das Seil spannte sich... Das Seil lief sauber."],
+        "suggestions": [
+          "Wiederholungen sind hier stilistisch gewollt, um die Routine der Arbeit zu unterstreichen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

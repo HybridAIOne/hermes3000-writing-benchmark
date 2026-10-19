@@ -1,0 +1,99 @@
+{
+  "who": "hermes",
+  "item": "anchor__kafka-die-verwandlung-900",
+  "run": 2,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt."
+        ],
+        "suggestions": ["Der Einstieg ist exzellent und setzt direkt in der Handlung ein."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "ungeheueren Ungeziefer",
+          "panzerartig harten Rücken",
+          "kläglich dünnen Beine"
+        ],
+        "suggestions": [
+          "Die Adjektive sind atmosphärisch dicht und präzise. Keine Änderung notwendig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Was ist mit mir geschehen?« dachte er.", "»Ach Gott,« dachte er,"],
+        "suggestions": ["Die Kennzeichnungen sind sparsam und funktional."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["etwas zu kleines", "wohl hundertmal", "ganz blödsinnig"],
+        "suggestions": [
+          "Einige Füllwörter dienen der Charakterisierung von Gregors Unsicherheit, könnten aber in einem moderneren Text gestrichen werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["während seines fünfjährigen Dienstes"],
+        "suggestions": ["Die zeitlichen Abläufe sind klar strukturiert."]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "ist mir noch diese Plage des Reisens auferlegt",
+          "die Hoffnung ist noch nicht gänzlich aufgegeben"
+        ],
+        "suggestions": [
+          "Formulierungen könnten aktiver gestaltet werden, um die Eigenverantwortung des Protagonisten stärker zu betonen (z.B. 'Diese Plage des Reisens belastet mich')."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Über dem Tisch, auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war -- Samsa war Reisender --, hing das Bild, das er vor kurzem aus einer illustrierten Zeitschrift ausgeschnitten und in einem hübschen, vergoldeten Rahmen untergebracht hatte."
+        ],
+        "suggestions": [
+          "Die Sätze sind sehr verschachtelt. Für eine bessere Lesbarkeit sollten lange Sätze in zwei oder drei kürzere Einheiten zerlegt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Es gibt keine klassischen Dialoge, nur inneren Monolog, der gut dosiert ist."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Man sah vom Bett aus, daß er auf vier Uhr richtig eingestellt war",
+          "Gregor fühlte sich tatsächlich... ganz wohl"
+        ],
+        "suggestions": [
+          "Statt 'Man sah, dass...' oder 'Gregor fühlte, dass...' direkter schreiben: 'Der Wecker stand auf vier Uhr' oder 'Gregor fühlte sich wohl'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Wiederholte Gedanken über die Arbeit, den Chef und den Zug."],
+        "suggestions": [
+          "Die Wiederholungen spiegeln Gregors obsessives Grübeln wider, könnten aber für ein strafferes Erzähltempo leicht gekürzt werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

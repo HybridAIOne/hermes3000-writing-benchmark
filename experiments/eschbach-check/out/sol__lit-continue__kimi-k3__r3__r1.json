@@ -1,0 +1,154 @@
+{
+  "who": "sol",
+  "item": "lit-continue__kimi-k3__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Motor stotterte beim Anlegen nicht, er war nur lauter geworden seit Frühjahr.",
+          "Das hätte sie ihm sagen können, tat es aber nicht."
+        ],
+        "suggestions": [
+          "Den Einstieg grundsätzlich beibehalten: Er setzt unmittelbar beim Anlegen ein und etabliert mit dem verschwiegenen Hinweis bereits den Beziehungskonflikt.",
+          "Ein Beginn mit „Du stehst im Weg“ wäre unmittelbarer, verlöre aber das charakteristische Motiv des Nichtausgesprochenen. Die Kürzung ist deshalb nicht zwingend eine Verbesserung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Seine Schuhe waren zu dünn für die Bohlen.",
+          "Henning hatte genickt wie ein Mann, der Holz nimmt: endgültig.",
+          "Im Flur roch es nach nassem Holz und nach dem Kaffee vom Morgen"
+        ],
+        "suggestions": [
+          "Die sparsame Verwendung beibehalten: „dünn“ charakterisiert Jonas’ mangelnde Vertrautheit mit dem Ort, „nassem“ konkretisiert den Geruch.",
+          "„endgültig“ allenfalls probeweise streichen und die Wirkung vergleichen. Das Wort deutet das Bild ausdrücklich aus, trägt aber zugleich Ilses Vorstellung von Henning."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Du stehst im Weg\", sagte sie.",
+          "„Ich hab angerufen\", sagte Jonas.",
+          "„Ich fahr nicht rüber\", sagte sie.",
+          "„Ich mach Brot\", sagte sie."
+        ],
+        "suggestions": [
+          "Die überwiegend unmarkierten Wechsel beibehalten: Die Sprecher bleiben auch ohne fortlaufende Zuschreibungen erkennbar.",
+          "Bei „Ich mach Brot“ kann „sagte sie“ entfallen, da der anschließende Einwand von Jonas und Ilses Wiederholung die Zuordnung sichern.",
+          "Die frühen Sprecherkennzeichnungen eher erhalten, weil sie den Dialog zunächst orientieren."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "und für einen Moment war er wieder acht",
+          "sondern etwas Abgelegtes, etwas aus der Schublade seiner Besprechungen",
+          "dass er es wahrscheinlich beide Male meinte",
+          "Es war nur so, dass sie wusste"
+        ],
+        "suggestions": [
+          "Den Schluss direkter formulieren: „Sie wusste, wie lange er bleiben würde, wenn sie es richtig machte: bis morgen früh, nicht länger.“",
+          "„wahrscheinlich“ nicht automatisch streichen: Es markiert, dass Ilse Jonas’ Absichten nur vermuten kann.",
+          "Die Wiederholung von „etwas“ auf ihre rhythmische Wirkung prüfen. Sie vermittelt ein tastendes Urteil und ist daher nicht bloß unpräziser Ballast."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "und für einen Moment war er wieder acht und stand zum ersten Mal allein auf der Fähre, während Henning am Hebel saß und grinste.",
+          "Das sagte er, und gleichzeitig sah er auf seine Uhr",
+          "Jonas hob den Koffer an, als könne man ihn so aus dem Weg räumen"
+        ],
+        "suggestions": [
+          "Den Widerspruch zwischen Jonas’ Aussage und seinem Blick auf die Uhr erhalten, aber gegebenenfalls ohne Signalwort zeigen: „Dabei sah er auf seine Uhr.“",
+          "Das „während“ in der Erinnerung ist funktional: Es stellt den unsicheren Jungen dem souveränen Henning gegenüber.",
+          "„als könne“ nicht als zeitliche Überladung behandeln; die Formulierung leitet einen Vergleich ein."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie hakte die zweite Leine ein und prüfte den Sitz mit dem Daumen.",
+          "Jonas stellte den Koffer an die Wand",
+          "wie ein Tier, das man mitnimmt und das nicht mitgenommen werden will"
+        ],
+        "suggestions": [
+          "Die aktive, konkrete Darstellung der Handlungen beibehalten.",
+          "Die einzige auffällige Passivkonstruktion im Tiervergleich nicht schematisch ersetzen: „nicht mitgenommen werden will“ betont treffend das Widerstreben des vorgestellten Tiers."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie sah, wie er das Gleichgewicht suchte und es nicht fand, und für einen Moment war er wieder acht und stand zum ersten Mal allein auf der Fähre, während Henning am Hebel saß und grinste.",
+          "Sie gingen den Weg zum Haus hinauf, sie voraus, er hinterher mit dem Koffer, dessen Rollen auf dem Kiesweg klagten wie ein Tier, das man mitnimmt und das nicht mitgenommen werden will.",
+          "Im Flur roch es nach nassem Holz und nach dem Kaffee vom Morgen, den sie nicht weggeschüttet hatte, weil Henning immer gesagt hatte, man schütte keinen Kaffee weg, man wärmt ihn auf."
+        ],
+        "suggestions": [
+          "Den ersten Satz am Übergang zur Erinnerung teilen: „Er suchte das Gleichgewicht und fand es nicht. Für einen Moment war er wieder acht …“",
+          "Beim Weg zum Haus Bewegung und Vergleich entflechten: „Sie gingen zum Haus hinauf, sie voraus, er mit dem Koffer hinterher. Dessen Rollen klagten auf dem Kiesweg wie ein Tier, das nicht mitkommen will.“",
+          "Die Kaffee-Erinnerung nach „weggeschüttet hatte“ abtrennen. So erhält Hennings nachwirkende Gewohnheit einen eigenen Satz.",
+          "Nicht sämtliche langen Sätze kürzen: Ihr assoziativer Fluss passt zu Ilses Erinnerungen. Vor allem dort teilen, wo mehrere Relativ- und Nebensätze die Orientierung erschweren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ich hab angerufen\", sagte Jonas.\n\n„Ich weiß.\"\n\n„Dienstag. Und Mittwoch.\"",
+          "„Ich hab Zeit.\"",
+          "„Ich mach Brot\", sagte sie.\n\n„Ich hab im Zug—\"\n\n„Ich mach Brot.\""
+        ],
+        "suggestions": [
+          "Die knappen Dialoge beibehalten. Sie transportieren Konflikt und Beziehung über Auslassungen statt über Erklärungen.",
+          "Den abgebrochenen Einwand und Ilses Wiederholung nicht straffen: Gerade die Unterbrechung zeigt, wie sie Nähe über praktische Versorgung herstellt und zugleich Kontrolle behält."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie sah, wie er das Gleichgewicht suchte und es nicht fand",
+          "Ilse dachte, dass er es wahrscheinlich beide Male meinte und keines davon stimmen würde.",
+          "sie war froh, denn sie hatte gehört, wie es klang.",
+          "sie wusste, dass Jonas das sah und verstand und nicht fragen würde."
+        ],
+        "suggestions": [
+          "Die sichtbare Handlung unmittelbar darstellen: „Er suchte das Gleichgewicht und fand es nicht.“ Die Perspektive bleibt auch ohne „Sie sah“ verständlich.",
+          "Den Gedanken nach dem Blick auf die Uhr als erlebte Rede versuchen: „Wahrscheinlich meinte er es beide Male, und keines davon würde stimmen.“",
+          "Die Aussage über Jonas’ Verstehen als Ilses Deutung kenntlich halten, etwa: „Jonas würde die Stiefel bemerken. Fragen würde er nicht.“",
+          "Nicht alle Wahrnehmungsmarkierungen entfernen: „sie hatte gehört, wie es klang“ bezeichnet ihre nachträgliche Reaktion auf die eigene Härte und erfüllt damit eine eigenständige Funktion."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Da war ich draußen.\" […] „Hier draußen ist man draußen.\"",
+          "So hatte Henning nie genickt. Henning hatte genickt wie ein Mann, der Holz nimmt: endgültig.",
+          "Ilse hob ihre zwei Finger zurück.",
+          "Die Stiefel standen jetzt draußen unter dem Vordach, alle vier, auch Henning seinen",
+          "„Ich mach Brot\""
+        ],
+        "suggestions": [
+          "Die Wiederholungen von „draußen“ und „Ich mach Brot“ erhalten: Sie sind Ausdruck von Abwehr und Beharrlichkeit, keine versehentlichen Doppelungen.",
+          "„ihre zwei Finger“ zu „zwei Finger“ kürzen; die Zugehörigkeit ist bereits klar.",
+          "Bei „alle vier, auch Henning seinen“ prüfen, ob die ausdrückliche Ergänzung nötig ist. Sie kann entfallen, wenn die vier Stiefel bereits eindeutig auf zwei Paare verweisen; soll Hennings fortdauernde Präsenz betont werden, ist sie funktional.",
+          "Die Wiederholung von Hennings Namen beim Nicken eher beibehalten: Sie macht den inneren Vergleich zwischen ihm und Jonas rhythmisch spürbar."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.025034
+}

@@ -1,0 +1,125 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__gpt-6-luna__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Einstieg mit \"Du hast den gleichen Mantel an.\" setzt mitten in der Begegnung ein und etabliert sofort die gemeinsame Vergangenheit.",
+          "\"Mara steht am Tisch; Leon kommt herein.\" Mara steht, setzt sich aber nie. Leon rührt in einer Tasse und \"bestellt noch immer schwarz\", obwohl er gerade erst hereingekommen ist und nichts bestellt hat."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten, er ist stark. Die Ausgangssituation logisch klären: Entweder sitzt Mara bereits, oder ein kurzer Bühnenhinweis zeigt, wie Leon zu seiner Tasse kommt (z. B. \"Die Kellnerin stellt ihm einen Kaffee hin\").",
+          "Alternativ die Szene erst einsetzen lassen, wenn beide bereits sitzen und Kaffee vor sich haben. Die Mantel-Zeilen können erhalten bleiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "\"Ein kurzer Blick.\"",
+          "\"Mara lächelt kaum merklich.\"",
+          "\"Du bestellst noch immer schwarz.\""
+        ],
+        "suggestions": [
+          "\"Ein kurzer Blick\" durch eine spielbare Handlung ersetzen, z. B. \"Sie sieht ihn an, dann zur Tür.\"",
+          "\"kaum merklich\" ist für Darsteller schwer umsetzbar. Besser konkret: \"Maras Mundwinkel zuckt.\""
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Szenenformat mit Sprechernamen macht Redeeinleitungen überflüssig. Es gibt kein einziges \"sagte er/sie\".",
+          "Die Figuren sind auch durch ihren Ton unterscheidbar: Mara pariert und kommentiert, Leon antwortet knapp und sachlich."
+        ],
+        "suggestions": [
+          "Beibehalten. Regieanweisungen weiterhin nur für Handlungen nutzen, nicht für Sprechweisen wie \"(traurig)\"."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "\"Sie fragt manchmal nach dir.\"",
+          "\"Ich habe lange überlegt.\"",
+          "\"Dass du viel zu tun hast.\"",
+          "\"Vielleicht.\""
+        ],
+        "suggestions": [
+          "Im Dialog sind diese Wörter figurengerecht, und \"Vielleicht\" ist als ausweichende Antwort bewusst gesetzt. Prüfen, ob \"manchmal\" durch etwas Konkretes stärker wirkt, z. B. \"Sie hat letzte Woche nach dir gefragt.\""
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "\"Sie rühren beide in ihren Tassen, ohne zu trinken.\" Das ist die einzige Gleichzeitigkeit, und sie ist bildhaft und wirkungsvoll."
+        ],
+        "suggestions": [
+          "Keine Änderung nötig. Die Handlungen in den Regieanweisungen sind sauber nacheinander gesetzt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Passivkonstruktionen vorhanden. Beibehalten."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Alle Sätze sind kurz. Der längste ist \"Leon zieht den Stuhl zurück, den Mara freigelassen hat.\"",
+          "Der durchgehend gleiche Staccato-Rhythmus (\"Stimmt.\", \"Ah.\", \"Ja.\", \"Spät.\") kann auf Dauer monoton wirken."
+        ],
+        "suggestions": [
+          "An einer emotionalen Stelle, etwa nach \"Aber zusammen.\", einer Figur bewusst einen längeren Satz geben. Der Bruch im Rhythmus erzeugt Gewicht."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "\"Ist der Platz frei?\" / \"Sonst hätte ich meine Tasche draufgestellt.\" / \"Stimmt.\"",
+          "\"Ich habe mich umgestellt.\" / \"Worauf?\" / \"Auf weniger Zucker.\" / \"Ah.\"",
+          "\"Du hast gesagt, du hättest ihn gelesen.\" / \"Ja.\""
+        ],
+        "suggestions": [
+          "Die einzelnen Repliken sind knapp, die Szene reiht aber viele ähnliche Kurz-Wechsel aneinander. Den Platz-Wechsel streichen oder kürzen, da die Regieanweisung ihn schon zeigt.",
+          "\"Stimmt.\" und \"Ah.\" prüfen: Trägt das Wort Subtext, oder kann eine Geste bzw. Stille es ersetzen?"
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "\"Ich wusste nicht, ob du kommst.\" / \"Ich wusste nicht, ob du fragst.\" Das steht im Dialog, ist figurengerecht und als Parallelismus wirkungsvoll.",
+          "\"Keiner von beiden sieht ihr nach.\" Eine Nicht-Handlung ist szenisch schwer darstellbar."
+        ],
+        "suggestions": [
+          "Regieanweisungen positiv formulieren, z. B. \"Eine Kellnerin geht vorbei. Mara und Leon sehen auf den Tisch.\""
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "\"Leon zieht den Stuhl zurück, den Mara freigelassen hat.\" und danach \"Ist der Platz frei?\". Die Information wird doppelt geliefert.",
+          "\"Das hat er früher auch schon.\" / \"Früher hast du dich immer darüber beschwert.\" / \"Das hast du immer.\" Das \"früher/immer\"-Motiv wird in kurzer Folge mehrfach bedient.",
+          "Mantel, Kaffee und Bus sind drei Variationen desselben Musters: \"Du bist noch wie damals.\""
+        ],
+        "suggestions": [
+          "Entweder \"den Mara freigelassen hat\" streichen oder die Frage nach dem Platz. Die Frage wirkt stärker, wenn das Publikum die Antwort nicht kennt.",
+          "Das \"immer\" in \"Früher hast du dich immer darüber beschwert\" streichen, damit \"Das hast du immer\" später mehr Gewicht bekommt.",
+          "Prüfen, ob eine der drei Erinnerungsvariationen (Mantel, Kaffee, Bus) entfallen kann. Der Bus trägt die stärkste Pointe (\"Aber zusammen\")."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.086544
+}

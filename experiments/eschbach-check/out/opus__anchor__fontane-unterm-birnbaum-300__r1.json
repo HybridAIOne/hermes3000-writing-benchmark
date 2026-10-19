@@ -1,0 +1,148 @@
+{
+  "who": "opus",
+  "item": "anchor__fontane-unterm-birnbaum-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus und Materialwaarengeschäft von Abel Hradscheck (so stand auf einem über der Thür angebrachten Schilde) wurden Säcke, vom Hausflur her, auf einen mit zwei magern Schimmeln bespannten Bauerwagen geladen.",
+          "Einige von den Säcken waren nicht gut gebunden oder hatten kleine Löcher und Ritzen, und so sah man denn an dem, was herausfiel, daß es Rapssäcke waren."
+        ],
+        "suggestions": [
+          "Direkt mit Hradschecks Anweisung an Jakob einsteigen. Ort, Geschäft und Ladung lassen sich anschließend beiläufig einstreuen.",
+          "Die Raumbeschreibung des Hausflurs am Ende kürzen oder auf eine spätere Szene verschieben, in der der Raum handlungsrelevant wird."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "in dem großen und reichen Oderbruchdorfe",
+          "mit zwei magern Schimmeln",
+          "mit einem schläfrigen »Hüh«",
+          "Dieser war breit und tief",
+          "durch ein großes, fast die halbe Wand einnehmendes Schiebefenster",
+          "sei hübsch manierlich"
+        ],
+        "suggestions": [
+          "Doppelte Adjektive wie 'groß und reich' bzw. 'breit und tief' auf das aussagekräftigere reduzieren oder durch ein konkretes Detail ersetzen, z. B. 'im Oderbruchdorf Tschechin, wo die Bauern Geld hatten'.",
+          "'groß' beim Schiebefenster streichen, denn 'fast die halbe Wand einnehmend' sagt bereits alles."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "stand Abel Hradscheck selbst und sagte zu dem eben vom Rad her auf die Deichsel steigenden Knecht:",
+          "Der als Jakob Angeredete nickte nur statt aller Antwort"
+        ],
+        "suggestions": [
+          "Die Redeeinleitung entschlacken: 'Jakob stieg vom Rad auf die Deichsel. Hradscheck stand daneben: »Und nun vorwärts, Jakob …«'",
+          "'Der als Jakob Angeredete' durch schlicht 'Jakob' ersetzen, denn der Name ist durch die Anrede bereits eingeführt. 'statt aller Antwort' streichen, 'nickte' genügt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Einige von den Säcken",
+          "kleine Löcher und Ritzen",
+          "ein paar Holzsäulen",
+          "und so sah man denn",
+          "Du weißt ja Bescheid",
+          "nickte nur",
+          "trat nun erst in den Hausflur zurück",
+          "Auf der Straße neben dem Wagen aber stand"
+        ],
+        "suggestions": [
+          "Unbestimmte Mengenangaben ('einige', 'ein paar') konkretisieren oder weglassen, z. B. 'Aus den schlecht gebundenen Säcken rieselte Raps.'",
+          "Partikel wie 'denn', 'nun', 'erst', 'aber', 'nur' außerhalb der wörtlichen Rede weitgehend streichen. In der Figurenrede dürfen sie zur Charakterisierung bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "sagte zu dem eben vom Rad her auf die Deichsel steigenden Knecht",
+          "trieb beide Schimmel mit einem schläfrigen »Hüh« an, wenn überhaupt von Antreiben die Rede sein konnte"
+        ],
+        "suggestions": [
+          "Die Partizipialkonstruktion in eine Abfolge auflösen: 'Jakob stieg vom Rad auf die Deichsel. Hradscheck sagte: …'",
+          "Ansonsten werden die Handlungen überwiegend nacheinander erzählt. Hier ist kaum Bedarf."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "wurden Säcke, vom Hausflur her, auf einen … Bauerwagen geladen",
+          "die durch ein paar Holzsäulen und zwei dazwischen ausgespannte Hängematten von einander getrennt waren",
+          "Nur in der Mitte hatte man einen Durchgang gelassen",
+          "Der als Jakob Angeredete"
+        ],
+        "suggestions": [
+          "Handelnde Figuren benennen: 'Jakob und der Hausknecht wuchteten Säcke aus dem Hausflur auf den Bauernwagen.'",
+          "'Holzsäulen und zwei Hängematten teilten den Flur. Nur in der Mitte blieb ein Durchgang frei.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus und Materialwaarengeschäft von Abel Hradscheck (so stand auf einem über der Thür angebrachten Schilde) wurden Säcke, vom Hausflur her, auf einen mit zwei magern Schimmeln bespannten Bauerwagen geladen.",
+          "Und nun klapperte der Wagen nach rechts hin den Fahrweg hinunter, erst auf das Bauer Orth'sche Gehöft sammt seiner Windmühle (womit das Dorf nach der Frankfurter Seite hin abschloß) und dann auf die weiter draußen am Oderbruch-Damm gelegene Ölmühle zu.",
+          "Der als Jakob Angeredete nickte nur statt aller Antwort, setzte sich auf den vordersten Rapssack und trieb beide Schimmel mit einem schläfrigen »Hüh« an, wenn überhaupt von Antreiben die Rede sein konnte."
+        ],
+        "suggestions": [
+          "Den Eröffnungssatz in drei Sätze teilen: 'Über der Tür hing ein Schild: Abel Hradscheck, Gasthaus und Materialwarengeschäft. Hradscheck hatte es zu Michaeli 1820 in Tschechin eröffnet. Vor dem Haus luden sie Säcke auf einen Bauernwagen.'",
+          "Klammereinschübe auflösen oder streichen. Die lange Kette von Partizipialattributen ('dem in dem … eröffneten') durch Relativ- oder Hauptsätze ersetzen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "»Und nun vorwärts, Jakob, und grüße mir Ölmüller Quaas. Und sag' ihm, bis Ende der Woche müßt' ich das Öl haben, Leist in Wrietzen warte schon. Und wenn Quaas nicht da ist, so bestelle der Frau meinen Gruß und sei hübsch manierlich. Du weißt ja Bescheid. Und weißt auch, Kätzchen hält auf Komplimente.«"
+        ],
+        "suggestions": [
+          "Die Rede ist angemessen kurz und charakterisiert Hradscheck gut. Höchstens 'Du weißt ja Bescheid' streichen, denn der folgende Satz greift das ohnehin auf.",
+          "Die Häufung von 'Und' am Satzanfang reduzieren, sofern sie nicht bewusst als Sprechmerkmal gemeint ist."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "und so sah man denn an dem, was herausfiel, daß es Rapssäcke waren",
+          "in den man durch ein großes … Schiebefenster hineinsehen konnte"
+        ],
+        "suggestions": [
+          "Direkt zeigen: 'Aus Löchern und Ritzen rieselte Raps auf das Pflaster.'",
+          "'Durch ein Schiebefenster, das fast die halbe Wand einnahm, blickte man in den Laden.' Oder noch direkter: Was liegt im Laden?"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Säcke … Säcken … Rapssäcke … Rapssack",
+          "grüße mir Ölmüller Quaas … bestelle der Frau meinen Gruß",
+          "Schimmeln … Schimmel",
+          "nach rechts hin … nach links hin … nach der Frankfurter Seite hin",
+          "die durch … von einander getrennt waren. Nur in der Mitte hatte man einen Durchgang gelassen.",
+          "Wagen … Wagen … Wagen"
+        ],
+        "suggestions": [
+          "Das Wort 'Sack' variieren oder einsparen, z. B. indem der Raps beim ersten Auftreten benannt wird.",
+          "Das wiederholte 'hin' bei Richtungsangaben streichen.",
+          "Die Teilung des Flurs nur einmal beschreiben: 'Holzsäulen und Hängematten teilten den Flur, in der Mitte blieb ein Durchgang.'"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.09328
+}

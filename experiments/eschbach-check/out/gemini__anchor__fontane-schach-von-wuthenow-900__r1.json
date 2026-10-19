@@ -1,0 +1,129 @@
+{
+  "who": "gemini",
+  "item": "anchor__fontane-schach-von-wuthenow-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "In dem Salon der in der Behrenstraße wohnenden Frau von Carayon... [Zwei lange Absätze reine Personenbeschreibung vor der ersten Handlung]"
+        ],
+        "suggestions": [
+          "Nach modernen Maßstäben (Eschbach) beginnt die Szene zu statisch mit einer langen Exposition ('Telling'). Besser wäre ein direkter Einstieg mitten in die Diskussion (ab Absatz 3 oder 4) und das Einfließenlassen der Personenbeschreibungen während des Dialogs."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "der in der Behrenstraße wohnenden Frau",
+          "an der der Mitte des Zimmers zugekehrten Tischseite",
+          "die bis dahin unbemerkt am Theetisch beschäftigt gewesene Tochter",
+          "gleichzeitigem scherzhaftem Bedauern"
+        ],
+        "suggestions": [
+          "Besonders die schweren Partizipialkonstruktionen (als Adjektive genutzt) bremsen den Lesefluss enorm. Statt 'die am Theetisch beschäftigt gewesene Tochter' besser aktiv: 'Victoire, die bis dahin stumm den Tee eingeschenkt hatte...'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "nahm Frau von Carayon das Wort",
+          "erwiderte Sander",
+          "bestätigte Frau von Carayon, während sie gleich danach hinzufügte",
+          "lachte Bülow"
+        ],
+        "suggestions": [
+          "'Lachte Bülow' ist streng genommen unmöglich (man kann nicht Worte lachen). Besser: '»Etwas!« Bülow lachte auf.' Auch Konstruktionen wie 'bestätigte sie, während sie hinzufügte' sind unnötig umständlich und können komplett gestrichen werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "einige Freunde versammelt, aber freilich wenige nur",
+          "seit wenig Wochen erst",
+          "um einige Jahre jüngere",
+          "er sprach eigentlich immer",
+          "wenigstens in allem"
+        ],
+        "suggestions": [
+          "Der Erzähler nutzt viele relativierende Füllwörter ('freilich', 'eigentlich', 'wenigstens', 'einige'). Im Dialog (bei Bülow) passt das zur Charakterisierung, im Erzähltext verwässert es jedoch die Präzision. Streichen oder durch konkrete Angaben ersetzen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "unter gleichzeitigem scherzhaftem Bedauern darüber",
+          "warf einen Blick zu, während Alvensleben der schönen Frau die Hand küßte",
+          "bestätigte Frau von Carayon, während sie gleich danach hinzufügte",
+          "ein schwarzer Vollbart umrahmte sein Gesicht ..., während ihm der ... Rock ... zusammenschnürte"
+        ],
+        "suggestions": [
+          "'Während sie gleich danach hinzufügte' ist ein logischer Widerspruch (gleichzeitig vs. danach). Auch die Handlungen von Victoire (Blick) und Alvensleben (Handkuss) wirken stärker, wenn sie nacheinander in eigenen Hauptsätzen stehen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "allgemein als das Haupt jener militärischen Frondeurs angesehen wurde",
+          "Das Gespräch, das eben geführt wurde",
+          "wo Polen mit ins Gespräch gezogen worden war"
+        ],
+        "suggestions": [
+          "Passivkonstruktionen schaffen Distanz. Statt 'Das Gespräch, das eben geführt wurde' besser aktiv: 'Sie sprachen gerade über...'. Statt 'wo Polen ins Gespräch gezogen worden war' besser: 'Seit Bülow Polen erwähnt hatte...'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Frau von Carayon aber bemängelte diese »Morgengabe«, weil man nicht gut geben oder verschenken könne, was man nicht habe, bei welchem Worte die bis dahin unbemerkt am Theetisch beschäftigt gewesene Tochter Victoire der Mutter einen zärtlichen Blick zuwarf, während Alvensleben der schönen Frau die Hand küßte.",
+          "Unsere preußische Wirthschaft ist erbärmlich, und Mirabeau hatte Recht, den gepriesenen Staat Friedrichs des Großen mit einer Frucht zu vergleichen, die schon faul sei, bevor sie noch reif geworden, aber faul oder nicht, Eines haben wir wenigstens: ein Gefühl davon, daß die Welt in diesen letzten funfzehn Jahren einen Schritt vorwärts gemacht hat, und daß sich die großen Geschicke derselben nicht nothwendig zwischen Nuthe und Notte vollziehen müssen."
+        ],
+        "suggestions": [
+          "Der Text besteht fast ausschließlich aus extrem komplexen Schachtelsätzen (Hypotaxen). Im ersten Beispiel werden indirekte Rede, Begründung und drei verschiedene Handlungen von drei Personen in einen einzigen Satz gepresst. Unbedingt in mehrere Sätze aufteilen!"
+        ]
+      },
+      "longDialogues": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Bülows Monolog: »Etwas!« lachte Bülow. »O, meine Gnädigste ... [über 200 Wörter am Stück] ... von der unangenehmen Seite.«"
+        ],
+        "suggestions": [
+          "Obwohl im Text vorher erklärt wird, dass Bülow gerne 'Kathedervorträge' hält (der lange Monolog also zur Figur passt), ermüdet ein so langer Textblock den Leser. Eine kurze Unterbrechung durch eine Geste der anderen (z.B. wie er sich eine Oblate nimmt oder Sander die Augen verdreht) würde den Monolog auflockern."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Das Gespräch, das eben geführt wurde, schien sich um die kurz vorher beendete Haugwitzsche Mission zu drehen",
+          "in dessen Helle man jetzt deutlich erkennen konnte, daß ihr feines Profil einst dem der Mutter geglichen haben mochte"
+        ],
+        "suggestions": [
+          "Der Erzähler distanziert sich unnötig durch 'schien sich zu drehen' und 'man konnte erkennen'. Besser direkt beschreiben: 'Im Licht der Lampe zeigte sich ihr feines Profil. Einst mochte es dem der Mutter geglichen haben, doch zahlreiche Blatternarben...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "einige Freunde versammelt, aber freilich wenige nur",
+          "geben oder verschenken"
+        ],
+        "suggestions": [
+          "Der Text ist inhaltlich sehr dicht und frei von großen Redundanzen. Lediglich kleine rhetorische Doppelungen ('geben oder verschenken') könnten für mehr Prägnanz gestrafft werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.022088
+}

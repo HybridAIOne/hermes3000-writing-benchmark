@@ -1,0 +1,132 @@
+{
+  "who": "sol",
+  "item": "lit-scene__kimi-k3__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel klemmte, wie er es immer getan hatte, nur dass Marlen es verlernt hatte.",
+          "Zwanzig Jahre, dachte sie, und die Hand weiß es noch: nach links ziehen, leicht heben, dann drehen."
+        ],
+        "suggestions": [
+          "Den unmittelbaren Einstieg an der verschlossenen Tür beibehalten: Er verbindet Handlung, Rückkehr und Entfremdung ohne vorgeschaltete Erklärung.",
+          "Die Spannung zwischen „es verlernt hatte“ und „die Hand weiß es noch“ bei Bedarf als Gegensatz zwischen bewusster und körperlicher Erinnerung verdeutlichen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Flur roch nach Staub und kaltem Ofen, darunter, kaum wahrnehmbar, nach Lavendel",
+          "Ihre Schritte auf den Dielen klangen fremd, zu laut, wie die eines Eindringlings.",
+          "als habe jemand sie ordentlich abgewaschen und weggeräumt"
+        ],
+        "suggestions": [
+          "„ordentlich“ streichen; „abgewaschen und weggeräumt“ vermittelt die Sorgfalt bereits.",
+          "Bei den Schritten prüfen, ob „zu laut, wie die eines Eindringlings“ genügt. „fremd“ benennt zusätzlich, was der Vergleich schon ausdrückt.",
+          "Atmosphärisch tragende Attribute wie „kaltem Ofen“ erhalten; sie leisten konkrete Sinnesarbeit."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Zwanzig Jahre, dachte sie"],
+        "suggestions": [
+          "Es gibt keine gesprochenen Dialoge und damit keine überflüssigen Redekennzeichnungen. „dachte sie“ kennzeichnet hier einen Gedanken und ist keine Dialogeinleitung."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "darunter, kaum wahrnehmbar, nach Lavendel",
+          "auf wen, das wusste sie heute nicht mehr",
+          "ob ihre Mutter wirklich allein hier gestorben war"
+        ],
+        "suggestions": [
+          "„heute“ probeweise streichen: Der Gegensatz zwischen Kindheit und Gegenwart ergibt sich bereits aus dem Kontext.",
+          "„kaum wahrnehmbar“ und „wirklich“ nicht pauschal entfernen: Die erste Wendung bereitet die spätere Verstärkung des Duftes vor, die zweite markiert Marlens aufkommenden Zweifel."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Marlen ließ die Tür offen, mehr aus Zögern als aus Vernunft, und blieb auf der Schwelle stehen.",
+          "Der Lavendelduft wurde stärker, je kälter das Haus wurde"
+        ],
+        "suggestions": [
+          "Die überwiegend klare Handlungsfolge beibehalten; eine störende Häufung von Gleichzeitigkeitskonstruktionen liegt nicht vor.",
+          "Die Kopplung von zunehmender Kälte und stärkerem Duft erhalten, da gerade ihr Zusammenhang das Unheimliche erzeugt. Die mehrfachen „als“-Vergleiche sind keine zeitlichen Gleichzeitigkeitskonstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Nur zwei Wörter waren noch zu erkennen: nicht vergessen.",
+          "die Jalousien halb heruntergelassen"
+        ],
+        "suggestions": [
+          "Es gibt keine auffällige Häufung von Vorgangspassiv. Die Zustandsbeschreibung der Jalousien passt zur ruhenden Szenerie.",
+          "Die passivähnliche Wendung „waren noch zu erkennen“ lässt sich knapper fassen: „Nur zwei Wörter blieben lesbar: nicht vergessen.“"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Flur roch nach Staub und kaltem Ofen, darunter, kaum wahrnehmbar, nach Lavendel – der Duft, den ihre Mutter in kleinen Säckchen zwischen die Wäsche gelegt hatte.",
+          "Auf dem Tisch stand eine Tasse, nach innen gestülpt, als habe jemand sie ordentlich abgewaschen und weggeräumt und dann nie wieder gebraucht."
+        ],
+        "suggestions": [
+          "Den Geruchssatz bei gewünschter Straffung teilen: „Der Flur roch nach Staub und kaltem Ofen. Darunter lag ein Hauch Lavendel. Ihre Mutter hatte Lavendelsäckchen zwischen die Wäsche gelegt.“",
+          "Die Tassenbeschreibung entlasten: „Auf dem Tisch stand eine umgedrehte Tasse, als habe jemand sie abgewaschen, abgestellt und danach nie wieder gebraucht.“",
+          "Nicht alle längeren Sätze auflösen: Der Wechsel mit kurzen Sätzen wie „Trotzdem war er da“ trägt den Rhythmus."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Dialogpassagen vorhanden; eine Straffung nach diesem Kriterium ist nicht erforderlich."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Im Spiegel gegenüber sah sie sich selbst: eine Frau Mitte vierzig mit dem Gesicht ihrer Mutter",
+          "auf wen, das wusste sie heute nicht mehr",
+          "und Marlen fragte sich zum ersten Mal, ob ihre Mutter wirklich allein hier gestorben war"
+        ],
+        "suggestions": [
+          "Die Spiegelwahrnehmung direkter formulieren: „Im Spiegel gegenüber: eine Frau Mitte vierzig mit dem Gesicht ihrer Mutter, eingerahmt von Spinnweben wie von einem Trauerflor.“",
+          "Den Schluss versuchsweise in eine unmittelbare Gedankenfrage überführen: „War ihre Mutter wirklich allein hier gestorben?“ Dabei abwägen, ob die Information „zum ersten Mal“ erhalten bleiben soll.",
+          "Wahrnehmungs- und Gedankenfilter nur gezielt reduzieren; sie sind hier sparsam eingesetzt und können Marlens tastende Selbstbeobachtung unterstützen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Zwanzig Jahre, dachte sie",
+          "Dass er sich zwanzig Jahre gehalten hatte, war unmöglich.",
+          "Der Flur roch nach Staub und kaltem Ofen, darunter, kaum wahrnehmbar, nach Lavendel",
+          "Der Lavendelduft wurde stärker, je kälter das Haus wurde"
+        ],
+        "suggestions": [
+          "Die zweite Nennung von „zwanzig Jahre“ bei Bedarf variieren: „Dass er sich so lange gehalten hatte, war unmöglich.“ Die genaue Zeitspanne kann allerdings bewusst das Rätsel betonen.",
+          "Die Wiederkehr des Lavendeldufts unbedingt erhalten: Sie wiederholt nicht bloß eine Information, sondern steigert sie vom schwachen Erinnerungsreiz zum unheimlichen Signal.",
+          "Die Bildfolge aus versunkenem Schiff, Eindringling, Trauerflor und suchender Hand auf Dichte prüfen. Falls eine nüchternere Wirkung gewünscht ist, einen Vergleich streichen, statt das zentrale Duftmotiv zu kürzen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020728
+}

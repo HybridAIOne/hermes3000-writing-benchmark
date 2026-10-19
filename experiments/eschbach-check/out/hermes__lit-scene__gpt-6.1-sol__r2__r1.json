@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gpt-6.1-sol__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel ging schwer, aber er passte noch."],
+        "suggestions": [
+          "Der Einstieg ist exzellent gewählt, da er sofort eine physische Handlung und eine emotionale Schwere etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Das Geräusch war kleiner (statt leiser)"],
+        "suggestions": [
+          "'Kleiner' ist bei einem Geräusch metaphorisch, aber 'leiser' wäre präziser. Ansonsten sehr sparsamer und effektiver Einsatz von Adjektiven."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher keine Redeeinleitungen notwendig."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr präzise und kommt ohne Füllwörter aus."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Handlungen folgen logisch aufeinander, keine unnötigen 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["...in dessen Oberfläche ein schwarzes Haar eingeschlossen war."],
+        "suggestions": [
+          "Das Passiv wird hier korrekt zur Zustandsbeschreibung eingesetzt, nicht zur Verschleierung von Akteuren."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzstruktur ist abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ihr Körper wusste es vor ihr."],
+        "suggestions": [
+          "Die Wahrnehmung ist sehr direkt und sinnlich (Geruch, Tastsinn), keine Filterwörter wie 'sie sah, dass' verwendet."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Keine inhaltlichen Doppelungen erkennbar. Der Text ist sehr kompakt."]
+      }
+    }
+  },
+  "costUsd": 0
+}

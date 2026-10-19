@@ -1,0 +1,134 @@
+{
+  "who": "gemini",
+  "item": "anchor__fontane-unterm-birnbaum-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin...",
+          "Dieser war breit und tief und theilte sich in zwei Hälften..."
+        ],
+        "suggestions": [
+          "Obwohl der Text mitten in einer Handlung (Säcke aufladen) beginnt, bremst die darauffolgende seitenlange Beschreibung von Hausflur und Garten die Szene komplett aus. Nach modernen Maßstäben könnte die Szene direkt im Garten beim Fall der Birne und dem Gespräch mit der Nachbarin einsetzen, während die Raumbeschreibungen in die Handlung integriert werden."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "in dem großen und reichen Oderbruchdorfe",
+          "mit zwei magern Schimmeln",
+          "mit eigenthümlich dumpfem Ton",
+          "ein großes, fast die halbe Wand einnehmendes Schiebefenster",
+          "sorglich vorgelegter Keil"
+        ],
+        "suggestions": [
+          "Der Text nutzt sehr viele beschreibende Adjektive und vor allem lange Partizipialkonstruktionen (typisch für das 19. Jahrhundert). Streiche redundante Adjektive: Wenn das Fenster 'fast die halbe Wand einnimmt', ist das Wort 'groß' überflüssig. Statt 'zwei magere Schimmel' lieber 'zwei Klepper' oder 'Schindmähren' verwenden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "sagte zu dem eben vom Rad her auf die Deichsel steigenden Knecht:",
+          "schloß [...] die Fallthür und sagte:",
+          "»Ja, Mutter Jeschke, 's wird Zeit,« sagte Hradscheck."
+        ],
+        "suggestions": [
+          "Die Dialogkennzeichnungen sind meist unauffällig ('sagte') oder fallen am Ende ganz weg, da der Sprecher klar ist. Das Selbstgespräch im Flur ('und sagte: Dieser Junge...') wirkt heute etwas künstlich und könnte besser als innerer Monolog (Gedanke) formuliert werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Einige von den Säcken",
+          "eine gewisse Herrschaftlichkeit",
+          "muthmaßlich auf der Sperlingssuche",
+          "ein paar Holzsäulen",
+          "etwas zurückgebautes Haus"
+        ],
+        "suggestions": [
+          "Wörter wie 'gewisse', 'einige', 'etwas' und 'muthmaßlich' schwächen die Präzision des Textes. Entscheide dich für klare Bilder: Entweder jagt die Katze Sperlinge oder nicht ('muthmaßlich' streichen). Ersetze 'ein paar' durch eine genaue Zahl oder lass es weg."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "kam erst zu Betrachtung und Bewußtsein, als er, am Ende des Gartens angekommen, sich umsah",
+          "hatte die Birne kaum aufgehoben, als er sich von der Seite her angerufen hörte"
+        ],
+        "suggestions": [
+          "Das Wort 'während' wird im Text hauptsächlich für räumliche Kontraste genutzt, was in Ordnung ist. Bei Handlungen gibt es jedoch einige 'als'-Konstruktionen, die man für mehr Unmittelbarkeit nacheinander schalten könnte: 'Er hob die Birne auf. Da rief ihn jemand von der Seite an.'"
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "wurden Säcke [...] auf einen [...] Bauerwagen geladen.",
+          "die durch ein paar Holzsäulen [...] von einander getrennt waren.",
+          "deren stattliche Reihe nur durch eine zum Keller hinunterführende Fallthür unterbrochen war.",
+          "waren schon wieder umgegraben"
+        ],
+        "suggestions": [
+          "Der erste Satz beginnt direkt im Passiv ('wurden geladen'). Es bleibt unklar, wer hier eigentlich arbeitet – vermutlich der Knecht Jakob. Aktiv formuliert gewinnt der Einstieg sofort an Leben: 'Der Knecht Jakob wuchtete die Rapssäcke aus dem Hausflur auf den Bauernwagen.' Auch die Raumbeschreibungen enthalten viel Zustandspassiv."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus und Materialwaarengeschäft von Abel Hradscheck (so stand auf einem über der Thür angebrachten Schilde) wurden Säcke, vom Hausflur her, auf einen mit zwei magern Schimmeln bespannten Bauerwagen geladen.",
+          "Ein paar Möhrenbeete, die sich, sammt einem schmalen mit Kartoffeln besetzten Ackerstreifen, an eben dieser Stelle durch eine Spargel-Anlage hinzogen, waren schon wieder umgegraben, eine frische Luft ging, und eine schwarzgelbe, der nebenanwohnenden Wittwe Jeschke zugehörige Katze schlich, muthmaßlich auf der Sperlingssuche, durch die schon hoch in Samen stehenden Spargelbeete."
+        ],
+        "suggestions": [
+          "Der Text (Fontanes 'Unterm Birnbaum') ist geprägt von extrem langen Schachtelsätzen und erweiterten Partizipialattributen ('dem eben vom Rad her auf die Deichsel steigenden Knecht'). Nach Eschbachs Kriterien für modernes Schreiben sollten diese Sätze dringend aufgeteilt und die Einschübe in eigenständige Haupt- oder Nebensätze umgewandelt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "»Und nun vorwärts, Jakob, und grüße mir Ölmüller Quaas...«",
+          "»Dag, Hradscheck. Joa, et wahrd nu Tied. De Malvesieren kümmen all von sülwst.«"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knackig, charakterisieren die Figuren gut (Dialekt der Jeschke, Geschäftigkeit von Hradscheck) und treiben die Handlung voran. Hier gibt es nichts zu kürzen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "und so sah man denn an dem, was herausfiel, daß es Rapssäcke waren.",
+          "in den man [...] hineinsehen konnte.",
+          "als er [...] eine große [...] Malvasierbirne [...] aufklatschen hörte.",
+          "als er sich von der Seite her angerufen hörte:",
+          "Er wandte sich bei diesem Anruf und sah, daß seine Nachbarin [...] über den Himbeerzaun kuckte."
+        ],
+        "suggestions": [
+          "Es gibt viele Wahrnehmungsverben ('sah', 'hörte', 'sah man'). Das schafft Distanz. Besser direkt beschreiben: Statt 'Er wandte sich und sah, dass seine Nachbarin über den Zaun kuckte' einfach: 'Er wandte sich um. Seine Nachbarin, die Jeschke, kuckte über den Himbeerzaun.' Statt 'sah man, dass es Rapssäcke waren' lieber: 'Aus den Löchern rieselte Raps.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Einige von den Säcken waren nicht gut gebunden oder hatten kleine Löcher und Ritzen",
+          "So war der Flur.",
+          "kam erst zu Betrachtung und Bewußtsein"
+        ],
+        "suggestions": [
+          "Der Text ist weitgehend frei von großen inhaltlichen Redundanzen. Kleinere Doppelungen wie 'Löcher und Ritzen' oder 'Betrachtung und Bewußtsein' sind Stilmittel, könnten aber gestrafft werden. Zusammenfassende Überleitungen wie 'So war der Flur' sind entbehrlich, da der Flur ja gerade beschrieben wurde."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.024464
+}

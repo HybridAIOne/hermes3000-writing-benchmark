@@ -1,0 +1,90 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gpt-6-luna__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel klemmte, als hätte das Haus beschlossen, sie nicht sofort hineinzulassen."
+        ],
+        "suggestions": [
+          "Der Einstieg ist bereits sehr stark und atmosphärisch. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["süßliches", "rostfarbener", "dünner"],
+        "suggestions": [
+          "Die Adjektive sind stimmungsvoll. Achte darauf, dass sie nicht überhandnehmen, um den Lesefluss nicht zu bremsen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": []
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kaum mehr als", "genau dort"],
+        "suggestions": ["Prüfen, ob 'genau' gestrichen werden kann, ohne den Sinn zu verändern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als erwarte ihre Mutter Besuch"],
+        "suggestions": ["Die zeitlichen Abläufe sind klar und logisch strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Stühle waren ordentlich daruntergeschoben"],
+        "suggestions": [
+          "Das Zustandspassiv ist hier atmosphärisch passend, da es den Stillstand betont."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut lesbar."]
+      },
+      "dialogueLength": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": []
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie spürte, wie das Schloss nachgab",
+          "Sie wusste nicht, wohin mit den Händen",
+          "Sie wusste nicht, woher es kam"
+        ],
+        "suggestions": [
+          "Direkter formulieren: Statt 'Sie spürte, wie das Schloss nachgab' -> 'Das Schloss gab nach.' Statt 'Sie wusste nicht, wohin mit den Händen' -> 'Ihre Hände fühlten sich fremd an.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Staub (wird zweimal kurz hintereinander erwähnt)",
+          "Apfel (Äpfeln/Apfelbaum)"
+        ],
+        "suggestions": [
+          "Die Wiederholung von 'Staub' im ersten und dritten Absatz könnte durch ein Synonym oder eine Umschreibung (z.B. 'grauer Belag') variiert werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

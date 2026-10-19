@@ -1,0 +1,92 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gemini-4-argon__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel hing so tief über dem Wasser, dass das andere Ufer nicht existierte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist exzellent gewählt; er etabliert sofort Atmosphäre und Setting, ohne unnötige Vorgeschichte."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["nassen Asphalt", "graues Schilf", "schwer und ölig"],
+        "suggestions": [
+          "Die Adjektive sind stimmungsvoll und nicht überladen. Sie unterstützen das 'Show, don't tell'-Prinzip."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Morgen, Ilse“, rief er gegen das Nageln des Diesels an.",
+          "„Kröger.“ Sie hielt ihm die lederne Kassiertasche hin."
+        ],
+        "suggestions": [
+          "Sehr gut gelöst. Die Begleithandlungen ersetzen fast vollständig die klassischen 'sagte er'-Konstruktionen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kaum dass", "völlig"],
+        "suggestions": [
+          "Der Text ist sehr präzise. Es gibt kaum Füllwörter, die den Lesefluss bremsen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Gleichzeitig tauchte daneben eine schmale Silhouette auf"],
+        "suggestions": [
+          "Das Wort 'Gleichzeitig' könnte gestrichen werden, um den Satz noch direkter zu machen: 'Daneben tauchte eine schmale Silhouette auf...'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse stand neben dem Steuerstand", "Sie kurbelte sie hoch"],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert, was die Dynamik der Szene unterstützt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ihre Finger steckten in fingerlosen Wollhandschuhen, die Knöchel waren gerötet von der feuchten Kälte, die seit Ende Oktober nicht mehr aus den Kleidern wich."
+        ],
+        "suggestions": ["Die Satzlängen sind gut variiert und rhythmisch angenehm zu lesen."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Fahren Sie heute Abend auch noch? Gegen acht?“"],
+        "suggestions": ["Die Dialoge sind kurz, funktional und treiben die Handlung voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie sah sich suchend um, als erwarte sie...", "Ilse sah hinunter."],
+        "suggestions": [
+          "Die Wahrnehmung ist sehr direkt. Formulierungen wie 'sie dachte, dass' wurden erfolgreich vermieden."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine signifikanten inhaltlichen Doppelungen."],
+        "suggestions": ["Der Text ist sehr kompakt und frei von unnötigen Wiederholungen."]
+      }
+    }
+  },
+  "costUsd": 0
+}

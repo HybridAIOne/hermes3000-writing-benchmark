@@ -1,0 +1,114 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__kimi-k3__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Der Motor läuft\", sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist perfekt gewählt (in medias res). Keine unnötige Vorrede, die Beziehung der Figuren und das Setting werden sofort durch Handlung und Dialog etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "lächelte schief",
+          "lachte kurz",
+          "das unregelmäßige Tuckern",
+          "braun und still"
+        ],
+        "suggestions": [
+          "Sehr sparsamer und treffender Einsatz. Einzig bei 'das unregelmäßige Tuckern' könnte man durch ein noch präziseres Substantiv/Verb wie 'das Stottern' oder 'das Husten des Motors' das Adjektiv einsparen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Muss man jetzt nicht zahlen?\", fragte er und lächelte schief.",
+          "„Du hast grau geworden\", sagte Ilse.",
+          "„Wie lange bleibst du?\", fragte sie"
+        ],
+        "suggestions": [
+          "Viele Dialogzeilen kommen bereits wunderbar ohne Inquit-Formeln aus. Bei 'fragte er und lächelte schief' reicht 'Er lächelte schief.' (Da ein Fragezeichen steht, ist 'fragte er' redundant).Hinweis: 'Du hast grau geworden' ist vermutlich ein Tippfehler für 'Du bist grau geworden' (oder gewollter Regiolekt)."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "drehte die Fähre einen Hauch nach draußen",
+          "Dann helfe ich halt.",
+          "Vielleicht die Minuten. Vielleicht die Meter."
+        ],
+        "suggestions": [
+          "Der Text ist nahezu frei von Füllwörtern. Wörter wie 'halt' stehen im Dialog und charakterisieren die Figurenrede natürlich. 'Vielleicht' zeigt hier gut Ilses Perspektive von außen auf Jonas."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Wie lange bleibst du?\", fragte sie, als die Mitte des Stroms hinter ihnen lag."
+        ],
+        "suggestions": [
+          "Kaum gleichzeitige Konstruktionen, Handlungen werden sauber nacheinander beschrieben. Das 'als' im Beispielsatz könnte man noch linearer auflösen: 'Die Mitte des Stroms lag hinter ihnen. „Wie lange bleibst du?“'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Ausgezeichnet. Der gesamte Text ist aktiv formuliert, selbst die Umgebung agiert aktiv ('Die Strömung griff...', 'das Seil fing sie')."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Jetzt kamen nur noch die Kinder und die Radfahrer im Sommer, und die zahlten in eine Blechdose, die an einem Nagel hing."
+        ],
+        "suggestions": [
+          "Sehr guter Satzrhythmus. Kurze und mittellange Sätze wechseln sich harmonisch ab. Keine unübersichtlichen Schachtelsätze vorhanden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Danke, Mama.\"\n„Steht dir.\""],
+        "suggestions": [
+          "Hervorragend. Die Dialoge sind lakonisch, knapp und voller Subtext. Kein Wort zu viel."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ein Junge, dachte sie, der seinen Koffer hinter sich herzieht wie einen Hund.",
+          "Ilse kannte diesen Blick von den Leuten, die selten kamen"
+        ],
+        "suggestions": [
+          "Da wir ohnehin in Ilses personaler Perspektive sind, kann das 'dachte sie' gestrichen werden. Direkt in erlebter Rede wirkt es noch unmittelbarer: 'Ein Junge, der seinen Koffer hinter sich herzieht wie einen Hund.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er hatte das als Kind nie getan. Als Kind hatte er sich auf die Reling gehockt...",
+          "Am anderen Ufer wartete niemand. Der Anleger lag leer im Nachmittagslicht..."
+        ],
+        "suggestions": [
+          "Die Wiederholung von 'Als Kind' ist ein schönes rhetorisches Mittel. 'Am anderen Ufer wartete niemand' und 'Der Anleger lag leer' doppeln sich inhaltlich minimal, das Bild des leeren Anlegers im Licht allein würde schon zeigen, dass niemand wartet."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.015722
+}

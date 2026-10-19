@@ -1,0 +1,83 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gpt-6.1-sol__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Er läuft“, sagte sie."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort in die Handlung wirft und Spannung erzeugt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["dünnen Mantel", "kleinen Wellen"],
+        "suggestions": [
+          "Die Adjektive sind sparsam eingesetzt. 'Kleinen' bei Wellen könnte man streichen, um das 'Schmatzen' stärker wirken zu lassen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["„Ja“, sagte er."],
+        "suggestions": [
+          "Das 'sagte er' nach 'Ja' ist redundant, da der Sprecher klar ist. Hier könnte man das Tag streichen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr präzise und kommt ohne Füllwörter aus."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Als sie ablegten, vibrierte das Seil."],
+        "suggestions": [
+          "Die Gleichzeitigkeit wird hier sehr effektiv und nicht überstrapaziert eingesetzt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist fast vollständig aktiv formuliert, was die Dynamik stärkt."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind kurz, knackig und transportieren Subtext hervorragend."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Text zeigt Handlungen direkt, ohne Filter wie 'er sah, dass' oder 'sie dachte, dass'. Sehr stark."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Koffer (wird mehrfach erwähnt)"],
+        "suggestions": [
+          "Die Wiederholung von 'Koffer' ist funktional, da er ein zentrales Objekt der Interaktion ist. Keine inhaltlichen Doppelungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

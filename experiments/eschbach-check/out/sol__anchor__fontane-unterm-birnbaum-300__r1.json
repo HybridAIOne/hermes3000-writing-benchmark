@@ -1,0 +1,141 @@
+{
+  "who": "sol",
+  "item": "anchor__fontane-unterm-birnbaum-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus und Materialwaarengeschäft von Abel Hradscheck",
+          "so stand auf einem über der Thür angebrachten Schilde"
+        ],
+        "suggestions": [
+          "Unmittelbarer mit dem Verladen der Säcke beginnen: „Vor Abel Hradschecks Gasthaus in Tschechin wurden Rapssäcke auf einen Bauerwagen geladen.“",
+          "Eröffnungsdatum, Wohlstand des Dorfes und Schildaufschrift gegebenenfalls später einführen. Der bestehende Einstieg erfüllt allerdings eine erkennbare Funktion als ruhige Milieu- und Ortsbeschreibung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "in dem großen und reichen Oderbruchdorfe",
+          "mit zwei magern Schimmeln",
+          "mit einem schläfrigen »Hüh«"
+        ],
+        "suggestions": [
+          "Die pauschalen Attribute „großen und reichen“ auf ihre Bedeutung für die weitere Handlung prüfen oder den Wohlstand durch konkrete Einzelheiten vermitteln.",
+          "Anschauliche, charakterisierende Attribute wie „magern“ und „schläfrigen“ eher behalten: Sie leisten mehr als bloße Ausschmückung."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "stand Abel Hradscheck selbst und sagte zu dem eben vom Rad her auf die Deichsel steigenden Knecht",
+          "Der als Jakob Angeredete nickte nur statt aller Antwort"
+        ],
+        "suggestions": [
+          "Die Redeeinleitung durch eine eigenständige Handlung ersetzen: „Abel Hradscheck stand neben dem Wagen. »Und nun vorwärts, Jakob …«“",
+          "Nach der direkten Anrede genügt „Jakob nickte“; „Der als Jakob Angeredete“ identifiziert den bereits bekannten Sprecherpartner unnötig umständlich."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Einige von den Säcken",
+          "und so sah man denn",
+          "Und nun klapperte der Wagen",
+          "wenn überhaupt von Antreiben die Rede sein konnte"
+        ],
+        "suggestions": [
+          "Die Verbindung „und so sah man denn“ durch eine unmittelbare Beschreibung des herausrieselnden Rapses ersetzen.",
+          "Erzählerische Übergangswörter wie „nun“ und den relativierenden Nachsatz zum Antreiben gezielt reduzieren.",
+          "Unbestimmte Mengen nicht zwanghaft durch Zahlen ersetzen. „Einige“ ist nur dann zu präzisieren, wenn die genaue Anzahl wichtig ist; Gesprächspartikeln im Dialog dürfen der Figurenstimme dienen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "nickte nur statt aller Antwort, setzte sich auf den vordersten Rapssack und trieb beide Schimmel",
+          "Hradscheck sah dem Wagen nach, bis er verschwunden war, und trat nun erst in den Hausflur zurück."
+        ],
+        "suggestions": [
+          "Die klare zeitliche Abfolge grundsätzlich beibehalten; eine Häufung von Gleichzeitigkeitssignalen liegt nicht vor.",
+          "Allenfalls die eingebettete Bewegung des „eben vom Rad her auf die Deichsel steigenden“ Knechts als eigenen Satz darstellen, wenn der Einstieg leichter lesbar werden soll."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "wurden Säcke, vom Hausflur her, auf einen mit zwei magern Schimmeln bespannten Bauerwagen geladen",
+          "die durch ein paar Holzsäulen und zwei dazwischen ausgespannte Hängematten von einander getrennt waren"
+        ],
+        "suggestions": [
+          "Den Beladevorgang aktiv formulieren, sofern die handelnde Figur bekannt ist. Keinen zusätzlichen Akteur nur zur Vermeidung des Passivs erfinden.",
+          "Die räumliche Beschreibung aktivieren: „Holzsäulen und zwei dazwischen ausgespannte Hängematten trennten den Flur in zwei Hälften.“",
+          "Die passivischen Partizipialattribute im ersten Satz reduzieren; nicht jedes davon ist für sich problematisch, ihre Häufung erschwert jedoch den Einstieg."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus und Materialwaarengeschäft von Abel Hradscheck (so stand auf einem über der Thür angebrachten Schilde) wurden Säcke, vom Hausflur her, auf einen mit zwei magern Schimmeln bespannten Bauerwagen geladen.",
+          "Und nun klapperte der Wagen nach rechts hin den Fahrweg hinunter, erst auf das Bauer Orth'sche Gehöft sammt seiner Windmühle (womit das Dorf nach der Frankfurter Seite hin abschloß) und dann auf die weiter draußen am Oderbruch-Damm gelegene Ölmühle zu."
+        ],
+        "suggestions": [
+          "Den ersten Satz in Handlung, Ortsinformation und gegebenenfalls Schildbeschreibung aufteilen. Vor allem die mehrfach ineinandergeschobenen Attribute belasten die Verständlichkeit.",
+          "Die Wagenfahrt in zwei Sätzen schildern: zunächst die Fahrt zum Dorfende, anschließend die Richtung zur Ölmühle.",
+          "Nicht alle längeren Sätze kürzen: Der historische Erzählrhythmus kann erhalten bleiben, solange Handlung und räumliche Orientierung klar sind."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Und sag' ihm, bis Ende der Woche müßt' ich das Öl haben, Leist in Wrietzen warte schon.",
+          "Du weißt ja Bescheid. Und weißt auch, Kätzchen hält auf Komplimente."
+        ],
+        "suggestions": [
+          "Die einzige Rede umfasst mehrere kurze, gut verständliche Sätze und ist nicht grundsätzlich zu lang.",
+          "Bei gewünschtem höherem Tempo „Du weißt ja Bescheid“ streichen oder mit dem folgenden Satz verbinden. Die Bemerkung über Kätzchen möglichst erhalten, wenn sie Beziehungen und Umgangston charakterisieren soll."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "und so sah man denn an dem, was herausfiel, daß es Rapssäcke waren",
+          "Hradscheck sah dem Wagen nach, bis er verschwunden war"
+        ],
+        "suggestions": [
+          "Die unpersönlich vermittelte Wahrnehmung direkt darstellen: „Aus schlecht verschnürten oder löchrigen Säcken rieselte Raps.“",
+          "Hradschecks Nachsehen nicht automatisch streichen: Hier bezeichnet „sah“ eine tatsächliche Handlung und strukturiert den Übergang ins Haus, statt lediglich eine Wahrnehmung vorzuschalten."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "trieb beide Schimmel mit einem schläfrigen »Hüh« an, wenn überhaupt von Antreiben die Rede sein konnte",
+          "Und nun vorwärts",
+          "Und nun klapperte der Wagen",
+          "und trat nun erst in den Hausflur zurück",
+          "Du weißt ja Bescheid. Und weißt auch"
+        ],
+        "suggestions": [
+          "Beim Antreiben entweder das charakterisierende „schläfrige Hüh“ oder den ironischen Nachsatz verwenden; beide schwächen dieselbe Handlung ab.",
+          "Die wiederkehrenden Anschlüsse mit „Und nun“ beziehungsweise „nun erst“ variieren oder teilweise streichen.",
+          "Die Wiederholung von „weißt“ nur kürzen, wenn die mündliche Eindringlichkeit nicht beabsichtigt ist. Insgesamt gibt es eher sprachliche Wiederholungen als umfangreiche inhaltliche Doppelungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.022632
+}

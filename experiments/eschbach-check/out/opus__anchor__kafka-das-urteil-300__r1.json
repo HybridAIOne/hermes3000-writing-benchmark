@@ -1,0 +1,141 @@
+{
+  "who": "opus",
+  "item": "anchor__kafka-das-urteil-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Es war an einem Sonntagvormittag im schönsten Frühjahr.",
+          "Georg Bendemann, ein junger Kaufmann, saß in seinem Privatzimmer im ersten Stock eines der niedrigen, leichtgebauten Häuser, die entlang des Flusses ..."
+        ],
+        "suggestions": [
+          "Die Szene könnte direkt mit der Handlung beginnen, etwa: 'Georg Bendemann verschloß den Brief an seinen Jugendfreund in spielerischer Langsamkeit.' Zeit und Ort ließen sich danach beiläufig einflechten.",
+          "Die ausführliche Beschreibung der Häuserreihe könnte nach hinten rücken. Dann steht der Brief, der zentrale Konflikt, gleich im Vordergrund."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "im schönsten Frühjahr",
+          "der niedrigen, leichtgebauten Häuser",
+          "der fremdartige Vollbart verdeckte nur schlecht das seit den Kinderjahren wohlbekannte Gesicht",
+          "nutzlos abarbeitete",
+          "mit ihrem schwachen Grün"
+        ],
+        "suggestions": [
+          "'im schönsten Frühjahr' ist wertend und unkonkret. Besser wäre ein sinnliches Detail, z. B. Licht oder blühende Bäume.",
+          "Die Doppelung 'niedrigen, leichtgebauten' ließe sich auf ein Merkmal reduzieren.",
+          "'verdeckte nur schlecht' ließe sich präziser fassen, etwa durch ein Verb wie 'ließ ... durchscheinen'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "wie der Freund bei seinen immer seltener werdenden Besuchen klagte",
+          "Wie er erzählte, hatte er keine rechte Verbindung ..."
+        ],
+        "suggestions": [
+          "Es gibt keine direkte Rede. Die Einschübe der indirekten Rede ('wie ... klagte', 'Wie er erzählte') wirken jedoch distanzierend. Ein Teil davon könnte entfallen, da die Herkunft der Information aus dem Kontext klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "fast nur in der Höhe und Färbung unterschieden",
+          "seit langem aber schon zu stocken schien",
+          "auf eine sich entwickelnde Krankheit hinzudeuten schien",
+          "aber auch fast keinen gesellschaftlichen Verkehr",
+          "der sich offenbar verrannt hatte",
+          "Sollte man ihm vielleicht raten",
+          "nach Rußland sich förmlich geflüchtet hatte",
+          "wofür ja kein Hindernis bestand"
+        ],
+        "suggestions": [
+          "Das doppelte 'schien' schwächt die Aussagen ab. Mindestens eines sollte gestrichen werden: 'dessen gelbe Hautfarbe eine Krankheit ankündigte'.",
+          "Streichkandidaten sind 'fast', 'offenbar', 'förmlich', 'ja', 'schon' und 'gerade'. Wo sie keine bewusste Unsicherheit der Figur ausdrücken, sollten sie entfallen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "verschloß ihn in spielerischer Langsamkeit und sah dann, den Ellbogen auf den Schreibtisch gestützt, aus dem Fenster"
+        ],
+        "suggestions": [
+          "Die Handlungen sind weitgehend sauber nacheinander erzählt ('und sah dann'). Nur die Partizipialkonstruktion 'den Ellbogen ... gestützt' schiebt eine Gleichzeitigkeit ein. Sie könnte als eigene Handlung stehen: 'Er stützte den Ellbogen auf den Schreibtisch und sah aus dem Fenster.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "eines der niedrigen, leichtgebauten Häuser",
+          "bei seinen immer seltener werdenden Besuchen"
+        ],
+        "suggestions": [
+          "Echte Passivsätze fehlen. Partizipialattribute wie 'leichtgebauten' oder 'immer seltener werdenden' haben aber passivischen bzw. statischen Charakter. Aktiver wäre z. B.: 'wie der Freund klagte, wenn er – immer seltener – zu Besuch kam'."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Georg Bendemann, ein junger Kaufmann, saß in seinem Privatzimmer im ersten Stock eines der niedrigen, leichtgebauten Häuser, die entlang des Flusses in einer langen Reihe, fast nur in der Höhe und Färbung unterschieden, sich hinzogen.",
+          "Er hatte gerade einen Brief an einen sich im Ausland befindenden Jugendfreund beendet, verschloß ihn in spielerischer Langsamkeit und sah dann, den Ellbogen auf den Schreibtisch gestützt, aus dem Fenster auf den Fluß, die Brücke und die Anhöhen am anderen Ufer mit ihrem schwachen Grün.",
+          "Sollte man ihm vielleicht raten, wieder nach Hause zu kommen, seine Existenz hierher zu verlegen, alle die alten freundschaftlichen Beziehungen wieder aufzunehmen -- wofür ja kein Hindernis bestand -- und im übrigen auf die Hilfe der Freunde zu vertrauen?"
+        ],
+        "suggestions": [
+          "Den Häusersatz teilen: 'Georg Bendemann saß in seinem Privatzimmer im ersten Stock. Das Haus gehörte zu einer langen Reihe niedriger Bauten am Fluß, die sich kaum voneinander unterschieden.'",
+          "Die verschachtelte Attributkonstruktion 'einen sich im Ausland befindenden Jugendfreund' auflösen: 'einen Jugendfreund im Ausland'.",
+          "Die Wortstellung 'sich hinzogen', 'nach Rußland sich ... geflüchtet', 'anfangs sich ... angelassen' normalisieren, um den Lesefluss zu verbessern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text enthält keine Dialogpassagen. Daher besteht kein Straffungsbedarf."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Er dachte darüber nach, wie dieser Freund, mit seinem Fortkommen zu Hause unzufrieden, vor Jahren schon nach Rußland sich förmlich geflüchtet hatte.",
+          "sah dann ... aus dem Fenster auf den Fluß, die Brücke und die Anhöhen",
+          "seit langem aber schon zu stocken schien",
+          "auf eine sich entwickelnde Krankheit hinzudeuten schien"
+        ],
+        "suggestions": [
+          "'Er dachte darüber nach, wie' streichen und direkt erzählen: 'Dieser Freund hatte sich vor Jahren, mit seinem Fortkommen zu Hause unzufrieden, förmlich nach Rußland geflüchtet.'",
+          "Statt 'sah aus dem Fenster auf den Fluß' die Wahrnehmung direkt zeigen: 'Draußen floß der Fluß unter der Brücke, am anderen Ufer zeigten die Anhöhen ihr erstes schwaches Grün.'",
+          "Die erlebte Rede am Ende ('Was wollte man einem solchen Manne schreiben ...') zeigt, wie wirkungsvoll die direkte Innensicht ist. Diesen Modus könnte man früher einsetzen."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Jugendfreund / dieser Freund / der Freund / freundschaftlichen Beziehungen / Hilfe der Freunde",
+          "in der Fremde / der fremdartige Vollbart",
+          "keine rechte Verbindung mit der dortigen Kolonie seiner Landsleute, aber auch fast keinen gesellschaftlichen Verkehr mit einheimischen Familien und richtete sich so für ein endgültiges Junggesellentum ein",
+          "Geschäft ... zu stocken schien / So arbeitete er sich in der Fremde nutzlos ab"
+        ],
+        "suggestions": [
+          "Das Wortfeld 'Freund' variieren oder Pronomen nutzen, wo der Bezug eindeutig ist.",
+          "Die Häufung 'Fremde / fremdartige' vermeiden, z. B. 'der ungewohnte Vollbart'.",
+          "Die Isolation des Freundes wird mehrfach umschrieben. Ein prägnantes Bild würde genügen, etwa: 'Er lebte ohne Anschluß, weder unter Landsleuten noch unter Russen, und richtete sich auf ein Junggesellenleben ein.'"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.09546
+}

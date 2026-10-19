@@ -1,0 +1,109 @@
+{
+  "who": "hermes",
+  "item": "anchor__mann-tonio-kroeger-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Die Schule war aus."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und etabliert das Setting gut. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "bastblonden Haares",
+          "stahlblauen Augen",
+          "südlich scharfgeschnittenen Gesicht"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist sehr hoch. Einige Adjektive könnten gestrichen werden, um die Wirkung der verbleibenden zu verstärken."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Tonio Kröger", "fragte er"],
+        "suggestions": [
+          "Die Kennzeichnungen sind unaufdringlich. Gelegentlich könnte man sie ganz weglassen, wenn der Sprecher klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["wohl", "doch", "ja", "gewissermaßen", "ein wenig"],
+        "suggestions": [
+          "Die Modalpartikel schwächen die Aussagen ab. Streiche 'wohl', 'doch' und 'gewissermaßen', um die Sätze direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "indem sie... ruderten",
+          "während Hansens schlanke Beine... einherschritten",
+          "indes die anderen... schlenderten"
+        ],
+        "suggestions": [
+          "Die Häufung von 'indem' und 'während' bremst den Lesefluss. Handlungen sollten nacheinander beschrieben werden, um Dynamik zu erzeugen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "wurde um vier Uhr zu Mittag gegessen",
+          "wurden die Vierzehnjährigen zuerst gegrüßt"
+        ],
+        "suggestions": [
+          "Formuliere aktiv um: 'Man aß erst um vier Uhr zu Mittag' oder 'Man grüßte die Vierzehnjährigen zuerst'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Die Beschreibung der Väter und des Hauses besteht aus extrem langen, verschachtelten Sätzen."
+        ],
+        "suggestions": [
+          "Die Sätze sind für moderne Leser zu komplex. Zerlege die langen Sätze in kürzere Einheiten, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Der Dialog ist kurz und prägnant in die Erzählung eingebettet."],
+        "suggestions": ["Die Dialoglänge ist angemessen. Keine Straffung erforderlich."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "er dachte, dass...",
+          "er empfand Schmerz",
+          "er glaubte nicht sehr fest an das..."
+        ],
+        "suggestions": [
+          "Statt 'er dachte' oder 'er empfand' zu schreiben, sollte das Gefühl durch Handlungen oder Reaktionen gezeigt werden (Show, don't tell)."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Beide hatten die Schulmappen... und beide waren sie...",
+          "und er war so geartet, dass... und er war..."
+        ],
+        "suggestions": [
+          "Vermeide redundante Satzanfänge und Umschreibungen desselben Sachverhalts. Straffe die inneren Monologe."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

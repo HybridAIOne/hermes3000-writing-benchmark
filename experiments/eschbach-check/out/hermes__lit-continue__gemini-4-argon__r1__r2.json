@@ -1,0 +1,105 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gemini-4-argon__r1",
+  "run": 2,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Die Strömung reicht“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort in die Handlung und den Konflikt wirft."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "dunkelblauen Wollmantel",
+          "abblätternde grüne Farbe",
+          "trockene, fast stickige Wärme"
+        ],
+        "suggestions": [
+          "Einige Adjektive sind stimmungsvoll, aber bei 'abblätternde grüne Farbe' könnte man das 'grüne' streichen, da es für die Atmosphäre weniger wichtig ist als der Verfall."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["sagte Ilse", "sagte er", "fragte er"],
+        "suggestions": [
+          "Die Redeeinleitungen sind etwas repetitiv. Nutzen Sie öfter Handlungsbeschreibungen (Action Beats) statt 'sagte', um die Dynamik zu erhöhen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "fand aber wohl kein Netz",
+          "Eigentlich war ihre Schicht erst in einer Stunde zu Ende",
+          "fast kahl"
+        ],
+        "suggestions": [
+          "Wörter wie 'wohl', 'eigentlich' und 'fast' schwächen die Aussagekraft. Streichen Sie diese, um die Sätze direkter und bestimmter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["als bräuchte er ein Ticket", "als die Schulkinder durch waren"],
+        "suggestions": ["Die Verwendung von 'als' ist hier korrekt und stört den Lesefluss nicht."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Fähre schwankte kaum merklich"],
+        "suggestions": [
+          "Der Text ist sehr aktiv und lebendig geschrieben. Keine nennenswerten Passiv-Probleme."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sein Blick glitt über die abblätternde grüne Farbe an der Reling, über den Rost am Windenkasten bis hinüber zum anderen Ufer, das im diesigen Licht kaum mehr als ein dunkler Strich war."
+        ],
+        "suggestions": [
+          "Der Satz ist rhythmisch gut, könnte aber für noch mehr Tempo bei 'bis hinüber' geteilt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Fährt überhaupt noch jemand unter der Woche?“",
+          "„Der Bäckerwagen nimmt die Brücke in Dömitz.“"
+        ],
+        "suggestions": ["Die Dialoge sind prägnant und treiben die Handlung gut voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Er sah müde aus.", "Ilse betrachtete seinen Nacken."],
+        "suggestions": [
+          "Sehr gut gelöst. Die Wahrnehmung erfolgt direkt durch die Beobachtung der Figur, nicht durch Filter wie 'sie sah, dass...'."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Sein Blick glitt...",
+          "Ilse kannte diesen Blick.",
+          "Es war nicht der Blick...",
+          "Es war der Blick..."
+        ],
+        "suggestions": [
+          "Der Absatz über den 'Blick' ist inhaltlich redundant. Variieren Sie die Wortwahl oder fassen Sie die Sätze zusammen, um die Wortwiederholung zu vermeiden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

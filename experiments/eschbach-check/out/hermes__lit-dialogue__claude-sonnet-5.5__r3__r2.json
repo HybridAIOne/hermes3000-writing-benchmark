@@ -1,0 +1,93 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-sonnet-5.5__r3",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Bahnhofscafé, Regen. Thomas sitzt schon, als Ralf hereinkommt"],
+        "suggestions": [
+          "Der Einstieg ist sehr effektiv. Man könnte lediglich das 'kurz' streichen, um die Handlung noch weiter zu straffen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kurz", "langsam"],
+        "suggestions": [
+          "Der Text ist sehr sparsam. Die Adverbien sind funktional, könnten aber teilweise gestrichen werden, um die Wirkung zu erhöhen (z.B. 'Ralf nickt' statt 'Ralf nickt langsam')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["RALF: Du bist früh."],
+        "suggestions": [
+          "Das Skript-Format ist hier ideal gewählt, da es die Redeeinleitungen komplett überflüssig macht und den Fokus auf das Gesagte legt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["schon", "kurz"],
+        "suggestions": [
+          "Der Text ist fast frei von Füllwörtern. Die vorhandenen dienen der Rhythmisierung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Thomas sitzt schon, als Ralf hereinkommt"],
+        "suggestions": [
+          "Die Gleichzeitigkeit ist präzise und nicht überladen. Keine unnötigen 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Passivkonstruktionen vorhanden. Die aktive Sprache unterstreicht die Dynamik."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Thomas sieht auf die Uhr und gleich wieder weg, ohne die Zeit gelesen zu haben."
+        ],
+        "suggestions": [
+          "Der Satz ist gut, könnte aber für noch mehr Rhythmus geteilt werden: 'Thomas sieht auf die Uhr. Er liest die Zeit nicht, sondern sieht sofort wieder weg.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["THOMAS: Behalt es."],
+        "suggestions": [
+          "Die Dialoge sind extrem prägnant und unterstreichen die Spannung und das Ungesagte. Perfekt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Thomas sieht auf die Uhr"],
+        "suggestions": [
+          "Die Wahrnehmung erfolgt direkt durch Handlungen, keine 'er dachte/sah, dass'-Konstruktionen. Sehr gut gelöst."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Schwarz", "Früher", "Behalt es"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier als stilistisches Mittel (Leitmotive) sehr gut. Sie sollten beibehalten werden, da sie den Subtext tragen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

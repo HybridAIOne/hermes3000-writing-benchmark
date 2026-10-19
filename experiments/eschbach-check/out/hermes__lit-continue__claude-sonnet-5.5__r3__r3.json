@@ -1,0 +1,94 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-sonnet-5.5__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["'Der Motor läuft', sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er direkt in die Handlung und die Atmosphäre einführt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ordentlichen Buchten", "dumpfe Pochen"],
+        "suggestions": [
+          "Die Adjektive sind gut gewählt und nicht überladen. Sie unterstützen die Atmosphäre, ohne den Lesefluss zu stören."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sagte Ilse", "fragte sie"],
+        "suggestions": [
+          "Die Kennzeichnungen sind unauffällig. Gelegentlich könnten sie noch weiter reduziert werden, wenn der Sprecherwechsel durch den Kontext eindeutig ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vermutlich", "vielleicht"],
+        "suggestions": [
+          "Die Wörter sind hier charakterisierend eingesetzt, um die Unsicherheit der Figuren zu zeigen, nicht als bloße Füllwörter."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als du reingekommen bist"],
+        "suggestions": [
+          "Die Handlungsabfolge ist klar und logisch strukturiert. Keine übermäßige Verwendung von 'während'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Es war noch eine Fahrt eingetragen", "Schuhe waren für Pflaster gemacht"],
+        "suggestions": [
+          "'Es stand noch eine Fahrt im Plan' klingt aktiver. 'Die Schuhe taugten für Pflaster' wäre direkter."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Satzlängen sind abwechslungsreich und gut lesbar. Es gibt keine unnötig verschachtelten Sätze."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die Dialoge sind prägnant, realistisch und treiben die Handlung effizient voran."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie merkte, dass sie darauf gewartet hatte",
+          "Sie ließ Jonas nicht merken, dass sie es hörte"
+        ],
+        "suggestions": [
+          "Direkter formulieren: 'Sie hatte darauf gewartet.' oder 'Sie verbarg, dass sie es hörte.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["hustet", "Becher"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier beabsichtigt und unterstreichen die Routine und die Vertrautheit der Umgebung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

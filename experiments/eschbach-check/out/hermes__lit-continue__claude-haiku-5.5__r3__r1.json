@@ -1,0 +1,91 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-haiku-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie antwortete nicht. Der Motor war nicht das Thema"],
+        "suggestions": [
+          "Der Einstieg ist sehr stark, da er direkt in den Konflikt führt und den Leser sofort in die Situation wirft."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["nicht freundlich, nicht unfreundlich"],
+        "suggestions": [
+          "Die doppelte Verneinung wirkt etwas umständlich. Besser: 'Er lachte kurz, ein humorloses, sprödes Geräusch.'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sagte er", "sagte sie"],
+        "suggestions": [
+          "Die Marker sind sparsam eingesetzt. In einigen Fällen könnte man sie komplett streichen, wenn der Sprecherwechsel durch den Kontext klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr präzise und nahezu frei von Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine unnötigen 'während'-Konstruktionen. Die Handlungsabfolge ist klar und direkt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["war spröde geworden"],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert und wirkt dadurch sehr lebendig."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Er hatte nie begriffen, dass man an einer Fähre nichts reparieren lassen konnte, ohne dass sich danach alles andere veränderte."
+        ],
+        "suggestions": [
+          "Der Satz ist gut, könnte aber für mehr Wucht geteilt werden: 'Er hatte nie begriffen, dass man an einer Fähre nichts reparieren konnte. Danach veränderte sich immer alles.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Die Fähre hält nicht ewig", "„Du bleibst bis morgen früh"],
+        "suggestions": [
+          "Die Dialoge sind knackig, subtextreich und treiben die Handlung effizient voran."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Sie dachte an die Überfahrt um sieben"],
+        "suggestions": [
+          "Statt 'Sie dachte an...', könnte man die Erinnerung direkter evozieren: 'Die Überfahrt um sieben kam ihr in den Sinn, der Mann mit dem Fahrrad...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Im Frühjahr... Im Frühjahr"],
+        "suggestions": [
+          "Die Wiederholung von 'Im Frühjahr' ist stilistisch bewusst eingesetzt (Anapher), um die verpasste Zeit zu betonen, daher akzeptabel."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

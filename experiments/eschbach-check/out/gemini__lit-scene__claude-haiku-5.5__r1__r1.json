@@ -1,0 +1,116 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel ließ sich nicht drehen. Sie stand eine Weile auf der Schwelle, den Koffer neben sich..."
+        ],
+        "suggestions": [
+          "Exzellenter Einstieg mitten in die Handlung (in medias res). Keine langatmige Anreise, sofort ein kleiner physischer Widerstand, der zugleich symbolisch für die Rückkehr steht."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "kaltem Staub",
+          "dunkelgrüne mit dem abgewetzten Kragen",
+          "kühl und fest",
+          "so genau nach den Händen"
+        ],
+        "suggestions": [
+          "Die Adjektive sind sehr präzise und tragen stark zur Atmosphäre bei (z.B. 'kalter Staub'). Lediglich 'so genau' könnte eventuell durch 'so vertraut' oder 'so intensiv' ersetzt werden, da 'genau' bei Gerüchen etwas abstrakt wirkt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text enthält keinen Dialog, daher gibt es hier keine Mängel. Die Stille passt perfekt zur Szene."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie stand eine Weile auf der Schwelle",
+          "etwas Süßlichem, das sie nicht gleich benennen konnte",
+          "Irgendwo tropfte es"
+        ],
+        "suggestions": [
+          "Sehr wenige Füllwörter. 'Eine Weile' ist etwas unpräzise; hier könnte man einfach schreiben: 'Sie stand auf der Schwelle, den Koffer neben sich, und versuchte es noch einmal...'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Er klebte, dann gab er nach.",
+          "Draußen fuhr ein Traktor vorbei, dann war es wieder still."
+        ],
+        "suggestions": [
+          "Handlungen werden vorbildlich nacheinander beschrieben. Keine falsche Gleichzeitigkeit durch 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...so wie es früher verlangt worden war: erst leicht anheben, dann nach rechts."
+        ],
+        "suggestions": [
+          "Fast durchgehend aktiv formuliert. Das einzige Passiv ('verlangt worden war') lässt den Urheber im Dunkeln. Noch stärker und persönlicher wäre: '...so wie die Mutter es früher verlangt hatte' oder '...so wie man es ihr früher beigebracht hatte'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ihre Mutter hatte jeden Abend davon genommen, jeden Abend, zwanzig Jahre lang, hatte es im Flur nach Rosen gerochen, wenn sie die Treppe heraufkam.",
+          "Durch den Flur fiel graues Licht vom Oberfenster über der Treppe, und auf dem Garderobenhaken hing der Mantel der Mutter, der dunkelgrüne mit dem abgewetzten Kragen, als würde gleich jemand danach greifen."
+        ],
+        "suggestions": [
+          "Der Satzrhythmus ist insgesamt sehr gut und wechselt schön zwischen kurzen ('Die Luft stand.') und längeren Sätzen. Der Satz mit den 'zwanzig Jahren' ist eine sogenannte Satzreihe (Komma statt Punkt), die zwar als Stilmittel funktioniert, aber auch geteilt werden könnte: 'Ihre Mutter hatte jeden Abend davon genommen. Jeden Abend, zwanzig Jahre lang, hatte es...'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher optimal gelöst."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "...sah zur Tür, durch die man den Flur sehen konnte...",
+          "Sie hatte gedacht, die Zeit würde sich wie eine Strecke anfühlen..."
+        ],
+        "suggestions": [
+          "Meistens sehr direkt und nah an der Figur ('Die Luft stand' statt 'Sie spürte, wie die Luft stand'). Im letzten Absatz bricht das 'man' und 'sehen konnte' die unmittelbare Perspektive etwas auf. Besser: '...und sah durch die offene Tür in den Flur: der Mantel, die Treppe, das Licht.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das Schloss gab nach... / Er klebte, dann gab er nach.",
+          "der Deckel mit einem Film aus Staub überzogen / nach kaltem Staub",
+          "Die Creme war unberührt... die Oberfläche glatt, als hätte sie nie jemand mit den Fingern aufgerissen.",
+          "...sah zur Tür, durch die man den Flur sehen konnte..."
+        ],
+        "suggestions": [
+          "Die Wiederholung von 'jeden Abend' und 'Zwanzig Jahre' ist ein starkes rhetorisches Mittel. Unbeabsichtigt wirken hingegen die Wortdopplungen 'gab nach' (Schloss und Deckel) sowie 'sah / sehen' in einem Satz. Zudem ist 'unberührt' und 'als hätte sie nie jemand aufgerissen' inhaltlich doppelt – das starke Bild der glatten, nicht aufgerissenen Oberfläche reicht völlig, 'unberührt' kann gestrichen werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016618
+}

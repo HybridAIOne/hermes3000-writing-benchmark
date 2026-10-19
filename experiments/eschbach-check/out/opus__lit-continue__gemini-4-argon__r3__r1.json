@@ -1,0 +1,154 @@
+{
+  "who": "opus",
+  "item": "lit-continue__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Die Strömung reicht“, sagte Ilse. – Einstieg mitten in der Handlung, ohne Anlauf",
+          "Jonas trug einen dunkelblauen Wollmantel, der für das Elbufer im November viel zu dünn war, und glatte Lederschuhe. – Die Personenbeschreibung direkt nach dem Einstieg bremst das Tempo etwas"
+        ],
+        "suggestions": [
+          "Der Einstieg funktioniert. Die Beschreibung von Jonas könnte straffer ausfallen oder stärker in die Begrüßung eingewoben werden, etwa die Schuhe erst erwähnen, wenn er auf das Fährdeck tritt.",
+          "Die Erstbeschreibung auf zwei bis drei Details mit Aussagekraft reduzieren: zu dünner Mantel, Sand auf den Lederschuhen, das Firmenwebseiten-Lächeln."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Die kleinen Hartplastikrollen ratterten ohrenbetäubend über das geriffelte Eisenblech.",
+          "zog sie in eine kurze Umarmung … legte ihm die schweren Hände kurz auf die Schulterblätter",
+          "„Der Pegel fällt“, log sie ruhig",
+          "während der Wind ihm die ordentlich gescheitelten Haare zerzauste",
+          "unter dem tief hängenden Himmel"
+        ],
+        "suggestions": [
+          "‚ohrenbetäubend‘ wirkt für kleine Kofferrollen übertrieben. Das Verb ‚ratterten‘ trägt bereits genug, das Adverb kann entfallen.",
+          "Eines der beiden ‚kurz‘ streichen. Die Kürze der Umarmung ergibt sich schon aus ‚und ließ ihn wieder los‘.",
+          "‚ruhig‘ streichen. Die Ruhe zeigt sich an der Handlung, dem Lösen des Taus.",
+          "‚ordentlich gescheitelten Haare‘ zu ‚den Scheitel‘ verkürzen: ‚während der Wind ihm den Scheitel zerzauste‘.",
+          "Die meisten übrigen Adjektive (rostiger Caddy, Münchner Kennzeichen, dünner Mantel) charakterisieren die Figuren und sollten bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Du hast gar nicht angerufen“, sagte sie.",
+          "„Ich zieh mich an“, sagte Ilse.",
+          "„Geh schon mal vor“, sagte Ilse und trat zurück an die Winde.",
+          "„Die Strömung reicht“, sagte Ilse."
+        ],
+        "suggestions": [
+          "In einem Zwei-Personen-Dialog ist der Sprecher meist klar. Bei „Du hast gar nicht angerufen“ kann ‚sagte sie‘ ganz entfallen, denn nach „Hallo, Mama“ kann nur Ilse antworten.",
+          "‚sagte Ilse‘ durch Handlungsbeats ersetzen: „Ich zieh mich an.“ Ilse kontrollierte noch einmal die Verriegelung der Schranke.",
+          "„Geh schon mal vor.“ Ilse trat zurück an die Winde. – Die Handlung allein ordnet die Rede zu.",
+          "„fragte Jonas, ohne aufzusehen“ beibehalten, da der Zusatz eine wichtige Information transportiert."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Auf den Kappen klebte bereits ein Rand aus feuchtem Ufersand.",
+          "schoben ihre Räder bereits die gepflasterte Auffahrt hinauf",
+          "Trotzdem lächelte er jetzt dieses schnelle, glatte Lächeln",
+          "Eine Mappe aus schwarzem Leder ragte ein Stück aus seiner Reisetasche",
+          "Sie kontrollierte noch einmal die Verriegelung der Schranke."
+        ],
+        "suggestions": [
+          "Beide ‚bereits‘ streichen. Sie fügen keine Information hinzu.",
+          "‚jetzt‘ in ‚Trotzdem lächelte er jetzt‘ streichen.",
+          "‚ein Stück‘ streichen: ‚Eine Mappe aus schwarzem Leder ragte aus seiner Reisetasche.‘",
+          "Füllwörter in wörtlicher Rede (‚gar nicht‘, ‚schon mal‘, ‚noch mal‘) sind als natürlicher Sprachduktus vertretbar."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie sah zu Jonas hinüber, der sein Smartphone aus der Manteltasche gezogen hatte und mit gerunzelter Stirn auf das Display tippte, während der Wind ihm die ordentlich gescheitelten Haare zerzauste."
+        ],
+        "suggestions": [
+          "Den einzigen ‚während‘-Satz in Einzelhandlungen auflösen: ‚Jonas hatte sein Smartphone aus der Manteltasche gezogen und tippte mit gerunzelter Stirn auf das Display. Der Wind zerzauste ihm den Scheitel.‘",
+          "Ansonsten werden Handlungen sauber nacheinander erzählt, z. B. ‚Erst dann sah sie ihn an.‘"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Eine Mappe aus schwarzem Leder ragte ein Stück aus seiner Reisetasche, die auf dem Koffer aufgesteckt war."
+        ],
+        "suggestions": [
+          "Der Text ist fast durchgängig aktiv. Den Zustandspassiv-Nebensatz kann man vereinfachen oder streichen: ‚… aus der Reisetasche auf seinem Koffer.‘"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie sah zu Jonas hinüber, der sein Smartphone aus der Manteltasche gezogen hatte und mit gerunzelter Stirn auf das Display tippte, während der Wind ihm die ordentlich gescheitelten Haare zerzauste.",
+          "Jonas trug einen dunkelblauen Wollmantel, der für das Elbufer im November viel zu dünn war, und glatte Lederschuhe.",
+          "Er ließ den Griff seines Koffers los, machte einen Schritt auf die eiserne Rampe und zog sie in eine kurze Umarmung."
+        ],
+        "suggestions": [
+          "Den Smartphone-Satz in zwei bis drei Sätze teilen, da er Relativsatz, Aufzählung und Temporalsatz verschachtelt.",
+          "Beim Mantel-Satz hängen die ‚glatten Lederschuhe‘ nach dem Relativsatz nach. Besser: ‚Jonas trug glatte Lederschuhe und einen dunkelblauen Wollmantel, viel zu dünn für das Elbufer im November.‘",
+          "Der Wechsel aus kurzen Sätzen (‚Alles saß.‘, ‚Überraschung.‘) und mittellangen Sätzen erzeugt insgesamt einen guten Rhythmus."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Wird Zeit, dass du hier Schluss machst für heute. Es zieht wie Hechtsuppe. Wie hältst du das den ganzen Tag ohne die Heizung im Steuerstand aus?“",
+          "„Der Pegel fällt“, log sie ruhig und löste das Tau wieder vom Poller. „Ich muss die Kette am Nordufer nachspannen. Dauert eine Stunde.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp und subtextreich. Die längste Replik von Jonas kann bleiben, denn sie charakterisiert ihn als jemanden, der redet, während Ilse schweigt.",
+          "Optional ‚für heute‘ streichen, um die Replik noch knapper zu machen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie sah zu Jonas hinüber, der sein Smartphone aus der Manteltasche gezogen hatte",
+          "die Schatten unter seinen Augen wirkten wie mit dem Daumen verwischt",
+          "dieses schnelle, glatte Lächeln, das sie von den Fotos auf seiner Firmenwebseite kannte"
+        ],
+        "suggestions": [
+          "Den Filter ‚Sie sah zu Jonas hinüber, der …‘ entfernen und direkt zeigen: ‚Jonas hatte sein Smartphone aus der Manteltasche gezogen.‘",
+          "‚wirkten wie‘ durch ein direktes Bild ersetzen: ‚die Schatten unter seinen Augen waren wie mit dem Daumen verwischt‘.",
+          "Die Bezugnahme auf die Firmenwebseite ist inhaltlich wertvoll, da sie Distanz zeigt, und sollte bleiben.",
+          "Direkte Sinneseindrücke wie ‚Er roch nach Rasierwasser‘ sind bereits gut umgesetzt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Die Wiesen lagen leer und dunkel … Keine Menschenseele, kein Auto. – Dreifache Aussage zusammen mit Jonas’ ‚Da drüben steht doch gar keiner.‘",
+          "glatte Lederschuhe … dieses schnelle, glatte Lächeln",
+          "kurze Umarmung … kurz auf die Schulterblätter",
+          "Wind: ‚verlor sich im Wind‘, ‚der Wind ihm die … Haare zerzauste‘, ‚die Weiden krümmten sich im Wind‘",
+          "„Der Pegel fällt“, log sie – Das Wort ‚log‘ erklärt, was der Leser durch die Flagge und das leere Ufer bereits verstanden hat."
+        ],
+        "suggestions": [
+          "‚Keine Menschenseele, kein Auto.‘ streichen. Jonas’ Einwand und die leeren Wiesen machen es bereits deutlich.",
+          "Eines der beiden ‚glatt‘ ersetzen, z. B. ‚blank polierte Lederschuhe‘, sofern die Wiederholung nicht bewusst als Charakterisierung gesetzt ist.",
+          "Den Wind einmal weniger erwähnen, z. B. ‚die Weiden krümmten sich‘ ohne ‚im Wind‘.",
+          "‚log sie‘ prüfen: Ohne das Wort entsteht mehr Spannung, weil der Leser die Lüge selbst erschließt. Alternativ nur ‚sagte sie‘ oder einen reinen Handlungsbeat verwenden.",
+          "Die doppelte Erwähnung der roten Flagge ist dagegen ein wirkungsvolles Motiv und sollte bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.133228
+}

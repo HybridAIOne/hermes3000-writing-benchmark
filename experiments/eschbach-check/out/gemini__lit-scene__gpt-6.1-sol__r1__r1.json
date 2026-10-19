@@ -1,0 +1,103 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Schlüssel ging leichter ins Schloss, als sie erwartet hatte."],
+        "suggestions": [
+          "Exzellenter Einstieg nach dem Prinzip 'Spät rein'. Die Szene beginnt genau im Moment des Eintritts in das Haus, auf eine Anfahrt oder lange Vorrede wird verzichtet. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "nach kalter Wolle",
+          "ein blasser Lippenabdruck",
+          "eine einzelne Zitrone, leicht geworden, mit harter Schale"
+        ],
+        "suggestions": [
+          "Die Adjektive sind extrem präzise, atmosphärisch und notwendig (z.B. würde 'Wolle' allein einen anderen Geruch implizieren als 'kalte Wolle'). Sie blähen den Text nicht auf, sondern schärfen das Bild."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keine Dialoge, daher gibt es hier nichts zu beanstanden."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "...und offenbar hatte niemand das Glas fortgeräumt...",
+          "Nach einer Weile stand sie auf...",
+          "Für einen Augenblick zitterte die Scheibe..."
+        ],
+        "suggestions": [
+          "Der Text ist fast frei von Füllwörtern. Lediglich 'offenbar' könnte gestrichen werden, da die Tatsache, dass das Glas noch dort steht, für sich spricht ('Niemand hatte das Glas fortgeräumt...'). Auch 'Für einen Augenblick' ist streng genommen verzichtbar, da 'zitterte' in Verbindung mit dem vorbeifahrenden Wagen die Kürze bereits impliziert."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Sie nahm sie heraus, roch daran und legte sie zurück."],
+        "suggestions": [
+          "Hervorragend gelöst. Alle Handlungen werden chronologisch und klar nacheinander beschrieben. Konstruktionen mit 'während' oder 'gleichzeitig' werden komplett vermieden."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Er war ausgeschaltet und ausgewischt.", "Das war vereinbart gewesen..."],
+        "suggestions": [
+          "Der Text nutzt fast ausschließlich starke, aktive Verben (anheben, streifen, ertasten, haften, zittern). Die beiden Zustandspassive sind hier stilistisch absolut gerechtfertigt, da die handelnden Personen in diesem Moment abwesend/unbekannt sind. Wer noch aktiver schreiben will, könnte formulieren: 'Sie hatten vereinbart: Bescheid sagen...'"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ihre Mutter hatte zuletzt allein hier gelebt, und offenbar hatte niemand das Glas fortgeräumt, weder die Nachbarin, die sie gefunden hatte, noch der Mann vom Bestattungsinstitut."
+        ],
+        "suggestions": [
+          "Der Satzrhythmus ist sehr gut und abwechslungsreich. Selbst der längste Satz des Textes (siehe Beispiel) ist klar strukturiert und leicht verständlich. Zur leichten Straffung könnte man nach 'gelebt' einen Punkt setzen: 'Ihre Mutter hatte zuletzt allein hier gelebt. Niemand hatte das Glas fortgeräumt, weder...'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Von hier aus konnte sie den oberen Treppenabsatz sehen.",
+          "An seiner Unterseite ertastete sie drei dicht beieinanderliegende Kerben."
+        ],
+        "suggestions": [
+          "Die Wahrnehmung ist fast durchgehend unmittelbar ('Im Flur roch es...' statt 'Sie roch, dass...'). Die letzten Sätze des vorletzten Absatzes enthalten ein klassisches 'konnte sehen'. Direkter wäre: 'Von hier aus fiel ihr Blick auf den oberen Treppenabsatz.' oder 'Von hier aus war der obere Treppenabsatz frei sichtbar.' 'Ertastete sie' ist hier völlig in Ordnung, da es eine aktive Handlung beschreibt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Holz hatte sich verzogen, oder es war schon immer so gewesen...",
+          "...hatte sie erwartet. / ...hatte sich verzogen... / ...hatte es nur nie erwähnt. / ...hatte sie dieses Haus nicht betreten. / ...hatte sie sich die Zimmer..."
+        ],
+        "suggestions": [
+          "Inhaltlich gibt es keinerlei redundante Umschreibungen; jedes Detail sitzt. Stilistisch fällt lediglich eine Häufung des Plusquamperfekts ('hatte') in den ersten drei Absätzen auf. Das lässt sich leicht entzerren, z.B. indem man ins Präteritum wechselt: 'Zwanzig Jahre war sie nicht mehr in diesem Haus gewesen.' statt 'hatte betreten'."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016182
+}

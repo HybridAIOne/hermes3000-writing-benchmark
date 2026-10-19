@@ -1,0 +1,129 @@
+{
+  "who": "sol",
+  "item": "anchor__fontane-schach-von-wuthenow-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "In dem Salon der in der Behrenstraße wohnenden Frau von Carayon und ihrer Tochter Victoire waren an ihrem gewöhnlichen Empfangsabend einige Freunde versammelt",
+          "Sein Name war von Bülow."
+        ],
+        "suggestions": [
+          "Für einen unmittelbareren Einstieg mit Bülows Gestik oder Alvenslebens scherzhafter Bemerkung beginnen. Gastgeberinnen, Ort und Empfangsabend anschließend knapp einflechten.",
+          "Die biografischen Angaben zu Bülow erst dort nachreichen, wo sie für das Gespräch wichtig werden. Der bestehende Einstieg dient allerdings bewusst der gesellschaftlichen Milieuschilderung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "unter gleichzeitigem scherzhaftem Bedauern",
+          "bereits eine dominirende Stellung",
+          "die feinste weiße Wäsche"
+        ],
+        "suggestions": [
+          "Nominale Wendungen durch Verben beleben: Statt „unter gleichzeitigem scherzhaftem Bedauern“ etwa „Dabei scherzte er über das Fehlen dessen, dem der Platz eigentlich gebühre.“",
+          "Verstärkungen wie „bereits“ und „feinste“ auf ihren Mehrwert prüfen. Anschauliche Merkmale wie der schwarze Vollbart und die weiße Wäsche dagegen bewahren: Sie tragen zur Figurenzeichnung bei."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung erforderlich: Der Ausschnitt enthält keine direkte Rede und damit keine überflüssigen Dialogkennzeichnungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "einige Freunde versammelt, aber freilich wenige nur",
+          "nichtsdestoweniger bereits",
+          "im Uebrigen aber",
+          "wenigstens in allem was Erscheinung anging"
+        ],
+        "suggestions": [
+          "Den Anfang verdichten: „An ihrem Empfangsabend waren nur wenige Freunde versammelt.“",
+          "Umständliche Verknüpfungen vereinfachen: „Obwohl sie erst seit wenigen Wochen zum Kreis gehörten, bestimmten sie bereits das Gespräch.“",
+          "Einschränkungen wie „wenigstens“ nicht pauschal streichen: Hier begrenzen sie den Gegensatz ausdrücklich auf das Äußere und verhindern eine inhaltliche Übertreibung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "hatte neben der schönen Frau vom Hause Platz genommen unter gleichzeitigem scherzhaftem Bedauern",
+          "während ihm der in der Taille knapp anschließende Rock von niederländischem Tuche sein Embonpoint zusammenschnürte"
+        ],
+        "suggestions": [
+          "Platznehmen und Scherzen in zwei übersichtliche Aussagen auflösen: „Alvensleben hatte neben der Gastgeberin Platz genommen. Dabei scherzte er über den Abwesenden.“",
+          "Das beschreibende „während“ bei Sander bei Bedarf durch einen neuen Satz ersetzen. Es bezeichnet hier eher das Nebeneinander äußerer Merkmale als eine problematische Handlungsüberlagerung."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["allgemein als das Haupt jener militärischen Frondeurs angesehen wurde"],
+        "suggestions": [
+          "Die einzige auffällige Passivkonstruktion lässt sich verkürzen: „Er galt als Kopf jener militärischen Frondeure.“",
+          "„Waren ... versammelt“ und „war ... erschienen“ nicht schematisch als vermeidbares Vorgangspassiv behandeln; hier besteht kein entsprechender Überarbeitungsbedarf."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Von den Offizieren des Regiments Gensdarmes, die selten an einem dieser Abende fehlten, war nur einer erschienen, ein Herr von Alvensleben, und hatte neben der schönen Frau vom Hause Platz genommen unter gleichzeitigem scherzhaftem Bedauern darüber, daß gerade der fehle, dem dieser Platz in Wahrheit gebühre.",
+          "Am entschiedensten der um einige Jahre jüngere von beiden, ein ehemaliger Stabskapitän, der, nach einem abenteuernden Leben in England und den Unionsstaaten in die Heimat zurückgekehrt, allgemein als das Haupt jener militärischen Frondeurs angesehen wurde, die damals die politische Meinung der Hauptstadt machten, beziehungsweise terrorisirten."
+        ],
+        "suggestions": [
+          "Die Vorstellung Alvenslebens aufteilen: „Von den Offizieren des Regiments Gensdarmes war nur Herr von Alvensleben erschienen. Er saß neben der Gastgeberin und scherzte darüber, dass dieser Platz eigentlich einem anderen gebühre.“",
+          "Bülows Namen voranstellen und seine Biografie auslagern: „Den Ton gab der jüngere der beiden an: von Bülow, ein ehemaliger Stabskapitän. Er war nach einem abenteuerlichen Leben in England und den Unionsstaaten heimgekehrt.“",
+          "Bei einer behutsamen Überarbeitung einzelne lange Perioden als Stilmerkmal erhalten, aber verschachtelte Relativsätze und eingeschobene Lebensläufe entflechten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Dialogkürzung nötig: Es gibt keine ausformulierten Gesprächspassagen. Bülows Neigung zum Vortrag wird lediglich erzählerisch zusammengefasst."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ein schwarzer Vollbart umrahmte sein Gesicht",
+          "so focht er denn, beide Füße weit vorgestreckt und die linke Hand in der Hosentasche, mit seiner Rechten in der Luft umher"
+        ],
+        "suggestions": [
+          "Die unmittelbare Darstellung von Aussehen und Gestik beibehalten. Wahrnehmungsfilter wie „man sah, dass“ fehlen weitgehend.",
+          "„Wie seine Freunde sagten“ nicht als bloßen Wahrnehmungsfilter streichen: Die Formulierung kennzeichnet eine fremde Einschätzung und unterstützt den ironischen Erzählton."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "einige Freunde versammelt, aber freilich wenige nur",
+          "seinem Kathedervortrage Nachdruck zu geben",
+          "nur sprechen um Vortrag zu halten, und -- er sprach eigentlich immer",
+          "sein vollkommener Widerpart",
+          "Was den Gegensatz vollendete"
+        ],
+        "suggestions": [
+          "Die geringe Gästezahl einmal klar benennen, statt sie mit „einige“ und „wenige“ doppelt zu bestimmen.",
+          "Bülows Vortragsneigung straffen, falls ein schnelleres Erzähltempo gewünscht ist. Die Zuspitzung „er sprach eigentlich immer“ als charakterisierende Pointe erhalten.",
+          "Den Gegensatz zwischen Bülow und Sander stärker durch Bart, Rock und Wäsche zeigen; eine der ausdrücklichen Ankündigungen des Gegensatzes kann entfallen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020756
+}

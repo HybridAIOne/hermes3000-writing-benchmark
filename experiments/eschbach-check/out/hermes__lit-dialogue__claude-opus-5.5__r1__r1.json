@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["*Ein Hausflur. Abend. PAUL öffnet die Tür.*"],
+        "suggestions": [
+          "Der Einstieg ist perfekt gewählt, da er sofort den Konflikt etabliert. Keine Änderungen nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["schief", "gesprungene"],
+        "suggestions": ["Sehr sparsam und effektiv eingesetzt. Beibehalten."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["THOMAS:", "PAUL:"],
+        "suggestions": ["Standard-Skriptformat, absolut korrekt und übersichtlich."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["sowieso"],
+        "suggestions": [
+          "'Sowieso' dient hier der Charakterisierung von Pauls Abwehrhaltung, daher ist es funktional und in Ordnung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["*Er macht welchen.*"],
+        "suggestions": ["Handlungen sind klar sequenziell getrennt, was den Lesefluss unterstützt."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Regale im Flur hängen schief."],
+        "suggestions": ["Keine Passivkonstruktionen gefunden. Der Text ist aktiv und direkt."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die alte ging nicht mehr."],
+        "suggestions": [
+          "Die Sätze sind kurz und prägnant, was den Rhythmus des Dialogs perfekt unterstreicht."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["THOMAS: Ich kann auch gleich wieder gehen."],
+        "suggestions": ["Die Dialoge sind kurz und subtextreich. Keine Straffung erforderlich."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["*sieht auf die Bohrmaschine*"],
+        "suggestions": [
+          "Handlungen werden direkt gezeigt, statt sie durch Wahrnehmungsfilter (z.B. 'er sah, dass...') zu beschreiben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die alte ging nicht mehr.", "Immer noch die alte."],
+        "suggestions": [
+          "Die Wiederholung ist hier ein bewusstes stilistisches Mittel zur Charakterisierung und Themenvertiefung, daher passend."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,147 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__gpt-6-luna__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Nebel lag so dicht über der Elbe, dass Ilse die andere Uferkante nicht sah. Die Fähre glitt trotzdem hinüber.“",
+          "„Das Telefon in ihrer Jackentasche vibrierte.“"
+        ],
+        "suggestions": [
+          "Der Einstieg etabliert unmittelbar Ort, Sichtverhältnisse und Ilses routinierte Sicherheit. Eine vorgeschaltete Erklärung ist nicht nötig.",
+          "Falls der Anruf den eigentlichen Szenenkonflikt eröffnet, die Überfahrt davor etwas verdichten. Den Kontrast zwischen beruflicher Sicherheit und privatem Zögern dabei erhalten; ein Einstieg erst beim Anruf würde diese Wirkung schwächen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„einen einzelnen, dumpfen Ton“",
+          "„Das Geräusch war kurz, scharf und vertraut.“",
+          "„einen Schwimmkörper neben dem Bug auf, schwarz und glänzend“"
+        ],
+        "suggestions": [
+          "Adjektive überwiegend beibehalten: Sie liefern konkrete Sinneseindrücke oder charakterisieren Ilses Verhältnis zur Fähre.",
+          "Einzelne Häufungen probeweise reduzieren, etwa „einen dumpfen Ton“. „Einzelnen“ ist nur nötig, wenn die Einmaligkeit des Glockenschlags wichtig ist.",
+          "Bei „kurz, scharf und vertraut“ prüfen, ob alle drei Eigenschaften gebraucht werden. „Vertraut“ trägt wesentlich zum Gegensatz zwischen Ilses Ruhe und der Unsicherheit der Fahrgäste bei."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„‚Ist das immer so?‘, fragte der Junge.“",
+          "„Der Mann mit dem Fahrrad räusperte sich. ‚Drüben kommt man aber raus, oder?‘“",
+          "„‚Sie müssen nur warten, bis wir anliegen‘, sagte sie.“"
+        ],
+        "suggestions": [
+          "Die überwiegend durch Handlungen gekennzeichneten Sprecherwechsel beibehalten; sie sind trotz der vier Figuren gut verständlich.",
+          "„Sagte sie“ nach „Sie müssen nur warten“ kann entfallen, weil Ilse unmittelbar zuvor als handelnde Figur etabliert ist.",
+          "Die erste Kennzeichnung „fragte der Junge“ ist dagegen hilfreich und sollte bleiben."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„und irgendwo voraus gab die Glocke einen einzelnen, dumpfen Ton von sich“",
+          "„an einer bestimmten Stelle vibrierte das Deck unter ihren Stiefeln ein wenig stärker“",
+          "„Ilse drehte den Kopf ein Stück.“",
+          "„Sie ließ den Hebel ein wenig nach.“"
+        ],
+        "suggestions": [
+          "„An einer bestimmten Stelle“ durch „an einer Stelle“ ersetzen, sofern die Stelle nicht genauer verortet werden soll.",
+          "Abschwächungen wie „ein wenig“ und „ein Stück“ einzeln auf ihren Nutzen prüfen. „Ilse wandte den Kopf“ wäre eine knappere Alternative.",
+          "„Irgendwo voraus“ nicht pauschal streichen: Die ungenaue Ortsangabe vermittelt hier sinnvoll die eingeschränkte Orientierung im Nebel."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der Ton verstummte, während die Fähre in den Nebel hinausglitt.“",
+          "„Er hielt den Lenker fest und sah auf sein Vorderrad, als könnte es im Nebel davonrollen.“",
+          "„Die Frau griff nach ihrer Tasche, der Mann setzte den Fuß auf den Fahrradständer, und der Junge zog den Ranzen höher.“"
+        ],
+        "suggestions": [
+          "Die Gleichzeitigkeit im Schlusssatz beibehalten: Sie verbindet Ilses Entscheidung mit der Bewegung der Fähre.",
+          "Die Formulierungen mit „als könnte“ und „als hätte“ sind Vergleiche, keine problematischen zeitlichen Verknüpfungen.",
+          "Die parallelen Reaktionen beim Anlegen können zusammenstehen; eine künstliche Abfolge würde die gemeinsame Bewegung der Fahrgäste abschwächen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Die Fähre schob sich langsam in den Anleger.“",
+          "„Ilse hatte den Schal zweimal um den Hals gewickelt.“",
+          "„Dann prüfte sie die Anzeige am Steuerstand.“"
+        ],
+        "suggestions": [
+          "Keine Überarbeitung wegen Passivhäufung nötig. Der Text benennt Handelnde und Vorgänge überwiegend direkt.",
+          "Die aktive, konkrete Darstellung auch bei technischen Abläufen beibehalten."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Das Seil lief in seinem gleichmäßigen Rattern über die Rollen, Wasser schob sich dunkel unter den Rumpf, und irgendwo voraus gab die Glocke einen einzelnen, dumpfen Ton von sich.“",
+          "„Er trug einen Schulranzen, der ihm bis an die Hüften reichte, und sah über das Wasser, obwohl dort nichts zu sehen war.“"
+        ],
+        "suggestions": [
+          "Die längeren Sätze sind übersichtlich gebaut und passen zum ruhigen Erzähltempo; sie müssen nicht grundsätzlich geteilt werden.",
+          "Für einen strafferen Anfang den ersten Beispielsatz nach „Rollen“ teilen: „Das Seil ratterte über die Rollen. Wasser schob sich dunkel unter den Rumpf. Irgendwo voraus schlug eine Glocke.“",
+          "Die kurzen Sätze rund um den Anruf beibehalten: Ihr Rhythmus setzt einen wirksamen Kontrast zur Überfahrt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„‚Dass man nichts sieht.‘ – ‚Nicht immer.‘“",
+          "„‚War das normal?‘ – ‚Ja.‘ – ‚Klang nicht so.‘ – ‚Klang immer so.‘“",
+          "„‚Auch bei dem Wetter?‘ – ‚Wenn die Fähre fährt.‘“"
+        ],
+        "suggestions": [
+          "Die knappen Repliken beibehalten. Sie charakterisieren Ilse, ohne ihre Haltung erklärend auszubreiten.",
+          "Nicht die Länge einzelner Redebeiträge, sondern die Zahl ähnlich funktionierender Gesprächswechsel prüfen: Falls die Szene schneller werden soll, einen der Unsicherheitsdialoge kürzen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Sie hörte, wie das Seil über eine Rolle sprang und wieder in die Führung fand.“",
+          "„Sie hörte den ersten Klingelton, dann den zweiten.“",
+          "„Ilse sah ihn an. Er trug eine dünne Mütze, die an den Ohren hochgerutscht war.“"
+        ],
+        "suggestions": [
+          "Den Seilvorgang unmittelbarer darstellen: „Das Seil sprang über eine Rolle und fand wieder in die Führung.“",
+          "Beim Telefon prüfen, ob „Der erste Klingelton, dann der zweite“ die gespannte Verzögerung direkter vermittelt.",
+          "Wahrnehmungsverben nicht durchgehend streichen: „Ilse sah ihn an“ beschreibt auch eine bewusste Zuwendung zum Fahrgast und erfüllt damit eine szenische Funktion."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Sie kannte die Strecke auch ohne Ufer.“ / „Heute vibrierte es wie immer.“ / „Der Rest kam von selbst.“",
+          "„Drüben kommt man aber raus, oder?“ / „Und wenn man die Anleger nicht sieht?“ / „War das normal?“",
+          "„Seine rote Mütze war der einzige deutliche Farbfleck auf der Fähre.“ / „Neben ihm stand eine Frau mit einer grünen Einkaufstasche“"
+        ],
+        "suggestions": [
+          "Ilses Routine wird mehrfach ausdrücklich bestätigt. Eine dieser Aussagen streichen und die übrigen durch ihre sicheren Handgriffe tragen lassen.",
+          "Die wiederkehrende Unsicherheit der Fahrgäste bildet ein erkennbares Motiv. Für mehr Verdichtung eine Wiederholung reduzieren oder die Fragen stärker nach den Figuren differenzieren.",
+          "Die Farbbeschreibung präzisieren: Da bereits eine grüne Tasche vorkommt, wirkt „der einzige deutliche Farbfleck“ zumindest erklärungsbedürftig. Möglich wäre „Seine rote Mütze leuchtete im Grau.“"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.025338
+}

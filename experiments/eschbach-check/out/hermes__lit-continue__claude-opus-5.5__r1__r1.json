@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Der läuft noch“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist exzellent, da er sofort in die Handlung und das Konfliktpotenzial wirft."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["glatte, ausgeschlafene Art", "nass und schwer"],
+        "suggestions": [
+          "Die Adjektive sind stimmungsvoll und nicht überladen. Behalten, da sie zur Charakterisierung beitragen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Ilse", "sagte sie", "sagte er"],
+        "suggestions": [
+          "Die Redeeinleitungen sind korrekt, könnten aber an einigen Stellen gestrichen werden, wenn der Sprecherwechsel durch den Kontext klar ist, um den Dialogfluss zu beschleunigen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["irgendwann"],
+        "suggestions": [
+          "Der Text ist sehr sauber. 'Irgendwann' könnte man streichen ('zwischen Studium und erstem Firmenwagen'), um die Aussage präziser zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Keine übermäßige Verwendung von 'während' oder 'als'. Die Handlungsabfolge ist klar und logisch."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist fast durchgehend aktiv formuliert. Sehr gut."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind kurz, knackig und treiben die Handlung voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Jonas sah über das Wasser, als müsse er erst prüfen..."],
+        "suggestions": [
+          "Die indirekte Wahrnehmung ist gut eingebettet. Man könnte sie noch direkter gestalten, indem man die Interpretation des Beobachters (Ilse) stärker vom Fakt trennt, aber das ist stilistisch hier gut gelöst."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["seit neunzehn Jahren", "Henning hätte..."],
+        "suggestions": [
+          "Die Wiederholungen sind hier ein bewusstes Stilmittel zur Charakterisierung und zur Verdeutlichung der Routine/Vergangenheit. Sie sollten beibehalten werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,90 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6.1-sol__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so tief, dass Ilse das andere Ufer nicht sehen konnte.",
+          "Sie stellte den Kaffeebecher auf den Boden des Steuerhauses."
+        ],
+        "suggestions": ["Der Einstieg ist sehr stark und atmosphärisch. Keine Änderung notwendig."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kaum merklich", "kurzes, trockenes Knacken"],
+        "suggestions": [
+          "Der Text ist sehr präzise. 'Kaum merklich' könnte durch ein stärkeres Verb ersetzt werden (z.B. 'Das Deck gab unter ihrem Stiefel nach')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Morgen.“", "„Geht das überhaupt?“"],
+        "suggestions": [
+          "Exzellente Handhabung. Die Sprecher sind durch den Kontext klar, keine unnötigen 'sagte sie'-Tags."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["auch", "schon"],
+        "suggestions": [
+          "Sehr sparsamer Einsatz. Die wenigen Füllwörter dienen der Charakterisierung von Ilses pragmatischer Art."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["während Ilse das Wechselgeld aus der Ledertasche zählte"],
+        "suggestions": [
+          "Das 'während' ist akzeptabel, könnte aber durch zwei aufeinanderfolgende Sätze ersetzt werden, um das Tempo zu erhöhen (z.B. 'Die Frau hielt ihr Portemonnaie mit beiden Händen. Ilse zählte das Wechselgeld...')."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine nennenswerten Passivkonstruktionen. Der Text ist sehr aktiv und handlungsorientiert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Satzlängen sind rhythmisch und passen hervorragend zum kargen, pragmatischen Ton der Protagonistin."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind kurz, knackig und realistisch. Keine Straffung nötig."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie sah auf sein anderes Bein", "Sie sah es aus dem Augenwinkel"],
+        "suggestions": [
+          "Die Wahrnehmungsfilter sind bereits sehr reduziert. Man könnte noch radikaler kürzen: Statt 'Sie sah auf sein anderes Bein, das noch über dem Rahmen stand' einfach 'Das andere Bein stand noch über dem Rahmen'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Das Telefon vibrierte weiter."],
+        "suggestions": [
+          "Die Wiederholung des vibrierenden Telefons am Ende ist ein bewusstes, starkes stilistisches Mittel zur Spannungssteigerung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

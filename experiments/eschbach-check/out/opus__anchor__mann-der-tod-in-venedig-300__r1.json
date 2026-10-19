@@ -1,0 +1,140 @@
+{
+  "who": "opus",
+  "item": "anchor__mann-der-tod-in-venedig-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Der Text beginnt mit einem Rückblick im Plusquamperfekt (»hatte ... einen weiteren Spaziergang unternommen«). Die eigentliche Szene, Aschenbach allein an der Tramhaltestelle am Nördlichen Friedhof, setzt erst im letzten Drittel ein.",
+          "Vorgeschichte wie »Überreizt von der schwierigen und gefährlichen ... Arbeit der Vormittagsstunden« und der Weg durch den Englischen Garten zum Aumeister gehen dem gegenwärtigen Moment voraus."
+        ],
+        "suggestions": [
+          "Nach Eschbach direkt an der Haltestelle einsetzen: »Aschenbach wartete am Nördlichen Friedhof auf die Tram. Der Halteplatz war leer.« Die Überreizung und den Spaziergang anschließend in ein bis zwei Sätzen nachreichen.",
+          "Hinweis: Der Text stammt aus Thomas Manns »Der Tod in Venedig«. Der breite, rückblickende Einstieg ist dort bewusstes Stilmittel. Die Kritik gilt nur gemessen an Eschbachs Regeln."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "»von der schwierigen und gefährlichen, eben jetzt eine höchste Behutsamkeit ... erfordernden Arbeit«",
+          "»den entlastenden Schlummer«",
+          "»zu einem ersprießlichen Abend«",
+          "»den volkstümlich belebten Wirtsgarten«",
+          "»sich einsam gleißend gegen Schwabing erstreckten«",
+          "»im Abglanz des scheidenden Tages«",
+          "»obgleich nur erst zart belaubt«"
+        ],
+        "suggestions": [
+          "Doppelte Attribute reduzieren: »schwierigen und gefährlichen« auf ein Adjektiv kürzen oder die Gefahr der Arbeit konkret zeigen.",
+          "»volkstümlich belebten Wirtsgarten« durch ein konkretes Bild ersetzen, z. B. »den Wirtsgarten, in dem Bauern und Bürger beim Bier saßen«.",
+          "»entlastenden Schlummer« zu »Mittagsschlaf« verdichten. Das Substantiv trägt die Bedeutung bereits."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Abschnitt enthält keinen Dialog, daher gibt es keine Redeeinleitungen zu prüfen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "»an dessen Rande einige Droschken und Equipagen hielten«",
+          "»eine kleine Weile«",
+          "»bald nach dem Tee«",
+          "»Zufällig fand er den Halteplatz ... leer«",
+          "»obgleich nur erst zart belaubt«",
+          "»eben jetzt«"
+        ],
+        "suggestions": [
+          "»einige Droschken« präzisieren: »zwei Droschken und eine Equipage«.",
+          "»eine kleine Weile« streichen oder konkret machen: »ein paar Minuten lang«.",
+          "»Zufällig« streichen. Die Leere wirkt ohne Kommentar stärker."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "»hatte von dort bei sinkender Sonne seinen Heimweg ... genommen und erwartete, da er sich müde fühlte und über Föhring Gewitter drohte, am Nördlichen Friedhof die Tram«",
+          "»der ihm, bei zunehmender Abnutzbarkeit seiner Kräfte, einmal untertags so nötig war«"
+        ],
+        "suggestions": [
+          "Wörter wie »während« oder »gleichzeitig« fehlen. Im Aumeister-Satz werden aber mehrere Vorgänge (Sonnenuntergang, Müdigkeit, Gewitter, Warten) zusammengepresst. Besser nacheinander erzählen: »Die Sonne sank. Über Föhring zog ein Gewitter auf. Aschenbach war müde und wartete am Nördlichen Friedhof auf die Tram.«"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "»war ein Fuhrwerk zu sehen« (passivähnliche Konstruktion)",
+          "»wo zu Kauf stehende Kreuze, Gedächtnistafeln und Monumente«"
+        ],
+        "suggestions": [
+          "Der Text ist überwiegend aktiv. Optional aktivieren: »Weder auf der Ungererstraße noch auf der Föhringer Chaussee fuhr ein Wagen.«"
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "»Überreizt von der schwierigen und gefährlichen, eben jetzt eine höchste Behutsamkeit, Umsicht, Eindringlichkeit und Genauigkeit des Willens erfordernden Arbeit der Vormittagsstunden, hatte der Schriftsteller dem Fortschwingen des produzierenden Triebwerks in seinem Innern, jenem »motus animi continuus«, worin nach Cicero das Wesen der Beredsamkeit besteht, auch nach der Mittagsmahlzeit nicht Einhalt zu tun vermocht und den entlastenden Schlummer nicht gefunden, ...« (über 70 Wörter)",
+          "Der erste Satz schiebt Namenszusatz, Jahreszahl, politische Lage und Wohnort ein, bevor das Prädikat »unternommen« folgt.",
+          "»Beim Aumeister, wohin stillere und stillere Wege ihn geführt, hatte Aschenbach ... überblickt, ... hatte ... genommen und erwartete, da er ..., die Tram, die ihn ... zurückbringen sollte.«"
+        ],
+        "suggestions": [
+          "Den Überreizungs-Satz in drei Sätze teilen: »Die Arbeit des Vormittags hatte Aschenbach überreizt. Auch nach dem Mittagessen schwang sie in ihm fort, jener »motus animi continuus«, den Cicero als Wesen der Beredsamkeit beschrieb. Den Mittagsschlaf, den er inzwischen brauchte, fand er nicht.«",
+          "Den ersten Satz entschachteln: Den Adelstitel und die politische Lage in eigene Sätze auslagern, damit Subjekt und Prädikat nah beieinanderstehen.",
+          "Lange Partizipialattribute (»eine höchste Behutsamkeit ... erfordernden Arbeit«) in Relativsätze oder eigene Hauptsätze umwandeln."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Abschnitt enthält keine Dialogpassagen."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "»in der Hoffnung, daß Luft und Bewegung ihn wieder herstellen und ihm zu einem ersprießlichen Abend verhelfen würden«",
+          "»da er sich müde fühlte«",
+          "»Zufällig fand er den Halteplatz und seine Umgebung von Menschen leer.«",
+          "»hatte Aschenbach eine kleine Weile den volkstümlich belebten Wirtsgarten überblickt«",
+          "»war ein Fuhrwerk zu sehen«"
+        ],
+        "suggestions": [
+          "»da er sich müde fühlte« zeigen statt benennen: »Seine Beine waren schwer.«",
+          "»fand er den Halteplatz ... leer« direkt darstellen: »Der Halteplatz war leer.«",
+          "»war ein Fuhrwerk zu sehen« ersetzen durch »fuhr kein Wagen«. Der Filter über Aschenbachs Wahrnehmung entfällt."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "»Behutsamkeit, Umsicht, Eindringlichkeit und Genauigkeit« (vier nahezu bedeutungsgleiche Substantive)",
+          "»dem Fortschwingen des produzierenden Triebwerks in seinem Innern, jenem »motus animi continuus«« (derselbe Sachverhalt zweimal umschrieben)",
+          "»gefahrdrohende Miene« und kurz darauf »gefährlichen ... Arbeit«",
+          "»Halteplatz und seine Umgebung von Menschen leer« / »war ein Fuhrwerk zu sehen« / »regte sich nichts« / »lag schweigend« (viermal dieselbe Leere)",
+          "»stillere und stillere Wege«"
+        ],
+        "suggestions": [
+          "Die Aufzählung auf ein treffendes Wort reduzieren, z. B. »höchste Konzentration«.",
+          "Entweder das deutsche Bild oder das Cicero-Zitat verwenden, nicht beides.",
+          "Die Leere einmal stark zeigen statt viermal benennen. Ein konkretes Detail genügt, etwa die »einsam gleißenden« Schienen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.1031
+}

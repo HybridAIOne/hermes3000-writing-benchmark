@@ -1,0 +1,126 @@
+{
+  "who": "gemini",
+  "item": "anchor__fontane-effi-briest-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Der gesamte erste Absatz beschreibt rein statisch die Architektur des Hauses, den Garten, die Mauer und die Schaukel.",
+          "Auch die Front des Herrenhauses [...] gewährte bei bewölktem Himmel einen angenehmen [...] Aufenthalt;"
+        ],
+        "suggestions": [
+          "Nach modernen Maßstäben beginnt die Szene viel zu früh mit einer langen Kamerafahrt über das leere Set. Besser direkt mit der Handlung einsteigen: 'Effi legte die Wollnadel nieder, erhob sich und streckte die Arme hoch über den Kopf.' Die Umgebung kann dann durch ihre Bewegung im Raum beschrieben werden."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "weiß und grün quadrierten Fliesengang",
+          "kleinblättrigem Efeu stehende, nur an einer Stelle von einer kleinen weißgestrichenen Eisentür unterbrochene Kirchhofsmauer",
+          "großen schönen Stachelbeeren",
+          "schöne, schlanke Mama"
+        ],
+        "suggestions": [
+          "Der Text ist extrem überladen mit beschreibenden Adjektiven und Partizipialkonstruktionen. Viele davon ('große schöne', 'schöne, schlanke') sind generisch und sollten gestrichen oder durch ein starkes Detail gezeigt werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Möchtest du's?«", "»Nein.« Und dabei lief sie auf die Mama zu..."],
+        "suggestions": [
+          "Hervorragend gelöst. Es gibt kein einziges klassisches 'sagte sie'. Die Sprecherwechsel sind durch den Kontext und anschließende Handlungen ('Und dabei lief sie...') vollkommen klar."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Einige zwanzig Schritte weiter",
+          "ein paar mächtige alte Platanen",
+          "allerlei Zerstreuung",
+          "absichtlich ein wenig ins Komische",
+          "auch wohl die Mama"
+        ],
+        "suggestions": [
+          "Wörter wie 'ein paar' (kommt viermal vor!), 'allerlei', 'ein wenig' und 'wohl' verwässern die Präzision. Entweder die genaue Anzahl nennen oder die unbestimmten Artikel ganz weglassen ('mächtige alte Platanen', 'offene Fenster')."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "...fiel heller Sonnenschein auf die mittagsstille Dorfstraße, während nach der Park- und Gartenseite hin...",
+          "...aber während die Mutter kein Auge von der Arbeit ließ, legte die Tochter...",
+          "Eben hatte sich Effi wieder erhoben [...], als die [...] Mama ihr zurief:",
+          "Und dabei lief sie auf die Mama zu...",
+          "Und dabei stieg sie die [...] Steintreppe hinauf."
+        ],
+        "suggestions": [
+          "Handlungen werden sehr oft durch 'während', 'als' oder 'dabei' miteinander verklammert. Es liest sich dynamischer, wenn Ursache und Wirkung nacheinander stehen: 'Effi erhob sich und drehte sich nach links und rechts. Die Mama blickte von ihrer Stickerei auf. »Effi...«'"
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "...von der Familie von Briest bewohnten Herrenhauses...",
+          "...wurde die Gartenseite ganz entschieden bevorzugt, besonders von Frau und Tochter des Hauses...",
+          "Man nannte sie die »Kleine«..."
+        ],
+        "suggestions": [
+          "Passivkonstruktionen und das unpersönliche 'man' schaffen Distanz. Besser aktiv formulieren: 'An heißen Tagen bevorzugten Frau und Tochter des Hauses die Gartenseite.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "In Front des schon seit Kurfürst Georg Wilhelm von der Familie von Briest bewohnten Herrenhauses zu Hohen-Cremmen fiel heller Sonnenschein auf die mittagsstille Dorfstraße, während nach der Park- und Gartenseite hin ein rechtwinklig angebauter Seitenflügel einen breiten Schatten erst auf einen weiß und grün quadrierten Fliesengang und dann über diesen hinaus auf ein großes, in seiner Mitte mit einer Sonnenuhr und an seinem Rande mit Canna indica und Rhabarberstauden besetzten Rondell warf.",
+          "Es war ersichtlich, daß sie sich diesen absichtlich ein wenig ins Komische gezogenen Übungen mit ganz besonderer Liebe hingab, und wenn sie dann so dastand und, langsam die Arme hebend, die Handflächen hoch über dem Kopf zusammenlegte, so sah auch wohl die Mama von ihrer Handarbeit auf, aber immer nur flüchtig und verstohlen, weil sie nicht zeigen wollte, wie entzückend sie ihr eigenes Kind finde, zu welcher Regung mütterlichen Stolzes sie voll berechtigt war."
+        ],
+        "suggestions": [
+          "Der erste Satz hat 70 Wörter, der andere 72. Diese extremen Schachtelsätze mit ihren vielen Einschüben bremsen den Lesefluss massiv. Sie sollten dringend in 3 bis 4 eigenständige Hauptsätze aufgeteilt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "»Vielleicht, Mama. Aber wenn es so wäre, wer wäre schuld? [...] Warum machst du keine Dame aus mir?«"
+        ],
+        "suggestions": [
+          "Effis Monolog ist zwar recht lang (110 Wörter am Stück), passt aber gut zu ihrem sprudelnden, übermütigen Charakter. Dennoch könnte man ihn in der Mitte durch eine kleine Handlung oder Reaktion der Mutter (z.B. ein Lächeln bei der Erwähnung des Papas) aufbrechen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "...an dessen offener Seite man eines Teiches [...] gewahr wurde...",
+          "Es war ersichtlich, daß sie sich diesen [...] Übungen mit ganz besonderer Liebe hingab...",
+          "Und die Mama schien ernstlich willens, in Äußerung ihrer Sorgen und Ängste fortzufahren."
+        ],
+        "suggestions": [
+          "Hier schiebt sich ein auktorialer Erzähler zwischen Leser und Geschehen, der bewertet und filtert ('Es war ersichtlich', 'man wurde gewahr', 'schien willens'). Besser direkt zeigen: 'Die Mama holte tief Luft, um zu einer ernsten Ermahnung anzusetzen, doch in diesem Augenblick...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Eisentür in der Kirchhofsmauer, Rondell, Sonnenuhr, Steintreppe zum Seitenflügel (werden am Anfang beschrieben und am Ende exakt so wiederholt)"
+        ],
+        "suggestions": [
+          "Die Wiederholung der Schauplatz-Elemente am Ende ist handwerklich geschickt, um den Raum zu nutzen, allerdings wird die Steintreppe zweimal fast identisch erklärt ('deren vier Steinstufen vom Garten aus in das Hochparterre des Seitenflügels hinaufführten' / 'die vom Garten in den Seitenflügel führende Steintreppe'). Beim zweiten Mal reicht 'stieg sie die Steintreppe hinauf'."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.023298
+}

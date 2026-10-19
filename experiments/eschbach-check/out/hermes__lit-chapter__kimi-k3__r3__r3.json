@@ -1,0 +1,91 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__kimi-k3__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Um fünf holte Ilse den Kaffee aus der Thermoskanne, und der Nebel war schon da."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und setzt direkt in der Handlung an. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["träge", "schwarz und breit"],
+        "suggestions": [
+          "Die Adjektive sind meist treffend gewählt und unterstützen die Stimmung. Achte darauf, bei Beschreibungen wie 'stumpf' oder 'leise' noch stärker auf starke Verben zu setzen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["sagte sie", "sagte Ines", "sagte Ilse"],
+        "suggestions": [
+          "Die Dialoge wirken durch die ständige Wiederholung von 'sagte X' etwas statisch. Ersetze einige durch Handlungsbeschreibungen (Beat) oder lass sie weg, wenn klar ist, wer spricht."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr präzise und kommt fast ohne Füllwörter aus. Sehr gut."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Keine übermäßige Verwendung von 'während' oder 'als'. Die Handlungsabfolge ist klar und flüssig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["war zu sehen", "war gefallen"],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv. 'War zu sehen' könnte man durch 'Man sah nichts' ersetzen, um die Aktivität zu erhöhen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das Wasser war gefallen in der letzten Woche, aber nicht so weit, dass man Sorge haben musste."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind rhythmisch gut. Gelegentlich könnte ein langer Satz für mehr Tempo in zwei kürzere gesplittet werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind kurz, knackig und realistisch. Sehr gut getroffen."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Ilse wusste seinen Namen nicht.", "Sie sah, dass..."],
+        "suggestions": [
+          "Versuche, 'wusste' oder 'sah' durch direkte Beobachtungen zu ersetzen. Statt 'Ilse wusste seinen Namen nicht' könnte man schreiben: 'Ilse kannte seinen Namen nicht' oder den Fokus auf die Unbekanntheit legen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ziehen, Greifen, Ziehen, Greifen", "Jonas", "November"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier stilistisch beabsichtigt und unterstreichen die Monotonie des Alltags. Das ist ein starkes literarisches Mittel."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

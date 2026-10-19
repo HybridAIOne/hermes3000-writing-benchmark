@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gpt-6.1-sol__r3",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Mara öffnet die Tür. Jens hält eine Papiertüte."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er direkt in die Handlung führt und keine unnötigen Vorgeschichten erzählt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["keine auffälligen Adjektive verwendet"],
+        "suggestions": ["Der Text ist sehr reduziert und präzise. Beibehalten."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Jens: ...", "Mara: ..."],
+        "suggestions": [
+          "Die konsequente Vermeidung von 'sagte er/sie' macht den Dialog sehr dynamisch und modern."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Dann habe ich mich wohl verlesen."],
+        "suggestions": ["Die Füllwörter sind auf ein Minimum reduziert und wirken authentisch."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["(Sie tritt zur Seite.)", "(Er stellt die Tüte auf den Tisch.)"],
+        "suggestions": [
+          "Die Handlungen sind klar voneinander getrennt, was den Lesefluss sehr ruhig und fokussiert macht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Boden lässt sich wischen."],
+        "suggestions": [
+          "Die wenigen passivnahen Konstruktionen sind stilistisch angemessen und wirken nicht schwerfällig."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Du bist dünner geworden.", "Die Jacke ist zu groß."],
+        "suggestions": [
+          "Die kurzen, prägnanten Sätze unterstreichen die Stimmung und die Distanz zwischen den Figuren hervorragend."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der gesamte Text besteht aus Dialogen."],
+        "suggestions": [
+          "Die Dialoge sind sehr gestrafft und enthalten viel Subtext. Keine Kürzung nötig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Formulierungen wie 'er sah, dass' oder 'sie dachte, dass'."],
+        "suggestions": ["Die direkte Darstellung der Wahrnehmung ist exzellent umgesetzt."]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die mit Mohn waren aus. / Heute war jemand schneller."],
+        "suggestions": [
+          "Die Wiederholungen dienen der Charakterisierung und dem Subtext, sie wirken nicht redundant."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

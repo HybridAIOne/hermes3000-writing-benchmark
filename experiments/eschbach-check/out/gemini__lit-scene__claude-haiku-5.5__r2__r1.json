@@ -1,0 +1,115 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__claude-haiku-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel lag nicht mehr unter dem Blumentopf mit der vertrockneten Geranie. Frau Lenz von nebenan hatte ihn im Juni abgegeben, mit einem Zettel: »Alles unverändert.«"
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch sehr stark. Da der Erzähler im zweiten Absatz bereits im Haus steht, könnte man streng nach Eschbach direkt im Flur beginnen ('Das Haus roch nach kaltem Rauch...') und die Info zum Zettel von Frau Lenz einflechten. Der aktuelle Einstieg funktioniert als 'Hook' aber bereits hervorragend."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "vertrockneten Geranie",
+          "kaltem Rauch",
+          "flachen Pfützen",
+          "Ich setzte den Deckel zurück, behutsam..."
+        ],
+        "suggestions": [
+          "Die Adjektive sind fast ausnahmslos präzise und tragen zur Stimmung bei, statt redundant zu sein.",
+          "Lediglich 'so unvermittelt' (bei 'der Duft traf mich so unvermittelt') und 'behutsam' könnten durch noch bildhaftere Verben ersetzt werden (z.B. 'der Duft überfiel mich')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["mit einem Zettel: »Alles unverändert.«"],
+        "suggestions": [
+          "Der Text enthält keinen gesprochenen Dialog, das Zitat auf dem Zettel ist nahtlos und ohne überflüssige Verben der Mitteilung eingebunden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["leicht bitter", "Wer hätte das auch tun sollen."],
+        "suggestions": [
+          "Der Text ist extrem sauber und frei von klassischen Füllwörtern.",
+          "Das Wort 'leicht' vor 'bitter' schwächt den Eindruck etwas ab; hier könnte man einfach 'dunkel, bitter, mit einer Spur von Orange' schreiben.",
+          "Das 'auch' im rhetorischen Fragesatz passt gut zur Erzählstimme, ist also stilistisch gerechtfertigt."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "...als jemand sie zuletzt angehalten hatte.",
+          "...wenn sie die Bohnen mahlte und die Küche sich mit einer Wärme füllte..."
+        ],
+        "suggestions": [
+          "Es gibt keine unlogischen Gleichzeitigkeiten in der gegenwärtigen Handlung. Alle Handlungen des Protagonisten ('Ich hob den Deckel', 'Ich roch noch einmal', 'Ich setzte den Deckel zurück') erfolgen klar nacheinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Das Wort war zweimal unterstrichen"],
+        "suggestions": [
+          "Keinerlei problematische Passivkonstruktionen. Das einzige Zustandspassiv ('war unterstrichen') ist hier vollkommen richtig, da das Resultat auf dem Zettel beschrieben wird."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ich hob den Deckel, und der Duft traf mich so unvermittelt, dass ich mich am Tresen festhalten musste: dunkel, leicht bitter, mit einer Spur von Orange.",
+          "Im Hof schlug eine Tür zu. Ich rührte mich nicht."
+        ],
+        "suggestions": [
+          "Exzellenter Satzrhythmus. Längere, beschreibende Sätze wechseln sich wirkungsvoll mit sehr kurzen, prägnanten Sätzen ab, was besonders am Ende die Spannung massiv erhöht."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Nicht anwendbar, da kein Dialog vorhanden ist. Die Länge der Textabschnitte ist perfekt ausbalanciert."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ich fragte mich, ob es Tag oder Nacht gewesen war, als jemand sie zuletzt angehalten hatte.",
+          "Vor zwanzig Jahren hatte ich diese Dose zuletzt gesehen, leer, der Rand grau vor Staub."
+        ],
+        "suggestions": [
+          "Statt der distanzierenden Filterung durch 'Ich fragte mich, ob...' könnte der Gedanke direkter formuliert werden: 'War es Tag oder Nacht gewesen, als...?' (Hinweis: Eine Uhr, die stehenbleibt, wird meist nicht aktiv 'angehalten', hier wäre ein anderes Verb evtl. noch logischer).",
+          "Statt 'hatte ich gesehen' könnte man direkter in die Erinnerung gehen: 'Vor zwanzig Jahren war diese Dose noch leer gewesen, der Rand grau vor Staub.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "An der Garderobe hing der Mantel meiner Mutter... Niemand hatte ihn abgenommen. Wer hätte das auch tun sollen.",
+          "Ich roch noch einmal, dann noch einmal, bis ich mir sicher war."
+        ],
+        "suggestions": [
+          "Das stilistische Mittel der Wiederholung bei 'noch einmal, dann noch einmal' ist hier bewusst und sehr gut eingesetzt, um das Ungläubige der Figur zu zeigen.",
+          "Die Passage 'Niemand hatte ihn abgenommen. Wer hätte das auch tun sollen.' wiederholt im Grunde das Konzept der Abwesenheit, funktioniert aber gut als innerer Monolog. Man könnte den ersten der beiden Sätze theoretisch streichen ('An der Garderobe hing noch immer der Mantel meiner Mutter... Wer hätte ihn auch abnehmen sollen?')."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.017002
+}

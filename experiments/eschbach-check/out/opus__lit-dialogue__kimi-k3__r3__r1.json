@@ -1,0 +1,137 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__kimi-k3__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "*Jonas steht am Tisch, die Hand noch an der Stuhllehne.* / **Jonas:** Du bist früher dran.",
+          "*Die Kellnerin kommt. Beide schweigen, bis sie wieder weg ist.* / **Jonas:** Derselbe Kaffee wie immer?"
+        ],
+        "suggestions": [
+          "Der Einstieg sitzt: Die Begrüßung fällt weg, der erste Satz enthält schon den Vorwurf. Ein früherer Einstieg wäre unnötig, ein späterer würde die Spannung des Ankommens verschenken.",
+          "Die Reihenfolge prüfen: Jonas fragt nach der Bestellung erst, nachdem die Kellnerin gegangen ist. Entweder fällt die Frage, während sie am Tisch steht (das Schweigen bezieht sich dann auf alles andere), oder Marek bestellt wortlos per Geste.",
+          "Die Überschrift **Zwei alte Freunde, ein Café, Nachmittag** nimmt vorweg, was der Dialog selbst zeigt. Kürzen auf **Café, Nachmittag**."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "*Jonas legt den Löffel hin. Sehr langsam.*",
+          "*Lange Pause.*",
+          "*Marek greift sofort zum Zucker*"
+        ],
+        "suggestions": [
+          "„Sehr langsam“ durch ein präziseres Verb ersetzen, z. B. *Jonas legt den Löffel ab. Lautlos.* oder *Jonas legt den Löffel neben die Tasse, Kante an Kante.*",
+          "„Lange Pause“ konkret füllen: *Die Kellnerin räumt den Nebentisch ab. Keiner sagt etwas.*",
+          "Insgesamt arbeitet der Text sparsam mit Attributen. Die übrigen Adverbien (sofort, trotzdem) tragen Bedeutung und können bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "**Marek:** Nächstes Mal… / **Jonas:** Ja.",
+          "**Jonas:** Sind wir das noch? Nett? / **Marek:** Wir sitzen hier, oder?"
+        ],
+        "suggestions": [
+          "Im Szenenformat sind die Sprechernamen Konvention. Es gibt keine überflüssigen Inquit-Formeln wie „sagte er“.",
+          "Bei einer Umwandlung in Prosa könnten fast alle Zuschreibungen entfallen, weil der Wechsel zwischen zwei Figuren eindeutig ist. Nur nach Regieanweisungen wäre ein Anker nötig."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Du weißt es ja noch.",
+          "Vom Fahren weißt du ja was.",
+          "Stimmt ja auch.",
+          "Man soll ja nett sein zu alten Freunden.",
+          "War ja schon immer so.",
+          "Ich war sowieso in der Gegend.",
+          "Sie fragt manchmal nach dir."
+        ],
+        "suggestions": [
+          "Die Abtönungspartikel „ja“ kommt fünfmal vor. In gesprochener Sprache ist das natürlich, in dieser Dichte wird es aber zum Tick. Zwei bis drei streichen, z. B. „Du weißt es noch.“ / „Stimmt auch.“ / „War schon immer so.“",
+          "„Vieles wächst. Manches schrumpft.“ und „Manche Dinge vergisst man nicht.“ bleiben bewusst vage. Das passt zur Ausweichhaltung der Figuren, sollte aber nicht dreimal kurz hintereinander kommen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "*Marek greift sofort zum Zucker, dann hält er inne.*",
+          "*Rührt in seiner Tasse, obwohl nichts drin ist.*"
+        ],
+        "suggestions": [
+          "Die Handlungen stehen sauber nacheinander. „Während“ oder „gleichzeitig“ kommen nicht vor. Hier gibt es keinen Änderungsbedarf."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Treppe vor deiner Wohnung haben sie renoviert."],
+        "suggestions": [
+          "Der Text enthält keine Passivkonstruktionen. Selbst die Renovierung steht aktiv („haben sie renoviert“). Beibehalten."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "**Jonas:** In der Gegend. *Setzt sich.* Die Gegend ist groß geworden, seit du sie zuletzt gesehen hast.",
+          "**Marek:** Sie fragt manchmal nach dir. Ich sage dann, ich weiß nichts."
+        ],
+        "suggestions": [
+          "Alle Sätze sind kurz und klar. Der längste Satz („Die Gegend ist groß geworden, seit du sie zuletzt gesehen hast“) bleibt gut lesbar.",
+          "Auf Monotonie achten: Fast jede Replik besteht aus Ein- bis Dreiwortsätzen. Eine etwas längere Replik an einer Schlüsselstelle (etwa beim Thema Mutter) könnte als Kontrast wirken."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "**Jonas:** Die Treppe sieht gut aus. Ohne die kaputte Stufe. An der ich damals… egal.",
+          "**Marek:** Nächstes Mal… / **Jonas:** Ja. / **Marek:** Ich hab noch nichts gesagt."
+        ],
+        "suggestions": [
+          "Der Dialog ist stark verdichtet und arbeitet mit Subtext. Keine Passage ist zu lang.",
+          "Die Sequenz um den Zucker („Du magst ihn doch gesüßt“ bis „Man soll ja nett sein“) braucht drei Repliken für eine Pointe, die mit der Geste schon steht. Optional straffen: Marek schiebt die Dose wortlos rüber."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "*Marek nickt. Fast ein Lächeln. Fast.*",
+          "*Rührt in seiner Tasse, obwohl nichts drin ist.*"
+        ],
+        "suggestions": [
+          "Gefühle zeigen sich durchgehend in Handlung und Geste, nie durch Formeln wie „er bemerkte, dass“ oder „sie dachte, dass“. Das ist vorbildlich und sollte beibehalten werden."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„In der Gegend.“ (Echo auf Mareks Satz)",
+          "„Genau. Egal.“ (Echo auf Jonas' „egal“)",
+          "„Früher.“ / „Früher.“",
+          "„Wir sitzen hier, oder?“ / „Wir sitzen hier.“",
+          "„Fast ein Lächeln. Fast.“"
+        ],
+        "suggestions": [
+          "Das Wiederaufgreifen des letzten Worts ist ein starkes Stilmittel, wird aber fünfmal eingesetzt und dadurch zur Masche. Zwei, höchstens drei Echos behalten, z. B. „In der Gegend“ am Anfang und „Wir sitzen hier“ als Höhepunkt.",
+          "„Früher. / Früher.“ ersetzen durch eine Geste oder eine abweichende Antwort, etwa Marek: „Leute ändern sich.“",
+          "Das Schluss-„Fast.“ steht nach den vielen Echos schwächer da, als es könnte. Mit weniger Echos davor gewinnt es an Wirkung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.096336
+}

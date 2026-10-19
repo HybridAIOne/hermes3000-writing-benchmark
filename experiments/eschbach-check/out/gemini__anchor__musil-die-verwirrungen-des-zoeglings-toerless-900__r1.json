@@ -1,0 +1,128 @@
+{
+  "who": "gemini",
+  "item": "anchor__musil-die-verwirrungen-des-zoeglings-toerless-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Eine kleine Station an der Strecke, welche nach Rußland führt.",
+          "Hinter dem niederen, ölgestrichenen Stationsgebäude führte eine breite, ausgefahrene Straße zur Bahnhofsrampe herauf.",
+          "Der Grund, dessentwegen Frau Törleß es dulden mußte, ihren Jungen in so ferner, unwirtlicher Fremde zu wissen, war, daß sich in dieser Stadt ein berühmtes Konvikt befand..."
+        ],
+        "suggestions": [
+          "Nach Eschbach sollte eine Szene so spät wie möglich beginnen und direkt in die Handlung einsteigen. Hier folgen auf vier Absätze reiner Landschafts- und Umgebungsbeschreibung sofort mehrere Seiten Hintergrundgeschichte (Info-Dump). Besser wäre es, direkt mit dem Konflikt oder Dialog des Abschieds von Frau Törleß und ihrem Sohn zu starten und die Umgebung sowie die Vergangenheit organisch in die laufende Handlung einzuflechten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Hinter dem niederen, ölgestrichenen Stationsgebäude führte eine breite, ausgefahrene Straße...",
+          "...das bleiche, kraftlose, durch den Dunst ermüdete Licht...",
+          "...etwas Gleichgültiges, Lebloses, Mechanisches...",
+          "...litt der kleine Törleß an fürchterlichem, leidenschaftlichem Heimweh."
+        ],
+        "suggestions": [
+          "Der Text ist extrem überladen mit Adjektiven, oft in Zweier- oder Dreiergruppen. Streichen Sie mindestens die Hälfte davon und wählen Sie stattdessen stärkere Substantive und Verben. Statt 'fürchterliches, leidenschaftliches Heimweh' zu behaupten (Tell), zeigen Sie durch Törleß' konkretes Handeln, wie sehr er leidet (Show)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Törleß konnte sich damals beispielsweise nicht mehr das Bild seiner »lieben, lieben Eltern«, -- dermaßen sprach er es meist vor sich hin -- vor Augen zaubern."
+        ],
+        "suggestions": [
+          "Es gibt im gesamten Textausschnitt keinen echten Dialog, daher gibt es auch keine überflüssigen Redebegleitsätze. Um die Szene lebendiger zu gestalten, wäre echter Dialog jedoch sehr hilfreich."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "...das den Mittelpunkt der etwas lauten Unterhaltung bildete.",
+          "...dies war die Dame von vielleicht vierzig Jahren...",
+          "...vom Weinen ein wenig gerötete Augen.",
+          "...nachdem er schon einige Tage allein gewesen war und sich verhältnismäßig wohl befunden hatte...",
+          "Ich meine diese gewisse plastische..."
+        ],
+        "suggestions": [
+          "Der Text enthält viele relativierende und unpräzise Wörter ('etwas', 'vielleicht', 'ein wenig', 'verhältnismäßig', 'gewisse', 'eigentlich'). Ein entschlossener Erzähler weiß genau, wie alt die Figur ist und wie rot ihre Augen sind. Streichen Sie diese Weichmacher ersatzlos, um dem Text mehr Kraft und Präzision zu verleihen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...links und rechts eines älteren Ehepaares schreitend, das den Mittelpunkt der etwas lauten Unterhaltung bildete.",
+          "...ja er hatte gelacht, als sich seine Mutter beim ersten Abschied vor Tränen nicht fassen konnte..."
+        ],
+        "suggestions": [
+          "Das Problem der Gleichzeitigkeit tritt kaum auf. Lediglich Partizipialkonstruktionen wie 'schreitend' wirken nach modernen Maßstäben etwas sperrig und könnten in aktive Hauptsätze aufgelöst werden."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "...wo es auf dem Boden einer frommen Stiftung errichtet worden war...",
+          "...die zu allen Sinnen spricht und in allen Sinnen bewahrt wird...",
+          "...in der von hundert flammenden Kerzen und von hundert Augen heiliger Bilder Weihrauch zwischen die Schmerzen der sich selbst Geißelnden gestreut wird."
+        ],
+        "suggestions": [
+          "Obwohl der Großteil aktiv formuliert ist, bremsen einige Passivkonstruktionen (besonders im letzten Satz) die Dynamik. Formulieren Sie aktiv: Wer hat das Konvikt errichtet? Wer streut den Weihrauch (bzw. wie lässt sich die Metapher aktiver fassen)?"
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Von Zeit zu Zeit, in gleichen Intervallen, trat der Bahnhofsvorstand aus seinem Amtszimmer heraus, sah mit der gleichen Wendung des Kopfes die weite Strecke hinauf nach den Signalen der Wächterhäuschen, die immer noch nicht das Nahen des Eilzuges anzeigen wollten, der an der Grenze große Verspätung erlitten hatte; mit ein und derselben Bewegung des Armes zog er sodann seine Taschenuhr hervor, schüttelte den Kopf und verschwand wieder; so wie die Figuren kommen und gehen, die aus alten Turmuhren treten, wenn die Stunde voll ist.",
+          "Der Grund, dessentwegen Frau Törleß es dulden mußte, ihren Jungen in so ferner, unwirtlicher Fremde zu wissen, war, daß sich in dieser Stadt ein berühmtes Konvikt befand, welches man schon seit dem vorigen Jahrhunderte, wo es auf dem Boden einer frommen Stiftung errichtet worden war, hier heraußen beließ, wohl um die aufwachsende Jugend vor den verderblichen Einflüssen einer Großstadt zu bewahren."
+        ],
+        "suggestions": [
+          "Der Text besteht fast ausschließlich aus extrem langen, verschachtelten Hypotaxen (Bandwurmsätzen) mit zahlreichen Relativsätzen. Nach Eschbach ermüdet dies den Leser stark. Teilen Sie diese Konstrukte in zwei bis vier eigenständige Sätze auf. Ein Gedanke pro Satz genügt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Da kein Dialog vorhanden ist, gibt es auch keine zu langen Dialogpassagen. Aus dramaturgischer Sicht wäre es allerdings ratsam, die endlosen Erklärungen der Erzählerstimme durch einen echten Dialog am Bahnsteig zu ersetzen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Wenn er aber schrieb, fühlte er etwas Auszeichnendes, Exklusives in sich...",
+          "Und wenn er untertags, bei den Spielen oder im Unterrichte, daran dachte, daß er abends seinen Brief schreiben werde, so war ihm, als...",
+          "Er hielt es für Heimweh, für Verlangen nach seinen Eltern.",
+          "Der Gedanke an seine Eltern wurde ihm hiebei mehr und mehr..."
+        ],
+        "suggestions": [
+          "In der zweiten Hälfte wird ausschließlich über Törleß' Innenleben *berichtet* (Psychologisierung von außen), statt den Leser direkt daran teilhaben zu lassen. Vermeiden Sie Filterwörter wie 'fühlte er', 'dachte er', 'schien ihm'. Gehen Sie direkt in die personale Perspektive oder zeigen Sie seine Gefühle durch konkrete Handlungen in einer Szene."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Von Zeit zu Zeit, in gleichen Intervallen...",
+          "...mit der gleichen Wendung des Kopfes... mit ein und derselben Bewegung des Armes...",
+          "...zwei Reihen Akazienbäumen kenntlich, die traurig... standen. / Machten es diese traurigen Farben... / ...verbarg hinter ihrem dichten Schleier traurige... Augen.",
+          "...etwas Gleichgültiges... / ...gleichgültige Stationen... / ...kalt und gleichgültig umdrängte."
+        ],
+        "suggestions": [
+          "Es gibt sowohl direkte Wortwiederholungen ('traurig', 'gleichgültig') als auch semantische Doppelungen ('Von Zeit zu Zeit, in gleichen Intervallen' sagt zweimal dasselbe). Auch Törleß' abstrakter Schmerz im letzten Drittel wird mehrfach mit unterschiedlichen Metaphern (Insel, goldener Schlüssel, Resonanz, Kapelle) umschrieben. Entscheiden Sie sich für ein starkes Bild und streichen Sie die Redundanzen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.025662
+}

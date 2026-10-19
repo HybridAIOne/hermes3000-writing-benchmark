@@ -1,0 +1,130 @@
+{
+  "who": "gemini",
+  "item": "anchor__zweig-brennendes-geheimnis-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Die Lokomotive schrie heiser auf: der Semmering war erreicht.",
+          "Jene weißen, unruhigen Wolken flatterten am Himmel...",
+          "Im Hotel war der erste Weg des jungen Mannes zu der Liste der anwesenden Gäste..."
+        ],
+        "suggestions": [
+          "Nach moderner Dramaturgie (Eschbach) beginnt die eigentliche Szene erst im Hotel mit dem Konflikt des Protagonisten (Enttäuschung über die Gästeliste). Die Ankunft des Zuges und die lange Naturbeschreibung während der Kutschfahrt zögern den Handlungsbeginn hinaus.",
+          "Prüfen, ob die Szene direkt im Hotel starten kann: 'Noch im Mantel trat er an das Pult und durchflog die Liste der anwesenden Gäste.' Die Atmosphäre des Ortes kann später durch seine Augen einfließen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "schrie heiser auf",
+          "schwarzen Wagen im silbrigen Licht",
+          "vom nassen Wind reingefegten",
+          "durch gute Kleidung und eine natürliche Elastizität des Schrittes sympathisch auffallend"
+        ],
+        "suggestions": [
+          "Der Text nutzt sehr viele ausschmückende Adjektive und Adverbien (klassischer Stil, vermutlich Stefan Zweig). Nach Eschbachs Methode sollten diese stark reduziert werden.",
+          "Statt 'sympathisch auffallend' (Wertung des Autors) lieber durch Handlung zeigen, wie andere positiv auf ihn reagieren ('Show, don't tell').",
+          "Substantive und Verben für sich arbeiten lassen: 'Der Wind fegte den Hintergrund rein' statt 'mit klaren, vom nassen Wind reingefegten Hintergründen'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["»Wozu bin ich eigentlich hier«, begann es unruhig in ihm zu fragen."],
+        "suggestions": [
+          "Es gibt keinen echten Dialog, nur einen inneren Monolog. Die Einleitung 'begann es unruhig in ihm zu fragen' ist jedoch unnötig kompliziert.",
+          "Der Gedanke wirkt unmittelbarer, wenn die Einleitung komplett gestrichen oder als direkte erlebte Rede (ohne Anführungszeichen) formuliert wird: Wozu war er eigentlich hier?"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "warfen paar bunte Menschen aus",
+          "Manchmal schien auch Duft...",
+          "spürte man im Atem etwas, das...",
+          "Wozu bin ich eigentlich hier"
+        ],
+        "suggestions": [
+          "Der Text ist weitgehend frei von typischen Füllwörtern. Dennoch lassen sich Wörter wie 'etwas', 'manchmal' und 'auch' streichen, um die Sätze noch prägnanter zu machen.",
+          "In wörtlicher Rede (bzw. Gedanken) ist 'eigentlich' legitim, im Erzähltext sollten unpräzise Angaben wie 'paar' vermieden werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "dann schrie vorne wieder die heisere Maschine und riß...",
+          "dann spürte man im Atem etwas, das süß und scharf war zugleich"
+        ],
+        "suggestions": [
+          "Die Handlungen werden vorbildlich nacheinander beschrieben. Es gibt keine erzwungene Gleichzeitigkeit durch 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["der Semmering war erreicht"],
+        "suggestions": [
+          "Fast der gesamte Text steht im Aktiv und nutzt starke Verben (rasteten, warfen, schluckten, riß). Die einzige Zustandspassiv-Konstruktion im ersten Satz ist stilistisch vertretbar, könnte aber durch 'Der Zug erreichte den Semmering' aktiviert werden."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Jene weißen, unruhigen Wolken flatterten am Himmel, die nur der Mai und der Juni hat, jene weißen, selbst noch jungen und flattrigen Gesellen, die spielend über die blaue Bahn rennen, um sich plötzlich hinter hohen Bergen zu verstecken, die sich umarmen und fliehen, sich bald wie Taschentücher zerknüllen, bald in Streifen zerfasern und schließlich im Schabernack den Bergen weiße Mützen aufsetzen.",
+          "Eine Minute rasteten die schwarzen Wagen im silbrigen Licht der Höhe, warfen paar bunte Menschen aus, schluckten andere ein, Stimmen gingen geärgert hin und her, dann schrie vorne wieder die heisere Maschine und riß die schwarze Kette rasselnd in die Höhle des Tunnels hinab."
+        ],
+        "suggestions": [
+          "Der Satz über die Wolken besteht aus 59 Wörtern und zahlreichen Nebensätzen. Das bremst das Lesetempo massiv aus.",
+          "Lange Satzgefüge in kürzere Hauptsätze aufbrechen. Nach Eschbach gilt: Ein Gedanke pro Satz."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "»Wozu bin ich eigentlich hier« [...] »Allein hier auf dem Berg zu sein, ohne Gesellschaft, ist ärger als das Bureau. Offenbar bin ich zu früh gekommen oder zu spät. Ich habe nie Glück mit meinem Urlaub. Keinen einzigen bekannten Namen finde ich unter all den Leuten."
+        ],
+        "suggestions": [
+          "Da es sich um einen inneren Monolog handelt, wirkt ein so langer Block in wörtlicher Rede etwas künstlich (Menschen denken selten in druckreifen Absätzen).",
+          "Gedanken kürzen oder mit Handlung (z.B. dem Zuklappen des Gästebuchs) unterbrechen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Manchmal schien auch Duft von Schnee kühl aus den Bergen herüberzukommen, dann spürte man im Atem etwas...",
+          "begann es unruhig in ihm zu fragen"
+        ],
+        "suggestions": [
+          "Formulierungen wie 'schien herüberzukommen' und 'spürte man' schaffen Distanz zum Leser. Das unpersönliche 'man' reißt aus der Perspektive des jungen Mannes.",
+          "Direkter formulieren und nah an der Figur bleiben: 'Ein kühler Duft von Schnee wehte aus den Bergen herüber.Sein Atem schmeckte süß und scharf zugleich.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Die Lokomotive schrie heiser auf [...] dann schrie vorne wieder die heisere Maschine",
+          "Rein ausgespannt, mit klaren, vom nassen Wind reingefegten Hintergründen lag wieder die hingebreitete Landschaft.",
+          "Jene weißen, unruhigen Wolken flatterten [...] jene weißen, selbst noch jungen und flattrigen Gesellen [...] Unruhe war auch oben im Wind [...] Bewegung und gärende Ungeduld.",
+          "Allein hier auf dem Berg [...] ohne Gesellschaft [...] Keinen einzigen bekannten Namen"
+        ],
+        "suggestions": [
+          "Wortwiederholungen auf engem Raum vermeiden ('schrie/weiser', 'rein/reingefegt', 'weiß/flatterten').",
+          "Inhaltliche Doppelungen streichen: 'ausgespannt' und 'hingebreitet' im selben Satz meinen dasselbe. Auch das Thema 'Unruhe in der Natur' wird viermal hintereinander variiert. Am Ende wiederholt der Protagonist dreimal denselben Gedanken (er ist allein)."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.022136
+}

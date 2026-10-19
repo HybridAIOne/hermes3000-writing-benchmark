@@ -1,0 +1,91 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6-luna__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so dicht über der Elbe, dass Ilse das andere Ufer nicht sah."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und setzt genau am richtigen Punkt ein. Keine unnötige Vorgeschichte."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["dumpf", "verspätet", "ausgefranst"],
+        "suggestions": [
+          "Die Adjektive sind wohl dosiert und dienen der Stimmung, nicht der Füllung. Sehr präzise."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Morgen“, sagte die Frau.", "„Morgen.“"],
+        "suggestions": [
+          "Vorbildlich reduziert. Die Sprecher sind durch den Kontext klar, Redeeinleitungen werden nur eingesetzt, wenn nötig."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["vielleicht", "irgendwo"],
+        "suggestions": ["Sehr sparsamer Einsatz, wirkt absolut natürlich und nicht störend."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine übermäßige Verwendung von 'während'."],
+        "suggestions": [
+          "Die Handlungen folgen logisch und chronologisch aufeinander, was den Lesefluss fördert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ilse schob den Riegel...", "Sie prüfte das Seil..."],
+        "suggestions": [
+          "Konsequent aktiv formuliert. Die Protagonistin handelt, anstatt nur zu reagieren."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie schob sich über den Fluss, den Ilse nicht sehen konnte, nur hörte: ein leises Drängen am Bug..."
+        ],
+        "suggestions": [
+          "Der Rhythmus ist gut. Die Satzlängen variieren angenehm zwischen kurz und beschreibend."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Fünf Minuten“, sagte sie."],
+        "suggestions": [
+          "Die Dialoge sind kurz, knapp und charakterisierend. Keine unnötigen Ausschweifungen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie schien auf eine Antwort zu warten.", "als hätte er nicht gewusst"],
+        "suggestions": [
+          "Könnte an zwei Stellen noch direkter sein (z.B. 'Sie wartete auf eine Antwort' statt 'Sie schien...')."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Fähre, Nebel, Steg"],
+        "suggestions": [
+          "Wiederholungen sind hier funktional und unterstreichen die monotone Routine des Alltags der Protagonistin."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

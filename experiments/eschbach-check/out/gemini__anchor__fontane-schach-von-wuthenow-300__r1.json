@@ -1,0 +1,135 @@
+{
+  "who": "gemini",
+  "item": "anchor__fontane-schach-von-wuthenow-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "In dem Salon der in der Behrenstraße wohnenden Frau von Carayon und ihrer Tochter Victoire waren an ihrem gewöhnlichen Empfangsabend einige Freunde versammelt...",
+          "...hatte neben der schönen Frau vom Hause Platz genommen..."
+        ],
+        "suggestions": [
+          "Nach moderner Erzähltheorie (In medias res) beginnt die Szene zu statisch mit einer reinen Aufzählung des Settings und der Hintergrundgeschichte der Figuren.",
+          "Starten Sie direkt in der Handlung oder im Dialog, anstatt erst ausführlich zu erklären, wer warum anwesend ist oder fehlt. Zum Beispiel direkt mit Bülows wildem Gestikulieren und einem Satz aus seinem 'Kathedervortrag'."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "der in der Behrenstraße wohnenden Frau",
+          "unter gleichzeitigem scherzhaftem Bedauern",
+          "der der Mitte des Zimmers zugekehrten Tischseite",
+          "einem abenteuernden Leben",
+          "der in der Taille knapp anschließende Rock"
+        ],
+        "suggestions": [
+          "Vermeiden Sie schwere Partizipialkonstruktionen (wie 'in der Behrenstraße wohnenden' oder 'Mitte des Zimmers zugekehrten'). Lösen Sie diese in Nebensätze auf oder streichen Sie sie.",
+          "Statt 'scherzhaftes Bedauern' zu behaupten (Telling), lassen Sie Herrn von Alvensleben den Scherz in wörtlicher Rede aussprechen (Showing)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...unter gleichzeitigem scherzhaftem Bedauern darüber, daß gerade der fehle, dem dieser Platz in Wahrheit gebühre.",
+          "Er konnte, wie seine Freunde sagten, nur sprechen um Vortrag zu halten..."
+        ],
+        "suggestions": [
+          "Es gibt keine überflüssigen 'sagte er'-Konstruktionen, da der Text keinen direkten Dialog enthält.",
+          "Allerdings wird das Gespräch nur indirekt zusammengefasst. Die Szene würde stark gewinnen, wenn das 'scherzhafte Bedauern' und der 'Kathedervortrag' als echter Dialog ausgeschrieben würden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "einige Freunde versammelt, aber freilich wenige nur",
+          "seit wenig Wochen erst",
+          "um einige Jahre jüngere",
+          "beziehungsweise",
+          "er sprach eigentlich immer",
+          "im Uebrigen aber",
+          "wenigstens in allem"
+        ],
+        "suggestions": [
+          "Der Text nutzt viele relativierende Füllwörter ('freilich', 'eigentlich', 'wenigstens', 'einige'), die den Erzählton zwar plaudernd machen (typisch für das 19. Jahrhundert), nach Eschbach aber die Präzision verwässern.",
+          "Streichen Sie 'freilich', 'eigentlich' und 'im Übrigen' ersatzlos. Ersetzen Sie 'einige Freunde, aber wenige nur' direkt durch die exakte Zahl (z.B. 'nur drei Gäste')."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "unter gleichzeitigem scherzhaftem Bedauern",
+          "...während ihm der in der Taille knapp anschließende Rock von niederländischem Tuche sein Embonpoint zusammenschnürte."
+        ],
+        "suggestions": [
+          "Das Wort 'gleichzeitigem' ist hier völlig entbehrlich und klingt bürokratisch.",
+          "Im vorletzten Satz wird 'während' genutzt, um zwei statische Zustände (Gesichtsausdruck und enger Rock) zu verbinden. Trennen Sie dies in zwei eigenständige Hauptsätze."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "waren ... einige Freunde versammelt (Zustandspassiv)",
+          "war nur einer erschienen / hatte Platz genommen (Plusquamperfekt, wirkt passivisch)",
+          "allgemein als das Haupt jener militärischen Frondeurs angesehen wurde (Vorgangspassiv)"
+        ],
+        "suggestions": [
+          "Formulieren Sie 'als das Haupt angesehen wurde' aktiv: 'Er galt in der Hauptstadt als der Kopf jener militärischen Frondeure...' oder 'Die Berliner sahen in ihm das Haupt...'.",
+          "Reduzieren Sie die 'war/hatte'-Konstruktionen am Anfang, um schneller ins aktive Geschehen zu kommen."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "In dem Salon der in der Behrenstraße wohnenden Frau von Carayon und ihrer Tochter Victoire waren an ihrem gewöhnlichen Empfangsabend einige Freunde versammelt, aber freilich wenige nur, da die große Hitze des Tages auch die treuesten Anhänger des Zirkels ins Freie gelockt hatte.",
+          "Am entschiedensten der um einige Jahre jüngere von beiden, ein ehemaliger Stabskapitän, der, nach einem abenteuernden Leben in England und den Unionsstaaten in die Heimat zurückgekehrt, allgemein als das Haupt jener militärischen Frondeurs angesehen wurde, die damals die politische Meinung der Hauptstadt machten, beziehungsweise terrorisirten."
+        ],
+        "suggestions": [
+          "Der Text (Fontanes 'Schach von Wuthenow') besteht fast ausschließlich aus extrem langen, stark verschachtelten Hypotaxen.",
+          "Für moderne Lesegewohnheiten müssen diese Sätze dringend aufgeteilt werden. Machen Sie aus den zahlreichen Einschüben (Appositionen und Relativsätzen) eigene Hauptsätze. Ein Gedanke pro Satz."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine zu langen Dialoge vorhanden (tatsächlich fehlt direkter Dialog komplett, was jedoch unter 'Szeneneinstieg' und 'Adjektive/Showing' als Manko vermerkt wird)."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Er konnte, wie seine Freunde sagten, nur sprechen um Vortrag zu halten"],
+        "suggestions": [
+          "Der Text verzichtet weitgehend auf Filterwörter wie 'er sah' oder 'sie fühlte', da ein auktorialer Erzähler direkt beschreibt.",
+          "Lediglich der Verweis auf das Urteil der Freunde ('wie seine Freunde sagten') und das 'angesehen wurde' distanzieren den Leser leicht von der Figur."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "einige Freunde versammelt, aber freilich wenige nur",
+          "mit seiner Rechten in der Luft umher [fechten], um durch lebhafte Gestikulationen...",
+          "Kathedervortrage ... nur sprechen um Vortrag zu halten ... sprach eigentlich immer",
+          "sein vollkommener Widerpart ... Was den Gegensatz vollendete"
+        ],
+        "suggestions": [
+          "Wenn Bülow bereits mit der Hand 'in der Luft umherficht', ist jedem klar, dass das 'lebhafte Gestikulationen' sind. Letzteres kann gestrichen werden: '...focht er mit seiner Rechten in der Luft umher, um seinem Kathedervortrag Nachdruck zu verleihen.'",
+          "Die Information, dass wenig Gäste da sind, wird im ersten Satz doppelt gemoppelt ('einige', 'wenige nur') und im zweiten Satz für die Offiziere noch einmal wiederholt ('nur einer erschienen'). Das lässt sich straffen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021942
+}

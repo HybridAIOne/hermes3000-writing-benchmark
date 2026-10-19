@@ -1,0 +1,83 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__kimi-k3__r2",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so tief auf der Elbe, dass Ilse das andere Ufer nur ahnte."],
+        "suggestions": ["Der Einstieg ist atmosphärisch und direkt. Keine Änderung notwendig."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["schwarzgrün", "zahnlückig"],
+        "suggestions": ["Die Adjektive sind sparsam und treffend gewählt. Weiter so."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Scheißwetter«, sagte er heute", "»Na«, sagte sie."],
+        "suggestions": ["Die Redeeinleitungen sind auf das Nötigste reduziert. Sehr gut."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["manche Tage", "irgendwo da draußen"],
+        "suggestions": ["Der Text ist sehr präzise. Die wenigen Füllwörter dienen der Stimmung."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie ließ die Kette ins Wasser, legte den Hebel um."],
+        "suggestions": [
+          "Die Handlungen sind logisch nacheinander aufgebaut, was den Lesefluss fördert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["hatte man ihr einmal gesagt"],
+        "suggestions": [
+          "Das Passiv ist kaum vorhanden. Das Beispiel könnte zu 'Jemand hatte es ihr gesagt' geändert werden, um noch aktiver zu wirken."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie stellte den Dieselmotor an, und das vertraute Ruckeln ging durch das Stahldeck in ihre Stiefel, hoch in die Knie, weiter in den Rücken, wo es sich festsetzte wie ein alter Bekannter, der nicht mehr grüßte."
+        ],
+        "suggestions": [
+          "Die Sätze sind lang, aber rhythmisch gut komponiert. Keine Teilung erforderlich."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "»Nach Hitzacker?«, fragte die Frau. [...] »Da, wo ich herkomme«, sagte Ilse."
+        ],
+        "suggestions": ["Die Dialoge sind knackig und charakterisierend. Perfekte Länge."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse das andere Ufer nur ahnte.", "Man sah es nicht."],
+        "suggestions": ["Sehr direkte Wahrnehmung. Keine 'er sah, dass'-Konstruktionen gefunden."]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Vier Minuten", "Nebel"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier stilistisch beabsichtigt (Leitmotiv), daher nicht als Fehler zu werten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

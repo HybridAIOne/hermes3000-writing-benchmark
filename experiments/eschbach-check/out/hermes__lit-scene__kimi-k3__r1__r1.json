@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__kimi-k3__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel klemmte, wie er es immer getan hatte"],
+        "suggestions": ["Der Einstieg ist sehr gelungen und setzt direkt in der Handlung an."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kleinen Säckchen", "ordentlich abgewaschen"],
+        "suggestions": [
+          "'Säckchen' impliziert bereits die Kleinheit, das Adjektiv ist entbehrlich. 'Ordentlich' kann durch ein stärkeres Verb ersetzt werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["nur", "wie"],
+        "suggestions": [
+          "Der Text ist sehr sauber. Das Wort 'nur' könnte an einer Stelle gestrichen werden, um den Satz zu straffen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine problematischen Gleichzeitigkeitskonstruktionen gefunden."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["als habe jemand sie ordentlich abgewaschen"],
+        "suggestions": [
+          "Der Satz ist aktiv, aber 'war... abgewaschen' (Zustandspassiv) könnte noch direkter formuliert werden, z.B. 'als hätte jemand sie abgewaschen'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["dachte sie", "sah sie", "wusste sie", "fragte sich"],
+        "suggestions": [
+          "Diese Filterwörter erzeugen Distanz. Streichen Sie diese und lassen Sie den Leser direkt durch Marlens Augen sehen oder ihre Gedanken unmittelbar erleben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Lavendelduft"],
+        "suggestions": [
+          "Die Wiederholung des Lavendeldufts dient der Atmosphäre und ist hier stilistisch sinnvoll."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gemini-4-argon__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Schlüssel klemmte an genau derselben Stelle..."],
+        "suggestions": [
+          "Der Einstieg ist exzellent, da er sofort eine physische Handlung und eine emotionale Verbindung zur Vergangenheit etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["stumm und schwer", "diffuses, graues"],
+        "suggestions": [
+          "Die Adjektive sind atmosphärisch, könnten aber an manchen Stellen gestrafft werden, um die Wirkung zu verstärken (z.B. 'stumm und schwer' beim Mantel ist etwas klischeehaft)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher kein Problem."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["genau derselben Stelle", "fast unverschämt"],
+        "suggestions": [
+          "'Genau' kann oft gestrichen werden, um den Satz zu straffen: 'Der Schlüssel klemmte an derselben Stelle...'"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als das Schloss schließlich nachgab", "während das Haus..."],
+        "suggestions": [
+          "Die Verwendung ist sehr maßvoll und dient dem Rhythmus, kein Handlungsbedarf."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["konserviert wie in einem Einmachglas"],
+        "suggestions": [
+          "Der Text ist sehr aktiv geschrieben. Das Partizip 'konserviert' ist hier als Zustandsbeschreibung stilistisch passend."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "An der Garderobe hing noch immer der dunkelgrüne Lodenmantel, stumm und schwer, als warte er darauf, dass jemand in seine Ärmel schlüpfte, um noch schnell vor dem Frost das Fallobst aufzulesen."
+        ],
+        "suggestions": ["Der Satz ist rhythmisch gut aufgebaut. Keine Teilung notwendig."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["bemerkte sie den Geruch"],
+        "suggestions": [
+          "'Bemerkte sie' ist ein Filterwort. Direkter wäre: 'Erst als Vera an die Spüle trat, um das Fenster zu öffnen, schlug ihr der Geruch entgegen.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr präzise und frei von inhaltlichen Doppelungen."]
+      }
+    }
+  },
+  "costUsd": 0
+}

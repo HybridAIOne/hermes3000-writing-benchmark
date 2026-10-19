@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Er läuft\", sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort in die Handlung und den Konflikt wirft. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kurzen, nassen Zügen", "braun und träge"],
+        "suggestions": [
+          "Die Adjektive sind atmosphärisch und präzise gewählt. Sie unterstützen das Bild, statt es zu überladen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Ilse", "sagte sie", "sagte er"],
+        "suggestions": [
+          "Die Marker sind sparsam, könnten aber im ersten Satz weggelassen werden: „Er läuft.\" Ilse sah zum Heck... (Das macht den Einstieg noch direkter)."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["beinahe", "schon wieder"],
+        "suggestions": ["Der Text ist sehr sauber. Keine überflüssigen Füllwörter gefunden."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Keine übermäßige Verwendung von 'während' oder 'als'. Die Handlungsabfolge ist klar und logisch."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Das Bett ist bezogen."],
+        "suggestions": [
+          "Das Zustandspassiv ist hier völlig legitim, da es den Zustand des Bettes beschreibt, nicht den Vorgang."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Fluss war braun und träge, hatte aber unter der Oberfläche diesen Zug, den man nur in den Armen spürte, wenn man jahrzehntelang an ihm gearbeitet hatte."
+        ],
+        "suggestions": ["Der Satz ist rhythmisch gut. Keine Teilung notwendig."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ist das Zimmer noch –\", begann Jonas. „Das Bett ist bezogen.\""],
+        "suggestions": ["Die Dialoge sind kurz, knackig und transportieren viel Subtext. Sehr gut."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie konnte beinahe hören, wie er die Zahlen sortierte"],
+        "suggestions": [
+          "Obwohl 'könnte hören' eine Filterformulierung ist, passt sie hier gut zur subjektiven Wahrnehmung der Figur."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Er läuft", "zwei Finger"],
+        "suggestions": [
+          "Die Wiederholungen sind stilistisch bewusst eingesetzt (Leitmotive) und wirken nicht störend."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

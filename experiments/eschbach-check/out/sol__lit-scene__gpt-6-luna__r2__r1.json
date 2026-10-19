@@ -1,0 +1,134 @@
+{
+  "who": "sol",
+  "item": "lit-scene__gpt-6-luna__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel klemmte, als hätte das Haus beschlossen, sie nicht sofort hineinzulassen.",
+          "Seit zwanzig Jahren hatte sie sich eingeredet, sie werde das Haus nicht vermissen."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Das klemmende Schloss eröffnet unmittelbar eine Handlung und etabliert zugleich das Haus als möglichen Widerpart.",
+          "Die knappe Vorgeschichte ist sinnvoll in die Szene eingebettet. Ein späterer Einstieg würde das Motiv des widerstrebenden Hauses schwächen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Im Flur roch es nach Staub und kaltem Holz.",
+          "Erst kam Luft, dann ein dünner, rostfarbener Strahl.",
+          "An ihrem Daumen klebte ein einzelnes, blaues Fädchen."
+        ],
+        "suggestions": [
+          "Sinnlich präzise Angaben wie „rostfarbener“ und „kaltem“ erhalten; sie tragen die Atmosphäre.",
+          "Am Schluss „einzelnes“ versuchsweise streichen: „An ihrem Daumen klebte ein blaues Fädchen.“ Der Singular und die Verkleinerungsform leisten bereits viel."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung nötig: Der Text enthält keine Dialoge und damit keine überflüssigen Redeeinleitungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Darunter lag etwas Süßliches, kaum mehr als ein Rest",
+          "Die Stühle waren ordentlich daruntergeschoben",
+          "Ein Windstoß bewegte sie, und irgendwo im Haus knackte ein Brett."
+        ],
+        "suggestions": [
+          "„Ordentlich“ auf seinen erzählerischen Zweck prüfen: Es charakterisiert die frühere Haushaltsordnung, ist für die räumliche Beschreibung aber entbehrlich.",
+          "„Etwas Süßliches“ und „irgendwo“ nicht pauschal streichen: Die Unbestimmtheit entspricht Maras tastender Wahrnehmung und verstärkt die Spannung.",
+          "Für eine knappere Geruchsbeschreibung wäre möglich: „Darunter lag ein Rest süßlichen Apfelgeruchs.“ Dabei ginge allerdings ein Teil des suchenden Erzählrhythmus verloren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie drehte ihn zurück, hob die Klinke an und spürte, wie das Schloss nachgab.",
+          "Sie drehte es wieder zu und lauschte, bis das Tropfen aufhörte.",
+          "Die Stühle waren ordentlich daruntergeschoben, als erwarte ihre Mutter Besuch."
+        ],
+        "suggestions": [
+          "Die überwiegend klare Abfolge der Handlungen beibehalten.",
+          "Die „als“-Formulierungen am Anfang und bei den Stühlen sind Vergleiche, keine problematischen Gleichzeitigkeitskonstruktionen. Sie benötigen aus diesem Grund keine Überarbeitung."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Stühle waren ordentlich daruntergeschoben",
+          "Sie war nicht ganz geschlossen."
+        ],
+        "suggestions": [
+          "Keine zwingende Änderung: Die zustandsbezogenen Formulierungen beschreiben, was Mara vorfindet. Ein handelnder Akteur wäre hier weder bekannt noch wichtig.",
+          "Nur bei gewünschter sprachlicher Variation aktiv formulieren: „Die Stühle standen ordentlich unter dem Tisch.“"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "An der Wand hatte der Spiegel einen blinden Fleck, genau dort, wo früher ihr Gesicht gewesen war, wenn sie als Kind auf Zehenspitzen hineinsah.",
+          "Auf der Tischplatte zeichnete sich ein heller Kreis ab, frei vom Staub; darin hätte ein Glas stehen können."
+        ],
+        "suggestions": [
+          "Den mehrfach untergeordneten Spiegelsatz bei Bedarf teilen: „Der Spiegel an der Wand hatte einen blinden Fleck. Genau dort war früher ihr Gesicht gewesen, wenn sie als Kind auf Zehenspitzen hineinsah.“",
+          "Den Satz mit dem hellen Kreis nicht zwingend ändern: Das Semikolon trennt Beobachtung und Vermutung bereits übersichtlich.",
+          "Die Mischung aus kurzen Handlungssätzen und längeren Erinnerungssätzen grundsätzlich erhalten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung nötig: Es gibt keine Dialogpassagen. Die dialogfreie Gestaltung unterstützt Maras Isolation."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie drehte ihn zurück, hob die Klinke an und spürte, wie das Schloss nachgab.",
+          "Nun stand sie darin und wusste nicht, wohin mit den Händen.",
+          "Sie wusste nicht, woher es kam."
+        ],
+        "suggestions": [
+          "Den Wahrnehmungsfilter beim Schloss versuchsweise entfernen: „Sie drehte den Schlüssel zurück und hob die Klinke an. Das Schloss gab nach.“",
+          "„Wusste nicht, wohin mit den Händen“ beibehalten: Die Formulierung vermittelt konkrete körperliche Verunsicherung und ist mehr als ein entbehrlicher Gedankenfilter.",
+          "Den Schluss optional unmittelbarer gestalten: „An ihrem Daumen klebte ein blaues Fädchen. Woher kam es?“ Prüfen, ob die stärkere Nähe zu Maras Gedanken zum gewünschten Erzählton passt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Im Flur roch es nach Staub und kaltem Holz.",
+          "Der Staub blieb an ihrer Haut haften.",
+          "Auf der Tischplatte zeichnete sich ein heller Kreis ab, frei vom Staub",
+          "Sie strich mit dem Daumen über den Rahmen.",
+          "An ihrem Daumen klebte ein einzelnes, blaues Fädchen."
+        ],
+        "suggestions": [
+          "Die Staubwiederholungen überwiegend erhalten: Sie erfüllen unterschiedliche Aufgaben als Geruch, Berührungsspur und Hinweis auf eine ausgesparte Fläche.",
+          "Die Wiederaufnahme des Daumens unbedingt als mögliche erzählerische Verknüpfung prüfen, bevor sie gestrichen wird: Sie verbindet die Spiegelberührung mit dem rätselhaften Fädchen.",
+          "Bei einer Straffung eher einzelne Zustandsbeschreibungen kürzen als die wiederkehrenden Motive; eindeutige inhaltliche Doppelungen sind kaum vorhanden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.019148
+}

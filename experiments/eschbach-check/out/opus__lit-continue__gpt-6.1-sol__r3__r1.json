@@ -1,0 +1,143 @@
+{
+  "who": "opus",
+  "item": "lit-continue__gpt-6.1-sol__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Geht auch so“, sagte sie.",
+          "Der Einstieg setzt mitten in einem laufenden Gespräch ein. Vorgeschichte, Ankunft und Begrüßung fehlen, der Leser erschließt sie aus dem Kontext."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten. Ein späterer Einsatz würde die Spannung zwischen Ilse und Jonas schwächen.",
+          "Optional prüfen, ob im ersten Absatz früher klar werden sollte, worauf sich „Geht auch so“ bezieht. Der Leser muss bis zu „Segelfähre“ warten. Das wirkt reizvoll, kann aber kurz irritieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das Seil hing dunkel über dem Wasser.",
+          "Das trockene Klacken passte nicht hierher.",
+          "Ihre Finger waren steif.",
+          "Ilse hörte ihn leise fluchen",
+          "über die Schwelle der kleinen Hütte"
+        ],
+        "suggestions": [
+          "Die meisten Adjektive tragen konkrete sinnliche Information („steif“, „gelbe Blätter“, „lose“) und sollten bleiben.",
+          "„leise“ bei „fluchen“ ist entbehrlich. Dass sie ihn durch die Tür hört, reicht: „Ilse hörte ihn fluchen.“",
+          "„kleinen“ bei „Hütte“ ist überflüssig, weil zwei Sätze später „Die Hütte war enger …“ dieselbe Information präziser liefert."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Fährst du noch mal?“, fragte Jonas.",
+          "„Drinnen ist welcher“, sagte sie.",
+          "„Ja“, sagte sie."
+        ],
+        "suggestions": [
+          "„fragte Jonas“ streichen. Krüger sitzt weit entfernt im Wagen, als Sprecher kommt nur Jonas infrage.",
+          "„Drinnen ist welcher“ kann ohne „sagte sie“ stehen, weil der vorangehende Absatz aus Ilses Wahrnehmung erzählt wird.",
+          "„sagte Jonas“ bei „Ich weiß, wie sie funktioniert“ ist dagegen sinnvoll, da der Absatz davor mit Ilses Handlung endet."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Bis morgen. Vielleicht übermorgen.“",
+          "Krüger hob ebenfalls die Hand",
+          "weil Jonas immer zu viel Pulver nahm"
+        ],
+        "suggestions": [
+          "„Vielleicht“ steht in direkter Rede und charakterisiert Jonas' Unverbindlichkeit. Es sollte bleiben.",
+          "„ebenfalls“ ist entbehrlich, die Parallele zur Geste wird auch ohne Signalwort deutlich: „Krüger hob die Hand und stellte den Motor ab.“"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Dabei stieß er mit einer Rolle gegen den Türrahmen.",
+          "Der Text erzählt fast durchgehend in klarer Abfolge: „Ilse hörte ihn leise fluchen, dann das Scharren eines Stuhls.“"
+        ],
+        "suggestions": [
+          "„Dabei“ lässt sich durch eine Abfolge ersetzen: „Er hob den Koffer über die Schwelle. Eine Rolle stieß gegen den Türrahmen.“",
+          "Sonst keine Änderung nötig, die Handlungen sind sauber sequenziert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Keine Passivkonstruktionen gefunden. „der an den Schultern dunkel geworden war“ ist eine Zustandsbeschreibung mit „werden“ als Vollverb, kein Passiv."
+        ],
+        "suggestions": [
+          "Keine Änderung nötig. Der Text arbeitet konsequent mit aktiven Verben und konkreten Handlungsträgern."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Mit elf hatte er neben Henning am Hebel gestanden, die Füße weit auseinander, und nach jeder Überfahrt gefragt, ob er die nächste allein machen dürfe.",
+          "Sie war damals noch im Laden gewesen, vormittags, und hatte die Fähre nur übernommen, wenn Henning zum Zahnarzt musste."
+        ],
+        "suggestions": [
+          "Beide Sätze bleiben trotz ihrer Länge gut lesbar und setzen sich rhythmisch von den kurzen Sätzen ab.",
+          "Falls Straffung gewünscht ist, beim ersten Satz teilen: „Mit elf hatte er neben Henning am Hebel gestanden, die Füße weit auseinander. Nach jeder Überfahrt fragte er, ob er die nächste allein machen dürfe.“ Das reduziert zugleich die Plusquamperfekt-Last."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Wie lange bist du da?“ / „Bis morgen. Vielleicht übermorgen.“ / „Dann brauchst du den großen Koffer nicht.“ / „Das ist der kleine.“",
+          "Die Repliken sind knapp, und vieles bleibt im Subtext. Handlungsbeats unterbrechen die Dialoge regelmäßig."
+        ],
+        "suggestions": [
+          "Keine Kürzung nötig. Die Dialogökonomie ist eine Stärke des Textes.",
+          "Höchstens prüfen, ob „„Dann mache ich uns welchen.““ nach „„Drinnen ist welcher““ nötig ist. Jonas' Handlung (Koffer in die Hütte) könnte die Antwort ersetzen. Die Replik zeigt aber seine Hartnäckigkeit und darf bleiben."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Ilse kannte das Geräusch, bevor sie ihn sah: Krügers Auspuff, seit August lose.",
+          "Ilse hörte ihn leise fluchen, dann das Scharren eines Stuhls.",
+          "Unter dem offenen Kragen sah sie ein weißes Hemd",
+          "Die Hütte war enger, als er sie in Erinnerung hatte.",
+          "Jonas sah hinüber zur anderen Seite. […] Früher hatte er es gewusst."
+        ],
+        "suggestions": [
+          "Wahrnehmungsverben direkt ersetzen: „Vom Deich kam ein Lieferwagen herunter. Krügers Auspuff, seit August lose.“ Statt „Ilse hörte ihn fluchen“ besser: „Aus der Hütte ein Fluch, dann das Scharren eines Stuhls.“",
+          "„sah sie ein weißes Hemd“ umformulieren zu „Unter dem offenen Kragen ein weißes Hemd, oben einen Knopf zu wenig geschlossen für das Wetter.“",
+          "Perspektive prüfen: Die Szene ist überwiegend an Ilse gebunden. „als er sie in Erinnerung hatte“ und „Früher hatte er es gewusst“ springen in Jonas' Innensicht. Entweder als Ilses Vermutung markieren („Vielleicht war ihm die Hütte enger als früher“) oder die Perspektive bewusst festlegen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie hob die Hand. […] Krüger hob ebenfalls die Hand",
+          "Sie prüfte den Knoten am Poller. Es gab nichts daran zu prüfen.",
+          "Kette: „Ilse bückte sich nach der Kette“ / „Ilse hatte schon die Hand an der Kette.“ / „Dann ließ sie die Kette hängen“",
+          "Plusquamperfekt-Häufung: „hatte er es gewusst“, „hatte […] gestanden“, „hatte vom Ufer aus zugesehen“, „war […] gewesen“, „hatte […] übernommen“"
+        ],
+        "suggestions": [
+          "Die Spiegelungen bei „hob die Hand“ und „prüfen“ wirken gewollt und stilistisch stark. Bei der Geste genügt aber die Wiederholung, „ebenfalls“ kann weg.",
+          "Die dreifache „Kette“ am Ende ist als Motiv sinnvoll. Beim mittleren Vorkommen ließe sich variieren, etwa „Ilse stand schon an der Rampe.“",
+          "In den Rückblenden nach dem ersten Plusquamperfekt ins Präteritum wechseln: „Mit elf hatte er neben Henning am Hebel gestanden […]. Ilse sah vom Ufer aus zu. Sie war damals noch im Laden, vormittags …“"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.102756
+}

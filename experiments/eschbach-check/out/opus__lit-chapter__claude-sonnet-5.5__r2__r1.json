@@ -1,0 +1,147 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass man das andere Ufer nur wusste.",
+          "Die ersten beiden Absätze (Nebel, Motor, Seil, Spinnennetz) gehen dem ersten Ereignis voraus: \"Der Erste kam um zehn nach sieben, wie jeden Dienstag.\""
+        ],
+        "suggestions": [
+          "Der atmosphärische Einstieg ist stark und trägt das Motiv des unsichtbaren Ufers. Er ist deshalb gerechtfertigt.",
+          "Eine Straffung wäre möglich: Den zweiten Absatz (Seil, Spinnennetz) auf ein Bild reduzieren, damit der erste Fahrgast früher auftritt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "ein tiefes, gleichmäßiges Brummen",
+          "Sie kam mit schnellen Schritten über den Kies",
+          "ein kleines, wütendes Zittern auf dem Blech",
+          "Das Display leuchtete im grauen Licht des Steuerhauses viel zu hell.",
+          "Herr Lüders sah angelegentlich auf das Wasser."
+        ],
+        "suggestions": [
+          "\"mit schnellen Schritten\" durch ein präzises Verb ersetzen: \"Sie eilte über den Kies\".",
+          "Bei \"tiefes, gleichmäßiges Brummen\" genügt ein Adjektiv. \"gleichmäßig\" ist durch den Folgesatz (\"nur noch bemerkte, wenn es sich änderte\") bereits impliziert.",
+          "\"kleines, wütendes Zittern\": \"wütend\" ist stark, \"klein\" kann entfallen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Sie stehen drauf“, sagte Ilse.",
+          "„Danke“, sagte er.",
+          "„Hab nicht gewartet“, sagte Ilse.",
+          "„Nein“, sagte Ilse."
+        ],
+        "suggestions": [
+          "In Zweiergesprächen ist der Sprecher eindeutig. \"sagte Ilse\" nach \"Sie stehen drauf\" und \"Hab nicht gewartet\" kann gestrichen werden.",
+          "\"„Danke“, sagte er.\" direkt an das Schnaufen anschließen, ohne Inquit.",
+          "Gut gelöst sind die Inquits mit Zusatzinformation (\"fragte Ilse durch die offene Tür\", \"fragte die junge Frau von der Bank\"). Sie sollten bleiben."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie wusste es einfach.",
+          "Es war ein Junge, vielleicht fünfzehn",
+          "in München saß er jetzt vermutlich schon im Büro",
+          "Nach einer Weile sagte er",
+          "und vielleicht war es das auch."
+        ],
+        "suggestions": [
+          "\"einfach\" in \"Sie wusste es einfach\" streichen: \"Sie wusste es.\" wirkt bestimmter und passt zu Ilses Wesen.",
+          "\"vermutlich\" streichen oder durch eine konkrete Gewissheit ersetzen (\"saß er jetzt im Büro\"), da es Ilses Perspektive ist.",
+          "\"vielleicht fünfzehn\" ist als Schätzung aus Figurensicht legitim und kann bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse hatte schon die Hand am Hebel, als sie auf dem Deich ein Licht schwanken sah",
+          "Mitten auf dem Fluss, wo die Strömung am stärksten am Rumpf zog und das Seil sich unter der Last bog, vibrierte etwas an Ilses Hüfte."
+        ],
+        "suggestions": [
+          "Echte Gleichzeitigkeitskonstruktionen sind selten. Handlungen folgen meist sauber nacheinander (\"Ilse löste die Leine, legte den Hebel um.\").",
+          "Den Satz mit dem Licht in zwei Schritte teilen: \"Ilse hatte schon die Hand am Hebel. Auf dem Deich schwankte ein Licht.\""
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["die Hosenbeine mit Klammern gebunden", "dass man das andere Ufer nur wusste"],
+        "suggestions": [
+          "Echte Passivsätze fehlen nahezu vollständig. Der Text ist durchgehend aktiv formuliert.",
+          "\"die Hosenbeine mit Klammern gebunden\" ist eine knappe Partizipialkonstruktion. Sie ist stilistisch passend und braucht keine Änderung."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Es war Dienstag, kurz nach halb acht, in München saß er jetzt vermutlich schon im Büro, vor sich einen dieser Kaffee in Pappbechern, die er ihr einmal mitgebracht und die sie nicht hatte austrinken können.",
+          "Der Motor lief im Leerlauf, ein tiefes, gleichmäßiges Brummen, das sie nach so vielen Jahren nicht mehr hörte, sondern nur noch bemerkte, wenn es sich änderte.",
+          "Er lehnte das Rad an die Reling und blieb daneben stehen, die Hand am Lenker, als könnte es ihm sonst wegrollen."
+        ],
+        "suggestions": [
+          "Den Jonas-Satz teilen: \"Es war Dienstag, kurz nach halb acht. In München saß er jetzt im Büro, vor sich einen dieser Pappbecher-Kaffees. Einmal hatte er ihr einen mitgebracht. Sie hatte ihn nicht austrinken können.\"",
+          "Den Motor-Satz aufbrechen: \"Der Motor lief im Leerlauf. Nach so vielen Jahren hörte sie ihn nicht mehr, sie bemerkte ihn nur, wenn er sich änderte.\""
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Was kostet das?“ / „Zwei fünfzig. Fahrrad ein Euro mehr.“ / „Ich hab kein Fahrrad.“ / „Dann zwei fünfzig.“",
+          "„Ist das immer so, im November?“ / „Meistens.“ / „Und Sie fahren trotzdem jeden Tag?“ / „Es kommt ja jemand.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, pointiert und charakterisieren Ilse durch Lakonie. Kürzen ist kaum nötig.",
+          "Optional: Den Bezahldialog um die Fahrrad-Zeilen kürzen, falls Tempo gewünscht ist. Die Szene verliert dabei allerdings etwas Humor."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "und sah zu, wie der Tag sich nicht entschließen konnte, hell zu werden",
+          "als sie auf dem Deich ein Licht schwanken sah",
+          "Sie wusste es einfach.",
+          "Sie sah auf den Namen."
+        ],
+        "suggestions": [
+          "\"als sie auf dem Deich ein Licht schwanken sah\" direkt formulieren: \"Auf dem Deich schwankte ein Licht.\"",
+          "\"sah zu, wie der Tag sich nicht entschließen konnte\" direkt formulieren: \"Der Tag konnte sich nicht entschließen, hell zu werden.\"",
+          "\"Sie wusste es einfach.\" streichen. Die folgende Erklärung (Wind dreht gegen zehn) transportiert Ilses Gewissheit bereits."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Häufung von \"als\"-Vergleichen: \"als könnte es ihm sonst wegrollen\", \"als hätte sie einen Witz gemacht\", \"als wollte er der Erste sein\", \"als wäre da nie ein Ufer gewesen\", \"als sei damit alles erklärt\", \"als überlegte es jedes Mal neu\"",
+          "\"Das Telefon surrte in ihrer Hand\" … \"Es surrte weiter\"",
+          "\"und niemand hatte es zerstört, weil es um diese Zeit noch niemand eilig hatte\"",
+          "\"Es kostete sie nichts, eine Minute zu warten, sie hatte keinen Fahrplan, nur Gewohnheiten.\" wird im Dialog (\"Hab nicht gewartet\") erneut aufgegriffen."
+        ],
+        "suggestions": [
+          "Die \"als\"-Vergleiche auf zwei oder drei starke Bilder reduzieren, z. B. \"als wäre da nie ein Ufer gewesen\" und \"als überlegte es jedes Mal neu\" behalten, die anderen streichen oder anders lösen.",
+          "Beim zweiten \"surrte\" ein anderes Verb wählen oder es nur durch das Bild (\"ein kleines, wütendes Zittern auf dem Blech\") ausdrücken.",
+          "Doppeltes \"niemand\" auflösen: \"und keiner hatte es zerstört, weil es um diese Zeit noch niemand eilig hatte\".",
+          "Die bewusste Wiederholung \"Sie hatte keinen gemacht.\" ist ein wirksamer Kontrast und sollte bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.119512
+}

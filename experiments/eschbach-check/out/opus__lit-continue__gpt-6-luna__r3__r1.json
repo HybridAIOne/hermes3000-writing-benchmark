@@ -1,0 +1,157 @@
+{
+  "who": "opus",
+  "item": "lit-continue__gpt-6-luna__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Er läuft“, sagte Ilse. – Die Szene beginnt mitten im Gespräch, ohne Vorgeplänkel.",
+          "Ankunft, Begrüßung und Anfahrt fehlen bewusst, die Spannung entsteht sofort aus dem Subtext."
+        ],
+        "suggestions": [
+          "Der Einstieg funktioniert. Bitte prüfen, ob der Leser früh genug erfährt, dass Jonas gerade erst angekommen ist. Ein kurzer Hinweis auf den Koffer im zweiten Absatz würde die Situation schneller verankern."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "nach Diesel und kaltem Metall",
+          "eine lose Fahne",
+          "bevor sie die Leinen ordentlich greifen konnte",
+          "mit der flachen Hand",
+          "in die kleine Schale im Steuerhaus",
+          "obwohl der Verschluss längst eingerastet war"
+        ],
+        "suggestions": [
+          "„ordentlich“ streichen: „bevor sie die Leinen greifen konnte“ reicht, die Mühe ist durch „steifer“ und „schließen und öffnen“ schon erzählt.",
+          "„kleine“ bei „Schale“ ist entbehrlich, außer die Größe spielt später eine Rolle.",
+          "Die meisten Adjektive sind konkret und sinnlich („kaltem Metall“, „lose Fahne“). Diese beibehalten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Wie lange bleibst du?“, fragte sie.",
+          "„Du hast nichts gegessen“, sagte er.",
+          "„Du hättest anrufen können“, sagte sie.",
+          "„Komm“, sagte sie."
+        ],
+        "suggestions": [
+          "„fragte sie“ ist doppelt gemoppelt, das Fragezeichen leistet das bereits. Besser eine Handlung voranstellen oder ganz streichen, da nur zwei Figuren sprechen.",
+          "„sagte er“ bei „Du hast nichts gegessen“ durch eine Handlung ersetzen, z. B.: „Jonas sah auf ihre Hände. […] ‚Du hast nichts gegessen.‘“ Die Handlung direkt davor ordnet den Sprecher bereits zu.",
+          "Die langen Wechsel ohne Kennzeichnung („Ich war in der Gegend.“ / „München liegt nicht in der Gegend.“) funktionieren sehr gut. Dieses Prinzip konsequenter anwenden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "irgendwo oberhalb des Anlegers",
+          "ein paarmal schließen und öffnen",
+          "Für einen Augenblick war nur das Wasser zu hören",
+          "Dort gab es inzwischen sogar eines mit Frühstück.",
+          "Sie löste die Leine wieder vom Poller."
+        ],
+        "suggestions": [
+          "„irgendwo“ präzisieren oder streichen: „Oberhalb des Anlegers schlug eine lose Fahne gegen ihren Mast.“",
+          "„wieder“ in „löste die Leine wieder“ ist missverständlich. Wurde sie zuvor festgemacht? Streichen oder klären.",
+          "„inzwischen sogar“ trägt Ilses Ironie und kann bleiben. „Für einen Augenblick“ dagegen ist entbehrlich: „Das Knattern brach ab. Nur das Wasser strich unter dem Schiff entlang.“"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "strich sich mit dem Handrücken über die Stirn, obwohl es regnete",
+          "Sie drückte sie mit der flachen Hand fest, obwohl der Verschluss längst eingerastet war.",
+          "Sie tat es jetzt, ohne hinzusehen."
+        ],
+        "suggestions": [
+          "Die Handlungen sind sauber nacheinander erzählt, „während“ und „gleichzeitig“ kommen nicht vor.",
+          "„obwohl“ steht zweimal in ähnlicher Funktion (Geste trotz Überflüssigkeit). Eine der beiden Stellen umformulieren, damit das Muster nicht auffällt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Für einen Augenblick war nur das Wasser zu hören, das unter dem Schiff entlangstrich.",
+          "Seit dem Herbst waren die Knöchel steifer geworden"
+        ],
+        "suggestions": [
+          "„war nur das Wasser zu hören“ ist eine Passiversatzform. Aktiver und direkter: „Nur das Wasser strich hörbar unter dem Schiff entlang.“ Oder aus Figurensicht: „Ilse hörte das Wasser unter dem Schiff entlangstreichen.“",
+          "Ansonsten ist der Text durchgehend aktiv formuliert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Seit dem Herbst waren die Knöchel steifer geworden; morgens musste sie sie erst ein paarmal schließen und öffnen, bevor sie die Leinen ordentlich greifen konnte.",
+          "Ilse dachte an das Gästezimmer, an die Bettwäsche, die sie vor zwei Wochen abgezogen hatte, weil sie nach dem Lüften wieder nach dem Schrank roch.",
+          "Jonas sah zum Motor hinüber, der unter der offenen Klappe nach Diesel und kaltem Metall roch."
+        ],
+        "suggestions": [
+          "Den Semikolon-Satz teilen: „Seit dem Herbst waren ihre Knöchel steifer. Morgens musste sie die Hände erst ein paarmal schließen und öffnen, bevor sie die Leinen greifen konnte.“ Das löst nebenbei das holprige „sie sie“.",
+          "Den Gästezimmer-Satz entschachteln: „Ilse dachte an das Gästezimmer. Die Bettwäsche hatte sie vor zwei Wochen abgezogen, weil sie nach dem Lüften wieder nach Schrank roch.“"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Im Zug gab es ein belegtes Brötchen.“ / „Das zählt nicht.“",
+          "„Ich war in der Gegend.“ / „München liegt nicht in der Gegend.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, pointiert und voller Subtext. Keine Kürzung nötig.",
+          "Die Essensepisode (vier Repliken) bildet den längsten Block. Sie trägt aber die Fürsorge-Dynamik und sollte bleiben."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Jonas sah zum Motor hinüber, der […] roch.",
+          "Jonas sah auf ihre Hände. Seit dem Herbst waren die Knöchel steifer geworden",
+          "Ilse dachte an das Gästezimmer, an die Bettwäsche",
+          "Ilse hätte ihm sagen können, dass er ihn tragen sollte.",
+          "Sie hätte sagen können, dass er sich ein Zimmer im Ort nehmen sollte."
+        ],
+        "suggestions": [
+          "Filterverben streichen und direkt zeigen: „Der Motor roch unter der offenen Klappe nach Diesel und kaltem Metall.“",
+          "„Jonas sah auf ihre Hände“ ist zusätzlich ein Perspektivbruch. Jonas ist gerade angekommen und kann nicht wissen, was Ilse morgens mit ihren Händen tut. Das Wissen gehört in Ilses Perspektive. Entweder Ilse durchgehend als Perspektivfigur führen oder die Information auf das reduzieren, was Jonas sieht.",
+          "„Ilse dachte an das Gästezimmer“ direkter: „Das Gästezimmer. Die Bettwäsche hatte sie vor zwei Wochen abgezogen …“",
+          "Das zweimalige „hätte sagen können, dass …“ ist eine indirekte Konstruktion. Eine Stelle als unausgesprochenen Satz in erlebter Rede fassen, z. B.: „Im Ort gab es inzwischen sogar ein Zimmer mit Frühstück.“"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Ilse hätte ihm sagen können …“ und „Sie hätte sagen können …“ – identisches Muster zweimal",
+          "Schlüssel: „steckte ihn in die Brusttasche“ → „nahm den Schlüssel wieder aus der Tasche und legte ihn in die kleine Schale“ – umständliche Doppelbewegung",
+          "„obwohl es regnete. Der Regen hatte seinen Mantel dunkel gemacht.“",
+          "Kontinuität: „Reißverschluss seiner Jacke“ vs. „seinen Mantel“",
+          "Kontinuität: „hob er den Koffer über die Schwelle“ vs. später „Diesmal hob er ihn an, statt ihn über die Bohlen zu ziehen“",
+          "Kontinuität: „Sie löste die Leine wieder vom Poller“ vs. später „prüfte die Leine. Der Knoten saß.“"
+        ],
+        "suggestions": [
+          "Das „hätte sagen können“-Motiv nur einmal verwenden oder die zweite Stelle bewusst variieren, damit die Wiederholung als Stilmittel lesbar wird.",
+          "Regen nur einmal benennen: „obwohl es regnete. Sein Mantel war dunkel vor Nässe.“",
+          "Jacke/Mantel vereinheitlichen.",
+          "Koffer: Beim ersten Mal „zog“ statt „hob“ schreiben, damit der Kontrast „Diesmal hob er ihn an“ funktioniert.",
+          "Leine: Klären, ob Ilse sie löst oder festmacht. „löste“ widerspricht dem späteren „Der Knoten saß“.",
+          "Die Schlüsselbewegung am Ende ist als stilles Bild für das Hereinlassen stark. Damit sie wirkt, die frühere Brusttaschen-Szene knapp halten oder den Bezug deutlicher setzen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.12062
+}

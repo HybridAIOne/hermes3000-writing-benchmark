@@ -1,0 +1,125 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__claude-haiku-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie antwortete nicht. Der Motor war nicht das Thema, und Jonas wusste das so gut wie sie."
+        ],
+        "suggestions": [
+          "Exzellenter Einstieg 'in medias res'. Die Szene beginnt mitten im Konflikt, ohne unnötiges Vorgeplänkel. Nichts ändern."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "kaltem Kaffee",
+          "trockenen Rattern",
+          "die Elbe zog braun und schwer",
+          "feine Risse wie auf altem Porzellan"
+        ],
+        "suggestions": [
+          "Die Adjektive sind hier sehr bewusst, sparsam und bildhaft eingesetzt. Einzig bei 'Er lachte kurz, nicht freundlich, nicht unfreundlich' könnte man überlegen, das Lachen durch ein präziseres Verb (z.B. 'schnaubte' oder 'stieß Luft aus') zu ersetzen, aber stilistisch passt es gut zum Ton des Textes."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Die Fähre hält nicht ewig“, sagte er.",
+          "„Du bleibst bis morgen früh“, sagte sie.",
+          "„Gut“, sagte er."
+        ],
+        "suggestions": [
+          "Die Dialogführung ist bereits sehr gut und verzichtet oft auf Inquits. An den genannten Stellen könnten die 'sagte er/sie' jedoch komplett gestrichen werden, da durch die vorhergehenden Handlungen völlig klar ist, wer spricht. Beispiel: 'Er öffnete den Mund, dann schloss er ihn wieder. „Gut.“'"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "eher so, wie Männer lachen, wenn sie merken, dass sie ein Spiel schon verloren haben."
+        ],
+        "suggestions": [
+          "Der Text ist fast völlig frei von Füllwörtern. Nur im genannten Beispiel könnten 'eher' und 'schon' gestrichen werden, um den Satz noch klarer zu machen: '...so, wie Männer lachen, wenn sie merken, dass sie ein Spiel verloren haben.'"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie nahm die Ersatzleine vom Haken, prüfte den Knoten und hängte sie zurück.",
+          "Ilse nickte, ging ins Fährhaus und ließ die Tür offen stehen..."
+        ],
+        "suggestions": [
+          "Perfekte Umsetzung. Es gibt keine erzwungene Gleichzeitigkeit mit 'während' oder 'indem'. Alle Handlungen sind sauber und logisch nacheinander aufgereiht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlauch zur Pumpe war spröde geworden.",
+          "Das Bett oben ist frisch bezogen."
+        ],
+        "suggestions": [
+          "Keine echten Passivkonstruktionen (Vorgangspassiv) vorhanden, die die Dynamik bremsen. Das Zustandspassiv in der wörtlichen Rede ist absolut natürlich."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse ging an ihm vorbei, ohne ihn anzusehen, und hörte, wie er den Koffer hinter sich her über die Bohlen zog, Rad für Rad, mit diesem trockenen Rattern, das sie in den Zähnen spürte.",
+          "Er lachte kurz, nicht freundlich, nicht unfreundlich, eher so, wie Männer lachen, wenn sie merken, dass sie ein Spiel schon verloren haben."
+        ],
+        "suggestions": [
+          "Der Satzrhythmus ist insgesamt hervorragend. Der Satz mit dem Koffer hat allerdings viele Einschübe. Man könnte ihn teilen, um die Wirkung zu verstärken: 'Ilse ging an ihm vorbei, ohne ihn anzusehen. Er zog den Koffer hinter sich her über die Bohlen. Rad für Rad, ein trockenes Rattern, das sie bis in die Zähne spürte.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ich habe dir zweimal geschrieben“, sagte er. „Einmal.“ „Du hast nicht geantwortet.“ „Das ist dasselbe.“"
+        ],
+        "suggestions": [
+          "Meisterhaft verknappte Dialoge. Sehr viel Subtext, kein Wort zu viel. Die Figuren charakterisieren sich perfekt durch das, was sie *nicht* sagen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "...und hörte, wie er den Koffer hinter sich her über die Bohlen zog...",
+          "Sie sah es im Licht der Nachmittagssonne, feine Risse wie auf altem Porzellan.",
+          "Im Frühjahr hatte sie gedacht, sie hätte noch Zeit.",
+          "Sie dachte an die Überfahrt um sieben..."
+        ],
+        "suggestions": [
+          "Hier liegt das größte Optimierungspotenzial nach Eschbach. Durch das Streichen der Wahrnehmungsverben (hörte, sah, dachte) rückt der Leser noch näher an Ilse heran (tiefere personalisierte Erzählperspektive).",
+          "Statt '...und hörte, wie er den Koffer zog' direkt: 'Hinter ihr zog er den Koffer über die Bohlen...'",
+          "Statt 'Sie sah es im Licht...' direkt: 'Im Licht der Nachmittagssonne zeigten sich feine Risse wie auf altem Porzellan.'",
+          "Statt 'Sie dachte an die Überfahrt...' als erlebte Rede: 'Um sieben stand die nächste Überfahrt an. Der Mann mit dem Fahrrad würde wieder den Hut ziehen, selbst bei Regen.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Henning hätte ihn im Frühjahr getauscht. Im Frühjahr hatte sie gedacht, sie hätte noch Zeit."
+        ],
+        "suggestions": [
+          "Keine ungewollten Wortwiederholungen oder inhaltlichen Redundanzen. Die Wiederholung von 'Im Frühjahr' ist ein bewusstes und gut funktionierendes rhetorisches Stilmittel."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018652
+}

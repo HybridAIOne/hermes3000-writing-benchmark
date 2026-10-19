@@ -1,0 +1,134 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__kimi-k3__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Jonas steht am Tisch, die Hand noch an der Stuhllehne.",
+          "Jonas: Du bist früher dran."
+        ],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Haltung und erster Satz etablieren die angespannte Begegnung ohne Vorgeschichte.",
+          "Ein Einstieg bei „In der Gegend.“ wäre noch knapper, würde aber den ersten kleinen Vorwurf und Mareks Ausweichbewegung verlieren. Eine Kürzung ist hier nicht nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas legt den Löffel hin. Sehr langsam.",
+          "Marek greift sofort zum Zucker, dann hält er inne.",
+          "Lange Pause."
+        ],
+        "suggestions": [
+          "„Sehr langsam“ versuchsweise zu „Langsam“ kürzen; die abgesetzte Regieanweisung erhält bereits durch ihre Position Gewicht.",
+          "„Sofort“ und „lange“ nur streichen, wenn das Spieltempo offenbleiben soll. Hier vermitteln sie Gewohnheit beziehungsweise Spannung und sind nicht bloß Schmuck."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Jonas: Du bist früher dran.", "Marek: Ich war sowieso in der Gegend."],
+        "suggestions": [
+          "Die eindeutigen Sprecherbezeichnungen im szenischen Format beibehalten. Zusätzliche Redeeinleitungen wie „sagte Jonas“ wären überflüssig."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Du weißt es ja noch.",
+          "Man soll ja nett sein zu alten Freunden.",
+          "War ja schon immer so."
+        ],
+        "suggestions": [
+          "Die wiederholte Partikel „ja“ probeweise an einzelnen Stellen streichen, etwa: „Man soll nett sein zu alten Freunden.“",
+          "Nicht sämtliche Gesprächspartikeln entfernen: „ja“, „doch“ und „sowieso“ transportieren hier Vertrautheit, Abwehr und unausgesprochene Vorwürfe."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Kellnerin kommt. Beide schweigen, bis sie wieder weg ist.",
+          "Marek greift sofort zum Zucker, dann hält er inne."
+        ],
+        "suggestions": [
+          "Die klare Abfolge kurzer Handlungen beibehalten. „Bis“ markiert eine relevante Dauer; „dann“ macht die Unterbrechung von Mareks Gewohnheit sichtbar.",
+          "Keine zusätzliche Auflösung in Einzelsätze nötig: Eine Überlastung durch gleichzeitige Vorgänge liegt nicht vor."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Treppe vor deiner Wohnung haben sie renoviert.",
+          "Draußen wird es dunkel."
+        ],
+        "suggestions": [
+          "Die aktiven Formulierungen beibehalten. Das unbestimmte „sie“ in der Renovierungsbemerkung ist für die Gesprächssituation plausibel.",
+          "„Wird es dunkel“ nicht als Passiv behandeln: Die Formulierung beschreibt eine Zustandsveränderung und benötigt keine Aktivierung."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Gegend ist groß geworden, seit du sie zuletzt gesehen hast.",
+          "Ich bin vorbeigefahren. Das ist ein Unterschied.",
+          "Die Treppe sieht gut aus. Ohne die kaputte Stufe. An der ich damals… egal."
+        ],
+        "suggestions": [
+          "Die kurzen Sätze und gezielten Fragmente beibehalten: Sie bilden das stockende, ausweichende Gespräch ab.",
+          "Den abgebrochenen Satz zur Treppenstufe nicht grammatisch vervollständigen; seine Unvollständigkeit trägt den Subtext."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Klar. Vom Fahren weißt du ja was. Weiterfahren vor allem.",
+          "Deine Mutter – geht's ihr gut?",
+          "Nächstes Mal…"
+        ],
+        "suggestions": [
+          "Die knappen Redewechsel beibehalten; keine Figur erklärt den gemeinsamen Konflikt in einem langen Monolog.",
+          "Falls die Szene insgesamt gestrafft werden soll, eher einen Gesprächsschritt auf seine Funktion prüfen als einzelne Repliken weiter verkürzen. Treppe, Mutter und Zucker setzen jeweils unterschiedliche emotionale Akzente."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Jonas legt den Löffel hin. Sehr langsam.",
+          "Marek nickt. Fast ein Lächeln. Fast."
+        ],
+        "suggestions": [
+          "Die unmittelbar sichtbaren Gesten beibehalten und nicht durch Erklärungen wie „Jonas merkte, dass Marek unsicher war“ ersetzen.",
+          "Auch künftig Gefühle über Handlungen und Gesprächsbrüche vermitteln, statt ihre Bedeutung nachträglich auszudeuten."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Marek: Ich war sowieso in der Gegend. / Jonas: In der Gegend.",
+          "Jonas: Früher. / Marek: Früher.",
+          "Marek: Wir sitzen hier, oder? / Jonas: Wir sitzen hier.",
+          "Fast ein Lächeln. Fast."
+        ],
+        "suggestions": [
+          "Die Echo-Repliken überwiegend erhalten: Sie verändern die Bedeutung des Gesagten und zeigen, wie die Figuren einander prüfen.",
+          "Die Häufung dieses Stilmittels im Gesamttext prüfen. Besonders das abschließende zweite „Fast“ könnte entfallen, wenn der Schluss weniger demonstrativ wirken soll.",
+          "Zwischen funktionalen Wiederholungen und bloßen Doppelungen unterscheiden: „Wir sitzen hier“ wird durch den Sprecherwechsel von einer Rechtfertigung zu einer vorsichtigen Bestätigung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.017812
+}

@@ -1,0 +1,106 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__claude-sonnet-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 10,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ein Bahnhofscafé, draußen Regen. Jonas sitzt schon am Tisch, als Martin hereinkommt."
+        ],
+        "suggestions": [
+          "Perfekter Einstieg 'in medias res'. Die Szene beginnt exakt am relevanten Punkt (dem Aufeinandertreffen) ohne unnötige Vorgeschichte wie Anfahrt oder Parkplatzsuche."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["*(schnell)*", "*(nickt langsam)*", "*(fast lächelnd)*"],
+        "suggestions": [
+          "Sehr sparsamer und präziser Einsatz. In einem Drehbuch oder Theaterstück sind Regieanweisungen wie 'schnell' oft entbehrlich, da sich das Tempo aus dem Subtext ergibt. Bei einer Umwandlung in Prosa könnte man 'schnell' durch ein präziseres Verb wie 'schob er hastig nach' ersetzen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["**MARTIN:** Du bist pünktlich.", "**JONAS:** Bin ich immer."],
+        "suggestions": [
+          "Durch das Skript-Format gibt es keine klassischen Redebegleitsätze ('sagte er'). Falls der Text in einen Roman umgewandelt wird, kann dieses hohe Tempo exakt so beibehalten werden: Durch den Schlagabtausch zweier Personen bräuchte es auch im Fließtext fast keine 'sagte'-Markierungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ich wollte eigentlich nicht lange …",
+          "Dann setz dich eben kurz.",
+          "Da hat sie wohl recht."
+        ],
+        "suggestions": [
+          "In den Regieanweisungen gibt es keinerlei Füllwörter. In den Dialogen ('eigentlich', 'eben', 'wohl', 'immerhin') sind sie absolut legitim und notwendig, da sie die Unsicherheit der Figuren und den natürlichen Sprachfluss transportieren. Nichts ändern!"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Jonas sitzt schon am Tisch, als Martin hereinkommt."],
+        "suggestions": [
+          "Nur eine minimale Gleichzeitigkeit ganz am Anfang, die hier als klassische Szenen-Etablierung völlig funktioniert. Der Rest der Handlungen folgt sauber und chronologisch aufeinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["... in seinem Kaffee, der längst umgerührt ist"],
+        "suggestions": [
+          "Kein einziges echtes Vorgangspassiv im Text (lediglich ein Zustandspassiv beim Kaffee, das hier aber als schönes, bildhaftes Detail dient). Alle Handlungen sind aktiv und direkt formuliert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Beide zögern, ob sie sich umarmen sollen. Sie lassen es.",
+          "Martin setzt sich. Die Jacke behält er an."
+        ],
+        "suggestions": [
+          "Hervorragende, knappe Satzstruktur. Die kurzen Sätze unterstreichen die angespannte, unterkühlte Atmosphäre zwischen den beiden Figuren perfekt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["**MARTIN:** Ich hab’s nicht so gemeint. Damals. Zumindest nicht alles."],
+        "suggestions": [
+          "Exzellentes Ping-Pong-Prinzip. Kein einziger Monolog, keine unnatürlichen Erklärungen ('Infodumping') im Gespräch. Jede Zeile treibt die emotionale Entwicklung voran."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Martin setzt sich. Die Jacke behält er an.",
+          "Martin zieht den Reißverschluss seiner Jacke ein Stück herunter."
+        ],
+        "suggestions": [
+          "Ein Paradebeispiel für 'Show, don't tell'. Anstatt indirekt zu schreiben 'Jonas sah, dass Martin sich unwohl fühlte' oder 'Martin merkte, dass er sich entspannte', wird alles über das Anbehalten und spätere Öffnen der Jacke sowie das Kaffeerühren gezeigt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "**MARTIN:** Früher hast du mich warten lassen. / **JONAS:** Früher war vieles anders.",
+          "**MARTIN:** ... Zumindest nicht alles. / **JONAS:** Nicht alles."
+        ],
+        "suggestions": [
+          "Es gibt keinerlei ungewollte Redundanzen. Die einzigen Wortwiederholungen im Text sind bewusste rhetorische Echos im Dialog, die das Aufeinanderprallen der beiden Standpunkte brillant verdeutlichen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01558
+}

@@ -1,0 +1,151 @@
+{
+  "who": "sol",
+  "item": "lit-continue__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ilse antwortete nicht.",
+          "Sie ging an ihm vorbei zur Kabine, wo der Motorkasten unter der Sitzbank lag, und klappte den Deckel hoch."
+        ],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Ilses Schweigen setzt einen Konflikt voraus und macht neugierig.",
+          "Allenfalls die räumliche Erklärung straffen: „Sie ging an ihm vorbei zur Kabine und klappte den Deckel des Motorkastens hoch.“ Ein späterer Einstieg würde dagegen die bedeutungsvolle Gesprächsverweigerung verlieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Öl und feuchtes Holz schlugen ihr entgegen, vertraut wie das eigene Kissen.",
+          "Die Elbe war braun und schnell",
+          "Seine Hände waren weich geworden, das sah sie sofort."
+        ],
+        "suggestions": [
+          "Sinnlich oder charakterlich aussagekräftige Attribute wie „feuchtes“ und „weich“ beibehalten.",
+          "„sofort“ kann entfallen; Ilses unmittelbare Aufmerksamkeit ergibt sich bereits aus der Situation.",
+          "Bei der Elbe lässt sich die Geschwindigkeit in ein Verb verlagern: „Die braune Elbe riss Äste und einen einzelnen Schuh mit.“ Das wäre allerdings dynamischer und bedrohlicher als das Original."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ich hab's gehört\", sagte sie schließlich.",
+          "„Links herum\", sagte sie. „Bis es einrastet.\"",
+          "„Gut\", sagte Ilse. „Dann hältst du die Leine.\""
+        ],
+        "suggestions": [
+          "Die unauffälligen Redekennzeichnungen grundsätzlich beibehalten; sie belasten den Text kaum.",
+          "Bei „Links herum“ ist Ilse durch ihre Rolle als Anleitende hinreichend erkennbar. Hier könnte „sagte sie“ entfallen.",
+          "Die Namensnennung im Schlussdialog stehen lassen, wenn sie den Sprecherwechsel nach Jonas’ Handlung verdeutlichen soll."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ich hab's gehört\", sagte sie schließlich.",
+          "Und sie sah auch, dass er sie nicht gern schmutzig machte.",
+          "Er nahm die Kurbel trotzdem."
+        ],
+        "suggestions": [
+          "„auch“ ist bei einer Straffung der Wahrnehmungspassage entbehrlich.",
+          "„schließlich“ nur streichen, wenn die durch Ilses anfängliches Schweigen entstehende Verzögerung nicht zusätzlich betont werden soll.",
+          "Nicht pauschal kürzen: „trotzdem“ bezeichnet hier einen wichtigen Gegensatz zwischen Jonas’ Widerwillen und seinem Handeln."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er schob den Koffer hinter sich her, die kleinen Räder ratterten über die Bohlen, bis er bei der Kette stehen blieb, die die Rampe sicherte.",
+          "Er betrachtete das Ding, als sei es ein Fremdkörper.",
+          "Er war der Blick vom Beifahrersitz, als er siebzehn gewesen war und sie ihn zum Bahnhof nach Lüneburg gebracht hatte."
+        ],
+        "suggestions": [
+          "Die überwiegend klare Handlungsfolge beibehalten; eine problematische Häufung gleichzeitiger Vorgänge liegt nicht vor.",
+          "Die „als“-Formulierungen nicht unterschiedslos als Gleichzeitigkeit behandeln: Der Fremdkörper ist ein Vergleich, die Bahnhofsfahrt eine zeitliche Rückblende.",
+          "Den Satz mit Koffer, Rädern und Kette gegebenenfalls zur besseren Übersicht teilen, nicht weil die Gleichzeitigkeit sachlich unplausibel wäre."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie holte die Handkurbel aus der Kiste unter dem Steuerstand, legte sie auf die Ducht und wartete.",
+          "Dann spuckte der Motor einen blauen Rauchring aus, hustete und blieb wieder still."
+        ],
+        "suggestions": [
+          "Keine Überarbeitung erforderlich: Die handelnden Figuren und Gegenstände stehen klar im Satzsubjekt.",
+          "„Seine Hände waren weich geworden“ nicht als Passiv behandeln; die Formulierung beschreibt eine Zustandsveränderung."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Die Elbe war braun und schnell, sie trug Äste mit sich und einen einzelnen Schuh, und am gegenüberliegenden Ufer bogen sich die Weiden im Wind, als hätten sie es eilig.",
+          "Er schob den Koffer hinter sich her, die kleinen Räder ratterten über die Bohlen, bis er bei der Kette stehen blieb, die die Rampe sicherte.",
+          "Die nächste Überfahrt ging in zehn Minuten, mit oder ohne Motor, wenn sie das Ruder und die Leine nahm, so wie immer."
+        ],
+        "suggestions": [
+          "Die Flussbeschreibung bei Bedarf in zwei Wahrnehmungseinheiten teilen: „Die Elbe war braun und schnell. Sie trug Äste mit sich und einen einzelnen Schuh. Am gegenüberliegenden Ufer bogen sich die Weiden im Wind, als hätten sie es eilig.“",
+          "Die räumliche Bewegung übersichtlicher staffeln: „Er schob den Koffer hinter sich her. Die kleinen Räder ratterten über die Bohlen. Bei der Kette, die die Rampe sicherte, blieb er stehen.“",
+          "Den Überfahrtssatz entlasten: „Die nächste Überfahrt ging in zehn Minuten, mit oder ohne Motor. Notfalls nahm sie Ruder und Leine, wie immer.“ Die längeren Sätze aber nicht durchgehend auflösen; sie bilden einen wirksamen Kontrast zu den knappen Handlungssätzen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Beim letzten Hochwasser hat er geklemmt. Seitdem zieh ich mit der Hand.\"",
+          "„Die Fähre geht gleich rüber\", sagte sie. „Du kannst mitfahren oder hier stehen bleiben.\"",
+          "„Gut\", sagte Ilse. „Dann hältst du die Leine.\""
+        ],
+        "suggestions": [
+          "Die knappen Dialoge beibehalten: Sie vermitteln praktische Informationen und tragen zugleich den Beziehungskonflikt.",
+          "Keine zusätzlichen Erklärungen zu den Gefühlen der Figuren in die direkte Rede aufnehmen; gerade die Aussparungen erzeugen Spannung."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Seine Hände waren weich geworden, das sah sie sofort.",
+          "Und sie sah auch, dass er sie nicht gern schmutzig machte.",
+          "Ilse merkte, dass sie den Atem angehalten hatte, und zwang sich, ihn wieder fließen zu lassen.",
+          "Er sah sie an, und einen Moment lang dachte sie, er würde widersprechen."
+        ],
+        "suggestions": [
+          "Den entbehrlichen Wahrnehmungsfilter streichen: „Seine Hände waren weich geworden.“ Die personale Perspektive macht deutlich, wer das bemerkt.",
+          "Jonas’ Abneigung entweder knapper als Ilses Einschätzung formulieren oder durch eine konkrete zögernde Geste zeigen. Seine spätere Handbewegung an der Hose liefert dafür bereits einen Ansatz.",
+          "Die Atemstelle körperlicher fassen: „Sie hielt den Atem an. Jetzt zwang sie sich auszuatmen.“ Das verändert allerdings die Nuance des verspäteten Bewusstwerdens.",
+          "Die Erwartung eines Widerspruchs gegebenenfalls in erlebte Rede übertragen: „Er sah sie an. Würde er widersprechen?“ Wahrnehmungsverben bei eigenständigen Handlungen wie „Er sah aufs Wasser“ dagegen nicht mechanisch streichen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Seitdem zieh ich mit der Hand.\"\n\n„Mit der Hand.\"",
+          "Ilse kannte diesen Blick. Er war der Blick vom Beifahrersitz",
+          "Damals hatte sie nichts gesagt. Jetzt sagte sie auch nichts.",
+          "stand still, wie ein Tier, das sich totstellt",
+          "hustete und blieb wieder still"
+        ],
+        "suggestions": [
+          "Die Wiederholung „Mit der Hand“ beibehalten: Jonas’ Echo macht seine Reaktion hörbar.",
+          "Auch „Damals … Jetzt …“ erfüllt eine klare Funktion, weil es Vergangenheit und Gegenwart miteinander verschränkt.",
+          "Die doppelte Benennung des Blicks ließe sich verdichten: „Diesen Blick kannte Ilse vom Beifahrersitz, als …“ Die rhythmische Betonung des Originals ginge dabei teilweise verloren.",
+          "Das erneute Stillstehen des Motors nicht als bloße Doppelung streichen: Zwischen beiden Stellen liegt ein Startversuch, dessen Scheitern erzählt werden muss."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.024854
+}

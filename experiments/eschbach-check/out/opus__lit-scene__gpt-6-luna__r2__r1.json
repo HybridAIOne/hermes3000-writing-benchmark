@@ -1,0 +1,133 @@
+{
+  "who": "opus",
+  "item": "lit-scene__gpt-6-luna__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel klemmte, als hätte das Haus beschlossen, sie nicht sofort hineinzulassen.",
+          "Sie drehte ihn zurück, hob die Klinke an und spürte, wie das Schloss nachgab."
+        ],
+        "suggestions": [
+          "Der Einstieg mit dem klemmenden Schlüssel funktioniert gut, weil er die Beziehung zwischen Mara und dem Haus sofort andeutet. Er beginnt aber knapp vor der eigentlichen Szene. Die Szene könnte direkt im Flur mit dem Geruch einsetzen.",
+          "Den Satz 'Sie drehte ihn zurück, hob die Klinke an …' streichen oder kürzen. Die reine Mechanik des Aufschließens trägt nach dem starken ersten Satz wenig bei."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "ein einzelnes, blaues Fädchen",
+          "ein dünner, rostfarbener Strahl",
+          "überwachsen und still",
+          "Das Holz war glatt und kühl.",
+          "Die Stühle waren ordentlich daruntergeschoben"
+        ],
+        "suggestions": [
+          "'einzelnes' ist neben 'ein' überflüssig: 'An ihrem Daumen klebte ein blaues Fädchen.'",
+          "Die Adjektivpaare 'überwachsen und still' sowie 'glatt und kühl' prüfen. Oft reicht eines, oder ein konkretes Bild ersetzt sie, z. B. 'Brennnesseln reichten bis an die Fensterbank.'",
+          "'dünner, rostfarbener Strahl' ist gut gewählt. Hier tragen die Adjektive Information und sollten bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text enthält keinen Dialog, daher gibt es keine Redeeinleitungen zu bewerten. Sollte später Dialog folgen, den Sprecher möglichst über Handlung statt über 'sagte sie' kenntlich machen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "kaum mehr als ein Rest",
+          "irgendwo im Haus knackte ein Brett",
+          "Sie war nicht ganz geschlossen.",
+          "Ein Windstoß bewegte sie"
+        ],
+        "suggestions": [
+          "'irgendwo' ist hier bewusst vage und erzeugt Unbehagen. Das ist vertretbar, eine konkrete Ortsangabe ('über ihr', 'im Keller') könnte die Spannung aber steigern.",
+          "'nicht ganz geschlossen' präzisieren: 'Sie stand einen Fingerbreit offen.'",
+          "Unklarer Bezug in 'Ein Windstoß bewegte sie': 'sie' kann auf Mara oder auf die Zweige verweisen. Besser: 'Ein Windstoß bewegte die Zweige.'"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ein Windstoß bewegte sie, und irgendwo im Haus knackte ein Brett.",
+          "wo früher ihr Gesicht gewesen war, wenn sie als Kind auf Zehenspitzen hineinsah"
+        ],
+        "suggestions": [
+          "Handlungen werden durchweg sauber nacheinander erzählt. Das 'als' in 'als hätte' und 'als erwarte' ist vergleichend, nicht zeitlich, und unproblematisch.",
+          "Die Verknüpfung von Windstoß und Knacken ist bewusst gesetzt. Optional ließe sich die Wirkung durch zwei getrennte Sätze verstärken: 'Ein Windstoß ging durch die Zweige. Irgendwo im Haus knackte ein Brett.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Stühle waren ordentlich daruntergeschoben"],
+        "suggestions": [
+          "Der Text kommt fast ohne Passiv aus. Das Zustandspassiv bei den Stühlen ist stimmig, weil es auf die abwesende Mutter verweist, die sie dorthin geschoben hat. Es kann bleiben."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "An der Wand hatte der Spiegel einen blinden Fleck, genau dort, wo früher ihr Gesicht gewesen war, wenn sie als Kind auf Zehenspitzen hineinsah.",
+          "Darunter lag etwas Süßliches, kaum mehr als ein Rest: der Geruch von Äpfeln, die zu lange in einer Schublade gelegen hatten."
+        ],
+        "suggestions": [
+          "Den Spiegelsatz entschachteln: 'Der Spiegel an der Wand hatte einen blinden Fleck. Genau dort hatte sie als Kind ihr Gesicht gesehen, wenn sie sich auf die Zehenspitzen stellte.'",
+          "Der Apfel-Satz ist rhythmisch gelungen und kann bleiben, eventuell ohne den Einschub 'kaum mehr als ein Rest'.",
+          "Insgesamt dominieren kurze, klare Sätze. Der Rhythmus passt gut zur zurückgenommenen Stimmung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Kein Dialog vorhanden. Die Szene lebt von Wahrnehmung und Handlung, was für diese Situation passend ist."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "spürte, wie das Schloss nachgab",
+          "Sie wusste nicht, woher es kam.",
+          "Im Flur hatte sie die Tür zum Keller übersehen."
+        ],
+        "suggestions": [
+          "'spürte, wie das Schloss nachgab' direkter fassen: 'Das Schloss gab nach.'",
+          "'Sie wusste nicht, woher es kam.' benennt Maras Ratlosigkeit, statt sie zu zeigen. Alternative: 'Sie hatte nichts Blaues angefasst.' Das ist konkreter und unheimlicher.",
+          "'hatte sie die Tür zum Keller übersehen' ist logisch etwas holprig, da Mara in der Küche ist. Direkter: 'Die Kellertür im Flur stand einen Spalt offen.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Staub: 'roch es nach Staub' / 'Der Staub blieb an ihrer Haut haften' / 'frei vom Staub'",
+          "stehen: 'stand sie darin' / 'stand der Tisch noch' / 'stand noch der Apfelbaum' / 'blieb am Fenster stehen'",
+          "'wusste nicht, wohin mit den Händen' / 'wusste nicht, woher es kam'",
+          "'als hätte das Haus beschlossen' / 'als erwarte ihre Mutter Besuch'"
+        ],
+        "suggestions": [
+          "'Staub' einmal ersetzen oder streichen, z. B. 'Ein heller Kreis zeichnete sich auf der Tischplatte ab' (das 'frei vom Staub' ergibt sich aus 'hell').",
+          "Das Verb 'stehen' variieren: 'In der Küche war der Tisch noch am Fenster' oder 'Hinter dem Schuppen wuchs noch der Apfelbaum'.",
+          "Die Doppelung 'wusste nicht' ist möglicherweise eine bewusste Klammer. Falls nicht, eine der beiden Stellen umformulieren.",
+          "Die zweifache 'als ob'-Personifikation reduzieren, damit das Stilmittel nicht vorhersehbar wird."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.099272
+}

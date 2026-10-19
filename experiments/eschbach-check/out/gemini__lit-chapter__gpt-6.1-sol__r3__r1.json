@@ -1,0 +1,124 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__gpt-6.1-sol__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Nebel lag so tief über der Elbe, dass Ilse das andere Ufer nicht sah."],
+        "suggestions": [
+          "Der Einstieg ist hervorragend. Er verortet die Szene sofort, etabliert die Perspektive (Ilse) und die Atmosphäre ohne unnötiges Vorgeplänkel. Kurz darauf trifft der erste Fahrgast ein, was die Handlung direkt in Gang setzt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Gelbes Licht fiel auf das Riffelblech.",
+          "Schuhe mit zu dünnen Sohlen.",
+          "Die Fähre löste sich langsam vom Ufer."
+        ],
+        "suggestions": [
+          "Die Adjektive sind sehr präzise und funktional gewählt (Farben, Temperaturen, Materialien). Lediglich bei 'Die Fähre löste sich langsam vom Ufer' könnte 'langsam' gestrichen werden, da die Trägheit der Fähre im Folgesatz ohnehin sehr bildhaft beschrieben wird."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Geht’s?“, fragte er. / „Sonst wär die Schranke zu.“",
+          "„Glatt.“ / „November.“",
+          "Der Radfahrer löste die Bremse zu früh. / „Noch nicht“, sagte sie."
+        ],
+        "suggestions": [
+          "Exzellenter Verzicht auf überflüssige Redebegleitsätze in fast allen Passagen. Nur bei '„Noch nicht“, sagte sie' könnte das 'sagte sie' noch komplett entfallen, da klar ist, dass die Fährfrau diese Anweisung gibt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Pegel war über Nacht um wenige Zentimeter gefallen.",
+          "Eine Weile sagte niemand etwas.",
+          "Irgendwo klopfte ein loses Stück Metall..."
+        ],
+        "suggestions": [
+          "Der Text ist extrem sauber und frei von klassischen Füllwörtern (wie 'eigentlich', 'ziemlich'). 'Wenige Zentimeter' könnte noch durch eine konkretere Schätzung (z.B. 'handbreit' oder 'zehn Zentimeter') ersetzt werden, um Ilses routinierten Blick zu schärfen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als sie sich aufrichtete, standen die beiden anderen Fahrgäste am Ufer."],
+        "suggestions": [
+          "Handlungen werden fast durchgehend sauber nacheinander beschrieben. Das vereinzelte 'Als' funktioniert hier gut als Überraschungsmoment. Alternativ ginge auch rein sequenziell: 'Sie richtete sich auf. Am Ufer standen bereits zwei weitere Fahrgäste.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie nahm den Bootshaken aus seiner Halterung, setzte die Spitze unter das Holz und drückte.",
+          "Ilse sicherte sie, ließ die Rampe herunter und öffnete die Schranke."
+        ],
+        "suggestions": [
+          "Keine Beanstandungen. Der Text nutzt durchweg starke, aktive Verben, was perfekt zur anpackenden Natur der Protagonistin passt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Drei. Das Fahrrad, der Stoffbeutel, die Kiste.",
+          "Grauer Mantel, Stoffbeutel, Schuhe mit zu dünnen Sohlen."
+        ],
+        "suggestions": [
+          "Der Satzbau ist meisterhaft. Kurze, klare Hauptsätze und gezielte Ellipsen spiegeln die norddeutsche Wortkargheit und die Konzentration bei der Arbeit wider. Es gibt keinerlei verschachtelte Bandwurmsätze."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Glatt.“ – „November.“",
+          "„Muss die so?“ – „Ja.“",
+          "„Ist der Kaffee noch warm?“, fragte die Frau. Ilse blickte auf die Thermoskanne. „Meiner schon.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind auf das absolute Minimum reduziert und sitzen perfekt. Sie transportieren Charakter und trockenen Humor ohne jedes überflüssige Wort."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag so tief über der Elbe, dass Ilse das andere Ufer nicht sah.",
+          "Sie sah das Ende der Rampe, zwei nasse Poller und ein Stück von dem Seil...",
+          "Sie legte die Hand auf den Hebel und spürte die Vibration bis in den Unterarm.",
+          "In ihrer Jackentasche begann das Telefon zu vibrieren."
+        ],
+        "suggestions": [
+          "Der Text ist bereits sehr nah an der Figur, nutzt aber gelegentlich noch Wahrnehmungsverben ('sah', 'spürte') oder Verlaufsformen ('begann zu'). Vorschläge zur noch direkteren Darstellung:",
+          "Statt 'Sie sah das Ende der Rampe...' direkt: 'Nur das Ende der Rampe ragte aus dem Dunst, zwei nasse Poller und ein Stück vom Fährseil.'",
+          "Statt '...und spürte die Vibration bis in den Unterarm': 'Sie legte die Hand auf den Hebel. Die Vibration zog ihr bis in den Unterarm.'",
+          "Statt 'In ihrer Jackentasche begann das Telefon zu vibrieren': 'In ihrer Jackentasche vibrierte das Telefon.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Erst wich nur die Kante der Rampe zurück, dann der Poller, dann war auch der Poller weg.",
+          "...ein Stück von dem Seil, an dem die Fähre hing. ... Zwischen Stahl und Ufer hatte sich ein Ast verkeilt."
+        ],
+        "suggestions": [
+          "Keine inhaltlichen Redundanzen vorhanden. Jedes Detail hat eine Funktion. Die Wortwiederholung von 'Poller' im genannten Beispiel wirkt wie ein bewusstes Stilmittel für das schrittweise Verschwinden im Nebel. Lediglich die Konstruktion 'hatte sich gezogen' und kurz darauf 'hatte sich verkeilt' (Plusquamperfekt) könnte man noch leicht variieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021086
+}

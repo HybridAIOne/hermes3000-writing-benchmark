@@ -1,0 +1,146 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__gemini-4-argon__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "LUKAS sitzt am Tisch und dreht seinen Ehering. ANNA tritt ein, zögert kurz und setzt sich ihm gegenüber.",
+          "ANNA: Du trinkst jetzt Schwarztee?"
+        ],
+        "suggestions": [
+          "Der Einstieg ist spät gewählt: Die Begrüßung fehlt, und die Teefrage enthält bereits Subtext (Veränderung, Bitterkeit). Das ist effektiv.",
+          "Optional könnte die Szene noch später einsetzen, etwa wenn Anna bereits sitzt. Das Zögern beim Eintreten liefert allerdings wertvolle Information und sollte erhalten bleiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "zögert kurz",
+          "nickt knapp",
+          "lächelt dünn",
+          "ihre Stimme zittert leicht",
+          "steht langsam auf",
+          "rührt in seinem leeren Tee"
+        ],
+        "suggestions": [
+          "Die Regieanweisungen häufen Adverbien, die Schauspieler ohnehin interpretieren. 'zögert' statt 'zögert kurz' und 'steht auf' statt 'steht langsam auf' genügen.",
+          "'rührt in seinem leeren Tee' ist ein Logikfehler. Besser: 'rührt in seiner leeren Tasse'.",
+          "'Man gewöhnt sich ja an den bitteren Geschmack' ist als Dialog mit Doppelbödigkeit gelungen und sollte bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "(sieht ihn direkt an, ihre Stimme zittert leicht)",
+          "(weicht ihrem Blick aus, starrt in seine Tasse)",
+          "(nickt knapp)"
+        ],
+        "suggestions": [
+          "Im Dramenformat ergeben sich die Sprecher aus den Rollennamen. Kennzeichnungen sind also kein Problem.",
+          "Einige Regieanweisungen doppeln sich. 'weicht ihrem Blick aus, starrt in seine Tasse' meint zweimal dasselbe; eine der beiden Angaben reicht.",
+          "'ihre Stimme zittert leicht' gibt dem Spiel zu viel vor. Der Text 'Das ist nicht fair, Lukas.' trägt die Emotion bereits."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Seit ein paar Monaten",
+          "Man gewöhnt sich ja",
+          "Dass man eben Prioritäten setzen muss",
+          "wer von uns beiden eigentlich gegangen ist",
+          "Was ist schon fair?"
+        ],
+        "suggestions": [
+          "In gesprochener Sprache charakterisieren Partikeln wie 'ja', 'eben' und 'schon' die Figur. Hier wirken sie überwiegend passiv-aggressiv und damit gewollt.",
+          "'eigentlich' in 'wer von uns beiden eigentlich gegangen ist' kann entfallen. Ohne das Wort wird der Vorwurf schärfer.",
+          "'Seit ein paar Monaten' ließe sich präzisieren, etwa 'Seit dem Frühjahr'. Das deutet einen Bezug zur Trennung an."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "(nimmt die Schachtel, steht langsam auf)",
+          "(blickt auf die Schachtel, berührt sie nicht)"
+        ],
+        "suggestions": [
+          "Konstruktionen mit 'während' oder 'gleichzeitig' fehlen. Die Handlungen folgen klar aufeinander.",
+          "Die Abfolge 'nimmt die Schachtel, steht auf' ist gut gesetzt, weil die Geste vor dem Aufbruch Gewicht bekommt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Man gewöhnt sich ja an den bitteren Geschmack.",
+          "Dass man eben Prioritäten setzen muss im Leben."
+        ],
+        "suggestions": [
+          "Echte Passivsätze kommen nicht vor.",
+          "Die unpersönlichen 'man'-Konstruktionen sind als Ausweichstrategie der Figur sinnvoll: Lukas spricht über sich und Anna, ohne sie direkt zu benennen. Sie sollten bleiben."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ich habe lange darüber nachgedacht, wer von uns beiden eigentlich gegangen ist.",
+          "Ich werfe Dinge nicht einfach weg, nur weil sie unbequem werden, Anna."
+        ],
+        "suggestions": [
+          "Die Sätze sind durchweg kurz und sprechbar. Fragmente wie 'Ja. Mit Mantel. Auf dem Sprung.' erzeugen Rhythmus und Härte.",
+          "Lukas' längster Satz könnte als direkte Frage stärker wirken: 'Wer von uns beiden ist eigentlich gegangen?'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Und du machst lieber tabula rasa. Ein Schnitt, und schon existiert die Vergangenheit nicht mehr. Sehr praktisch.",
+          "Sie fragt oft nach dir. Ich sage ihr dann immer, du hast viel zu tun. Dass man eben Prioritäten setzen muss im Leben."
+        ],
+        "suggestions": [
+          "Der Dialog ist insgesamt knapp und pointiert. Nur zwei Repliken von Lukas erklären zu viel.",
+          "Kürzungsvorschlag: 'Und du machst lieber tabula rasa. Sehr praktisch.'",
+          "Kürzungsvorschlag: 'Sie fragt oft nach dir. Ich sage ihr, du hast viel zu tun.' Der Prioritäten-Satz buchstabiert den Vorwurf nur aus."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ich habe lange darüber nachgedacht, wer von uns beiden eigentlich gegangen ist.",
+          "(ihr Blick verhärtet sich)"
+        ],
+        "suggestions": [
+          "Lukas' Nachdenken direkt als Frage stellen: 'Wer von uns beiden ist eigentlich gegangen?' Das konfrontiert Anna unmittelbar.",
+          "'ihr Blick verhärtet sich' ist schwer spielbar und beschreibt einen inneren Zustand. Besser eine konkrete Handlung, z. B. '(lehnt sich zurück)' oder '(verschränkt die Arme)'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "tabula rasa / Ein Schnitt / existiert die Vergangenheit nicht mehr",
+          "du hast viel zu tun / Dass man eben Prioritäten setzen muss",
+          "blickt auf die Schachtel / ihr Blick verhärtet sich / schaut aus dem Fenster / sieht ihn direkt an / weicht ihrem Blick aus"
+        ],
+        "suggestions": [
+          "Dreifache Umschreibung desselben Vorwurfs ('tabula rasa', 'Schnitt', 'existiert nicht mehr'): Ein Bild reicht.",
+          "Die Regieanweisungen arbeiten auffällig oft mit Blicken. Variieren Sie mit Gesten (Hände, Mantel, Ehering, Tasse).",
+          "Gelungen und beizubehalten sind die Echos 'einfach wegwerfen' / 'nicht einfach weg' sowie der Mantel aus der Regieanweisung, der in 'Mit Mantel. Auf dem Sprung.' wiederkehrt. Beides ist bewusste Motivarbeit, keine Redundanz.",
+          "Der Ehering wird zu Beginn eingeführt, aber nicht wieder aufgegriffen. Eine kurze Wiederaufnahme am Ende könnte den Schluss verstärken."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.098704
+}

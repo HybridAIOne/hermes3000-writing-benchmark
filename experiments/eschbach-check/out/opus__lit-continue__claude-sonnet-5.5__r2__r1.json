@@ -1,0 +1,136 @@
+{
+  "who": "opus",
+  "item": "lit-continue__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Er läuft“, sagte Ilse. – Der Text setzt mitten im Konflikt ein, ohne Ankunft, Begrüßung oder Vorgeschichte.",
+          "Die Vorgeschichte (Henning, die lange Abwesenheit) wird nur in Andeutungen nachgereicht, statt vorab erklärt."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten. Allenfalls prüfen, ob der Leser ohne Kontext weiß, dass mit „Er“ der Motor gemeint ist. Die Auflösung im zweiten Satz genügt aber."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„in kurzen, nassen Zügen“ – „nass“ ist bei Wasser redundant.",
+          "„der alte Außenborder“ – „alt“ ergibt sich bereits aus dem Dialog über das Anwerfen.",
+          "„ein kleiner roter Lieferwagen“ – zwei Adjektive für ein Nebendetail.",
+          "„Der Fluss war braun und träge“ – funktional, weil es dem verborgenen Zug kontrastiert wird."
+        ],
+        "suggestions": [
+          "„nassen“ streichen: „in kurzen Zügen gegen die Pontons“ oder ein präziseres Verb wählen, z. B. „das Wasser klatschte gegen die Pontons“.",
+          "„alte“ beim Außenborder streichen, da der Dialog das Alter bereits transportiert.",
+          "Beim Lieferwagen ein Adjektiv wählen, z. B. „ein roter Lieferwagen“."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ist das Zimmer noch –“, begann Jonas. – Der Sprecher ergibt sich aus dem Wechsel, und der Gedankenstrich zeigt den Abbruch bereits an.",
+          "„Komm mit rüber“, sagte sie. – Die vorangehende Handlung (hielt Jonas das Ende hin) macht die Sprecherin eindeutig.",
+          "„Du hättest anrufen können“, sagte sie. – Hier ist die Kennzeichnung sinnvoll, weil der vorige Absatz Jonas beschreibt."
+        ],
+        "suggestions": [
+          "„begann Jonas“ streichen: „Ist das Zimmer noch –“ steht für sich.",
+          "Im letzten Absatz die Rede direkt an die Geste anschließen: „…und hielt Jonas das Ende hin. ‚Komm mit rüber. Du weißt noch, wie das geht.‘“"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Sie konnte beinahe hören“ – „beinahe“ schwächt das Bild ab.",
+          "„Ilse hob ebenfalls zwei Finger“ – „ebenfalls“ ist durch die Parallelstruktur überflüssig.",
+          "„stand schon wieder ein Auto“ – „schon wieder“ ist hier allerdings bedeutungstragend (Routine).",
+          "„hin und zurück ein Vierteljahrstündchen“ – unpräzise und sachlich widersprüchlich: Elf Minuten pro Strecke ergeben keine Viertelstunde hin und zurück. Außerdem heißt es „Viertelstündchen“."
+        ],
+        "suggestions": [
+          "„beinahe“ streichen: „Sie konnte hören, wie er die Zahlen sortierte“ oder direkter (siehe Punkt 9).",
+          "„ebenfalls“ streichen: „Ilse hob zwei Finger.“ Die Spiegelung wirkt so stärker.",
+          "Die Zeitangabe korrigieren, z. B. „Die Fahrt dauerte elf Minuten, hin und zurück fast eine halbe Stunde“, oder die Rechnung ganz weglassen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Kein „während“ oder „gleichzeitig“. Die Handlungen folgen meist nacheinander: „Sie kontrollierte die Klemme… und wischte…“",
+          "„Von der Rampe rollte der letzte Wagen, …, die Fahrerin hob zwei Finger zum Gruß.“ – Die Kommaverbindung legt zwei Handlungen eng zusammen."
+        ],
+        "suggestions": [
+          "Optional den Gruß als eigenen Satz setzen: „Von der Rampe rollte der letzte Wagen, ein Kombi mit Lüneburger Kennzeichen. Die Fahrerin hob zwei Finger zum Gruß.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Das Bett ist bezogen.“ – Zustandspassiv in wörtlicher Rede. Es passt zu Ilses knapper, distanzierter Art und lässt offen, wer es bezogen hat.",
+          "Sonst ist der Text durchgehend aktiv formuliert."
+        ],
+        "suggestions": [
+          "Beibehalten. Die Passivform ist hier charakterisierend. Ein aktives „Ich hab das Bett bezogen“ würde Ilse zu viel Zuwendung zugestehen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Fluss war braun und träge, hatte aber unter der Oberfläche diesen Zug, den man nur in den Armen spürte, wenn man jahrzehntelang an ihm gearbeitet hatte.“ – Drei Ebenen, aber gut lesbar.",
+          "„Er hätte den Koffer über den nassen Weg gezogen, die Rollen hätten auf dem Kies geknirscht, und sie hätte ihm von hier aus nachgesehen, wie man jemandem nachsieht, den man noch nicht wieder hereingelassen hat.“ – Lang, aber rhythmisch bewusst gebaut."
+        ],
+        "suggestions": [
+          "Den Fluss-Satz teilen, falls mehr Gewicht gewünscht ist: „Der Fluss war braun und träge. Unter der Oberfläche aber hatte er diesen Zug, den man nur in den Armen spürte, wenn man jahrzehntelang an ihm gearbeitet hatte.“",
+          "Den Konjunktiv-Satz beibehalten. Seine Länge spiegelt das ausgemalte, nicht gewählte Szenario."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Das Bett ist bezogen.“ / „Seit wann?“ / „Seit Mittwoch.“ – Knapp und subtextreich.",
+          "Kein Redebeitrag ist länger als zwei Sätze. Das Schweigen trägt ebenso viel wie das Gesagte."
+        ],
+        "suggestions": ["Keine Kürzung nötig. Die Dialoge sind vorbildlich ökonomisch."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Sie konnte beinahe hören, wie er die Zahlen sortierte“ – doppelt gefiltert (konnte, beinahe hören).",
+          "„Das hatte er von ihr, dachte Ilse, dieses Schweigen…“ – Der Einschub „dachte Ilse“ ist bei personaler Erzählhaltung entbehrlich.",
+          "„oder sie hatte ihn größer in Erinnerung“ – in Ordnung, da die Unsicherheit inhaltlich gemeint ist."
+        ],
+        "suggestions": [
+          "Direkter formulieren: „Er sah sie an und sortierte die Zahlen: Mittwoch, heute war Freitag, er hatte erst gestern Abend den Zug gebucht.“",
+          "„dachte Ilse“ streichen: „Er sagte nichts dazu. Das hatte er von ihr, dieses Schweigen, das mehr Platz brauchte als ein Satz.“"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„einen Mantel, der zu dünn war“ – „Er war dünner geworden“: „dünn“ steht zweimal in direkter Folge, wohl unbeabsichtigt.",
+          "„wieder“ dreimal in kurzem Abstand: „schon wieder ein Auto“, „löste die Leine wieder vom Poller“, „noch nicht wieder hereingelassen“.",
+          "„Ilse löste die Leine wieder vom Poller“ – Das Festmachen wurde nicht gezeigt. Zudem wechselt die Bezeichnung zwischen Seil und Leine, was Verwirrung stiftet.",
+          "Die Wiederholungen „hob zwei Finger / hob zwei Finger“, „warten / wartete immer“, „nachgesehen, wie man jemandem nachsieht“ und „kontrollierte… nichts zu kontrollieren“ sind dagegen bewusste Stilmittel und wirkungsvoll."
+        ],
+        "suggestions": [
+          "Den Mantel anders beschreiben, z. B. „einen Mantel, der zu leicht war für Mitte Oktober“, um „dünner geworden“ zu entlasten.",
+          "„wieder“ beim Poller streichen: „Ilse löste die Leine vom Poller.“",
+          "Begriffe klar trennen: „Seil“ für das Fährseil, „Leine“ für die Festmacherleine, damit die Schlussgeste eindeutig ist."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.116912
+}

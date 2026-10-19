@@ -1,0 +1,145 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__gpt-6.1-sol__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag so tief über der Elbe, dass Ilse das andere Ufer nicht sah.",
+          "Vom Deich her kam das Knirschen von Reifen.",
+          "Ilse hielt das Telefon in der Hand, bis der Bildschirm wieder dunkel wurde."
+        ],
+        "suggestions": [
+          "Der Einstieg etabliert Sichtverhältnisse, Arbeitswelt und Ilses nüchterne Perspektive. Mit dem Reifengeräusch könnte die Szene später beginnen; notwendige Angaben zu Nebel und Fähre müssten dann in die Handlung einfließen.",
+          "Falls der abgewehrte Anruf den eigentlichen Konflikt eröffnet, prüfen, ob die vorausgehende Routine vollständig gebraucht wird. Nicht pauschal kürzen: Sie bereitet Ilses Verhalten durch ihre wortkarge, kontrollierte Arbeitsweise vor."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "zwei nasse Poller",
+          "Schuhe mit zu dünnen Sohlen",
+          "Die Fähre legte mit einem dumpfen Stoß an."
+        ],
+        "suggestions": [
+          "Die meisten Attribute liefern konkrete Sinneseindrücke oder charakterisieren die Figuren. Besonders die dünnen Sohlen sind erzählerisch ergiebig.",
+          "Allenfalls beiläufige Größenangaben wie „kleine Kunststoffkiste“ und „kleine Fahrkarte“ auf ihren Nutzen prüfen. Ohne relevanten Größenkontrast genügt „Kunststoffkiste“ beziehungsweise „Fahrkarte“."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Geht’s?“, fragte er.",
+          "„Glatt.“\n\n„November.“",
+          "„Noch nicht“, sagte sie."
+        ],
+        "suggestions": [
+          "Die knappen Wortwechsel ohne Redekennzeichnung beibehalten; Handlung und Reihenfolge machen die Sprecher meist eindeutig.",
+          "„fragte er“ nach „Geht’s?“ wäre wegen des unmittelbar zuvor eingeführten Fahrgasts verzichtbar. „sagte sie“ bei „Noch nicht“ ist dagegen eine sinnvolle Orientierungshilfe in der Mehrpersonenszene."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Pegel war über Nacht um wenige Zentimeter gefallen.",
+          "Eine Weile sagte niemand etwas.",
+          "Irgendwo klopfte ein loses Stück Metall"
+        ],
+        "suggestions": [
+          "Unbestimmte Angaben sind hier überwiegend funktional: „Irgendwo“ bildet die zunächst ungeklärte Geräuschquelle ab, „Eine Weile“ erzeugt eine Pause.",
+          "„wenige Zentimeter“ nur dann genauer beziffern, wenn Ilses fachliche Einschätzung betont werden soll. Eine exakte Zahl ist für die Handlung nicht erforderlich.",
+          "Gesprochene Wendungen wie „überhaupt richtig“ nicht automatisch als Füllwörter streichen; sie tragen zur Unsicherheit des Fahrgasts bei."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als sie sich aufrichtete, standen die beiden anderen Fahrgäste am Ufer.",
+          "Ilse wartete, bis die Frau an ihm vorbei war, dann schloss sie die Schranke.",
+          "Sie setzte jeden Fuß vorsichtig auf, als prüfte sie eine Treppe im Dunkeln."
+        ],
+        "suggestions": [
+          "Die überwiegend nacheinander erzählten Handgriffe beibehalten. Sie machen den Arbeitsablauf anschaulich und nachvollziehbar.",
+          "Kein systematischer Änderungsbedarf: Das erste „Als“ setzt einen zeitlichen Bezug, das zweite formuliert einen Vergleich. Eine störende Häufung künstlicher Gleichzeitigkeit liegt nicht vor."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie hob die Rampe.",
+          "Ilse sicherte sie, ließ die Rampe herunter und öffnete die Schranke.",
+          "Dahinter wurde alles weiß."
+        ],
+        "suggestions": [
+          "Die aktiven, konkreten Verben beibehalten.",
+          "„Dahinter wurde alles weiß“ nicht als Passiv behandeln: „wurde“ bezeichnet hier eine Zustandsveränderung. Eine Aktivierung ist weder nötig noch sinnvoll."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Vorderrad rutschte an der Kante weg, er fing es mit einem kurzen Ruck ab und sah zu ihr hinüber.",
+          "Ilse hielt ihn an einer Ecke, damit er nicht nass wurde, und zählte Wechselgeld in seine ausgestreckte Hand.",
+          "Drei. Das Fahrrad, der Stoffbeutel, die Kiste."
+        ],
+        "suggestions": [
+          "Die Mischung aus kurzen Feststellungen, Fragmenten und längeren Handlungssätzen erhalten. Verschachtelte Satzkonstruktionen fehlen weitgehend.",
+          "Für einen härteren Rhythmus ließe sich die Fahrradbewegung teilen: „Das Vorderrad rutschte an der Kante weg. Er fing es mit einem Ruck ab und sah zu ihr hinüber.“ Die vorhandene Fassung bildet die rasche Reaktion allerdings ebenfalls gut ab."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Muss die so?“\n\n„Ja.“",
+          "„Drüben, mein ich.“\n\n„Da führt das Seil hin.“",
+          "„Ist der Kaffee noch warm?“, fragte die Frau.\n\nIlse blickte auf die Thermoskanne.\n\n„Meiner schon.“"
+        ],
+        "suggestions": [
+          "Die knappen Dialoge beibehalten. Sie charakterisieren Ilse und die Fahrgäste, ohne Informationen in langen Erklärungen unterzubringen.",
+          "Den Kaffeewechsel nicht allein aus Straffungsgründen kürzen: Ilses ausbleibendes Angebot erzeugt Subtext und bereitet ihre spätere Zurückweisung des Anrufs atmosphärisch vor."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie sah das Ende der Rampe, zwei nasse Poller und ein Stück von dem Seil, an dem die Fähre hing.",
+          "Sie legte die Hand auf den Hebel und spürte die Vibration bis in den Unterarm.",
+          "Ilse blickte auf die Thermoskanne."
+        ],
+        "suggestions": [
+          "Die Sichtaufzählung könnte unmittelbarer lauten: „Vom Ufer blieben das Ende der Rampe, zwei nasse Poller und ein Stück Fährseil. Dahinter wurde alles weiß.“",
+          "Die Körperempfindung lässt sich ohne Wahrnehmungsfilter darstellen: „Sie legte die Hand auf den Hebel. Die Vibration reichte bis in den Unterarm.“",
+          "Nicht jedes Wahrnehmungsverb streichen: Der Blick auf die Thermoskanne ist eine bedeutungstragende Reaktion im Dialog, kein bloßer Filter."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Erst wich nur die Kante der Rampe zurück, dann der Poller, dann war auch der Poller weg.",
+          "Drei. Das Fahrrad, der Stoffbeutel, die Kiste.",
+          "Der Mann mit dem Fahrrad schaltete sein Rücklicht aus.",
+          "Sie wartete, bis das Blinken seines Rücklichts im Nebel verschwunden war."
+        ],
+        "suggestions": [
+          "Die wiederkehrenden Gegenstände und Handgriffe überwiegend erhalten: Sie strukturieren die Überfahrt und zeigen Ilses aufmerksamen Arbeitsblick. Auch die Wiederholung von „Poller“ bildet dessen allmähliches Verschwinden ab.",
+          "Beim Rücklicht einen kleinen Anschluss ergänzen: Der Radfahrer schaltet es während der Überfahrt aus, am Ende blinkt es wieder. Etwa beim Verlassen der Fähre erwähnen, dass er es einschaltet.",
+          "Nur bei gewünschter Beschleunigung einzelne Bezahl- oder Handhabungsdetails kürzen; echte inhaltliche Doppelungen sind selten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.024438
+}

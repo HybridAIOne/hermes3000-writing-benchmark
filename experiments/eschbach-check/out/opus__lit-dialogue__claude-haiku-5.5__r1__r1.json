@@ -1,0 +1,123 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "HANNA sitzt bereits am Tisch, als PETER hereinkommt. Er bleibt in der Tür stehen.",
+          "PETER: Du bist früher gekommen."
+        ],
+        "suggestions": [
+          "Der Einstieg ist knapp und spannend. Der Satz 'Du bist früher gekommen' wirft sofort Fragen auf.",
+          "Die Szene könnte noch später einsetzen, etwa erst, wenn Peter schon sitzt. Dann ginge jedoch das starke Bild des Zögerns in der Tür verloren. Daher sollte der Einstieg so bleiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie lächelt traurig und schiebt ihm die Tasse zu.",
+          "Sie lacht kurz, dann nicht mehr.",
+          "HANNA sitzt bereits am Tisch"
+        ],
+        "suggestions": [
+          "'traurig' benennt das Gefühl, statt es zu zeigen. Die Geste des Tassenschiebens trägt die Emotion bereits. Besser: 'Sie lächelt und schiebt ihm die Tasse zu.'",
+          "'bereits' ist entbehrlich, denn 'Du bist früher gekommen' liefert die Information ohnehin."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["PETER: (nach langer Pause) Wir schweigen doch beide."],
+        "suggestions": [
+          "Im Szenenformat sind die Sprecherangaben formal notwendig. Es gibt keine überflüssigen Redeeinleitungen wie 'sagte er'.",
+          "Die einzige Regieanweisung im Dialog, '(nach langer Pause)', ist funktional gesetzt und gerechtfertigt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["HANNA sitzt bereits am Tisch", "PETER: Wir schweigen doch beide."],
+        "suggestions": [
+          "Unpräzise Mengen- oder Wahrscheinlichkeitswörter fehlen fast völlig.",
+          "Das 'doch' im Dialog ist gesprochene Sprache und charakterisierend. Es sollte bleiben.",
+          "Nur 'bereits' in der Regieanweisung könnte gestrichen werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "HANNA sitzt bereits am Tisch, als PETER hereinkommt.",
+          "Er setzt sich, ohne den Mantel auszuziehen."
+        ],
+        "suggestions": [
+          "Gleichzeitigkeitskonstruktionen sind sparsam eingesetzt. Die Handlungen folgen konsequent nacheinander, etwa in 'Der Kellner kommt, stellt Wasser ab, geht wieder.'",
+          "Optional könnte der erste Satz zerlegt werden: 'HANNA sitzt am Tisch. PETER kommt herein und bleibt in der Tür stehen.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text enthält keine Passivsätze. Alle Regieanweisungen sind aktiv und handlungsorientiert formuliert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie greift in die Manteltasche, lässt die Hand dort liegen.",
+          "Er steht auf, legt Geld auf den Tisch. Sie rührt sich nicht."
+        ],
+        "suggestions": [
+          "Alle Sätze sind kurz und klar. Der knappe Rhythmus unterstützt die angespannte, wortkarge Stimmung.",
+          "Bei längeren Texten in diesem Stil empfiehlt es sich, gelegentlich die Satzlänge zu variieren, damit kein monotoner Staccato-Effekt entsteht."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "PETER: Du auch. Der Mantel ist neu. / HANNA: Der alte war durchgescheuert. / PETER: Das hab ich gemerkt.",
+          "PETER: Welchen? ... HANNA: Welchen?"
+        ],
+        "suggestions": [
+          "Der Dialog ist äußerst ökonomisch, und jede Replik transportiert Subtext.",
+          "Die Mantel-Passage verzögert minimal. Sie charakterisiert aber die gemeinsame Vergangenheit und sollte bleiben.",
+          "Kürzungen sind kaum möglich, ohne Bedeutung zu verlieren."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["PETER: Das hab ich gemerkt.", "PETER: Ich dachte, du hättest ihn verbrannt."],
+        "suggestions": [
+          "Die indirekten Wahrnehmungsformeln stehen nur in der Figurenrede. Dort sind sie natürlich und charakterisierend.",
+          "Die Regieanweisungen zeigen Wahrnehmung direkt, etwa in 'Sein Blick bleibt auf ihr.' Hier besteht kein Änderungsbedarf."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Er setzt sich, ohne den Mantel auszuziehen. / Der Mantel ist neu. / Sie greift in die Manteltasche",
+          "Pause. Sie dreht ihre Tasse ... / (nach langer Pause)",
+          "PETER: Welchen? / HANNA: Welchen?"
+        ],
+        "suggestions": [
+          "Das doppelte 'Welchen?' ist ein bewusst gesetztes Spiegelmotiv und wirkungsvoll. Es sollte beibehalten werden.",
+          "Das Wort 'Mantel' bezieht sich zuerst auf Peters und dann auf Hannas Mantel. Bei 'Der Mantel ist neu' sollte klar sein, wessen Mantel gemeint ist, etwa durch eine kurze Geste in der Regieanweisung.",
+          "Das Motiv des Schweigens wird gleich dreifach markiert: durch die explizite Regieanweisung 'Pause', durch '(nach langer Pause)' und durch Hannas Satz 'Nicht zu schweigen'. Eine der expliziten Pausenangaben könnte entfallen, damit 'Wir schweigen doch beide' stärker wirkt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.078088
+}

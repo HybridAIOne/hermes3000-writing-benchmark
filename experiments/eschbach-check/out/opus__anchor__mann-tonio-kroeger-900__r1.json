@@ -1,0 +1,179 @@
+{
+  "who": "opus",
+  "item": "anchor__mann-tonio-kroeger-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Die Schule war aus. Über den gepflasterten Hof und heraus aus der Gatterpforte strömten die Scharen der Befreiten, teilten sich und enteilten nach rechts und links.",
+          "Große Schüler hielten mit Würde ihr Bücherpäckchen hoch gegen die linke Schulter gedrückt [...]; kleines Volk setzte sich lustig in Trab [...]",
+          "Aber hie und da riß alles mit frommen Augen die Mützen herunter vor dem Wotanshut und dem Jupiterbart eines gemessen hinschreitenden Oberlehrers..."
+        ],
+        "suggestions": [
+          "Nach Eschbach könnte die Szene direkt mit Tonios Warten einsetzen: »Kommst du endlich, Hans?« Das Atmosphärebild der Schülerschar trägt nicht zum Konflikt bei. Es lässt sich auf einen Satz verdichten oder ganz streichen.",
+          "Der Hinweis auf das Grüßen der Oberlehrer wird später bei den Freunden aufgegriffen (»von manchen Leuten wurden die Vierzehnjährigen zuerst gegrüßt«). Will man den Einstieg straffen, reicht dieses spätere Motiv aus."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Er war außerordentlich hübsch und wohlgestaltet, breit in den Schultern und schmal in den Hüften, mit freiliegenden und scharf blickenden stahlblauen Augen.",
+          "dunkle und zart umschattete Augen mit zu schweren Lidern träumerisch und ein wenig zaghaft hervor...",
+          "Hansens schlanke Beine in den schwarzen Strümpfen so elastisch und taktfest einherschritten",
+          "beide waren sie gut und warm gekleidet",
+          "diese schlichte und harte Lehre",
+          "Er ging nachlässig und ungleichmäßig",
+          "sagte er mit bewegter Stimme"
+        ],
+        "suggestions": [
+          "Adjektivpaare (»hübsch und wohlgestaltet«, »elastisch und taktfest«, »nachlässig und ungleichmäßig«) jeweils auf das treffendere Wort reduzieren.",
+          "»außerordentlich hübsch« streichen. Die folgenden konkreten Details (breite Schultern, stahlblaue Augen) zeigen die Schönheit bereits.",
+          "»gut und warm gekleidet« streichen, da die Kleidungsstücke anschließend konkret beschrieben werden.",
+          "Statt »Er ging nachlässig und ungleichmäßig« ein präzises Verb wählen, etwa »Er schlenderte« oder »Er trottete«."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "»Kommst du endlich, Hans?« sagte Tonio Kröger, der lange auf dem Fahrdamm gewartet hatte",
+          "»Wieso?« fragte er und sah Tonio an...",
+          "»Ja, adieu, ihr!« sagte Hans Hansen zu den Kameraden.",
+          "»Ich hatte es nämlich nicht vergessen, Tonio«, sagte Hans und blickte vor sich nieder auf das Trottoir",
+          "»Ja, wir gehen nun also über die Wälle!« sagte er mit bewegter Stimme."
+        ],
+        "suggestions": [
+          "»Wieso?« fragte er: Das Pronomen bezieht sich grammatisch zunächst auf Tonio, gemeint ist aber Hans. Hier ist eine eindeutige Zuordnung nötig, etwa »Hans sah ihn an. ›Wieso?‹«",
+          "»sagte Hans Hansen zu den Kameraden« ist entbehrlich, da »adieu, ihr!« Sprecher und Adressaten klar macht.",
+          "»sagte er mit bewegter Stimme« streichen. Ausrufezeichen und Inhalt transportieren die Bewegung bereits.",
+          "Handlungsbeats statt »sagte« nutzen: »Hans blickte auf das Trottoir. ›Ich hatte es nämlich nicht vergessen, Tonio...‹«"
+        ]
+      },
+      "fillerWords": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Nun gehen wir noch ein bißchen.",
+          "daß sie heute mittag ein wenig zusammen spazierengehen wollten",
+          "beinahe unausgesetzt darauf gefreut",
+          "seine etwas schräg stehenden Brauen",
+          "denn er begriff sehr wohl, um was es sich handelte",
+          "daß heute doch wohl nichts daraus werden könnte, weil es ja so naß und windig ist",
+          "Im Grunde glaubte er nicht sehr fest an das",
+          "sie gleichsam innerlich aufschrieb und gewissermaßen seine Freude daran hatte, ohne sich freilich für seine Person danach zu richten",
+          "meistens damit abgab",
+          "eine ganz ähnliche Genugtuung"
+        ],
+        "suggestions": [
+          "Abschwächer wie »ein wenig«, »etwas«, »beinahe«, »gleichsam«, »gewissermaßen«, »freilich«, »im Grunde« konsequent prüfen und meist streichen. Das schärft die Aussagen.",
+          "»beinahe unausgesetzt darauf gefreut« → »sich seit der Verabredung darauf gefreut«.",
+          "»Im Grunde glaubte er nicht sehr fest an das« → »Er glaubte Hans nicht.«",
+          "Im Dialog von Hans können Partikeln wie »doch wohl« und »ja« als Figurensprache bleiben. Im Erzähltext sollten sie reduziert werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Große Schüler hielten mit Würde ihr Bücherpäckchen hoch gegen die linke Schulter gedrückt, indem sie mit dem rechten Arm wider den Wind dem Mittagessen entgegen ruderten",
+          "Und die beiden wandten sich nach links, indes die anderen nach rechts schlenderten.",
+          "Er ging nachlässig und ungleichmäßig, während Hansens schlanke Beine [...] einherschritten",
+          "Indem er seine etwas schräg stehenden Brauen zusammenzog und die Lippen zum Pfeifen gerundet hielt, blickte er seitwärts geneigten Kopfes ins Weite.",
+          "Plötzlich schob Hans seinen Arm unter den Tonios und sah ihn dabei von der Seite an",
+          "lächelnd trat er dem Freunde entgegen, der im Gespräch mit anderen Kameraden aus der Pforte kam und schon im Begriffe war, mit ihnen davonzugehen"
+        ],
+        "suggestions": [
+          "»Indem er [...] zusammenzog [...], blickte er« in eine Abfolge auflösen: »Er zog die Brauen zusammen. Seine Lippen rundeten sich wie zum Pfeifen. Er sah ins Weite.«",
+          "»schob seinen Arm unter den Tonios und sah ihn dabei an« → »Hans schob seinen Arm unter den Tonios. Dann sah er ihn von der Seite an.«",
+          "Kontraste mit »während« (Tonios Gang gegen Hans' Gang) als zwei eigenständige Sätze formulieren. Der Gegensatz wirkt dann stärker."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "in denen erst um vier Uhr zu Mittag gegessen wurde",
+          "von manchen Leuten wurden die Vierzehnjährigen zuerst gegrüßt",
+          "Mund und Kinn waren ihm ungewöhnlich weich gebildet",
+          "die Kenntnisse, die man ihm in der Schule aufnötigte"
+        ],
+        "suggestions": [
+          "»in denen erst um vier Uhr zu Mittag gegessen wurde« → »in denen man erst um vier Uhr zu Mittag aß«.",
+          "»von manchen Leuten wurden die Vierzehnjährigen zuerst gegrüßt« → »manche Leute grüßten die Vierzehnjährigen sogar zuerst«.",
+          "»Mund und Kinn waren ihm ungewöhnlich weich gebildet« → »Er hatte einen weichen Mund und ein weiches Kinn«."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Und diese Beschäftigung bereitete ihm eine ganz ähnliche Genugtuung, wie wenn er mit seiner Geige (denn er spielte die Geige) in seinem Zimmer umherging und die Töne, so weich, wie er sie nur hervorzubringen vermochte, in das Plätschern des Springstrahles hinein erklingen ließ, der drunten im Garten unter den Zweigen des alten Walnußbaumes tänzelnd emporstieg...",
+          "Wer am meisten liebt, ist der Unterlegene und muß leiden, -- diese schlichte und harte Lehre hatte seine vierzehnjährige Seele bereits vom Leben entgegengenommen; und er war so geartet, daß er solche Erfahrungen wohl vermerkte, sie gleichsam innerlich aufschrieb und gewissermaßen seine Freude daran hatte, ohne sich freilich für seine Person danach zu richten und praktischen Nutzen daraus zu ziehen.",
+          "Auch war es so mit ihm bestellt, daß er solche Lehren weit wichtiger und interessanter achtete als die Kenntnisse, die man ihm in der Schule aufnötigte, ja, daß er sich während der Unterrichtsstunden in den gotischen Klassengewölben meistens damit abgab, solche Einsichten bis auf den Grund zu empfinden und völlig auszudenken.",
+          "Große Schüler hielten mit Würde ihr Bücherpäckchen hoch gegen die linke Schulter gedrückt, indem sie mit dem rechten Arm wider den Wind dem Mittagessen entgegen ruderten; kleines Volk setzte sich lustig in Trab, daß der Eisbrei umherspritzte und die Siebensachen der Wissenschaft in den Seehundsränzeln klapperten."
+        ],
+        "suggestions": [
+          "Den Geigensatz teilen: »Diese Beschäftigung befriedigte ihn wie das Geigenspiel. Oft ging er mit der Geige im Zimmer umher. Er spielte so weich er konnte, hinein ins Plätschern des Springbrunnens unter dem alten Walnussbaum.«",
+          "Satzgefüge mit Semikolon in zwei oder drei Hauptsätze aufteilen, besonders bei mehreren eingeschobenen Nebensätzen und Parenthesen.",
+          "Die Parenthese »(denn er spielte die Geige)« streichen. Die Information ergibt sich aus »mit seiner Geige«.",
+          "Hinweis: Der Text stammt aus Thomas Manns »Tonio Kröger« (1903). Der hypotaktische, ironisch-distanzierte Stil ist dort bewusstes Stilmittel. Die Eschbach-Kriterien zielen auf moderne, szenisch-direkte Prosa und messen diesen Stil an einem fremden Maßstab."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "»Ich hatte es nämlich nicht vergessen, Tonio«, sagte Hans [...], »sondern ich dachte nur, daß heute doch wohl nichts daraus werden könnte, weil es ja so naß und windig ist. Aber mir macht das gar nichts, und ich finde es famos, daß du trotzdem auf mich gewartet hast. Ich glaubte schon, du seist nach Hause gegangen, und ärgerte mich...«",
+          "»Über den Mühlenwall und den Holstenwall, und so bringe ich dich nach Hause, Hans... Bewahre, das schadet gar nichts, daß ich dann meinen Heimweg allein mache; das nächste Mal begleitest du mich.«"
+        ],
+        "suggestions": [
+          "Die Dialoge sind insgesamt knapp. Hans' Entschuldigung ließe sich minimal straffen, etwa »Aber mir macht das gar nichts« streichen. Ihre Umständlichkeit charakterisiert aber auch seine halbherzige Rechtfertigung.",
+          "In Tonios Rede könnte »Bewahre, das schadet gar nichts, daß ich dann meinen Heimweg allein mache« verkürzt werden: »Den Heimweg mache ich allein, das macht nichts.«"
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "fühlte genau, daß jener nur halb soviel Gewicht auf diesen Spaziergang zu zweien legte wie er",
+          "Aber er sah doch, daß Hans seine Vergeßlichkeit bereute und es sich angelegen sein ließ, ihn zu versöhnen.",
+          "denn er begriff sehr wohl, um was es sich handelte",
+          "Tonio sprach nicht. Er empfand Schmerz.",
+          "Alles in Tonio geriet in eine hüpfende und jubelnde Bewegung bei diesen Worten."
+        ],
+        "suggestions": [
+          "»Er empfand Schmerz« streichen. Die anschließende Beschreibung von Brauen, Lippen und Blick zeigt den Schmerz bereits.",
+          "»er sah doch, daß Hans seine Vergeßlichkeit bereute« direkt formulieren: »Hans bereute seine Vergesslichkeit und bemühte sich, ihn zu versöhnen.«",
+          "»fühlte genau, daß jener nur halb soviel Gewicht [...] legte« → »Hans lag an diesem Spaziergang nur halb so viel wie ihm.«",
+          "»denn er begriff sehr wohl, um was es sich handelte« streichen. Die Geste des Unterhakens zeigt das Verständnis von selbst."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "»Tonio verstummte, und seine Augen trübten sich.« und später »Tonio sprach nicht. Er empfand Schmerz.«",
+          "»daß er solche Erfahrungen wohl vermerkte, sie gleichsam innerlich aufschrieb«",
+          "»solche Einsichten bis auf den Grund zu empfinden und völlig auszudenken«",
+          "»weit wichtiger und interessanter achtete«",
+          "»mit seiner Geige (denn er spielte die Geige)«",
+          "»Nun gehen wir noch ein bißchen.« / »Dann gehe ich noch ein bißchen mit Kröger.«",
+          "»Beide hatten die Schulmappen über die Schultern gehängt, und beide waren sie gut und warm gekleidet«",
+          "»Die Sache war die, daß Tonio Hans Hansen liebte und schon vieles um ihn gelitten hatte.« (wird zuvor bereits ausführlich gezeigt)"
+        ],
+        "suggestions": [
+          "Tonios Schweigen nur einmal schildern: Entweder »Tonio verstummte« oder »Tonio sprach nicht« genügt.",
+          "Doppelungen wie »vermerkte [...] aufschrieb« oder »empfinden und völlig auszudenken« auf das stärkere Verb reduzieren.",
+          "Die explizite Erklärung »Die Sache war die, daß Tonio Hans Hansen liebte« prüfen. Nach Eschbach ist sie redundant, weil die Szene die Liebe bereits zeigt. Als auktoriale Zuspitzung kann sie aber bewusst gesetzt sein.",
+          "Die Wiederholung »ein bißchen« in Hans' Rede kann als Figurensprache bleiben. Im Erzähltext sollte das parallele »beide [...] beide« vermieden werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.164124
+}

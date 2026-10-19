@@ -1,0 +1,136 @@
+{
+  "who": "opus",
+  "item": "lit-scene__claude-haiku-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel ließ sich nicht drehen.",
+          "Sie stand auf der Stufe, den Koffer neben sich, und drückte die Klinke, bis das Holz nachgab."
+        ],
+        "suggestions": [
+          "Der Einstieg setzt mitten in einer Handlung mit einem kleinen Widerstand ein. Anreise, Ankunft und Vorgeschichte fehlen zu Recht. Hier ist keine Kürzung nötig.",
+          "Prüfen ließe sich höchstens, ob 'Sie stand auf der Stufe, den Koffer neben sich' noch knapper geht, etwa: 'Sie stellte den Koffer ab und drückte die Klinke, bis das Holz nachgab.'"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "mit einem trockenen Ächzen im unteren Scharnier",
+          "nach kaltem Staub",
+          "der immer ein wenig schief gestanden hatte",
+          "nachgedunkelt zu einem Bernstein, fast braun",
+          "eine kleine Lasche, sauber gelöst"
+        ],
+        "suggestions": [
+          "Die meisten Adjektive tragen sinnliche Information ('kaltem Staub', 'grauer Nachmittag') und sollten bleiben.",
+          "'ein wenig schief' lässt sich zu 'schief' verkürzen, die Abschwächung schwächt das Bild.",
+          "'zu einem Bernstein, fast braun' doppelt die Farbangabe. Wähle eine: 'nachgedunkelt, fast braun' oder 'nachgedunkelt zu dunklem Bernstein'.",
+          "'eine kleine Lasche': 'Lasche' impliziert bereits Kleinheit, 'klein' kann entfallen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text enthält keinen Dialog, daher gibt es keine Redeeinleitungen zu prüfen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "die sie einen Moment lang nicht erkannte",
+          "Die Dinge hatten sich kaum verändert",
+          "der immer ein wenig schief gestanden hatte",
+          "fast braun",
+          "hing der Garderobenspiegel noch an seinem Nagel / war noch da / standen die Regale noch"
+        ],
+        "suggestions": [
+          "'einen Moment lang' kann entfallen: 'die sie nicht erkannte' ist härter und wirkungsvoller.",
+          "'ein wenig' streichen.",
+          "'noch' erscheint dreimal in kurzer Folge. Das unterstreicht zwar das Motiv des Überdauerns, wirkt aber gehäuft. Behalte es nur an der wichtigsten Stelle, etwa beim Spiegel."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie ging in die Küche, ohne das Licht einzuschalten.",
+          "als müsste man das Haus erst wecken"
+        ],
+        "suggestions": [
+          "Die Handlungen folgen sauber aufeinander: Schlüssel, Tür, Flur, Küche, Speisekammer, Glas. 'als' dient hier nur als Vergleich, nicht als Gleichzeitigkeitsmarker. Kein Änderungsbedarf."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das Jahr war nicht mehr zu lesen",
+          "Das Wachs über dem Rand war an einer Stelle angehoben, eine kleine Lasche, sauber gelöst und wieder angedrückt."
+        ],
+        "suggestions": [
+          "Das Zustandspassiv beim Wachs ist hier ein Stilmittel: Der Täter ist unbekannt, und genau das erzeugt die Spannung. Unbedingt beibehalten.",
+          "'Das Jahr war nicht mehr zu lesen' könnte aktiver werden: 'Das Jahr hatten die Flecken verschluckt.' Das ist optional, die jetzige Fassung funktioniert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Dort standen die Regale noch, und auf dem mittleren, in einer Reihe mit anderen Gläsern, eines mit einem Papierdeckel.",
+          "Die Hausschuhe der Mutter fehlten auch, aber der Platz davor war noch da, zwei helle Flecken im Linoleum, wo Sohlen den Boden blankgerieben hatten.",
+          "Durchs Fenster fiel grauer Nachmittag auf den Tisch mit der Wachstuchdecke, auf die Zuckerdose, den Stuhl, der immer ein wenig schief gestanden hatte."
+        ],
+        "suggestions": [
+          "Der Regal-Satz ist durch Einschub und Ellipse holprig. Besser teilen: 'Die Regale standen noch. Auf dem mittleren, zwischen anderen Gläsern, eines mit Papierdeckel.'",
+          "Beim Hausschuh-Satz ist 'der Platz davor' unklar (vor was?). Vorschlag: 'Die Hausschuhe der Mutter fehlten auch. Nur zwei helle Flecken im Linoleum, wo ihre Sohlen den Boden blankgerieben hatten.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keinen Dialog, daher gibt es keine Straffung nötig."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "nach etwas Süßem, das sie keinem Ding zuordnen konnte",
+          "Darin stand eine Frau Ende vierzig, die sie einen Moment lang nicht erkannte.",
+          "Die Süße, die sie im Flur gerochen hatte, kam von hier."
+        ],
+        "suggestions": [
+          "Wahrnehmung wird überwiegend direkt vermittelt ('Innen roch es nach…', 'Darin stand eine Frau…'). Das ist vorbildlich.",
+          "'das sie keinem Ding zuordnen konnte' ließe sich direkter fassen: 'und nach etwas Süßem, das nirgends herkam.'",
+          "Der Rückbezug 'die sie im Flur gerochen hatte' ist leicht erklärend. Erwäge: 'Die Süße kam von hier.' Leser erinnern sich an den Flur."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Die Dinge hatten sich kaum verändert, nur die Stille hatte sich über sie gelegt, wie Laken über Möbel.",
+          "Die Süße, die sie im Flur gerochen hatte, kam von hier. Und jemand war vor ihr hier gewesen.",
+          "Papierdeckel … der Deckel war fleckig geworden",
+          "Die Mäntel an der Garderobe fehlten. Die Hausschuhe der Mutter fehlten auch"
+        ],
+        "suggestions": [
+          "'Die Dinge hatten sich kaum verändert' behauptet, was Spiegel, Sprung und schiefer Stuhl bereits zeigen. Streiche den Halbsatz und behalte das starke Bild: 'Nur die Stille hatte sich über alles gelegt, wie Laken über Möbel.' So entfällt auch das doppelte 'hatte sich'.",
+          "Das doppelte 'hier' im Schluss abschwächen, damit der letzte Satz ungestört trifft: 'Die Süße kam aus dem Glas. Jemand war vor ihr hier gewesen.'",
+          "'Deckel' zweimal: 'Das Jahr war verblasst, das Papier fleckig.'",
+          "Die Anapher 'fehlten … fehlten auch' wirkt als bewusstes Stilmittel. Sie ist vertretbar, 'auch' könnte aber entfallen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.099704
+}

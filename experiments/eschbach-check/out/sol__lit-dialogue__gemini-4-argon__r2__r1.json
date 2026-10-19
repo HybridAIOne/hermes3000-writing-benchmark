@@ -1,0 +1,146 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__gemini-4-argon__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8.5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„MARIE tritt ein, bleibt kurz stehen, setzt sich ihm dann langsam gegenüber.“",
+          "„Du bist schon da.“ – „Ich bin immer zu früh. Das weißt du doch.“"
+        ],
+        "suggestions": [
+          "Ein späterer Einstieg bei „Schwarz. Ohne Zucker.“ würde unmittelbar die überholte Vertrautheit und Maries Veränderung zeigen. Die Information über Lukas’ Pünktlichkeit entfiele, ist für den zentralen Konflikt aber nicht erforderlich.",
+          "Soll die anfängliche Unsicherheit körperlich sichtbar werden, den bestehenden Einstieg beibehalten, jedoch die Bewegungsfolge straffen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„setzt sich ihm dann langsam gegenüber“",
+          "„nickt langsam“",
+          "„lächelt bitter“",
+          "„Ich brauchte einen radikalen Schnitt.“"
+        ],
+        "suggestions": [
+          "Die zweimalige Anweisung „langsam“ prüfen: Einmal genügt möglicherweise, um die gehemmte Begegnung zu etablieren.",
+          "„lächelt bitter“ versuchsweise zu „lächelt“ kürzen; die Bitterkeit vermittelt bereits die folgende Replik.",
+          "„radikalen Schnitt“ beibehalten, wenn die Doppeldeutigkeit zwischen Frisur und Trennung beabsichtigt ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„MARIE:“ und „LUKAS:“ kennzeichnen die Sprecher durchgehend.",
+          "„LUKAS: *(weicht ihrem Blick aus, dreht seinen Löffel)*“"
+        ],
+        "suggestions": [
+          "Die Sprechernamen als notwendige Kennzeichnungen des dramatischen Formats beibehalten; sie sind keine überflüssigen Redeeinleitungen.",
+          "Regieanweisungen weiterhin vor allem für spielbare Handlungen verwenden, statt jede Replik zusätzlich durch eine Gefühlsangabe zu erklären."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Sechs Monate sind eben eine lange Zeit.“",
+          "„Eine Menge kann passieren.“",
+          "„Es war letztlich eine rein geschäftliche Entscheidung der Leitung.“",
+          "„Loyalität ist heutzutage wirklich ein teurer Luxus.“"
+        ],
+        "suggestions": [
+          "„letztlich“ streichen, sofern Lukas’ ausweichender Rechtfertigungston auch ohne dieses Wort erhalten bleibt.",
+          "„Loyalität ist ein teurer Luxus“ als knappere Variante prüfen; „heutzutage wirklich“ verallgemeinert und schwächt den persönlichen Angriff.",
+          "Dialogpartikeln wie „doch“ und „eben“ nicht pauschal entfernen: Sie können Vertrautheit, Abwehr und Unsicherheit hörbar machen.",
+          "Die Unbestimmtheit von „Eine Menge kann passieren“ nur dann konkretisieren, wenn der Konflikt früher offengelegt werden soll."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„weicht ihrem Blick aus, dreht seinen Löffel“",
+          "„greift nach ihrer Tasche, steht auf“",
+          "„Sie geht, der Kaffee bleibt unberührt.“"
+        ],
+        "suggestions": [
+          "Keine grundlegende Überarbeitung nötig: Die Regieanweisungen bilden gut spielbare Abläufe ab und verwenden keine übermäßigen Gleichzeitigkeitskonstruktionen.",
+          "Den Schluss gegebenenfalls in zwei Sätze teilen: „Sie geht. Der Kaffee bleibt unberührt.“ Das setzt einen deutlicheren Schlussakzent."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ich habe das Projekt übernommen.“",
+          "„Der Kellner stellt ein Kännchen Milch auf den Tisch und geht wieder.“",
+          "„Es war letztlich eine rein geschäftliche Entscheidung der Leitung.“"
+        ],
+        "suggestions": [
+          "Die aktiven Handlungsformulierungen beibehalten.",
+          "Lukas’ Satz über die Entscheidung ist kein grammatisches Passiv, verschleiert aber Verantwortung. Diese Ausweichbewegung kann als bewusste Figurenzeichnung bestehen bleiben."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Wie läuft es im Büro? Hast du die Beförderung bekommen, für die du so... gekämpft hast?“",
+          "„Nicht jeder hat den Luxus, immer nur an die Gefühle anderer zu denken.“"
+        ],
+        "suggestions": [
+          "Keine Teilung aus Längengründen erforderlich; die Sätze sind übersichtlich und gut sprechbar.",
+          "Die Pause vor „gekämpft“ beibehalten, wenn Marie damit einen konkreten Vorwurf andeutet. Sie strukturiert die Replik wirkungsvoll."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Es läuft. Ich habe das Projekt übernommen. Es war letztlich eine rein geschäftliche Entscheidung der Leitung.“",
+          "„Nein, Lukas. Du tauschst es nur gegen etwas Besseres ein. Danke für den Kaffee.“"
+        ],
+        "suggestions": [
+          "Die kurzen Redewechsel und den Wechsel zwischen Sprache, Gesten und Schweigen beibehalten.",
+          "Bei Lukas’ Büroauskunft prüfen, ob „Es läuft“ entfallen kann. Sein anschließender Rechtfertigungssatz trägt mehr zum Konflikt bei.",
+          "Maries Schlussreplik nicht weiter erklären: Sie bündelt den Vorwurf bereits prägnant."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„starrt auf die Tasse“",
+          "„spannt den Kiefer an“",
+          "„sieht ihr fest in die Augen“"
+        ],
+        "suggestions": [
+          "Die Darstellung durch sichtbare Gesten beibehalten; Wahrnehmungsfilter wie „sie bemerkte, dass“ fehlen.",
+          "„sieht ihr fest in die Augen“ nicht als indirekte Wahrnehmung behandeln: Hier wird eine spielbare Handlung beschrieben, kein Erzählerfilter."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„rein geschäftliche Entscheidung“ – „Natürlich. Rein geschäftlich.“",
+          "„Nicht jeder hat den Luxus“ – „ein teurer Luxus“",
+          "„radikalen Schnitt. Alles Alte musste weg.“",
+          "„kaputtgehen“, „Alles Alte musste weg“, „keinen Ballast mehr“ und „gegen etwas Besseres“ variieren das Motiv von Trennung und Entwertung."
+        ],
+        "suggestions": [
+          "„Rein geschäftlich“ als gezielte, anklagende Wiederaufnahme beibehalten; die Wiederholung verändert hier die Bedeutung.",
+          "Auch das Echo auf „Luxus“ hat eine klare dialogische Funktion, könnte aber ohne „heutzutage wirklich“ schärfer wirken.",
+          "„Alles Alte musste weg“ versuchsweise streichen. Der „radikale Schnitt“ und die späteren Bücher vermitteln Maries Abgrenzung bereits.",
+          "Die Häufung pointierter Trennungsmetaphern etwas reduzieren, damit einzelne Repliken weniger ausformuliert und spontaner wirken."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020652
+}

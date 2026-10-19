@@ -1,0 +1,153 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__gemini-4-argon__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Der Nebel hockte so tief über dem Strom, dass das andere Ufer nicht existierte.",
+          "Ilse Brandt stand im Steuerhaus, die Hände in den Taschen ihrer steifen Ölzeugjacke vergraben, und wartete. Die Dieselheizung unter dem Pult klackerte im Leerlauf ...",
+          "Der eigentliche Konflikt (Jonas' Anruf, der Verkauf der Fährrechte) beginnt erst im letzten Drittel."
+        ],
+        "suggestions": [
+          "Der atmosphärische Auftakt ist stark und sollte bleiben. Die Wartepassage im Steuerhaus (Heizung, Kaffeebecher, Uhrzeit) lässt sich jedoch auf ein bis zwei Sätze verdichten, damit Korffs Wagen früher kommt.",
+          "Ein kurzer Hinweis auf den drohenden Verkauf früher im Text, etwa ein Blick auf ein Schild oder ein Gedanke beim Kassieren, würde die Routine von Anfang an mit Spannung aufladen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "träges, bleifarbenes Wasser",
+          "das platte, graue Deck",
+          "das leise, rhythmische Singen der Laufrollen",
+          "kahle, schwarze Finger, die in den grauen Himmel zeigten",
+          "jene geduldige, geschulte Ruhe",
+          "Die Reifen quietschten kurz ... / Er nickte Ilse nur kurz zu ... / gab leicht Gas"
+        ],
+        "suggestions": [
+          "Doppeladjektive auf eines reduzieren, z. B. „das bleifarbene Wasser“, „das Singen der Laufrollen“ (das Verb „singen“ trägt den Rhythmus bereits).",
+          "Selbstverständliche Attribute streichen: „schwarzem Kaffee“, „schwere Eisenkette“, „kalte Metall“, „nasse Pflaster“.",
+          "Adverbien wie „kurz“, „sofort“, „leicht“, „routinemäßig“ prüfen. „Die Kälte kroch ihr unter den Kragen“ wirkt ohne „sofort“ genauso stark."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Morgen“, sagte Ilse. Sie hielt die Hand auf.",
+          "„Wird man sehen“, sagte Ilse, ließ das Geld in die Ledertasche ... gleiten",
+          "„Guten Morgen“, sagte die Frau. Ihr Atem bildete kleine weiße Wolken.",
+          "„Das Seil weiß ja, wo es hinmuss“, sagte Ilse."
+        ],
+        "suggestions": [
+          "In Zweiergesprächen ist der Sprecher klar. Ersetzen Sie „sagte Ilse“ durch die Handlung, die ohnehin folgt: „Morgen.“ Ilse hielt die Hand auf.",
+          "„Guten Morgen.“ Der Atem der Frau bildete kleine weiße Wolken. Die Zuordnung ergibt sich so aus dem Handlungsbeat.",
+          "Bei Korff funktioniert das bereits gut (Tippen an die Mütze, Münzen zählen). Wenden Sie dieses Prinzip konsequent auch auf Ilse an."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "ein paar Meter träges, bleifarbenes Wasser",
+          "Für ein paar Minuten gab es nur noch ...",
+          "Er nickte Ilse nur kurz zu",
+          "Der kleine Hilfsmotor tuckerte los, nur um die Fähre ...",
+          "Ein Ruck ging durch das flache Schiff ... verschwand schließlich ganz."
+        ],
+        "suggestions": [
+          "„ein paar“ durch konkrete Angaben ersetzen („zehn Meter Wasser“, „vier Minuten lang“), was zu Ilses präziser Fährfrau-Perspektive passt.",
+          "„nur“ (mehrfach) und „schließlich ganz“ streichen: „wurde zu einem dunklen Schatten und verschwand.“"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Lichtkegel schnitten durch die milchige Suppe, erst diffus, dann schärfer, als ein roter Kleinwagen die Böschung herunterrollte.",
+          "„Wird man sehen“, sagte Ilse, ließ das Geld in die Ledertasche vor ihrem Bauch gleiten und riss einen blauen Papierstreifen von der Rolle."
+        ],
+        "suggestions": [
+          "Die Handlungen folgen weitgehend schön nacheinander. Beim ersten Beispiel zuerst das Auto, dann das Licht: „Ein roter Kleinwagen rollte die Böschung herunter. Seine Scheinwerfer schnitten durch die Suppe, erst diffus, dann schärfer.“",
+          "Die Dreifachhandlung beim Kassieren auf zwei Sätze verteilen, damit Dialog und Handgriffe nicht ineinanderlaufen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "verschluckt von der feuchten Watte des Nebels",
+          "das gelb gestrichene Geländer / in einem der umgebauten Katen"
+        ],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv. Die Partizipialkonstruktion lässt sich aktiv fassen: „Das Scheppern hallte gedämpft über das Wasser zurück, dann schluckte der Nebel es.“"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Wer die Elbe im November unheimlich fand, würde den Januar hier draußen nicht überstehen, wenn die Eisschollen gegen den stählernen Rumpf der Fähre schlugen und das ganze Deck unter den Füßen zitterte.",
+          "Seine Stimme würde jene geduldige, geschulte Ruhe haben, die er sich in seinem Beruf angewöhnt hatte und die Ilse mehr ermüdete als jeder Sturm auf der Elbe.",
+          "Auf dem Display leuchtete ein Name auf, darunter ein Foto, das sie nie selbst eingestellt hatte: Jonas in einem hellgrauen Anzug, mit offenem Hemdkragen und einem Glas Weißwein in der Hand, im Hintergrund unscharfe Münchner Hausdächer in der Abendsonne.",
+          "Ilse kannte ihren Namen nicht, sie wohnte erst seit dem Spätsommer in einem der umgebauten Katen hinter dem Deich."
+        ],
+        "suggestions": [
+          "Den Wechsel zwischen langen und kurzen Sätzen beibehalten, aber die Kettensätze teilen: „Wer die Elbe im November unheimlich fand, würde den Januar nicht überstehen. Dann schlugen Eisschollen gegen den Rumpf, und das Deck zitterte unter den Füßen.“",
+          "Beim Jonas-Foto die Details auf zwei Sätze aufteilen. Den Satz mit der Stimme mit einem Punkt vor „die Ilse mehr ermüdete …“ zuspitzen: „Diese Ruhe ermüdete sie mehr als jeder Sturm auf der Elbe.“",
+          "Den Komma-Satz über die Frau mit Punkt trennen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Morgen, Ilse. Hält sich hartnäckig heute, die Brühe.“",
+          "„Unheimlich ist es trotzdem. Wie am Ende der Welt.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, figurentypisch und tragen Charakterisierung. Hier ist keine Straffung nötig. Ilses Schweigen auf die letzte Bemerkung der Frau ist besonders wirkungsvoll."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ihr Blick ging routinemäßig zum Radarbildschirm, auf dem sich nichts regte ...",
+          "Sie sah auf die Uhr. Neunundvierzig Minuten nach sechs.",
+          "Ilse kannte ihren Namen nicht"
+        ],
+        "suggestions": [
+          "Den Filter beim Radar weglassen: „Auf dem Radarbildschirm regte sich nichts außer dem schmalen grünen Strich ihrer eigenen Fahrt.“",
+          "Der Blick auf die Uhr ist vertretbar, könnte aber direkt erscheinen: „Neunundvierzig Minuten nach sechs.“",
+          "Die Sinneswahrnehmungen sind ansonsten erfreulich direkt („Die Kälte kroch ihr unter den Kragen“, „Das Metall war kalt in ihrer Handfläche“)."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "grau: „die graue Rampe“, „Aus dem Grau schälten sich“, „das platte, graue Deck“, „in den grauen Himmel“",
+          "„Aus dem Grau schälten sich zwei weitere Gestalten“ / „Dahinter schälte sich das nasse Pflaster ... aus dem Dunst“",
+          "„Das Metall war kalt in ihrer Handfläche“ / „auf das kalte Metall des Steuerpults“",
+          "Nebel-Metaphern gehäuft: „milchige Suppe“, „die Brühe“, „feuchte Watte des Nebels“, „Dunst“",
+          "„Es war sechs Uhr siebenundvierzig.“ / „Neunundvierzig Minuten nach sechs.“",
+          "„In der Innentasche ihrer Jacke“ / „zurück in die Brusttasche“"
+        ],
+        "suggestions": [
+          "„grau“ höchstens zweimal verwenden. Das Grau des Nebels ist nach der Eröffnung etabliert.",
+          "Eines der beiden „schälte sich“ ersetzen, z. B. „Aus dem Nebel traten zwei weitere Gestalten“.",
+          "Bei „kalt/Metall“ eine Stelle variieren oder streichen.",
+          "Die doppelte Zeitangabe ist als Mittel für vergangene Zeit legitim, sollte dann aber bewusst parallel gesetzt werden (gleiche Form wie beim ersten Mal).",
+          "Die Bezeichnung der Tasche vereinheitlichen (Innentasche oder Brusttasche), um einen Logikbruch zu vermeiden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.140456
+}

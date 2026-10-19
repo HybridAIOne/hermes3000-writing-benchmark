@@ -1,0 +1,116 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 10,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ein Hausflur. Abend. PAUL öffnet die Tür. Davor steht THOMAS, eine Bohrmaschine im Arm."
+        ],
+        "suggestions": [
+          "Perfekter Einstieg 'in medias res'. Die Szene beginnt exakt im Moment der Konfrontation, ohne unnötiges Vorgeplänkel."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "THOMAS: *(leise)* Ich weiß.",
+          "Die Kaffeemaschine röchelt.",
+          "Die Regale im Flur hängen schief."
+        ],
+        "suggestions": [
+          "Hervorragender Verzicht auf schmückende Adjektive. Starke Verben ('röchelt') übernehmen die Atmosphäre. Die einzige Regieanweisung mit Adverb ('leise') ist dramaturgisch absolut gerechtfertigt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "PAUL: *(nimmt sie nicht)* Hab sie gar nicht vermisst.",
+          "THOMAS: *(sieht auf die Bohrmaschine)* Ob es hier noch was zu reparieren gibt."
+        ],
+        "suggestions": [
+          "Da es sich um ein Theater-/Drehbuchformat handelt, entfallen klassische Inquits ('sagte er'). Die stattdessen genutzten Regieanweisungen sind extrem präzise, handlungsorientiert und ersetzen keine fehlende Dialogqualität."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "THOMAS: Ich hab sie kaum benutzt.",
+          "THOMAS: Wenn du sowieso welchen machst."
+        ],
+        "suggestions": [
+          "In den beschreibenden Textteilen gibt es keinerlei Füllwörter. In den Dialogen werden Wörter wie 'kaum' oder 'sowieso' gezielt zur Charakterisierung der Unsicherheit zwischen den Figuren genutzt (und von Paul sogar direkt dekonstruiert: 'Ich mach nie sowieso welchen')."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "PAUL stellt zwei Tassen hin. Eine hat einen Sprung.",
+          "Sie trinken. Draußen fährt ein Zug vorbei."
+        ],
+        "suggestions": [
+          "Keine erzwungene Gleichzeitigkeit durch Konstruktionen mit 'während' oder 'als'. Alle Handlungen stehen klar und sauber nacheinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "THOMAS legt die Bohrmaschine auf den Tisch.",
+          "PAUL schiebt ihm die Zuckerdose hin."
+        ],
+        "suggestions": [
+          "Der gesamte Text ist ausnahmslos im Aktiv geschrieben. Das sorgt für unmittelbare Präsenz."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Er macht welchen.", "Stille. THOMAS greift nach der gesprungenen Tasse."],
+        "suggestions": [
+          "Die Sätze sind kurz, prägnant und rhythmisch perfekt auf die angespannte Stimmung abgestimmt. Keine Verschachtelungen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "THOMAS: Wirklich?\nPAUL: Nein.",
+          "THOMAS: Ich nehm die.\nPAUL: Die war für mich.\nTHOMAS: Trotzdem."
+        ],
+        "suggestions": [
+          "Meisterhafte Dialogführung. Kein Satz ist zu lang, jedes Wort hat Gewicht und massiven Subtext. Es wird nichts zerredet."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Kaffeemaschine röchelt.", "Draußen fährt ein Zug vorbei."],
+        "suggestions": [
+          "100% 'Show, don't tell'. Es gibt keine Filterwörter ('er hörte den Zug', 'er sah die Tasse'). Alles wird unmittelbar gezeigt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Neue Klingel. -> Die alte ging nicht mehr.",
+          "Die Kaffeemaschine röchelt. -> Immer noch die alte.",
+          "Eine hat einen Sprung. -> Ich hab mich dran gewöhnt, dass sie leckt."
+        ],
+        "suggestions": [
+          "Wortwiederholungen im Dialog ('sowieso') sind als Stilmittel perfekt eingesetzt. Einziger minimaler Kritikpunkt auf sehr hohem Niveau: Die Metapher des 'alten/kaputten Gegenstands, der für die Beziehung steht' wird sehr dicht hintereinander dreimal variiert (Klingel, Kaffeemaschine, Tasse, plus Bohrmaschine/Regal). Das funktioniert hier gut, ist aber hart an der Grenze zur Überdeutlichkeit."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.015666
+}

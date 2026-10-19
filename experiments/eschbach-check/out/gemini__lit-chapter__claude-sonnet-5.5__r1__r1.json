@@ -1,0 +1,120 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__claude-sonnet-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur an dem Geräusch erkannte, das es machte..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch extrem dicht und verortet Figur sowie Setting sofort. Für das gemächliche Tempo einer Fährfahrt ist dieser Beginn kurz vor der Abfahrt perfekt gewählt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Wasser lief braun und fett an der Bordwand entlang.",
+          "Er lachte, kurz und höflich...",
+          "Herr Wendt sah zu ihr herüber, dann diskret zur Seite."
+        ],
+        "suggestions": [
+          "Die Adjektive sind sehr bewusst, sparsam und oft originell ('braun und fett') eingesetzt. Lediglich 'diskret zur Seite' könnte durch eine rein physische Beschreibung (z. B. 'wandte den Blick wieder dem Nebel zu') noch unmittelbarer gezeigt werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Sie fahren bei dem Wetter?“, fragte er. / „Ich fahre immer.“",
+          "„Wollen Sie nicht rangehen?“, fragte die Frau leise. / „Ich fahre“, sagte Ilse."
+        ],
+        "suggestions": [
+          "Meisterhaft gelöst. Fast der gesamte Dialog kommt ohne Redebegleitsätze aus, da die Sprecher durch den Rhythmus und vorangegangene Handlungen jederzeit eindeutig zuzuordnen sind."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...verschwand nach ein paar Metern im Grau.",
+          "...ein bisschen früher tat...",
+          "Der Nebel hing einfach da."
+        ],
+        "suggestions": [
+          "Der Text ist frei von ungewollten Füllwörtern. Wörter wie 'ein paar', 'ein bisschen' oder 'einfach' sind hier integraler Bestandteil von Ilses nüchterner, unaufgeregter Erzählstimme."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie stellte den Becher auf das Fensterbrett, zog die Jacke zu und ging hinaus aufs Deck."
+        ],
+        "suggestions": [
+          "Ausgezeichnet. Handlungen werden konsequent nacheinander beschrieben, es gibt keine verkrampften Gleichzeitigkeits-Konstruktionen mit 'während' oder 'indem'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine unnötigen Passivkonstruktionen vorhanden. Selbst der Nebel und die Fähre sind durchweg aktiv gestaltet ('kroch', 'drückte', 'spannte sich')."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sechs Uhr fünfzig. Zehn Minuten noch.",
+          "Er sang nicht.",
+          "Darunter das kleine Foto, das er vor Jahren selbst eingestellt hatte, als er einmal bei ihr gewesen war, ein Junge im Anzug vor einem Birnbaum."
+        ],
+        "suggestions": [
+          "Exzellente Satzmelodie. Kurze, lakonische Sätze wechseln sich harmonisch mit etwas längeren, ruhig fließenden Beobachtungen ab, was perfekt zur Stimmung auf dem Fluss passt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Es ist sehr dick heute.“ / „Ist November.“",
+          "„Ist das die Fähre nach Drethem?“ / „Es ist die einzige.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind norddeutsch-knapp, hochgradig charakterisierend und sitzen auf den Punkt. Keine Straffung nötig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Auf dem Weg hinter dem Deich hörte sie ein Klingeln...",
+          "...da hörte sie ihn rennen, schwere Schritte auf dem Deich...",
+          "...und sah nach vorn, wo im Nebel langsam, Stück für Stück, die dunkle Linie des Drethemer Ufers aufzutauchen begann."
+        ],
+        "suggestions": [
+          "Meistens ist die Wahrnehmung sehr direkt. An zwei, drei Stellen könnte der Filter ('hörte sie', 'sah zu, wie') noch weggelassen werden, um noch tiefer in Ilses Perspektive zu rücken (z.B. 'Hinter dem Deich klingelte es, dann knirschten Reifen auf Kies')."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...wo der Wind nicht hinkam, soweit es Wind gab. Es gab keinen.",
+          "...langsam, Stück für Stück, die dunkle Linie des Drethemer Ufers aufzutauchen begann."
+        ],
+        "suggestions": [
+          "Im letzten Satz ist 'langsam', 'Stück für Stück' und 'aufzutauchen begann' dreifach gemoppelt. Hier würde 'wo im Nebel Stück für Stück die dunkle Linie des Drethemer Ufers auftauchte' noch stärker und klarer wirken."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018076
+}

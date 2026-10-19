@@ -1,0 +1,106 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__claude-opus-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 10,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ein Café am Bahnhof. MARTIN sitzt am Fenster. JONAS tritt an den Tisch, die Jacke noch an.",
+          "JONAS: Ist hier frei?"
+        ],
+        "suggestions": [
+          "Exzellenter Einstieg mitten in die Szene ('in medias res'). Kein unnötiges Vorgeplänkel, die Situation und die Spannung sind sofort präsent."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Jonas zieht langsam die Jacke aus und hängt sie über die Stuhllehne."],
+        "suggestions": [
+          "Der Text ist extrem präzise und verzichtet fast vollständig auf schmückende Beiwerte. Das 'langsam' am Ende ist vertretbar, könnte aber durch ein noch bildhafteres Verb (z. B. 'streift die Jacke ab') ersetzt werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "JONAS: *schiebt das Buch über den Tisch*",
+          "JONAS: *zur Kellnerin, ohne Martin anzusehen*"
+        ],
+        "suggestions": [
+          "Da es sich um ein Theater- oder Drehbuchformat handelt, entfallen klassische Inquits ('sagte er'). Die stattdessen genutzten Regieanweisungen sind äußerst sparsam, präzise und unterstützen den Subtext perfekt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Hat ein bisschen gedauert.", "Zwei. Und ein paar Monate."],
+        "suggestions": [
+          "In den beschreibenden Regieanweisungen gibt es keinerlei Füllwörter. In den Dialogen dienen Ausdrücke wie 'ein bisschen' oder 'ein paar' der natürlichen Sprachmelodie und Charakterisierung, was vollkommen legitim und gewollt ist."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Martin schlägt das Buch auf. Ein Foto fällt heraus. Beide sehen es an. Keiner hebt es auf."
+        ],
+        "suggestions": [
+          "Hervorragende lineare Darstellung von Handlungsabfolgen. Es gibt keine erzwungenen Gleichzeitigkeiten mit 'während' oder 'als'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Kellnerin kommt. Jonas schüttelt den Kopf. Sie geht."],
+        "suggestions": [
+          "Der gesamte Text ist durchgehend aktiv formuliert. Das sorgt für große Unmittelbarkeit."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Pause. Martin rührt in der Tasse, obwohl nichts drin ist zum Umrühren."],
+        "suggestions": [
+          "Die Sätze sind kurz, prägnant und rhythmisch perfekt auf die angespannte, unterkühlte Stimmung der Szene abgestimmt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "MARTIN: Drei Jahre.",
+          "JONAS: Zwei. Und ein paar Monate.",
+          "JONAS: Doch. Einen. Schwarz."
+        ],
+        "suggestions": [
+          "Meisterhafte Dialogführung. Kein Wort ist zu viel, die Repliken sind extrem verknappt und transportieren maximalen Subtext."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Stille. Draußen fährt ein Zug ein."],
+        "suggestions": [
+          "Durch das dramatische Format gibt es kein 'Er sah' oder 'Er hörte'. Alles wird rein über äußere Handlung und unmittelbare Wahrnehmung ('Show, don't tell') gelöst."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "JONAS: Du trinkst ihn immer noch schwarz.",
+          "JONAS: *zur Kellnerin, ohne Martin anzusehen* Doch. Einen. Schwarz."
+        ],
+        "suggestions": [
+          "Es gibt keinerlei ungewollte Redundanzen. Inhaltliche Wiederholungen (wie der schwarze Kaffee oder das Motiv der Jacke) werden gezielt als dramaturgische Klammer genutzt, um die Entwicklung der Szene zu zeigen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.014284
+}

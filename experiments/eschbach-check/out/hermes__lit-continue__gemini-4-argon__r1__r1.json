@@ -1,0 +1,97 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gemini-4-argon__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Die Strömung reicht“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist hervorragend, da er sofort Atmosphäre und Charakterdynamik etabliert. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "dunkelblauen Wollmantel",
+          "eisernen Auffahrtsklappe",
+          "abblätternde grüne Farbe"
+        ],
+        "suggestions": [
+          "Einige Adjektive sind atmosphärisch stark, aber manche könnten gestrichen werden, um die Sätze zu straffen (z.B. 'dunkelblau' oder 'grün' sind für die Stimmung nicht zwingend erforderlich)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sagte Ilse", "sagte er", "fragte er"],
+        "suggestions": [
+          "Die Marker sind unaufdringlich. In manchen Fällen könnte man sie komplett weglassen, wenn der Sprecherwechsel durch den Kontext klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["wohl kein Netz", "eigentlich war ihre Schicht", "fast kahl"],
+        "suggestions": [
+          "Wörter wie 'wohl', 'eigentlich' und 'fast' schwächen die Aussage ab. Streichen Sie diese, um die Prosa direkter und bestimmter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie wischte sich die Hände... Erst dann sah sie ihn an."],
+        "suggestions": [
+          "Die Handlungsabfolge ist sehr klar und logisch strukturiert. Keine Überladung durch 'während' oder 'als'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Fähre schwankte kaum merklich"],
+        "suggestions": [
+          "Der Text ist sehr aktiv geschrieben. Das Passiv wird kaum verwendet, was den Text lebendig macht."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sein Blick glitt über die abblätternde grüne Farbe an der Reling, über den Rost am Windenkasten bis hinüber zum anderen Ufer, das im diesigen Licht kaum mehr als ein dunkler Strich war."
+        ],
+        "suggestions": [
+          "Der Satz ist gut lesbar, könnte aber für mehr Dynamik in zwei Sätze geteilt werden, um den Fokus auf die Details zu schärfen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Fährt überhaupt noch jemand unter der Woche?“"],
+        "suggestions": ["Die Dialoge sind kurz, prägnant und treiben die Handlung voran. Sehr gut."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse kannte diesen Blick.", "Er sah müde aus."],
+        "suggestions": [
+          "Sehr gute 'Show, don't tell'-Umsetzung. Die Wahrnehmungen werden direkt und ohne Filter wie 'sie sah, dass' beschrieben."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Sein Blick glitt... Ilse kannte diesen Blick. Es war nicht der Blick... Es war der Blick..."
+        ],
+        "suggestions": [
+          "Die Häufung des Wortes 'Blick' in einem Absatz wirkt repetitiv. Variieren Sie die Wortwahl oder beschreiben Sie die Augen/den Ausdruck des Sohnes direkter."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

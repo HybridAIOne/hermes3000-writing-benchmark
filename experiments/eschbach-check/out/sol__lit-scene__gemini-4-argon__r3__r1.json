@@ -1,0 +1,136 @@
+{
+  "who": "sol",
+  "item": "lit-scene__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel klemmte an genau derselben Stelle wie vor zwanzig Jahren.",
+          "Man musste ihn einen Millimeter zurückziehen, den Griff leicht anheben und die Schulter gegen das gequollene Eichenholz drücken."
+        ],
+        "suggestions": [
+          "Den Einstieg grundsätzlich beibehalten: Das klemmende Schloss verbindet eine konkrete Handlung mit Veras Vergangenheit.",
+          "Für einen schnelleren Auftakt ließe sich die Beschreibung des Öffnens kürzen. Ein Einstieg erst in der Küche würde dagegen die wirkungsvolle Vorbereitung der Rückkehr schwächen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "ein diffuses, graues Novemberlicht und schnitt blasse Rechtecke in die Dunkelheit",
+          "der dunkelgrüne Lodenmantel, stumm und schwer",
+          "das rissige weiße Porzellan mit einem verkrusteten dunklen Rand am Boden"
+        ],
+        "suggestions": [
+          "Die Häufung beschreibender Attribute punktuell reduzieren, damit die entscheidenden Details stärker hervortreten.",
+          "Beispielsweise: „Durch die Milchglasfenster neben der Tür schnitt Novemberlicht blasse Rechtecke in die Dunkelheit.“",
+          "Beim Mantel „stumm und schwer“ probeweise streichen: Material und anschließende Personifikation vermitteln bereits viel Atmosphäre.",
+          "Bedeutungstragende Angaben wie „bläulich-grüner“ und „harzige“ erhalten, weil sie den späteren Fund vorbereiten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung nötig: Der Text enthält keine Dialoge und damit keine überflüssigen Redeeinleitungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "an genau derselben Stelle",
+          "Als das Schloss schließlich nachgab",
+          "direkt neben einem steinhart getrockneten Schwamm",
+          "plötzlich den Atem anzuhalten schien"
+        ],
+        "suggestions": [
+          "„Genau“, „schließlich“ und „direkt“ probeweise streichen und prüfen, ob die jeweilige Betonung tatsächlich benötigt wird.",
+          "„Plötzlich“ am Schluss ist verzichtbar: Der unmittelbar vorausgehende Widerspruch zwischen frischer Farbe und dem Tod der Mutter erzeugt den Umschlag bereits.",
+          "Nicht jede Einschränkung pauschal entfernen: „fast unverschämt“ transportiert Veras Empfinden und ist keine bloße Unschärfe."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als das Schloss schließlich nachgab, klang es im stillen Treppenhaus wie ein trockener Husten.",
+          "Erst als Vera an die Spüle trat, um das Fenster zu öffnen, bemerkte sie den Geruch.",
+          "Vera zog die Hand zurück, während das Haus um sie herum plötzlich den Atem anzuhalten schien."
+        ],
+        "suggestions": [
+          "Die zeitlichen Verknüpfungen überwiegend beibehalten: Sie ordnen die Wahrnehmungen nachvollziehbar und werden nicht übermäßig eingesetzt.",
+          "Den Schluss versuchsweise in zwei Schritte auflösen: „Vera zog die Hand zurück. Das Haus um sie herum schien den Atem anzuhalten.“ Das verstärkt die Zäsur."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie ließ die Reisetasche auf den abgetretenen Kokosläufer sinken.",
+          "Sie rieb mit der Fingerkuppe über die kalte, leicht klebrige Spur und roch daran."
+        ],
+        "suggestions": [
+          "Die aktive, körperlich konkrete Erzählweise beibehalten.",
+          "Kein Handlungsbedarf: „konserviert wie in einem Einmachglas“ ist eine bildhafte Zustandsbeschreibung, kein unnötiger Passivsatz."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "An der Garderobe hing noch immer der dunkelgrüne Lodenmantel, stumm und schwer, als warte er darauf, dass jemand in seine Ärmel schlüpfte, um noch schnell vor dem Frost das Fallobst aufzulesen.",
+          "Auf dem Wachstuchtisch, dessen Rosenmuster unter einer grauen Staubschicht verblasst war, stand eine einzelne Kaffeetasse."
+        ],
+        "suggestions": [
+          "Den Mantelsatz entlasten, da sich Vergleich, dass-Satz und Infinitivgruppe aneinanderreihen: „An der Garderobe hing noch immer der dunkelgrüne Lodenmantel. Als warte er darauf, dass jemand hineinschlüpfte, um vor dem Frost das Fallobst aufzulesen.“",
+          "Beim Tisch lässt sich der Einschub auslagern: „Auf dem Wachstuchtisch stand eine einzelne Kaffeetasse. Unter grauem Staub verblasste das Rosenmuster.“",
+          "Die kurzen Sätze am Ende unbedingt als rhythmischen Gegenpol bewahren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Straffung erforderlich: Es gibt keine Dialogpassagen. Die dialoglose Darstellung unterstützt Veras Isolation."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Erst als Vera an die Spüle trat, um das Fenster zu öffnen, bemerkte sie den Geruch.",
+          "Vera starrte auf den verfärbten Edelstahl.",
+          "Der beißende Duft von Balsamterpentin stieg ihr in die Nase, frisch genug, um erst wenige Tage alt zu sein."
+        ],
+        "suggestions": [
+          "Den Wahrnehmungsfilter „bemerkte sie“ probeweise entfernen: „Vera trat an die Spüle, um das Fenster zu öffnen. Hier roch es scharf und harzig.“",
+          "„Vera starrte“ nur streichen, wenn ihre körperliche Reaktion nicht benötigt wird; anders als ein bloßes „sie sah“ zeigt das Verb auch ihre Irritation.",
+          "Die direkte Geruchsdarstellung mit dem Balsamterpentin beibehalten: Sie vermittelt Sinneseindruck und Schlussfolgerung ohne zusätzlichen Gedankenbericht."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "schwer und kalt / stumm und schwer / Unter der Kälte und dem Staub / die kalte, leicht klebrige Spur",
+          "Terpentin. / Der beißende Duft von Balsamterpentin",
+          "eine scharfe, harzige Note / Der beißende Duft von Balsamterpentin"
+        ],
+        "suggestions": [
+          "Die wiederkehrenden Kälte-, Schwere- und Staubmotive dosieren; einzelne Wiederholungen lassen sich streichen, ohne die Atmosphäre zu verlieren.",
+          "Die zweite Geruchsbeschreibung stärker auf die neue Information zuspitzen: Entscheidend ist nun die Frische der Spur, nicht erneut ihre Intensität.",
+          "Die Wiederaufnahme als „Balsamterpentin“ kann bleiben, wenn sie Veras genaue Materialkenntnis zeigen soll.",
+          "Die beiden abschließenden Zeitangaben beibehalten: Dreißig Jahre ohne Malerei und zwei Wochen seit dem Tod sind keine Doppelung, sondern bilden gemeinsam den Spannungsmoment."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02243
+}

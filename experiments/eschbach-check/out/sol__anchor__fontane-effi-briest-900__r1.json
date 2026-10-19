@@ -1,0 +1,152 @@
+{
+  "who": "sol",
+  "item": "anchor__fontane-effi-briest-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "In Front des schon seit Kurfürst Georg Wilhelm von der Familie von Briest bewohnten Herrenhauses zu Hohen-Cremmen fiel heller Sonnenschein auf die mittagsstille Dorfstraße",
+          "Eben hatte sich Effi wieder erhoben, um abwechselnd nach links und rechts ihre turnerischen Drehungen zu machen"
+        ],
+        "suggestions": [
+          "Für einen handlungsorientierten Einstieg mit Effis Turnübungen oder dem Zuruf der Mutter beginnen und die räumlichen Informationen anschließend dosiert einflechten.",
+          "Die Gartenbeschreibung nicht vollständig streichen: Schaukel, Kirchhofsmauer und die geschützte Anlage können Atmosphäre und Vorausdeutungen tragen. Entbehrlicher für den unmittelbaren Szenenbeginn sind die Baugeschichte und die genaue Ausrichtung des Seitenflügels."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "eine ganz in kleinblättrigem Efeu stehende, nur an einer Stelle von einer kleinen weißgestrichenen Eisentür unterbrochene Kirchhofsmauer",
+          "eine mit großen schönen Stachelbeeren gefüllte Majolikaschale",
+          "eine große, natürliche Klugheit und viel Lebenslust und Herzensgüte"
+        ],
+        "suggestions": [
+          "Bei Beschreibungen die charakteristischen Merkmale behalten und allgemeine Wertungen reduzieren: etwa „eine Majolikaschale voller Stachelbeeren“.",
+          "Attributketten durch Verben entlasten: „Kleinblättriger Efeu überwuchs die Kirchhofsmauer. Eine weißgestrichene Eisentür unterbrach das Grün.“",
+          "Effis Lebenslust stärker aus Bewegung und Dialog hervorgehen lassen, statt mehrere positive Eigenschaften ausdrücklich aufzuzählen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "als die von ihrer Stickerei gerade wieder aufblickende Mama ihr zurief",
+          "»Möchtest du's?«",
+          "»Nein.« Und dabei lief sie auf die Mama zu und umarmte sie stürmisch und küßte sie."
+        ],
+        "suggestions": [
+          "Die weitgehend unmarkierten Sprecherwechsel beibehalten: Im Gespräch zwischen Mutter und Tochter bleibt die Zuordnung eindeutig.",
+          "Die erste Redeeinleitung entlasten: „Die Mutter blickte von ihrer Stickerei auf. »Effi, eigentlich hättest du doch wohl Kunstreiterin werden müssen.«“"
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Einige zwanzig Schritte weiter",
+          "wurde die Gartenseite ganz entschieden bevorzugt",
+          "mit ganz besonderer Liebe",
+          "»Effi, eigentlich hättest du doch wohl Kunstreiterin werden müssen.«"
+        ],
+        "suggestions": [
+          "Im Erzählertext Verstärkungen wie „ganz entschieden“ und „ganz besonderer“ auf ihren tatsächlichen Mehrwert prüfen und gegebenenfalls streichen.",
+          "„Einige zwanzig Schritte“ bei gewünschter sprachlicher Straffung durch „zwanzig Schritte“ ersetzen; die ungefähre Angabe ist allerdings kein sachlicher Mangel.",
+          "Dialogpartikeln nicht pauschal entfernen: „eigentlich“, „doch“ und „wohl“ gestalten hier den neckenden Ton der Mutter."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "während nach der Park- und Gartenseite hin ein rechtwinklig angebauter Seitenflügel einen breiten Schatten",
+          "aber während die Mutter kein Auge von der Arbeit ließ, legte die Tochter",
+          "Eben hatte sich Effi wieder erhoben, um abwechselnd nach links und rechts ihre turnerischen Drehungen zu machen, als"
+        ],
+        "suggestions": [
+          "Die räumliche Gegenüberstellung im ersten Satz auf zwei Sätze verteilen: „Auf die Dorfstraße fiel heller Sonnenschein. Auf der Gartenseite warf der Seitenflügel einen breiten Schatten.“",
+          "Den Gegensatz zwischen Mutter und Tochter bei Bedarf direkter fassen: „Die Mutter ließ kein Auge von der Arbeit. Effi dagegen legte immer wieder die Nadel nieder.“",
+          "Zeitliche Verknüpfungen dort behalten, wo das Zusammentreffen wichtig ist, etwa beim Auftauchen der Mädchen während des Gesprächs."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "an Tagen aber, wo die Sonne niederbrannte, wurde die Gartenseite ganz entschieden bevorzugt",
+          "des schon seit Kurfürst Georg Wilhelm von der Familie von Briest bewohnten Herrenhauses"
+        ],
+        "suggestions": [
+          "Die eindeutige Passivkonstruktion aktiv und figurenbezogen formulieren: „An heißen Tagen bevorzugten Frau von Briest und Effi die Gartenseite.“",
+          "Die passive Partizipialfügung am Anfang gegebenenfalls auflösen: „Die Familie von Briest bewohnte das Herrenhaus seit der Zeit des Kurfürsten Georg Wilhelm.“ Diese Hintergrundinformation kann auch später folgen.",
+          "Keine flächendeckende Passivkorrektur vornehmen: Das Hauptproblem sind ausgedehnte Attribute, nicht eine Häufung finiter Passivsätze."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "In Front des schon seit Kurfürst Georg Wilhelm von der Familie von Briest bewohnten Herrenhauses",
+          "Auch die Front des Herrenhauses - eine mit Aloekübeln und ein paar Gartenstühlen besetzte Rampe - gewährte bei bewölktem Himmel",
+          "Es war ersichtlich, daß sie sich diesen absichtlich ein wenig ins Komische gezogenen Übungen mit ganz besonderer Liebe hingab"
+        ],
+        "suggestions": [
+          "Den ersten Satz nach Dorfstraße, Schattenwurf und Rondell in drei überschaubare Sätze teilen. Jeder Satz sollte möglichst eine räumliche Beziehung vermitteln.",
+          "Die Beschreibung der Rampe von der aktuellen Situation auf dem Fliesengang trennen. Allgemeine Gewohnheiten, Sitzordnung und Treppenverlauf müssen nicht in einem Satz stehen.",
+          "Den Satz über Effis Übungen und den mütterlichen Stolz auf mehrere Sätze verteilen. Die langen Perioden sind stilistisch kontrolliert, verlangen nach diesem Prüfkriterium aber besonders viel Orientierung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "»Vielleicht, Mama. Aber wenn es so wäre, wer wäre schuld? Von wem hab ich es? Doch nur von dir.«",
+          "»Warum kriege ich keine Staatskleider? Warum machst du keine Dame aus mir?«",
+          "»Möchtest du's?«",
+          "»Nein.«"
+        ],
+        "suggestions": [
+          "Effis längere Replik grundsätzlich erhalten: Ihre gedanklichen Sprünge und rhetorischen Fragen vermitteln Übermut und Vertrautheit.",
+          "Falls stärkeres Tempo gewünscht ist, innerhalb der Passage über kurze Kleider, die Rathenower und Oberst Goetze kürzen, statt den gesamten Redezug zu glätten.",
+          "Den knappen Wechsel „Möchtest du's?“ – „Nein.“ unverändert lassen; er setzt einen wirkungsvollen Kontrast zum vorherigen Redeschwall."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "an dessen offener Seite man eines Teiches mit Wassersteg und angekettetem Boot und dicht daneben einer Schaukel gewahr wurde",
+          "Es war ersichtlich, daß sie sich diesen absichtlich ein wenig ins Komische gezogenen Übungen mit ganz besonderer Liebe hingab",
+          "weil sie nicht zeigen wollte, wie entzückend sie ihr eigenes Kind finde"
+        ],
+        "suggestions": [
+          "Den unbestimmten Wahrnehmungsfilter entfernen: „An der offenen Seite lagen ein Teich mit Wassersteg und angekettetem Boot; dicht daneben stand eine Schaukel.“",
+          "„Es war ersichtlich“ streichen und Effis Vergnügen unmittelbar schildern, beispielsweise: „Mit besonderem Vergnügen übertrieb Effi die Beugungen und Streckungen.“",
+          "Die Erklärung des mütterlichen Innenlebens nur dann durch sichtbare Reaktionen ersetzen, wenn eine szenischere Erzählweise gewünscht ist. Im vorliegenden Text gehört dieser Kommentar zur auktorialen Erzählerstimme."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Beide, Mutter und Tochter, waren fleißig bei der Arbeit",
+          "Rasch und sicher ging die Wollnadel der Damen hin und her",
+          "unter allerlei kunstgerechten Beugungen und Streckungen den ganzen Kursus der Heil- und Zimmergymnastik durchzumachen",
+          "um abwechselnd nach links und rechts ihre turnerischen Drehungen zu machen",
+          "»wer wäre schuld?« / »Du bist schuld.«"
+        ],
+        "suggestions": [
+          "Die allgemeine Feststellung des fleißigen Arbeitens mit der konkreten Nadelbewegung verbinden, statt den Arbeitsvorgang unmittelbar nacheinander zweimal einzuführen.",
+          "Nach der ausführlichen Einführung der Gymnastik genügt beim Übergang zum Dialog eine kürzere Wiederaufnahme: „Effi erhob sich erneut.“",
+          "Die wiederholte Schuldzuweisung im Dialog nicht automatisch streichen: Sie rahmt Effis spielerischen Vorwurf und charakterisiert ihre Redeweise.",
+          "Wiederkehrende Ortsangaben zu Treppe, Seitenflügel und Kirchhofsmauer nur dort kürzen, wo die räumliche Orientierung bereits gesichert ist."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02782
+}

@@ -1,0 +1,120 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__gemini-4-argon__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel hockte so tief über dem Strom, dass das andere Ufer nicht existierte.",
+          "Ilse Brandt stand im Steuerhaus, die Hände in den Taschen ihrer steifen Ölzeugjacke vergraben, und wartete."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr atmosphärisch und verortet den Leser sofort. Nach strenger Eschbach-Regel könnte man jedoch überlegen, ob die Szene erst mit dem Auftauchen der Scheinwerfer im dritten Absatz beginnt und die Beschreibung des Steuerhauses später einfließt, um direkt in der Handlung zu starten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "ein paar Meter träges, bleifarbenes Wasser",
+          "den vertrauten Geruch nach warmem Staub und altem Schmierfett",
+          "ein verbeulter Edelstahlbecher mit schwarzem Kaffee"
+        ],
+        "suggestions": [
+          "Die gewählten Adjektive sind sehr präzise und bildhaft, allerdings gibt es stellenweise eine hohe Dichte (fast jedes Substantiv hat ein Attribut). Hier könnte leicht ausgedünnt werden, z.B. ist Staub auf einer Heizung ohnehin warm und Schmierfett meist alt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Morgen“, sagte Ilse. Sie hielt die Hand auf.",
+          "„Guten Morgen“, sagte die Frau. Ihr Atem bildete kleine weiße Wolken.",
+          "„Das Seil weiß ja, wo es hinmuss“, sagte Ilse."
+        ],
+        "suggestions": [
+          "Da den Dialogzeilen oft direkte Handlungen der Sprecher folgen oder vorausgehen, sind die 'sagte'-Inquits teilweise entbehrlich. Beispiel: '„Morgen.“ Ilse hielt die Hand auf.' oder '„Guten Morgen.“ Der Atem der Frau bildete kleine weiße Wolken.'"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "ein paar Meter träges, bleifarbenes Wasser",
+          "Er nickte Ilse nur kurz zu",
+          "die für eine Frau über sechzig angeblich zu steil waren"
+        ],
+        "suggestions": [
+          "Der Text ist bemerkenswert frei von Füllwörtern. Wörter wie 'angeblich' erfüllen hier eine wichtige Funktion für die personale Perspektive. Lediglich 'ein paar' oder 'nur kurz' könnten noch präziser gefasst oder gestrichen werden ('Er nickte Ilse zu')."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Lichtkegel schnitten durch die milchige Suppe, erst diffus, dann schärfer, als ein roter Kleinwagen die Böschung herunterrollte."
+        ],
+        "suggestions": [
+          "Handlungen werden fast durchgängig sauber nacheinander beschrieben. Das 'als' im Beispielsatz ist völlig legitim, könnte aber theoretisch auch getrennt werden: 'Lichtkegel schnitten durch die milchige Suppe, erst diffus, dann schärfer. Ein roter Kleinwagen rollte die Böschung herunter.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Ausgezeichnet. Der gesamte Text ist durchgehend aktiv formuliert. Selbst unbelebte Dinge (Nebel, Kälte, Lichtkegel) agieren aktiv."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Wer die Elbe im November unheimlich fand, würde den Januar hier draußen nicht überstehen, wenn die Eisschollen gegen den stählernen Rumpf der Fähre schlugen und das ganze Deck unter den Füßen zitterte.",
+          "Auf dem Display leuchtete ein Name auf, darunter ein Foto, das sie nie selbst eingestellt hatte: Jonas in einem hellgrauen Anzug, mit offenem Hemdkragen und einem Glas Weißwein in der Hand, im Hintergrund unscharfe Münchner Hausdächer in der Abendsonne."
+        ],
+        "suggestions": [
+          "Der Satzrhythmus ist hervorragend und wechselt gekonnt zwischen kurzen, prägnanten Sätzen und etwas längeren, beschreibenden Passagen. Es gibt keine unübersichtlichen Schachtelsätze."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Morgen, Ilse. Hält sich hartnäckig heute, die Brühe.“",
+          "„Das Seil weiß ja, wo es hinmuss“, sagte Ilse."
+        ],
+        "suggestions": [
+          "Die Dialoge sind extrem knapp, authentisch und passen perfekt zur norddeutschen, wortkargen Atmosphäre und der Figur."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ihr Blick ging routinemäßig zum Radarbildschirm, auf dem sich nichts regte...",
+          "Sie sah auf die Uhr. Neunundvierzig Minuten nach sechs."
+        ],
+        "suggestions": [
+          "Exzellente Umsetzung der personalen Perspektive (Show, don't tell). Es gibt keine distanzierenden Filterwörter wie 'sie sah, dass' oder 'sie fühlte, wie'. Alle Wahrnehmungen und Gedanken sind unmittelbar im Text verankert."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "ein feiner Sprühregen aus Flusswasser perlte davon ab.",
+          "Aus dem Grau schälten sich zwei weitere Gestalten. / Dahinter schälte sich das nasse Pflaster der Anlegestelle aus dem Dunst."
+        ],
+        "suggestions": [
+          "Inhaltliche Doppelungen gibt es nicht. Auf Wortebene ist beim 'Flusswasser' der Zusatz 'Fluss-' entbehrlich, da das Seil sich im selben Satz bereits aus dem Wasser hebt. Zudem wird zweimal die schöne, aber auffällige Metapher 'sich aus dem Grau/Dunst schälen' verwendet – hier sollte eine Stelle variiert werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02075
+}

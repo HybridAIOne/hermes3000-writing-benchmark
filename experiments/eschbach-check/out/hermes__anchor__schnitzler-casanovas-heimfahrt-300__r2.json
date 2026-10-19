@@ -1,0 +1,106 @@
+{
+  "who": "hermes",
+  "item": "anchor__schnitzler-casanovas-heimfahrt-300",
+  "run": 2,
+  "parsed": {
+    "overallScore": 4,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "In seinem dreiundfünfzigsten Lebensjahre, als Casanova längst nicht mehr von der Abenteuerlust der Jugend, sondern von der Ruhelosigkeit nahenden Alters durch die Welt gejagt wurde..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr expositorisch und langsam. Beginnen Sie direkt mit der aktuellen Handlung (z.B. Casanova im Gasthof) und streuen Sie die Hintergrundinformationen später ein."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "schmerzliches Sehnen",
+          "echte Reue",
+          "unverzeihlichste dünkte",
+          "übelberüchtigten Häusern"
+        ],
+        "suggestions": [
+          "Viele Adjektive sind redundant oder schwächen die Wirkung ab. Streichen Sie Adjektive, die das Nomen bereits impliziert, und setzen Sie stärkere Verben ein."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["übrigens", "allmählich", "schon", "vielleicht"],
+        "suggestions": [
+          "Wörter wie 'übrigens' oder 'allmählich' glätten den Text, nehmen ihm aber die Schärfe. Entfernen Sie diese für einen direkteren Stil."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["als Casanova ... fühlte er", "während ... er vertrieb sich"],
+        "suggestions": [
+          "Vermeiden Sie verschachtelte Gleichzeitigkeit. Beschreiben Sie Handlungen nacheinander, um den Lesefluss zu beschleunigen."
+        ]
+      },
+      "passive": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "von der Ruhelosigkeit ... gejagt wurde",
+          "Gesuche gerichtet hatte",
+          "bewohnt hatte"
+        ],
+        "suggestions": [
+          "Wandeln Sie Passivkonstruktionen in aktive Sätze um, um mehr Dynamik in die Erzählung zu bringen."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Der gesamte erste Absatz besteht aus nur zwei extrem langen, verschachtelten Sätzen."
+        ],
+        "suggestions": [
+          "Zerlegen Sie die langen Sätze in kürzere, prägnante Einheiten. Ein Satz sollte idealerweise nur einen Gedanken enthalten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Er glaubte um so sicherer auf Erhörung rechnen zu dürfen",
+          "schien sich ... auszusprechen",
+          "gedachte"
+        ],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'glaubte', 'schien', 'gedachte'. Zeigen Sie stattdessen direkt, was Casanova tut oder wie er sich verhält."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Die ausführliche Beschreibung seiner Sünden und seines Rufs wiederholt sich inhaltlich mehrfach."
+        ],
+        "suggestions": [
+          "Fassen Sie die Hintergrundinformationen zu seinem Ruf und seinen Sünden kompakter zusammen, um den Fokus auf die aktuelle Szene zu legen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

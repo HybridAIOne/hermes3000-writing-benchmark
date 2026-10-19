@@ -1,0 +1,129 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ein Hausflur. Abend. PAUL öffnet die Tür.“",
+          "„PAUL: (nimmt sie nicht) Hab sie gar nicht vermisst.“"
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Er beginnt unmittelbar mit der Begegnung und etabliert den Konflikt durch die verweigerte Annahme der Bohrmaschine.",
+          "Die knappen Begrüßungen nicht vorschnell streichen; ihre Förmlichkeit macht die Distanz zwischen den Figuren spielbar."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Neue Klingel.“", "„Eine hat einen Sprung.“", "„THOMAS: (leise) Ich weiß.“"],
+        "suggestions": [
+          "Die wenigen beschreibenden Wörter überwiegend beibehalten: Sie kennzeichnen konkrete Veränderungen, Schäden oder Spielweisen.",
+          "Allenfalls „(leise)“ versuchsweise streichen und prüfen, ob der vorangehende Satz die zurückgenommene Reaktion bereits ausreichend nahelegt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„THOMAS: Hallo.“", "„PAUL: Weiß ich. (tritt zur Seite)“"],
+        "suggestions": [
+          "Die Figurennamen beibehalten: Im dramatischen Format sind sie notwendige Sprecherzuordnungen, keine überflüssigen Redeeinleitungen.",
+          "Weiterhin auf zusätzliche Formeln wie „sagt er“ verzichten; die Handlungsanweisungen ergänzen den Dialog bereits gezielt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Hab sie gar nicht vermisst.“",
+          "„Hat ja auch keiner mehr geklingelt.“",
+          "„Wenn du sowieso welchen machst.“ / „Ich mach nie sowieso welchen.“",
+          "„Kann sein.“"
+        ],
+        "suggestions": [
+          "Gesprächspartikeln wie „gar“, „ja“ und „auch“ nicht mechanisch entfernen: Hier transportieren sie Abwehr und Vorwurf.",
+          "„Sowieso“ beibehalten, weil Paul genau dieses Wort aufgreift und Thomas’ Versuch zurückweist, keine Umstände zu machen.",
+          "„Kann sein“ nicht durch eine präzise Bestätigung ersetzen; die ausweichende Antwort charakterisiert Paul."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„THOMAS legt die Bohrmaschine auf den Tisch. Keiner setzt sich.“",
+          "„Sie trinken. Draußen fährt ein Zug vorbei.“"
+        ],
+        "suggestions": [
+          "Die klare Abfolge kurzer Handlungsanweisungen beibehalten.",
+          "Keine zusätzlichen Verknüpfungen wie „während“ oder „gleichzeitig“ einfügen; die gegenwärtige Form lässt zeitliche Überlagerungen auf der Bühne ohne sprachliche Überladung zu."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„PAUL stellt zwei Tassen hin.“", "„PAUL schiebt ihm die Zuckerdose hin.“"],
+        "suggestions": [
+          "Keine Überarbeitung nötig: Die Handlungen sind aktiv und mit klar benannten Handelnden formuliert.",
+          "Diese konkrete Darstellung auch bei möglichen Ergänzungen beibehalten."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Willst du reinkommen, oder ist das hier eine Übergabe?“",
+          "„Ich hab mich dran gewöhnt, dass sie leckt.“"
+        ],
+        "suggestions": [
+          "Die Satzlängen beibehalten; auch die etwas längeren Repliken sind übersichtlich und gut sprechbar.",
+          "Die vorhandenen Nebensätze nicht weiter zerlegen: Sie bilden natürliche Sprecheinheiten und tragen den Subtext."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Wirklich?“ / „Nein.“",
+          "„Kommt drauf an.“ / „Worauf?“",
+          "„Hast du mitgezählt?“ / „Du nicht?“"
+        ],
+        "suggestions": [
+          "Die kurzen Redewechsel beibehalten: Sie verschieben das Verhältnis der Figuren mit wenigen Worten.",
+          "Keine erklärenden Rückblicke ergänzen; die gemeinsame Vorgeschichte wird bereits durch Gegenstände, Ausweichmanöver und knappe Antworten vermittelt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Die Kaffeemaschine röchelt.“",
+          "„THOMAS: (sieht auf die Bohrmaschine) Ob es hier noch was zu reparieren gibt.“"
+        ],
+        "suggestions": [
+          "Die direkte Darstellung von Geräuschen und Handlungen beibehalten; Wahrnehmungsfilter wie „er hört, dass“ fehlen zu Recht.",
+          "„Sieht auf die Bohrmaschine“ nicht als unnötigen Wahrnehmungsfilter streichen: Der Blick ist eine sichtbare Bühnenhandlung und verbindet den Gegenstand mit Thomas’ Beziehungsangebot."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ich werf nichts weg, nur weil es mal Ärger macht.“",
+          "„Ich hab mich dran gewöhnt, dass sie leckt.“",
+          "„Ob es hier noch was zu reparieren gibt.“",
+          "„Die Regale im Flur hängen schief. Seit Jahren.“"
+        ],
+        "suggestions": [
+          "Die wiederkehrenden beschädigten oder reparaturbedürftigen Gegenstände als bewusstes Beziehungsmotiv erhalten.",
+          "Prüfen, ob die Häufung von Kaffeemaschine, gesprungener Tasse und schiefen Regalen den Subtext stellenweise zu deutlich markiert. Bei gewünschter größerer Zurückhaltung könnte „Ich hab mich dran gewöhnt, dass sie leckt“ entfallen; der Sprung und Thomas’ Griff nach der Tasse vermitteln bereits viel.",
+          "Das Schlussdetail „Zwei Löffel, wie früher“ möglichst bewahren: Es wiederholt nicht nur die Vergangenheit, sondern zeigt eine gegenwärtige Annäherung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01885
+}

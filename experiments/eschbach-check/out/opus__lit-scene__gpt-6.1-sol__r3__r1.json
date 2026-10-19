@@ -1,0 +1,132 @@
+{
+  "who": "opus",
+  "item": "lit-scene__gpt-6.1-sol__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "\"Der Schlüssel ging nur bis zur Hälfte ins Schloss.\" – Der Text setzt mitten in einer Handlung ein, ohne Anreise oder Vorgeschichte.",
+          "\"Hinter ihr fuhr der Bus weiter.\" – Die Ankunft wird beiläufig nachgereicht und bremst den Einstieg nicht."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten. Ein späterer Beginn, etwa erst im Flur, würde das Motiv 'wie früher' (Knie gegen die Tür) und damit die körperliche Erinnerung verlieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "\"Sie machte unwillkürlich einen größeren Schritt.\" – 'unwillkürlich' erklärt, was die Handlung bereits zeigt.",
+          "\"hinter der ehemaligen Abzugshaube\" – 'ehemaligen' wirkt umständlich, da die Abwesenheit der Geräte bereits etabliert ist.",
+          "\"der kleine Haken\", \"zwei kurze Drähte\" – die Adjektive sind entbehrlich, aber unauffällig.",
+          "Positiv: \"trockenes Klopfen\", \"dunkelgrünen Garns\", \"gewölbten Seite\" – präzise und bedeutungstragend."
+        ],
+        "suggestions": [
+          "'unwillkürlich' streichen: \"Sie machte einen größeren Schritt.\" Der Reflex spricht für sich.",
+          "\"bis auf ein weißes Rechteck, wo die Abzugshaube gehangen hatte\" oder schlicht \"bis auf ein weißes Rechteck darüber\".",
+          "\"Darunter steckte noch der Haken für die Kleiderbürste.\" Ohne 'kleine' verliert der Satz nichts."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Kein direkter Dialog vorhanden.",
+          "\"Der Mann vom Nachlassdienst hatte gesagt, alles sei ausgeräumt.\" – Die indirekte Rede ist knapp und funktional eingeleitet."
+        ],
+        "suggestions": [
+          "Keine Änderung nötig. Die Entscheidung, den Nachlassdienst nur indirekt und mit ironischem Nachsatz wiederzugeben, passt zur Isolation der Figur."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "\"In der Küche fehlte sogar die Deckenlampe.\" – 'sogar' ist leicht wertend, aber vertretbar.",
+          "\"Nun sah sie zuerst den hellen Fleck\" – 'zuerst' ist entbehrlich.",
+          "\"genau in den staubfreien Kreis\" – 'genau' ist hier funktional, da es die Sorgfalt der Geste betont."
+        ],
+        "suggestions": [
+          "\"Nun sah sie den hellen Fleck auf der Tapete\" bzw. direkter: \"Auf der Tapete ein heller Fleck, wo der Spiegel gehangen hatte.\"",
+          "'sogar' prüfen. \"In der Küche fehlte die Deckenlampe.\" wirkt trockener und passt zum nüchternen Ton."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "\"Als sein Motor nicht mehr zu hören war, drückte sie die Tür mit dem Knie nach innen\" – Das einzige 'als' ist zeitlich-sequenziell und sinnvoll: Sie wartet, bis sie unbeobachtet ist.",
+          "\"Er hatte dabei geklungen, als wäre das eine gute Nachricht.\" – 'dabei' ist entbehrlich."
+        ],
+        "suggestions": [
+          "\"Er hatte geklungen, als wäre das eine gute Nachricht.\" Der Bezug ist auch ohne 'dabei' klar.",
+          "Die Handlungen sind konsequent nacheinander erzählt. Beibehalten."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "\"alles sei ausgeräumt\" – Zustandspassiv in indirekter Rede, hier passend, weil der Handelnde bedeutungslos ist.",
+          "\"Als sein Motor nicht mehr zu hören war\" – passivische Konstruktion mit 'zu'-Infinitiv."
+        ],
+        "suggestions": [
+          "Optional: \"Als sie den Motor nicht mehr hörte, drückte sie …\" Das bindet die Wahrnehmung stärker an Nora, verliert aber etwas Distanz. Die jetzige Fassung ist vertretbar."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "\"Wo der Herd gestanden hatte, war die Wand gelb, bis auf ein weißes Rechteck hinter der ehemaligen Abzugshaube.\" – Das ist der längste Satz, bleibt aber übersichtlich.",
+          "\"Ihre Mutter hatte sie damals einbetonieren lassen, in der Woche, in der Nora fortgegangen war.\" – Die nachgestellte Zeitangabe setzt eine wirkungsvolle Pointe.",
+          "\"Im Flur war es kälter als draußen.\" – Der Einzelsatz-Absatz ist gezielt rhythmisch gesetzt."
+        ],
+        "suggestions": [
+          "Satzrhythmus beibehalten. Allenfalls 'damals' im Wäschespinnen-Satz streichen, da die Zeitangabe 'in der Woche, in der …' es bereits leistet."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Keine Dialogpassagen vorhanden. Die einzige Fremdrede ist auf einen Satz plus Kommentar reduziert."
+        ],
+        "suggestions": ["Keine Änderung nötig."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "\"Nun sah sie zuerst den hellen Fleck auf der Tapete\" – Das Filterverb 'sah' schiebt eine Ebene zwischen Leser und Bild.",
+          "\"Von hier aus konnte man den Garten überblicken.\" – Der Wechsel zu 'man' plus Modalverb ist die indirekteste Stelle des Textes und löst sich von Noras Perspektive.",
+          "\"Dann roch sie es: angesengte Wolle\" – Filterverb, hier aber durch den Doppelpunkt als bewusste Enthüllung gerechtfertigt.",
+          "\"Nora hatte den Geruch schon im Bett bemerkt\" – in der Rückblende akzeptabel."
+        ],
+        "suggestions": [
+          "\"Auf der Tapete ein heller Fleck, wo der Spiegel gehangen hatte.\" oder \"Der helle Fleck auf der Tapete fiel ihr zuerst auf\" bzw. ganz ohne Wahrnehmungsverb.",
+          "Den Garten-Satz streichen und direkt einsteigen: \"Im Garten stand noch die Wäschespinne.\"",
+          "'Dann roch sie es' beibehalten. Die verzögerte Benennung ist hier dramaturgisch wirksam."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "'noch' erscheint mehrfach: \"versuchte es noch einmal\", \"steckte noch der kleine Haken\", \"Die Wäschespinne stand noch.\"",
+          "Parallele Konstruktionen der Abwesenheit: \"wo der Spiegel gehangen hatte\" / \"Wo der Herd gestanden hatte\" / \"staubfreien Kreis\". Das ist ein bewusstes Motiv, keine störende Doppelung.",
+          "\"Der Mann vom Nachlassdienst hatte gesagt, alles sei ausgeräumt.\" gefolgt von \"In der Küche fehlte sogar die Deckenlampe.\" – leichte inhaltliche Verstärkung, aber mit Steigerung."
+        ],
+        "suggestions": [
+          "Ein 'noch' ersetzen oder streichen, etwa \"Darunter steckte der Haken für die Kleiderbürste.\" Das 'noch' bei der Wäschespinne trägt am meisten Gewicht und sollte bleiben.",
+          "Das Abwesenheits-Motiv beibehalten. Es strukturiert den Text und mündet stimmig im staubfreien Kreis des Knopfes."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.101796
+}

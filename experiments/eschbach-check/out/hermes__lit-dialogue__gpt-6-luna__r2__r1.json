@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gpt-6-luna__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["(Vor dem geschlossenen Café. Regen.)"],
+        "suggestions": ["Der Einstieg ist prägnant und setzt sofort den Ton. Keine Änderung nötig."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["pünktlich", "besser", "blau", "bitter"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und effektiv eingesetzt, um die Stimmung zu unterstreichen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Redeeinleitungen verwendet, was den Dialog sehr direkt und modern wirken lässt. Sehr gut."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Füllwörter gefunden. Der Text ist sehr sauber."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine 'während'-Konstruktionen. Die Handlungen sind klar voneinander getrennt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Passiv verwendet. Die aktive Sprache stärkt die Dynamik."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die kurzen Sätze unterstreichen die Spannung und Distanz zwischen den Charakteren. Sehr passend."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Dialoge sind knackig und treiben die Handlung voran, ohne zu schwafeln."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Sie beobachtet ihn.", "Sie sieht ihm nach."],
+        "suggestions": [
+          "Sehr direkte Wahrnehmung, kein 'Sie sah, dass...' oder 'Sie dachte, dass...'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Nicht dieses Blau. / Nein. Nicht dieses."],
+        "suggestions": [
+          "Die Wiederholungen sind hier ein bewusstes Stilmittel zur Verdeutlichung der emotionalen Spannung und kein Fehler."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

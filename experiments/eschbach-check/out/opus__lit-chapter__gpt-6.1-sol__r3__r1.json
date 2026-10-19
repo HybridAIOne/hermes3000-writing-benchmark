@@ -1,0 +1,153 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__gpt-6.1-sol__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag so tief über der Elbe, dass Ilse das andere Ufer nicht sah. Nicht einmal die Weide, deren unterster Ast bei hohem Wasser im Strom hing.",
+          "Sie stellte die Thermoskanne neben den Fahrstand und zog den rechten Handschuh aus. Der Schalter für die Decksbeleuchtung klemmte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist kurz und trägt Atmosphäre. Die Thermoskanne und der rechte Handschuh werden später gebraucht, deshalb ist der zweite Absatz gerechtfertigt.",
+          "Der Satz über die Weide und ihren Ast bei hohem Wasser ist der einzige verzichtbare Baustein am Anfang. Er erklärt etwas Unsichtbares und verzögert den Einstieg leicht. Ersatzlos streichen oder auf ‚Nicht einmal die Weide.‘ kürzen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Die Fähre löste sich langsam vom Ufer.",
+          "Sie setzte jeden Fuß vorsichtig auf, als prüfte sie eine Treppe im Dunkeln.",
+          "Die Kette spannte sich mit einem metallenen Schlag",
+          "Er hielt eine kleine Kunststoffkiste vor dem Bauch. / gab die kleine Fahrkarte heraus",
+          "Ein Centstück blieb an ihrem Handschuh hängen. Sie löste es mit dem Daumen."
+        ],
+        "suggestions": [
+          "‚vorsichtig‘ streichen: Der Vergleich mit der Treppe im Dunkeln zeigt die Vorsicht bereits. Also: ‚Sie setzte jeden Fuß auf, als prüfte sie eine Treppe im Dunkeln.‘",
+          "‚langsam‘ ist entbehrlich, denn die folgende Staffelung (erst die Kante, dann der Poller) zeigt das Tempo.",
+          "‚metallenen‘ ist bei einer Kette selbstverständlich. Präziser wäre ein Verb: ‚Die Kette spannte sich mit einem Schlag‘ oder ‚Die Kette schlug straff‘.",
+          "‚klein‘ kommt zweimal vor. Bei der Fahrkarte kann es entfallen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Geht’s?“, fragte er.",
+          "„Noch nicht“, sagte sie.",
+          "„Morgen“, sagte die Frau.",
+          "„Reicht das noch?“, fragte der Mann."
+        ],
+        "suggestions": [
+          "‚fragte er‘ bei ‚Geht’s?‘ streichen. Er ist der einzige Fahrgast an Bord, der Sprecher ist eindeutig.",
+          "‚sagte sie‘ bei ‚Noch nicht‘ streichen. Nur Ilse kann diese Anweisung geben, und die Reaktion ‚Er zog sie wieder an.‘ macht die Zuordnung klar.",
+          "Bei den drei Fahrgästen sind die Zuordnungen grundsätzlich nötig. Positiv: Oft ersetzen Handlungen die Inquit-Formel, etwa bei ‚Ilse blickte auf die Thermoskanne.‘ Das sollte so bleiben."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Pegel war über Nacht um wenige Zentimeter gefallen.",
+          "Eine Weile sagte niemand etwas.",
+          "Irgendwo klopfte ein loses Stück Metall, regelmäßig genug, dass Ilse es zunächst überhörte.",
+          "obwohl draußen wenig zu erkennen war"
+        ],
+        "suggestions": [
+          "‚um wenige Zentimeter‘ durch eine Zahl ersetzen (‚um drei Zentimeter‘). Eine Fährfrau würde den Pegel exakt kennen, das passt zur präzisen Figur.",
+          "‚zunächst‘ streichen, denn ‚Dann drehte sie den Kopf.‘ markiert die Abfolge bereits.",
+          "‚Eine Weile‘ ist vertretbar, könnte aber durch ein konkretes Maß ersetzt werden (‚Bis zur Strommitte sagte niemand etwas.‘)."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als sie sich aufrichtete, standen die beiden anderen Fahrgäste am Ufer.",
+          "Ein Rücklicht blinkte an seinem Gepäckträger, obwohl er stand.",
+          "Sie wischte mit dem Ärmel einen Halbkreis frei, obwohl draußen wenig zu erkennen war."
+        ],
+        "suggestions": [
+          "Handlungen werden fast durchgehend nacheinander erzählt. ‚während‘ und ‚gleichzeitig‘ fehlen völlig, das ist vorbildlich.",
+          "‚Als sie sich aufrichtete, standen …‘ ließe sich noch zerlegen: ‚Sie richtete sich auf. Am Ufer standen die beiden anderen Fahrgäste.‘ So entsteht ein kleiner Überraschungsmoment.",
+          "Die doppelte ‚obwohl‘-Konstruktion fällt als Muster auf. Eine davon in zwei Hauptsätze auflösen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine echten Passivsätze. ‚Dahinter wurde alles weiß‘ und ‚bis der Bildschirm wieder dunkel wurde‘ verwenden ‚werden‘ als Vollverb und sind lebendig formuliert. Nichts zu ändern."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ilse hielt ihn an einer Ecke, damit er nicht nass wurde, und zählte Wechselgeld in seine ausgestreckte Hand.",
+          "Das Vorderrad rutschte an der Kante weg, er fing es mit einem kurzen Ruck ab und sah zu ihr hinüber.",
+          "Ein blasser Fleck, der sich beim Näherkommen in ein Licht und dessen Widerschein teilte."
+        ],
+        "suggestions": [
+          "Satzlänge und Rhythmus sind sehr gut kontrolliert.",
+          "Im Wechselgeld-Satz ist ‚ihn‘ mehrdeutig: Unmittelbar davor stehen ‚der Radfahrer‘ und ‚ein Schein‘. Besser: ‚Ilse hielt den Schein an einer Ecke, damit er nicht nass wurde. Dann zählte sie Wechselgeld in die ausgestreckte Hand.‘",
+          "Im Fahrrad-Satz wechselt das Subjekt vom Rad zum Mann ohne Konjunktion. Ein Punkt nach ‚weg‘ schärft den Moment: ‚Das Vorderrad rutschte an der Kante weg. Er fing es mit einem Ruck ab und sah zu ihr hinüber.‘"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Glatt.“ – „November.“",
+          "„Muss die so?“ – „Ja.“",
+          "„Kommt man da überhaupt richtig an?“ … „Da führt das Seil hin.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind extrem knapp und charakterisieren Ilse durch ihre Wortkargheit. Keine Straffung nötig.",
+          "Einzig ‚Drüben, mein ich.‘ ließe sich prüfen. Die Nachschärfung wirkt aber glaubwürdig und bereitet Ilses trockene Antwort vor, deshalb beibehalten."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie legte die Hand auf den Hebel und spürte die Vibration bis in den Unterarm.",
+          "Der Mann bei der Kiste sah zum Ufer zurück, das nicht mehr zu sehen war.",
+          "Sie sah das Ende der Rampe, zwei nasse Poller und ein Stück von dem Seil",
+          "Ilse kannte ihr Gesicht, nicht ihren Namen."
+        ],
+        "suggestions": [
+          "‚spürte die Vibration‘ direkt formulieren: ‚Sie legte die Hand auf den Hebel. Die Vibration lief ihr bis in den Unterarm.‘",
+          "‚sah zum Ufer zurück, das nicht mehr zu sehen war‘ doppelt das Sehen. Direkter: ‚Der Mann bei der Kiste drehte sich zum Ufer um. Dort war nur Nebel.‘",
+          "Im Eröffnungsabsatz das Wahrnehmungsverb tilgen: ‚Vom Ufer blieben das Ende der Rampe, zwei nasse Poller und ein Stück Seil.‘",
+          "Konstruktionen mit ‚dass‘ oder ‚dachte‘ fehlen fast völlig. Die Innensicht wird über Handlungen vermittelt, etwa ‚Ilse hielt das Telefon in der Hand, bis der Bildschirm wieder dunkel wurde.‘ Das ist sehr stark."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Erst wich nur die Kante der Rampe zurück, dann der Poller, dann war auch der Poller weg.",
+          "deren unterster Ast bei hohem Wasser im Strom hing … ein Stück von dem Seil, an dem die Fähre hing.",
+          "Der Mann trat einen Schritt zurück. „Muss die so?“ (Unklar: Radfahrer oder Mann mit der Kiste?)",
+          "Ein Centstück blieb an ihrem Handschuh hängen. (Den rechten Handschuh hatte sie zu Beginn ausgezogen.)",
+          "sah zum Ufer zurück, das nicht mehr zu sehen war"
+        ],
+        "suggestions": [
+          "Der Poller-Satz enthält eine logisch irritierende Doppelung, die wie ein Versehen wirkt. Korrektur: ‚Erst wich nur die Kante der Rampe zurück, dann die Poller, dann das ganze Ufer.‘ Oder: ‚… dann die Poller, dann war auch das Ufer weg.‘",
+          "Doppeltes ‚hing‘ im ersten Absatz vermeiden, z. B. ‚deren unterster Ast bei hohem Wasser in den Strom tauchte‘.",
+          "Nach dem Hinzukommen des zweiten Mannes ist ‚der Mann‘ mehrdeutig. Konsequent unterscheiden: ‚der Radfahrer‘ und ‚der Mann mit der Kiste‘.",
+          "Handschuh-Kontinuität prüfen: Trägt Ilse beim Wechselgeld nur den linken Handschuh, sollte das klar sein (‚an ihrem linken Handschuh‘).",
+          "Bewusste Leitmotive wie Rücklicht, Rettungsringkasten und Thermoskanne funktionieren gut und sind keine störenden Wiederholungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.145004
+}

@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-sonnet-5.5__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Einstieg mitten im Gespräch über den Motor ist effektiv."],
+        "suggestions": ["Keine Änderung notwendig, der Einstieg funktioniert sehr gut."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kleiner roter Lieferwagen"],
+        "suggestions": [
+          "'kleiner' könnte gestrichen werden, da ein Lieferwagen meist klein ist, oder durch ein präziseres Wort ersetzt werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["„Er läuft\", sagte Ilse."],
+        "suggestions": [
+          "Das 'sagte Ilse' ist redundant, da der Kontext klar ist. Einfach streichen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["beinahe", "gerade"],
+        "suggestions": [
+          "Die Füllwörter sind sparsam eingesetzt, können aber teilweise für mehr Direktheit gestrichen werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie kontrollierte die Klemme... und wischte..."],
+        "suggestions": [
+          "Die Handlungsabfolgen sind sehr gut gelöst, keine 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Das Bett ist bezogen."],
+        "suggestions": ["Das ist ein Zustandspassiv, das hier absolut passend ist."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Fluss war braun und träge, hatte aber unter der Oberfläche diesen Zug, den man nur in den Armen spürte, wenn man jahrzehntelang an ihm gearbeitet hatte."
+        ],
+        "suggestions": [
+          "Der Satz ist rhythmisch gut, könnte aber für mehr Tempo bei Bedarf in zwei Sätze geteilt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Seit wann?\" „Seit Mittwoch.\""],
+        "suggestions": ["Die Dialoge sind prägnant und auf den Punkt."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Sie konnte beinahe hören, wie er die Zahlen sortierte"],
+        "suggestions": [
+          "Direkter formulieren: 'Er sortierte die Zahlen: Mittwoch, heute war Freitag...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Er läuft", "warten"],
+        "suggestions": [
+          "Die Wiederholungen sind stilistisch bewusst eingesetzt und funktionieren gut."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

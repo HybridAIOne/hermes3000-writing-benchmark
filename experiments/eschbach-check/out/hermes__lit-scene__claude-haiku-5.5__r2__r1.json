@@ -1,0 +1,79 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-haiku-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel lag nicht mehr unter dem Blumentopf"],
+        "suggestions": [
+          "Der Einstieg ist hervorragend. Er wirft den Leser direkt in die Situation und erzeugt sofort Spannung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vertrockneten Geranie", "dunkelgrüne mit dem abgewetzten Kragen"],
+        "suggestions": ["Die Adjektive sind atmosphärisch und präzise. Keine Änderung notwendig."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["»Alles unverändert.«"],
+        "suggestions": ["Sehr sparsam und effektiv eingesetzt."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["so unvermittelt", "noch einmal"],
+        "suggestions": ["Der Text ist sehr sauber. Keine unnötigen Füllwörter identifizierbar."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ich stand im Flur und ließ die Tür offen"],
+        "suggestions": ["Die Handlungsabfolge ist logisch und klar strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Das Wort war zweimal unterstrichen"],
+        "suggestions": ["Das Passiv wird hier korrekt zur Zustandsbeschreibung genutzt."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Genau so hatte es früher am Sonntag gerochen, wenn sie die Bohnen mahlte und die Küche sich mit einer Wärme füllte, die nicht von der Heizung kam."
+        ],
+        "suggestions": ["Der Satzrhythmus ist sehr gut gewählt. Keine Kürzung nötig."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Dialoge vorhanden."],
+        "suggestions": ["Nicht anwendbar."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Ich fragte mich, ob es Tag oder Nacht gewesen war"],
+        "suggestions": [
+          "Man könnte dies direkter gestalten, um den Leser noch stärker in den Kopf der Figur zu ziehen: 'War es Tag oder Nacht gewesen, als jemand sie zuletzt angehalten hatte?'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ich roch noch einmal, dann noch einmal"],
+        "suggestions": [
+          "Die Wiederholung ist hier ein bewusstes stilistisches Mittel zur emotionalen Verstärkung und daher sehr passend."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

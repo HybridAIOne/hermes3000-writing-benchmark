@@ -1,0 +1,154 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel hing so tief, dass Ilse das andere Ufer nicht sah.",
+          "Sie stieß mit der Schuhspitze gegen den Keil am Steuerhaus. Er saß fest.",
+          "Draußen knirschten Reifen."
+        ],
+        "suggestions": [
+          "Der Einstieg etabliert Sichtbehinderung, Arbeitswelt und Ilses kontrollierte Handgriffe. Er beginnt nicht offensichtlich zu früh.",
+          "Für eine stärker zugespitzte Fassung probeweise mit „Draußen knirschten Reifen“ beginnen und Nebel sowie aufgequollenen Keil anschließend einflechten. Dabei prüfen, ob der Verlust der morgendlichen Routine den späteren Bruch durch Jonas’ Anruf schwächt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Im Fenster stand ihr Gesicht, gelblich und schmal.",
+          "Die Frau ging vorsichtig über das nasse Blech.",
+          "Dann ging die Frau, mit schnellen kleinen Schritten."
+        ],
+        "suggestions": [
+          "Die meisten Attribute liefern konkrete Wahrnehmungen und sollten bleiben; besonders „nasse“ motiviert die vorsichtige Bewegung.",
+          "Allenfalls „schnellen kleinen Schritten“ zu „schnellen Schritten“ straffen, falls die kleinschrittige Bewegung keine zusätzliche Bedeutung tragen soll.",
+          "Prüfen, ob „vorsichtig“ beim Schlucken nach „Er war noch zu heiß“ noch nötig ist. Die Temperatur erklärt die Behutsamkeit bereits."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Morgen“, sagte der Mann durch den Fensterspalt.",
+          "„Noch mit?“, fragte die Frau.",
+          "„Schieben“, sagte Ilse.",
+          "„Fenster zu, bitte.“"
+        ],
+        "suggestions": [
+          "Die Kennzeichnungen sind sparsam und überwiegend zur Einführung oder beim Sprecherwechsel sinnvoll.",
+          "„Schieben“, sagte Ilse lässt sich bei Bedarf zu „Schieben.“ verkürzen; Situation und Antwort des Jungen machen die Sprecherin erkennbar.",
+          "Die erste Kennzeichnung beim Mann beibehalten: „durch den Fensterspalt“ liefert zusätzlich eine räumliche Information."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Instrumente leuchteten auch so.",
+          "Nach einer Weile erschien der Pfosten am gegenüberliegenden Anleger.",
+          "Es schob sich ein Stück über das Blech und blieb an der Kladde liegen."
+        ],
+        "suggestions": [
+          "Der Text enthält kaum unverbindliche Abschwächungen. Wörter wie „auch“ und „noch“ erfüllen meist eine erkennbare Funktion.",
+          "„Nach einer Weile“ ist die auffälligste zeitliche Unschärfe. Für einen unmittelbareren Übergang wäre möglich: „Dann erschien der Pfosten am gegenüberliegenden Anleger.“",
+          "„Ein Stück“ beim vibrierenden Telefon kann bleiben: Die genaue Strecke ist unwichtig, die Bewegung dagegen anschaulich."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Einer fiel ihr in den Kragen, als sie die Tür aufschloss.",
+          "Erst als er den Motor abgestellt und die Handbremse angezogen hatte, wandte sie sich um.",
+          "Am Seil standen Tropfen in kurzen Abständen; wo es durch die Führung lief, lösten sie sich und fielen aufs Deck."
+        ],
+        "suggestions": [
+          "Keine übermäßige Häufung künstlicher Gleichzeitigkeit. Die zeitlichen Verknüpfungen sind überwiegend präzise.",
+          "„Erst als …“ unbedingt als funktionale Reihenfolge erkennen: Ilse wartet auf die Sicherung des Fahrzeugs; die Konstruktion charakterisiert ihre Sorgfalt.",
+          "Nur für einen härteren Rhythmus ließe sich teilen: „Er stellte den Motor ab und zog die Handbremse an. Erst dann wandte Ilse sich um.“ Die bestehende Fassung ist jedoch ebenso tragfähig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie hob die Schranke.",
+          "Ilse löste die Sicherung der Klappe.",
+          "Der Anleger glitt zurück, seine beiden Pfosten wurden blass und verschwanden."
+        ],
+        "suggestions": [
+          "Keine störenden Passivkonstruktionen vorhanden; die handelnden Figuren und bewegten Gegenstände bleiben unmittelbar präsent.",
+          "„Wurden blass“ ist eine Zustandsveränderung, kein Passiv, und braucht nicht ersetzt zu werden."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie wartete, bis der Transporterfahrer sein Fenster ganz geschlossen hatte, dann ging sie ins Steuerhaus und setzte die Fähre in Bewegung.",
+          "Der Wagen rollte über die Klappe, erst die Vorderreifen, dann die Hinterreifen, zwei dumpfe Schläge.",
+          "Am Seil standen Tropfen in kurzen Abständen; wo es durch die Führung lief, lösten sie sich und fielen aufs Deck."
+        ],
+        "suggestions": [
+          "Die Sätze sind überwiegend kurz bis mittellang und gut erfassbar. Die längeren folgen klaren Bewegungsabläufen statt verschachtelten Gedankengängen.",
+          "Den Satz vor der Abfahrt bei Bedarf nach „geschlossen hatte“ teilen: „Sie wartete, bis der Transporterfahrer sein Fenster ganz geschlossen hatte. Dann ging sie ins Steuerhaus und setzte die Fähre in Bewegung.“",
+          "Nicht flächendeckend weiter verkürzen: Die längeren Sätze verhindern, dass der bereits knappe Stil monoton wird."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Fährt sie?“",
+          "„Wenn Sie draufstehen.“",
+          "„Ich muss um sieben im Heim sein.“",
+          "„Das schaffen Sie.“",
+          "„Mit dem Auto müsste ich außenrum.“",
+          "„Ja.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, situationsgebunden und frei von erklärenden Monologen. Eine Straffung ist nicht nötig.",
+          "Den scheinbar beiläufigen Austausch über den Umweg beibehalten, sofern die soziale Distanz zwischen der gesprächsbereiten Frau und Ilse beabsichtigt ist."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse erkannte den Sprung im rechten Scheinwerfer, noch ehe der Fahrer das Licht abblendete.",
+          "Durch die Scheibe sah sie den Jungen mit dem Fuß gegen seinen Reifen drücken.",
+          "Ilse behielt die Anzeige im Blick."
+        ],
+        "suggestions": [
+          "Den Jungen unmittelbarer zeigen: „Draußen drückte der Junge mit dem Fuß gegen seinen Reifen.“ Falls die Scheibe räumlich wichtig ist: „Hinter der Scheibe drückte der Junge mit dem Fuß gegen seinen Reifen.“",
+          "„Ilse erkannte den Sprung …“ nicht automatisch streichen: Das Erkennen deutet Vertrautheit mit dem Transporter an und leistet mehr als eine bloße Wahrnehmungsvermittlung.",
+          "Blickhandlungen wie die Kontrolle der Anzeige erhalten, wenn sie Ilses berufliche Aufmerksamkeit zeigen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse wies ihm den Platz auf der linken Seite. Er kannte ihn, aber sie wies trotzdem.",
+          "Auf dem Blechdach sammelten sich Tropfen.",
+          "Ein Tropfen löste sich von der Dachkante und traf den Beutel.",
+          "Jonas.",
+          "Auf dem Display erschien sein Name ein zweites Mal, als müsste sie ihn erst lesen."
+        ],
+        "suggestions": [
+          "Die wiederholte Platzanweisung ist eine bewusste Charakterisierung von Ilses Beharren auf Abläufen, keine bloße Doppelung. Beibehalten.",
+          "Die Tropfen bilden ein stimmiges Feuchtigkeitsmotiv. Falls die Überfahrt insgesamt gestrafft werden soll, eine der späteren Tropfenbeobachtungen streichen, statt das Motiv vollständig aufzulösen.",
+          "Die Wiederholung des Namens am Schluss erzeugt Verzögerung und emotionale Spannung. Eher prüfen, ob der erklärende Zusatz „als müsste sie ihn erst lesen“ nötig ist; ohne ihn bliebe Ilses Reaktion offener."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.025654
+}

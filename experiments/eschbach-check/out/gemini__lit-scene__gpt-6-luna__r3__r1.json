@@ -1,0 +1,107 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__gpt-6-luna__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel klemmte, wie Schlüssel in alten Häusern klemmen: nicht ganz, nur so, dass man den Druck der eigenen Hand spürte."
+        ],
+        "suggestions": [
+          "Exzellenter Einstieg 'in medias res'. Die Szene beginnt genau im richtigen Moment, unmittelbar an der Schwelle zum Handlungsort, ohne unnötige Anreisebeschreibung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ein brauner Hausschuh, flach getreten, innen grau vom Staub.",
+          "Nur der Wasserhahn tropfte weiter, langsam, in die leere Spüle."
+        ],
+        "suggestions": [
+          "Die Adjektive sind fast durchweg präzise und sinnesorientiert gewählt. Lediglich im letzten Satz könnte man prüfen, ob 'langsam' und 'leere' gestrichen werden können ('Nur der Wasserhahn tropfte weiter in die Spüle'), da 'tropfen' bereits ein langsamer Vorgang ist und die Leere des Hauses schon etabliert wurde."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["„Ich bin’s“, sagte sie."],
+        "suggestions": [
+          "Da Mara allein im Raum ist, ist der Sprecher völlig klar. Das 'sagte sie' stört hier zwar rhythmisch nicht, könnte aber nach Eschbach problemlos gestrichen werden, um die Einsamkeit der Figur noch stärker zu betonen (Alternativ: „Ich bin’s.“ Das Haus antwortete nicht.)."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Im Schloss gab etwas nach.",
+          "Jetzt roch der Flur nach kalter Asche und etwas Süßlichem...",
+          "...die sich kaum bewegte."
+        ],
+        "suggestions": [
+          "Der Text ist bemerkenswert frei von klassischen Füllwörtern. Die wenigen unbestimmten Pronomen ('etwas') sind hier stilistisch gerechtfertigt, da sie Maras eingeschränkte Wahrnehmung spiegeln. 'Kaum' könnte eventuell durch ein präziseres Verb ersetzt werden (z.B. 'die im Wind zitterte')."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie trat ein und zog die Tür hinter sich zu.",
+          "Sie wartete, bis das Wasser klar wurde, und trank aus der hohlen Hand."
+        ],
+        "suggestions": [
+          "Hervorragende Umsetzung. Handlungen werden konsequent nacheinander beschrieben, es gibt keine verkrampften 'während'- oder 'als'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Möbel waren abgedeckt."],
+        "suggestions": [
+          "Es wird kein unnötiges Vorgangspassiv verwendet. Das einzige Zustandspassiv ('waren abgedeckt') ist hier vollkommen korrekt, da es den vorgefundenen Raum beschreibt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Sie ließ ihn liegen.", "Es schmeckte nach Metall.", "Sie sah hinauf."],
+        "suggestions": [
+          "Der Satzbau ist sehr klar, rhythmisch abwechslungsreich und frei von Schachtelsätzen. Kurze, prägnante Sätze sorgen für eine dichte Atmosphäre."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Ich bin’s“, sagte sie."],
+        "suggestions": [
+          "Der Text enthält nur einen einzigen, maximal verknappten Dialogsatz, der perfekt sitzt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "...nur so, dass man den Druck der eigenen Hand spürte.",
+          "...ein Monat im Jahr, das sie nicht mehr wusste.",
+          "Sie legte ihn auf die Fensterbank, ohne zu wissen, warum."
+        ],
+        "suggestions": [
+          "Wahrnehmungen werden fast durchgehend direkt geschildert (Es schmeckte nach Metall, statt: Sie schmeckte Metall). Im ersten Satz könnte das verallgemeinernde 'man ... spürte' noch direkter auf Mara bezogen werden. Die Stellen mit 'wissen' erklären die Innenwelt, anstatt sie rein über Handlung zu zeigen, fügen sich aber gut in den ruhigen Ton ein."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Schlüssel klemmte, wie Schlüssel in alten Häusern klemmen..."],
+        "suggestions": [
+          "Keine ungewollten Wortwiederholungen oder inhaltlichen Redundanzen vorhanden. Die Wiederholung im ersten Satz ist ein bewusstes und gelungenes Stilmittel. Jedes Detail trägt neue Informationen zur Atmosphäre bei."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.015818
+}

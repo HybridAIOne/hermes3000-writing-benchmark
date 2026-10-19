@@ -1,0 +1,117 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-schach-von-wuthenow-900",
+  "run": 2,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "In dem Salon der in der Behrenstraße wohnenden Frau von Carayon und ihrer Tochter Victoire waren an ihrem gewöhnlichen Empfangsabend einige Freunde versammelt..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr deskriptiv und langsam. Man könnte direkt mit einer Handlung oder einem konkreten Dialogfragment einsteigen, um den Leser schneller in die Szene zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "schönen Frau",
+          "starke Herr",
+          "feinste weiße Wäsche",
+          "lebhafte Gestikulationen"
+        ],
+        "suggestions": [
+          "Viele Adjektive sind schmückendes Beiwerk. Prüfen, ob die Substantive oder Verben allein stark genug sind (z.B. statt 'starker Herr' eine Beschreibung der physischen Präsenz)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["erwiderte Sander", "bestätigte Frau von Carayon", "lachte Bülow"],
+        "suggestions": [
+          "Die Marker sind weitgehend in Ordnung, könnten aber an einigen Stellen durch Handlungsbeschreibungen ersetzt werden, um den 'Sprechakt' natürlicher wirken zu lassen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["freilich", "eigentlich", "eben", "so zu sagen", "vielleicht"],
+        "suggestions": [
+          "Wörter wie 'freilich' oder 'eigentlich' verwässern die Aussage. Streichen, um die Sätze direkter und bestimmter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "unter gleichzeitigem scherzhaftem Bedauern",
+          "während Alvensleben der schönen Frau die Hand küßte",
+          "während ihm der... Rock... sein Embonpoint zusammenschnürte"
+        ],
+        "suggestions": [
+          "Die 'während'-Konstruktionen bremsen den Lesefluss. Handlungen sollten besser nacheinander oder durch klare Kausalität verknüpft werden."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "waren ... versammelt",
+          "war ... erschienen",
+          "wurde ... geführt",
+          "war ... angesehen"
+        ],
+        "suggestions": [
+          "Der Text ist sehr passivlastig. Aktive Verben machen die Szene dynamischer. Statt 'waren versammelt' lieber 'hatten sich versammelt'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Von den Offizieren des Regiments Gensdarmes, die selten an einem dieser Abende fehlten, war nur einer erschienen, ein Herr von Alvensleben, und hatte neben der schönen Frau vom Hause Platz genommen unter gleichzeitigem scherzhaftem Bedauern darüber, daß gerade der fehle, dem dieser Platz in Wahrheit gebühre."
+        ],
+        "suggestions": [
+          "Die Sätze sind extrem verschachtelt und lang. Diese sollten in kürzere, prägnantere Sätze aufgebrochen werden, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Der lange Monolog von Bülow über Hannover, England und die preußische Wirtschaft."
+        ],
+        "suggestions": [
+          "Der Monolog ist sehr lang und wirkt wie ein 'Infodump'. Er sollte durch Zwischenfragen oder Reaktionen der anderen Charaktere unterbrochen werden."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "schien sich um die kurz vorher beendete Haugwitzsche Mission zu drehen",
+          "man konnte jetzt deutlich erkennen"
+        ],
+        "suggestions": [
+          "Direkter formulieren: Nicht 'schien sich zu drehen', sondern 'Das Gespräch drehte sich um...'. Das macht die Wahrnehmung unmittelbarer."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Morgengabe (wird mehrfach aufgegriffen)",
+          "Wiederholungen in der Beschreibung der politischen Meinung"
+        ],
+        "suggestions": [
+          "Einige Begriffe werden zu nah beieinander wiederholt. Hier auf Synonyme ausweichen oder die Passage straffen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

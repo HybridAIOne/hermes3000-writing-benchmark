@@ -1,0 +1,130 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Die Szene setzt an der Tür mit „Hallo.“ – „Hallo.“ ein, unmittelbar vor dem Konflikt.",
+          "Der Ortswechsel von Flur zu Küche erfolgt ohne Überleitung, direkt nach „(tritt zur Seite)“."
+        ],
+        "suggestions": [
+          "Der Einstieg ist knapp und funktional: Das gespiegelte „Hallo“ etabliert die Distanz und sollte bleiben.",
+          "Optional ließe sich die Szene direkt mit „Die wollte ich dir noch zurückbringen.“ beginnen, allerdings ginge dabei die Verlegenheit des doppelten Grußes verloren. Die jetzige Fassung ist daher vorzuziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„(leise) Ich weiß.“",
+          "„THOMAS greift nach der gesprungenen Tasse.“",
+          "„Die Regale im Flur hängen schief.“"
+        ],
+        "suggestions": [
+          "Adjektive werden sparsam und präzise eingesetzt. „gesprungenen“ ist durch „Eine hat einen Sprung“ bereits etabliert, daher würde „THOMAS greift nach der Tasse mit dem Sprung“ oder schlicht „nach ihr“ genügen.",
+          "„(leise)“ kann entfallen. Der Satz „Ich weiß.“ trägt nach Pauls Spitze die Zurücknahme bereits in sich."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„THOMAS: (leise) Ich weiß.“",
+          "„PAUL: (nach einer Weile) Die Regale im Flur hängen schief.“",
+          "„THOMAS: (sieht auf die Bohrmaschine) Ob es hier noch was zu reparieren gibt.“"
+        ],
+        "suggestions": [
+          "Im Szenenformat sind die Sprecherangaben notwendig. Die Regieanweisungen sind überwiegend handlungsbezogen und spielbar.",
+          "„(nach einer Weile)“ lässt sich durch ein eigenes „Pause.“ ersetzen. Das entspräche der bereits etablierten Form und wäre für Regie und Schauspieler eindeutiger."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Hab sie gar nicht vermisst.“",
+          "„Ich hab sie kaum benutzt.“",
+          "„Hat ja auch keiner mehr geklingelt.“",
+          "„Ich werf nichts weg, nur weil es mal Ärger macht.“"
+        ],
+        "suggestions": [
+          "Die Abtönungspartikeln („gar“, „ja auch“, „mal“, „noch“) gehören zur gesprochenen Figurenrede und erzeugen Natürlichkeit. Sie sind keine Schwäche der Erzählstimme.",
+          "„sowieso“ wird bewusst als Pointe wiederaufgenommen („Ich mach nie sowieso welchen.“) und funktioniert. Prüfenswert ist nur „Hat ja auch keiner mehr geklingelt“: „Hat ja keiner mehr geklingelt“ wäre noch eine Spur trockener."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Sie trinken. Draußen fährt ein Zug vorbei.“",
+          "„Stille. THOMAS greift nach der gesprungenen Tasse.“"
+        ],
+        "suggestions": [
+          "Keine Konstruktionen mit „während“, „als“ oder „gleichzeitig“. Die Handlungen sind konsequent nacheinander in kurzen Hauptsätzen angeordnet. So beibehalten."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„THOMAS legt die Bohrmaschine auf den Tisch.“",
+          "„PAUL schiebt ihm die Zuckerdose hin.“"
+        ],
+        "suggestions": [
+          "Keine Passivsätze. Alle Regieanweisungen sind aktiv und an konkrete Figuren gebunden. Kein Änderungsbedarf."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Längster Satz: „Willst du reinkommen, oder ist das hier eine Übergabe?“",
+          "„Ich hab mich dran gewöhnt, dass sie leckt.“"
+        ],
+        "suggestions": [
+          "Die Sätze sind durchgehend kurz und sprechbar, ohne Verschachtelung. Die Kürze passt zur Sprachlosigkeit der Figuren. Kein Änderungsbedarf."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„THOMAS: Neue Klingel. / PAUL: Die alte ging nicht mehr. Hat ja auch keiner mehr geklingelt. / THOMAS: Sieht gut aus.“",
+          "„THOMAS: Die hab ich dir geschenkt. / PAUL: Kann sein. / THOMAS: Zum Dreißigsten.“"
+        ],
+        "suggestions": [
+          "Die Wechsel sind knapp und subtextreich, keine Replik ist zu lang.",
+          "Einzig „Sieht gut aus.“ wirkt nach Pauls Spitze etwas schwach. Hier wäre ein stummes Nicken oder eine Pause stärker, oder die Zeile entfällt und Paul setzt direkt mit „Willst du reinkommen …“ fort."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„PAUL schiebt ihm die Zuckerdose hin. Zwei Löffel, wie früher.“"],
+        "suggestions": [
+          "Es gibt keine Konstruktionen wie „er sah, dass …“ oder „er dachte, dass …“. Gefühle werden über Handlung und Dialog gezeigt.",
+          "„wie früher“ ist allerdings ein Erzählerkommentar, der auf der Bühne nicht spielbar ist. Besser wäre es, das Detail früher als Handlung zu etablieren, etwa indem Thomas sich anfangs selbst zwei Löffel nimmt. Dann versteht das Publikum die Geste ohne Kommentar."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Das Motiv „altes, beschädigtes Ding“ erscheint fünfmal: Bohrmaschine, Klingel („Die alte ging nicht mehr“), Kaffeemaschine („Immer noch die alte“), Tasse mit Sprung, schiefe Regale.",
+          "„Ich werf nichts weg, nur weil es mal Ärger macht.“ und „Ich hab mich dran gewöhnt, dass sie leckt.“ formulieren denselben Subtext (Paul hält trotz Kränkung an der Freundschaft fest).",
+          "„Hat ja auch keiner mehr geklingelt.“ und „Hab sie gar nicht vermisst.“ transportieren ebenfalls denselben Vorwurf."
+        ],
+        "suggestions": [
+          "Die Motivkette ist bewusst gebaut, droht aber überdeutlich zu werden. Ein Objekt zu streichen (am ehesten die Klingel oder die Kaffeemaschine) würde die verbleibenden Symbole schärfen.",
+          "Nur eine der beiden Repliken über das Festhalten trotz Ärger behalten. Die Tassen-Zeile ist konkreter und stärker, die Kaffeemaschinen-Zeile könnte zu einem bloßen „Läuft noch.“ verkürzt werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.088424
+}

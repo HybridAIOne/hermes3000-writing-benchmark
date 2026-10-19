@@ -1,0 +1,131 @@
+{
+  "who": "sol",
+  "item": "anchor__mann-der-tod-in-venedig-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "„Gustav Aschenbach oder von Aschenbach, wie seit seinem fünfzigsten Geburtstag amtlich sein Name lautete“",
+          "„und erwartete, da er sich müde fühlte und über Föhring Gewitter drohte, am Nördlichen Friedhof die Tram“"
+        ],
+        "suggestions": [
+          "Für einen unmittelbareren Einstieg mit Aschenbachs Warten am Friedhof beginnen. Erschöpfung, Gewitter und menschenleere Umgebung erzeugen bereits Spannung.",
+          "Adelstitel, Arbeitsvormittag und Spazierroute bei Bedarf später einflechten. Der gegenwärtige Einstieg erfüllt allerdings eine erkennbare Funktion: Er etabliert gesellschaftlichen Rang, Arbeitsdisziplin und Erschöpfung der Figur."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "„der schwierigen und gefährlichen, eben jetzt eine höchste Behutsamkeit, Umsicht, Eindringlichkeit und Genauigkeit des Willens erfordernden Arbeit“",
+          "„zu einem ersprießlichen Abend“",
+          "„nach naßkalten Wochen, ein falscher Hochsommer“"
+        ],
+        "suggestions": [
+          "Vor allem die Attributkette vor „Arbeit“ entlasten, etwa: „Die Arbeit des Vormittags hatte ihn überreizt. Sie verlangte höchste Konzentration.“ Dabei prüfen, welche Bedeutungsnuancen erhalten bleiben müssen.",
+          "Charakteristische, atmosphärisch tragende Attribute wie „falscher Hochsommer“ bewahren. Nicht die Wortart an sich, sondern ihre jeweilige Leistung entscheidet über eine Kürzung."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung erforderlich: Der Ausschnitt enthält keine Dialoge und damit keine überflüssigen Redeeinleitungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„eben jetzt“",
+          "„obgleich nur erst zart belaubt“",
+          "„eine kleine Weile“",
+          "„einige Droschken und Equipagen“"
+        ],
+        "suggestions": [
+          "„eben jetzt“ gegebenenfalls auf „jetzt“, „nur erst“ auf „erst“ und „eine kleine Weile“ auf „kurz“ reduzieren.",
+          "Unbestimmte Mengenangaben nicht automatisch durch Zahlen ersetzen: Die genaue Zahl der Droschken ist hier unerheblich; „einige“ unterstützt den beiläufigen Überblick."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„auch nach der Mittagsmahlzeit nicht Einhalt zu tun vermocht und den entlastenden Schlummer nicht gefunden“",
+          "„hatte von dort bei sinkender Sonne seinen Heimweg außerhalb des Parks über die offene Flur genommen und erwartete, da er sich müde fühlte und über Föhring Gewitter drohte, am Nördlichen Friedhof die Tram“"
+        ],
+        "suggestions": [
+          "Eine Häufung von „während“, „als“ oder „gleichzeitig“ liegt nicht vor. Die zeitliche Orientierung wird eher durch verschachtelte Rückblicke erschwert.",
+          "Den Übergang von der Vorgeschichte zur gegenwärtigen Szene durch einen Satzwechsel verdeutlichen: „Bei sinkender Sonne trat er den Heimweg an. Nun wartete er am Nördlichen Friedhof auf die Tram.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„hatte der Schriftsteller dem Fortschwingen des produzierenden Triebwerks in seinem Innern […] nicht Einhalt zu tun vermocht“",
+          "„war ein Fuhrwerk zu sehen“"
+        ],
+        "suggestions": [
+          "Keine systematische Aktivierung nötig: Der Ausschnitt enthält keine auffälligen Vorgangspassive.",
+          "„War […] zu sehen“ ist kein gewöhnliches werden-Passiv. Die Formulierung dient hier der Beschreibung eines menschenleeren Blickfelds und muss nicht durch einen handelnden Beobachter ersetzt werden."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Der erste Satz verbindet Namensvariante, Geburtstag, Jahresangabe, politische Vorausdeutung, Wohnadresse und Spaziergang.",
+          "„Überreizt von der schwierigen und gefährlichen […] Arbeit der Vormittagsstunden, hatte der Schriftsteller […]“",
+          "„Weder auf der gepflasterten Ungererstraße […] noch auf der Föhringer Chaussee […]“ bis „im Abglanz des scheidenden Tages“."
+        ],
+        "suggestions": [
+          "Für eine leichter lesbare Fassung den ersten Satz nach der Namensinformation teilen und die Jahrescharakterisierung auslagern.",
+          "Im zweiten Satz Arbeitsbelastung, fortwirkenden Schaffensdrang und ausgebliebenen Schlaf auf mehrere Sätze verteilen.",
+          "Den letzten Satz gegebenenfalls nach „war ein Fuhrwerk zu sehen“ teilen. Seine gegenwärtige Länge ist allerdings auch ein Gestaltungsmittel: Sie führt den Blick langsam durch die unbelebte Umgebung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Straffung erforderlich: Es gibt keine Dialogpassagen. Die hohe Informationsdichte entsteht durch Erzählerbericht und Beschreibung."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„hatte Aschenbach eine kleine Weile den volkstümlich belebten Wirtsgarten überblickt“",
+          "„Zufällig fand er den Halteplatz und seine Umgebung von Menschen leer.“",
+          "„da er sich müde fühlte“"
+        ],
+        "suggestions": [
+          "Den Wahrnehmungsfilter bei Bedarf entfernen: „Der Halteplatz und seine Umgebung waren menschenleer.“ Dadurch tritt das Bild unmittelbarer hervor.",
+          "„Den Wirtsgarten überblickt“ bezeichnet auch eine Handlung, „sich müde fühlte“ einen körperlichen Zustand. Beides ist nicht automatisch eine entbehrliche Wahrnehmungsumschreibung."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Behutsamkeit, Umsicht, Eindringlichkeit und Genauigkeit des Willens“",
+          "„von Menschen leer“, „war ein Fuhrwerk zu sehen“ im verneinten Satz, „regte sich nichts“ und „lag schweigend“",
+          "„stillere und stillere Wege“"
+        ],
+        "suggestions": [
+          "Die begrifflich verwandten Anforderungen an die Arbeit auf die für Aschenbachs Charakterisierung wichtigsten Ausdrücke begrenzen.",
+          "Bei stärker handlungsorientierter Ausrichtung eine der mehrfachen Leerstands- und Stillebeschreibungen streichen.",
+          "Bewusste Wiederholungen differenziert behandeln: „stillere und stillere“ bildet eine Steigerung; die wiederholte Unbelebtheit verdichtet die Friedhofsatmosphäre und ist nicht bloß redundante Information."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021368
+}

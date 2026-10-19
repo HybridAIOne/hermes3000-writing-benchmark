@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-opus-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur noch glaubte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch dicht und etabliert sofort die Stimmung und den Ort. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["nass und schwarz", "dünnes, kratziges Geräusch"],
+        "suggestions": [
+          "Die Adjektive sind wohl dosiert und dienen der Atmosphäre, nicht der Dekoration. Beibehalten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Moin, Ilse.“ / „Moin.“"],
+        "suggestions": [
+          "Die Dialoge sind sehr reduziert und kommen ohne unnötige 'sagte er'-Zusätze aus. Vorbildlich."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["irgendwoher", "vielleicht (nicht vorhanden)"],
+        "suggestions": ["Der Text ist sehr präzise. Kaum Füllwörter vorhanden."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Während der Überfahrt hielt er sich mit beiden Händen am Geländer fest"],
+        "suggestions": [
+          "Das 'Während' ist hier akzeptabel, da es eine längere Handlung beschreibt. Alternativ: 'Auf der Überfahrt klammerte er sich...' für mehr Dynamik."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Fähre setzte sich in Bewegung"],
+        "suggestions": ["Der Text ist fast durchgehend aktiv formuliert. Sehr gut."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur noch glaubte."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind abwechslungsreich und unterstützen den Rhythmus der Arbeit auf der Fähre."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Die Bremse“, sagte Ilse. / Das Mädchen nahm einen Kopfhörer heraus. „Was?“"],
+        "suggestions": ["Die Dialoge sind kurz, knackig und charakterisierend. Perfekt gestrafft."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie hörte zu, wie die Elbe...", "Sie sah zu, wie sein Name aufleuchtete"],
+        "suggestions": [
+          "Die Wahrnehmungsfilter ('Sie hörte', 'Sie sah') sind sparsam. Man könnte sie noch weiter reduzieren: Statt 'Sie hörte zu, wie die Elbe schob' -> 'Die Elbe schob sich am Ponton entlang.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie schrieb ihn ins Buch.", "Sie schrieb das Datum..."],
+        "suggestions": [
+          "Die Wiederholungen sind hier ein stilistisches Mittel, um die Routine der Arbeit zu unterstreichen. Das ist sehr effektiv."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

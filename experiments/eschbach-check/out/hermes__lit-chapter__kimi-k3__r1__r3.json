@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__kimi-k3__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag um fünf Uhr morgens noch nicht auf dem Fluss."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und setzt sofort die Stimmung. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["leise Tropfen", "kalt und nass"],
+        "suggestions": ["Sehr dosierter und präziser Einsatz von Adjektiven. Beibehalten."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Morgen, Peters.“ / „Morgen, Frau Brandt.“"],
+        "suggestions": ["Vorbildlich reduziert. Die Sprecher sind durch den Kontext klar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["vielleicht schon richtig Tag war"],
+        "suggestions": ["Der Text ist nahezu frei von unnötigen Füllwörtern. Sehr sauber."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["während sie sie sah (implizit)"],
+        "suggestions": [
+          "Der Text vermeidet 'während' weitgehend und beschreibt Handlungen nacheinander. Sehr gut."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["die Fähre an ihrem Ufer vertäut war"],
+        "suggestions": [
+          "Passiv wird nur dort eingesetzt, wo es den Zustand beschreibt. Das ist stilistisch korrekt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Er kam erst mit dem Grauen, kroch aus den Wiesen am Wendlandufer hinauf und legte sich über das Wasser, als hätte die Elbe in der Nacht geatmet und vergessen, den Atem wieder einzuziehen."
+        ],
+        "suggestions": [
+          "Die langen Sätze sind rhythmisch gut gesetzt und unterstützen den Lesefluss. Keine Kürzung erforderlich."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Sollen wir teurer werden?“ / „Nee, nee.“"],
+        "suggestions": [
+          "Dialoge sind knackig, charakterisierend und auf das Wesentliche reduziert."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Sie sah auf das Wort, bis das Summen aufhörte."],
+        "suggestions": [
+          "Keine 'er sah, dass'-Konstruktionen gefunden. Die Wahrnehmung ist direkt und unmittelbar."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Glied um Glied"],
+        "suggestions": [
+          "Die Wiederholung ist hier ein bewusstes, poetisches Stilmittel (Leitmotiv) und kein Fehler."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

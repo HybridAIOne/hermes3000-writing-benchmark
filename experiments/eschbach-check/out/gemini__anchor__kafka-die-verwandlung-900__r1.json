@@ -1,0 +1,144 @@
+{
+  "who": "gemini",
+  "item": "anchor__kafka-die-verwandlung-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt."
+        ],
+        "suggestions": [
+          "Perfekter Einstieg 'in medias res'. Das auslösende Ereignis steht im allerersten Satz. Hier gibt es nichts zu kürzen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "panzerartig harten Rücken",
+          "gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch",
+          "im Vergleich zu seinem sonstigen Umfang kläglich dünnen Beine flimmerten ihm hilflos vor den Augen",
+          "einen noch nie gefühlten, leichten, dumpfen Schmerz",
+          "ein immer wechselnder, nie andauernder, nie herzlich werdender menschlicher Verkehr"
+        ],
+        "suggestions": [
+          "Nach modernen Maßstäben gibt es hier massive Adjektivhäufungen. Statt 'panzerartig harten Rücken' könnte das Substantiv 'Rückenpanzer' genutzt werden.",
+          "Mehrfachattribute wie 'leichten, dumpfen Schmerz' auf das treffendste Adjektiv reduzieren (z. B. 'ein dumpfes Ziehen')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "»Was ist mit mir geschehen?« dachte er.",
+          "»Wie wäre es, wenn ich noch ein wenig weiterschliefe und alle Narrheiten vergäße,« dachte er",
+          "»Ach Gott,« dachte er",
+          "»Dies frühzeitige Aufstehen«, dachte er",
+          "»Himmlischer Vater!« dachte er"
+        ],
+        "suggestions": [
+          "Da Gregor allein im Zimmer ist, ist das ständige 'dachte er' redundant.",
+          "Direkte Gedanken können kursiv gesetzt oder nahtlos in die erlebte Rede (wie im letzten Absatz bereits meisterhaft umgesetzt) integriert werden, um die Inquit-Formeln zu streichen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "wenn er den Kopf ein wenig hob",
+          "nur etwas zu kleines Menschenzimmer",
+          "machte ihn ganz melancholisch",
+          "aber das war gänzlich undurchführbar",
+          "durchaus nicht besonders frisch",
+          "tatsächlich ... wirklich ... ganz wohl ... besonders kräftigen"
+        ],
+        "suggestions": [
+          "Weichmacher und Verstärker ('ein wenig', 'etwas', 'ganz', 'gänzlich', 'besonders', 'tatsächlich', 'wirklich') schwächen die Prosa. Sie sollten gestrichen werden, sofern sie nicht bewusst zur Charakterisierung von Gregors Zögerlichkeit dienen.",
+          "Beispiel: 'machte ihn melancholisch' ist stärker als 'machte ihn ganz melancholisch'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich...",
+          "und ließ erst ab, als er in der Seite ... Schmerz zu fühlen begann."
+        ],
+        "suggestions": [
+          "Die Handlungen sind sauber chronologisch aufgebaut. Die wenigen 'als'-Konstruktionen sind völlig natürlich und stören den Lesefluss nicht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war",
+          "außerdem ist mir noch diese Plage des Reisens auferlegt",
+          "die Hoffnung ist noch nicht gänzlich aufgegeben",
+          "Dann wird der große Schnitt gemacht."
+        ],
+        "suggestions": [
+          "Zustands- und Vorgangspassiv spiegeln hier zwar gut Gregors Gefühl der Ohnmacht wider, nehmen dem Text aber stellenweise die Dynamik.",
+          "Aktive Alternativen prüfen: 'Ich habe die Hoffnung noch nicht aufgegeben' und 'Dann mache ich den großen Schnitt'."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Er lag auf seinem panzerartig harten Rücken und sah, wenn er den Kopf ein wenig hob, seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch, auf dessen Höhe sich die Bettdecke, zum gänzlichen Niedergleiten bereit, kaum noch erhalten konnte.",
+          "Über dem Tisch, auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war -- Samsa war Reisender --, hing das Bild, das er vor kurzem aus einer illustrierten Zeitschrift ausgeschnitten und in einem hübschen, vergoldeten Rahmen untergebracht hatte.",
+          "Er fühlte ein leichtes Jucken oben auf dem Bauch; schob sich auf dem Rücken langsam näher zum Bettpfosten, um den Kopf besser heben zu können; fand die juckende Stelle, die mit lauter kleinen weißen Pünktchen besetzt war, die er nicht zu beurteilen verstand; und wollte mit einem Bein die Stelle betasten, zog es aber gleich zurück, denn bei der Berührung umwehten ihn Kälteschauer."
+        ],
+        "suggestions": [
+          "Der Text wimmelt von extrem langen Schachtelsätzen, Einschüben und Relativsatz-Ketten.",
+          "Nach Eschbachs Kriterien sollten diese Bandwurmsätze dringend geteilt werden. Beispiel: 'Über dem Tisch hing ein Bild in einem vergoldeten Rahmen. Gregor hatte es vor kurzem aus einer Illustrierten ausgeschnitten. Darunter lag seine ausgebreitete Musterkollektion – Samsa war Tuchreisender.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "»Dies frühzeitige Aufstehen«, dachte er, »macht einen ganz blödsinnig. [...] Vorläufig allerdings muß ich aufstehen, denn mein Zug fährt um fünf.« (14 Sätze am Stück)"
+        ],
+        "suggestions": [
+          "Obwohl es sich um einen inneren Monolog handelt, wirkt der Block im fünften Absatz wie ein zu langer Dialog.",
+          "Den Gedankenstrom durch körperliche Reaktionen oder kleine Handlungen im Bett unterbrechen, um die Szene lebendiger zu halten."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "fand er sich ... verwandelt",
+          "und sah, wenn er den Kopf ein wenig hob, seinen ... Bauch",
+          "Gregors Blick richtete sich dann zum Fenster",
+          "man hörte Regentropfen auf das Fensterblech aufschlagen",
+          "Er fühlte ein leichtes Jucken",
+          "Man sah vom Bett aus, daß er auf vier Uhr richtig eingestellt war"
+        ],
+        "suggestions": [
+          "Wahrnehmungsverben ('sah', 'hörte', 'fühlte') und unpersönliche 'Man'-Konstruktionen schaffen Distanz zum Protagonisten.",
+          "Direkter zeigen (Show, don't tell): Statt 'man hörte Regentropfen ... aufschlagen' besser direkt: 'Regentropfen schlugen auf das Fensterblech.' Statt 'Er fühlte ein leichtes Jucken' besser: 'Oben auf dem Bauch juckte es leicht.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...einen noch nie gefühlten, leichten, dumpfen Schmerz zu fühlen begann.",
+          "Mit einem Pelzhut und einer Pelzboa versehen ... einen schweren Pelzmuff"
+        ],
+        "suggestions": [
+          "Inhaltlich gibt es keine unnötigen Doppelungen, aber auf Wortebene fällt 'gefühlt / fühlen' im selben Satz negativ auf.",
+          "Vorschlag: '...als in seiner Seite ein unbekannter, dumpfer Schmerz einsetzte.' (Die Wiederholung von 'Pelz-' ist hingegen als Stilmittel erkennbar und akzeptabel)."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.024718
+}

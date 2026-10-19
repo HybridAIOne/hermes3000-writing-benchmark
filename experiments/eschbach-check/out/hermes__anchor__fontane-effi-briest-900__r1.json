@@ -1,0 +1,100 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-effi-briest-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Der gesamte erste Absatz beschreibt die Architektur und Umgebung, bevor eine handelnde Figur auftritt."
+        ],
+        "suggestions": [
+          "Den Einstieg straffen. Direkt mit den handelnden Personen oder einer konkreten Handlung beginnen, anstatt das Herrenhaus so detailliert zu beschreiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "weiß und grün quadrierten Fliesengang",
+          "kleinblättrigem Efeu",
+          "kunstgerechten Beugungen"
+        ],
+        "suggestions": [
+          "Adjektive reduzieren, die nur schmückendes Beiwerk sind. Stärkere Verben wählen, um die Umgebung lebendiger zu machen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["rief", "sagte (impliziert)"],
+        "suggestions": ["Die Dialogkennzeichnungen sind unauffällig und gut platziert."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["doch wohl", "eigentlich", "eben", "mitunter"],
+        "suggestions": [
+          "Füllwörter wie 'eigentlich' oder 'wohl' streichen, um die Dialoge direkter und druckvoller zu gestalten."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "während nach der Park- und Gartenseite hin...",
+          "während die Mutter kein Auge von der Arbeit ließ"
+        ],
+        "suggestions": [
+          "Sätze mit 'während' auflösen. Handlungen nacheinander beschreiben, um den Lesefluss zu beschleunigen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["wurde die Gartenseite ganz entschieden bevorzugt", "man ... gewahr wurde"],
+        "suggestions": [
+          "Passivkonstruktionen in Aktiv umwandeln (z.B. 'bevorzugte man die Gartenseite')."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Der erste Absatz besteht aus extrem langen, verschachtelten Sätzen mit vielen Nebensätzen."
+        ],
+        "suggestions": [
+          "Lange Sätze in kürzere, prägnantere Einheiten aufbrechen, um die Lesbarkeit für ein modernes Publikum zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Effis Monolog über das Kunstreiten."],
+        "suggestions": [
+          "Die Dialoglänge ist charakterisierend und angemessen, hier besteht kein akuter Änderungsbedarf."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Es war ersichtlich, daß sie sich... hingab", "man ... gewahr wurde"],
+        "suggestions": [
+          "'Show, don't tell'. Statt zu schreiben, dass etwas ersichtlich war, die körperlichen Anzeichen der Übungen direkt beschreiben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Wiederholung von 'Mama' und 'Effi' im Dialog."],
+        "suggestions": [
+          "Die inhaltlichen Wiederholungen halten sich in Grenzen und dienen hier eher der Charakterisierung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

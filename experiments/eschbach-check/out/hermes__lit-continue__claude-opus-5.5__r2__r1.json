@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-opus-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Er läuft“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist gelungen, da er direkt in die Handlung und den Konflikt führt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["leise Singen", "weiches Leder"],
+        "suggestions": [
+          "Die Adjektive sind meist passend. 'Leise' könnte gestrichen werden, wenn das 'Singen' des Seils bereits als sanftes Geräusch etabliert ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["sagte Ilse", "sagte Jonas"],
+        "suggestions": ["Die Kennzeichnungen sind sparsam und effektiv eingesetzt."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["ein wenig", "irgendeinen", "ein paar"],
+        "suggestions": [
+          "'Ein wenig' beim Geruch des Regens streichen; 'ein paar Tage' durch eine konkretere Zeitangabe oder 'einige Tage' ersetzen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine übermäßige Verwendung von 'während'."],
+        "suggestions": ["Die Abfolge der Handlungen ist klar und direkt."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Er läuft", "Sie ging"],
+        "suggestions": ["Der Text ist sehr aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Der Satz über Henning ist etwas länger, aber gut strukturiert."],
+        "suggestions": ["Der Rhythmus ist angenehm, keine Kürzungen notwendig."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Dialoge sind kurz und prägnant."],
+        "suggestions": ["Beibehalten, da sie den Charakter der Figuren gut unterstreichen."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Ilse wusste, dass das etwas bedeutete", "Sie dachte an das Bett"],
+        "suggestions": [
+          "Statt 'Sie wusste, dass...' oder 'Sie dachte an...', die Gedanken und Gefühle durch Handlungen oder körperliche Reaktionen zeigen (Show, don't tell)."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Er läuft (wiederholt)"],
+        "suggestions": [
+          "Die Wiederholung von 'Er läuft' ist ein stilistisches Mittel und daher passend."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

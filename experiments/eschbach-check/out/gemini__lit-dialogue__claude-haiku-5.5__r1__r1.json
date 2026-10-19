@@ -1,0 +1,112 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "PETER: Du bist früher gekommen. / HANNA: Ich war nicht sicher, ob du kommst.",
+          "HANNA: Willst du etwas bestellen?"
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr atmosphärisch und das Behalten des Mantels zeigt sofort die emotionale Distanz. Nach strengsten Maßstäben des 'Late in, early out' könnte die Szene jedoch direkt nach der Bestellung oder beim Austausch der Höflichkeiten ('Du siehst gut aus') einsetzen, um noch schneller zum Kern des Konflikts zu kommen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie lächelt traurig und schiebt ihm die Tasse zu.",
+          "PETER: (nach langer Pause)"
+        ],
+        "suggestions": [
+          "Der Text ist extrem diszipliniert und verzichtet fast völlig auf schmückende Beiwerte. Einzig 'lächelt traurig' ist ein klassisches Adverb, das erklärt statt zeigt ('Tell' statt 'Show'). Vorschlag: 'Sie verzieht kurz die Mundwinkel' oder einfach nur 'Sie lächelt', da die Traurigkeit aus dem Kontext ohnehin glasklar hervorgeht."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "PETER: Du bist früher gekommen.",
+          "HANNA: Ich war nicht sicher, ob du kommst."
+        ],
+        "suggestions": [
+          "Durch das gewählte Drehbuch-/Theaterformat entfallen prosaische Inquits ('sagte er') komplett. Sollte der Text in Prosa umgewandelt werden, sind die Sprecher durch die präzisen Handlungs-Beats (*Er trinkt*, *Sie zögert*) bereits so gut verankert, dass auch dort keine Dialogkennzeichnungen nötig wären."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["HANNA:Willst du etwas bestellen?", "PETER: Wir schweigen doch beide."],
+        "suggestions": [
+          "Keine Füllwörter in den beschreibenden Passagen (Regieanweisungen) vorhanden. Die wenigen Partikel in der wörtlichen Rede ('etwas', 'doch') klingen absolut natürlich und unterstützen den realistischen Tonfall."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "HANNA sitzt bereits am Tisch, als PETER hereinkommt.",
+          "Er setzt sich, ohne den Mantel auszuziehen."
+        ],
+        "suggestions": [
+          "Fast alle Handlungen werden sauber nacheinander beschrieben. Den ersten Satz könnte man noch strikter trennen: 'Hanna sitzt bereits am Tisch. Peter kommt herein und bleibt in der Tür stehen.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["HANNA: Der alte war durchgescheuert. (Zustandspassiv im Dialog)"],
+        "suggestions": [
+          "Exzellent. Der gesamte Text ist hochgradig aktiv formuliert. Es gibt keine unnötigen Passivkonstruktionen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ein Café am Bahnhof. Regen am Fenster.",
+          "Er trinkt. Sein Blick bleibt auf ihr."
+        ],
+        "suggestions": [
+          "Der Satzbau ist verknappt, rhythmisch und prägnant. Es gibt keinerlei Schachtelsätze. Die Kürze der Sätze spiegelt hervorragend die emotionale Angespanntheit der Figuren wider."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["HANNA: Ich habe dich gebeten zu kommen. Nicht zu schweigen."],
+        "suggestions": [
+          "Ein Paradebeispiel für gelungene, knappe Dialoge. Keine Zeile ist länger als zwei kurze Sätze. Die gesamte Spannung entsteht durch den Subtext und das, was *nicht* gesagt wird."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie greift in die Manteltasche, lässt die Hand dort liegen.",
+          "Draußen fährt ein Bus vorbei."
+        ],
+        "suggestions": [
+          "Keine Filterwörter ('er sah', 'sie spürte') vorhanden. Alles wird streng von außen durch unmittelbar sichtbare Handlungen und Reaktionen gezeigt (reines 'Show, don't tell')."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "HANNA: Welchen? / PETER: Du weißt welchen.",
+          "PETER: Sie fragt nach dir. [...] Sie fragt nach allem, was sie nicht versteht."
+        ],
+        "suggestions": [
+          "Es gibt keine unfreiwilligen Redundanzen. Wo sich Wörter im Dialog wiederholen ('Welchen?', 'Sie fragt'), handelt es sich um ein bewusst und sehr effektiv eingesetztes rhetorisches Stilmittel (Schlagabtausch)."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016036
+}

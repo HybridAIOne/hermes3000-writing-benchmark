@@ -1,0 +1,138 @@
+{
+  "who": "opus",
+  "item": "lit-scene__gemini-4-argon__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel fasste erst beim dritten Versuch.",
+          "Der Einstieg zeigt eine konkrete Handlung und vermeidet Vorgeschichte. Anreise, Erinnerungen und Erklärungen fehlen."
+        ],
+        "suggestions": [
+          "Der Einstieg funktioniert. Möglich wäre ein Beginn direkt mit dem Schmatzen der Tür. Das Haken des Schlüssels zeigt aber schon den Widerstand des Hauses und sollte bleiben.",
+          "Der erste Absatz könnte etwas straffer sein, damit Clara schneller im Flur steht."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "blasses, graues Licht",
+          "ein tiefes, hohles Röcheln",
+          "unnatürlich laut klang",
+          "leckte gedankenverloren über die Fingerkuppen",
+          "Es schmeckte scharf und unverkennbar nach bitteren Mandeln.",
+          "feuchten Herbststille ... feuchtem Kalk"
+        ],
+        "suggestions": [
+          "Doppelte Adjektive auf eines reduzieren: 'graues Licht' oder 'fahles Licht'; 'ein hohles Röcheln'.",
+          "'unnatürlich laut klang' durch ein präziseres Verb ersetzen, z. B. 'das in der Herbststille des Vorgartens hallte'.",
+          "'gedankenverloren' streichen. Die Geste selbst zeigt die Abwesenheit.",
+          "Beim Schlusssatz 'unverkennbar' streichen: 'Es schmeckte nach bitteren Mandeln.' Die Pointe wirkt ohne Zusatz stärker.",
+          "Die übrigen Adjektive tragen die Atmosphäre und sind überwiegend gut gewählt ('aufgequollenen Holzrahmen', 'rostbrauner Brühe')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Text enthält keinen Dialog und daher keine Redeeinleitungen."],
+        "suggestions": ["Kein Handlungsbedarf."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie war um einige Grad kälter als draußen",
+          "die irgendwo im Keller vergessen worden waren",
+          "Als das Wasser schließlich klar wurde",
+          "an der noch immer der graue Lodenmantel hing"
+        ],
+        "suggestions": [
+          "'um einige Grad kälter' sinnlich konkretisieren: 'Sie war kälter als draußen' oder 'Ihr Atem wurde sichtbar'.",
+          "'schließlich' streichen: 'Als das Wasser klar wurde, ...'",
+          "'irgendwo' kann bleiben, weil es Claras Unwissen spiegelt. 'noch immer' ist bedeutungstragend und ebenfalls vertretbar."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als das Wasser schließlich klar wurde, hielt Clara die Finger darunter.",
+          "als müsste sie sich erst von dem aufgequollenen Holzrahmen lösen"
+        ],
+        "suggestions": [
+          "Die Handlungen folgen sauber aufeinander. Das zweite 'als' ist ein Vergleich und keine Gleichzeitigkeit.",
+          "Optional den temporalen Nebensatz auflösen: 'Das Wasser wurde klar. Clara hielt die Finger darunter.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Äpfeln, die irgendwo im Keller vergessen worden waren",
+          "seit der Sarg durch genau diesen schmalen Gang getragen worden war"
+        ],
+        "suggestions": [
+          "Die Äpfel aktiv formulieren: 'von Äpfeln, die irgendwo im Keller faulten'. Das ist kürzer und sinnlicher.",
+          "Beim Sarg ist das Passiv vertretbar, weil die Träger unwichtig sind. Alternativ: 'seit sie den Sarg durch diesen schmalen Gang getragen hatten'."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Kein Staubtuch hatte diese Oberflächen berührt, seit der Sarg durch genau diesen schmalen Gang getragen worden war, vorbei an der Garderobe, an der noch immer der graue Lodenmantel hing – formlos wie eine abgelegte Haut.",
+          "Sie war um einige Grad kälter als draußen, schwer vom Geruch nach feuchtem Kalk, altem Papier und dem süßlichen Verfall von Äpfeln, die irgendwo im Keller vergessen worden waren.",
+          "Die Tür gab mit einem zähen Schmatzen nach, als müsste sie sich erst von dem aufgequollenen Holzrahmen lösen, an den sie sich zwanzig Jahre lang gewöhnt hatte."
+        ],
+        "suggestions": [
+          "Den Sarg-Satz teilen: 'Kein Staubtuch hatte diese Oberflächen berührt, seit sie den Sarg durch diesen Gang getragen hatten. An der Garderobe hing noch immer der graue Lodenmantel – formlos wie eine abgelegte Haut.' Das Bild am Ende bekommt so mehr Gewicht.",
+          "Im Tür-Satz den letzten Relativsatz kürzen: 'als müsste sie sich erst vom aufgequollenen Rahmen lösen, nach zwanzig Jahren.'",
+          "Die kurzen Sätze im Wechsel ('Die Luft im Flur stand still.', 'Es war eisig.') sind sehr wirkungsvoll. Diesen Rhythmus beibehalten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Text enthält keine Dialogpassagen."],
+        "suggestions": ["Kein Handlungsbedarf."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "ein Geräusch, das in der feuchten Herbststille des Vorgartens unnatürlich laut klang",
+          "Positiv: 'Es roch nicht nach ihrer Mutter.' und 'Das Wasser schmeckte nicht nach Eisen' – Wahrnehmungen werden direkt vermittelt, ohne 'sie bemerkte, dass'."
+        ],
+        "suggestions": [
+          "Den Text weitgehend so lassen. Die Wahrnehmung ist unmittelbar und filterfrei.",
+          "'unnatürlich laut klang' ist eine leichte Bewertung von außen. Direkter wäre: 'das in der Stille des Vorgartens widerhallte'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "feuchten Herbststille / feuchtem Kalk",
+          "der graue Lodenmantel / blasses, graues Licht",
+          "schnitt scharfe Streifen / Es schmeckte scharf",
+          "lag eine tote Fliege auf dem Rücken, die Beine zur Decke gekrümmt",
+          "ein tiefes, hohles Röcheln aus den Wänden, ein Beben in den Rohren"
+        ],
+        "suggestions": [
+          "Ein 'feucht' ersetzen, etwa 'klammer Kalk' oder 'Herbststille' ohne Attribut.",
+          "Ein 'grau' variieren, z. B. 'fahles Licht'.",
+          "Ein 'scharf' ersetzen, z. B. 'schnitt helle Streifen'. So bleibt 'scharf' für die Pointe reserviert.",
+          "'auf dem Rücken' streichen. Die gekrümmten Beine zeigen das bereits.",
+          "Röcheln und Beben beschreiben fast dasselbe. Ein Bild genügt: 'nur ein hohles Röcheln in den Rohren'.",
+          "Die Anaphern 'Es roch ... Es roch' und 'schmeckte nicht ... Es schmeckte' sind bewusste Stilmittel und sollten bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.091332
+}

@@ -1,0 +1,147 @@
+{
+  "who": "opus",
+  "item": "lit-continue__claude-haiku-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Sie antwortete nicht.“: Einstieg mitten in einer laufenden Konfrontation, ohne Vorgeplänkel",
+          "Rückblende „Sie hatte ihn gesehen, als die Fähre in der Biegung gelegen hatte …“ unterbricht den Gegenwartsfluss"
+        ],
+        "suggestions": [
+          "Der Einstieg sitzt. Ein früherer Beginn wäre unnötig.",
+          "Die Rückblende auf Ilses Ausweichen beim Anlegen auf ein bis zwei Sätze kürzen oder direkt in die Gegenwartshandlung einweben, damit die Spannung des Gesprächs nicht abreißt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„feucht und schwer“",
+          "„ruhig und gleichgültig“",
+          "„sagte sie schließlich“",
+          "„fluchte leise, nur für sich“",
+          "„das Schiff ruhig im Wasser lag“"
+        ],
+        "suggestions": [
+          "Die doppelten Adjektivpaare sind ein wiederkehrendes Stilmuster. Eines davon reicht, z. B. „Die Leine lag noch in ihrer Hand, nass.“",
+          "„schließlich“ streichen und die Pause durch eine Handlung zeigen: „Sie zog den Knoten fest. ‚Der Motor läuft.‘“",
+          "„leise, nur für sich“ ist doppelt gemoppelt. „fluchte“ oder „fluchte in sich hinein“ genügt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„„Der Motor läuft“, sagte sie schließlich.“",
+          "„„Ich hab dir geschrieben“, sagte Jonas.“",
+          "„„Kaffee gibt es später“, sagte sie.“"
+        ],
+        "suggestions": [
+          "Bei nur zwei Figuren ist „sagte Jonas“ entbehrlich. Der Sprecherwechsel ist eindeutig.",
+          "Statt „sagte sie“ vor „Kaffee gibt es später“ eine Handlung als Begleitsatz nutzen, etwa „Sie wandte sich zur Fähre.“",
+          "Gelungen ist bereits „Jonas starrte sie an.“: Die Handlung ersetzt die Redeeinleitung. Dieses Prinzip konsequent fortführen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Vielleicht eine Müdigkeit, die weiter zurückreichte als dieser Vormittag.“",
+          "„empfand dabei nichts, was sie hätte benennen können“",
+          "„Die Leine lag noch in ihrer Hand“",
+          "„deren Heck noch gegen den Poller drückte“",
+          "„wenn er die Stirn so in Falten legte“"
+        ],
+        "suggestions": [
+          "„Vielleicht“ streichen und die Müdigkeit behaupten: „Eine Müdigkeit, die weiter zurückreichte als dieser Vormittag.“",
+          "„noch“ und „so“ prüfen und streichen, wo sie keine zeitliche oder vergleichende Funktion tragen.",
+          "„erst mal“ und „kaum“ im Dialog sind als Figurensprache legitim und können bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Ilse sah ihm zu und empfand dabei nichts …“",
+          "„Sie hatte ihn gesehen, als die Fähre in der Biegung gelegen hatte.“",
+          "„… und war erst angelegt, als das Schiff ruhig im Wasser lag.“",
+          "„sie prüfte den Knoten, obwohl er hielt“"
+        ],
+        "suggestions": [
+          "„dabei“ streichen: „Ilse sah ihm zu. Sie empfand nichts, was sie hätte benennen können.“",
+          "Die zwei „als“-Konstruktionen in der Rückblende nacheinander auflösen: „Die Fähre lag in der Biegung. Da sah sie ihn.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Passivkonstruktionen. Der Text ist durchgehend aktiv formuliert. Beibehalten."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Sie hatte den Blick abgewendet, hatte am Steuer gearbeitet, als gäbe es am Ufer nichts, das wichtig war, und war erst angelegt, als das Schiff ruhig im Wasser lag.“",
+          "„Ilse betrachtete den Koffer, seine Schuhe, die für Bohlen nicht taugten, und sein Gesicht, das dem ihres Mannes ähnlicher sah, als ihr lieb war, wenn er die Stirn so in Falten legte.“",
+          "„Dann blickte sie zur Fähre zurück, deren Heck noch gegen den Poller drückte, und zu dem Stück Fluss dahinter, wo die Strömung am stärksten war.“"
+        ],
+        "suggestions": [
+          "Den ersten Satz teilen und grammatisch korrigieren („hatte angelegt“ statt „war angelegt“): „Sie hatte den Blick abgewendet und am Steuer gearbeitet, als gäbe es am Ufer nichts Wichtiges. Angelegt hatte sie erst, als das Schiff ruhig lag.“",
+          "Den Betrachtungssatz trennen und dabei „ähnlicher sah“ verbessern: „Ilse betrachtete den Koffer, die Schuhe, die für Bohlen nicht taugten. Sein Gesicht. Wenn er die Stirn in Falten legte, ähnelte er Henning mehr, als ihr lieb war.“",
+          "Beim Fährensatz das Relativsatzgefüge auflösen: „Dann blickte sie zur Fähre. Das Heck drückte gegen den Poller. Dahinter lag die Strömung, wo sie am stärksten war.“"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ich hab dir geschrieben.“ / „Ich habe deine Nachricht gelesen.“ / „Und?“: knapper, subtextreicher Schlagabtausch"
+        ],
+        "suggestions": [
+          "Die Dialoge sind kurz, pointiert und lassen Unausgesprochenes stehen. Nichts straffen.",
+          "Allenfalls „Das hat Papa auch schon gesagt.“ prüfen: Der Satz ist stark, könnte aber noch wirkungsvoller sein, wenn er allein steht."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Ilse sah ihm zu und empfand dabei nichts, was sie hätte benennen können.“",
+          "„Sie hatte ihn gesehen, als die Fähre in der Biegung gelegen hatte.“",
+          "„Es war kindisch. Sie wusste es.“",
+          "„Ilse betrachtete den Koffer …“ / „Dann blickte sie zur Fähre zurück …“"
+        ],
+        "suggestions": [
+          "Wahrnehmung direkt zeigen statt filtern: „Ein dunkler Mantel am Ufergeländer, eine Hand über den Augen. Die Fähre lag noch in der Biegung.“",
+          "„Sie wusste es.“ streichen. „Es war kindisch.“ trägt die Selbsterkenntnis bereits in erlebter Rede.",
+          "Bei den Blicksätzen das Wahrnehmungsverb weglassen und die Dinge direkt nennen: „Der Koffer. Die Schuhe, die für Bohlen nicht taugten.“"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Leine“ (3×), „Poller“ (2×), „Bohlen“ (2×), „Fluss“ (3×)",
+          "„ruhig und gleichgültig“ … „das Schiff ruhig im Wasser lag“",
+          "Wahrnehmungsverben gehäuft: „sah ihm zu“, „gesehen“, „Jonas sah“, „ähnlicher sah“, „betrachtete“, „blickte“",
+          "„Es war kindisch. Sie wusste es.“: inhaltliche Doppelung"
+        ],
+        "suggestions": [
+          "Ein „ruhig“ ersetzen, etwa „bis das Schiff still lag“.",
+          "Die Wiederaufnahme „Der Motor läuft“ / „Er läuft“ ist bewusst gesetzt und wirkungsvoll. Beibehalten.",
+          "Die Zahl der Sehverben reduzieren und „ähnlicher sah“ durch „ähnelte“ ersetzen.",
+          "Fachbegriffe wie „Poller“ und „Bohlen“ dürfen sich wiederholen. Bei „Leine“ ist im letzten Absatz auch „Tau“ möglich."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.099964
+}

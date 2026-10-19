@@ -1,0 +1,114 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__claude-haiku-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Tom bleibt in der Tür stehen, dann geht er langsam auf sie zu.",
+          "TOM: Willst du was trinken? / Wenn du schon bestellt hast. / Hab ich. (Bestell-Small-Talk vor dem eigentlichen Konflikt)"
+        ],
+        "suggestions": [
+          "Die Szene setzt mit 'Du bist noch hier.' bereits pointiert ein. Das Zögern in der Tür ist als Subtext wertvoll und kann bleiben.",
+          "Prüfen, ob der Getränke-Austausch nötig ist. Er erzeugt Verlegenheit, verzögert aber den ersten echten Konflikt ('Deine Mutter hat angerufen'). Alternativ kürzen oder schärfer auf die Spannung zwischen den beiden zuspitzen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "dann geht er langsam auf sie zu",
+          "Er lacht kurz, ohne Freude.",
+          "Lange Pause."
+        ],
+        "suggestions": [
+          "'geht langsam' durch ein präziseres Verb oder eine Handlung ersetzen, z. B. 'Er zögert, dann kommt er an ihren Tisch.'",
+          "'ohne Freude' erklärt die Emotion, statt sie zu zeigen. Besser streichen und dem Schauspieler bzw. der Szene vertrauen, z. B. 'Er lacht kurz.' oder 'Er stößt Luft durch die Nase.'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Das Skriptformat macht Redeeinleitungen überflüssig. Die Sprecher sind jederzeit eindeutig. Keine Änderung nötig."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er schiebt seine Tasse ein Stück von sich weg.",
+          "LENA: Ich erinnere mich an vieles."
+        ],
+        "suggestions": [
+          "'ein Stück' ist entbehrlich: 'Er schiebt seine Tasse von sich weg.' wirkt härter.",
+          "'an vieles' ist im Dialog bewusst ausweichend und charakterisierend, kann also bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Er setzt sich, die Jacke bleibt an."],
+        "suggestions": [
+          "Handlungen werden durchweg nacheinander geschildert. 'Er setzt sich, die Jacke bleibt an.' ist knapp und aussagekräftig (er plant nicht zu bleiben). Keine Änderung nötig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Passivkonstruktionen. Alle Regieanweisungen sind aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie greift nach ihrer Tasche, zögert und lässt sie stehen."],
+        "suggestions": [
+          "Keine überlangen Sätze. Der durchgehend kurze, abgehackte Rhythmus passt zur angespannten Situation.",
+          "Gelegentlich bewusst variieren, damit der Stakkato-Stil nicht monoton wirkt, etwa an der emotionalen Spitze ('Und du hast immer geschwiegen, bis es zu spät war.')."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "LENA: Willst du was trinken? / TOM: Wenn du schon bestellt hast. / LENA: Hab ich. / Sie winkt der Kellnerin. Niemand kommt. / ... Die Kellnerin stellt zwei Tassen ab.",
+          "Lena sitzt am Fenster und rührt in ihrer Tasse. (Sie hat bereits eine Tasse, trotzdem kommen später zwei neue.)"
+        ],
+        "suggestions": [
+          "Die Repliken sind knapp und subtextreich. Nur der Bestell-Strang wirkt etwas umständlich und logisch unklar: Lena hat schon eine Tasse, 'Hab ich' bleibt mehrdeutig, und dann werden zwei Tassen gebracht. Entweder klären (z. B. 'Hab ich. Für dich auch.') oder den Strang straffen.",
+          "Der Mittelteil (Brief, Bahnhof, Sommer am See) ist dicht und sollte so bleiben."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Er lacht kurz, ohne Freude."],
+        "suggestions": [
+          "Es gibt keine Konstruktionen wie 'sie sah, dass' oder 'er dachte, dass'. Innenleben wird über Handlungen gezeigt ('Sie sieht nicht hoch', 'die Jacke bleibt an').",
+          "Einziger interpretierender Einschub ist 'ohne Freude'. Er kann gestrichen werden, damit die Szene konsequent äußerlich bleibt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Pause. / Stille. / Lange Pause. (drei Schweigemarker)",
+          "Beide sehen auf den Tisch. / Sie sieht nicht hoch. / Keiner von beiden sieht den anderen an.",
+          "Tasse: rührt in ihrer Tasse / stellt zwei Tassen ab / schiebt seine Tasse"
+        ],
+        "suggestions": [
+          "Das Motiv des Nicht-Ansehens ist stark, wird aber dreimal fast gleich formuliert. Die letzte Variante ('Keiner von beiden sieht den anderen an') wirkt erst dann als Schlusspointe, wenn vorher eine Variante entfällt oder durch eine andere Handlung ersetzt wird.",
+          "Die Schweigemarker variieren oder teilweise durch konkrete Handlungen ersetzen (z. B. statt 'Stille.' eine Geste oder ein Umgebungsgeräusch wie die Straßenbahn).",
+          "Die Wiederholung von 'erinnern' und 'immer' im Dialog ist bewusst rhetorisch und sollte bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.080872
+}

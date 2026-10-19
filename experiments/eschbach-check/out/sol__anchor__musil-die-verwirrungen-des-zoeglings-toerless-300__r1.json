@@ -1,0 +1,137 @@
+{
+  "who": "sol",
+  "item": "anchor__musil-die-verwirrungen-des-zoeglings-toerless-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Eine kleine Station an der Strecke, welche nach Rußland führt.",
+          "Es galt Abschied zu nehmen."
+        ],
+        "suggestions": [
+          "Der eigentliche Konflikt, der Abschied von Törleß, erscheint erst nach einer ausführlichen Ortsbeschreibung. Für einen handlungsorientierten Einstieg mit der Mutter oder dem wartenden Bahnhofsvorstand beginnen.",
+          "Die Landschaftsbeschreibung nicht vollständig streichen: Sie etabliert die bedrückende Atmosphäre. Bei einer Straffung ausgewählte Details zwischen die Handlungen setzen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "das bleiche, kraftlose, durch den Dunst ermüdete Licht der Nachmittagssonne",
+          "die traurig mit verdursteten, von Staub und Ruß erdrosselten Blättern zu beiden Seiten standen",
+          "traurige, vom Weinen ein wenig gerötete Augen"
+        ],
+        "suggestions": [
+          "Bei ähnlichen Eigenschaften das stärkste Bild auswählen: etwa „das durch den Dunst ermüdete Licht“ statt der dreifachen Charakterisierung.",
+          "Die Personifikation der Bäume trägt die Atmosphäre; das zusätzliche „traurig“ könnte entfallen, weil „verdurstet“ und „erdrosselt“ diese Wirkung bereits erzeugen.",
+          "Bei den Augen prüfen, ob „vom Weinen gerötete Augen“ genügt. Das Weinen vermittelt die Trauer bereits."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung erforderlich: Der Ausschnitt enthält keine direkte Rede und damit keine überflüssigen Redeeinleitungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "den Mittelpunkt der etwas lauten Unterhaltung",
+          "dies war die Dame von vielleicht vierzig Jahren",
+          "vom Weinen ein wenig gerötete Augen",
+          "gleichsam an einem zähen, unsichtbaren Widerstande"
+        ],
+        "suggestions": [
+          "Abschwächungen wie „etwas“ und „ein wenig“ streichen, wenn die genaue Abstufung nicht wichtig ist.",
+          "„Vielleicht“ beim Alter bewahren, wenn ausdrücklich eine Schätzung aus der Außenperspektive gemeint ist; andernfalls das Alter bestimmter formulieren oder weglassen.",
+          "„Gleichsam“ ist als Vergleichssignal funktional, könnte aber zugunsten eines unmittelbareren Bildes entfallen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "trat der Bahnhofsvorstand aus seinem Amtszimmer heraus, sah mit der gleichen Wendung des Kopfes die weite Strecke hinauf",
+          "zog er sodann seine Taschenuhr hervor, schüttelte den Kopf und verschwand wieder",
+          "als seien sie aus der Szene eines Puppentheaters genommen"
+        ],
+        "suggestions": [
+          "Die Handlungen des Bahnhofsvorstands sind bereits nachvollziehbar nacheinander angeordnet.",
+          "„Als seien“ bezeichnet hier einen Vergleich, keine Gleichzeitigkeit; deshalb besteht an dieser Stelle kein Änderungsbedarf."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "der dunkle, von dem Abdampfe in den Boden gebrannte Strich",
+          "als seien sie aus der Szene eines Puppentheaters genommen"
+        ],
+        "suggestions": [
+          "Es gibt keine Häufung schwerfälliger Passivsätze. Die Beispiele sind eine attributive Partizipialkonstruktion und eine Zustandsbeschreibung.",
+          "Für mehr Bewegung ließe sich die erste Konstruktion aktivieren: „Neben jedem Eisenstrang hatte der Abdampf einen dunklen Strich in den Boden gebrannt.“ Die statische Originalfassung passt allerdings zur beschriebenen Erstarrung."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Von Zeit zu Zeit, in gleichen Intervallen, trat der Bahnhofsvorstand aus seinem Amtszimmer heraus",
+          "die immer noch nicht das Nahen des Eilzuges anzeigen wollten, der an der Grenze große Verspätung erlitten hatte",
+          "so wie die Figuren kommen und gehen, die aus alten Turmuhren treten, wenn die Stunde voll ist"
+        ],
+        "suggestions": [
+          "Den langen Satz über den Bahnhofsvorstand in mehrere Sätze teilen: Auftreten und Signalblick, Verspätungsinformation, Uhrkontrolle und Rückzug.",
+          "Beispiel: „In gleichen Intervallen trat der Bahnhofsvorstand aus seinem Amtszimmer. Er blickte zu den Signalen der Wächterhäuschen hinauf. Noch kündigten sie den Eilzug nicht an; er hatte an der Grenze große Verspätung erlitten.“",
+          "Den Turmuhrvergleich als eigenen Schlusssatz erhalten. So bleibt das Leitbild bestehen, ohne die Handlung syntaktisch zu überladen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["das den Mittelpunkt der etwas lauten Unterhaltung bildete"],
+        "suggestions": [
+          "Die Unterhaltung wird nur erwähnt, nicht wiedergegeben. Es gibt keine Dialogpassage, die gekürzt werden müsste."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Gegenstände und Menschen hatten etwas Gleichgültiges, Lebloses, Mechanisches an sich",
+          "der Lärm des lustigen Lachens schien schon auf wenige Schritte zu verstummen"
+        ],
+        "suggestions": [
+          "Der Text beschreibt überwiegend unmittelbar und verwendet keine typischen Wahrnehmungsfilter wie „sie sah, dass“.",
+          "Optional „schien“ streichen, wenn das Bild entschiedener wirken soll: „Schon auf wenige Schritte verstummte das Lachen.“ Dabei geht allerdings die Nuance einer nur scheinbaren, atmosphärischen Wahrnehmung verloren."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Von Zeit zu Zeit, in gleichen Intervallen",
+          "mit der gleichen Wendung des Kopfes",
+          "mit ein und derselben Bewegung des Armes",
+          "eine heitere Gesellschaft",
+          "der Lärm des lustigen Lachens",
+          "Es galt Abschied zu nehmen. Und es fiel ihr schwer"
+        ],
+        "suggestions": [
+          "„Von Zeit zu Zeit“ und „in gleichen Intervallen“ nicht nebeneinander verwenden; die zweite Formulierung vermittelt die mechanische Regelmäßigkeit genauer.",
+          "„Der Lärm des lustigen Lachens“ zu „das Lachen“ straffen.",
+          "Die wiederholten gleichförmigen Bewegungen nicht pauschal kürzen: Sie bereiten den Turmuhrvergleich vor.",
+          "Die mehrfachen Trauer- und Fröhlichkeitssignale darauf prüfen, welche den Gegensatz zwischen äußerer Geselligkeit und innerem Abschiedsschmerz tatsächlich vertiefen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020406
+}

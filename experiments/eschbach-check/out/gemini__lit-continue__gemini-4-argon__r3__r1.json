@@ -1,0 +1,122 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Die Strömung reicht“, sagte Ilse. Sie richtete sich auf und wischte sich die Handflächen an der Ölhose ab, obwohl das Seil nur nass gewesen war, nicht schmierig."
+        ],
+        "suggestions": [
+          "Exzellenter Einstieg mitten in die Handlung (in medias res). Er etabliert sofort das Setting, die Figur und die körperliche Arbeit, ohne lange Vorrede."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Die kleinen Hartplastikrollen ratterten ohrenbetäubend über das geriffelte Eisenblech.",
+          "„Der Pegel fällt“, log sie ruhig und löste das Tau wieder vom Poller."
+        ],
+        "suggestions": [
+          "Die meisten Adjektive im Text leisten hervorragende Arbeit (Kontrast zwischen glatten Lederschuhen und rostigem Caddy). Einige Adverbien sind jedoch entbehrlich: 'ratterten' ist bereits laut, 'ohrenbetäubend' ist etwas klischeehaft (Alternative: 'schepperten' oder 'dröhnten').",
+          "Das Adverb 'ruhig' am Ende schwächt das starke Verb 'log' und die ruhige Handlung (Tau lösen) etwas ab. Streichen Sie 'ruhig', die Ruhe ergibt sich aus ihrem Tun."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Du hast gar nicht angerufen“, sagte sie.",
+          "„Ich zieh mich an“, sagte Ilse. Sie kontrollierte noch einmal die Verriegelung der Schranke.",
+          "„Der Pegel fällt“, log sie ruhig und löste das Tau wieder vom Poller."
+        ],
+        "suggestions": [
+          "Da nur zwei Personen anwesend sind und Sie hervorragend mit Action-Beats (Handlungen vor oder nach dem Satz) arbeiten, können Sie einige 'sagte sie/Ilse' komplett streichen.",
+          "Statt '„Ich zieh mich an“, sagte Ilse. Sie kontrollierte...' reicht: '„Ich zieh mich an.“ Ilse kontrollierte...'",
+          "Eschbach rät oft vom Verb 'lügen' als Redebegleitsatz ab, da der Leser selbst merken soll, dass es eine Lüge ist (was Sie im Absatz davor ja bereits glänzend vorbereitet haben!). Hier ginge schlicht: '„Der Pegel fällt.“ Sie löste das Tau wieder vom Poller.'"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Trotzdem lächelte er jetzt dieses schnelle, glatte Lächeln...",
+          "Eine Mappe aus schwarzem Leder ragte ein Stück aus seiner Reisetasche..."
+        ],
+        "suggestions": [
+          "Der Text ist extrem sauber und präzise. In den genannten Beispielen könnten 'jetzt' und 'ein Stück' theoretisch gestrichen werden, sie stören den Lesefluss aber kaum."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie sah zu Jonas hinüber, der sein Smartphone aus der Manteltasche gezogen hatte und mit gerunzelter Stirn auf das Display tippte, während der Wind ihm die ordentlich gescheitelten Haare zerzauste."
+        ],
+        "suggestions": [
+          "Fast alle Handlungen werden vorbildlich nacheinander beschrieben. Nur dieser eine Satz nutzt 'während' und wirkt dadurch leicht überladen. Vorschlag: Teilen Sie die Handlung auf. 'Er tippte mit gerunzelter Stirn auf das Display. Der Wind zerzauste ihm die ordentlich gescheitelten Haare.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Eine Mappe aus schwarzem Leder ragte ein Stück aus seiner Reisetasche, die auf dem Koffer aufgesteckt war."
+        ],
+        "suggestions": [
+          "Keine echten Passivkonstruktionen vorhanden. Das Zustandspassiv 'aufgesteckt war' lässt sich leicht durch ein aktives Verb der Lage ersetzen: '...die auf dem Koffer steckte / saß / thronte'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie sah zu Jonas hinüber, der sein Smartphone aus der Manteltasche gezogen hatte und mit gerunzelter Stirn auf das Display tippte, während der Wind ihm die ordentlich gescheitelten Haare zerzauste."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind rhythmisch exzellent variiert (kurze Sätze wie 'Alles saß.' wechseln sich mit beschreibenden Sätzen ab). Lediglich der Satz mit dem Smartphone hat drei Nebensätze/Relativbezüge und gewinnt durch eine Teilung an Prägnanz."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Geh schon mal vor“, sagte Ilse und trat zurück an die Winde. „Der Schlüssel liegt unter dem Topf mit der Heide. Ich muss noch mal rüber.“"
+        ],
+        "suggestions": [
+          "Perfekte Dialogführung. Die Figuren reden nicht aneinander vorbei, sondern der Subtext (Jonas' unangemeldeter Besuch aus geschäftlichen/unangenehmen Gründen, Ilses Flucht in die Arbeit) trägt die Szene. Kein Wort zu viel."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie sah zu Jonas hinüber, der sein Smartphone aus der Manteltasche gezogen hatte...",
+          "Ilse sah ans andere Ufer. Die Wiesen lagen leer..."
+        ],
+        "suggestions": [
+          "Sie vermeiden klassische Filter wie 'Sie sah, dass...' komplett. 'Ilse sah ans andere Ufer' ist eine aktive Handlung (den Blick wenden), was gut funktioniert.",
+          "Bei 'Sie sah zu Jonas hinüber, der...' könnte man noch direkter in Ilses Perspektive bleiben, indem man die Wahrnehmung gar nicht erst ankündigt: 'Jonas hatte sein Smartphone aus der Manteltasche gezogen und tippte...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er ließ den Griff seines Koffers los, machte einen Schritt auf die eiserne Rampe und zog sie in eine kurze Umarmung. ... Ilse hob die Arme, legte ihm die schweren Hände kurz auf die Schulterblätter und ließ ihn wieder los.",
+          "Ilse sah ans andere Ufer. Die Wiesen lagen leer und dunkel unter dem tief hängenden Himmel, die Weiden krümmten sich im Wind. Keine Menschenseele, kein Auto."
+        ],
+        "suggestions": [
+          "Im dritten Absatz doppelt sich das Wort 'kurz' sowie 'loslassen' ('kurze Umarmung' / 'kurz auf die Schulterblätter'; 'ließ den Griff los' / 'ließ ihn wieder los'). Streichen Sie das zweite 'kurz'.",
+          "Am Ende ist 'lagen leer' und 'Keine Menschenseele, kein Auto' zwar streng genommen eine inhaltliche Doppelung, funktioniert hier aber stilistisch hervorragend als Verstärkung ihrer Gedanken."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021222
+}

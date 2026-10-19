@@ -1,0 +1,148 @@
+{
+  "who": "opus",
+  "item": "lit-scene__gemini-4-argon__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel griff erst beim dritten Versuch.",
+          "Das Eisen war kalt, der Widerstand im Schloss zäh, als wehrte sich das Messing gegen die Störung."
+        ],
+        "suggestions": [
+          "Der Einstieg an der Tür ist stimmig und baut Spannung auf. Es gibt keine Anreise und keine Vorgeschichte.",
+          "Optional kann die Szene direkt mit dem Öffnen der Tür beginnen ('Die Tür gab erst beim dritten Versuch nach.'). Der Widerstand des Schlosses trägt aber das Motiv des abweisenden Hauses und sollte nur gekürzt werden, wenn mehr Tempo gewünscht ist."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "die scharfe, trockene Kälte von Räumen",
+          "von tiefen, kalkweißen Trockenrissen durchzogen",
+          "eine stechende, fast metallische Note von Fichtennadeln und Terpentin",
+          "Das dumpfe Geräusch auf den Dielen klang ungebührlich laut.",
+          "durch die milchigen Scheiben ... das graue Novemberlicht ... blasse Trapeze",
+          "als atmete das Haus unter dem Putz ganz flach"
+        ],
+        "suggestions": [
+          "Die Adjektive sind präzise, aber zu dicht gesetzt. Doppelte Attribute sollten auf eines reduziert werden: 'die trockene Kälte', 'von kalkweißen Rissen durchzogen', 'eine metallische Note'.",
+          "'Novemberlicht' trägt das Grau bereits in sich, daher kann 'graue' entfallen. Auch 'blasse' ist neben 'milchig' und 'grau' redundant.",
+          "'ganz flach' kann zu 'flach' werden oder ersatzlos entfallen, denn das Bild des atmenden Hauses wirkt auch ohne Adverb.",
+          "'grüne Kernseife', 'spröden Grün', 'grünen Stein': Die Farbe wird dreimal genannt. Einmal genügt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text enthält keinen Dialog, daher gibt es keine Redeeinleitungen zu bemängeln."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Als die Tür schließlich nachgab",
+          "eine stechende, fast metallische Note",
+          "war noch immer der Daumenabdruck ihrer Mutter eingeprägt",
+          "mit der ihre Mutter früher immer die Gartenerde",
+          "war kaum zwei Schritte breit"
+        ],
+        "suggestions": [
+          "'schließlich' streichen: 'Als die Tür nachgab'. Der dritte Versuch macht die Verzögerung bereits deutlich.",
+          "'fast' streichen und die Note klar benennen: 'eine metallische Note'.",
+          "'noch immer' und 'früher immer' doppeln das 'immer'. Vorschlag: 'Im spröden Grün klebte der Daumenabdruck ihrer Mutter' und 'mit der ihre Mutter die Gartenerde ... hervorgeschrubbt hatte'.",
+          "'kaum zwei Schritte breit' ist bewusst gesetzt und funktioniert. 'und einmal auch etwas ganz anderes' ist als gezielte Andeutung legitim."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Als die Tür schließlich nachgab, schlug Clara keine modrige Fäulnis entgegen",
+          "und als sie die Seife dicht unter ihre Nase hielt, roch sie es",
+          "als wehrte sich das Messing gegen die Störung",
+          "als atmete das Haus unter dem Putz ganz flach"
+        ],
+        "suggestions": [
+          "'als' erscheint viermal: zweimal temporal, zweimal vergleichend. Das ist für den kurzen Text auffällig.",
+          "Temporale Konstruktionen besser in Abfolge auflösen: 'Die Tür gab nach. Keine modrige Fäulnis schlug Clara entgegen, sondern ...'",
+          "'Sie hielt die Seife dicht unter die Nase. Unter dem Staub lag eine stechende Note von Fichtennadeln und Terpentin.'",
+          "Einen der beiden 'als ob'-Vergleiche umformulieren, etwa: 'Die Tapete wölbte sich an den Nähten. Das Haus atmete flach unter dem Putz.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Nichts war verändert worden, und doch war alles verschoben.",
+          "Im spröden Grün war noch immer der Daumenabdruck ihrer Mutter eingeprägt"
+        ],
+        "suggestions": [
+          "'Nichts war verändert worden' aktiv oder zustandsbezogen formulieren: 'Niemand hatte etwas verändert, und doch war alles verschoben.' Alternativ: 'Alles stand an seinem Platz, und doch war alles verschoben.'",
+          "'Im spröden Grün steckte noch der Daumenabdruck ihrer Mutter' oder 'Ihre Mutter hatte ihren Daumen ins Grün gedrückt; der Abdruck war geblieben.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Als die Tür schließlich nachgab, schlug Clara keine modrige Fäulnis entgegen, sondern die scharfe, trockene Kälte von Räumen, die seit Monaten keinen menschlichen Atem mehr aufgenommen hatten.",
+          "Im spröden Grün war noch immer der Daumenabdruck ihrer Mutter eingeprägt, und als sie die Seife dicht unter ihre Nase hielt, roch sie es: unter dem Staub lag eine stechende, fast metallische Note von Fichtennadeln und Terpentin.",
+          "Es war die, mit der ihre Mutter früher immer die Gartenerde – und einmal auch etwas ganz anderes – unter den Fingernägeln hervorgeschrubbt hatte."
+        ],
+        "suggestions": [
+          "Den Rhythmus aus langen und kurzen Sätzen beibehalten, denn er wirkt gut ('Zwanzig Jahre schrumpften ...', 'Sie ging in die Küche.').",
+          "Den Satz mit dem Daumenabdruck teilen: 'Im spröden Grün steckte der Daumenabdruck ihrer Mutter. Clara hielt die Seife dicht unter die Nase. Unter dem Staub lag eine stechende Note von Fichtennadeln und Terpentin.'",
+          "Im ersten langen Satz 'mehr' streichen: 'die seit Monaten keinen menschlichen Atem aufgenommen hatten'."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text enthält keine Dialogpassagen. Die Szene lebt vollständig von Wahrnehmung und Atmosphäre, was hier angemessen ist."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "und als sie die Seife dicht unter ihre Nase hielt, roch sie es: unter dem Staub lag ...",
+          "Das dumpfe Geräusch auf den Dielen klang ungebührlich laut.",
+          "Der Flur, in ihrer Erinnerung eine endlose Galerie, war kaum zwei Schritte breit."
+        ],
+        "suggestions": [
+          "'roch sie es:' ist ein Wahrnehmungsfilter. Direkter wäre: 'Sie hielt die Seife unter die Nase. Unter dem Staub: Fichtennadeln und Terpentin, stechend, metallisch.'",
+          "Ansonsten ist die Wahrnehmung überwiegend direkt und sinnlich dargestellt ('sickerte das graue Novemberlicht', 'die Tapete ... wölbte sich'). Das sollte so bleiben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "'Das Eisen war kalt' – 'die scharfe, trockene Kälte' – 'Sie zog ihren Mantel enger um die Schultern'",
+          "'Sie trat ein' – 'Sie trat an die Spüle'",
+          "'Das dumpfe Geräusch auf den Dielen' – 'Das Geräusch glich einem fallenden Würfel'",
+          "'Spüle aus angeschlagenem Emaille' – 'zurück auf das Emaille'",
+          "'Nichts war verändert worden, und doch war alles verschoben. Die Proportionen stimmten nicht mehr.'",
+          "'grüne Kernseife' – 'spröden Grün' – 'grünen Stein'"
+        ],
+        "suggestions": [
+          "'Sie trat an die Spüle' durch ein anderes Verb ersetzen: 'Sie ging zur Spüle'. Oder direkt: 'An der Spüle aus angeschlagenem Emaille ...'",
+          "'Die Proportionen stimmten nicht mehr' doppelt 'alles war verschoben' und wird durch das Flurbeispiel ohnehin gezeigt. Diesen Satz streichen.",
+          "Das zweite 'Geräusch' variieren: 'Es klackte wie ein fallender Würfel.'",
+          "Das Kältemotiv ist bewusst angelegt, sollte aber nicht dreimal ausbuchstabiert werden. Das Schlussbild mit dem Mantel genügt, wenn 'Das Eisen war kalt' entfällt.",
+          "Die Anapher 'Es war nicht die Seife ... Es war die ...' ist ein wirkungsvolles Stilmittel und sollte bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.108276
+}

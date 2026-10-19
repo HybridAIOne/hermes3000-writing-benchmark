@@ -1,0 +1,106 @@
+{
+  "who": "hermes",
+  "item": "anchor__zweig-brennendes-geheimnis-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Lokomotive schrie heiser auf: der Semmering war erreicht."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und setzt den Leser sofort in die Szene. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "schwarzen Wagen",
+          "silbrigen Licht",
+          "bunte Menschen",
+          "heisere Maschine",
+          "natürliche Elastizität"
+        ],
+        "suggestions": [
+          "Der Text ist sehr adjektivlastig. Prüfen Sie, ob die Adjektive wirklich neue Informationen liefern oder ob das Substantiv/Verb bereits ausreicht (z.B. 'schwarze Kette' -> 'Kette', da Lokomotiven meist schwarz sind)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["begann es unruhig in ihm zu fragen"],
+        "suggestions": [
+          "Die internen Monologe sind gut eingebettet und kommen ohne störende 'sagte er'-Konstruktionen aus."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["eigentlich nur", "eigentlich", "auch"],
+        "suggestions": [
+          "Das Wort 'eigentlich' taucht mehrfach auf und schwächt die Aussagen ab. Streichen Sie es, um die Sätze direkter und bestimmter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["während"],
+        "suggestions": [
+          "Die zeitliche Abfolge ist klar strukturiert. Es gibt keine übermäßige Verwendung von 'während', der Lesefluss ist gut."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["war erreicht", "war... angestellt"],
+        "suggestions": [
+          "Der Text nutzt weitgehend aktive Formulierungen. Die wenigen Passivkonstruktionen sind stilistisch vertretbar."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Jene weißen, unruhigen Wolken flatterten am Himmel, die nur der Mai und der Juni hat, jene weißen, selbst noch jungen und flattrigen Gesellen...",
+          "Es gibt unter ihnen Beharrliche, denen weit über die Jugend hinaus..."
+        ],
+        "suggestions": [
+          "Einige Sätze sind sehr verschachtelt und lang. Teilen Sie diese in zwei Sätze auf, um die Lesbarkeit zu erhöhen und den Fokus zu schärfen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Der gesamte innere Monolog des Barons."],
+        "suggestions": [
+          "Der innere Monolog wirkt etwas langatmig und erklärt den Charakter sehr direkt. Versuchen Sie, die Unzufriedenheit stärker durch Handlungen statt durch Gedanken zu zeigen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Er wußte, daß er die Reibfläche von Menschen brauchte",
+          "sah hinaus, wie das Dunkel langsam niederfiel"
+        ],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'er wusste, dass' oder 'sah, wie'. Schreiben Sie stattdessen direkt aus der Perspektive der Figur: 'Er brauchte die Reibfläche von Menschen...' oder 'Das Dunkel fiel nieder, der Nebel brach grau aus den Fichten.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "eigentlich (mehrfach)",
+          "Die Beschreibung des 'Frauenjägers' wiederholt sich inhaltlich in verschiedenen Formulierungen."
+        ],
+        "suggestions": [
+          "Die Charakterisierung des Barons als 'Frauenjäger' dreht sich inhaltlich im Kreis. Straffen Sie die Passage, um den Punkt schneller und prägnanter zu machen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

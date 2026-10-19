@@ -1,0 +1,128 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__claude-haiku-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„MARTIN sitzt bereits, rührt in einer leeren Tasse.“",
+          "„Du bist früher da.“ – „Ich dachte, einer von uns sollte pünktlich sein.“"
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Die knappen Regieanweisungen etablieren Ort, Figuren und Spannung; der erste Wortwechsel eröffnet sofort den Beziehungskonflikt. Ein späterer Einstieg würde charakterisierende Informationen kosten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„dann kommt sie langsam näher“",
+          "„Sie öffnet endlich den obersten Knopf ihres Mantels.“",
+          "„das Horn klingt lang und dunkel“"
+        ],
+        "suggestions": [
+          "„Langsam“ bei Bedarf durch eine konkretere Spielanweisung ersetzen: „Sie geht auf seinen Tisch zu. Vor dem freien Stuhl bleibt sie stehen.“",
+          "„Endlich“ probeweise streichen. Die zuvor erwähnte Weigerung, den Mantel auszuziehen, macht die Bedeutung der Geste bereits verständlich.",
+          "„Lang und dunkel“ kann als atmosphärische Klangbeschreibung bleiben; die Adjektive erfüllen hier eine erkennbare Funktion."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„JULIA: Du bist früher da.“",
+          "„MARTIN: Ich dachte, einer von uns sollte pünktlich sein.“"
+        ],
+        "suggestions": [
+          "Die Rollenbezeichnungen beibehalten: Im szenischen Format sind sie funktionale Sprecherzuweisungen, keine überflüssigen Redeeinleitungen. Zusätzliche Kennzeichnungen wie „sagte er“ sind nicht nötig."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Du hast also doch die Einladung bekommen.“",
+          "„Nichts. Ich erinnere mich einfach.“",
+          "„Sie fragt manchmal nach dir.“"
+        ],
+        "suggestions": [
+          "„Also doch“ und „einfach“ nicht pauschal streichen: Sie transportieren Vorwurf beziehungsweise Abwehr und gehören zur Figurenrede.",
+          "„Manchmal“ ist hier eine glaubwürdige, möglicherweise bewusst zurückhaltende Auskunft. Eine genauere Häufigkeit würde den Dialog nicht automatisch verbessern."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„JULIA bleibt in der Tür stehen, dann kommt sie langsam näher.“",
+          "„Sie greift nach ihrer Tasse, zögert, lässt sie stehen.“"
+        ],
+        "suggestions": [
+          "Die klare Abfolge der Bewegungen beibehalten. Überladene Gleichzeitigkeitskonstruktionen mit „während“, „als“ oder „gleichzeitig“ kommen nicht vor."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Die Kellnerin kommt, nimmt Julias Bestellung auf, geht wieder.“",
+          "„Draußen fährt ein Schiff vorbei“"
+        ],
+        "suggestions": [
+          "Keine Überarbeitung erforderlich: Die Handlungen sind aktiv formuliert und ihre Träger klar benannt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Sie setzt sich, ohne den Mantel auszuziehen.“",
+          "„Draußen fährt ein Schiff vorbei, das Horn klingt lang und dunkel.“"
+        ],
+        "suggestions": [
+          "Die knappe Syntax beibehalten. Auch die etwas längere Schlussanweisung bleibt übersichtlich; eine weitere Aufteilung ist nicht erforderlich."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„MARTIN: Grau.“ – „JULIA: Hab ich gesehen.“",
+          "„MARTIN: Ich wusste nicht, ob du kommst.“ – „JULIA: Ich auch nicht.“"
+        ],
+        "suggestions": [
+          "Die kurzen Repliken beibehalten. Sie erzeugen Spannung durch Auslassungen und Gegenrede; längere Erklärungen zur gemeinsamen Vergangenheit würden diese Wirkung eher schwächen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Sie öffnet endlich den obersten Knopf ihres Mantels. Er sieht es, sagt nichts.“"
+        ],
+        "suggestions": [
+          "„Er sieht es“ durch eine spielbare Reaktion konkretisieren, etwa: „Sein Blick bleibt an ihrer Hand hängen. Er schweigt.“ So wird seine Aufmerksamkeit sichtbar statt lediglich mitgeteilt.",
+          "Alternativ den zweiten Satz streichen, wenn Martins Wahrnehmung für die Inszenierung nicht eigens hervorgehoben werden muss."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Pause.“ / „Stille.“ / „Beide blicken aus dem Fenster.“",
+          "„Erinnerst du dich an den Sommer am See?“ – „Ja.“ – „Und?“ – „Nichts. Ich erinnere mich einfach.“",
+          "„Ich wusste nicht, ob du kommst.“ – „Ich auch nicht.“ / „Willst du bleiben?“ – „Ich weiß nicht.“"
+        ],
+        "suggestions": [
+          "Die Schweigemomente bei einer szenischen Leseprobe auf ihre jeweilige Funktion prüfen. Falls sie gleichförmig wirken, einen davon streichen oder mit einer konkreten Handlung verbinden.",
+          "Die Wiederholungen von Erinnern und Nichtwissen überwiegend beibehalten: Sie sind keine bloßen Informationsdoppelungen, sondern zeigen Abwehr und entwickeln das Motiv vom unsicheren Kommen zum unsicheren Bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01766
+}

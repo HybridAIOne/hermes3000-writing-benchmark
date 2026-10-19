@@ -1,0 +1,86 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-haiku-5.5__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel ließ sich nicht drehen."],
+        "suggestions": [
+          "Der Einstieg ist hervorragend, da er sofort in die Handlung führt und Spannung erzeugt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["trockenes Ächzen", "kalter Staub", "grauer Nachmittag"],
+        "suggestions": ["Die Adjektive sind atmosphärisch gut gewählt und nicht überladen."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher keine Redeeinleitungen nötig."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ein wenig schief"],
+        "suggestions": [
+          "Der Text ist sehr präzise. 'Ein wenig' könnte man streichen, um die Aussage zu schärfen: '...der immer schief gestanden hatte'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie stand auf der Stufe... und drückte die Klinke"],
+        "suggestions": ["Die Handlungsabfolge ist klar und logisch strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel ließ sich nicht drehen",
+          "Die Dinge hatten sich kaum verändert"
+        ],
+        "suggestions": ["Der Text ist aktiv und lebendig geschrieben."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Durchs Fenster fiel grauer Nachmittag auf den Tisch mit der Wachstuchdecke, auf die Zuckerdose, den Stuhl, der immer ein wenig schief gestanden hatte."
+        ],
+        "suggestions": ["Die Satzlängen sind gut variiert und erzeugen einen angenehmen Lesefluss."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Darin stand eine Frau Ende vierzig, die sie einen Moment lang nicht erkannte."
+        ],
+        "suggestions": [
+          "Wahrnehmungen werden direkt und unmittelbar beschrieben, ohne Filter wie 'sie sah, dass...'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Die Mäntel... fehlten. Die Hausschuhe... fehlten auch."],
+        "suggestions": [
+          "Die Wiederholung von 'fehlten' ist stilistisch als Anapher akzeptabel, könnte aber durch 'waren verschwunden' oder 'waren weg' variiert werden, um den Rhythmus zu ändern."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

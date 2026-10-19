@@ -1,0 +1,118 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__claude-haiku-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ein Café am späten Nachmittag. Lena sitzt am Fenster und rührt in ihrer Tasse.",
+          "Willst du was trinken? / Wenn du schon bestellt hast."
+        ],
+        "suggestions": [
+          "Der Einstieg ist bereits sehr direkt. Um nach Eschbach noch später einzusteigen, könnte man das einleitende Geplänkel (Bestellung, Aussehen) streichen und direkt mit dem ersten Konfliktpunkt beginnen: 'Deine Mutter hat angerufen.' Allerdings dient der Smalltalk hier gut dem Aufbau der unterkühlten Atmosphäre."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "dann geht er langsam auf sie zu",
+          "Er lacht kurz, ohne Freude.",
+          "Lange Pause."
+        ],
+        "suggestions": [
+          "Der Text ist extrem sparsam und präzise bei Adjektiven und Adverbien. Lediglich 'geht er langsam' könnte durch ein präziseres Verb wie 'zögert er auf sie zu' ersetzt werden, und 'lacht kurz, ohne Freude' durch 'schnaubt' oder 'bellt ein Lachen'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["TOM: Du bist noch hier.", "LENA: Ich wohne um die Ecke."],
+        "suggestions": [
+          "Da der Text im Drehbuch-/Theaterformat verfasst ist, entfallen klassische Inquits ('sagte er'). Falls der Text in klassische Prosa umgewandelt wird, ist der Wechsel aus Handlung und Dialog bereits so perfekt gebaut, dass keine zusätzlichen Redebegleitsätze nötig wären."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er schiebt seine Tasse ein Stück von sich weg.",
+          "Dann weißt du ja, wovon ich rede."
+        ],
+        "suggestions": [
+          "In den Regieanweisungen könnte 'ein Stück' gestrichen werden ('Er schiebt seine Tasse von sich weg' ist stärker). Im Dialog ist das Füllwort 'ja' absolut natürlich und figurengerecht."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Tom bleibt in der Tür stehen, dann geht er langsam auf sie zu.",
+          "Sie greift nach ihrer Tasche, zögert und lässt sie stehen."
+        ],
+        "suggestions": [
+          "Ausgezeichnet gelöst. Alle Handlungen finden streng sequenziell (nacheinander) statt. Es gibt keine falsche Gleichzeitigkeit."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Kellnerin stellt zwei Tassen ab.", "Er setzt sich, die Jacke bleibt an."],
+        "suggestions": [
+          "Der gesamte Text ist durchgehend aktiv formuliert. Selbst Zustandsbeschreibungen ('die Jacke bleibt an') sind aktiv konstruiert. Keine Verbesserungen nötig."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie winkt der Kellnerin. Niemand kommt.",
+          "Er steht auf. Sie sieht nicht hoch."
+        ],
+        "suggestions": [
+          "Die Sätze sind kurz, prägnant und rhythmisch. Dieser parataktische Stil passt hervorragend zur angespannten Stimmung der Szene."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "TOM: Ich hab dich letzte Woche am Bahnhof gesehen. / LENA: Und? / TOM: Du hast nicht gegrüßt."
+        ],
+        "suggestions": [
+          "Exzellentes Ping-Pong-Prinzip. Kein Redebeitrag ist länger als zwei kurze Sätze. Der Subtext trägt die Szene, nicht lange Monologe."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Draußen fährt eine Straßenbahn vorbei.",
+          "Keiner von beiden sieht den anderen an."
+        ],
+        "suggestions": [
+          "Durch die rein kamerahafte Perspektive von außen ('Show, don't tell') gibt es keinerlei Filterwörter (wie 'sie sah', 'er fühlte'). Sehr stark."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Pause.",
+          "Stille.",
+          "Lange Pause.",
+          "Sie winkt der Kellnerin. Niemand kommt. / Die Kellnerin stellt zwei Tassen ab."
+        ],
+        "suggestions": [
+          "Die Pausen werden dreimal explizit benannt. Manchmal reicht eine reine Handlungsbeschreibung (wie das Vorbeifahren der Straßenbahn oder das Wegschieben der Tasse), um die Pause für den Leser spürbar zu machen, ohne das Wort 'Pause' oder 'Stille' zu wiederholen.",
+          "Kleiner Logikbruch (keine klassische Wiederholung, aber Lektorats-Hinweis): Lena sagt, sie hat schon bestellt, winkt dann aber erfolglos der Kellnerin. Kurz darauf bringt die Kellnerin zwei Tassen. Wenn schon bestellt war, warum winkt sie dann noch?"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016432
+}

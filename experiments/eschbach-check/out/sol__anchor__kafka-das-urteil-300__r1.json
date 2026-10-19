@@ -1,0 +1,137 @@
+{
+  "who": "sol",
+  "item": "anchor__kafka-das-urteil-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Es war an einem Sonntagvormittag im schönsten Frühjahr.",
+          "Er hatte gerade einen Brief an einen sich im Ausland befindenden Jugendfreund beendet"
+        ],
+        "suggestions": [
+          "Für einen handlungsnäheren Einstieg mit dem abgeschlossenen Brief beginnen: „Georg Bendemann verschloß den Brief an seinen Jugendfreund in Rußland.“ Tageszeit und Umgebung anschließend gezielt einflechten.",
+          "Den ruhigen Einstieg beibehalten, wenn die geordnete Frühlingsidylle bewusst einen Kontrast zu Georgs belastenden Überlegungen bilden soll. Ein späterer Einstieg verändert diese Wirkung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "im schönsten Frühjahr",
+          "in spielerischer Langsamkeit",
+          "den fremdartigen Vollbart",
+          "das seit den Kinderjahren wohlbekannte Gesicht"
+        ],
+        "suggestions": [
+          "Den pauschalen Superlativ „schönsten“ streichen oder durch ein konkretes Frühlingsdetail ersetzen.",
+          "„in spielerischer Langsamkeit“ versuchsweise durch eine sichtbare Handlung ausdrücken, etwa: „Er strich über den Umschlag, ehe er ihn verschloß.“",
+          "Charakterisierende Attribute nicht pauschal entfernen: Der „fremdartige“ Bart vor dem „wohlbekannten“ Gesicht vermittelt Georgs Entfremdung vom Freund."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "wie der Freund bei seinen immer seltener werdenden Besuchen klagte",
+          "Wie er erzählte"
+        ],
+        "suggestions": [
+          "Keine unmittelbare Überarbeitung nötig: Der Text enthält keine direkte Rede und damit keine überflüssigen Sprecherkennzeichnungen.",
+          "Die Hinweise auf Klagen und Erzählungen als Quellenangaben prüfen, nicht als bloße Dialogetiketten: Sie unterscheiden die Aussagen des Freundes von Georgs Einschätzungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "vor Jahren schon",
+          "seit langem aber schon",
+          "sich förmlich geflüchtet hatte",
+          "wofür ja kein Hindernis bestand"
+        ],
+        "suggestions": [
+          "Entbehrliche Verstärkungen probeweise streichen: „vor Jahren“ und „seit langem aber“ reichen für die zeitliche Einordnung.",
+          "„förmlich“ nur behalten, wenn Georgs zugespitzte Deutung der Auswanderung hervortreten soll.",
+          "„ja“, „offenbar“ und „vielleicht“ nicht unterschiedslos entfernen: Sie können Georgs Selbstbestätigung, Wertung und Unsicherheit markieren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "verschloß ihn in spielerischer Langsamkeit und sah dann, den Ellbogen auf den Schreibtisch gestützt, aus dem Fenster"
+        ],
+        "suggestions": [
+          "Die klare Abfolge von Briefabschluss und Fensterblick beibehalten.",
+          "Falls der Satz gestrafft werden soll, die Haltung in einen eigenen Satz auslagern: „Dann stützte er den Ellbogen auf den Schreibtisch und blickte zum Fluß hinaus.“ Eine Häufung von Gleichzeitigkeitskonstruktionen liegt nicht vor."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Nun betrieb er ein Geschäft in Petersburg",
+          "der fremdartige Vollbart verdeckte nur schlecht das seit den Kinderjahren wohlbekannte Gesicht"
+        ],
+        "suggestions": [
+          "Keine Änderung erforderlich: Der Text verwendet keine grammatischen Passivkonstruktionen.",
+          "Die aktiven Verben wie „betrieb“ und „verdeckte“ beibehalten."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Georg Bendemann, ein junger Kaufmann, saß in seinem Privatzimmer im ersten Stock eines der niedrigen, leichtgebauten Häuser, die entlang des Flusses in einer langen Reihe, fast nur in der Höhe und Färbung unterschieden, sich hinzogen.",
+          "Sollte man ihm vielleicht raten, wieder nach Hause zu kommen, seine Existenz hierher zu verlegen, alle die alten freundschaftlichen Beziehungen wieder aufzunehmen -- wofür ja kein Hindernis bestand -- und im übrigen auf die Hilfe der Freunde zu vertrauen?"
+        ],
+        "suggestions": [
+          "Raumbeschreibung und Figurenposition trennen: „Georg Bendemann, ein junger Kaufmann, saß in seinem Privatzimmer im ersten Stock. Das Haus gehörte zu einer Reihe niedriger Häuser am Fluß, die sich fast nur in Höhe und Farbe unterschieden.“",
+          "Die abschließende Überlegung in zwei Fragen gliedern: „Sollte man ihm raten, nach Hause zurückzukehren und die alten Freundschaften wieder aufzunehmen? Konnte er auf die Hilfe der Freunde vertrauen?“",
+          "Nicht sämtliche langen Sätze auflösen: Besonders die Schlussfrage bildet Georgs kreisendes Abwägen durch ihren Satzbau ab."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Kürzung nach diesem Kriterium erforderlich: Es gibt keine direkte Dialogpassage.",
+          "Die abschließenden Fragen gehören zur Gedankenführung, nicht zu einem ausgesprochenen Gespräch; ihre Länge ist unter Satzbau und Wiederholungen zu prüfen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Er dachte darüber nach, wie dieser Freund, mit seinem Fortkommen zu Hause unzufrieden, vor Jahren schon nach Rußland sich förmlich geflüchtet hatte.",
+          "dessen gelbe Hautfarbe auf eine sich entwickelnde Krankheit hinzudeuten schien"
+        ],
+        "suggestions": [
+          "Den Gedankenfilter versuchsweise entfernen: „Unzufrieden mit seinem Fortkommen zu Hause, hatte sich der Freund vor Jahren nach Rußland geflüchtet.“ Die anschließenden Fragen machen Georgs gedankliche Perspektive bereits deutlich.",
+          "Unsicherheitsmarker bei der vermuteten Krankheit bewahren, wenn keine gesicherte Diagnose vorliegt. Eine direktere, weiterhin vorsichtige Fassung wäre: „Die gelbe Haut ließ eine Krankheit vermuten.“",
+          "Den Fensterblick nicht als bloßen Wahrnehmungsfilter behandeln: „sah dann … aus dem Fenster“ beschreibt hier auch eine konkrete Handlung."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "seit langem aber schon zu stocken schien / So arbeitete er sich in der Fremde nutzlos ab",
+          "keine rechte Verbindung mit der dortigen Kolonie seiner Landsleute / fast keinen gesellschaftlichen Verkehr mit einheimischen Familien",
+          "wieder nach Hause zu kommen, seine Existenz hierher zu verlegen"
+        ],
+        "suggestions": [
+          "„wieder nach Hause zu kommen“ und „seine Existenz hierher zu verlegen“ bei gewünschter Straffung zu „dauerhaft nach Hause zurückzukehren“ zusammenziehen.",
+          "Prüfen, ob „nutzlos“ nach der Schilderung des stockenden Geschäfts nötig ist. Das Wort ergänzt allerdings Georgs abwertende Beurteilung.",
+          "Die beiden sozialen Kontaktgruppen nicht vorschnell als Doppelung streichen: Landsleute und einheimische Familien zeigen unterschiedliche Seiten der Isolation. Kompakter wäre: „Er fand weder unter seinen Landsleuten noch bei einheimischen Familien Anschluß.“"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021154
+}

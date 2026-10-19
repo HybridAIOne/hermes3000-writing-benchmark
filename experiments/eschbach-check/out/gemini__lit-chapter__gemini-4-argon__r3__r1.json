@@ -1,0 +1,128 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag so dicht über der Elbe, dass das andere Ufer verschwunden war.",
+          "Draußen schälten sich zwei gelbe Lichtkegel aus der grauen Wand."
+        ],
+        "suggestions": [
+          "Der Einstieg über das Wetter ist zwar ein Klassiker (und wird manchmal als Klischee gewertet), erfüllt hier aber perfekt seinen Zweck, um die Atmosphäre der Isolation zu schaffen. Wer es nach Eschbach noch radikaler möchte, könnte direkt mit dem Eintreffen des ersten Autos beginnen ('Um 06:42 Uhr schälten sich zwei gelbe Lichtkegel aus dem Elbnebel...') und die Kälte sowie die Umgebung nebenbei einfließen lassen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "das schwarze, träge ziehende Wasser",
+          "mit einem tiefen, kehligen Stottern",
+          "sein leises, metallisches Lied",
+          "dunkle Steinhaufen"
+        ],
+        "suggestions": [
+          "Die Adjektive sind größtenteils sehr treffsicher und atmosphärisch gewählt. An wenigen Stellen gibt es Doppelungen (z.B. 'tiefes, kehliges Stottern' oder 'leises, metallisches Lied'), bei denen ein einzelnes, starkes Adjektiv noch prägnanter wirken würde. 'Dunkle Steinhaufen' könnte durch ein präziseres Substantiv ersetzt werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Suppe heute“, sagte Kalle und nickte in Richtung Fluss.",
+          "„Gerade noch geschafft“, keuchte sie, als sie das Deck betrat.",
+          "„Mach auf dem Rückweg, Herta. Stell dich aus dem Wind.“"
+        ],
+        "suggestions": [
+          "Exzellente Umsetzung. Es werden fast ausschließlich unauffällige Begleitsätze ('sagte') genutzt oder die Sprecher werden durch vorangehende Handlungen eindeutig identifiziert, sodass gar keine Inquit-Formel nötig ist. Das 'keuchte sie' bei Frau Mertens passt organisch zur vorherigen Beschreibung ihrer Atemnot."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "die Schulter zog ein wenig",
+          "irgendwo im weißen Nichts",
+          "irgendwo unsichtbar",
+          "ein bisschen zu breit",
+          "einfach zurück in die Brusttasche"
+        ],
+        "suggestions": [
+          "Der Text ist sehr sauber. Nur wenige Relativierungen wie 'ein wenig', 'ein bisschen' oder 'irgendwo' haben sich eingeschlichen. Streicht man diese (z.B. 'Die Schulter zog – der gewohnte dumpfe Schmerz...' oder 'schob das Telefon zurück in die Brusttasche'), gewinnt der Text noch mehr an Klarheit und Entschlossenheit."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ilse trat aus dem Steuerhaus, nahm den Holzkeil vom Haken und schob ihn unter das linke Vorderrad.",
+          "Als Ilse vor ihn trat, hielt er ihr wortlos eine Monatskarte hin...",
+          "„Gerade noch geschafft“, keuchte sie, als sie das Deck betrat."
+        ],
+        "suggestions": [
+          "Hervorragend. Es gibt keine unlogischen Gleichzeitigkeiten (wie 'Während sie den Keil unterlegte, kassierte sie ab'). Handlungen werden sauber und chronologisch nacheinander beschrieben. Das Wort 'während' kommt im gesamten Text nicht ein einziges Mal vor."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "die irgendwo im weißen Nichts am anderen Ufer verankert war (Zustandspassiv)"
+        ],
+        "suggestions": [
+          "Perfekt. Der gesamte Text ist durchgehend aktiv formuliert. Selbst der Nebel, die Kälte und die Strömung agieren aktiv ('kroch', 'verschluckte', 'griff nach dem Rumpf'). Das einzige Passiv beschreibt korrekt einen statischen Zustand."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Es brauchte Kraft, die Schulter zog ein wenig, der gewohnte dumpfe Schmerz unter dem rechten Schulterblatt, der erst verschwinden würde, wenn sie warmgearbeitet war.",
+          "Wenn er um diese Zeit anrief, saß er entweder schon im Taxi zum Flughafen oder er hatte die ganze Nacht im Büro durchgearbeitet und wollte das Gespräch hinter sich bringen, bevor seine ersten Meetings begannen."
+        ],
+        "suggestions": [
+          "Der Satzrhythmus ist sehr gut komponiert; längere Sätze wechseln sich geschickt mit sehr kurzen ab ('Mehr kamen nicht.'). Lediglich der Satz über den Schulterschmerz ist durch die elliptische Einschub-Konstruktion leicht verschachtelt. Hier könnte ein Punkt nach 'ein wenig' (oder 'Die Schulter zog.') mehr Ruhe reinbringen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Morgen, Ilse“ ... „Morgen.“",
+          "„Geht schon. Das Seil weiß, wo es langgeht.“"
+        ],
+        "suggestions": [
+          "Meisterhaft. Die Dialoge sind norddeutsch-lakonisch, auf das absolut Notwendige reduziert und transportieren dennoch enorm viel Charakter und Subtext."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "In der Brusttasche ihrer Jacke begann es zu summen.",
+          "und man hörte wieder nur den Fluss."
+        ],
+        "suggestions": [
+          "Sehr unmittelbare Erzählweise (Show, don't tell). Auf Filterwörter wie 'Ilse sah' oder 'sie spürte' wird fast komplett verzichtet. Einzig 'begann es zu summen' (Eschbach rät oft, das 'beginnen' zu streichen: 'In der Brusttasche summte es.') und das unpersönliche 'man hörte' im letzten Satz distanzieren den Leser minimal von Ilses direktem Erleben. Besser am Schluss: '...dann war es still, bis auf das Glucksen des Flusses.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "im weißen Nichts am anderen Ufer ... Sie fuhren durch ein vollkommenes Nichts.",
+          "Auf dem Display neben dem Ruder (06:42 Uhr) ... Eine Minute vor dreiviertel sieben ... Es war vierundvierzig Minuten nach sechs.",
+          "das schwarze, träge ziehende Wasser ... aus dem schwarzen Wasser ... über das graue Wasser"
+        ],
+        "suggestions": [
+          "Hier gibt es noch leichtes Optimierungspotenzial: 1. Das Wort 'Nichts' wird kurz hintereinander zweimal als Metapher für den Nebel genutzt. 2. Es gibt einen kleinen Logik-/Wiederholungsfehler bei der Uhrzeit: Zuerst ist es 06:42 Uhr, dann 06:44 Uhr ('Eine Minute vor dreiviertel sieben'), dann legen sie ab, sind schon mitten auf dem Fluss, und beim Anruf ist es immer noch 'vierundvierzig Minuten nach sechs'. 3. Am Ende wird dreimal erwähnt, dass das Telefon vibriert/summt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02364
+}

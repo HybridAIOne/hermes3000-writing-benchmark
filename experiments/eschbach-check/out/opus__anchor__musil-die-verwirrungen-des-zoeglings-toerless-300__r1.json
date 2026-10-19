@@ -1,0 +1,155 @@
+{
+  "who": "opus",
+  "item": "anchor__musil-die-verwirrungen-des-zoeglings-toerless-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Eine kleine Station an der Strecke, welche nach Rußland führt.",
+          "Vier Absätze Landschafts- und Atmosphärenbeschreibung, bevor mit Frau Hofrat Törleß eine Figur mit Namen und Anliegen auftritt",
+          "Der eigentliche Konflikt (\"Es galt Abschied zu nehmen.\") erscheint erst im letzten Absatz"
+        ],
+        "suggestions": [
+          "Die Szene später einsetzen lassen, etwa mit dem Bahnhofsvorstand, der auf die Uhr schaut, oder direkt mit der Abschiedsgesellschaft. Die Beschreibung des Bahnhofs lässt sich in die Handlung einflechten.",
+          "Den Abschiedsschmerz früher andeuten, damit die Atmosphärenschilderung eine erzählerische Spannung trägt.",
+          "Literarisch ist der langsame Einstieg als Stimmungsaufbau legitim. Für ein heutiges Lesepublikum lohnt es sich aber, ihn zu kürzen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "das bleiche, kraftlose, durch den Dunst ermüdete Licht der Nachmittagssonne",
+          "etwas Gleichgültiges, Lebloses, Mechanisches",
+          "dem niederen, ölgestrichenen Stationsgebäude",
+          "eine breite, ausgefahrene Straße",
+          "die traurig mit verdursteten, von Staub und Ruß erdrosselten Blättern",
+          "dem breiten, festgestampften Streifen",
+          "einem zähen, unsichtbaren Widerstande",
+          "eine heitere Gesellschaft junger Leute ... der etwas lauten Unterhaltung ... des lustigen Lachens"
+        ],
+        "suggestions": [
+          "Adjektivketten auf das stärkste Element reduzieren, z. B. \"das vom Dunst ermüdete Licht der Nachmittagssonne\" statt drei Attribute.",
+          "Die Dreierreihe \"Gleichgültiges, Lebloses, Mechanisches\" auf ein Wort verdichten. Der Puppentheater-Vergleich trägt das Bild ohnehin.",
+          "\"traurig\" bei den Akazien streichen. \"verdurstet\" und \"erdrosselt\" erzeugen die Stimmung bereits.",
+          "\"heiter\", \"lustig\" und \"laut\" nicht kombinieren. Eines genügt, um den Kontrast zur gedämpften Atmosphäre zu zeigen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Ausschnitt enthält keine wörtliche Rede und damit keine Redeeinleitungen."
+        ],
+        "suggestions": [
+          "Kein Handlungsbedarf. Bei späteren Dialogen darauf achten, Sprecher über Handlung und Kontext statt über \"sagte er/sie\" kenntlich zu machen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "die Dame von vielleicht vierzig Jahren",
+          "vom Weinen ein wenig gerötete Augen",
+          "der etwas lauten Unterhaltung",
+          "gleichsam an einem zähen, unsichtbaren Widerstande",
+          "schien schon auf wenige Schritte zu verstummen",
+          "Von Zeit zu Zeit, in gleichen Intervallen"
+        ],
+        "suggestions": [
+          "Abschwächungen wie \"ein wenig\", \"etwas\" und \"vielleicht\" streichen oder präzisieren, z. B. \"vom Weinen gerötete Augen\", \"eine Dame um die vierzig\".",
+          "\"gleichsam\" entfernen, das Bild wirkt ohne Relativierung stärker.",
+          "\"Von Zeit zu Zeit\" und \"in gleichen Intervallen\" widersprechen sich in der Präzision. Nur \"in gleichen Abständen\" behalten oder konkret werden (\"alle fünf Minuten\")."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "promenierte eine heitere Gesellschaft junger Leute, links und rechts eines älteren Ehepaares schreitend",
+          "trat ... heraus, sah ... hinauf ...; mit ein und derselben Bewegung des Armes zog er sodann seine Taschenuhr hervor"
+        ],
+        "suggestions": [
+          "Die Partizipialkonstruktion \"schreitend\" auflösen: \"Junge Leute gingen links und rechts eines älteren Ehepaares auf und ab.\"",
+          "Die Handlungen des Bahnhofsvorstands stehen bereits gut nacheinander. Sie sollten in eigene Sätze überführt werden, damit die mechanische Abfolge noch deutlicher wird."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "von dem Abdampfe in den Boden gebrannte Strich",
+          "waren nur an zwei Reihen Akazienbäumen kenntlich",
+          "als seien sie aus der Szene eines Puppentheaters genommen",
+          "Es galt Abschied zu nehmen."
+        ],
+        "suggestions": [
+          "Echte Passivsätze sind selten. Partizipialattribute (\"gebrannte\", \"erdrosselten\") ließen sich aktiv auflösen: \"wo der Dampf einen dunklen Strich in den Boden gebrannt hatte\".",
+          "\"Es galt Abschied zu nehmen\" konkreter und aktiver: \"Sie musste Abschied nehmen.\""
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Von Zeit zu Zeit, in gleichen Intervallen, trat der Bahnhofsvorstand aus seinem Amtszimmer heraus, sah mit der gleichen Wendung des Kopfes die weite Strecke hinauf nach den Signalen der Wächterhäuschen, die immer noch nicht das Nahen des Eilzuges anzeigen wollten, der an der Grenze große Verspätung erlitten hatte; mit ein und derselben Bewegung des Armes zog er sodann seine Taschenuhr hervor, schüttelte den Kopf und verschwand wieder; so wie die Figuren kommen und gehen, die aus alten Turmuhren treten, wenn die Stunde voll ist.",
+          "Machten es diese traurigen Farben, machte es das bleiche, kraftlose, durch den Dunst ermüdete Licht der Nachmittagssonne: Gegenstände und Menschen hatten etwas Gleichgültiges, Lebloses, Mechanisches an sich, als seien sie aus der Szene eines Puppentheaters genommen.",
+          "Auf dem breiten, festgestampften Streifen zwischen Schienenstrang und Gebäude promenierte eine heitere Gesellschaft junger Leute, links und rechts eines älteren Ehepaares schreitend, das den Mittelpunkt der etwas lauten Unterhaltung bildete."
+        ],
+        "suggestions": [
+          "Den Bahnhofsvorstand-Satz in drei bis vier Sätze teilen: \"In gleichen Abständen trat der Bahnhofsvorstand aus seinem Amtszimmer. Er blickte die Strecke hinauf zu den Signalen. Noch immer kündigten sie den Eilzug nicht an, der an der Grenze Verspätung erlitten hatte. Er zog die Taschenuhr, schüttelte den Kopf und verschwand – wie eine Figur aus einer alten Turmuhr.\"",
+          "Die Verschachtelung mit doppeltem Relativsatz (\"die ... anzeigen wollten, der ... erlitten hatte\") auflösen.",
+          "Semikolon-Ketten durch Punkte ersetzen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Kein Dialog vorhanden. Die \"etwas laute Unterhaltung\" wird nur zusammengefasst, nicht ausgeschrieben."
+        ],
+        "suggestions": [
+          "Kein Handlungsbedarf. Eventuell ein kurzer Gesprächsfetzen der Gruppe, um die gezwungene Fröhlichkeit szenisch zu zeigen statt sie zu behaupten."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Gegenstände und Menschen hatten etwas Gleichgültiges, Lebloses, Mechanisches an sich",
+          "Aber auch die Fröhlichkeit dieser Gruppe war keine rechte",
+          "der Lärm des lustigen Lachens schien schon auf wenige Schritte zu verstummen",
+          "Und es fiel ihr schwer, ihr einziges Kind nun wieder auf so lange Zeit unter fremden Leuten lassen zu müssen"
+        ],
+        "suggestions": [
+          "Gefühle zeigen statt benennen: Statt \"es fiel ihr schwer\" eine Geste der Mutter beschreiben (Hand am Schleier, Blick zum Sohn).",
+          "\"war keine rechte\" ist eine Erzählerbehauptung. Das Bild vom versinkenden Lachen genügt, der wertende Vorsatz kann entfallen.",
+          "\"schien ... zu verstummen\" direkter fassen: \"Das Lachen verstummte nach wenigen Schritten, als sinke es zu Boden.\""
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "\"breit\" viermal: \"des breiten Fahrdammes\", \"eine breite, ausgefahrene Straße\", \"dem breiten, festgestampften Streifen\", dazu \"die weite Strecke\"",
+          "\"traurig\" dreimal: \"die traurig ... standen\", \"diese traurigen Farben\", \"traurige ... Augen\"",
+          "\"gleichen Intervallen\", \"der gleichen Wendung\", \"ein und derselben Bewegung\" sowie zuvor \"Gleichgültiges\"",
+          "Doppeltes Mechanik-Bild: \"Puppentheater\" und \"Figuren ... aus alten Turmuhren\"",
+          "\"unter fremden Leuten lassen zu müssen, ohne Möglichkeit, selbst schützend über ihren Liebling zu wachen\" – zweimal derselbe Gedanke"
+        ],
+        "suggestions": [
+          "\"breit\" variieren oder streichen, wo die Breite keine Rolle spielt.",
+          "\"traurig\" höchstens einmal verwenden, idealerweise gar nicht, sondern durch Bilder ersetzen.",
+          "Die Gleichförmigkeitsformeln sind als Stilmittel erkennbar, ließen sich aber auf zwei reduzieren.",
+          "Eines der beiden Mechanik-Bilder wählen. Die Turmuhrfiguren sind präziser und an die Figur gebunden, das Puppentheater kann entfallen.",
+          "Den letzten Satz kürzen: \"Es fiel ihr schwer, ihr einziges Kind wieder für so lange Zeit unter Fremden zu lassen.\""
+        ]
+      }
+    }
+  },
+  "costUsd": 0.1087
+}

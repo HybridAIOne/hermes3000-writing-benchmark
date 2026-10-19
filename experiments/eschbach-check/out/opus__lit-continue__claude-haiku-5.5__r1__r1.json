@@ -1,0 +1,144 @@
+{
+  "who": "opus",
+  "item": "lit-continue__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ilse antwortete nicht.“ – Die Szene setzt mitten in einer laufenden Situation ein, ohne Vorgeplänkel.",
+          "Ankunft, Begrüßung und das Problem mit dem Motor sind bereits übersprungen. Der Leser erschließt sie aus dem Kontext."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten. Prüfen, ob die vorangehende Szene mit einer Frage oder Aussage von Jonas endet, damit „antwortete nicht“ klar verankert ist."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„sagte sie schließlich“ – „schließlich“ ist entbehrlich, die Pause ergibt sich aus der Handlung davor.",
+          "„die kleinen Räder ratterten“ – „ratterten“ trägt das Bild allein, „kleinen“ ist verzichtbar.",
+          "„das sah sie sofort“ – „sofort“ schwächt eher ab als dass es verstärkt.",
+          "„Jonas lachte kurz“ – akzeptabel, aber ein präziseres Verb wäre stärker."
+        ],
+        "suggestions": [
+          "„schließlich“ und „sofort“ streichen.",
+          "„lachte kurz“ durch ein präziseres Verb ersetzen, etwa „Jonas schnaubte“ oder „Jonas lachte auf“.",
+          "Konkrete Adjektive wie „braun und schnell“, „nassen Planken“ und „blauen Rauchring“ beibehalten, sie erzeugen Bilder."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Links herum“, sagte sie. „Bis es einrastet.“ – Nur Ilse kann diese Anweisung geben, der Sprecher ist eindeutig.",
+          "„Die Fähre geht gleich rüber“, sagte sie. – Ilse hat gerade auf die Uhr gesehen, der Sprecher ergibt sich aus dem Absatz.",
+          "„Gut“, sagte Ilse. „Dann hältst du die Leine.“ – Jonas spricht in der ganzen Szene nur einmal, die Zuordnung ist klar.",
+          "„Ich hab's gehört“, sagte sie schließlich. – Vier „sagte“-Tags in einer kurzen Szene mit zwei Figuren."
+        ],
+        "suggestions": [
+          "„Links herum. Bis es einrastet.“ ohne Tag direkt vor „Das Metall knirschte.“ setzen.",
+          "Den Tag bei „Die Fähre geht gleich rüber“ streichen und die Rede direkt an Ilses Blick zur Uhr anschließen.",
+          "Am Ende eine Handlung statt „sagte Ilse“ verwenden, z. B.: „Gut.“ Ilse löste die Leine vom Poller. „Dann hältst du sie.“"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„einen Moment lang dachte sie“ – leicht unpräzise, aber vertretbar.",
+          "„Und sie sah auch, dass …“ – „auch“ ist ein reines Füllwort.",
+          "„Er nahm die Kurbel trotzdem.“ – Hier ist „trotzdem“ inhaltlich begründet und kein Füllwort.",
+          "Positiv: präzise Angaben wie „vor dreißig Jahren“, „Lüchow“, „um fünf“ und „in zehn Minuten“."
+        ],
+        "suggestions": [
+          "„auch“ in „Und sie sah auch“ streichen oder den ganzen Satz umbauen (siehe Indirekte Wahrnehmung).",
+          "Die präzisen Orts- und Zeitangaben sind eine Stärke des Textes und sollten bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Kein „während“ oder „gleichzeitig“. Die Handlungen folgen meist sauber aufeinander: „Er nahm die Kurbel trotzdem. Kniete sich auf die nassen Planken.“",
+          "„als“ wird fast nur vergleichend genutzt: „als hätten sie es eilig“, „als sei es ein Fremdkörper“, „als wäre es ein Handtuch am Badesee“.",
+          "„Er schob den Koffer hinter sich her, die kleinen Räder ratterten über die Bohlen, bis er …“ – leicht überlagerte Handlungen, aber gut lesbar."
+        ],
+        "suggestions": [
+          "Die drei „als“-Vergleiche liegen dicht beieinander. Einen davon streichen oder anders bauen, z. B. „hängte es über das Geländer wie ein Handtuch am Badesee“."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Keine Passivkonstruktionen. „Seine Hände waren weich geworden“ ist eine Zustandsänderung und kein Passiv.",
+          "Durchgehend aktive Verben: „klappte den Deckel hoch“, „spuckte der Motor einen blauen Rauchring aus“, „hustete“."
+        ],
+        "suggestions": ["Keine Änderung nötig."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Die Elbe war braun und schnell, sie trug Äste mit sich und einen einzelnen Schuh, und am gegenüberliegenden Ufer bogen sich die Weiden im Wind, als hätten sie es eilig.“ – vier Satzteile, die zwei Bilder verbinden.",
+          "„Der Deutz, den Henning vor dreißig Jahren von einem Schrottplatz bei Lüchow geholt hatte, stand still, wie ein Tier, das sich totstellt.“ – Der Relativsatz verzögert das Hauptverb stark.",
+          "„Die nächste Überfahrt ging in zehn Minuten, mit oder ohne Motor, wenn sie das Ruder und die Leine nahm, so wie immer.“ – Die Bedingungslogik ist holprig und schwer nachzuvollziehen.",
+          "Positiv: Der Wechsel mit sehr kurzen Sätzen („Kniete sich auf die nassen Planken.“, „Einmal, zweimal.“) erzeugt guten Rhythmus."
+        ],
+        "suggestions": [
+          "Den Elbe-Satz teilen: „Die Elbe war braun und schnell. Sie trug Äste mit sich und einen einzelnen Schuh. Am anderen Ufer bogen sich die Weiden im Wind, als hätten sie es eilig.“",
+          "Den Deutz-Satz entflechten: „Der Deutz stand still wie ein Tier, das sich totstellt. Henning hatte ihn vor dreißig Jahren von einem Schrottplatz bei Lüchow geholt.“",
+          "Den Überfahrt-Satz klären: „Die nächste Überfahrt ging in zehn Minuten. Mit oder ohne Motor – zur Not mit Ruder und Leine, wie immer.“"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Alle Redebeiträge sind kurz und knapp: „Mit der Hand.“, „Links herum.“, „Gut.“",
+          "Das Schweigen zwischen den Figuren trägt die Szene. Die Spannung entsteht durch das Ungesagte."
+        ],
+        "suggestions": [
+          "Die Kargheit beibehalten. Allenfalls „Du kannst mitfahren oder hier stehen bleiben“ auf „Mitfahren oder hierbleiben.“ verdichten, um Ilses Wortkargheit zu unterstreichen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "„Seine Hände waren weich geworden, das sah sie sofort.“",
+          "„Und sie sah auch, dass er sie nicht gern schmutzig machte.“",
+          "„Ilse merkte, dass sie den Atem angehalten hatte, und zwang sich, ihn wieder fließen zu lassen.“",
+          "„einen Moment lang dachte sie, er würde widersprechen“"
+        ],
+        "suggestions": [
+          "„Seine Hände waren weich geworden. Er machte sie nicht gern schmutzig.“ – Die Perspektive ist ohnehin bei Ilse, „sah sie“ ist überflüssig.",
+          "„Sie hatte den Atem angehalten. Sie zwang sich, ihn wieder fließen zu lassen.“ oder direkter: „Ilse atmete aus. Sie hatte es nicht gemerkt.“",
+          "„Er sah sie an. Einen Moment lang sah es aus, als würde er widersprechen. Dann griff er nach dem Koffer.“ oder „Er sah sie an, den Mund schon halb offen. Dann griff er nach dem Koffer.“"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„sah“ häuft sich: „Er sah aufs Wasser“, „das sah sie sofort“, „sie sah auch“, „Ilse sah zur Uhr“, „Er sah sie an“.",
+          "„still“ doppelt: „stand still, wie ein Tier“ und „blieb wieder still“.",
+          "Inhaltliche Doppelung: „Die nächste Überfahrt ging in zehn Minuten“ und kurz darauf „Die Fähre geht gleich rüber“.",
+          "„Ilse kannte diesen Blick. Er war der Blick vom Beifahrersitz“ und „Damals hatte sie nichts gesagt. Jetzt sagte sie auch nichts.“ – bewusst gesetzte, wirkungsvolle Wiederholungen."
+        ],
+        "suggestions": [
+          "Die „sah“-Formen reduzieren: „Er blickte aufs Wasser“, „Ilse warf einen Blick zur Uhr“ oder die Wahrnehmungsverben ganz streichen.",
+          "Beim zweiten „still“ variieren: „hustete und erstarb“ oder „hustete und schwieg wieder“.",
+          "Entweder die Erzählerinformation zur Überfahrt kürzen oder Ilses Satz knapper fassen, damit die Information nicht zweimal kommt.",
+          "Die rhetorischen Wiederholungen (Blick, nichts sagen) beibehalten, sie sind stilistisch gewollt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.129592
+}

@@ -1,0 +1,92 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gemini-4-argon__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel hockte so tief über dem Strom, dass das andere Ufer nicht existierte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und setzt den Leser sofort in die Szene. Keine Änderung erforderlich."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["graue Rampe", "grobem Kopfsteinpflaster", "träges, bleifarbenes Wasser"],
+        "suggestions": [
+          "Die Adjektive dienen der Atmosphäre und sind nicht überladen. Sie sind gut gewählt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sagte Ilse", "sagte die Frau"],
+        "suggestions": [
+          "Die Kennzeichnungen sind unaufdringlich und funktional. Sie stören den Lesefluss nicht."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["ein paar Meter"],
+        "suggestions": ["Der Text ist sehr präzise und kommt fast ohne Füllwörter aus."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "als ein roter Kleinwagen die Böschung herunterrollte",
+          "als die Hydraulik übernahm"
+        ],
+        "suggestions": [
+          "Die zeitlichen Verknüpfungen sind logisch und unterstützen den Handlungsfluss."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["wurde zu einem dunklen Schatten"],
+        "suggestions": [
+          "Das Passiv wird nur sehr selten verwendet. 'Wurde zu einem dunklen Schatten' könnte man zu 'verblasste zu einem dunklen Schatten' ändern, um es aktiver zu gestalten."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel hockte so tief über dem Strom, dass das andere Ufer nicht existierte."
+        ],
+        "suggestions": ["Die Satzlängen sind gut variiert und erzeugen einen angenehmen Rhythmus."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Morgen, Ilse. Hält sich hartnäckig heute, die Brühe.“"],
+        "suggestions": [
+          "Die Dialoge sind kurz, prägnant und charakterisierend. Keine Straffung nötig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Sie sah auf die Uhr.", "Ilse kannte ihren Namen nicht."],
+        "suggestions": [
+          "Man könnte 'Sie sah auf die Uhr' durch 'Ein Blick auf die Uhr: Neunundvierzig Minuten nach sechs' ersetzen, um die Wahrnehmung noch direkter zu machen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine inhaltlichen Doppelungen gefunden."],
+        "suggestions": ["Der Text ist sehr ökonomisch geschrieben. Keine Änderungen nötig."]
+      }
+    }
+  },
+  "costUsd": 0
+}

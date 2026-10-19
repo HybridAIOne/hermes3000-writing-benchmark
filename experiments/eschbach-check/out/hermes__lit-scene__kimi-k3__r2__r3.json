@@ -1,0 +1,90 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__kimi-k3__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Schlüssel klemmte, wie er schon immer geklemmt hatte."],
+        "suggestions": [
+          "Der Einstieg ist hervorragend, da er sofort eine physische Handlung und eine emotionale Verbindung etabliert. Nichts ändern."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["dunkler, harter Rand", "schmaler Streifen"],
+        "suggestions": [
+          "Die Adjektive sind präzise und atmosphärisch. Die Dichte ist genau richtig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["schon immer", "fast einen Geruch"],
+        "suggestions": [
+          "'schon immer' ist ein leichtes Füllwort. Es könnte gestrichen werden, um den Satz noch direkter zu machen: 'Der Schlüssel klemmte wie eh und je.'"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine überflüssigen Gleichzeitigkeitskonstruktionen gefunden. Der Textfluss ist sehr natürlich."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr aktiv und direkt geschrieben. Keine Passiv-Probleme."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Stille hatte Konsistenz, fast einen Geruch – oder der Geruch hatte Stille, sie hätte es nicht zu trennen gewusst."
+        ],
+        "suggestions": [
+          "Der Satzbau ist abwechslungsreich und rhythmisch gut. Die Satzlängen unterstützen die Stimmung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie hatte erwartet, ihn zu berühren",
+          "sie hätte es nicht zu trennen gewusst"
+        ],
+        "suggestions": [
+          "Statt 'Sie hatte erwartet' oder 'sie hätte nicht gewusst', zeige die Reaktion direkt. Beispiel statt 'Sie hatte erwartet...': 'Ihre Hand zuckte zum blauen Mantel, hielt aber inne.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Koffer", "Mantel"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier bewusst und verstärkend, nicht störend. Sie unterstreichen die Fixierung auf die Vergangenheit."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

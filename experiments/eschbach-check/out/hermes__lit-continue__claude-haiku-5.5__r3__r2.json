@@ -1,0 +1,83 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-haiku-5.5__r3",
+  "run": 2,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie antwortete nicht. Der Motor war nicht das Thema"],
+        "suggestions": ["Der Einstieg ist sehr gelungen, da er direkt in den Konflikt führt."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["trockenen Rattern", "hellen Mantel"],
+        "suggestions": [
+          "Die Adjektive sind gut gewählt und unterstützen die Atmosphäre, ohne den Text zu überladen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Einmal.“", "„Das ist dasselbe.“"],
+        "suggestions": [
+          "Die Dialoge sind sehr reduziert und kommen fast ohne Kennzeichnungen aus, was den Lesefluss fördert."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["eher so", "vielleicht (nicht vorhanden)"],
+        "suggestions": ["Der Text ist sehr präzise und kommt ohne unnötige Füllwörter aus."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse ging an ihm vorbei, ohne ihn anzusehen, und hörte, wie er..."],
+        "suggestions": ["Die Handlungsabfolgen sind logisch und klar strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlauch zur Pumpe war spröde geworden."],
+        "suggestions": [
+          "Der Text ist aktiv geschrieben. Das Passiv wird nur dort eingesetzt, wo es den Zustand beschreibt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Früher hatte er am Anleger gesessen und Steine ins Wasser geworfen, bis sie ihn heimholte."
+        ],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Mama.“ / Sie richtete sich auf."],
+        "suggestions": ["Die Dialoge sind knackig und realistisch."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Sie dachte an die Überfahrt um sieben"],
+        "suggestions": [
+          "'Sie dachte an...' ist eine klassische Filterung. Man könnte es direkter machen: 'Die Überfahrt um sieben kam ihr in den Sinn, der Mann mit dem Fahrrad... '"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Im Frühjahr hätte er... Im Frühjahr hatte sie..."],
+        "suggestions": [
+          "Die Wiederholung von 'Im Frühjahr' wirkt hier stilistisch beabsichtigt und verstärkt die Melancholie."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,93 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gemini-4-argon__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ein spärlich beleuchtetes Café. LUKAS sitzt am Tisch. MARIE tritt ein..."],
+        "suggestions": [
+          "Der Einstieg ist funktional. Um die Spannung sofort zu erhöhen, könnte man direkt mit Maries Zögern beim Hinsetzen beginnen, statt die Szene statisch zu beschreiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["setzt sich ihm dann langsam gegenüber", "spärlich beleuchtetes Café"],
+        "suggestions": [
+          "Das Adverb 'langsam' ist oft schwach. Ersetze es durch ein präziseres Verb, z.B.: 'Marie lässt sich ihm gegenüber nieder' (impliziert das Zögern durch das Verb)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["MARIE: Du bist schon da.", "LUKAS: (nickt langsam)"],
+        "suggestions": [
+          "Die Verwendung von Regieanweisungen (Klammern) ist für ein Skript ideal und sehr sauber gelöst."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Du bist schon da.",
+          "Sechs Monate sind eben eine lange Zeit.",
+          "Loyalität ist heutzutage wirklich ein teurer Luxus."
+        ],
+        "suggestions": [
+          "Streiche 'schon', 'eben' und 'wirklich'. Die Sätze gewinnen dadurch an Härte und Direktheit, was zur angespannten Stimmung passt."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Keine Probleme gefunden. Die Handlungen sind klar sequenziell oder durch Regieanweisungen gut getrennt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Es war letztlich eine rein geschäftliche Entscheidung"],
+        "suggestions": [
+          "Könnte aktiver formuliert werden: 'Die Leitung hat rein geschäftlich entschieden.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Satzlänge ist sehr gut auf den Dialog abgestimmt. Kurze, prägnante Sätze unterstreichen die unterdrückten Emotionen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind kurz und knackig. Keine Straffung nötig."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Sehr gut umgesetzt. Es gibt keine 'er dachte, dass' oder 'sie sah, dass'-Konstruktionen. Alles wird durch Handlungen und Dialoge gezeigt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Rein geschäftlich (wird von beiden aufgegriffen)"],
+        "suggestions": [
+          "Die Wiederholung von 'rein geschäftlich' wirkt hier als rhetorisches Mittel (Spiegelung) sehr gut. Achte darauf, dass dies nicht zur Gewohnheit wird."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

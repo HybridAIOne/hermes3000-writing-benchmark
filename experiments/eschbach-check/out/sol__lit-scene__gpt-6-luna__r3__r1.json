@@ -1,0 +1,127 @@
+{
+  "who": "sol",
+  "item": "lit-scene__gpt-6-luna__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel klemmte, wie Schlüssel in alten Häusern klemmen: nicht ganz, nur so, dass man den Druck der eigenen Hand spürte.",
+          "Zwanzig Jahre hatte sie nicht mehr hier gestanden."
+        ],
+        "suggestions": [
+          "Den Einstieg am Schloss beibehalten: Er setzt unmittelbar mit einer Handlung ein und etabliert Maras zögerliche Rückkehr über ein konkretes Hindernis.",
+          "Allenfalls den verallgemeinernden Vergleich kürzen: „Der Schlüssel klemmte. Mara zog ihn zurück, setzte noch einmal an.“ Das erhöht das Tempo, nimmt dem Einstieg aber etwas Eigenart."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ein brauner Hausschuh, flach getreten, innen grau vom Staub.",
+          "Erst kam Luft, dann ein dünner, rostfarbener Strahl.",
+          "Im Becken lag ein kleiner weißer Knopf, vier Löcher, am Rand noch ein Fadenrest."
+        ],
+        "suggestions": [
+          "Anschauliche, atmosphärisch tragende Angaben wie „rostfarbener“ und „grau vom Staub“ erhalten.",
+          "Bei gehäuften Merkmalen prüfen, welche wirklich tragen: Beim Knopf könnte „kleiner“ entfallen, weil Knöpfe ohnehin meist klein sind."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ich bin’s“, sagte sie."],
+        "suggestions": [
+          "„sagte sie“ kann entfallen, da Mara die einzige anwesende Figur ist. Die schlichte Kennzeichnung ist allerdings unauffällig und kann als rhythmischer Nachklang stehen bleiben."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Im Schloss gab etwas nach.",
+          "Jetzt roch der Flur nach kalter Asche und etwas Süßlichem, das sie nicht einordnen konnte.",
+          "an einem Ast hing eine durchsichtige Plastiktüte, die sich kaum bewegte."
+        ],
+        "suggestions": [
+          "Die unbestimmten Angaben nicht pauschal streichen: Sie vermitteln hier begrenzte Wahrnehmung und Unsicherheit.",
+          "„das sie nicht einordnen konnte“ probeweise entfernen. „Nach kalter Asche und etwas Süßlichem“ lässt die Unbestimmtheit bereits spürbar werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Mara zog ihn zurück, setzte noch einmal an.",
+          "Erst kam Luft, dann ein dünner, rostfarbener Strahl.",
+          "Von oben kam ein einzelnes Knacken, als hätte jemand sein Gewicht verlagert."
+        ],
+        "suggestions": [
+          "Die klare Abfolge der Handlungen beibehalten. „Als hätte“ bezeichnet hier einen hypothetischen Vergleich, keine überladene Gleichzeitigkeit."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Möbel waren abgedeckt."],
+        "suggestions": [
+          "Das Zustandspassiv beibehalten: Entscheidend ist der vorgefundene Zustand, nicht die unbekannte Person, die die Möbel abgedeckt hat. Eine Aktivfassung würde den Fokus unnötig verschieben."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel klemmte, wie Schlüssel in alten Häusern klemmen: nicht ganz, nur so, dass man den Druck der eigenen Hand spürte.",
+          "Die Johannisbeersträucher waren höher als der Zaun; an einem Ast hing eine durchsichtige Plastiktüte, die sich kaum bewegte.",
+          "Sie sah hinauf. Die Stufen waren dunkel, in der Mitte blank getreten."
+        ],
+        "suggestions": [
+          "Den Wechsel zwischen längeren Beschreibungen und kurzen Handlungssätzen erhalten.",
+          "Falls ein strafferer Auftakt gewünscht ist, zuerst den vergleichsweise verschachtelten ersten Satz vereinfachen. Die übrigen längeren Sätze bleiben gut überschaubar."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Ich bin’s“, sagte sie."],
+        "suggestions": [
+          "Die einzelne kurze Äußerung nicht erweitern: Gerade ihre Kürze und die ausbleibende Antwort tragen die Spannung."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Jetzt roch der Flur nach kalter Asche und etwas Süßlichem, das sie nicht einordnen konnte.",
+          "Sie legte ihn auf die Fensterbank, ohne zu wissen, warum.",
+          "Sie sah hinauf. Die Stufen waren dunkel, in der Mitte blank getreten."
+        ],
+        "suggestions": [
+          "Die überwiegend direkte Sinnesdarstellung beibehalten: „Es schmeckte nach Metall“ benötigt keinen vorgeschalteten Wahrnehmungsfilter.",
+          "„ohne zu wissen, warum“ probeweise streichen. Die unkommentierte Handlung kann Maras unbewussten Impuls noch zurückhaltender vermitteln.",
+          "„Sie sah hinauf“ muss nicht entfallen: Der Satz beschreibt eine konkrete Blickbewegung und lenkt die Aufmerksamkeit zur Treppe."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel klemmte, wie Schlüssel in alten Häusern klemmen",
+          "Sie schob ihn mit der Fußspitze beiseite. Ein brauner Hausschuh, flach getreten, innen grau vom Staub. Sie ließ ihn liegen.",
+          "In der Küche drehte sie den Wasserhahn auf.",
+          "Nur der Wasserhahn tropfte weiter, langsam, in die leere Spüle."
+        ],
+        "suggestions": [
+          "Die Wiederaufnahme des Wasserhahns erhalten: Sie verbindet die Küchenszene mit dem Schluss und ersetzt die erwartete Antwort durch ein Alltagsgeräusch.",
+          "„Sie ließ ihn liegen“ auf seine Funktion prüfen. Der Satz betont Maras Nicht-Eingreifen, ist für den äußeren Handlungsablauf aber entbehrlich.",
+          "Die Wiederholung von „Schlüssel“ und „klemmen“ nur kürzen, wenn der bewusst verallgemeinernde Ton des Auftakts nicht gewünscht ist."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018822
+}

@@ -1,0 +1,141 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__gpt-6.1-sol__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "(Ein Café. Martin sitzt am Fenster. Als Jakob kommt, nimmt er seine Jacke vom zweiten Stuhl.)",
+          "Du sitzt noch immer hier."
+        ],
+        "suggestions": [
+          "Der Einstieg erfolgt unmittelbar mit der Begegnung und etabliert über den Stuhl bereits das Verhältnis der Figuren. Eine Vorgeschichte ist nicht nötig.",
+          "Das Pronomen im ersten Handlungssatz präzisieren: „Jakob kommt. Martin nimmt seine Jacke vom zweiten Stuhl.“"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Du sitzt noch immer hier.",
+          "Du hast ihn glatt gestrichen.",
+          "Dein Mantel wird nass am Boden."
+        ],
+        "suggestions": [
+          "Die wenigen Adjektive und Adverbien überwiegend beibehalten: Sie vermitteln Zeit, Veränderung und Aufmerksamkeit zwischen den Figuren.",
+          "„Glatt gestrichen“ nicht durch ein allgemeineres Verb ersetzen: Gerade die konkrete Bearbeitung des Zuckerbeutels trägt den Subtext."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "**Jakob:** Du sitzt noch immer hier.",
+          "**Martin:** Der Stuhl ist jetzt frei."
+        ],
+        "suggestions": [
+          "Die eindeutigen Sprecherbezeichnungen entsprechen der dramatischen Form. Zusätzliche Redeeinleitungen sind nicht erforderlich.",
+          "Keine erklärenden Zusätze wie „sagt er gereizt“ ergänzen; Wortwahl und Handlungen vermitteln die Spannung bereits."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Nein. Du warst bloß zuerst da.",
+          "Er lag sowieso im Weg.",
+          "Ich wollte ihn gerade ausziehen."
+        ],
+        "suggestions": [
+          "„Bloß“, „sowieso“ und „gerade“ hier nicht mechanisch streichen: Sie kennzeichnen Abwehr, Rechtfertigung und das Ausweichen vor einer fürsorglichen Geste.",
+          "Bei der Überarbeitung prüfen, ob jede solche Partikel eine eigene Gesprächsfunktion behält. Unpräzise Mengen- oder Näherungsangaben fehlen weitgehend."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als Jakob kommt, nimmt er seine Jacke vom zweiten Stuhl.",
+          "(Die Kellnerin stellt zwei Tassen ab.)",
+          "(Martin dreht seine Tasse am Henkel.)"
+        ],
+        "suggestions": [
+          "Die Handlungen sind fast durchgehend klar nacheinander angeordnet; eine systematische Überarbeitung ist nicht nötig.",
+          "Den einzigen „Als“-Satz bei Bedarf in zwei Sätze auflösen. Das verbessert zugleich die Zuordnung der Jacke zu Martin."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Haben sie den Tisch abgeschliffen?",
+          "Wenn ich ihn hierlasse, räumen sie ihn ab.",
+          "Dein Mantel wird nass am Boden."
+        ],
+        "suggestions": [
+          "Die aktiven Formulierungen beibehalten; umständliche Passivkonstruktionen kommen nicht vor.",
+          "„Wird nass“ ist kein Passiv, sondern beschreibt eine Zustandsveränderung. Hier besteht kein Änderungsbedarf."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ich konnte sie noch aufhalten, wenn du etwas anderes willst.",
+          "Wenn ich ihn hierlasse, räumen sie ihn ab."
+        ],
+        "suggestions": [
+          "Die kurzen, übersichtlichen Satzstrukturen beibehalten. Auch die wenigen Sätze mit Nebensatz bleiben leicht verständlich.",
+          "Nicht weiter verkürzen, wenn dadurch die natürliche Sprechweise verloren geht."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Früher hast du Zucker genommen.",
+          "Früher hast du ihn mir rübergeschoben.",
+          "Wie geht es deiner Mutter?",
+          "Sie fragt noch nach dir."
+        ],
+        "suggestions": [
+          "Obwohl die Szene überwiegend aus Dialog besteht, sind die einzelnen Redebeiträge knapp. Handlungen und Themenwechsel gliedern das Gespräch ausreichend.",
+          "Die Stationen Tischkerbe, Zucker, Mutter und Bus beibehalten, solange jede eine neue Stufe der vorsichtigen Annäherung markiert. Pauschales Straffen würde hier Subtext kosten."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "(Jakob fährt mit dem Daumen unter die Tischkante.)",
+          "(Jakob steckt den Beutel in die Manteltasche.)",
+          "(Draußen hält ein Bus. Jakob sieht nicht hin.)"
+        ],
+        "suggestions": [
+          "Die unmittelbar dargestellten Handlungen beibehalten. Sie machen Erinnerungen und Bindung sichtbar, ohne Gedanken zu erklären.",
+          "„Jakob sieht nicht hin“ ist keine entbehrliche Wahrnehmungsfilterung, sondern eine beobachtbare Verweigerung. Nicht durch eine Erklärung seiner Absicht ersetzen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Als Jakob kommt, nimmt er seine Jacke vom zweiten Stuhl.",
+          "(Martin nimmt die Jacke vom Stuhl neben sich und hängt sie an den Haken.)",
+          "Früher hast du Zucker genommen.",
+          "Früher hast du ihn mir rübergeschoben."
+        ],
+        "suggestions": [
+          "Die Jackenbewegungen räumlich klären: Anfangs wird die Jacke bereits vom zweiten Stuhl genommen; am Ende liegt sie ohne erklärte Zwischenhandlung wieder auf einem Stuhl neben Martin.",
+          "Eine klare Variante wäre: Anfangs legt Martin die Jacke auf seinen Schoß; am Ende hängt er sie von dort an den Haken. Soll es sich um zwei verschiedene Stühle handeln, diese unterscheiden.",
+          "Die Wiederholung von „Früher hast du“ beibehalten: Jakob greift Martins Formulierung auf und verschiebt das Thema von einer Gewohnheit zu verlorener Fürsorge."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018374
+}

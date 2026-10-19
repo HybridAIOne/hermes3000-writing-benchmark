@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so tief auf der Elbe, dass Ilse das andere Ufer nur ahnte."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und setzt genau zum richtigen Zeitpunkt ein, um die Stimmung zu etablieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["schwarzgrün", "zahnlückig"],
+        "suggestions": [
+          "Die Adjektive sind sehr gezielt gewählt und tragen zur Bildhaftigkeit bei, keine Überladung erkennbar."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["»Scheißwetter«, sagte er heute", "»Na, Ilse«, sagte Pommerening."],
+        "suggestions": [
+          "Die Zuweisungen sind klar, könnten aber an manchen Stellen (z.B. bei kurzen Wechseln) weggelassen werden, um den Dialogfluss zu beschleunigen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr präzise und kommt ohne unnötige Füllwörter aus."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["als sie sie löste", "als hätte der Fluss etwas überlegt"],
+        "suggestions": [
+          "Die 'als'-Konstruktionen sind stilistisch gut eingebunden und wirken nicht wie eine Aneinanderreihung von Ereignissen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["hatte man ihr einmal gesagt"],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv. Das Passiv wird hier nur sparsam zur Distanzierung genutzt, was gut zum Charakter passt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie stellte den Dieselmotor an, und das vertraute Ruckeln ging durch das Stahldeck in ihre Stiefel, hoch in die Knie, weiter in den Rücken..."
+        ],
+        "suggestions": [
+          "Die langen Sätze erzeugen einen angenehmen, fließenden Rhythmus, der zur langsamen Bewegung der Fähre passt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Na, Ilse«, sagte Pommerening. »Na«, sagte sie."],
+        "suggestions": ["Die Dialoge sind sehr prägnant und charakterstark, keine Straffung nötig."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["als wüsste sie nicht, ob das ein Scherz war"],
+        "suggestions": [
+          "Die Wahrnehmung ist gut in die Handlung integriert und wirkt nicht distanziert."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Vierzig Meter", "klingeln"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier als bewusstes Stilmittel (Leitmotiv) und verstärken die Routine und Atmosphäre."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

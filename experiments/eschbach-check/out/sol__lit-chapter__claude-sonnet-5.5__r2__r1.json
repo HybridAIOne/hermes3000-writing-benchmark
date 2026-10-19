@@ -1,0 +1,145 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Nebel lag so dicht auf dem Wasser, dass man das andere Ufer nur wusste.“ etabliert sofort Atmosphäre und eingeschränkte Sicht.",
+          "Vor „Der Erste kam um zehn nach sieben“ stehen zwei Absätze mit Milieu- und Routinedetails."
+        ],
+        "suggestions": [
+          "Den atmosphärischen ersten Satz beibehalten; er setzt einen eigenständigen Ton.",
+          "Für einen zügigeren Einstieg die Beschreibung von Seil und Spinnennetz kürzen oder zwischen die Ankünfte verteilen. Der ruhige Beginn ist jedoch durch die spätere Störung der Routine motiviert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„ein tiefes, gleichmäßiges Brummen“ charakterisiert den vertrauten Motor und bereitet Ilses Aufmerksamkeit für Veränderungen vor.",
+          "„Es surrte weiter, ein kleines, wütendes Zittern auf dem Blech.“",
+          "„Vor dem Bug tauchte, noch ohne Konturen, ein dunklerer Streifen im Grau auf.“"
+        ],
+        "suggestions": [
+          "Sinnlich oder perspektivisch wirksame Attribute wie „perlenbesetzt“ und „wütendes“ erhalten.",
+          "Bei Attributhäufungen prüfen, welches Wort tatsächlich zusätzliche Information trägt: etwa „ein wütendes Zittern auf dem Blech“ statt „ein kleines, wütendes Zittern“."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der erste Wortwechsel von „Moin, Frau Brandt“ bis „Gegen zehn“ kommt ohne Redebegleitsätze aus.",
+          "„Hab nicht gewartet“, sagte Ilse. „Ich hab nur noch nicht abgelegt.“",
+          "„Müssen Sie rangehen?“, fragte die junge Frau von der Bank."
+        ],
+        "suggestions": [
+          "Die überwiegend sparsame Sprecherkennzeichnung beibehalten.",
+          "„sagte Ilse“ nach „Hab nicht gewartet“ könnte entfallen, weil die Sprecherfolge eindeutig ist.",
+          "Die Kennzeichnung der jungen Frau bei der Telefonfrage erhalten: Nach dem längeren Erzählabschnitt hilft sie bei der Orientierung."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Es war ein Junge, vielleicht fünfzehn“",
+          "„in München saß er jetzt vermutlich schon im Büro“",
+          "„Er nickte, als sei damit alles erklärt, und vielleicht war es das auch.“"
+        ],
+        "suggestions": [
+          "Unsicherheitswörter nicht pauschal streichen: „vielleicht fünfzehn“ und „vermutlich“ markieren plausibel die Grenzen von Ilses Wissen.",
+          "Den Nachsatz „und vielleicht war es das auch“ probeweise streichen. Das Nicken könnte die Wirkung des knappen Dialogs bereits ausreichend tragen.",
+          "Dialogpartikeln wie „ja“, „schon“ und „natürlich“ erhalten, sofern sie Verlegenheit oder Gesprächshaltung vermitteln."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ilse hatte schon die Hand am Hebel, als sie auf dem Deich ein Licht schwanken sah“ verbindet zwei tatsächlich zeitlich überlappende Vorgänge.",
+          "„als könnte es ihm sonst wegrollen“, „als hätte sie einen Witz gemacht“ und „als überlegte es jedes Mal neu“ sind Vergleiche, keine Gleichzeitigkeitssignale."
+        ],
+        "suggestions": [
+          "Die zeitliche Verknüpfung beim verspäteten Fahrgast beibehalten: Sie macht deutlich, dass Ilse unmittelbar vor dem Ablegen steht.",
+          "Eher die Häufung vergleichender „als“-Konstruktionen prüfen als die Gleichzeitigkeit. Einzelne Vergleiche könnten zugunsten direkter Beobachtungen entfallen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ilse löste die Leine, legte den Hebel um.“ ist knapp und aktiv formuliert.",
+          "„Hinter ihnen schloss der Nebel die Lücke“ gibt auch der Umgebung eine aktive Rolle.",
+          "„das Wasser unter ihr wurde tief und schwarz“ beschreibt eine Zustandsveränderung und ist kein Passiv."
+        ],
+        "suggestions": [
+          "Keine systematische Überarbeitung nötig: Der Text verwendet keine auffälligen Passivkonstruktionen.",
+          "Die klaren Handlungsträger und präzisen Verben beibehalten."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Der Motor lief im Leerlauf, ein tiefes, gleichmäßiges Brummen, das sie nach so vielen Jahren nicht mehr hörte, sondern nur noch bemerkte, wenn es sich änderte.“",
+          "„Sie sah auf den Namen. Es war Dienstag, kurz nach halb acht, in München saß er jetzt vermutlich schon im Büro, vor sich einen dieser Kaffee in Pappbechern, die er ihr einmal mitgebracht und die sie nicht hatte austrinken können.“"
+        ],
+        "suggestions": [
+          "Den langen Satz über Jonas teilen, damit gegenwärtiger Anruf, Vorstellung seines Büroalltags und Erinnerung deutlicher hervortreten.",
+          "Mögliche Straffung: „In München saß er vermutlich schon im Büro. Vor sich einen Kaffee im Pappbecher. Einmal hatte er ihr so einen mitgebracht; sie hatte ihn nicht austrinken können.“",
+          "Die längeren Sätze nicht durchgehend kürzen: Ihr ruhiger Fluss passt zur Überfahrt und wird bereits durch kurze Sätze kontrastiert."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Die Fähre hängt am Seil. Die kann sich nicht verfahren.“ vermittelt Sachinformation und Ilses trockenen Ton zugleich.",
+          "„Und Sie fahren trotzdem jeden Tag?“ – „Es kommt ja jemand.“ verdichtet Ilses Haltung auf wenige Worte.",
+          "Die Folge „Was kostet das?“ bis „Dann zwei fünfzig“ besteht aus kurzen, pointierten Repliken."
+        ],
+        "suggestions": [
+          "Die knappen Dialoge weitgehend unverändert lassen; sie charakterisieren die Figuren ohne erklärende Monologe.",
+          "Nur bei gewünschtem höherem Tempo den Fahrpreiswechsel kürzen. Seine kleine Umständlichkeit hat allerdings eine erkennbare charakterisierende Funktion."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„und sah zu, wie der Tag sich nicht entschließen konnte, hell zu werden“",
+          "„als sie auf dem Deich ein Licht schwanken sah“",
+          "„Sie sah auf den Namen.“",
+          "„Sie wusste es einfach.“"
+        ],
+        "suggestions": [
+          "Die Entdeckung des verspäteten Fahrgasts direkter formulieren: „Ilse hatte schon die Hand am Hebel. Auf dem Deich schwankte ein Licht.“",
+          "„Sie wusste es einfach“ probeweise streichen; die folgende Erklärung des Windwechsels vermittelt ihre Erfahrung bereits.",
+          "Wahrnehmungsverben dort erhalten, wo das Hinsehen selbst Bedeutung trägt, etwa bei Ilses Reaktion auf Jonas’ Namen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Sie wartete. Es kostete sie nichts, eine Minute zu warten, sie hatte keinen Fahrplan, nur Gewohnheiten.“",
+          "„Der Junge grinste, als hätte sie einen Witz gemacht. Sie hatte keinen gemacht.“",
+          "„Sie wusste es einfach“ wird unmittelbar durch die Erklärung des morgendlichen Windwechsels ergänzt.",
+          "Nebel, Seil und das Surren des Telefons kehren als tragende Motive wieder."
+        ],
+        "suggestions": [
+          "Die Wartepassage straffen: „Sie wartete. Sie hatte keinen Fahrplan, nur Gewohnheiten.“ Dadurch bleibt die charakteristische Pointe erhalten.",
+          "„Sie hatte keinen gemacht“ nur streichen, wenn Ilse weniger ausdrücklich trocken charakterisiert werden soll; die Wiederaufnahme setzt hier bewusst einen Kontrapunkt.",
+          "Motivische Wiederholungen von Nebel, Seil und Telefon erhalten. Sie verbinden Atmosphäre, Routine und die persönliche Störung, statt bloß Information zu verdoppeln."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.024532
+}

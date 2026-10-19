@@ -1,0 +1,164 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__claude-haiku-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Der Nebel lag so dicht über dem Fluss, dass Ilse Brandt das andere Ufer nicht sehen konnte. Sie wusste, dass es dort war.",
+          "Sie hatte es in den Jahrzehnten, in denen sie diese Fähre fuhr, nie anders erlebt als so, wie man einen Raum kennt, in dem das Licht ausgegangen ist",
+          "Die Fähre löste sich von der Anlegestelle [...] Am Ufer stand er schon, der Mann mit dem Hund. (Die Fähre legt ab, bevor der erste Passagier an Bord ist.)",
+          "Der Motor kam husten, dann ruhig."
+        ],
+        "suggestions": [
+          "Die Reflexion im ersten Absatz bremst den Einstieg. Die Szene könnte direkt mit 'Um sechs Uhr zehn drehte sie den Schlüssel am Steuerstand.' beginnen. Das Bild vom dunklen Raum lässt sich später einstreuen, etwa wenn die Fähre im Nebel die Mitte des Stroms erreicht.",
+          "Die Reihenfolge am Anfang sollte stimmen: erst die Passagiere an Bord nehmen, dann ablegen. Alternativ deutlich machen, dass die Fähre zunächst zur Gegenseite übersetzt.",
+          "Den grammatischen Fehler korrigieren: 'Der Motor kam hustend, dann ruhig' oder besser 'Der Motor hustete, dann lief er ruhig.'"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "ein tiefer, gleichmäßiger Ton",
+          "Er lachte kurz",
+          "Die junge Frau schaute kurz auf",
+          "Ilse nahm das Ruder fester",
+          "bis sie sanft gegen die Holzkante stieß",
+          "Das Seil sang weiter, gleichmäßig, als hätte es nie etwas anderes getan."
+        ],
+        "suggestions": [
+          "Die meisten Adjektive sind konkret und tragen zur Figurenzeichnung bei (grüne Jagdweste, grauer Drahthaar mit weißem Kinn). Diese beibehalten.",
+          "'kurz' kommt zweimal vor. Einmal streichen oder durch ein präzises Verb ersetzen, etwa 'Er lachte auf' oder 'Die junge Frau blickte auf'.",
+          "'gleichmäßig' wird beim Seil zweimal verwendet. Im letzten Vorkommen ist es entbehrlich, weil das 'als hätte es nie etwas anderes getan' die Gleichmäßigkeit bereits ausdrückt.",
+          "'sanft gegen die Holzkante stieß' ist in sich widersprüchlich. Besser: 'bis sie an die Holzkante stieß' oder 'bis sie gegen die Holzkante lehnte'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "»Er mag Sie«, sagte der Mann.",
+          "»Nein«, sagte Ilse. »Die Fähre fährt.«",
+          "»Guten Morgen«, sagte der Mann.",
+          "»Ich muss nur bis drüben«, sagte die junge Frau, als wäre das eine Entschuldigung."
+        ],
+        "suggestions": [
+          "Bei '»Er mag Sie«' sind nur Ilse und der Mann im Gespräch. Die Kennzeichnung kann entfallen.",
+          "'sagte Ilse' nach »Nein« ist überflüssig, da klar ist, wer gefragt wurde. Einfach: »Nein. Die Fähre fährt.«",
+          "Die Kennzeichnungen 'fragte der Mann mit dem Hund' und 'fragte er, ohne sich umzudrehen' sind sinnvoll, weil zwei männliche Passagiere an Bord sind. Diese beibehalten.",
+          "Die kurzen, unmarkierten Wechsel ('Ein Sauwetter.' / 'Es ist November.') funktionieren hervorragend. Dieses Prinzip konsequent anwenden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie war vielleicht zwanzig",
+          "Älter als der Mann mit dem Hund, vielleicht siebzig",
+          "Sie studierte irgendwo in Lüneburg",
+          "irgendetwas mit Geschichte",
+          "Irgendwo links im Grau rief ein Vogel",
+          "Nach einer Weile wurde das Grau vor dem Bug heller."
+        ],
+        "suggestions": [
+          "Die Unschärfen passen teilweise zur distanzierten Wahrnehmung der Figur, häufen sich aber. Dreimal 'irgend-' in kurzer Folge wirkt nach Manier. Mindestens eines konkretisieren, etwa 'Sie studierte in Lüneburg'.",
+          "Das zweite 'vielleicht' bei den Altersangaben streichen: 'Älter als der Mann mit dem Hund, um die siebzig' oder ein konkretes Detail statt einer Zahl.",
+          "'Nach einer Weile' durch einen konkreten Auslöser ersetzen, etwa 'Vor dem Bug hellte das Grau auf.'"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "setzte sich sofort hin, als die Rampe herunterkam",
+          "»Wie lange machen Sie das schon?«, fragte er, ohne sich umzudrehen.",
+          "Die junge Frau holte ihr Buch aus der Tasche und blätterte darin, ohne zu lesen.",
+          "Sie hatte es in den Steuerstand gelegt, neben die Thermoskanne"
+        ],
+        "suggestions": [
+          "Handlungen werden überwiegend sauber nacheinander erzählt (Hund schnuppert an der Planke, dann am Stiefel, dann wedelt er). Das ist vorbildlich.",
+          "Den Hund nacheinander erzählen: 'Die Rampe kam herunter. Der Hund setzte sich sofort und sah zu Ilse hinauf.'",
+          "Die Konstruktion 'ohne zu ...' taucht mehrfach auf (ohne sich umzudrehen, ohne zu lesen, ohne etwas zu sehen, ohne ihn lesen zu müssen). Ein oder zwei davon auflösen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["das Ufer, das inzwischen nur noch als dunkler Streifen zu ahnen war"],
+        "suggestions": [
+          "Der Text ist nahezu durchgehend aktiv formuliert. Das ist sehr gut.",
+          "Die passivische Wendung 'zu ahnen war' lässt sich aktiv fassen: 'das Ufer, von dem sie nur noch einen dunklen Streifen ahnte'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie hatte es in den Jahrzehnten, in denen sie diese Fähre fuhr, nie anders erlebt als so, wie man einen Raum kennt, in dem das Licht ausgegangen ist: man findet sich zurecht, ohne etwas zu sehen.",
+          "Irgendwo links im Grau rief ein Vogel, dann noch einmal, dann war es still bis auf das Wasser, das gegen den Rumpf schlug, und den Motor, der sich in den Bauch der Fähre zurückzog, bis man ihn kaum noch hörte.",
+          "Sie sah über die Schulter auf das Ufer, das inzwischen nur noch als dunkler Streifen zu ahnen war, und dann wieder auf das Wasser, das vor dem Bug zur Seite wich."
+        ],
+        "suggestions": [
+          "Der dritte Satz des Textes ist verschachtelt und grammatisch holprig ('nie anders erlebt als so, wie man einen Raum kennt'). Vorschlag: 'Sie fuhr diese Fähre seit Jahrzehnten. Sie kannte den Fluss wie einen Raum, in dem das Licht ausgegangen ist: Man findet sich zurecht, ohne etwas zu sehen.'",
+          "Den Vogel-Satz teilen: 'Irgendwo links im Grau rief ein Vogel, dann noch einmal. Danach war nur noch das Wasser zu hören, das gegen den Rumpf schlug. Der Motor zog sich in den Bauch der Fähre zurück, bis man ihn kaum noch hörte.'",
+          "Kurze Sätze wie 'Das Seil sang weiter.' oder 'Sie ließ es klingeln.' setzen wirkungsvolle Kontraste. Diesen Rhythmus nutzen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "»Ein Sauwetter.« / »Es ist November.«",
+          "»Es gibt keine zwei mehr.« / »Ich weiß.«",
+          "»Ich bin hier früher oft rübergefahren. Mit meinem Vater. Da gab es noch zwei Fähren.«"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, subtextreich und charakterisieren Ilse über ihre Einsilbigkeit. Keine Straffung nötig.",
+          "Der Austausch mit dem Mann am Heck ist der stärkste Moment des Textes. Er könnte durch eine winzige Reaktion Ilses noch an Gewicht gewinnen, ohne verlängert zu werden."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "dass Ilse Brandt das andere Ufer nicht sehen konnte. Sie wusste, dass es dort war.",
+          "Sie hörte, wie er überlegte, ob das eine Antwort war, und entschied, dass es keine Rolle spielte.",
+          "Ilse sah den Titel eines dicken Bandes auf dem Gepäckträger",
+          "Ilse hatte ihn beim Ablegen nicht bemerkt",
+          "Sie wartete, ob er noch etwas sagen würde.",
+          "Ilse sah die Umrisse der Anlegestelle auftauchen"
+        ],
+        "suggestions": [
+          "Direkt formulieren: 'Der Nebel lag so dicht über dem Fluss, dass das andere Ufer verschwand. Es war trotzdem dort.'",
+          "'Sie hörte, wie er überlegte' ist logisch problematisch, denn Gedanken kann man nicht hören. Besser zeigen: 'Er schwieg einen Moment. Ilse ließ ihn.'",
+          "Statt 'Ilse sah die Umrisse der Anlegestelle auftauchen': 'Aus dem Grau schoben sich die Pfosten, der Steg, eine Bank, auf der niemand saß.'",
+          "Statt 'Ilse sah den Titel eines dicken Bandes': 'Auf dem Gepäckträger lag ein dicker Band, irgendetwas mit Geschichte. Ilse wandte den Blick ab.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "als erwartete er eine Erklärung / als hätte sie einen Witz gemacht / als wäre das eine Entschuldigung / als hätte es lange nicht gelacht / als sei das eine vernünftige Antwort / als hätte es nie etwas anderes getan",
+          "Das Stahlseil begann über den Rollen zu singen / Das Seil sang weiter. / Das Seil sang weiter, gleichmäßig",
+          "Auf halber Strecke begann das Telefon in ihrer Jackentasche zu vibrieren. Sie hatte es in den Steuerstand gelegt [...] Ilse ließ es in der Jacke.",
+          "Sie sah nicht hin. [...] Das Display leuchtete im Grau, sie erkannte den Namen",
+          "Die Vibration hörte auf. [...] Das Summen verstummte. [...] Das Telefon blieb still."
+        ],
+        "suggestions": [
+          "Die 'als ob'-Vergleiche (sechsmal) werden zur Formel und schwächen sich gegenseitig. Höchstens zwei behalten und die übrigen durch beobachtbares Verhalten ersetzen.",
+          "Das singende Seil als Leitmotiv ist stark, wirkt aber beim dritten Mal erklärend. Das letzte Vorkommen kürzen auf 'Das Seil sang.'",
+          "Den Widerspruch beim Telefon auflösen: Entweder liegt es in der Jackentasche oder im Steuerstand. Den Schlusssatz entsprechend anpassen.",
+          "'Sie sah nicht hin' widerspricht dem Erkennen des Namens auf dem Display. Entweder sieht sie hin oder sie erkennt den Anrufer am Zeitpunkt bzw. an der Hartnäckigkeit.",
+          "Die Telefonsequenz verdichten: Ein Klingeln, eine Pause, ein zweites Klingeln und die Nachricht genügen. Das mehrfache Verstummen ist redundant."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.149016
+}

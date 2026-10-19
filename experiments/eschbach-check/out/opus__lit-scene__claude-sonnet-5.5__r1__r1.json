@@ -1,0 +1,130 @@
+{
+  "who": "opus",
+  "item": "lit-scene__claude-sonnet-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel lag nicht mehr unter dem Blumentopf.",
+          "„Das Wasser ist abgestellt“, sagte er durch den Türspalt, „den Strom hab ich gelassen.“ Mehr nicht."
+        ],
+        "suggestions": [
+          "Der Einstieg ist knapp und trägt Information: Abwesenheit, Fremdheit, Distanz zum Nachbarn. Ein Beginn direkt an der klemmenden Tür wäre möglich. Dann ginge aber der Satz zum abgestellten Wasser verloren, den das Ende aufgreift. Der Einstieg sollte deshalb bleiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "süß und herb zugleich, beinahe aufdringlich",
+          "der leicht schwang",
+          "trocken und leicht körnig, wie Sand",
+          "die Schalen zu Leder geschrumpft, dunkel gefleckt"
+        ],
+        "suggestions": [
+          "Die Attributkette beim Quittenduft straffen, etwa: „Und doch hing ihr Duft im ganzen Raum, süß, beinahe aufdringlich, ein Geruch nach Herbst …“.",
+          "„leicht“ kommt zweimal vor. Beim Kleiderbügel genügt „der schwang“. Bei der Schnittfläche reicht „körnig wie Sand“."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Das Wasser ist abgestellt“, sagte er durch den Türspalt"],
+        "suggestions": [
+          "Die einzige Redeeinleitung ist berechtigt. „durch den Türspalt“ zeigt zugleich die Distanz des Nachbarn. Keine Änderung nötig."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "vielleicht von ihrem Luftzug, vielleicht schon vorher",
+          "nach etwas Muffigem",
+          "beinahe aufdringlich",
+          "Das Wasser war ja abgestellt."
+        ],
+        "suggestions": [
+          "Das doppelte „vielleicht“ und das „etwas Muffigem“ erzeugen bewusst Unsicherheit und Verdrängung („das sie nicht benennen wollte“). Sie sollten bleiben.",
+          "„beinahe“ streichen: „aufdringlich“ allein wirkt stärker."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "und gab erst nach, als sie mit der Hüfte nachhalf",
+          "Sie ging, ohne den Mantel auszuziehen, in die Küche."
+        ],
+        "suggestions": [
+          "Die Handlungen folgen sauber aufeinander. Das „als“ an der Tür markiert eine kausale Abfolge, keine künstliche Gleichzeitigkeit. Keine Änderung nötig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Kühlschrank war ausgeräumt",
+          "Neben der fünften Quitte, die bereits halbiert war"
+        ],
+        "suggestions": [
+          "Die Zustandspassive passen zum leeren, verlassenen Haus.",
+          "Bei der Quitte lohnt sich die Aktivform, weil sie die Frage nach dem Handelnden schärft: „Neben der fünften Quitte, die jemand halbiert hatte …“. Das Echo auf „Jemand hatte gedacht“ verstärkt die Spannung."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Und doch hing ihr Duft im ganzen Raum, süß und herb zugleich, beinahe aufdringlich, ein Geruch nach Herbst, der in diesem Haus nicht hätte überdauern dürfen.",
+          "Die Garderobe war leer bis auf einen Kleiderbügel, der leicht schwang, vielleicht von ihrem Luftzug, vielleicht schon vorher."
+        ],
+        "suggestions": [
+          "Den Quittensatz teilen, um die Pointe freizustellen: „Und doch hing ihr Duft im ganzen Raum, süß, aufdringlich. Ein Geruch nach Herbst, der in diesem Haus nicht hätte überdauern dürfen.“"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Das Wasser ist abgestellt“, sagte er durch den Türspalt, „den Strom hab ich gelassen.“ Mehr nicht."
+        ],
+        "suggestions": [
+          "Der Dialog ist minimal und funktional. „Mehr nicht.“ zeigt die Kargheit des Gesprächs. Keine Kürzung nötig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Nora war ihm dankbar dafür.",
+          "nach etwas Muffigem, das sie nicht benennen wollte"
+        ],
+        "suggestions": [
+          "Wahrnehmungen werden durchgehend direkt gezeigt.",
+          "Nur „Nora war ihm dankbar dafür“ benennt ein Gefühl. Eine Geste könnte es zeigen, etwa: „Nora nickte und war froh, dass er die Tür nicht weiter öffnete.“ Die knappe Form passt aber auch zum Ton."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Dort lagen vier Quitten … Neben der fünften Quitte, die bereits halbiert war",
+          "Sie berührte die Schnittfläche mit dem Finger. Sie war trocken",
+          "Duft … ein Geruch nach Herbst",
+          "Türspalt … einen Spalt offen"
+        ],
+        "suggestions": [
+          "Die Echos „Wasser ist abgestellt“ / „Das Wasser war ja abgestellt“ und „klemmte, wie sie immer geklemmt hatte“ sind bewusst gesetzt und wirken.",
+          "„vier Quitten“ und „der fünften Quitte“ können als Widerspruch gelesen werden. Klarer wäre: „vier ganze Quitten … daneben eine fünfte, halbiert“.",
+          "„Sie war trocken“ kann sich auf Nora oder die Schnittfläche beziehen. Besser: „Sie berührte die Schnittfläche. Trocken, körnig wie Sand.“",
+          "„Spalt“ einmal ersetzen, etwa: „die Tür angelehnt, damit er nicht schimmelte“."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.083476
+}

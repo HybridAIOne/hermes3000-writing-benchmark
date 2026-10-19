@@ -1,0 +1,150 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Der Nebel lag so dicht über der Elbe, dass das andere Ufer verschwunden war.“",
+          "„In der Brusttasche ihrer Jacke begann es zu summen.“"
+        ],
+        "suggestions": [
+          "Der atmosphärische Einstieg etabliert Ilses Arbeitswelt überzeugend. Bis zum Anruf als eigentlichem Konfliktimpuls vergeht jedoch viel Zeit mit routinierten Abläufen.",
+          "Als behutsame Straffung mit den auftauchenden Scheinwerfern einsetzen und Nebel, Kälte sowie Uhrzeit in die Abfertigung einflechten.",
+          "Die Ankunft der Fahrgäste kürzen, statt unmittelbar mit dem Anruf einzusteigen: Der Gegensatz zwischen vertrauter Routine und familiärer Zumutung trägt die Szene."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„das schwarze, träge ziehende Wasser, das stählerne Deck der Fähre und das weiche Grau“",
+          "„mit einem tiefen, kehligen Stottern“",
+          "„das Seil sang sein leises, metallisches Lied“",
+          "„das Lächeln professionell und ein bisschen zu breit“"
+        ],
+        "suggestions": [
+          "Die sinnlichen Attribute überwiegend behalten; sie erzeugen die spezifische Atmosphäre. An Stellen mit mehreren Attributen jeweils das stärkste auswählen.",
+          "„mit einem tiefen, kehligen Stottern“ beispielsweise zu „mit einem kehligen Stottern“ kürzen.",
+          "„ein bisschen zu breit“ kann Ilses zurückhaltendes Urteil charakterisieren. Für eine schärfere Wertung genügt „zu breit“."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„‚Morgen, Ilse‘, sagte Kalle und reichte ihr eine abgezählte Zwei-Euro-Münze und fünfzig Cent.“",
+          "„‚Suppe heute‘, sagte Kalle und nickte in Richtung Fluss.“",
+          "„‚Ich hätt schon gewartet‘, sagte Ilse.“"
+        ],
+        "suggestions": [
+          "Die erste Sprecherzuordnung beibehalten; sie führt Kalle unauffällig ein.",
+          "Bei „Suppe heute“ kann die Handlung die Kennzeichnung übernehmen: „‚Suppe heute.‘ Kalle nickte in Richtung Fluss.“",
+          "Im klaren Wechsel zwischen Frau Mertens und Ilse lässt sich „sagte Ilse“ streichen. Nicht sämtliche neutralen Kennzeichnungen entfernen: Sie stören den Lesefluss kaum."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ilse nickte nur, obwohl er es gar nicht sah.“",
+          "„die Schulter zog ein wenig“",
+          "„Jetzt musste sie nichts weiter tun als zu schauen.“",
+          "„schob das Telefon einfach zurück in die Brusttasche“"
+        ],
+        "suggestions": [
+          "„gar“ und „einfach“ probeweise streichen; der Handlungssinn bleibt erhalten.",
+          "„die Schulter zog ein wenig“ zu „die Schulter zog“ verdichten, sofern die geringe Schmerzintensität nicht wichtig ist.",
+          "Gesprächspartikeln wie „ja“ in den Dialogen nicht pauschal entfernen: Sie unterstützen den mündlichen Ton und die Vertrautheit der Figuren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Als Ilse vor ihn trat, hielt er ihr wortlos eine Monatskarte hin“",
+          "„‚Gerade noch geschafft‘, keuchte sie, als sie das Deck betrat.“",
+          "„Ilse ließ die linke Hand am Ruder und zog mit der rechten das Telefon heraus.“"
+        ],
+        "suggestions": [
+          "Keine systematische Überarbeitung nötig: Zeitliche Verknüpfungen werden sparsam und nachvollziehbar eingesetzt.",
+          "Die Gleichzeitigkeit von Steuern und Telefonhandhabung beibehalten; sie zeigt konkret, wie der Anruf in Ilses Arbeit eingreift.",
+          "Allenfalls den Auftritt von Frau Mertens unmittelbarer formulieren: „Frau Mertens betrat das Deck. ‚Gerade noch geschafft.‘ Sie rang nach Luft.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ilse trat aus dem Steuerhaus, nahm den Holzkeil vom Haken und schob ihn unter das linke Vorderrad.“",
+          "„Die Strömung griff nach dem Rumpf.“",
+          "„eine gespannte Sehne, die irgendwo im weißen Nichts am anderen Ufer verankert war“"
+        ],
+        "suggestions": [
+          "Die aktive Darstellung der Arbeitsabläufe beibehalten.",
+          "„verankert war“ beschreibt einen Zustand und verschleiert keinen wichtigen Handlungsträger. Eine erzwungene Aktivierung würde hier keinen Gewinn bringen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Es brauchte Kraft, die Schulter zog ein wenig, der gewohnte dumpfe Schmerz unter dem rechten Schulterblatt, der erst verschwinden würde, wenn sie warmgearbeitet war.“",
+          "„Dann drückte sie nicht auf den roten Hörer, sondern schob das Telefon einfach zurück in die Brusttasche, zog den Reißverschluss bis ganz nach oben zum Kinn und legte beide Hände wieder ans Ruder, um den Schwung für das Anlegen abzufangen.“"
+        ],
+        "suggestions": [
+          "Der Satzrhythmus ist insgesamt abwechslungsreich. Vor allem den Schmerzenssatz entlasten: „Es brauchte Kraft. Unter dem rechten Schulterblatt zog der vertraute dumpfe Schmerz. Er würde erst nachlassen, wenn sie sich warmgearbeitet hatte.“",
+          "Den langen Entscheidungssatz am Ende teilen, damit Ilses Verweigerung mehr Gewicht erhält: „Sie drückte nicht auf den roten Hörer. Stattdessen schob sie das Telefon zurück in die Brusttasche und zog den Reißverschluss bis zum Kinn. Dann legte sie beide Hände ans Ruder und fing den Schwung der Fähre ab.“"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„‚Geht schon. Das Seil weiß, wo es langgeht.‘“",
+          "„‚Man weiß ja nie. Bei dem Wetter.‘“",
+          "„‚Mach auf dem Rückweg, Herta. Stell dich aus dem Wind.‘“"
+        ],
+        "suggestions": [
+          "Die knappen Dialoge beibehalten. Sie vermitteln Ortsverbundenheit, Routine und Fürsorge ohne erklärende Gesprächsblöcke.",
+          "Bei einer Straffung der Einstiegspassage eher begleitende Handgriffe kürzen als diese charakterisierenden Repliken."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ilse sah noch eine Sekunde lang auf den Namen ihres Sohnes.“",
+          "„dann war es still, und man hörte wieder nur den Fluss.“",
+          "„Es würde um das Haus gehen. Oder um die Werft-Rechnung vom Oktober“"
+        ],
+        "suggestions": [
+          "Den Schluss direkter formulieren: „In der Tasche summte es noch zweimal. Dann war nur noch der Fluss zu hören.“",
+          "Ilses Blick auf den Namen muss nicht entfallen: Er ist eine konkrete Verzögerung vor ihrer Entscheidung, kein bloßes Wahrnehmungsfilter.",
+          "Die Vermutungen über Jonas beibehalten. Sie stehen bereits unmittelbar als figurennahe Gedanken im Text und benötigen kein „sie dachte“."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Jetzt musste sie nichts weiter tun als zu schauen. Obwohl es nichts zu sehen gab.“ / „Sie fuhren durch ein vollkommenes Nichts.“",
+          "„Niemand sprach.“ / „Es war die Stille vor dem eigentlichen Tag“ / „Dazwischen war nur der Strom.“",
+          "„In der Brusttasche ihrer Jacke begann es zu summen.“ / „Es war ein tiefes, regelmäßiges Vibrieren, direkt über ihren Rippen.“",
+          "„06:42 Uhr. Noch drei Minuten.“ / „Eine Minute vor dreiviertel sieben kam der dritte Fahrgast.“ / „Es war vierundvierzig Minuten nach sechs.“"
+        ],
+        "suggestions": [
+          "Die Nebel- und Stillemotive gezielt wiederkehren lassen, aber benachbarte Aussagen mit gleicher Wirkung reduzieren. Nach „Obwohl es nichts zu sehen gab“ ist „Sie fuhren durch ein vollkommenes Nichts“ verzichtbar.",
+          "Das einsetzende Summen und sein Muster in einer kompakten Passage verbinden, sofern der zusätzliche Absatz nicht bewusst als Verzögerung dienen soll.",
+          "Die dreifache Erwartung „Haus“, „Werft-Rechnung“, „Betreutes Wohnen“ kann als Steigerung bleiben: Die Themen konkretisieren zunehmend die Bedrohung von Ilses Selbstständigkeit.",
+          "Die mehrfachen Zeitangaben aufeinander abstimmen: Der dritte Fahrgast kommt bereits um 06:44 Uhr, danach folgen Ablegen und Überfahrt. Die erneute Angabe 06:44 Uhr beim Anruf wirkt angesichts der angekündigten Abfahrt um 06:45 Uhr widersprüchlich. Abfahrtszeit oder Anrufzeit korrigieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.028584
+}

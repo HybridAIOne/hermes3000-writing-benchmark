@@ -1,0 +1,126 @@
+{
+  "who": "sol",
+  "item": "lit-scene__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel passte noch.",
+          "Judith hatte erwartet, dass er klemmen würde, dass man das Schloss in zwanzig Jahren ausgetauscht hätte, dass das Haus ihr wenigstens diesen einen Widerstand bieten würde."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Er setzt unmittelbar an einer Handlung ein und vermittelt zugleich Abwesenheit, Rückkehr und inneren Widerstand. Ein späterer Beginn würde diese wirkungsvolle Vorbereitung des Unheimlichen schwächen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "mit dem kurzen Schmatzen der Gummidichtung",
+          "dessen Antenne jemand sorgfältig eingefahren hatte",
+          "in die kleine dunkle Mulde"
+        ],
+        "suggestions": [
+          "Die sinnlich präzisen Attribute überwiegend erhalten; sie tragen Atmosphäre und Handlung.",
+          "Allenfalls „kleine dunkle Mulde“ zu „dunkle Mulde“ kürzen. „Sorgfältig“ dagegen deutet menschliches Handeln an und unterstützt damit die spätere Irritation."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung nötig: Der Text enthält keine Dialoge und entsprechend keine überflüssigen Redeeinleitungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "nach etwas Süßlichem darunter, das sie nicht einordnen konnte",
+          "nicht aus Trauer, sondern aus einer Art Schwindel",
+          "als wäre der Boden um ein paar Zentimeter abgesackt"
+        ],
+        "suggestions": [
+          "„Einer Art Schwindel“ probeweise zu „Schwindel“ straffen, falls die Empfindung unmittelbarer wirken soll.",
+          "Die anfängliche Unbestimmtheit von „etwas Süßlichem“ erhalten: Sie entspricht Judiths noch fehlender Zuordnung des Geruchs. Auch „ein paar Zentimeter“ ist hier eine anschauliche Größenangabe, kein bloßes Füllsel."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "der an seinem Lederband hing und sich kaum merklich bewegte, als hätte ihn eben jemand gestreift",
+          "Dann zog sie den Mantel enger und horchte ins Haus hinein, das nicht antwortete."
+        ],
+        "suggestions": [
+          "Die zeitliche Führung beibehalten. Die Handlungen folgen nachvollziehbar aufeinander; „als hätte“ und „als wäre“ leiten Vergleiche ein und erzeugen keine problematische Gleichzeitigkeit."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie stellte die Tasche ab.",
+          "Judith legte die Schale zurück",
+          "dass man das Schloss in zwanzig Jahren ausgetauscht hätte"
+        ],
+        "suggestions": [
+          "Keine Aktivierung nötig: Der Text verwendet keine schwerfälligen Passivkonstruktionen. Auch die Formulierung mit „man“ ist grammatisch aktiv und hält den unbekannten Handelnden sinnvoll im Hintergrund."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Durch die Milchglasscheibe der Küchentür fiel ein grauer Februarnachmittag, und in diesem Licht sah alles aus wie auf einer Fotografie, die zu lange in der Sonne gelegen hatte: der Tisch mit dem Wachstuch, die zwei Stühle, nicht drei, das Radio auf dem Kühlschrank, dessen Antenne jemand sorgfältig eingefahren hatte.",
+          "Judith hatte den Geruch vergessen, ohne es zu bemerken, und jetzt war er wieder da, bitter und warm zugleich, und sie musste sich am Türrahmen festhalten, nicht aus Trauer, sondern aus einer Art Schwindel, als wäre der Boden um ein paar Zentimeter abgesackt."
+        ],
+        "suggestions": [
+          "Den Küchensatz gegebenenfalls nach „Februarnachmittag“ teilen, damit der anschließende Blick auf die Einrichtung mehr Raum bekommt.",
+          "Für eine stärkere Zäsur im Geruchsabsatz erproben: „Judith hatte den Geruch vergessen, ohne es zu bemerken. Jetzt war er wieder da, bitter und warm zugleich.“",
+          "Nicht sämtliche langen Sätze kürzen: Ihr strömender Rhythmus kontrastiert wirkungsvoll mit dem knappen Satz über den Tod der Mutter."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Straffung nötig: Es gibt keine Dialogpassagen. Die Sprachlosigkeit unterstützt Judiths Isolation und die Spannung."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Im Flur roch es nach kaltem Stein",
+          "Judith hatte erwartet, dass er klemmen würde",
+          "Judith hatte den Geruch vergessen, ohne es zu bemerken"
+        ],
+        "suggestions": [
+          "Die überwiegend direkte Sinnesdarstellung beibehalten; vorgeschaltete Wahrnehmungsformeln wie „sie bemerkte, dass“ fehlen weitgehend.",
+          "„Hatte erwartet“ und „hatte den Geruch vergessen“ nicht mechanisch streichen: Beide vermitteln relevante innere Vorgänge und den Gegensatz zwischen früherer Erwartung und gegenwärtiger Erfahrung."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "dass er klemmen würde, dass man das Schloss in zwanzig Jahren ausgetauscht hätte, dass das Haus ihr wenigstens diesen einen Widerstand bieten würde",
+          "für den Tee im Winter, für die Wäscheschubladen, gegen die Motten, gegen alles",
+          "Sie war nicht hart. Sie bog sich zwischen ihren Fingern, und auf der weißen Innenseite glänzte noch Feuchtigkeit."
+        ],
+        "suggestions": [
+          "Die „dass“- und „für/gegen“-Wiederholungen erhalten: Sie bilden Steigerungen und charakterisieren Judiths Erwartung beziehungsweise die Gewohnheiten ihrer Mutter.",
+          "Allenfalls „Sie war nicht hart“ probeweise streichen, da Biegsamkeit und Feuchtigkeit die Frische bereits zeigen. Der kurze Satz setzt allerdings einen wirkungsvollen ersten Irritationsmoment; die Straffung ist daher eine Rhythmusentscheidung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01927
+}

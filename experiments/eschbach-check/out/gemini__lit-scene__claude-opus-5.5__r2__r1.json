@@ -1,0 +1,107 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__claude-opus-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel lag noch dort, wo er vor zwanzig Jahren gelegen hatte, unter dem dritten Blumentopf links..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist exzellent gewählt. Keine lange Anreise, kein unnötiges Vorgeschwafel. Die Szene beginnt direkt an der Schwelle zum Handlungsort mit einem starken, konkreten Detail."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "die Halme lagen grau und verfilzt am Zaun",
+          "er drehte sich mühelos, fast gefällig",
+          "einen einzelnen Bügel aus Draht, der leise gegen die Wand schlug"
+        ],
+        "suggestions": [
+          "Die Adjektive sind sehr präzise und atmosphärisch eingesetzt, nicht redundant. Einzig 'einzelnen' vor 'Bügel' könnte gestrichen werden, da 'einen Bügel' die Einzahl bereits ausdrückt. Statt 'leise gegen die Wand schlug' könnte ein präziseres Verb wie 'tickte' oder 'klackte' stehen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keine Dialoge, daher gibt es hier keine Mängel."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "irgendwann im Herbst vielleicht",
+          "Die Nachbarin, vermutlich.",
+          "leicht süßlichen Geruch"
+        ],
+        "suggestions": [
+          "Wörter wie 'irgendwann', 'vielleicht' und 'vermutlich' sind klassische Füllwörter/Relativierungen. Hier sind sie jedoch durch die personale Perspektive (Hannas Unwissenheit) gerechtfertigt. Nur das 'leicht' vor 'süßlichen' ist ein typisches Abschwächungswort, das ersatzlos gestrichen werden kann."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "...als sie die Hand zurückzog, glänzte an ihrem Zeigefinger ein dunkler Film.",
+          "...der leise gegen die Wand schlug, als der Luftzug ihn erreichte."
+        ],
+        "suggestions": [
+          "Sehr sauber gearbeitet. Die 'als'-Konstruktionen beschreiben hier logische Ursache-Wirkungs-Ketten und keine unmögliche Gleichzeitigkeit. Um es noch direkter zu machen, könnte man beim zweiten Beispiel die Reihenfolge umdrehen: 'Der Luftzug erreichte die Garderobe und ließ den Drahtbügel gegen die Wand schlagen.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["...aus einer Zeit, über die in diesem Haus nicht gesprochen worden war."],
+        "suggestions": [
+          "Das einzige Passiv im Text ist stilistisch brillant eingesetzt, da es das totgeschwiegene Familienthema und die Distanz perfekt widerspiegelt. Keinesfalls ändern! Auch die unpersönlichen 'Jemand hatte...'-Konstruktionen sind aktiv formuliert und erzeugen genau die richtige rätselhafte Stimmung."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Maschinenöl, frisch, mit diesem metallischen, leicht süßlichen Geruch, den sie aus der Werkstatt ihres Vaters kannte, aus einer Zeit, über die in diesem Haus nicht gesprochen worden war.",
+          "Sie steckte den Schlüssel ins Schloss und erwartete Widerstand, das Knirschen von Rost, das sie zwingen würde, sich mit der Schulter gegen die Tür zu stemmen."
+        ],
+        "suggestions": [
+          "Der Satzbau ist sehr rhythmisch und wechselt gekonnt zwischen längeren, beschreibenden Sätzen und extrem kurzen, prägnanten Sätzen ('Jemand hatte gefegt.', 'Der Geruch blieb.'). Der Satz über das Maschinenöl hat viele Einschübe, liest sich aber dennoch flüssig. Man könnte vor 'Aus einer Zeit...' einen Punkt setzen, um dem Nachsatz noch mehr Gewicht zu verleihen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge im Text vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Hanna wusste nicht, wer sich um solche Dinge kümmerte...",
+          "Sie steckte den Schlüssel ins Schloss und erwartete Widerstand...",
+          "...und doch kam es ihr vor, als hätte das Haus sie erwartet..."
+        ],
+        "suggestions": [
+          "Der Text vermeidet plumpe Filterwörter ('sie sah', 'sie roch') fast vollständig und schildert Sinneseindrücke sehr unmittelbar ('Drinnen roch es...'). Die wenigen vorhandenen Filter ('wusste nicht', 'kam es ihr vor') beziehen sich auf innere Prozesse. Dennoch ließe sich 'Hanna wusste nicht, wer...' noch direkter als Frage im freien indirekten Stil (Erlebte Rede) formulieren: 'Wer kümmerte sich schon um solche Dinge, wenn eine Frau allein starb?'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Jemand hatte sie fortgeschafft. Jemand hatte gefegt."],
+        "suggestions": [
+          "Es gibt keine unfreiwilligen Wortwiederholungen oder inhaltlichen Redundanzen. Die Wiederholung von 'Jemand hatte...' ist eine bewusste rhetorische Figur (Anapher), die die Präsenz eines unbekannten Dritten wirkungsvoll betont."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.017176
+}

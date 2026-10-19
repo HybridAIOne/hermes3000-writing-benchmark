@@ -1,0 +1,92 @@
+{
+  "who": "hermes",
+  "item": "anchor__kafka-das-urteil-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Es war an einem Sonntagvormittag im schönsten Frühjahr."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch, könnte aber durch den direkten Beginn mit der Handlung (dem Brief) noch mehr Sogwirkung erzeugen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "niedrigen, leichtgebauten Häuser",
+          "schönsten Frühjahr",
+          "fremdartige Vollbart"
+        ],
+        "suggestions": [
+          "Einige Adjektive wirken dekorativ. Prüfen, ob 'leichtgebaut' oder 'schönsten' für die Handlung essenziell sind oder durch stärkere Verben ersetzt werden können."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["fast", "schon", "sehr", "vielleicht"],
+        "suggestions": [
+          "Wörter wie 'fast', 'schon' und 'sehr' schwächen die Aussagekraft. Streichen, um die Sätze direkter und bestimmter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": [
+          "Die Handlungsabfolge ist klar strukturiert, keine übermäßige Nutzung von 'während' oder 'als'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist weitgehend aktiv formuliert, was den Lesefluss unterstützt."]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Georg Bendemann, ein junger Kaufmann, saß in seinem Privatzimmer im ersten Stock eines der niedrigen, leichtgebauten Häuser, die entlang des Flusses in einer langen Reihe, fast nur in der Höhe und Färbung unterschieden, sich hinzogen."
+        ],
+        "suggestions": [
+          "Die Sätze sind sehr verschachtelt und lang. Um die Lesbarkeit zu erhöhen, sollten die Sätze in kürzere Einheiten zerlegt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Er dachte darüber nach, wie...",
+          "auf eine sich entwickelnde Krankheit hinzudeuten schien"
+        ],
+        "suggestions": [
+          "Statt 'Er dachte darüber nach, wie...' sollte der Inhalt des Gedankens direkt in die Erzählung eingebettet werden, um näher am Protagonisten zu sein."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Keine störenden inhaltlichen Doppelungen erkennbar."]
+      }
+    }
+  },
+  "costUsd": 0
+}

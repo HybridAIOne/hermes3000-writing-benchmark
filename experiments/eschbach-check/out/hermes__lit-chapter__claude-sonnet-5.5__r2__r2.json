@@ -1,0 +1,94 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-sonnet-5.5__r2",
+  "run": 2,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so dicht auf dem Wasser..."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch sehr gelungen und setzt genau zum richtigen Zeitpunkt ein."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["tiefes, gleichmäßiges Brummen", "angelegentlich"],
+        "suggestions": [
+          "'Angelegentlich' wirkt etwas hölzern. Man könnte schreiben: 'Herr Lüders sah auf das Wasser.'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sagte Ilse", "fragte er"],
+        "suggestions": [
+          "Die Marker sind sparsam eingesetzt, was sehr gut ist. In manchen Fällen könnte man sie ganz streichen, wenn der Sprecherwechsel klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["vielleicht fünfzehn", "einfach", "schon", "vielleicht fünfzehn"],
+        "suggestions": [
+          "Wörter wie 'vielleicht' oder 'einfach' schwächen die Aussagekraft. 'Er war etwa fünfzehn' klingt präziser als 'vielleicht fünfzehn'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse löste die Leine, legte den Hebel um."],
+        "suggestions": [
+          "Die Handlungen sind sehr gut nacheinander gereiht, was den Lesefluss fördert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Fähre hängt am Seil.", "Die Fähre gab ein leises Ächzen von sich."],
+        "suggestions": ["Der Text ist sehr aktiv geschrieben. Keine nennenswerten Passiv-Probleme."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Motor lief im Leerlauf, ein tiefes, gleichmäßiges Brummen, das sie nach so vielen Jahren nicht mehr hörte, sondern nur noch bemerkte, wenn es sich änderte."
+        ],
+        "suggestions": [
+          "Der Satz ist rhythmisch gut, könnte aber für noch mehr Tempo an der Stelle 'sondern nur noch bemerkte' getrennt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Dialoge mit dem Jungen und der Frau"],
+        "suggestions": [
+          "Die Dialoge sind knackig und treiben die Charakterisierung voran. Sehr gut."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie sah zu, wie der Tag sich nicht entschließen konnte...",
+          "Sie wusste es einfach."
+        ],
+        "suggestions": [
+          "'Sie sah zu, wie...' ist ein Filter. Man könnte direkter schreiben: 'Der Tag wollte nicht hell werden.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Moin", "Zwei fünfzig"],
+        "suggestions": [
+          "Die Wiederholungen sind hier stilistisch gewollt (Routine der Fähre) und daher passend."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,150 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__gemini-4-argon__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Der Nebel hockte so tief über dem Strom, dass das andere Ufer nicht existierte.",
+          "Ilse Brandt stand im Steuerhaus, die Hände in den Taschen ihrer steifen Ölzeugjacke vergraben, und wartete.",
+          "In der Innentasche ihrer Jacke begann es zu vibrieren."
+        ],
+        "suggestions": [
+          "Der erste Satz ist bildstark; der persönliche Konflikt setzt jedoch erst nach einer ausführlichen Darstellung des Fähralltags ein.",
+          "Als späteren Einstieg die Ankunft des roten Kleinwagens prüfen. Nebel, Steuerhaus und Ilses Routine könnten anschließend knapper in die Handlung einfließen.",
+          "Alternativ den Einstieg behalten, aber Bezahlvorgänge und Ablegemanöver kürzen. So bleibt die Atmosphäre erhalten, während Jonas’ Anruf früher Spannung erzeugt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "ein paar Meter träges, bleifarbenes Wasser",
+          "Auf dem Armaturenbrett dampfte ein verbeulter Edelstahlbecher mit schwarzem Kaffee.",
+          "Für ein paar Minuten gab es nur noch das platte, graue Deck",
+          "Ein kurzes, hartes Summen"
+        ],
+        "suggestions": [
+          "Die sinnlichen Details tragen den Text, stehen stellenweise aber zu dicht. Pro Gegenstand das aussagekräftigste Merkmal auswählen.",
+          "Beispielsweise straffen: „Auf dem Armaturenbrett dampfte Kaffee in einem verbeulten Edelstahlbecher.“ Dass der Kaffee schwarz ist, wird später nicht relevant.",
+          "Bei „platte, graue Deck“ kann „platte“ entfallen; bei „träges, bleifarbenes Wasser“ entscheiden, ob Bewegung oder Farbe im Vordergrund stehen soll."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Morgen“, sagte Ilse. Sie hielt die Hand auf.",
+          "„Das Seil weiß ja, wo es hinmuss“, sagte Ilse.",
+          "„Guten Morgen“, sagte die Frau. Ihr Atem bildete kleine weiße Wolken."
+        ],
+        "suggestions": [
+          "Die neutralen Kennzeichnungen stören kaum und sichern die Orientierung.",
+          "Wo die anschließende Handlung den Sprecher bereits identifiziert, die Kennzeichnung streichen: „‚Morgen.‘ Ilse hielt die Hand auf.“",
+          "Auch bei Ilses Antwort über das Seil ist der Sprecher durch den Frage-Antwort-Wechsel eindeutig; „sagte Ilse“ kann entfallen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "ein paar Meter",
+          "Er nickte Ilse nur kurz zu",
+          "Für ein paar Minuten",
+          "die für eine Frau über sechzig angeblich zu steil waren"
+        ],
+        "suggestions": [
+          "Ungefähre Angaben nicht automatisch durch exakte Zahlen ersetzen: Im Nebel und bei beiläufigen Zeitangaben sind sie plausibel.",
+          "Bei „Er nickte Ilse nur kurz zu“ genügt möglicherweise „Er nickte Ilse zu“.",
+          "„Angeblich“ beibehalten: Das Wort markiert Ilses Widerstand gegen Jonas’ Sichtweise und ist deshalb kein bloßes Füllwort."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Lichtkegel schnitten durch die milchige Suppe, erst diffus, dann schärfer, als ein roter Kleinwagen die Böschung herunterrollte.",
+          "Ilse trat an die Winde, löste die Sicherung und zog die schwere Eisenkette vor die Auffahrt."
+        ],
+        "suggestions": [
+          "Keine auffällige Häufung von Gleichzeitigkeitskonstruktionen. Die meisten Handlungen folgen klar aufeinander.",
+          "Den Satz über die Lichtkegel nur bei gewünschter Beschleunigung aufteilen: „Lichtkegel schnitten durch die milchige Suppe. Ein roter Kleinwagen rollte die Böschung herunter.“ Dabei geht allerdings etwas vom allmählichen Sichtbarwerden verloren."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Den Rest erledigte der Fluss.",
+          "Sie kurbelte die Landeklappe hoch, bis die Hydraulik übernahm",
+          "Die Rampe von Hitzacker verblasste hinter ihnen, wurde zu einem dunklen Schatten"
+        ],
+        "suggestions": [
+          "Die aktive, konkrete Darstellung beibehalten; ein problematischer Gebrauch des Passivs liegt nicht vor.",
+          "„Wurde zu einem dunklen Schatten“ beschreibt eine Veränderung und ist kein Passiv. Hier besteht kein entsprechender Überarbeitungsbedarf."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Auf dem Display leuchtete ein Name auf, darunter ein Foto, das sie nie selbst eingestellt hatte: Jonas in einem hellgrauen Anzug, mit offenem Hemdkragen und einem Glas Weißwein in der Hand, im Hintergrund unscharfe Münchner Hausdächer in der Abendsonne.",
+          "Seine Stimme würde jene geduldige, geschulte Ruhe haben, die er sich in seinem Beruf angewöhnt hatte und die Ilse mehr ermüdete als jeder Sturm auf der Elbe."
+        ],
+        "suggestions": [
+          "Der Wechsel zwischen längeren Beschreibungen und kurzen Sätzen funktioniert überwiegend gut.",
+          "Die Fotobeschreibung nach dem Doppelpunkt als eigenen Satz gestalten und ein Detail streichen. Anzug, Weißwein und Münchner Dächer vermitteln Jonas’ Lebenswelt bereits deutlich.",
+          "Den Satz über seine Stimme bei Bedarf teilen: „Seine Stimme würde wieder diese geduldige, geschulte Ruhe haben. Sie ermüdete Ilse mehr als jeder Sturm auf der Elbe.“ Die berufliche Herkunft der Sprechweise nur behalten, wenn sie wichtig ist."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Morgen, Ilse. Hält sich hartnäckig heute, die Brühe.“",
+          "„Das Seil weiß ja, wo es hinmuss“",
+          "„Unheimlich ist es trotzdem. Wie am Ende der Welt.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind kurz, glaubwürdig und charakterisieren Ilse durch ihre knappen Antworten. Keine Rede muss wegen ihrer Länge gekürzt werden.",
+          "Falls die Szene insgesamt gestrafft werden soll, eher den Umfang der beiden Fahrgastbegegnungen prüfen als einzelne Äußerungen zusammenzustreichen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ihr Blick ging routinemäßig zum Radarbildschirm, auf dem sich nichts regte außer dem schmalen grünen Strich ihrer eigenen Fahrt.",
+          "Sie sah auf die Uhr. Neunundvierzig Minuten nach sechs.",
+          "Ilse kannte ihren Namen nicht"
+        ],
+        "suggestions": [
+          "Den Radarinhalt direkter darstellen: „Auf dem Radar regte sich nichts außer dem schmalen grünen Strich ihrer eigenen Fahrt.“",
+          "„Sie sah auf die Uhr“ kann bleiben, weil der bewusste Blick Ilses Reaktion auf den ungewöhnlichen Anruf vorbereitet; für stärkere Verdichtung genügt die Uhrzeit allein.",
+          "„Ilse kannte ihren Namen nicht“ ist eine relevante Information über ihre Beziehung zur Passagierin und muss nicht als Wahrnehmungsfilter gestrichen werden."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "die milchige Suppe",
+          "verschluckt von der feuchten Watte des Nebels",
+          "Wie am Ende der Welt.",
+          "Ein kurzes, hartes Summen, das gegen ihre Rippen stieß, dann eine Pause, dann wieder das Summen.",
+          "Das Telefon vibrierte weiter in ihrer rauen Hand."
+        ],
+        "suggestions": [
+          "Nebel, Grau und eingeschränkte Sicht bilden ein tragfähiges Motiv. Dennoch konkurrieren mehrere Umschreibungen desselben Eindrucks; besonders „milchige Suppe“ und „feuchte Watte“ auf ihre Notwendigkeit prüfen.",
+          "Die wiederholten Bezahl- und Wechselgeldhandlungen verdichten, sofern sie keine zusätzliche Figureninformation liefern.",
+          "Das wiederkehrende Vibrieren überwiegend beibehalten: Es steigert den Entscheidungsdruck und macht Ilses Nichtannahme zu einer aktiven Handlung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.025974
+}

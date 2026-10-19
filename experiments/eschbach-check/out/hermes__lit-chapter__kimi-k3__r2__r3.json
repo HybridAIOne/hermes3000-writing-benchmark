@@ -1,0 +1,95 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__kimi-k3__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so tief auf der Elbe, dass Ilse das andere Ufer nur ahnte."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und setzt genau zum richtigen Zeitpunkt ein, um die Stimmung und Ilses Routine zu etablieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["schwarzgrün", "zahnlückig"],
+        "suggestions": [
+          "Adjektive werden sehr sparsam und präzise eingesetzt. Keine Änderungen erforderlich."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["»Scheißwetter«, sagte er heute", "»Na, Ilse«, sagte Pommerening"],
+        "suggestions": [
+          "Die Dialogbegleiter sind funktional. Gelegentlich könnten sie durch Handlungsbeschreibungen ersetzt werden, um den Rhythmus noch weiter zu variieren."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["irgendwo da draußen", "fast nichts"],
+        "suggestions": [
+          "Die Füllwörter sind hier stilistisch gewollt, um die Unbestimmtheit des Nebels und Ilses vage Wahrnehmung zu unterstreichen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine überflüssigen 'während'-Konstruktionen. Die Abfolge der Handlungen ist klar und logisch strukturiert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["hatte man ihr einmal gesagt"],
+        "suggestions": [
+          "Das Passiv wird kaum verwendet. 'Man hatte ihr gesagt' könnte bei Bedarf durch 'Jemand hatte ihr gesagt' oder 'Sie wusste' ersetzt werden, um noch aktiver zu wirken."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie stellte den Dieselmotor an, und das vertraute Ruckeln ging durch das Stahldeck in ihre Stiefel, hoch in die Knie, weiter in den Rücken..."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind gut variiert und unterstützen den Lesefluss. Die längeren Sätze dienen der atmosphärischen Beschreibung und sind gut lesbar."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["»Na, Ilse«, sagte Pommerening. »Na«, sagte sie."],
+        "suggestions": [
+          "Die Dialoge sind prägnant, charakterstark und auf das Wesentliche reduziert. Perfekte Länge für die Figuren."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ilse sah sie an", "Ilse kannte die Stelle"],
+        "suggestions": [
+          "Sehr direkte Wahrnehmung. Es gibt keine unnötigen Filterwörter wie 'sie bemerkte, dass...' oder 'sie dachte, dass...'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Telefon klingelte... Das Klingeln hörte auf... Das Telefon fing wieder an zu klingeln."
+        ],
+        "suggestions": [
+          "Wiederholungen werden hier bewusst als stilistisches Mittel eingesetzt (z.B. das Klingeln am Ende), um Spannung zu erzeugen. Keine inhaltlichen Doppelungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

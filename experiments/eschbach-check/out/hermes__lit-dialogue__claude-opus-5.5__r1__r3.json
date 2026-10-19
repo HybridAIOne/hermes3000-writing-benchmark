@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-opus-5.5__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein Hausflur. Abend. PAUL öffnet die Tür."],
+        "suggestions": [
+          "Der Einstieg ist sehr effizient und etabliert sofort die Spannung und das Setting. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["schief", "gesprungene"],
+        "suggestions": [
+          "Sehr sparsamer und effektiver Einsatz. Die Adjektive sind funktional und nicht dekorativ."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["THOMAS: Hallo."],
+        "suggestions": [
+          "Da es sich um ein Skript handelt, ist die Formatierung korrekt und verzichtet auf unnötige Redeeinleitungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Füllwörter gefunden. Der Dialog ist sehr prägnant und auf den Punkt."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Er macht welchen.", "Sie trinken."],
+        "suggestions": [
+          "Keine unnötigen 'während'-Konstruktionen. Handlungen werden klar nacheinander oder durch Regieanweisungen getrennt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Passivsätze gefunden. Die Sprache ist aktiv und direkt."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Die Sätze sind kurz und rhythmisch passend für einen Dialog."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["PAUL: Willst du reinkommen, oder ist das hier eine Übergabe?"],
+        "suggestions": ["Die Dialoge sind kurz und subtextreich. Die Kürze erzeugt hohe Spannung."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine 'er sah/dachte'-Konstruktionen. Alles wird durch Handlung gezeigt (Show, don't tell)."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die alte ging nicht mehr", "Immer noch die alte"],
+        "suggestions": [
+          "Die Wiederholungen sind hier stilistisch gewollt und unterstreichen die gemeinsame Vergangenheit. Beibehalten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

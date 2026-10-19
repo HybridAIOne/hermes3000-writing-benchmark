@@ -1,0 +1,154 @@
+{
+  "who": "opus",
+  "item": "anchor__zweig-amok-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Rahmenprolog: »Im März des Jahres 1912 ereignete sich im Hafen von Neapel ...« mit Vorwegnahme eines Unfalls, der erst viel später eine Rolle spielt",
+          "Szene in der Schiffsagentur: »Als ich in der Schiffsagentur von Kalkutta einen Platz für die Rückreise ... bestellen wollte, zuckte der Clerk bedauernd die Schultern.«",
+          "Drei Absätze Zustandsbeschreibung (Kabine, Promenadendeck, drei Tage Langeweile), bevor mit dem nächtlichen Erwachen die eigentliche Handlung beginnt"
+        ],
+        "suggestions": [
+          "Die Buchungsszene in Kalkutta auf einen Satz verkürzen oder streichen: Dass die Kabine schlecht ist, zeigt die Kabinenbeschreibung ohnehin.",
+          "Erwägen, direkt mit dem Erwachen in der stickigen Kabine einzusetzen und Enge und Überdruss der vergangenen Tage in zwei, drei Sätzen nachzureichen.",
+          "Den Prolog kürzen: Der Hinweis auf den rätselhaften Unfall erzeugt Spannung, die Begründung, warum der Erzähler ihn nicht sah, ist jedoch entbehrlich."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "»ein kleiner, gepreßter, rechteckiger Winkel«",
+          "»Die stockende, verdickte Luft«",
+          "»den süßlichen weichen Wind«",
+          "»so strahlend, so stahlblau hart und doch funkelnd, triefend, rauschend, quellend von Licht«",
+          "»mit der flackernden Nervosität eingesperrter Untätigkeit unausgesetzt plaudernd«",
+          "»das zwitschernde Geschäker«, »das rastlos kreisende Wandern«, »in schwatzhafter Unruhe«"
+        ],
+        "suggestions": [
+          "Adjektivketten auf das treffendste Attribut reduzieren, z. B. »ein gepreßter Winkel« statt »ein kleiner, gepreßter, rechteckiger Winkel«.",
+          "Das Bild arbeiten lassen: »wie eine toll gewordene stählerne Fledermaus« wirkt auch ohne zusätzliches »surrend«.",
+          "Beim Sternenhimmel eine Partizipkette wählen (etwa »triefend, quellend von Licht«) statt fünf Attribute zu häufen.",
+          "Adverbien wie »bedauernd«, »erfreulicherweise«, »resigniert« und »entschlossen« prüfen und durch Handlung ersetzen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "»zuckte der Clerk bedauernd die Schultern. Er wisse noch nicht, ob es möglich sei ...« – die Geste ersetzt die Redeeinleitung",
+          "»Am nächsten Tage teilte er mir erfreulicherweise mit, er könne mir noch einen Platz vormerken«"
+        ],
+        "suggestions": [
+          "Die Geste vor der indirekten Rede ist elegant gelöst. »teilte er mir erfreulicherweise mit« könnte entfallen: »Am nächsten Tage konnte er mir doch noch einen Platz vormerken.«"
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "»tat mir irgendwie weh«",
+          "»Meine Sinne waren irgendwie betäubt«",
+          "»das irgendwie aus einem geheimnisvollen Innen zu brennen schien«",
+          "»Immerhin meine ich persönlich, daß manche Vermutungen ...«",
+          "»erlaubt mir wohl das Vertrauen«",
+          "»mit ein paar Gläsern Bier«, »Mitternacht mußte jedenfalls schon vorbei sein«"
+        ],
+        "suggestions": [
+          "»irgendwie« (dreimal) streichen oder durch eine präzise Empfindung ersetzen: »tat mir weh«, »Meine Sinne waren betäubt«.",
+          "»Immerhin meine ich persönlich« zu »Ich glaube« straffen, denn »persönlich« ist bei »ich meine« redundant.",
+          "Abschwächer wie »wohl«, »jedenfalls« und »freilich« nur dort behalten, wo sie bewusst Unsicherheit ausdrücken."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "»weil er sich zur Nachtzeit während des Kohlenladens und der Löschung der Fracht abspielte«",
+          "»Und wie ich den Blick aufhob über den dünstenden Turm des Schornsteins ..., drang mit einmal magische Helle mir in die Augen.«",
+          "»tauchte in die Kabine schon nachmittags hinab, nachdem ich mich zuvor mit ein paar Gläsern Bier betäubt«"
+        ],
+        "suggestions": [
+          "Handlungen nacheinander erzählen: »Ich hob den Blick über den Schornstein. Da drang magische Helle mir in die Augen.«",
+          "Die Reihenfolge chronologisch ordnen: »Ich betäubte mich mit Bier und tauchte schon nachmittags in die Kabine hinab.« Das »nachdem ... zuvor« ist doppelt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "»bei dem Ausladen eines großen Überseedampfers« und »der Löschung der Fracht« – Nominalstil mit passivischer Wirkung",
+          "»alle Konturen waren aufgelöst in diesem flutenden Glanz« (Zustandspassiv)"
+        ],
+        "suggestions": [
+          "Nominalisierungen auflösen: »als man einen großen Überseedampfer auslud«.",
+          "Optional aktiv formulieren: »der flutende Glanz löste alle Konturen auf«. Das Zustandspassiv ist hier allerdings stimmig."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "»Obzwar Passagier der »Oceania«, war es mir ebensowenig wie den andern möglich, Zeuge jenes seltsamen Vorfalles zu sein, weil er sich zur Nachtzeit ... abspielte, wir aber, um dem Lärm zu entgehen, alle an Land gegangen waren und dort in Kaffeehäusern oder Theatern die Zeit verbrachten.«",
+          "»Immerhin meine ich persönlich, daß manche Vermutungen, die ich damals nicht öffentlich äußerte, die wirkliche Aufklärung jener erregenden Szene in sich tragen, und die Ferne der Jahre erlaubt mir wohl ...«",
+          "»Nie hatte ich den Himmel gesehen wie in jener Nacht, so strahlend, so stahlblau hart und doch funkelnd, ... und das irgendwie aus einem geheimnisvollen Innen zu brennen schien.«",
+          "»Das zwitschernde Geschäker der Frauen, das rastlos kreisende Wandern auf dem Engpaß des Decks, wo vor den Stühlen der Schwarm ... vorbeiwogte, um sich unablässig zu begegnen, tat mir irgendwie weh.«"
+        ],
+        "suggestions": [
+          "Den Prologsatz teilen: »Ich war Passagier der ›Oceania‹, doch Zeuge wurde ich nicht. Der Vorfall geschah nachts, beim Kohlenladen. Wir Passagiere waren vor dem Lärm an Land geflohen.«",
+          "Im Promenadendeck-Satz Subjekt und Prädikat näher zusammenrücken, damit »tat mir weh« nicht erst nach vier Zeilen folgt.",
+          "Lange Bildsätze gezielt mit kurzen Sätzen kontrastieren. »Der Himmel strahlte.« zeigt, wie wirkungsvoll das ist."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Kein direkter Dialog im Ausschnitt. Die einzige Rede (Clerk) ist knapp und indirekt wiedergegeben."
+        ],
+        "suggestions": [
+          "Kein Handlungsbedarf. Für mehr Unmittelbarkeit könnte die Auskunft des Clerks in einen kurzen direkten Satz verwandelt werden."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "»von oben hörte man unaufhörlich das schlurfende Hin und Her der Schritte«",
+          "»denn ich hörte weder Musik noch den rastlosen Schlurf der Schritte«",
+          "»Nie hatte ich den Himmel gesehen wie in jener Nacht«",
+          "»Immerhin meine ich persönlich, daß manche Vermutungen ...«",
+          "»sah resigniert auf die Menschen, auf das Meer«"
+        ],
+        "suggestions": [
+          "Wahrnehmungsverben streichen: »von oben schlurften unaufhörlich die Schritte vom Promenadendeck«.",
+          "»Keine Musik mehr, kein Schlurfen der Schritte: nur die Maschine ...« statt »ich hörte weder ... noch«.",
+          "»Nie war mir der Himmel so erschienen« oder direkt: »Nie war der Himmel so strahlend gewesen wie in jener Nacht«."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "»unablässig« dreimal, dazu »unaufhörlich«, »unausgesetzt«, »rastlos« (zweimal) – dasselbe Motiv der Ruhelosigkeit",
+          "»merkwürdiger Unfall«, »seltsamen Vorfalles«, »seltsamen Episode«, »erregenden Szene« – viermal derselbe Sachverhalt im Prolog",
+          "»Unruhe« zweimal im selben Absatz, »das heiß in den Blick Gedrängte« neben »auf dem gedrängten Boulevard«",
+          "»betäubt« zweimal (»mit ein paar Gläsern Bier betäubt«, »Meine Sinne waren irgendwie betäubt«)",
+          "»Der Himmel strahlte. ... aber doch: er strahlte ... so strahlend« sowie »flutenden Glanz«, »flimmerten«, »glänzenden Spieren«"
+        ],
+        "suggestions": [
+          "Das Motiv der Ruhelosigkeit einmal stark setzen, statt es mit fünf Synonymen zu umkreisen. Mindestens zwei »unablässig« streichen.",
+          "Im Prolog den Vorfall einmal benennen und danach nur noch mit »er« oder »jener Nacht« darauf verweisen.",
+          "Die Wiederholung von »strahlte« ist als bewusste Steigerung vertretbar, das zusätzliche »so strahlend« im Folgesatz jedoch streichen.",
+          "Bei »gedrängt« und »betäubt« Varianten wählen oder eine Stelle kürzen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.12514
+}

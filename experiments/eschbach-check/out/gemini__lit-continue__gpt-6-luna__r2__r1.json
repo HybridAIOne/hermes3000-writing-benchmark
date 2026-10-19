@@ -1,0 +1,111 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__gpt-6-luna__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Er läuft“, sagte Ilse."],
+        "suggestions": [
+          "Perfekter Einstieg 'in medias res'. Keine langatmige Einleitung, der Konflikt und die Atmosphäre sind sofort spürbar."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Wasser schob sich dunkel unter den Rumpf, an der Bordwand klebten braune Blätter.",
+          "Drinnen roch es nach Diesel, nassem Holz..."
+        ],
+        "suggestions": [
+          "Der Einsatz von Adjektiven ist extrem diszipliniert und beschränkt sich auf sinnliche, notwendige Details. Keine Änderung nötig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Du hättest anrufen können“, sagte sie.",
+          "„Hast du gegessen?“, fragte sie.",
+          "„Du kannst in der Stube schlafen“, sagte sie."
+        ],
+        "suggestions": [
+          "Die Dialogführung ist sehr natürlich. An ein oder zwei Stellen (z.B. nach dem Absatz über den Koffer, bei dem Ilse im Fokus steht) könnte das 'sagte sie' oder 'fragte sie' sogar noch komplett entfallen, da der Sprecher aus dem Kontext klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er sah nur auf den Schraubenschlüssel neben der Tasse.",
+          "Früher hatte er immer den Mund verzogen..."
+        ],
+        "suggestions": [
+          "Der Text ist fast völlig frei von Füllwörtern. Das 'nur' bei 'Er sah nur auf den Schraubenschlüssel' könnte eventuell gestrichen werden, um den Satz noch lakonischer zu machen ('Er sah auf den Schraubenschlüssel')."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Jonas folgte ihr, den Koffer hinter sich herziehend."],
+        "suggestions": [
+          "Keine falsche Gleichzeitigkeit durch 'während' oder 'als'. Die Partizipialkonstruktion 'herziehend' wirkt im Vergleich zum sonst sehr klaren Stil etwas sperrig. Besser aktiv auflösen: 'Jonas folgte ihr und zog den Koffer hinter sich her.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Auf dem Tisch lag die Rechnung für das Ersatzteil, unter einem alten Fahrplan beschwert."
+        ],
+        "suggestions": [
+          "Der Text ist durchgängig aktiv geschrieben. Nur das Zustandspassiv am Ende des Beispielsatzes ist grammatikalisch unrund ('unter etwas beschwert'). Besser: '...von einem alten Fahrplan beschwert' oder aktiv: 'Ein alter Fahrplan beschwerte die Rechnung für das Ersatzteil.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ilse wartete, dass er ihn beiseiteschob. Er tat es nicht.",
+          "Ilse stellte den Kessel auf die Platte. Dann nahm sie noch eine Tasse aus dem Schrank."
+        ],
+        "suggestions": [
+          "Exzellenter Satzrhythmus. Kurze, prägnante Sätze wechseln sich harmonisch mit mittellangen Sätzen ab. Keine Schachtelsätze."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Du schraubst selbst?“ – „Wenn’s sein muss.“ – „Seit wann?“ – Sie hängte ihren Mantel an den Nagel. „Seit immer.“"
+        ],
+        "suggestions": [
+          "Hervorragende, verknappte Dialoge. Viel Subtext, kein Wort zu viel. Genau so sollte es nach Eschbach sein."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Drinnen roch es nach Diesel, nassem Holz und dem Kaffee, den sie am Morgen gekocht hatte.",
+          "Jetzt sah er müde aus."
+        ],
+        "suggestions": [
+          "Wahrnehmungen werden sehr direkt geschildert (kein 'Sie roch, dass...', 'Sie sah, dass...'). Lediglich 'Jetzt sah er müde aus' könnte man noch direkter zeigen (z.B. durch dunkle Ringe unter den Augen oder hängende Schultern), passt aber in seiner Nüchternheit gut zu Ilses Perspektive."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie nahm die Leine vom Poller... / Ilse band die Leine fest..."],
+        "suggestions": [
+          "Keine unnötigen inhaltlichen Doppelungen. Kleines logisches Detail bei den Handlungen: Erst nimmt sie die Leine vom Poller (was nach Ablegen klingt), kurz darauf bindet sie die Leine fest. Wenn sie die Fähre vertäut, legt sie die Leine *um* den Poller."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016246
+}

@@ -1,0 +1,94 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gpt-6.1-sol__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Geht auch so“, sagte sie."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er den Leser direkt in die Situation wirft, ohne unnötige Erklärungen voranzustellen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["deutlich zu hören", "schmaler Streifen"],
+        "suggestions": [
+          "Das Wort 'deutlich' bei 'deutlich zu hören' ist entbehrlich, da das Geräusch durch den Kontext bereits stark genug wirkt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte sie", "fragte sie"],
+        "suggestions": [
+          "Einige Redeeinleitungen könnten gestrichen werden, wenn der Sprecherwechsel durch den Kontext eindeutig ist, um den Dialogfluss noch weiter zu beschleunigen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["einmal die Scheinwerfer", "vielleicht"],
+        "suggestions": [
+          "Das Wort 'einmal' in 'Der Fahrer ließ einmal die Scheinwerfer aufblenden' schwächt die Handlung ab und kann gestrichen werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie stieg auf die Fähre und löste die Leine."],
+        "suggestions": [
+          "Die Handlungen sind sehr gut sequenziell aufgebaut, was den Text dynamisch macht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Das Einrasten war über dem Wasser deutlich zu hören.",
+          "Auf der Scheibe hatte sich innen Feuchtigkeit gesammelt."
+        ],
+        "suggestions": [
+          "Statt 'Das Einrasten war zu hören' könnte man aktiver formulieren: 'Das Einrasten hallte über dem Wasser'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Satzlänge ist sehr gut variiert und unterstützt den Rhythmus der Szene."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ich muss rüber.“ / „Das sehe ich.“"],
+        "suggestions": [
+          "Die Dialoge sind prägnant und transportieren viel Subtext. Keine Straffung nötig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Text zeigt sehr direkt, was passiert, statt es durch Filterwörter wie 'er sah, dass' zu beschreiben. Sehr gut."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Koffer", "Schlüssel/Schloss"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier beabsichtigt und unterstreichen die Atmosphäre und die Bedeutung der Gegenstände."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

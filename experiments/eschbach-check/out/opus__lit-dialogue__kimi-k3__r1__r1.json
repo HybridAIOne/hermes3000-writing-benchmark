@@ -1,0 +1,139 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__kimi-k3__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Szene setzt mit Miriams Eintreten ein, also im Moment der Begegnung, ohne Vorgeschichte oder Wartezeit.",
+          "\"Zwei Tische am Fenster, einer ist frei.\" Diese Angabe trägt nichts zur Handlung bei. Ein Tisch für die beiden genügt.",
+          "\"Du bist gekommen.\" Als erste Replik ein starker, sofort spannungsgeladener Einstieg."
+        ],
+        "suggestions": [
+          "Die Regieanweisung auf das Nötige kürzen, z. B.: \"Ein Café am Stadtrand. Herbst. Jonas steht am Fenstertisch. Miriam kommt herein und bleibt in der Tür stehen.\"",
+          "Einen späteren Einstieg (z. B. erst beim Kaffee) nicht wählen: Die Mantel-Geste und das \"Nur kurz\" bauen den Bogen auf, der am Ende aufgelöst wird."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "\"Ein kleines Café am Stadtrand\": 'kleines' ist verzichtbar, 'am Stadtrand' charakterisiert bereits.",
+          "\"(leises Lachen)\" und \"(leise)\": zweimal 'leise' für Miriam.",
+          "\"Langes Schweigen\": nach dem früheren \"Stille\" etwas redundant.",
+          "\"(sieht ihn zum ersten Mal direkt an)\": hier sind die Adverbien funktional und tragen den Wendepunkt."
+        ],
+        "suggestions": [
+          "'kleines' streichen: \"Ein Café am Stadtrand.\"",
+          "\"(leises Lachen)\" durch eine konkrete Handlung ersetzen, z. B. \"(lacht kurz auf)\" oder \"(schüttelt lächelnd den Kopf)\".",
+          "\"Langes Schweigen\" durch ein sichtbares Bild ersetzen, z. B. \"Jonas stellt den Zuckerstreuer ab.\" So greift das frühere Requisit wieder."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Das Dramenformat mit Sprecherköpfen macht Redeeinleitungen wie 'sagte er' überflüssig.",
+          "Regieanweisungen wie \"(zögert)\", \"(atmet aus)\" und \"(schaut aus dem Fenster)\" ersetzen Redebegleitsätze durch Handlung, im Sinne Eschbachs.",
+          "\"BEIDE: Einen Kaffee, schwarz.\" Eine elegante Lösung für die gleichzeitige Bestellung."
+        ],
+        "suggestions": [
+          "Beibehalten. Allenfalls prüfen, ob \"(leise)\" vor der letzten Replik nötig ist. Der Satz wirkt auch ohne Anweisung leise."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "\"Setz dich doch.\"",
+          "\"Noch einen Kaffee vielleicht.\"",
+          "\"Dann haben wir ja Zeit.\"",
+          "\"Manche Dinge ändern sich nicht.\" / \"Manche nicht.\""
+        ],
+        "suggestions": [
+          "In Dialogen sind Partikeln wie 'doch', 'ja' und 'vielleicht' figurensprachlich legitim. Hier zeigen sie Unsicherheit und Zögern und sollten bleiben.",
+          "'Manche' ist bewusst vage und wird als Echo aufgegriffen. Das ist ein Stilmittel, kein Füllwort.",
+          "Optional \"Setz dich doch.\" zu \"Setz dich.\" verknappen, wenn Jonas bestimmter wirken soll."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "\"Jonas steht, als Miriam eintritt.\"",
+          "\"Beide bestellen gleichzeitig.\"",
+          "\"Beide schauen hinaus. Keiner geht.\""
+        ],
+        "suggestions": [
+          "\"Jonas steht, als Miriam eintritt.\" auflösen in eine Abfolge: \"Jonas steht am Tisch. Miriam tritt ein.\"",
+          "\"gleichzeitig\" bei der Bestellung ist dramaturgisch begründet, denn die Gleichzeitigkeit ist hier die Pointe. Das Wort kann sogar entfallen, weil \"BEIDE:\" es bereits zeigt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Im gesamten Text gibt es keine Passivkonstruktionen. Alle Regieanweisungen sind aktiv formuliert: \"Die Kellnerin kommt.\", \"Der Kaffee kommt.\", \"Draußen fängt es an zu regnen.\""
+        ],
+        "suggestions": [
+          "Beibehalten. Allenfalls \"Draußen fängt es an zu regnen.\" zu \"Draußen beginnt der Regen.\" straffen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Fast alle Sätze sind kurz und parataktisch, passend zur stockenden Kommunikation.",
+          "Der längste Satz, \"Miriam greift nach ihrem Mantel, legt ihn dann doch über die Stuhllehne.\", bleibt gut lesbar."
+        ],
+        "suggestions": [
+          "Keine Änderung nötig. Die Kürze der Sätze trägt die Spannung zwischen Gesagtem und Ungesagtem."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Repliken sind durchgehend knapp und meist nur ein bis zwei Sätze lang.",
+          "\"Sag es ihr selbst. Sie wohnt noch am selben Ort. Wir wohnen alle noch am selben Ort, Miriam.\" Das ist die längste Replik, und sie ist emotional gerechtfertigt.",
+          "\"Damals, im März –\" Der abgebrochene Satz zeigt das Verschweigen statt es zu erklären."
+        ],
+        "suggestions": [
+          "Die Replik über die Mutter könnte auf \"Sag es ihr selbst. Wir wohnen alle noch am selben Ort, Miriam.\" gekürzt werden. Der Mittelsatz nimmt die Pointe etwas vorweg.",
+          "Den Wortwechsel \"Er ist heiß.\" / \"Er wird kalt.\" beibehalten. Er spiegelt den Regen-Dialog und funktioniert als Subtext."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Es gibt keine Konstruktionen wie 'sie sah, dass' oder 'er dachte, dass'.",
+          "Gefühle werden über Handlung gezeigt: \"Jonas dreht den Zuckerstreuer in den Fingern.\", \"Keiner trinkt.\", \"legt den Mantel nicht ab\".",
+          "\"(sieht ihn zum ersten Mal direkt an)\" ist eine direkte, sichtbare Handlung und keine Wahrnehmungsbeschreibung."
+        ],
+        "suggestions": ["Beibehalten. Konsequentes Show, don't tell."]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "\"Um vier\" erscheint dreimal. Das ist ein bewusstes Leitmotiv, das in \"Es ist erst halb drei\" aufgelöst wird.",
+          "\"Stille.\" und \"Langes Schweigen.\" sind zwei Anweisungen für denselben Zustand.",
+          "\"Keiner trinkt.\" und \"Keiner geht.\" sind ein bewusstes Echo und wirkungsvoll.",
+          "\"(schaut aus dem Fenster)\" und \"Beide schauen hinaus\" sind ebenfalls ein bewusstes Echo und schließen den Rahmen.",
+          "Logikbruch beim Mantel: \"(legt den Mantel nicht ab)\", später \"greift nach ihrem Mantel, legt ihn dann doch über die Stuhllehne\". Wer den Mantel trägt, greift nicht nach ihm."
+        ],
+        "suggestions": [
+          "Eines der beiden Schweigen-Signale durch eine Handlung ersetzen, damit sich die Pausen unterscheiden.",
+          "Die Mantel-Geste präzisieren: \"Miriam knöpft den Mantel auf, zögert, zieht ihn aus und legt ihn über die Stuhllehne.\" Alternativ eingangs: \"(behält den Mantel an, legt ihn sich aber über die Schultern)\".",
+          "Die Motiv-Wiederholungen (Um vier, Regen, Keiner …) beibehalten. Sie sind strukturelle Stärken, keine Doppelungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.095668
+}

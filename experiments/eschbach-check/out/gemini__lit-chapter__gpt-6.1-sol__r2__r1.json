@@ -1,0 +1,123 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__gpt-6.1-sol__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so tief, dass Ilse das andere Ufer nicht sehen konnte.",
+          "Sie stellte den Kaffeebecher auf den Boden des Steuerhauses."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch extrem dicht und verortet Figur sowie Setting sofort. Wer ganz radikal nach Eschbach kürzen will, könnte direkt mit der Handlung am klemmenden Schlagbaum beginnen ('Das Schloss am Schlagbaum klemmte.') und den Nebel sowie den Kaffee beiläufig einfließen lassen. Für das ruhige Erzähltempo des Textes funktioniert der aktuelle Einstieg jedoch hervorragend."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Unter ihrem Stiefel gab das Deck kaum merklich nach.",
+          "aus dem Beschlag kam ein kurzes, trockenes Knacken.",
+          "Er lachte einmal kurz."
+        ],
+        "suggestions": [
+          "Adjektive werden sehr präzise und fast ausschließlich zur konkreten Sinneswahrnehmung genutzt (Farben, Temperaturen, Materialbeschaffenheit). Kleine Optimierungsmöglichkeit: 'Er lachte einmal kurz' könnte zu 'Er schnaubte' oder 'Er lachte auf' verdichtet werden. 'Kaum merklich' könnte ersatzlos gestrichen werden, wenn stattdessen das Verb präzisiert wird (z.B. 'Unter ihrem Stiefel federte das Deck')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Runter vom Rad“, sagte Ilse.",
+          "„Das steckst du weg, wenn wir anlegen“, sagte sie.",
+          "„Im Wagen ist’s wärmer“, sagte Ilse."
+        ],
+        "suggestions": [
+          "Der Text verzichtet bereits vorbildlich auf unnötige Redebegleitsätze und nutzt stattdessen Handlungsbeats. Selbst die wenigen vorhandenen 'sagte Ilse/sie' sind durch den klaren Kontext eigentlich überflüssig und könnten für noch mehr Unmittelbarkeit gestrichen werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ihre Finger waren schon kalt.",
+          "Offenbar war sie durch das Gras zur Garage gegangen, oder über einen Hof.",
+          "Bei den Münzen blieb sie kurz stehen.",
+          "nahm etwas Zug heraus."
+        ],
+        "suggestions": [
+          "Der Text ist fast frei von klassischem Füllwort-Ballast. Minimale Streichkandidaten: 'schon' (in 'waren schon kalt' und 'zeichnete sich schon ein heller Riss ab'), 'kurz' ('blieb sie kurz stehen') und 'offenbar' (hier reicht die direkte Behauptung aus Ilses Perspektive: 'Sie war durch das Gras zur Garage gegangen...')."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Erst als die Scheinwerfer den Pfosten trafen, erkannte sie den weißen Lieferwagen.",
+          "Die Frau hielt ihr Portemonnaie mit beiden Händen, während Ilse das Wechselgeld aus der Ledertasche zählte."
+        ],
+        "suggestions": [
+          "Handlungen werden fast durchgehend sauber nacheinander beschrieben. Die Stelle mit 'während' lässt sich leicht in zwei aufeinanderfolgende Sätze auflösen: 'Die Frau hielt ihr Portemonnaie mit beiden Händen hin. Ilse zählte das Wechselgeld aus der Ledertasche.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Pfosten am Ufer war verschwunden. (Zustandspassiv/Perfekt aktivisch genutzt)"
+        ],
+        "suggestions": [
+          "Exzellent. Es gibt im gesamten Text keine einzige schwerfällige Passivkonstruktion. Alle Handlungen sind aktiv und direkt an die Figuren oder die Umgebung gebunden."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie sah die ersten drei Meter der Auffahrt, den weißen Pfosten mit dem roten Ring und ein Stück Wasser, das aussah wie das Blech in ihrer Spüle. Alles dahinter war grau."
+        ],
+        "suggestions": [
+          "Hervorragender Satzrhythmus. Kurze, prägnante Sätze wechseln sich harmonisch mit mittellangen Sätzen ab. Keine unübersichtlichen Schachtelsätze vorhanden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Geht das überhaupt?“ – Sie sah ihn an. – „Bei dem Nebel, mein ich.“ – „Sonst wär der Baum unten.“",
+          "„Haben Sie auf zwanzig?“ [...] „Mal sehen.“"
+        ],
+        "suggestions": [
+          "Meisterhaft verknappte, norddeutsch-lakonische Dialoge. Jedes Wort sitzt, nichts wird künstlich erklärt, der Subtext trägt die Szene."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag so tief, dass Ilse das andere Ufer nicht sehen konnte. Sie sah die ersten drei Meter der Auffahrt...",
+          "Erst als die Scheinwerfer den Pfosten trafen, erkannte sie den weißen Lieferwagen.",
+          "Sie sah es aus dem Augenwinkel und nahm etwas Zug heraus."
+        ],
+        "suggestions": [
+          "Obwohl 'dass'-Konstruktionen der Wahrnehmung vermieden wurden, gibt es noch einige Filterverben ('sehen', 'erkennen'). Vorschlag für den ersten Absatz: 'Der Nebel verschluckte das andere Ufer. Nur die ersten drei Meter der Auffahrt lagen frei, der weiße Pfosten mit dem roten Ring und ein Stück Wasser, stumpf wie das Blech in ihrer Spüle.' Und später: 'Erst im Scheinwerferlicht am Pfosten schälte sich der weiße Lieferwagen aus dem Grau.' So rückt der Leser noch tiefer in Ilses Kopf."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Drei Fahrgäste. Zwei Autos, ein Fahrrad. Becker blieb sitzen, die Frau im blauen Wagen ebenfalls. Der Junge stand mit eingezogenem Kopf hinter seinem Lenker..."
+        ],
+        "suggestions": [
+          "Der Text arbeitet extrem ökonomisch. Die kleine Zusammenfassung ('Drei Fahrgäste. Zwei Autos, ein Fahrrad.') ist streng genommen eine inhaltliche Wiederholung dessen, was der Leser gerade miterlebt hat. Sie funktioniert hier zwar gut als innerer Kontrollblick der Fährfrau vor dem Ablegen, könnte aber theoretisch entfallen, da die darauffolgenden Sätze die drei Parteien ohnehin noch einmal einzeln aufgreifen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021798
+}

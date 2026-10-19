@@ -1,0 +1,121 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__gemini-4-argon__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "MARIE tritt ein, bleibt kurz stehen, setzt sich ihm dann langsam gegenüber.",
+          "MARIE: Du bist schon da."
+        ],
+        "suggestions": [
+          "Nach dem Prinzip 'Spät rein, früh raus' könnte die Szene direkt am Tisch beginnen, ohne das Eintreten und den belanglosen Begrüßungssatz.",
+          "Besserer Einstieg: Beide sitzen sich bereits schweigend gegenüber, und Lukas eröffnet direkt mit: 'Schwarz. Ohne Zucker.'"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "setzt sich ihm dann langsam gegenüber",
+          "(nickt langsam)",
+          "(lächelt bitter)"
+        ],
+        "suggestions": [
+          "Das Wort 'langsam' wird in den Regieanweisungen kurz hintereinander doppelt verwendet. Hier könnten präzisere Verben helfen (z.B. 'zögert, bevor sie sich setzt' oder 'nickt bedächtig').",
+          "In einem Prosatext sollte '(lächelt bitter)' eher durch Handlung oder Dialog gezeigt werden, als Drehbuch-Anweisung für Schauspieler ist es jedoch noch im Rahmen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["MARIE: Du bist schon da.", "LUKAS: *(leise)* Ich habe getan, was nötig war."],
+        "suggestions": [
+          "Da es sich um ein Drehbuch-/Theaterformat handelt, entfallen klassische Inquits ('sagte er'). Die Zuordnung ist perfekt, die eingeschobenen Handlungen unterstützen den Dialog organisch."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das weißt du doch.",
+          "Sechs Monate sind eben eine lange Zeit.",
+          "Loyalität ist heutzutage wirklich ein teurer Luxus."
+        ],
+        "suggestions": [
+          "In der wörtlichen Rede sind Füllwörter ('doch', 'eben', 'wirklich') erlaubt, um den Klang natürlich zu halten.",
+          "Dennoch könnte man prüfen, ob Maries Satz ohne 'heutzutage wirklich' ('Loyalität ist ein teurer Luxus') nicht noch härter und präziser klingt."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "MARIE tritt ein, bleibt kurz stehen, setzt sich ihm dann langsam gegenüber.",
+          "*(greift nach ihrer Tasche, steht auf)*"
+        ],
+        "suggestions": [
+          "Sehr gut gelöst. Alle Handlungen werden sauber nacheinander beschrieben. Es gibt keine falschen Gleichzeitigkeiten durch 'während' oder 'indem'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Kellner stellt ein Kännchen Milch auf den Tisch",
+          "der Kaffee bleibt unberührt"
+        ],
+        "suggestions": [
+          "Der Text ist komplett im Aktiv verfasst. Das sorgt für Unmittelbarkeit und Dynamik."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ja. Eine Menge kann passieren. Oder kaputtgehen.",
+          "Behalt sie. Oder wirf sie weg. Ich brauche keinen Ballast mehr."
+        ],
+        "suggestions": [
+          "Exzellente Satzlängen. Die kurzen, abgehackten Sätze passen hervorragend zur unterkühlten, angespannten Atmosphäre des Gesprächs."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "MARIE: Ich brauchte einen radikalen Schnitt. Alles Alte musste weg. *(Pause)* Wie läuft es im Büro? Hast du die Beförderung bekommen, für die du so... gekämpft hast?"
+        ],
+        "suggestions": [
+          "Der Dialog ist als schnelles Ping-Pong-Spiel aufgebaut. Keine Figur hält unnatürliche Monologe.",
+          "Lediglich Maries Themenwechsel zum Büro könnte noch knapper ausfallen, ist aber durch die Regieanweisung '(Pause)' gut legitimiert."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["*(starrt auf die Tasse)*", "*(spannt den Kiefer an)*"],
+        "suggestions": [
+          "Durch das szenische Format gibt es keinerlei Filterwörter ('er sah', 'sie fühlte'). Emotionen werden vorbildlich über Körpersprache transportiert."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Ich brauchte einen radikalen Schnitt. Alles Alte musste weg.",
+          "Behalt sie. Oder wirf sie weg. Ich brauche keinen Ballast mehr."
+        ],
+        "suggestions": [
+          "Maries Aussagen erklären ihre Metaphern manchmal doppelt. Wenn sie sagt 'Ich brauchte einen radikalen Schnitt', ist 'Alles Alte musste weg' fast schon redundant.",
+          "Ebenso bei den Büchern: 'Behalt sie. Oder wirf sie weg.' reicht völlig. Der Nachsatz 'Ich brauche keinen Ballast mehr' wiederholt die Haltung noch einmal überdeutlich (Subtext wird zu Text)."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016368
+}

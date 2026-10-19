@@ -1,0 +1,116 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Geht auch so“, sagte sie.", "Jonas sah hinauf zum Seil."],
+        "suggestions": [
+          "Exzellenter Einstieg mitten in die Handlung und den Dialog (In medias res). Es gibt kein überflüssiges Vorgeplänkel, die Situation (Fähre, Rückkehr des Sohnes) erschließt sich organisch."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Einrasten war über dem Wasser deutlich zu hören.",
+          "An der rechten Sohle löste sich ein schmaler Streifen, kaum sichtbar."
+        ],
+        "suggestions": [
+          "Sehr präziser und sparsamer Einsatz. Lediglich das Adverb 'deutlich' in 'deutlich zu hören' könnte durch ein stärkeres Verb ersetzt werden, z.B.: 'Das Einrasten klackte laut über dem Wasser.'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Hast du nichts anderes mit?“, fragte sie.",
+          "„Ist zu Hause jemand?“, fragte er.",
+          "„Du hast einen Schlüssel“, sagte sie."
+        ],
+        "suggestions": [
+          "Die meisten Dialoge kommen bereits wunderbar ohne Inquits aus. An einigen Stellen (siehe Beispiele) sind 'fragte sie/er' und 'sagte sie' noch entbehrlich, weil durch die vorangehende Handlung der jeweiligen Figur (Action-Tag) bereits völlig klar ist, wer spricht."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["An der rechten Sohle löste sich ein schmaler Streifen, kaum sichtbar."],
+        "suggestions": [
+          "Der Text ist fast völlig frei von Füllwörtern. Das 'vielleicht' im Dialog ist natürliche Figurenrede. Nur 'kaum sichtbar' ist etwas vage und könnte eventuell gestrichen werden, da 'schmaler Streifen' bereits die geringe Größe impliziert."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie nahm ihre Wollmütze von der Fensterbank des Steuerhauses und setzte sie auf.",
+          "Dann hielt sie inne, legte sie noch einmal lose um den Poller und trat vom Einstieg zurück."
+        ],
+        "suggestions": [
+          "Perfekt gelöst. Es gibt keine künstlichen Gleichzeitigkeiten mit 'während' oder 'als'. Alle Handlungen werden sauber und natürlich nacheinander geschildert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Jonas zog den Griff seines Koffers ein.",
+          "Mit dem Ärmel wischte sie eine Stelle frei."
+        ],
+        "suggestions": [
+          "Keine echten Passivkonstruktionen vorhanden. Der Text lebt von seinen aktiven, präzisen Handlungsverben."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Stattdessen blieb er stehen.",
+          "Sie kannte diesen Ton noch, vom Küchentisch, wenn Henning nach einer Note gefragt hatte und Jonas bereits wusste, welche Frage danach kam."
+        ],
+        "suggestions": [
+          "Hervorragender Satzrhythmus. Kurze, prägnante Sätze wechseln sich harmonisch mit etwas längeren, aber niemals unübersichtlichen Satzgefügen ab."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Den alten.“ – „Das Schloss ist auch alt.“",
+          "„Ich muss rüber.“ – „Das sehe ich.“"
+        ],
+        "suggestions": [
+          "Meisterhaft verknappte Dialoge. Die Figuren reden norddeutsch-lakonisch nur das Nötigste, der eigentliche Konflikt und die Emotionen liegen komplett im Subtext."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Regen hing in seinen Haaren, feine Tropfen, die er noch nicht bemerkte.",
+          "Das Einrasten war über dem Wasser deutlich zu hören."
+        ],
+        "suggestions": [
+          "Die Perspektive (personale Erzählweise aus Ilses Sicht) ist sehr gut gehalten. Zwei kleine Optimierungen: 1. 'die er noch nicht bemerkte' ist ein kleiner Perspektivbruch (woher weiß Ilse, was er innerlich bemerkt? Besser: 'die er nicht wegwischte'). 2. 'war ... zu hören' ist eine typische Filterformulierung. Direkter: 'Das Einrasten hallte über das Wasser.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Am anderen Ufer hielt ein weißer Lieferwagen.",
+          "Der Lieferwagen blinkte wieder."
+        ],
+        "suggestions": [
+          "Keine ungewollten Wortwiederholungen oder inhaltlichen Redundanzen. Jedes Detail (der Lieferwagen, die Schuhe, der Koffer) hat eine klare erzählerische Funktion und wird effektiv variiert."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016458
+}

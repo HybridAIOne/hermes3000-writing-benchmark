@@ -1,0 +1,95 @@
+{
+  "who": "hermes",
+  "item": "anchor__kafka-die-verwandlung-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt."
+        ],
+        "suggestions": [
+          "Der Einstieg ist exzellent. Er beginnt direkt mit dem zentralen Konflikt und setzt den Leser sofort in die Szene."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "panzerartig harten Rücken",
+          "kläglich dünnen Beine",
+          "hübschen, vergoldeten Rahmen"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist für einen modernen, straffen Stil zu hoch. Prüfen, ob Substantive wie 'Panzer' oder 'Drahtbeine' die Adjektive ersetzen können."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["»Was ist mit mir geschehen?« dachte er."],
+        "suggestions": [
+          "Die Kennzeichnung ist funktional und unaufdringlich. Keine Änderung erforderlich."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["etwas zu kleines", "ganz melancholisch", "wohl hundertmal"],
+        "suggestions": [
+          "Wörter wie 'etwas' oder 'ganz' schwächen die Aussage. Streichen, um die Wirkung der Verben zu verstärken."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["wenn er den Kopf ein wenig hob"],
+        "suggestions": ["Die Gleichzeitigkeit ist hier gut dosiert und stört den Lesefluss nicht."]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["war ausgebreitet", "war ... untergebracht", "versehen"],
+        "suggestions": [
+          "Passivkonstruktionen durch aktive Formulierungen ersetzen (z.B. 'Auf dem Tisch lag eine Musterkollektion')."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Über dem Tisch, auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war -- Samsa war Reisender --, hing das Bild, das er vor kurzem aus einer illustrierten Zeitschrift ausgeschnitten und in einem hübschen, vergoldeten Rahmen untergebracht hatte."
+        ],
+        "suggestions": [
+          "Der Satz ist sehr verschachtelt. Hier sollte für eine bessere Lesbarkeit ein Punkt gesetzt werden, um die Informationen zu entzerren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["»Was ist mit mir geschehen?«"],
+        "suggestions": ["Die Dialoge sind kurz und prägnant. Keine Straffung nötig."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sah, wenn er den Kopf ein wenig hob"],
+        "suggestions": [
+          "Die Wahrnehmung ist weitgehend direkt. Achten Sie darauf, 'er sah, dass...' Konstruktionen konsequent zu vermeiden."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Pelzhut... Pelzboa... Pelzmuff", "Schmerz zu fühlen begann"],
+        "suggestions": [
+          "Die Häufung von 'Pelz' wirkt redundant. Hier könnte man die Beschreibung variieren oder kürzen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

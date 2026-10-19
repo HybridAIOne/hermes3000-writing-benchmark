@@ -1,0 +1,139 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__claude-haiku-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ein Café am späten Nachmittag. Lena sitzt am Fenster und rührt in ihrer Tasse.",
+          "TOM: Du bist noch hier."
+        ],
+        "suggestions": [
+          "Der Einstieg ist knapp und etabliert mit Toms Zögern bereits die Spannung. Für einen unmittelbareren Beginn könnte zuerst „Du bist noch hier“ stehen; Ort und Gesten ließen sich anschließend einfügen.",
+          "Die ersten unverbindlichen Gesprächswechsel nur kürzen, wenn das gegenseitige Abtasten nicht bewusst ausgespielt werden soll. Sie vermitteln Beziehung, nicht bloß Vorlauf."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "dann geht er langsam auf sie zu",
+          "Er lacht kurz, ohne Freude.",
+          "Lange Pause."
+        ],
+        "suggestions": [
+          "„Langsam“ könnte entfallen, wenn das Stehenbleiben in der Tür Toms Zögern bereits ausreichend vermittelt.",
+          "„Ohne Freude“ benennt die emotionale Qualität ausdrücklich. Prüfen, ob das Lachen nach „Dass ich das nicht weiß“ diese Wirkung schon aus dem Kontext erhält.",
+          "Die übrigen knappen Angaben überwiegend beibehalten: Gerade in einem dramatischen Text können Tempo- und Pausenangaben spielrelevant sein."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["TOM: Du bist noch hier.", "LENA: Ich wohne um die Ecke. Das weißt du."],
+        "suggestions": [
+          "Die Rollennamen beibehalten: Im vorliegenden dramatischen Format sind sie funktionale Sprecherkennzeichnungen, keine überflüssigen Redeeinleitungen.",
+          "Zusätzliche Kennzeichnungen wie „sagte er“ oder „erwiderte sie“ sind nicht nötig."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Dann weißt du ja, wovon ich rede.",
+          "Ich erinnere mich an vieles.",
+          "Er schiebt seine Tasse ein Stück von sich weg."
+        ],
+        "suggestions": [
+          "„Ja“ probeweise streichen. Beibehalten, wenn Toms Anspruch, Lena müsse ihn verstehen, dadurch hörbar werden soll.",
+          "„Vieles“ ist unbestimmt, funktioniert hier aber als ausweichende Antwort. Nur konkretisieren, wenn Lena ihre Abwehr aufgeben soll.",
+          "„Ein Stück“ kann entfallen: „Er schiebt seine Tasse von sich weg.“ Die ursprüngliche Form betont dagegen die kleine, zurückgenommene Bewegung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Tom bleibt in der Tür stehen, dann geht er langsam auf sie zu.",
+          "Sie greift nach ihrer Tasche, zögert und lässt sie stehen."
+        ],
+        "suggestions": [
+          "Die klare Abfolge der Bewegungen beibehalten. Es gibt keine übermäßigen Gleichzeitigkeitskonstruktionen.",
+          "Die zusammengehörenden Taschenbewegungen müssen nicht auf mehrere Sätze verteilt werden; ihre Reihenfolge ist eindeutig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Kellnerin stellt zwei Tassen ab.",
+          "Er setzt sich wieder.",
+          "Du bist älter geworden."
+        ],
+        "suggestions": [
+          "Keine Überarbeitung nötig: Die Handlungen sind aktiv formuliert.",
+          "„Du bist älter geworden“ ist kein Passiv, sondern das Perfekt von „älter werden“."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Tom bleibt in der Tür stehen, dann geht er langsam auf sie zu.",
+          "Sie greift nach ihrer Tasche, zögert und lässt sie stehen."
+        ],
+        "suggestions": [
+          "Die Sätze sind kurz, übersichtlich und frei von belastenden Verschachtelungen. Eine weitere Teilung ist nicht erforderlich.",
+          "Die vorhandene Mischung aus knappen Einzelsätzen und kurzen Handlungsketten erhalten, damit der Rhythmus nicht unnötig abgehackt wird."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "LENA: Willst du was trinken? / TOM: Wenn du schon bestellt hast. / LENA: Hab ich.",
+          "LENA: Du hast meinen Brief nicht beantwortet. / TOM: Ich hab dich letzte Woche am Bahnhof gesehen."
+        ],
+        "suggestions": [
+          "Keine einzelne Replik ist zu lang. Besonders der Wechsel vom Brief zum Bahnhof verdichtet den Konflikt durch Ausweichen statt Erklären.",
+          "Bei einer Straffung der Gesamtszene zuerst den Getränkeaustausch prüfen. Er kann jedoch bleiben, wenn er Lenas Kontaktversuch und Toms Unverbindlichkeit zeigen soll."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Draußen fährt eine Straßenbahn vorbei.",
+          "Beide sehen auf den Tisch.",
+          "Ich hab dich letzte Woche am Bahnhof gesehen."
+        ],
+        "suggestions": [
+          "Die direkte Darstellung beibehalten: Die Straßenbahn wird ohne vorgeschaltetes „Sie hört“ oder „Sie sieht“ präsentiert.",
+          "Die Blickrichtungen sind sichtbare Bühnenhandlungen, keine entbehrlichen Wahrnehmungsfilter.",
+          "Toms Aussage über den Bahnhof berichtet ein konfliktentscheidendes Ereignis und sollte nicht wegen des Verbs „gesehen“ gestrichen werden."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Nichts. Gar nichts.",
+          "Pause. / Stille. / Lange Pause.",
+          "Beide sehen auf den Tisch. / Sie sieht nicht hoch. / Keiner von beiden sieht den anderen an.",
+          "Du konntest schon immer das letzte Wort haben. / Und du hast immer geschwiegen, bis es zu spät war."
+        ],
+        "suggestions": [
+          "„Nichts. Gar nichts.“ als expressive Verstärkung behandeln, nicht automatisch als inhaltliche Doppelung.",
+          "Die wiederholten Pausen und vermiedenen Blicke auf ihre jeweilige Funktion prüfen: Verlegenheit, Verletzung und vorsichtige Annäherung sollten unterscheidbar bleiben.",
+          "Falls die Szene zu gleichförmig wirkt, eine mittlere Blick- oder Pausenanweisung streichen. Den abschließenden vermiedenen Blick möglichst erhalten: Nach Toms erneutem Hinsetzen bekommt das Motiv eine veränderte Bedeutung.",
+          "Die parallelen „immer“-Vorwürfe können bleiben; ihre Symmetrie macht die gegenseitige Schuldzuweisung hörbar."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.019302
+}

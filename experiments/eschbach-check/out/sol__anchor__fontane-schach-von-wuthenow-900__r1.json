@@ -1,0 +1,149 @@
+{
+  "who": "sol",
+  "item": "anchor__fontane-schach-von-wuthenow-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5.3,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "„In dem Salon der in der Behrenstraße wohnenden Frau von Carayon und ihrer Tochter Victoire waren an ihrem gewöhnlichen Empfangsabend einige Freunde versammelt“",
+          "„Das Gespräch, das eben geführt wurde, schien sich um die kurz vorher beendete Haugwitzsche Mission zu drehen“"
+        ],
+        "suggestions": [
+          "Der Einstieg etabliert das gesellschaftliche Milieu, verzögert aber den szenischen Konflikt durch Sitzordnung und Figurenporträts. Mit Frau von Carayons Einwand gegen die „Morgengabe“ beginnen.",
+          "Angaben zu Adresse, Empfangsgewohnheiten und Vorgeschichte später einflechten, soweit sie für das Verständnis erforderlich sind. Bülows Gestik und Sanders Erscheinung lassen sich während ihrer Gesprächsbeiträge zeigen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„unter gleichzeitigem scherzhaftem Bedauern“",
+          "„die bis dahin unbemerkt am Theetisch beschäftigt gewesene Tochter Victoire“",
+          "„die feinste weiße Wäsche“"
+        ],
+        "suggestions": [
+          "Attributketten in Handlungen auflösen: „Dabei bedauerte er scherzend, dass gerade der fehle, dem dieser Platz gebühre.“",
+          "Victoire unmittelbar handeln lassen: „Victoire blickte vom Teetisch auf und warf ihrer Mutter einen zärtlichen Blick zu.“",
+          "Charakterisierende Einzelheiten wie Sanders weiße Wäsche behalten: Sie verdeutlichen den Gegensatz zu Bülow und sind nicht bloß Schmuck."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„nahm Frau von Carayon das Wort“",
+          "„erwiderte Sander“",
+          "„bestätigte Frau von Carayon, während sie gleich danach hinzufügte“",
+          "„drohte jetzt zu dem Sprecher hinüber und sagte“"
+        ],
+        "suggestions": [
+          "Die Sprecherkennzeichnungen überwiegend beibehalten, weil mehrere Personen am Gespräch teilnehmen.",
+          "Die doppelte Kennzeichnung „bestätigte … hinzufügte“ vereinfachen: „‚Ja, das sind sie.‘ Frau von Carayon zögerte. ‚Vielleicht auch etwas hochmütig.‘“",
+          "Bei Victoire genügt die identifizierende Handlung vor dem Doppelpunkt; „und sagte“ kann entfallen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„einige Freunde versammelt, aber freilich wenige nur“",
+          "„im Uebrigen aber sein vollkommener Widerpart, wenigstens in allem was Erscheinung anging“",
+          "„so zu sagen von Jugend auf“",
+          "„Er sprach eigentlich immer.“"
+        ],
+        "suggestions": [
+          "Die erste Mengenangabe bündeln: „Nur wenige Freunde hatten sich versammelt.“",
+          "Sanders Gegensatz zu Bülow direkt eingrenzen: „In seiner Erscheinung war er Bülows Widerpart.“",
+          "Abtönungen im Erzählertext strenger prüfen als in der Figurenrede. Wendungen wie „so zu sagen“ können Bülows mündlichen Ton tragen; „eigentlich immer“ unterstützt die ironische Übertreibung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "„unter gleichzeitigem scherzhaftem Bedauern“",
+          "„bei welchem Worte […] Victoire der Mutter einen zärtlichen Blick zuwarf, während Alvensleben der schönen Frau die Hand küßte“",
+          "„während sie gleich danach hinzufügte“"
+        ],
+        "suggestions": [
+          "Reaktionen in kurze Handlungsschritte zerlegen: „Victoire warf ihrer Mutter einen zärtlichen Blick zu. Alvensleben küsste Frau von Carayon die Hand.“",
+          "„Während sie gleich danach hinzufügte“ vermeiden: Die Formulierung verbindet Gleichzeitigkeit mit zeitlicher Folge. Stattdessen „Dann fügte sie hinzu“ schreiben oder die Redebeiträge zusammenziehen.",
+          "Gleichzeitigkeit dort erhalten, wo sie das gesellschaftliche Zusammenspiel tatsächlich sichtbar macht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„allgemein als das Haupt jener militärischen Frondeurs angesehen wurde“",
+          "„Das Gespräch, das eben geführt wurde“",
+          "„wo Polen mit ins Gespräch gezogen worden war“"
+        ],
+        "suggestions": [
+          "Umständliche Passivkonstruktionen verkürzen: „Er galt als Haupt jener militärischen Frondeurs.“",
+          "Den Gesprächsgegenstand direkt nennen: „Die Gäste sprachen über die kurz zuvor beendete Haugwitzsche Mission.“",
+          "Victoires Reaktion aktiver anschließen: „Seit Sander Polen erwähnt hatte, stand Victoire nicht mehr am Teetisch.“ Das Passiv ist insgesamt kein dominierendes Problem."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "„Von den Offizieren des Regiments Gensdarmes, die selten an einem dieser Abende fehlten, war nur einer erschienen […] unter gleichzeitigem scherzhaftem Bedauern darüber, daß gerade der fehle, dem dieser Platz in Wahrheit gebühre.“",
+          "„Unsere preußische Wirthschaft ist erbärmlich, und Mirabeau hatte Recht […] aber faul oder nicht, Eines haben wir wenigstens: ein Gefühl davon, daß die Welt […]“"
+        ],
+        "suggestions": [
+          "Pro Satz möglichst einen Schwerpunkt setzen: „Vom Regiment Gensdarmes war nur Herr von Alvensleben erschienen. Er saß neben der Hausherrin und bedauerte scherzend die Abwesenheit dessen, dem dieser Platz eigentlich gebühre.“",
+          "Bülows langen Satz nach dem Mirabeau-Vergleich teilen. Den Gegenakzent mit „Aber eines haben wir wenigstens“ neu beginnen lassen.",
+          "Längere Perioden gezielt als historischen Stilzug bewahren, aber Einschübe und mehrfach gestaffelte Relativsätze reduzieren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Bülows zusammenhängende Rede von „Etwas!“ bis „wenn auch freilich von der unangenehmen Seite“.",
+          "„In Hannover aber glaubt man immer noch an eine Spezialaufgabe Kalenbergs und der Lüneburger Haide. Nomen est omen. Es ist der Sitz der Stagnation, eine Brutstätte der Vorurtheile.“"
+        ],
+        "suggestions": [
+          "Bülows Monolog auf seine argumentative Linie konzentrieren: hannoverscher Dünkel, preußische Selbstkritik, daraus abgeleiteter Fortschrittsanspruch.",
+          "Eine kurze Reaktion Sanders oder Victoires als Zäsur erwägen, damit die übrigen Figuren während des Vortrags präsent bleiben.",
+          "Nicht vollständig glätten: Die ausufernde Rede löst die vorangehende Charakterisierung ein, Bülow könne nur sprechen, um Vortrag zu halten."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "„Das Gespräch […] schien sich um die kurz vorher beendete Haugwitzsche Mission zu drehen“",
+          "„in dessen Helle man jetzt deutlich erkennen konnte, daß ihr feines Profil einst dem der Mutter geglichen haben mochte“"
+        ],
+        "suggestions": [
+          "Die unbegründet vorsichtige Vermittlung des Gesprächsinhalts durch „schien“ streichen: „Das Gespräch drehte sich um die Haugwitzsche Mission.“",
+          "Victoires Gesicht unmittelbar beschreiben: „Im Lampenlicht traten die Blatternarben auf ihrem feinen Profil hervor.“",
+          "Den Vergleich mit der Mutter gegebenenfalls anschließend bewahren. Die Vermutung über Victoires früheres Aussehen hat eine andere Funktion als die entbehrliche Wahrnehmungsformel „man konnte erkennen“."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„einige Freunde versammelt, aber freilich wenige nur“",
+          "„nur sprechen um Vortrag zu halten“ und „er sprach eigentlich immer“",
+          "„Sitz der Stagnation, eine Brutstätte der Vorurtheile“",
+          "„Im Einzelnen bleiben wir hinter ihnen zurück […] aber im Ganzen sind wir ihnen voraus“"
+        ],
+        "suggestions": [
+          "Die doppelte Mengenbestimmung am Anfang zu einer Aussage verdichten.",
+          "Bei den Vorwürfen gegen Hannover prüfen, ob beide abstrakten Etiketten nötig sind oder ein konkretes Beispiel stärker wäre.",
+          "Funktionale Wiederaufnahme nicht mit Redundanz verwechseln: Bülows unablässiges Reden liefert eine ironische Pointe; der Gegensatz von Einzelnen und Ganzem bildet einen eigenständigen argumentativen Schritt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02639
+}

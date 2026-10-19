@@ -1,0 +1,144 @@
+{
+  "who": "sol",
+  "item": "lit-continue__gpt-6.1-sol__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Er läuft“, sagte sie.", "„Klingt nicht so.“", "„Du hast ihn nicht gehört.“"],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Der Widerspruch erzeugt Spannung und vermittelt die Beziehung der Figuren ohne Vorrede.",
+          "Nicht später einsetzen. Die ersten Repliken etablieren bereits den unterschwelligen Konflikt. Allenfalls den Bezug von „Er“ früher konkretisieren, falls die anfängliche Unklarheit nicht beabsichtigt ist."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„jetzt kroch es kalt bis zum Ellenbogen“",
+          "„einen dünnen Mantel an, offen über einem Pullover, der am Hals zu eng aussah“",
+          "„Im plötzlichen Stillwerden hörte Ilse die kleinen Wellen unter dem Anleger schmatzen.“"
+        ],
+        "suggestions": [
+          "Die meisten Attribute beibehalten: Sie vermitteln Kälte, Unbehagen und Ilses aufmerksamen Blick auf Jonas.",
+          "Allenfalls „plötzlichen“ und „kleinen“ probeweise streichen. Das Abstellen des Motors und das Verb „schmatzen“ leisten bereits einen Teil ihrer Wirkung."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ja“, sagte er.",
+          "„Hast du gegessen?“, fragte sie.",
+          "„Im Steuerhaus ist es trocken“, sagte sie und schob ihm die Tür auf."
+        ],
+        "suggestions": [
+          "Die sparsame Kennzeichnung grundsätzlich beibehalten; die meisten Sprecherwechsel sind ohne Zusatz verständlich.",
+          "Bei „Hast du gegessen?“ ist „fragte sie“ verzichtbar, weil Ilse unmittelbar zuvor die Perspektive trägt.",
+          "Den Schluss gegebenenfalls verdichten: „‚Im Steuerhaus ist es trocken.‘ Sie schob ihm die Tür auf.“"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Heb ihn doch.“",
+          "„Ich bin doch gerade erst angekommen.“",
+          "„Ich wusste nicht, ob du mich überhaupt sehen willst.“",
+          "„Stattdessen schob sie ihn mit dem Fuß ein Stück zur Seite.“"
+        ],
+        "suggestions": [
+          "Die Gesprächspartikeln „doch“, „gerade erst“ und „überhaupt“ nicht mechanisch streichen: Sie tragen Vorwurf, Abwehr und Unsicherheit.",
+          "„Ein Stück“ ist ungenau, hier aber ausreichend, weil das genaue Maß der Bewegung keine Rolle spielt. Nur bei räumlichen Verständnisschwierigkeiten präzisieren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Erst als der Wagen langsam anrollte, griff er nach dem Bügel und zerrte ihn über eine Fuge.“",
+          "„Ilse wartete, bis er auf der Fähre war, dann schloss sie das Gatter.“",
+          "„Als sie ablegten, vibrierte das Seil.“"
+        ],
+        "suggestions": [
+          "Die zeitlichen Verknüpfungen überwiegend beibehalten. Sie ordnen die Handlungen und werden nicht übermäßig verwendet.",
+          "Die Verzögerung in „Erst als der Wagen langsam anrollte“ erhalten: Sie charakterisiert Jonas und erzeugt Reibung.",
+          "Allenfalls für einen härteren Rhythmus formulieren: „Sie legten ab. Das Seil vibrierte.“ Dabei geht etwas von der engen zeitlichen Verbindung verloren."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Der Bäcker stellte den Motor ab.“",
+          "„Sie löste die Leine wieder.“",
+          "„Im kleinen Zimmer lag die abgezogene Bettwäsche auf der Matratze.“"
+        ],
+        "suggestions": [
+          "Keine Überarbeitung nötig: Die Handlungen sind aktiv und konkret formuliert.",
+          "„Abgezogene Bettwäsche“ nicht als Passivproblem behandeln; das Partizip beschreibt hier den Zustand der Bettwäsche."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Beim Festziehen war ihr Wasser in den Ärmel gelaufen; jetzt kroch es kalt bis zum Ellenbogen.“",
+          "„Als Kind hatte er jede Überfahrt vorn am Gatter gestanden, auch im November, auch wenn Henning ihn zurückgerufen hatte.“",
+          "„Jonas zog sein Telefon aus der Manteltasche, sah darauf und steckte es wieder weg.“"
+        ],
+        "suggestions": [
+          "Die Mischung aus kurzen Sätzen und etwas längeren Beobachtungen beibehalten. Es gibt keine schwer verständlichen Verschachtelungen.",
+          "Den Satz über die Überfahrten in der Kindheit nicht allein wegen seiner Länge teilen: Die angehängten „auch“-Glieder geben der Erinnerung einen passenden Rhythmus.",
+          "Für eine knappere Fassung lässt sich die Handybewegung zu „Jonas zog sein Telefon heraus, sah darauf und steckte es wieder weg“ verdichten; nötig ist das nicht."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Fährst du gleich mit?“ – „Ich bin doch gerade erst angekommen.“ – „Das war nicht die Frage.“",
+          "„Hast du gegessen?“ – „Im Zug.“",
+          "„Ich wusste nicht, ob du mich überhaupt sehen willst.“"
+        ],
+        "suggestions": [
+          "Die knappen Dialogwechsel unverändert lassen. Sie transportieren Konflikt und Vorgeschichte über Ausweichen und Untertext.",
+          "Keine erklärenden Zusatzrepliken einfügen: Besonders Ilses praktische Antwort am Schluss wirkt stärker als eine ausdrückliche Aussprache."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Jonas sah zum Heck hinüber.“",
+          "„Im plötzlichen Stillwerden hörte Ilse die kleinen Wellen unter dem Anleger schmatzen.“",
+          "„Jonas blickte hinauf, und für einen Augenblick sah sie den Jungen wieder, der wissen wollte, ob es reißen könne.“"
+        ],
+        "suggestions": [
+          "Die akustische Wahrnehmung lässt sich unmittelbarer formulieren: „Der Bäcker stellte den Motor ab. Unter dem Anleger schmatzten die kleinen Wellen.“",
+          "Blickhandlungen nicht pauschal streichen: „Jonas sah zum Heck hinüber“ und „Jonas blickte hinauf“ zeigen sichtbare Bewegungen und lenken die Aufmerksamkeit.",
+          "„Sah sie den Jungen wieder“ beibehalten, wenn Ilses Erinnerungsüberlagerung betont werden soll. Die Wahrnehmungsformulierung erfüllt hier eine emotionale Funktion."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„auch im November, auch wenn Henning ihn zurückgerufen hatte“",
+          "„Sie sah ihn an. Dann hob er ihn.“",
+          "„Er blickte über den Fluss.“ / „Jonas blickte hinauf“ / „Ilse hielt den Blick auf den gegenüberliegenden Anleger gerichtet.“",
+          "„Er stellte den Koffer dicht an das Steuerhaus.“ / „Im Steuerhaus ist es trocken“"
+        ],
+        "suggestions": [
+          "Die Wiederholung von „auch“ beibehalten: Sie verstärkt die Beharrlichkeit des Kindes und ist keine inhaltliche Doppelung.",
+          "Die Blickhandlungen im Zusammenhang prüfen. Sie tragen hier überwiegend das unausgesprochene Verhältnis der Figuren; nur streichen, wenn eine davon keinen eigenen Akzent setzt.",
+          "Die Wiederaufnahme des Steuerhauses erhalten: Aus einem zunächst praktischen Ort wird am Schluss ein Angebot von Schutz und Nähe."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.023216
+}

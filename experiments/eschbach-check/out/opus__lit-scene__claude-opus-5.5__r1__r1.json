@@ -1,0 +1,131 @@
+{
+  "who": "opus",
+  "item": "lit-scene__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel passte noch.",
+          "Der Text setzt direkt an der Schwelle ein, ohne Anreise, Vorgeschichte oder Wetterbeschreibung. Der erste Satz enthält bereits Zeit (,noch'), Rückkehr und Spannung."
+        ],
+        "suggestions": [
+          "Keine Änderung nötig. Ein späterer Einstieg, etwa erst im Flur, würde den Moment des Zögerns an der Tür opfern, der die Grundspannung der Szene trägt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "in die kleine dunkle Mulde",
+          "sich kaum merklich bewegte",
+          "Aber er drehte sich leicht",
+          "dessen Antenne jemand sorgfältig eingefahren hatte"
+        ],
+        "suggestions": [
+          "Die meisten Adjektive tragen sinnliche Information (,kaltem Stein', ,grauer Februarnachmittag', ,bitter und warm'). ,Sorgfältig' ist ebenfalls bedeutungstragend, weil es auf eine handelnde Person verweist.",
+          "Bei ,kleine dunkle Mulde' reicht ,dunkle Mulde'. Eine Mulde, die eine Orangenschale hinterlässt, ist ohnehin klein.",
+          "Prüfen, ob ,kaum merklich' nötig ist. ,der an seinem Lederband hing und leicht pendelte' wäre konkreter."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Text enthält keinen Dialog."],
+        "suggestions": [
+          "Nicht anwendbar. Das Schweigen passt zur Szene, denn das Haus ,antwortete nicht'."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "aus einer Art Schwindel",
+          "um ein paar Zentimeter abgesackt",
+          "nach etwas Süßlichem darunter"
+        ],
+        "suggestions": [
+          ",eine Art Schwindel' relativiert das Gefühl unnötig. Besser: ,sondern aus Schwindel, als wäre der Boden abgesackt'.",
+          ",ein paar Zentimeter' ist bildlich vertretbar, ließe sich aber präzisieren (,um eine Handbreit') oder ganz streichen.",
+          ",etwas Süßlichem' ist hier bewusst vage, weil der Geruch noch nicht erkannt wird. Das sollte so bleiben, da es die spätere Auflösung (Orangen) vorbereitet."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "und jetzt war er wieder da, bitter und warm zugleich, und sie musste sich am Türrahmen festhalten",
+          "als hätte ihn eben jemand gestreift"
+        ],
+        "suggestions": [
+          "Handlungen werden überwiegend nacheinander erzählt (Tasche abstellen, Geräusch, Schale nehmen, zurücklegen). Die ,als'-Konstruktionen sind vergleichend, nicht zeitlich, und deshalb unproblematisch.",
+          "Die Reihung ,und jetzt war er wieder da ... und sie musste sich ... festhalten' ließe sich in zwei Schritte trennen, um den Schwindel stärker als Folge wirken zu lassen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Keine Passivsätze. ,dass man das Schloss ... ausgetauscht hätte' ist aktiv mit unbestimmtem Subjekt.",
+          "Auch ,dessen Antenne jemand sorgfältig eingefahren hatte' ist aktiv formuliert und deutet gezielt einen unsichtbaren Akteur an."
+        ],
+        "suggestions": [
+          "Keine Änderung nötig. Die bewusste Verwendung von ,jemand' statt Passiv erzeugt die unterschwellige Präsenz einer anderen Person."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Judith hatte den Geruch vergessen, ohne es zu bemerken, und jetzt war er wieder da, bitter und warm zugleich, und sie musste sich am Türrahmen festhalten, nicht aus Trauer, sondern aus einer Art Schwindel, als wäre der Boden um ein paar Zentimeter abgesackt.",
+          "Durch die Milchglasscheibe der Küchentür fiel ein grauer Februarnachmittag, und in diesem Licht sah alles aus wie auf einer Fotografie, die zu lange in der Sonne gelegen hatte: der Tisch mit dem Wachstuch, die zwei Stühle, nicht drei, das Radio auf dem Kühlschrank, dessen Antenne jemand sorgfältig eingefahren hatte.",
+          "Judith hatte erwartet, dass er klemmen würde, dass man das Schloss in zwanzig Jahren ausgetauscht hätte, dass das Haus ihr wenigstens diesen einen Widerstand bieten würde."
+        ],
+        "suggestions": [
+          "Der Wechsel zwischen langen Satzperioden und kurzen Sätzen (,Das Geräusch war zu laut.', ,Ihre Mutter war seit sieben Wochen tot.') ist rhythmisch stark und gewollt.",
+          "Der Orangenschalen-Satz ist jedoch überladen. Vorschlag: ,Judith hatte den Geruch vergessen, ohne es zu bemerken. Jetzt war er wieder da, bitter und warm zugleich. Sie musste sich am Türrahmen festhalten, nicht aus Trauer, sondern aus Schwindel, als wäre der Boden abgesackt.'",
+          "Die dreifache ,dass'-Anapher im ersten Absatz kann als Stilmittel bleiben."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Text enthält keinen Dialog."],
+        "suggestions": ["Nicht anwendbar."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Judith hatte den Geruch vergessen, ohne es zu bemerken",
+          "nach etwas Süßlichem darunter, das sie nicht einordnen konnte",
+          "Judith hatte erwartet, dass er klemmen würde"
+        ],
+        "suggestions": [
+          "Die Wahrnehmung wird meist direkt gezeigt (,Im Flur roch es nach ...', ,auf der weißen Innenseite glänzte noch Feuchtigkeit'). Das ist vorbildlich.",
+          ",das sie nicht einordnen konnte' ließe sich direkter fassen: ,nach etwas Süßlichem darunter, ohne Namen'. Alternativ kann der Satz enden, ohne Judiths Erkenntnisvorgang zu kommentieren.",
+          ",hatte den Geruch vergessen, ohne es zu bemerken' ist erklärend. Prüfen, ob die körperliche Reaktion am Türrahmen allein genügt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie nahm eine der Schalen in die Hand. Sie war nicht hart. Sie bog sich zwischen ihren Fingern",
+          "die kleine dunkle Mulde, die sie im Papier hinterlassen hatte",
+          "für den Tee im Winter, für die Wäscheschubladen, gegen die Motten, gegen alles"
+        ],
+        "suggestions": [
+          "Das dreifache ,Sie' wechselt den Bezug von Judith zur Schale und zurück. Das kann kurz irritieren. Vorschlag: ,Sie nahm eine der Schalen in die Hand. Sie war nicht hart, bog sich zwischen ihren Fingern ...'",
+          ",die sie im Papier hinterlassen hatte' ist mehrdeutig (Judith oder die Schale?). Klarer: ,die die Schale im Papier hinterlassen hatte'. Eleganter: ,in die kleine dunkle Mulde im Papier'.",
+          "Die Reihung ,für ... für ... gegen ... gegen alles' ist eine bewusste Steigerung und sollte bleiben.",
+          "Inhaltliche Doppelungen gibt es kaum. Die Andeutungen der fremden Präsenz (Schuhlöffel, Antenne, feuchte Schale) steigern sich und wiederholen sich nicht."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.097456
+}

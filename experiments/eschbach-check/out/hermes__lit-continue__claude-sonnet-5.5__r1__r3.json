@@ -1,0 +1,91 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-sonnet-5.5__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Er läuft“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist exzellent, da er den Leser sofort in die Situation und den Konflikt wirft."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["„leise Klirren“, „schlecht laufen“"],
+        "suggestions": [
+          "Die Adjektive sind sparsam eingesetzt. Dennoch könnten Wörter wie 'schlecht' durch präzisere Verben ersetzt werden (z.B. 'Er stottert' oder 'Er hustet')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["„sagte sie“"],
+        "suggestions": [
+          "Einige Redeeinleitungen sind redundant, da der Sprecherwechsel durch den Absatz oder den Kontext klar ist. Diese können gestrichen werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["„vielleicht sah er nur anders aus“"],
+        "suggestions": [
+          "Wörter wie 'vielleicht' oder 'schon' schwächen die Aussagekraft. Streichen für mehr Direktheit und Selbstbewusstsein im Text."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine übermäßige Verwendung von 'während'."],
+        "suggestions": [
+          "Sehr gut gelöst; die Handlungen folgen logisch und chronologisch aufeinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["„nicht für Bohlen gemacht war“"],
+        "suggestions": [
+          "Das Passiv ist selten. Der Satz könnte aktiver formuliert werden: '...der für Bohlen ungeeignet war'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine übermäßig verschachtelten Sätze."],
+        "suggestions": ["Der Rhythmus der Sätze ist angenehm und abwechslungsreich."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Der Motor ist für den Notfall“..."],
+        "suggestions": [
+          "Die Dialoge sind knackig und transportieren Subtext sehr gut. Keine Straffung nötig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["„Er sah älter aus“"],
+        "suggestions": [
+          "Die Wahrnehmung ist meist direkt. 'Man sah die Pappeln' könnte durch eine direktere Beobachtung ersetzt werden (z.B. 'Die Pappeln standen nur bis zur Hälfte im Nebel')."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Sie hatte nie überlegt... Sie hatte sie auch nie angezogen. Sie hatte sie nur...“"
+        ],
+        "suggestions": [
+          "Die Satzanfänge im Absatz über die Stiefel sind zu repetitiv. Sätze zusammenfassen oder die Struktur variieren, um den Lesefluss zu glätten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

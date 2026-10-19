@@ -1,0 +1,141 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__gemini-4-argon__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„LUKAS sitzt am Tisch und dreht seinen Ehering.“",
+          "„Sie zieht den Mantel nicht aus.“",
+          "„Du trinkst jetzt Schwarztee?“"
+        ],
+        "suggestions": [
+          "Den Einstieg weitgehend beibehalten: Ehering und Mantel etablieren den Beziehungskonflikt ohne erklärende Vorgeschichte.",
+          "Für einen noch unmittelbareren Beginn könnte Anna bereits sitzen. Ihr Eintreten und Zögern liefern allerdings spielbare Informationen über ihre Unsicherheit."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Ein kleines Café.“ / „eine kleine Pappschachtel“",
+          "„nickt knapp“, „lächelt dünn“, „ihre Stimme zittert leicht“",
+          "„steht langsam auf“"
+        ],
+        "suggestions": [
+          "Die beiden Verwendungen von „klein“ auf ihre szenische Bedeutung prüfen; insbesondere die Größe des Cafés muss nicht zwingend festgelegt werden.",
+          "Einzelne Spielanweisungen ausdünnen, damit die Darstellenden Interpretationsraum behalten. „Ihre Stimme zittert“ genügt, wenn die Abschwächung durch „leicht“ nicht entscheidend ist.",
+          "Prägnante Angaben wie „lächelt dünn“ beibehalten, sofern sie einen Widerspruch zwischen äußerem Verhalten und innerer Haltung sichtbar machen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Sprecher werden durch „ANNA“ und „LUKAS“ eindeutig bezeichnet.",
+          "„(Er schiebt eine kleine Pappschachtel über den Tisch)“"
+        ],
+        "suggestions": [
+          "Die dramatische Form beibehalten: Zusätzliche Redeeinleitungen wie „sagt Lukas“ sind nicht nötig.",
+          "Handlungsanweisungen wie das Schieben der Schachtel erhalten; sie erfüllen eine andere Funktion als bloße Sprecherkennzeichnungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Seit ein paar Monaten.“",
+          "„Man gewöhnt sich ja an den bitteren Geschmack.“",
+          "„Dass man eben Prioritäten setzen muss im Leben.“",
+          "„wer von uns beiden eigentlich gegangen ist“"
+        ],
+        "suggestions": [
+          "„Eigentlich“ probeweise streichen: „Ich habe lange darüber nachgedacht, wer von uns beiden gegangen ist.“ Die Aussage wird dadurch härter.",
+          "„Ja“ und „eben“ nicht pauschal entfernen: Sie unterstützen hier Lukas’ demonstrative Selbstverständlichkeit und seinen vorwurfsvollen Ton.",
+          "„Ein paar Monaten“ ist im Gespräch natürlich; eine genaue Monatszahl wäre nur sinnvoll, wenn sie für die Handlung wichtig ist."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„ANNA tritt ein, zögert kurz und setzt sich ihm gegenüber.“",
+          "„(nimmt die Schachtel, steht langsam auf)“",
+          "„(sieht ihn direkt an, ihre Stimme zittert leicht)“"
+        ],
+        "suggestions": [
+          "Die klaren Handlungsfolgen beibehalten. Überladene Verknüpfungen mit „während“ oder „gleichzeitig“ kommen nicht vor.",
+          "Blickkontakt und zitternde Stimme dürfen gleichzeitig auftreten; eine künstliche Aufteilung würde die Spielanweisung nicht verbessern."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Er schiebt eine kleine Pappschachtel über den Tisch.“",
+          "„Sie geht. Lukas bleibt sitzen und rührt in seinem leeren Tee.“"
+        ],
+        "suggestions": [
+          "Die aktive Formulierung beibehalten. Es gibt keine Passivkonstruktionen, die überarbeitet werden müssten."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ich werfe Dinge nicht einfach weg, nur weil sie unbequem werden, Anna.“",
+          "„Ich habe lange darüber nachgedacht, wer von uns beiden eigentlich gegangen ist.“",
+          "„Ja. Mit Mantel. Auf dem Sprung.“"
+        ],
+        "suggestions": [
+          "Keine grundsätzliche Kürzung nötig: Die Sätze sind übersichtlich, die Fragmente setzen wirkungsvolle Akzente.",
+          "Den Satz über das Wegwerfen nicht allein wegen seines Nebensatzes teilen; seine zusammenhängende Form trägt die doppeldeutige Anklage."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Nein, du hebst alles auf. Jeden Zettel, jedes Wort. Bis kein Platz mehr zum Atmen ist.“",
+          "„Und du machst lieber tabula rasa. Ein Schnitt, und schon existiert die Vergangenheit nicht mehr. Sehr praktisch.“"
+        ],
+        "suggestions": [
+          "Die kurzen Redewechsel beibehalten; keine Figur hält einen ausufernden Monolog.",
+          "Falls eine knappere, weniger ausdrücklich erklärte Konfrontation gewünscht ist, probeweise „Sehr praktisch“ streichen. Der Sarkasmus ist bereits im vorhergehenden Satz enthalten."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„blickt auf die Schachtel, berührt sie nicht“",
+          "„weicht ihrem Blick aus, starrt in seine Tasse“",
+          "„Ich habe lange darüber nachgedacht, wer von uns beiden eigentlich gegangen ist.“"
+        ],
+        "suggestions": [
+          "Die unmittelbar spielbaren Blick- und Körperhandlungen beibehalten; sie sind keine indirekten Wahrnehmungsfilter.",
+          "Lukas’ Äußerung über sein Nachdenken nicht nach dem Muster eines erzählerischen Gedankenfilters kürzen: Im Dialog ist sie eine bewusste Mitteilung an Anna."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Du hättest es einfach wegwerfen können.“ / „Ich werfe Dinge nicht einfach weg“",
+          "„Sie zieht den Mantel nicht aus.“ / „Ja. Mit Mantel. Auf dem Sprung.“",
+          "„Wie immer, wenn es ernst wird.“"
+        ],
+        "suggestions": [
+          "Die Wiederaufnahme von „wegwerfen“ erhalten: Lukas verwandelt Annas sachlichen Vorschlag in einen Beziehungsvorwurf.",
+          "Auch das Mantelmotiv beibehalten: Zunächst wird es gezeigt, später von Lukas ausdrücklich gegen Anna verwendet.",
+          "„Wie immer, wenn es ernst wird“ probeweise streichen. „Mit Mantel. Auf dem Sprung“ vermittelt den konkreten Vorwurf bereits; der Zusatz macht daraus allerdings bewusst eine grundsätzliche Anklage."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020024
+}

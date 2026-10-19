@@ -1,0 +1,111 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Den Schlüssel hatte ihr der Nachlassverwalter in einem gepolsterten Umschlag geschickt, als könnte er zerbrechen. Johanna musste die Tür mit der Schulter aufdrücken."
+        ],
+        "suggestions": [
+          "Perfekter Einstieg (In medias res). Keine unnötige Anreise, direkt vor der Tür mit einem starken, charakterisierenden Bild im ersten Satz."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "ein kurzes, trockenes Ächzen",
+          "eine dünne, gleichmäßige Staubschicht",
+          "rostbrauner Strahl",
+          "Süßlich, leicht gärig"
+        ],
+        "suggestions": [
+          "Die Adjektive sind hier äußerst präzise und sensorisch notwendig. Einzig bei den Doppelungen ('kurzes, trockenes', 'dünne, gleichmäßige') könnte man prüfen, ob jeweils ein Adjektiv reicht (z.B. 'ein trockenes Ächzen', 'eine dünne Staubschicht'), um den Text noch weiter zu verdichten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keinen Dialog, daher gibt es hier keine Mängel."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Es war eher, als hätte jemand...",
+          "Süßlich, leicht gärig...",
+          "...stand ein einzelnes Glas ein Stück abseits."
+        ],
+        "suggestions": [
+          "Der Text ist fast frei von Füllwörtern. Minimale Streichkandidaten zur weiteren Schärfung wären 'eher' ('Es war, als hätte jemand...') und 'leicht' ('Süßlich, gärig...')."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Leitung gurgelte, spuckte, dann kam ein rostbrauner Strahl...",
+          "Sie stellte die Tasche ab und ließ die Haustür offen..."
+        ],
+        "suggestions": [
+          "Ausgezeichnet gelöst. Alle Handlungen sind sauber nacheinander geschaltet, es gibt keine erzwungenen Gleichzeitigkeiten durch 'während' oder 'indem'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Tür war nicht abgeschlossen."],
+        "suggestions": [
+          "Der gesamte Text ist stark aktiv formuliert. Das einzige Zustandspassiv ('war nicht abgeschlossen') ist hier völlig legitim, da es den vorgefundenen Zustand präzise beschreibt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Zwanzig Jahre.",
+          "Johanna drehte den Wasserhahn auf.",
+          "Unten, im Regal neben den Einmachgläsern, deren Deckel ihre Mutter immer mit Datum und Inhalt beschriftet hatte, stand ein einzelnes Glas ein Stück abseits."
+        ],
+        "suggestions": [
+          "Sehr guter Satzrhythmus, der kurze, prägnante Sätze mit etwas längeren, beschreibenden Sätzen abwechselt. Der Satz über die Einmachgläser hat einen längeren Einschub, bleibt aber gut lesbar."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher optimal."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das Telefon, vermutete sie.",
+          "...und merkte jetzt, dass es nicht darum ging.",
+          "Sie konnte die Schrift von hier aus nicht lesen. Sie wusste trotzdem, dass es die ihrer Mutter war."
+        ],
+        "suggestions": [
+          "Die Wahrnehmung ist größtenteils unmittelbar (Show, don't tell). Da wir tief in Johannas Perspektive sind, könnten die restlichen Filterwörter noch gestrichen werden: Statt 'Das Telefon, vermutete sie' -> 'Wahrscheinlich das Telefon.' Statt 'Sie konnte die Schrift nicht lesen. Sie wusste trotzdem...' -> 'Die Schrift war von hier aus nicht zu entziffern. Trotzdem – es war die ihrer Mutter.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "...neben den Einmachgläsern, deren Deckel ihre Mutter immer mit Datum und Inhalt beschriftet hatte, stand ein einzelnes Glas ein Stück abseits. Der Deckel hatte sich nach oben gewölbt."
+        ],
+        "suggestions": [
+          "Keine inhaltlichen Redundanzen. Lediglich im vorletzten Absatz wiederholt sich das Wort 'Deckel' kurz hintereinander. Vorschlag: '...neben den Einmachgläsern, die ihre Mutter immer auf dem Verschluss beschriftet hatte...'"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.015654
+}

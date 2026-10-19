@@ -1,0 +1,115 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__kimi-k3__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel klemmte, wie er es immer getan hatte, nur dass Marlen es verlernt hatte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist perfekt gewählt (in medias res). Er verknüpft sofort eine konkrete Handlung mit der Hintergrundgeschichte (20 Jahre Abwesenheit), ohne lange Vorrede über die Anreise."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "kaltem Ofen",
+          "kleinen Säckchen",
+          "ordentlich abgewaschen",
+          "am Kragen ausgeblickt [Tippfehler: ausgeblichen]"
+        ],
+        "suggestions": [
+          "Die Adjektive sind sehr präzise und atmosphärisch eingesetzt. Lediglich 'kleinen' bei 'kleinen Säckchen' und 'ordentlich' bei 'ordentlich abgewaschen' könnten ersatzlos gestrichen werden, da Säckchen per Definition klein sind und das Umdrehen der Tasse die Ordentlichkeit bereits zeigt.",
+          "Hinweis: 'ausgeblickt' im dritten Absatz ist vermutlich ein Tippfehler und sollte 'ausgeblichen' heißen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Zwanzig Jahre, dachte sie, und die Hand weiß es noch..."],
+        "suggestions": [
+          "Der Text enthält keinen gesprochenen Dialog, was hervorragend zur stillen, beklemmenden Atmosphäre passt. Der einzige direkte Gedanke ließe sich durch Kursivsetzung noch unmittelbarer gestalten ('Zwanzig Jahre, und die Hand weiß es noch...'), um das 'dachte sie' einzusparen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Trotzdem war er da.", "ob ihre Mutter wirklich allein hier gestorben war."],
+        "suggestions": [
+          "Der Text ist fast völlig frei von Füllwörtern. Jedes Wort sitzt. 'Wirklich' im letzten Satz ist hier kein Füllwort, sondern trägt die gesamte emotionale Wucht der Schlusspointe."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Draußen bewegte sich die Weide im Wind, und ihr Schatten kroch über die Wand..."
+        ],
+        "suggestions": [
+          "Ausgezeichnet. Es gibt keine künstlichen Gleichzeitigkeiten mit 'während' oder 'indem'. Die Handlungen und Wahrnehmungen folgen organisch aufeinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie blieb sitzen, bis es dunkel wurde. Der Lavendelduft wurde stärker, je kälter das Haus wurde..."
+        ],
+        "suggestions": [
+          "Es gibt kein echtes Passiv, aber im letzten Absatz häuft sich das Hilfsverb 'wurde' (dreimal in zwei Sätzen). Das schwächt das ansonsten sehr starke Ende etwas ab.",
+          "Vorschlag für das Ende: 'Sie blieb sitzen, bis die Dunkelheit hereinbrach. Mit der Kälte schwoll der Lavendelduft an, und Marlen fragte sich zum ersten Mal...'"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Flur roch nach Staub und kaltem Ofen, darunter, kaum wahrnehmbar, nach Lavendel – der Duft, den ihre Mutter in kleinen Säckchen zwischen die Wäsche gelegt hatte."
+        ],
+        "suggestions": [
+          "Die Satzlängen variieren sehr gut. Auf längere, beschreibende Sätze folgen kurze, prägnante Sätze ('Trotzdem war er da.'). Das erzeugt einen hervorragenden Lesefluss und Rhythmus."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden – für diese Szene absolut passend."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Im Spiegel gegenüber sah sie sich selbst: eine Frau Mitte vierzig...",
+          "Nur zwei Wörter waren noch zu erkennen: nicht vergessen.",
+          "...und Marlen fragte sich zum ersten Mal, ob ihre Mutter..."
+        ],
+        "suggestions": [
+          "Meistens wird die Wahrnehmung sehr direkt geschildert ('Der Flur roch', 'Ihre Schritte klangen'). An zwei Stellen könnte man noch unmittelbarer in Marlens Kopf bleiben:",
+          "Statt 'Im Spiegel gegenüber sah sie sich selbst: eine Frau...' -> 'Aus dem Spiegel gegenüber blickte ihr eine Frau Mitte vierzig entgegen...'",
+          "Statt '...fragte sich zum ersten Mal, ob ihre Mutter wirklich allein hier gestorben war.' -> 'War ihre Mutter hier wirklich allein gestorben?' (als erlebte Rede am Schluss noch eindringlicher)."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Zwanzig Jahre, dachte sie...",
+          "Dass er sich zwanzig Jahre gehalten hatte...",
+          "Ihre Schritte auf den Dielen klangen fremd, zu laut, wie die eines Eindringlings."
+        ],
+        "suggestions": [
+          "Die 'zwanzig Jahre' werden kurz nacheinander zweimal exakt gleich benannt. Beim zweiten Mal könnte man variieren: 'Dass er sich zwei Jahrzehnte gehalten hatte...'",
+          "Im Satz mit den Schritten ist 'fremd' und 'wie die eines Eindringlings' leicht doppelt gemoppelt. 'Ihre Schritte auf den Dielen klangen zu laut, wie die eines Eindringlings' ist noch prägnanter."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.017278
+}

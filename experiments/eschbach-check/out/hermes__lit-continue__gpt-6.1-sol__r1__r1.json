@@ -1,0 +1,99 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Geht auch so“, sagte sie."],
+        "suggestions": [
+          "Der Einstieg ist exzellent, da er den Leser sofort in die Handlung und die Atmosphäre wirft, ohne unnötige Exposition."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["feine Tropfen", "deutlich zu hören"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und passend. 'Deutlich zu hören' könnte durch ein stärkeres Verb ersetzt werden, z. B.: 'Das Einrasten hallte über dem Wasser.'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte sie", "fragte sie"],
+        "suggestions": [
+          "Die Kennzeichnungen sind unaufdringlich. In einigen Fällen könnten sie komplett gestrichen werden, wenn der Sprecherwechsel durch den Kontext klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vielleicht", "noch"],
+        "suggestions": [
+          "Der Text ist sehr sauber. 'Vielleicht' unterstreicht hier die Unsicherheit, daher ist es funktional."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie richtete sich auf. Beim Festziehen hatte es ihr in den Rücken gestochen..."
+        ],
+        "suggestions": [
+          "Keine übermäßige Verwendung von 'während'. Die Handlungen sind logisch nacheinander oder kausal verknüpft."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Auf der Scheibe hatte sich innen Feuchtigkeit gesammelt."],
+        "suggestions": [
+          "Der Text ist sehr aktiv formuliert. Es gibt keine unnötigen Passivkonstruktionen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie kannte diesen Ton noch, vom Küchentisch, wenn Henning nach einer Note gefragt hatte und Jonas bereits wusste, welche Frage danach kam."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind abwechslungsreich und unterstützen den Rhythmus der Szene. Keine Verschachtelungen, die den Lesefluss stören."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ich muss rüber.“ / „Das sehe ich.“"],
+        "suggestions": [
+          "Die Dialoge sind prägnant und transportieren viel Subtext. Sehr gut gestrafft."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Jonas sah hinauf zum Seil.", "Er wusste den Weg."],
+        "suggestions": [
+          "Keine 'er sah, dass'-Konstruktionen. Die Wahrnehmung ist direkt und unmittelbar."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas sah hinauf...",
+          "Jonas zog den Griff...",
+          "Jonas sah an sich herunter."
+        ],
+        "suggestions": [
+          "Die Namenswiederholungen sind akzeptabel, da sie den Fokus auf die Figur legen. Gelegentlich könnte 'Jonas' durch 'er' ersetzt werden, um den Lesefluss noch flüssiger zu gestalten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

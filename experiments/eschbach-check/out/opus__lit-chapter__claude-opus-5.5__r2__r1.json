@@ -1,0 +1,148 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__claude-opus-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur noch glaubte.“ Der erste Satz setzt Atmosphäre, Figur und Ort zugleich.",
+          "„Sie ging in das kleine Steuerhaus, drehte den Heizlüfter an und schenkte sich Kaffee aus der Thermoskanne ein.“ Die Routine-Passage vor Kahles Ankunft verzögert den Einstieg leicht."
+        ],
+        "suggestions": [
+          "Der Einstieg ist stark und sollte bleiben. Der zweite Absatz ließe sich straffen, etwa auf den Becher mit dem Sprung und den Fahrtenbuch-Eintrag. Diese Details tragen Figur und Motiv, das Anschalten des Heizlüfters nicht.",
+          "Alternativ könnte die Szene direkt mit dem Brummen des Milchwagens beginnen. Nebel und Uhrzeit ließen sich dann nachreichen. Die jetzige ruhige Exposition passt allerdings zum Grundton des Textes."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„das Schleifen war deutlich zu hören, ein dünnes, kratziges Geräusch“: „deutlich“ ist entbehrlich, weil das Geräusch präzise beschrieben wird.",
+          "„Er lächelte unsicher“: Das Adverb benennt das Gefühl, statt es zu zeigen.",
+          "„Er lachte kurz“ / „kaum spürbar zuerst“ / „in langsamen Fahnen“",
+          "„das kleine Steuerhaus“: „klein“ fügt wenig hinzu."
+        ],
+        "suggestions": [
+          "„deutlich“ streichen: „und das Schleifen war zu hören, ein dünnes, kratziges Geräusch.“",
+          "„Er lächelte unsicher“ durch eine Geste ersetzen, z. B. „Er lächelte und sah dabei wieder aufs Seil.“",
+          "„kleine“ bei „Steuerhaus“ streichen. Im Übrigen sind die Adjektive meist präzise und bildstark gewählt („nass und schwarz“, „zwei blasse Flecken“) und sollten bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Die in Dannenberg sagen, das Amt will wieder prüfen“, sagte er. Nur zwei Personen sind anwesend, der Sprecher ist eindeutig.",
+          "„Die Bremse“, sagte Ilse. Hier ist die Kennzeichnung beim Sprecherwechsel nach einer Beschreibungspassage sinnvoll.",
+          "„Danke“, sagte sie, und dann, nach einer Pause, …"
+        ],
+        "suggestions": [
+          "Bei Kahles Satz über Dannenberg das „sagte er“ streichen. Er ist gerade ausgestiegen und zu ihr getreten, der Sprecher ist damit klar.",
+          "Die übrigen Dialoge kommen vorbildlich ohne Inquit-Formeln aus (Moin-Wechsel, Bremsen-Dialog). Das sollte so bleiben."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„nach einer Pause, in der sie offenbar überlegte, ob noch etwas zu sagen war“",
+          "„wo von irgendwoher, noch unsichtbar, ein Motor zu hören war“",
+          "„schob das Rad ein Stück vor und zurück“",
+          "„Drei an diesem Morgen, das war nicht wenig für November.“"
+        ],
+        "suggestions": [
+          "„offenbar“ streichen oder die Pause zeigen: „„Danke“, sagte sie. Sie zögerte. „Ist ja voll gruselig heute.““",
+          "„irgendwoher“ ist hier funktional, weil der Nebel die Richtung verschluckt, und kann bleiben.",
+          "Positiv: Der Text arbeitet mit präzisen Angaben (Sechs Uhr vierzig, zwanzig Meter, unter fünfzig Meter Sicht, zweimal an der Schraube) und meidet vage Mengenwörter weitgehend."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Während der Überfahrt hielt er sich mit beiden Händen am Geländer fest“",
+          "„und als die Rampe kam, war sie die Erste, die ging“",
+          "Häufung von „als“-Vergleichen: „als führte es nirgendwohin“, „als hätte sie einen Witz gemacht“, „als täte er es“, „als wollte es auch hinüber“, „als wollte er sich verabschieden“"
+        ],
+        "suggestions": [
+          "Echte Gleichzeitigkeitskonstruktionen sind selten und gut gesetzt. Auffälliger ist die Häufung des Musters „als + Konjunktiv“: fünf Vergleiche nach demselben Bauplan. Ein oder zwei davon streichen oder anders bauen.",
+          "Beispiel: „Das Treibholz schwamm neben dem Rumpf mit. Es wollte wohl auch hinüber.“ Oder den Vergleich ganz streichen: „Er nickte und sah aufs Wasser. Ein Stück Treibholz schwamm neben dem Rumpf mit.“",
+          "„Während der Überfahrt“ ließe sich ersetzen durch „Die ganze Überfahrt hielt er sich … fest“. Das entspricht der Formulierung beim Mädchen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„und das Schleifen war deutlich zu hören“ (passivähnliche Konstruktion mit „sein + zu“)",
+          "„wo von irgendwoher, noch unsichtbar, ein Motor zu hören war“"
+        ],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert. Die „war zu hören“-Konstruktionen könnten aktiv werden: „und das Rad schleifte, ein dünnes, kratziges Geräusch“ bzw. „wo irgendwo im Grau ein Motor brummte“.",
+          "Beim Schlusssatz ist die unpersönliche Konstruktion vertretbar, weil sie das Unbestimmte und Kommende betont."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Draußen hatte der Nebel angefangen, sich zu bewegen, nicht aufzulösen, nur zu wandern, in langsamen Fahnen, die über das Wasser zogen und das Seil mal zeigten und mal verschluckten.“",
+          "„Sie zog es heraus, und das Display leuchtete in dem grauen Licht so hell, dass sie die Augen zusammenkniff.“ / „Darunter das kleine Bild, das er selbst eingestellt hatte, als er im Sommer hier gewesen war, er mit Sonnenbrille vor einem Himmel, der nicht nach Elbe aussah.“",
+          "„Die Fähre setzte sich in Bewegung, kaum spürbar zuerst, dann mit diesem leisen Zug, den sie in den Fußsohlen hatte, bevor sie ihn sah.“ Hier ist der Bezug von „ihn sah“ unklar, denn einen Zug sieht man nicht."
+        ],
+        "suggestions": [
+          "Der Wechsel zwischen langen, fließenden Sätzen und sehr kurzen („Dann wartete sie.“, „Dann hörte es auf.“) erzeugt einen bewussten Rhythmus. Er sollte erhalten bleiben.",
+          "Den Satz mit dem Profilbild teilen: „Darunter das Bild, das er im Sommer selbst eingestellt hatte. Er mit Sonnenbrille vor einem Himmel, der nicht nach Elbe aussah.“",
+          "Den Fähren-Satz klären: „… dann mit diesem leisen Zug, den sie in den Fußsohlen spürte, bevor sie die Bewegung am Ufer sah.“ Oder den Nebensatz kürzen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Moin, Ilse.“ / „Moin.“ / „Siehst ja gar nichts heute.“ / „Muss ich auch nicht.“: knapp, figurentypisch, mit Subtext",
+          "„Einmal fragte er, wie tief die Elbe hier sei. Sie sagte es ihm. Er fragte, ob sie das jeden Tag mache. Sie sagte ja.“: gelungene Raffung durch indirekte Rede"
+        ],
+        "suggestions": [
+          "Die Dialoge sind vorbildlich kurz und tragen Charakterisierung und Subtext (Amt, Jonas als Leerstelle). Es besteht kein Kürzungsbedarf.",
+          "Allenfalls „„Ich sag’s ja nur.“ / „Ich weiß.““ ließe sich prüfen. Der Austausch zeigt aber die Vertrautheit zwischen Ilse und Kahle und sollte bleiben."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„und hörte zu, wie die Elbe am Ponton entlangschob“",
+          "„Sie hörte ihn, bevor sie ihn sah“",
+          "„Ilse hielt es in der Hand und sah zu, wie sein Name aufleuchtete und wieder aufleuchtete.“",
+          "„Sie dachte an nichts Bestimmtes. Sie dachte an die Bremse von dem Mädchen …“",
+          "„in der sie offenbar überlegte, ob noch etwas zu sagen war“"
+        ],
+        "suggestions": [
+          "Den Eröffnungsabsatz direkter fassen: „Sie stand auf der Rampe, die Hände in den Taschen. Die Elbe schob am Ponton entlang, gleichmäßig, ohne Eile.“",
+          "„Sie hörte ihn, bevor sie ihn sah“ ist funktional, weil der Nebel die Wahrnehmung thematisiert, und kann bleiben.",
+          "„sah zu, wie sein Name aufleuchtete“ und „Sie dachte an …“ sind hier bewusst gesetzt. Gerade das distanzierte Zusehen und Ausweichen ins Belanglose zeigt Ilses Verdrängung. Das sollte bleiben. Die Mädchen-Passage dagegen direkter zeigen (siehe Füllwörter)."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Das Mädchen“ als Satzanfang bzw. Subjekt fünfmal in kurzer Folge: „Das Mädchen nahm …“, „Das Mädchen sah …“, „Das Mädchen zuckte …“, „sah das Mädchen sie richtig an“, „Das Mädchen drehte …“",
+          "Häufiges „sah“: „sah auf das Seil“, „sah aufs Wasser, wo nichts zu sehen war“, „sah auf das Rad, dann auf Ilse“, „Ilse sah ihn an“, „sah zu, wie“, „sah hinaus“",
+          "Bewusste Wiederholungen: „so wie er seit Jahren auf die Rampe fuhr“, „Sie schrieb ihn ins Buch“, „aufleuchtete und wieder aufleuchtete“, „verabschieden, wie man sich … verabschiedet“"
+        ],
+        "suggestions": [
+          "In der Bremsen-Szene „Das Mädchen“ teilweise durch „sie“ ersetzen oder Sätze ohne Subjektnennung bauen. Ilses Unsicherheit beim Namen (Merle oder Mareike) könnte man aufgreifen: „Merle oder Mareike zuckte mit den Schultern.“",
+          "Einzelne „sah“-Verben variieren oder streichen: „Er nickte. Auf dem Wasser nichts außer einem Stück Treibholz …“",
+          "Die motivischen Wiederholungen (Fahrtenbuch, Kahle zu weit links, Nebel) sind bewusst strukturierend und sollten bleiben. Sie tragen die Ringkomposition des Textes."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.141956
+}

@@ -1,0 +1,155 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__claude-haiku-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Nebel lag so dicht auf dem Wasser, dass Ilse Brandt das andere Ufer nicht sehen konnte.“",
+          "„Sie schob sie ein Stück zur Seite, wie jeden Morgen, und sah dann auf die Uhr.“"
+        ],
+        "suggestions": [
+          "Der erste Satz etabliert sofort Sichtbehinderung, Schauplatz und Hauptfigur. Diesen atmosphärischen Einstieg beibehalten.",
+          "Die Vorbereitung vor Kolbs Ankunft ließe sich um das Verschieben der Blechdose kürzen. Falls Ilses Routine entscheidend ist, genügt dafür bereits der Hinweis auf ihre einundvierzig Dienstjahre.",
+          "Nicht zwingend bis zum Telefonanruf vorspringen: Die vorherige Alltagsruhe schafft einen wirksamen Kontrast zu Ilses späterer Verweigerung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„eine junge Frau mit einem roten Helm und einem Rucksack, der ihr bis zu den Kniekehlen reichte“",
+          "„Die Fähre löste sich vom Anleger, langsam, mit diesem schweren Ruck“",
+          "„schaute kurz darauf und steckte es wieder weg“"
+        ],
+        "suggestions": [
+          "Den roten Helm beibehalten: Er dient später als knappes Wiedererkennungsmerkmal.",
+          "„kurz“ beim Blick aufs Handy und bei Ilses Überlegung zum fremden Mann probeweise streichen; die rasche Handlungsfolge vermittelt die Kürze bereits.",
+          "Bei „langsam“ und „schweren Ruck“ prüfen, ob beide Angaben für den gewünschten Bewegungsablauf nötig sind. Die körperliche Wirkung des Rucks ist durch die Knie bereits anschaulich."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Moin, Frau Brandt.“ / „Moin.“ / „Kalt heute.“ / „November.“",
+          "„Der Nebel hält sich“, sagte Kolb.",
+          "„Sie können sich hinsetzen“, sagte sie. „Die Bank ist trocken.“"
+        ],
+        "suggestions": [
+          "Die weitgehend unmarkierten kurzen Wechsel beibehalten: Sprecher und Ton sind klar.",
+          "„sagte Kolb“ ist nach dem erzählenden Einschub zur Orientierung sinnvoll.",
+          "Bei „Sie können sich hinsetzen“ kann „sagte sie“ entfallen, weil Ilse unmittelbar zuvor als handelnde Figur genannt wird."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„bevor sie ihn richtig sehen konnte“",
+          "„Ein wenig Strömung von oben, nichts Ungewöhnliches.“",
+          "„Ja, schon. Ich meine nur, wegen dem Nebel.“",
+          "„Nach einer Weile wandte er sich wieder dem Fluss zu.“"
+        ],
+        "suggestions": [
+          "„richtig sehen konnte“ durch „erkennen konnte“ ersetzen, falls die Wiederholung zu „Sie erkannte ihn“ zugleich umgebaut wird.",
+          "Die unbestimmte Wartezeit bei Kolb entweder streichen oder durch eine beobachtbare Handlung konkretisieren.",
+          "Dialogpartikeln wie „Ja, schon“ und „nur“ nicht pauschal entfernen: Sie vermitteln die Unsicherheit der jungen Frau.",
+          "„Ein wenig Strömung“ passt zur routinierten Einschätzung der Fährfrau und muss nicht künstlich quantifiziert werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Sie erkannte ihn an den Gummistiefeln, bevor sie ihn richtig sehen konnte, dann tauchte er aus dem Dunst auf“",
+          "„Kolb sagte etwas über den Dackel, die Frau mit dem Helm tippte auf ihrem Handy herum, der Mann am Heck rührte sich nicht.“",
+          "„als hätte sie einen Witz gemacht“",
+          "„als hätte er auf dieses Zeichen gewartet“"
+        ],
+        "suggestions": [
+          "Es gibt keine auffällige Häufung ausdrücklicher Gleichzeitigkeitssignale. Die parallele Darstellung der drei Fahrgäste ergibt ein übersichtliches Tableau.",
+          "Kolbs Auftauchen klarer staffeln: „Zuerst sah sie die Gummistiefel. Kolb. Dann tauchte er aus dem Dunst auf …“",
+          "Die „als hätte“-Formulierungen sind Vergleiche, keine zeitlichen Verknüpfungen. Ihre Häufung eher unter Wiederholungen prüfen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Die Rampe am Anleger war schon gesenkt.“",
+          "„Sie schaute auf den Pegel, der an der Pfeilerseite angebracht war.“"
+        ],
+        "suggestions": [
+          "Das Zustandspassiv bei der Rampe kann bleiben: Entscheidend ist ihre Position, nicht die Person, die sie gesenkt hat.",
+          "Den statischen Relativsatz zum Pegel verkürzen: „Sie schaute auf den Pegel an der Pfeilerseite.“",
+          "Keine systematische Aktivierung nötig; der Text erzählt überwiegend mit handelnden Figuren und konkreten Verben."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Sie erkannte ihn an den Gummistiefeln, bevor sie ihn richtig sehen konnte, dann tauchte er aus dem Dunst auf, die Leine um die Faust gewickelt, der Hund zog nach vorn wie an einem Schlitten.“",
+          "„Es war Mittwoch, es war kurz nach halb acht, und er rief immer um diese Zeit an, wenn er im Auto saß oder auf dem Weg ins Büro war, mit dieser Stimme, die sich bemühte, ruhig zu klingen.“"
+        ],
+        "suggestions": [
+          "Den Satz über Kolbs Ankunft in zwei oder drei Wahrnehmungsschritte teilen. Besonders der ziehende Hund verträgt einen eigenen Satz.",
+          "Den Telefonabschnitt gliedern: „Es war Mittwoch, kurz nach halb acht. Er rief immer um diese Zeit an, wenn er im Auto saß oder auf dem Weg ins Büro war. Mit dieser Stimme, die sich bemühte, ruhig zu klingen.“",
+          "Nicht sämtliche längeren Sätze kürzen: Ihr ruhiger Fluss unterstützt die Atmosphäre. Vor allem dort teilen, wo mehrere Handlungsträger oder zusätzliche Erklärungsebenen zusammenkommen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Kalt heute.“ / „November.“",
+          "„Ist es hier sicher?“ / „Es ist eine Fähre.“",
+          "„Gehen Sie nicht ran?“ / „Nein.“"
+        ],
+        "suggestions": [
+          "Die knappen Dialoge beibehalten. Sie charakterisieren Ilse durch Ausweichen, Trockenheit und Verweigerung, ohne dies erklären zu müssen.",
+          "Kolbs längere Äußerung über den Kran nur dann straffen, wenn das Hindernis weder später relevant wird noch als gezielte Verunsicherung dienen soll.",
+          "Keine zusätzliche Erläuterung von Ilses Antworten einfügen; ihre Wirkung entsteht gerade durch die Kürze."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„hörte, wie das Schiff unter ihren Füßen zu arbeiten begann“",
+          "„Sie hörte, wie er nach einer Antwort suchte, und ließ ihn suchen.“",
+          "„Ilse fragte sich kurz, wohin er wollte, dann dachte sie, dass es sie nichts anging.“",
+          "„Ilse ließ die Hand auf dem Steuer liegen und spürte, wie das Schiff unter ihr in die Kurve ging.“"
+        ],
+        "suggestions": [
+          "Den Motorstart unmittelbarer zeigen: „Sie drückte den Knopf für die Motoren. Das Deck vibrierte, das Wasser gurgelte gegen den Rumpf.“ Die folgenden Sinneseindrücke machen den Wahrnehmungsfilter überflüssig.",
+          "Beim Nachdenken direkter in Ilses Perspektive wechseln: „Wohin wollte er? Es ging sie nichts an.“",
+          "Das hörbare Suchen nach einer Antwort konkretisieren, sofern ein Laut gemeint ist; andernfalls genügt: „Kolb suchte nach einer Antwort. Sie ließ ihn suchen.“",
+          "Beim Einlenken der Fähre direkt formulieren: „Ilse ließ die Hand auf dem Steuer liegen. Das Schiff ging in die Kurve.“ Körperliche Wahrnehmung dort erhalten, wo sie wie beim Ruck durch die Knie zusätzliche Wirkung hat."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„seit einundvierzig Jahren jeden Morgen“ / „wie jeden Morgen“ / „seit Jahrzehnten“",
+          "„Kolb lachte, als hätte sie einen Witz gemacht“ / „als erwarte er etwas von ihr“ / „als hätte es es sich anders überlegt“ / „als hätte er auf dieses Zeichen gewartet“",
+          "„Die Frau setzte sich, zog das Handy aus der Jackentasche, schaute kurz darauf und steckte es wieder weg.“ / „die Frau mit dem Helm tippte auf ihrem Handy herum“",
+          "„Sie wusste auch so, wer es war. Es war Mittwoch, es war kurz nach halb acht“"
+        ],
+        "suggestions": [
+          "Die Hinweise auf Ilses langjährige Routine ausdünnen. Die präzisen einundvierzig Jahre und der körperlich erinnerte Ruck tragen mehr als ein weiteres „wie jeden Morgen“.",
+          "Ein oder zwei der hypothetischen Vergleiche streichen oder unmittelbar darstellen, damit „als hätte“ nicht zum wiederkehrenden Beschreibungsmuster wird.",
+          "Den ersten Handygriff der jungen Frau auf seine Funktion prüfen. Falls er nur beiläufige Beschäftigung zeigt, kann die spätere Erwähnung genügen.",
+          "Die wiederholten Telefonimpulse und Ilses konsequentes Nichtreagieren beibehalten: Hier erzeugt die Wiederholung Spannung und ist keine bloße Doppelung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.028466
+}

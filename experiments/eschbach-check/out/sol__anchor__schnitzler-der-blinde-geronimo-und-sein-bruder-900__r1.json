@@ -1,0 +1,146 @@
+{
+  "who": "sol",
+  "item": "anchor__schnitzler-der-blinde-geronimo-und-sein-bruder-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der blinde Geronimo stand von der Bank auf und nahm die Gitarre zur Hand, die auf dem Tisch neben dem Weinglase bereit gelegen war.",
+          "Für die Reisenden, welche von Italien her nach Tirol wollten, war es die letzte Rast vor der Höhe."
+        ],
+        "suggestions": [
+          "Der Einstieg beginnt bereits mit einer Handlung und etabliert Geronimos Blindheit sowie die Gitarre. Ein deutlich späterer Beginn ist nicht zwingend besser.",
+          "Den ersten Satz entlasten: „Der blinde Geronimo stand auf und nahm die Gitarre vom Tisch.“",
+          "Die anschließenden Erläuterungen zu Straße, Wirtshaus und Reisenden kürzen oder zwischen spätere Handlungen verteilen, damit die begonnene Szene schneller voranschreitet."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "gegen den naßkalten Wind geschützt zu sein, der über den feuchtschmutzigen Boden durch die offenen Tore strich",
+          "mit einer ungleichmäßigen, manchmal plötzlich aufkreischenden Stimme",
+          "mit einem raschen, wie irren Blick"
+        ],
+        "suggestions": [
+          "Atmosphärisch tragende Wörter wie „naßkalten“ nicht pauschal streichen: Sie machen die Lebensumstände körperlich erfahrbar.",
+          "Häufungen prüfen und Bewegung stärker ins Verb verlegen: „Seine Stimme schwankte und schlug manchmal in ein Kreischen um.“",
+          "Bei „mit einem raschen, wie irren Blick“ entscheiden, welche Eigenschaft entscheidend ist, oder die Augenbewegung konkret beschreiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "»Bring mir Wein,« sagte Geronimo, und Carlo ging, gehorsam wie immer.",
+          "Der Blinde schwenkte es dem jungen Paare zu und sagte: »Ihr Wohl, meine Herrschaften!«",
+          "»Deutsche Familie,« sagte Geronimo leise zu Carlo."
+        ],
+        "suggestions": [
+          "Die Kennzeichnungen sind überwiegend knapp und klären bei mehreren Anwesenden den Sprecher.",
+          "Nach einer eindeutigen Figurenhandlung kann „und sagte“ entfallen: „Der Blinde schwenkte das Glas dem jungen Paar zu. »Ihr Wohl, meine Herrschaften!«“",
+          "„Leise zu Carlo“ beibehalten, wenn Lautstärke und Adressat für die Situation wichtig sind."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "ziemlich eben",
+          "hier so gut wie zu Hause",
+          "mit einer ziemlich lärmenden Gesellschaft",
+          "der sich ein bißchen aufs Kurieren verstand"
+        ],
+        "suggestions": [
+          "„Ziemlich eben“ zu „eben“ und „ziemlich lärmenden“ zu „lärmenden“ straffen, sofern keine bewusste Abstufung gemeint ist.",
+          "Ungefähre Angaben nicht automatisch tilgen: „ein bißchen aufs Kurieren“ begrenzt die Kompetenz des Schmieds und hat eine erzählerische Funktion.",
+          "Wiederkehrende Abschwächungen wie „beinahe“ und „manchmal“ darauf prüfen, ob sie tatsächlich Unsicherheit oder Häufigkeit vermitteln."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Während er die Stufen aufwärts schritt, begann Geronimo wieder zu singen.",
+          "und als er den Schrei hörte, dachte er gleich, daß er den kleinen Bruder verletzt haben mußte"
+        ],
+        "suggestions": [
+          "Es gibt keine auffällige Überhäufung von Gleichzeitigkeitssignalen. Das Treppensteigen und Singen können plausibel parallel stattfinden.",
+          "Für einen härteren Rhythmus beim Unfall Wahrnehmung und Erkenntnis auf zwei Sätze verteilen: „Dann hörte er den Schrei. Er musste den kleinen Bruder getroffen haben.“",
+          "Vergleichskonstruktionen wie „als schämten sich seine Augen“ nicht als zeitliche Gleichzeitigkeit behandeln."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "des Lichts, das ihnen gewährt war",
+          "Anfangs versuchte man ihm einzureden, daß er später geheilt werden könnte"
+        ],
+        "suggestions": [
+          "Der Text erzählt überwiegend aktiv; eine umfassende Überarbeitung ist hier nicht nötig.",
+          "„Geheilt werden könnte“ kann bleiben, weil Geronimos erhoffte Heilung und nicht die handelnde Person im Mittelpunkt steht.",
+          "Die poetische Passivform „das ihnen gewährt war“ nur bei gewünschter sprachlicher Vereinfachung ersetzen, etwa durch „das sie empfingen“."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Sein Bruder folgte ihm, und beide stellten sich gleich neben der Treppe auf, den Rücken zur Wand gekehrt, um gegen den naßkalten Wind geschützt zu sein, der über den feuchtschmutzigen Boden durch die offenen Tore strich.",
+          "Noch heute klang ihm der grelle Kinderschrei ins Ohr, mit dem der kleine Geronimo auf den Rasen hingesunken war, noch heute sah er die Sonne auf der weißen Gartenmauer spielen und kringeln und hörte die Sonntagsglocken wieder, die gerade in jenem Augenblick getönt hatten."
+        ],
+        "suggestions": [
+          "Handlung und Wetterbeschreibung trennen: „Sein Bruder folgte ihm. Neben der Treppe stellten sie sich mit dem Rücken zur Wand. Durch die offenen Tore strich ein naßkalter Wind.“",
+          "Den Erinnerungssatz nach dem Kinderschrei teilen, damit die einzelnen Sinneseindrücke mehr Gewicht erhalten.",
+          "Nicht alle langen Sätze verkürzen: Gerade in der Erinnerung trägt der fließende Satzbau zur emotionalen Überwältigung bei. Vorrangig dort teilen, wo mehrere Einschübe das Verständnis erschweren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["»Bring mir Wein,«", "»Ihr Wohl, meine Herrschaften!«", "»Deutsche Familie,«"],
+        "suggestions": [
+          "Keine Kürzung nötig: Die Dialoge bestehen aus kurzen, situationsbezogenen Äußerungen.",
+          "Die knappen Wortwechsel erhalten; sie charakterisieren das Verhältnis der Brüder und Geronimos Kontakt zu den Reisenden ohne erklärende Reden."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Jetzt vernahm er ganz nahe zwei flüsternde Stimmen, die eines jungen Mannes und einer jungen Frau.",
+          "Er dachte, wie oft diese beiden schon den gleichen Weg hin und her gegangen sein mochten",
+          "Er mußte, wie immer beim Anblick solcher Kinder, daran denken, daß Geronimo gerade so alt gewesen war"
+        ],
+        "suggestions": [
+          "Geronimos Höreindruck unmittelbarer formulieren: „Ganz nahe flüsterten ein junger Mann und eine junge Frau.“",
+          "Den Gedanken ohne Einleitung wiedergeben: „Wie oft mochten diese beiden schon den gleichen Weg hin und her gegangen sein?“",
+          "Carlos Erinnerung direkter auslösen: „So alt war Geronimo gewesen, als das Unglück geschah.“",
+          "Wahrnehmungsverben dort erhalten, wo sie Geronimos besondere Orientierung über das Gehör oder den Wechsel der Perspektivfigur verdeutlichen."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Der ältere Bruder stand neben ihm, beinahe regungslos.",
+          "Aber gleich, beinahe ängstlich, wandte er den Blick wieder fort",
+          "Denn er erinnerte sich jenes Tages auch heute noch, nach beinahe zwanzig Jahren, mit vollkommener Deutlichkeit.",
+          "Noch heute klang ihm der grelle Kinderschrei ins Ohr"
+        ],
+        "suggestions": [
+          "Den erklärenden Satz über die deutliche Erinnerung kürzen oder streichen: Die unmittelbar folgenden Geräusche und Bilder zeigen ihre Lebendigkeit bereits.",
+          "Die nahe Wiederholung von „beinahe“ reduzieren, etwa durch „Der ältere Bruder stand regungslos neben ihm“.",
+          "Die Wiederholung „noch heute“ als bewusstes rhythmisches Mittel behandeln und gegebenenfalls erhalten; sie vermittelt Carlos anhaltende Schuld.",
+          "Wiederkehrende Hinweise auf Blindheit nicht pauschal entfernen, aber zwischen notwendiger Figurenbezeichnung und erneuter Erklärung desselben Zustands unterscheiden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02597
+}

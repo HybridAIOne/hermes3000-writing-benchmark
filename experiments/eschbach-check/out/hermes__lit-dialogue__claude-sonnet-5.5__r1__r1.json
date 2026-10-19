@@ -1,0 +1,83 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-sonnet-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein Bahnhofscafé, draußen Regen."],
+        "suggestions": [
+          "Der Einstieg ist sehr effektiv und atmosphärisch dicht, keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["längst umgerührt", "schnell", "langsam"],
+        "suggestions": [
+          "'längst umgerührt' könnte durch einen stärkeren Zustand ersetzt werden, z.B. 'Der Kaffee ist längst kalt.'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Redeeinleitungen verwendet, was den Dialog sehr dynamisch und modern macht."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["eigentlich"],
+        "suggestions": [
+          "'eigentlich' streichen, um die Aussage zu schärfen: 'Ich wollte nicht lange bleiben.'"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als Martin hereinkommt"],
+        "suggestions": ["Die Verwendung ist sparsam und korrekt."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Passivkonstruktionen gefunden, sehr aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind exzellent auf das Sprechtempo abgestimmt."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind knackig und auf den Punkt."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine indirekte Wahrnehmung vorhanden, sehr direkt und szenisch geschrieben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Früher... Früher", "Nicht alles... Nicht alles"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier stilistisch beabsichtigt und verstärken die emotionale Spannung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

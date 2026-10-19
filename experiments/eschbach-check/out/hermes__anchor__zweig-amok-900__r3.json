@@ -1,0 +1,97 @@
+{
+  "who": "hermes",
+  "item": "anchor__zweig-amok-900",
+  "run": 3,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Im März des Jahres 1912 ereignete sich im Hafen von Neapel...",
+          "Obzwar Passagier der »Oceania«, war es mir ebensowenig wie den andern möglich..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr reflexiv und distanziert. Beginnen Sie direkter in der Handlung, um den Leser sofort in das Geschehen zu ziehen, statt den Unfall nur anzukündigen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "kleiner, gepreßter, rechteckiger Winkel",
+          "trüben Blick",
+          "kreisrunden Glasscheibe",
+          "süßlichen weichen Wind"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist sehr hoch. Viele Adjektive sind redundant. Streichen Sie die Adjektive und wählen Sie stattdessen stärkere Substantive oder Verben, um die Bilder im Kopf des Lesers zu schärfen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Da kaum Dialoge vorhanden sind, ist dieser Punkt unkritisch."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["irgendwie", "wohl", "schon", "vielleicht"],
+        "suggestions": [
+          "Wörter wie 'irgendwie' schwächen die Aussagekraft. Ersetzen Sie diese durch präzise Beschreibungen des Gefühls oder streichen Sie sie ersatzlos."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["während des Kohlenladens", "als ich... bestellen wollte"],
+        "suggestions": [
+          "Vermeiden Sie 'während' und 'als'. Beschreiben Sie Handlungen nacheinander, um die Dynamik zu erhöhen und den Text straffer zu gestalten."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["war... ausverkauft", "wurde... abgestellt"],
+        "suggestions": [
+          "Das Passiv wird hier stilistisch bewusst eingesetzt. Dennoch könnten einige Stellen durch aktive Formulierungen lebendiger wirken."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Der gesamte letzte Absatz besteht aus sehr langen, verschachtelten Sätzen mit vielen Kommata."
+        ],
+        "suggestions": [
+          "Teilen Sie die langen Sätze in kürzere Einheiten auf, um die Lesbarkeit und den Rhythmus zu verbessern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher kein Korrekturbedarf."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["meine ich persönlich, daß...", "ich hörte weder...", "ich sah..."],
+        "suggestions": [
+          "Streichen Sie Filterwörter wie 'ich sah', 'ich hörte', 'ich meinte'. Beschreiben Sie das Wahrgenommene direkt, um die Distanz zum Leser zu verringern."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["unablässig", "unaufhörlich", "rastlos"],
+        "suggestions": [
+          "Vermeiden Sie Wortwiederholungen wie 'unablässig'. Suchen Sie nach Synonymen oder streichen Sie die Wörter, wenn der Kontext die Häufigkeit bereits impliziert."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

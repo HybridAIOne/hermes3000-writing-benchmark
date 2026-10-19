@@ -1,0 +1,141 @@
+{
+  "who": "sol",
+  "item": "anchor__zweig-amok-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Im März des Jahres 1912 ereignete sich im Hafen von Neapel bei dem Ausladen eines großen Überseedampfers ein merkwürdiger Unfall",
+          "Als ich in der Schiffsagentur von Kalkutta einen Platz für die Rückreise nach Europa auf der »Oceania« bestellen wollte, zuckte der Clerk bedauernd die Schultern."
+        ],
+        "suggestions": [
+          "Den Unfall als spannungserzeugenden Rahmen beibehalten, aber die anschließende Erklärung über die abwesenden Passagiere kürzen.",
+          "Die Buchung und die Wartezeit auf das Telegramm zusammenfassen. Für einen unmittelbareren Einstieg könnte die Rückblende erst mit der Ankunft in der bedrückenden Kabine beginnen; die knappe Verfügbarkeit ließe sich nachtragen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "umfangreiche, aber sehr phantastisch ausgeschmückte Berichte",
+          "ein kleiner, gepreßter, rechteckiger Winkel",
+          "Die stockende, verdickte Luft roch nach Öl und Moder",
+          "wie eine toll gewordene stählerne Fledermaus"
+        ],
+        "suggestions": [
+          "Verstärker wie „sehr“ streichen und prüfen, ob „phantastisch ausgeschmückte Berichte“ bereits genügt.",
+          "Bei der Kabine die räumliche Enge mit weniger Attributen vermitteln, etwa: „ein enger Verschlag neben der Dampfmaschine“.",
+          "Die atmosphärisch wirksamen Bilder nicht pauschal reduzieren: Der Fledermausvergleich charakterisiert die bedrängende Wahrnehmung des Erzählers."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er wisse noch nicht, ob es möglich sei, mir eine Kabine zu sichern",
+          "Am nächsten Tage teilte er mir erfreulicherweise mit, er könne mir noch einen Platz vormerken"
+        ],
+        "suggestions": [
+          "Die sparsame Sprecherkennzeichnung beibehalten. Der Clerk ist als Sprecher der indirekten Rede eindeutig erkennbar.",
+          "„Erfreulicherweise“ gegebenenfalls streichen: Die gute Nachricht ergibt sich bereits aus der zugesagten Passage."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Immerhin meine ich persönlich",
+          "erlaubt mir wohl",
+          "so zögerte ich nicht lange"
+        ],
+        "suggestions": [
+          "„Persönlich“ streichen, da „meine ich“ die subjektive Einschätzung bereits ausdrückt.",
+          "„Wohl“ nur behalten, wenn die zögernde Selbstrechtfertigung zur Erzählerstimme gehören soll.",
+          "Die Buchungsentscheidung direkter formulieren: „Ich wollte heim und nahm die Kabine.“"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "weil er sich zur Nachtzeit während des Kohlenladens und der Löschung der Fracht abspielte",
+          "Als ich in der Schiffsagentur von Kalkutta einen Platz für die Rückreise nach Europa auf der »Oceania« bestellen wollte"
+        ],
+        "suggestions": [
+          "Keine übermäßige Verwendung von Gleichzeitigkeitskonstruktionen; „während“ benennt hier einen sachlich relevanten Zusammenhang.",
+          "Den überladenen Rückblick chronologisch entflechten: „Nachts lud die Mannschaft Kohle und löschte die Fracht. Wir Passagiere waren an Land gegangen, um dem Lärm zu entgehen.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "die Zeitungen umfangreiche, aber sehr phantastisch ausgeschmückte Berichte brachten",
+          "einzig vom trüben Blick der kreisrunden Glasscheibe erhellt"
+        ],
+        "suggestions": [
+          "Der Text enthält keine auffällige Häufung von Vorgangspassiv; die überwiegend aktiven Formulierungen beibehalten.",
+          "Die elliptische, passivisch wirkende Wendung „einzig ... erhellt“ bei Bedarf aktivieren: „Nur durch das runde Bullauge fiel trübes Licht.“"
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Obzwar Passagier der »Oceania«, war es mir ebensowenig wie den andern möglich, Zeuge jenes seltsamen Vorfalles zu sein, weil er sich zur Nachtzeit während des Kohlenladens und der Löschung der Fracht abspielte, wir aber, um dem Lärm zu entgehen, alle an Land gegangen waren und dort in Kaffeehäusern oder Theatern die Zeit verbrachten.",
+          "Immerhin meine ich persönlich, daß manche Vermutungen, die ich damals nicht öffentlich äußerte, die wirkliche Aufklärung jener erregenden Szene in sich tragen, und die Ferne der Jahre erlaubt mir wohl das Vertrauen eines Gespräches zu nutzen, das jener seltsamen Episode unmittelbar vorausging."
+        ],
+        "suggestions": [
+          "Den ersten Beispielsatz in drei Einheiten teilen: Zugehörigkeit zu den Passagieren, nächtliche Ladearbeiten, Aufenthalt an Land.",
+          "Beim zweiten Beispiel die Vermutung und die Entscheidung zur Offenlegung voneinander trennen: „Damals schwieg ich über meine Vermutungen. Heute glaube ich, dass ein Gespräch unmittelbar vor dem Vorfall ihn erklären könnte.“",
+          "Einzelne lange Sätze als Merkmal der getragenen Erzählerstimme erhalten, aber besonders verschachtelte Passagen durch kurze Sätze entlasten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Er wisse noch nicht, ob es möglich sei, mir eine Kabine zu sichern, das Schiff wäre jetzt knapp vor dem Einbruch der Regenzeit immer schon von Australien her ausverkauft, er müsse erst das Telegramm von Singapore abwarten."
+        ],
+        "suggestions": [
+          "Es gibt keine langen direkten Dialoge; lediglich die zusammengefasste Auskunft des Clerks lässt sich straffen.",
+          "Für die Handlung genügt möglicherweise: „Vor Beginn der Regenzeit sei das Schiff meist ausgebucht; er müsse ein Telegramm aus Singapore abwarten.“"
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Immerhin meine ich persönlich, daß manche Vermutungen, die ich damals nicht öffentlich äußerte, die wirkliche Aufklärung jener erregenden Szene in sich tragen",
+          "Die stockende, verdickte Luft roch nach Öl und Moder"
+        ],
+        "suggestions": [
+          "Die umständliche Gedankenankündigung verkürzen: „Vielleicht erklären meine damaligen Vermutungen den Vorfall.“ Die Unsicherheit sollte dabei erhalten bleiben.",
+          "Die unmittelbare Sinnesdarstellung der Kabine beibehalten: Der Geruch wird bereits ohne vorgeschaltetes „ich bemerkte“ oder „ich roch“ vermittelt.",
+          "Nicht jede subjektive Einordnung streichen: Im rückblickenden Ich-Bericht kennzeichnet sie auch den Wissensstand des Erzählers."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "ein merkwürdiger Unfall",
+          "jenes seltsamen Vorfalles",
+          "jener erregenden Szene",
+          "jener seltsamen Episode",
+          "Der Clerk hatte mich richtig informiert. Das Schiff war überfüllt und die Kabine schlecht"
+        ],
+        "suggestions": [
+          "Die wiederholte Ankündigung des rätselhaften Geschehens reduzieren. Nach „merkwürdiger Unfall“ reichen neutrale Rückverweise wie „der Vorfall“.",
+          "„Der Clerk hatte mich richtig informiert“ streichen, wenn die anschließende Beschreibung seine Auskunft ohnehin bestätigt.",
+          "Die Warnung vor der schlechten Kabine und ihre spätere sinnliche Darstellung können beide bleiben: Die zweite Passage konkretisiert die erste, statt sie nur zu wiederholen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.023118
+}

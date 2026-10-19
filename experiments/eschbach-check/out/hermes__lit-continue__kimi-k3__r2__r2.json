@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__kimi-k3__r2",
+  "run": 2,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Der Motor läuft“, sagte sie."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen und wirft den Leser direkt in die Situation."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["leichtes Schwanken", "bräunlich und schnell"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und atmosphärisch eingesetzt. Keine Änderung notwendig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte sie", "fragte sie"],
+        "suggestions": [
+          "Einige Redeeinleitungen könnten durch Handlungsbeschreibungen ersetzt werden, um den Lesefluss zu glätten (z.B. statt 'sagte sie' einfach eine Handlung beschreiben)."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["vielleicht"],
+        "suggestions": ["Der Text ist sehr sauber und kommt nahezu ohne Füllwörter aus."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["während", "als"],
+        "suggestions": ["Die zeitlichen Abläufe sind klar und logisch strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["der für München gemacht war"],
+        "suggestions": [
+          "'der für München gemacht war' könnte aktiver formuliert werden, z.B. 'der für München taugte' oder 'den er in München trug'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Nicht weil sie sich gefreut hätte – die Freude war da, aber sie war vorsichtig mit ihr, wie mit einer Flamme bei Wind –, sondern weil es so gehörte."
+        ],
+        "suggestions": [
+          "Der Satz ist komplex, aber rhythmisch gut. Gelegentlich könnten solche Sätze für mehr Tempo in zwei Teile zerlegt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Wie lange bleibst du?“, fragte sie..."],
+        "suggestions": ["Die Dialoge sind prägnant und treiben die Charakterisierung voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ohne es zu wissen", "als fürchte er"],
+        "suggestions": [
+          "Die Wahrnehmung ist gut in die Handlung integriert. 'Ohne es zu wissen' könnte man durch eine körperliche Reaktion ersetzen, um das 'Show, don't tell' zu verstärken."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["rüber und wieder rüber"],
+        "suggestions": ["Wiederholungen werden hier stilistisch bewusst und effektiv eingesetzt."]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Zwei Männer, ein Tisch. Draußen regnet es."],
+        "suggestions": ["Der Einstieg ist sehr effektiv und setzt sofort den Ton. Beibehalten."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["langsam", "wirklich"],
+        "suggestions": [
+          "Die sparsame Verwendung ist sehr gut. Achte darauf, dass 'wirklich' nicht zur Gewohnheit wird."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["MARKUS:", "JONAS:"],
+        "suggestions": [
+          "Das Skript-Format ist für diese Art von Szene ideal, da keine Redeeinleitungen nötig sind."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["doch", "mal"],
+        "suggestions": [
+          "Die Füllwörter wirken hier authentisch und charakterisierend, nicht störend."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["(rührt in seiner Tasse)", "(lehnt sich zurück)"],
+        "suggestions": [
+          "Die Handlungen sind klar von den Dialogen getrennt, keine unnötigen 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Passivkonstruktionen gefunden. Sehr aktiv und direkt formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Kaffee hier war immer schlecht."],
+        "suggestions": [
+          "Die kurzen Sätze unterstreichen die Spannung perfekt. Keine Änderung nötig."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["MARKUS: Nein. Lass. (winkt ab) Ich hab nur gefragt."],
+        "suggestions": ["Die Dialoge sind prägnant und auf den Punkt. Sehr gut gestrafft."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine indirekte Wahrnehmung gefunden. Alles wird direkt gezeigt, nicht durch Filterwörter wie 'er sah, dass' abgeschwächt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Gewohnheit. Gewohnheit."],
+        "suggestions": [
+          "Die Wiederholungen sind hier ein bewusstes rhetorisches Mittel und sehr wirkungsvoll für die Stimmung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,83 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-opus-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Nebel lag so dicht auf dem Wasser..."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und setzt sofort den Ton. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["grau und schwer und gleichgültig", "viel zu dünne Jacke"],
+        "suggestions": [
+          "Die Adjektive sind wohlüberlegt und dienen der Atmosphäre, nicht der Dekoration. Beibehalten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Was?“ / „Licht“, sagte Ilse."],
+        "suggestions": ["Sehr ökonomischer Einsatz von Redeeinleitungen. Das Tempo bleibt hoch."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine nennenswerten Füllwörter gefunden."],
+        "suggestions": ["Der Text ist sehr präzise. Weiter so."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie wollte gerade das Tor... als aus dem Nebel ein Mann trat."],
+        "suggestions": ["Die Gleichzeitigkeit ist hier funktional und stört den Lesefluss nicht."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Sie prüfte das Seil...", "Sie nahm sie..."],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert, was die Handlung vorantreibt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Elbe war still an diesem Morgen, aber nicht ruhig."],
+        "suggestions": [
+          "Guter Rhythmus zwischen kurzen, prägnanten Sätzen und beschreibenden Abschnitten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Moin.“ / „Moin.“"],
+        "suggestions": ["Die Dialoge sind kurz und charakterisierend. Perfekt gestrafft."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie hörte ihn, bevor sie ihn sah."],
+        "suggestions": [
+          "Die Wahrnehmung ist direkt und sinnlich. Keine 'er dachte/er sah, dass'-Konstruktionen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["„Schön“, sagte Frau Wendt... „Schön, schön.“"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier stilistisch beabsichtigt (Charakterisierung der Frau Wendt)."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

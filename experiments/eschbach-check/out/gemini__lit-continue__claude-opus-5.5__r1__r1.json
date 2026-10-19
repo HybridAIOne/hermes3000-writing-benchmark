@@ -1,0 +1,112 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Der läuft noch“, sagte Ilse.", "„Man hört ihn bis zur Brücke.“"],
+        "suggestions": [
+          "Perfekter Einstieg 'in medias res'. Die Szene beginnt mitten im Gespräch und in der Handlung, ohne unnötiges Vorgeplänkel."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["glatte, ausgeschlafene Art", "mit ölverschmierten Unterarmen"],
+        "suggestions": [
+          "Die wenigen Adjektive sind sehr präzise gewählt und charakterisieren die Figuren treffend. Lediglich in 'Er tat es höflich, wie man einem Fremden im Zug Platz macht' könnte 'höflich' gestrichen werden, da der anschließende Vergleich genau dieses Bild bereits erzeugt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Du hättest anrufen können“, sagte sie.",
+          "„Ich kann hier warten“, sagte er.",
+          "„Lass den Koffer stehen“, sagte sie."
+        ],
+        "suggestions": [
+          "Die Redebegleitsätze sind wunderbar unauffällig ('sagte sie/er'). An zwei bis drei Stellen könnten sie sogar komplett entfallen, da durch die vorhergehende Handlung der Sprecher bereits eindeutig festgelegt ist (z.B. direkt nachdem Jonas auf seinen Koffer blickt, ist klar, dass er den nächsten Satz spricht)."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "die er sich irgendwann zwischen Studium und erstem Firmenwagen zugelegt hatte",
+          "nur dass bei ihm alles ein wenig straffer saß"
+        ],
+        "suggestions": [
+          "Der Text ist extrem sauber. Die sehr wenigen Relativierungen ('irgendwann', 'ein wenig') passen hier gut zur beobachtenden, leicht distanzierten Erzählstimme von Ilse, könnten aber theoretisch noch komprimiert werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie richtete sich auf und wischte die Hände an der Hose ab.",
+          "Sie drehte sich um."
+        ],
+        "suggestions": [
+          "Exzellente Umsetzung. Es gibt keine künstlichen Gleichzeitigkeits-Konstruktionen mit 'während' oder 'indem'. Alle Handlungen folgen organisch und klar aufeinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Dabei war er auf diesen Bohlen laufen gelernt."],
+        "suggestions": [
+          "Der Text ist durchweg aktiv und kraftvoll formuliert. Hinweis: In 'Dabei war er auf diesen Bohlen laufen gelernt' liegt ein kleiner Grammatikfehler vor (Zustandspassiv-Hilfsverb statt Perfekt). Korrekt aktiv: 'Dabei hatte er auf diesen Bohlen laufen gelernt.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Henning hätte auch den Motor gemacht, an einem Sonntag, mit ölverschmierten Unterarmen und dem Radio auf dem Fensterbrett, und hinterher hätte er gesagt: So, der hält wieder zehn Jahre."
+        ],
+        "suggestions": [
+          "Sehr guter Satzrhythmus. Kurze, prägnante Sätze wechseln sich harmonisch mit etwas längeren, atmosphärischen Sätzen ab, die jedoch nie unübersichtlich verschachtelt wirken."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ich muss rüber“, sagte Ilse. „Jetzt?“ „Der Wollschläger wartet.“",
+          "„Ich kann hier warten“, sagte er. „Kannst du.“"
+        ],
+        "suggestions": [
+          "Meisterhafte Dialogführung. Die Figuren sind maulfaul, kein Wort ist zu viel, der Subtext trägt die eigentliche Bedeutung."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Hinter ihr knarrte die Fähre gegen die Fender.",
+          "Die Fasern waren nass und schwer, an einer Stelle aufgeraut..."
+        ],
+        "suggestions": [
+          "Ilse als Perspektivträgerin ist unmittelbar erlebbar, es gibt keine distanzierenden Filter wie 'Sie sah, dass' oder 'Sie hörte, wie'. Einzig der Perspektivwechsel auf Jonas ('Dann sah er auf seinen Koffer...') bricht minimal aus ihrer Wahrnehmung aus, funktioniert hier aber als äußere Beobachtung von Ilse dennoch sehr gut."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Um halb zehn kam er immer, seit neunzehn Jahren, und seit neunzehn Jahren rauchte er dieselbe Marke.",
+          "Jonas trat einen Schritt zurück, damit sie Platz hatte. Er tat es höflich, wie man einem Fremden im Zug Platz macht."
+        ],
+        "suggestions": [
+          "Inhaltlich gibt es keinerlei redundante Informationen. Die Wiederholung von 'seit neunzehn Jahren' und 'Henning hätte' sind starke rhetorische Stilmittel. Nur die Doppelung von 'Platz hatte / Platz macht' in zwei direkt aufeinanderfolgenden Sätzen wirkt etwas unschön und könnte im ersten Satz z.B. durch 'um ihr aus dem Weg zu gehen' variiert werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016966
+}

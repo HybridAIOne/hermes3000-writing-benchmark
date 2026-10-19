@@ -1,0 +1,91 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gemini-4-argon__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "(Ein kleines Café. LUKAS sitzt bereits am Tisch. MARIE tritt an den Tisch...)"
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr gut gewählt, da er direkt in die Handlung führt und keine unnötige Vorgeschichte liefert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["setzt sich langsam", "stellt den Löffel leise ab", "schweres Schweigen"],
+        "suggestions": [
+          "Manche Adverbien könnten durch stärkere Verben ersetzt werden (z.B. 'lässt den Löffel sinken' statt 'stellt leise ab'). 'Schweres Schweigen' ist ein Klischee, hier könnte eine Beschreibung der Atmosphäre stärker wirken."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Redeeinleitungen verwendet, nur Regieanweisungen."],
+        "suggestions": ["Beibehalten, sehr effizient und modern."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["übrigens"],
+        "suggestions": [
+          "Das Wort 'übrigens' wirkt etwas distanziert, könnte gestrichen werden, um die Spannung zu erhöhen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine 'während'-Konstruktionen."],
+        "suggestions": [
+          "Sehr gut gelöst, die Handlungen folgen nacheinander, was den Lesefluss fördert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Passivsätze gefunden."],
+        "suggestions": ["Keine Änderungen nötig, der Text ist aktiv und direkt."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Kurze, prägnante Sätze."],
+        "suggestions": [
+          "Der Rhythmus passt sehr gut zur angespannten Stimmung, keine Änderungen nötig."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Dialoge sind kurz und schlagfertig."],
+        "suggestions": [
+          "Keine Straffung nötig, die Länge unterstützt die soziale Distanz der Charaktere."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Ich wusste nicht, ob du noch..."],
+        "suggestions": [
+          "Könnte noch direkter formuliert werden, z.B. 'Trinkst du noch Schwarztee?'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Dinge (Marie: 'Manche Dinge...', 'alte Dinge...'), kaputt (Lukas: 'dass sie kaputtgehen', Marie: 'längst kaputt sind')"
+        ],
+        "suggestions": [
+          "Wortwiederholungen in kurzem Abstand vermeiden. Statt 'Dinge' einmal 'Gewohnheiten' oder 'Muster' verwenden; bei 'kaputt' könnte man bei einem Mal ein Synonym wie 'defekt' oder 'zerstört' wählen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel ging leichter ins Schloss, als sie erwartet hatte."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort eine Atmosphäre und eine Handlung etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kalter Wolle", "blasser Lippenabdruck"],
+        "suggestions": [
+          "Die Adjektive sind atmosphärisch und wohl dosiert. Keine Änderungen nötig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["offenbar"],
+        "suggestions": [
+          "Der Text ist sehr präzise. 'Offenbar' könnte gestrichen werden, um die Unmittelbarkeit zu erhöhen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine 'während'-Konstruktionen, die den Lesefluss bremsen. Die Chronologie ist klar."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["war vereinbart gewesen"],
+        "suggestions": [
+          "Das Passiv könnte aktiver formuliert werden: 'Sie hatte ihrer Schwester versprochen, sich sofort zu melden.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut lesbar."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["konnte sie den oberen Treppenabsatz sehen"],
+        "suggestions": ["Direkter formulieren: 'Von hier aus sah sie den oberen Treppenabsatz.'"]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Keine inhaltlichen Doppelungen erkennbar."]
+      }
+    }
+  },
+  "costUsd": 0
+}

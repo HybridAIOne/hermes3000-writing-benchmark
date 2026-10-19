@@ -1,0 +1,83 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gemini-4-argon__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ein spärlich beleuchtetes Café. LUKAS sitzt am Tisch. MARIE tritt ein..."],
+        "suggestions": [
+          "Der Einstieg ist solide. Um die Spannung zu erhöhen, könnte man direkt mit dem Moment beginnen, in dem Marie sich setzt, um den Fokus sofort auf die Interaktion zu legen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["lächelt bitter", "nickt langsam"],
+        "suggestions": [
+          "Die Adverbien sind sparsam eingesetzt. Dennoch könnte 'lächelt bitter' durch eine präzisere Beschreibung des Gesichtsausdrucks ersetzt werden (z.B. 'verzieht den Mund')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["(deutet auf eine Tasse)", "(spannt den Kiefer an)"],
+        "suggestions": []
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Das weißt du doch",
+          "Sechs Monate sind eben eine lange Zeit",
+          "wirklich ein teurer Luxus"
+        ],
+        "suggestions": [
+          "Wörter wie 'eben', 'doch' und 'wirklich' schwächen die Schlagfertigkeit der Dialoge. Streichen Sie diese, um die Sätze direkter und aggressiver wirken zu lassen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": []
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": []
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": []
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": []
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": []
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Rein geschäftlich", "Luxus"],
+        "suggestions": [
+          "Die Wiederholungen sind hier stilistisch gewollt (als Echo im Dialog), daher sehr effektiv eingesetzt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

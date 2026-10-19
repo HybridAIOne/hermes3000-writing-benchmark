@@ -1,0 +1,110 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__gpt-6-luna__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "(Sie stehen vor dem Café. Keiner macht Anstalten, sich zu umarmen.)",
+          "(Sie gehen hinein. Jonas hält ihr die Tür auf...)",
+          "(Sie setzen sich...)"
+        ],
+        "suggestions": [
+          "Nach Eschbachs Prinzip 'Spät rein, früh raus' könnte die Szene direkt am Tisch im Café beginnen.",
+          "Das Zögern bei der Begrüßung und die Diskussion über den Mantel lassen sich auch direkt am Tisch abhandeln (z.B. während er den Mantel auszieht). Das spart den Ortswechsel und das Hinsetzen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["(Sie setzen sich. Jonas legt die Hände auf den Tisch. Mara betrachtet sie.)"],
+        "suggestions": [
+          "Hervorragend. Der Text verzichtet komplett auf erklärende Adverbien (wie 'sagte sie traurig' oder 'sah ihn wütend an') und lässt die Emotionen rein über den Subtext und die Handlungen entstehen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "**Mara:** Du hast noch denselben Mantel.",
+          "**Jonas:** Du erkennst ihn also noch."
+        ],
+        "suggestions": [
+          "Da es sich um ein Skript-/Drehbuchformat handelt, entfallen klassische Inquits ('sagte er'). Falls der Text in erzählende Prosa umgewandelt wird, sollte darauf geachtet werden, die Sprecher weiterhin nur durch die begleitenden Handlungen zu kennzeichnen, da der Wechsel extrem klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["rückt Jonas seine Tasse genau in die Mitte.", "Sie fragt manchmal nach dir."],
+        "suggestions": [
+          "In den Dialogen sind Füllwörter ('also', 'manchmal', 'immer') absolut authentisch und charakterisierend.",
+          "In den Regieanweisungen könnte 'genau' in 'genau in die Mitte' gestrichen werden ('in die Mitte' reicht)."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Mara wartet einen Moment, bevor sie hindurchgeht.",
+          "Als sie fortgeht, rückt Jonas seine Tasse genau in die Mitte."
+        ],
+        "suggestions": [
+          "Fast alle Handlungen sind sauber nacheinander aufgereiht.",
+          "Die Stelle 'Als sie fortgeht, rückt Jonas...' impliziert eine unlogische Abfolge (woher hat er die Tasse, wenn sie gerade erst bestellt haben?). Besser zeitlich trennen und konkretisieren: 'Die Bedienung bringt den Kaffee und geht. Jonas rückt seine Tasse in die Mitte.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Draußen beginnt es zu regnen.", "Mara schiebt ihre Tasse ein Stück zu ihm."],
+        "suggestions": [
+          "Keine unnötigen Passivkonstruktionen vorhanden. Alle Handlungen sind aktiv und präzise formuliert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["(Sie setzen sich. Jonas legt die Hände auf den Tisch. Mara betrachtet sie.)"],
+        "suggestions": [
+          "Der Satzbau ist exzellent. Kurze, prägnante Sätze unterstützen die angespannte, unterkühlte Atmosphäre perfekt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["**Jonas:** Kaffee?\n**Mara:** Schwarz.\n**Jonas:** Ohne Zucker."],
+        "suggestions": [
+          "Die Dialoge sind extrem verknappt und auf den Punkt gebracht. Kein Satz ist zu lang.",
+          "Lediglich das Thema 'Kaffee bestellen' nimmt im Verhältnis zur Textlänge viel Raum ein (Anfang, Mitte und Ende) – das funktioniert hier aber gut als roter Faden für den Subtext."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Für einen Augenblick sieht es aus, als wolle er etwas anderes sagen."],
+        "suggestions": [
+          "Der letzte Satz ist eine klassische indirekte Wahrnehmung und zudem unpräzise ('sieht es aus, als wolle...').",
+          "Besser durch eine direkte, sichtbare Handlung ersetzen (Show, don't tell): 'Jonas hebt die Hand, hält inne. Er sieht Mara an, öffnet den Mund – und winkt dann doch nur der Bedienung.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Du erkennst ihn also noch.",
+          "Du erinnerst dich.",
+          "Du machst das immer noch."
+        ],
+        "suggestions": [
+          "Inhaltlich dreht sich die erste Hälfte dreimal um exakt dasselbe Motiv: 'Du erinnerst dich an früher / Du hast dich nicht verändert' (Mantel, Sitzplatz, Kaffee/Tasse). Das ist einerseits ein gutes Stilmittel, nutzt sich aber auf der kurzen Strecke leicht ab. Eines dieser drei Elemente könnte gestrichen werden, um schneller zum emotionalen Kern (der Tochter) zu kommen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016492
+}

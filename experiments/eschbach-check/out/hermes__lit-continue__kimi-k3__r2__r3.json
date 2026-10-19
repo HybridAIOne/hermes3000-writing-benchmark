@@ -1,0 +1,91 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__kimi-k3__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Der Motor läuft“, sagte sie."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort in die Handlung und die angespannte Stimmung führt, ohne unnötige Vorrede."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["leichte Schwanken", "aufgeweichten Bohlen"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und treffend gewählt. Achte darauf, dass sie nicht zur reinen Dekoration werden, was hier aber gut vermieden wurde."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte sie", "fragte sie"],
+        "suggestions": [
+          "Die Marker sind unaufdringlich. In manchen Passagen könnte man sie noch weiter reduzieren, wenn der Sprecherwechsel durch den Kontext eindeutig ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["vielleicht"],
+        "suggestions": ["Der Text ist nahezu frei von Füllwörtern. Sehr gute, präzise Wortwahl."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Motor stotterte einmal, dann fing er sich"],
+        "suggestions": [
+          "Die Handlungsabfolgen sind logisch und sequenziell aufgebaut, was den Lesefluss fördert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["hatte Henning es gehalten"],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert, was die Dynamik der Szene unterstützt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Koffer stand immer noch auf den Bohlen, und Jonas stand daneben, in seinem Mantel, der für München gemacht war und nicht für den November an der Elbe."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind rhythmisch gut variiert. Der genannte Satz ist lang, aber inhaltlich dicht und gut lesbar."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Wie lange bleibst du?“, fragte sie... „Bis Sonntag.“"],
+        "suggestions": [
+          "Die Dialoge sind prägnant, authentisch und treiben die Charakterentwicklung voran. Keine Straffung nötig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ohne es zu wissen"],
+        "suggestions": [
+          "Die Wahrnehmung ist meist direkt. Formulierungen wie 'ohne es zu wissen' sind akzeptabel, könnten aber in manchen Fällen durch eine physische Reaktion ersetzt werden, um noch 'näher' an der Figur zu sein."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["rüber und wieder rüber"],
+        "suggestions": [
+          "Wiederholungen werden hier stilistisch bewusst eingesetzt, um den monotonen Rhythmus der Arbeit zu unterstreichen. Das funktioniert sehr gut."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

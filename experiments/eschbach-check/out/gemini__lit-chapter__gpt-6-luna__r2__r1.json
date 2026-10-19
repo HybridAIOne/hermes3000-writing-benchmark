@@ -1,0 +1,114 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__gpt-6-luna__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf der Elbe, dass Ilse das andere Ufer nur daran erkannte, dass es fehlte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und wirft den Leser direkt in die Szene. Keine Kürzung nötig, da genau beim Ablegen der Fähre begonnen wird."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Drahtseil über ihr vibrierte leise.",
+          "Der Motor brummte gleichmäßig.",
+          "Die Fähre schob sich langsam über den Fluss."
+        ],
+        "suggestions": [
+          "Der Text ist bereits sehr präzise. Kleinigkeiten könnten noch geschärft werden: Statt 'vibrierte leise' eventuell 'sirrte', statt 'schob sich langsam' reicht 'schob sich', da 'schieben' bei einer schweren Fähre bereits Langsamkeit impliziert."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Fahrer kurbelte das Fenster einen Spalt herunter. „Was?“ / „Die Bremse. Wir schwimmen nicht weg.“"
+        ],
+        "suggestions": [
+          "Hervorragend gelöst. Redebegleitsätze werden extrem sparsam eingesetzt; meist übernehmen Handlungen die Zuordnung oder der Sprecher ergibt sich glasklar aus dem Kontext."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "... und gab noch ein wenig mehr Gas.",
+          "Als die Fähre ein wenig schräg in die Strömung geriet...",
+          "... und vermutlich würde es das auch noch eine Weile tun."
+        ],
+        "suggestions": [
+          "Die Wortwahl ist sehr sauber. Die zweifache Verwendung von 'ein wenig' lässt sich streichen ('gab mehr Gas', 'schräg in die Strömung geriet'). 'Vermutlich' und 'eine Weile' passen hier gut zur personalen Perspektive von Ilse, könnten aber streng genommen auch direkter formuliert werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als die Fähre ein wenig schräg in die Strömung geriet, trat er auf die Bremse.",
+          "Ilse nahm Gas heraus und gab dem Boot einen kurzen Schub, bevor es gegen die Landung stieß."
+        ],
+        "suggestions": [
+          "Keine falsche Gleichzeitigkeit vorhanden. Handlungen werden sauber nacheinander als Ursache und Wirkung beschrieben."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Heute war alles gedämpft. (Zustandspassiv)"],
+        "suggestions": [
+          "Der Text ist durchgängig aktiv formuliert. Selbst unbelebte Dinge (Nebel, Seile, Motor) agieren aktiv. Exzellent."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf der Elbe, dass Ilse das andere Ufer nur daran erkannte, dass es fehlte."
+        ],
+        "suggestions": [
+          "Sehr guter Satzrhythmus. Kurze, prägnante Sätze wechseln sich mit etwas längeren, gut strukturierten Sätzen ab. Beim ersten Satz könnte man die doppelte 'dass'-Konstruktion überdenken, sie hat aber auch einen eigenen stilistischen Reiz."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Wird das heute noch heller?“, fragte die Frau. / „Kann sein.“"],
+        "suggestions": [
+          "Die Dialoge sind norddeutsch-lakonisch, extrem knapp und sitzen auf den Punkt. Kein Wort zu viel."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse hörte den Motor im Leerlauf.",
+          "Sie sah sie nicht, aber der Zug ließ nach.",
+          "Auch der Nebel schien an der Bewegung der Fähre teilzunehmen..."
+        ],
+        "suggestions": [
+          "Meistens wird direkt beschrieben. 'Ilse hörte den Motor im Leerlauf' könnte man noch unmittelbarer gestalten: 'Der Motor des Lieferwagens lief im Leerlauf.' Auch das Verb 'schien' (der Nebel schien teilzunehmen) distanziert leicht und könnte als direkte Behauptung stärker wirken."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie hielt eine Einkaufstasche vor den Bauch... / Sie hielt die Einkaufstasche mit beiden Händen..."
+        ],
+        "suggestions": [
+          "Keine ungewollten Redundanzen. Die Wiederholung des Motivs mit der Einkaufstasche wirkt bewusst gesetzt, um die Figur der Frau zu charakterisieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.017138
+}

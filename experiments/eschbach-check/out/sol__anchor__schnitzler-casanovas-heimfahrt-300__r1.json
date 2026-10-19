@@ -1,0 +1,138 @@
+{
+  "who": "sol",
+  "item": "anchor__schnitzler-casanovas-heimfahrt-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "In seinem dreiundfünfzigsten Lebensjahre",
+          "Öfter schon in den letzten zehn Jahren seiner Verbannung hatte er an den hohen Rat Gesuche gerichtet",
+          "Da seine Geldmittel recht spärlich geworden waren, hatte Casanova beschlossen"
+        ],
+        "suggestions": [
+          "Für einen szenischeren Einstieg direkt bei Casanova im Gasthof in Mantua beginnen: Er wartet auf seine Begnadigung und arbeitet an der Streitschrift gegen Voltaire.",
+          "Alter, Verbannung und frühere Gesuche anschließend dosiert einflechten. Der gegenwärtige Einstieg ist ein bewusst panoramischer Erzählerbericht, verzögert aber die konkrete Handlung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "in seinen fast demütig flehenden Worten",
+          "ein schmerzliches Sehnen und echte Reue",
+          "in dem bescheidenen, aber anständigen Gasthof",
+          "in unzerstörbarer Weise zu befestigen"
+        ],
+        "suggestions": [
+          "Bei gehäuften Wertungen prüfen, welche Information tatsächlich gebraucht wird: etwa „in seinen flehenden Worten“ statt „in seinen fast demütig flehenden Worten“, sofern die Einschränkung nicht beabsichtigt ist.",
+          "„in unzerstörbarer Weise zu befestigen“ durch „dauerhaft zu sichern“ ersetzen.",
+          "Charakterisierende Gegensätze wie „bescheidenen, aber anständigen“ nicht automatisch streichen: Sie vermitteln auch Casanovas soziale Ansprüche."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung erforderlich: Der Ausschnitt enthält keine Dialoge und damit keine überflüssigen Redeeinleitungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "seit einiger Zeit",
+          "übrigens",
+          "eben wieder",
+          "recht spärlich",
+          "binnen kurzem"
+        ],
+        "suggestions": [
+          "„übrigens“ und „eben“ probeweise streichen; die sachlichen Aussagen bleiben erhalten.",
+          "„recht spärlich geworden“ zu „knapp geworden“ verdichten.",
+          "Unbestimmte Zeitangaben nur dann präzisieren, wenn die genaue Dauer erzählerisch wichtig und bekannt ist. „binnen kurzem“ kann als Ausdruck einer unverbindlichen Hoffnung sinnvoll bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "als Casanova längst nicht mehr von der Abenteuerlust der Jugend, sondern von der Ruhelosigkeit nahenden Alters durch die Welt gejagt wurde",
+          "und er vertrieb sich indes die Zeit"
+        ],
+        "suggestions": [
+          "Den langen zeitlichen Einschub am Anfang gegebenenfalls in einen eigenen Satz überführen, damit die Hauptaussage früher sichtbar wird.",
+          "Das Warten und die Arbeit an der Streitschrift dürfen als gleichzeitig bestehen bleiben; eine künstliche Abfolge würde den Sachverhalt verändern.",
+          "Das „als“ in „Er glaubte um so sicherer auf Erhörung rechnen zu dürfen, als …“ begründet seine Hoffnung und bezeichnet keine Gleichzeitigkeit."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["von der Ruhelosigkeit nahenden Alters durch die Welt gejagt wurde"],
+        "suggestions": [
+          "Optional aktiv formulieren: „Nicht mehr jugendliche Abenteuerlust, sondern die Ruhelosigkeit des nahenden Alters jagte Casanova durch die Welt.“",
+          "Das Passiv kann hier auch bleiben: Es unterstreicht, dass Casanova zum Getriebenen geworden ist. Eine Häufung von Passivsätzen liegt nicht vor."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Er glaubte um so sicherer auf Erhörung rechnen zu dürfen, als die Sünden seiner früheren Jahre",
+          "und eben wieder, in Briefen nach Mantua, wo er sich seit zwei Monaten aufhielt",
+          "ungeistigerer Zerstreuungen nicht zu gedenken, auf die gänzlich zu verzichten er nicht imstande war"
+        ],
+        "suggestions": [
+          "Den dritten Satz mindestens in drei Einheiten teilen: Casanovas Hoffnung auf Begnadigung, die Gründe dafür und die jüngsten Briefe nach Mantua.",
+          "Im ersten Satz Alter und Getriebensein von Heimweh und Vogelvergleich trennen.",
+          "Den letzten Absatz in die Entscheidung für den Gasthof, seine Zerstreuungen und das politische Kalkül hinter der Streitschrift gliedern.",
+          "Einzelne Satzperioden als Stilmerkmal erhalten, aber durch kürzere Sätze entlasten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Straffung erforderlich: Der Ausschnitt enthält keine Dialogpassagen. Die langen Erzählsätze werden unter Satzlänge bewertet."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "fühlte er in seiner Seele das Heimweh nach seiner Vaterstadt Venedig so heftig anwachsen",
+          "Er glaubte um so sicherer auf Erhörung rechnen zu dürfen",
+          "zu befestigen gedachte"
+        ],
+        "suggestions": [
+          "Die erste Formulierung direkter gestalten: „Das Heimweh nach Venedig wuchs so heftig, dass …“; „in seiner Seele“ ist dabei entbehrlich.",
+          "„Er glaubte um so sicherer auf Erhörung rechnen zu dürfen“ zu „Seine Hoffnung auf Begnadigung wuchs“ verdichten.",
+          "Glauben und Absicht nicht unterschiedslos streichen: Sie kennzeichnen Casanovas subjektive Erwartungen und verhindern, dass sein erhoffter Erfolg als Tatsache erscheint."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "das Heimweh nach seiner Vaterstadt Venedig",
+          "ein schmerzliches Sehnen",
+          "man möge ihm die Heimkehr gestatten",
+          "das Eintreffen der Begnadigung abzuwarten",
+          "seine Stellung und sein Ansehen"
+        ],
+        "suggestions": [
+          "Die wiederholten Hinweise auf Heimkehrwunsch und Begnadigung bündeln, ohne die Entwicklung von trotzigem Fordern zu flehendem Bitten zu verlieren.",
+          "Bei „Stellung und Ansehen“ prüfen, ob tatsächlich gesellschaftliche Position und öffentlicher Ruf getrennt gemeint sind; andernfalls genügt ein Begriff.",
+          "Die Wiederaufnahme des Alterungsmotivs nicht vollständig tilgen: Sie verbindet Casanovas Ruhelosigkeit, Heimweh und schwindenden Glanz zu einem Leitmotiv."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020098
+}

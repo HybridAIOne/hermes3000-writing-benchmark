@@ -1,0 +1,146 @@
+{
+  "who": "opus",
+  "item": "lit-continue__kimi-k3__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der Motor läuft\", sagte Ilse. – Die Szene setzt mitten im Gespräch ein und baut sofort eine Spannung auf (Mutter verteidigt die alte Fähre, Sohn zweifelt).",
+          "Begrüßung, Ankunft und Wiedersehen werden übersprungen. Die Vorgeschichte erschließt sich beiläufig über Henning und die Kinder."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten. Ein späterer Einsatzpunkt würde das Motiv „auseinanderfallen\" kosten, das die Schlusszeile aufgreift.",
+          "Optional einen Satz Verortung (Fluss, Anleger) früher setzen, damit Leser ohne Vorwissen die Fährsituation schneller erfassen. Das ist kein Muss."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„fragte er und lächelte schief\"",
+          "„Er lachte kurz\"",
+          "„obwohl die Fahrt ruhig war\"",
+          "„stieg der Deich an, braun und still\"",
+          "„das unregelmäßige Tuckern des Motors\""
+        ],
+        "suggestions": [
+          "„lächelte schief\" ist abgegriffen. Präziser wäre eine Geste, etwa „verzog den Mundwinkel\" oder „grinste\".",
+          "„Er lachte kurz\" könnte auf „Er lachte\" gekürzt werden, denn das folgende „dann war es wieder still\" zeigt die Kürze bereits.",
+          "„unregelmäßige Tuckern\" ist funktional, weil es an den Zweifel am Motor anknüpft, und sollte bleiben. Alternative: „das Stottern des Motors\"."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Du hast grau geworden\", sagte Ilse. – Die Antwort „Danke, Mama.\" macht die Sprecherin ohnehin klar.",
+          "„Muss man jetzt nicht zahlen?\", fragte er und lächelte schief. – Das Fragezeichen macht „fragte\" überflüssig.",
+          "„Wie lange bleibst du?\", fragte sie, als die Mitte des Stroms hinter ihnen lag."
+        ],
+        "suggestions": [
+          "„sagte Ilse\" bei „Du hast grau geworden\" streichen oder durch eine Handlung ersetzen, z. B. „Ilse sah ihn von der Seite an.\"",
+          "„fragte er und lächelte schief\" ersetzen durch „Er lächelte schief. „Muss man jetzt nicht zahlen?\"\"",
+          "Beim „fragte sie, als …\" die Ortsangabe als eigenen Satz voranstellen: „Die Mitte des Stroms lag hinter ihnen. „Wie lange bleibst du?\"\"",
+          "Nebenbefund (Grammatik): „Du hast grau geworden\" muss „Du bist grau geworden\" heißen, es sei denn, der Fehler ist als Dialektmerkmal gewollt. Dann sollte er im Text erkennbar begründet sein."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„drehte die Fähre einen Hauch nach draußen\"",
+          "„Die Strömung griff sofort in den Rumpf\"",
+          "„Vielleicht die Minuten. Vielleicht die Meter.\"",
+          "„Jetzt kamen nur noch die Kinder\""
+        ],
+        "suggestions": [
+          "„einen Hauch\" ist leicht unpräzise. Konkreter wäre „um eine Bootslänge\" oder „drehte den Bug nach draußen\".",
+          "„sofort\" kann entfallen, denn „griff in den Rumpf\" wirkt ohne den Zusatz unmittelbarer.",
+          "Die doppelte Vermutung „Vielleicht … Vielleicht\" ist hier ein bewusstes Stilmittel der Figurenperspektive und kann bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„„Wie lange bleibst du?\", fragte sie, als die Mitte des Stroms hinter ihnen lag.\"",
+          "„sah übers Wasser zurück, als zähle er etwas\" (vergleichendes „als\", unproblematisch)",
+          "„„Komm\", sagte sie und ließ den Motor laufen, obwohl sie ihn sonst immer abstellte\""
+        ],
+        "suggestions": [
+          "Den Fragesatz mit „als\" auflösen: erst die Bewegung („Die Mitte des Stroms lag hinter ihnen.\"), dann die Frage. Das gibt dem Moment mehr Gewicht.",
+          "Im Schlusssatz Sprechen und Handlung trennen: „Sie ließ den Motor laufen. Sonst stellte sie ihn ab, wenn kein Gast wartete. „Komm.\"\""
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Keine Passivkonstruktionen. Der Text arbeitet durchgehend mit aktiven, handlungsstarken Verben (hakte ab, stieß ab, griff, legte an, warf, zog fest)."
+        ],
+        "suggestions": ["Keine Änderung nötig. Die aktive Verbführung trägt die Szene."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Als Kind hatte er sich auf die Reling gehockt und Henning zugeschaut, wie der die Hände am Seil entlanggehen ließ, Meter für Meter.\"",
+          "„Aber Henning war seit vier Jahren tot, und der Fluss trug einen nicht allein ans andere Ufer, wenn man alt wurde.\"",
+          "„Jetzt kamen nur noch die Kinder und die Radfahrer im Sommer, und die zahlten in eine Blechdose, die an einem Nagel hing.\"",
+          "„Ilse kannte diesen Blick von den Leuten, die selten kamen, die alles mit den Augen aufnahmen wie ein Gutachten.\""
+        ],
+        "suggestions": [
+          "Den Henning-Satz teilen, damit die Todesnachricht allein steht: „Aber Henning war seit vier Jahren tot. Und wenn man alt wurde, trug einen der Fluss nicht mehr allein ans andere Ufer.\"",
+          "Den Blechdosen-Satz teilen: „Jetzt kamen nur noch die Kinder und im Sommer die Radfahrer. Die zahlten in eine Blechdose an einem Nagel.\"",
+          "Die doppelte Relativkonstruktion „die selten kamen, die alles …\" auflösen: „… von Leuten, die selten kamen. Sie nahmen alles mit den Augen auf wie für ein Gutachten.\""
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„„Du hast keine Handschuhe.\" / „Ich bin nicht aus Zucker, Mama.\"\" – knapp, mit Subtext.",
+          "„„Du hast grau geworden\" / „Danke, Mama.\" / „Steht dir.\"\" – drei Zeilen tragen eine ganze Beziehung."
+        ],
+        "suggestions": [
+          "Keine Straffung nötig. Die Dialoge sind kurz, subtextreich und von Handlung unterbrochen.",
+          "Allenfalls prüfen, ob „Zwanzig Kinder.\" nötig ist oder ob „Am Freitag holt die Schule die Klasse von Frau Wieck rüber.\" allein genügt. Die Zahl unterstreicht allerdings Ilses Last und kann bleiben."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ein Junge, dachte sie, der seinen Koffer hinter sich herzieht wie einen Hund.\"",
+          "„Ilse kannte diesen Blick von den Leuten, die selten kamen\"",
+          "„Henning zugeschaut, wie der die Hände am Seil entlanggehen ließ\""
+        ],
+        "suggestions": [
+          "„dachte sie\" streichen und den Gedanken als erlebte Rede stehen lassen: „Ein Junge, der seinen Koffer hinter sich herzog wie einen Hund.\" Die Perspektive ist durch den Kontext eindeutig Ilses.",
+          "„Ilse kannte diesen Blick\" könnte direkter werden: „Diesen Blick hatten die Leute, die selten kamen.\""
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„immer\" dreimal: „Henning hatte immer gesagt\", „Früher hatte dort um diese Zeit immer jemand gestanden\", „obwohl sie ihn sonst immer abstellte\"",
+          "„Koffer\" dreimal in kurzem Abstand: „hob seinen Koffer\", „seinen Koffer hinter sich herzieht\", „stellte seinen Koffer senkrecht\"",
+          "„Als Kind\" doppelt: „Er hatte das als Kind nie getan. Als Kind hatte er sich …\"",
+          "„Seil\" und „Leine\" mehrfach in engem Abstand"
+        ],
+        "suggestions": [
+          "„immer\" an mindestens einer Stelle streichen, z. B. „Früher hatte dort um diese Zeit jemand gestanden\". Das „Früher\" trägt die Bedeutung bereits.",
+          "Beim zweiten oder dritten „Koffer\" variieren oder ein Pronomen setzen: „Jonas stellte ihn senkrecht\".",
+          "Die Anapher „als Kind / Als Kind\" ist als Stilmittel vertretbar. Bewusst entscheiden, ob sie bleibt, sonst: „Damals hatte er sich auf die Reling gehockt …\"",
+          "Die Rückbezüge „Der Motor läuft\" und „auseinanderfallen\" sind gelungene Klammern und sollten ausdrücklich erhalten bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.123444
+}

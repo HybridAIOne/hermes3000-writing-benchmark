@@ -1,0 +1,91 @@
+{
+  "who": "hermes",
+  "item": "anchor__zweig-amok-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Im März des Jahres 1912 ereignete sich im Hafen von Neapel..."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch, könnte aber noch direkter in die Handlung führen, indem man das Datum und den Ort in die laufende Erzählung integriert, statt sie voranzustellen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["phantastisch ausgeschmückte Berichte", "stockende, verdickte Luft"],
+        "suggestions": [
+          "Die Adjektive sind größtenteils stimmungsvoll. 'Phantastisch ausgeschmückt' könnte durch ein stärkeres Verb oder Substantiv ersetzt werden (z.B. 'Übertreibungen')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["zuckte der Clerk bedauernd die Schultern"],
+        "suggestions": [
+          "Die Kennzeichnungen sind unauffällig und gut integriert. Keine Änderung notwendig."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["wohl", "freilich", "schon", "immerhin"],
+        "suggestions": [
+          "Wörter wie 'wohl', 'freilich' und 'schon' wirken in diesem Kontext etwas altmodisch und schwächen die Aussagekraft. Streichen, um den Text straffer zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["während des Kohlenladens und der Löschung der Fracht"],
+        "suggestions": [
+          "Die Gleichzeitigkeit ist hier historisch-erzählend gut gelöst, könnte aber durch aktivere Verben noch dynamischer gestaltet werden."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["einzig vom trüben Blick der kreisrunden Glasscheibe erhellt"],
+        "suggestions": [
+          "Formulieren Sie aktiv: 'Einzig die kreisrunde Glasscheibe erhellte den Raum trübe.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Obzwar Passagier der »Oceania«, war es mir ebensowenig wie den andern möglich, Zeuge jenes seltsamen Vorfalles zu sein, weil er sich zur Nachtzeit während des Kohlenladens und der Löschung der Fracht abspielte, wir aber, um dem Lärm zu entgehen, alle an Land gegangen waren und dort in Kaffeehäusern oder Theatern die Zeit verbrachten."
+        ],
+        "suggestions": [
+          "Der Satz ist zu verschachtelt. Teilen Sie ihn in zwei oder drei kürzere Sätze auf, um den Lesefluss zu verbessern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Er wisse noch nicht, ob es möglich sei..."],
+        "suggestions": ["Die Dialoge sind kurz und prägnant. Hier besteht kein Handlungsbedarf."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Immerhin meine ich persönlich, daß...", "Er wisse noch nicht, ob..."],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'meine ich'. Schreiben Sie direkter: 'Manche Vermutungen trugen die Aufklärung in sich...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Ausladen", "Löschung der Fracht"],
+        "suggestions": [
+          "Die Begriffe 'Ausladen' und 'Löschung der Fracht' beschreiben denselben Vorgang. Hier könnte man präziser formulieren, um Redundanz zu vermeiden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

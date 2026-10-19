@@ -1,0 +1,144 @@
+{
+  "who": "opus",
+  "item": "lit-continue__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Der läuft noch“, sagte Ilse.", "„Man hört ihn bis zur Brücke.“"],
+        "suggestions": [
+          "Der Einstieg mitten im Dialog ist stark und verzichtet auf Vorgeplänkel. Ein später Einsatz ist kaum möglich.",
+          "Prüfen, ob dem Leser schnell genug klar wird, dass 'der' den Fährmotor meint. Ein kurzer Klangeindruck vor oder nach der ersten Zeile (z. B. das Tuckern mit Aussetzer) könnte den Bezug verankern, ohne das Tempo zu bremsen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas sah gut aus, auf diese glatte, ausgeschlafene Art",
+          "Der Motor tuckerte im Leerlauf, ungleichmäßig, mit diesem Aussetzer bei jedem dritten Takt",
+          "Er tat es höflich, wie man einem Fremden im Zug Platz macht.",
+          "nur dass bei ihm alles ein wenig straffer saß"
+        ],
+        "suggestions": [
+          "'ungleichmäßig' streichen: Der 'Aussetzer bei jedem dritten Takt' zeigt die Unregelmäßigkeit bereits konkreter.",
+          "'höflich' ist durch den Vergleich mit dem Fremden im Zug bereits belegt. 'Er tat es, wie man einem Fremden im Zug Platz macht.' wirkt noch stärker.",
+          "'gut' ist das schwächste Wort der Beschreibung. Erwägen, direkt mit 'Jonas hatte diese glatte, ausgeschlafene Art …' einzusteigen.",
+          "Insgesamt sind die Adjektive präzise und sinnlich ('ölverschmierten Unterarmen', 'nass und schwer', 'aufgeraut') und tragen die Atmosphäre."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Du hättest anrufen können“, sagte sie.",
+          "„Ich muss rüber“, sagte Ilse.",
+          "„Ich kann hier warten“, sagte er.",
+          "Sie drehte sich um. „Lass den Koffer stehen“, sagte sie."
+        ],
+        "suggestions": [
+          "Im Wechselgespräch zweier Figuren ergibt sich der Sprecher meist aus dem Kontext. 'sagte sie' nach 'Du hättest anrufen können' ist entbehrlich, weil Ilses Handlung direkt davorsteht.",
+          "Nach 'Sie drehte sich um.' ist klar, wer spricht. Das 'sagte sie' kann entfallen.",
+          "'„Ich kann hier warten“, sagte er.' folgt auf einen Absatz über Jonas und ist daher redundant.",
+          "'sagte Ilse' bei 'Komm mit rüber' beibehalten, da die Konstruktion 'und dann, weil er sich nicht rührte' die Einleitung braucht.",
+          "Ziel: von sieben Redeeinleitungen etwa drei bis vier streichen. Der knappe Ton der Dialoge gewinnt dadurch zusätzlich."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "nur dass bei ihm alles ein wenig straffer saß",
+          "ob es diesen Wollschläger wirklich gab",
+          "die er sich irgendwann zwischen Studium und erstem Firmenwagen zugelegt hatte",
+          "Mit vier war er einmal ins Wasser gefallen"
+        ],
+        "suggestions": [
+          "'ein wenig' streichen: 'nur dass bei ihm alles straffer saß' ist prägnanter, und das Bild der nachgezogenen Schrauben trägt die Nuance.",
+          "'einmal' ist entbehrlich: 'Mit vier war er ins Wasser gefallen'.",
+          "'irgendwann' und 'wirklich' erfüllen hier eine erzählerische Funktion (Ironie, Distanz) und können bleiben.",
+          "Positiv: konkrete Angaben wie 'halb zehn', 'neunzehn Jahre', 'jedem dritten Takt' statt vager Mengenwörter."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Auf der anderen Seite stand der Lieferwagen vom Bäcker Wollschläger und wartete, der Fahrer rauchte am offenen Fenster.",
+          "Ilse stand schon mit einem Fuß auf dem Deck, die Leine in der Hand."
+        ],
+        "suggestions": [
+          "Kein Problem mit 'während' oder 'gleichzeitig'. Die 'als'-Konstruktionen ('als müsse er', 'als hätte jemand') sind Vergleiche, keine Gleichzeitigkeitsmarker.",
+          "Handlungen werden sauber nacheinander erzählt ('Sie richtete sich auf und wischte die Hände an der Hose ab.'). Hier besteht kein Änderungsbedarf."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Dabei war er auf diesen Bohlen laufen gelernt."],
+        "suggestions": [
+          "Der Text ist durchgehend aktiv formuliert.",
+          "Grammatikfehler korrigieren: 'laufen lernen' bildet das Perfekt mit 'haben'. Richtig ist: 'Dabei hatte er auf diesen Bohlen laufen gelernt.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Henning hätte auch den Motor gemacht, an einem Sonntag, mit ölverschmierten Unterarmen und dem Radio auf dem Fensterbrett, und hinterher hätte er gesagt: So, der hält wieder zehn Jahre.",
+          "Der Motor tuckerte im Leerlauf, ungleichmäßig, mit diesem Aussetzer bei jedem dritten Takt, den Jonas sofort gehört hatte.",
+          "Mit vier war er einmal ins Wasser gefallen, genau hier, zwischen Rampe und Pfahl, und Henning war hinterhergesprungen, in Stiefeln und allem."
+        ],
+        "suggestions": [
+          "Die langen Sätze sind reihend statt verschachtelt gebaut und rhythmisch gewollt. Sie bilden einen guten Kontrast zu den knappen Dialogen.",
+          "Der Relativsatz 'den Jonas sofort gehört hatte' ist mehrdeutig: Bezieht sich 'den' auf 'Aussetzer' oder 'Takt'? Vorschlag: 'Der Motor tuckerte im Leerlauf, bei jedem dritten Takt ein Aussetzer. Jonas hatte ihn sofort gehört.'",
+          "Den Henning-Satz nach 'Fensterbrett' teilen, damit der Schlusssatz mehr Gewicht bekommt: '… dem Radio auf dem Fensterbrett. Hinterher hätte er gesagt: So, der hält wieder zehn Jahre.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ich kann hier warten“, sagte er. „Kannst du.“",
+          "„Hätte ich. Dann hättest du gesagt, es passt gerade nicht.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind vorbildlich knapp und subtextreich. Was ungesagt bleibt, trägt die Szene.",
+          "Einzig der letzte Redebeitrag ('Du kannst die Rampe machen. Das hast du früher auch gekonnt.') könnte auf 'Du kannst die Rampe machen.' gekürzt werden, wenn der Rückbezug auf früher dem Leser überlassen bleiben soll."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas sah sie an, ohne zu verstehen.",
+          "mit diesem Aussetzer bei jedem dritten Takt, den Jonas sofort gehört hatte",
+          "Jonas wusste das nicht mehr."
+        ],
+        "suggestions": [
+          "'ohne zu verstehen' benennt Jonas' Innenleben aus Ilses Perspektive. Zeigen statt behaupten: 'Jonas sah sie an.' oder 'Jonas sah von ihr zum Koffer und zurück.'",
+          "'den Jonas sofort gehört hatte' ist eine Wahrnehmungsbehauptung. Woher weiß Ilse das? Die erste Dialogzeile belegt es bereits, daher ist der Nachsatz verzichtbar.",
+          "'Jonas wusste das nicht mehr. Sie hatte es ihm nie erzählt.' ist als Ilses Gewissheit gerechtfertigt und erzählerisch wirkungsvoll. Beibehalten."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Jonas sah gut aus … Jonas sah über das Wasser … Dann sah er auf seinen Koffer … Jonas sah sie an",
+          "Um halb zehn kam er immer, seit neunzehn Jahren, und seit neunzehn Jahren rauchte er dieselbe Marke.",
+          "damit sie Platz hatte. Er tat es höflich, wie man einem Fremden im Zug Platz macht."
+        ],
+        "suggestions": [
+          "Das Verb 'sehen' kommt viermal vor. Mindestens 'Jonas sah gut aus' umformulieren und eine Blickstelle variieren (z. B. 'Jonas blickte über das Wasser' oder rein handlungsbezogen: 'Jonas drehte sich zum Wasser').",
+          "Die Doppelung 'seit neunzehn Jahren' und die Anapher 'Henning hätte …' sind bewusste Stilmittel und funktionieren gut.",
+          "'Platz hatte' / 'Platz macht' in direkter Folge: Den ersten Satz zu 'Jonas trat einen Schritt zurück.' verkürzen. Der Vergleichssatz liefert die Erklärung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.12542
+}

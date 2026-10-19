@@ -1,0 +1,91 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-opus-5.5__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so dicht auf dem Wasser..."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch sehr stark und etabliert sofort die Stimmung. Keine Änderung notwendig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["nass und schwarz", "klein und regelmäßig"],
+        "suggestions": [
+          "Die Adjektive sind gut gewählt. Achte darauf, bei Beschreibungen wie 'nass und schwarz' noch stärker auf originellere Verben zu setzen, um die Bildhaftigkeit zu erhöhen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Morgen\", sagte Mareike.", "„Morgen.\" (ohne Marker)"],
+        "suggestions": [
+          "Exzellente Handhabung. Die Dialoge wirken durch den Verzicht auf unnötige Begleitsätze sehr natürlich und direkt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vielleicht", "irgendwo"],
+        "suggestions": [
+          "Das Wort 'vielleicht' wird mehrfach verwendet (Alter, Warten). Das passt zwar zum unsicheren Charakter, könnte aber stellenweise durch präzisere Formulierungen ersetzt werden, um die Prosa zu straffen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie stand im Steuerhaus... und sah zu"],
+        "suggestions": [
+          "Die Handlungsabfolgen sind klar und logisch strukturiert. Keine 'während'-Konstruktionen, die den Lesefluss bremsen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Strömung nahm die Fähre", "Sie machte fest"],
+        "suggestions": [
+          "Der Text ist sehr aktiv und dynamisch geschrieben. Es gibt keine unnötigen Passivkonstruktionen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Um sechs Uhr vierzig hatte sie die Lampen angemacht."],
+        "suggestions": [
+          "Der Rhythmus der Sätze ist sehr gut. Die Mischung aus kurzen, prägnanten Sätzen und längeren Beschreibungen erzeugt einen angenehmen Lesefluss."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Was kostet das?\" / „Sechs fünfzig mit Wagen.\""],
+        "suggestions": [
+          "Die Dialoge sind auf den Punkt gebracht und treiben die Handlung voran, ohne zu schwafeln."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse hörte sie, bevor sie sie sah", "Ilse sah ihn an"],
+        "suggestions": [
+          "Die Wahrnehmung ist sehr direkt. Es wird nicht 'gedacht' oder 'gefühlt', sondern gehandelt und beobachtet. Sehr gut."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Der Nebel lag so dicht... Mitte Strom wurde der Nebel noch dichter."],
+        "suggestions": [
+          "Die Wiederholungen (Nebel, Wasser, Routine) wirken hier stilistisch beabsichtigt, um die Monotonie des Alltags zu unterstreichen. Achte darauf, dass es nicht zu repetitiv wird, wenn der Text länger wäre."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

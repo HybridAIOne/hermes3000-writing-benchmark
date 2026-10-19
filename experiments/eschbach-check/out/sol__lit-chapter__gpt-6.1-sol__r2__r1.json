@@ -1,0 +1,143 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__gpt-6.1-sol__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag so tief, dass Ilse das andere Ufer nicht sehen konnte.",
+          "Das hatte sie gestern ausprobieren müssen, obwohl sie es wusste.",
+          "Sie ließ es in der Hand liegen, bis das Display dunkel wurde."
+        ],
+        "suggestions": [
+          "Der Einstieg etabliert Sichtverhältnisse, Schauplatz und Ilses Arbeitsalltag unmittelbar. Ein späterer Beginn wäre möglich, aber nicht eindeutig besser.",
+          "Falls der Anruf den eigentlichen Szenenkonflikt eröffnet, den Weg dorthin versuchsweise verkürzen: etwa die Rückblende zum rutschenden Becher streichen. Soll dagegen die Routine den Schluss kontrastieren, ist der ruhige Aufbau funktional."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "den weißen Pfosten mit dem roten Ring",
+          "Unter ihrem Stiefel gab das Deck kaum merklich nach.",
+          "aus dem Beschlag kam ein kurzes, trockenes Knacken"
+        ],
+        "suggestions": [
+          "Die meisten Attribute liefern konkrete Orientierung oder sinnliche Information; Farben und Materialeigenschaften nicht pauschal streichen.",
+          "Bei einzelnen Doppelbestimmungen prüfen, ob beide Informationen nötig sind: „ein trockenes Knacken“ könnte genügen. „Kaum merklich“ dagegen kennzeichnet Ilses feine Wahrnehmung und hat eine erkennbare Funktion."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Morgen.“\n\n„Morgen.“",
+          "„Runter vom Rad“, sagte Ilse.",
+          "„Warten“, sagte sie, obwohl er sie durch die geschlossene Scheibe nicht hören konnte. Sie hob die Hand."
+        ],
+        "suggestions": [
+          "Die überwiegend unmarkierten Wechsel beibehalten: Sprecher und Ton ergeben sich zuverlässig aus Situation und Handlung.",
+          "Allenfalls „sagte Ilse“ bei „Runter vom Rad“ streichen; die Sprecherin ist bereits eindeutig. Beim vergeblichen „Warten“ trägt die Kennzeichnung dagegen zum Verständnis der Situation bei."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ihre Finger waren schon kalt.",
+          "Bei den Münzen blieb sie kurz stehen.",
+          "Offenbar war sie durch das Gras zur Garage gegangen, oder über einen Hof."
+        ],
+        "suggestions": [
+          "„Schon“ und „kurz“ nur streichen, wenn die zeitliche Nuance entbehrlich ist; sie sind hier nicht automatisch Füllwörter.",
+          "Bei der Vermutung über die nassen Strümpfe entscheiden, ob Ilses gedankliche Beschäftigung mit der Frau wichtig ist. Andernfalls den spekulativen Satz streichen. „Offenbar“ nicht einfach entfernen, weil die Vermutung dadurch zur behaupteten Tatsache würde."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Frau hielt ihr Portemonnaie mit beiden Händen, während Ilse das Wechselgeld aus der Ledertasche zählte.",
+          "Erst als die Scheinwerfer den Pfosten trafen, erkannte sie den weißen Lieferwagen.",
+          "Sie setzte die Sicherung, prüfte sie mit einem Ruck und gab den Weg frei."
+        ],
+        "suggestions": [
+          "Kein systematischer Änderungsbedarf: Die Handlungen werden überwiegend klar nacheinander erzählt.",
+          "Den „während“-Satz beibehalten, wenn das wartende Festhalten am Portemonnaie charakterisieren soll. Eine Aufteilung wäre möglich, würde aber die tatsächlich gleichzeitigen Vorgänge weniger eng verbinden."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ilse zog den Schlüssel ein Stück zurück, drückte mit dem Daumen gegen den Bügel und drehte noch einmal.",
+          "Sie löste die Festmacher und brachte die Fähre in die Strömung.",
+          "Die Klappe setzte mit einem dumpfen Schlag auf."
+        ],
+        "suggestions": [
+          "Die aktive, gegenständliche Darstellung beibehalten. Es gibt keine auffälligen Passivkonstruktionen, die den Ablauf verunklaren oder Handlungsträger verdecken."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie sah die ersten drei Meter der Auffahrt, den weißen Pfosten mit dem roten Ring und ein Stück Wasser, das aussah wie das Blech in ihrer Spüle.",
+          "Die Fahrerin trug ihre Haare noch feucht und hatte den Kragen einer weißen Bluse unter der offenen Jacke eingeklemmt.",
+          "Heute nicht."
+        ],
+        "suggestions": [
+          "Die Mischung aus überschaubaren längeren Sätzen und kurzen Setzungen bewahren. Es gibt keine problematische Verschachtelung.",
+          "Den längeren Wahrnehmungssatz am Anfang nicht allein wegen seiner Länge teilen: Seine Aufzählung bildet das begrenzte Sichtfeld ab. Bei einer Überarbeitung eher den Rhythmus laut prüfen als mechanisch kürzen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Geht das überhaupt?“",
+          "„Bei dem Nebel, mein ich.“",
+          "„Sonst wär der Baum unten.“",
+          "„Im Radio haben sie gesagt, ab Mittag Sonne.“"
+        ],
+        "suggestions": [
+          "Die knappen, alltagsnahen Dialoge beibehalten. Sie vermitteln Beziehungen und Ilses Haltung ohne erklärende Monologe.",
+          "Nur bei einer gezielten Straffung der gesamten Szene den zweiten Wetterdialog kürzen. Sein möglicher Kürzungsbedarf entsteht aus dem Szenentempo, nicht aus überlangen Redebeiträgen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie sah die ersten drei Meter der Auffahrt",
+          "Ilse sah den Weg hinauf. Nichts kam.",
+          "Sie sah es aus dem Augenwinkel und nahm etwas Zug heraus."
+        ],
+        "suggestions": [
+          "Einzelne Wahrnehmungsfilter versuchsweise entfernen: „Ilse sah den Weg hinauf. Nichts kam.“ könnte zu „Den Weg hinauf kam niemand.“ werden. Dabei geht allerdings die ausdrückliche Kontrollhandlung verloren.",
+          "Die Wahrnehmungsverben nicht flächendeckend streichen: Ilses prüfende Blicke gehören zu ihrer Arbeit. Besonders das Sehen aus dem Augenwinkel zeigt, wie sie mehrere Vorgänge überwacht."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag so tief, dass Ilse das andere Ufer nicht sehen konnte.",
+          "Alles dahinter war grau.",
+          "Drei Fahrgäste. Zwei Autos, ein Fahrrad.",
+          "Der Pfosten am Ufer war verschwunden."
+        ],
+        "suggestions": [
+          "Die anfängliche Sichtbegrenzung auf leichte Doppelung prüfen: „Alles dahinter war grau“ wäre nach der konkreten Beschreibung verzichtbar, setzt aber einen wirksamen rhythmischen Abschluss.",
+          "„Drei Fahrgäste. Zwei Autos, ein Fahrrad.“ fasst bereits Gezeigtes zusammen. Streichen, wenn mehr Tempo gewünscht ist; behalten, wenn damit Ilses inneres Kontrollieren vermittelt werden soll.",
+          "Wiederkehrende Motive wie Nebel, Pfosten und abgestellter Becher nicht mit bloßer Redundanz verwechseln: Sie verbinden die Abläufe und machen räumliche beziehungsweise zeitliche Veränderungen sichtbar."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.023578
+}

@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-haiku-5.5__r2",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel lag nicht mehr unter dem Blumentopf mit der vertrockneten Geranie."
+        ],
+        "suggestions": [
+          "Der Einstieg ist hervorragend gewählt; er wirft den Leser direkt in die Handlung und etabliert sofort eine Atmosphäre der Abwesenheit und des Geheimnisses."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vertrockneten Geranie", "kaltem Rauch", "abgewetzten Kragen"],
+        "suggestions": [
+          "Die Adjektive sind sehr präzise und dienen der atmosphärischen Dichte. Keine Kürzung nötig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["»Alles unverändert.«"],
+        "suggestions": ["Vorbildlich gelöst. Es gibt keine überflüssigen Redeeinleitungen."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr präzise und frei von Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ich stand im Flur und ließ die Tür offen"],
+        "suggestions": [
+          "Die Handlungsabfolgen sind klar und logisch strukturiert, ohne unnötige 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Das Wort war zweimal unterstrichen"],
+        "suggestions": [
+          "Das Passiv wird hier sparsam und sinnvoll eingesetzt, um den Fokus auf das Objekt (das Wort) zu lenken."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ich hob den Deckel, und der Duft traf mich so unvermittelt, dass ich mich am Tresen festhalten musste: dunkel, leicht bitter, mit einer Spur von Orange."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind abwechslungsreich und unterstützen den Rhythmus des Textes gut."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Nicht anwendbar, da kein Dialog vorhanden ist."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Ich fragte mich, ob es Tag oder Nacht gewesen war"],
+        "suggestions": [
+          "Könnte direkter gestaltet werden, um den Leser noch tiefer in den Kopf der Figur zu ziehen: 'War es Tag oder Nacht gewesen, als jemand sie zuletzt angehalten hatte?'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ich roch noch einmal, dann noch einmal"],
+        "suggestions": [
+          "Die Wiederholung ist hier ein bewusstes, effektives Stilmittel, um die Ungläubigkeit und das Bedürfnis nach Bestätigung zu unterstreichen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

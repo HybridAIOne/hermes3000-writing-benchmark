@@ -1,0 +1,75 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-opus-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel lag noch dort, wo er vor zwanzig Jahren gelegen hatte"],
+        "suggestions": ["Der Einstieg ist sehr gelungen und setzt direkt bei der Handlung an."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kaltem Kalk", "süßlichem", "unansehnliches Ding"],
+        "suggestions": ["Die Adjektive sind atmosphärisch und wohl dosiert. Keine Änderung nötig."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Drei Wochen, hatte der Notar gesagt."],
+        "suggestions": ["Sehr sparsam und effektiv eingesetzt."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist frei von Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Die Handlungsabfolge ist klar und logisch strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text verwendet fast ausschließlich aktive Verben."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Uhr lief acht Tage. Ihre Mutter hatte sie jeden Sonntag nach dem Abendessen aufgezogen..."
+        ],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut lesbar."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Dialoge sind kurz, prägnant und treiben die Handlung voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ines ärgerte sich darüber, dass sie es gewusst hatte"],
+        "suggestions": [
+          "Könnte noch direkter formuliert werden, z.B.: 'Ines ärgerte sich. Sie hatte es gewusst, ohne nachzudenken.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine inhaltlichen Doppelungen erkennbar."]
+      }
+    }
+  },
+  "costUsd": 0
+}

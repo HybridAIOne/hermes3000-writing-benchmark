@@ -1,0 +1,138 @@
+{
+  "who": "sol",
+  "item": "lit-continue__claude-opus-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Er läuft\", sagte Ilse.",
+          "„Er läuft, weil du ihn jeden Morgen anbrüllst.\""
+        ],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Der Dialog etabliert Vertrautheit und Spannung, ohne Vorgeschichte vorzuschalten.",
+          "Nicht später einsetzen. Jonas’ anschließender Vergleich mit einem Traktor macht den zunächst offenen Bezug ausreichend verständlich."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "das leise Singen des Seils",
+          "Seine Schuhe waren hell, aus einem weichen Leder, das die Nässe schon dunkel fleckte.",
+          "Das Metall war kalt und glatt gegriffen"
+        ],
+        "suggestions": [
+          "Die sinnlich und funktional eingesetzten Attribute überwiegend erhalten: Schuhe und Gashebel erzählen zugleich von Figuren und Lebensumständen.",
+          "Bei „aus einem weichen Leder“ prüfen, ob „aus weichem Leder“ genügt. „Leise“ könnte entfallen, da „Singen des Seils“ bereits ein zurückhaltendes Geräusch nahelegt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Er läuft\", sagte Ilse.",
+          "„Ich hab angerufen\", sagte Jonas. „Dreimal.\"",
+          "„Die Stiefel von deinem Vater stehen im Flur\", sagte sie."
+        ],
+        "suggestions": [
+          "Die erste Sprecherzuordnung beibehalten; sie orientiert zuverlässig.",
+          "Am Schluss ist „sagte sie“ entbehrlich, weil unmittelbar zuvor Ilse handelt. Möglich: „Ilse nahm die Hand vom Gashebel. ‚Die Stiefel von deinem Vater stehen im Flur. Größe vierundvierzig.‘“"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "und irgendwo drüben im Weidengebüsch verschwand",
+          "und meistens stieg da sowieso keiner aus",
+          "war der Lack ganz weg",
+          "„Ein paar Tage. Kommt drauf an.\""
+        ],
+        "suggestions": [
+          "„Da sowieso“ auf seinen Beitrag zur Figurenstimme prüfen; sachlich genügt „und meistens stieg keiner aus“.",
+          "„Ganz weg“ lässt sich präzisieren: „An der Stelle, wo Hennings Daumen dreißig Jahre lang gelegen hatte, fehlte der Lack.“",
+          "Die unbestimmte Aufenthaltsdauer im Dialog erhalten: „Ein paar Tage“ charakterisiert Jonas’ ausweichende Antwort und ist kein bloßes Füllwort."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ein Wagen mit Lüneburger Kennzeichen rollte von der Rampe, der Fahrer hob zwei Finger vom Lenkrad, sie nickte zurück.",
+          "Er zog den Koffer ein Stück näher an die Kante, als wolle er an Bord kommen, und blieb dann doch stehen."
+        ],
+        "suggestions": [
+          "Die überwiegend klaren Handlungsfolgen beibehalten; übermäßige Gleichzeitigkeit liegt nicht vor.",
+          "„Als wolle er“ nicht als zeitliche Verknüpfung behandeln: Die Wendung vermittelt hier eine vermutete Absicht und unterstützt Jonas’ Zögern."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["wenn er beim Lügen erwischt worden war"],
+        "suggestions": [
+          "Optional aktiv formulieren: „wenn ihn jemand beim Lügen erwischt hatte“.",
+          "Die vorhandene Passivform kann bleiben, wenn der Fokus auf Jonas’ Reaktion liegen soll. Ein systematisches Passivproblem besteht nicht."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Jonas lächelte, aber nur mit dem Mund, so wie er es als Junge getan hatte, wenn er beim Lügen erwischt worden war und es trotzdem weiter versuchen wollte.",
+          "Sie dachte an das Bett im Giebelzimmer, das sie nicht bezogen hatte, an den Kühlschrank mit dem halben Brot und den drei Eiern, an Hennings Gummistiefel, die noch immer neben der Tür standen, weil sie nicht wusste, wohin damit."
+        ],
+        "suggestions": [
+          "Den ersten Rückblick straffen: „Jonas lächelte, aber nur mit dem Mund. So hatte er schon als Junge gelächelt, wenn er beim Lügen ertappt worden war und trotzdem nicht aufgab.“",
+          "Die lange Gedankenaufzählung nur bei Bedarf teilen. Ihr anschwellender Rhythmus vermittelt Ilses Überforderung; ein eigener Satz für Hennings Stiefel würde dagegen deren Bedeutung stärker hervorheben."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ich hab angerufen\", sagte Jonas. „Dreimal.\"",
+          "„Das Telefon ist im Haus.\"",
+          "„Ich weiß, wo das Telefon ist, Mama.\""
+        ],
+        "suggestions": [
+          "Die kurzen, ausweichenden Repliken beibehalten. Sie tragen den Konflikt, ohne ihn auszuerklären.",
+          "Keine weitere Straffung nötig: Auch die längeren Äußerungen bleiben knapp und erfüllen jeweils eine erkennbare Funktion."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Ilse wusste, dass das etwas bedeutete, und sie wusste auch, dass sie es nicht wissen wollte.",
+          "Sie dachte an das Bett im Giebelzimmer",
+          "man sah es an der Art, wie er die Zehen hob"
+        ],
+        "suggestions": [
+          "Die Bedeutung von Jonas’ Besuch unmittelbarer formulieren: „Das bedeutete etwas. Ilse wollte nicht wissen, was.“ Die bewusste Verdrängung bleibt dabei erhalten.",
+          "Die Gedankenbilder ohne vorgeschalteten Denkakt erproben: „Das Bett im Giebelzimmer war nicht bezogen. Im Kühlschrank lagen ein halbes Brot und drei Eier.“",
+          "„Man sah es“ streichen und die körperliche Reaktion direkt zeigen: „Jonas hob die Zehen. Das Wasser war durch das Leder bis an seine Knöchel gedrungen.“"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Henning hätte etwas dazu gesagt. Henning hätte überhaupt etwas gesagt",
+          "Ilse wusste, dass das etwas bedeutete, und sie wusste auch, dass sie es nicht wissen wollte.",
+          "„Das Telefon ist im Haus.\" / „Ich weiß, wo das Telefon ist, Mama.\""
+        ],
+        "suggestions": [
+          "Die Henning-Wiederholung erhalten: Sie steigert die konkrete Erinnerung zur allgemeinen Erfahrung seiner Abwesenheit.",
+          "Die doppelte Wissensformulierung ist der deutlichste Straffungskandidat; Bedeutung und Abwehr lassen sich in zwei kurzen Sätzen gegenüberstellen.",
+          "Die Wiederholung von „Telefon“ im Dialog beibehalten. Jonas greift Ilses Ausflucht auf und macht dadurch den unausgesprochenen Konflikt hörbar."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021058
+}

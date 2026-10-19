@@ -1,0 +1,103 @@
+{
+  "who": "hermes",
+  "item": "anchor__schnitzler-casanovas-heimfahrt-900",
+  "run": 3,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "In seinem dreiundfünfzigsten Lebensjahre... fühlte er in seiner Seele das Heimweh..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr expositorisch und langsam. Man könnte direkt mit dem Moment der Unruhe oder der Entscheidung zur Abreise beginnen, um den Leser sofort in die Handlung zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "luftigen Höhen",
+          "schmerzliches Sehnen",
+          "echte Reue",
+          "gottlosen Franzosen",
+          "vernichtenden Satz"
+        ],
+        "suggestions": [
+          "Viele Adjektive dienen der Atmosphäre, schwächen aber die Dynamik. Streichen Sie schmückende Adjektive und setzen Sie stattdessen stärkere, aktivere Verben ein."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Da kaum Dialoge vorhanden sind, ist dies kein Problem. Der Text konzentriert sich auf den inneren Monolog."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["übrigens", "wohl", "ja sogar"],
+        "suggestions": [
+          "Füllwörter wie 'wohl' oder 'übrigens' glätten den Text zwar, nehmen ihm aber die Schärfe. Konsequent streichen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "während er für einen vernichtenden... Satz die letzte Abrundung zu finden sich mühte"
+        ],
+        "suggestions": [
+          "Vermeiden Sie 'während'-Konstruktionen. Beschreiben Sie Handlungen nacheinander, um die Spannung und Klarheit zu erhöhen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["von der Ruhelosigkeit... gejagt wurde", "Gesuche gerichtet"],
+        "suggestions": [
+          "Formulieren Sie Passivkonstruktionen in Aktiv um. Statt 'wurde gejagt' besser: 'Die Ruhelosigkeit jagte ihn'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Der gesamte Text besteht aus extrem langen, verschachtelten Sätzen mit zahlreichen Nebensätzen."
+        ],
+        "suggestions": [
+          "Die Sätze sind für moderne Lesegewohnheiten zu komplex. Zerlegen Sie die Schachtelsätze in kürzere, prägnantere Hauptsätze."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher kein Optimierungsbedarf."]
+      },
+      "indirectPerception": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": ["er glaubte", "schien sich... auszusprechen", "wie ihm dünkte", "er wußte"],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter. Zeigen Sie die Wahrnehmung direkt, statt sie durch 'er glaubte' oder 'ihm dünkte' zu distanzieren."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Die Beschreibung seines Zustands (Alter, Unruhe, Vergangenheit) wird mehrfach in verschiedenen Sätzen umschrieben."
+        ],
+        "suggestions": [
+          "Fokussieren Sie die Informationen. Einmalige, präzise Nennung reicht aus, um den Charakter zu etablieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

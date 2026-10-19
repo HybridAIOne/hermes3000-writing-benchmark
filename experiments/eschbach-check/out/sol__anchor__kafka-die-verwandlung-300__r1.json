@@ -1,0 +1,144 @@
+{
+  "who": "sol",
+  "item": "anchor__kafka-die-verwandlung-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Er setzt unmittelbar bei der zentralen Veränderung ein, ohne vorgeschaltete Vorgeschichte.",
+          "Ein späterer Beginn würde die unmittelbare Entdeckung der Verwandlung abschwächen; eine Kürzung ist hier nicht nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch",
+          "Seine vielen, im Vergleich zu seinem sonstigen Umfang kläglich dünnen Beine flimmerten ihm hilflos vor den Augen.",
+          "einen noch nie gefühlten, leichten, dumpfen Schmerz"
+        ],
+        "suggestions": [
+          "Bei einer Straffung zuerst beschreibende Häufungen prüfen, etwa: „Sein brauner Bauch war gewölbt und durch bogenförmige Versteifungen gegliedert.“",
+          "„kläglich“ und „hilflos“ auf ihre unterschiedlichen Funktionen prüfen; für eine knappere Fassung könnte eines entfallen.",
+          "Nicht pauschal alle Attribute streichen: Die genaue Körperbeschreibung trägt wesentlich zur befremdlichen Wirkung bei."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "»Was ist mit mir geschehen?« dachte er.",
+          "»Wie wäre es, wenn ich noch ein wenig weiterschliefe und alle Narrheiten vergäße,« dachte er"
+        ],
+        "suggestions": [
+          "Die Gedankenkennzeichnung beim ersten Auftreten beibehalten, wenn ausdrücklich zwischen Denken und Sprechen unterschieden werden soll.",
+          "Das zweite „dachte er“ könnte bei eindeutig etablierter Gedankenwiedergabe entfallen. Eine störende Häufung liegt jedoch nicht vor."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "wenn er den Kopf ein wenig hob",
+          "ein richtiges, nur etwas zu kleines Menschenzimmer",
+          "machte ihn ganz melancholisch",
+          "Er versuchte es wohl hundertmal"
+        ],
+        "suggestions": [
+          "„ganz melancholisch“ versuchsweise zu „melancholisch“ kürzen.",
+          "„ein wenig hob“ könnte knapper „anhob“ heißen.",
+          "„wohl hundertmal“ nicht als bloße Ungenauigkeit behandeln: Die Formulierung vermittelt subjektive Übertreibung. Auch „richtiges“ und „etwas“ stützen hier den beschwichtigenden Erzählton."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte",
+          "und sah, wenn er den Kopf ein wenig hob",
+          "und ließ erst ab, als er in der Seite einen noch nie gefühlten, leichten, dumpfen Schmerz zu fühlen begann"
+        ],
+        "suggestions": [
+          "Keine systematische Überarbeitung nötig: „als“ und „wenn“ markieren hier sinnvolle zeitliche beziehungsweise bedingende Beziehungen.",
+          "Die verschachtelte Kopfbewegung ließe sich entzerren: „Er hob den Kopf ein wenig. Sein Bauch war gewölbt …“ Dabei ginge allerdings der bedingende Sinn des Originals teilweise verloren.",
+          "Die letzte Handlungskette bei Bedarf in Versuch, Schmerzbeginn und Abbruch gliedern."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war",
+          "fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt"
+        ],
+        "suggestions": [
+          "Die zustandsbezogene Formulierung „ausgebreitet war“ könnte aktiver und knapper lauten: „Auf dem Tisch lag eine ausgepackte Musterkollektion von Tuchwaren.“",
+          "„fand er sich … verwandelt“ ist kein gewöhnlicher Vorgangspassivsatz. Die Formulierung beibehalten, weil sie den unerklärlichen Zustand ohne handelnden Verursacher treffend vermittelt."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Er lag auf seinem panzerartig harten Rücken und sah, wenn er den Kopf ein wenig hob, seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch, auf dessen Höhe sich die Bettdecke, zum gänzlichen Niedergleiten bereit, kaum noch erhalten konnte.",
+          "Über dem Tisch, auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war -- Samsa war Reisender --, hing das Bild, das er vor kurzem aus einer illustrierten Zeitschrift ausgeschnitten und in einem hübschen, vergoldeten Rahmen untergebracht hatte.",
+          "»Wie wäre es, wenn ich noch ein wenig weiterschliefe und alle Narrheiten vergäße,« dachte er, aber das war gänzlich undurchführbar, denn er war gewöhnt, auf der rechten Seite zu schlafen, konnte sich aber in seinem gegenwärtigen Zustand nicht in diese Lage bringen."
+        ],
+        "suggestions": [
+          "Den Satz über den Bauch nach dessen Beschreibung teilen und die rutschende Bettdecke in einen eigenen Satz auslagern.",
+          "Beruf, Musterkollektion und Bild auf mehrere Sätze verteilen: „Samsa war Reisender. Auf dem Tisch lag eine ausgepackte Musterkollektion von Tuchwaren. Darüber hing ein Bild …“",
+          "Den Schlafwunsch von seiner praktischen Unmöglichkeit trennen. Die langen Satzbewegungen jedoch dort bewahren, wo sie Gregors umständliches, beschwichtigendes Denken nachbilden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "»Was ist mit mir geschehen?«",
+          "»Wie wäre es, wenn ich noch ein wenig weiterschliefe und alle Narrheiten vergäße,«"
+        ],
+        "suggestions": [
+          "Keine Kürzung erforderlich: Der Ausschnitt enthält keine eigentlichen Dialoge, sondern zwei kurze direkte Gedanken.",
+          "Die Länge des anschließenden Erzählsatzes getrennt von der Länge der Gedankenrede beurteilen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "und sah, wenn er den Kopf ein wenig hob, seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch",
+          "Gregors Blick richtete sich dann zum Fenster",
+          "man hörte Regentropfen auf das Fensterblech aufschlagen",
+          "einen noch nie gefühlten, leichten, dumpfen Schmerz zu fühlen begann"
+        ],
+        "suggestions": [
+          "Die Regenwahrnehmung direkter formulieren: „Regentropfen schlugen auf das Fensterblech.“",
+          "Den Schmerz ohne Wahrnehmungsfilter darstellen: „Ein ungewohnter, dumpfer Schmerz setzte in seiner Seite ein.“",
+          "„sah“ und die Blickbewegung nicht automatisch streichen: Sie erklären hier auch, wie Gregor seinen veränderten Körper und seine Umgebung erkundet."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "einen noch nie gefühlten, leichten, dumpfen Schmerz zu fühlen begann",
+          "denn er war gewöhnt, auf der rechten Seite zu schlafen, konnte sich aber in seinem gegenwärtigen Zustand nicht in diese Lage bringen. Mit welcher Kraft er sich auch auf die rechte Seite warf, immer wieder schaukelte er in die Rückenlage zurück.",
+          "Mit welcher Kraft er sich auch auf die rechte Seite warf, immer wieder schaukelte er in die Rückenlage zurück. Er versuchte es wohl hundertmal"
+        ],
+        "suggestions": [
+          "Die unmittelbare Wortwiederholung „gefühlten … zu fühlen“ beseitigen, etwa durch „ein ungewohnter, leichter, dumpfer Schmerz setzte ein“.",
+          "Die zunächst erklärte und anschließend vorgeführte Unfähigkeit zur Seitenlage enger verbinden: „Er schlief gewöhnlich auf der rechten Seite. Doch sooft er sich darauf warf, schaukelte er zurück.“",
+          "„wohl hundertmal“ nur streichen, wenn maximale Knappheit angestrebt wird: Die erneute Betonung macht zugleich Gregors beharrliche Verdrängung anschaulich."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.023556
+}

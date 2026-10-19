@@ -1,0 +1,133 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "[Ein Café. Mara sitzt am Fenster. Jonas bleibt neben dem freien Stuhl stehen.]",
+          "„Ist hier noch frei?“ / „Deine Jacke liegt schon drauf.“"
+        ],
+        "suggestions": [
+          "Der Einstieg sitzt: Die Szene beginnt mitten in der Begegnung. Begrüßung, Ankunft und Vorgeschichte fehlen bewusst, und die erste Replik etabliert sofort Spannung und Vertrautheit.",
+          "Die einleitende Regieanweisung ließe sich auf ‚Ein Café. Mara am Fenster.‘ kürzen. Jonas' Position ergibt sich aus seiner ersten Frage."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„neben dem freien Stuhl“: Das Adjektiv widerspricht der folgenden Replik „Deine Jacke liegt schon drauf.“",
+          "„Du kommst noch immer zu früh.“",
+          "„Dein Kaffee ist noch heiß.“"
+        ],
+        "suggestions": [
+          "‚freien‘ streichen oder durch ‚neben dem Stuhl gegenüber‘ ersetzen. So bleibt die Pointe mit der Jacke unverdorben, und der Widerspruch verschwindet.",
+          "Die übrigen Adjektive (‚kalt‘, ‚heiß‘) tragen Bedeutung und Subtext. Sie sollten bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ohne Zucker?“, fragt Mara.",
+          "„Weißt du noch, der See hinter der Schule?“, fragt Jonas."
+        ],
+        "suggestions": [
+          "‚fragt Mara‘ ist entbehrlich. Nach der Bestellung durch Jonas ist klar, wer nachfragt. Alternativ ersetzt eine Geste die Kennzeichnung: ‚Mara hebt den Blick. „Ohne Zucker?“‘",
+          "‚fragt Jonas‘ ist sinnvoll gesetzt, weil der Leser im langen Wechsel kurzer Repliken die Orientierung verlieren kann. Noch eleganter wäre eine kurze Handlung als Anker: ‚Jonas dreht die Tasse. „Weißt du noch …“‘",
+          "Bei Passagen wie „Du müsstest los.“ / „Der nächste kommt …“ prüfen, ob die Sprecherzuordnung eindeutig bleibt. Gegebenenfalls eine Regieanweisung als Orientierung einfügen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ist hier noch frei?“",
+          "„Du kommst noch immer zu früh.“ / „Du noch immer genau dann …“",
+          "„Der hier geht noch.“",
+          "„Dein Kaffee ist noch heiß.“",
+          "„Dass du viel zu tun hast.“"
+        ],
+        "suggestions": [
+          "‚noch‘ kommt sehr häufig vor. In der Figurenrede ist es natürlich und thematisch passend (Fortbestehen, Übriggebliebenes). Prüfen, ob es in der Schlussreplik wirken soll, und es dafür an ein bis zwei früheren Stellen streichen, z. B. ‚Der hier geht.‘",
+          "‚viel zu tun‘ ist als bewusst vage Ausrede der Figur gerechtfertigt und sollte bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„[Er greift nach der Tasse, lässt sie stehen.]“",
+          "„[Er nimmt die Jacke, setzt sich.]“"
+        ],
+        "suggestions": [
+          "Keine Änderung nötig. Handlungen werden konsequent nacheinander erzählt, ohne ‚während‘ oder ‚gleichzeitig‘."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Der ist jetzt eingezäunt.“ (Zustandspassiv, in der Figurenrede natürlich)",
+          "„Den könnte man durchstreichen.“ (man-Konstruktion als bewusste Distanzierung)"
+        ],
+        "suggestions": [
+          "Keine Änderung nötig. Beide Formen sind Figurensprache und transportieren Subtext. Das unpersönliche ‚man‘ zeigt Jonas' Ausweichen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Du noch immer genau dann, wenn der Kaffee kalt wird.“ (längster Satz, gut verständlich)",
+          "„[Die Bedienung stellt den Kaffee hin. Beide rücken ihre Tassen zurecht.]“"
+        ],
+        "suggestions": [
+          "Keine Schachtelsätze vorhanden. Allenfalls auf Monotonie achten: Durchgehend kurze Sätze können ermüden. Eine einzelne etwas längere Regieanweisung an einer Schlüsselstelle (z. B. beim Bus) könnte Rhythmus und Atempause schaffen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ohne Zucker?“ / „Inzwischen.“ / „Ach.“ / „Manches gewöhnt man sich ab.“",
+          "„Du hast früher keinen verpasst.“ / „Du hast früher gewartet.“"
+        ],
+        "suggestions": [
+          "Die Repliken sind knapp und subtextreich. Die Szene besteht jedoch fast ausschließlich aus Dialog. Die Regieanweisungen sind gut platziert, ein bis zwei weitere stumme Momente (Blick, Geste) zwischen den längsten Wechselserien würden den Ping-Pong-Rhythmus aber auflockern.",
+          "‚Ach.‘ prüfen: Es funktioniert als Reaktion, ließe sich aber durch die Geste mit der Zuckerdose ersetzen, die ohnehin folgt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„[Draußen hält ein Bus. Mara sieht ihm nach.]“",
+          "„[Mara schiebt die Zuckerdose zur Tischkante.]“"
+        ],
+        "suggestions": [
+          "Keine Änderung nötig. Gefühle werden ausschließlich über Handlung und Dialog gezeigt, nie behauptet. Vorbildliches Show, don't tell."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Wir sind früher auch über Zäune gekommen.“ / „Früher hast du mich aufgefangen.“ / „Du hast früher keinen verpasst.“ / „Du hast früher gewartet.“",
+          "„Du kommst noch immer zu früh.“ / „Du noch immer genau dann …“",
+          "„Er nimmt die Jacke“ / „Jonas zieht seine Jacke von der Stuhllehne“ / „Er legt die Jacke wieder hin“"
+        ],
+        "suggestions": [
+          "‚früher‘ fällt viermal auf engem Raum. Die Parallelität ist als Stilmittel wirksam, verliert durch die Häufung aber an Wucht. Einmal streichen, z. B. ‚Wir sind auch über Zäune gekommen.‘, damit das spätere Duell der beiden ‚früher‘-Repliken stärker trifft.",
+          "Die Motive Jacke und Zuckerdose sind gelungene Klammern. Für die Kontinuität ergänzen, wohin Jonas die Jacke nach dem Hinsetzen legt (‚hängt sie über die Lehne‘), damit ‚zieht seine Jacke von der Stuhllehne‘ nachvollziehbar bleibt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.098188
+}

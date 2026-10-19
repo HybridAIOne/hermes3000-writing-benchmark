@@ -1,0 +1,123 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__claude-sonnet-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Er läuft\", sagte Ilse.",
+          "„Er läuft schlecht. Ich hab ihn vom Ufer aus gehört.\""
+        ],
+        "suggestions": [
+          "Perfekter Einstieg 'in medias res'. Keine Änderung nötig. Der Leser ist sofort im Geschehen und die Beziehung der Figuren wird direkt durch den Konflikt (der Zustand der Fähre) etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Jonas lachte kurz, ohne den Mund dabei richtig zu bewegen.",
+          "Das leise Klirren der Kette"
+        ],
+        "suggestions": [
+          "Sehr präziser und sparsamer Einsatz. Lediglich 'richtig' in 'ohne den Mund dabei richtig zu bewegen' ist etwas vage und könnte gestrichen werden: 'ohne den Mund dabei zu bewegen' oder 'kaum dass sich sein Mund bewegte'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Du hättest anrufen können\", sagte sie.",
+          "„Die Fähre fährt in zehn Minuten wieder\", sagte sie."
+        ],
+        "suggestions": [
+          "Die Dialogkennzeichnungen sind unauffällig ('sagte sie'), aber an zwei Stellen durch den Kontext oder die vorhergehende Handlung entbehrlich.",
+          "Am Ende könnte 'sagte sie' gestrichen werden, da Ilse im Satz zuvor bereits die Handelnde ist: 'Ilse bückte sich [...] zu ihm gedreht. „Die Fähre fährt in zehn Minuten wieder. Wenn du mitwillst, zieh die an.“'"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "oder vielleicht sah er nur anders aus",
+          "Dann ist er kaputt. Das weiß ich dann ja.",
+          "irgendwann nicht mehr hatte abstellen wollen"
+        ],
+        "suggestions": [
+          "Der Text ist fast frei von Füllwörtern. Im Dialog ('dann ja') charakterisiert es wunderbar die Sprecherin.",
+          "Das 'vielleicht' in der personalen Perspektive von Ilse zeigt ihre Unsicherheit beim Betrachten des Sohnes, ist also funktional. Dennoch könnte man prüfen, ob 'oder er sah nur anders aus' noch stärker wirkt."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie ging an ihm vorbei zum Steuerhaus, hakte die Kette an der Rampe ein, prüfte sie mit dem Fuß.",
+          "Ilse bückte sich, nahm die Stiefel am Schaft und stellte sie auf die Bohlen vor ihn"
+        ],
+        "suggestions": [
+          "Hervorragend gelöst. Es gibt keine künstlichen Gleichzeitigkeiten mit 'während' oder 'indem'. Alle Handlungen sind sauber und chronologisch nacheinander gereiht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["als wären sie abgeschnitten", "der nicht für Bohlen gemacht war"],
+        "suggestions": [
+          "Keine echten Passivkonstruktionen vorhanden, die Handlung verschleiern. Die beiden Zustandspassive sind rein beschreibend und stilistisch absolut passend."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas trat einen Schritt zur Seite, weil ein Radfahrer mit seinem Rad über die Rampe schob, und der Koffer folgte ihm mit einem Rattern, das über das Wasser hinweg zu laut war."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind insgesamt sehr rhythmisch und dem ruhigen Tempo der Szene angepasst.",
+          "Der Satz im ersten Absatz koppelt zwei verschiedene Subjekte (Jonas/Radfahrer und der Koffer) etwas unglücklich mit 'und'. Vorschlag zur Teilung: 'Jonas trat einen Schritt zur Seite, weil ein Radfahrer sein Rad über die Rampe schob. Jonas' Koffer folgte ihm mit einem Rattern, das über das Wasser hinweg zu laut war.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Und wenn Notfall ist?\"\n„Dann ist er kaputt. Das weiß ich dann ja.\"",
+          "„Du hättest anrufen können\", sagte sie.\n„Du hättest abgenommen?\""
+        ],
+        "suggestions": [
+          "Meisterhaft verknappte Dialoge. Jedes Wort sitzt, der Subtext ist spürbar, die norddeutsche/lakonische Wortkargheit trägt die gesamte Atmosphäre."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Man sah die Pappeln dort nur bis zur Hälfte, als wären sie abgeschnitten.",
+          "Ilse kannte jedes Geräusch, das dieses Zusammenspiel machte."
+        ],
+        "suggestions": [
+          "Das unpersönliche 'Man sah' schafft eine unnötige Distanz zur Perspektivträgerin Ilse. Besser direkt darstellen: 'Die Pappeln dort ragten nur bis zur Hälfte aus dem Dunst, als wären sie abgeschnitten.'",
+          "Statt zu erklären, dass sie jedes Geräusch 'kannte', könnte man es noch direkter über die Geräusche selbst lösen, auch wenn die aktuelle Fassung als Überleitung zur Erinnerung an Henning gut funktioniert."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "ein Radfahrer mit seinem Rad",
+          "Das leise Klirren der Kette [...] nie hatte abstellen können und irgendwann nicht mehr hatte abstellen wollen."
+        ],
+        "suggestions": [
+          "Inhaltlich gibt es keinerlei Redundanzen. Stilistische Wortwiederholungen ('Er läuft', 'hatte abstellen können/wollen', 'Sie hatte sie...') werden gezielt und sehr kunstvoll als rhetorische Mittel (Anapher/Parallelismus) eingesetzt.",
+          "Lediglich 'ein Radfahrer mit seinem Rad' im ersten Absatz ist ein kleiner Pleonasmus. Besser: 'weil ein Mann sein Rad über die Rampe schob' oder 'weil ein Radfahrer über die Rampe schob'."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018774
+}

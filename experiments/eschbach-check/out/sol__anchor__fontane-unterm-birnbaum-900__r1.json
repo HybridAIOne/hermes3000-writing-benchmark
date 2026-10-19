@@ -1,0 +1,156 @@
+{
+  "who": "sol",
+  "item": "anchor__fontane-unterm-birnbaum-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus und Materialwaarengeschäft von Abel Hradscheck",
+          "Und das alles war sein! Aber wie lange noch?"
+        ],
+        "suggestions": [
+          "Für einen spannungsorientierten Einstieg mit Hradschecks Gang durch den Garten und seiner Sorge um den Besitz beginnen. Geschäft, Ort und wirtschaftliche Verbindungen anschließend gezielt nachreichen.",
+          "Alternativ die Verladung als Einstieg behalten, aber Ortsgeschichte und Wegbeschreibung kürzen. Der gegenwärtige Beginn etabliert das Milieu; ein späterer Einstieg wäre daher nicht völlig ohne Wirkungsverlust."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "in dem großen und reichen Oderbruchdorfe",
+          "eine schwarzgelbe, der nebenanwohnenden Wittwe Jeschke zugehörige Katze",
+          "eine große, durch ihre Schwere und Reife sich von selbst ablösende Malvasierbirne",
+          "halb ärgerlich halb lachend"
+        ],
+        "suggestions": [
+          "Attributketten auflösen: „Die schwarzgelbe Katze der Witwe Jeschke schlich durch die Spargelbeete.“",
+          "Den Birnenfall durch ein Verb statt durch eine erklärende Attributgruppe darstellen: „Eine reife Malvasierbirne löste sich vom Ast und klatschte ins Möhrenbeet.“",
+          "Charakterisierende Angaben wie „halb ärgerlich halb lachend“ nicht pauschal streichen; sie vermitteln Hradschecks widersprüchliche Haltung."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "und sagte zu dem eben vom Rad her auf die Deichsel steigenden Knecht",
+          "»Ja, Mutter Jeschke, 's wird Zeit,« sagte Hradscheck.",
+          "»Na, Se hebben joa doch den Jungen, den Ede.«"
+        ],
+        "suggestions": [
+          "Die erste Sprecherzuordnung beibehalten, aber die begleitende Bewegungsbeschreibung vereinfachen.",
+          "Im Gespräch am Gartenzaun kann „sagte Hradscheck“ entfallen, weil der Sprecherwechsel eindeutig ist.",
+          "Die bereits sparsame Kennzeichnung fortsetzen; der letzte Sprecherwechsel funktioniert ohne Redeeinleitung."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Einige von den Säcken",
+          "und so sah man denn",
+          "Seitdem zeigte dieser Vorflur eine gewisse Herrschaftlichkeit",
+          "muthmaßlich auf der Sperlingssuche"
+        ],
+        "suggestions": [
+          "„Eine gewisse Herrschaftlichkeit“ konkretisieren oder zu „herrschaftlich“ verdichten.",
+          "„Und so sah man denn“ durch eine unmittelbare Beschreibung ersetzen: „Raps rieselte aus den undichten Säcken.“",
+          "„Muthmaßlich auf der Sperlingssuche“ streichen, wenn die Vermutung für die Szene keine Bedeutung hat.",
+          "Unbestimmte Mengenangaben wie „einige“ nur präzisieren, wenn die genaue Menge tatsächlich relevant ist; keine beliebigen Zahlen ergänzen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "während der nach dem Garten hinausführende Hinterflur ganz dem Geschäft gehörte",
+          "während an der andern übereinandergeschichtete Fässer lagen",
+          "hatte die Birne kaum aufgehoben, als er sich von der Seite her angerufen hörte"
+        ],
+        "suggestions": [
+          "Die beiden „während“-Konstruktionen beschreiben überwiegend räumliche Gegensätze, keine problematische Gleichzeitigkeit. Bei Bedarf durch „dagegen“ oder getrennte Sätze ersetzen.",
+          "Die zeitliche Verknüpfung beim Aufheben der Birne beibehalten: Sie verbindet Hradschecks Handlung sinnvoll mit der Unterbrechung durch die Nachbarin.",
+          "Nur dort stärker sequenzieren, wo mehrere Wahrnehmungen und Bewegungen in einem Satz ineinandergeschoben werden."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "wurden Säcke, vom Hausflur her, auf einen mit zwei magern Schimmeln bespannten Bauerwagen geladen",
+          "die durch ein paar Holzsäulen und zwei dazwischen ausgespannte Hängematten von einander getrennt waren",
+          "deren stattliche Reihe nur durch eine zum Keller hinunterführende Fallthür unterbrochen war"
+        ],
+        "suggestions": [
+          "Die einleitende Passivkonstruktion vereinfachen. Eine aktive Fassung bietet sich an, sofern feststeht, wer die Säcke lädt; keinen Handelnden bloß zur Passivvermeidung erfinden.",
+          "Die Raumbeschreibung aktivieren: „Holzsäulen und zwei dazwischen ausgespannte Hängematten teilten den Flur.“",
+          "Zustandsbeschreibungen nicht mechanisch umformen: Bei Fässern und Falltür steht die räumliche Anordnung zu Recht im Mittelpunkt."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus und Materialwaarengeschäft von Abel Hradscheck (so stand auf einem über der Thür angebrachten Schilde) wurden Säcke, vom Hausflur her, auf einen mit zwei magern Schimmeln bespannten Bauerwagen geladen.",
+          "Ein paar Möhrenbeete, die sich, sammt einem schmalen mit Kartoffeln besetzten Ackerstreifen, an eben dieser Stelle durch eine Spargel-Anlage hinzogen, waren schon wieder umgegraben, eine frische Luft ging, und eine schwarzgelbe, der nebenanwohnenden Wittwe Jeschke zugehörige Katze schlich, muthmaßlich auf der Sperlingssuche, durch die schon hoch in Samen stehenden Spargelbeete."
+        ],
+        "suggestions": [
+          "Den ersten Satz in Handlung, Geschäftsvorstellung und Ortsinformation aufteilen. Das Prädikat sollte früher erreichbar sein.",
+          "Die Gartenbeschreibung in drei Einheiten gliedern: Lage der Beete, herbstliche Luft, Bewegung der Katze.",
+          "Nicht sämtliche langen Sätze kürzen: Der ruhige Erzählrhythmus trägt das Milieu. Vor allem mehrfach eingebettete Attribute und Einschübe entflechten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Und nun vorwärts, Jakob, und grüße mir Ölmüller Quaas.",
+          "Du weißt ja Bescheid. Und weißt auch, Kätzchen hält auf Komplimente.",
+          "Aber man hat ja keinen Menschen und muß alles selbst machen."
+        ],
+        "suggestions": [
+          "Die kurzen Wechsel mit Jeschke beibehalten: Sie führen ohne ausgedehnte Erklärung zu ihrem Hinweis auf Ede.",
+          "Hradschecks Anweisungen an Jakob allenfalls leicht straffen. Die Mischung aus Geschäftlichem und Vertraulichkeit charakterisiert ihn.",
+          "„Du weißt ja Bescheid“ wäre verzichtbar, wenn die erste Rede kompakter werden soll."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "und so sah man denn an dem, was herausfiel, daß es Rapssäcke waren",
+          "als er sich von der Seite her angerufen hörte",
+          "Er wandte sich bei diesem Anruf und sah, daß seine Nachbarin, die Jeschke, deren kleines, etwas zurückgebautes Haus den Blick auf seinen Garten hatte, von drüben her über den Himbeerzaun kuckte."
+        ],
+        "suggestions": [
+          "Die Säcke unmittelbar beschreiben: „Aus den Löchern rieselte Raps.“",
+          "Den Anruf direkt einführen: „Da rief jemand vom Nachbargarten her:“",
+          "Die Nachbarin ohne Wahrnehmungsfilter zeigen: „Er wandte sich um. Über den Himbeerzaun kuckte seine Nachbarin Jeschke.“ Die Lage ihres Hauses bei Bedarf gesondert erläutern.",
+          "Gezielte Wahrnehmungshandlungen wie Hradschecks Nachblicken hinter dem Wagen erhalten, wenn sie sein Verhalten zeigen."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "So war der Flur.",
+          "Er ging vielmehr rechnend und wägend",
+          "kam erst zu Betrachtung und Bewußtsein",
+          "Er sann ängstlich nach und fuhr aus seinem Sinnen erst auf",
+          "Säcke, Citronen- und Apfelsinenkisten",
+          "zwischen den Kisten und Ölfässern"
+        ],
+        "suggestions": [
+          "„So war der Flur“ als bloße Zusammenfassung streichen, sofern die bewusst gesetzte Erzählerzäsur nicht gewünscht ist.",
+          "Die mehrfach benannte gedankliche Versunkenheit verdichten: einmal Hradschecks Grübeln zeigen und anschließend die konkrete Sorge um seinen Besitz formulieren.",
+          "Die erneute Nennung von Kisten und Fässern beim Gang durch den Flur kürzen, wenn die räumliche Orientierung bereits klar ist.",
+          "Wiederkehrende Gegenstände wie Falltür und Birnbaum nicht vorschnell als Redundanz behandeln: Ihre Hervorhebung kann erzählerisch vorbereitend wirken."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.027478
+}

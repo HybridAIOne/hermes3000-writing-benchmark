@@ -1,0 +1,111 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__gpt-6.1-sol__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Er läuft“, sagte sie.", "Jonas sah zum Heck hinüber."],
+        "suggestions": [
+          "Perfekter Einstieg 'in medias res'. Keine unnötige Exposition, der Leser ist sofort im Geschehen und spürt die Atmosphäre."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Im plötzlichen Stillwerden hörte Ilse die kleinen Wellen unter dem Anleger schmatzen.",
+          "Erst als der Wagen langsam anrollte..."
+        ],
+        "suggestions": [
+          "Der Einsatz ist bereits sehr sparsam und treffend. Kleinigkeiten: 'kleine Wellen' ist durch das hervorragende Verb 'schmatzen' bereits impliziert (große Wellen schmatzen nicht). 'Anrollen' beinhaltet bereits eine langsame Bewegung, 'langsam' könnte gestrichen werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ja“, sagte er.", "„Hast du gegessen?“, fragte sie."],
+        "suggestions": [
+          "Die Dialogführung kommt fast gänzlich ohne Inquit-Formeln aus, die Sprecher sind durch den Kontext glasklar. Selbst die beiden genannten Beispiele könnten ersatzlos gestrichen werden, da auch hier der Sprecherwechsel eindeutig ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Stattdessen schob sie ihn mit dem Fuß ein Stück zur Seite."],
+        "suggestions": [
+          "Der Text ist frei von klassischen Füllwörtern. Wörter wie 'doch' oder 'überhaupt' stehen ausschließlich in der wörtlichen Rede, wo sie zur natürlichen Sprachmelodie gehören."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Erst als der Wagen langsam anrollte, griff er nach dem Bügel...",
+          "Als sie ablegten, vibrierte das Seil."
+        ],
+        "suggestions": [
+          "Keine falsche Gleichzeitigkeit (wie das berüchtigte 'Während er zur Tür ging, zog er den Mantel an'). Die beiden 'Als'-Konstruktionen sind zeitlich logisch und unproblematisch."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Unter der Plane hatte sich Regenwasser gesammelt.",
+          "Eine Ecke schlug im Wind gegen das Gehäuse."
+        ],
+        "suggestions": [
+          "Es wird durchgehend im Aktiv geschrieben. Selbst unbelebte Dinge (Wasser, Plane, Wind, Wald, Seil) erhalten aktive Verben (kroch, schlug, hing, vibrierte). Ausgezeichnet."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie sah ihn an. Dann hob er ihn.",
+          "Jonas hatte einen dünnen Mantel an, offen über einem Pullover, der am Hals zu eng aussah."
+        ],
+        "suggestions": [
+          "Ein sehr guter, kontrollierter Satzrhythmus. Kurze, prägnante Sätze wechseln sich mit leicht längeren, aber niemals unübersichtlichen Satzgefügen ab."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Heb ihn doch.“ – „Ist schwer.“",
+          "„Hast du gegessen?“, fragte sie. – „Im Zug.“"
+        ],
+        "suggestions": [
+          "Meisterhaft verknappte Dialoge. Jedes Wort sitzt, das Ungesagte (der Subtext zwischen Mutter und Sohn) trägt die Szene."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Im plötzlichen Stillwerden hörte Ilse die kleinen Wellen unter dem Anleger schmatzen.",
+          "...und für einen Augenblick sah sie den Jungen wieder, der wissen wollte, ob es reißen könne."
+        ],
+        "suggestions": [
+          "Da wir uns ohnehin in Ilses personaler Perspektive befinden, könnte die Wahrnehmung noch unmittelbarer sein: 'In der plötzlichen Stille schmatzten die Wellen unter dem Anleger.' (ohne 'hörte Ilse'). Das 'sah sie' beim zweiten Beispiel ist als innere Erinnerung jedoch gerechtfertigt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Wie lange stehst du schon da?“ – „Zehn Minuten.“ – Sie hatte ihn seit zwanzig gesehen."
+        ],
+        "suggestions": [
+          "Keine Redundanzen. Jedes Detail liefert eine neue Information oder vertieft die Charakterisierung der Figuren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.015486
+}

@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gpt-6-luna__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ein Café an der Ecke. Regen an den Scheiben. Mara steht am Tisch; Leon kommt herein."
+        ],
+        "suggestions": ["Der Einstieg ist sehr effektiv und atmosphärisch. Keine Änderung nötig."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kaum merklich"],
+        "suggestions": [
+          "Der Text ist sehr sparsam und präzise. Die wenigen Adverbien unterstreichen die Stimmung gut."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["MARA: Du hast den gleichen Mantel an.", "LEON: Der hält noch."],
+        "suggestions": [
+          "Da es sich um ein Skriptformat handelt, sind keine Redeeinleitungen nötig. Dies ist perfekt umgesetzt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vielleicht", "manchmal"],
+        "suggestions": [
+          "Die Füllwörter wirken hier nicht als Schwäche, sondern als Charakterisierung der Unsicherheit. Beibehalten."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Sie rühren beide in ihren Tassen, ohne zu trinken."],
+        "suggestions": [
+          "Keine unnötigen Gleichzeitigkeitskonstruktionen vorhanden. Die Handlungen sind klar getrennt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Du bestellst noch immer schwarz.", "Ich habe mich umgestellt."],
+        "suggestions": ["Der Text ist durchgehend aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Das hat er früher auch schon.", "Ich wusste nicht, ob du kommst."],
+        "suggestions": [
+          "Die kurzen Sätze erzeugen eine hohe Spannung und passen zum minimalistischen Stil."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["MARA: Du bestellst noch immer schwarz. LEON: Du auch."],
+        "suggestions": ["Die Dialoge sind sehr gestrafft. Das Tempo ist angemessen."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Mara schaut in ihre Tasse.", "Leon legt die Hand auf den Tisch."],
+        "suggestions": ["Keine indirekte Wahrnehmung vorhanden. Handlungen werden direkt gezeigt."]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Du auch.", "Stimmt."],
+        "suggestions": [
+          "Die Wiederholungen sind hier ein stilistisches Mittel, um die Sprachlosigkeit und die gemeinsame Vergangenheit zu betonen. Sehr gut eingesetzt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

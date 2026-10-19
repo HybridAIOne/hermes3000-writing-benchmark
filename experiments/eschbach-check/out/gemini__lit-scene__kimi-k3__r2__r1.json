@@ -1,0 +1,109 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel klemmte, wie er schon immer geklemmt hatte. Miriam musste die Tür mit der Schulter anheben..."
+        ],
+        "suggestions": [
+          "Perfekter Szeneneinstieg 'in medias res'. Keine langatmige Anreise, der Text beginnt genau im Moment des Eintritts in den relevanten Schauplatz und charakterisiert gleichzeitig das Verhältnis zum Haus."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "kalt, trocken, nach Papier und ausgestandenem Kamin",
+          "lag ein dunkler, harter Rand eingebrannten Kaffees",
+          "dessen Holz unter ihren Fingern glatt war und kühl"
+        ],
+        "suggestions": [
+          "Die Adjektive sind überwiegend sensorisch stark und präzise gewählt. Einzig bei 'dunkler, harter Rand eingebrannten Kaffees' könnte man kürzen, da 'eingebrannter Kaffee' bereits impliziert, dass er dunkel und hart ist (Vorschlag: 'ein verkrusteter Rand eingebrannten Kaffees')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keine Dialoge, daher gibt es hier keine Mängel."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "und wartete auf etwas, das nicht kam",
+          "fast einen Geruch",
+          "und tat es dann doch nicht"
+        ],
+        "suggestions": [
+          "Der Text ist extrem sauber und frei von klassischen Füllwörtern. Die wenigen vagen Formulierungen ('etwas', 'fast') sind hier stilistisch begründet, um Miriams Unsicherheit zu spiegeln. 'und tat es dann doch nicht' könnte noch knapper zu 'und ließ es' oder 'und tat es nicht' verdichtet werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als sie das Kännchen wieder abstellte, war an ihrem Daumen ein schwarzer Streifen..."
+        ],
+        "suggestions": [
+          "Handlungen werden sauber nacheinander beschrieben. Das einzige 'Als' im Text ist zeitlich völlig korrekt, könnte aber für noch mehr Unmittelbarkeit aufgelöst werden: 'Sie stellte das Kännchen ab. An ihrem Daumen klebte ein schwarzer Streifen...'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Ausgezeichnet: Der gesamte Text kommt ohne Passivkonstruktionen aus. Selbst die leblosen Dinge (das Haus, der Schlüssel, das Licht, das Wasser) sind aktiv formuliert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Stattdessen ging sie zur Treppe, legte die Hand auf den Handlauf, dessen Holz unter ihren Fingern glatt war und kühl, abgegriffen an genau der Stelle, an der eine Hand beim Hinaufgehen zuerst Halt sucht.",
+          "Und doch: Als sie das Kännchen wieder abstellte, war an ihrem Daumen ein schwarzer Streifen, fein wie ein Schmutzfingerrad, und sie betrachtete ihn länger, als vernünftig war, bevor sie ihn am Mantel abstreifte."
+        ],
+        "suggestions": [
+          "Der Satzrhythmus ist insgesamt sehr melodisch und abwechslungsreich (kurze Sätze wechseln sich mit langen ab). Die beiden zitierten Sätze haben jedoch sehr viele Nebensätze und Einschübe. Vorschlag zur Entflechtung des ersten Beispiels: 'Stattdessen ging sie zur Treppe und legte die Hand auf den Handlauf. Das Holz unter ihren Fingern war glatt und kühl, abgegriffen an genau der Stelle, an der man beim Hinaufgehen zuerst Halt sucht.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher optimal."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie hatte erwartet, ihn zu berühren...",
+          "Draußen begann es zu regnen.",
+          "von dem sie nichts wusste"
+        ],
+        "suggestions": [
+          "Die Wahrnehmung ist fast durchgängig direkt und tief in Miriams Perspektive verankert (keine 'sie sah'- oder 'sie hörte'-Filter). Einzig 'Draußen begann es zu regnen' nutzt das nach Eschbach oft verzichtbare Verb 'beginnen'. Direkter wäre: 'Draußen setzte Regen ein.' oder 'Tropfen schlugen gegen das Fenster.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "legte die Hand auf den Handlauf [...] an der eine Hand beim Hinaufgehen",
+          "ein dunkler, harter Rand eingebrannten Kaffees, rissig wie eine Trockenheit."
+        ],
+        "suggestions": [
+          "Im vierten Absatz doppelt sich der Wortstamm 'Hand' dreimal auf engem Raum (Hand, Handlauf, Hand). Besser: '...legte die Finger auf den Handlauf [...] an der man beim Hinaufgehen...'. Zudem ist das Bild 'rissig wie eine Trockenheit' leicht pleonastisch und etwas schief (Trockenheit selbst ist ein Zustand, nicht rissig – gemeint ist vermutlich 'rissig wie ausgedörrte Erde')."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01712
+}

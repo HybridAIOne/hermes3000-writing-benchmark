@@ -1,0 +1,113 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Schlüssel passte noch. Judith hatte erwartet, dass er klemmen würde..."],
+        "suggestions": [
+          "Exzellenter Einstieg 'in medias res'. Keine unnötige Anreise wird beschrieben, der Text startet exakt an der Schwelle zum Konfliktort und etabliert sofort die zwanzigjährige Abwesenheit."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "mit dem kurzen Schmatzen der Gummidichtung",
+          "grauer Februarnachmittag",
+          "sorgfältig eingefahren",
+          "kleine dunkle Mulde"
+        ],
+        "suggestions": [
+          "Sehr präziser und sparsamer Einsatz. Die meisten Attribute tragen direkt zur Atmosphäre bei.",
+          "Minimaler Optimierungsansatz: Bei 'kleine dunkle Mulde' könnte 'kleine' gestrichen werden, da die Größe der Orangenschale die Größe der Mulde bereits vorgibt ('in die dunkle Mulde')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keinen Dialog, daher gibt es hier keinerlei Mängel."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "nach etwas Süßlichem darunter",
+          "sich kaum merklich bewegte",
+          "aus einer Art Schwindel",
+          "um ein paar Zentimeter abgesackt"
+        ],
+        "suggestions": [
+          "Der Text ist fast frei von klassischen Füllwörtern. Die wenigen vagen Begriffe ('etwas', 'einer Art', 'ein paar') spiegeln hier gut Judiths eigene Desorientierung wider.",
+          "Dennoch könnte 'aus einer Art Schwindel' gestrafft werden zu 'weil ihr schwindelig wurde' oder 'aus plötzlichem Schwindel', um die Wirkung noch unmittelbarer zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["bitter und warm zugleich"],
+        "suggestions": [
+          "Hervorragend gelöst. Handlungen werden sauber nacheinander beschrieben. Es gibt keine unlogischen 'Während'- oder 'Als'-Konstruktionen. 'Zugleich' wird hier völlig korrekt für eine Sinneswahrnehmung genutzt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "dass man das Schloss in zwanzig Jahren ausgetauscht hätte",
+          "dessen Antenne jemand sorgfältig eingefahren hatte"
+        ],
+        "suggestions": [
+          "Der Text steht durchgehend im starken Aktiv. Selbst dort, wo der Urheber einer Handlung unbekannt ist, nutzt der Text geschickt 'man' oder 'jemand', was die unheimliche Präsenz im Haus perfekt verstärkt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Judith hatte den Geruch vergessen, ohne es zu bemerken, und jetzt war er wieder da, bitter und warm zugleich, und sie musste sich am Türrahmen festhalten, nicht aus Trauer, sondern aus einer Art Schwindel, als wäre der Boden um ein paar Zentimeter abgesackt."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind sehr rhythmisch und wechseln klug zwischen langen, atmosphärischen Sätzen und kurzen, harten Sätzen ('Das Geräusch war zu laut.', 'Ihre Mutter war seit sieben Wochen tot.').",
+          "Der Satz über den Geruch und den Schwindel ist als Stilmittel (Atemlosigkeit) legitim, könnte aber nach 'warm zugleich' durch einen Punkt getrennt werden, um dem Schwindelgefühl einen eigenen, stärkeren Satz zu geben."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher optimal."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Im Flur roch es nach kaltem Stein und nach etwas Süßlichem darunter, das sie nicht einordnen konnte.",
+          "Judith hatte den Geruch vergessen, ohne es zu bemerken"
+        ],
+        "suggestions": [
+          "Fast durchgehend unmittelbare Wahrnehmung (Show, don't tell). Statt 'sie sah, dass die Schale feucht war' heißt es meisterhaft: 'auf der weißen Innenseite glänzte noch Feuchtigkeit'.",
+          "Einziger kleiner Punkt: '...das sie nicht einordnen konnte' ist leicht erklärend. Da am Ende des Textes klar wird, dass es die Orangen sind, reicht eventuell schon: 'Im Flur roch es nach kaltem Stein und einer fremden Süße darunter.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "für den Tee im Winter, für die Wäscheschubladen, gegen die Motten, gegen alles.",
+          "Sie nahm eine der Schalen in die Hand. Sie war nicht hart. Sie bog sich..."
+        ],
+        "suggestions": [
+          "Keine inhaltlichen Redundanzen. Jedes Detail baut Spannung auf.",
+          "Die Wortwiederholungen ('für... für...', 'gegen... gegen...', 'Sie... Sie... Sie...') sind hier klar als rhetorische Stilmittel (Anaphern) erkennbar und erzeugen einen starken Rhythmus. Beim dritten 'Sie' (wobei das erste Judith meint und die anderen beiden die Schale) könnte man den Bezug noch schärfen: 'Sie nahm eine der Schalen in die Hand. Das Innere war nicht hart, es bog sich...'"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.017302
+}

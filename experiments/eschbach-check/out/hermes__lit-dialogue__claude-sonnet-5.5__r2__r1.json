@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Bahnhofscafé, Nachmittag. Thomas sitzt schon am Tisch, als Jan hereinkommt."],
+        "suggestions": [
+          "Der Einstieg ist sehr effektiv und wirft den Leser direkt in die Situation. Keine Änderungen nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kurzes Lächeln", "vernünftig"],
+        "suggestions": ["Sehr sparsamer Einsatz, der die kühle Atmosphäre unterstreicht."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["JAN: Du bist früh.", "THOMAS: Ich war in der Gegend."],
+        "suggestions": [
+          "Das Skript-Format ist hier ideal und verzichtet konsequent auf unnötige Begleitsätze."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Füllwörter gefunden. Der Text ist sehr präzise."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Thomas sitzt schon am Tisch, als Jan hereinkommt."],
+        "suggestions": ["Die Handlungsabfolge ist klar und ohne unnötige 'während'-Konstruktionen."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Passivsätze vorhanden, der Text ist durchweg aktiv."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die kurzen, abgehackten Sätze spiegeln die Anspannung der Charaktere perfekt wider."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["JAN: Nur den Kaffee.", "THOMAS: Nur den Kaffee."],
+        "suggestions": ["Die Dialoge sind auf den Punkt gebracht und lassen viel Raum für Subtext."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["(Jan sieht aus dem Fenster. Draußen fährt ein Zug ein.)"],
+        "suggestions": [
+          "Keine Filterwörter wie 'er sah, dass' verwendet. Alles wird direkt gezeigt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie ist vernünftig.", "Das ist vernünftig."],
+        "suggestions": [
+          "Die Wiederholungen sind hier ein bewusstes rhetorisches Mittel zur Charakterisierung und Stimmungserzeugung, daher sehr passend."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

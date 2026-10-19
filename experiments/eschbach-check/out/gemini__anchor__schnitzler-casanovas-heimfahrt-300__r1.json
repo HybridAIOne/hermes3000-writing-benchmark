@@ -1,0 +1,140 @@
+{
+  "who": "gemini",
+  "item": "anchor__schnitzler-casanovas-heimfahrt-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "In seinem dreiundfünfzigsten Lebensjahre, als Casanova...",
+          "Öfter schon in den letzten zehn Jahren seiner Verbannung hatte er...",
+          "Da seine Geldmittel recht spärlich geworden waren, hatte Casanova beschlossen, in dem bescheidenen, aber anständigen Gasthof [...] das Eintreffen der Begnadigung abzuwarten..."
+        ],
+        "suggestions": [
+          "Der Text besteht fast ausschließlich aus berichtender Exposition (Tell statt Show). Nach Eschbach sollte eine Szene so spät wie möglich beginnen und direkt in eine Handlung einsteigen.",
+          "Starten Sie direkt im Gasthof in Mantua, z. B. wie Casanova an seinem Tisch sitzt, die Streitschrift gegen Voltaire verfasst oder einen der erwähnten hoffnungsvollen Briefe liest. Die Hintergrundinformationen (Alter, Heimweh, Flucht aus den Bleikammern) können dann nach und nach in die laufende Szene eingeflochten werden."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "luftigen Höhen",
+          "grimmiges Vergnügen",
+          "fast demütig flehenden Worten",
+          "schmerzliches Sehnen und echte Reue",
+          "regierenden Höfen, in adeligen Schlössern, an bürgerlichen Tischen und in übelberüchtigten Häusern",
+          "bescheidenen, aber anständigen Gasthof",
+          "in unzerstörbarer Weise"
+        ],
+        "suggestions": [
+          "Der Text nutzt sehr viele ausschmückende Adjektive und Partizipien. Prüfen Sie, welche davon für das Verständnis wirklich nötig sind.",
+          "Statt 'in seinen fast demütig flehenden Worten' könnte man zeigen, wie er sich in den Briefen erniedrigt. Statt 'bescheidenen, aber anständigen Gasthof' lieber ein konkretes Detail des Zimmers beschreiben, das diesen Zustand beweist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Es sind keine Dialoge im Text vorhanden, daher gibt es hier keine Fehler bei den Dialogkennzeichnungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "allmählich (zweimal verwendet)",
+          "manchmal auch",
+          "seit einiger Zeit",
+          "fast",
+          "übrigens",
+          "meist",
+          "recht spärlich",
+          "indes",
+          "hauptsächlich"
+        ],
+        "suggestions": [
+          "Streichen Sie relativierende Wörter wie 'recht', 'fast', 'übrigens' und 'meist', um den Text kräftiger und direkter zu machen.",
+          "Aus 'Da seine Geldmittel recht spärlich geworden waren' wird prägnanter: 'Da sein Geld zur Neige ging' oder 'Weil ihm das Geld ausging'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...als Casanova längst nicht mehr [...] durch die Welt gejagt wurde, fühlte er...",
+          "...und er vertrieb sich indes die Zeit..."
+        ],
+        "suggestions": [
+          "Da es sich um eine rückblickende Zusammenfassung handelt, gibt es keine problematischen gleichzeitigen Handlungsabläufe in einer Szene. Dennoch könnte das 'als' im ersten Satz aufgelöst werden, um die Satzstruktur zu glätten."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "...als Casanova längst nicht mehr von der Abenteuerlust der Jugend, sondern von der Ruhelosigkeit nahenden Alters durch die Welt gejagt wurde...",
+          "...daß sich sein Schicksal binnen kurzem günstig entscheiden würde."
+        ],
+        "suggestions": [
+          "Formulieren Sie aktiv: 'Nicht mehr die Abenteuerlust der Jugend, sondern die Ruhelosigkeit des Alters jagte den dreiundfünfzigjährigen Casanova durch die Welt.'",
+          "Auch Umschreibungen mit 'scheinen' und 'beginnen' (z. B. 'zu geraten begannen', 'zu übertönen anfing') wirken passiv und distanziert. Besser: 'gerieten in Vergessenheit' und 'übertönte'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 1,
+        "examples": [
+          "Der gesamte Text (über 300 Wörter) besteht aus lediglich vier extrem langen, stark verschachtelten Sätzen (Hypotaxen).",
+          "Satz 3 ('Er glaubte um so sicherer...') umfasst allein über 110 Wörter und beinhaltet zahlreiche Einschübe und Nebensätze."
+        ],
+        "suggestions": [
+          "Nach modernen Lektoratsmaßstäben (und Eschbachs Regeln) müssen diese Schachtelsätze dringend aufgebrochen werden. (Hinweis: Auch wenn es sich hierbei um Arthur Schnitzlers historischen Stil handelt, gilt für heutiges Schreiben das Gebot der Lesbarkeit).",
+          "Machen Sie aus jedem Nebensatz und jedem Einschub (z.B. dem Gedankenstrich-Einschub im letzten Satz) eigene, für sich stehende Hauptsätze."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Dialoge vorhanden. Um den sehr berichtenden Text aufzulockern, wäre es jedoch ratsam, Szenen mit kurzen Dialogen (z. B. mit dem Gastwirt) einzubauen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "...fühlte er in seiner Seele das Heimweh [...] so heftig anwachsen...",
+          "...so schien sich seit einiger Zeit [...] auszusprechen.",
+          "Er glaubte um so sicherer auf Erhörung rechnen zu dürfen...",
+          "...zu befestigen gedachte."
+        ],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'fühlte er', 'glaubte er', 'schien sich'. Stellen Sie die Emotionen und Gedanken direkt dar (personale Perspektive).",
+          "Statt 'fühlte er in seiner Seele das Heimweh [...] anwachsen' direkter: 'Das Heimweh nach Venedig wuchs in ihm.' Statt 'Er glaubte, auf Erhörung rechnen zu dürfen' besser: 'Die Ratsherren würden ihn erhören, da war er sich sicher.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "eng und immer enger werdenden Kreisen",
+          "Trotz und Eigensinn",
+          "schmerzliches Sehnen und echte Reue",
+          "an regierenden Höfen, in adeligen Schlössern, an bürgerlichen Tischen und in übelberüchtigten Häusern",
+          "seine Stellung und sein Ansehen"
+        ],
+        "suggestions": [
+          "Der Text arbeitet stark mit rhetorischen Doppelungen (Hendiadyoin) und Aufzählungen. Nach Eschbach verwässert dies oft die Aussage.",
+          "Entscheiden Sie sich für den jeweils stärksten Begriff: Reicht 'Stellung' statt 'Stellung und Ansehen'? Reicht 'Trotz' statt 'Trotz und Eigensinn'? Solche Kürzungen erhöhen das Erzähltempo deutlich."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021418
+}

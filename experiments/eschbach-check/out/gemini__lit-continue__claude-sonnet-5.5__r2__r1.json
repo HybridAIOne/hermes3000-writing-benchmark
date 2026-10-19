@@ -1,0 +1,115 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Er läuft“, sagte Ilse."],
+        "suggestions": [
+          "Exzellenter Einstieg mitten in ein Gespräch (in medias res). Keine unnötige Einleitung, der Konflikt und die Atmosphäre sind sofort greifbar."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["in kurzen, nassen Zügen", "sang leise", "kleiner roter Lieferwagen"],
+        "suggestions": [
+          "Der Einsatz ist insgesamt sehr diszipliniert und treffsicher.Einzig bei „das Wasser schlug in kurzen, nassen Zügen“ ist das Adjektiv „nass“ für Wasser ein Pleonasmus (selbstverständlich) und könnte gestrichen oder durch ein akustisches/haptisches Wort (z. B. „schweren“, „kalten“) ersetzt werden.",
+          "Statt „sang leise“ könnte man ein noch präziseres Verb wie „summte“ oder „sirrte“ wählen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Er läuft“, sagte Ilse.",
+          "„Ist das Zimmer noch –“, begann Jonas.",
+          "„Seit wann?“ – „Seit Mittwoch.“"
+        ],
+        "suggestions": [
+          "Sehr gute Balance aus unmarkierten Dialogzeilen, Action-Beats und schlichten „sagte“-Markierungen.",
+          "Bei „..., begann Jonas“ könnte auf das „begann“ verzichtet werden, da der Gedankenstrich den Abbruch bereits anzeigt (z. B. nur: Jonas deutete zum Haus. „Ist das Zimmer noch –“)."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "als rechne sie gerade etwas aus",
+          "stand schon wieder ein Auto",
+          "Sie konnte beinahe hören"
+        ],
+        "suggestions": [
+          "Der Text ist fast frei von Füllwörtern. „gerade“ in „als rechne sie gerade etwas aus“ kann ersatzlos gestrichen werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie schlang sie einmal um den Unterarm, prüfte das Gewicht und hielt Jonas das Ende hin."
+        ],
+        "suggestions": [
+          "Hervorragend gelöst. Es gibt keine künstlichen Gleichzeitigkeits-Konstruktionen mit „während“ oder „indem“. Alle Handlungen sind sauber chronologisch geordnet."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Das Bett ist bezogen.“"],
+        "suggestions": [
+          "Keine unnötigen Passivkonstruktionen vorhanden. Das einzige Zustandspassiv („ist bezogen“) steht im Dialog und klingt dort völlig natürlich."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er hätte den Koffer über den nassen Weg gezogen, die Rollen hätten auf dem Kies geknirscht, und sie hätte ihm von hier aus nachgesehen, wie man jemandem nachsieht, den man noch nicht wieder hereingelassen hat."
+        ],
+        "suggestions": [
+          "Die Satzlängen variieren sehr rhythmisch zwischen ganz kurzen Sätzen („Er wartete immer.“) und etwas längeren, fließenden Gefügen. Die längeren Sätze sind klar strukturiert und leicht verständlich."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Das Bett ist bezogen.“\n„Seit wann?“\n„Seit Mittwoch.“"],
+        "suggestions": [
+          "Meisterhaft verknappte Dialoge. Die Figuren reden nicht um den heißen Brei herum, viel wird über den Subtext transportiert."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie konnte beinahe hören, wie er die Zahlen sortierte...",
+          "Das hatte er von ihr, dachte Ilse, dieses Schweigen..."
+        ],
+        "suggestions": [
+          "Die Perspektive ist sehr nah an Ilse, daher könnten Filterwörter noch weiter reduziert werden.",
+          "Statt „Sie konnte beinahe hören, wie er die Zahlen sortierte“ direkter: „Hinter seiner Stirn ratterten die Zahlen: Mittwoch, heute war Freitag...“",
+          "Das eingeschobene „dachte Ilse“ kann gestrichen werden, da wir ohnehin in ihrer personalen Perspektive (erlebte Rede) sind: „Das hatte er von ihr, dieses Schweigen...“"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "die Fahrerin hob zwei Finger zum Gruß. Ilse hob ebenfalls zwei Finger.",
+          "Sie kontrollierte die Klemme am Seil, obwohl es nichts zu kontrollieren gab",
+          "Drüben, am anderen Ufer"
+        ],
+        "suggestions": [
+          "Fast alle Wiederholungen im Text sind bewusste rhetorische Stilmittel, die den lakonischen Ton stützen.",
+          "Lediglich „Drüben, am anderen Ufer“ ist eine leichte inhaltliche Doppelung. „Am anderen Ufer“ oder „Drüben am anderen Ufer“ (ohne Komma als nähere Bestimmung) wäre noch kompakter."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.017032
+}

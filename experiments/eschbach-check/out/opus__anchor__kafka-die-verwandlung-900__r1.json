@@ -1,0 +1,183 @@
+{
+  "who": "opus",
+  "item": "anchor__kafka-die-verwandlung-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt."
+        ],
+        "suggestions": [
+          "Kein Handlungsbedarf: Die Szene setzt genau im Moment der Katastrophe ein. Vorgeschichte, Einschlafen oder Träume werden übersprungen. Der erste Satz enthält bereits den zentralen Konflikt.",
+          "Allenfalls ließe sich der Zimmer- und Bildbeschreibung im zweiten Absatz Tempo nehmen, da sie die Spannung kurz unterbricht. Das Bild ist jedoch für den späteren Handlungsverlauf relevant."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch",
+          "einen noch nie gefühlten, leichten, dumpfen Schmerz",
+          "in einem hübschen, vergoldeten Rahmen",
+          "das unregelmäßige, schlechte Essen",
+          "ein immer wechselnder, nie andauernder, nie herzlich werdender menschlicher Verkehr",
+          "kläglich dünnen Beine flimmerten ihm hilflos vor den Augen",
+          "schob sich auf dem Rücken langsam näher"
+        ],
+        "suggestions": [
+          "Adjektivketten auf das prägnanteste Merkmal reduzieren, z. B. 'einen dumpfen Schmerz, wie er ihn nie gekannt hatte' statt dreier gereihter Attribute.",
+          "'hübschen, vergoldeten Rahmen' auf 'Goldrahmen' verdichten.",
+          "Beim Bauch die bildstarken Details ('bogenförmige Versteifungen') behalten und Allgemeines wie 'braunen' streichen oder in einen eigenen Satz auslagern.",
+          "'unregelmäßige, schlechte Essen' durch ein konkretes Bild ersetzen, z. B. 'kalte Bahnhofswürste zu jeder Tageszeit'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "»Was ist mit mir geschehen?« dachte er.",
+          "»Wie wäre es, wenn ich noch ein wenig weiterschliefe und alle Narrheiten vergäße,« dachte er",
+          "»Ach Gott,« dachte er, »was für einen anstrengenden Beruf habe ich gewählt!",
+          "»Dies frühzeitige Aufstehen«, dachte er, »macht einen ganz blödsinnig.",
+          "»Himmlischer Vater!« dachte er"
+        ],
+        "suggestions": [
+          "Da Gregor allein im Raum ist, ist jeder Gedanke eindeutig ihm zuzuordnen. Das wiederholte 'dachte er' kann an den meisten Stellen entfallen.",
+          "Gedanken ohne Marker direkt stehen lassen, z. B. 'Was ist mit mir geschehen? Es war kein Traum.'",
+          "Ausrufe wie 'Himmlischer Vater!' wirken ohne Inquit unmittelbarer."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "wenn er den Kopf ein wenig hob",
+          "ein richtiges, nur etwas zu kleines Menschenzimmer",
+          "machte ihn ganz melancholisch",
+          "Er versuchte es wohl hundertmal",
+          "aber wahrscheinlich desto fester",
+          "fühlte sich durchaus nicht besonders frisch",
+          "es dürfte noch fünf bis sechs Jahre dauern",
+          "Das wäre aber äußerst peinlich",
+          "Gregor fühlte sich tatsächlich ... ganz wohl",
+          "nach dem langen Schlaf wirklich überflüssigen Schläfrigkeit",
+          "hatte sogar einen besonders kräftigen Hunger"
+        ],
+        "suggestions": [
+          "Abschwächende und verstärkende Partikeln wie 'ganz', 'wirklich', 'tatsächlich', 'besonders', 'durchaus', 'äußerst' und 'etwas' streichen. Die Aussagen gewinnen dadurch an Kraft.",
+          "'wohl hundertmal' zu 'hundertmal' verkürzen. Die Übertreibung wirkt stärker ohne Relativierung.",
+          "'fühlte sich durchaus nicht besonders frisch und beweglich' zu 'fühlte sich steif und matt' präzisieren.",
+          "Hinweis: Bei Figurenrede bzw. erlebter Rede können Füllwörter bewusst zur Charakterisierung eingesetzt sein, etwa für Gregors zögerliche, beschwichtigende Denkweise. Im Erzähltext sollten sie konsequent reduziert werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich ...",
+          "und ließ erst ab, als er in der Seite einen noch nie gefühlten ... Schmerz zu fühlen begann",
+          "denn Gregor war während seines fünfjährigen Dienstes noch nicht einmal krank gewesen"
+        ],
+        "suggestions": [
+          "Die Handlungen werden überwiegend nacheinander erzählt, etwa beim Jucken: schob sich ... fand ... wollte ... zog zurück. Das ist vorbildlich.",
+          "Das 'während' bezeichnet hier einen Zeitraum, keine Gleichzeitigkeit von Handlungen, und ist unproblematisch.",
+          "Optional: 'ließ erst ab, als er ... zu fühlen begann' auflösen in 'Erst ein dumpfer Schmerz in der Seite ließ ihn aufgeben.'"
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war",
+          "außerdem ist mir noch diese Plage des Reisens auferlegt",
+          "Nun, die Hoffnung ist noch nicht gänzlich aufgegeben",
+          "Dann wird der große Schnitt gemacht.",
+          "ein Donnerwetter des Chefs war nicht zu vermeiden",
+          "die Kollektion war noch nicht eingepackt"
+        ],
+        "suggestions": [
+          "'Dann wird der große Schnitt gemacht' aktiv formulieren: 'Dann mache ich den großen Schnitt.' Das passt besser zu Gregors Vorsatz.",
+          "'die Hoffnung ist noch nicht gänzlich aufgegeben' umformulieren zu 'Noch gebe ich die Hoffnung nicht auf.'",
+          "'ist mir diese Plage des Reisens auferlegt' umformulieren zu 'muss ich mich mit dieser Plage des Reisens herumschlagen.'",
+          "'war nicht zu vermeiden' umformulieren zu 'würde der Chef ihm ein Donnerwetter bereiten.'",
+          "Zustandspassive wie 'ausgebreitet war' sind für Raumbeschreibungen akzeptabel."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Er lag auf seinem panzerartig harten Rücken und sah, wenn er den Kopf ein wenig hob, seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch, auf dessen Höhe sich die Bettdecke, zum gänzlichen Niedergleiten bereit, kaum noch erhalten konnte.",
+          "Er fühlte ein leichtes Jucken oben auf dem Bauch; schob sich auf dem Rücken langsam näher zum Bettpfosten, um den Kopf besser heben zu können; fand die juckende Stelle, die mit lauter kleinen weißen Pünktchen besetzt war, die er nicht zu beurteilen verstand; und wollte mit einem Bein die Stelle betasten, zog es aber gleich zurück, denn bei der Berührung umwehten ihn Kälteschauer.",
+          "Über dem Tisch, auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war -- Samsa war Reisender --, hing das Bild, das er vor kurzem aus einer illustrierten Zeitschrift ausgeschnitten und in einem hübschen, vergoldeten Rahmen untergebracht hatte.",
+          "»Wie wäre es, wenn ich noch ein wenig weiterschliefe und alle Narrheiten vergäße,« dachte er, aber das war gänzlich undurchführbar, denn er war gewöhnt, auf der rechten Seite zu schlafen, konnte sich aber in seinem gegenwärtigen Zustand nicht in diese Lage bringen."
+        ],
+        "suggestions": [
+          "Den Bauch-Satz teilen: 'Er lag auf seinem Panzerrücken. Hob er den Kopf, sah er seinen gewölbten, von Bogenringen geteilten Bauch. Die Bettdecke drohte herabzugleiten.'",
+          "Die Jucken-Sequenz in Einzelsätze zerlegen. Jede Handlung bekommt so ihr eigenes Gewicht, und das Zurückzucken wirkt schockierender.",
+          "Den Einschub '-- Samsa war Reisender --' in einen eigenen Satz auslagern, um die Klammerkonstruktion um das Bild aufzulösen.",
+          "Doppelte 'aber'-Konstruktionen ('aber das war ... konnte sich aber') durch Satzteilung vermeiden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "»Dies frühzeitige Aufstehen«, dachte er, »macht einen ganz blödsinnig. Der Mensch muß seinen Schlaf haben. Andere Reisende leben wie Haremsfrauen. [...] Vorläufig allerdings muß ich aufstehen, denn mein Zug fährt um fünf.«",
+          "»Ach Gott,« dachte er, »was für einen anstrengenden Beruf habe ich gewählt! Tag aus, Tag ein auf der Reise. [...] Der Teufel soll das alles holen!«"
+        ],
+        "suggestions": [
+          "Der innere Monolog über Chef, Pult und Schulden der Eltern umfasst einen ganzen Absatz. Er ließe sich um etwa ein Drittel kürzen, z. B. durch Streichen der Pult-Beschreibung oder der Haremsfrauen-Passage.",
+          "Den Monolog durch kurze körperliche Handlungen oder Wahrnehmungen unterbrechen, um den Kontrast zwischen Gregors Alltagssorgen und seiner Verwandlung hervorzuheben.",
+          "Hinweis: Die Ausführlichkeit hat inhaltliche Funktion. Gregor verdrängt die Verwandlung durch Berufsgedanken. Eine Straffung sollte diesen Effekt erhalten."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "und sah, wenn er den Kopf ein wenig hob, seinen gewölbten, braunen ... Bauch",
+          "man hörte Regentropfen auf das Fensterblech aufschlagen",
+          "als er in der Seite einen noch nie gefühlten, leichten, dumpfen Schmerz zu fühlen begann",
+          "Er fühlte ein leichtes Jucken oben auf dem Bauch",
+          "Und er sah zur Weckuhr hinüber",
+          "Man sah vom Bett aus, daß er auf vier Uhr richtig eingestellt war",
+          "Gregor fühlte sich tatsächlich ... ganz wohl"
+        ],
+        "suggestions": [
+          "'man hörte Regentropfen auf das Fensterblech aufschlagen' wird zu 'Regentropfen schlugen auf das Fensterblech.'",
+          "'Man sah vom Bett aus, daß er auf vier Uhr richtig eingestellt war' wird zu 'Der Zeiger stand auf vier Uhr.'",
+          "'Er fühlte ein leichtes Jucken oben auf dem Bauch' wird zu 'Oben auf dem Bauch juckte es.'",
+          "'als er ... einen Schmerz zu fühlen begann' wird zu 'bis ein dumpfer Schmerz in seine Seite fuhr.'",
+          "'sah ... seinen gewölbten Bauch' wird zu 'Hob er den Kopf, wölbte sich vor ihm sein brauner Bauch.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "einen noch nie gefühlten, leichten, dumpfen Schmerz zu fühlen begann",
+          "mit einem Pelzhut und einer Pelzboa versehen ... einen schweren Pelzmuff",
+          "die Zeiger gingen ruhig vorwärts ... dieses möbelerschütternde Läuten ruhig zu verschlafen? Nun, ruhig hatte er ja nicht geschlafen",
+          "Gewiß würde der Chef mit dem Krankenkassenarzt kommen ... durch den Hinweis auf den Krankenkassenarzt abschneiden",
+          "Es ist auch eine sonderbare Art, sich auf das Pult zu setzen ... Vom Pult hätte er fallen müssen!",
+          "Der nächste Zug ging um sieben Uhr; um den einzuholen ... Und selbst wenn er den Zug einholte",
+          "fand die juckende Stelle ... wollte mit einem Bein die Stelle betasten",
+          "Es war halb sieben Uhr ... es war sogar halb vorüber"
+        ],
+        "suggestions": [
+          "'gefühlten ... zu fühlen' vermeiden: 'einen nie gekannten, dumpfen Schmerz zu spüren begann.'",
+          "Das dreifache 'ruhig' im Wecker-Abschnitt variieren. Das Wortspiel beim zweiten und dritten Vorkommen ist bewusst gesetzt, das erste 'ruhig' (Zeiger) kann entfallen.",
+          "Beim zweiten Vorkommen 'Krankenkassenarzt' durch 'dieser' oder 'der Arzt' ersetzen.",
+          "'die Stelle betasten' durch 'sie betasten' ersetzen.",
+          "Die Pelz-Wiederholung ist ein bewusst eingesetztes Stilmittel mit Symbolgehalt und sollte erhalten bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.151608
+}

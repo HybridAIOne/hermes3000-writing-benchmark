@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-opus-5.5__r1",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein Hausflur. Abend. PAUL öffnet die Tür."],
+        "suggestions": [
+          "Der Einstieg ist präzise und wirft den Leser direkt in die Situation. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["schief", "alte"],
+        "suggestions": [
+          "Sehr sparsam und effektiv eingesetzt. Der minimalistische Stil sollte beibehalten werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["THOMAS: Hallo."],
+        "suggestions": [
+          "Da es sich um ein Skript handelt, ist das Fehlen von 'sagte er' absolut korrekt und notwendig."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sowieso", "mal", "noch"],
+        "suggestions": [
+          "Die Füllwörter wirken hier authentisch und charakterisierend, sie unterstreichen die Alltagssprache."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine 'während'- oder 'als'-Konstruktionen."],
+        "suggestions": ["Die Handlungen sind klar sequenziell und direkt, was das Tempo hochhält."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Passivkonstruktionen gefunden."],
+        "suggestions": ["Der Text ist durchgehend aktiv formuliert, was die Dynamik stärkt."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine verschachtelten Sätze."],
+        "suggestions": [
+          "Die kurzen Sätze erzeugen den gewünschten Rhythmus und die Spannung zwischen den Figuren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["THOMAS: Ich kann auch gleich wieder gehen."],
+        "suggestions": [
+          "Die Kürze der Dialoge ist eine Stärke des Textes und lässt Raum für Subtext."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine 'er dachte/sah'-Formulierungen."],
+        "suggestions": [
+          "Alles wird durch Handlungen und Dialoge gezeigt (Show, don't tell). Exzellent."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die alte (Klingel/Maschine)", "Die hab ich dir geschenkt"],
+        "suggestions": [
+          "Die Wiederholungen sind hier ein bewusstes stilistisches Mittel und unterstreichen die gemeinsame Vergangenheit der Figuren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

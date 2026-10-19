@@ -1,0 +1,172 @@
+{
+  "who": "opus",
+  "item": "anchor__fontane-unterm-birnbaum-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus und Materialwaarengeschäft von Abel Hradscheck (so stand auf einem über der Thür angebrachten Schilde) wurden Säcke [...] geladen.",
+          "Dieser war breit und tief und theilte sich in zwei Hälften [...] So war der Flur."
+        ],
+        "suggestions": [
+          "Direkter mit einer Handlung oder Figur einsteigen, etwa mit Hradschecks Anweisung an Jakob: »Und nun vorwärts, Jakob, und grüße mir Ölmüller Quaas.«",
+          "Die ausführliche Beschreibung des Flurs kürzen oder verteilen. Die Fallthür und die Fässer lassen sich erwähnen, wenn Hradscheck an ihnen vorbeigeht. Der Absatz 'So war der Flur' zeigt, dass die Handlung hier pausiert.",
+          "Erwägen, ob der eigentliche Konflikt ('Und das alles war sein! Aber wie lange noch?') früher angedeutet werden kann."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "in dem großen und reichen Oderbruchdorfe",
+          "mit zwei magern Schimmeln",
+          "Ein sorglich vorgelegter Keil",
+          "Da lag es, sauber und freundlich",
+          "eine große, durch ihre Schwere und Reife sich von selbst ablösende Malvasierbirne mit eigenthümlich dumpfem Ton",
+          "Er sann ängstlich nach",
+          "halb ärgerlich halb lachend"
+        ],
+        "suggestions": [
+          "Doppelte Adjektive wie 'großen und reichen' oder 'breit und tief' auf eines reduzieren oder durch ein konkretes Detail ersetzen.",
+          "Statt 'Er sann ängstlich nach' die Angst über einen konkreten Gedanken oder eine Geste zeigen.",
+          "Die Beschreibung der Birne verschlanken: 'eine reife Malvasierbirne klatschte dumpf auf das Möhrenbeet'.",
+          "'sorglich' streichen, denn die Funktion des Keils erklärt sich im Folgesatz."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Der als Jakob Angeredete nickte nur statt aller Antwort",
+          "»Ja, Mutter Jeschke, 's wird Zeit,« sagte Hradscheck.",
+          "schloß [...] die Fallthür und sagte: »Dieser Junge, der Ede.«"
+        ],
+        "suggestions": [
+          "'sagte Hradscheck' nach 'Ja, Mutter Jeschke' streichen. Durch die Anrede und den Wechsel ist der Sprecher eindeutig.",
+          "'Der als Jakob Angeredete nickte nur statt aller Antwort' vereinfachen zu 'Jakob nickte'.",
+          "Redeeinleitungen durch Handlungsbeats ersetzen, z. B. 'Hradscheck schlug die Fallthür zu. »Dieser Junge, der Ede.«'"
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Einige von den Säcken waren nicht gut gebunden",
+          "durch ein paar Holzsäulen",
+          "eine gewisse Herrschaftlichkeit",
+          "muthmaßlich auf der Sperlingssuche",
+          "deren kleines, etwas zurückgebautes Haus",
+          "Ein paar Möhrenbeete",
+          "Der kaum vom Winde bewegte Rauch",
+          "so sah man denn an dem"
+        ],
+        "suggestions": [
+          "'Einige von den Säcken' konkretisieren, etwa 'Aus zwei Säcken rieselte Raps'.",
+          "'eine gewisse Herrschaftlichkeit' durch ein sichtbares Detail ersetzen, das diese Herrschaftlichkeit zeigt.",
+          "'muthmaßlich', 'etwas' und 'denn' streichen. Die Katze kann einfach 'auf Sperlingsjagd' sein.",
+          "Füllpartikeln wie 'denn', 'ja', 'nur' und 'aber' im Erzähltext deutlich reduzieren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "zu dem eben vom Rad her auf die Deichsel steigenden Knecht",
+          "während der nach dem Garten hinausführende Hinterflur ganz dem Geschäft gehörte",
+          "während an der andern übereinandergeschichtete Fässer lagen",
+          "Hradscheck selbst aber, der eben die schmale [...] Gasse passirte, schloß [...] die Fallthür und sagte",
+          "hatte die Birne kaum aufgehoben, als er sich von der Seite her angerufen hörte",
+          "kam erst zu Betrachtung und Bewußtsein, als er, am Ende des Gartens angekommen, sich umsah"
+        ],
+        "suggestions": [
+          "Handlungen nacheinander erzählen: 'Jakob stieg vom Rad auf die Deichsel. Hradscheck rief ihm zu: ...'",
+          "Das doppelte 'während' in der Flurbeschreibung auflösen: 'An der einen Wand standen Säcke und Kisten. An der anderen lagen Ölfässer.'",
+          "'Hradscheck hob die Birne auf. »Dag, Hradscheck«, rief es von der Seite.'"
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "wurden Säcke, vom Hausflur her, auf einen [...] Bauerwagen geladen",
+          "die durch ein paar Holzsäulen und zwei dazwischen ausgespannte Hängematten von einander getrennt waren",
+          "deren stattliche Reihe nur durch eine zum Keller hinunterführende Fallthür unterbrochen war",
+          "Nur in der Mitte hatte man einen Durchgang gelassen"
+        ],
+        "suggestions": [
+          "Den Eröffnungssatz aktiv formulieren und einen Akteur nennen: 'Jakob lud die Säcke aus dem Hausflur auf den Bauerwagen.'",
+          "'Holzsäulen und Hängematten trennten den Flur in zwei Hälften.'",
+          "'Eine Fallthür zum Keller unterbrach die Reihe der Fässer.'",
+          "Unpersönliche 'man'-Konstruktionen ('so sah man', 'hatte man') durch konkrete Subjekte ersetzen."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus und Materialwaarengeschäft von Abel Hradscheck (so stand auf einem über der Thür angebrachten Schilde) wurden Säcke, vom Hausflur her, auf einen mit zwei magern Schimmeln bespannten Bauerwagen geladen.",
+          "Ein paar Möhrenbeete, die sich, sammt einem schmalen mit Kartoffeln besetzten Ackerstreifen, an eben dieser Stelle durch eine Spargel-Anlage hinzogen, waren schon wieder umgegraben, eine frische Luft ging, und eine schwarzgelbe, der nebenanwohnenden Wittwe Jeschke zugehörige Katze schlich [...]",
+          "Hradscheck selbst aber, der eben die schmale, zwischen den Kisten und Ölfässern freigelassene Gasse passirte, schloß, halb ärgerlich halb lachend, die trotz seines Verbotes mal wieder offenstehende Fallthür und sagte: [...]",
+          "Und nun klapperte der Wagen nach rechts hin den Fahrweg hinunter, erst auf das Bauer Orth'sche Gehöft sammt seiner Windmühle (womit das Dorf nach der Frankfurter Seite hin abschloß) und dann auf die weiter draußen am Oderbruch-Damm gelegene Ölmühle zu."
+        ],
+        "suggestions": [
+          "Den Eröffnungssatz in drei Sätze aufteilen: Ort, Schild und Handlung jeweils für sich.",
+          "Lange vorangestellte Partizipialattribute ('dem eben vom Rad her auf die Deichsel steigenden Knecht') in Relativ- oder Hauptsätze umwandeln.",
+          "Klammereinschübe auflösen oder streichen.",
+          "Den Gartensatz zerlegen: 'Die Möhrenbeete waren umgegraben. Eine frische Luft ging. Jeschkes Katze schlich durch die Spargelbeete.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "»Und nun vorwärts, Jakob, und grüße mir Ölmüller Quaas. Und sag' ihm, bis Ende der Woche müßt' ich das Öl haben, Leist in Wrietzen warte schon. Und wenn Quaas nicht da ist, so bestelle der Frau meinen Gruß und sei hübsch manierlich. Du weißt ja Bescheid. Und weißt auch, Kätzchen hält auf Komplimente.«"
+        ],
+        "suggestions": [
+          "Die Dialoge sind insgesamt knapp und charakterisierend. Allenfalls die erste Rede leicht straffen: 'Du weißt ja Bescheid' ist redundant zu den vorherigen Anweisungen.",
+          "Die vielen 'Und'-Anfänge in Hradschecks Rede reduzieren, ohne den mündlichen Ton zu verlieren."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "so sah man denn an dem, was herausfiel, daß es Rapssäcke waren",
+          "Er wandte sich bei diesem Anruf und sah, daß seine Nachbarin, die Jeschke, [...] über den Himbeerzaun kuckte",
+          "eine große [...] Malvasierbirne mit eigenthümlich dumpfem Ton aufklatschen hörte",
+          "als er sich von der Seite her angerufen hörte",
+          "Hradscheck sah dem Wagen nach, bis er verschwunden war"
+        ],
+        "suggestions": [
+          "'Aus den schlecht gebundenen Säcken rieselte Raps.'",
+          "'Er wandte sich um. Über den Himbeerzaun kuckte die Jeschke.'",
+          "'Neben ihm klatschte eine Malvasierbirne dumpf auf das Möhrenbeet.'",
+          "Den Ruf direkt setzen, ohne 'hörte': 'Er hob die Birne auf. »Dag, Hradscheck.«'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Flur / Hausflur / Vorflur / Hinterflur in kurzer Folge mehrfach",
+          "Er sann ängstlich nach und fuhr aus seinem Sinnen erst auf",
+          "Säcke, vom Hausflur her [...] Säcke [...] Rapssäcke [...] Rapssack [...] Säcke, Citronen- und Apfelsinenkisten",
+          "Mittelsteige / Mittelsteig / Möhrenbeete / Möhrenbeete",
+          "Der als Jakob Angeredete nickte nur statt aller Antwort (doppelte Aussage: nickte = Antwort)",
+          "kam erst zu Betrachtung und Bewußtsein"
+        ],
+        "suggestions": [
+          "'Er sann ängstlich nach und fuhr aus seinem Sinnen erst auf' straffen: 'Er grübelte, bis ihn ein dumpfes Klatschen aufschreckte.'",
+          "Doppelformeln wie 'Betrachtung und Bewußtsein' oder 'rechnend und wägend' auf ein Wort reduzieren.",
+          "Die Fallthür wird bei der Flurbeschreibung und kurz darauf erneut eingeführt. Eine Erwähnung an der handlungsrelevanten Stelle genügt.",
+          "Die Wiederholung von 'Ede' am Ende wirkt als Motiv absichtlich und sollte erhalten bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.124084
+}

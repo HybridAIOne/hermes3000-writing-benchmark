@@ -1,0 +1,136 @@
+{
+  "who": "sol",
+  "item": "lit-scene__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der Schlüssel klemmte, wie er schon immer geklemmt hatte.“",
+          "„Zwanzig Jahre. Sie blieb auf der Schwelle stehen […]“"
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Das klemmende Schloss führt unmittelbar in eine Handlung und vermittelt zugleich Miriams Vertrautheit mit dem Haus.",
+          "Nicht erst beim Betreten der Küche einsetzen. Dadurch gingen die körperlich erinnerte Bewegung und die wirkungsvolle Schwellenpassage verloren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„kalt, trocken, nach Papier und ausgestandenem Kamin“",
+          "„ein dunkler, harter Rand eingebrannten Kaffees, rissig wie eine Trockenheit“",
+          "„dessen Holz unter ihren Fingern glatt war und kühl, abgegriffen an genau der Stelle […]“"
+        ],
+        "suggestions": [
+          "Sinnlich präzise Attribute wie „kalt, trocken“ und „blauen Mantel“ erhalten; sie tragen Atmosphäre beziehungsweise Wiedererkennung.",
+          "Die Kaffeespur versuchsweise verdichten: „Am Boden haftete eingebrannter Kaffee, dunkel und rissig.“ Das vermeidet die Häufung ähnlicher Beschreibungsmerkmale.",
+          "Den abstrakten Vergleich „rissig wie eine Trockenheit“ auf seine Bildschärfe prüfen. „Rissig wie ausgetrocknete Erde“ wäre konkreter, allerdings auch konventioneller."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung erforderlich: Der Text enthält weder direkte Dialoge noch überflüssige Redeeinleitungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„fast einen Geruch“",
+          "„an genau der Stelle“",
+          "„und sie betrachtete ihn länger, als vernünftig war“",
+          "„zählte, ohne es zu wollen, die Dinge“"
+        ],
+        "suggestions": [
+          "„Genau“ probeweise streichen; die anschließende Beschreibung bestimmt die Stelle bereits ausreichend.",
+          "„Länger, als vernünftig war“ durch eine beobachtbare Dauer oder Handlung ersetzen, falls Miriams Fixierung konkreter werden soll, etwa: „Sie rieb die Fingerkuppe über den Streifen. Er blieb.“",
+          "„Fast“ und „ohne es zu wollen“ nicht pauschal streichen: Hier markieren sie Wahrnehmungsunsicherheit und einen unwillkürlichen Vorgang."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Als sie das Kännchen wieder abstellte, war an ihrem Daumen ein schwarzer Streifen […]“",
+          "„Das Wasser lief die Scheiben hinunter in Bahnen, die sich kreuzten, und Miriam stand in der Küche ihrer Mutter und zählte […]“"
+        ],
+        "suggestions": [
+          "Keine systematische Überarbeitung nötig: Zeitliche Verknüpfungen werden sparsam eingesetzt und sind nachvollziehbar.",
+          "Die Entdeckung der Kaffeespur ließe sich unmittelbarer staffeln: „Sie stellte das Kännchen ab. An ihrem Daumen blieb ein schwarzer Streifen.“",
+          "Das vergleichende „als wäre“ und „länger, als“ nicht als zeitliche Gleichzeitigkeit behandeln."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Miriam stellte den Koffer ab.“",
+          "„Miriam hob den Deckel.“",
+          "„Nicht weggeräumt, nicht verstaubt genug für zwanzig Jahre.“"
+        ],
+        "suggestions": [
+          "Die aktive, gegenständliche Erzählweise beibehalten.",
+          "Die verkürzte Zustandsbeschreibung „Nicht weggeräumt“ muss nicht umformuliert werden; sie ist kein schwerfälliger Passivsatz."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Stattdessen ging sie zur Treppe, legte die Hand auf den Handlauf, dessen Holz unter ihren Fingern glatt war und kühl, abgegriffen an genau der Stelle, an der eine Hand beim Hinaufgehen zuerst Halt sucht.“",
+          "„Und doch: Als sie das Kännchen wieder abstellte, war an ihrem Daumen ein schwarzer Streifen, fein wie ein Schmutzfingerrad, und sie betrachtete ihn länger, als vernünftig war, bevor sie ihn am Mantel abstreifte.“"
+        ],
+        "suggestions": [
+          "Den Handlaufsatz an der Wahrnehmung teilen: „Stattdessen ging sie zur Treppe und legte die Hand auf den Handlauf. Das Holz war glatt und kühl, abgegriffen dort, wo eine Hand beim Hinaufgehen zuerst Halt sucht.“",
+          "Die Kaffeespur auf zwei oder drei Sätze verteilen. So erhalten Entdeckung, Betrachtung und Abstreifen jeweils eigenes Gewicht.",
+          "Nicht alle längeren Sätze kürzen: Ihr tastender Rhythmus passt zu Miriams vorsichtiger Annäherung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung erforderlich: Es gibt keine Dialogpassagen. Die fehlenden Stimmen unterstützen die Inszenierung der Abwesenheit."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Sie hatte erwartet, ihn zu berühren, und tat es dann doch nicht.“",
+          "„sie hätte es nicht zu trennen gewusst“",
+          "„Sie roch daran – nichts mehr.“"
+        ],
+        "suggestions": [
+          "Die Erwartung vor dem Mantel könnte bei gewünschter Unmittelbarkeit körperlich gezeigt werden: „Ihre Hand hob sich zum blauen Mantel und sank wieder.“ Dabei würde allerdings die ausdrücklich benannte Erwartung entfallen.",
+          "„Sie roch daran – nichts mehr“ beibehalten: Das Riechen ist hier eine konkrete Handlung, kein entbehrlicher Wahrnehmungsfilter.",
+          "Die reflexive Wendung „sie hätte es nicht zu trennen gewusst“ nur streichen, wenn eine knappere, weniger tastende Erzählstimme gewünscht ist."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Die Stille hatte Konsistenz, fast einen Geruch – oder der Geruch hatte Stille […]“",
+          "„Zwanzig Jahre.“ / „nicht verstaubt genug für zwanzig Jahre“",
+          "„An der Garderobe hing noch der blaue Mantel.“ / „Am eigenen, nicht am blauen.“",
+          "„Keine Stimme aus der Küche. Kein Radio.“"
+        ],
+        "suggestions": [
+          "Die Umkehrung von Stille und Geruch auf ihren Mehrwert prüfen: Sie vertieft die Wahrnehmungsunsicherheit, umschreibt aber auch denselben Eindruck ein zweites Mal. Eine knappere Variante wäre: „Die Stille hatte Konsistenz, fast einen Geruch.“",
+          "Die Wiederaufnahme der zwanzig Jahre erhalten, wenn der überraschend geringe Staub eine Frage nach der zwischenzeitlichen Nutzung des Hauses eröffnen soll.",
+          "Die Mantel-Wiederholung und die parallelen Verneinungen erhalten: Sie sind funktionale Rückbezüge beziehungsweise rhythmische Zuspitzungen, keine bloßen Doppelungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021362
+}

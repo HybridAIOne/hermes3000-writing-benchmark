@@ -1,0 +1,144 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__gpt-6-luna__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Nebel lag so dicht über der Elbe, dass Ilse das andere Ufer nicht sah. Sie hörte es aber.“ etabliert unmittelbar Ort, Atmosphäre und Ilses Orientierung über Geräusche.",
+          "„Das Telefon vibrierte in der Jackentasche.“ setzt erst am Ende einen deutlich persönlichen Konfliktimpuls."
+        ],
+        "suggestions": [
+          "Den atmosphärischen Einstieg grundsätzlich beibehalten: Er bereitet die akustischen Wahrnehmungen während der Überfahrt vor.",
+          "Falls Jonas den zentralen Konflikt der Geschichte auslöst, die Routine vor seinem Anruf etwas verdichten oder früh eine kleine Irritation setzen. Ohne Kenntnis des weiteren Textes ist ein späterer Einstieg nicht zwingend besser."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„nassem Holz und kaltem Wasser“ verbindet die Beschreibung mit sinnlichen Eindrücken.",
+          "„ein Mann in einer grünen Arbeitsjacke“ und „einen grauen Rucksack“ enthalten Farbangaben, deren Bedeutung bislang gering bleibt.",
+          "„ein leises Drängen am Bug“ und „ein tieferes Surren“ differenzieren die für Ilse wichtigen Geräusche."
+        ],
+        "suggestions": [
+          "Sinnlich oder funktional tragende Attribute erhalten; nicht pauschal alle Adjektive streichen.",
+          "Bei beiläufigen Farben prüfen, ob sie Figuren wiedererkennbar machen. Andernfalls genügen „Arbeitsjacke“ und „Rucksack“.",
+          "„Langsam setzte sich die Fähre in Bewegung“ ließe sich zu „Die Fähre glitt an“ verdichten, sofern die konkrete Bewegung damit richtig getroffen ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ilse nickte. ‚Morgen.‘“ kennzeichnet die Sprecherin durch Handlung.",
+          "„Der junge Mann trat zu ihr. ‚Wie lange dauert die Überfahrt?‘“ kommt ohne zusätzliche Redeeinleitung aus.",
+          "„‚November‘, sagte Ilse.“ ist im unmittelbaren Wechsel mit der Frau auch ohne Sprecherzusatz verständlich."
+        ],
+        "suggestions": [
+          "Die unauffälligen Redekennzeichnungen überwiegend beibehalten, besonders bei Gesprächen mit mehreren Beteiligten.",
+          "Im klaren Zweierwechsel einzelne Zusätze wie „sagte Ilse“ streichen, wenn dadurch der knappe Rhythmus gewinnt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Sie standen in einigem Abstand voneinander“ bleibt räumlich unbestimmt.",
+          "„Die Frau war vielleicht Anfang vierzig“ enthält eine plausible Schätzung aus Ilses Perspektive.",
+          "„einen Augenblick“, „für einen Moment“ und „einen Moment“ bilden wiederkehrende, wenig konkrete Zeitangaben."
+        ],
+        "suggestions": [
+          "„in einigem Abstand“ beispielsweise durch „mit Abstand“ ersetzen; eine genaue Entfernung nur nennen, wenn sie relevant ist.",
+          "Die kurzen Zeitangaben probeweise streichen und prüfen, ob die jeweilige Handlung die Pause bereits vermittelt.",
+          "„vielleicht Anfang vierzig“ darf bleiben: Die Unsicherheit charakterisiert hier eine Einschätzung und ist nicht automatisch ein Füllwort."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Als der Anleger aus dem Grau auftauchte, waren die drei Fahrgäste schon bereit.“ verknüpft die Ankunft sinnvoll mit der Reaktion der Passagiere.",
+          "„als hätte auch sie sich erst durch den Morgen arbeiten müssen“ ist ein Vergleich, keine Gleichzeitigkeit.",
+          "„Die Frau folgte, führte ihr Fahrrad über die Planke und stellte es neben die Bank.“ erzählt die Handlungen nachvollziehbar nacheinander."
+        ],
+        "suggestions": [
+          "Die überwiegend lineare Handlungsführung beibehalten.",
+          "Die vergleichenden Als-Konstruktionen nicht als Gleichzeitigkeit behandeln. Allenfalls ihre stilistische Häufung gesondert prüfen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ilse schob den Riegel am Fährhaus zurück und trat hinaus.“ benennt die handelnde Figur direkt.",
+          "„Sie zog die Bremse an und legte den Riegel ein.“ beschreibt die Arbeit aktiv und konkret."
+        ],
+        "suggestions": [
+          "Keine Passivkorrektur nötig: Der Text verwendet durchgehend anschauliche aktive Handlungen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Sie schob sich über den Fluss, den Ilse nicht sehen konnte, nur hörte: ein leises Drängen am Bug, das Knacken der Planken unter ihren Stiefeln, das Wasser, das gegen die Bordwand lief.“ ist der auffälligste lange Satz, bleibt durch den Doppelpunkt aber gegliedert.",
+          "„Sie brauchte nichts weiter zu tun, als den Druck zu halten und die Fähre gerade zu führen.“ ist trotz Erweiterung leicht verständlich."
+        ],
+        "suggestions": [
+          "Den Wechsel zwischen kurzen Sätzen und längeren Wahrnehmungssätzen erhalten.",
+          "Falls der lange Satz zur Überfahrt stockt, teilen: „Die Fähre schob sich über den Fluss. Unsichtbares Wasser drängte gegen den Bug. Unter Ilses Stiefeln knackten die Planken.“ Dabei geht allerdings etwas vom fließenden Rhythmus verloren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„‚Fährt sie?‘ – ‚Wenn Sie drauf sind.‘“ charakterisiert Ilse mit wenigen Worten.",
+          "„‚Und wann ist das?‘ – ‚Wenn Schluss ist.‘“ wiederholt das bereits etablierte Muster ihrer ausweichenden Antworten.",
+          "„‚Fünf Minuten‘, sagte sie.“ bricht dieses Muster durch eine unerwartet hilfreiche Auskunft."
+        ],
+        "suggestions": [
+          "Die kurzen, durch Handlungen unterbrochenen Dialoge grundsätzlich erhalten.",
+          "Nicht einzelne Reden, sondern gegebenenfalls einen vollständigen Schlagabtausch kürzen, wenn Ilses Schlagfertigkeit zu demonstrativ wirkt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Sie schien auf eine Antwort zu warten.“ vermittelt eine Deutung statt einer beobachtbaren Geste.",
+          "„Er sah sie an, unsicher, ob sie es ernst meinte.“ schreibt dem jungen Mann einen inneren Zustand zu.",
+          "„Ilse sah den Namen an, bis das Vibrieren aufhörte.“ ist dagegen eine bedeutungstragende Handlung und kein entbehrlicher Wahrnehmungsfilter."
+        ],
+        "suggestions": [
+          "Die wartende Haltung der Frau bei Bedarf konkretisieren, etwa: „Die Frau hielt ihren Blick fest.“",
+          "Bei enger Ilse-Perspektive die Unsicherheit des jungen Mannes durch Mimik oder eine Frage zeigen, statt sie als gesicherten inneren Zustand zu benennen.",
+          "Ilses Blick auf Jonas’ Namen unbedingt als Handlung ernst nehmen: Seine Dauer trägt den Schluss."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„als gehörten sie nicht zusammen. Das taten sie auch nicht.“ bestätigt unmittelbar, was bereits nahegelegt wurde.",
+          "„Nichts, was nicht schon gestern ausgefranst gewesen wäre.“ wiederholt „ausgefranst“, vermittelt dabei aber Ilses Gewöhnung an den Zustand.",
+          "„Wenn wir ankommen, sind wir da“, „Bis Feierabend“ und „Wenn Schluss ist“ variieren mehrfach denselben ausweichenden Antworttyp.",
+          "„Sie müssen nicht dauernd danke sagen.“ fällt auf, weil der junge Mann im gezeigten Gespräch erst einmal „Danke“ gesagt hat."
+        ],
+        "suggestions": [
+          "„Das taten sie auch nicht“ streichen, sofern die trockene Erzählerpointe nicht ausdrücklich gewünscht ist.",
+          "Die Handschuh-Rückblende kürzen, falls sie nur erneut Routine und Kälte vermitteln soll; behalten, wenn sie Ilses Lebensumstände vertieft.",
+          "Eine der ausweichenden Antworten durch Schweigen oder eine sachliche Reaktion ersetzen, um Ilse weniger schematisch wirken zu lassen.",
+          "„dauernd“ streichen oder ein früheres Dankeschön ergänzen. Soll die Übertreibung Ilses Gereiztheit zeigen, diese Wirkung bewusst absichern.",
+          "Wiederkehrende Motive wie Nebel, Seil und Geräusche nicht pauschal reduzieren: Sie verbinden die Szene und tragen ihre Atmosphäre."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.025536
+}

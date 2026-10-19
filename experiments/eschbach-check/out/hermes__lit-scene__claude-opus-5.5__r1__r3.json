@@ -1,0 +1,83 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-opus-5.5__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel passte noch."],
+        "suggestions": [
+          "Der Einstieg ist exzellent, da er sofort Spannung erzeugt und den Leser mitten ins Geschehen wirft."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kaltem Stein", "kaum merklich"],
+        "suggestions": [
+          "Die Adjektive sind sehr treffend gewählt und dienen der Atmosphäre, nicht der Dekoration."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher keine Redeeinleitungen nötig."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr präzise und kommt ohne unnötige Füllwörter aus."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Keine übermäßige Verwendung von 'während' oder 'als'. Die Handlungsabfolge ist klar und logisch."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist fast durchgehend aktiv formuliert, was die Dynamik erhöht."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Judith hatte erwartet, dass er klemmen würde, dass man das Schloss in zwanzig Jahren ausgetauscht hätte, dass das Haus ihr wenigstens diesen einen Widerstand bieten würde."
+        ],
+        "suggestions": [
+          "Die langen Sätze sind rhythmisch gut gesetzt und wirken nicht verschachtelt, sondern atmosphärisch."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["in diesem Licht sah alles aus wie auf einer Fotografie"],
+        "suggestions": [
+          "'Sah aus wie' ist eine indirekte Wahrnehmung. Man könnte es noch direkter machen: 'Das Licht verwandelte alles in eine Fotografie...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["gegen die Motten, gegen alles"],
+        "suggestions": ["Wiederholungen werden hier stilistisch bewusst und effektiv eingesetzt."]
+      }
+    }
+  },
+  "costUsd": 0
+}

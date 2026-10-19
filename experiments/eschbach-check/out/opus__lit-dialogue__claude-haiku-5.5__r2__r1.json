@@ -1,0 +1,127 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__claude-haiku-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "MARTIN sitzt bereits, rührt in einer leeren Tasse. JULIA bleibt in der Tür stehen, dann kommt sie langsam näher.",
+          "MARTIN sitzt bereits, rührt in einer leeren Tasse. / JULIA: Der Kaffee sieht kalt aus. / MARTIN: Ich hab nicht bestellt."
+        ],
+        "suggestions": [
+          "Der Einstieg ist knapp und setzt kurz vor dem ersten Wortwechsel ein. Das Zögern an der Tür etabliert die Spannung und ist berechtigt. Alternativ könnte die Szene direkt mit 'Du bist früher da.' beginnen und Julias Zögern über das Nicht-Ausziehen des Mantels transportieren.",
+          "Logikbruch im Setting klären: Eine leere Tasse passt nicht zu 'Der Kaffee sieht kalt aus'. Ebenso widerspricht 'Ich hab nicht bestellt' einer vorhandenen Tasse. Entweder eine halbvolle, kalte Tasse setzen oder Julias Satz anpassen, etwa 'Deine Tasse ist leer.'"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "dann kommt sie langsam näher",
+          "Er lacht kurz, ohne Wärme.",
+          "Sie öffnet endlich den obersten Knopf ihres Mantels.",
+          "das Horn klingt lang und dunkel"
+        ],
+        "suggestions": [
+          "'langsam näher' durch ein präziseres Verb ersetzen, z. B. 'JULIA zögert in der Tür, tritt dann an den Tisch.'",
+          "'endlich' ist eine Erzählerwertung. Ohne das Wort wirkt die Geste stärker, weil der Zuschauer selbst registriert, dass der Mantel bisher zu war.",
+          "'lang und dunkel' ist atmosphärisch stimmig und kann bleiben. Als Schlussbild genügt eventuell 'Das Horn eines Schiffes. Lang.'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["**JULIA:** Du bist früher da.", "**MARTIN:** Grau."],
+        "suggestions": [
+          "Im Bühnen- bzw. Drehbuchformat sind die Sprecherbezeichnungen formal notwendig. Redeeinleitungen wie 'sagte er' fehlen vollständig. Kein Handlungsbedarf."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie fragt manchmal nach dir.",
+          "Ich erinnere mich einfach.",
+          "Du hast also doch die Einladung bekommen."
+        ],
+        "suggestions": [
+          "'manchmal' und 'einfach' sind in der Figurenrede bewusst vage und tragen Subtext (Ausweichen, Distanz). Sie sollten bleiben.",
+          "'also doch' setzt einen vorherigen Zweifel voraus, der im Dialog nicht vorkommt. Entweder vorher andeuten oder auf 'Du hast die Einladung bekommen.' reduzieren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er sieht es, sagt nichts.",
+          "Sie greift nach ihrer Tasse, zögert, lässt sie stehen."
+        ],
+        "suggestions": [
+          "Handlungen werden konsequent nacheinander beschrieben. Signalwörter wie 'während' oder 'gleichzeitig' fehlen. Die Reihung in kurzen Verbketten ist vorbildlich."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Passivkonstruktionen vorhanden. Alle Regieanweisungen sind aktiv und im Präsens formuliert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Kellnerin kommt, nimmt Julias Bestellung auf, geht wieder.",
+          "Draußen fährt ein Schiff vorbei, das Horn klingt lang und dunkel."
+        ],
+        "suggestions": [
+          "Die Sätze sind durchgehend kurz und klar. Die knappe Syntax spiegelt die Sprachlosigkeit der Figuren. Kein Handlungsbedarf."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "MARTIN: Du siehst gut aus. / JULIA: Danke. Du auch. Die Haare. / MARTIN: Grau. / JULIA: Hab ich gesehen.",
+          "MARTIN: Erinnerst du dich an den Sommer am See? / JULIA: Ja. / MARTIN: Und? / JULIA: Nichts. Ich erinnere mich einfach."
+        ],
+        "suggestions": [
+          "Die Repliken sind extrem verdichtet und subtextreich. Nur der Smalltalk-Block über das Aussehen ließe sich um eine Replik kürzen. Er erfüllt aber dramaturgisch die Funktion, die vergangene Zeit zu zeigen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er sieht es, sagt nichts.",
+          "MARTIN: Ich dachte, einer von uns sollte pünktlich sein.",
+          "MARTIN: Ich wusste nicht, ob du kommst."
+        ],
+        "suggestions": [
+          "'Er sieht es' ist eine notwendige Regieanweisung, weil sie für den Darsteller spielbar ist. Optional stärker: 'Sein Blick bleibt am Knopf hängen. Er schweigt.'",
+          "Die 'dachte/wusste'-Formulierungen stehen in der Figurenrede und sind dort natürlich und charakterisierend."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Pause. / Stille.",
+          "rührt in einer leeren Tasse / Löffel klirrt gegen Porzellan / Sie greift nach ihrer Tasse, zögert, lässt sie stehen.",
+          "MARTIN: Das freut mich. / JULIA: Sie hat nicht gesagt, dass es sie freut."
+        ],
+        "suggestions": [
+          "Die Wiederholungen von Tasse, Mantel und 'freut' sind bewusst gesetzte Motive und Echos. Sie wirken stark und sollten bleiben.",
+          "'Pause' und 'Stille' markieren denselben Effekt. Eine der beiden durch eine konkrete Aktion ersetzen, z. B. 'Regen gegen die Scheibe.' Das greift den Eingangsregen auf.",
+          "'Beide blicken aus dem Fenster' und das Schlussbild mit dem Schiff nutzen denselben Fluchtpunkt. Das ist stimmig, aber den ersten Blick könnte man streichen, um das Ende zu stärken."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.084196
+}

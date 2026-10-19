@@ -1,0 +1,130 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__gpt-6-luna__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Du bist pünktlich.“ – „Du hast geschrieben, halb vier.“",
+          "„Früher wärst du trotzdem zu früh gekommen.“"
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Schon der scheinbar alltägliche Wortwechsel macht die gemeinsame Vergangenheit und die gegenwärtige Distanz spürbar. Ein späterer Beginn würde diesen Kontrast schwächen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Vor dem geschlossenen Café.“",
+          "„Er nimmt ihn nicht sofort.“",
+          "„Dann gehen wir einfach.“"
+        ],
+        "suggestions": [
+          "Die knappen, funktionalen Beschreibungen beibehalten. „Geschlossenen“ erklärt den Schauplatz, „nicht sofort“ macht Daniels Zögern spielbar.",
+          "Allenfalls „einfach“ probeweise streichen. Allerdings vermittelt das Wort hier auch Maras Versuch, die Entscheidung zum Aufbruch herunterzuspielen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Mara: Du bist pünktlich.“", "„Daniel: Du hast geschrieben, halb vier.“"],
+        "suggestions": [
+          "Die Sprecherbezeichnungen entsprechen der dramatischen Form und sind keine überflüssigen Redeeinleitungen. Zusätzliche Kennzeichnungen wie „sagt sie gereizt“ vermeiden; die Spannung entsteht bereits aus Wortwahl und Handlungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Vielleicht.“",
+          "„Lass nur. Ich hab ihn ja genommen.“",
+          "„Daniel wartet einen Moment.“"
+        ],
+        "suggestions": [
+          "„Vielleicht“ und „ja“ nicht pauschal streichen: Sie tragen zum Ausweichen beziehungsweise zur Selbstrechtfertigung bei.",
+          "Falls die letzte Regieanweisung einen genaueren Spielimpuls braucht, das Warten an Maras Bewegung koppeln. Eine präzise Zeitangabe ist dagegen nicht nötig."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Sie reicht ihm einen Becher. Er nimmt ihn nicht sofort.“",
+          "„Daniel wartet einen Moment. Dann tritt er neben sie.“",
+          "„Du musst nicht so tun, als wäre das eine Nachricht wie jede andere.“"
+        ],
+        "suggestions": [
+          "Die klare Abfolge der Handlungen beibehalten. Es gibt keine überladenen Gleichzeitigkeitskonstruktionen.",
+          "Das „als“ im Dialog bezeichnet einen irrealen Vergleich und ist kein problematischer Gleichzeitigkeitsmarker."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Sie haben die Fenster neu gestrichen.“",
+          "„Mara stellt ihren Becher auf die Fensterbank.“"
+        ],
+        "suggestions": [
+          "Keine Überarbeitung nötig: Die Sätze sind aktiv formuliert. Auch das unbestimmte „Sie“ beim Streichen der Fenster passt zum beiläufigen Gespräch."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Du musst nicht so tun, als wäre das eine Nachricht wie jede andere.“",
+          "„Und deine, alles stehen zu lassen, bis jemand anders es aufhebt.“"
+        ],
+        "suggestions": [
+          "Die Satzlängen beibehalten. Selbst die längeren Repliken sind übersichtlich und gut sprechbar; ihr etwas größerer Umfang unterstützt die Zuspitzung des Konflikts."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ist bitter.“ – „Der Kaffee?“ – „Vielleicht.“",
+          "„Wir könnten ein Stück gehen.“ – „Wohin?“ – „Ist das wichtig?“ – „Früher war es das.“"
+        ],
+        "suggestions": [
+          "Die kurzen Redewechsel und die Unterbrechungen durch Handlungen bewahren. Obwohl die Szene fast vollständig aus Dialog besteht, entstehen keine ausufernden Redepassagen.",
+          "Bei einer szenischen Probe prüfen, ob alle Pausen Spannung halten. Eher einzelne Pausen kürzen als die für den Subtext wichtigen Repliken."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ein Bus fährt vorbei. Mara sieht ihm nach.“",
+          "„Er trinkt. Sie beobachtet ihn.“",
+          "„Sie sieht ihn an. Er blickt auf den Becher.“"
+        ],
+        "suggestions": [
+          "Die Blickhandlungen nicht mit Wahrnehmungsfiltern wie „sie sah, dass“ verwechseln: Im dramatischen Text sind sie sichtbare Aktionen und vermitteln das Verhältnis der Figuren.",
+          "Am ehesten „Sie beobachtet ihn“ prüfen: Falls die Inszenierung mehr Orientierung benötigt, den Blick genauer ausrichten oder seine Dauer konkretisieren."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Früher wärst du trotzdem zu früh gekommen.“ / „Früher hattest du bessere Uhren.“ / „Früher war es das.“",
+          "„Nicht dieses Blau.“ – „Nein. Nicht dieses.“",
+          "„Ich bin nicht lange in der Stadt.“ – „Das hast du schon geschrieben.“ – „Ich dachte, du solltest es wissen.“"
+        ],
+        "suggestions": [
+          "Die Wiederaufnahme von „Früher“ als Motiv bewahren: Sie rahmt die Szene und kontrastiert Vergangenheit und Gegenwart.",
+          "Bei „Nein. Nicht dieses.“ prüfen, ob Daniels Echo einen eigenen emotionalen Akzent erhält. Ohne diesen Akzent könnte es redundant wirken.",
+          "Die erneute Mitteilung über Maras Aufenthalt nicht allein wegen ihrer inhaltlichen Wiederholung streichen: Daniels Antwort macht gerade sichtbar, dass Mara mehr als eine sachliche Bestätigung erwartet."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018036
+}

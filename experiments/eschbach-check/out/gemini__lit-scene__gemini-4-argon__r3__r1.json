@@ -1,0 +1,111 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel klemmte an genau derselben Stelle wie vor zwanzig Jahren."],
+        "suggestions": [
+          "Der Einstieg ist hervorragend. Er startet unmittelbar in einer Handlung ('in medias res') und vermittelt sofort Atmosphäre sowie die Hintergrundinformation, dass die Protagonistin lange nicht mehr hier war."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "diffuses, graues Novemberlicht",
+          "rissige weiße Porzellan mit einem verkrusteten dunklen Rand",
+          "kalte, leicht klebrige Spur"
+        ],
+        "suggestions": [
+          "Die meisten Adjektive sind sehr präzise und tragen stark zur Atmosphäre bei. An wenigen Stellen gibt es jedoch leichte Häufungen. 'Novemberlicht' impliziert bereits 'grau' und 'diffus' – hier könnte gestrafft werden (z.B. 'fiel trübes Novemberlicht'). Auch bei der Tasse könnten ein bis zwei Adjektive weggelassen werden, um den Lesefluss nicht zu bremsen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keine Dialoge, daher gibt es hier keine Mängel."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "den Griff leicht anheben",
+          "fast unverschämt",
+          "leicht klebrige Spur",
+          "plötzlich den Atem anzuhalten"
+        ],
+        "suggestions": [
+          "Der Text ist fast frei von Füllwörtern. Lediglich das zweimalige 'leicht' und das Wort 'plötzlich' am Ende schwächen die Sätze minimal ab. 'Plötzlich' ist meist entbehrlich, da die Handlung selbst die Plötzlichkeit ausdrücken sollte."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Als das Schloss schließlich nachgab, klang es...",
+          "Erst als Vera an die Spüle trat..., bemerkte sie...",
+          "Vera zog die Hand zurück, während das Haus um sie herum plötzlich den Atem anzuhalten schien."
+        ],
+        "suggestions": [
+          "Gleichzeitigkeit wird sehr sparsam eingesetzt. Dennoch könnte der letzte Satz – der emotionale Höhepunkt der Szene – durch ein Nacheinander noch stärker wirken: 'Vera zog die Hand zurück. Um sie herum hielt das Haus den Atem an.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Perfekt. Es werden keine unnötigen Passivkonstruktionen verwendet. Sogar unbelebte Dinge ('Das Licht schnitt', 'Der Duft stieg') sind aktiv und dynamisch formuliert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "An der Garderobe hing noch immer der dunkelgrüne Lodenmantel, stumm und schwer, als warte er darauf, dass jemand in seine Ärmel schlüpfte, um noch schnell vor dem Frost das Fallobst aufzulesen.",
+          "Keine Untertasse, kein Löffel."
+        ],
+        "suggestions": [
+          "Exzellenter Satzrhythmus. Längere, atmosphärische Sätze wechseln sich hervorragend mit kurzen, prägnanten Sätzen und Ellipsen ab. Der Satz über den Lodenmantel ist zwar recht verschachtelt, passt aber tonal gut zur Wehmut der Szene."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher optimal gelöst."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Erst als Vera an die Spüle trat, um das Fenster zu öffnen, bemerkte sie den Geruch.",
+          "...als das Haus um sie herum plötzlich den Atem anzuhalten schien."
+        ],
+        "suggestions": [
+          "Fast durchgehend wird sehr direkt und unmittelbar aus Veras Perspektive erzählt ('Es roch...', 'Ihre Schritte klangen...'). Nur 'bemerkte sie den Geruch' und 'anzuhalten schien' schaffen eine kleine Distanz. Direkter wäre: 'Vera trat an die Spüle, um das Fenster zu öffnen. Unter der Kälte und dem Staub lag eine scharfe, harzige Note.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Luft im Flur stand, schwer und kalt...",
+          "...hing noch immer der dunkelgrüne Lodenmantel, stumm und schwer...",
+          "Unter der Kälte und dem Staub...",
+          "...über die kalte, leicht klebrige Spur..."
+        ],
+        "suggestions": [
+          "Inhaltlich gibt es keinerlei unnötige Doppelungen. Auf Wortebene wiederholen sich die Adjektive 'schwer' (zweimal kurz hintereinander) und 'kalt/Kälte' (dreimal im Text). Beim Mantel oder der Spur am Waschbecken könnte nach einem alternativen Sinneseindruck gesucht werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01628
+}

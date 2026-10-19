@@ -1,0 +1,150 @@
+{
+  "who": "opus",
+  "item": "lit-continue__gemini-4-argon__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Die Strömung reicht“, sagte Ilse.",
+          "Sie wischte sich die Hände an der Arbeitshose ab, obwohl das Hanfseil nur die gewohnte Feuchtigkeit hinterlassen hatte"
+        ],
+        "suggestions": [
+          "Der Einstieg mitten in der Handlung funktioniert. Die Ankunft ist schon vorbei, die Begegnung läuft bereits. Die anfängliche Unklarheit ist vertretbar, weil sie Neugier weckt.",
+          "Der Satz zur Strömung bleibt ohne Bezug. Ein kurzer Hinweis, warum Ilse das sagt, etwa als Antwort auf die Radfahrer, würde ihn verankern, ohne den Einstieg nach vorn zu verlegen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "einen dunkelblauen Wollmantel, der viel zu dünn war",
+          "Unter seinen Augen lagen dunkle Schatten",
+          "eine trockene, fast stickige Wärme",
+          "die eiserne Kette",
+          "dem grauen Wasser",
+          "der erste graue Uferschlamm",
+          "einen halbherzigen Schritt"
+        ],
+        "suggestions": [
+          "Die meisten Adjektive sind konkret und atmosphärisch. Doppelte Attribute lassen sich jedoch kürzen: ‚eine stickige Wärme‘ statt ‚eine trockene, fast stickige Wärme‘.",
+          "‚eiserne‘ steht zweimal (Auffahrtsklappe, Kette). Bei der Kette verrät das Klirren das Material schon, das Adjektiv kann dort entfallen.",
+          "‚grau‘ taucht mehrfach auf (Uferschlamm, Wasser). Ein Farbadjektiv pro Bildfeld genügt.",
+          "‚halbherzigen Schritt‘ wird durch das Stehenbleiben ohnehin gezeigt. ‚machte einen Schritt auf sie zu, blieb aber … stehen‘ reicht."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Hallo, Mama“, sagte er und machte einen halbherzigen Schritt",
+          "„Die Schule ist um eins aus“, sagte Ilse.",
+          "„Fährt überhaupt noch jemand unter der Woche?“, fragte er und schob die Hände tief in die Manteltaschen."
+        ],
+        "suggestions": [
+          "Bei ‚Hallo, Mama‘ ist der Sprecher eindeutig. Ein Handlungsbeat ohne ‚sagte er‘ genügt: ‚„Hallo, Mama.“ Er machte einen Schritt auf sie zu …‘",
+          "Im Wechselgespräch über Schule und Bäckerwagen ist ‚sagte Ilse‘ entbehrlich. Die Abwechslung der Sprecher ist klar.",
+          "‚fragte er‘ doppelt das Fragezeichen. Besser: ‚„Fährt überhaupt noch jemand unter der Woche?“ Er schob die Hände in die Manteltaschen.‘"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "fand aber wohl kein Netz",
+          "Die Fähre schwankte kaum merklich",
+          "fast stickige Wärme",
+          "fast kahl",
+          "Eigentlich war ihre Schicht erst in einer Stunde zu Ende",
+          "Seine Lederschuhe glänzten noch, aber an den Sohlen klebte bereits"
+        ],
+        "suggestions": [
+          "‚wohl‘ schwächt die Perspektive. Ilse sieht ja, dass er das Telefon wegsteckt: ‚fand kein Netz‘ oder einfach weglassen.",
+          "‚kaum merklich‘ und ‚fast‘ relativieren unnötig. Entweder ‚schwankte unter seinem Gewicht‘ oder das Detail streichen.",
+          "‚Eigentlich‘ ist hier inhaltlich begründet (sie bricht die Regel). Es kann bleiben, alternativ: ‚Ihre Schicht endete erst in einer Stunde.‘"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "sagte er und machte einen halbherzigen Schritt auf sie zu, blieb aber vor der eisernen Auffahrtsklappe stehen"
+        ],
+        "suggestions": [
+          "Handlungen folgen fast durchgehend sauber nacheinander. ‚während‘ oder ‚gleichzeitig‘ fehlen völlig.",
+          "Den Satz mit ‚sagte er und machte … blieb aber‘ könnte man aufteilen, damit Gruß und Bewegung nicht verschmelzen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Das Haar war dort kürzer geschoren als früher"],
+        "suggestions": [
+          "Der Text ist nahezu passivfrei. Das Zustandspassiv beim Haar ist passend, weil der Handelnde keine Rolle spielt. Alternativ: ‚Er trug das Haar dort kürzer als früher‘."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie wischte sich die Hände an der Arbeitshose ab, obwohl das Hanfseil nur die gewohnte Feuchtigkeit hinterlassen hatte, diesen Geruch nach Schlick und altem Eisen, der tief in ihren Handlinien saß.",
+          "Jonas trug einen dunkelblauen Wollmantel, der viel zu dünn war für den Novemberwind, der flach über das Deichvorland strich.",
+          "Sein Blick glitt über die abblätternde grüne Farbe an der Reling, über den Rost am Windenkasten bis hinüber zum anderen Ufer, das im diesigen Licht kaum mehr als ein dunkler Strich war."
+        ],
+        "suggestions": [
+          "Den ersten Erzählsatz teilen: ‚Sie wischte sich die Hände an der Arbeitshose ab. Das Hanfseil hatte nur die gewohnte Feuchtigkeit hinterlassen, den Geruch nach Schlick und altem Eisen, der tief in ihren Handlinien saß.‘",
+          "Die Relativsatzkette beim Mantel auflösen: ‚Jonas trug einen Wollmantel, viel zu dünn für den Novemberwind. Der strich flach über das Deichvorland.‘",
+          "Der Blick-Satz ist als Aufzählung rhythmisch gerechtfertigt und kann bleiben."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der Bäckerwagen nimmt die Brücke in Dömitz. Das hat er schon vor drei Jahren gemacht, weil ihm deine Tonnage-Begrenzung zu heikel war.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp und voller Subtext. Ilses Schweigen wirkt stark.",
+          "Jonas' Replik ließe sich leicht straffen: ‚Der Bäckerwagen fährt seit drei Jahren über Dömitz. Wegen deiner Tonnage-Begrenzung.‘"
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Er sah müde aus.",
+          "Ilse kannte diesen Blick.",
+          "Ilse betrachtete seinen Nacken.",
+          "Jonas sah sich um. Sein Blick glitt über …",
+          "Jonas sah sie überrascht an."
+        ],
+        "suggestions": [
+          "‚Er sah müde aus.‘ ist Behauptung, die folgende Beschreibung der Schatten zeigt es bereits. Den Satz streichen.",
+          "‚Ilse betrachtete seinen Nacken.‘ als Filter weglassen und direkt einsteigen: ‚Sein Nacken war kürzer geschoren als früher …‘",
+          "‚Jonas sah sich um.‘ ist überflüssig, da ‚Sein Blick glitt …‘ unmittelbar folgt.",
+          "‚überrascht‘ benennt das Gefühl. Die Frage ‚Was machst du?‘ transportiert die Überraschung allein."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Er sah müde aus. Unter seinen Augen lagen dunkle Schatten",
+          "sah sie ihn an / Er sah müde aus / sah sich um / sah sie überrascht an",
+          "eisernen Auffahrtsklappe / eiserne Kette",
+          "Ilse kannte diesen Blick. Es war nicht der Blick des Jungen … Es war der Blick, mit dem er Tabellen prüfte."
+        ],
+        "suggestions": [
+          "Die Müdigkeit wird doppelt vermittelt (Behauptung und Bild). Nur das Bild behalten.",
+          "Das Verb ‚sehen‘ häuft sich. Mindestens zwei Stellen streichen oder durch Handlung ersetzen.",
+          "Die dreifache ‚Blick‘-Anapher ist bewusst gesetzt und wirkungsvoll. Sie kann bleiben, wenn die übrigen ‚sah‘-Wiederholungen reduziert werden.",
+          "‚eisern‘ nur einmal verwenden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.109152
+}

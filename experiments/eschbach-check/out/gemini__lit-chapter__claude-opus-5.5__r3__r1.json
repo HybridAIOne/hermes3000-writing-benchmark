@@ -1,0 +1,116 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__claude-opus-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur deshalb kannte, weil es seit dreiundzwanzig Jahren an derselben Stelle war."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch extrem stark und charakterisiert Ilse sowie das Setting sofort. Für einen Roman oder eine Kurzgeschichte perfekt. Wenn man radikal nach Eschbach kürzen müsste, könnte die Szene auch erst mit 'Der Erste kam um sieben.' beginnen, aber hier ginge wichtige Stimmung verloren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["grau und schwer und gleichgültig", "viel zu dünne Jacke", "schwarz und nass"],
+        "suggestions": [
+          "Hervorragender, sehr sparsamer Einsatz. Die wenigen Adjektive sind präzise gewählt, tragen die Atmosphäre und sind nirgends redundant."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Licht“, sagte Ilse.",
+          "„Die krieg ich wieder“, sagte sie.",
+          "„Ja“, sagte Mattis",
+          "„Danke“, sagte er."
+        ],
+        "suggestions": [
+          "Meistens wird komplett auf Inquits verzichtet, weil der Kontext klar ist. An wenigen Stellen könnten sie noch gestrichen werden, z.B. bei '„Die krieg ich wieder“, sagte sie.' – da sie ihm gerade die Lampe angesteckt hat, ist ohnehin klar, dass sie spricht."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["schon nach wenigen Metern", "noch genau, was darauf stand", "ein altes Ding"],
+        "suggestions": [
+          "Der Text ist fast frei von Füllwörtern. In den Dialogen ('überhaupt', 'denn so', 'wirklich') sind sie absolut authentisch für die gesprochene Sprache. Im Erzähltext könnte 'ein altes Ding mit Tasten' eventuell noch präziser benannt werden (z.B. 'ein altes Nokia')."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie wollte gerade das Tor an der Rampe schließen, als aus dem Nebel ein Mann trat",
+          "...schrieb ihm eine auf den Block, mit Datum und Stempel, während er wartete und sich die Hände rieb.",
+          "Als es aufhörte, steckte sie das Telefon zurück..."
+        ],
+        "suggestions": [
+          "Sehr wenige Gleichzeitigkeiten. Die Stelle mit der Quittung ließe sich leicht nacheinander anordnen: 'Sie schrieb ihm eine auf den Block, mit Datum und Stempel. Er wartete und rieb sich die Hände.' Auch 'Sie wollte gerade...' ist ein klassischer 'Als'-Satz, der direkter sein könnte: 'Sie griff nach dem Tor an der Rampe. Da trat ein Mann aus dem Nebel...'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "trug einen hellen Mantel, der für eine Stadt gemacht war, und Schuhe, die schon auf den hundert Metern vom Parkplatz nass geworden waren."
+        ],
+        "suggestions": [
+          "Kein einziges störendes Handlungs-Passiv im Text. Die beiden Zustands-Passiv-Konstruktionen bei der Beschreibung des Mannes sind stilistisch völlig legitim und treffend."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie nickte und kassierte bei ihm zwei Euro, und er wollte eine Quittung, und sie schrieb ihm eine auf den Block, mit Datum und Stempel, während er wartete und sich die Hände rieb."
+        ],
+        "suggestions": [
+          "Der Satzbau ist exzellent und sehr rhythmisch. Längere Sätze (wie der mit den 'und'-Reihungen bei der Quittung) sind als bewusstes Stilmittel eingesetzt, um die Routine und Ruhe darzustellen. Keine unübersichtlichen Schachtelsätze vorhanden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Und, wie geht's? Alles gut bei Ihnen?“ – „Ja.“ – „Und dem Jungen? Ist der noch in München?“ – „Ja.“"
+        ],
+        "suggestions": [
+          "Meisterhaft verknappte Dialoge. Jedes Wort sitzt, charakterisiert die norddeutsche Wortkargheit der Protagonistin perfekt und bereitet subtil das Ende vor (der Sohn in München)."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie hörte ihn, bevor sie ihn sah: das Klappern eines Schutzblechs...",
+          "spürte, wie der Strom die Fähre nahm",
+          "Sie sah zu, wie der Name blinkte."
+        ],
+        "suggestions": [
+          "Sehr nah an der Figur geschrieben, meist unmittelbare Wahrnehmung. Kleine Optimierungen nach Eschbach sind möglich: Statt 'Sie sah zu, wie der Name blinkte' wirkt 'Der Name blinkte.' noch unmittelbarer. Auch 'Sie hörte ihn, bevor sie ihn sah' könnte man weglassen und direkt mit dem Geräusch starten: 'Ein Schutzblech klapperte im Nebel, jemand keuchte, Reifen rollten über das Kopfsteinpflaster.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Unter der Oberfläche zog sie, wie sie immer zog",
+          "Sie prüfte das Seil, wie sie es jeden Morgen prüfte",
+          "und es dauerte, wie es jeden Morgen dauerte"
+        ],
+        "suggestions": [
+          "Es gibt keine unfreiwilligen inhaltlichen Doppelungen. Die dreifache Nutzung der Struktur 'tat X, wie sie es immer tat' ist ein klares rhetorisches Mittel, um die jahrelange Routine zu betonen. Man könnte höchstens überlegen, ob zwei dieser Konstruktionen reichen, damit sich das Stilmittel auf der kurzen Strecke nicht abnutzt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020638
+}

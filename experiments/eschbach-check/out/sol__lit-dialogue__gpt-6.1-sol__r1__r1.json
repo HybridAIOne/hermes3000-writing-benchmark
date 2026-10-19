@@ -1,0 +1,131 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "[Ein Café. Mara sitzt am Fenster. Jonas bleibt neben dem freien Stuhl stehen.]",
+          "„Ist hier noch frei?“ – „Deine Jacke liegt schon drauf.“"
+        ],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Schon der erste Wortwechsel zeigt Vertrautheit und Spannung. Ein späterer Beginn würde dieses Beziehungssignal verlieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Jonas bleibt neben dem freien Stuhl stehen.“",
+          "„Dein Kaffee ist noch heiß.“"
+        ],
+        "suggestions": [
+          "Die sparsame Verwendung beibehalten. „Frei“ klärt die Situation, „heiß“ trägt am Schluss den unausgesprochenen Wunsch, dass Jonas bleibt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ohne Zucker?“, fragt Mara.",
+          "„Weißt du noch, der See hinter der Schule?“, fragt Jonas."
+        ],
+        "suggestions": [
+          "Die beiden Sprecherangaben sind als Orientierung nach den Handlungseinschüben sinnvoll; zusätzliche Kennzeichnungen vermeiden.",
+          "Beim ersten Lesen die Sprecherfolge prüfen: Falls Jonas auch „Deine Jacke liegt schon drauf“ spricht, sollte ein kurzer Handlungseinschub den Sprecherwechsel verdeutlichen. Die gegenwärtige Abfolge legt zunächst einen regelmäßigen Wechsel nahe."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Du kommst noch immer zu früh.“",
+          "„Der hier geht noch.“",
+          "„Ich habe dein Buch noch.“"
+        ],
+        "suggestions": [
+          "„Noch“ nicht pauschal streichen: Es verbindet hier Vergangenheit und Gegenwart und klingt im Dialog natürlich.",
+          "Bei einer Überarbeitung lediglich prüfen, ob jede weitere Verwendung von „noch“ eine eigene zeitliche oder emotionale Funktion erfüllt."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "[Er nimmt die Jacke, setzt sich.]",
+          "[Er greift nach der Tasse, lässt sie stehen.]"
+        ],
+        "suggestions": [
+          "Die klare Handlungsfolge beibehalten. Zusätzliche Verknüpfungen mit „während“ oder „gleichzeitig“ würden die prägnanten Gesten eher abschwächen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "[Die Bedienung stellt den Kaffee hin. Beide rücken ihre Tassen zurecht.]",
+          "„Der ist jetzt eingezäunt.“"
+        ],
+        "suggestions": [
+          "Die aktiven Handlungssätze beibehalten.",
+          "„Ist jetzt eingezäunt“ bezeichnet einen relevanten Zustand. Eine aktive Umformulierung würde einen für die Szene unwichtigen Handelnden in den Vordergrund rücken."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Du noch immer genau dann, wenn der Kaffee kalt wird.“",
+          "[Die Bedienung stellt den Kaffee hin. Beide rücken ihre Tassen zurecht.]"
+        ],
+        "suggestions": [
+          "Keine Teilung erforderlich: Selbst der Satz mit Nebensatz bleibt übersichtlich.",
+          "Die elliptischen Dialogsätze erhalten; ihre Kürze unterstützt die vorsichtige, stockende Annäherung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Wie geht’s deiner Mutter?“ – „Sie fragt nach dir.“",
+          "„Ich war letzte Woche dort.“ – „Am See?“ – „Vor deiner Tür.“",
+          "„Soll ich?“"
+        ],
+        "suggestions": [
+          "Die kurzen Repliken nicht allein wegen des hohen Dialoganteils kürzen: Sie verschieben fortlaufend das Verhältnis zwischen den Figuren.",
+          "Bei einer Straffung eher prüfen, ob alle Themenstationen benötigt werden, statt einzelne Repliken ihres Subtexts zu berauben."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "[Draußen hält ein Bus. Mara sieht ihm nach.]",
+          "[Mara schiebt die Zuckerdose zur Tischkante.]"
+        ],
+        "suggestions": [
+          "Die direkte Darstellung durch Gesten beibehalten und nicht durch Erklärungen wie „Mara merkt, dass sie ihn vermisst“ ergänzen.",
+          "„Mara sieht ihm nach“ ist eine sichtbare Handlung, kein entbehrlicher Wahrnehmungsfilter; die Formulierung kann stehen bleiben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Früher hast du mich aufgefangen.“ / „Du hast früher gewartet.“",
+          "[Mara schiebt die Zuckerdose zur Tischkante.] / [Mara nimmt die Zuckerdose zurück.]",
+          "„Der hier geht noch.“ / „Dein Kaffee ist noch heiß.“"
+        ],
+        "suggestions": [
+          "Die wiederkehrenden Gegenstände und Formulierungen erhalten: Ihre veränderte Bedeutung macht die emotionale Entwicklung sichtbar.",
+          "Die Häufung von „früher“ laut lesen. Nur reduzieren, falls die bewusst gesetzten Rückbezüge zu schematisch wirken; eine inhaltliche Doppelung liegt nicht automatisch vor."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016604
+}

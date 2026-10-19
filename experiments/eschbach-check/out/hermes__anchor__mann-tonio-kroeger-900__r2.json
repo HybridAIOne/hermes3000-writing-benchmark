@@ -1,0 +1,106 @@
+{
+  "who": "hermes",
+  "item": "anchor__mann-tonio-kroeger-900",
+  "run": 2,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Die Schule war aus. Über den gepflasterten Hof und heraus aus der Gatterpforte strömten die Scharen der Befreiten..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr atmosphärisch, aber für eine moderne Erzählweise könnte man direkt mit der Interaktion zwischen Tonio und Hans beginnen, um den Leser schneller in den Konflikt zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "bastblonden Haares",
+          "südlich scharfgeschnittenen Gesicht",
+          "stahlblauen Augen",
+          "gemessen hinschreitenden Oberlehrers"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist sehr hoch. Viele Adjektive dienen der atmosphärischen Beschreibung, könnten aber gestrafft werden, um den Lesefluss zu beschleunigen und die Verben stärker wirken zu lassen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Tonio Kröger", "fragte er", "sagte Hans Hansen"],
+        "suggestions": [
+          "Die Dialogkennzeichnungen sind weitgehend funktional. Gelegentlich könnten sie komplett gestrichen werden, wenn aus dem Kontext klar ist, wer spricht."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["wohl", "ja", "doch", "gewissermaßen", "vielleicht"],
+        "suggestions": [
+          "Modalpartikeln wie 'wohl', 'ja' und 'doch' sind sehr häufig. Sie erzeugen einen spezifischen Erzählton, wirken aber in einem modernen Text oft als Füllwörter, die den Satzbau unnötig aufblähen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "während Hansens schlanke Beine...",
+          "indes die anderen nach rechts schlenderten",
+          "indem er seine etwas schräg stehenden Brauen zusammenzog"
+        ],
+        "suggestions": [
+          "Die Verwendung von 'während', 'indes' und 'indem' bremst die Dynamik. Handlungen sollten öfter nacheinander oder durch direkte Verben ausgedrückt werden, statt sie in Nebensätze zu verpacken."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["wurde... gegessen", "wurde... begleitest", "war... aus"],
+        "suggestions": [
+          "Einige Passivkonstruktionen könnten durch aktive Verben ersetzt werden, um die Handlung lebendiger und unmittelbarer zu gestalten."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Der letzte Absatz besteht fast nur aus einem einzigen, extrem verschachtelten Satz mit zahlreichen Einschüben."
+        ],
+        "suggestions": [
+          "Die Sätze sind oft sehr lang und komplex. Für eine bessere Lesbarkeit sollten sie in kürzere, prägnantere Einheiten zerlegt werden, um den Lesefluss nicht zu unterbrechen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["»Kommst du endlich, Hans?« ... »Wieso?«"],
+        "suggestions": [
+          "Die Dialoge sind gut dosiert und treiben die Handlung voran. Hier gibt es wenig Korrekturbedarf."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["er sah, dass...", "er dachte, dass...", "er empfand Schmerz"],
+        "suggestions": [
+          "Die Wahrnehmung ist oft durch den Erzähler gefiltert. Direktere Darstellung der Gedanken oder Handlungen (Show, don't tell) würde die Unmittelbarkeit erhöhen."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Wiederholte Beschreibungen der Kleidung und des sozialen Status der Jungen in verschiedenen Absätzen."
+        ],
+        "suggestions": [
+          "Einige Informationen über den Hintergrund der Jungen werden mehrfach umschrieben. Hier könnte gekürzt werden, um den Fokus stärker auf die aktuelle Szene zu legen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

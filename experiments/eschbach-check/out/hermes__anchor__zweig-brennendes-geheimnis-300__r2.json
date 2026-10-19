@@ -1,0 +1,104 @@
+{
+  "who": "hermes",
+  "item": "anchor__zweig-brennendes-geheimnis-300",
+  "run": 2,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Die Lokomotive schrie heiser auf: der Semmering war erreicht."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und setzt genau zum richtigen Zeitpunkt ein, um den Leser in die Szene zu holen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "heiser",
+          "schwarzen",
+          "silbrigen",
+          "bunte",
+          "natürliche",
+          "unruhigen",
+          "flattrigen",
+          "mageren"
+        ],
+        "suggestions": [
+          "Der Text ist überladen mit Adjektiven. Viele dienen nur der Dekoration. Versuche, die Atmosphäre durch stärkere Verben oder präzisere Substantive zu erzeugen, statt sie mit Adjektiven zu 'bemalen'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["begann es unruhig in ihm zu fragen"],
+        "suggestions": [
+          "Die Kennzeichnung des inneren Monologs wirkt etwas hölzern und distanziert. Lass den Gedanken direkter folgen oder nutze eine klarere Trennung."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["eigentlich"],
+        "suggestions": [
+          "Der Text ist erfreulich frei von unnötigen Füllwörtern wie 'vielleicht' oder 'irgendwie'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Keine übermäßige Verwendung von 'während' oder 'gleichzeitig'."],
+        "suggestions": [
+          "Die Handlungsabfolge ist gut strukturiert und kommt ohne störende Zeit-Konjunktionen aus."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["war erreicht"],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv formuliert, was die Dynamik der Ankunft gut unterstützt."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Jene weißen, unruhigen Wolken flatterten am Himmel, die nur der Mai und der Juni hat, jene weißen, selbst noch jungen und flattrigen Gesellen, die spielend über die blaue Bahn rennen, um sich plötzlich hinter hohen Bergen zu verstecken, die sich umarmen und fliehen, sich bald wie Taschentücher zerknüllen, bald in Streifen zerfasern und schließlich im Schabernack den Bergen weiße Mützen aufsetzen."
+        ],
+        "suggestions": [
+          "Dieser Satz ist ein klassischer 'Schachtelsatz'. Er ist zu lang und verliert den Fokus. Zerlege ihn in drei bis vier kürzere Sätze, um die Lesbarkeit und die Wirkung der Bilder zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "»Wozu bin ich eigentlich hier«, begann es unruhig in ihm zu fragen. »Allein hier auf dem Berg zu sein, ohne Gesellschaft, ist ärger als das Bureau. Offenbar bin ich zu früh gekommen oder zu spät. Ich habe nie Glück mit meinem Urlaub. Keinen einzigen bekannten Namen finde ich unter all den Leuten."
+        ],
+        "suggestions": [
+          "Der Monolog wirkt etwas konstruiert, um dem Leser Informationen über den Protagonisten zu geben (Exposition). Straffe den Text auf den Kern der Frustration."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["dann spürte man im Atem etwas", "begann es unruhig in ihm zu fragen"],
+        "suggestions": [
+          "Vermeide Filterwörter wie 'spürte man'. Schreibe direkt: 'Der Atem schmeckte süß und scharf zugleich.' Das bringt den Leser näher an die Figur."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["weiß", "weißen", "weiße", "schrie", "schreien"],
+        "suggestions": [
+          "Die Wortwiederholungen (insbesondere 'weiß' in einem einzigen Satz) wirken ungeschickt. Variiere das Vokabular oder streiche redundante Beschreibungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

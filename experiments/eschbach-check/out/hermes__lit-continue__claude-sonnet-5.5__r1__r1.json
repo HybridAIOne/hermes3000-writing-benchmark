@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-sonnet-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Er läuft\", sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort in die Handlung und den Konflikt führt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["leise", "schräg", "tief"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und funktional eingesetzt. Keine Änderung notwendig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sagte sie", "sagte Ilse"],
+        "suggestions": [
+          "Die Kennzeichnungen sind unaufdringlich. In manchen Fällen könnte man sie komplett streichen, wenn der Sprecherwechsel klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vielleicht", "schon", "nur"],
+        "suggestions": ["Die Füllwörter wirken hier charakterisierend und nicht wie Sprachmüll."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Jonas trat einen Schritt zur Seite... und der Koffer folgte ihm"],
+        "suggestions": [
+          "Die Handlungen sind sauber nacheinander gereiht, ohne störende 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["der nicht für Bohlen gemacht war"],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv formuliert. Das Passiv ist hier stilistisch vertretbar."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das leise Klirren der Kette am Steuerhaus, das Henning nie hatte abstellen können und irgendwann nicht mehr hatte abstellen wollen."
+        ],
+        "suggestions": ["Die Satzlängen sind gut rhythmisiert und abwechslungsreich."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Und wenn Notfall ist?\" / „Dann ist er kaputt. Das weiß ich dann ja.\""],
+        "suggestions": ["Die Dialoge sind prägnant und transportieren viel Subtext. Sehr gut."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Man sah die Pappeln dort nur bis zur Hälfte"],
+        "suggestions": [
+          "„Man sah\" ist eine Distanzierung. Besser: „Die Pappeln ragten nur bis zur Hälfte aus dem Nebel.\""
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Sie hatte nie überlegt... Sie hatte sie auch nie... Sie hatte sie nur..."],
+        "suggestions": [
+          "Der Absatz über die Stiefel leidet unter der repetitiven Satzstruktur („Sie hatte...\"). Hier durch Partizipgruppen oder andere Satzanfänge mehr Dynamik erzeugen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

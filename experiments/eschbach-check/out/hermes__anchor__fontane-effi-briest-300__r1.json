@@ -1,0 +1,95 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-effi-briest-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 4,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["In Front des schon seit Kurfürst Georg Wilhelm..."],
+        "suggestions": [
+          "Der Einstieg ist sehr statisch und beschreibend. Kürzen Sie die historische Einleitung und steigen Sie direkt mit der Handlung oder dem aktuellen Geschehen ein, um den Leser schneller in die Szene zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "weiß und grün quadrierten",
+          "kleinblättrigem",
+          "weißgestrichenen",
+          "blitzenden",
+          "vergoldeten"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist extrem hoch. Streichen Sie schmückendes Beiwerk, das nicht zur Handlung beiträgt. Konzentrieren Sie sich auf die wesentlichen Merkmale."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher keine Bewertung notwendig."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["einige", "ein paar", "schon", "etwas", "denn auch"],
+        "suggestions": [
+          "Ersetzen Sie vage Mengenangaben wie 'einige' oder 'ein paar' durch präzise Zahlen oder streichen Sie diese Wörter ersatzlos."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["während nach der Park- und Gartenseite hin..."],
+        "suggestions": [
+          "Vermeiden Sie 'während'-Konstruktionen. Beschreiben Sie die Handlungen nacheinander, um den Lesefluss zu dynamisieren."
+        ]
+      },
+      "passive": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": ["bewohnt", "besetzten", "unterbrochene", "umschließendes", "gelegtes"],
+        "suggestions": [
+          "Der Text ist sehr statisch. Wandeln Sie beschreibende Partizipien in aktive Verben um, um mehr Bewegung in die Szene zu bringen."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": ["Der gesamte erste Absatz besteht aus extrem langen, verschachtelten Sätzen."],
+        "suggestions": [
+          "Teilen Sie die Sätze radikal auf. Ein Punkt nach der Hälfte der Satzlänge erhöht die Lesbarkeit und Spannung massiv."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["man ... gewahr wurde"],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'man gewahr wurde'. Beschreiben Sie direkt, was der Beobachter sieht, ohne den Umweg über die Wahrnehmung."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Beschreibung des Hauses, dann des Gartens, dann wieder des Hauses/der Terrasse."
+        ],
+        "suggestions": [
+          "Straffen Sie die Ortsbeschreibungen. Es werden mehrfach ähnliche Bereiche (Hausfront, Garten) beschrieben, was den Textfluss hemmt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

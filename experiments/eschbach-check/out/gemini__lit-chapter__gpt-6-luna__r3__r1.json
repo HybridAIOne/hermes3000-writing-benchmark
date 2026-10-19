@@ -1,0 +1,121 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__gpt-6-luna__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Nebel lag so dicht über der Elbe, dass Ilse die andere Uferkante nicht sah. Die Fähre glitt trotzdem hinüber."
+        ],
+        "suggestions": [
+          "Exzellenter Einstieg mitten in der Situation (in medias res). Atmosphäre, Ort, Protagonistin und der zentrale Konflikt der Szene (Orientierung im blinden Nebel) sind ab dem ersten Satz präsent."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "gleichmäßigen Rattern",
+          "einzelnen, dumpfen Ton",
+          "kurz, scharf und vertraut"
+        ],
+        "suggestions": [
+          "Adjektive werden sehr gezielt und sparsam eingesetzt, meist für notwendige Sinneseindrücke oder Farbkontraste (grüne Tasche, rote Mütze).",
+          "Minimaler Optimierungspunkt: 'Das sagte sie nicht unfreundlich.' Hier ist das Adverb 'Teaching' (Tell statt Show). Die Reaktion der Frau im Folgesatz reicht eigentlich schon aus, um zu zeigen, dass Ilse nicht schroff war."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Sie müssen nur warten, bis wir anliegen“, sagte sie.",
+          "„Erst die Frau“, sagte Ilse."
+        ],
+        "suggestions": [
+          "Die Dialogführung ist hervorragend. Fast alle Sprecherwechsel funktionieren über vorangestellte Handlungen (Action Beats) oder den Kontext.",
+          "In der Passage 'Ilse sah ihn an. [...] „Sie müssen nur warten, bis wir anliegen“, sagte sie.' könnte das 'sagte sie' noch ersatzlos gestrichen werden, da Ilse im Absatz zuvor die Handelnde ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "irgendwo voraus",
+          "an einer bestimmten Stelle",
+          "ein wenig stärker",
+          "Sie ließ den Hebel ein wenig nach."
+        ],
+        "suggestions": [
+          "Der Text ist extrem sauber und präzise. An zwei, drei Stellen schleichen sich kleine Relativierungen ein.",
+          "Statt 'ein wenig stärker' und 'ein wenig nach' lieber noch konkreter werden oder das 'ein wenig' streichen ('Sie ließ den Hebel nach' klingt souveräner und passt besser zu ihrer Routine)."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Ton verstummte, während die Fähre in den Nebel hinausglitt."],
+        "suggestions": [
+          "Der gesamte Text kommt fast vollständig ohne 'während'- oder 'als'-Konstruktionen aus. Die Handlungen folgen klar aufeinander.",
+          "Lediglich im allerletzten Satz wird 'während' genutzt, was hier aus Rhythmusgründen völlig legitim ist. Noch stärker und endgültiger klänge allerdings ein Punkt: 'Der Ton verstummte. Die Fähre glitt in den Nebel hinaus.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Perfekt. Es wird durchgängig aktiv formuliert. Selbst unbelebte Dinge (Nebel, Wasser, Seil, Fähre) erhalten aktive, bildstarke Verben ('schob sich', 'nahm auf', 'gab frei')."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Hinter ihr standen drei Fahrgäste.",
+          "Das Telefon in ihrer Jackentasche vibrierte."
+        ],
+        "suggestions": [
+          "Herausragender Satzrhythmus. Kurze, prägnante Sätze wechseln sich harmonisch mit mittellangen Sätzen ab. Keine unübersichtlichen Schachtelsätze."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„War das normal?“ – „Ja.“ – „Klang nicht so.“ – „Klang immer so.“"],
+        "suggestions": [
+          "Meisterhaft verknappte Dialoge. Die norddeutsche/lakonische Art der Fährfrau spiegelt sich perfekt in den Ein-Wort-Antworten wider. Kein Wort zu viel."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "... dass Ilse die andere Uferkante nicht sah.",
+          "Sie hörte, wie das Seil über eine Rolle sprang und wieder in die Führung fand.",
+          "Sie hörte den ersten Klingelton, dann den zweiten."
+        ],
+        "suggestions": [
+          "Meistens sind wir direkt in Ilses Wahrnehmung, ohne dass diese gefiltert wird.",
+          "Kleine Verbesserungsmöglichkeit nach Eschbach: Filterverben wie 'sehen' und 'hören' streichen, um noch unmittelbarer zu werden. Statt 'Sie hörte, wie das Seil über eine Rolle sprang...' direkt: 'Das Seil sprang über eine Rolle und fand wieder in die Führung.' Statt 'Sie hörte den ersten Klingelton...' direkt: 'Der erste Klingelton, dann der zweite.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er trug einen Schulranzen, der ihm bis an die Hüften reichte, und sah über das Wasser, obwohl dort nichts zu sehen war.",
+          "Der Junge in einer roten Mütze. [...] Seine rote Mütze war der einzige deutliche Farbfleck... [...] Seine roten Schuhe verschwanden bald im Nebel."
+        ],
+        "suggestions": [
+          "Inhaltliche Wiederholungen (wie das Vibrieren des Decks oder das Rattern des Seils) werden hier als bewusstes, atmosphärisches Stilmittel eingesetzt und funktionieren sehr gut.",
+          "Der Halbsatz '...obwohl dort nichts zu sehen war' beim Jungen ist eigentlich redundant, da die Undurchdringlichkeit des Nebels bereits etabliert ist. Und dass der Junge neben der roten Mütze am Ende plötzlich auch noch 'rote Schuhe' hat, schwächt die vorherige Aussage ab, die Mütze sei 'der einzige deutliche Farbfleck' gewesen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020036
+}

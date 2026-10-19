@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Nebel lag so dicht auf dem Wasser..."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch dicht und setzt genau zum richtigen Zeitpunkt ein. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["angelegentlich", "tiefes, gleichmäßiges Brummen"],
+        "suggestions": [
+          "Das Wort 'angelegentlich' wirkt etwas gestelzt. 'Herr Lüders sah aufs Wasser' wäre direkter und natürlicher."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Moin, Frau Brandt.“", "„Moin.“"],
+        "suggestions": [
+          "Die Dialogführung ist exzellent und verzichtet fast vollständig auf unnötige Begleitsätze."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["vielleicht", "einfach"],
+        "suggestions": [
+          "Die Füllwörter werden sparsam und charakterisierend eingesetzt. Keine Korrektur erforderlich."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ilse löste die Leine, legte den Hebel um."],
+        "suggestions": [
+          "Die Handlungsabfolge ist klar und präzise. Keine 'während'-Konstruktionen stören den Lesefluss."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Fähre hängt am Seil.", "Niemand sprach."],
+        "suggestions": ["Der Text ist konsequent aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Telefon surrte in ihrer Hand, hartnäckig, mit kurzen Pausen dazwischen, als überlegte es jedes Mal neu."
+        ],
+        "suggestions": [
+          "Der Rhythmus der Sätze ist sehr gut. Die langen Sätze dienen der Atmosphäre, die kurzen dem Tempo."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Kalt?“, fragte Ilse...", "„Ja.“"],
+        "suggestions": ["Die Dialoge sind knackig und treiben die Charakterisierung voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie sah auf den Namen.", "Sie wartete."],
+        "suggestions": [
+          "Die Wahrnehmung ist direkt und zeigt das Handeln, statt es zu beschreiben. Sehr gut."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine signifikanten inhaltlichen Doppelungen gefunden."],
+        "suggestions": ["Der Text ist sehr sauber und ökonomisch geschrieben."]
+      }
+    }
+  },
+  "costUsd": 0
+}

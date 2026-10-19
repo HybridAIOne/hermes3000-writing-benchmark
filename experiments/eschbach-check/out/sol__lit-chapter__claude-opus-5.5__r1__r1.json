@@ -1,0 +1,144 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur deshalb für vorhanden hielt, weil es gestern auch da gewesen war.",
+          "Um sechs Uhr vierzig hatte sie die Lampen angemacht. Um sechs Uhr fünfzig das Radio, ohne hinzuhören."
+        ],
+        "suggestions": [
+          "Den ersten Absatz beibehalten: Er etabliert Schauplatz, Atmosphäre und Ilses eigensinnigen Blick unmittelbar.",
+          "Für eine stärker spannungsorientierte Fassung den Rückblick auf Lampen, Radio und Kaffee kürzen. Die alltägliche Routine ist jedoch ein sinnvoller Kontrast zur späteren Störung; ein Einstieg erst beim Kombi würde diese Wirkung schwächen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "ein grauer Mischling mit einem Ohr, das nicht hochstehen wollte",
+          "Ein dunkler Kombi, Lüneburger Kennzeichen, sauber, als wäre er nie über einen Feldweg gefahren.",
+          "Der Mann lachte, ein kurzes, höfliches Lachen"
+        ],
+        "suggestions": [
+          "Charakterisierende Einzelheiten wie das Hundeohr und den auffällig sauberen Kombi erhalten: Sie leisten mehr als bloße Ausschmückung.",
+          "Bei „ein kurzes, höfliches Lachen“ prüfen, ob „höflich“ bereits durch die Situation vermittelt wird. Nur streichen, wenn die soziale Distanz auch ohne diese Benennung deutlich bleibt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Morgen\", sagte Mareike.",
+          "„Zehn\", sagte Ilse.",
+          "„Hm\", sagte Petersen. „Hat aufgeschrieben, wie lang du brauchst. Ich hab's gesehen.\""
+        ],
+        "suggestions": [
+          "Die überwiegend unmarkierten Wechsel beibehalten; Sprecher und Gesprächsrhythmus bleiben gut erkennbar.",
+          "„sagte Ilse“ nach „Zehn“ ließe sich streichen, weil der Sprecherwechsel eindeutig ist. Als bewusste Taktpause vor Petersens Reaktion ist die Kennzeichnung aber vertretbar.",
+          "Bei Gesprächen mit mehreren Anwesenden die sparsamen Namensnennungen erhalten."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Mitte vierzig vielleicht",
+          "und der Name verschwamm ein wenig",
+          "Am anderen Ufer, das sie nicht sehen konnte, wartete vielleicht schon jemand."
+        ],
+        "suggestions": [
+          "„ein wenig“ versuchsweise streichen: „Der Nebel legte sich in feinen Tropfen auf das Glas, und der Name verschwamm.“ Die Intensitätsangabe ist hier nicht zwingend.",
+          "Die beiden „vielleicht“ nicht pauschal entfernen: Das erste kennzeichnet eine Altersschätzung, das letzte begrenzt Ilses Wissen und öffnet den Schluss.",
+          "Dialogpartikeln wie „ja“ und „überhaupt“ erhalten, soweit sie Haltung und natürliche Sprechweise vermitteln."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie wollte gerade ablegen, als die Scheinwerfer kamen.",
+          "Er zahlte mit einem Zehner und wartete auf das Wechselgeld, und während sie es abzählte, sah er sich um.",
+          "Der Hund stand auf, bevor Petersen sich rührte."
+        ],
+        "suggestions": [
+          "Den Wechselgeldsatz rhythmisch entlasten: „Er zahlte mit einem Zehner. Während sie das Wechselgeld abzählte, sah er sich um.“",
+          "Die Unterbrechung beim Ablegen und den zeitlichen Vorsprung des Hundes beibehalten: Die zeitlichen Verknüpfungen erfüllen jeweils eine konkrete erzählerische Funktion.",
+          "Die zahlreichen vergleichenden „als“-Konstruktionen nicht als Gleichzeitigkeit behandeln; sie gehören zu den Bildern des Textes."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie legte das Ruder an, löste die Leine, und die Strömung nahm die Fähre",
+          "Mitte Strom wurde der Nebel noch dichter."
+        ],
+        "suggestions": [
+          "Keine Überarbeitung nötig: Die Handlungen sind überwiegend aktiv und konkret formuliert.",
+          "„wurde der Nebel noch dichter“ unverändert lassen. Das ist eine Zustandsveränderung, kein Passiv."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Mareike Lüders aus Bitter, vierzehn, die Kapuze bis über die Augenbrauen gezogen, schob ihr Rad an Bord und stellte es dorthin, wo sie es seit zwei Jahren hinstellte, gegen das Geländer neben der Rettungsboje.",
+          "Er legte ihr das Geld auf das Brett am Fenster, abgezählt, zwei Euro in Zehnern und Zwanzigern, und sie schob es in die Blechdose, ohne nachzuzählen."
+        ],
+        "suggestions": [
+          "Mareikes Einführung bei Bedarf teilen: „Mareike Lüders aus Bitter, vierzehn, schob ihr Rad an Bord. Die Kapuze hatte sie bis über die Augenbrauen gezogen. Sie stellte das Rad an seinen gewohnten Platz: gegen das Geländer neben der Rettungsboje.“",
+          "Den Zahlungsvorgang nach den Münzen teilen, wenn ein klarerer Handlungstakt gewünscht ist.",
+          "Nicht sämtliche langen Sätze kürzen: Ihr ruhiger Fluss kontrastiert wirkungsvoll mit den knappen Dialogen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Hoch heute\", sagte er.\n\n„Zehn Zentimeter mehr als gestern.\"\n\n„Fünfzehn.\"\n\n„Zehn\", sagte Ilse.",
+          "„Ganz ohne Motor?\"\n\n„Die Elbe ist der Motor.\"\n\n„Und wenn die Elbe mal nicht will?\""
+        ],
+        "suggestions": [
+          "Keine Straffung erforderlich: Die kurzen Wortwechsel vermitteln Beziehungen, Sachinformationen und unterschwellige Spannung zugleich.",
+          "Ilses knappe Antworten nicht durch erklärende Zusätze erweitern; gerade ihre Kürze charakterisiert sie."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "und sah zu, wie das Seil aus dem Grau kam und wieder darin verschwand",
+          "Ilse hörte sie, bevor sie sie sah: das Klappern des Schutzblechs, das Quietschen der Bremse",
+          "Um sieben Uhr vier, das wusste sie, kam der Nächste, wenn er kam."
+        ],
+        "suggestions": [
+          "Den ersten Wahrnehmungsfilter probeweise entfernen: „Sie stand im Steuerhaus, die Hände um den Becher. Das Seil kam aus dem Grau und verschwand wieder darin.“",
+          "„das wusste sie“ lässt sich streichen: „Um sieben Uhr vier kam der Nächste, wenn er kam.“ Die genaue Uhrzeit vermittelt ihre Vertrautheit bereits.",
+          "„Ilse hörte sie, bevor sie sie sah“ erhalten: Hier ist die Reihenfolge der Sinneseindrücke im Nebel selbst die relevante Information."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "stellte es dorthin, wo sie es seit zwei Jahren hinstellte",
+          "sah aufs Wasser, wie er jeden Morgen aufs Wasser sah",
+          "Er fuhr vorsichtig auf, zu vorsichtig",
+          "Ilse kannte das Geräusch so gut, dass sie es erst hörte, wenn es falsch klang. Heute klang es richtig."
+        ],
+        "suggestions": [
+          "Die wiederkehrenden Routinemotive grundsätzlich erhalten: Sie bereiten die Bedeutung des fremden Mannes und des ungewöhnlichen Anrufs vor.",
+          "Die doppelte Ortsangabe bei Mareikes Fahrrad ließe sich zu „stellte es an seinen gewohnten Platz neben der Rettungsboje“ verdichten.",
+          "Bewusste Steigerungen wie „vorsichtig, zu vorsichtig“ und den Gegensatz zwischen falschem und richtigem Klang nicht glätten; sie transportieren Ilses Bewertung und Aufmerksamkeit."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.025698
+}

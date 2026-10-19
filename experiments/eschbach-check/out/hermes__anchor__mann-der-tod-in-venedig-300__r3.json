@@ -1,0 +1,94 @@
+{
+  "who": "hermes",
+  "item": "anchor__mann-der-tod-in-venedig-300",
+  "run": 3,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Gustav Aschenbach oder von Aschenbach, wie seit seinem fünfzigsten Geburtstag amtlich sein Name lautete..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr expositorisch und biografisch. Beginnen Sie direkt mit der Handlung (dem Spaziergang) und weben Sie die biografischen Details später ein."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "gefahrdrohende Miene",
+          "höchste Behutsamkeit",
+          "ersprießlichen Abend",
+          "volkstümlich belebten Wirtsgarten"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist sehr hoch. Ersetzen Sie beschreibende Adjektive durch stärkere Verben, um das Bild lebendiger zu machen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher keine Redeeinleitungen notwendig."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["einige Droschken", "so nötig", "so gefahrdrohende"],
+        "suggestions": [
+          "Wörter wie 'einige' oder 'so' schwächen die Präzision. Streichen Sie diese, um die Aussagekraft zu erhöhen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": [
+          "Der Text vermeidet unnötige 'während'-Konstruktionen und beschreibt die Abfolge der Ereignisse logisch."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["hatte... unternommen", "hatte... überblickt"],
+        "suggestions": ["Der Text ist weitgehend aktiv formuliert, was die Dynamik unterstützt."]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Der erste Satz erstreckt sich über vier Zeilen und enthält zahlreiche Einschübe."
+        ],
+        "suggestions": [
+          "Die Sätze sind extrem verschachtelt. Teilen Sie komplexe Sätze in zwei oder drei kürzere Einheiten auf, um die Lesbarkeit zu verbessern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["hatte... überblickt", "erwartete... die Tram"],
+        "suggestions": [
+          "Die Wahrnehmung ist weitgehend direkt. Achten Sie darauf, 'er sah, dass' oder 'er dachte, dass' komplett zu vermeiden, falls sie vorkommen."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["stillere und stillere Wege", "Gedächtnistafeln und Monumente"],
+        "suggestions": [
+          "Vermeiden Sie Wortwiederholungen wie 'stillere und stillere'. Nutzen Sie präzisere Begriffe statt Aufzählungen von Synonymen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

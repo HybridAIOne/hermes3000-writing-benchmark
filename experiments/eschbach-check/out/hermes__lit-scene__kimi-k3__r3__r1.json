@@ -1,0 +1,90 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__kimi-k3__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel klemmte."],
+        "suggestions": [
+          "Der Einstieg ist sehr stark, atmosphärisch und wirft den Leser direkt in die Handlung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kühler Staub", "getrockneter Putz"],
+        "suggestions": [
+          "Die Adjektive sind präzise und dienen der Atmosphäre, nicht der bloßen Dekoration."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["hatte sie gesagt"],
+        "suggestions": [
+          "Sehr sparsam und effektiv eingesetzt, keine unnötigen 'sagte sie'-Konstruktionen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vermutlich", "irgendjemand"],
+        "suggestions": [
+          "Die Wörter unterstreichen Noras Unsicherheit und sind daher stilistisch gerechtfertigt."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Nora ging von Zimmer zu Zimmer"],
+        "suggestions": ["Die Chronologie ist klar und ohne unnötige 'während'-Konstruktionen."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["verkehrt herum abgestellt"],
+        "suggestions": ["Der Text ist weitgehend aktiv formuliert und dynamisch."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Flur war dunkler, als sie ihn in Erinnerung hatte, weil die Ligusterhecke vor dem Fenster in all den Jahren gewuchert war..."
+        ],
+        "suggestions": [
+          "Der Rhythmus ist gut, die Sätze sind trotz ihrer Länge gut lesbar und gut strukturiert."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher kein Problem."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie stellte fest, dass sie ihren Mantel nicht ausgezogen hatte",
+          "wusste sie nicht"
+        ],
+        "suggestions": [
+          "Direkter formulieren: 'Sie trug noch immer ihren Mantel.' oder 'Wer ihn abgewaschen hatte? Sie hatte keine Ahnung.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Zwanzig Jahre", "Seife"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier beabsichtigt und verstärken das Thema der Stagnation und Erinnerung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

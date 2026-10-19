@@ -1,0 +1,134 @@
+{
+  "who": "opus",
+  "item": "lit-scene__gpt-6.1-sol__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel ging schwer, aber er passte noch.",
+          "Die Szene setzt im Moment des Ankommens ein, ohne Anreise oder Vorgeschichte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist gut gewählt. Die schwergängige Tür etabliert Vertrautheit und Entfremdung zugleich. Ein späterer Einstieg (etwa direkt im Flur) würde diesen Effekt verschenken.",
+          "Den Rückblick-Absatz (‚Zwanzig Jahre lang …‘) kann man belassen. Er ist kurz und sitzt nach dem ersten sinnlichen Eindruck an der richtigen Stelle."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "gefütterter Schuhe",
+          "eingetrockneten Schwämmen",
+          "gelbe Kernseife",
+          "ein schwarzes Haar",
+          "ein brauner Stoß"
+        ],
+        "suggestions": [
+          "Die meisten Adjektive tragen Information. ‚Schwarz‘ ist für die Geschichte entscheidend, ‚gefüttert‘ verortet die Jahreszeit.",
+          "‚Gelbe‘ bei Kernseife ist fast redundant, da Kernseife typischerweise gelblich ist. Hier wäre ein Streichen möglich.",
+          "‚altem Fett‘ ist treffend. Eine Alternative wäre ein konkreteres Substantiv wie ‚ranzigem Fett‘, falls mehr Schärfe gewünscht ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Kein direkter Dialog vorhanden.",
+          "Der Notar hatte von einer Immobilie gesprochen, von Räumung und Fristen."
+        ],
+        "suggestions": [
+          "Die indirekte, geraffte Wiedergabe des Notargesprächs ist ökonomisch und passt zur distanzierten Haltung der Figur. Hier ist kein Handlungsbedarf."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Dahinter hatten sich weitere Umschläge gestaut, die meisten an ihre Mutter adressiert.",
+          "der Geruch nach altem Fett und etwas Scharfem",
+          "wenn überhaupt"
+        ],
+        "suggestions": [
+          "‚weitere Umschläge‘ ist unpräzise. Eine konkrete Angabe (‚ein Dutzend Umschläge‘) oder ein Detail (‚Fensterumschläge‘) würde das Bild schärfen.",
+          "‚etwas Scharfem‘ ist vermutlich bewusst vage, weil der Kümmel später aufgelöst wird. Falls nicht intendiert, sollte der Geruch benannt werden.",
+          "‚die meisten an ihre Mutter adressiert‘ wirft die Frage auf, an wen die übrigen gingen. Das wirkt nur dann bewusst, wenn es später aufgegriffen wird."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Erst kam Luft, dann ein brauner Stoß.",
+          "Sie nahm es heraus. Die Seife roch nach Kümmel."
+        ],
+        "suggestions": [
+          "Handlungen werden konsequent nacheinander erzählt. Die vorkommenden ‚als‘-Konstruktionen (‚als hätte sie etwas gewonnen‘, ‚als nötig gewesen wäre‘) sind Vergleiche, keine Gleichzeitigkeitsmarker. Hier ist kein Handlungsbedarf."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "in dessen Oberfläche ein schwarzes Haar eingeschlossen war",
+          "die meisten an ihre Mutter adressiert"
+        ],
+        "suggestions": [
+          "Beide Fälle sind Zustandspassiv und beschreiben Ergebnisse, keine Handlungen. Sie sind hier angemessen.",
+          "Eine optionale Aktivvariante wäre: ‚in deren Oberfläche ein schwarzes Haar steckte‘. Das ist knapper und körperlicher."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Zwischen eingetrockneten Schwämmen lag ein Stück gelbe Kernseife, in dessen Oberfläche ein schwarzes Haar eingeschlossen war. Sie nahm es heraus.",
+          "Ihr Vater hatte sie angebracht, bevor er ging; ihre Mutter hatte später die Tapete darum herum erneuert."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind gut variiert. Kurze Einzelsätze (‚Judith stellte ihre Tasche ab.‘) setzen wirkungsvolle Pausen.",
+          "Achtung beim Bezug von ‚es‘: Nach dem Relativsatz steht ‚Haar‘ zuletzt, daher kann ‚Sie nahm es heraus‘ kurz so gelesen werden, als nehme sie das Haar heraus. Besser: ‚Sie nahm die Seife heraus. Sie roch nach Kümmel.‘ Alternativ kann man den Satz teilen: ‚… lag ein Stück Kernseife. In der Oberfläche steckte ein schwarzes Haar.‘"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Kein Dialog vorhanden."],
+        "suggestions": [
+          "Hier ist kein Handlungsbedarf. Die Szene lebt von Gegenständen und Stille, was zur Situation passt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ihr Körper wusste es vor ihr.",
+          "Das Geräusch war kleiner, als sie es in Erinnerung hatte."
+        ],
+        "suggestions": [
+          "Es gibt keine Filterkonstruktionen wie ‚sie sah, dass‘. Wahrnehmungen werden direkt gezeigt (‚Die Seife roch nach Kümmel.‘).",
+          "‚Ihr Körper wusste es vor ihr‘ erklärt, was die Schulterbewegung bereits zeigt. Man kann den Satz streichen und dem Leser die Schlussfolgerung überlassen.",
+          "‚Sie hielt sie länger in der Hand, als nötig gewesen wäre‘ ist ein starkes Beispiel für gezeigte statt benannte Emotion. Das sollte so bleiben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "wie früher, wenn das Holz im Herbst gequollen war. Ihr Körper wusste es vor ihr.",
+          "Zwanzig Jahre lang hatte sie … gesehen … Der Notar hatte … gesprochen … hatte sie alles mitgeschrieben.",
+          "er passte noch / hing noch immer zu tief"
+        ],
+        "suggestions": [
+          "Inhaltliche Doppelung: ‚wie früher‘ und ‚Ihr Körper wusste es vor ihr‘ transportieren dieselbe Information (Körpergedächtnis). Einer der beiden Teile genügt.",
+          "Die Häufung von ‚hatte‘ im Rückblick-Absatz lässt sich reduzieren. Nach dem ersten Plusquamperfekt kann ins Präteritum gewechselt werden (‚Der Notar sprach von einer Immobilie …‘).",
+          "Die Wiederholung von ‚noch‘ ist motivisch vertretbar (Beharren des Alten). Sie sollte aber bewusst gesetzt und nicht weiter gehäuft werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.103924
+}

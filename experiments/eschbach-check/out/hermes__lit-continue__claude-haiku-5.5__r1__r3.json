@@ -1,0 +1,93 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-haiku-5.5__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse antwortete nicht."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort Spannung erzeugt und den Leser mitten ins Geschehen wirft."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kleinen Räder", "feuchtes Holz"],
+        "suggestions": [
+          "Die Adjektive sind sparsam eingesetzt. 'Kleinen' bei den Rädern könnte man streichen, da es sich aus dem Kontext ergibt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte sie schließlich", "sagte sie"],
+        "suggestions": [
+          "Die Kennzeichnungen sind funktional, könnten aber teilweise durch Handlungsbeschreibungen ersetzt werden, um den Lesefluss zu glätten."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr frei von Füllwörtern. Sehr gute Arbeit."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Keine übermäßige Verwendung von 'während' oder 'als'. Die Abfolge der Handlungen ist klar und logisch."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Seine Hände waren weich geworden"],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert. Das Zustandspassiv ist hier akzeptabel."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Die Elbe war braun und schnell, sie trug Äste mit sich und einen einzelnen Schuh, und am gegenüberliegenden Ufer bogen sich die Weiden im Wind, als hätten sie es eilig."
+        ],
+        "suggestions": [
+          "Der Satz ist rhythmisch gut, könnte aber für mehr Dynamik an der Stelle '...einzelnen Schuh. Am gegenüberliegenden Ufer...' geteilt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Links herum“, sagte sie. „Bis es einrastet.“"],
+        "suggestions": ["Die Dialoge sind prägnant und treiben die Handlung voran."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Ilse merkte, dass sie den Atem angehalten hatte",
+          "dachte sie, er würde widersprechen",
+          "sah sie sofort"
+        ],
+        "suggestions": [
+          "Direkter formulieren: Statt 'Ilse merkte, dass sie den Atem angehalten hatte' besser 'Ilse hielt den Atem an'. Statt 'dachte sie, er würde widersprechen' besser 'Er zögerte, als würde er widersprechen'."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["sah aufs Wasser", "sah sie sofort", "sah auch", "sah zur Uhr", "sah sie an"],
+        "suggestions": [
+          "Das Verb 'sehen' wird sehr häufig verwendet. Hier sollte variiert werden (z.B. 'Ihr Blick wanderte zum Wasser', 'Sie musterte ihn', 'Ihr Blick fiel auf die Uhr')."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

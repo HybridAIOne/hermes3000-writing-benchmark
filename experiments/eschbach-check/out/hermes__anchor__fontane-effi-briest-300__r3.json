@@ -1,0 +1,103 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-effi-briest-300",
+  "run": 3,
+  "parsed": {
+    "overallScore": 4,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Der Text beginnt mit einer sehr langen, statischen Beschreibung der Umgebung."
+        ],
+        "suggestions": [
+          "Den Einstieg straffen und schneller zu den handelnden Personen oder einer konkreten Handlung kommen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "heller Sonnenschein",
+          "mittagsstille Dorfstraße",
+          "kleinblättrigem Efeu",
+          "großen schönen Stachelbeeren"
+        ],
+        "suggestions": [
+          "Adjektive radikal streichen. Statt 'heller Sonnenschein' lieber die Wirkung des Lichts auf die Umgebung beschreiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Einige zwanzig Schritte",
+          "ein paar mächtige alte Platanen",
+          "allerlei Zerstreuung"
+        ],
+        "suggestions": [
+          "Präziser formulieren. Statt 'einige zwanzig' einfach 'zwanzig' oder eine konkrete Schätzung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["während nach der Park- und Gartenseite hin..."],
+        "suggestions": [
+          "Die 'während'-Konstruktion auflösen und die Handlungen nacheinander beschreiben, um den Lesefluss zu glätten."
+        ]
+      },
+      "passive": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "von der Familie von Briest bewohnten Herrenhauses",
+          "mit Canna indica und Rhabarberstauden besetzten Rondell"
+        ],
+        "suggestions": [
+          "Partizipialkonstruktionen in aktive Hauptsätze umwandeln (z.B. 'Die Familie von Briest bewohnte das Herrenhaus')."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 1,
+        "examples": [
+          "Der gesamte erste Abschnitt besteht aus extrem verschachtelten Sätzen mit zahlreichen Nebensätzen und Einschüben."
+        ],
+        "suggestions": [
+          "Die Sätze in kürzere, prägnante Einheiten zerlegen. Maximal ein Gedanke pro Satz."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher nicht anwendbar."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["man eines Teiches ... gewahr wurde"],
+        "suggestions": [
+          "Direkter formulieren: 'Ein Teich mit Wassersteg lag an der offenen Seite.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Seitenflügel wird mehrfach erwähnt, ebenso die räumliche Anordnung."],
+        "suggestions": [
+          "Die Beschreibung der räumlichen Anordnung straffen, um Redundanzen zu vermeiden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

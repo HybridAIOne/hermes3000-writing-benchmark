@@ -1,0 +1,138 @@
+{
+  "who": "opus",
+  "item": "anchor__fontane-effi-briest-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "In Front des schon seit Kurfürst Georg Wilhelm von der Familie von Briest bewohnten Herrenhauses zu Hohen-Cremmen fiel heller Sonnenschein auf die mittagsstille Dorfstraße …",
+          "Die Figuren (Mutter und Tochter) erscheinen erst im vorletzten Satz: '… besonders von Frau und Tochter des Hauses, die denn auch heute wieder auf dem im vollen Schatten liegenden Fliesengange saßen'",
+          "Detaillierte Beschreibungen von Schaukel, Teich, Kirchhofsmauer und Wetterhahn, bevor eine Handlung einsetzt"
+        ],
+        "suggestions": [
+          "Die Szene direkt mit Mutter und Tochter bei der Arbeit am Altarteppich beginnen lassen, z. B.: 'Mutter und Tochter saßen auf dem schattigen Fliesengang und arbeiteten am Altarteppich.'",
+          "Die Beschreibung von Herrenhaus, Garten und Kirchhof nach und nach über die Wahrnehmung der Figuren einflechten, statt sie als Panorama vorwegzunehmen",
+          "Hinweis: Die ausführliche Schauplatz-Exposition ist typisch für den Realismus des 19. Jahrhunderts. Nach modernen Maßstäben wirkt sie jedoch verzögernd."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "heller Sonnenschein auf die mittagsstille Dorfstraße",
+          "eine ganz in kleinblättrigem Efeu stehende, nur an einer Stelle von einer kleinen weißgestrichenen Eisentür unterbrochene Kirchhofsmauer",
+          "ein paar mächtige alte Platanen",
+          "eine mit großen schönen Stachelbeeren gefüllte Majolikaschale",
+          "einen angenehmen und zugleich allerlei Zerstreuung bietenden Aufenthalt"
+        ],
+        "suggestions": [
+          "Adjektivketten auf ein präzises Attribut reduzieren: 'mächtige Platanen' statt 'mächtige alte Platanen', 'reife Stachelbeeren' statt 'großen schönen Stachelbeeren'",
+          "Wertende, wenig aussagekräftige Adjektive wie 'schön', 'angenehm' oder 'groß' streichen oder durch konkrete Details ersetzen",
+          "Partizipialattribute wie 'von wildem Wein umrankte Fenster' in eigene Sätze mit starken Verben umwandeln: 'Wilder Wein rankte um die offenen Fenster.'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text enthält keinen Dialog, das Kriterium ist nicht anwendbar. Bei der späteren Einführung von Dialogen darauf achten, Sprecher durch Handlung und Kontext kenntlich zu machen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Einige zwanzig Schritte weiter",
+          "ein paar Gartenstühlen / ein paar mächtige alte Platanen / ein paar offene … Fenster / ein paar Dessertteller",
+          "die Pfosten der Balkenlage schon etwas schief stehend",
+          "allerlei Zerstreuung bietenden Aufenthalt",
+          "wurde die Gartenseite ganz entschieden bevorzugt"
+        ],
+        "suggestions": [
+          "Konkrete Angaben verwenden: 'Zwanzig Schritte weiter' statt 'Einige zwanzig Schritte weiter', 'drei Platanen' oder 'zwei Gartenstühle' statt 'ein paar'",
+          "Abschwächende oder verstärkende Partikel wie 'etwas', 'ganz entschieden' oder 'schon' streichen: 'die Pfosten standen schief'",
+          "'allerlei Zerstreuung' durch ein konkretes Beispiel ersetzen (z. B. der Blick auf die Dorfstraße und vorbeifahrende Wagen)"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "fiel heller Sonnenschein auf die mittagsstille Dorfstraße, während nach der Park- und Gartenseite hin ein rechtwinklig angebauter Seitenflügel einen breiten Schatten … warf",
+          "dazwischen, noch vom Lunch her, ein paar Dessertteller"
+        ],
+        "suggestions": [
+          "Den Gegensatz von Sonne und Schatten in zwei Sätzen darstellen: 'Sonnenschein fiel auf die Dorfstraße. Auf der Gartenseite warf der Seitenflügel einen breiten Schatten.'",
+          "Insgesamt wird 'während' sparsam verwendet. Da der Text überwiegend beschreibend ist, entsteht kaum Handlungsgleichzeitigkeit."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "an Tagen aber, wo die Sonne niederbrannte, wurde die Gartenseite ganz entschieden bevorzugt",
+          "an dessen offener Seite man eines Teiches … gewahr wurde",
+          "des schon seit Kurfürst Georg Wilhelm von der Familie von Briest bewohnten Herrenhauses"
+        ],
+        "suggestions": [
+          "Aktiv formulieren und die Handelnden nennen: 'Brannte die Sonne, zogen Frau und Tochter die Gartenseite vor.'",
+          "Das unpersönliche 'man … gewahr wurde' durch eine direkte Aussage ersetzen: 'An der offenen Seite lag ein Teich mit Wassersteg und angekettetem Boot.'",
+          "Passivische Partizipialkonstruktionen auflösen: 'Seit Kurfürst Georg Wilhelm bewohnten die von Briests das Herrenhaus.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Der erste Satz umfasst über 70 Wörter und beschreibt Herrenhaus, Sonnenschein, Seitenflügel, Schatten, Fliesengang und Rondell samt Bepflanzung in einem Zug",
+          "Fronthaus, Seitenflügel und Kirchhofsmauer bildeten ein einen kleinen Ziergarten umschließendes Hufeisen, an dessen offener Seite man eines Teiches mit Wassersteg und angekettetem Boot und dicht daneben einer Schaukel gewahr wurde, deren horizontal gelegtes Brett zu Häupten und Füßen an je zwei Stricken hing …",
+          "Auch die Front des Herrenhauses … gewährte bei bewölktem Himmel … ; an Tagen aber, wo die Sonne niederbrannte, … in ihrem Rücken ein paar offene, von wildem Wein umrankte Fenster, neben sich eine vorspringende kleine Treppe, deren vier Steinstufen …"
+        ],
+        "suggestions": [
+          "Die Satzgefüge in kurze Hauptsätze mit jeweils einer Information aufteilen",
+          "Verschachtelte Attribute wie 'ein einen kleinen Ziergarten umschließendes Hufeisen' auflösen: 'Haus, Seitenflügel und Mauer bildeten ein Hufeisen. Es umschloss einen kleinen Ziergarten.'",
+          "Semikolon-Ketten und Gedankenstrich-Einschübe in eigene Sätze überführen"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keine Dialogpassagen, das Kriterium ist nicht anwendbar."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "an dessen offener Seite man eines Teiches mit Wassersteg und angekettetem Boot … gewahr wurde"
+        ],
+        "suggestions": [
+          "Die Wahrnehmung durch ein unbestimmtes 'man' streichen und das Objekt direkt zeigen: 'An der offenen Seite lag ein Teich mit Wassersteg; ein Boot war am Steg angekettet.'",
+          "Ansonsten beschreibt der Erzähler direkt, ohne Formulierungen wie 'sah, dass' oder 'dachte, dass'."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "'Seitenflügel' erscheint viermal, 'Fliesengang' zweimal, 'Front' zweimal",
+          "'ein paar' wird viermal verwendet",
+          "'groß' erscheint mehrfach: 'großes … Rondell', 'großen, runden Tisch', 'großen schönen Stachelbeeren'",
+          "'klein' häuft sich: 'kleinblättrigem Efeu', 'kleinen weißgestrichenen Eisentür', 'kleinen Ziergarten', 'kleine Treppe'",
+          "Doppelung von 'Mutter und Tochter' direkt nach 'Frau und Tochter des Hauses': 'Beide, Mutter und Tochter, waren fleißig …'"
+        ],
+        "suggestions": [
+          "Wiederholte Substantive durch Pronomen ersetzen oder die Beschreibung so umstellen, dass der Seitenflügel nur einmal ausführlich eingeführt wird",
+          "Unpräzise Größenangaben wie 'groß' und 'klein' variieren oder durch konkrete Maße und Vergleiche ersetzen",
+          "'Beide, Mutter und Tochter,' kürzen zu 'Beide' oder einfach 'Sie', da die Figuren im Satz davor bereits eingeführt wurden"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.099816
+}

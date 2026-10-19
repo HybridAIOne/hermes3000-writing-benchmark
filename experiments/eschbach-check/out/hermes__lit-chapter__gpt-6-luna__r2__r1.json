@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6-luna__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf der Elbe, dass Ilse das andere Ufer nur daran erkannte, dass es fehlte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und setzt direkt in der Handlung an. Beibehalten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kurzen Husten", "leise vibrierte", "dunklerer Strich"],
+        "suggestions": [
+          "Prüfen, ob 'kurzen' und 'leise' wirklich nötig sind oder ob das Verb/Substantiv allein ausreicht, um die Wirkung zu erzielen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Ilse", "fragte die Frau"],
+        "suggestions": [
+          "An einigen Stellen können die Marker gestrichen werden, wenn der Sprecherwechsel durch den Kontext eindeutig ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vermutlich", "ein wenig"],
+        "suggestions": [
+          "'vermutlich würde es das auch noch eine Weile tun' -> 'es würde das auch noch eine Weile tun' (wirkt entschlossener)."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine übermäßigen 'während'-Konstruktionen."],
+        "suggestions": [
+          "Die Abfolge der Handlungen ist sehr klar und linear. Keine Änderungen notwendig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Motor sprang an", "Sie schob den Hebel"],
+        "suggestions": ["Der Text ist vorbildlich aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Satzlängen sind gut variiert und rhythmisch angenehm."],
+        "suggestions": ["Keine Änderungen notwendig."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Kurze, prägnante Dialoge."],
+        "suggestions": ["Sehr gut umgesetzt, keine Straffung nötig."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie sah auf die Stromkante", "Sie sah hinüber auf das leere Deck"],
+        "suggestions": [
+          "Die direkte Wahrnehmung ist sehr gut gelungen. Der Text zeigt, statt zu berichten."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["verschwanden im Nebel (zweimal verwendet)", "Motor (häufige Nennung)"],
+        "suggestions": [
+          "Variieren Sie die Beschreibung des Verschwindens, um Wortwiederholungen zu vermeiden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,149 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__claude-sonnet-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur an dem Geräusch erkannte, das es machte: ein leises Klopfen, wenn die Strömung die Fähre gegen die Bohlen am Anleger drückte.",
+          "Sie stellte den Becher auf das Fensterbrett, zog die Jacke zu und ging hinaus aufs Deck. [...] Sie prüfte die Klemmen am Seil, wie sie es jeden Morgen tat"
+        ],
+        "suggestions": [
+          "Der atmosphärische Einstieg trägt Stimmung und etabliert die Routine, die der Anruf am Ende bricht. Er ist daher gerechtfertigt. Die Szene könnte aber auch mit „Sechs Uhr fünfzig. Zehn Minuten noch.“ beginnen und die Nebelbeschreibung danach knapp nachreichen.",
+          "Den ersten Satz logisch prüfen: Das Klopfen der Fähre gegen den Anleger entsteht auf Ilses Seite, nicht am anderen Ufer. So ist der Satz für Leser irritierend. Zum Beispiel: „Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nicht einmal ahnte. Sie hörte nur das leise Klopfen, wenn die Strömung die Fähre gegen die Bohlen drückte.“"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "ein leises Klopfen",
+          "die Fähre drehte sich langsam in die Strömung",
+          "wo im Nebel langsam, Stück für Stück, die dunkle Linie des Drethemer Ufers aufzutauchen begann",
+          "Er stieg hinauf, vorsichtig, als könnte das Schiff unter ihm wegsinken.",
+          "Herr Wendt sah zu ihr herüber, dann diskret zur Seite."
+        ],
+        "suggestions": [
+          "„langsam“ kommt zweimal vor. Im Schlusssatz ist es neben „Stück für Stück“ doppelt gemoppelt. Besser: „wo im Nebel Stück für Stück die dunkle Linie des Drethemer Ufers auftauchte.“",
+          "„vorsichtig“ ist durch den Vergleich „als könnte das Schiff unter ihm wegsinken“ bereits gezeigt und kann entfallen.",
+          "Starke Adjektive wie „braun und fett“ beibehalten. Sie sind präzise und sinnlich."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ich fahre“, sagte Ilse.",
+          "„Sie fahren bei dem Wetter?“, fragte er.",
+          "„Wollen Sie nicht rangehen?“, fragte die Frau leise."
+        ],
+        "suggestions": [
+          "„sagte Ilse“ streichen. Es ist klar, wer antwortet, und der knappe Satz „Ich fahre.“ wirkt allein stärker.",
+          "„fragte er“ ist entbehrlich, da nur zwei Personen anwesend sind und der Dialog eindeutig wechselt.",
+          "„fragte die Frau leise“ ist sinnvoll, da hier drei Passagiere infrage kommen. Behalten."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "dass er es jeden Morgen ein bisschen früher tat",
+          "verschwand nach ein paar Metern im Grau",
+          "obwohl sie es ihm schon oft gesagt hatte",
+          "Irgendwo links, sehr weit, rief ein Kranich"
+        ],
+        "suggestions": [
+          "„ein bisschen früher“ ersetzen durch „jeden Morgen früher“ oder konkret: „inzwischen schon vor dem letzten Wort“.",
+          "„nach ein paar Metern“ präzisieren, etwa „nach drei Metern“ oder „eine Armlänge hinter der Reling“.",
+          "„ein wenig Ruder gab und ein wenig nahm“ ist bewusst rhythmisch gesetzt und kann bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "und sah zu, wie der Dunst gegen die Scheibe kroch und wieder zurückwich, als überlege er es sich",
+          "Sie zog das Telefon heraus, ohne den Blick vom Seil zu nehmen.",
+          "Ilse hatte schon die Hand an der Kette der Rampe, da hörte sie ihn rennen"
+        ],
+        "suggestions": [
+          "Gleichzeitigkeitskonstruktionen sind kaum vorhanden. Handlungen werden überwiegend sauber nacheinander erzählt.",
+          "Auffällig ist eher die Häufung von „als“-Vergleichen („als überlege er es sich“, „als sei damit etwas erklärt“, „als könnte das Schiff“, „als hätte es ihn nie gegeben“). Ein oder zwei davon streichen oder anders bauen, z. B. „Der Anleger verschwand hinter ihnen.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Mitten auf dem Fluss, wo man weder das eine noch das andere Ufer sah, wurde es still."
+        ],
+        "suggestions": [
+          "Echte Passivsätze fehlen nahezu. Der Text ist durchgehend aktiv formuliert.",
+          "„wurde es still“ ist stilistisch unproblematisch. Optional aktiver: „verstummte alles“ oder „Mitten auf dem Fluss hörte das Klopfen auf.“"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Ilse kannte sie vom Sehen, sie stieg seit dem Sommer ein, immer montags und donnerstags, immer mit demselben dunkelblauen Mantel und einer Tasche, aus der der Griff eines Regenschirms ragte.",
+          "Darunter das kleine Foto, das er vor Jahren selbst eingestellt hatte, als er einmal bei ihr gewesen war, ein Junge im Anzug vor einem Birnbaum.",
+          "Sie hakte die Kette ein, ging ins Steuerhaus und löste die Festmacher mit dem Fuß, wie es Henning ihr gezeigt hatte, mit der Kante des Stiefels gegen den Haken."
+        ],
+        "suggestions": [
+          "Den Satz über die Frau mit dem Rollkoffer teilen: „Ilse kannte sie vom Sehen. Seit dem Sommer stieg sie ein, immer montags und donnerstags, immer im selben dunkelblauen Mantel. Aus ihrer Tasche ragte der Griff eines Regenschirms.“",
+          "Den Foto-Satz entschachteln: „Darunter das kleine Foto: ein Junge im Anzug vor einem Birnbaum. Er hatte es selbst eingestellt, vor Jahren, als er einmal bei ihr gewesen war.“",
+          "Die Komma-Reihungen erzeugen einen ruhigen Fluss, der zur Stimmung passt. Nur die Sätze mit mehreren eingeschobenen Nebensätzen gezielt kürzen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Fahren Sie jetzt?“ / „Sieben Uhr.“ / „Es ist sieben Uhr.“ / „Dann fahre ich jetzt.“",
+          "„Und wenn der Notfall kommt?“ / „Dann ist er schon da, wenn ich den Motor brauche.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, pointiert und charakterisieren Ilse effektiv. Keine Straffung nötig.",
+          "Optional: Den Wechsel „Morgen, Frau Brandt.“ / „Morgen, Herr Wendt.“ kann man belassen, da er die Routine etabliert."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "und sah zu, wie der Dunst gegen die Scheibe kroch",
+          "Auf dem Weg hinter dem Deich hörte sie ein Klingeln",
+          "und sie fand, dass er es jeden Morgen ein bisschen früher tat",
+          "da hörte sie ihn rennen"
+        ],
+        "suggestions": [
+          "„sah zu, wie der Dunst gegen die Scheibe kroch“ direkter: „Der Dunst kroch gegen die Scheibe und wich wieder zurück, als überlege er es sich.“",
+          "„hörte sie ein Klingeln“ direkter: „Hinter dem Deich klingelte es, dann knirschten Reifen auf Kies.“",
+          "„sie fand, dass er es jeden Morgen ein bisschen früher tat“ direkter: „Jeden Morgen lachte er früher, inzwischen schon vor dem Ende des Satzes.“",
+          "„da hörte sie ihn rennen“ direkter: „da rannte jemand über den Deich, schwere Schritte, dann ein halb verschluckter Fluch.“"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„wie sie es jeden Morgen tat“, „wie jeden Tag“, „jeden Morgen ein bisschen früher“",
+          "„Da summte es in ihrer Jackentasche.“ … „und in der Tasche ihrer Jacke war es wieder nur ein Gewicht“",
+          "„Auf dem Display stand ein Name“ … „Das Display blieb noch einen Moment hell“",
+          "„die Fähre drehte sich langsam“ … „wo im Nebel langsam, Stück für Stück“"
+        ],
+        "suggestions": [
+          "Das Routine-Motiv ist bewusst gesetzt, wird aber dreimal ausbuchstabiert. Eine Nennung streichen, etwa „wie jeden Tag“ beim Lehrer, da sein Verhalten die Routine bereits zeigt.",
+          "„in der Tasche ihrer Jacke“ kürzen zu „in der Tasche“, da die Jackentasche bereits eingeführt ist.",
+          "Bewusste Echos wie „ob er sang. Er sang nicht.“ und „Einfach so? / Einfach so.“ beibehalten. Sie sind stilistisch wirksam."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.121696
+}

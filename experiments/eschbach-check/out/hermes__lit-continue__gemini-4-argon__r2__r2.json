@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gemini-4-argon__r2",
+  "run": 2,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Die Strömung reicht“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort eine Handlung und Atmosphäre etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["dunkelblauen Wollmantel", "kleinen Hartplastikrollen"],
+        "suggestions": [
+          "Die Adjektive sind meist atmosphärisch sinnvoll. 'Kleinen' bei den Hartplastikrollen könnte gestrichen werden, da Kofferrollen implizit klein sind."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["„Kurt will noch rüber“, sagte Ilse und nickte..."],
+        "suggestions": [
+          "Das 'sagte Ilse' ist hier redundant, da das Nicken den Sprecher eindeutig identifiziert."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ein paar Möwen"],
+        "suggestions": [
+          "'Ein paar' ist ein vages Füllwort. Besser: 'Einige Möwen' oder einfach 'Möwen strichen schreiend...'"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["...während der Wind ihm die ordentlich gescheitelten Haare zerzauste."],
+        "suggestions": [
+          "Die 'während'-Konstruktion ist akzeptabel, aber man könnte sie durch zwei aufeinanderfolgende Sätze ersetzen, um die Dynamik zu erhöhen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist sehr aktiv formuliert. Keine kritischen Passivsätze gefunden."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzstruktur ist abwechslungsreich und gut lesbar."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind prägnant und passen gut zum Charakter der Figuren."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Hervorragende Umsetzung. Es gibt keine 'Filter-Verben' wie 'er sah, dass' oder 'sie dachte, dass'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist inhaltlich präzise und frei von unnötigen Doppelungen."]
+      }
+    }
+  },
+  "costUsd": 0
+}

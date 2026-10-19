@@ -1,0 +1,101 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-schach-von-wuthenow-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "In dem Salon der in der Behrenstraße wohnenden Frau von Carayon und ihrer Tochter Victoire waren an ihrem gewöhnlichen Empfangsabend einige Freunde versammelt"
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr expositorisch. Beginnen Sie direkt mit einer Handlung oder einem Konflikt im Raum, statt die Szene durch eine Aufzählung der Anwesenden zu etablieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "gewöhnlichen Empfangsabend",
+          "schönen Frau",
+          "lebhafte Gestikulationen",
+          "starke Herr"
+        ],
+        "suggestions": [
+          "Viele Adjektive sind schmückendes Beiwerk. Streichen Sie Adjektive, die keine neue Information liefern, und nutzen Sie stattdessen stärkere Verben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": [
+          "Da kaum Dialog vorhanden ist, ist dieser Punkt weniger relevant. Achten Sie bei zukünftigen Dialogen darauf, auf 'sagte er/sie' zu verzichten, wenn der Sprecher klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["einige Freunde", "wenige nur", "eigentlich immer", "im Übrigen"],
+        "suggestions": [
+          "Entfernen Sie Füllwörter wie 'einige', 'eigentlich' oder 'im Übrigen', um den Text präziser und direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "unter gleichzeitigem scherzhaftem Bedauern",
+          "während ihm der in der Taille knapp anschließende Rock... zusammenschnürte"
+        ],
+        "suggestions": [
+          "Vermeiden Sie 'während' oder 'gleichzeitig'. Beschreiben Sie Handlungen nacheinander, um den Lesefluss zu glätten und die Dynamik zu erhöhen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["waren... versammelt", "war... erschienen", "angesehen wurde"],
+        "suggestions": [
+          "Wandeln Sie Passivkonstruktionen in aktive Sätze um. Statt 'waren versammelt' schreiben Sie: 'Freunde versammelten sich'."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Am entschiedensten der um einige Jahre jüngere von beiden, ein ehemaliger Stabskapitän, der, nach einem abenteuernden Leben in England und den Unionsstaaten in die Heimat zurückgekehrt, allgemein als das Haupt jener militärischen Frondeurs angesehen wurde, die damals die politische Meinung der Hauptstadt machten, beziehungsweise terrorisirten."
+        ],
+        "suggestions": [
+          "Der Satz ist zu verschachtelt. Brechen Sie lange Sätze in zwei oder drei kürzere Einheiten auf, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher keine Straffung nötig."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["das ebensoviel Behagen wie Sarkasmus ausdrückte"],
+        "suggestions": [
+          "Statt den Ausdruck des Gesichts zu interpretieren ('drückte Sarkasmus aus'), beschreiben Sie die physischen Merkmale (z.B. ein hochgezogener Mundwinkel), damit der Leser die Schlussfolgerung selbst ziehen kann."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Wiederholte Erwähnung der Stellung/Bedeutung der Herren im Zirkel."],
+        "suggestions": [
+          "Einige Informationen zur Bedeutung der Personen werden mehrfach umschrieben. Straffen Sie die Charakterisierung auf das Wesentliche."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

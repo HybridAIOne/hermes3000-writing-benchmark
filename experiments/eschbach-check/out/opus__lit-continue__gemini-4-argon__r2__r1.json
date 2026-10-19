@@ -1,0 +1,170 @@
+{
+  "who": "opus",
+  "item": "lit-continue__gemini-4-argon__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Die Strömung reicht“, sagte Ilse. – Der Einstieg erfolgt mitten in der Handlung, ohne Vorgeschichte.",
+          "Jonas ist bereits angekommen. Die Ankunft selbst wird übersprungen, das ist ökonomisch.",
+          "Der erste Satz bleibt allerdings ohne Bezug: Wem gilt die Aussage? Jonas wird erst im zweiten Absatz eingeführt."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten, aber Jonas' Anwesenheit früher spürbar machen, etwa durch das Rattern des Koffers vor Ilses erstem Satz. So bekommt die Szene sofort ihre Spannungsachse Mutter–Sohn.",
+          "Prüfen, ob die Strömungs-Aussage für die Szene relevant ist. Falls sie nur Kulisse ist, könnte die Szene direkt mit „Hallo, Mama“ beginnen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Die kleinen Hartplastikrollen seines Koffers ratterten laut über das verwitterte Eichenholz.",
+          "roch kurz sein fremdes, herbes Rasierwasser",
+          "nach dem schweren Eisenkeil",
+          "griff nach dem kalten Stahlhebel der Seilwinde",
+          "durch die beschlagene Scheibe",
+          "die ordentlich gescheitelten Haare",
+          "einen dunkelblauen Wollmantel",
+          "die sich straff und schräg in das trübe Wasser schnitten",
+          "das rostbraune Eisen der Fähre"
+        ],
+        "suggestions": [
+          "„Ratterten laut“: Das Verb trägt die Lautstärke bereits, „laut“ streichen. Auch „kleinen“ ist bei Rollen entbehrlich.",
+          "Pro Satz höchstens ein charakterisierendes Adjektiv. Behalten, was Bedeutung trägt (z. B. „fremdes Rasierwasser“ für die Entfremdung), streichen, was nur Ausstattung ist (z. B. „herbes“, „kalten“, „schweren“).",
+          "„Ordentlich gescheitelt“ ist ein gutes Charakterdetail und sollte bleiben. Dafür „dunkelblauen“ streichen: „ein Wollmantel, viel zu dünn für den Ostwind“ genügt.",
+          "„Schnitten sich in das Wasser“ zeigt die Spannung bereits. „Straff und schräg“ kann entfallen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Hallo, Mama“, sagte er und trat einen Schritt vor. – Nur Jonas kann „Mama“ sagen.",
+          "„Du fährst noch allein in der Dämmerung?“, fragte Jonas. – Fragezeichen und Kontext machen „fragte Jonas“ überflüssig.",
+          "„Kurt will noch rüber“, sagte Ilse und nickte Richtung Ostufer.",
+          "„Der Schlüssel liegt unter dem alten Schöpfkelle-Topf“, sagte Ilse und löste die Bremse der Winde."
+        ],
+        "suggestions": [
+          "Bei nur zwei Figuren genügen Handlungsbeats statt Inquit-Formeln: „Hallo, Mama.“ Er trat einen Schritt vor.",
+          "„Fragte Jonas“ streichen. Der Folgesatz „Es klang nicht besorgt …“ ordnet die Rede ohnehin zu.",
+          "„Kurt will noch rüber.“ Ilse nickte Richtung Ostufer. – Die Geste allein reicht als Sprecherkennzeichnung.",
+          "Positiv: „Jonas.“ und „Berufsschule. Blockunterricht in Lüneburg.“ funktionieren ohne Kennzeichnung. Diese Technik häufiger einsetzen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Ein paar Möwen strichen schreiend über das Flachufer",
+          "roch kurz sein fremdes, herbes Rasierwasser",
+          "eher wie eine Feststellung",
+          "Wo ist denn der Junge aus dem Dorf?",
+          "Er stand noch immer auf der Rampe",
+          "das gelbe Rundumlicht blinkte bereits",
+          "Mach dir schon mal den Ofen an.",
+          "Wenigstens noch eine Stunde",
+          "Häufung von „noch“: „will noch rüber“, „fährst noch allein“, „noch immer“, „heute noch“, „noch eine Stunde“, „Es dauert noch“"
+        ],
+        "suggestions": [
+          "„Ein paar Möwen“ durch eine konkrete Zahl ersetzen („Drei Möwen“) oder einfach „Möwen“ schreiben.",
+          "„Noch“ im Erzähltext auf ein Minimum reduzieren. In der Figurenrede darf es als Sprachmelodie bleiben, wo es charakterisiert („Mach dir schon mal den Ofen an“ passt zu Ilse).",
+          "„Bereits“ und „kurz“ streichen, sie fügen keine Information hinzu.",
+          "„Eher wie eine Feststellung“ wird präziser als „Es klang nicht besorgt, sondern wie eine Feststellung …“."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie sah durch die beschlagene Scheibe des Führerstands auf ihren Sohn, der auf sein Handydisplay starrte, während der Wind ihm die ordentlich gescheitelten Haare zerzauste.",
+          "Sie hielt ihm die Wange hin, roch kurz sein fremdes, herbes Rasierwasser und trat wieder zurück, bevor er den Arm ganz um ihre Schultern legen konnte.",
+          "Ein paar Möwen strichen schreiend über das Flachufer auf der anderen Seite, ließen sich in den grauen Buhnen nieder."
+        ],
+        "suggestions": [
+          "Den „während“-Satz auflösen: „Ihr Sohn starrte auf sein Handydisplay. Der Wind zerzauste ihm die gescheitelten Haare.“ Das Bild wirkt dadurch stärker.",
+          "Die Umarmungssequenz ist gut gebaut, weil das „bevor“ die Abwehr zeigt. Beibehalten.",
+          "Insgesamt werden die Handlungen überwiegend sauber nacheinander erzählt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Kaum Passivkonstruktionen vorhanden. Der Text ist durchgehend aktiv formuliert.",
+          "Grenzfall: „Ihre Gummistiefel gaben bei jedem Schritt ein schmatzendes Geräusch … von sich.“ Das ist kein Passiv, aber eine umständliche Funktionsverbgefüge-Konstruktion."
+        ],
+        "suggestions": [
+          "„Ihre Gummistiefel schmatzten bei jedem Schritt auf dem nassen Deck.“ Das Verb ist direkter und kürzer."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie sah durch die beschlagene Scheibe des Führerstands auf ihren Sohn, der auf sein Handydisplay starrte, während der Wind ihm die ordentlich gescheitelten Haare zerzauste.",
+          "Er trug einen dunkelblauen Wollmantel, viel zu dünn für den Ostwind, der seit dem Morgen flach über den Deich strich.",
+          "Normalerweise machte sie nach Kurts letzter Fuhre Schluss für den Tag, zog die Fähre ans Westufer und ging hinauf ins Haus."
+        ],
+        "suggestions": [
+          "Den Satz mit der Scheibe in zwei oder drei Sätze teilen. Er enthält drei Ebenen (Ilse sieht, Jonas starrt, Wind zerzaust).",
+          "Der Wollmantel-Satz ist rhythmisch gelungen, könnte aber ohne „seit dem Morgen“ auskommen.",
+          "Die übrigen Sätze haben eine gute, abwechslungsreiche Länge. Kurze Sätze wie „Im Krug.“ setzen wirkungsvolle Akzente."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Repliken sind knapp und subtextreich: „Berufsschule. Blockunterricht in Lüneburg.“",
+          "Längste Replik: „Ich habe im Krug ein Zimmer genommen … Ich habe uns was aus der Stadt mitgebracht.“ Sie ist vertretbar, weil sie die zentrale Information (Krug statt Elternhaus) transportiert."
+        ],
+        "suggestions": [
+          "„Der Termin war früher zu Ende.“ könnte entfallen. „Ich war in Hamburg bei einem Mandanten“ genügt als Ausrede und wirkt knapper.",
+          "Die Dialogführung insgesamt beibehalten. Das Ungesagte trägt die Szene."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Jonas sah auf die Gierseile, die sich straff und schräg in das trübe Wasser schnitten, dann auf ihre Hände.",
+          "Sie sah durch die beschlagene Scheibe des Führerstands auf ihren Sohn",
+          "Dann sah sie hinüber zum anderen Ufer, wo Kurts Traktor jetzt mit laufendem Motor wartete.",
+          "roch kurz sein fremdes, herbes Rasierwasser",
+          "Sein Gesicht wirkte schmaler als im Herbst",
+          "Perspektivbruch: „Jonas sah auf die Gierseile“ ist Außensicht auf Jonas, die übrige Szene ist an Ilse gebunden."
+        ],
+        "suggestions": [
+          "Wahrnehmungsfilter streichen und das Wahrgenommene direkt zeigen: „Drüben wartete Kurts Traktor mit laufendem Motor.“",
+          "„Ihr Sohn starrte auf sein Handydisplay.“ statt „Sie sah … auf ihren Sohn, der … starrte“.",
+          "„Sein Gesicht war schmaler als im Herbst.“ In Ilses Perspektive ist „wirkte“ überflüssig.",
+          "Den Jonas-Blick aus Ilses Sicht formulieren: „Jonas' Blick ging zu den Gierseilen, dann zu ihren Händen.“ So bleibt die Perspektive konsistent."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„sah“ gehäuft: „Jonas sah auf …“, „Sie sah durch …“, „Dann sah sie hinüber …“",
+          "„Ich dachte, ich überrasche dich.“ und „Aber ich dachte, wir essen heute Abend zusammen.“",
+          "„Ufer“ fünfmal: Flachufer, Ostufer, Westufer, anderen Ufer, „auf der anderen Seite“",
+          "„Sie würde heute noch die Spätschicht dranhängen. Wenigstens noch eine Stunde …“ – zwei Sätze für denselben Gedanken",
+          "Uneinheitliche Begriffe für denselben Ort: „Steuerstand“ und „Führerstand“",
+          "„Er stand noch immer auf der Rampe …“ und „Wie einer, der sich die Schuhe nicht schmutzig machen wollte.“ – Bild und Deutung doppeln sich leicht"
+        ],
+        "suggestions": [
+          "Die „sah“-Konstruktionen weitgehend streichen (siehe Punkt 9). Die Wiederholung verschwindet dadurch automatisch.",
+          "Das doppelte „Ich dachte“ nur beibehalten, wenn es als bewusstes Sprachmuster von Jonas gemeint ist. Sonst eines ersetzen, etwa „Lass uns heute Abend zusammen essen.“",
+          "Einen Begriff für den Steuerstand festlegen und durchhalten.",
+          "Die Spätschicht-Passage zusammenziehen: „Sie würde noch eine Stunde dranhängen, bis das letzte Licht aus dem Fluss gewichen war.“",
+          "„Schöpfkelle-Topf“ prüfen: Der Begriff ist sperrig. Ein konkreter Gegenstand wie „unter dem Emailletopf“ wäre klarer."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.14034
+}

@@ -1,0 +1,126 @@
+{
+  "who": "gemini",
+  "item": "anchor__zweig-brennendes-geheimnis-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Die Lokomotive schrie heiser auf: der Semmering war erreicht.",
+          "Ohne Hast trappten die Pferde den ansteigenden Weg. Es lag Frühling in der Luft."
+        ],
+        "suggestions": [
+          "Nach moderner Dramaturgie (In medias res) beginnt die Szene zu früh. Die Ankunft des Zuges und die lange Naturbeschreibung während der Kutschfahrt zögern den eigentlichen Handlungseinstieg hinaus.",
+          "Stärkerer Einstieg wäre direkt im Hotel (Absatz 3): Der Protagonist überfliegt enttäuscht die Gästeliste. Das etabliert sofort Figur, Ort und das zentrale Problem (Langeweile/Suche nach Gesellschaft)."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Rein ausgespannt, mit klaren, vom nassen Wind reingefegten Hintergründen lag wieder die hingebreitete Landschaft.",
+          "Jene weißen, unruhigen Wolken flatterten am Himmel [...] jene weißen, selbst noch jungen und flattrigen Gesellen",
+          "durch gute Kleidung und eine natürliche Elastizität des Schrittes sympathisch auffallend"
+        ],
+        "suggestions": [
+          "Der Text ist extrem reich an Adjektiven und Partizipialkonstruktionen. Auch wenn dies dem klassischen Stil (Stefan Zweig) entspricht, bremst es nach Eschbachs Kriterien den Lesefluss erheblich.",
+          "Partizipien und Adjektive durch aktive Verben ersetzen oder ganz streichen, wo das Substantiv bereits stark genug ist (z.B. 'hingebreitete Landschaft' -> 'Landschaft', da 'ausgespannt' bereits im Satz steht)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["»Wozu bin ich eigentlich hier«, begann es unruhig in ihm zu fragen."],
+        "suggestions": [
+          "Es gibt nur einen inneren Monolog. Die Einleitung 'begann es unruhig in ihm zu fragen' ist etwas umständlich und distanziert.",
+          "Den inneren Monolog direkt (kursiv oder als erlebte Rede) ohne einleitendes Inquit-Verb an die Handlung (das Durchfliegen der Liste) anschließen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "warfen paar bunte Menschen aus",
+          "Wozu bin ich eigentlich hier",
+          "irgendein kleiner, im Notfall sogar argloser Flirt, um diese Woche nicht gar zu trostlos zu verbringen",
+          "mit einer gewissen leichtfertigen Verächtlichkeit"
+        ],
+        "suggestions": [
+          "Im inneren Monolog sind Füllwörter wie 'eigentlich' oder 'gar zu' akzeptabel, da sie natürliche Gedankenrede spiegeln.",
+          "Im Erzähltext sollten unpräzise Wörter wie 'paar', 'gewissen', 'nicht sehr', 'recht' gestrichen oder konkretisiert werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Verstimmt ging er in der leeren Hall auf und ab, bald unschlüssig in den Zeitungen blätternd, bald wieder im Musikzimmer am Klavier einen Walzer antastend",
+          "Leise schnaubend liefen die Pferde"
+        ],
+        "suggestions": [
+          "Der Autor vermeidet typische 'Während'-Konstruktionen, nutzt aber häufig Partizipien ('blätternd', 'antastend', 'schnaubend'), um Gleichzeitigkeit zu erzeugen.",
+          "Handlungen klarer nacheinander staffeln: 'Er ging in der Halle auf und ab, blätterte in den Zeitungen und tippte schließlich im Musikzimmer einen Walzer an.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["der Semmering war erreicht", "Dort waren erst ein paar Tische besetzt"],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv formuliert. Die wenigen Zustandspassive ('war erreicht', 'waren besetzt') sind unproblematisch, könnten aber noch aktiver gestaltet werden (z.B. 'Nur an wenigen Tischen saßen Gäste')."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Jene weißen, unruhigen Wolken flatterten am Himmel, die nur der Mai und der Juni hat, jene weißen, selbst noch jungen und flattrigen Gesellen, die spielend über die blaue Bahn rennen, um sich plötzlich hinter hohen Bergen zu verstecken, die sich umarmen und fliehen, sich bald wie Taschentücher zerknüllen, bald in Streifen zerfasern und schließlich im Schabernack den Bergen weiße Mützen aufsetzen.",
+          "Er war einer jener jungen Menschen, deren hübschem Gesicht viel geglückt ist und in denen nun beständig alles für eine neue Begegnung, ein neues Erlebnis bereit ist, die immer gespannt sind, sich ins Unbekannte eines Abenteuers zu schnellen, die nichts überrascht, weil sie alles lauernd berechnet haben, die nichts Erotisches übersehen, weil schon ihr erster Blick jeder Frau in das Sinnliche greift, prüfend und ohne Unterschied, ob es die Gattin ihres Freundes ist oder das Stubenmädchen, das die Türe zu ihr öffnet."
+        ],
+        "suggestions": [
+          "Nach Eschbachs Maßstäben sind diese extrem langen Bandwurmsätze (oft über 6 bis 8 Zeilen mit zahllosen Relativsätzen) ein massives Hindernis für das Lesetempo.",
+          "Die Sätze dringend teilen. Aus den endlosen Aufzählungen mit 'die..., die..., die...' eigenständige Hauptsätze machen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine echten Dialoge vorhanden. Der kurze innere Monolog im dritten Absatz hat eine perfekte, prägnante Länge."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Manchmal schien auch Duft von Schnee kühl aus den Bergen herüberzukommen, dann spürte man im Atem etwas...",
+          "Er wußte, daß er die Reibfläche von Menschen brauchte...",
+          "sah hinaus, wie das Dunkel langsam niederfiel"
+        ],
+        "suggestions": [
+          "Filterwörter wie 'schien herüberzukommen', 'spürte man', 'wußte, daß' und 'sah hinaus, wie' schaffen Distanz zwischen Leser und Figur.",
+          "Direkter formulieren: Statt 'Er sah hinaus, wie das Dunkel langsam niederfiel' besser: 'Draußen fiel langsam das Dunkel nieder.' Statt 'Er wusste, dass er brauchte' direkt als erlebte Rede: 'Er brauchte die Reibfläche von Menschen...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Die Lokomotive schrie heiser auf [...] schrie vorne wieder die heisere Maschine",
+          "Rein ausgespannt, mit klaren, vom nassen Wind reingefegten Hintergründen",
+          "Jene weißen, unruhigen Wolken [...] jene weißen, selbst noch jungen und flattrigen Gesellen",
+          "Die gesamte psychologische Erklärung im 3. und 5. Absatz (Unfähigkeit zur Einsamkeit, Jagdinstinkt, Bereitsein für Abenteuer)."
+        ],
+        "suggestions": [
+          "Wortdoppelungen auf engem Raum ('rein ausgespannt' / 'reingefegt', 'schrie heiser' / 'schrie die heisere') streichen oder variieren.",
+          "Inhaltliche Redundanz (Telling): Im letzten Absatz wird die Eigenschaft des 'Frauenjägers' in immer neuen Variationen und Metaphern viermal hintereinander erklärt. Hier gilt: Kürzen und stattdessen durch Handlung zeigen (Show, don't tell)."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.024436
+}

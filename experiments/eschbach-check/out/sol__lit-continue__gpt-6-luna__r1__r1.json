@@ -1,0 +1,139 @@
+{
+  "who": "sol",
+  "item": "lit-continue__gpt-6-luna__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Läuft“, sagte Ilse.", "„Das Geräusch eben war nicht normal.“"],
+        "suggestions": [
+          "Den Einstieg beibehalten: Er setzt unmittelbar beim Konflikt ein und vermittelt die Beziehung über den Dialog. Ein späterer Beginn würde die Spannung zwischen Ilses Beschwichtigung und Jonas’ Sorge schwächen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse nahm die Leine vom Poller und wickelte sie ordentlich auf.",
+          "Das Wasser schob gegen den Rumpf, grau und glatt",
+          "Das Wort lag zwischen ihnen, klein und alt."
+        ],
+        "suggestions": [
+          "„Ordentlich“ versuchsweise streichen, sofern das sorgfältige Aufwickeln nicht gezielt Ilses Kontrollbedürfnis zeigen soll.",
+          "„Grau und glatt“ sowie „klein und alt“ beibehalten: Die Zusätze leisten atmosphärische beziehungsweise emotionale Arbeit und sind nicht bloß Schmuck."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Wie lange bist du schon hier?“, fragte er.",
+          "„Es ist nicht kaputt“, sagte sie.",
+          "„Du hättest anrufen können“, sagte sie."
+        ],
+        "suggestions": [
+          "„Fragte er“ kann entfallen, weil der Sprecher durch den Wechsel zwischen zwei Figuren erkennbar ist.",
+          "„Sagte sie“ nach „Du hättest anrufen können“ beibehalten: Nach dem Ortswechsel und dem erzählenden Absatz erleichtert die Kennzeichnung die Orientierung.",
+          "Redebegleitsätze nicht pauschal streichen; die vorhandenen sind unauffällig und teilweise rhythmisch sinnvoll."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "So hatte er früher immer ausgesehen",
+          "Trotzdem blieb sein Blick dort einen Moment hängen.",
+          "hielt sie sie einen Augenblick in der Hand"
+        ],
+        "suggestions": [
+          "„Früher immer“ auf „früher“ kürzen, falls die ausnahmslose Wiederkehr nicht wichtig ist.",
+          "Die kurzen Zeitangaben nicht automatisch streichen: Sie machen das Zögern sichtbar. Nur dort kürzen, wo die Handlung die Pause bereits ausreichend vermittelt."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "und er ruckte daran, als ließe sich das Problem mit genug Kraft beheben",
+          "Er sah sich um, als prüfe er, was sich verändert hatte.",
+          "Als sie die Tasse erreichte, hielt sie sie einen Augenblick in der Hand."
+        ],
+        "suggestions": [
+          "Kein systematischer Änderungsbedarf: Die ersten beiden „als“-Konstruktionen sind Vergleiche, keine überladenen Gleichzeitigkeitskonstruktionen.",
+          "Den zeitlichen Anschluss am Schluss beibehalten; er ist klar und unterstützt die verlangsamte Bewegung."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ilse schob ihn in die Schublade, ohne hinzusehen.",
+          "Dann stellte sie sie neben ihre eigene."
+        ],
+        "suggestions": [
+          "Die aktive Darstellung beibehalten. Es gibt keine auffälligen Passivkonstruktionen.",
+          "„Jonas’ Haare waren vom Regen dunkel geworden“ nicht als Passiv behandeln: Die Formulierung beschreibt eine Zustandsveränderung."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "So hatte er früher immer ausgesehen, wenn er aus dem Zug gestiegen war: als käme er nicht zu Besuch, sondern zu einer Besprechung, die jemand anders vorbereitet hatte.",
+          "Die mit dem blauen Rand, aus der Jonas als Kind getrunken hatte, stand hinten im Schrank, hinter den Gläsern, die selten herauskamen."
+        ],
+        "suggestions": [
+          "Den Satz über Jonas’ Auftreten eher bewahren: Seine Länge trägt den präzisen, charakterisierenden Vergleich.",
+          "Den Tassensatz bei Bedarf entflechten: „Die mit dem blauen Rand stand hinten im Schrank, hinter den selten benutzten Gläsern. Aus ihr hatte Jonas als Kind getrunken.“",
+          "Nicht alle längeren Sätze verkürzen; der Wechsel mit knappen Dialogen sorgt bereits für einen tragfähigen Rhythmus."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Seit sechs.“",
+          "„Mama.“",
+          "„Ich wollte dich nicht am Telefon erschrecken.“",
+          "„Hat nicht geklappt.“"
+        ],
+        "suggestions": [
+          "Die knappen Repliken beibehalten. Sie transportieren Vorgeschichte und Konflikt, ohne sie auszuformulieren.",
+          "Keine erklärenden Dialogsätze ergänzen: Besonders „Mama“ und „Hat nicht geklappt“ gewinnen durch ihre Kürze."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas sah auf den Motorraum, dessen Klappe sie mit dem Fuß zugedrückt hatte.",
+          "Er sah sich um, als prüfe er, was sich verändert hatte.",
+          "Drinnen roch es nach nassem Holz, Diesel und dem Kaffee, den sie morgens in der Thermoskanne mitbrachte."
+        ],
+        "suggestions": [
+          "„Jonas sah auf den Motorraum“ ist eine sichtbare Blickhandlung, kein zwingend entbehrlicher Wahrnehmungsfilter. Nur kürzen, wenn die Blickrichtung unwichtig ist.",
+          "Bei „Er sah sich um, als prüfe er …“ könnte die Deutung entfallen, wenn der folgende Blick zur Garderobe die Suche nach Veränderungen bereits ausreichend zeigt.",
+          "Die unmittelbare Geruchsbeschreibung beibehalten: Sie kommt ohne vorgeschaltetes „Sie roch“ aus."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Jonas lächelte kurz. Es war ein Lächeln, das gleich wieder verschwand.",
+          "Die Jacke an der Garderobe war nicht Hennings. Die hatte sie vor zwei Jahren weggegeben.",
+          "hielt sie sie einen Augenblick in der Hand. Dann stellte sie sie neben ihre eigene."
+        ],
+        "suggestions": [
+          "Die deutlichste Doppelung straffen: „Jonas lächelte, doch das Lächeln verschwand sofort.“ Alternativ genügt „Jonas lächelte kurz.“",
+          "Die Jackenpassage präzisieren: „Hennings Jacke hatte sie vor zwei Jahren weggegeben. Trotzdem blieb Jonas’ Blick einen Moment an der Garderobe hängen.“ Das vermeidet zugleich den unklaren Bezug von „Die“.",
+          "Die Häufung von „sie sie“ am Schluss glätten: „Als sie die Tasse erreichte, hielt sie einen Augenblick inne. Dann stellte sie sie neben ihre eigene.“ Die wiederkehrende Tasse als Beziehungsmotiv dagegen bewahren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02096
+}

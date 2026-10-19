@@ -1,0 +1,140 @@
+{
+  "who": "sol",
+  "item": "anchor__schnitzler-der-blinde-geronimo-und-sein-bruder-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Der blinde Geronimo stand von der Bank auf und nahm die Gitarre zur Hand, die auf dem Tisch neben dem Weinglase bereit gelegen war.",
+          "Unter dem düsteren Bogen des alten Wirtshauses mußten alle Wagen passieren, die den Weg über das Stilfserjoch nahmen."
+        ],
+        "suggestions": [
+          "Ein späterer Einstieg beim Eintreffen der Post oder beim Gesang würde die Szene schneller auf ihre zentrale Situation konzentrieren. Geronimos Blindheit und Carlos Rolle müssten anschließend knapp eingeführt werden.",
+          "Die Wegbeschreibung von der Bank bis in den Hof kürzen. Das Ertasten des Weges als anschauliches Detail für Geronimos Blindheit bewahren.",
+          "Die geografischen Hintergrundinformationen gegebenenfalls verkürzen, damit sie den begonnenen Handlungsfluss weniger unterbrechen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "den wohlbekannten Weg bis zur offenen Türe",
+          "über den feuchtschmutzigen Boden durch die offenen Tore",
+          "mit einer ungleichmäßigen, manchmal plötzlich aufkreischenden Stimme",
+          "Aber gleich, beinahe ängstlich, wandte er den Blick wieder fort"
+        ],
+        "suggestions": [
+          "Die Häufung von Zustands- und Stimmungsattributen reduzieren, ohne die bedrückende Atmosphäre aufzugeben.",
+          "Die Stimme stärker durch Verben charakterisieren, etwa: „Er sang; manchmal schlug seine Stimme in ein Kreischen um.“",
+          "Bei „gleich, beinahe ängstlich“ prüfen, ob die rasche Blickabwendung die Unsicherheit bereits ausreichend vermittelt.",
+          "Konkrete, charakterisierende Details wie „schwarzen Bartstoppeln“ und „bläulichen Lippen“ eher bewahren als pauschal alle Adjektive streichen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Überarbeitung erforderlich: Der Ausschnitt enthält keine direkte Rede und daher keine entbehrlichen Dialogkennzeichnungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "ziemlich eben",
+          "so gut wie zu Hause",
+          "vollkommen unbeweglich",
+          "beinahe regungslos"
+        ],
+        "suggestions": [
+          "„Ziemlich eben“ zu „eben“ kürzen, sofern die Einschränkung für die Landschaftsbeschreibung unwichtig ist.",
+          "Verstärkungen wie „vollkommen“ auf ihren Mehrwert prüfen; „unbeweglich“ kann genügen.",
+          "„So gut wie zu Hause“ und „beinahe regungslos“ nicht automatisch streichen: Beide Wendungen können eine beabsichtigte Bedeutungsabstufung ausdrücken."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Nun tastete er sich den wohlbekannten Weg bis zur offenen Türe hin, und dann ging er die schmalen Holzstufen hinab",
+          "Der Blinde sang und begleitete sich dazu auf der Gitarre",
+          "Es war, als schämten sich seine Augen des Lichts"
+        ],
+        "suggestions": [
+          "Die Handlungsabfolge ist überwiegend klar; eine systematische Umstellung ist nicht nötig.",
+          "Gesang und Gitarrenbegleitung gehören sachlich zusammen und sollten weiterhin als gleichzeitig erscheinen.",
+          "Das „als“ im Schlusssatz bezeichnet einen Vergleich, keine zeitliche Gleichzeitigkeit; hier besteht kein entsprechender Kürzungsbedarf."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "um gegen den naßkalten Wind geschützt zu sein",
+          "des Lichts, das ihnen gewährt war"
+        ],
+        "suggestions": [
+          "Der Text ist überwiegend aktiv formuliert; kein grundlegender Änderungsbedarf.",
+          "„Geschützt zu sein“ beschreibt einen Zustand und lässt sich nicht allein wegen seiner Form als stilistische Schwäche bewerten.",
+          "„Das ihnen gewährt war“ trägt zum gehobenen, schicksalhaften Ton bei. Für eine nüchternere Fassung wäre etwa „Es war, als schämte er sich, sehen zu können“ möglich; dabei ginge jedoch ein Teil der Bildlichkeit verloren."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sein Bruder folgte ihm, und beide stellten sich gleich neben der Treppe auf, den Rücken zur Wand gekehrt, um gegen den naßkalten Wind geschützt zu sein, der über den feuchtschmutzigen Boden durch die offenen Tore strich.",
+          "Es war, als schämten sich seine Augen des Lichts, das ihnen gewährt war, und von dem sie dem blinden Bruder keinen Strahl schenken konnten."
+        ],
+        "suggestions": [
+          "Den Satz über die Aufstellung im Hof teilen: „Sein Bruder folgte ihm. Neben der Treppe stellten sie sich mit dem Rücken zur Wand. Durch die offenen Tore strich ein naßkalter Wind über den feuchtschmutzigen Boden.“",
+          "Den langen Schlusssatz eher bewahren: Seine Verschachtelung bleibt verständlich und unterstützt die abschließende Reflexion.",
+          "Vor allem dort kürzen, wo Bewegung, räumliche Orientierung und Wetterbeschreibung in einem einzigen Satz zusammenkommen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Überarbeitung erforderlich: Es gibt keine Dialogpassagen. Der Umfang der erzählenden Absätze ist nicht als Dialoglänge zu bewerten."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er hatte das ferne Rollen der ersten Wagen vernommen.",
+          "Nach einer Reihe schöner Tage schien der Herbst plötzlich und allzu früh hereinzubrechen."
+        ],
+        "suggestions": [
+          "Die Wahrnehmungsformulierung „vernommen“ ist hier funktional: Sie erklärt Geronimos Aufbruch und verankert die Szene in seinem Gehör.",
+          "Für mehr Unmittelbarkeit wäre möglich: „In der Ferne rollten die ersten Wagen heran.“ Dabei wird allerdings die Bindung an Geronimos Wahrnehmung schwächer.",
+          "„Schien“ ist hier eher eine atmosphärische Einordnung als ein störender Wahrnehmungsfilter und muss nicht gestrichen werden."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Der Blinde sang und begleitete sich dazu auf der Gitarre; er sang mit einer ungleichmäßigen, manchmal plötzlich aufkreischenden Stimme",
+          "blieben vollkommen unbeweglich. Der ältere Bruder stand neben ihm, beinahe regungslos.",
+          "sah dem Spender mit einem raschen, wie irren Blick ins Gesicht. Aber gleich, beinahe ängstlich, wandte er den Blick wieder fort",
+          "naßkalten Wind / feuchtschmutzigen Boden / Das Wetter wurde immer schlechter, ein kalter Regen klatschte herab"
+        ],
+        "suggestions": [
+          "Die unmittelbare Wiederholung von „sang“ bei Bedarf zusammenziehen: „Der Blinde sang mit ungleichmäßiger, manchmal aufkreischender Stimme und begleitete sich auf der Gitarre.“",
+          "Die Wetterdetails auf ihre jeweilige Funktion prüfen: Wind, Nässe und Regen verdichten die Atmosphäre, die allgemeine Feststellung „Das Wetter wurde immer schlechter“ ist daneben am ehesten entbehrlich.",
+          "Die ähnliche Bewegungslosigkeit der Brüder kann als bewusste Parallelisierung erhalten bleiben.",
+          "Bei Carlos Blickbewegung die mehrfachen Deutungen „wie irren“, „beinahe ängstlich“ und das anschließende Scham-Bild gegeneinander abwägen. Weniger Vorinterpretation könnte den Schlusssatz stärker wirken lassen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.022382
+}

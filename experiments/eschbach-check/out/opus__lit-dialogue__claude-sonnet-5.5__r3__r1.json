@@ -1,0 +1,126 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Thomas sitzt schon, als Ralf hereinkommt und kurz in der Tür stehen bleibt.“",
+          "„RALF: Du bist früh.“ als erste Replik"
+        ],
+        "suggestions": [
+          "Der Einstieg ist knapp und setzt unmittelbar mit Spannung ein. Ralfs Zögern in der Tür etabliert die Distanz ohne Vorlauf. Ein späterer Einstieg würde diesen Moment kosten, daher beibehalten.",
+          "Optional prüfen: Die Ortsangabe „Regen“ wird später nicht mehr aufgegriffen. Entweder streichen oder einmal sinnlich einbinden, etwa durch nasse Jacke oder Tropfen am Fenster. Das würde auch erklären, warum Ralf die Jacke anbehält."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„kurz in der Tür stehen bleibt“",
+          "„Thomas lächelt kurz, dann nicht mehr.“",
+          "„Ralf nickt langsam.“",
+          "„(leise)“"
+        ],
+        "suggestions": [
+          "„kurz“ steht zweimal in den Regieanweisungen. Beim ersten Mal lässt es sich streichen, denn „bleibt in der Tür stehen“ trägt den Moment des Zögerns bereits allein.",
+          "„nickt langsam“ ist etwas generisch. Erwägen: „Ralf nickt.“ oder eine konkretere Geste, etwa „Ralf sieht zum Fenster.“",
+          "„(leise)“ ist als Spielanweisung legitim. Die Replik „Ich hätte anrufen sollen“ trägt ihr Gewicht aber auch ohne sie."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sprecherbezeichnungen „RALF:“ / „THOMAS:“ (formatbedingt)",
+          "„RALF: (leise) Ich hätte anrufen sollen.“"
+        ],
+        "suggestions": [
+          "Im Drehbuch- bzw. Bühnenformat sind die Sprecherkennzeichnungen notwendig. Es gibt keine überflüssigen Redeeinleitungen wie „sagte er“.",
+          "Die Spielanweisungen in Klammern sind sparsam gesetzt. Diese Zurückhaltung beibehalten und den Schauspielern Raum lassen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Sie fragt manchmal nach dir.“", "„Dass du viel zu tun hast.“"],
+        "suggestions": [
+          "„manchmal“ ist hier nicht unpräzise, sondern figurensprachlich bewusst ausweichend. Thomas spielt Annas Interesse herunter. Beibehalten.",
+          "„viel zu tun“ ist als floskelhafte Ausrede der Figur funktional. Keine Änderung nötig."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Thomas sitzt schon, als Ralf hereinkommt“",
+          "„Thomas sieht auf die Uhr und gleich wieder weg“"
+        ],
+        "suggestions": [
+          "Das „als“ im Einstieg ist für die Ausgangssituation sinnvoll. Wer schon da ist und wer kommt, definiert die Machtverhältnisse.",
+          "Ansonsten sind Handlungen konsequent nacheinander erzählt. Keine Änderung nötig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Passivkonstruktionen. Alle Regieanweisungen sind aktiv und konkret: „Die Kellnerin kommt.“, „Ralf dreht die Tasse am Henkel.“, „Keiner steht auf.“"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Thomas sieht auf die Uhr und gleich wieder weg, ohne die Zeit gelesen zu haben.“"
+        ],
+        "suggestions": [
+          "Der längste Satz ist noch gut lesbar. Er ließe sich straffen: „Thomas sieht auf die Uhr. Gleich wieder weg.“ Das hätte den Rhythmus der übrigen Anweisungen.",
+          "Die Dialogsätze sind durchgehend kurz und abgebrochen („Wir könnten auch…“, „Das, das du mir…“). Das passt zur Sprachlosigkeit der Figuren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„THOMAS: Schwarz. / RALF: Schwarz.“",
+          "„RALF: Ich hätte anrufen sollen. / THOMAS: Ja. (Pause) Hättest du.“"
+        ],
+        "suggestions": [
+          "Die Repliken sind äußerst ökonomisch. Viel Subtext wird über Auslassung transportiert, etwa beim Buch, beim Haus oder bei Anna. Keine Straffung nötig.",
+          "Die Balance zwischen Dialog und Stille („Stille. Draußen fährt ein Zug ein.“) ist gelungen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["„ohne die Zeit gelesen zu haben“"],
+        "suggestions": [
+          "„ohne die Zeit gelesen zu haben“ beschreibt einen inneren Vorgang, den weder Publikum noch Kamera sehen können. Stattdessen nur das Sichtbare zeigen, etwa „Thomas sieht auf die Uhr. Sieht gleich wieder weg.“ Die folgende Replik („Mein Zug geht erst in einer Stunde“) liefert die Bedeutung ohnehin nach.",
+          "Positiv: „Thomas lächelt kurz, dann nicht mehr.“ zeigt einen Stimmungswechsel rein über äußeres Verhalten."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„kurz in der Tür“ / „lächelt kurz“",
+          "„Behalt es.“ / „Ich hab gesagt, behalt es.“",
+          "„Früher, im Winter…“ / „Früher.“",
+          "„Ich hätte anrufen sollen.“ / „Hättest du.“"
+        ],
+        "suggestions": [
+          "Die Wiederholungen im Dialog sind bewusst gesetzte Echo-Strukturen und dramaturgisch stark. Sie zeigen, wie Thomas Ralfs Worte zurückwirft und abschließt. Beibehalten.",
+          "Unbeabsichtigt wirkt nur das doppelte „kurz“ in den Regieanweisungen. Eines davon streichen oder ersetzen.",
+          "„Ich weiß. Hab ich gehört.“ doppelt sich leicht. Prüfen, ob „Hab ich gehört.“ allein schärfer und vorwurfsvoller wirkt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.07826
+}

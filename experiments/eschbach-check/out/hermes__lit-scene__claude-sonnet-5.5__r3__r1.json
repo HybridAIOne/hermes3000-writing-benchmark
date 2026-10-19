@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Schlüssel klemmte, wie er immer geklemmt hatte..."],
+        "suggestions": [
+          "Der Einstieg ist exzellent gewählt, da er sofort eine Handlung und ein Gefühl für die Situation vermittelt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["blinden Fleck", "eingeschrumpft", "altes Leder"],
+        "suggestions": [
+          "Die Adjektive sind sehr präzise und atmosphärisch. Keine Änderung notwendig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Notar hatte am Telefon von „Räumung“ gesprochen"],
+        "suggestions": [
+          "Keine Dialogmarker vorhanden, da kein direkter Dialog stattfindet. Die indirekte Wiedergabe ist sehr elegant gelöst."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["schließlich doch", "immer"],
+        "suggestions": [
+          "„Schließlich doch“ könnte man auf „schließlich“ oder „doch“ kürzen, um den Satz zu straffen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine überflüssigen Gleichzeitigkeitskonstruktionen vorhanden."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist durchgehend aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Läufer, dessen Muster sie als Kind für eine Landkarte gehalten hatte."],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie wartete darauf, dass der Flur sich in etwas verwandelte"],
+        "suggestions": ["Die Wahrnehmung ist sehr direkt und nah an der Figur."]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["nie gemocht... nie gekauft, nie gekocht, nie auch nur erwähnt"],
+        "suggestions": [
+          "Die Wiederholung von „nie“ ist hier ein bewusstes Stilmittel (Anapher), das den Rhythmus verstärkt. Es ist gut so, sollte aber bewusst beibehalten werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

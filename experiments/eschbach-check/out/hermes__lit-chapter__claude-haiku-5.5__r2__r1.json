@@ -1,0 +1,88 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-haiku-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse Brandt das andere Ufer nicht sehen konnte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen und etabliert sofort Atmosphäre und Routine."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["schwerer Ruck", "dunklen Mantel"],
+        "suggestions": [
+          "Der Text ist bereits sehr präzise. Achte darauf, dass Adjektive nur dann verwendet werden, wenn sie wirklich ein neues Bild erzeugen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Moin, Frau Brandt.“ / „Moin.“"],
+        "suggestions": [
+          "Die Dialogführung ist exzellent und verzichtet weitgehend auf unnötige Begleitsätze."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ein Stück zur Seite"],
+        "suggestions": ["Der Text ist sehr straff. Kaum Füllwörter vorhanden."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie drückte den Hebel nach vorn. Die Fähre löste sich..."],
+        "suggestions": [
+          "Handlungen werden logisch nacheinander geschildert, was den Lesefluss fördert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Rampe am Anleger war schon gesenkt."],
+        "suggestions": ["Der Text ist fast durchgehend aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["In der Brusttasche ihrer Jacke begann das Telefon zu vibrieren."],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ist es hier sicher?“ / „Es ist eine Fähre.“"],
+        "suggestions": ["Die Dialoge sind kurz und charakterisierend. Keine Straffung nötig."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie wusste, dass es da war",
+          "Ilse fragte sich kurz, wohin er wollte, dann dachte sie, dass es sie nichts anging."
+        ],
+        "suggestions": [
+          "Versuche, das 'Wissen' und 'Denken' durch Handlungen oder Beobachtungen zu ersetzen. Statt 'Sie wusste, dass es da war' könnte man schreiben: 'Sie steuerte blind auf das Ufer zu, das sie seit 41 Jahren kannte.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["als hätte es es sich anders überlegt"],
+        "suggestions": [
+          "Das doppelte 'es' im Satz 'als hätte es es sich anders überlegt' stilistisch glätten (z.B. 'als hätte sich der Fluss anders überlegt')."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

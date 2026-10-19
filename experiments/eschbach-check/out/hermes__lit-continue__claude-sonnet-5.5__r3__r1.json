@@ -1,0 +1,86 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Der Motor läuft“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort in die Handlung und das Setting wirft."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ordentlichen Buchten", "dumpfe Pochen"],
+        "suggestions": ["Die Adjektive sind atmosphärisch passend und nicht überladen."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sagte Ilse", "fragte sie"],
+        "suggestions": [
+          "Die Kennzeichnungen sind dezent. Gelegentlich könnte man sie noch weiter reduzieren, wenn der Sprecherwechsel klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vermutlich auch noch", "vielleicht kam keiner"],
+        "suggestions": [
+          "Die Füllwörter unterstreichen hier die Unsicherheit der Protagonistin, daher sind sie stilistisch vertretbar."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als du reingekommen bist"],
+        "suggestions": ["Die Handlungsabfolge ist klar und logisch strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Es war noch eine Fahrt eingetragen"],
+        "suggestions": [
+          "Das Passiv ist hier akzeptabel, könnte aber aktiver gestaltet werden: 'Der Fahrplan wies noch eine Fahrt aus'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Fluss lag grau und breit hinter ihm."],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut lesbar."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Hast du gegessen?“ / „Im Zug.“"],
+        "suggestions": ["Die Dialoge sind knackig und authentisch."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "sie merkte, dass sie darauf gewartet hatte",
+          "sie ließ Jonas nicht merken, dass sie es hörte"
+        ],
+        "suggestions": [
+          "Vermeide Filterwörter wie 'sie merkte, dass'. Beschreibe stattdessen die körperliche Reaktion oder das Gefühl direkt (z.B. 'Ein kurzes Lachen, und die Anspannung in ihrer Brust löste sich')."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Becher"],
+        "suggestions": [
+          "Die Wiederholung von 'Becher' ist hier ein bewusstes Motiv und daher in Ordnung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

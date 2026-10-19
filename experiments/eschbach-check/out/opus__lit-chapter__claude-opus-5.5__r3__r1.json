@@ -1,0 +1,159 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__claude-opus-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur deshalb kannte, weil es seit dreiundzwanzig Jahren an derselben Stelle war.",
+          "Um zehn vor sieben schaltete sie die Positionslichter ein. […] Dann wischte sie die Hand an der Hose ab und ging ins Steuerhaus, um Kaffee aus der Thermoskanne zu gießen.",
+          "Der Erste kam um sieben."
+        ],
+        "suggestions": [
+          "Der Einstieg vor der Ankunft der Passagiere ist berechtigt. Er etabliert Ilses Routine, die dreiundzwanzig Jahre und den Kaffee, der am Ende kalt geworden ist. Ein späterer Einstieg bei 'Der Erste kam um sieben' würde diese Klammer zerstören.",
+          "Leicht straffen ließe sich der erste Absatz: 'Die Elbe war still an diesem Morgen, aber nicht ruhig' und 'Unter der Oberfläche zog sie […]' tragen eine ähnliche Aussage. Einer der beiden Sätze genügt womöglich."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "grau und schwer und gleichgültig",
+          "Das Grün und das Rot verschwammen schon nach wenigen Metern zu zwei blassen Flecken.",
+          "die kalten Litzen entlang",
+          "eine von den billigen aus dem Baumarkt in Dannenberg",
+          "kam der Golf von Frau Wendt die Rampe herunter, langsam, mit eingeschalteten Nebelscheinwerfern"
+        ],
+        "suggestions": [
+          "Die Adjektive sind überwiegend funktional. 'hellen Mantel' wird zum Erkennungsmerkmal des Fremden, 'viel zu dünne Jacke' charakterisiert Mattis.",
+          "'kalten Litzen' ist entbehrlich, denn die Kälte ergibt sich aus 'bis die Haut nass war' und dem Nebel. 'die Litzen entlang' reicht.",
+          "Die Dreierreihe 'grau und schwer und gleichgültig' ist ein bewusstes Stilmittel. Sie sollte die einzige ihrer Art bleiben, damit sie wirkt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "»Licht«, sagte Ilse.",
+          "»Die krieg ich wieder«, sagte sie.",
+          "»Moin«, sagte er und schob das Rad aufs Deck.",
+          "»Ja«, sagte Ilse. (am Ende)"
+        ],
+        "suggestions": [
+          "Die Wechselreden zwischen Ilse und Mattis kommen weitgehend ohne Inquit aus. Das ist gut und passt zur Wortkargheit.",
+          "Bei '»Licht«, sagte Ilse.' ist der Sprecher eindeutig, da Mattis gerade '»Was?«' gefragt hat. Das bloße '»Licht.«' wäre noch knapper und treffender.",
+          "Bei '»Die krieg ich wieder«, sagte sie.' ist die Sprecherin ebenfalls klar, denn sie hat die Lampe gerade montiert. Das 'sagte sie' kann entfallen.",
+          "Das abschließende '»Ja«, sagte Ilse.' sollte bleiben: Es setzt nach dem längeren Satz des Mannes einen bewussten Kontrapunkt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "nach wenigen Metern",
+          "Für zwei, drei Minuten gab es keine Ufer",
+          "Der Mann blieb noch einen Moment stehen.",
+          "Sie wollte gerade das Tor an der Rampe schließen",
+          "das andere Ufer nur deshalb kannte"
+        ],
+        "suggestions": [
+          "Der Text ist auffallend präzise: 'zehn vor sieben', 'sechs nach sieben', 'zwei Euro', 'dreiundzwanzig Jahren', 'Zehnerpack'. Diese Genauigkeit passt zu Ilse.",
+          "'nach wenigen Metern' ließe sich konkretisieren, etwa 'nach zehn Metern', und so an die übrige Präzision anpassen.",
+          "'zwei, drei Minuten' ist als bewusste Unschärfe vertretbar. Es markiert den zeitlosen Moment auf dem Fluss.",
+          "'gerade' in 'wollte gerade […] schließen, als' ist verzichtbar, wenn der Satz umgebaut wird (siehe Gleichzeitigkeit)."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie wollte gerade das Tor an der Rampe schließen, als aus dem Nebel ein Mann trat, den sie nicht kannte.",
+          "sie schrieb ihm eine auf den Block, mit Datum und Stempel, während er wartete und sich die Hände rieb.",
+          "Sie stand da, das Telefon in der Hand, und das Wasser schlug gegen den Rumpf, einmal, zweimal."
+        ],
+        "suggestions": [
+          "Die Konstruktion 'wollte gerade …, als' ist ein klassisches Klischee. Besser nacheinander: 'Ilse ging zurück zum Steuerhaus und griff nach dem Tor an der Rampe. Aus dem Nebel trat ein Mann, den sie nicht kannte.'",
+          "'während er wartete und sich die Hände rieb' kann als eigener Satz stehen: 'Er wartete und rieb sich die Hände.' Die Ungeduld des Städters wird so sichtbarer.",
+          "Die Gleichzeitigkeit in der Telefonszene ist dagegen gewollt und wirkungsvoll. Das Stillstehen während des Klingelns ist der Kern des Moments."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "trug einen hellen Mantel, der für eine Stadt gemacht war",
+          "Mein Mann sagt, bei so einem Wetter gehört das verboten."
+        ],
+        "suggestions": [
+          "Der Text ist nahezu durchgehend aktiv formuliert.",
+          "'der für eine Stadt gemacht war' ist ein Zustandspassiv und hier stimmig. Eine Alternative wäre 'einen hellen Stadtmantel', was aber an Ironie verlöre.",
+          "'gehört das verboten' ist Figurenrede und umgangssprachlich korrekt. Nicht ändern."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie ging zum Fahrradständer am Heck, wo zwischen Rettungsring und Werkzeugkiste eine Schachtel stand, und holte eine Klemmleuchte heraus, eine von den billigen aus dem Baumarkt in Dannenberg, die sie dort im Zehnerpack kaufte.",
+          "Der Fahrplan sagte sieben Uhr, aber der Fahrplan hing in einem Kasten, dessen Glas seit dem Hochwasser von innen beschlug, und niemand außer ihr wusste noch genau, was darauf stand.",
+          "Sie nickte und kassierte bei ihm zwei Euro, und er wollte eine Quittung, und sie schrieb ihm eine auf den Block, mit Datum und Stempel, während er wartete und sich die Hände rieb."
+        ],
+        "suggestions": [
+          "Den Fahrradständer-Satz teilen: 'Sie ging zum Fahrradständer am Heck. Zwischen Rettungsring und Werkzeugkiste stand eine Schachtel mit Klemmleuchten, billigen aus dem Baumarkt in Dannenberg, im Zehnerpack gekauft.' Das 'dort' ist ohnehin redundant.",
+          "Die 'und …, und …'-Reihung beim Kassieren ist als Polysyndeton nachvollziehbar, weil sie die umständliche Quittungsprozedur nachbildet. Sie ist aber schon der dritte lange Satz in kurzer Folge. Einen Punkt nach 'zwei Euro' setzen.",
+          "Insgesamt wechseln kurze und lange Sätze gut ab ('Vor ihnen war nichts.'). Die langen Sätze sollten diesem Rhythmus bewusst dienen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "»Ich weiß, ich weiß.« […] »Mein Mann sagt, bei so einem Wetter gehört das verboten. Ich sag, Hans, die Frau macht das länger, als du Auto fährst.«",
+          "»Und, wie geht's? Alles gut bei Ihnen?« / »Ja.« / »Und dem Jungen? Ist der noch in München?« / »Ja.«"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp und tragen Charakterisierung. Ilses Einsilbigkeit steht gegen Frau Wendts Redseligkeit und die neugierigen Fragen des Fremden.",
+          "Der Frau-Wendt-Dialog ist der längste, aber notwendig: Die Frage nach 'dem Jungen' in München bereitet das Ende mit JONAS vor. Nicht kürzen.",
+          "Einzig 'Schön, schön' ist eine kleine Verdopplung von 'Schön'. Sie charakterisiert aber Frau Wendt und darf bleiben."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "»Ja«, sagte Mattis, und sie wussten beide, dass sie sie nicht wiederkriegen würde.",
+          "Sie stellte das Ruder an, spürte, wie der Strom die Fähre nahm und gegen das Seil drückte",
+          "Sie sah zu, wie der Name blinkte.",
+          "Sie hörte ihn, bevor sie ihn sah"
+        ],
+        "suggestions": [
+          "'spürte, wie der Strom die Fähre nahm' direkter formulieren: 'Sie stellte das Ruder an. Der Strom nahm die Fähre und drückte sie gegen das Seil.'",
+          "'und sie wussten beide, dass sie sie nicht wiederkriegen würde' erklärt, was der Leser bereits ahnt. Auch der Wechsel ins 'beide' verlässt Ilses Perspektive. Streichen oder ersetzen durch eine Geste, etwa: 'Sie legte die übrigen Lampen in die Schachtel zurück. Es waren noch vier.'",
+          "'Sie sah zu, wie der Name blinkte' ist vertretbar, da das Zusehen selbst die Handlung ist (sie geht nicht ran). Alternativ: 'Der Name blinkte.'",
+          "'Sie hörte ihn, bevor sie ihn sah' ist gut gelöst, weil die Geräusche direkt folgen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "wie sie immer zog / wie sie es jeden Morgen prüfte / wie es jeden Morgen dauerte",
+          "als könnte die Fähre plötzlich woanders liegen / als hätte sie eine lange Antwort bekommen / als wäre er in einem Museum / Er lachte, als hätte sie einen Witz gemacht",
+          "Sie prüfte das Seil, wie sie es jeden Morgen prüfte",
+          "sah ihn an / sah sich um / sah das Seil an / sah zu Mattis / sah ihm nach / sah auf das kleine grüne Display / sah zu, wie"
+        ],
+        "suggestions": [
+          "Das Routine-Motiv 'wie … jeden Morgen' erscheint dreimal. Zweimal genügt, damit es nicht zur Masche wird. Streichkandidat ist 'wie sie immer zog' im ersten Absatz.",
+          "Vier 'als hätte/als wäre/als könnte'-Vergleiche auf engem Raum bilden ein auffälliges Muster. Mindestens einen ersetzen, z. B. 'Er kam aufs Deck und sah sich um wie in einem Museum' oder den Museumsvergleich ganz durch die folgende Aufzählung wirken lassen.",
+          "'sehen' kommt sehr häufig vor. Einige Stellen variieren oder streichen, etwa 'Er sah das Seil an, die Umlenkrollen …' zu 'Sein Blick ging über das Seil, die Umlenkrollen …'.",
+          "Bewusste Wiederholungen wie 'aus dem Nebel kam und im Nebel verschwand' oder 'Der Fahrplan sagte … aber der Fahrplan' sind rhythmisch gewollt und sollten bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.151308
+}

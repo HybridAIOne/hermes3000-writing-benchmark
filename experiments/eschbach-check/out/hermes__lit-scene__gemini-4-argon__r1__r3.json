@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gemini-4-argon__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel fasste erst beim dritten Versuch."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er direkt in die Handlung führt und sofort Atmosphäre erzeugt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["feuchten Herbststille", "unnatürlich laut", "zähen Schmatzen"],
+        "suggestions": [
+          "Die Adjektive sind stimmungsvoll und nicht überladen. Achte darauf, dass sie nicht zu sehr 'erklären', sondern 'zeigen' (was hier gut gelingt)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher keine Redeeinleitungen nötig."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["um einige Grad kälter"],
+        "suggestions": [
+          "'Einige' ist ein vages Füllwort. Besser: 'um drei Grad kälter' oder einfach 'deutlich kälter'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als das Wasser schließlich klar wurde"],
+        "suggestions": [
+          "Die zeitlichen Abläufe sind klar strukturiert und kommen ohne übermäßige 'während'-Konstruktionen aus."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["vergessen worden waren", "getragen worden war"],
+        "suggestions": [
+          "Hier liegt eine Häufung von Passiv vor. Aktiver formulieren: '...die irgendwo im Keller verrotteten' und 'seit man den Sarg durch diesen schmalen Gang getragen hatte'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Satzlängen sind abwechslungsreich und unterstützen den Rhythmus der Szene gut."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist sehr direkt und sinnlich geschrieben. Es gibt keine 'Filter' wie 'sie sah, dass' oder 'sie dachte, dass'."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["erst beim dritten Versuch", "als müsste sie sich erst von dem..."],
+        "suggestions": [
+          "Das Wort 'erst' wird im ersten Absatz zweimal in kurzem Abstand verwendet. Ein 'erst' streichen oder durch ein anderes Wort ersetzen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

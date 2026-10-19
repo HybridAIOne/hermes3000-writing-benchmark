@@ -1,0 +1,143 @@
+{
+  "who": "sol",
+  "item": "lit-continue__gemini-4-argon__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Die Strömung reicht“, sagte Ilse.",
+          "„Hallo, Mama“, sagte er und trat einen Schritt vor."
+        ],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Ilses Arbeit und Jonas’ Ankunft etablieren Schauplatz und Beziehung ohne vorgeschaltete Erklärung.",
+          "Allenfalls Jonas’ Mantel- und Gesichtsbeschreibung etwas kürzen, damit sein Gruß früher kommt. Ein späterer Szenenbeginn würde dagegen die wichtige Einführung von Ilses Arbeitswelt schwächen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Er trug einen dunkelblauen Wollmantel, viel zu dünn für den Ostwind, der seit dem Morgen flach über den Deich strich.",
+          "Die kleinen Hartplastikrollen seines Koffers ratterten laut über das verwitterte Eichenholz.",
+          "Sie hielt ihm die Wange hin, roch kurz sein fremdes, herbes Rasierwasser und trat wieder zurück, bevor er den Arm ganz um ihre Schultern legen konnte."
+        ],
+        "suggestions": [
+          "„Laut“ streichen, weil „ratterten“ das Geräusch bereits vermittelt; auch „kleinen“ ist bei Kofferrollen verzichtbar.",
+          "Farbangaben wie „dunkelblauen“ darauf prüfen, ob sie neben den zahlreichen anderen visuellen Details noch etwas beitragen.",
+          "Bedeutungstragende Attribute erhalten: „fremdes“ Rasierwasser vermittelt Ilses Distanz zum Sohn und ist mehr als bloße Ausschmückung."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Hallo, Mama“, sagte er und trat einen Schritt vor.",
+          "„Kurt will noch rüber“, sagte Ilse und nickte Richtung Ostufer.",
+          "„Du fährst noch allein in der Dämmerung?“, fragte Jonas."
+        ],
+        "suggestions": [
+          "Einzelne Kennzeichnungen durch die bereits vorhandenen Handlungen ersetzen: „Hallo, Mama.“ Er trat einen Schritt vor.",
+          "Auch möglich: „Kurt will noch rüber.“ Ilse nickte Richtung Ostufer.",
+          "Nicht sämtliche Kennzeichnungen entfernen: Am Szenenanfang und nach längeren Erzählpassagen erleichtern sie die Orientierung."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ein paar Möwen strichen schreiend über das Flachufer auf der anderen Seite, ließen sich in den grauen Buhnen nieder.",
+          "Jonas folgte ihr nicht sofort. Er stand noch immer auf der Rampe, genau dort, wo das rostbraune Eisen der Fähre auf die Bohlen des Anlegers traf.",
+          "„Wo ist denn der Junge aus dem Dorf? Dieser Marek?“"
+        ],
+        "suggestions": [
+          "„Genau dort“ zu „dort“ kürzen, sofern die nachdrückliche Verortung nicht beabsichtigt ist.",
+          "„Ein paar“ kann entfallen: „Möwen strichen schreiend über das Flachufer.“ Eine genaue Anzahl wäre hier allerdings nicht automatisch besser.",
+          "Dialogpartikeln wie „denn“ nicht pauschal streichen: Sie tragen zum natürlichen Ton und zu Jonas’ prüfender Haltung bei."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie sah durch die beschlagene Scheibe des Führerstands auf ihren Sohn, der auf sein Handydisplay starrte, während der Wind ihm die ordentlich gescheitelten Haare zerzauste.",
+          "„Der Schlüssel liegt unter dem alten Schöpfkelle-Topf“, sagte Ilse und löste die Bremse der Winde."
+        ],
+        "suggestions": [
+          "Keine systematische Überarbeitung nötig: Gleichzeitigkeit wird sparsam und plausibel eingesetzt.",
+          "Den Satz mit Handydisplay und Wind bei Bedarf entlasten: „Ihr Sohn starrte auf sein Handydisplay. Der Wind zerzauste ihm den ordentlichen Scheitel.“ Dabei geht allerdings etwas vom zusammenhängenden Beobachtungsmoment verloren."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ilse bückte sich nach dem schweren Eisenkeil und schob ihn unter die Auffahrtsklappe.",
+          "Sie würde heute noch die Spätschicht dranhängen."
+        ],
+        "suggestions": [
+          "Die aktive Darstellung beibehalten; vermeidbare Passivkonstruktionen sind nicht erkennbar.",
+          "„Sie würde heute noch die Spätschicht dranhängen“ nicht als Passiv behandeln: Die Formulierung bezeichnet hier eine aus der Vergangenheit betrachtete zukünftige Handlung."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie hielt ihm die Wange hin, roch kurz sein fremdes, herbes Rasierwasser und trat wieder zurück, bevor er den Arm ganz um ihre Schultern legen konnte.",
+          "Sie sah durch die beschlagene Scheibe des Führerstands auf ihren Sohn, der auf sein Handydisplay starrte, während der Wind ihm die ordentlich gescheitelten Haare zerzauste."
+        ],
+        "suggestions": [
+          "Vor allem den zweiten Satz prüfen: Wahrnehmungsrahmen, Relativsatz und während-Satz bündeln mehrere Ebenen.",
+          "Mögliche Teilung: „Durch die beschlagene Scheibe des Führerstands sah sie ihren Sohn. Er starrte auf sein Handydisplay; der Wind zerzauste ihm die ordentlich gescheitelten Haare.“",
+          "Die erste Satzfolge muss nicht geteilt werden: Ihr fließender Rhythmus macht die abgebrochene Begrüßung körperlich nachvollziehbar."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Berufsschule. Blockunterricht in Lüneburg.“",
+          "„Ich war in Hamburg bei einem Mandanten. Der Termin war früher zu Ende.“",
+          "„Mach dir schon mal den Ofen an. Es dauert noch.“"
+        ],
+        "suggestions": [
+          "Die knappen Dialoge beibehalten: Sie transportieren Informationen und Beziehungsspannung, ohne zu Erklärmonologen zu werden.",
+          "Ilses kurze Antworten nicht weiter kürzen; ihre Wortkargheit wirkt bereits gezielt charakterisierend."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Jonas sah auf die Gierseile, die sich straff und schräg in das trübe Wasser schnitten, dann auf ihre Hände.",
+          "Sie sah durch die beschlagene Scheibe des Führerstands auf ihren Sohn, der auf sein Handydisplay starrte, während der Wind ihm die ordentlich gescheitelten Haare zerzauste.",
+          "Dann sah sie hinüber zum anderen Ufer, wo Kurts Traktor jetzt mit laufendem Motor wartete."
+        ],
+        "suggestions": [
+          "Im Schlussabschnitt einen Wahrnehmungsfilter entfernen: „Am anderen Ufer wartete Kurts Traktor mit laufendem Motor.“",
+          "Jonas’ Blick auf Seile und Hände eher erhalten: Hier ist die Blickbewegung selbst eine charakterisierende Handlung.",
+          "Ilses direkte Gedanken „Im Krug. Nicht in seinem alten Zimmer unterm Dach.“ als gelungene unmittelbare Innenperspektive beibehalten."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas folgte ihr nicht sofort. Er stand noch immer auf der Rampe, genau dort, wo das rostbraune Eisen der Fähre auf die Bohlen des Anlegers traf.",
+          "Sie würde heute noch die Spätschicht dranhängen. Wenigstens noch eine Stunde, bis das letzte Licht ganz aus dem Fluss gewichen war.",
+          "Er schob die freie Hand in die Manteltasche und zog die Schultern hoch."
+        ],
+        "suggestions": [
+          "„Jonas folgte ihr nicht sofort“ könnte entfallen, weil sein anschließendes Stehenbleiben dieselbe Information anschaulich vermittelt.",
+          "Die mehrfachen Wind- und Kältesignale auf ihre jeweilige Funktion prüfen. Nicht jede erneute Erwähnung ist nötig, doch der Wind verbindet Schauplatz und körperliches Unbehagen.",
+          "Spätschicht, zusätzliche Stunde und schwindendes Licht eher erhalten: Die Angaben konkretisieren Ilses Ausweichen und sind keine bloße dreifache Wiederholung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.024214
+}

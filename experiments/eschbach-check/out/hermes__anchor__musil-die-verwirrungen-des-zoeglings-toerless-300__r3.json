@@ -1,0 +1,95 @@
+{
+  "who": "hermes",
+  "item": "anchor__musil-die-verwirrungen-des-zoeglings-toerless-300",
+  "run": 3,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Eine kleine Station an der Strecke, welche nach Rußland führt."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch, könnte aber durch eine konkrete Handlung (z.B. den Bahnhofsvorstand bei der Arbeit) noch unmittelbarer gestaltet werden."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "schmutziger Schatten",
+          "niederen, ölgestrichenen Stationsgebäude",
+          "traurige, von Weinen ein wenig gerötete Augen"
+        ],
+        "suggestions": [
+          "Viele Adjektive sind schmückendes Beiwerk. Prüfen, ob die Substantive (z.B. 'Schatten', 'Gebäude') für sich allein oder mit stärkeren Verben auskommen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": []
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vielleicht vierzig Jahren", "etwas lauten Unterhaltung"],
+        "suggestions": ["Die Füllwörter sind sparsam eingesetzt und stören den Lesefluss kaum."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["als seien sie aus der Szene eines Puppentheaters genommen"],
+        "suggestions": [
+          "Die Gleichzeitigkeit ist gut gelöst, die Sätze sind jedoch sehr komplex verschachtelt."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "aus der Szene eines Puppentheaters genommen",
+          "von Staub und Ruß erdrosselten Blättern"
+        ],
+        "suggestions": [
+          "Formulierungen wie 'genommen' (Passiv-Konstruktion) könnten durch aktive Verben ersetzt werden, um mehr Dynamik zu erzeugen."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Von Zeit zu Zeit, in gleichen Intervallen, trat der Bahnhofsvorstand aus seinem Amtszimmer heraus, sah mit der gleichen Wendung des Kopfes die weite Strecke hinauf [...] und verschwand wieder; so wie die Figuren kommen und gehen..."
+        ],
+        "suggestions": [
+          "Der Satz über den Bahnhofsvorstand ist zu lang und überladen. Hier sollten zwei oder drei kürzere Sätze gebildet werden, um die Handlung zu gliedern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": []
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["schien schon auf wenige Schritte zu verstummen"],
+        "suggestions": ["Die Wahrnehmung ist weitgehend direkt und beobachtend gestaltet."]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "traurige Farben... traurige, vom Weinen ein wenig gerötete Augen",
+          "mit der gleichen Wendung... mit ein und derselben Bewegung"
+        ],
+        "suggestions": [
+          "Wortwiederholungen wie 'traurig' in kurzem Abstand vermeiden. Die Beschreibung des Bahnhofsvorstands wirkt durch die doppelte Erwähnung der gleichen Bewegung etwas redundant."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

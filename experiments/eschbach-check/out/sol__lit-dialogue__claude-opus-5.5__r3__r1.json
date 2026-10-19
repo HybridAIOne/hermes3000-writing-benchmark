@@ -1,0 +1,129 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__claude-opus-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ein Café am Marktplatz. Martin sitzt bereits.“",
+          "„Du hast den Tisch am Fenster genommen.“"
+        ],
+        "suggestions": [
+          "Den Einstieg weitgehend beibehalten: Die knappe Eröffnung etabliert das ungleiche Ankommen und bereitet den Fensterdialog vor.",
+          "Allenfalls „am Marktplatz“ streichen, falls der Ort im weiteren Stück keine Bedeutung erhält. Ein späterer Einstieg würde bereits charakterisierende Details kosten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Jörg bleibt kurz in der Tür stehen“",
+          "„schiebt die Dose langsam in die Mitte“",
+          "„Martin nickt langsam. Er sieht lange auf seine Tasse.“"
+        ],
+        "suggestions": [
+          "Die Häufung von Zeit- und Tempoangaben gegen Ende prüfen: „Lange Stille“, „langsam“ und „lange“ geben einen ähnlichen Spielrhythmus vor.",
+          "Versuchsweise straffen: „Martin nickt. Sein Blick bleibt auf der Tasse.“",
+          "Nicht pauschal streichen: In einem dramatischen Text können solche Angaben notwendige Spielanweisungen sein."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„JÖRG:“ und „MARTIN:“ als eindeutige Sprecherkennzeichnungen",
+          "„MARTIN: (rührt im Kaffee) Nicht wörtlich.“"
+        ],
+        "suggestions": [
+          "Die Sprecherkennzeichnungen beibehalten; sie erfüllen im dramatischen Format eine notwendige Orientierungsfunktion.",
+          "Weiterhin auf zusätzliche Redeeinleitungen verzichten. Die eingeschobenen Handlungen liefern bereits Subtext statt bloßer Sprecherzuordnung."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Setz dich doch.“",
+          "„Du warst ja zuerst da.“",
+          "„Ich wollte nur sichergehen, dass sie angekommen sind.“"
+        ],
+        "suggestions": [
+          "„doch“, „ja“ und „nur“ überwiegend erhalten: Sie markieren hier Beschwichtigung, Vorwurf und die Verkleinerung eines emotionalen Anliegens.",
+          "Bei einer weiteren Straffung jedes dieser Wörter laut mit und ohne Partikel lesen; nur streichen, wenn sich Tonfall und Beziehungsaussage nicht verändern."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Beide greifen gleichzeitig nach dem Zucker. Beide ziehen die Hand zurück.“",
+          "„Er zögert. Dann zieht er die Jacke aus und hängt sie über die Stuhllehne.“"
+        ],
+        "suggestions": [
+          "„gleichzeitig“ beibehalten: Das synchrone Zugreifen ist ein bedeutungstragender szenischer Moment, keine unnötige Verknüpfung.",
+          "Die ansonsten klare Abfolge der Handlungen bewahren."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Die Bedienung bringt zwei Kaffee.“", "„Das alte war verwittert.“"],
+        "suggestions": [
+          "Keine Überarbeitung nötig: Die Handlungen sind aktiv formuliert.",
+          "„war verwittert“ nicht als vermeidbares Passiv behandeln; die Formulierung beschreibt den Zustand des Schildes."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Jörg bleibt kurz in der Tür stehen, dann kommt er herüber.“",
+          "„Gut. Ich wollte nur sichergehen, dass sie angekommen sind.“"
+        ],
+        "suggestions": [
+          "Keine weitere Satzteilung nötig. Auch der Satz mit Nebensatz ist kurz und unmittelbar verständlich.",
+          "Die knappen Sätze als Ausdruck der vorsichtigen, stockenden Annäherung erhalten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Allein?“ – „Man gewöhnt sich dran.“", "„Worauf?“ – „Ob es regnet.“"],
+        "suggestions": [
+          "Die kurzen Redewechsel beibehalten; keine Figur erklärt den gemeinsamen Hintergrund in einem unnatürlichen Monolog.",
+          "Nicht allein wegen des hohen Dialoganteils kürzen: Entscheidend ist, dass die einzelnen Gesprächsschritte Spannung und Beziehung entwickeln."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ich hab das Schild gesehen. Neu gemacht.“",
+          "„Er sieht lange auf seine Tasse.“"
+        ],
+        "suggestions": [
+          "Keine Wahrnehmungsfilter zu entfernen: Der Hinweis auf das Schild ist eine Figurenäußerung und zugleich ein verdeckter Gesprächsvorstoß.",
+          "Blickhandlungen in den Regieanweisungen erhalten, soweit sie das Spiel steuern; sie sind nicht mit erzählerischen Filtern wie „er sah, dass“ gleichzusetzen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ich weiß.“ / „Ich weiß, Martin.“",
+          "„Das hat mir keiner gesagt.“ / „Nein. Hat dir keiner gesagt.“",
+          "„Es regnet nicht.“ / „Noch nicht.“"
+        ],
+        "suggestions": [
+          "Die Wiederholungen überwiegend beibehalten: Sie verändern jeweils den emotionalen Druck, statt lediglich Informationen zu verdoppeln.",
+          "Bei der Inszenierung prüfen, ob die wiederholten Pausen und verlangsamten Gesten unterschiedliche Spannungsstufen erzeugen. Falls nicht, eher eine Regieanweisung kürzen als die bedeutungstragenden Dialogwiederholungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01789
+}

@@ -1,0 +1,143 @@
+{
+  "who": "opus",
+  "item": "lit-continue__gpt-6-luna__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Er läuft“, sagte Ilse.", "„Das habe ich nicht gefragt.“"],
+        "suggestions": [
+          "Der Einstieg mitten im Gespräch funktioniert. Die Vorgeschichte (Ankunft, Begrüßung) fehlt bewusst und erzeugt Spannung. Hier ist keine Änderung nötig.",
+          "Optional: Die Frage, auf die Jonas mit „Das habe ich nicht gefragt“ reagiert, bleibt offen. Das ist reizvoll. Ein Leser sollte aber spätestens nach wenigen Zeilen erahnen können, worauf sich „Er läuft“ bezieht (Motor/Fähre)."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das Wasser schob sich dunkel unter den Rumpf",
+          "Er war sauber, mit Hartschale, die Rollen voller Schlamm.",
+          "legte sie wieder genau dorthin, wo sie gelegen hatte",
+          "unter einem alten Fahrplan"
+        ],
+        "suggestions": [
+          "Die meisten Adjektive tragen Bedeutung (sauberer Koffer vs. Schlamm an den Rollen). Das ist gut gewählt.",
+          "„Er war sauber“ ist doppeldeutig, weil „Er“ auch auf Jonas bezogen werden kann. Besser: „Hartschale, sauber, nur die Rollen voller Schlamm.“",
+          "„alten“ vor Fahrplan ist entbehrlich, sofern das Alter des Fahrplans keine Rolle spielt.",
+          "„genau“ kann entfallen: „legte sie dorthin zurück, wo sie gelegen hatte“ wirkt bereits präzise."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Du hättest anrufen können“, sagte sie.",
+          "„Hast du gegessen?“, fragte sie.",
+          "„Du kannst in der Stube schlafen“, sagte sie. „Das Bett ist gemacht.“"
+        ],
+        "suggestions": [
+          "Die schnellen Wechsel ohne Inquit funktionieren gut. Einige Kennzeichnungen sind dennoch überflüssig, weil der vorherige Absatz bereits bei Ilse ist.",
+          "„Hast du gegessen?“ folgt direkt auf Ilses Handlung mit dem Fahrtenbuch. Das „fragte sie“ kann gestrichen werden.",
+          "„Du kannst in der Stube schlafen“ folgt auf Ilses Gedanken an die Überfahrt. Die Sprecherin ist klar, „sagte sie“ kann entfallen oder durch eine Handlung ersetzt werden (z. B. „Sie wandte sich vom Fenster ab.“)."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Oder nur älter.",
+          "Er sah nur auf den Schraubenschlüssel",
+          "Die Tür klemmte wie immer",
+          "Früher hatte er immer den Mund verzogen"
+        ],
+        "suggestions": [
+          "„Ein paar Tage“ steht im Dialog und ist dort als bewusste Ausflucht von Jonas stimmig. Das sollte so bleiben.",
+          "Das zweifache „immer“ (Tür, Mundverziehen) und das zweifache „nur“ lassen sich reduzieren: „Er sah auf den Schraubenschlüssel neben der Tasse.“",
+          "„Die Tür klemmte, wenn es feucht war“ reicht. Das „wie immer“ steckt bereits in der Regel."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas folgte ihr, den Koffer hinter sich herziehend.",
+          "Jonas griff nach dem Koffer, als wollte er ihr aus dem Weg gehen, und stieß dabei mit dem Knie gegen den Tisch."
+        ],
+        "suggestions": [
+          "Die Partizipialkonstruktion „hinter sich herziehend“ wirkt steif. Besser nacheinander: „Jonas zog den Koffer hinter sich her und folgte ihr.“",
+          "„dabei“ lässt sich streichen: „…als wollte er ihr aus dem Weg gehen. Sein Knie stieß gegen den Tisch.“ Das macht den Moment schärfer."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Auf dem Tisch lag die Rechnung für das Ersatzteil, unter einem alten Fahrplan beschwert.",
+          "„Das Bett ist gemacht.“"
+        ],
+        "suggestions": [
+          "„unter einem Fahrplan beschwert“ ist grammatisch holprig (man beschwert etwas *mit* etwas). Besser aktiv: „Auf dem Tisch lag die Rechnung für das Ersatzteil, ein alter Fahrplan darüber.“",
+          "„Das Bett ist gemacht“ ist als Zustandspassiv in wörtlicher Rede natürlich und kann bleiben."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Jonas griff nach dem Koffer, als wollte er ihr aus dem Weg gehen, und stieß dabei mit dem Knie gegen den Tisch.",
+          "Früher hatte er immer den Mund verzogen, wenn sie etwas sagte, das er nicht einordnen konnte."
+        ],
+        "suggestions": [
+          "Die Sätze sind überwiegend kurz und klar. Der knappe Rhythmus passt zur wortkargen Figur Ilse.",
+          "Der Satz mit dem Koffer und dem Knie könnte geteilt werden, um den Zusammenstoß als eigenen Moment zu betonen.",
+          "Achten Sie im weiteren Verlauf darauf, dass die durchgehend kurzen Sätze nicht monoton werden. Gelegentliche längere Sätze können Ruhepunkte setzen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Wie lange bleibst du?“ – „Ein paar Tage.“ – „Aha.“",
+          "„Im Zug.“ – „Das ist keine Antwort.“ – „Dann nein.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, subtextreich und durch Handlungen unterbrochen. Hier ist keine Straffung nötig.",
+          "Die Abwechslung von Dialog und Handlung (Leine, Fahrtenbuch, Kessel) sollte so beibehalten werden."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse wartete, dass er ihn beiseiteschob.",
+          "Jetzt sah er müde aus. Oder nur älter.",
+          "Jonas las sie nicht. Er sah nur auf den Schraubenschlüssel neben der Tasse."
+        ],
+        "suggestions": [
+          "„Sie würde noch einmal übersetzen müssen“ ist gelungene erlebte Rede ohne „sie dachte, dass“.",
+          "„Jetzt sah er müde aus“ lässt sich direkter zeigen: „Jetzt hingen ihm die Lider schwer. Oder er war nur älter geworden.“",
+          "„Er sah nur auf den Schraubenschlüssel“ kann direkter werden: „Sein Blick blieb am Schraubenschlüssel neben der Tasse hängen.“ Prüfen Sie dabei die Perspektive: Die Szene ist sonst nah bei Ilse."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Er lächelte, aber das Lächeln blieb ihm nicht lange.",
+          "Jonas sah zur Fähre hinüber / Jetzt sah er müde aus / Er sah nur auf den Schraubenschlüssel",
+          "legte sie wieder genau dorthin, wo sie gelegen hatte"
+        ],
+        "suggestions": [
+          "„lächelte … das Lächeln“ ist eine Wortdopplung. Besser: „Er lächelte. Es hielt nicht lange.“",
+          "Das Verb „sehen“ erscheint dreimal. Variieren Sie: „Jonas blickte zur Fähre“, „Sein Blick fiel auf den Schraubenschlüssel“.",
+          "Die Dopplung „legte … gelegen“ lässt sich auflösen: „und legte sie an ihren Platz zurück.“",
+          "Das Motiv „im Weg stehen / aus dem Weg gehen“ wirkt als bewusste Klammer und sollte erhalten bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.10534
+}

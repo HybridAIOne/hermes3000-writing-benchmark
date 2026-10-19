@@ -1,0 +1,137 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__claude-opus-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur noch glaubte.",
+          "Sie ging in das kleine Steuerhaus, drehte den Heizlüfter an und schenkte sich Kaffee aus der Thermoskanne ein. [...] Dann wartete sie."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch extrem stark und etabliert sofort Ort, Stimmung und Routine der Protagonistin.",
+          "Wenn man es nach Eschbach streng handlungsorientiert straffen wollte, könnte die Szene auch erst mit dem Eintreffen des ersten Kunden beginnen ('Um sechs Uhr vierzig tauchten zwei blasse Flecken im Nebel auf...'), aber bei diesem ruhigen, charaktergetriebenen Text ist das anfängliche Warten dramaturgisch gerechtfertigt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "...ein dünnes, kratziges Geräusch.",
+          "Er lächelte unsicher...",
+          "...einem Mantel, der für den Deich zu hell war..."
+        ],
+        "suggestions": [
+          "Die Adjektive sind sehr präzise und wohlüberlegt gesetzt, es gibt keine überflüssigen Ausschmückungen.",
+          "Minimaler Optimierungsvorschlag: Statt 'Er lächelte unsicher' könnte man die Unsicherheit durch Handlung zeigen (Show, don't tell), z.B. 'Er verzog kurz die Mundwinkel und nestelte an seinem Portemonnaie.'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Moin, Ilse.“ / „Moin.“ / „Siehst ja gar nichts heute.“ / „Muss ich auch nicht.“",
+          "„Die in Dannenberg sagen, das Amt will wieder prüfen“, sagte er."
+        ],
+        "suggestions": [
+          "Exzellente Umsetzung. In fast allen Dialogen wird auf 'sagte er/sie' verzichtet, weil durch den Kontext und vorhergehende Handlungen völlig klar ist, wer spricht.",
+          "Dort, wo ein 'sagte er/sie' steht, dient es perfekt dem Sprachrhythmus, um eine kurze Pause zu erzeugen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "...in der sie offenbar überlegte, ob noch etwas zu sagen war...",
+          "...wo von irgendwoher, noch unsichtbar, ein Motor zu hören war."
+        ],
+        "suggestions": [
+          "Der Text ist fast komplett frei von typischen Füllwörtern. In den Dialogen ('ja', 'gar', 'eigentlich') sind sie als natürliche gesprochene Sprache absolut legitim.",
+          "Im Erzähltext könnte 'offenbar' gestrichen oder in eine direkte Beobachtung umgewandelt werden (Ilse kann nicht in den Kopf des Mädchens schauen).",
+          "'Irgendwoher' am Ende ist etwas vage, passt aber zur Nebel-Thematik. Eventuell ersetzen durch: 'aus dem Grau'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Während der Überfahrt hielt er sich mit beiden Händen am Geländer fest...",
+          "Ihre Knie meldeten sich, als sie aufstand."
+        ],
+        "suggestions": [
+          "Handlungen werden fast durchgängig sauber nacheinander beschrieben. Es gibt keine unlogischen Gleichzeitigkeiten (wie 'Während er die Tür aufschloss, ging er hinein').",
+          "Die wenigen temporären Konjunktionen ('als', 'während') werden völlig korrekt für echte Zeiträume genutzt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...und das Schleifen war deutlich zu hören, ein dünnes, kratziges Geräusch.",
+          "...wo nichts zu sehen war außer einem Stück Treibholz...",
+          "...wo von irgendwoher, noch unsichtbar, ein Motor zu hören war."
+        ],
+        "suggestions": [
+          "Es gibt kein klassisches 'wurde'-Passiv, aber einige Zustandspassive bzw. 'sein + zu + Infinitiv'-Konstruktionen, die die Verben schwächen.",
+          "Besser aktiv formulieren: Statt 'das Schleifen war deutlich zu hören' -> 'die Bremse schliff mit einem dünnen, kratzigen Geräusch'.",
+          "Statt 'wo ein Motor zu hören war' -> 'wo im Nebel ein Motor tuckerte/brummte'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Darunter das kleine Bild, das er selbst eingestellt hatte, als er im Sommer hier gewesen war, er mit Sonnenbrille vor einem Himmel, der nicht nach Elbe aussah.",
+          "Draußen hatte der Nebel angefangen, sich zu bewegen, nicht aufzulösen, nur zu wandern, in langsamen Fahnen, die über das Wasser zogen und das Seil mal zeigten und mal verschluckten."
+        ],
+        "suggestions": [
+          "Der Satzbau ist hervorragend rhythmisiert. Kurze, lakonische Sätze wechseln sich mit etwas längeren, fließenden Sätzen ab, die das Tempo des Flusses widerspiegeln.",
+          "Der Satz über das Anruferbild von Jonas hat viele Nebensätze. Man könnte ihn für noch mehr Prägnanz teilen: 'Darunter das kleine Bild, das er im Sommer selbst eingestellt hatte. Er mit Sonnenbrille vor einem Himmel, der nicht nach Elbe aussah.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Mach ich nachher.“ / „Machst du nicht.“",
+          "Einmal fragte er, wie tief die Elbe hier sei. Sie sagte es ihm. Er fragte, ob sie das jeden Tag mache. Sie sagte ja."
+        ],
+        "suggestions": [
+          "Perfekt gelöst. Die norddeutsche Wortkargheit wird ideal transportiert, kein Dialogwort ist zu viel.",
+          "Ein besonderes Lob für den Kunstgriff beim dritten Fahrgast: Durch die indirekte Rede wird ein belangloses Smalltalk-Gespräch extrem geschickt gerafft, ohne den Leser zu langweilen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie hörte ihn, bevor sie ihn sah, das Brummen des Diesels...",
+          "...und hörte zu, wie die Elbe am Ponton entlangschob...",
+          "Ilse hielt es in der Hand und sah zu, wie sein Name aufleuchtete..."
+        ],
+        "suggestions": [
+          "Meistens ist der Text sehr nah und unmittelbar an Ilse dran. An wenigen Stellen schiebt sich ein Wahrnehmungsverb ('sah', 'hörte') zwischen Leser und Geschehen.",
+          "Statt 'Sie hörte ihn, bevor sie ihn sah, das Brummen...' könnte man noch unmittelbarer schreiben: 'Erst war da nur das Brummen des Diesels auf dem Deich, dann schälten sich zwei blasse Flecken aus dem Grau.'",
+          "Beim Telefon am Ende ist das 'sah zu, wie' allerdings ein gutes Stilmittel, um ihre Passivität und emotionale Distanz zu unterstreichen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Er fuhr auf die Rampe, so wie er seit Jahren auf die Rampe fuhr...",
+          "Sie dachte an die Bremse von dem Mädchen und daran, dass Kahle immer zu weit links fuhr."
+        ],
+        "suggestions": [
+          "Es gibt keinerlei ungeschickte Wortwiederholungen oder redundante Erklärungen.",
+          "Alle Wiederholungen im Text (wie die im ersten Beispiel oder der Rückbezug auf Kahle und das Mädchen am Ende) sind bewusste rhetorische Stilmittel, die die Monotonie des Fährbetriebs und Ilses Verdrängungsmechanismus beim Anruf exzellent verdeutlichen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.024666
+}

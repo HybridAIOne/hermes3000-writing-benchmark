@@ -1,0 +1,130 @@
+{
+  "who": "gemini",
+  "item": "anchor__kafka-das-urteil-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Es war an einem Sonntagvormittag im schönsten Frühjahr.",
+          "Georg Bendemann, ein junger Kaufmann, saß in seinem Privatzimmer im ersten Stock eines der niedrigen, leichtgebauten Häuser..."
+        ],
+        "suggestions": [
+          "Nach Eschbach sollte man direkt in die Handlung einsteigen und auf allgemeine Wetter- oder Ortsbeschreibungen am Anfang verzichten.",
+          "Besser direkt mit der relevanten Handlung beginnen: 'Georg Bendemann verschloss den Brief an seinen Jugendfreund...'"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "im schönsten Frühjahr",
+          "in spielerischer Langsamkeit",
+          "fremdartige Vollbart verdeckte nur schlecht das seit den Kinderjahren wohlbekannte Gesicht",
+          "erklärte dies sehr notdürftig"
+        ],
+        "suggestions": [
+          "Adjektive wie 'schönsten' oder 'wohlbekannte' sind wertend oder redundant und können gestrichen werden.",
+          "Statt 'verschloß ihn in spielerischer Langsamkeit' ein präziseres Verb oder eine konkrete Handlung zeigen (Show, don't tell)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["(Keine direkten Dialoge im Textabschnitt vorhanden)"],
+        "suggestions": [
+          "Da der Textausschnitt rein narrativ ist und keine direkte Rede enthält, gibt es hier keine störenden Redebegleitsätze."
+        ]
+      },
+      "fillerWords": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "sich förmlich geflüchtet hatte",
+          "Sollte man ihm vielleicht raten",
+          "vor etwa zwei Jahren",
+          "hatte der Freund wohl noch erfahren",
+          "was sogar sehr wahrscheinlich war",
+          "wirklich einen merkwürdigen Anschein"
+        ],
+        "suggestions": [
+          "Der Text wimmelt von relativierenden Füllwörtern ('vielleicht', 'wohl', 'etwa', 'eigentlichen', 'förmlich'). Auch wenn dies hier die Unsicherheit des Protagonisten spiegelt, schwächt es nach Eschbach die Erzählkraft massiv.",
+          "Füllwörter konsequent streichen, um die Aussagen klarer und direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das bedeutete aber nichts anderes, als daß man ihm gleichzeitig, je schonender, desto kränkender, sagte...",
+          "...während hunderttausende Russen ruhig in der Welt herumfuhren."
+        ],
+        "suggestions": [
+          "Gleichzeitigkeit wird hier kaum für physische Handlungen genutzt, sondern im gedanklichen Konstrukt. Dennoch könnte das Wort 'gleichzeitig' im dritten Absatz ersatzlos gestrichen werden."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Folgte er aber wirklich dem Rat und würde hier -- natürlich nicht mit Absicht, aber durch die Tatsachen -- niedergedrückt...",
+          "Von dem Todesfall von Georgs Mutter, der vor etwa zwei Jahren erfolgt war...",
+          "das Personal hatte man verdoppeln müssen"
+        ],
+        "suggestions": [
+          "Nominalstil und Passivkonstruktionen wie 'der Todesfall war erfolgt' vermeiden. Besser aktiv: 'Als Georgs Mutter vor zwei Jahren starb...'",
+          "Statt 'das Personal hatte man verdoppeln müssen' besser aktiv: 'Er hatte doppelt so viele Angestellte eingestellt.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Das bedeutete aber nichts anderes, als daß man ihm gleichzeitig, je schonender, desto kränkender, sagte, daß seine bisherigen Versuche mißlungen seien, daß er endlich von ihnen ablassen solle, daß er zurückkehren und sich als ein für immer Zurückgekehrter von allen mit großen Augen anstaunen lassen müsse, daß nur seine Freunde etwas verstünden und daß er ein altes Kind sei, das den erfolgreichen, zu Hause gebliebenen Freunden einfach zu folgen habe.",
+          "Vielleicht hatte ihn der Vater bei Lebzeiten der Mutter dadurch, daß er im Geschäft nur seine Ansicht gelten lassen wollte, an einer wirklichen eigenen Tätigkeit gehindert, vielleicht war der Vater seit dem Tode der Mutter, trotzdem er noch immer im Geschäft arbeitete, zurückhaltender geworden, vielleicht spielten -- was sogar sehr wahrscheinlich war -- glückliche Zufälle eine weit wichtigere Rolle, jedenfalls aber hatte sich das Geschäft in diesen zwei Jahren ganz unerwartet entwickelt, das Personal hatte man verdoppeln müssen, der Umsatz hatte sich verfünffacht, ein weiterer Fortschritt stand zweifellos bevor."
+        ],
+        "suggestions": [
+          "Extreme Schachtelsätze mit unzähligen Nebensätzen (oft durch 'daß' oder 'vielleicht' eingeleitet) erschweren den Lesefluss enorm.",
+          "Sätze dringend teilen. Aus einem Satz mit 70+ Wörtern sollten vier bis fünf prägnante Hauptsätze gemacht werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["(Keine Dialoge im Textabschnitt vorhanden)"],
+        "suggestions": [
+          "Keine zu langen Dialogpassagen vorhanden. (Hinweis: Um den langen inneren Monolog aufzubrechen, wäre eine echte Szene mit Dialog allerdings hilfreich)."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Er dachte darüber nach, wie dieser Freund...",
+          "seit langem aber schon zu stocken schien, wie der Freund [...] klagte.",
+          "dessen gelbe Hautfarbe auf eine sich entwickelnde Krankheit hinzudeuten schien."
+        ],
+        "suggestions": [
+          "'Er dachte darüber nach, wie...' ist ein klassischer Filter der indirekten Wahrnehmung, der Distanz schafft. Besser direkt in die erlebte Rede gehen.",
+          "Verben wie 'schien' vermeiden. Entweder das Geschäft stockt, oder nicht. Die Unsicherheit lieber durch konkrete Beobachtungen zeigen."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Wortwiederholung: 'Fremde' / 'fremdartige' / 'entfremdet'",
+          "Inhaltliche Doppelung: Im dritten Absatz wird in vier verschiedenen Variationen durchgespielt, warum der Freund bei einer Rückkehr scheitern und unglücklich sein würde."
+        ],
+        "suggestions": [
+          "Die gedanklichen Schleifen im dritten Absatz straffen. Das Argument, dass eine Rückkehr den Freund beschämen würde, ist nach dem ersten Satz klar und muss nicht mehrfach paraphrasiert werden.",
+          "Auf Wortwiederholungen desselben Wortstamms ('Fremde', 'Freund') auf engem Raum achten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021524
+}

@@ -1,0 +1,129 @@
+{
+  "who": "sol",
+  "item": "lit-scene__claude-opus-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel lag noch dort, wo er vor zwanzig Jahren gelegen hatte",
+          "Hanna wog ihn in der Hand."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Der Schlüssel verbindet unmittelbar Handlung, Vergangenheit und Rückkehr. Ein späterer Beginn an der Haustür würde diese Wirkung abschwächen.",
+          "Allenfalls die Beschreibung des Blumentopfs kürzen, falls der Einstieg noch unmittelbarer wirken soll."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Aber er drehte sich mühelos, fast gefällig",
+          "mit diesem metallischen, leicht süßlichen Geruch",
+          "einen einzelnen Bügel aus Draht"
+        ],
+        "suggestions": [
+          "Die meisten Attribute bewahren: Sie erzeugen konkrete Sinneseindrücke und tragen zur Atmosphäre bei.",
+          "Bei „mühelos, fast gefällig“ prüfen, ob die Personifizierung allein genügt: „Aber er drehte sich fast gefällig.“ Die bestehende Steigerung ist allerdings ebenfalls wirkungsvoll.",
+          "„Einen einzelnen Bügel“ lässt sich zu „einen Drahtbügel“ verdichten; dabei geht die Betonung der Verlassenheit etwas zurück."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung nötig: Der Text enthält keine Dialoge und entsprechend keine entbehrlichen Redeeinleitungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "irgendwann im Herbst vielleicht",
+          "Die Nachbarin, vermutlich. Oder die Gemeinde.",
+          "mit diesem metallischen, leicht süßlichen Geruch"
+        ],
+        "suggestions": [
+          "„Irgendwann im Herbst vielleicht“ versuchsweise zu „vielleicht im Herbst“ kürzen.",
+          "„Vermutlich“ und „vielleicht“ nicht pauschal streichen: Hier vermitteln sie Hannas fehlendes Wissen und ihre Distanz zum Haus.",
+          "„Diesem“ kann entfallen, wenn der Satz sachlicher werden soll; es unterstützt jedoch den Charakter einer wiedererkannten Geruchserinnerung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "und als sie die Hand zurückzog, glänzte an ihrem Zeigefinger ein dunkler Film",
+          "der leise gegen die Wand schlug, als der Luftzug ihn erreichte"
+        ],
+        "suggestions": [
+          "Kein systematischer Änderungsbedarf: Die zeitlichen Verknüpfungen sind sparsam und nachvollziehbar.",
+          "Den Ölfund bei Bedarf stärker akzentuieren: „Sie zog die Hand zurück. An ihrem Zeigefinger glänzte ein dunkler Film.“",
+          "Die Konstruktion beim Bügel kann bleiben, weil sie Ursache und unmittelbare Reaktion anschaulich verbindet."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["aus einer Zeit, über die in diesem Haus nicht gesprochen worden war"],
+        "suggestions": [
+          "Als aktivere, kürzere Variante prüfen: „aus einer Zeit, über die in diesem Haus niemand gesprochen hatte“.",
+          "Das Passiv ist hier nicht grundsätzlich schwach: Es betont das familiäre Schweigen, ohne einzelne Verantwortliche zu benennen. Je nach beabsichtigter Wirkung beibehalten."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel lag noch dort, wo er vor zwanzig Jahren gelegen hatte, unter dem dritten Blumentopf links, in dem längst nichts mehr wuchs außer einer Kruste aus Moos und Vogelkot.",
+          "Sie steckte den Schlüssel ins Schloss und erwartete Widerstand, das Knirschen von Rost, das sie zwingen würde, sich mit der Schulter gegen die Tür zu stemmen."
+        ],
+        "suggestions": [
+          "Den ersten Satz bei Bedarf nach „gelegen hatte“ teilen: „Unter dem dritten Blumentopf links wuchs längst nichts mehr außer einer Kruste aus Moos und Vogelkot.“",
+          "Die erwartete Gegenwehr lässt sich rhythmisch zuspitzen: „Sie steckte den Schlüssel ins Schloss und erwartete Widerstand. Rost würde knirschen. Sie würde sich mit der Schulter gegen die Tür stemmen müssen.“",
+          "Nicht alle längeren Sätze auflösen: Ihr ruhiger Rhythmus kontrastiert wirkungsvoll mit den kurzen Feststellungen und dem knappen Schluss."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung nötig: Es gibt keine Dialogpassagen. Die stille Erkundung trägt die Szene auch ohne Gespräch."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Hanna wusste nicht, wer sich um solche Dinge kümmerte, wenn eine Frau allein starb.",
+          "Alles an seinem Platz, und doch kam es ihr vor, als hätte das Haus sie erwartet, nur nicht als diejenige, die sie geworden war."
+        ],
+        "suggestions": [
+          "Die Wissensformel könnte einer direkten Frage weichen: „Wer kümmerte sich um solche Dinge, wenn eine Frau allein starb?“ Das rückt näher an Hannas Gedanken.",
+          "Die Schlusswahrnehmung lässt sich unmittelbarer formulieren: „Alles an seinem Platz. Das Haus hatte sie erwartet, nur nicht als diejenige, die sie geworden war.“",
+          "Die vorsichtige Formulierung „kam es ihr vor“ beibehalten, wenn die Personifizierung ausdrücklich als subjektiver Eindruck erkennbar bleiben soll."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Jemand hatte sie fortgeschafft. Jemand hatte gefegt.",
+          "Sie rieb ihn zwischen Daumen und Finger.",
+          "Sie wischte den Finger an ihrer Jacke ab. Der Geruch blieb."
+        ],
+        "suggestions": [
+          "Die Wiederholung von „Jemand hatte“ beibehalten: Sie setzt einen Rhythmus und verstärkt die Frage nach der unbekannten Person.",
+          "Das Geruchsmotiv am Ende bewahren: Es wiederholt nicht bloß die Wahrnehmung, sondern zeigt, dass Hanna die Spur nicht loswird.",
+          "Allenfalls „Sie rieb ihn zwischen Daumen und Finger“ zu „Sie verrieb das Öl zwischen den Fingern“ ändern, wenn der Bezug des Pronomens eindeutiger und die Wortwiederholung geringer werden soll."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.019212
+}

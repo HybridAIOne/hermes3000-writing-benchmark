@@ -1,0 +1,147 @@
+{
+  "who": "sol",
+  "item": "lit-continue__gemini-4-argon__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Die Strömung reicht“, sagte Ilse.",
+          "„Hallo, Mama“, sagte er und machte einen halbherzigen Schritt auf sie zu"
+        ],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Arbeitssituation und Beziehungsspannung entstehen ohne Vorgeschichte.",
+          "Allenfalls Jonas’ Mantel- und Schuhbeschreibung kürzen, damit seine Begrüßung früher folgt. Ein deutlich späterer Einstieg würde atmosphärische und soziale Informationen kosten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "den ersten grauen Uferschlamm",
+          "die abblätternde grüne Farbe",
+          "eine trockene, fast stickige Wärme",
+          "auf der schmalen Holzbank"
+        ],
+        "suggestions": [
+          "Beschreibende Zusätze nach ihrer Funktion auswählen: Abblätternde Farbe zeigt Verfall; ihre grüne Farbe trägt weniger dazu bei.",
+          "Verdichtungsmöglichkeit: „An den Sohlen klebte bereits Uferschlamm.“",
+          "Bei der Ofenwärme eine dominante Empfindung wählen, etwa „stickige Wärme“. Atmosphärisch oder sozial aussagekräftige Details wie die glänzenden Lederschuhe behalten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Die Schule ist um eins aus“, sagte Ilse.",
+          "„Fährt überhaupt noch jemand unter der Woche?“, fragte er und schob die Hände tief in die Manteltaschen.",
+          "„Wasser aufsetzen“, sagte Ilse und ging den Deich hinauf zum Haus."
+        ],
+        "suggestions": [
+          "Im etablierten Zweiergespräch kann „sagte Ilse“ nach „Die Schule ist um eins aus“ entfallen.",
+          "Handlungen als Sprecherzuordnung nutzen: „Jonas schob die Hände tief in die Manteltaschen. ‚Fährt überhaupt noch jemand unter der Woche?‘“",
+          "Die erste Redekennzeichnung beibehalten, da sie Ilse einführt. Nicht sämtliche neutralen Kennzeichnungen mechanisch streichen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "fand aber wohl kein Netz",
+          "Eigentlich war ihre Schicht erst in einer Stunde zu Ende",
+          "Die Fähre schwankte kaum merklich unter seinem Gewicht."
+        ],
+        "suggestions": [
+          "„Eigentlich“ lässt sich streichen; der Gegensatz zur vorzeitigen Betriebspause bleibt durch die folgende Handlung verständlich.",
+          "„Kaum merklich“ auf seine Bedeutung prüfen: Falls die minimale Bewegung nichts beiträgt, den Satz kürzen oder streichen.",
+          "„Wohl“ nicht bedenkenlos entfernen: Es markiert, dass Ilse den fehlenden Empfang nur vermutet. Alternativ die Erklärung weglassen und Jonas’ erfolgloses Tippen für sich sprechen lassen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er hob den Koffer am Griff hoch, statt ihn zu ziehen, und folgte ihr auf das flache Deck.",
+          "Sie trat wieder hinaus in die Kälte, ging an Jonas vorbei zur Auffahrt und hängte die eiserne Kette vor.",
+          "als bräuchte er ein Ticket"
+        ],
+        "suggestions": [
+          "Die überwiegend klare Handlungsfolge beibehalten; eine Häufung von Gleichzeitigkeitssignalen liegt nicht vor.",
+          "„Als bräuchte er ein Ticket“ ist ein Vergleich, keine problematische zeitliche Verknüpfung.",
+          "Die Kettenszene nur bei gewünschter stärkerer Gewichtung aufteilen: „Sie ging an Jonas vorbei zur Auffahrt. Dann hängte sie die eiserne Kette vor.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie ging ins Steuerhaus",
+          "Dann drehte sie das Holzschild an der Schranke um.",
+          "Das Haar war dort kürzer geschoren als früher"
+        ],
+        "suggestions": [
+          "Die aktive Darstellung beibehalten; es gibt keine störenden Vorgangspassive.",
+          "„War dort kürzer geschoren“ beschreibt einen Zustand. Eine aktive Umformulierung würde einen hier unwichtigen Handelnden einführen und ist nicht nötig."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie wischte sich die Hände an der Arbeitshose ab, obwohl das Hanfseil nur die gewohnte Feuchtigkeit hinterlassen hatte, diesen Geruch nach Schlick und altem Eisen, der tief in ihren Handlinien saß.",
+          "Jonas trug einen dunkelblauen Wollmantel, der viel zu dünn war für den Novemberwind, der flach über das Deichvorland strich."
+        ],
+        "suggestions": [
+          "Den ersten langen Satz entlasten und Feuchtigkeit sowie Geruch klarer verbinden: „Sie wischte sich die Hände an der Arbeitshose ab. Das Hanfseil hatte nur die gewohnte Feuchtigkeit hinterlassen. In ihren Handlinien saß der Geruch nach Schlick und altem Eisen.“",
+          "Die aufeinanderfolgenden Relativsätze beim Mantel auflösen: „Der Novemberwind strich flach über das Deichvorland. Jonas’ dunkelblauer Wollmantel war dafür viel zu dünn.“",
+          "Nicht alle längeren Sätze teilen: Der ruhige, beobachtende Rhythmus passt zur Szene."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Die Schule ist um eins aus“, sagte Ilse. „Und der Bäckerwagen kommt um zwei.“",
+          "„Der Bäckerwagen nimmt die Brücke in Dömitz. Das hat er schon vor drei Jahren gemacht, weil ihm deine Tonnage-Begrenzung zu heikel war.“",
+          "„Wasser aufsetzen“"
+        ],
+        "suggestions": [
+          "Die kurzen, ausweichenden Antworten Ilses beibehalten: Sie transportieren den Konflikt ohne ausdrückliche Erklärung.",
+          "Jonas’ Bäckerwagen-Replik höchstens leicht verdichten: „Der nimmt seit drei Jahren die Brücke in Dömitz. Wegen deiner Tonnage-Begrenzung.“ Die bestehende Fassung wirkt allerdings weniger zugespitzt und kann bewusst so bleiben."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas stellte den Koffer neben das Steuerhaus und sah sich um. Sein Blick glitt über die abblätternde grüne Farbe an der Reling",
+          "Ilse betrachtete seinen Nacken.",
+          "Er sah müde aus. Unter seinen Augen lagen dunkle Schatten"
+        ],
+        "suggestions": [
+          "Die doppelte Wahrnehmungsankündigung „sah sich um“ und „Sein Blick glitt“ reduzieren; eine davon genügt.",
+          "„Er sah müde aus“ ist keine typische Wahrnehmungsfilterung, nimmt aber die Wirkung der folgenden Augenschatten vorweg. Direkt mit den Schatten einzusetzen wäre stärker.",
+          "Ilses Blick auf seinen Nacken kann bleiben: Hier ist das Betrachten selbst eine Beziehungshandlung, nicht bloß ein entbehrlicher Filter."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Er sah müde aus. Unter seinen Augen lagen dunkle Schatten, die nicht von der frischen Luft kamen.",
+          "Ilse kannte diesen Blick. Es war nicht der Blick des Jungen, der hier im Sommer nach Weißfischen geangelt hatte. Es war der Blick, mit dem er Tabellen prüfte.",
+          "fand aber wohl kein Netz. Im Elbtal gab es selten Empfang, wenn der Nebel so tief hing."
+        ],
+        "suggestions": [
+          "Die Müdigkeit nur einmal vermitteln; die dunklen Augenschatten sind konkreter als die vorangestellte Zusammenfassung.",
+          "Die Erklärung zum Empfang auf ihre Notwendigkeit prüfen. Jonas’ Tippen und anschließendes Wegstecken des Telefons können den Vorgang bereits vermitteln.",
+          "Die Wiederholung von „Blick“ als bewusste Kontrastfigur behandeln. Falls ein knapperer Ton gewünscht ist: „Ilse kannte diesen Blick. So prüfte er Tabellen. Als Junge hatte er hier nach Weißfischen geangelt.“"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02444
+}

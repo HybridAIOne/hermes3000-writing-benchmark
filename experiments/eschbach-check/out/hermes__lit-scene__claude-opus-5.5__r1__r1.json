@@ -1,0 +1,88 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Schlüssel passte noch."],
+        "suggestions": [
+          "Der Einstieg ist exzellent. Er beginnt direkt mit der Handlung und etabliert sofort Spannung und Kontext."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kaltem Stein", "grauer Februarnachmittag"],
+        "suggestions": [
+          "Die Adjektive sind sehr präzise und dienen der Atmosphäre, nicht der Dekoration. Beibehalten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher keine fehlerhaften Kennzeichnungen."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr präzise und frei von unnötigen Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als hätte ihn eben jemand gestreift"],
+        "suggestions": [
+          "Die wenigen Vergleiche mit 'als' sind stilistisch gut eingebunden und stören den Lesefluss nicht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist durchgehend aktiv und lebendig formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Satz über die Orangenschalen ist komplex, aber rhythmisch gut ausbalanciert."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind abwechslungsreich und unterstützen das langsame, melancholische Tempo der Szene."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Im Flur roch es nach kaltem Stein",
+          "Auf der Fensterbank lagen Orangenschalen"
+        ],
+        "suggestions": [
+          "Sehr direkte Wahrnehmung. Der Text vermeidet 'sie sah, dass' oder 'sie dachte, dass' konsequent und zeigt stattdessen direkt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["gegen die Motten, gegen alles"],
+        "suggestions": [
+          "Die Wiederholung ist hier ein bewusstes stilistisches Mittel und sehr effektiv eingesetzt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

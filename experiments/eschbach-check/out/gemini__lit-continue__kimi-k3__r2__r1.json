@@ -1,0 +1,125 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Der Motor läuft\", sagte sie.",
+          "„Er klingt, als würde er gleich auseinanderfallen.\""
+        ],
+        "suggestions": [
+          "Perfekter Einstieg 'in medias res'. Keine langatmige Exposition über die Anreise von Jonas, sondern direkter Start in den unterschwelligen Konflikt und das Setting."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Wasser war hoch für die Jahreszeit, bräunlich und schnell...",
+          "Das Wasser zog unter dem Ponton durch, grau und ungeduldig..."
+        ],
+        "suggestions": [
+          "Die Adjektive sind sehr bewusst, sparsam und atmosphärisch eingesetzt ('ungeduldig' für das Wasser ist ein starkes Bild). Beachte lediglich den kleinen Kontrast zwischen 'bräunlich' (Absatz 3) und 'grau' (Absatz 6) für dasselbe Wasser."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Wie lange bleibst du?\", fragte sie über das Motorengeräusch hinweg.",
+          "„Du hast abgenommen\", sagte sie schließlich.",
+          "„Komm her\", sagte sie und deutete auf den Platz neben sich..."
+        ],
+        "suggestions": [
+          "Die Dialogführung ist exzellent, meist reicht der Kontext völlig aus. Bei 'Komm her, sagte sie' könnte das 'sagte sie' noch zugunsten eines reinen Handlungssatzes gestrichen werden: '„Komm her.“ Sie deutete auf den Platz neben sich...'"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das tat sie manchmal, wenn niemand an Bord war...",
+          "Der Koffer stand immer noch auf den Bohlen..."
+        ],
+        "suggestions": [
+          "Der Text ist fast völlig frei von unnötigen Füllwörtern. Wörter wie 'etwas' oder 'manchmal' erfüllen hier eine klare rhythmische oder inhaltliche Funktion."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Motor stotterte einmal, dann fing er sich, und das Seil zog sie aus dem Ufer in den Strom."
+        ],
+        "suggestions": [
+          "Hervorragend gelöst. Es gibt keine ungeschickten 'während'-Konstruktionen. Alle Handlungen sind sauber nacheinander aufgereiht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie hakte die Leine ab und stieg an Bord zurück...",
+          "Ilse zog den Steuerhebel zu sich..."
+        ],
+        "suggestions": [
+          "Durchgehend starke, aktive Verben. Keine unnötigen Passivkonstruktionen vorhanden."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Nicht weil sie sich gefreut hätte – die Freude war da, aber sie war vorsichtig mit ihr, wie mit einer Flamme bei Wind –, sondern weil es so gehörte.",
+          "Er lachte kurz, und es klang echt, und etwas in ihr lockerte sich, das sie den ganzen Morgen festgehalten hatte, ohne es zu wissen."
+        ],
+        "suggestions": [
+          "Die Satzlängen variieren sehr gut und erzeugen einen angenehmen, ruhigen Lesefluss, der perfekt zur Flussüberfahrt passt. Auch längere Sätze bleiben sofort verständlich."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Bis Sonntag.\" Eine Pause. „Vielleicht länger.\"",
+          "„Du hast kein Zimmer gebucht.\"",
+          "„Ich dachte, ich schlaf bei dir.\""
+        ],
+        "suggestions": [
+          "Meisterhaft verknappte Dialoge. Die norddeutsche Wortkargheit ist greifbar, der Subtext trägt die Szene."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...und sie spürte das leichte Schwanken des Pontons unter seinem Gewicht.",
+          "...das sie aus dem Augenwinkel beobachtete, ohne den Kopf zu drehen."
+        ],
+        "suggestions": [
+          "Nach Eschbach könnten solche Wahrnehmungsfilter ('sie spürte', 'sie beobachtete') noch direkter formuliert werden, um tiefer in Ilses Perspektive einzutauchen. Beispiel: 'Er hob den Koffer an Bord. Der Ponton schwankte leicht unter seinem Gewicht.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie hakte die Leine ab und stieg an Bord zurück... (Absatz 1)",
+          "Ilse löste die Leine und gab Gas. (Absatz 3)",
+          "Das Wasser war hoch für die Jahreszeit, bräunlich und schnell... (Absatz 3)",
+          "Das Wasser zog unter dem Ponton durch, grau und ungeduldig... (Absatz 6)"
+        ],
+        "suggestions": [
+          "Hier gibt es einen kleinen logischen Bruch durch Doppelung: Im ersten Absatz hakt Ilse bereits die Leine ab und steigt an Bord. Im dritten Absatz löst sie die Leine erneut. Streiche eines davon oder benenne die zweite Aktion präziser (z.B. 'löste die Bremse' oder 'klinkte das Vorseil aus').",
+          "Auch die Beschreibung der Wasserfarbe und -bewegung doppelt sich leicht (erst 'bräunlich und schnell', kurz darauf 'grau und ungeduldig')."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.017836
+}

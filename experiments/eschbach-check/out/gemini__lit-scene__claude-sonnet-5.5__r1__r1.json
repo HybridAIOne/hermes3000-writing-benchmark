@@ -1,0 +1,116 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__claude-sonnet-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Schlüssel lag nicht mehr unter dem Blumentopf."],
+        "suggestions": [
+          "Exzellenter Einstieg in medias res. Der erste Satz wirft sofort Fragen auf und etabliert den Konflikt (Veränderung des Gewohnten, Verlust), ohne Zeit mit der Anreise zu verschwenden."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["beinahe aufdringlich", "leicht körnig", "leicht schwang"],
+        "suggestions": [
+          "Sehr präziser und sparsamer Einsatz. Lediglich an den Stellen, an denen Adjektive/Verben durch Wörter wie 'leicht' oder 'beinahe' abgeschwächt werden, könnte man noch mutiger sein: 'der schwang' statt 'der leicht schwang', 'körnig wie Sand' statt 'leicht körnig, wie Sand'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Das Wasser ist abgestellt“, sagte er durch den Türspalt, „den Strom hab ich gelassen.“"
+        ],
+        "suggestions": [
+          "Das 'sagte er' ist hier unauffällig und durch die Verortung ('durch den Türspalt') gerechtfertigt. Alternativ könnte man die Handlung vorziehen, um das Inquit-Verb ganz zu sparen: 'Er reichte ihn ihr durch den Türspalt. „Das Wasser ist abgestellt...“'"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "nach etwas Muffigem",
+          "vielleicht von ihrem Luftzug, vielleicht schon vorher",
+          "beinahe aufdringlich",
+          "Das Wasser war ja abgestellt."
+        ],
+        "suggestions": [
+          "Die meisten 'weichen' Wörter sind hier stilistisch gewollt (das 'vielleicht' erzeugt einen subtilen Grusel, das 'ja' ist erlebte Rede).zig 'etwas' und 'beinahe' könnten gestrichen werden, um die Eindrücke noch direkter zu machen ('nach Muff, den sie nicht benennen wollte', 'süß und herb, aufdringlich')."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "und gab erst nach, als sie mit der Hüfte nachhalf.",
+          "Sie ging, ohne den Mantel auszuziehen, in die Küche."
+        ],
+        "suggestions": [
+          "Keine falsche Gleichzeitigkeit vorhanden. Die Handlungen folgen logisch und chronologisch sauber aufeinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Das Wasser ist abgestellt",
+          "Der Kühlschrank war ausgeräumt",
+          "die bereits halbiert war"
+        ],
+        "suggestions": [
+          "Es wird nur das Zustandspassiv verwendet, und das ist hier genau richtig: Es betont die Abwesenheit des Handelnden und die Starre des verlassenen Hauses. Im nächsten Satz ('Jemand hatte gedacht...') wird das zudem sofort aktivisch reflektiert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Und doch hing ihr Duft im ganzen Raum, süß und herb zugleich, beinahe aufdringlich, ein Geruch nach Herbst, der in diesem Haus nicht hätte überdauern dürfen."
+        ],
+        "suggestions": [
+          "Sehr guter Satzrhythmus. Kurze, prägnante Sätze wechseln sich mit etwas längeren, atmosphärischen Sätzen ab. Keine unübersichtlichen Schachtelsätze."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Das Wasser ist abgestellt“, sagte er durch den Türspalt, „den Strom hab ich gelassen.“ Mehr nicht."
+        ],
+        "suggestions": [
+          "Perfekte Verknappung. Der Dialog transportiert Information und Charakterisierung (wortkarger, aber rücksichtsvoller Nachbar) auf engstem Raum."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Es roch nach Stein...",
+          "Dort lagen vier Quitten...",
+          "Hinter ihr tropfte nichts."
+        ],
+        "suggestions": [
+          "Meisterhaft gelöst. Es gibt keine distanzierenden Filter wie 'Nora sah', 'sie roch' oder 'sie hörte'. Der Leser ist unmittelbar in Noras Wahrnehmung."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Dort lagen vier Quitten [...] Neben der fünften Quitte",
+          "Die Haustür klemmte, wie sie immer geklemmt hatte"
+        ],
+        "suggestions": [
+          "Die Wortwiederholungen ('klemmte/geklemmt', 'hatte/hatte/hatte') sind als bewusste rhetorische Stilmittel eingesetzt und funktionieren hervorragend. Einzig bei der Zählung der Quitten ('vier Quitten' ... 'neben der fünften Quitte') stolpert man minimal über die Logik (lagen dort also insgesamt fünf?). Vorschlag: 'Dort lagen fünf Quitten auf einer Zeitung [...] Neben der letzten, die bereits halbiert war, lag ein Messer...'"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016502
+}

@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-unterm-birnbaum-300",
+  "run": 3,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Der erste Satz ist eine sehr lange, statische Ortsbeschreibung vor dem eigentlichen Handlungsbeginn."
+        ],
+        "suggestions": [
+          "Direkt mit der Handlung einsteigen (z.B. 'Jakob wuchtete die Säcke auf den Wagen') und die Ortsbeschreibung in die Handlung einweben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["großen und reichen", "magern Schimmeln", "schläfrigen Hüh"],
+        "suggestions": [
+          "Prüfen, ob Adjektive durch stärkere Verben ersetzt werden können. 'Magere Schimmel' könnte durch eine Beschreibung des Zustands (z.B. 'die Rippen der Schimmel zeichneten sich ab') ersetzt werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte zu dem... Knecht"],
+        "suggestions": [
+          "Die Kennzeichnung ist funktional, könnte aber bei flüssigerem Dialog noch weiter reduziert werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["Einige", "so", "denn", "überhaupt"],
+        "suggestions": [
+          "Füllwörter konsequent streichen, um den Text direkter und prägnanter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Keine übermäßige Verwendung von 'während' oder 'als' festgestellt."]
+      },
+      "passive": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": ["wurden... geladen", "war... getrennt", "hatte man... gelassen"],
+        "suggestions": [
+          "In Aktiv umwandeln: 'Der Knecht lud die Säcke auf den Wagen', 'Holzsäulen trennten den Raum'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Der erste Satz umfasst fast vier Zeilen und enthält zu viele Informationen (Ort, Zeit, Inhaber, Schild, Ladetätigkeit)."
+        ],
+        "suggestions": ["Den ersten Satz in drei bis vier kürzere Sätze aufbrechen."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Die Dialoglänge ist für den Kontext angemessen."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["sah man denn", "hineinsehen konnte"],
+        "suggestions": [
+          "Direkt zeigen, was geschieht, statt den Akt des Sehens zu beschreiben (z.B. statt 'sah man... dass es Rapssäcke waren' einfach 'Raps rieselte aus den Löchern')."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Säcke / Rapssäcke", "Wagen / Fahrweg"],
+        "suggestions": [
+          "Wortwiederholungen durch Pronomen oder präzisere Begriffe ersetzen, um den Lesefluss zu glätten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

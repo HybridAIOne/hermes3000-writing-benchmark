@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gpt-6-luna__r1",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein Café an der Ecke. Regen an den Scheiben."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und setzt sofort den Ton. Keine Änderung notwendig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kaum merklich"],
+        "suggestions": [
+          "Sehr sparsam und effektiv eingesetzt. Der Fokus liegt voll auf der Interaktion."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["MARA:", "LEON:"],
+        "suggestions": [
+          "Da es sich um ein Skriptformat handelt, ist der Verzicht auf Redeeinleitungen absolut korrekt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vielleicht", "manchmal"],
+        "suggestions": [
+          "Die wenigen Füllwörter wirken hier charakterisierend (Unsicherheit/Zögern) und sind daher passend."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Sie rühren beide in ihren Tassen"],
+        "suggestions": [
+          "Keine 'während'-Konstruktionen. Die Handlungen sind klar und sequenziell beschrieben."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Passiv verwendet. Die Sprache ist aktiv und direkt."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Sätze sind kurz und prägnant, was das Tempo und die Stimmung der Szene perfekt unterstützt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Dialoge sind kurz und schlagfertig; die Kürze unterstreicht die Distanz zwischen den Charakteren."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ich wusste nicht, ob du kommst."],
+        "suggestions": [
+          "Keine 'er sah, dass'-Konstruktionen. Die Wahrnehmung ist direkt und subjektiv."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Du hast den gleichen Mantel an.", "Das hat er früher auch schon."],
+        "suggestions": [
+          "Die inhaltlichen Wiederholungen sind stilistisch bewusst gewählt, um die Stagnation der Beziehung zu unterstreichen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

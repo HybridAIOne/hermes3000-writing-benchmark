@@ -1,0 +1,141 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Der Nebel hing so tief, dass Ilse das andere Ufer nicht sah.",
+          "Sie stieß mit der Schuhspitze gegen den Keil am Steuerhaus. Er saß fest. Über Nacht hatte das Holz Wasser gezogen.",
+          "Sechs Uhr vierzig. Auf der Liste am Klemmbrett trug sie das Datum ein, dann den Wasserstand. Der Kugelschreiber setzte beim ersten Strich aus."
+        ],
+        "suggestions": [
+          "Der Einstieg trägt Atmosphäre und Routine, doch die ersten drei Absätze verzögern den ersten Impuls („Draußen knirschten Reifen.“). Prüfen, ob Keil, Lampe und Kugelschreiber alle nötig sind. Einer davon reicht, um Ilses Gewissenhaftigkeit zu zeigen.",
+          "Alternativ das Nebelbild im ersten Satz behalten und direkt zum Transporter springen. Die Routinedetails lassen sich später einstreuen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Die Frau ging vorsichtig über das nasse Blech.",
+          "Sie hielt ihn einen Moment im Mund und schluckte vorsichtig.",
+          "An einer Stelle drehte sich Schaum langsam um sich selbst.",
+          "Dann ging die Frau, mit schnellen kleinen Schritten."
+        ],
+        "suggestions": [
+          "„vorsichtig“ erscheint zweimal. Bei der Frau lässt es sich durch ein präziseres Verb ersetzen, etwa „Die Frau tastete sich über das nasse Blech.“",
+          "„langsam um sich selbst“ ist redundant. Besser: „An einer Stelle kreiste Schaum.“",
+          "„mit schnellen kleinen Schritten“ zu „Dann trippelte die Frau davon.“ straffen oder eines der Adjektive streichen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Morgen“, sagte der Mann durch den Fensterspalt.",
+          "„Noch mit?“, fragte die Frau.",
+          "„Schieben“, sagte Ilse.",
+          "„Danke“, sagte sie."
+        ],
+        "suggestions": [
+          "Die Redeeinleitungen sind sparsam und meist sinnvoll. „fragte die Frau“ ließe sich durch eine Handlung ersetzen: „Die Frau hob den Beutel. ‚Noch mit?‘“",
+          "„‚Schieben‘, sagte Ilse.“ ist aus dem Kontext klar. Die Kennzeichnung kann entfallen oder einer Geste weichen, etwa „Ilse zeigte auf den Spalt.“"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Nach einer Weile erschien der Pfosten am gegenüberliegenden Anleger.",
+          "dort, wo das Dach ein Stück überhing",
+          "Sie hielt ihn einen Moment im Mund",
+          "Es schob sich ein Stück über das Blech"
+        ],
+        "suggestions": [
+          "„Nach einer Weile“ ist unpräzise. Die Zeit lässt sich konkret zeigen („Nach vier Minuten …“) oder streichen: „Dann erschien der Pfosten …“",
+          "„ein Stück“ erscheint zweimal. Mindestens einmal präzisieren („eine Handbreit“, „zwei Finger breit“) oder streichen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Einer fiel ihr in den Kragen, als sie die Tür aufschloss.",
+          "Auf dem Display erschien sein Name ein zweites Mal, als müsste sie ihn erst lesen."
+        ],
+        "suggestions": [
+          "Handlungen nacheinander zeigen: „Sie schloss die Tür auf. Ein Tropfen fiel ihr in den Kragen.“",
+          "Der Schlusssatz mit „als müsste“ wirkt logisch unscharf, denn das Display wiederholt den Namen nicht ihretwegen. Klarer: „Sein Name leuchtete ein zweites Mal auf.“ So bleibt die Deutung beim Leser."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["ohne dass ein Rumpf sichtbar wurde"],
+        "suggestions": [
+          "Praktisch kein Passiv. Die eine Stelle lässt sich aktiver fassen: „Das Brummen wanderte flussabwärts. Kein Rumpf tauchte auf.“"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Am Seil standen Tropfen in kurzen Abständen; wo es durch die Führung lief, lösten sie sich und fielen aufs Deck.",
+          "Sie wartete, bis der Transporterfahrer sein Fenster ganz geschlossen hatte, dann ging sie ins Steuerhaus und setzte die Fähre in Bewegung."
+        ],
+        "suggestions": [
+          "Die Sätze sind überwiegend kurz und klar. Den Seil-Satz am Semikolon teilen: „Am Seil hingen Tropfen. Wo es durch die Führung lief, fielen sie aufs Deck.“",
+          "Achtung vor Monotonie: Lange Staccato-Strecken (z. B. Kassieren, Ablegen) gelegentlich durch einen fließenderen Satz rhythmisch auflockern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ist das immer so dicht hier?“ / „Heute schon.“ / „Ich muss um sieben im Heim sein.“ / „Das schaffen Sie.“ / „Mit dem Auto müsste ich außenrum.“ / „Ja.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp und subtextreich. Der Austausch mit der Frau ist der längste. „Mit dem Auto müsste ich außenrum.“ / „Ja.“ ließe sich streichen, sofern die Zeile nicht bewusst Ilses Einsilbigkeit zeigen soll."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Der Nebel hing so tief, dass Ilse das andere Ufer nicht sah.",
+          "Ilse erkannte den Sprung im rechten Scheinwerfer, noch ehe der Fahrer das Licht abblendete.",
+          "Durch die Scheibe sah sie den Jungen mit dem Fuß gegen seinen Reifen drücken.",
+          "Sie beugte sich zum Funkgerät, hörte zu und prüfte den Strom."
+        ],
+        "suggestions": [
+          "Direkter einsteigen: „Der Nebel hing so tief, dass vom anderen Ufer nichts blieb.“",
+          "„Durch die Scheibe sah sie den Jungen …“ zu „Draußen drückte der Junge mit dem Fuß gegen seinen Reifen.“ kürzen.",
+          "„hörte zu“ ist blass. Besser zeigen, was zu hören ist (Rauschen, eine Durchsage) oder dass nichts kommt.",
+          "„Ilse sah …“ erscheint auffallend oft (an ihm vorbei, zum leeren Weg, auf die Uhr). Mindestens eine Stelle durch eine andere Handlung ersetzen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Tropfen-Motiv: „sammelten sich Tropfen“, „Einer fiel ihr in den Kragen“, „Auf den Kappen lagen kleine Wasserperlen“, „Am Seil standen Tropfen“, „Ein Tropfen löste sich von der Dachkante“",
+          "„Ilse wies ihm den Platz auf der linken Seite. Er kannte ihn, aber sie wies trotzdem.“",
+          "Fenster-Motiv: „ließ das Fenster hoch“, „bis der Transporterfahrer sein Fenster ganz geschlossen hatte“, „hatte das Fenster wieder heruntergelassen“, „Das Glas fuhr hoch.“",
+          "„riss die Karte ab“ / „zog eine Karte aus der Hülle“"
+        ],
+        "suggestions": [
+          "Das Tropfen-Motiv ist atmosphärisch wirksam, aber dicht gesetzt. Eine der fünf Stellen streichen, etwa die Wasserperlen auf den Schuhen oder die Tropfen am Seil.",
+          "Die Wiederholung von „wies“ ist vermutlich gewollt (Ilses Prinzipientreue). Sie lässt sich eleganter fassen: „Er kannte ihn. Sie zeigte trotzdem hin.“",
+          "Beim Fenster-Motiv ist der Bogen (Grinsen → kein Grinsen) stark. Das Detail „bis der Transporterfahrer sein Fenster ganz geschlossen hatte“ kann aber entfallen, ohne den Bogen zu schwächen.",
+          "„Karte“ bei der Fahrkarte und beim Ausweis des Jungen unterscheiden, z. B. „Fahrschein“ und „Schülerausweis“."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.114432
+}

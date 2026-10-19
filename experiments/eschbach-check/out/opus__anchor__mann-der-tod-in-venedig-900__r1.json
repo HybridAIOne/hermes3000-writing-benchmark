@@ -1,0 +1,153 @@
+{
+  "who": "opus",
+  "item": "anchor__mann-der-tod-in-venedig-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Gustav Aschenbach oder von Aschenbach, wie seit seinem fünfzigsten Geburtstag amtlich sein Name lautete, hatte an einem Frühlingsnachmittag des Jahres 19.. [...] einen weiteren Spaziergang unternommen.",
+          "Überreizt von der schwierigen und gefährlichen [...] Arbeit der Vormittagsstunden [...] So hatte er bald nach dem Tee das Freie gesucht",
+          "Der Englische Garten, obgleich nur erst zart belaubt, war dumpfig wie im August [...] Beim Aumeister [...] hatte Aschenbach eine kleine Weile den volkstümlich belebten Wirtsgarten überblickt"
+        ],
+        "suggestions": [
+          "Nach Eschbachs Kriterium setzt die eigentliche Szene erst an der menschenleeren Haltestelle am Nördlichen Friedhof ein. Ein Einstieg dort wäre möglich: »Am Nördlichen Friedhof wartete Aschenbach auf die Tram. Über Föhring drohte ein Gewitter.«",
+          "Die Vorgeschichte (Überarbeitung, Schlaflosigkeit, Spazierweg) ließe sich in ein bis zwei Sätzen nachreichen, sobald der Fremde erscheint.",
+          "Hinweis: Es handelt sich um den Beginn von Thomas Manns »Der Tod in Venedig« (1912). Der breite Auftakt ist hier bewusst gesetzt: Er etabliert Aschenbachs Erschöpfung als Voraussetzung für alles Folgende. Eschbachs Regeln zielen auf modernes, tempo-orientiertes Erzählen und sind für diesen Text nur bedingt Maßstab."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "der schwierigen und gefährlichen, eben jetzt eine höchste Behutsamkeit, Umsicht, Eindringlichkeit und Genauigkeit des Willens erfordernden Arbeit",
+          "mit fettem, gequollenem und abenteuerlich blühendem Pflanzenwerk überwuchert",
+          "der laue, mephitische Odem dieser geilen und untauglichen Öde",
+          "Mäßig hochgewachsen, mager, bartlos und auffallend stumpfnäsig",
+          "unter dickdunstigem Himmel, feucht, üppig und ungesund"
+        ],
+        "suggestions": [
+          "Adjektivketten auf das jeweils stärkste Wort reduzieren, etwa »mit gequollenem Pflanzenwerk überwuchert« statt drei Attributen.",
+          "Partizipialattribute in Verben auflösen: »die Arbeit verlangte höchste Genauigkeit« statt »eine höchste Genauigkeit erfordernden Arbeit«.",
+          "Abschwächende Adverbien wie »mäßig«, »auffallend«, »sonderbar genug« prüfen und streichen, wo das Substantiv allein trägt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keine Dialoge. Das Kriterium ist nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "an dessen Rande einige Droschken und Equipagen hielten",
+          "hatte Aschenbach eine kleine Weile den [...] Wirtsgarten überblickt",
+          "der Wartende hatte während einiger Minuten eine ernste Zerstreuung darin gefunden",
+          "einen gelblichen Gurtanzug aus Lodenstoff, wie es schien",
+          "Wohl möglich, daß Aschenbach es [...] an Rücksicht hatte fehlen lassen",
+          "eine Art schweifender Unruhe",
+          "ohne sich sonderlich in die Frage zu vertiefen",
+          "dessen nicht ganz gewöhnliche Erscheinung"
+        ],
+        "suggestions": [
+          "Unbestimmte Mengen konkretisieren oder streichen: »an dessen Rand zwei Droschken hielten« oder schlicht »wo Droschken hielten«.",
+          "Relativierungen wie »wie es schien«, »wohl möglich«, »eine Art« und »nicht ganz gewöhnlich« entfernen und die Aussage direkt treffen: »dessen seltsame Erscheinung«.",
+          "Zeitangaben wie »eine kleine Weile« und »während einiger Minuten« ersatzlos streichen; der Satz verliert dadurch nichts."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "der Wartende hatte während einiger Minuten eine ernste Zerstreuung darin gefunden, die Formeln abzulesen [...], als er, aus seinen Träumereien zurückkehrend, im Portikus [...] einen Mann bemerkte",
+          "standen auf hohen Beinen im Seichten und blickten unbeweglich zur Seite, während durch ausgedehnte Schilffelder ein klapperndes Wetzen und Rauschen ging",
+          "hatte von dort bei sinkender Sonne seinen Heimweg [...] genommen und erwartete, da er sich müde fühlte und über Föhring Gewitter drohte, am Nördlichen Friedhof die Tram"
+        ],
+        "suggestions": [
+          "Die Konstruktion »während ..., als er bemerkte« in eine Abfolge auflösen: »Er las die Inschriften und verlor sich in ihrer Mystik. Dann bemerkte er im Portikus einen Mann.«",
+          "Die Sumpfvision als Folge einzelner Eindrücke erzählen: erst die Vögel, dann das Rauschen im Schilf, statt beides mit »während« zu verklammern.",
+          "Partizipialkonstruktionen wie »aus seinen Träumereien zurückkehrend« als eigene Handlung setzen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Ihre Stirnseite, mit griechischen Kreuzen und hieratischen Schildereien in lichten Farben geschmückt",
+          "deren Boden mit Blättern [...] überwuchert war",
+          "einen mit eiserner Spitze versehenen Stock"
+        ],
+        "suggestions": [
+          "Der Text ist überwiegend aktiv formuliert. Die Zustandspassive sind beschreibend und weitgehend vertretbar.",
+          "Wo gewünscht, aktiv umformen: »Blätter, so dick wie Hände, riesige Farne und fettes Pflanzenwerk überwucherten den Boden.«",
+          "»einen Stock mit eiserner Spitze« statt »einen mit eiserner Spitze versehenen Stock«."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Überreizt von der schwierigen und gefährlichen [...] Arbeit der Vormittagsstunden, hatte der Schriftsteller dem Fortschwingen des produzierenden Triebwerks in seinem Innern, jenem »motus animi continuus«, worin nach Cicero das Wesen der Beredsamkeit besteht, auch nach der Mittagsmahlzeit nicht Einhalt zu tun vermocht und den entlastenden Schlummer nicht gefunden, der ihm [...] einmal untertags so nötig war.",
+          "Ihre Stirnseite [...] weist überdies symmetrisch angeordnete Inschriften in Goldlettern auf [...]; und der Wartende hatte während einiger Minuten eine ernste Zerstreuung darin gefunden [...], als er [...] einen Mann bemerkte, dessen nicht ganz gewöhnliche Erscheinung seinen Gedanken eine völlig andere Richtung gab.",
+          "Erhobenen Hauptes, so daß an seinem hager dem losen Sporthemd entwachsenden Halse der Adamsapfel stark und nackt hervortrat, blickte er mit farblosen, rot bewimperten Augen, zwischen denen [...] zwei senkrechte, energische Furchen standen, scharf spähend ins Weite.",
+          "dem Schauenden war es, als hauchte der laue, mephitische Odem [...] ihn an, [...] zwischen den knotigen Rohrstämmen eines Bambusdickichts glaubte er einen Augenblick die phosphoreszierenden Lichter des Tigers funkeln zu sehen--und fühlte sein Herz pochen"
+        ],
+        "suggestions": [
+          "Schachtelsätze an den Semikolons und Gedankenstrichen in eigenständige Sätze teilen.",
+          "Beispiel: »Die Arbeit am Vormittag hatte ihn überreizt. Auch nach dem Mittagessen kam das Triebwerk in ihm nicht zur Ruhe. Den Schlaf, den er inzwischen täglich brauchte, fand er nicht.«",
+          "Eingeschobene Bildungszitate wie das Cicero-Zitat entweder streichen oder in einen eigenen Satz auslagern.",
+          "Die Beschreibung des Fremden in kurze, aufeinanderfolgende Beobachtungen zerlegen: Hals, Augen, Furchen, Zähne."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialogpassagen vorhanden. Das Kriterium ist nicht anwendbar."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "denn plötzlich ward er gewahr, daß jener seinen Blick erwiderte",
+          "als er [...] im Portikus [...] einen Mann bemerkte",
+          "Er sah nämlich [...]--sah wie mit leiblichem Auge eine ungeheuere Landschaft",
+          "dem Schauenden war es, als hauchte der laue, mephitische Odem dieser geilen und untauglichen Öde ihn an",
+          "glaubte er einen Augenblick die phosphoreszierenden Lichter des Tigers funkeln zu sehen",
+          "eine seltsame Ausweitung seines Innern ward ihm ganz überraschend bewußt"
+        ],
+        "suggestions": [
+          "Wahrnehmungsfilter streichen: »Der Fremde erwiderte seinen Blick, kriegerisch, gerade ins Auge hinein.« statt »ward er gewahr, daß jener seinen Blick erwiderte«.",
+          "»Im Portikus stand ein Mann.« statt »als er im Portikus einen Mann bemerkte«.",
+          "Die Vision unmittelbar beginnen lassen: »Eine ungeheure Landschaft, ein tropisches Sumpfgebiet unter dickdunstigem Himmel ...«",
+          "»Zwischen den Bambusstämmen funkelten die Augen eines Tigers.« statt »glaubte er ... funkeln zu sehen«."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "eine höchste Behutsamkeit, Umsicht, Eindringlichkeit und Genauigkeit des Willens",
+          "ein Gefühl, so lebhaft, so neu oder doch so längst entwöhnt und verlernt",
+          "etwas herrisch Überschauendes, Kühnes oder selbst Wildes",
+          "so kriegerisch, so gerade ins Auge hinein, so offenkundig gesonnen, die Sache aufs Äußerste zu treiben und den Blick des andern zum Abzug zu zwingen",
+          "eine seltsame Ausweitung seines Innern [...], eine Art schweifender Unruhe, ein jugendlich durstiges Verlangen in die Ferne, ein Gefühl",
+          "Ob er nun aus dem Innern der Halle [...] hervorgetreten oder von außen [...] gelangt war, blieb ungewiß. Aschenbach [...] neigte zur ersteren Annahme."
+        ],
+        "suggestions": [
+          "Synonymreihen auf ein treffendes Wort kürzen: »erforderte höchste Genauigkeit« statt vier Begriffe.",
+          "»entwöhnt und verlernt« meinen dasselbe; eines genügt.",
+          "Die vierfache Umschreibung der Reiselust (Ausweitung, Unruhe, Verlangen, Gefühl) auf ein starkes Bild reduzieren, zumal die Auflösung »Es war Reiselust« direkt folgt.",
+          "Die Spekulation über die Herkunft des Fremden streichen oder auf einen Halbsatz verkürzen, da sie für die Handlung folgenlos bleibt.",
+          "Hinweis: Viele dieser Reihungen sind bei Mann rhythmisches Stilmittel und charakterisieren Aschenbachs gelehrte, überreizte Wahrnehmung. Nach Eschbachs Methode gelten sie dennoch als Doppelungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.139692
+}

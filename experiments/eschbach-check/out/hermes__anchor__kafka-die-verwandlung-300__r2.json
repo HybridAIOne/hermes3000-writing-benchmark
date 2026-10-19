@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "anchor__kafka-die-verwandlung-300",
+  "run": 2,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt."
+        ],
+        "suggestions": ["Der Einstieg ist exzellent und setzt direkt in der Handlung ein."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["panzerartig harten Rücken", "kläglich dünnen Beine"],
+        "suggestions": [
+          "Einige Adjektive sind sehr deskriptiv. Man könnte prüfen, ob 'panzerartig' oder 'kläglich' durch stärkere Verben oder Substantive ersetzt werden können, um die Wirkung zu verdichten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Was ist mit mir geschehen?« dachte er."],
+        "suggestions": ["Die Kennzeichnungen sind sparsam und effektiv eingesetzt."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["etwas zu kleines", "wohlbekannten", "ganz melancholisch"],
+        "suggestions": [
+          "Wörter wie 'etwas' oder 'ganz' schwächen die Aussage ab. Sie könnten gestrichen werden, um die Wirkung der Verwandlung direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["wenn er den Kopf ein wenig hob"],
+        "suggestions": ["Die Handlungsabfolgen sind logisch und gut strukturiert."]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["war ausgebreitet", "war untergebracht", "war ... versehen"],
+        "suggestions": [
+          "Die Passivkonstruktionen wirken etwas statisch. Statt 'war ausgebreitet' könnte man schreiben: 'Auf dem Tisch breitete sich eine Musterkollektion aus'."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Über dem Tisch, auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war -- Samsa war Reisender --, hing das Bild..."
+        ],
+        "suggestions": [
+          "Der Satz ist sehr verschachtelt. Er könnte in zwei Sätze unterteilt werden, um den Lesefluss zu verbessern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["man hörte Regentropfen", "machte ihn ganz melancholisch"],
+        "suggestions": [
+          "Die Wahrnehmung ist weitgehend direkt. Man könnte 'man hörte' durch eine direktere sensorische Beschreibung ersetzen (z.B. 'Regentropfen trommelten auf das Fensterblech')."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Schmerz zu fühlen begann"],
+        "suggestions": [
+          "Das Wort 'fühlen' wird in kurzer Folge verwendet. Besser: '...einen noch nie gekannten, dumpfen Schmerz spürte'."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

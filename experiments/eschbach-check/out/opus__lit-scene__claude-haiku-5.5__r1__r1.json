@@ -1,0 +1,136 @@
+{
+  "who": "opus",
+  "item": "lit-scene__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel ließ sich nicht drehen.",
+          "Die Szene setzt mit einem konkreten Widerstand an der Schwelle ein. Anreise, Vorgeschichte und Motivation werden nicht vorab erklärt."
+        ],
+        "suggestions": [
+          "Der Einstieg sitzt. Er erzeugt sofort Spannung und deutet die lange Abwesenheit an, ohne sie auszusprechen. Hier ist keine Änderung nötig.",
+          "Der Halbsatz 'Sie stand eine Weile auf der Schwelle' verzögert minimal. Prüfen Sie, ob 'Sie versuchte es noch einmal, langsamer, …' direkt anschließen kann."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "nach kaltem Staub und nach etwas Süßlichem",
+          "der dunkelgrüne mit dem abgewetzten Kragen",
+          "Die Creme war kühl und fest",
+          "Irgendwo tropfte es, gleichmäßig, aus einer Leitung"
+        ],
+        "suggestions": [
+          "Die meisten Adjektive sind präzise und sinnlich ('abgewetzt', 'dunkelgrün') und sollten bleiben.",
+          "'gleichmäßig' ist entbehrlich, denn das Tropfen einer Leitung impliziert Gleichmäßigkeit. Möglich wäre: 'Irgendwo tropfte eine Leitung, die niemand mehr abgestellt hatte.'",
+          "'kühl und fest' könnte auf ein stärkeres Merkmal reduziert werden, etwa 'Die Creme war kühl', damit der Fokus auf dem Geruch liegt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Text enthält keine Dialoge und damit keine Redeeinleitungen."],
+        "suggestions": [
+          "Kein Handlungsbedarf. Das Schweigen der Szene passt zur Situation der Rückkehr in ein verlassenes Elternhaus."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie stand eine Weile auf der Schwelle",
+          "nach etwas Süßlichem, das sie nicht gleich benennen konnte",
+          "Irgendwo tropfte es"
+        ],
+        "suggestions": [
+          "'eine Weile' ist unpräzise. Besser ist es, die Dauer über eine Handlung zu zeigen oder den Satzteil zu streichen.",
+          "'etwas Süßlichem' ist bewusst vage, weil die Figur den Geruch nicht einordnen kann. Das kann bleiben, wenn der Geruch später aufgelöst wird (die Rosencreme?). Sonst wäre ein konkreterer Begriff besser.",
+          "'Irgendwo' ist atmosphärisch vertretbar. Präziser wäre 'In der Küche tropfte es' oder 'Hinter der Wand tropfte es'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "hatte es im Flur nach Rosen gerochen, wenn sie die Treppe heraufkam",
+          "Draußen fuhr ein Traktor vorbei, dann war es wieder still."
+        ],
+        "suggestions": [
+          "Die Handlungen folgen konsequent nacheinander ('Sie drehte ihn ab. Er klebte, dann gab er nach.'). Das ist vorbildlich.",
+          "Das 'wenn' in der Erinnerungspassage ist korrekt iterativ gebraucht und unproblematisch."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "so wie es früher verlangt worden war",
+          "der Deckel mit einem Film aus Staub überzogen"
+        ],
+        "suggestions": [
+          "'so wie es früher verlangt worden war' wirkt umständlich und verschleiert, wer es verlangte. Aktiver und persönlicher wäre: 'so wie die Mutter es ihr beigebracht hatte' oder 'so wie das Schloss es früher verlangt hatte'.",
+          "'überzogen' ist ein Zustandspassiv und als knappe Beschreibung akzeptabel. Eine Alternative wäre: 'auf dem Deckel lag ein Film aus Staub'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Ihre Mutter hatte jeden Abend davon genommen, jeden Abend, zwanzig Jahre lang, hatte es im Flur nach Rosen gerochen, wenn sie die Treppe heraufkam.",
+          "Durch den Flur fiel graues Licht vom Oberfenster über der Treppe, und auf dem Garderobenhaken hing der Mantel der Mutter, der dunkelgrüne mit dem abgewetzten Kragen, als würde gleich jemand danach greifen.",
+          "Stattdessen stand alles noch an seinem Platz, als hätte es nur auf sie gewartet, und die einzige Veränderung war die, die sie selbst mitgebracht hatte."
+        ],
+        "suggestions": [
+          "Der Satz über die Mutter ist syntaktisch holprig: Das zweite 'hatte' schließt ohne Konjunktion an, und 'sie' ist mehrdeutig (Mutter oder Tochter?). Vorschlag: 'Ihre Mutter hatte jeden Abend davon genommen, zwanzig Jahre lang. Wenn sie die Treppe heraufkam, hatte es im Flur nach Rosen gerochen.'",
+          "Den Flur-Satz teilen: 'Durch den Flur fiel graues Licht vom Oberfenster. Am Garderobenhaken hing der Mantel der Mutter, der dunkelgrüne mit dem abgewetzten Kragen.'",
+          "Im Schlusssatz trägt die Pointe besser allein: 'Stattdessen stand alles noch an seinem Platz. Die einzige Veränderung war die, die sie selbst mitgebracht hatte.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Dialogpassagen vorhanden."],
+        "suggestions": ["Kein Handlungsbedarf."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie wischte den Finger an ihrer Hose ab und sah zur Tür, durch die man den Flur sehen konnte, den Mantel, die Treppe, das Licht.",
+          "Sie hatte gedacht, die Zeit würde sich wie eine Strecke anfühlen, die man zurücklegt.",
+          "nach etwas Süßlichem, das sie nicht gleich benennen konnte"
+        ],
+        "suggestions": [
+          "Der Wahrnehmungsfilter 'sah zur Tür, durch die man … sehen konnte' ist doppelt indirekt. Direkter wäre: 'Durch die offene Tür: der Flur, der Mantel, die Treppe, das Licht.'",
+          "'Sie hatte gedacht, …' ist als Kontrast zur Gegenwart legitim. Die Wirkung würde stärker, wenn die Erwartung direkter formuliert wäre, etwa: 'Zwanzig Jahre. Eine Strecke, hatte sie geglaubt, die man zurücklegt.'",
+          "Die meisten Wahrnehmungen sind bereits vorbildlich direkt ('Drinnen roch es…', 'Die Luft stand.', 'Draußen fuhr ein Traktor vorbei')."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Dreimal 'als hätte/als würde': 'als würde gleich jemand danach greifen', 'als hätte sie nie jemand mit den Fingern aufgerissen', 'als hätte es nur auf sie gewartet'",
+          "Zweimal 'gab nach': 'Das Schloss gab nach' und 'dann gab er nach'",
+          "'stand' viermal: 'stand eine Weile', 'Die Luft stand', 'stand das Glas', 'stand alles noch'",
+          "Zweimal 'Staub': 'kaltem Staub' und 'Film aus Staub'",
+          "'Zwanzig Jahre' dreimal, davon einmal in der Wiederholung 'jeden Abend, jeden Abend, zwanzig Jahre lang'"
+        ],
+        "suggestions": [
+          "Die drei 'als hätte/als würde'-Vergleiche transportieren dasselbe Motiv (die Dinge warten auf jemanden). Behalten Sie nur den stärksten, vermutlich den Schlusssatz. Den Mantel können Sie ohne Vergleich wirken lassen: 'Sie rührte ihn nicht an' leistet das bereits.",
+          "Beim Deckel ein anderes Verb wählen: 'Er klebte, dann löste er sich.'",
+          "Eines der 'stand' ersetzen, etwa 'Im Bad wartete das Glas…' oder 'Auf dem Waschbecken das Glas mit der Handcreme…'.",
+          "Das doppelte 'jeden Abend' ist als Stilmittel vertretbar. Durch die Satzkonstruktion wirkt es aber eher wie ein Versehen. Entweder deutlich rhythmisch setzen oder streichen.",
+          "Inhaltlich prüfen: Die Creme ist 'unberührt', obwohl die Mutter 'jeden Abend davon genommen' hat. Wenn es ein neues, nie benutztes Glas ist, sollte das kurz klargestellt werden. Gerade das wäre ein starkes Detail, etwa 'ein neues Glas, das sie nicht mehr geöffnet hatte'."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.101596
+}

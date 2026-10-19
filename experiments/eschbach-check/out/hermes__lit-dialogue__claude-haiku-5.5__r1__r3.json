@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-haiku-5.5__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein Café am Bahnhof. Regen am Fenster."],
+        "suggestions": [
+          "Der Einstieg ist sehr effizient. Man könnte noch ein sensorisches Detail hinzufügen (z.B. der Geruch von Kaffee oder das Klappern von Geschirr), um die Atmosphäre sofort zu festigen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["lächelt traurig"],
+        "suggestions": [
+          "Das Adverb 'traurig' könnte durch eine Handlung ersetzt werden, die das Gefühl zeigt (z.B. 'Sie lächelt, doch ihre Augen bleiben leer')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Skript-Format verwendet"],
+        "suggestions": ["Keine nötig, da das Skript-Format keine Redeeinleitungen benötigt."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["bereits", "doch", "kurz"],
+        "suggestions": [
+          "Die Füllwörter sind hier sehr sparsam und dienen der Charakterisierung. Keine Änderung notwendig."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als PETER hereinkommt"],
+        "suggestions": [
+          "Die Handlungen sind klar sequenziell strukturiert, was den Lesefluss fördert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Passivkonstruktionen gefunden"],
+        "suggestions": ["Der Text ist durchgehend aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Satzbau ist sehr kurz und prägnant"],
+        "suggestions": [
+          "Die kurzen Sätze unterstreichen die Spannung und das Unausgesprochene perfekt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Alle Dialoge sind kurz und pointiert"],
+        "suggestions": ["Keine Straffung nötig, die Kürze ist hier ein stilistisches Mittel."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ich dachte, du hättest ihn verbrannt"],
+        "suggestions": [
+          "Die Wahrnehmungen sind direkt in die Dialoge integriert, was sehr natürlich wirkt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Du auch", "Welchen?"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier beabsichtigt und verstärken die emotionale Distanz bzw. das Zögern der Figuren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-haiku-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein Café am späten Nachmittag. Lena sitzt am Fenster..."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und effizient. Er könnte noch unmittelbarer wirken, wenn man direkt mit Toms Betreten des Cafés beginnt, ohne die Ortsbeschreibung voranzustellen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["langsam", "kurz"],
+        "suggestions": [
+          "Sehr sparsam eingesetzt, was dem Text gut tut. 'Langsam' könnte man durch ein präziseres Verb ersetzen (z.B. 'schlendert' oder 'trödelt'), um die Bewegung noch deutlicher zu machen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Redebegleitsätze verwendet."],
+        "suggestions": [
+          "Die konsequente Vermeidung von 'sagte er/sie' ist hier eine exzellente stilistische Entscheidung, die den Dialog sehr direkt und modern wirken lässt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ein Stück", "schon"],
+        "suggestions": [
+          "Das Füllwort 'ein Stück' bei 'schiebt seine Tasse ein Stück von sich weg' könnte gestrichen werden, um die Geste härter und entschlossener wirken zu lassen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine 'während'- oder 'als'-Konstruktionen."],
+        "suggestions": [
+          "Die Abfolge der Handlungen ist klar und präzise. Keine unnötigen Gleichzeitigkeits-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Passivkonstruktionen gefunden."],
+        "suggestions": [
+          "Der Text ist durchgehend aktiv formuliert, was die Dynamik der Szene unterstützt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Alle Sätze sind kurz und prägnant."],
+        "suggestions": [
+          "Die Satzlänge unterstützt die angespannte Atmosphäre perfekt. Keine Verschachtelungen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Dialoge sind kurz und schlagfertig."],
+        "suggestions": [
+          "Die Dialoge sind bereits sehr gut gestrafft. Eventuell könnte man 'Nichts. Gar nichts.' noch weiter kürzen, aber das ist stilistisch vertretbar."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine 'er sah, dass'-Formulierungen."],
+        "suggestions": [
+          "Die Wahrnehmung erfolgt direkt durch die Handlungen der Figuren, was sehr gut gelöst ist."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine inhaltlichen Doppelungen."],
+        "suggestions": ["Der Text ist sehr effizient. Keine inhaltlichen Redundanzen erkennbar."]
+      }
+    }
+  },
+  "costUsd": 0
+}

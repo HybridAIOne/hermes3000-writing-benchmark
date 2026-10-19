@@ -1,0 +1,105 @@
+{
+  "who": "hermes",
+  "item": "anchor__mann-der-tod-in-venedig-900",
+  "run": 3,
+  "parsed": {
+    "overallScore": 4,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Gustav Aschenbach oder von Aschenbach... hatte an einem Frühlingsnachmittag... einen weiteren Spaziergang unternommen."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr biografisch und distanziert. Ein direkterer Einstieg mitten in die Bewegung oder in den Englischen Garten würde den Leser schneller in die Szene ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "gefahrdrohende Miene",
+          "höchste Behutsamkeit",
+          "ersprießlichen Abend",
+          "unbehaustes Gräberfeld",
+          "hieratischen Schildereien"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist extrem hoch. Viele Adjektive sind schmückendes Beiwerk, das den Lesefluss hemmt. Streichen Sie Adjektive, die keine essenzielle Information tragen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge im Text vorhanden."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Wohl möglich", "vielleicht", "wie es schien"],
+        "suggestions": [
+          "Die Füllwörter sind im Vergleich zur restlichen Komplexität moderat eingesetzt, könnten aber für mehr Entschiedenheit im Ausdruck gestrichen werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "während einiger Minuten",
+          "als er... zurückkehrend",
+          "während durch ausgedehnte Schilffelder..."
+        ],
+        "suggestions": [
+          "Vermeiden Sie 'während' und 'als', um Handlungen zu verschachteln. Beschreiben Sie die Ereignisse nacheinander, um die Dynamik zu erhöhen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["war... zu sehen", "ward er gewahr", "ward ihm... bewußt"],
+        "suggestions": [
+          "Formulieren Sie Passivkonstruktionen in Aktiv um. Statt 'ward er gewahr' besser: 'Er bemerkte'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Der gesamte erste Absatz besteht aus extrem langen, verschachtelten Sätzen mit zahlreichen Einschüben."
+        ],
+        "suggestions": [
+          "Brechen Sie die Sätze auf. Ein Punkt nach einem Hauptsatz erhöht die Lesbarkeit und Spannung massiv."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Aschenbach... neigte zur ersteren Annahme",
+          "dem Schauenden war es, als hauchte...",
+          "glaubte er... zu sehen"
+        ],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'neigte zur Annahme' oder 'dem Schauenden war es'. Beschreiben Sie direkt, was Aschenbach sieht oder erlebt."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Wiederholte Beschreibungen der Umgebung und der Erscheinung des Fremden."],
+        "suggestions": [
+          "Kürzen Sie die deskriptiven Passagen. Die Fülle an Details verlangsamt das Erzähltempo stark."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

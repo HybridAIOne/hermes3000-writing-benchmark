@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6.1-sol__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so tief, dass Ilse das andere Ufer nicht sehen konnte."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und setzt direkt in der Handlung an. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kurzes, trockenes Knacken", "kaum merklich"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und präzise eingesetzt. Achten Sie darauf, dass sie auch in zukünftigen Passagen nicht zur bloßen Dekoration werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Runter vom Rad“, sagte Ilse.", "„Bin ich doch.“"],
+        "suggestions": ["Die Redeeinleitungen sind auf das Nötigste reduziert. Sehr gut gelöst."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist frei von unnötigen Füllwörtern wie 'eigentlich', 'vielleicht' oder 'ziemlich'. Beibehalten."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Die Frau hielt ihr Portemonnaie mit beiden Händen, während Ilse das Wechselgeld aus der Ledertasche zählte."
+        ],
+        "suggestions": [
+          "Das 'während' ist hier akzeptabel, aber für mehr Dynamik könnte man den Satz teilen: 'Die Frau hielt ihr Portemonnaie mit beiden Händen. Ilse zählte das Wechselgeld aus der Ledertasche.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["wurde voller"],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert. Die wenigen passiven Konstruktionen sind für Zustandsbeschreibungen angemessen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Satzlänge ist abwechslungsreich und gut lesbar. Keine verschachtelten Sätze, die den Lesefluss stören."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Dialoge sind kurz, funktional und treiben die Handlung voran. Sehr gut."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie sah auf sein anderes Bein, das noch über dem Rahmen stand."],
+        "suggestions": [
+          "Die Wahrnehmung ist direkt und körperlich. Vermeiden Sie in Zukunft Formulierungen wie 'Sie sah, dass er...', was hier aber ohnehin kaum vorkommt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr prägnant. Es gibt keine inhaltlichen Doppelungen."]
+      }
+    }
+  },
+  "costUsd": 0
+}

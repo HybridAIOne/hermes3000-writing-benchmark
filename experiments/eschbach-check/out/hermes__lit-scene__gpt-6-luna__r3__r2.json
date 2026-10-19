@@ -1,0 +1,83 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gpt-6-luna__r3",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel klemmte, wie Schlüssel in alten Häusern klemmen"],
+        "suggestions": [
+          "Der Einstieg ist exzellent, da er sofort eine Handlung und Atmosphäre etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["brauner Hausschuh", "flach getreten", "rostfarbener Strahl"],
+        "suggestions": [
+          "Die Adjektive sind atmosphärisch und passend gewählt. Achten Sie darauf, dass sie nicht überhandnehmen, was hier jedoch gut gelungen ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ich bin’s“, sagte sie."],
+        "suggestions": ["Der Dialog ist sparsam und effektiv eingesetzt."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr sauber und frei von unnötigen Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Es gibt keine überflüssigen 'während'-Konstruktionen. Die Chronologie ist klar."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Die Möbel waren abgedeckt", "Die Stufen waren... blank getreten"],
+        "suggestions": [
+          "Dies sind Zustandsbeschreibungen, die akzeptabel sind. Dennoch könnte man 'Die Möbel waren abgedeckt' durch eine aktivere Wahrnehmung ersetzen, z.B.: 'Über den Möbeln lagen Laken.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und erzeugen einen guten Rhythmus."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Die Dialoglänge ist perfekt dosiert."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["ohne zu wissen, warum", "das sie nicht einordnen konnte"],
+        "suggestions": [
+          "Versuchen Sie, 'ohne zu wissen, warum' zu streichen. Lassen Sie die Handlung für sich stehen, das wirkt oft stärker."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Der Schlüssel klemmte, wie Schlüssel..."],
+        "suggestions": [
+          "Die Wiederholung von 'Schlüssel' im ersten Satz ist etwas redundant. Vorschlag: 'Der Schlüssel klemmte, wie es bei alten Häusern üblich ist...'"
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

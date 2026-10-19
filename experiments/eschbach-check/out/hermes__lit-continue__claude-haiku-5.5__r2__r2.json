@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-haiku-5.5__r2",
+  "run": 2,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie antwortete nicht."],
+        "suggestions": [
+          "Der Einstieg ist sehr stark und wirft den Leser direkt in die Situation. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["feucht und schwer", "ruhig und gleichgültig"],
+        "suggestions": [
+          "Die Adjektive sind atmosphärisch passend. Achte darauf, 'leise' bei 'fluchte leise' zu streichen, da das Fluchen impliziert, dass es nicht laut ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte sie schließlich", "sagte Jonas"],
+        "suggestions": [
+          "Die Redeeinleitungen sind funktional, aber etwas redundant. Versuche, sie durch Handlungsbeschreibungen zu ersetzen, z.B.: 'Der Motor läuft', sagte sie. -> 'Der Motor läuft', sagte sie. (Das 'schließlich' kann oft gestrichen werden)."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["schon", "vielleicht"],
+        "suggestions": [
+          "Das Wort 'schon' taucht mehrfach auf ('hat Papa auch schon gesagt', 'schon gestrichen'). Prüfe, ob es für den Sinn zwingend notwendig ist."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Jonas zog den Koffer näher, und ein Rad blieb... hängen."],
+        "suggestions": [
+          "Die Handlungsabfolgen sind sehr gut gelöst. Keine Überladung mit 'während' oder 'als'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["die Henning im letzten Frühjahr noch gestrichen hatte"],
+        "suggestions": [
+          "Der Text ist sehr aktiv geschrieben. Keine kritischen Passivkonstruktionen gefunden."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ilse betrachtete den Koffer, seine Schuhe, die für Bohlen nicht taugten, und sein Gesicht, das dem ihres Mannes ähnlicher sah, als ihr lieb war, wenn er die Stirn so in Falten legte."
+        ],
+        "suggestions": [
+          "Der Satz ist lang, aber rhythmisch gut aufgebaut. Er erfordert keine Teilung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Kaffee gibt es später“, sagte sie. „Erst fährst du mit rüber.“"],
+        "suggestions": ["Die Dialoge sind prägnant und treiben die Handlung voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse sah ihm zu und empfand dabei nichts, was sie hätte benennen können."],
+        "suggestions": ["Die Wahrnehmung ist direkt und nah an der Figur. Sehr gut."]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Der Fluss schob braunes Wasser...", "zu dem Stück Fluss dahinter"],
+        "suggestions": [
+          "Das Wort 'Fluss' wird in kurzem Abstand wiederholt. Hier könnte man beim zweiten Mal 'Strom' oder 'Wasser' verwenden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

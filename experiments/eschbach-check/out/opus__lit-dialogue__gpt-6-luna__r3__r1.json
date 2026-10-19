@@ -1,0 +1,129 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__gpt-6-luna__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "(Sie stehen vor dem Café. Keiner macht Anstalten, sich zu umarmen.)",
+          "**Mara:** Du hast noch denselben Mantel."
+        ],
+        "suggestions": [
+          "Der Einstieg setzt direkt im Spannungsmoment der Begegnung ein, ohne Anreise oder Vorgeschichte. Das ist gelungen.",
+          "Prüfen, ob die Szene auch erst am Tisch beginnen könnte. Der Austausch vor dem Café (Mantel, 'Drinnen ist es wärmer') etabliert allerdings die gemeinsame Vergangenheit sehr ökonomisch und sollte daher eher bleiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als sie fortgeht, rückt Jonas seine Tasse genau in die Mitte.",
+          "Das hast du früher auch immer gesagt.",
+          "Ich dachte, du magst inzwischen lieber die Wand im Rücken."
+        ],
+        "suggestions": [
+          "Der Text ist sehr sparsam mit Adjektiven und Adverbien. 'genau' ist hier funktional, weil es Jonas' Zwanghaftigkeit zeigt.",
+          "'früher auch immer' ließe sich zu 'Das hast du früher immer gesagt' straffen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "(Er antwortet nicht. Mara nimmt einen Schluck Kaffee.) **Jonas:** Der ist kalt."
+        ],
+        "suggestions": [
+          "Durch das Skriptformat entfallen Redeeinleitungen vollständig, die Sprecher sind eindeutig.",
+          "Logikbruch prüfen: Mara trinkt, aber Jonas stellt fest, der Kaffee sei kalt. Entweder sagt Mara den Satz, oder Jonas trinkt vorher selbst ('Jonas nimmt einen Schluck. Verzieht das Gesicht.'). Alternativ sollte der Subtext (er kennt ihren Gesichtsausdruck) deutlicher werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Mara wartet einen Moment, bevor sie hindurchgeht.",
+          "Mara schiebt ihre Tasse ein Stück zu ihm.",
+          "Für einen Augenblick sieht es aus, als wolle er etwas anderes sagen.",
+          "**Jonas:** Sie fragt manchmal nach dir."
+        ],
+        "suggestions": [
+          "'einen Moment' und 'Für einen Augenblick' sind zeitliche Weichmacher. Besser ist eine konkrete Handlung: 'Mara bleibt stehen. Dann geht sie hindurch.'",
+          "'manchmal' und 'An manches' sind im Dialog bewusst vage und charakterisieren Jonas' Ausweichen. Hier sollten sie bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Als sie fortgeht, rückt Jonas seine Tasse genau in die Mitte.",
+          "Jonas hebt die Hand, um die Bedienung zu rufen. Für einen Augenblick sieht es aus, als wolle er etwas anderes sagen."
+        ],
+        "suggestions": [
+          "Bei 'Als sie fortgeht' ist unklar, ob 'sie' die Bedienung oder Mara meint. Besser nacheinander: 'Die Bedienung geht. Jonas rückt seine Tasse in die Mitte.'",
+          "Kontinuitätsfehler: Direkt nach der Bestellung kann noch keine Tasse auf dem Tisch stehen. Entweder einen Zeitsprung einfügen ('Der Kaffee kommt.') oder Jonas einen anderen Gegenstand ausrichten lassen (Serviette, Zuckerdose)."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Passivkonstruktionen. Alle Regieanweisungen sind aktiv und handlungsorientiert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Jonas hebt die Hand, um die Bedienung zu rufen."],
+        "suggestions": [
+          "Die Satzlängen sind durchgehend kurz und passen zum angespannten Ton.",
+          "Darauf achten, dass der gleichförmige Stakkato-Rhythmus nicht monoton wird. Ein gezielt längerer Satz an einer emotionalen Schlüsselstelle kann Kontrast schaffen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "**Jonas:** Am Fenster? **Mara:** Da saßen wir immer. **Jonas:** Ich dachte, du magst inzwischen lieber die Wand im Rücken. **Mara:** Das kommt auf den Raum an.",
+          "**Mara:** Du machst das immer noch. **Jonas:** Was? **Mara:** Nichts. **Jonas:** Gut."
+        ],
+        "suggestions": [
+          "Die Repliken sind knapp und subtextreich. Jede Zeile trägt Spannung.",
+          "Die Erinnerungsschleife (Mantel, Fenster, Kaffee, Tasse) wiederholt ein ähnliches Muster viermal. Eine dieser Stationen ließe sich streichen, um schneller zum Kern (die Tochter, 'Nicht die ganze') zu gelangen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Für einen Augenblick sieht es aus, als wolle er etwas anderes sagen.",
+          "Keiner macht Anstalten, sich zu umarmen."
+        ],
+        "suggestions": [
+          "'sieht es aus, als wolle er etwas anderes sagen' deutet die Figur von außen, statt sie zu zeigen. Direkter wäre: 'Jonas hebt die Hand. Öffnet den Mund. Winkt dann der Bedienung.'",
+          "'Keiner macht Anstalten, sich zu umarmen' beschreibt eine Nicht-Handlung. Stärker wäre eine sichtbare Handlung: 'Sie stehen vor dem Café, die Hände in den Taschen.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Das hast du früher auch immer gesagt.",
+          "Da saßen wir immer.",
+          "Du machst das immer noch.",
+          "Du erkennst ihn also noch. / Du erinnerst dich. / Du machst das immer noch."
+        ],
+        "suggestions": [
+          "'immer' erscheint dreimal in kurzem Abstand. Mindestens eine Stelle variieren oder streichen, etwa 'Das hast du früher auch gesagt.'",
+          "Das Motiv 'Du erinnerst dich / erkennst noch / machst noch' wird mehrfach ähnlich formuliert. Als bewusstes Leitmotiv ist es wirksam, doch eine Variante weniger würde die übrigen schärfen.",
+          "'Bedienung' kommt zweimal vor. Beim zweiten Mal genügt 'um zu bestellen' oder 'winkt'."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.085108
+}

@@ -1,0 +1,99 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__gpt-6.1-sol__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 10,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "*(Mara öffnet die Tür. Jens hält eine Papiertüte.)*",
+          "**Jens:** Der Bäcker an der Ecke hat zugemacht."
+        ],
+        "suggestions": [
+          "Der Einstieg ist perfekt gewählt (In medias res). Kein langes Klingeln, kein Weg zur Tür. Die Dynamik und die vergangene Zeit zwischen den Figuren werden sofort im ersten Satz etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["den alten Weg", "Die blaue gibt es noch."],
+        "suggestions": [
+          "Herausragend. Es gibt keine überflüssigen Adjektive oder Adverbien in den Regieanweisungen. Die wenigen Adjektive im Dialog ('alte', 'blaue') tragen wichtige inhaltliche Bedeutung für die gemeinsame Vergangenheit."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["**Jens:** Ohne Zucker, bitte.", "*(Sie legt den Löffel neben seine Tasse.)*"],
+        "suggestions": [
+          "Da es sich um ein Skript-/Dramenformat handelt, fallen klassische 'sagte er'-Konstruktionen weg. Wenn der Text in Prosa umgewandelt werden sollte, reichen die vorhandenen kurzen Handlungsbeschreibungen völlig aus, um die Sprecher ohne Redebegleitsätze zu kennzeichnen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Dann habe ich mich wohl verlesen.", "Hätte ja sein können."],
+        "suggestions": [
+          "In den beschreibenden Teilen gibt es keinerlei Füllwörter. In den Dialogen werden Wörter wie 'wohl', 'ja' oder 'also' extrem gezielt und natürlich eingesetzt, um die Unsicherheit der Figuren und den Subtext zu transportieren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["*(Er nimmt den anderen Stuhl. Sie holt zwei Tassen.)*"],
+        "suggestions": [
+          "Sehr gut gelöst. Handlungen werden strikt nacheinander beschrieben, es gibt keine Konstruktionen mit 'während' oder 'gleichzeitig'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["*(Draußen fährt ein Bus vorbei.)*", "*(Sie schenkt ein.)*"],
+        "suggestions": [
+          "Alle Handlungen sind aktiv formuliert. Selbst im Dialog wird eine Passiv-Ersatzform ('Der Boden lässt sich wischen') perfekt zur Charakterisierung von Maras pragmatischer, leicht abwehrender Haltung genutzt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Setz dich. Nicht auf den Stuhl am Fenster."],
+        "suggestions": [
+          "Die Sätze sind kurz, prägnant und rhythmisch perfekt auf die angespannte, vorsichtige Atmosphäre abgestimmt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "**Mara:** Deiner?\n**Jens:** Der fährt alle zwanzig Minuten.\n**Mara:** Sonntags nur jede Stunde."
+        ],
+        "suggestions": [
+          "Meisterhafte Dialogführung. Jede Zeile besteht aus nur einem Satz, oft sogar nur aus Fragmenten. Der Subtext (Trennung, Entfremdung, verbleibende Vertrautheit) trägt die gesamte Szene, kein Wort ist zu viel."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["*(Draußen fährt ein Bus vorbei.)*"],
+        "suggestions": [
+          "Keine indirekte Wahrnehmung vorhanden. Alles wird unmittelbar und direkt im Moment erlebt ('Show, don't tell' in Reinform)."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "**Mara:** Zwei reichen nicht bis morgen. / **Mara:** Für heute reichen sie.",
+          "**Jens:** Ich war erst dort. / **Mara:** Du bist also den alten Weg gegangen."
+        ],
+        "suggestions": [
+          "Es gibt keine ungeschickten Wortwiederholungen. Das Aufgreifen des Wortes 'reichen' am Ende ist ein sehr schönes rhetorisches Stilmittel. Lediglich der Einstieg ('Ich war erst dort' -> 'den alten Weg gegangen') erklärt den Subtext minimal, funktioniert aber im Gesprächsfluss dennoch sehr gut."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.014924
+}

@@ -1,0 +1,90 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-sonnet-5.5__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel klemmte, wie er immer geklemmt hatte"],
+        "suggestions": [
+          "Der Einstieg ist exzellent, da er sofort in die Handlung und den Konflikt (das Haus betreten) führt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["blind", "ordentlich", "süß", "herb"],
+        "suggestions": [
+          "Die Adjektive sind sehr treffend und sparsam gewählt. Keine Änderungen nötig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Es gibt keine Dialoge, daher ist dieser Punkt nicht anwendbar, aber der Text ist frei von unnötigen Markern."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["ein wenig"],
+        "suggestions": [
+          "Der Text ist sehr präzise. 'Ein wenig' ist hier als Abschwächung stilistisch passend."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine überflüssigen 'während'- oder 'als'-Konstruktionen. Die Handlungsabfolge ist klar und direkt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist durchgehend aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Satzlängen sind rhythmisch gut variiert. Keine Verschachtelungen, die den Lesefluss stören."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "wartete darauf, dass der Flur sich in etwas verwandelte",
+          "Das wusste Judith genau"
+        ],
+        "suggestions": [
+          "Statt 'Das wusste Judith genau' könnte man das Wissen durch eine Erinnerung oder eine Handlung zeigen, um noch direkter zu wirken."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["klemmte, wie er immer geklemmt hatte"],
+        "suggestions": [
+          "Die Wortwiederholung 'klemmte' könnte durch 'Der Schlüssel klemmte wie eh und je' eleganter gelöst werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

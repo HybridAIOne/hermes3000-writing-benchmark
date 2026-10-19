@@ -1,0 +1,128 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__kimi-k3__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag um fünf Uhr morgens noch nicht auf dem Fluss. Er kam erst mit dem Grauen, kroch aus den Wiesen am Wendlandufer hinauf..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch extrem stark und etabliert sofort das zentrale Motiv (Nebel/Fluss) und die Protagonistin. Nach strenger Eschbach-Regel könnte man direkt bei 'Um Viertel vor sechs kam der erste Fahrgast' einsteigen, würde hier aber den wichtigen Grundton des Textes verlieren. So lassen!"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "das leise Tropfen des Seils",
+          "drehte sich sacht in den Strom",
+          "sagte Frau Mewes leise",
+          "machte sein leises Geräusch"
+        ],
+        "suggestions": [
+          "Der Text geht sehr sparsam und präzise mit Adjektiven um. Einzig das Wort 'leise' taucht dreimal auf. Hier könnte man variieren oder streichen (Tropfen ist ohnehin leise; statt 'sagte leise' eventuell 'flüsterte' oder es ganz der Atmosphäre überlassen)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Morgen, Frau Brandt.“ – „Morgen, Peters.“",
+          "„Verzeihen Sie“, sagte Frau Mewes.",
+          "„Festhalten“, sagte Ilse."
+        ],
+        "suggestions": [
+          "Exzellent gelöst. Meistens werden Action-Beats genutzt ('Das Fenster surrte herunter', 'Ilse zog am Seil') oder die Sprecher ergeben sich glasklar aus dem Kontext. Die wenigen 'sagte' sind unsichtbar und rhythmisch perfekt gesetzt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "nur ein graues Etwas",
+          "irgendwo weiter unten",
+          "dachte an nichts Bestimmtes, an Kaffee vielleicht",
+          "wo es jetzt vielleicht schon richtig Tag war"
+        ],
+        "suggestions": [
+          "Der Text ist fast frei von Füllwörtern. Die wenigen vagen Begriffe ('Etwas', 'irgendwo', 'vielleicht') sind hier stilistisch begründet, da sie die Orientierungslosigkeit im Nebel und Ilses vage Gedankenwelt spiegeln."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Frau stand schon am Steg, als die Fähre aus dem Grau auftauchte.",
+          "...war im Nebel verschwunden, bevor seine Reifen den Asphalt berührten."
+        ],
+        "suggestions": [
+          "Keine übermäßige oder falsche Gleichzeitigkeit vorhanden. Die Abläufe sind klar chronologisch und logisch geordnet."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "mit einem Helm, an dem eine kleine Kamera befestigt war",
+          "Ilse hatte den Radfahrer am Dömitzer Ufer abgesetzt und war leer zurückgezogen worden",
+          "Das Display war von Wassertropfen beschlagen."
+        ],
+        "suggestions": [
+          "Meist handelt es sich um korrektes Zustandspassiv. Bei 'war leer zurückgezogen worden' (Vorgangspassiv) ist es inhaltlich etwas unglücklich, da Ilse ja selbst am Seil zieht (auch wenn die Strömung hilft). Besser aktiv: '...und hatte die leere Fähre zurückgezogen'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse Brandt stand auf dem Steg und hörte die Fähre, bevor sie sie sah, das leise Tropfen des Seils, das Knarzen der Walzen, obwohl die Fähre an ihrem Ufer vertäut war und sich nicht rührte.",
+          "Dann war sie allein auf dem Steg, an einem Ufer, das nicht ihres war, und der Fluss machte sein leises Geräusch unter dem Boot, und irgendwo weiter unten stieß ein Schwarm Wildgänse aus dem Nebel und war sofort wieder weg, nur das Rufen blieb einen Moment hängen."
+        ],
+        "suggestions": [
+          "Es gibt einige längere Sätze, die jedoch nicht verschachtelt (Hypotaxe), sondern reihend (Parataxe mit 'und') gebaut sind. Das imitiert wunderbar das gleichmäßige Fließen des Flusses und das Ziehen am Seil. Kein Korrekturbedarf, da hohe Stilsicherheit."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Woher wissen Sie das.“ – „Radio.“ – „Hm.“",
+          "„Fährt die Fähre?“ – „Sie steht drauf.“"
+        ],
+        "suggestions": [
+          "Meisterhaft verknappte, norddeutsch-lakonische Dialoge. Jedes Wort sitzt, nichts ist zu lang."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse Brandt stand auf dem Steg und hörte die Fähre, bevor sie sie sah...",
+          "Im Nebel hörte man das Wasser unter dem Rumpf und nichts sonst.",
+          "Sechs Grad, schätzte sie...",
+          "Er lachte, weil er dachte, es sei ein Witz."
+        ],
+        "suggestions": [
+          "Sehr wenige Filterwörter. Bei 'weil er dachte, es sei ein Witz' verlässt der Text kurz Ilses Perspektive (Kameraperspektive/Innensicht des Radfahrers). Besser aus Ilses Sicht: 'Er lachte, als hätte sie einen Witz gemacht.' Auch 'Im Nebel hörte man das Wasser' könnte noch direkter sein: 'Unter dem Rumpf gluckerte das Wasser, sonst war da nichts.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Glied um Glied (4x im Text)",
+          "Sie ließ die Hände ruhen, was sie selten tat... / Sie ließ das Seil los, was sie sonst nie tat..."
+        ],
+        "suggestions": [
+          "Wiederholungen wie 'Glied um Glied' oder die 'weiße Jacke' werden als bewusste rhetorische Leitmotive eingesetzt. Lediglich die kurz aufeinanderfolgende Struktur 'was sie selten tat' und 'was sie sonst nie tat' am Ende wirkt wie eine versehentliche Doppelung. Hier sollte eine Variante gestrichen werden, um die Fallhöhe beim Loslassen des Seils für das Telefon nicht abzuschwächen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.022718
+}

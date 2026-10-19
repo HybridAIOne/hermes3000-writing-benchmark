@@ -1,0 +1,93 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Der Nebel lag so dicht über der Elbe..."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark. Man könnte noch früher einsteigen, indem man direkt mit der Handlung (Ilse im Steuerhaus) beginnt und den Nebel durch die Interaktion mit der Umgebung etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["träge ziehende", "billigem Rasierwasser"],
+        "suggestions": [
+          "Einige Adjektive sind stimmungsvoll, aber 'billigem' bei Rasierwasser ist ein Klischee. Versuche, den Geruch durch eine spezifischere Beschreibung (z.B. 'stechend', 'künstlich') zu ersetzen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Kalle", "sagte Ilse"],
+        "suggestions": [
+          "Die Marker sind meist unauffällig, aber bei 'sagte Kalle' und 'sagte Ilse' könnte man sie streichen, wenn die Rollenverteilung durch die Handlung klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["irgendwo unsichtbar", "irgendwo im weißen Nichts"],
+        "suggestions": [
+          "Das Wort 'irgendwo' wird zweimal verwendet. Hier könnte man präziser werden, z.B. 'am anderen Ufer' oder 'im Nebel'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Als Ilse vor ihn trat", "als sie das Deck betrat"],
+        "suggestions": [
+          "Die 'Als'-Konstruktionen sind solide, könnten aber teilweise durch direkte Handlungsabfolgen ersetzt werden, um das Tempo zu erhöhen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["war verschwunden", "war vergraben"],
+        "suggestions": [
+          "Statt 'war verschwunden' (Zustand) könnte man aktiver formulieren: 'Der Nebel verschluckte das andere Ufer'. Statt 'war vergraben' -> 'vergrub die Hände'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Es gab nur noch das schwarze, träge ziehende Wasser, das stählerne Deck der Fähre und das weiche Grau, das alles verschluckte."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind gut rhythmisiert. Keine dringende Notwendigkeit zur Änderung, da der Fluss der Sätze zur langsamen Stimmung der Szene passt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Morgen, Ilse“, sagte Kalle..."],
+        "suggestions": [
+          "Die Dialoge sind angenehm kurz und funktional. Hier gibt es nichts zu straffen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Ilse sah noch eine Sekunde lang auf den Namen ihres Sohnes."],
+        "suggestions": [
+          "Das ist bereits sehr direkt. Man könnte noch mehr 'Show, don't tell' wagen, indem man nur die physische Reaktion auf den Namen beschreibt, statt zu benennen, dass sie darauf sieht."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Nebel", "Grau"],
+        "suggestions": [
+          "Die Begriffe 'Nebel' und 'Grau' kommen sehr häufig vor. Das unterstreicht zwar die Atmosphäre, könnte aber durch Synonyme oder Fokus auf andere Sinneswahrnehmungen (Kälte, Geräusche) variiert werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

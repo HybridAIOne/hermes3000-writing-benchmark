@@ -1,0 +1,128 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__gpt-6-luna__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht über der Elbe, dass Ilse das andere Ufer nicht sah. Sie hörte es aber.",
+          "Ilse schob den Riegel am Fährhaus zurück und trat hinaus."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch exzellent und etabliert sofort Ort, Stimmung und Perspektive. Streng nach Eschbach („So spät wie möglich einsteigen“) könnte man direkt beim Kontakt mit den Fahrgästen beginnen, doch bei diesem ruhigen Erzähltempo ist der gewählte Einstieg genau richtig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "dumpf und verspätet",
+          "ausgefranste Stelle",
+          "Die Frau lachte leise.",
+          "Langsam setzte sich die Fähre in Bewegung."
+        ],
+        "suggestions": [
+          "Adjektive und Adverbien werden sehr präzise und sparsam eingesetzt. Lediglich an wenigen Stellen könnten stärkere Verben genutzt werden: Statt „lachte leise“ z. B. „schmunzelte“ oder „gluckste“; statt „setzte sich langsam in Bewegung“ z. B. „schob sich schwerfällig vom Ufer“."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ilse nickte. „Morgen.“",
+          "„Fünf Minuten“, sagte sie.",
+          "„Dann haben Sie Glück“, sagte Ilse."
+        ],
+        "suggestions": [
+          "Sehr gute Nutzung von Action-Beats (Handlungen statt Redebegleitsätzen) und klaren Sprecherwechseln. Das „sagte sie“ bei „Fünf Minuten“ sowie das „sagte Ilse“ nach dem Blick über die Schulter sind durch den Kontext bereits eindeutig und könnten komplett gestrichen werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Irgendwo dahinter schlug eine Kirchturmuhr...",
+          "Sie standen in einigem Abstand voneinander...",
+          "Die Frau war vielleicht Anfang vierzig..."
+        ],
+        "suggestions": [
+          "Der Text ist bemerkenswert frei von Füllwörtern. Die wenigen vagen Begriffe („vielleicht“, „irgendwo“) passen organisch zur personalen Perspektive von Ilse. „In einigem Abstand“ könnte noch etwas konkreter gefasst werden (z. B. „ein paar Schritte voneinander entfernt“)."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ilse legte den Riegel vor, löste die Fähre vom Anleger und griff nach dem Handrad.",
+          "Am Steg legte sie an, stieg hinunter und kontrollierte die Leine."
+        ],
+        "suggestions": [
+          "Ausgezeichnet. Handlungen werden konsequent nacheinander beschrieben. Es gibt keine künstlichen Gleichzeitigkeits-Konstruktionen mit „während“."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Nichts, was nicht schon gestern ausgefranst gewesen wäre.",
+          "Ilse wartete, bis ihre Schritte nicht mehr zu hören waren."
+        ],
+        "suggestions": [
+          "Der Text ist durchgängig aktiv formuliert. Es gibt kein einziges echtes Vorgangspassiv, das den Lesefluss bremst."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Das taten sie auch nicht.",
+          "Sie schob sich über den Fluss, den Ilse nicht sehen konnte, nur hörte: ein leises Drängen am Bug, das Knacken der Planken unter ihren Stiefeln, das Wasser, das gegen die Bordwand lief."
+        ],
+        "suggestions": [
+          "Hervorragender Satzrhythmus. Kurze, lakonische Sätze (passend zur Protagonistin) wechseln sich harmonisch mit etwas längeren, atmosphärischen Beschreibungen ab, ohne je verschachtelt zu wirken."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ist die Verbindung gut?“, fragte er. – „Welche?“ – „Der Empfang.“ – Ilse deutete auf die Fähre. „Das hier ist kein Mobilfunkmast.“",
+          "„Und wann ist das?“ – „Wenn Schluss ist.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind auf den Punkt, extrem knapp und charakterisieren Ilse meisterhaft, ohne ein Wort zu viel zu verlieren."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 7,
+        "examples": [
+          "...dass Ilse das andere Ufer nicht sah. Sie hörte es aber.",
+          "...den Ilse nicht sehen konnte, nur hörte...",
+          "Sie schien auf eine Antwort zu warten.",
+          "...ein tieferes Surren, das Ilse in den Handflächen spürte.",
+          "Sie sah ihm nach, bis sie es nicht mehr erkennen konnte."
+        ],
+        "suggestions": [
+          "Hier liegt das einzige kleine Verbesserungspotenzial auf hohem Niveau. Filterwörter wie „sah“, „hörte“, „spürte“ und „schien“ schaffen eine leichte Distanz zur Perspektivfigur. Besser direkt beschreiben: Statt „ein tieferes Surren, das Ilse in den Handflächen spürte“ lieber „ein tieferes Surren kribbelte in ihren Handflächen“. Statt „Sie schien auf eine Antwort zu warten“ lieber den konkreten Gesichtsausdruck beschreiben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...über den Fluss, den Ilse nicht sehen konnte, nur hörte... (wiederholt genau die Information aus Satz 1 und 2)",
+          "Sie standen in einigem Abstand voneinander, als gehörten sie nicht zusammen. Das taten sie auch nicht."
+        ],
+        "suggestions": [
+          "Die Information, dass Ilse das Ufer/den Fluss wegen des Nebels nicht sehen, sondern nur hören kann, wird zweimal fast identisch erklärt. Beim zweiten Mal reicht es, direkt die Geräusche zu beschreiben („Ein leises Drängen lag am Bug...“). Zudem gibt es viele „als ob“-Konstruktionen (vier Stück im kurzen Text: „als hätte auch sie“, „als gehörten sie“, „als müsste er“, „als hätte er“), die als stilistisches Muster auffallen und reduziert werden könnten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021236
+}

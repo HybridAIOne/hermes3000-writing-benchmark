@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-haiku-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein Café am Hafen. Regen am Fenster."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch dicht und setzt sofort den Ton. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["langsam näher", "lang und dunkel"],
+        "suggestions": [
+          "Das 'langsam' bei 'kommt sie langsam näher' könnte durch ein stärkeres Verb ersetzt werden, z.B. 'schleicht' oder 'zögert', um die Stimmung zu unterstreichen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Da es sich um ein Skript handelt, ist das Fehlen von Redeeinleitungen korrekt und stilistisch sauber."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Füllwörter gefunden. Der Text ist sehr prägnant."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Die Handlungen sind klar sequenziell strukturiert. Sehr gut."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Passivkonstruktionen vorhanden."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die kurzen, abgehackten Sätze unterstützen die angespannte Atmosphäre perfekt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Dialoge sind kurz und treffend. Das Schweigen zwischen den Zeilen wirkt stark."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Er sieht es, sagt nichts."],
+        "suggestions": [
+          "Statt 'Er sieht es' (indirekt) könnte man die Reaktion zeigen: 'Sein Blick folgt ihren Fingern, dann starrt er wieder in die Tasse.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Ich hab die Karte bekommen.", "Ich hab gesehen."],
+        "suggestions": [
+          "Die Wiederholungen wirken hier beabsichtigt, um die soziale Unbeholfenheit zu betonen. Dennoch könnte man eine der 'Ich hab'-Formulierungen variieren, um den Rhythmus leicht zu brechen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

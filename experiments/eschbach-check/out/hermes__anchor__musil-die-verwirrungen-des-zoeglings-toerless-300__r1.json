@@ -1,0 +1,102 @@
+{
+  "who": "hermes",
+  "item": "anchor__musil-die-verwirrungen-des-zoeglings-toerless-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Die ersten zwei Absätze beschreiben rein die Umgebung, bevor eine Handlung oder Figur eingeführt wird."
+        ],
+        "suggestions": [
+          "Den Einstieg straffen und die Umgebung durch die Augen einer Figur wahrnehmen lassen, um schneller in die Handlung zu kommen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "schmutziger Schatten",
+          "niederen, ölgestrichenen Stationsgebäude",
+          "traurig mit verdursteten, von Staub und Ruß erdrosselten Blättern",
+          "bleiche, kraftlose, durch den Dunst ermüdete Licht"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist extrem hoch. Viele Adjektive (z.B. 'traurig', 'schmutzig') durch stärkere Verben oder präzisere Substantive ersetzen, die das Bild von selbst erzeugen (Show, don't tell)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": []
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["vielleicht", "etwas"],
+        "suggestions": [
+          "Die Füllwörter sind sparsam eingesetzt, können aber in den Dialogen (sofern welche folgen) noch weiter reduziert werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": [
+          "Die Gleichzeitigkeit der Handlungen ist gut gelöst, ohne durch 'während' oder 'gleichzeitig' den Lesefluss zu stören."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist erfreulich aktiv formuliert. Die wenigen passiven Konstruktionen sind stilistisch vertretbar."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Der Absatz über den Bahnhofsvorstand besteht aus einem extrem langen Satz mit vielen Einschüben und Nebensätzen."
+        ],
+        "suggestions": [
+          "Lange Sätze aufbrechen. Besonders den Satz über den Bahnhofsvorstand in zwei oder drei kürzere Sätze unterteilen, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": []
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "schien schon auf wenige Schritte zu verstummen",
+          "als seien sie aus der Szene eines Puppentheaters genommen"
+        ],
+        "suggestions": [
+          "Die Wahrnehmung ist sehr stark durch einen distanzierten Erzähler gefiltert. Direktere Beobachtungen würden die Szene lebendiger machen."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "traurige Farben / traurige Augen",
+          "gleiche Intervallen / gleichen Wendung / gleichen Bewegung"
+        ],
+        "suggestions": [
+          "Wortwiederholungen in kurzem Abstand vermeiden. Synonyme finden oder die Sätze umstellen, um den Wortklang zu variieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

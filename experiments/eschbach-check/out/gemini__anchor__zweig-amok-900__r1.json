@@ -1,0 +1,132 @@
+{
+  "who": "gemini",
+  "item": "anchor__zweig-amok-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Im März des Jahres 1912 ereignete sich im Hafen von Neapel... (langer einleitender Rahmenbericht)",
+          "Als ich in der Schiffsagentur von Kalkutta einen Platz für die Rückreise nach Europa auf der »Oceania« bestellen wollte..."
+        ],
+        "suggestions": [
+          "Nach modernen Maßstäben (In medias res) beginnt der Text zu früh. Der Ticketkauf in Kalkutta und die ersten drei Tage an Bord sind Exposition. Die eigentliche Szene beginnt erst im letzten Drittel: 'Als ich aufwachte, war es ganz dunkel und dumpf in dem kleinen Sarg der Kabine.'",
+          "Die Informationen über die Enge des Schiffs und den Ticketkauf könnten als kurze Rückblende in die nächtliche Szene auf dem Deck integriert werden."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "ein kleiner, gepreßter, rechteckiger Winkel",
+          "Die stockende, verdickte Luft",
+          "mit der flackernden Nervosität eingesperrter Untätigkeit unausgesetzt plaudernd",
+          "so strahlend, so stahlblau hart und doch funkelnd, triefend, rauschend, quellend von Licht"
+        ],
+        "suggestions": [
+          "Der Text nutzt extrem viele Adjektive und Partizipien (typisch für den Stil der literarischen Moderne/Stefan Zweig). Nach Eschbachs Regeln bremst dies jedoch den Lesefluss.",
+          "Mehrfachattribute streichen und sich für das treffendste Wort entscheiden (z.B. statt 'kleiner, gepreßter, rechteckiger Winkel' nur 'gepreßter Winkel').",
+          "Manche Adverbien sind redundant: 'plötzlich mit allen Farben jäh übergossen' (plötzlich = jäh)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Er wisse noch nicht, ob es möglich sei, mir eine Kabine zu sichern... (indirekte Rede ohne unnötige Marker)"
+        ],
+        "suggestions": [
+          "Im Text gibt es keine direkte wörtliche Rede, die durch klobige Inquits ('sagte er') gestört wird. Die indirekte Rede des Clerks ist elegant gelöst."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "tat mir irgendwie weh",
+          "Meine Sinne waren irgendwie betäubt",
+          "das irgendwie aus einem geheimnisvollen Innen zu brennen schien",
+          "Mitternacht mußte jedenfalls schon vorbei sein",
+          "freilich sei es nur eine wenig komfortable Kabine"
+        ],
+        "suggestions": [
+          "Das Wort 'irgendwie' wird dreimal verwendet und wirkt sehr unpräzise. Es sollte ersatzlos gestrichen oder durch eine genaue Beschreibung der Empfindung ersetzt werden.",
+          "Füllwörter wie 'jedenfalls', 'immerhin', 'freilich' und 'ziemlich/wenig' reduzieren, um den Text direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Als ich in der Schiffsagentur... bestellen wollte, zuckte der Clerk...",
+          "während des Kohlenladens und der Löschung der Fracht",
+          "Und wie ich den Blick aufhob..., drang mit einmal magische Helle mir in die Augen."
+        ],
+        "suggestions": [
+          "Gleichzeitigkeit wird hier meist organisch genutzt, um Atmosphäre zu schaffen. Dennoch könnte der Satz 'Und wie ich den Blick aufhob, drang...' noch unmittelbarer wirken, wenn die Handlungen nacheinander stehen: 'Ich hob den Blick über den dünstenden Turm des Schornsteins. Magische Helle drang mir in die Augen.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "einzig vom trüben Blick der kreisrunden Glasscheibe erhellt (Zustandspassiv)",
+          "alle Konturen waren aufgelöst (Zustandspassiv)"
+        ],
+        "suggestions": [
+          "Der Text ist trotz seiner beschreibenden Natur sehr aktiv formuliert und nutzt starke Verben (ratterte, stöhnte, flüchtete, schwälte). Die wenigen Passivkonstruktionen sind stilistisch gerechtfertigt."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Obzwar Passagier der »Oceania«, war es mir ebensowenig wie den andern möglich, Zeuge jenes seltsamen Vorfalles zu sein, weil er sich zur Nachtzeit während des Kohlenladens und der Löschung der Fracht abspielte, wir aber, um dem Lärm zu entgehen, alle an Land gegangen waren und dort in Kaffeehäusern oder Theatern die Zeit verbrachten.",
+          "Nie hatte ich den Himmel gesehen wie in jener Nacht, so strahlend, so stahlblau hart und doch funkelnd, triefend, rauschend, quellend von Licht, das vom Mond verhangen niederschwoll und von den Sternen und das irgendwie aus einem geheimnisvollen Innen zu brennen schien."
+        ],
+        "suggestions": [
+          "Der Text enthält sehr komplexe Schachtelsätze (Hypotaxen). Besonders der erste Absatz besteht aus nur drei extrem langen Sätzen.",
+          "Lange Sätze öfter durch Punkte trennen, um das Lesetempo zu erhöhen und die Verständlichkeit zu erleichtern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine überlangen Dialogpassagen vorhanden. Das Gespräch im Reisebüro wird sehr effizient in indirekter Rede zusammengefasst."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "von oben hörte man unaufhörlich das schlurfende Hin und Her der Schritte",
+          "Immerhin meine ich persönlich, daß manche Vermutungen...",
+          "denn ich hörte weder Musik noch den rastlosen Schlurf der Schritte"
+        ],
+        "suggestions": [
+          "Die Wahrnehmung ist größtenteils sehr direkt und immersiv ('Die stockende, verdickte Luft roch nach Öl').",
+          "Stellen wie 'von oben hörte man das Hin und Her der Schritte' könnten noch direkter sein: 'Über der Decke schlurften unaufhörlich Schritte hin und her.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Wortwiederholungen zur Hektik: 'unablässig', 'unaufhörlich', 'unausgesetzt', 'rastlos'",
+          "Inhaltliche Doppelung (Enge/Unruhe auf dem Deck): 'voll Enge und Unruhe' -> 'flatterte und flirrte' -> 'Engpaß des Decks' -> 'in schwatzhafter Unruhe vorbeiwogte' -> 'gedrängten Boulevard' -> 'keine Ruhe und Rast'.",
+          "Inhaltliche Doppelung (Strahlen des Himmels im letzten Absatz): 'magische Helle' -> 'Der Himmel strahlte' -> 'er strahlte' -> 'ungeheures Licht' -> 'unbeschreiblich Helle' -> 'so strahlend' -> 'flutenden Glanz'."
+        ],
+        "suggestions": [
+          "Der Autor nutzt Wiederholungen und Variationen als rhetorisches Stilmittel zur Verstärkung (Amplificatio). Nach Eschbachs Kriterien für ökonomisches Schreiben sind dies jedoch Redundanzen.",
+          "Die Beschreibung der Unruhe an Deck (Absatz 4) und des leuchtenden Himmels (letzter Absatz) könnte jeweils um die Hälfte gekürzt werden, ohne dass die Bildkraft verloren geht."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.024382
+}

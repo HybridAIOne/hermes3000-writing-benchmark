@@ -1,0 +1,144 @@
+{
+  "who": "sol",
+  "item": "lit-continue__claude-haiku-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Sie antwortete nicht.“",
+          "„Sie hatte ihn gesehen, als die Fähre in der Biegung gelegen hatte.“"
+        ],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Die verweigerte Antwort erzeugt Spannung, ohne Vorgeschichte voranzustellen.",
+          "Prüfen, ob die Rückblende auf Ilses demonstratives Wegsehen verkürzt werden kann. Sie erklärt die Beziehung, unterbricht aber kurz den gegenwärtigen Konflikt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„feucht und schwer“",
+          "„ruhig und gleichgültig, wie er es seit Jahrhunderten tat“",
+          "„fluchte leise, nur für sich“"
+        ],
+        "suggestions": [
+          "Sinnliche Angaben wie „feucht und schwer“ erhalten: Sie machen die Arbeit mit der Leine körperlich erfahrbar.",
+          "Bei „ruhig und gleichgültig“ prüfen, ob „gleichgültig“ allein die gewünschte Wirkung trägt. Die anschließende Jahrhundertformel verstärkt dieselbe Aussage zusätzlich.",
+          "„fluchte leise“ genügt vermutlich; „nur für sich“ wiederholt weitgehend die Wirkung."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Motor läuft\", sagte sie schließlich.",
+          "„Ich hab dir geschrieben\", sagte Jonas.",
+          "„Kaffee gibt es später\", sagte sie."
+        ],
+        "suggestions": [
+          "Die erste Sprecherzuordnung beibehalten; sie gibt nach dem szenischen Einstieg Orientierung.",
+          "„sagte Jonas“ ist nach der Rückblende hilfreich. Dagegen lässt sich bei „Kaffee gibt es später“ die Kennzeichnung streichen, weil der vorherige Absatz Ilse bereits eindeutig als Sprecherin etabliert."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ilse sah ihm zu und empfand dabei nichts“",
+          "„Vielleicht eine Müdigkeit“",
+          "„Ich dachte, wir gehen erst mal hoch.“"
+        ],
+        "suggestions": [
+          "„dabei“ lässt sich ohne Bedeutungsverlust streichen.",
+          "„Vielleicht“ hier nicht mechanisch entfernen: Das Wort vermittelt Ilses Unsicherheit über das eigene Empfinden.",
+          "„erst mal“ im Dialog erhalten, sofern Jonas' beiläufiger Versuch, den Ablauf vorzugeben, beabsichtigt ist."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Sie hatte ihn gesehen, als die Fähre in der Biegung gelegen hatte.“",
+          "„als gäbe es am Ufer nichts, das wichtig war“",
+          "„und war erst angelegt, als das Schiff ruhig im Wasser lag“"
+        ],
+        "suggestions": [
+          "Die Häufung von „als“ im Rückblendenabsatz etwas auflockern, etwa: „Die Fähre lag noch in der Biegung. Am Ufergeländer stand er …“",
+          "„als gäbe es“ nicht als unnötige Gleichzeitigkeit behandeln: Die Formulierung beschreibt Ilses demonstrative Haltung.",
+          "Die Abfolge beim Anlegen klären. „Sie legte erst an, als …“ ist sprachlich klarer; zugleich sollte deutlich werden, welche Bewegung des Schiffs gemeint ist."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Jonas zog den Koffer näher“",
+          "„Sie löste die Leine vom Poller“",
+          "„die Henning im letzten Frühjahr noch gestrichen hatte“"
+        ],
+        "suggestions": [
+          "Die aktive Erzählweise beibehalten. Es gibt keine auffälligen Passivkonstruktionen, die umformuliert werden müssten."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Ilse betrachtete den Koffer, seine Schuhe, die für Bohlen nicht taugten, und sein Gesicht, das dem ihres Mannes ähnlicher sah, als ihr lieb war, wenn er die Stirn so in Falten legte.“",
+          "„Vom Deich wehte der Wind Gras und Salz herunter, und oben, hinter dem Weidenzaun, stand das Haus mit den grünen Läden, die Henning im letzten Frühjahr noch gestrichen hatte.“"
+        ],
+        "suggestions": [
+          "Den Satz über Ilses Musterung teilen: „Ilse betrachtete den Koffer und seine Schuhe, die für Bohlen nicht taugten. Dann sein Gesicht. Wenn er die Stirn so in Falten legte, sah er ihrem Mann ähnlicher, als ihr lieb war.“",
+          "Beim Haus einen neuen Satz beginnen: „Vom Deich wehte der Wind Gras und Salz herunter. Oben hinter dem Weidenzaun stand das Haus …“",
+          "Nicht alle längeren Sätze kürzen: Ihr ruhiger Rhythmus passt zur zurückgehaltenen Spannung. Vorrang haben Sätze mit mehreren ineinanderliegenden Bezügen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ich habe deine Nachricht gelesen.“ – „Und?“",
+          "„Mama, ich bin seit sechs Uhr unterwegs, ich hab im Zug kaum...“",
+          "„Der Fluss hat keinen Fahrplan.“"
+        ],
+        "suggestions": [
+          "Die knappen Wechsel und Jonas' abgebrochenen Einwand beibehalten. Sie zeigen das Machtverhältnis ohne erklärende Gesprächsblöcke.",
+          "Keine pauschale Straffung nötig: Auch Jonas' längster Beitrag verbindet seinen Plan mit einer klaren Erwartung an Ilse."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Ilse sah ihm zu und empfand dabei nichts, was sie hätte benennen können.“",
+          "„Sie hatte ihn gesehen, als die Fähre in der Biegung gelegen hatte.“",
+          "„Es war kindisch. Sie wusste es.“"
+        ],
+        "suggestions": [
+          "Die Rückblende könnte unmittelbarer einsetzen: „Die Fähre hatte noch in der Biegung gelegen. Am Ufergeländer: ein dunkler Mantel, eine Hand über den Augen gegen die Sonne.“",
+          "„Sie wusste es“ probeweise streichen. „Es war kindisch“ kann innerhalb der Figurenperspektive bereits als Ilses Selbsturteil wirken.",
+          "Ilses unbestimmtes Empfinden nicht zwanghaft durch sichtbare Gesten ersetzen: Gerade ihre fehlende Benennbarkeit charakterisiert die emotionale Blockade."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„fluchte leise, nur für sich“",
+          "„Es war kindisch. Sie wusste es.“",
+          "„Der Motor läuft“ – „Er läuft, weil du ihn jeden Morgen anschiebst.“"
+        ],
+        "suggestions": [
+          "Die kleinen erklärenden Doppelungen „nur für sich“ und gegebenenfalls „Sie wusste es“ reduzieren.",
+          "Die Wiederholung von „läuft“ beibehalten: Jonas greift Ilses Aussage auf und wendet sie gegen sie.",
+          "Wiederkehrende Motive wie Leine, Fluss und Fähre erhalten. Sie strukturieren die Szene und sind keine bloßen Informationsdoppelungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021404
+}

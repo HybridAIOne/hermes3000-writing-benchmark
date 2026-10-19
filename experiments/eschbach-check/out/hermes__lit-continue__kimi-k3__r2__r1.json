@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Der Motor läuft“, sagte sie."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort in die Handlung und den Konflikt wirft. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["leichtes Schwanken", "bräunlich und schnell"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und passend gewählt. Sie unterstützen die Atmosphäre, ohne den Text zu überladen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte sie", "fragte sie"],
+        "suggestions": [
+          "Die Kennzeichnungen sind unauffällig. Man könnte bei „Er klingt seit zwanzig Jahren so.“ das „sagte sie“ streichen, da der Sprecherwechsel durch den Kontext klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr präzise und kommt ohne unnötige Füllwörter aus."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Keine übermäßige Verwendung von 'während' oder 'als'. Die Handlungsabfolge ist klar strukturiert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist fast ausschließlich aktiv formuliert, was die Dynamik der Szene unterstützt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Nicht weil sie sich gefreut hätte – die Freude war da, aber sie war vorsichtig mit ihr, wie mit einer Flamme bei Wind –, sondern weil es so gehörte."
+        ],
+        "suggestions": [
+          "Der Satz ist komplex, aber rhythmisch gut. Er unterstreicht den inneren Monolog. Keine Änderung erforderlich."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind kurz, knackig und charakterisierend. Sehr gut umgesetzt."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["ohne es zu wissen"],
+        "suggestions": [
+          "Dies ist eine indirekte Wahrnehmung/Erklärung. Man könnte das Gefühl durch eine konkrete körperliche Reaktion (z.B. 'ihre Schultern sanken ab') noch stärker zeigen statt zu erklären."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["rüber und wieder rüber"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier stilistisch beabsichtigt und passen zum Rhythmus der Arbeit der Protagonistin. Gut eingesetzt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

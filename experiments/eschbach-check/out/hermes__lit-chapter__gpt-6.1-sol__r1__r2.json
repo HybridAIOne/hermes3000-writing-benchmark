@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6.1-sol__r1",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel hing so tief, dass Ilse das andere Ufer nicht sah."],
+        "suggestions": ["Der Einstieg ist atmosphärisch und direkt. Keine Änderung nötig."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["grauer Streifen", "gelblich und schmal"],
+        "suggestions": ["Die Adjektive sind sehr sparsam und präzise eingesetzt. Beibehalten."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Morgen“, sagte der Mann", "„Noch mit?“, fragte die Frau"],
+        "suggestions": [
+          "Die Kennzeichnungen sind unaufdringlich. Bei den kurzen Dialogen könnte man sie teilweise noch weiter reduzieren, wenn der Sprecherwechsel klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist frei von unnötigen Füllwörtern. Sehr gute Arbeit."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["als sie die Tür aufschloss", "als hätte er eine andere Antwort erwartet"],
+        "suggestions": [
+          "Die Verwendung von 'als' ist korrekt. Um den Text noch dynamischer zu machen, könnten einige 'als'-Konstruktionen in zwei aufeinanderfolgende Hauptsätze umgewandelt werden (z.B. 'Sie schloss die Tür auf. Ein Tropfen fiel ihr in den Kragen.')."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["ohne dass ein Rumpf sichtbar wurde"],
+        "suggestions": [
+          "Der Text ist sehr aktiv. Das Passiv wird nur dort eingesetzt, wo es sinnvoll ist."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Satzlängen sind abwechslungsreich und unterstützen den Rhythmus der Szene."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind kurz, funktional und passen perfekt zur Stimmung."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Hervorragend. Es gibt keine 'er sah, dass'-Konstruktionen. Die Wahrnehmung ist direkt und unmittelbar."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr prägnant. Keine inhaltlichen Doppelungen gefunden."]
+      }
+    }
+  },
+  "costUsd": 0
+}

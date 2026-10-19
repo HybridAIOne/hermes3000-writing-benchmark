@@ -1,0 +1,157 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Fluss, dass Ilse das andere Ufer nur wusste, nicht sah.",
+          "Sie stand im Steuerhaus, die Hände um den Becher, und wartete, bis der Tee so weit abgekühlt war, dass man ihn trinken konnte.",
+          "In der Jackentasche vibrierte das Telefon."
+        ],
+        "suggestions": [
+          "Den ersten Satz beibehalten: Er etabliert Atmosphäre, Perspektive und das später wiederkehrende Motiv des Wissens ohne Hinsehen.",
+          "Die Wartepassage mit dem Tee lässt sich kürzen: „Im Steuerhaus hielt Ilse den Becher zwischen den Händen. Der Tee war noch zu heiß.“",
+          "Falls der Telefonanruf den zentralen Konflikt eröffnet, prüfen, ob die vorherige Passagieraufnahme etwas gestrafft werden kann. Der ruhige Einstieg erfüllt allerdings eine erkennbare Funktion: Er zeigt Ilses Routine vor der Störung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Um zehn nach hörte sie Schritte, schnelle, kleine.",
+          "Frau Wulf sah kurz zu ihr herüber und dann taktvoll weg.",
+          "Irgendwo flussabwärts rief ein Graureiher, rau und uninteressiert.",
+          "ein langer nasser Strich"
+        ],
+        "suggestions": [
+          "Die überwiegend konkreten, sinnlichen Attribute beibehalten; sie tragen die Atmosphäre, statt sie nur auszuschmücken.",
+          "„taktvoll“ probeweise streichen: Das anschließende Wegsehen vermittelt die Rücksicht bereits.",
+          "„schnelle, kleine“ präzisieren, falls damit die Schrittfolge gemeint ist: „Um zehn nach trappelten Schritte auf der Rampe.“",
+          "„uninteressiert“ als subjektive Färbung von Ilses Wahrnehmung prüfen: Es charakterisiert weniger den Ruf als ihre Deutung davon."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Moin, Ilse.“ / „Moin.“",
+          "Ilse hob die Schultern. „Gegen zehn.“",
+          "„Ja“, sagte Ilse. „Ist es.“",
+          "„Wollen Sie nicht rangehen?“, fragte der Junge."
+        ],
+        "suggestions": [
+          "Die weitgehend unmarkierten Wechsel und die Sprecherzuordnung durch Handlungen beibehalten.",
+          "Bei „‚Ja‘, sagte Ilse. ‚Ist es.‘“ ist die Kennzeichnung für die Zuordnung entbehrlich. Sie kann jedoch als bewusste Sprechpause stehen bleiben.",
+          "„fragte der Junge“ beibehalten: Nach der längeren Erzählpassage und bei mehreren anwesenden Figuren erleichtert die Kennzeichnung die Orientierung."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "bis der Tee so weit abgekühlt war, dass man ihn trinken konnte",
+          "Dann, nach einer Minute vielleicht, summte es noch einmal kurz und kürzer, eine Nachricht.",
+          "„Ob das heute noch was wird mit der Sicht?“"
+        ],
+        "suggestions": [
+          "Die umständliche Temperaturangabe verkürzen, etwa zu „bis der Tee trinkbar war“.",
+          "Bei „nach einer Minute vielleicht“ entscheiden, ob die ungenaue Zeitwahrnehmung wichtig ist. Andernfalls genügt „Nach einer Minute“.",
+          "Umgangssprachliche Wörter wie „was“, „doch“ und „ja“ in den Dialogen nicht pauschal streichen: Sie schaffen hier glaubwürdige Stimmen und charakterisieren die Beziehungen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Bin für die Heizung bei Hoppes“, sagte er, als müsse er sich ausweisen.",
+          "Sie stellte den Becher auf die Fensterbank, zog die Mütze tiefer und ging hinaus.",
+          "„Schön ist das“, sagte Frau Wulf leise, wie jedes Mal, wenn sie draußen waren und nichts mehr sahen als Grau."
+        ],
+        "suggestions": [
+          "Die klare Abfolge der Handlungen beibehalten; künstliche Gleichzeitigkeit ist kein auffälliges Problem.",
+          "Die „als“-Konstruktionen nicht schematisch entfernen: „als müsse er sich ausweisen“ und die Nebelvergleiche drücken Vergleiche aus, keine zeitliche Überlagerung.",
+          "Den Zusatz zu Frau Wulfs Ausspruch nur dann abtrennen, wenn eine stärkere Pause gewünscht ist: „Das sagte sie jedes Mal, wenn draußen nur noch Grau war.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie ging zur Winde, löste die Kette und zog die Rampe hoch.",
+          "Das Eisen knirschte, dann rastete es ein.",
+          "Die Schrift war verblasst, aber sie brauchte ihn nicht mehr zu lesen."
+        ],
+        "suggestions": [
+          "Die aktive, konkrete Darstellung beibehalten; störende Passivkonstruktionen sind nicht erkennbar.",
+          "„Die Schrift war verblasst“ nicht als Passiv behandeln: Die Form bezeichnet hier einen eingetretenen Zustand und ist unproblematisch."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie wartete bis Viertel nach, wie es auf dem Plan stand, den ihr Mann vor dreißig Jahren geschrieben und hinter Glas an die Steuerhauswand gehängt hatte.",
+          "Frau Wulf musterte ihn und fragte, ob er Henrik aus der Neunten sei, und er sagte, nein, Henriks Bruder, und sie sagte, das habe sie sich gedacht.",
+          "Ilse drehte das Ruder um eine Handbreit und sah in den Nebel, aus dem langsam, Stück für Stück, die dunkle Linie des Ufers auftauchte."
+        ],
+        "suggestions": [
+          "Den Satz über den Fahrplan bei Bedarf teilen: „Sie wartete bis Viertel nach, wie es auf dem Plan stand. Ihr Mann hatte ihn vor dreißig Jahren geschrieben und hinter Glas an die Steuerhauswand gehängt.“",
+          "Die Kette aus „und … und … und“ beim Gespräch über Henrik kürzen, sofern sie nicht bewusst Frau Wulfs Redefluss nachbilden soll.",
+          "Den Schlusssatz eher beibehalten: Seine Länge und die Einschübe unterstützen das allmähliche Auftauchen des Ufers."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Fährt die?“ / „Wenn einer drauf ist.“ / „Dann bin ich einer.“",
+          "„Der Bus ist ausgefallen“, sagte er. „Wieder mal.“",
+          "„Wollen Sie nicht rangehen?“ / „Nein.“ / „Könnte wichtig sein.“ / „Ist es nicht.“"
+        ],
+        "suggestions": [
+          "Die knappen Wechsel beibehalten: Sie charakterisieren Ilse durch Auslassungen und Abwehr, ohne ihre Haltung auszuerklären.",
+          "Falls die gesamte Szene gekürzt werden soll, eher einen der vorbereitenden Gesprächsblöcke straffen, statt die einzelnen Repliken weiter zu verkürzen.",
+          "Den Dialog zum Telefon nicht kürzen: Die wenigen Sätze machen Ilses Verweigerung unmittelbar sichtbar."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Um zehn vor sieben hörte sie den ersten Motor oben auf dem Deich.",
+          "Ilse stand am Ruder und fühlte, wie die Strömung am Boden zog.",
+          "Sie fühlte es in den Knien, in den Handflächen, im Rücken.",
+          "Sie wusste, was auf dem Display stand, ohne hinzusehen, so wie sie wusste, wo das andere Ufer lag."
+        ],
+        "suggestions": [
+          "Einzelne Wahrnehmungsfilter probeweise entfernen: „Um zehn vor sieben knatterte oben auf dem Deich der erste Motor.“ Dabei nur eine zum gemeinten Motor passende Klangbeschreibung wählen.",
+          "Die körperliche Wahrnehmung direkter fassen: „Die Strömung zog am Boden. Ilse spürte sie in den Knien, in den Handflächen, im Rücken.“",
+          "Die Wissensformulierungen am Anfang und beim Telefon beibehalten: Sie verknüpfen die äußere Orientierung mit dem unausgesprochenen Konflikt.",
+          "„Er sah sie an, um zu prüfen, ob das ein Scherz war“ auf Perspektivtreue prüfen. Aus Ilses Sicht wäre vorsichtiger: „Er sah sie an, als warte er auf ihr Lachen.“"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Drei, dachte Ilse. Mehr kamen nicht, im November kamen selten mehr.",
+          "wie früher. Wie früher.",
+          "Sie fühlte es in den Knien, in den Handflächen, im Rücken.",
+          "Man hätte es ihr nicht erklären müssen. Man hätte sie blind auf das Wasser setzen können, sie hätte die Mitte gefunden."
+        ],
+        "suggestions": [
+          "Die Aussage zur Passagierzahl bündeln: „Drei, dachte Ilse. Mehr kamen im November selten.“",
+          "Bei der Darstellung ihrer Erfahrung prüfen, ob die körperlichen Details und das Bild vom blinden Finden der Flussmitte genügen. „Man hätte es ihr nicht erklären müssen“ ist daneben die entbehrlichste Aussage.",
+          "„Wie früher. Wie früher.“ als bewusstes gedankliches Stocken beibehalten, sofern die Vergangenheit im weiteren Text Bedeutung gewinnt.",
+          "Die wiederkehrenden Motive Nebel, Seil und Wissen ohne Hinsehen nicht mit bloßen Doppelungen verwechseln: Sie geben der Szene Zusammenhalt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.028528
+}

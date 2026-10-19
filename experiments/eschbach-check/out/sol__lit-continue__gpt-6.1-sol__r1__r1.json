@@ -1,0 +1,137 @@
+{
+  "who": "sol",
+  "item": "lit-continue__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Geht auch so“, sagte sie.", "Jonas sah hinauf zum Seil."],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Er führt ohne Vorrede in eine bereits laufende Begegnung.",
+          "Allenfalls prüfen, ob die Kindheitserinnerung zur verweigerten Kapuze etwas später stehen könnte. Sie verzögert die räumliche Orientierung, vermittelt aber früh Ilses Vertrautheit mit Jonas."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Am anderen Ufer hielt ein weißer Lieferwagen.",
+          "An der rechten Sohle löste sich ein schmaler Streifen, kaum sichtbar.",
+          "Er sagte es zu schnell."
+        ],
+        "suggestions": [
+          "Die überwiegend gezielten Attribute beibehalten: Sie machen Gegenstände und Beziehungssignale anschaulich.",
+          "„kaum sichtbar“ probeweise streichen. Der „schmale Streifen“ vermittelt die Unauffälligkeit bereits; der Zusatz betont allerdings auch Ilses aufmerksamen Blick."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Bis kein Wind mehr geht.“ / „Die Strömung bleibt.“",
+          "„Hast du nichts anderes mit?“, fragte sie.",
+          "„Stell den Koffer ins Steuerhaus“, sagte sie."
+        ],
+        "suggestions": [
+          "Die weitgehend unmarkierten Sprecherwechsel beibehalten; sie halten den Dialog knapp.",
+          "Bei „Hast du nichts anderes mit?“ lässt sich „fragte sie“ versuchsweise streichen, weil Ilse unmittelbar zuvor handelt.",
+          "Die Kennzeichnung am Schluss kann als ruhiger Abschluss stehen bleiben; nicht jede eindeutige Zuordnung muss gestrichen werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Zwanzig Minuten vielleicht.“",
+          "„Weiß ich doch nicht.“",
+          "Das Einrasten war über dem Wasser deutlich zu hören."
+        ],
+        "suggestions": [
+          "„vielleicht“ und „doch“ im Dialog erhalten: Sie vermitteln Ausweichen beziehungsweise Abwehr und sind keine bloßen Füllwörter.",
+          "„deutlich“ lässt sich durch eine konkretere Klangbeschreibung ersetzen, etwa: „Das Klicken trug über das Wasser.“ Nur ändern, wenn diese stärkere akustische Betonung gewünscht ist."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Beim Festziehen hatte es ihr in den Rücken gestochen; sie wartete, bis es nachließ.",
+          "Sie stieg auf die Fähre und löste die Leine. Dann hielt sie inne, legte sie noch einmal lose um den Poller und trat vom Einstieg zurück."
+        ],
+        "suggestions": [
+          "Die klare zeitliche Staffelung beibehalten. Besonders das Lösen und erneute Umlegen der Leine macht Ilses Entscheidung als Handlungsfolge sichtbar.",
+          "Keine zusätzliche Zerlegung nötig: Die zeitlichen Verknüpfungen sind sparsam und verständlich."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Fahrer ließ einmal die Scheinwerfer aufblenden.",
+          "Mit dem Ärmel wischte sie eine Stelle frei."
+        ],
+        "suggestions": [
+          "Die aktive, figurenbezogene Erzählweise beibehalten.",
+          "„Das Einrasten war über dem Wasser deutlich zu hören“ ist kein gewöhnliches Vorgangspassiv. Eine Umformulierung wäre allenfalls aus Gründen der Anschaulichkeit sinnvoll, nicht zur pauschalen Passivvermeidung."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie kannte diesen Ton noch, vom Küchentisch, wenn Henning nach einer Note gefragt hatte und Jonas bereits wusste, welche Frage danach kam.",
+          "Der Mann fuhr jeden Donnerstag zur gleichen Zeit über den Fluss und musste trotzdem jedes Mal auf sich aufmerksam machen."
+        ],
+        "suggestions": [
+          "Den Wechsel aus kurzen Handlungssätzen und längeren Erinnerungssätzen erhalten.",
+          "Falls die Küchentischerinnerung beim Vorlesen stockt, vorsichtig teilen: „Sie kannte diesen Ton noch vom Küchentisch. Wenn Henning nach einer Note gefragt hatte, wusste Jonas bereits, welche Frage danach kam.“ Die bestehende Fassung wirkt allerdings stärker wie eine beiläufig auftauchende Erinnerung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Du hast einen Schlüssel“, sagte sie. / Jonas strich mit dem Daumen über den Koffergriff. / „Den alten.“ / „Das Schloss ist auch alt.“",
+          "„Ich meine, ob du jemanden erwartest.“ / „Wen denn?“ / „Weiß ich doch nicht.“"
+        ],
+        "suggestions": [
+          "Die knappen Repliken und eingeschobenen Gesten beibehalten.",
+          "Keine weitere Straffung erforderlich: Der Dialog vermittelt die Beziehung über Ausweichbewegungen und Andeutungen, ohne sie auszuerklären."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas sah hinauf zum Seil.",
+          "Ilse sah auf seine Schuhe. An der rechten Sohle löste sich ein schmaler Streifen, kaum sichtbar.",
+          "Sie wollte ihn darauf hinweisen, ließ es aber."
+        ],
+        "suggestions": [
+          "Die Blickbewegungen nicht pauschal streichen: In dieser zurückhaltenden Begegnung sind sie selbst bedeutsame Handlungen.",
+          "Für größere Unmittelbarkeit könnte die Schuhstelle direkt einsetzen: „An seiner rechten Schuhsohle löste sich ein schmaler Streifen.“",
+          "„Sie wollte ihn darauf hinweisen, ließ es aber“ ist eine gezielte Innensicht. Beibehalten, wenn gerade die unterdrückte Fürsorge hervortreten soll."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Fahrer ließ einmal die Scheinwerfer aufblenden, obwohl sie längst zu ihm hinübersah.",
+          "Der Lieferwagen blinkte wieder.",
+          "Ilse ließ die Hand sinken, ohne sie noch einmal zu heben.",
+          "Den Deich hinauf, vorbei an den Kopfweiden, dann links. Er wusste den Weg."
+        ],
+        "suggestions": [
+          "Das wiederholte Lichtsignal erhalten: Es erzeugt äußeren Zeitdruck und unterbricht die Begegnung sinnvoll.",
+          "„ohne sie noch einmal zu heben“ probeweise streichen; nach dem Sinkenlassen beschreibt der Zusatz zunächst nur das Ausbleiben einer Gegenbewegung.",
+          "„Er wusste den Weg“ auf seine Funktion prüfen. Die Wegbeschreibung legt seine Vertrautheit bereits nahe; der Satz kann jedoch bewusst betonen, dass ihn nichts Praktisches am Gehen hindert."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020644
+}

@@ -1,0 +1,154 @@
+{
+  "who": "opus",
+  "item": "lit-continue__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der Motor läuft\", sagte Ilse. – Die Szene beginnt mitten im Gespräch. Ankunft, Begrüßung und Vorgeschichte entfallen.",
+          "Die Spannung zwischen Mutter und Sohn entsteht sofort durch den Widerspruch „Er hustet.\""
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten. Er setzt im spätestmöglichen sinnvollen Moment ein und liefert den Kontext (Rückkehr, Fähre, Henning) nach und nach.",
+          "Optional könnte die Szene sogar mit „Er hustet.\" beginnen, gefolgt von Ilses Erwiderung. Das wäre allerdings riskant, da der Bezug fehlt. Die jetzige Lösung ist ausgewogen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„in ordentlichen Buchten zusammen\" – 'ordentlichen' charakterisiert Ilse, ist aber durch 'Buchten legen' schon fast impliziert",
+          "„Der Fluss lag grau und breit hinter ihm\" – solide, aber etwas generisch",
+          "„das dumpfe Pochen des Rumpfs\" – 'dumpf' ist bei 'Pochen' nahezu redundant",
+          "„Er lachte kurz, durch die Nase\" – 'kurz' ist entbehrlich, 'durch die Nase' trägt das Bild bereits",
+          "„ungeduldig, aber folgend\" – wirkungsvoll, 'folgend' klingt allerdings etwas konstruiert"
+        ],
+        "suggestions": [
+          "„das Pochen des Rumpfs gegen die Reifen\" – 'dumpf' streichen, das Verb leistet die Arbeit.",
+          "„Er lachte durch die Nase\" – 'kurz' streichen.",
+          "Für den Fluss ein spezifischeres Bild erwägen, z. B. „Der Fluss schob sich grau hinter ihm vorbei\".",
+          "„Dann das Rattern des Koffers, ungeduldig, aber er kam\" oder „ungeduldig, aber hinter ihr her\" statt 'folgend'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Hast du gegessen?\", fragte sie. – Das Fragezeichen macht 'fragte' überflüssig, der Sprecher ist durch den Wechsel klar",
+          "„Stell das Ding hin\", sagte sie. – Die vorangehende Handlung (Becher hinhalten) ordnet den Sprecher bereits eindeutig zu",
+          "Positiv: Der schnelle Wechsel „Im Zug.\" / „Das heißt nein.\" / „Mama.\" funktioniert ganz ohne Begleitsätze",
+          "Positiv: Viele Zuordnungen erfolgen über Handlung („Sie richtete sich auf und wischte sich die Hände an der Hose ab.\")"
+        ],
+        "suggestions": [
+          "„Hast du gegessen?\" ohne Begleitsatz stehen lassen oder durch eine kleine Handlung ersetzen, z. B. „Sie sah auf seinen Mantel. ‚Hast du gegessen?'\"",
+          "Den Schluss straffen: „Sie nahm Hennings Becher vom Fensterbrett, goss ihn halb voll und hielt ihn ihm hin. ‚Stell das Ding hin. Die Suppe läuft nicht weg.'\""
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Jonas kannte sie vermutlich auch noch\" – 'vermutlich' schwächt ab, ist aber als Ilses Unsicherheit vertretbar",
+          "„Er zog den Koffer ein Stück über die Bohlen\" – 'ein Stück' ist vage",
+          "„Vielleicht kam keiner. Sonst kam auch selten einer.\" – bewusst lakonisch und hier stimmig",
+          "„der noch lose auf den Bohlen lag\" – 'noch' ist entbehrlich"
+        ],
+        "suggestions": [
+          "„Jonas kannte sie auch noch, aber er tat nicht so.\" – Ohne 'vermutlich' wird Ilses Urteil schärfer und passt besser zu ihrer Figur.",
+          "„Er zog den Koffer über die Bohlen\" – 'ein Stück' streichen.",
+          "„nach dem Tampen, der lose auf den Bohlen lag\" – 'noch' streichen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ihre Knie meldeten sich dabei\" – 'dabei' verknüpft zwei Vorgänge, wirkt aber natürlich",
+          "„Ich habe es von oben gehört, als du reingekommen bist.\" – in wörtlicher Rede unproblematisch",
+          "Positiv: Handlungen werden überwiegend nacheinander erzählt („Sie nahm Hennings Becher vom Fensterbrett, goss ihn halb voll und hielt ihn ihm hin.\")"
+        ],
+        "suggestions": [
+          "Optional: „Ihre Knie meldeten sich, wie sie es neuerdings taten.\" als eigenen Satz nach dem Zusammenlegen. Das betont den Moment und vermeidet 'dabei'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Es war noch eine Fahrt eingetragen\" – Zustandspassiv, die Eintragende bleibt unbenannt",
+          "„die Schuhe waren für Pflaster gemacht\" – Zustandspassiv, stilistisch passend und bildhaft"
+        ],
+        "suggestions": [
+          "„Im Buch stand noch eine Fahrt, die von 17 Uhr\" – aktiver und konkreter, zugleich ein greifbares Requisit.",
+          "„die Schuhe waren für Pflaster gemacht\" beibehalten. Die Formulierung ist prägnant und charakterisierend."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Das Gesicht aber war noch das des Jungen, der mit zehn auf diesem Anleger gesessen und die Beine ins Wasser gehängt hatte, bis Henning ihn zurückgepfiffen hatte.\" – doppeltes Plusquamperfekt, Relativsatz und Temporalsatz",
+          "„Er zog den Koffer ein Stück über die Bohlen, eines der Rädchen blieb in einer Fuge hängen, und er riss daran, bis es nachgab.\" – drei Hauptsätze mit Komma aneinandergereiht",
+          "„Im Fenster des Fährhauses stand die Thermoskanne, wo sie sie nach der letzten Überfahrt hingestellt hatte, daneben der blaue Becher, Hennings Becher, und ihr eigener, angeschlagen am Rand.\" – lang, dazu das holprige 'wo sie sie'"
+        ],
+        "suggestions": [
+          "„Das Gesicht aber war noch das des Jungen, der mit zehn hier gesessen und die Beine ins Wasser gehängt hatte. Bis Henning ihn zurückpfiff.\"",
+          "„Er zog den Koffer über die Bohlen. Ein Rädchen blieb in einer Fuge hängen. Er riss daran, bis es nachgab.\" – Die Ungeduld wird durch kurze Sätze spürbar.",
+          "„Im Fenster des Fährhauses stand die Thermoskanne, seit der letzten Überfahrt. Daneben der blaue Becher, Hennings Becher, und ihr eigener, angeschlagen am Rand.\""
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Im Zug.\" / „Das heißt nein.\" / „Mama.\" – äußerst knapp, viel Subtext",
+          "„Hier müsste mal jemand die Bretter erneuern.\" / „Hier müsste vieles\" – pointiertes Echo",
+          "Alle Repliken sind kurz. Lange Erklärungen oder Infodumps im Dialog fehlen."
+        ],
+        "suggestions": [
+          "Keine Kürzung nötig. Die Dialoge tragen Subtext (Trauer um Henning, Distanz zum Sohn), ohne ihn auszusprechen.",
+          "„Es gibt Suppe. Von gestern. … Die ist besser als frisch.\" könnte minimal gestrafft werden („Suppe von gestern. Die ist besser als frisch.\"), ist aber auch so charaktervoll."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„und sie merkte, dass sie darauf gewartet hatte\" – klassische Filterkonstruktion",
+          "„Sie hörte ihn hinter sich zögern.\" – Wahrnehmungsfilter",
+          "„und spürte das Gewicht des Rests darin\" – Filterverb",
+          "„sie ließ Jonas nicht merken, dass sie es hörte\" – Filter, zudem logisch unklar: Knie 'melden sich' eher spürbar als hörbar",
+          "„Ich habe es von oben gehört\" – in wörtlicher Rede in Ordnung"
+        ],
+        "suggestions": [
+          "„Er lachte durch die Nase. Darauf hatte sie gewartet.\" – direkter und emotional stärker.",
+          "„Hinter ihr zögerte er. Dann das Rattern des Koffers …\"",
+          "„Sie nahm die Kanne. Viel war nicht mehr drin.\" oder „Die Kanne war leicht.\"",
+          "„Ihre Knie knackten, wie sie es neuerdings taten. Jonas sollte das nicht merken.\" – klärt auch die Logik von 'hören'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Kontinuitätsfehler: Ilse nimmt „die Kanne in die Hand\", Jonas sieht dann „auf den Becher in ihrer Hand\", danach nimmt sie „Hennings Becher vom Fensterbrett\". Sie hält zu diesem Zeitpunkt die Kanne, nicht den Becher.",
+          "„Hand\" dreimal auf engem Raum: „die Kanne in die Hand\", „die Hand am Griff des Koffers\", „den Becher in ihrer Hand\"",
+          "„Koffer\" dreimal, „Bohlen\" zweimal, „Becher\" viermal in kurzer Folge",
+          "„wo sie sie\" – unschöne Lautdopplung",
+          "Bewusste, gelungene Echos: „Er hustet\" / „Er hustet seit elf Jahren\", „Hier müsste\" / „Hier müsste vieles\", „kam keiner\" / „kam auch selten einer\""
+        ],
+        "suggestions": [
+          "Den Kontinuitätsfehler beheben: „und sah auf die Kanne in ihrer Hand\" oder besser „und sah auf den blauen Becher am Fenster, als müsste er erst rechnen, was er bedeutete\". Dann trägt der Blick auf Hennings Becher die Bedeutung.",
+          "„Hand\"-Häufung auflösen: „Sie hob die Kanne an\" statt „nahm die Kanne in die Hand\" und „Jonas stand an der Tür, den Koffer noch am Griff\".",
+          "„wo sie sie … hingestellt hatte\" ersetzen durch „seit der letzten Überfahrt\".",
+          "Die bewussten Echos beibehalten. Sie sind ein Stärke des Textes."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.12464
+}

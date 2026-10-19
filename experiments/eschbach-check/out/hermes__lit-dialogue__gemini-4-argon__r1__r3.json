@@ -1,0 +1,83 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gemini-4-argon__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein kleines Café. LUKAS sitzt am Tisch und dreht seinen Ehering."],
+        "suggestions": [
+          "Der Einstieg ist sehr effektiv und etabliert sofort die Stimmung und den Konflikt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["bitteren Geschmack", "kleine Pappschachtel"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und passend gewählt. Achte darauf, dass sie nicht zur reinen Dekoration dienen, sondern die Stimmung unterstreichen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Skript-Format verwendet"],
+        "suggestions": [
+          "Keine Korrekturen notwendig, da das Skript-Format keine Redeeinleitungen benötigt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["einfach wegwerfen", "einfach weg", "eigentlich gegangen"],
+        "suggestions": [
+          "Das Wort 'einfach' wird zweimal kurz hintereinander verwendet. Streiche es, um die Dialoge prägnanter und entschlossener zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine problematischen 'während'-Konstruktionen vorhanden."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist aktiv und direkt formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlänge ist für ein Skript sehr gut gewählt, kurz und prägnant."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind auf den Punkt gebracht und treiben die Handlung voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["ihr Blick verhärtet sich", "sieht ihn direkt an"],
+        "suggestions": [
+          "Sehr gut umgesetzt, die Wahrnehmung wird direkt durch Handlungen beschrieben."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["einfach (zweimal)", "Du hast geschrieben... / ich habe geschrieben"],
+        "suggestions": [
+          "Die Wiederholung von 'einfach' schwächt die Aussage. Bei 'Du hast geschrieben... / ich habe geschrieben' könnte man das zweite 'geschrieben' durch 'erwähnt' oder 'formuliert' ersetzen, um den Rhythmus zu variieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

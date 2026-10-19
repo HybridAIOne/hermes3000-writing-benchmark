@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-sonnet-5.5__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Bahnhofscafé, Regen. Thomas sitzt schon, als Ralf hereinkommt"],
+        "suggestions": [
+          "Der Einstieg ist sehr effektiv und setzt direkt in der Handlung an, ohne unnötige Vorgeschichte."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kurz", "langsam", "leise"],
+        "suggestions": [
+          "Die sparsame Verwendung ist vorbildlich. Die wenigen Adverbien dienen der präzisen Handlungssteuerung."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["RALF: Du bist früh."],
+        "suggestions": [
+          "Das Skript-Format ist für diese Szene ideal und verzichtet komplett auf unnötige 'sagte er'-Konstruktionen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["schon", "kurz"],
+        "suggestions": [
+          "Sehr präzise Sprache. Die wenigen Füllwörter sind funktional und stören den Lesefluss nicht."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als Ralf hereinkommt"],
+        "suggestions": [
+          "Keine übermäßige Nutzung von 'während'. Der Handlungsfluss ist natürlich und direkt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Passivkonstruktionen vorhanden. Alle Sätze sind aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die Sätze sind kurz und prägnant, was die angespannte Atmosphäre und das Zögern der Charaktere perfekt unterstreicht."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["THOMAS: Schwarz. / RALF: Schwarz."],
+        "suggestions": [
+          "Die Dialoge sind extrem gestrafft. Das ist hier ein Stilmittel, das den Subtext betont."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Alle Handlungen werden direkt gezeigt ('Show, don't tell'). Es gibt keine 'er sah, dass'-Konstruktionen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Früher. / Früher.", "Schwarz. / Schwarz."],
+        "suggestions": [
+          "Die Wiederholungen wirken hier stilistisch beabsichtigt und verstärken die Melancholie und das Unausgesprochene."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

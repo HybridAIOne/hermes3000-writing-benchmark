@@ -1,0 +1,133 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Thomas sitzt schon, als Ralf hereinkommt und kurz in der Tür stehen bleibt.",
+          "RALF: Du bist früh. / THOMAS: Ich bin immer früh."
+        ],
+        "suggestions": [
+          "Den Einstieg grundsätzlich beibehalten: Ralfs Zögern und Thomas’ frühe Ankunft etablieren die Spannung ohne Vorgeschichte.",
+          "Nur bei gewünschter stärkerer Verdichtung direkt mit „Du bist früh“ beginnen und Ralfs Zögern in die anschließende Regieanweisung verlagern."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Thomas lächelt kurz, dann nicht mehr.",
+          "Ralf nickt langsam.",
+          "RALF: (leise) Ich hätte anrufen sollen."
+        ],
+        "suggestions": [
+          "Die sparsamen Beschreibungen überwiegend erhalten: Sie steuern Spiel und Rhythmus.",
+          "„Langsam“ beim Nicken probeweise streichen; die umgebenden Pausen vermitteln das Zögern bereits.",
+          "„Leise“ nur beibehalten, wenn die gesenkte Stimme eine verbindliche Spielanweisung sein soll."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["RALF: Du bist früh.", "THOMAS: Ich bin immer früh."],
+        "suggestions": [
+          "Die Sprechernamen im vorliegenden szenischen Format beibehalten; sie sind keine überflüssigen Redeeinleitungen.",
+          "Weiterhin auf zusätzliche Kennzeichnungen wie „sagt Thomas abweisend“ verzichten: Die Haltung ergibt sich aus den Repliken."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie fragt manchmal nach dir.",
+          "Hab ich ja auch.",
+          "Von hier aus sieht man das Haus nicht mehr, oder?"
+        ],
+        "suggestions": [
+          "„Manchmal“ nicht automatisch streichen: Die Unbestimmtheit kann Thomas’ zurückhaltende Auskunft charakterisieren.",
+          "Die Gesprächspartikeln „ja“ und „oder“ erhalten, sofern Ralfs Rechtfertigung und sein Wunsch nach Bestätigung beabsichtigt sind.",
+          "Füllwörter hier nach ihrer Figurenfunktion beurteilen, nicht allein nach ihrer Entbehrlichkeit für die Sachinformation."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Thomas sitzt schon, als Ralf hereinkommt und kurz in der Tür stehen bleibt.",
+          "Thomas sieht auf die Uhr und gleich wieder weg, ohne die Zeit gelesen zu haben."
+        ],
+        "suggestions": [
+          "Die einmalige „als“-Konstruktion beibehalten; sie stellt die räumliche Ausgangssituation übersichtlich her.",
+          "Die Uhrbewegung weiterhin als kurze Handlungsfolge erzählen. Eine zusätzliche Gleichzeitigkeit mit „während“ wäre hier unnötig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ralf dreht die Tasse am Henkel.", "Die Kellnerin bringt den Kaffee."],
+        "suggestions": [
+          "Die aktiven, konkreten Formulierungen beibehalten. Es gibt keine korrekturbedürftigen Passivkonstruktionen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Doch. Früher, im Winter, wenn die Bäume kahl waren.",
+          "Thomas sieht auf die Uhr und gleich wieder weg, ohne die Zeit gelesen zu haben."
+        ],
+        "suggestions": [
+          "Keine systematische Satzteilung nötig: Auch die längeren Sätze bleiben übersichtlich.",
+          "Die abgebrochenen und elliptischen Sätze im Dialog erhalten; sie tragen die stockende Verständigung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "RALF: Ich hab das Buch dabei. Das, das du mir… / THOMAS: Behalt es.",
+          "RALF: Ich hätte anrufen sollen. / THOMAS: Ja. (Pause) Hättest du."
+        ],
+        "suggestions": [
+          "Die kurzen Redewechsel und Unterbrechungen beibehalten; keine Passage verlangt nach einer deutlichen Kürzung.",
+          "Die Vorgeschichte nicht nachträglich durch einen erklärenden Monolog ausformulieren. Gerade das Ausgesparte erzeugt Spannung."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Stille. Draußen fährt ein Zug ein.",
+          "Thomas sieht auf die Uhr und gleich wieder weg, ohne die Zeit gelesen zu haben.",
+          "Von hier aus sieht man das Haus nicht mehr, oder?"
+        ],
+        "suggestions": [
+          "Die unmittelbare Darstellung von Geräuschen und Handlungen beibehalten; Wahrnehmungsfilter wie „Ralf hört, wie ein Zug einfährt“ wären schwächer.",
+          "Für eine streng spielbare Bühnenfassung bei der Uhr überlegen: „Thomas blickt auf die Uhr, wendet den Blick sofort wieder ab.“ Dass er die Zeit nicht gelesen hat, ist nicht unmittelbar sichtbar.",
+          "Die Aussage über das Haus nicht als Wahrnehmungsfilter behandeln: Im Dialog ist sie ein inhaltlicher Gesprächsversuch."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "THOMAS: Schwarz. / RALF: Schwarz.",
+          "THOMAS: Behalt es. / THOMAS: Ich hab gesagt, behalt es.",
+          "THOMAS: Früher.",
+          "THOMAS: Mein Zug geht erst in einer Stunde. / RALF: Meiner auch."
+        ],
+        "suggestions": [
+          "Die Wiederholungen überwiegend erhalten: Sie markieren Gemeinsamkeit, Abwehr und das Festhalten am Gespräch.",
+          "„Ich hab gesagt, behalt es“ nur dann zu „Behalt es“ kürzen, wenn Thomas weniger ausdrücklich zurechtweisend wirken soll.",
+          "Das isolierte „Früher“ beibehalten; es wiederholt nicht bloß eine Zeitangabe, sondern verändert deren emotionales Gewicht."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018862
+}

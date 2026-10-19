@@ -1,0 +1,131 @@
+{
+  "who": "gemini",
+  "item": "anchor__kafka-das-urteil-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Es war an einem Sonntagvormittag im schönsten Frühjahr.",
+          "Georg Bendemann, ein junger Kaufmann, saß in seinem Privatzimmer im ersten Stock..."
+        ],
+        "suggestions": [
+          "Der klassische Einstieg über Wetter und Tageszeit wirkt nach modernen Maßstäben zu statisch. Besser direkt mit der Handlung beginnen: 'Georg Bendemann verschloss den Brief an seinen Jugendfreund...'",
+          "Die detaillierte Beschreibung der Häuserreihe zu Beginn bremst den Lesefluss, bevor die eigentliche Geschichte überhaupt begonnen hat."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "im schönsten Frühjahr",
+          "niedrigen, leichtgebauten Häuser",
+          "in spielerischer Langsamkeit",
+          "sich förmlich geflüchtet",
+          "das seit den Kinderjahren wohlbekannte Gesicht"
+        ],
+        "suggestions": [
+          "'im schönsten Frühjahr' ist eine abgedroschene Phrase. Zeigen Sie den Frühling lieber durch konkrete Sinneseindrücke (wie später beim 'schwachen Grün' am Ufer).",
+          "Statt 'verschloß ihn in spielerischer Langsamkeit' ein präziseres Verb oder eine konkrete Handlung wählen, die dieses Zögern zeigt.",
+          "Partizipialkonstruktionen wie 'sich im Ausland befindenden' oder 'eine sich entwickelnde Krankheit' wirken behördlich und schwerfällig. Besser: 'seinen Freund im Ausland'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keine wörtliche Rede, daher gibt es hier keine Mängel."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "fast nur",
+          "förmlich",
+          "sehr gut",
+          "keine rechte Verbindung",
+          "fast keinen",
+          "offenbar",
+          "vielleicht",
+          "ja",
+          "im übrigen"
+        ],
+        "suggestions": [
+          "Streiche unpräzise Relativierungen wie 'förmlich', 'fast', 'sehr' und 'offenbar', um den Text im ersten Teil kräftiger zu machen.",
+          "Im letzten Drittel (der erlebten Rede Georgs) passen Wörter wie 'vielleicht' und 'ja' zwar zur Unsicherheit der Figur, sollten aber dennoch sparsamer eingesetzt werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...und sah dann, den Ellbogen auf den Schreibtisch gestützt, aus dem Fenster..."
+        ],
+        "suggestions": [
+          "Die Handlungen werden größtenteils sauber nacheinander beschrieben ('hatte beendet, verschloß ihn ... und sah dann'). Die Partizipialkonstruktion ('den Ellbogen ... gestützt') beschreibt einen Zustand und ist hier völlig legitim."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "fast nur in der Höhe und Färbung unterschieden",
+          "bei seinen immer seltener werdenden Besuchen"
+        ],
+        "suggestions": [
+          "Der Text nutzt überwiegend starke, aktive Verben. Lediglich das Zustandspassiv 'unterschieden' könnte aktiver formuliert werden: 'die sich fast nur in Höhe und Färbung unterschieden'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Georg Bendemann, ein junger Kaufmann, saß in seinem Privatzimmer im ersten Stock eines der niedrigen, leichtgebauten Häuser, die entlang des Flusses in einer langen Reihe, fast nur in der Höhe und Färbung unterschieden, sich hinzogen.",
+          "So arbeitete er sich in der Fremde nutzlos ab, der fremdartige Vollbart verdeckte nur schlecht das seit den Kinderjahren wohlbekannte Gesicht, dessen gelbe Hautfarbe auf eine sich entwickelnde Krankheit hinzudeuten schien.",
+          "Sollte man ihm vielleicht raten, wieder nach Hause zu kommen, seine Existenz hierher zu verlegen, alle die alten freundschaftlichen Beziehungen wieder aufzunehmen -- wofür ja kein Hindernis bestand -- und im übrigen auf die Hilfe der Freunde zu vertrauen?"
+        ],
+        "suggestions": [
+          "Die Sätze sind extrem verschachtelt und durch zahlreiche Einschübe schwer lesbar. Teilen Sie diese Konstrukte in kürzere Hauptsätze auf.",
+          "Beispiel für Satz 2: 'Der junge Kaufmann Georg Bendemann saß im ersten Stock in seinem Privatzimmer. Vor dem Fenster zog sich eine lange Reihe niedriger, leichtgebauter Häuser am Fluss entlang. Sie glichen einander fast völlig, nur in Höhe und Färbung gab es Unterschiede.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge im Text vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "sah dann [...] aus dem Fenster auf den Fluß",
+          "Er dachte darüber nach, wie dieser Freund...",
+          "zu stocken schien",
+          "hinzudeuten schien"
+        ],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'Er dachte darüber nach, wie...'. Gehen Sie direkt in die Perspektive der Figur (wie es am Ende des Textes mit 'Was wollte man einem solchen Manne schreiben' hervorragend gelingt). Statt 'Er dachte darüber nach, wie der Freund sich geflüchtet hatte' direkt: 'Vor Jahren schon war der Freund nach Russland geflüchtet, unzufrieden mit seinem Fortkommen zu Hause.'",
+          "Die doppelte Verwendung von 'schien' (zu stocken schien / hinzudeuten schien) schafft unnötige Distanz."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "in der Fremde [...] der fremdartige Vollbart",
+          "keine rechte Verbindung mit der dortigen Kolonie seiner Landsleute, aber auch fast keinen gesellschaftlichen Verkehr mit einheimischen Familien",
+          "wieder nach Hause zu kommen, seine Existenz hierher zu verlegen"
+        ],
+        "suggestions": [
+          "Wortwiederholung im selben Satz: 'in der Fremde' und 'fremdartige' – hier sollte ein Synonym für den Bart gefunden werden (z.B. 'ungewohnte' oder 'dichte').",
+          "Inhaltliche Doppelung am Ende: 'nach Hause kommen' und 'Existenz hierher verlegen' meinen im Kern dasselbe. Eine Straffung erhöht die Prägnanz der Gedanken."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.019688
+}

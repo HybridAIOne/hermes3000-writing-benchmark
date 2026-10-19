@@ -1,0 +1,106 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__claude-opus-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ein Café am Marktplatz. Martin sitzt bereits. Jörg bleibt kurz in der Tür stehen, dann kommt er herüber.",
+          "JÖRG: Du hast den Tisch am Fenster genommen."
+        ],
+        "suggestions": [
+          "Hervorragender Einstieg 'in medias res'. Das kurze Zögern in der Tür etabliert sofort die Spannung zwischen den Figuren, und der Dialog beginnt ohne unnötiges Geplänkel direkt mit einem subtilen Konflikt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "schiebt die Dose langsam in die Mitte",
+          "Martin nickt langsam. Er sieht lange auf seine Tasse."
+        ],
+        "suggestions": [
+          "Der Text ist extrem sparsam und präzise. Lediglich das Adverb 'langsam' doppelt sich kurz hintereinander in den Regieanweisungen. Hier könnte man beim Nicken darauf verzichten oder eine andere Geste wählen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Durch das gewählte Drehbuch-/Theaterformat entfallen klassische Inquits ('sagte er') komplett. Die Zuordnung ist jederzeit glasklar."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Setz dich doch.", "Du warst ja zuerst da."],
+        "suggestions": [
+          "In den Regieanweisungen gibt es keinerlei Füllwörter. In der wörtlichen Rede ('doch', 'eben', 'ja') sind sie absolut natürlich und unterstützen den realistischen Klang des Dialogs."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Beide greifen gleichzeitig nach dem Zucker. Beide ziehen die Hand zurück."],
+        "suggestions": [
+          "Das Wort 'gleichzeitig' wird hier nicht als stilistische Krücke missbraucht, sondern beschreibt eine exakte, choreografische Handlung, die für die verkrampfte Dynamik der Figuren essenziell ist. Perfekt eingesetzt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der gesamte Text ist durchgehend aktiv formuliert. Selbst Zustandsbeschreibungen ('Das alte war verwittert') sind natürlich und passend."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Bedienung bringt zwei Kaffee. Keiner rührt seinen an.",
+          "Er zögert. Dann zieht er die Jacke aus und hängt sie über die Stuhllehne."
+        ],
+        "suggestions": [
+          "Die Sätze sind kurz, prägnant und rhythmisch perfekt auf die unterkühlte, angespannte Atmosphäre abgestimmt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["MARTIN: Gut. Ich wollte nur sichergehen, dass sie angekommen sind."],
+        "suggestions": [
+          "Ein Musterbeispiel für knappe, subtextreiche Dialoge. Keine Figur hält Monologe, jeder Satz hat Gewicht und treibt die unsichtbare Handlung voran."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Jörg setzt sich, behält aber die Jacke an.",
+          "Dann zieht er die Jacke aus und hängt sie über die Stuhllehne. Martin schiebt ihm den Zucker hin."
+        ],
+        "suggestions": [
+          "Meisterhaftes 'Show, don't tell'. Es wird nichts über die Gedanken oder Gefühle erklärt, alles wird im Außen durch Handlungen (Jacke anbehalten/ausziehen, Umgang mit dem Kaffee und der Zuckerdose) sichtbar gemacht."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "MARTIN: *(sieht auf)* Das hat mir keiner gesagt.\nJÖRG: Nein. Hat dir keiner gesagt.",
+          "MARTIN: *(schiebt die Dose langsam in die Mitte)* ... Martin nickt langsam."
+        ],
+        "suggestions": [
+          "Die Wiederholungen im Dialog ('Früher', 'Ich weiß', 'Hat dir keiner gesagt') sind hervorragende rhetorische Mittel, die den Rhythmus prägen. Nur in den Regieanweisungen könnte die kleine Wortwiederholung von 'langsam' und 'sieht' (sieht auf / sieht lange auf seine Tasse / sieht aus dem Fenster) noch leicht variiert werden (z.B. 'blickt', 'starrt')."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.015256
+}

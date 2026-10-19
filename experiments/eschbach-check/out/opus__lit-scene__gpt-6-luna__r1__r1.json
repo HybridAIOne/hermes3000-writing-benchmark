@@ -1,0 +1,130 @@
+{
+  "who": "opus",
+  "item": "lit-scene__gpt-6-luna__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel klemmte, wie er immer geklemmt hatte.",
+          "Die Szene setzt direkt an der Schwelle ein. Anreise, Parken oder Gang zur Tür fehlen."
+        ],
+        "suggestions": [
+          "Der Einstieg sitzt. Die Rückkehr wird über eine konkrete, vertraute Handlung etabliert. Ein späterer Einsatz, etwa erst im Flur, würde das Detail des klemmenden Schlosses kosten, das Vertrautheit und Vergangenheit transportiert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "dem scharfen Rest eines Reinigungsmittels, das ihre Mutter offenbar zuletzt vor langer Zeit benutzt hatte",
+          "ein schmaler, heller Halbkreis",
+          "ein dünner, rostfarbener Strahl",
+          "schlug leise gegen die Wand",
+          "Er klopfte gegen das Metall, unregelmäßig"
+        ],
+        "suggestions": [
+          "Die meisten Adjektive sind konkret und tragen Information (rostfarben, abgetreten, abgesprungen). Prüfen, ob Doppelungen wie 'schmaler, heller' oder 'dünner, rostfarbener' auf jeweils ein Adjektiv reduziert werden können, z. B. 'ein heller Halbkreis' bzw. 'ein rostfarbener Strahl'.",
+          "'schlug leise gegen die Wand' durch ein präziseres Verb ersetzen, etwa 'tippte gegen die Wand' oder 'streifte die Wand'.",
+          "'offenbar' streichen. Die Vermutung ergibt sich bereits aus dem Kontext."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Nicht aus Ehrfurcht, sagte sie sich, sondern weil ihre Augen sich an das Dunkel gewöhnen mussten."
+        ],
+        "suggestions": [
+          "Der Text enthält keinen Dialog. Das eingeschobene 'sagte sie sich' ist als Selbstrechtfertigung sinnvoll, weil es die innere Abwehr der Figur zeigt. Alternativ ginge es ganz ohne Markierung: 'Nicht aus Ehrfurcht. Ihre Augen mussten sich an das Dunkel gewöhnen.'"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "das ihre Mutter offenbar zuletzt vor langer Zeit benutzt hatte",
+          "erst ein Stück zurückdrehen",
+          "gerade breit genug",
+          "kam zunächst Luft",
+          "Der Lichtschalter saß noch neben der Garderobe. / Im Flur hing noch der Spiegel"
+        ],
+        "suggestions": [
+          "'offenbar zuletzt vor langer Zeit' ist unpräzise. Besser konkret: 'das ihre Mutter seit Monaten nicht mehr benutzt hatte' oder einfach 'dem scharfen Rest eines alten Reinigungsmittels'.",
+          "'ein Stück' kann entfallen: 'Mara musste ihn zurückdrehen, dann mit dem Daumen gegen den Bart drücken.'",
+          "'zunächst' streichen: 'kam Luft, dann ein dünner, rostfarbener Strahl.'",
+          "Das wiederholte 'noch' sparsamer einsetzen. Es betont das Unveränderte, wirkt aber gehäuft wie ein Füllwort."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als Mara den Wasserhahn aufdrehte, kam zunächst Luft, dann ein dünner, rostfarbener Strahl."
+        ],
+        "suggestions": [
+          "Die Handlungen sind fast durchgehend sauber nacheinander erzählt. Der einzige 'Als'-Satz ließe sich noch auflösen: 'Mara drehte den Wasserhahn auf. Erst kam Luft, dann ein dünner, rostfarbener Strahl.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Passivkonstruktionen. Der Text ist durchgehend aktiv formuliert, selbst Gegenstände handeln ('Das Schloss gab nach', 'Der Staub teilte sich'). Beibehalten."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Im Haus roch es nach Staub, kaltem Holz und dem scharfen Rest eines Reinigungsmittels, das ihre Mutter offenbar zuletzt vor langer Zeit benutzt hatte.",
+          "Durch das Oberlicht fiel ein grauer Streifen auf die Dielen, gerade breit genug, um die abgetretene Stelle vor der Küchentür zu zeigen."
+        ],
+        "suggestions": [
+          "Der Wechsel zwischen kurzen und mittellangen Sätzen erzeugt einen guten Rhythmus ('Sie drückte ihn. Nichts.').",
+          "Den Geruchssatz kürzen, indem der Relativsatz gestrafft wird: 'Im Haus roch es nach Staub, kaltem Holz und dem scharfen Rest eines alten Reinigungsmittels.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Dialogpassagen vorhanden. Kriterium nicht problematisch. Die Szene lebt bewusst von Stille und Beobachtung."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Darin sah sie ihr Gesicht nur bis zum Mund, und dahinter die geschlossene Haustür.",
+          "Sie wusste nicht, ob er von einer Tasse stammte. Sie wusste nur, dass ihre Mutter immer die Tasse mit dem abgesprungenen blauen Rand benutzt hatte."
+        ],
+        "suggestions": [
+          "Den Spiegelsatz direkter fassen: 'Darin endete ihr Gesicht am Mund. Dahinter die geschlossene Haustür.'",
+          "Das doppelte 'Sie wusste' ist als rhetorische Figur wirksam, ließe sich aber direkter erzählen: 'Vielleicht von einer Tasse. Ihre Mutter hatte immer die mit dem abgesprungenen blauen Rand benutzt.' Das macht den Gedanken unmittelbarer, ohne Filter."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie blieb im Flur stehen. / Im Flur hing noch der Spiegel",
+          "Der Lichtschalter saß noch ... / Im Flur hing noch der Spiegel",
+          "erst ein Stück zurückdrehen / wie etwas, das sich erst erinnern musste",
+          "ob er von einer Tasse stammte / immer die Tasse mit dem abgesprungenen blauen Rand"
+        ],
+        "suggestions": [
+          "Das zweite 'Im Flur' streichen, da der Ort bereits etabliert ist: 'Neben der Garderobe hing der Spiegel mit dem blinden Fleck am unteren Rand.'",
+          "Das erste 'erst' streichen, damit das zweite im Schlussbild ('sich erst erinnern musste') stärker wirkt.",
+          "Die Wiederholungen im ersten Satz ('klemmte, wie er immer geklemmt hatte') und bei 'Sie wusste' sind bewusste Stilmittel und können bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.083996
+}

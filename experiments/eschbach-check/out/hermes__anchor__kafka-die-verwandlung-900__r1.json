@@ -1,0 +1,98 @@
+{
+  "who": "hermes",
+  "item": "anchor__kafka-die-verwandlung-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt."
+        ],
+        "suggestions": [
+          "Der Einstieg ist exzellent; er setzt direkt beim Ereignis an und wirft den Leser sofort in die Handlung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["panzerartig harten Rücken", "kläglich dünnen Beine"],
+        "suggestions": [
+          "Die Adjektive sind sehr atmosphärisch. Gelegentlich könnten sie zugunsten stärkerer Verben reduziert werden, um den Lesefluss zu beschleunigen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Was ist mit mir geschehen?« dachte er.", "»Ach Gott,« dachte er,"],
+        "suggestions": ["Die Kennzeichnungen sind klar und unaufdringlich."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["etwas zu kleines", "wohl hundertmal", "ganz melancholisch"],
+        "suggestions": [
+          "Wörter wie 'wohl' oder 'ganz' dienen hier der Charakterisierung von Gregors Unsicherheit, könnten aber in einem modernen Text teilweise gestrichen werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["während seines fünfjährigen Dienstes"],
+        "suggestions": ["Die Gleichzeitigkeit wird sparsam und korrekt eingesetzt."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["war... auferlegt", "war... eingestellt"],
+        "suggestions": [
+          "Das Passiv unterstreicht hier die Hilflosigkeit der Figur, sollte aber in aktionsreicheren Passagen zugunsten aktiver Verben reduziert werden."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Über dem Tisch, auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war -- Samsa war Reisender --, hing das Bild, das er vor kurzem aus einer illustrierten Zeitschrift ausgeschnitten und in einem hübschen, vergoldeten Rahmen untergebracht hatte."
+        ],
+        "suggestions": [
+          "Die Sätze sind sehr verschachtelt. Für eine modernere Lesbarkeit sollten komplexe Sätze in zwei oder drei kürzere Einheiten zerlegt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Der gesamte Absatz beginnend mit »Ach Gott...« bis »Der Teufel soll das alles holen!«"
+        ],
+        "suggestions": [
+          "Die inneren Monologe sind sehr lang. Um die Spannung zu halten, könnten sie durch Handlungsbeschreibungen oder kurze Unterbrechungen aufgelockert werden."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "man hörte Regentropfen",
+          "er sah, daß er auf vier Uhr richtig eingestellt war"
+        ],
+        "suggestions": [
+          "Direktere Formulierungen (z.B. 'Regentropfen trommelten gegen das Fensterblech') würden die Unmittelbarkeit des Erlebens steigern."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Die wiederholten Gedanken über den Chef, den Zug, die Eltern und die Kündigung."
+        ],
+        "suggestions": [
+          "Die Gedankenschleifen spiegeln zwar Gregors Zustand wider, wirken aber auf den Leser redundant. Hier könnte gestrafft werden, um das Tempo zu erhöhen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,132 @@
+{
+  "who": "opus",
+  "item": "lit-scene__gpt-6-luna__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel klemmte, wie Schlüssel in alten Häusern klemmen: nicht ganz, nur so, dass man den Druck der eigenen Hand spürte.",
+          "Die Tür öffnete sich um eine Handbreit und stieß gegen einen Schuh, der dahinter lag."
+        ],
+        "suggestions": [
+          "Der Einstieg mitten in einer konkreten Handlung ist gelungen. Anreise, Taxifahrt oder Vorgeschichte fehlen zu Recht.",
+          "Optional könnte die Szene direkt mit dem Nachgeben des Schlosses beginnen. Das Klemmen etabliert aber Atmosphäre und Körperlichkeit und sollte bleiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ein brauner Hausschuh, flach getreten, innen grau vom Staub.",
+          "ein kleiner weißer Knopf",
+          "Nur der Wasserhahn tropfte weiter, langsam, in die leere Spüle.",
+          "die vertrauten Formen"
+        ],
+        "suggestions": [
+          "Die meisten Adjektive sind konkret und tragen Information (rostfarben, durchsichtig, blank getreten). Sie sollten bleiben.",
+          "Bei 'tropfte weiter, langsam' ist 'langsam' entbehrlich, denn 'tropfen' impliziert bereits Langsamkeit. Zu prüfen ist auch 'leere', da die Spüle zuvor nie als gefüllt beschrieben wird.",
+          "'die vertrauten Formen' behauptet Vertrautheit, statt sie zu zeigen. Die folgende Aufzählung leistet das bereits. Alternative: 'Unter den Laken zeichneten sich Formen ab: der schmale Tisch, …'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ich bin’s“, sagte sie."],
+        "suggestions": [
+          "Da Mara allein ist, ist der Sprecher eindeutig. 'sagte sie' könnte entfallen.",
+          "Alternativ ließe sich die Kennzeichnung durch eine Handlung ersetzen, z. B. 'Sie sah hinauf. … „Ich bin’s.“' Das schlichte 'sagte sie' ist jedoch unauffällig und betont die Stille."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "nicht ganz, nur so, dass man den Druck der eigenen Hand spürte",
+          "etwas Süßlichem, das sie nicht einordnen konnte",
+          "die sich kaum bewegte"
+        ],
+        "suggestions": [
+          "Füllwörter wie 'ziemlich', 'einige' oder 'ungefähr' fehlen fast völlig.",
+          "'etwas Süßlichem' ist bewusst vage und erzeugt Spannung. Das ist legitim.",
+          "'kaum bewegte' könnte präziser werden, etwa 'die sich nur bei jedem zweiten Windstoß hob'. Die Zurückhaltung passt aber zur Stimmung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Mara zog ihn zurück, setzte noch einmal an. Im Schloss gab etwas nach.",
+          "Sie wartete, bis das Wasser klar wurde, und trank aus der hohlen Hand."
+        ],
+        "suggestions": [
+          "Die Handlungen werden konsequent nacheinander erzählt. 'während' oder 'gleichzeitig' kommen nicht vor.",
+          "'als hätte jemand sein Gewicht verlagert' ist ein Vergleich und keine Gleichzeitigkeitskonstruktion. Hier ist nichts zu ändern."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Möbel waren abgedeckt.", "in der Mitte blank getreten"],
+        "suggestions": [
+          "Es handelt sich um Zustandspassiv bzw. Partizipien, die einen Zustand beschreiben. Hier ist das angemessen, da der Handelnde unbekannt bzw. bedeutungstragend abwesend ist.",
+          "Eine Aktivform ('Jemand hatte die Möbel abgedeckt') würde den Fokus auf eine unbekannte Person lenken. Das wäre nur sinnvoll, wenn diese Frage bewusst aufgeworfen werden soll."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Johannisbeersträucher waren höher als der Zaun; an einem Ast hing eine durchsichtige Plastiktüte, die sich kaum bewegte.",
+          "Der Schlüssel klemmte, wie Schlüssel in alten Häusern klemmen: nicht ganz, nur so, dass man den Druck der eigenen Hand spürte."
+        ],
+        "suggestions": [
+          "Die Sätze sind überwiegend kurz und klar, der Rhythmus wechselt gut zwischen kurzen und mittellangen Sätzen.",
+          "Der Eröffnungssatz ist mit drei Teilsätzen der komplexeste. Er funktioniert als Stimmungsträger, könnte aber gekürzt werden: 'Der Schlüssel klemmte, wie Schlüssel in alten Häusern klemmen. Nicht ganz.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Ich bin’s“, sagte sie."],
+        "suggestions": [
+          "Die einzige Dialogzeile ist minimal und wirkungsvoll, Straffungsbedarf besteht nicht."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "nur so, dass man den Druck der eigenen Hand spürte",
+          "etwas Süßlichem, das sie nicht einordnen konnte",
+          "Sie legte ihn auf die Fensterbank, ohne zu wissen, warum.",
+          "Sie sah hinauf. Die Stufen waren dunkel"
+        ],
+        "suggestions": [
+          "Die Wahrnehmung wird meist direkt dargestellt ('Es schmeckte nach Metall', 'Er war kalt und glitschig'). Das ist sehr gut.",
+          "'ohne zu wissen, warum' erklärt Maras Innenleben. Stärker wäre es, nur die Handlung stehen zu lassen: 'Sie legte ihn auf die Fensterbank.' Der Leser spürt die Unbewusstheit selbst.",
+          "'Sie sah hinauf.' ist hier funktional, weil es die Blickrichtung lenkt. Es könnte aber auch entfallen: 'Die Stufen nach oben waren dunkel, in der Mitte blank getreten.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ein brauner Hausschuh, flach getreten … / … in der Mitte blank getreten.",
+          "Sie schob ihn mit der Fußspitze beiseite. … Sie ließ ihn liegen.",
+          "Der Schlüssel klemmte, wie Schlüssel in alten Häusern klemmen"
+        ],
+        "suggestions": [
+          "Die Doppelung 'Schlüssel … Schlüssel / klemmte … klemmen' ist bewusst gesetzt und stilistisch tragfähig.",
+          "'getreten' erscheint zweimal ('flach getreten', 'blank getreten'). Eine Stelle sollte variiert werden, z. B. 'blank gelaufen' oder 'ausgetreten'.",
+          "'Sie ließ ihn liegen' wiederholt inhaltlich, was das Beiseiteschieben bereits impliziert. Der Satz ist nur sinnvoll, wenn er eine bewusste Entscheidung markieren soll. Sonst kann er gestrichen werden.",
+          "Der wiederkehrende Wasserhahn am Ende ist ein gelungenes Motiv und keine störende Wiederholung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.086532
+}

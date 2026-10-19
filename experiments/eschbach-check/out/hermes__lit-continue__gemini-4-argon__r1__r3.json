@@ -1,0 +1,92 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gemini-4-argon__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Die Strömung reicht“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist hervorragend, da er direkt in die Handlung und den Dialog springt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "dunkelblauen Wollmantel",
+          "viel zu dünn",
+          "flach über das Deichvorland",
+          "graue Uferschlamm"
+        ],
+        "suggestions": [
+          "Die Adjektive sind stimmungsvoll, aber im zweiten Absatz etwas gehäuft. Prüfen, ob 'dunkelblau' für die Charakterisierung zwingend notwendig ist oder ob 'dünner Wollmantel' reicht."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["sagte Ilse", "fragte er"],
+        "suggestions": ["Die Kennzeichnungen sind unaufdringlich und korrekt gesetzt."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["wohl", "eigentlich", "fast"],
+        "suggestions": [
+          "Wörter wie 'wohl' (beim Telefon) und 'eigentlich' (bei der Schicht) schwächen die Aussage. Streichen, um die Sätze direkter und bestimmter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie trat wieder hinaus... ging an Jonas vorbei... und hängte die eiserne Kette vor."
+        ],
+        "suggestions": ["Die Handlungsabfolge ist klar und logisch strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Fähre schwankte kaum merklich"],
+        "suggestions": ["Der Text ist fast durchgehend aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sein Blick glitt über die abblätternde grüne Farbe an der Reling, über den Rost am Windenkasten bis hinüber zum anderen Ufer, das im diesigen Licht kaum mehr als ein dunkler Strich war."
+        ],
+        "suggestions": ["Die Satzlängen sind gut rhythmisiert und lesbar."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Fährt überhaupt noch jemand unter der Woche?“"],
+        "suggestions": ["Die Dialoge sind knackig und treiben die Geschichte voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Jonas sah sie überrascht an."],
+        "suggestions": [
+          "'Überrascht' ist eine Interpretation des Autors. Besser: 'Jonas' Augen weiteten sich' oder 'Jonas starrte sie an' (Zeigen statt Behaupten)."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Es war nicht der Blick des Jungen... Es war der Blick, mit dem er Tabellen prüfte."
+        ],
+        "suggestions": [
+          "Die Wiederholung von 'Blick' ist hier ein stilistisches Mittel zur Charakterisierung und daher gut gewählt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

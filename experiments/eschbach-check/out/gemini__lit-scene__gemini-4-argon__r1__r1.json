@@ -1,0 +1,114 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__gemini-4-argon__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel fasste erst beim dritten Versuch.",
+          "Die Luft im Flur stand still."
+        ],
+        "suggestions": [
+          "Der Einstieg an der Tür ist atmosphärisch stark, gehört aber zu den klassischen 'Tür-auf-Szenen'. Um noch unmittelbarer einzusteigen (In medias res), könnte die Szene direkt im Flur beginnen: 'Die Luft im Flur stand still...'"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "unnatürlich laut klang",
+          "blasses, graues Licht",
+          "ein tiefes, hohles Röcheln",
+          "scharf und unverkennbar nach bitteren Mandeln"
+        ],
+        "suggestions": [
+          "Die meisten Adjektive sind sehr treffend gewählt (z.B. 'zähes Schmatzen'). An einigen Stellen gibt es jedoch Doppelungen, die gestrafft werden könnten: 'blasses Licht' reicht (grau ist impliziert), 'hohles Röcheln' ist stark genug ohne 'tiefes'.",
+          "'Unverkennbar' im letzten Satz ist ein erklärendes Adverb (Telling). Der Schockmoment wirkt stärker, wenn es gestrichen wird: 'Es schmeckte scharf nach bitteren Mandeln.'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keine Dialoge, daher gibt es hier keine Mängel."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "um einige Grad kälter",
+          "irgendwo im Keller",
+          "durch genau diesen schmalen Gang"
+        ],
+        "suggestions": [
+          "Wörter wie 'einige' und 'irgendwo' sind unpräzise. Besser: 'Sie war merklich kälter' (oder einfach 'Sie war kälter') und 'im Keller' (ohne 'irgendwo').",
+          "Das Wort 'genau' in 'genau diesen schmalen Gang' ist ein Füllwort und kann ersatzlos gestrichen werden: 'seit der Sarg durch diesen schmalen Gang getragen worden war'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als das Wasser schließlich klar wurde, hielt Clara die Finger darunter."],
+        "suggestions": [
+          "Die Handlungen sind fast durchgehend sauber nacheinander aufgereiht. Den letzten Absatz könnte man noch direkter gestalten, indem man das 'Als' auflöst: 'Schließlich wurde das Wasser klar. Clara hielt die Finger darunter.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "die irgendwo im Keller vergessen worden waren",
+          "seit der Sarg durch genau diesen schmalen Gang getragen worden war"
+        ],
+        "suggestions": [
+          "Zwei Plusquamperfekt-Passiv-Konstruktionen im selben Absatz wirken etwas schwerfällig. Vorschlag zur Aktivierung: '...Äpfeln, die im Keller vor sich hin faulten' und '...seit die Träger den Sarg durch diesen schmalen Gang bugsiert hatten'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Kein Staubtuch hatte diese Oberflächen berührt, seit der Sarg durch genau diesen schmalen Gang getragen worden war, vorbei an der Garderobe, an der noch immer der graue Lodenmantel hing – formlos wie eine abgelegte Haut."
+        ],
+        "suggestions": [
+          "Der Satzbau ist insgesamt sehr rhythmisch und abwechslungsreich. Nur der lange Satz im zweiten Absatz könnte für mehr Prägnanz geteilt werden: 'Kein Staubtuch hatte diese Oberflächen berührt, seit der Sarg durch den schmalen Gang getragen worden war. An der Garderobe hing noch immer der graue Lodenmantel – formlos wie eine abgelegte Haut.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher optimal."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Luft im Flur stand still.",
+          "Es roch nicht nach ihrer Mutter.",
+          "Das Wasser schmeckte nicht nach Eisen oder Kalk."
+        ],
+        "suggestions": [
+          "Hervorragend gelöst! Es gibt keine distanzierenden Filterwörter wie 'Clara sah', 'sie hörte' oder 'sie roch'. Der Leser erlebt die Sinneseindrücke unmittelbar durch die Perspektivfigur."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "feuchten Herbststille / feuchtem Kalk",
+          "schmalen Gang / schmalen Schlitze",
+          "graue Lodenmantel / graues Licht"
+        ],
+        "suggestions": [
+          "Inhaltlich gibt es keine unnötigen Doppelungen. Auf Wortebene wiederholen sich jedoch die Adjektive 'feucht', 'schmal' und 'grau' recht kurz hintereinander. Hier sollten Synonyme gesucht oder eines der Adjektive gestrichen werden (z.B. 'durch die Schlitze fiel blasses Licht')."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016596
+}

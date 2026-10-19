@@ -1,0 +1,83 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6.1-sol__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Nebel lag so tief über der Elbe, dass Ilse das andere Ufer nicht sah."],
+        "suggestions": [
+          "Der Einstieg ist exzellent, da er sofort Atmosphäre und Setting etabliert, ohne unnötige Vorgeschichte."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["nasse Poller", "braunen Wasser", "orangefarbenen Arbeitsjacke"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und funktional. 'Ein Stück von dem Seil' könnte zu 'Ein Stück Seil' gekürzt werden, um den Fluss zu straffen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Geht’s?“, fragte er.", "„Morgen“, sagte die Frau."],
+        "suggestions": ["Sehr sauber. Die Dialoge stehen für sich, keine unnötigen Begleitsätze."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["ein Stück von dem Seil"],
+        "suggestions": ["Der Text ist sehr präzise. Kaum Füllwörter vorhanden."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als sie sich aufrichtete, standen die beiden anderen Fahrgäste am Ufer."],
+        "suggestions": ["Die zeitliche Abfolge ist klar und logisch strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag", "Sie stellte die Thermoskanne"],
+        "suggestions": ["Der Text ist fast durchgehend aktiv formuliert. Sehr gut."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der erste Fahrgast schob ein Fahrrad mit zwei roten Packtaschen."],
+        "suggestions": [
+          "Die Sätze sind kurz, prägnant und unterstützen das kühle, sachliche Setting."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Glatt.“ / „November.“"],
+        "suggestions": [
+          "Die Dialoge sind auf das Wesentliche reduziert, was den Charakter der Protagonistin unterstreicht."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Sie sah das Ende der Rampe", "Sie spürte die Vibration"],
+        "suggestions": [
+          "Keine 'er sah, dass'-Konstruktionen. Die Wahrnehmung ist direkt und unmittelbar."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Poller... Poller"],
+        "suggestions": [
+          "Die Wiederholungen sind minimal und dienen der Orientierung im Raum. Sehr solide."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

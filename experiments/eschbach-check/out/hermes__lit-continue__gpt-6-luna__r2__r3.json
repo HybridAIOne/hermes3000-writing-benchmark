@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gpt-6-luna__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Er läuft“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist hervorragend, da er sofort in die Handlung wirft und Spannung erzeugt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["dunkel", "braune", "sauber", "feucht"],
+        "suggestions": [
+          "Die Adjektive sind atmosphärisch und charakterisierend. Sie können so bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["„Du hättest anrufen können“, sagte sie."],
+        "suggestions": [
+          "Das „sagte sie“ ist hier redundant, da der Sprecherwechsel durch den Absatz klar ist. Kann gestrichen werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ein paar"],
+        "suggestions": [
+          "Der Text ist sehr präzise. „Ein paar“ ist hier als umgangssprachliche Mengenangabe passend."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie ging an ihm vorbei... Jonas folgte ihr..."],
+        "suggestions": [
+          "Die Handlungen sind logisch nacheinander gereiht. Keine unnötigen „während“-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Das Bett ist gemacht."],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert. Das Zustandspassiv ist hier stilistisch korrekt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Drinnen roch es nach Diesel, nassem Holz und dem Kaffee, den sie am Morgen gekocht hatte."
+        ],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut lesbar."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Wie lange bleibst du?“ / „Ein paar Tage.“ / „Aha.“"],
+        "suggestions": ["Die Dialoge sind sehr knapp und treffend. Sehr gut."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Jonas sah zur Fähre hinüber.", "Er sah nur auf den Schraubenschlüssel"],
+        "suggestions": [
+          "Die Wahrnehmung ist direkt und zeigt das Geschehen, anstatt es zu beschreiben. Sehr gut."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Rechnung", "Koffer"],
+        "suggestions": [
+          "Die Wiederholungen sind inhaltlich notwendig, um den Fokus auf die Gegenstände zu legen. Keine störenden Wortwiederholungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

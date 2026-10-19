@@ -1,0 +1,156 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Der Nebel lag so tief auf der Elbe, dass Ilse das andere Ufer nur ahnte.",
+          "Halb sieben. Am Ufer wartete schon der erste Wagen.",
+          "Das Telefon in der Steuerbude klingelte."
+        ],
+        "suggestions": [
+          "Der atmosphärische Einstieg etabliert Ort, Beruf und Ilses Körpergefühl überzeugend. Ein Beginn bei »Halb sieben« wäre schneller, würde aber Atmosphäre kosten.",
+          "Falls der Anruf den eigentlichen Konflikt eröffnet, die vorausgehenden Überfahrten leicht kürzen. Besonders die Erläuterungen zu Pommerenings Friseurbesuch und zur Flusstiefe lassen sich verdichten, ohne Ilses Alltag unverständlich zu machen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "das vertraute Ruckeln",
+          "der junge Drews, der Sohn",
+          "Pommerening grinste zahnlückig.",
+          "Die Frau lachte kurz, unsicher"
+        ],
+        "suggestions": [
+          "Die meisten Attribute sind anschaulich und funktional; insbesondere »zahnlückig« charakterisiert mit einem Wort.",
+          "»Vertraute« kann entfallen, weil der anschließende Vergleich mit dem alten Bekannten dieselbe Information vermittelt.",
+          "Bei »der junge Drews, der Sohn« prüfen, ob beide Kennzeichnungen nötig sind. »Drews, der Sohn« erhält den dörflichen Ton.",
+          "Die Unsicherheit der Frau möglichst einmal benennen und anschließend durch ihr Verhalten vermitteln."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "»November«, sagte Ilse.",
+          "»Na, Ilse«, sagte Pommerening.",
+          "»Na«, sagte sie.",
+          "»Kein Empfang«, sagte sie.",
+          "»Auf dem Wasser nie«, sagte Ilse."
+        ],
+        "suggestions": [
+          "Die unauffälligen Kennzeichnungen passen zum lakonischen Ton. Nicht durch auffälligere Sprechverben ersetzen.",
+          "Bei eindeutigem Sprecherwechsel einzelne Kennzeichnungen streichen, etwa Ilses »sagte sie« nach »Na«.",
+          "Im Handy-Dialog reicht die vorangehende Handlung zur Zuordnung der Frau: »Kein Empfang.« Danach kann Ilse ohne zusätzliche Kennzeichnung antworten."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "irgendwo da draußen im Grau",
+          "das Henning irgendwann hatte anschließen lassen",
+          "und manchmal eine Welle",
+          "für einen Augenblick"
+        ],
+        "suggestions": [
+          "Die Unbestimmtheit ist meist motiviert: Nebel, Erinnerung und Routine rechtfertigen Wörter wie »irgendwo« und »manchmal«.",
+          "»Irgendwann« beim Display streichen, falls die zeitliche Unbestimmtheit keine Bedeutung hat: »Auf dem kleinen Display, das Henning hatte anschließen lassen …«",
+          "»Für einen Augenblick« nur behalten, wenn die kurze Dauer vor der Unterbrechung durch das Telefon ausdrücklich betont werden soll."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "die Kette quietschte, als sie sie löste",
+          "Drews nickte, als hätte sie ihm etwas ausführlich dargelegt",
+          "solange der Nebel nicht unter hundert Meter Sicht ließ"
+        ],
+        "suggestions": [
+          "Es gibt keine problematische Häufung von »während« oder »gleichzeitig«. Viele »als«-Konstruktionen sind Vergleiche, keine Gleichzeitigkeitssignale.",
+          "Die Folge beim Anlegen könnte klarer gegliedert werden: »Sie zog die Fähre ans Land. Der Bug stieß gegen die Rampe. Als sie die Kette löste, quietschte sie.«",
+          "Echte Gleichzeitigkeit wie das Quietschen beim Lösen nicht künstlich in nacheinander stattfindende Vorgänge umwandeln."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Fähre setzte sich in Bewegung, gezogen am Stahlseil",
+          "das seit einem Jahrhundert quer über den Fluss gespannt war"
+        ],
+        "suggestions": [
+          "Der Text ist überwiegend aktiv formuliert. Die wenigen passivischen Formen sind sachlich passend.",
+          "Optional die Bewegung unmittelbarer formulieren: »Das Stahlseil zog die Fähre über den Fluss.«",
+          "»Gespannt war« beschreibt einen Zustand sinnvoll; eine Aktivierung ist hier nicht notwendig."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Der Kleintransporter der Bäckerei Lüders rollte auf, Fahrer wie jeden Morgen: der junge Drews, der Sohn, der nie etwas sagte außer Guten Morgen und Danke, was ihn zu Ilses bevorzugtem Fahrgast machte.",
+          "Drews fuhr von Bord, zwei Fünfziger und ein Nicken, Pommerening schob sein Rad hinterher und rief noch ein »Bleib mir schön trocken, Ilse« in den Nebel, was keinen Sinn ergab und sie trotzdem auf die Weise berührte, wie alte Leute einen berührten, wenn sie einem etwas Gutes wünschten, das längst unmöglich war."
+        ],
+        "suggestions": [
+          "Die langen Sätze tragen den erzählerischen Fluss, bündeln stellenweise aber Handlung, Charakterisierung und Deutung zu dicht.",
+          "Die Vorstellung von Drews nach »der Sohn« teilen: »Er sagte nie etwas außer Guten Morgen und Danke. Das machte ihn zu Ilses bevorzugtem Fahrgast.«",
+          "Den Abschied nach Drews' Abfahrt und nach Pommerenings Zuruf gliedern. Ilses Reaktion erhält als eigener Satz mehr Gewicht."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "»November«, sagte Ilse.",
+          "»Und dazwischen?«",
+          "Ilse sah sie an. »Bin ich.«",
+          "»Vier Minuten.«"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, charakterisierend und ohne längere Erklärreden. Eine grundsätzliche Straffung ist nicht nötig.",
+          "Falls die gesamte Exposition kürzer werden soll, eher einen Gesprächsabschnitt der fremden Frau reduzieren als die einzelnen Repliken. Die Pointe »Bin ich« unbedingt erhalten."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Man sah es nicht. Man sah fast nichts.",
+          "Ilse wandte sich ab und schaute auf das Seil",
+          "Ilse stellte sich an die Rampe und schaute hinüber, wohin der Nebel das Ufer verschluckte."
+        ],
+        "suggestions": [
+          "Der Text arbeitet bereits häufig unmittelbar mit Körperempfindungen und konkreten Bildern statt mit Wahrnehmungsfiltern.",
+          "Optional direkter: »Das Seil verschwand im Grau. Nur das Wasser unter dem Rumpf blieb sichtbar.« Dabei geht allerdings der Rhythmus der ursprünglichen Wiederholung verloren.",
+          "Die Blickhandlungen nicht pauschal streichen: Ilses Abwenden und Hinüberschauen zeigen auch ihre Haltung und ihr Warten."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Die Frau lachte kurz, unsicher, als wüsste sie nicht, ob das ein Scherz war.",
+          "Wieder das unsichere Lachen.",
+          "streckte ihr zwei Fünfziger entgegen",
+          "Drews fuhr von Bord, zwei Fünfziger und ein Nicken",
+          "Vier Minuten dauerte die Überfahrt. Jonas wusste das. Er wusste genau, wann sie erreichbar war und wann nicht."
+        ],
+        "suggestions": [
+          "Die wiederholte Unsicherheit der Frau einmal durch eine andere Reaktion ersetzen oder die zweite Benennung streichen.",
+          "Die erneute Erwähnung der zwei Fünfziger bei der Abfahrt klären: Sie kann wie eine zweite Zahlung wirken. Falls nur ein Rückverweis gemeint ist, genügt »Drews fuhr mit einem Nicken von Bord«.",
+          "Bei Jonas verdichten: »Vier Minuten dauerte die Überfahrt. Jonas wusste genau, wann sie erreichbar war.«",
+          "Bewusste Leitmotive wie Nebel, Fluss, vier Minuten und das wiederkehrende Klingeln erhalten. Auch »der Nebel rührte sich nicht, und der Fluss rührte sich nicht« ist eine wirksame rhythmische Wiederholung, keine bloße Doppelung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02706
+}

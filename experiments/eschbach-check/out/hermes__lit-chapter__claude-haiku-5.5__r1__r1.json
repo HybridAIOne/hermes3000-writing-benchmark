@@ -1,0 +1,97 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag am Morgen so dicht auf dem Fluss, dass Ilse Brandt das andere Ufer nicht sehen konnte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und setzt genau zum richtigen Zeitpunkt ein, um den Leser in die Stimmung zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["mattes Licht", "struppigen Mischling"],
+        "suggestions": [
+          "Die Adjektive sind gut gewählt und unterstützen die Atmosphäre, ohne den Text zu überladen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sagte er", "sagte Ilse"],
+        "suggestions": [
+          "Die Marker sind unauffällig. In einigen Passagen könnten sie noch weiter reduziert werden, wenn der Sprecherwechsel durch den Kontext klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["irgendwo hinter der Wolkendecke"],
+        "suggestions": [
+          "Der Text ist sehr präzise. 'Irgendwo' ist hier als Stilmittel für die Ungewissheit des Wetters gut gewählt."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["als sie den Hebel umlegte", "als könne er"],
+        "suggestions": [
+          "Vermeide zu viele 'als'-Konstruktionen. Manchmal wirkt eine Abfolge von Hauptsätzen dynamischer und direkter."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["die Milchkühe längst verkauft waren"],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv formuliert. Die wenigen Passivkonstruktionen sind für den Zustand angemessen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Die Weiden am Ufer zeichneten sich als graue Schatten ab, dann wieder nicht."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind gut rhythmisiert. Es gibt keine kritischen Verschachtelungen, die den Lesefluss stören."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Kalt heute“, sagte er... „November“, sagte Ilse."],
+        "suggestions": [
+          "Die Dialoge sind angenehm kurz und charakteristisch. Sie passen perfekt zum Setting."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Sie wusste, dass es da war.", "Sie wusste, wann der Hebel klemmte..."],
+        "suggestions": [
+          "Vermeide Filterwörter wie 'Sie wusste'. Statt 'Sie wusste, dass es da war' schreibe direkter: 'Es war da. Sie spürte es.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie wusste, dass es da war... Sie wusste, wann der Hebel klemmte... Sie wusste, wie der Fluss... aussah"
+        ],
+        "suggestions": [
+          "Die dreifache Wiederholung von 'Sie wusste' im selben Absatz wirkt repetitiv. Variiere die Satzanfänge oder zeige das Wissen durch konkrete Handlungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

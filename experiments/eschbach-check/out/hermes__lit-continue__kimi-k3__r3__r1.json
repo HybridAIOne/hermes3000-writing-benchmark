@@ -1,0 +1,91 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__kimi-k3__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Der Motor stotterte beim Anlegen nicht..."],
+        "suggestions": [
+          "Der Einstieg ist bereits sehr stark und wirft den Leser direkt in die Handlung. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["zu dünn", "frischen"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und treffend gewählt. Weiterhin auf dieses Maß achten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte sie", "sagte Jonas"],
+        "suggestions": [
+          "Die Marker sind funktional. In einigen Fällen könnte man sie streichen, wenn der Sprecherwechsel durch den Kontext eindeutig ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["wahrscheinlich", "einfach", "nur"],
+        "suggestions": [
+          "Wörter wie 'wahrscheinlich' oder 'einfach' schwächen die Aussagekraft. Versuchen Sie, die Sätze ohne diese Füllwörter zu formulieren, um die Entschlossenheit der Charaktere zu stärken."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["gleichzeitig sah er auf seine Uhr"],
+        "suggestions": [
+          "Das Wort 'gleichzeitig' ist ein klassischer Stolperstein. Beschreiben Sie die Handlungen nacheinander: 'Er sagte das. Dann sah er auf seine Uhr.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist sehr aktiv und dynamisch geschrieben. Keine Korrekturen notwendig."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind gut rhythmisiert und unterstützen den Lesefluss."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ich hab angerufen“, sagte Jonas. „Ich weiß.“"],
+        "suggestions": ["Die Dialoge sind exzellent gestrafft und transportieren viel Subtext."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Sie sah, wie er das Gleichgewicht suchte",
+          "Ilse dachte, dass er es wahrscheinlich beide Male meinte",
+          "sie wusste, dass Jonas das sah"
+        ],
+        "suggestions": [
+          "Diese Filterwörter ('sie sah, wie', 'sie dachte, dass') distanzieren den Leser vom Geschehen. Streichen Sie die Filter und beschreiben Sie das Erlebte direkt: Statt 'Sie sah, wie er das Gleichgewicht suchte' schreiben Sie 'Er suchte das Gleichgewicht'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["„Ich mach Brot.“", "„Dienstag. Und Mittwoch.“"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier stilistisch beabsichtigt und unterstreichen die emotionale Spannung. Gut gemacht."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

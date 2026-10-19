@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gemini-4-argon__r2",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel hing so tief über dem Wasser..."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch sehr stark und setzt genau zum richtigen Zeitpunkt ein, um die Stimmung zu etablieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["völlig durchnässt", "kaum merklich"],
+        "suggestions": [
+          "Der Text ist bereits sehr präzise. 'Völlig' ist ein Füllwort, 'durchnässt' steht für sich allein stärker. 'Kaum merklich' könnte durch ein präziseres Verb ersetzt werden (z.B. 'Ilse zuckte mit den Schultern')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Morgen, Ilse“, rief er...", "„Was bekommen Sie?“, fragte die Frau..."],
+        "suggestions": [
+          "Die Dialoge sind exzellent in die Handlung eingebettet. Die Sprecher sind durch Kontext und Handlungsbeschreibungen eindeutig identifizierbar."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kaum dass er ihre Lippen verlassen hatte"],
+        "suggestions": [
+          "Der Text ist sehr sauber. 'Kaum dass' ist stilistisch akzeptabel, könnte aber für mehr Direktheit gestrafft werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Gleichzeitig tauchte daneben eine schmale Silhouette auf"],
+        "suggestions": [
+          "Das Wort 'Gleichzeitig' ist ein unnötiger Krückstock. Streichen Sie es einfach: 'Daneben tauchte eine schmale Silhouette auf.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist vorbildlich aktiv formuliert. Es gibt keine unnötigen Passivkonstruktionen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind gut variiert und unterstützen den Rhythmus der Szene."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die Dialoge sind kurz, funktional und charakterisierend. Keine Straffung notwendig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie sah zu, wie das Display schwarz wurde"],
+        "suggestions": [
+          "Sehr direkt gelöst. Es gibt keine 'er dachte, dass'- oder 'sie sah, dass'-Konstruktionen, die den Leser auf Distanz halten würden."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist inhaltlich sehr effizient. Es gibt keine unnötigen Doppelungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

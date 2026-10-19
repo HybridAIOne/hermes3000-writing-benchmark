@@ -1,0 +1,132 @@
+{
+  "who": "sol",
+  "item": "lit-scene__gpt-6.1-sol__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel ging schwer, aber er passte noch.",
+          "Judith musste die Tür mit der Schulter anheben, wie früher, wenn das Holz im Herbst gequollen war."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Er beginnt unmittelbar mit einer Handlung und vermittelt zugleich Vertrautheit, Abwesenheit und Widerstand.",
+          "Ein späterer Einstieg würde die körperlich erfahrbare Rückkehr und das Motiv des gespeicherten Wissens schwächen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Zwischen eingetrockneten Schwämmen lag ein Stück gelbe Kernseife, in dessen Oberfläche ein schwarzes Haar eingeschlossen war.",
+          "Erst kam Luft, dann ein brauner Stoß."
+        ],
+        "suggestions": [
+          "Die überwiegend konkreten, sinnlich wirksamen Attribute erhalten; sie machen Leerstand und Vernachlässigung erfahrbar.",
+          "Allenfalls prüfen, ob die Farbe der Kernseife wichtig ist. Ohne spätere Bedeutung ließe sich „gelbe“ streichen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Notar hatte von einer Immobilie gesprochen, von Räumung und Fristen."],
+        "suggestions": [
+          "Keine Änderung erforderlich: Es gibt keine direkte Rede und keine überflüssigen Redebegleitsätze.",
+          "Die knappe Zusammenfassung des Notargesprächs bewahren; ein ausformulierter Dialog würde den Szenenfluss eher unterbrechen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Aus der Küche kam der Geruch nach altem Fett und etwas Scharfem.",
+          "Zwanzig Jahre lang hatte sie dieses Haus nur von der anderen Straßenseite gesehen, wenn überhaupt."
+        ],
+        "suggestions": [
+          "„Etwas Scharfem“ nur dann konkretisieren, wenn Judith den Geruch identifizieren kann; andernfalls ist die Unbestimmtheit perspektivisch sinnvoll.",
+          "„Wenn überhaupt“ probeweise streichen. Beibehalten, falls gerade die nachträgliche Einschränkung Judiths Distanz zum Haus ausdrücken soll."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Judith schob sie mit dem Schuh beiseite und schloss die Tür.",
+          "Erst kam Luft, dann ein brauner Stoß.",
+          "Sie hielt sie länger in der Hand, als nötig gewesen wäre."
+        ],
+        "suggestions": [
+          "Die klare Handlungsfolge beibehalten.",
+          "Die mehrfachen „als“-Konstruktionen nicht pauschal kürzen: Sie dienen hier Vergleichen, nicht der Überlagerung gleichzeitiger Handlungen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Zwischen eingetrockneten Schwämmen lag ein Stück gelbe Kernseife, in dessen Oberfläche ein schwarzes Haar eingeschlossen war.",
+          "Ihr Vater hatte sie angebracht, bevor er ging; ihre Mutter hatte später die Tapete darum herum erneuert."
+        ],
+        "suggestions": [
+          "„Eingeschlossen war“ ist eine sinnvolle Zustandsbeschreibung; eine aktive Umformung ist nicht erforderlich.",
+          "Für eine knappere Formulierung wäre möglich: „In ihrer Oberfläche steckte ein schwarzes Haar.“ Dabei ginge allerdings die besondere Wirkung des Eingeschlossenseins teilweise verloren."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Zwischen eingetrockneten Schwämmen lag ein Stück gelbe Kernseife, in dessen Oberfläche ein schwarzes Haar eingeschlossen war.",
+          "Ihr Vater hatte sie angebracht, bevor er ging; ihre Mutter hatte später die Tapete darum herum erneuert.",
+          "Judith stellte ihre Tasche ab."
+        ],
+        "suggestions": [
+          "Den Wechsel zwischen beschreibenden Sätzen und kurzen Handlungssätzen erhalten; er steuert das Lesetempo wirkungsvoll.",
+          "Den Satz über die Kernseife nur dann teilen, wenn das Haar stärker hervortreten soll: „Zwischen eingetrockneten Schwämmen lag ein Stück gelbe Kernseife. In ihrer Oberfläche war ein schwarzes Haar eingeschlossen.“"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Notar hatte von einer Immobilie gesprochen, von Räumung und Fristen. Am Telefon hatte sie alles mitgeschrieben."
+        ],
+        "suggestions": [
+          "Kein Kürzungsbedarf: Der Text enthält keine ausgedehnten Dialogpassagen.",
+          "Die indirekte Zusammenfassung erhalten; sie liefert den notwendigen äußeren Anlass, ohne die Erkundung des Hauses zu verdrängen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Aus der Küche kam der Geruch nach altem Fett und etwas Scharfem.",
+          "Die Seife roch nach Kümmel.",
+          "Am neunzehnten stand, klein und mit Bleistift, ihr Name."
+        ],
+        "suggestions": [
+          "Die unmittelbare Darstellung beibehalten: Der Text verzichtet bereits auf Filter wie „sie bemerkte“ oder „sie sah, dass“.",
+          "„Ihr Körper wusste es vor ihr“ nicht als entbehrliche Wahrnehmungsformel behandeln; der Satz verdichtet die körperliche Erinnerung."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Seife roch nach Kümmel.",
+          "Ihre Mutter hatte Kümmel gehasst. Sie hatte ihn aus Brot gepult, Korn für Korn, und auf dem Tellerrand gesammelt.",
+          "Sie hielt sie länger in der Hand, als nötig gewesen wäre."
+        ],
+        "suggestions": [
+          "Die Wiederholung von „Kümmel“ bewahren: Sie verbindet die gegenwärtige Wahrnehmung mit der Erinnerung und erzeugt einen irritierenden Widerspruch.",
+          "Allenfalls die Pronomenfolge „Sie hielt sie“ glätten: „Judith hielt die Seife länger in der Hand, als nötig gewesen wäre.“",
+          "Die wiederkehrenden Plusquamperfektformen nicht mechanisch variieren; sie markieren die Vorgeschichte und sind keine inhaltlichen Doppelungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018512
+}

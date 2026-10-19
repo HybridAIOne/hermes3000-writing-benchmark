@@ -1,0 +1,125 @@
+{
+  "who": "sol",
+  "item": "lit-scene__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Schlüssel ließ sich nicht drehen."],
+        "suggestions": [
+          "Den Einstieg beibehalten: Er beginnt unmittelbar mit einem Hindernis und vermittelt die Rückkehr über eine konkrete Handlung. Ein späterer Einsatz würde das Türöffnen als atmosphärische Schwelle verlieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "der dunkelgrüne mit dem abgewetzten Kragen",
+          "Die Creme war kühl und fest",
+          "roch so genau nach den Händen ihrer Mutter"
+        ],
+        "suggestions": [
+          "Die sinnlich konkreten Attribute beibehalten: Sie charakterisieren Gegenstände und tragen die Erinnerung.",
+          "Allenfalls „so genau“ zu „genau“ straffen: „… roch genau nach den Händen ihrer Mutter, sodass sie sich auf den Wannenrand setzen musste.“ Die emotionale Verstärkung des Originals ist allerdings ebenfalls stimmig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Kein Änderungsbedarf: Der Text enthält keine Dialoge und damit keine überflüssigen Redeeinleitungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie stand eine Weile auf der Schwelle",
+          "nach etwas Süßlichem, das sie nicht gleich benennen konnte",
+          "Irgendwo tropfte es"
+        ],
+        "suggestions": [
+          "„Eine Weile“ versuchsweise streichen, wenn das Zögern bereits durch den erneuten Öffnungsversuch ausreichend vermittelt wird.",
+          "„Etwas Süßlichem“ und „irgendwo“ nicht mechanisch präzisieren: Die Unbestimmtheit entspricht ihrer Wahrnehmung und unterstützt die Atmosphäre."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie stand eine Weile auf der Schwelle, den Koffer neben sich, und versuchte es noch einmal",
+          "hatte es im Flur nach Rosen gerochen, wenn sie die Treppe heraufkam",
+          "als hätte es nur auf sie gewartet"
+        ],
+        "suggestions": [
+          "Die klare Handlungsfolge beibehalten; eine störende Häufung gleichzeitiger Aktionen liegt nicht vor.",
+          "Die „als“-Konstruktionen sind Vergleiche, keine problematischen Gleichzeitigkeitsverknüpfungen. Sie sollten nicht allein wegen des Signalworts gestrichen werden."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["so wie es früher verlangt worden war"],
+        "suggestions": [
+          "Falls die Mutter ausdrücklich als Urheberin der Anweisung hervortreten soll: „so wie ihre Mutter es früher verlangt hatte“.",
+          "Das Passiv kann bleiben, wenn gerade die unpersönlich fortwirkende Vorschrift betont werden soll. „Der Schlüssel ließ sich nicht drehen“ ist kein gewöhnlicher Passivsatz und wirkt hier prägnant."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Durch den Flur fiel graues Licht vom Oberfenster über der Treppe, und auf dem Garderobenhaken hing der Mantel der Mutter, der dunkelgrüne mit dem abgewetzten Kragen, als würde gleich jemand danach greifen.",
+          "Ihre Mutter hatte jeden Abend davon genommen, jeden Abend, zwanzig Jahre lang, hatte es im Flur nach Rosen gerochen, wenn sie die Treppe heraufkam."
+        ],
+        "suggestions": [
+          "Den Mantelsatz bei Bedarf entlasten: „Durch den Flur fiel graues Licht vom Oberfenster über der Treppe. Auf dem Garderobenhaken hing der Mantel der Mutter, der dunkelgrüne mit dem abgewetzten Kragen, als würde gleich jemand danach greifen.“",
+          "Die syntaktisch gedrängte Erinnerung klarer gliedern: „Ihre Mutter hatte jeden Abend davon genommen. Jeden Abend, zwanzig Jahre lang, hatte es im Flur nach Rosen gerochen, wenn sie die Treppe heraufkam.“",
+          "Nicht sämtliche langen Sätze auflösen: Ihr tastender Rhythmus passt zur vorsichtigen Erkundung des Hauses."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Kein Änderungsbedarf: Es gibt keine Dialogpassagen. Die dialoglose Gestaltung unterstützt die Einsamkeit der Szene."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "mit einem Geräusch, das sie vergessen hatte und sofort wiedererkannte",
+          "sie […] sah zur Tür, durch die man den Flur sehen konnte",
+          "Sie hatte gedacht, die Zeit würde sich wie eine Strecke anfühlen, die man zurücklegt."
+        ],
+        "suggestions": [
+          "Die doppelte Blickvermittlung straffen: „Sie wischte den Finger an ihrer Hose ab und sah zur Tür. Dahinter lagen der Flur, der Mantel, die Treppe, das Licht.“",
+          "Das Wiedererkennen des Schlossgeräuschs beibehalten: Hier ist der Wahrnehmungsvorgang selbst erzählerisch wichtig.",
+          "„Sie hatte gedacht“ nicht automatisch streichen; die Formulierung markiert sinnvoll den Gegensatz zwischen ihrer früheren Erwartung und der jetzigen Erfahrung."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "jeden Abend davon genommen, jeden Abend, zwanzig Jahre lang",
+          "Zwanzig Jahre.",
+          "Der Schlüssel ließ sich nicht drehen.",
+          "Sie drehte ihn ab. Er klebte, dann gab er nach."
+        ],
+        "suggestions": [
+          "Die Wiederholung von „jeden Abend“ rhythmisch durch einen Satzwechsel profilieren oder die zweite Nennung streichen, falls eine nüchternere Tonlage gewünscht ist.",
+          "„Zwanzig Jahre.“ als bewussten Rückbezug erhalten: Die isolierte Wiederaufnahme verdichtet die Zeitspanne emotional.",
+          "Das wiederkehrende Motiv widerständiger Verschlüsse nicht als bloße Dopplung behandeln: Schlüssel und Cremedeckel verbinden das Betreten des Hauses mit dem Zugang zur Erinnerung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.019068
+}

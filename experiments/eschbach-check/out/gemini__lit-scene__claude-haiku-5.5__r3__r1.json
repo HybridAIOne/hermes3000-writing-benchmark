@@ -1,0 +1,104 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__claude-haiku-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel ließ sich nicht drehen. Sie stand auf der Stufe, den Koffer neben sich..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist perfekt gewählt (in medias res). Keine Anreise, kein unnötiges Vorglühen, sofort ein kleiner physischer Widerstand, der Atmosphäre schafft."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["mit einem trockenen Ächzen", "nach kaltem Staub", "sauber gelöst"],
+        "suggestions": [
+          "Die wenigen Adjektive sind sehr präzise und sinnlich gewählt. Lediglich bei 'eine kleine Lasche' könnte das 'kleine' gestrichen werden, da eine Lasche am Glasrand naturgemäß klein ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keinen Dialog, daher gibt es hier keine Mängel."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "nach etwas Süßem, das sie keinem Ding zuordnen konnte",
+          "der immer ein wenig schief gestanden hatte",
+          "Der Inhalt war nachgedunkelt zu einem Bernstein, fast braun."
+        ],
+        "suggestions": [
+          "Der Text ist fast frei von Füllwörtern. Kleinere Optimierungen für noch mehr Präzision: Statt 'keinem Ding' besser 'nichts' oder 'keiner Quelle'. Statt 'ein wenig schief' einfach 'schief'. Bei 'Bernstein, fast braun' sich für eines der Bilder entscheiden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie stand auf der Stufe, den Koffer neben sich, und drückte die Klinke, bis das Holz nachgab."
+        ],
+        "suggestions": [
+          "Hervorragend gelöst. Die Handlungen folgen logisch und chronologisch aufeinander, es gibt keine erzwungenen 'Während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Das Wachs über dem Rand war an einer Stelle angehoben..."],
+        "suggestions": [
+          "Das Zustandspassiv ist hier absolut gerechtfertigt, da der Urheber der Tat unbekannt ist (Spannungsaufbau). Es gibt kein unnötiges Vorgangspassiv im Text."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Durchs Fenster fiel grauer Nachmittag auf den Tisch mit der Wachstuchdecke, auf die Zuckerdose, den Stuhl, der immer ein wenig schief gestanden hatte.",
+          "Zwanzig Jahre."
+        ],
+        "suggestions": [
+          "Sehr gute Satzmelodie. Längere, beschreibende Sätze wechseln sich gut mit kurzen, prägnanten Sätzen oder Ellipsen ab."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher optimal."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Darin stand eine Frau Ende vierzig, die sie einen Moment lang nicht erkannte.",
+          "Die Süße, die sie im Flur gerochen hatte, kam von hier."
+        ],
+        "suggestions": [
+          "Meisterhaft direkt ('Show, don't tell'). Es wird nicht geschrieben 'Sie sah in den Spiegel', sondern direkt das Spiegelbild beschrieben. Einziger minimaler Filter ist 'gerochen hatte' im letzten Absatz. Vorschlag: 'Die Süße aus dem Flur kam von hier.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Im Flur hing der Garderobenspiegel noch an seinem Nagel [...] der Platz davor war noch da [...] Dort standen die Regale noch...",
+          "Die Süße, die sie im Flur gerochen hatte, kam von hier. Und jemand war vor ihr hier gewesen."
+        ],
+        "suggestions": [
+          "Das Wort 'noch' wird dreimal verwendet, um das Überdauern der Dinge zu zeigen – einmal streichen würde reichen. Am Ende doppelt sich das Wort 'hier' kurz hintereinander. Vorschlag für den letzten Satz: 'Und jemand war vor ihr im Haus gewesen.' (Die Doppelung von 'fehlten' im dritten Absatz ist hingegen ein gutes rhetorisches Mittel)."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.014724
+}

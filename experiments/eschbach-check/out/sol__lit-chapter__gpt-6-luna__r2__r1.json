@@ -1,0 +1,153 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__gpt-6-luna__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag so dicht auf der Elbe, dass Ilse das andere Ufer nur daran erkannte, dass es fehlte.",
+          "Sie schob den Hebel nach vorn. Der Motor sprang mit einem kurzen Husten an."
+        ],
+        "suggestions": [
+          "Den bildstarken ersten Absatz beibehalten: Er etabliert die eingeschränkte Sicht und bereitet Ilses spätere Wahrnehmungsunsicherheit vor.",
+          "Für einen schnelleren Weg zum eigentlichen Konflikt eher die anschließenden Betriebsabläufe kürzen, statt den Einstieg vollständig zu verlegen. Einzelne Handgriffe könnten entfallen, ohne die Routine als Grundlage der späteren Irritation zu verlieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Nur das Wasser unter der Fähre, grau und langsam",
+          "Das Drahtseil über ihr vibrierte leise.",
+          "Der Motor brummte gleichmäßig.",
+          "Am Anleger lag die nächste kleine Warteschlange in der üblichen Ordnung"
+        ],
+        "suggestions": [
+          "Die sinnlich präzisen Angaben überwiegend erhalten; Farbe, Geschwindigkeit und Geräusche tragen die Atmosphäre.",
+          "Bei „die nächste kleine Warteschlange in der üblichen Ordnung“ prüfen, ob „kleine“ entfallen kann. Die anschließende Aufzählung vermittelt den Umfang bereits.",
+          "Nicht jedes Bewegungs- oder Motorengeräusch zusätzlich qualifizieren. Beispielsweise kann „Das Drahtseil über ihr vibrierte“ genügen, sofern die Lautstärke keine eigene Funktion hat."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Morgen“, sagte Ilse.",
+          "„Wird das heute noch heller?“, fragte die Frau.",
+          "Der Fahrer kurbelte das Fenster einen Spalt herunter. „Was?“",
+          "„Schönen Tag“, sagte sie."
+        ],
+        "suggestions": [
+          "Die Kennzeichnungen bei Sprecherwechseln zwischen mehreren Figuren beibehalten; sie schaffen unauffällig Orientierung.",
+          "Nach der eindeutig zugeordneten Handlung der Frau kann „sagte sie“ bei „Schönen Tag“ entfallen.",
+          "Die bereits verwendete Zuordnung durch Handlungen als Muster beibehalten, ohne dafür zusätzliche Gesten einzubauen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "gab noch ein wenig mehr Gas",
+          "Als die Fähre ein wenig schräg in die Strömung geriet",
+          "und vermutlich würde es das auch noch eine Weile tun",
+          "Der Name blieb eine Weile über dem grünen und dem roten Feld stehen."
+        ],
+        "suggestions": [
+          "„ein wenig schräg“ versuchsweise zu „schräg“ kürzen; die geringe Abweichung muss nicht zwingend eigens benannt werden.",
+          "Den Thermometersatz straffen: „Seit dem ersten Blick am Morgen stand es auf vier Grad.“ Dadurch entfallen mehrere abschwächende Zeit- und Vermutungsangaben.",
+          "Unbestimmtheit nicht pauschal beseitigen: Die ungemessene Dauer vor der Entscheidung am Telefon vermittelt Ilses Zögern."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als die Fähre ein wenig schräg in die Strömung geriet, trat er auf die Bremse.",
+          "Sie wartete, bis die Rücklichter nicht mehr zu sehen waren, und zog die Klappe hoch.",
+          "Sie ließ den Motor laufen, bis die Fähre sich vom Ufer löste, dann drehte sie sie zurück in die Strömung."
+        ],
+        "suggestions": [
+          "Die zeitlichen Verknüpfungen überwiegend erhalten: Sie machen Reaktionen und Arbeitsabläufe nachvollziehbar.",
+          "Keine systematische Auflösung in Einzelsätze nötig. Der Text schildert die meisten Handlungen bereits in klarer Reihenfolge.",
+          "Die mehrfachen „als“-Vergleiche nicht mit Gleichzeitigkeit verwechseln; Formulierungen wie „als müsse sie sie vor der Kälte schützen“ erfüllen eine andere Funktion."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie korrigierte mit dem Hebel.",
+          "Die Klappe fiel herab.",
+          "Dann drückte sie die Seitentaste, bis das Display dunkel wurde."
+        ],
+        "suggestions": [
+          "Keine Überarbeitung erforderlich: Der Text verwendet keine auffälligen Passivkonstruktionen.",
+          "Die aktive, gegenständliche Darstellung beibehalten. „Das Display dunkel wurde“ bezeichnet eine Zustandsveränderung und ist kein Passiv."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf der Elbe, dass Ilse das andere Ufer nur daran erkannte, dass es fehlte.",
+          "Nur das Wasser unter der Fähre, grau und langsam, und die Seile, die sich vor ihr aus dem Nichts spannten und hinter ihr wieder darin verschwanden.",
+          "Sie ließ den Motor laufen, bis die Fähre sich vom Ufer löste, dann drehte sie sie zurück in die Strömung."
+        ],
+        "suggestions": [
+          "Den Wechsel zwischen kurzen Handlungssätzen und längeren Wahrnehmungssätzen erhalten; er trägt den ruhigen Rhythmus.",
+          "Die doppelte „dass“-Konstruktion im ersten Satz ist verständlich und erzeugt eine wirkungsvolle Pointe. Sie muss nicht allein aus formalen Gründen aufgelöst werden.",
+          "Allenfalls den Satz zur Rückfahrt teilen: „Sie ließ den Motor laufen, bis die Fähre sich vom Ufer löste. Dann drehte sie sie zurück in die Strömung.“"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Wird das heute noch heller?“, fragte die Frau.\n\n„Kann sein.“",
+          "„Die Bremse. Wir schwimmen nicht weg.“",
+          "„Schönen Tag“, sagte sie.\n\n„Ihnen auch.“"
+        ],
+        "suggestions": [
+          "Keine Straffung erforderlich: Die Dialoge sind knapp, alltagsnah und frei von erklärenden Monologen.",
+          "Insbesondere den Austausch über die Bremse erhalten; er charakterisiert Ilse und den Fahrer mit wenigen Worten."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Ilse ging zum Geländer und sah auf die Stromkante.",
+          "Ilse hörte den Motor im Leerlauf.",
+          "Sie sah sie nicht, aber der Zug ließ nach.",
+          "Ilse sah hinüber auf das leere Deck, auf die Seile, die im Nebel verschwanden."
+        ],
+        "suggestions": [
+          "Den bloßen Wahrnehmungsfilter bei Bedarf entfernen: „Der Motor lief im Leerlauf.“ Der folgende Satz über Ilses Motorenkenntnis bindet das Geräusch weiterhin an ihre Perspektive.",
+          "Beim Gang zum Geländer versuchsweise direkt anschließen: „Ilse ging zum Geländer. Die Stromkante war im Nebel kaum auszumachen.“",
+          "Nicht alle Wahrnehmungsverben streichen: Das erfolglose Suchen nach der Anlegestelle und der Blick vor dem Ablehnen des Anrufs sind bedeutsame Handlungen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Motor brummte gleichmäßig.",
+          "Der Motor hielt seinen Takt.",
+          "Der Nebel machte aus der Rückfahrt dieselbe Fahrt wie die Hinfahrt.",
+          "erst der Mann mit dem Fahrrad, dann die Frau, dann der Lieferwagen. Nein, die waren schon drüben."
+        ],
+        "suggestions": [
+          "Nebel, Motor und Seile als Leitmotive erhalten: Ihre Wiederkehr erzeugt die Monotonie, vor der Ilses Irritation hervortritt.",
+          "Bei den wiederholten Motorbeschreibungen prüfen, welche jeweils eine neue Funktion erfüllen. Eine rein atmosphärische Wiederholung könnte entfallen; „Der Motor hielt seinen Takt“ bildet dagegen einen wirksamen Kontrast zur Wahrnehmungsstörung.",
+          "Die vermeintlich wiederkehrende Fahrgastgruppe nicht als versehentliche Doppelung glätten. Sie ist ein zentraler erzählerischer Bruch.",
+          "Prüfen, ob der Wechsel vom anfänglichen „Jungen“ zum späteren „Mann mit dem Fahrrad“ beabsichtigt ist. Falls nicht, die Bezeichnung vereinheitlichen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.025636
+}

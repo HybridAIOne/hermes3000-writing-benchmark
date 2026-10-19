@@ -1,0 +1,146 @@
+{
+  "who": "sol",
+  "item": "lit-continue__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Der Motor läuft\", sagte Ilse.", "„Er hustet seit elf Jahren.\""],
+        "suggestions": [
+          "Den unmittelbaren Dialogeinstieg beibehalten: Er etabliert Ort, Beziehung und Konflikt ohne vorgeschaltete Erklärung.",
+          "Ein späterer Einstieg würde den charakterisierenden Schlagabtausch über den Motor verkürzen und bietet keinen erkennbaren Vorteil."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„der noch lose auf den Bohlen lag“",
+          "„in ordentlichen Buchten“",
+          "„Der Fluss lag grau und breit hinter ihm.“",
+          "„Dann das Rattern des Koffers, ungeduldig, aber folgend.“"
+        ],
+        "suggestions": [
+          "„noch lose“ auf seine Notwendigkeit prüfen; „der auf den Bohlen lag“ genügt, sofern der Zustand des Tampens nicht wichtig ist.",
+          "„ordentlichen“ eher behalten: Das Wort charakterisiert Ilses eingeübte Sorgfalt.",
+          "Die ungewöhnliche Zuschreibung „ungeduldig, aber folgend“ erhalten, wenn die Übertragung von Jonas’ Haltung auf das Koffergeräusch beabsichtigt ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der Motor läuft\", sagte Ilse.",
+          "„Hast du gegessen?\", fragte sie.",
+          "„Hier müsste vieles\", sagte Ilse und ging an ihm vorbei zum Fährhaus."
+        ],
+        "suggestions": [
+          "Die erste Sprecherkennzeichnung behalten; sie verankert Ilse unmittelbar.",
+          "Beim Wechsel vom Beschreibungsteil zurück zum Gespräch ist „fragte sie“ eine sinnvolle Orientierungshilfe.",
+          "Optional straffen: „‚Hier müsste vieles.‘ Ilse ging an ihm vorbei zum Fährhaus.“ Die Handlung kennzeichnet die Sprecherin bereits."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Jonas kannte sie vermutlich auch noch, aber er tat nicht so.“",
+          "„Er zog den Koffer ein Stück über die Bohlen“",
+          "„Hier müsste mal jemand die Bretter erneuern.“",
+          "„Vielleicht kam keiner. Sonst kam auch selten einer.“"
+        ],
+        "suggestions": [
+          "„ein Stück“ könnte entfallen: Das hängen bleibende Rädchen macht die kurze Bewegung bereits anschaulich.",
+          "„vermutlich“ und „Vielleicht“ nicht pauschal streichen: Sie markieren Ilses begrenztes Wissen und ihre Erwartungen.",
+          "Das umgangssprachliche „mal“ im Dialog behalten, sofern Jonas’ beiläufig-kritischer Ton gewünscht ist."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ich habe es von oben gehört, als du reingekommen bist.“",
+          "„Ihre Knie meldeten sich dabei, wie sie es neuerdings taten“",
+          "„Das Stahlseil hing durch, tropfte, spannte sich wieder, wenn die Strömung an der Fähre zog.“"
+        ],
+        "suggestions": [
+          "Keine systematische Überarbeitung nötig: Zeitliche Verknüpfungen werden sparsam eingesetzt.",
+          "Die Abfolge am Stahlseil beibehalten; sie vermittelt Bewegung und Rhythmus präzise.",
+          "„als müsste er erst rechnen“ ist ein Vergleich, keine problematische Gleichzeitigkeit."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Sie bückte sich nach dem Tampen“",
+          "„Sie nahm Hennings Becher vom Fensterbrett, goss ihn halb voll und hielt ihn ihm hin.“",
+          "„Es war noch eine Fahrt eingetragen“"
+        ],
+        "suggestions": [
+          "Die überwiegend aktive Erzählweise beibehalten.",
+          "„Es war noch eine Fahrt eingetragen“ ist eine funktionale Zustandsbeschreibung. Eine Aktivierung wäre nur sinnvoll, wenn wichtig werden soll, wer die Fahrt eingetragen hat."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Das Gesicht aber war noch das des Jungen, der mit zehn auf diesem Anleger gesessen und die Beine ins Wasser gehängt hatte, bis Henning ihn zurückgepfiffen hatte.“",
+          "„Im Fenster des Fährhauses stand die Thermoskanne, wo sie sie nach der letzten Überfahrt hingestellt hatte, daneben der blaue Becher, Hennings Becher, und ihr eigener, angeschlagen am Rand.“"
+        ],
+        "suggestions": [
+          "Den Erinnerungssatz bei Bedarf entlasten: „Das Gesicht aber war noch das des Jungen, der mit zehn auf diesem Anleger gesessen und die Beine ins Wasser gehängt hatte. Bis Henning ihn zurückgepfiffen hatte.“",
+          "Die Fensterbeschreibung lässt sich klarer gliedern: „Im Fenster des Fährhauses stand noch die Thermoskanne von der letzten Überfahrt. Daneben der blaue Becher, Hennings Becher, und ihr eigener, angeschlagen am Rand.“",
+          "Nicht alle längeren Sätze teilen: Ihr ruhiger Rhythmus passt zu Ilses beobachtender Perspektive."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Im Zug.\"\n\n„Das heißt nein.\"\n\n„Mama.\"",
+          "„Es gibt Suppe. Von gestern.\"",
+          "„Stell das Ding hin\", sagte sie. „Die Suppe läuft nicht weg.\""
+        ],
+        "suggestions": [
+          "Die knappen Dialogwechsel unverändert lassen: Sie tragen Beziehungsgeschichte und unterschwellige Spannung, ohne diese auszuerklären.",
+          "Keine zusätzlichen Erläuterungen zu „Mama“ oder zur Suppe einfügen; die Wirkung entsteht gerade aus der Kürze."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„und sie merkte, dass sie darauf gewartet hatte“",
+          "„Sie hörte ihn hinter sich zögern.“",
+          "„Sie nahm die Kanne in die Hand und spürte das Gewicht des Rests darin.“"
+        ],
+        "suggestions": [
+          "Die emotionale Erkenntnis direkter fassen: „Er lachte kurz, durch die Nase. Darauf hatte sie gewartet.“",
+          "Beim Kannengewicht prüfen, ob eine unmittelbare körperliche Beschreibung stärker wäre, etwa: „Sie hob die Kanne. Noch ein Rest.“ Dabei ginge allerdings ein Teil der ruhigen Genauigkeit verloren.",
+          "„Sie hörte ihn hinter sich zögern“ kann bleiben: Die Formulierung bindet die Darstellung an Ilses Hörperspektive und macht Jonas’ unausgesprochenen Widerstand spürbar."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Er hatte sich nicht verändert, und doch war alles an ihm anders.“",
+          "„Ilse kannte jedes Geräusch davon.“ / „Jonas kannte sie vermutlich auch noch“",
+          "„Hier müsste mal jemand die Bretter erneuern.“ / „Hier müsste vieles“",
+          "„der blaue Becher, Hennings Becher“"
+        ],
+        "suggestions": [
+          "Den abstrakten Satz „Er hatte sich nicht verändert, und doch war alles an ihm anders“ probeweise streichen: Mantel, Schuhe und Jungengesicht führen den Gegensatz anschließend bereits konkret vor.",
+          "Die Wiederholung von „Hier müsste“ behalten; Ilses Antwort erweitert Jonas’ beiläufige Kritik zum unausgesprochenen Beziehungsthema.",
+          "„Hennings Becher“ nicht als bloße Doppelung behandeln: Die nachgetragene Zuordnung gibt dem Gegenstand sein emotionales Gewicht."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.022532
+}

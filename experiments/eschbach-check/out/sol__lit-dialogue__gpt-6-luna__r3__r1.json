@@ -1,0 +1,131 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__gpt-6-luna__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "(Sie stehen vor dem Café. Keiner macht Anstalten, sich zu umarmen.)",
+          "Mara: Du hast noch denselben Mantel."
+        ],
+        "suggestions": [
+          "Den Einstieg grundsätzlich beibehalten: Die ausbleibende Umarmung etabliert sofort die Beziehungsspannung, ohne Vorgeschichte zu erklären.",
+          "Ein späterer Einstieg im Café wäre möglich, würde aber die aussagekräftige Begrüßungssituation verlieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als sie fortgeht, rückt Jonas seine Tasse genau in die Mitte.",
+          "Jonas: Der ist kalt.",
+          "Mara: Deine Tochter ist groß geworden."
+        ],
+        "suggestions": [
+          "Die sparsame Verwendung beibehalten. Wörter wie „kalt“ und „groß“ tragen hier Handlung oder Beziehungsaussagen.",
+          "„Genau“ nur streichen, wenn Jonas’ Ordnungsbedürfnis nicht hervorgehoben werden soll; hier charakterisiert das Wort seine Geste."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Mara: Schwarz.", "Jonas: Ohne Zucker."],
+        "suggestions": [
+          "Die Sprecherbezeichnungen im vorliegenden szenischen Format beibehalten; sie sind keine überflüssigen Redeeinleitungen.",
+          "Bei einer Umarbeitung in Prosa könnten viele Sprecherkennzeichnungen entfallen, weil sich Mara und Jonas meist eindeutig abwechseln."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas: Du erkennst ihn also noch.",
+          "Jonas: Ich dachte, du magst inzwischen lieber die Wand im Rücken.",
+          "Mara schiebt ihre Tasse ein Stück zu ihm."
+        ],
+        "suggestions": [
+          "„Also“ probeweise streichen: „Du erkennst ihn noch.“ Das klingt allerdings weniger tastend und verändert den Unterton.",
+          "Zeitliche Wörter wie „noch“, „früher“ und „inzwischen“ nicht pauschal entfernen: Sie vermitteln die gemeinsame Vergangenheit.",
+          "„Ein Stück“ ist ungenau, passt aber zur vorsichtigen Annäherung. Nur präzisieren, wenn die genaue Position der Tasse wichtig wird."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Mara wartet einen Moment, bevor sie hindurchgeht.",
+          "Als sie fortgeht, rückt Jonas seine Tasse genau in die Mitte."
+        ],
+        "suggestions": [
+          "Kein systematischer Änderungsbedarf: Die Handlungen sind überwiegend klar nacheinander angeordnet.",
+          "Für einen stärker abgesetzten Rhythmus wäre möglich: „Die Bedienung geht. Jonas rückt seine Tasse genau in die Mitte.“ Die bestehende Verknüpfung ist jedoch ebenfalls funktional."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Jonas hält ihr die Tür auf.", "Mara schiebt ihre Tasse ein Stück zu ihm."],
+        "suggestions": [
+          "Die aktiven Formulierungen beibehalten; vermeidbare Passivsätze sind nicht vorhanden.",
+          "„Deine Tochter ist groß geworden“ ist eine Zustandsveränderung, kein Passiv, und benötigt deshalb keine Aktivierung."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie gehen hinein. Jonas hält ihr die Tür auf. Mara wartet einen Moment, bevor sie hindurchgeht.",
+          "Für einen Augenblick sieht es aus, als wolle er etwas anderes sagen."
+        ],
+        "suggestions": [
+          "Die übersichtliche Satzstruktur beibehalten; problematisch lange oder verschachtelte Sätze fehlen.",
+          "Nicht weiter mechanisch kürzen: Die etwas längeren Regieanweisungen geben dem knappen Dialog einen notwendigen Gegenrhythmus."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Mara: Und was sagst du?\nJonas: Dass du viel zu tun hast.",
+          "Jonas: Für uns beide?\nMara: Wenn du willst."
+        ],
+        "suggestions": [
+          "Die kurzen, subtextreichen Repliken beibehalten; ausufernde Redebeiträge gibt es nicht.",
+          "Falls die gesamte Szene gestrafft werden soll, zuerst den Austausch „Was? – Nichts. – Gut.“ prüfen. Er erzeugt Vermeidung und Spannung, liefert aber kaum neue Information."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas legt die Hände auf den Tisch. Mara betrachtet sie.",
+          "Für einen Augenblick sieht es aus, als wolle er etwas anderes sagen."
+        ],
+        "suggestions": [
+          "„Mara betrachtet sie“ beibehalten: Das Betrachten ist selbst eine bedeutungsvolle Handlung, kein entbehrlicher Wahrnehmungsfilter.",
+          "Den letzten Satz gegebenenfalls durch eine sichtbare Geste ersetzen: „Jonas hebt die Hand, um die Bedienung zu rufen. Er öffnet den Mund, schließt ihn wieder.“ Das überlässt die Deutung stärker dem Publikum."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Mara: Du hast noch denselben Mantel.",
+          "Mara: Das hast du früher auch immer gesagt.",
+          "Mara: Da saßen wir immer.",
+          "Mara: Du machst das immer noch."
+        ],
+        "suggestions": [
+          "Die Wiederkehr von Erinnerungs- und Gewohnheitsmotiven grundsätzlich erhalten: Sie verbindet die Szene und zeigt die fortbestehende Vertrautheit.",
+          "Prüfen, ob sowohl „Das hast du früher auch immer gesagt“ als auch „Da saßen wir immer“ nötig sind. Beide markieren kurz hintereinander dieselbe gemeinsame Vergangenheit.",
+          "Bei einer Kürzung eher eine solche verbale Rückversicherung entfernen als die konkrete Tassengeste, die Jonas zusätzlich charakterisiert."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018364
+}

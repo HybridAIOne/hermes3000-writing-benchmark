@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__kimi-k3__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Jonas steht am Tisch, die Hand noch an der Stuhllehne."],
+        "suggestions": [
+          "Der Einstieg ist sehr effektiv und setzt direkt in der Handlung an. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sehr langsam"],
+        "suggestions": [
+          "Das Adverb 'sehr' bei 'sehr langsam' könnte durch ein stärkeres Verb ersetzt werden, z.B.: 'Jonas legt den Löffel hin. Er lässt sich Zeit.'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Da es sich um ein Skript-Format handelt, sind keine Redeeinleitungen nötig. Das ist hier konsequent und richtig umgesetzt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sowieso", "ja"],
+        "suggestions": [
+          "Wörter wie 'sowieso' oder 'ja' dienen hier der Charakterisierung. Sie sind akzeptabel, sollten aber sparsam eingesetzt werden, um den Rhythmus nicht zu stören."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Kellnerin kommt. Beide schweigen, bis sie wieder weg ist."],
+        "suggestions": [
+          "Die Handlungen sind klar sequenziell getrennt, was den Lesefluss fördert. Keine 'während'-Konstruktionen vorhanden."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist durchgehend aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Sätze sind kurz und prägnant, was perfekt zur angespannten Stimmung der Szene passt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Dialoge sind kurz und treffend. Das 'Show, don't tell'-Prinzip wird durch die Pausen gut unterstützt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Es gibt keine Filterwörter wie 'er sah, dass' oder 'er dachte, dass'. Die Wahrnehmung ist direkt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Gegend", "Früher", "Egal"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier stilistisch beabsichtigt (als Echo der Charaktere). Das ist gut gelöst, sollte aber nicht weiter ausgebaut werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

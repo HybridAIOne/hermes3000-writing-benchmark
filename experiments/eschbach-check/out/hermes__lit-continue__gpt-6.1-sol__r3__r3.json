@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gpt-6.1-sol__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Geht auch so“, sagte sie."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er direkt in die Handlung und Atmosphäre wirft."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["dunkel", "trockene", "steif"],
+        "suggestions": ["Die Adjektive sind sparsam und treffend gewählt. Keine Änderungen nötig."]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["„sagte sie“, „sagte Jonas“, „fragte Jonas“"],
+        "suggestions": [
+          "Einige Redeeinleitungen sind redundant, da der Sprecherwechsel durch den Absatz klar ist. Besonders das letzte „sagte sie“ könnte gestrichen werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["vielleicht", "noch"],
+        "suggestions": ["Der Text ist sehr sauber und frei von unnötigen Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie ging zur Rampe und winkte Krüger herunter."],
+        "suggestions": ["Die Handlungsabfolge ist klar und logisch strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie war damals noch im Laden gewesen"],
+        "suggestions": ["Der Text ist fast durchgehend aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie war damals noch im Laden gewesen, vormittags, und hatte die Fähre nur übernommen, wenn Henning zum Zahnarzt musste."
+        ],
+        "suggestions": ["Die Satzlängen sind gut variiert und erzeugen einen angenehmen Lesefluss."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Und wenn kein Wind ist?“ / „Ist keine Segelfähre.“"],
+        "suggestions": ["Die Dialoge sind prägnant und charakterisierend."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ilse kannte das Geräusch, bevor sie ihn sah"],
+        "suggestions": [
+          "Die Wahrnehmung ist meist direkt. Die Stelle mit dem Geräusch könnte man noch stärker auf die sinnliche Erfahrung fokussieren (z.B. 'Das Geräusch verriet ihn, bevor er auftauchte')."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Kette (wird mehrfach erwähnt)"],
+        "suggestions": [
+          "Die Wiederholung der 'Kette' unterstreicht die Routine, könnte aber im letzten Absatz leicht variiert werden, um den Fokus auf die Interaktion zu legen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

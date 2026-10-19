@@ -1,0 +1,142 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Zwei Männer, ein Tisch. Draußen regnet es.",
+          "MARKUS: Du bist gekommen. / JONAS: Du hast angerufen."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Er führt ohne Vorgeschichte unmittelbar in die angespannte Begegnung. Ein späterer Beginn würde die wechselseitige Abwehr weniger deutlich etablieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "(setzt sich langsam)",
+          "(lächelt kurz, dann nicht mehr)",
+          "Der Kaffee ist wirklich schlecht geworden.",
+          "obwohl der Kaffee längst kalt ist"
+        ],
+        "suggestions": [
+          "„wirklich“ probeweise streichen: „Der Kaffee ist schlecht geworden.“ Die Verstärkung ist nicht zwingend nötig.",
+          "„langsam“ nur beibehalten, wenn das verzögerte Hinsetzen Jonas’ Widerwillen sichtbar machen soll.",
+          "Die knappe Anweisung „lächelt kurz, dann nicht mehr“ erhalten: Sie beschreibt einen spielbaren Stimmungswechsel statt bloß auszuschmücken."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "MARKUS: Du bist gekommen.",
+          "JONAS: Du hast angerufen.",
+          "MARKUS: (schaut auf die Tasse) Ich bin da."
+        ],
+        "suggestions": [
+          "Die Sprecherbezeichnungen beibehalten: Im dramatischen Format sind sie funktional und keine überflüssigen Redeeinleitungen.",
+          "Weiterhin auf zusätzliche Kennzeichnungen wie „sagt vorwurfsvoll“ verzichten; der Subtext trägt die Stimmung bereits."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Setz dich doch.",
+          "Sie fragt manchmal nach dir.",
+          "Ich hab nur gefragt.",
+          "Du hast viele geschrieben. / Drei."
+        ],
+        "suggestions": [
+          "Partikeln wie „doch“ und „nur“ nicht pauschal streichen: Sie vermitteln hier Drängen beziehungsweise gespielte Harmlosigkeit.",
+          "„manchmal“ und „viele“ erhalten, sofern die ausweichende beziehungsweise subjektiv übertreibende Wortwahl beabsichtigt ist. Die Präzisierung „Drei“ macht daraus einen wirksamen Konfliktmoment."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "(steht auf, nimmt seine Jacke)",
+          "(Er geht. Markus rührt weiter, obwohl der Kaffee längst kalt ist.)"
+        ],
+        "suggestions": [
+          "Die klare Abfolge kurzer Handlungen beibehalten. Es gibt keine übermäßigen Gleichzeitigkeitskonstruktionen.",
+          "„obwohl“ im Schlusssatz erhalten: Es bezeichnet einen Gegensatz und macht das Rühren als Verlegenheits- oder Ersatzhandlung lesbar."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Du hast meine Nachrichten nie beantwortet.",
+          "(Stille. Der Regen wird lauter.)"
+        ],
+        "suggestions": [
+          "Keine Überarbeitung nötig: Der Text verwendet keine auffälligen Passivkonstruktionen.",
+          "„Der Regen wird lauter“ nicht als Passiv behandeln; „wird“ beschreibt hier eine Zustandsveränderung."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Weißt du noch, der Sommer am See? Du hast gesagt, egal was kommt—",
+          "(Er geht. Markus rührt weiter, obwohl der Kaffee längst kalt ist.)"
+        ],
+        "suggestions": [
+          "Die kurzen Sätze und Abbrüche beibehalten: Sie unterstützen das stockende Gespräch.",
+          "Auch den abschließenden Satz nicht weiter teilen; er ist übersichtlich und verbindet Handlung und emotionalen Nachhall."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "JONAS: Gewohnheit.",
+          "MARKUS: Ich frage nicht. / JONAS: Doch.",
+          "JONAS: Ich weiß, was ich gesagt habe."
+        ],
+        "suggestions": [
+          "Keine pauschale Kürzung vornehmen: Die Repliken sind bereits knapp und verändern jeweils die Beziehungsspannung.",
+          "Die unterbrochene Erinnerung an den Sommer nicht ausformulieren; gerade das Verhindern der Aussprache trägt die Szene."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "(zögert an der Tür)",
+          "(schaut auf die Tasse)",
+          "Es fühlten sich nach mehr an."
+        ],
+        "suggestions": [
+          "Die unmittelbaren, spielbaren Handlungen beibehalten; vorgeschaltete Wahrnehmungsfilter fehlen.",
+          "„Es fühlten sich nach mehr an“ nicht als unnötigen Wahrnehmungsfilter kürzen: Die direkte Rede zeigt Jonas’ subjektive Belastung und seine Abwehr."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "JONAS: Gewohnheit. / MARKUS: Gewohnheit.",
+          "Sie fragt manchmal nach dir. / Manchmal.",
+          "Der Kaffee hier war immer schlecht.",
+          "Der Kaffee ist wirklich schlecht geworden.",
+          "Du hast ihn nicht mal probiert."
+        ],
+        "suggestions": [
+          "Die Wiederholungen von „Gewohnheit“ und „Manchmal“ erhalten: Markus greift Jonas’ Wörter auf und legt ihren schmerzhaften Unterton frei.",
+          "Das Kaffeemotiv beibehalten: Es entwickelt sich von einer unverfänglichen Bemerkung über eine Ausflucht bis zum Schlussbild.",
+          "Bei weiteren Überarbeitungen keine zusätzlichen Kaffee-Verweise ergänzen; das Motiv ist bereits deutlich genug gesetzt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.017562
+}

@@ -1,0 +1,91 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6-luna__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht über der Elbe, dass Ilse die andere Uferkante nicht sah."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und wirft den Leser direkt in die Situation. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["gleichmäßigen Rattern", "dumpfen Ton"],
+        "suggestions": [
+          "Die Adjektive sind präzise und unterstützen die Stimmung. Sie wirken nicht überladen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ist das immer so?“, fragte der Junge.", "„Was?“"],
+        "suggestions": [
+          "Sehr sparsam und effektiv eingesetzt. Der Sprecher ergibt sich fast immer aus dem Kontext."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ein wenig stärker", "ein Stück"],
+        "suggestions": [
+          "Der Text ist sehr sauber. 'Ein wenig' könnte in Einzelfällen gestrichen werden, um die Aussage zu schärfen, ist aber stilistisch akzeptabel."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine übermäßige Verwendung von 'während' oder 'als'."],
+        "suggestions": [
+          "Handlungen werden logisch nacheinander oder in klarer Abfolge beschrieben. Sehr gut."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag...", "Die Fähre glitt..."],
+        "suggestions": ["Der Text ist fast durchgehend aktiv formuliert. Sehr lebendig."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel nahm die Fähre auf und gab sie wieder frei, in kurzen, grauen Stücken."
+        ],
+        "suggestions": [
+          "Die Satzlänge ist abwechslungsreich und angenehm zu lesen. Keine Verschachtelungen, die den Lesefluss bremsen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Sie müssen nur warten, bis wir anliegen“, sagte sie. „Mach ich.“"],
+        "suggestions": ["Die Dialoge sind kurz, knackig und realistisch für die Situation."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse sah ihn an.", "Ilse blickte nach vorn."],
+        "suggestions": [
+          "Sehr direkte Wahrnehmung. Es gibt kaum 'Filterwörter' wie 'sie sah, dass...', was die Immersion erhöht."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Nebel", "Fähre", "Seil"],
+        "suggestions": [
+          "Die Wiederholungen sind thematisch bedingt und dienen der Atmosphäre. Sie wirken nicht störend."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

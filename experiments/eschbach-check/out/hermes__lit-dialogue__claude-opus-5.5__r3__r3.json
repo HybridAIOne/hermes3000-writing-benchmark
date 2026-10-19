@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-opus-5.5__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein Café am Marktplatz. Martin sitzt bereits."],
+        "suggestions": [
+          "Der Einstieg ist sehr effizient und setzt sofort den Fokus auf die Charaktere. Beibehalten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["verwittert", "langsam"],
+        "suggestions": [
+          "Die Verwendung ist sehr sparsam. Das Adverb 'langsam' könnte gestrichen werden, da die Handlung des Schiebens die Geschwindigkeit bereits impliziert."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Redeeinleitungen verwendet."],
+        "suggestions": [
+          "Hervorragend umgesetzt. Der Verzicht auf 'sagte er' erhöht das Tempo und die Unmittelbarkeit."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["doch", "natürlich"],
+        "suggestions": [
+          "Die Füllwörter sind hier funktional als Charakterisierungsmittel eingesetzt und wirken nicht störend."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Beide greifen gleichzeitig nach dem Zucker."],
+        "suggestions": [
+          "Die Beschreibung ist präzise und visuell gut vorstellbar. Keine Änderung nötig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Passivkonstruktionen gefunden."],
+        "suggestions": [
+          "Die Sprache ist sehr aktiv und direkt, was sehr gut zum minimalistischen Stil passt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der war frei.", "Sie läuft."],
+        "suggestions": [
+          "Die kurzen Sätze unterstreichen die angespannte Atmosphäre und das zögerliche Gespräch sehr gut."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["JÖRG: Du hast den Tisch am Fenster genommen. MARTIN: Der war frei."],
+        "suggestions": ["Die Dialoge sind knackig und treiben die Handlung durch Subtext voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Er zögert."],
+        "suggestions": [
+          "'Er zögert' ist eine Zusammenfassung. Man könnte stattdessen eine physische Handlung beschreiben (z.B. 'Er starrt auf seine Hände'), um noch mehr 'Show, don't tell' zu erreichen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Ich weiß.", "Ich weiß, Martin."],
+        "suggestions": [
+          "Die Wiederholung ist hier ein bewusstes Stilmittel für die angespannte Stimmung. Achte darauf, dass sie nicht zu redundant wirkt, falls der Text länger wäre."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

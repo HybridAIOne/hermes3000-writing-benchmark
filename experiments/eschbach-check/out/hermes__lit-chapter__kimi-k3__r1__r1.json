@@ -1,0 +1,91 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__kimi-k3__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag um fünf Uhr morgens noch nicht auf dem Fluss."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch sehr stark und setzt sofort den Ton. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["leise Tropfen", "graues Etwas"],
+        "suggestions": [
+          "Die Adjektive sind stimmungsvoll und dienen der Atmosphäre. Achte darauf, dass sie nicht überhandnehmen, aber hier ist die Dichte genau richtig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Morgen, Frau Brandt.“", "„Morgen, Peters.“"],
+        "suggestions": [
+          "Perfekt reduziert. Die Sprecher sind klar aus dem Kontext erkennbar, keine unnötigen 'sagte er'-Konstruktionen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist sehr präzise und kommt nahezu ohne Füllwörter aus. Sehr gute Arbeit."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Gleichzeitigkeit wird durch geschickte Satzstellung statt durch 'während'-Konstruktionen gelöst. Das erhöht die Dynamik."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert, was die Handlung lebendig hält."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er kam erst mit dem Grauen, kroch aus den Wiesen am Wendlandufer hinauf und legte sich über das Wasser, als hätte die Elbe in der Nacht geatmet und vergessen, den Atem wieder einzuziehen."
+        ],
+        "suggestions": [
+          "Die Satzlänge ist gut rhythmisiert; lange, beschreibende Sätze wechseln sich mit kurzen, prägnanten Sätzen ab."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind kurz, charakterisierend und treiben die Szene voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie hörte die Fähre, bevor sie sie sah"],
+        "suggestions": [
+          "Direkte Wahrnehmung dominiert. Formulierungen wie 'sie dachte, dass' wurden erfolgreich vermieden."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Glied um Glied"],
+        "suggestions": [
+          "Die Wiederholung von 'Glied um Glied' wirkt hier als rhythmisches, fast meditatives Stilmittel und ist daher positiv zu bewerten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

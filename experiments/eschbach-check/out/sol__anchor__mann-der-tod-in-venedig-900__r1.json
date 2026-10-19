@@ -1,0 +1,146 @@
+{
+  "who": "sol",
+  "item": "anchor__mann-der-tod-in-venedig-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Gustav Aschenbach oder von Aschenbach, wie seit seinem fünfzigsten Geburtstag amtlich sein Name lautete",
+          "Überreizt von der schwierigen und gefährlichen, eben jetzt eine höchste Behutsamkeit, Umsicht, Eindringlichkeit und Genauigkeit des Willens erfordernden Arbeit der Vormittagsstunden",
+          "am Nördlichen Friedhof die Tram"
+        ],
+        "suggestions": [
+          "Für einen stärker szenischen Einstieg mit Aschenbachs Warten am Friedhof beginnen. Erschöpfung und Anlass des Spaziergangs anschließend knapp einflechten.",
+          "Adelstitel, Arbeitsweise und Tagesablauf sind für die unmittelbare Begegnung nicht sämtlich erforderlich. Ihre ausführliche Einführung verzögert den Handlungseinsatz.",
+          "Die Verzögerung ist zugleich literarisch funktional: Sie etabliert Aschenbachs kontrollierte Lebensführung als Gegenpol zur späteren Unruhe. Bei einer Straffung diesen Kontrast erhalten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "der schwierigen und gefährlichen, eben jetzt eine höchste Behutsamkeit, Umsicht, Eindringlichkeit und Genauigkeit des Willens erfordernden Arbeit",
+          "mit fettem, gequollenem und abenteuerlich blühendem Pflanzenwerk",
+          "so kriegerisch, so gerade ins Auge hinein, so offenkundig gesonnen"
+        ],
+        "suggestions": [
+          "Bei Aufzählungen prüfen, welche Eigenschaften eigenständige Informationen liefern. Die Arbeitsbeschreibung ließe sich etwa zu „erschöpft von einer Arbeit, die höchste Konzentration verlangte“ verdichten.",
+          "Prägnante Bildwörter wie „dickdunstig“ oder „stumpfnäsig“ eher erhalten als pauschale Verstärkungen wie „völlig“.",
+          "Die üppige Adjektivierung der Tropenvision nicht vollständig glätten: Ihre Überfülle trägt zur sinnlichen und bedrohlichen Wirkung bei."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung erforderlich: Der Ausschnitt enthält keine gesprochenen Dialoge und damit keine überflüssigen Redebegleitsätze. Die zitierten Inschriften sind keine Dialogbeiträge."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "eine kleine Weile",
+          "Offenbar war er durchaus nicht bajuwarischen Schlages",
+          "wie es schien",
+          "als Beispiel gleichsam",
+          "oder sonst irgendein physischer oder seelischer Einfluß"
+        ],
+        "suggestions": [
+          "Häufungen von Einschränkungen und Verstärkungen reduzieren, beispielsweise „Offenbar war er durchaus nicht“ zu „Er wirkte nicht“.",
+          "„Als Beispiel gleichsam“ auf eine der beiden Relativierungen kürzen oder unmittelbar zur Landschaft übergehen.",
+          "Unsicherheitsmarker nicht pauschal streichen: Beim Fremden kennzeichnen sie Aschenbachs begrenztes Wissen und unterstützen dessen rätselhafte Wirkung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "der Wartende hatte während einiger Minuten eine ernste Zerstreuung darin gefunden",
+          "als er, aus seinen Träumereien zurückkehrend, im Portikus",
+          "während durch ausgedehnte Schilffelder ein klapperndes Wetzen und Rauschen ging"
+        ],
+        "suggestions": [
+          "Die zeitlichen Verknüpfungen werden nicht auffällig übermäßig eingesetzt. „Während einiger Minuten“ bezeichnet zudem eine Dauer, keine parallele Handlung.",
+          "Den Wechsel vom Lesen der Inschriften zur Entdeckung des Fremden durch einen Satzschluss hervorheben: „Er las die Formeln. Dann bemerkte er im Portikus einen Mann.“",
+          "Die Gleichzeitigkeit von Vogelbild und Schilfgeräuschen in der Vision kann bleiben, da sie ein zusammenhängendes Wahrnehmungsbild erzeugt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "dessen Boden mit Blättern, so dick wie Hände, mit riesigen Farnen, mit fettem, gequollenem und abenteuerlich blühendem Pflanzenwerk überwuchert war",
+          "seine Lippen schienen zu kurz, sie waren völlig von den Zähnen zurückgezogen"
+        ],
+        "suggestions": [
+          "Der Text enthält kaum ausgeprägte Vorgangspassivsätze; ein systematischer Umbau ist nicht nötig.",
+          "Die Zustandsbeschreibung der Vegetation könnte aktiver lauten: „Riesige Farne und wucherndes Pflanzenwerk bedeckten den Boden.“",
+          "„Ward er gewahr“ und „ward ihm ganz überraschend bewußt“ nicht als Passiv behandeln: Hier bezeichnet „ward“ einen Wahrnehmungs- beziehungsweise Bewusstseinswechsel."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Beim Aumeister, wohin stillere und stillere Wege ihn geführt, hatte Aschenbach eine kleine Weile den volkstümlich belebten Wirtsgarten überblickt",
+          "Ihre Stirnseite, mit griechischen Kreuzen und hieratischen Schildereien in lichten Farben geschmückt, weist überdies symmetrisch angeordnete Inschriften in Goldlettern auf",
+          "Auf der stockenden, grünschattig spiegelnden Flut schwammen, wie Schüsseln groß, milchweiße Blumen"
+        ],
+        "suggestions": [
+          "Den beim Aumeister beginnenden Satz nach dem Aufenthalt im Wirtsgarten und erneut vor dem Warten auf die Tram teilen. Er bündelt mehrere Stationen mit wechselnden zeitlichen Ebenen.",
+          "Architekturbeschreibung, Lesen der Inschriften und Entdeckung des Fremden auf eigene Sätze verteilen.",
+          "Den langen Satz der Tropenvision nach Blumen, Vögeln und Schilfgeräuschen gliedern. Den Tiger als eigenen abschließenden Wahrnehmungsimpuls setzen.",
+          "Die niedrige Bewertung betrifft die unmittelbare Lesbarkeit nach dieser Methode, nicht die literarische Qualität: Die kunstvollen Satzperioden gestalten bewusst Verzögerung und Überwältigung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Straffung erforderlich: Es gibt keine Dialogpassagen. Die Länge der Erzählerrede ist unter Satzlänge und Wiederholungen zu prüfen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Zufällig fand er den Halteplatz und seine Umgebung von Menschen leer.",
+          "denn plötzlich ward er gewahr, daß jener seinen Blick erwiderte",
+          "Er sah nämlich",
+          "glaubte er einen Augenblick die phosphoreszierenden Lichter des Tigers funkeln zu sehen"
+        ],
+        "suggestions": [
+          "Unnötige Wahrnehmungsfilter entfernen: „Der Halteplatz und seine Umgebung waren menschenleer.“",
+          "Die Blickbegegnung direkter formulieren: „Plötzlich erwiderte der Fremde seinen Blick.“",
+          "Die Vision einmal eindeutig als inneres Bild etablieren und danach unmittelbar beschreiben, statt das Sehen mehrfach anzukündigen.",
+          "Beim Tiger die Unsicherheit gegebenenfalls erhalten: „glaubte er“ lässt offen, wie deutlich und wirklichkeitsnah die Erscheinung ist."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "höchste Behutsamkeit, Umsicht, Eindringlichkeit und Genauigkeit des Willens",
+          "eine seltsame Ausweitung seines Innern",
+          "eine Art schweifender Unruhe",
+          "ein jugendlich durstiges Verlangen in die Ferne",
+          "so neu oder doch so längst entwöhnt und verlernt"
+        ],
+        "suggestions": [
+          "Die verwandten Begriffe der Arbeitsbeschreibung auf die für Aschenbach wichtigsten Eigenschaften reduzieren.",
+          "Die aufeinanderfolgenden Umschreibungen der Reiselust kürzen: Ein körperlich oder räumlich prägnantes Bild kann vor der ausdrücklichen Benennung genügen.",
+          "„Entwöhnt und verlernt“ auf einen Begriff reduzieren, sofern die rhythmische Doppelung nicht bewusst erhalten werden soll.",
+          "Nicht jede Wiederholung ist redundant: „stillere und stillere Wege“ gestaltet eine Steigerung, und das wiederholte „sah“ verstärkt den Einbruch der Vision."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.026858
+}

@@ -1,0 +1,141 @@
+{
+  "who": "sol",
+  "item": "lit-scene__kimi-k3__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der Schlüssel klemmte.“",
+          "„Zwanzig Jahre. Das letzte Mal hatte sie dieses Haus in einem Mantel verlassen, der nicht mehr passte […]“"
+        ],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Das Hindernis an der Tür erzeugt Handlung und etabliert zugleich Noras Widerstand gegen die Rückkehr.",
+          "Allenfalls die Rückblende im zweiten Absatz etwas kürzen, damit Nora schneller ins Haus vordringt. Ein späterer Szenenbeginn würde dagegen das prägnante Türmotiv verlieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„kühler Staub, getrockneter Putz, und darunter, ganz flach, der Rest von etwas, das einmal Seife gewesen war“",
+          "„ein Topf, sauber, verkehrt herum abgestellt“",
+          "„Fein, unverkennbar: Veilchen.“"
+        ],
+        "suggestions": [
+          "Die meisten Attribute beibehalten: Sie schaffen konkrete Sinneseindrücke und tragen die Atmosphäre.",
+          "„ganz flach“ probeweise streichen. Die Wendung bleibt als Geruchsbeschreibung unscharf; „darunter der Rest von etwas […]“ wäre konzentrierter.",
+          "„Fein, unverkennbar“ ist kein notwendiger Streichkandidat: Die Verbindung von schwachem Geruch und sicherer Identifikation bereitet das Unheimliche vor."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ihre Mutter hätte das nicht ausgehalten. Eine Hecke lässt man nicht, hatte sie gesagt, als wäre Wuchs eine Unanständigkeit.“"
+        ],
+        "suggestions": [
+          "Kein relevanter Überarbeitungsbedarf. Die einzige Redekennzeichnung ordnet den erinnerten Ausspruch zeitlich ein.",
+          "„hatte sie gesagt“ ließe sich wegen des eindeutigen Bezugs zur Mutter streichen; dadurch würde allerdings die ausdrückliche Kennzeichnung als Erinnerung schwächer."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Jemand – sie selbst, vermutlich – hatte nie weitergeblättert.“",
+          "„Irgendjemand musste danach hier gewesen sein.“",
+          "„ganz flach“",
+          "„die nie ganz zuging“"
+        ],
+        "suggestions": [
+          "Unbestimmtheit nicht pauschal beseitigen: „vermutlich“ und „Irgendjemand“ kennzeichnen Noras Erinnerungslücken und unterstützen die Verunsicherung.",
+          "„ganz flach“ auf seine bildliche Genauigkeit prüfen und gegebenenfalls streichen.",
+          "„nie ganz zuging“ beibehalten: Hier bezeichnet „ganz“ einen konkreten Zustand der Dose und ist kein bloßes Füllwort."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Nora ging von Zimmer zu Zimmer, ohne etwas anzufassen.“",
+          "„als käme jemand zurück und würde ihn brauchen“",
+          "„als wäre oben, im ersten Stock, vor Kurzem ein Fenster geöffnet worden“"
+        ],
+        "suggestions": [
+          "Die weitgehend klare Handlungsfolge beibehalten. Eine störende Häufung gleichzeitiger Handlungen liegt nicht vor.",
+          "Die „als“-Konstruktionen nicht mechanisch auflösen: Sie formulieren überwiegend Vergleiche und Vermutungen, keine zeitlichen Parallelhandlungen.",
+          "Allenfalls die Häufung hypothetischer Vergleiche stilistisch prüfen; für die zeitliche Verständlichkeit ist keine Änderung nötig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„als wäre oben, im ersten Stock, vor Kurzem ein Fenster geöffnet worden“",
+          "„auf dem Herd ein Topf, sauber, verkehrt herum abgestellt“"
+        ],
+        "suggestions": [
+          "Das Passiv beim Fenster kann bleiben: Gerade der unbekannte Handelnde verstärkt das Unheimliche.",
+          "Für eine stärker auf mögliche Anwesenheit zugespitzte Variante: „als hätte jemand oben, im ersten Stock, vor Kurzem ein Fenster geöffnet“.",
+          "„verkehrt herum abgestellt“ ist eine knappe Zustandsbeschreibung, kein schwerfälliger Passivsatz; hier besteht kein Änderungsbedarf."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Das Wohnzimmer: der ausgeblichene Fleck auf dem Teppich, dort, wo der Fernseher gestanden hatte, den sie vor der Beerdigung noch verkauft hatte, sie erinnerte sich nicht mehr, wem.“",
+          "„Der Flur war dunkler, als sie ihn in Erinnerung hatte, weil die Ligusterhecke vor dem Fenster in all den Jahren gewuchert war, ungestört, ohne Schere.“"
+        ],
+        "suggestions": [
+          "Vor allem die Wohnzimmerpassage entflechten: „Das Wohnzimmer: der ausgeblichene Fleck auf dem Teppich. Dort hatte der Fernseher gestanden. Sie hatte ihn vor der Beerdigung noch verkauft. An wen?“",
+          "Beim Flur wäre eine behutsame Teilung möglich: „Der Flur war dunkler, als sie ihn in Erinnerung hatte. Vor dem Fenster war die Ligusterhecke in all den Jahren gewuchert, ungestört, ohne Schere.“",
+          "Nicht alle langen Sätze verkürzen: Der Wechsel zwischen ausgreifenden Wahrnehmungen und kurzen Absätzen trägt den Rhythmus."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Eine Hecke lässt man nicht“"],
+        "suggestions": [
+          "Keine Straffung nötig: Es gibt keinen längeren Dialog, sondern nur einen knappen erinnerten Ausspruch.",
+          "Den Ausspruch beibehalten. Er charakterisiert die Mutter mit wenigen Worten und lässt ihre Stimme im verlassenen Haus nachwirken."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Jetzt stand sie im Flur und roch, was Häuser riechen, wenn niemand mehr in ihnen atmet“",
+          "„Dann roch sie es.“",
+          "„Sie stellte fest, dass sie ihren Mantel nicht ausgezogen hatte, und dass sie ihn auch nicht ausziehen würde.“"
+        ],
+        "suggestions": [
+          "Den Schluss versuchsweise direkter formulieren: „Sie hatte ihren Mantel noch an. Und sie würde ihn nicht ausziehen.“ Das beseitigt die abstrakte Feststellung und verstärkt den Widerstand.",
+          "Falls der Moment des Bewusstwerdens am Schluss entscheidend ist, die bestehende Wahrnehmungsdistanz bewusst beibehalten.",
+          "„Dann roch sie es“ muss nicht entfallen: Der kurze Satz markiert den Umschlag von allgemeiner Atmosphäre zu einem konkreten, verstörenden Reiz."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„in all den Jahren gewuchert war, ungestört, ohne Schere“",
+          "„Zwanzig Jahre.“ / „Zwanzig Jahre alte Seife duftet nicht mehr durch einen Flur.“",
+          "„der Rest von etwas, das einmal Seife gewesen war“ / „die handgeschöpfte Seife aus der Apotheke in der Unterstadt“",
+          "„oben, im ersten Stock“"
+        ],
+        "suggestions": [
+          "Bei „ungestört, ohne Schere“ prüfen, ob beide Zusätze gebraucht werden. „ohne Schere“ ist das konkretere Bild; „ungestört“ könnte entfallen.",
+          "„oben, im ersten Stock“ lässt sich zu „im ersten Stock“ straffen, sofern der tastende Gedankenrhythmus nicht beabsichtigt ist.",
+          "Die Wiederkehr von „Zwanzig Jahre“ und des Seifengeruchs beibehalten: Sie entwickelt das Motiv vom verblassten Erinnerungsrest zum scheinbar unmöglichen gegenwärtigen Duft und ist keine bloße Doppelung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02419
+}

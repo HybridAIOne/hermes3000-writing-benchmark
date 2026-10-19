@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-sonnet-5.5__r2",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Thomas sitzt schon am Tisch, als Jan hereinkommt."],
+        "suggestions": [
+          "Der Einstieg ist funktional. Man könnte noch mehr 'in medias res' gehen und direkt mit dem ersten Satz des Dialogs beginnen, um die Spannung sofort zu erhöhen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kurzes Lächeln"],
+        "suggestions": [
+          "Der Text ist sehr sparsam mit Adjektiven, was den minimalistischen Stil unterstreicht. Beibehalten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Redeeinleitungen verwendet."],
+        "suggestions": [
+          "Die konsequente Nutzung des Skript-Formats ist hier absolut passend und effizient."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["schon"],
+        "suggestions": ["Sehr sauberer Text. Füllwörter sind kaum vorhanden."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Thomas sitzt schon am Tisch, als Jan hereinkommt."],
+        "suggestions": ["Die Gleichzeitigkeit ist logisch und stört den Lesefluss nicht."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Passivkonstruktionen."],
+        "suggestions": ["Der Text ist durchgehend aktiv formuliert, was die Dynamik stärkt."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ich war in der Gegend."],
+        "suggestions": ["Die kurzen Sätze passen hervorragend zur angespannten Stimmung."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["JAN: Du bist früh. THOMAS: Ich war in der Gegend."],
+        "suggestions": ["Die Dialoge sind prägnant und auf den Punkt gebracht."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Jan sieht aus dem Fenster."],
+        "suggestions": [
+          "Wahrnehmungen werden direkt beschrieben, ohne 'er sah, dass' zu verwenden."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Nur den Kaffee. / Nur den Kaffee."],
+        "suggestions": [
+          "Die Wiederholungen wirken hier stilistisch beabsichtigt (als Echo), um die Unsicherheit der Charaktere zu betonen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,138 @@
+{
+  "who": "sol",
+  "item": "lit-scene__gpt-6-luna__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der Schlüssel klemmte, wie er immer geklemmt hatte.“",
+          "„Mara musste ihn erst ein Stück zurückdrehen, dann mit dem Daumen gegen den Bart drücken.“"
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Das klemmende Schloss eröffnet eine konkrete Handlung und vermittelt zugleich Maras Vertrautheit mit dem Haus.",
+          "Ein Einstieg erst im Flur wäre möglich, würde aber das prägnante Motiv der unveränderten Vergangenheit und die körperliche Vertrautheit mit dem Schlüssel verlieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Staub, kaltem Holz und dem scharfen Rest eines Reinigungsmittels“",
+          "„ein schmaler, heller Halbkreis“",
+          "„ein dünner, rostfarbener Strahl“"
+        ],
+        "suggestions": [
+          "Die meisten Attribute beibehalten: Sie liefern sinnliche oder räumliche Informationen und tragen die Atmosphäre.",
+          "Bei Attributpaaren einzeln prüfen, ob beide Eigenschaften wichtig sind. Beim Halbkreis könnte „hell“ genügen, falls seine schmale Form später keine Bedeutung hat.",
+          "„offenbar zuletzt vor langer Zeit“ im ersten Absatz straffen; die Häufung abstrakter Zeit- und Vermutungsangaben fällt gegenüber den konkreten Sinneseindrücken ab."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Nicht aus Ehrfurcht, sagte sie sich, sondern weil ihre Augen sich an das Dunkel gewöhnen mussten.“"
+        ],
+        "suggestions": [
+          "Es gibt keine gesprochenen Dialoge und damit keine überflüssigen Sprecherkennzeichnungen.",
+          "„sagte sie sich“ kann bleiben: Die Wendung markiert eine Selbstrechtfertigung und erfüllt damit eine andere Funktion als eine bloße Sprecherzuordnung."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„offenbar zuletzt vor langer Zeit“",
+          "„erst ein Stück zurückdrehen“",
+          "„gerade breit genug“"
+        ],
+        "suggestions": [
+          "Die Zeitangabe beim Reinigungsmittel präzisieren oder kürzen, etwa zu: „… und dem scharfen Rest eines alten Reinigungsmittels.“ Dabei entfällt allerdings die ausdrückliche Zuschreibung an die Mutter.",
+          "„ein Stück“ und „gerade breit genug“ nicht pauschal streichen: Sie beschreiben hier einen Bewegungsumfang beziehungsweise eine räumliche Begrenzung.",
+          "Ungewissheit dort bewahren, wo sie zur Perspektive gehört; nicht jede unbestimmte Formulierung ist ein Füllwort."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Als Mara den Wasserhahn aufdrehte, kam zunächst Luft, dann ein dünner, rostfarbener Strahl.“",
+          "„Der dritte lehnte an der Wand, als hätte jemand Platz schaffen wollen.“"
+        ],
+        "suggestions": [
+          "Keine systematische Überarbeitung nötig: Die Handlungen sind überwiegend klar nacheinander angeordnet.",
+          "Für einen härteren Rhythmus wäre möglich: „Mara drehte den Wasserhahn auf. Zunächst kam Luft, dann ein dünner, rostfarbener Strahl.“",
+          "Das vergleichende „als hätte“ beim Stuhl beibehalten; es beschreibt keine Gleichzeitigkeit, sondern Maras Deutung."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Auf der Fensterbank lag ein trockenes Blatt, vom Wind oder von einer Hand dorthin getragen.“"
+        ],
+        "suggestions": [
+          "Der Text enthält keine auffälligen finiten Passivkonstruktionen.",
+          "Die Partizipialgruppe „vom Wind oder von einer Hand dorthin getragen“ hat passive Bedeutung, ist aber atmosphärisch begründet: Gerade der unbekannte Verursacher interessiert.",
+          "Nur bei gewünschter Straffung kürzen: „Auf der Fensterbank lag ein trockenes Blatt.“ Dadurch entfällt allerdings die Andeutung einer möglichen menschlichen Anwesenheit."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Im Haus roch es nach Staub, kaltem Holz und dem scharfen Rest eines Reinigungsmittels, das ihre Mutter offenbar zuletzt vor langer Zeit benutzt hatte.“",
+          "„Er klopfte gegen das Metall, unregelmäßig, wie etwas, das sich erst erinnern musste, wie man fließt.“"
+        ],
+        "suggestions": [
+          "Den ersten Absatz vor allem am Ende des Geruchssatzes straffen; der Relativsatz wechselt vom unmittelbaren Eindruck zu einer umständlichen Erklärung.",
+          "Den Schlusssatz nicht allein wegen seiner Nebensätze teilen: Seine Verzögerung unterstützt das stockende Fließen und die Personifikation.",
+          "Den Wechsel zwischen kurzen Handlungssätzen und längeren Wahrnehmungssätzen grundsätzlich erhalten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Kürzung erforderlich, da keine Dialogpassagen vorkommen.",
+          "Auch die kurze innere Selbstansprache unterbricht die Szene nicht übermäßig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Darin sah sie ihr Gesicht nur bis zum Mund, und dahinter die geschlossene Haustür.“",
+          "„Sie wusste nicht, ob er von einer Tasse stammte. Sie wusste nur, dass ihre Mutter immer die Tasse mit dem abgesprungenen blauen Rand benutzt hatte.“"
+        ],
+        "suggestions": [
+          "Die Spiegelwahrnehmung könnte unmittelbarer werden: „Der Spiegel zeigte ihr Gesicht nur bis zum Mund, dahinter die geschlossene Haustür.“",
+          "Die Wissenssätze nicht automatisch entfernen: Der Gegensatz zwischen unsicherer Spur und sicherer Erinnerung charakterisiert Mara.",
+          "Falls eine engere Perspektive gewünscht ist: „Stammte der Halbkreis von einer Tasse? Ihre Mutter hatte immer die mit dem abgesprungenen blauen Rand benutzt.“ Diese Variante verändert allerdings den ruhigen Erzählton."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Schlüssel klemmte, wie er immer geklemmt hatte.“",
+          "„Sie wusste nicht … Sie wusste nur …“",
+          "„von einer Tasse … immer die Tasse“",
+          "„wie etwas, das sich erst erinnern musste, wie man fließt“"
+        ],
+        "suggestions": [
+          "Die Wiederholung von „klemmte“ beibehalten: Sie verbindet die gegenwärtige Handlung unmittelbar mit der Vergangenheit.",
+          "Auch „Sie wusste nicht … Sie wusste nur …“ ist eine funktionale Wiederholung, keine bloße inhaltliche Doppelung.",
+          "Bei gewünschter Straffung die zweite Nennung von „Tasse“ ersetzen: „… dass ihre Mutter immer die mit dem abgesprungenen blauen Rand benutzt hatte.“",
+          "Die doppelte Verwendung von „wie“ im Schlusssatz probeweise glätten: „Er klopfte unregelmäßig gegen das Metall, als müsste er sich erst ans Fließen erinnern.“ Den Verlust des ursprünglichen Rhythmus dabei mitbedenken."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02139
+}

@@ -1,0 +1,92 @@
+{
+  "who": "hermes",
+  "item": "anchor__schnitzler-der-blinde-geronimo-und-sein-bruder-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Der blinde Geronimo stand von der Bank auf und nahm die Gitarre zur Hand"],
+        "suggestions": [
+          "Der Einstieg ist gelungen, da er direkt mit einer Handlung beginnt, die den Charakter und die Situation etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "naßkalten Wind",
+          "feuchtschmutzigen Boden",
+          "düsteren Bogen",
+          "ungleichmäßigen Stimme"
+        ],
+        "suggestions": [
+          "Einige Adjektive sind atmosphärisch, andere wirken etwas überladen. Versuchen Sie, die Atmosphäre durch stärkere Verben zu erzeugen, statt durch Häufung von Adjektiven."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["ziemlich eben", "so gut wie zu Hause"],
+        "suggestions": [
+          "'Ziemlich' schwächt die Aussage ab. Streichen oder durch ein präziseres Wort ersetzen (z.B. 'flach')."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["während nicht explizit genutzt"],
+        "suggestions": [
+          "Der Text vermeidet unnötige Gleichzeitigkeit und beschreibt Handlungen logisch nacheinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["bereit gelegen war", "mußten alle Wagen passieren"],
+        "suggestions": ["Der Text ist weitgehend aktiv formuliert, was die Dynamik unterstützt."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sein Bruder folgte ihm, und beide stellten sich gleich neben der Treppe auf, den Rücken zur Wand gekehrt, um gegen den naßkalten Wind geschützt zu sein, der über den feuchtschmutzigen Boden durch die offenen Tore strich."
+        ],
+        "suggestions": [
+          "Die Sätze sind lang, aber rhythmisch gut gebaut. Gelegentlich könnte ein Punkt den Lesefluss für den Leser angenehmer gestalten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Es war, als schämten sich seine Augen...", "schien ... hereinzubrechen"],
+        "suggestions": [
+          "'Es war, als...' ist ein Filter, der den Leser auf Distanz hält. Versuchen Sie, die Beobachtung direkter zu beschreiben (z.B. 'Seine Augen wichen dem Licht aus, als schämten sie sich...')."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Blick ins Gesicht... wandte er den Blick wieder fort"],
+        "suggestions": [
+          "Die Wiederholung von 'Blick' im letzten Absatz könnte durch ein Synonym oder eine Umschreibung (z.B. 'Augen', 'starren') variiert werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

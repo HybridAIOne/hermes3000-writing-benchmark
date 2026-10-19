@@ -1,0 +1,142 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur deshalb für vorhanden hielt, weil es gestern auch da gewesen war.“",
+          "„Um sechs Uhr vierzig hatte sie die Lampen angemacht. Um sechs Uhr fünfzig das Radio, ohne hinzuhören.“"
+        ],
+        "suggestions": [
+          "Der Einstieg trägt: Der erste Satz setzt Ton, Figur und Leitmotiv (das unsichtbare Ufer), das am Ende wiederkehrt. Die Zeitangaben im zweiten Absatz sind Vorlauf. Bei Kürzungsbedarf ließe sich der Absatz auf einen Satz verdichten oder direkt mit „Die Erste kam um sieben.“ fortfahren. Die etablierte Routine würde dabei allerdings etwas an Kontrast zum Störfaktor (Kombi) verlieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Er fuhr vorsichtig auf, zu vorsichtig“",
+          "„ein kurzes, höfliches Lachen“",
+          "„Er hatte ein freundliches Gesicht“",
+          "„Das Wasser schlug gegen den Rumpf, klein und regelmäßig.“",
+          "„der Name verschwamm ein wenig“"
+        ],
+        "suggestions": [
+          "Die meisten Adjektive sind konkret und bildstark („abgeplatzten Deckel“, „gesprungenen Display“). Sie sollten bleiben.",
+          "„ein wenig“ in „der Name verschwamm ein wenig“ streichen. „verschwamm“ wirkt allein stärker.",
+          "„freundliches Gesicht“ ist das blasseste Adjektiv im Text. Das ist inhaltlich gewollt (ein vergessliches Gesicht), ließe sich aber durch ein konkretes Detail schärfen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„„Sie machen das allein?“, fragte er.“",
+          "„„Ist das eine Gierseilfähre?“, fragte er Ilse durch das offene Fenster.“",
+          "„„Zehn“, sagte Ilse.“"
+        ],
+        "suggestions": [
+          "„fragte er“ nach „Sie machen das allein?“ ist entbehrlich, da nur der Fremde als Sprecher infrage kommt.",
+          "„sagte Ilse“ beim zweiten „Zehn“ ist rhythmisch begründet (Beharren) und kann bleiben.",
+          "Die meisten Wechsel funktionieren ohne Inquit. Das ist bereits vorbildlich umgesetzt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Mitte vierzig vielleicht“",
+          "„Irgendwo flussabwärts rief ein Reiher, oder etwas, das klang wie ein Reiher.“",
+          "„wartete vielleicht schon jemand“",
+          "„Sie wollte gerade ablegen“"
+        ],
+        "suggestions": [
+          "Die Unschärfen sind überwiegend figurenperspektivisch motiviert (Ilse schätzt, der Nebel verbirgt) und damit funktional.",
+          "Das „gerade“ in „Sie wollte gerade ablegen“ kann entfallen.",
+          "Das zweite „vielleicht“ im Schlusssatz ist bewusst gesetzt. Das erste („Mitte vierzig vielleicht“) ließe sich durch eine konkrete Beobachtung ersetzen, sodass der offene Schluss allein steht."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Sie wollte gerade ablegen, als die Scheinwerfer kamen.“",
+          "„Er zahlte mit einem Zehner und wartete auf das Wechselgeld, und während sie es abzählte, sah er sich um.“",
+          "„„Kalt für einen Stift“, sagte Petersen, ohne die Augen zu öffnen.“"
+        ],
+        "suggestions": [
+          "„Sie wollte gerade ablegen, als …“ ist die klassische Konstruktion, die Eschbach kritisiert. Besser nacheinander: „Sie griff nach der Leine. Dann kamen die Scheinwerfer.“",
+          "Den Satz mit „während“ teilen: „Er zahlte mit einem Zehner. Sie zählte das Wechselgeld ab. Er sah sich um.“",
+          "Die „als hinge/als wäre“-Konstruktionen sind Vergleiche, keine Gleichzeitigkeit, und unproblematisch."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Passivkonstruktionen mit Handlungsbedarf. Der Text ist durchgehend aktiv formuliert, selbst Naturvorgänge erhalten aktive Verben („die Strömung nahm die Fähre“, „das der Nebel verschluckte“)."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Mareike Lüders aus Bitter, vierzehn, die Kapuze bis über die Augenbrauen gezogen, schob ihr Rad an Bord und stellte es dorthin, wo sie es seit zwei Jahren hinstellte, gegen das Geländer neben der Rettungsboje.“",
+          "„Sie legte das Ruder an, löste die Leine, und die Strömung nahm die Fähre, wie sie sie immer nahm: erst zögernd, dann mit einem leisen Ruck, als hätte der Fluss sich entschieden.“",
+          "„Er fuhr vorsichtig auf, zu vorsichtig, die Vorderreifen tasteten über die Kante, als könnte die Fähre unter ihm wegkippen.“"
+        ],
+        "suggestions": [
+          "Die langen Sätze sind rhythmisch kontrolliert und wechseln mit sehr kurzen ab. Das ist gut.",
+          "Der Mareike-Satz trägt viel Einschub vor dem Verb. Er lässt sich teilen: „Mareike Lüders aus Bitter, vierzehn, die Kapuze bis über die Augenbrauen. Sie schob ihr Rad an Bord und stellte es gegen das Geländer neben der Rettungsboje, wie seit zwei Jahren.“"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„„Ist das eine Gierseilfähre?“ – „Ja.“ – „Ganz ohne Motor?“ – „Die Elbe ist der Motor.“ – „Und wenn die Elbe mal nicht will?““"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, subtextreich und von Handlung unterbrochen. Sie brauchen keine Straffung.",
+          "Höchstens „Ja.“ / „Ganz ohne Motor?“ könnte entfallen, da „Die Elbe ist der Motor“ beides beantwortet. Das würde aber den lakonischen Rhythmus schwächen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„und sah zu, wie das Seil aus dem Grau kam und wieder darin verschwand“",
+          "„Um sieben Uhr vier, das wusste sie, kam der Nächste, wenn er kam.“",
+          "„Ilse hörte sie, bevor sie sie sah“",
+          "„Ilse kannte das Geräusch so gut, dass sie es erst hörte, wenn es falsch klang.“"
+        ],
+        "suggestions": [
+          "„das wusste sie“ streichen: „Um sieben Uhr vier kam der Nächste, wenn er kam.“ Die Perspektive ist bereits klar.",
+          "„sah zu, wie das Seil …“ direkt machen: „Das Seil kam aus dem Grau und verschwand wieder darin, nass und schwarz …“",
+          "„hörte sie, bevor sie sie sah“ und der Satz über das Geräusch sind inhaltlich tragend (Wahrnehmung ist das Thema) und sollten bleiben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Häufung von „sah“: „sah zu“, „sah aufs Wasser“ (Petersen, Mareike), „sah er sich um“, „Er sah auf die Winde“, „Ilse sah ihn an“, „sah sie noch einen Moment an“, „Sie sah es an“",
+          "„Er blieb an der Rampe stehen und sah aufs Wasser, wie er jeden Morgen aufs Wasser sah“",
+          "„Nebel“ erscheint in fast jedem Absatz."
+        ],
+        "suggestions": [
+          "Bewusste Wiederholungen beibehalten („wenn er kam. Er kam.“, „aufs Wasser … aufs Wasser“, die Klammer mit dem unsichtbaren Ufer).",
+          "Das Verb „sehen“ an einigen Stellen ersetzen oder die Wahrnehmung direkt zeigen, z. B. „Mareike hatte das Telefon weggesteckt. Ihr Blick lag auf dem Wasser.“ Oder die Geste weglassen: „Petersen blieb noch einen Moment. Dann pfiff er dem Hund.“",
+          "Den Nebel stellenweise über seine Wirkung zeigen statt ihn zu benennen (z. B. Tropfen, verschluckte Geräusche), wie es beim „Tschüss“ bereits gelingt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.121588
+}

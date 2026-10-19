@@ -1,0 +1,109 @@
+{
+  "who": "hermes",
+  "item": "anchor__zweig-brennendes-geheimnis-900",
+  "run": 2,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Die Lokomotive schrie heiser auf: der Semmering war erreicht."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch, könnte aber noch stärker auf die unmittelbare Handlung fokussieren, statt die Szenerie so breit zu beschreiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "heiser",
+          "schwarzen",
+          "silbrigen",
+          "bunte",
+          "unruhigen",
+          "flattrigen",
+          "mageren",
+          "unbändig"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist sehr hoch (oft zwei bis drei pro Substantiv). Streiche die offensichtlichen Adjektive, um die Verben stärker wirken zu lassen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["»Wozu bin ich eigentlich hier«, begann es unruhig in ihm zu fragen."],
+        "suggestions": [
+          "Die Dialogkennzeichnung ist sparsam und effektiv, hier gibt es wenig zu beanstanden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["eigentlich", "vielleicht", "irgendwie"],
+        "suggestions": [
+          "Das Wort 'eigentlich' taucht mehrfach auf. Es schwächt die Aussagen ab. Streichen Sie es, um die Sätze direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "während",
+          "die sich umarmen und fliehen, sich bald wie Taschentücher zerknüllen"
+        ],
+        "suggestions": [
+          "Die Beschreibung der Wolken und der Landschaft ist sehr statisch und simultan überladen. Zerlegen Sie die Beobachtungen in eine klare Abfolge von Handlungen oder Eindrücken."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["war erreicht", "war... angestellt", "wurde... genannt"],
+        "suggestions": [
+          "Wandeln Sie Passivkonstruktionen in aktive Sätze um, um mehr Dynamik zu erzeugen (z.B. 'Der Semmering lag vor ihm' statt 'der Semmering war erreicht')."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Jene weißen, unruhigen Wolken flatterten am Himmel, die nur der Mai und der Juni hat, jene weißen, selbst noch jungen und flattrigen Gesellen, die spielend über die blaue Bahn rennen, um sich plötzlich hinter hohen Bergen zu verstecken..."
+        ],
+        "suggestions": [
+          "Die Sätze sind extrem verschachtelt und lang. Teilen Sie diese in kürzere, prägnantere Einheiten auf, um den Lesefluss zu verbessern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Der lange innere Monolog des Barons über seine Einstellung zu Frauen und Abenteuern."
+        ],
+        "suggestions": [
+          "Der innere Monolog ist sehr lang und abstrakt. Kürzen Sie die philosophischen Ausführungen und zeigen Sie den Charakter stattdessen durch konkrete Handlungen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["sah hinaus, wie das Dunkel langsam niederfiel", "spürte man im Atem etwas"],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'sah, wie' oder 'spürte'. Schreiben Sie direkt: 'Das Dunkel fiel nieder' oder 'Der Atem schmeckte süß und scharf'."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Die mehrfache Umschreibung des 'Frauenjägers' und seiner Motivationen im letzten Absatz."
+        ],
+        "suggestions": [
+          "Der letzte Absatz wiederholt das Konzept des 'Abenteurers' und der 'Jagd' mehrfach. Straffen Sie die Argumentation, um den Punkt schneller auf den Punkt zu bringen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

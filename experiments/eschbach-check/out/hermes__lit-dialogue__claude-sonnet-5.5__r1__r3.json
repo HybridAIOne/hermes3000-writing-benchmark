@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-sonnet-5.5__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein Bahnhofscafé, draußen Regen."],
+        "suggestions": [
+          "Der Einstieg ist sehr effektiv und atmosphärisch dicht, er setzt genau zum richtigen Zeitpunkt ein."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["lügst immer noch schlecht", "sagt schnell"],
+        "suggestions": ["Die Verwendung ist sehr sparsam und gezielt. Keine Änderungen nötig."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["MARTIN:", "JONAS:"],
+        "suggestions": [
+          "Das Skript-Format ist für diese Szene ideal und verzichtet auf unnötige Redeeinleitungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["eigentlich", "wohl"],
+        "suggestions": [
+          "Die Füllwörter dienen hier der Charakterisierung (Unsicherheit/Zögern). Man könnte sie streichen, um den Dialog noch härter zu machen, aber sie sind stilistisch gut begründet."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als Martin hereinkommt"],
+        "suggestions": ["Keine überflüssigen Gleichzeitigkeits-Konstruktionen vorhanden."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Passivkonstruktionen vorhanden."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die Sätze sind kurz und prägnant, was den emotionalen Unterton perfekt unterstützt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind auf das Wesentliche reduziert, kein 'Smalltalk-Ballast'."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ich wusste nicht, was ich schreiben soll"],
+        "suggestions": [
+          "Die Wahrnehmung ist direkt und authentisch, keine unnötigen Filter wie 'er dachte, dass'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Keine inhaltlichen Doppelungen erkennbar."]
+      }
+    }
+  },
+  "costUsd": 0
+}

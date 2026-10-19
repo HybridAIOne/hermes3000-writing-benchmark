@@ -1,0 +1,96 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-opus-5.5__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Er läuft\", sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er direkt in die Handlung und die Atmosphäre wirft."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["leise Singen", "weiches Leder", "braunen Wirbel"],
+        "suggestions": [
+          "Die Adjektive sind stimmungsvoll. Prüfen, ob 'leise' bei 'Singen' notwendig ist, da das Singen eines Seils meist implizit leise oder zumindest charakteristisch ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Ilse", "sagte Jonas"],
+        "suggestions": [
+          "Die Redeeinleitungen sind sparsam, könnten aber teilweise durch Handlungsbeschreibungen ersetzt werden, um den Lesefluss zu glätten (z.B. 'Ilse blickte auf. „Er läuft.\"')."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["ein wenig", "irgendwo", "meistens"],
+        "suggestions": [
+          "Wörter wie 'ein wenig' oder 'irgendwo' schwächen die Präzision. 'Die Elbe roch nach Schlick, Diesel und dem Regen der letzten Nacht' wirkt stärker."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als wolle er an Bord kommen"],
+        "suggestions": [
+          "Die Gleichzeitigkeit wird elegant durch Partizipien oder 'als'-Konstruktionen gelöst, ohne den Text mit 'während' zu überladen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["war der Lack ganz weg", "war ... fällig"],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv formuliert. Die wenigen Passivkonstruktionen beschreiben Zustände und sind daher angemessen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Dann war es still bis auf das Schlagen des Wassers gegen den Rumpf und das leise Singen des Seils, das sich über den Fluss spannte und irgendwo drüben im Weidengebüsch verschwand."
+        ],
+        "suggestions": [
+          "Der Satz ist rhythmisch gut. Bei Bedarf könnte man ihn nach 'Rumpf' trennen, um die Stille stärker zu betonen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ich hab ihn vom Ufer aus gehört. Der klingt wie ein Traktor mit Bronchitis.\""
+        ],
+        "suggestions": ["Die Dialoglänge ist sehr natürlich und gut auf die Charaktere abgestimmt."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Ilse wusste, dass das etwas bedeutete",
+          "sie wusste auch, dass sie es nicht wissen wollte"
+        ],
+        "suggestions": [
+          "Das ist 'Tell' statt 'Show'. Statt 'Ilse wusste, dass...', beschreibe ihre körperliche Reaktion oder ihr Unbehagen, um das Wissen für den Leser spürbar zu machen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Telefon", "Hennings"],
+        "suggestions": [
+          "Die Wiederholungen dienen der Charakterisierung und dem Aufbau der Atmosphäre (Trauer/Vergangenheit). Sie sind hier stilistisch gewollt und effektiv."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

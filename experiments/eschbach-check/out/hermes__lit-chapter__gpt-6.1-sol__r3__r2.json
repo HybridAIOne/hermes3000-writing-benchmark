@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6.1-sol__r3",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Nebel lag so tief über der Elbe, dass Ilse das andere Ufer nicht sah."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und setzt genau zum richtigen Zeitpunkt ein, um die Stimmung und die Situation zu etablieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kurzen Ruck", "braunen Wasser", "orangefarbenen Arbeitsjacke"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und funktional eingesetzt. Der Text wirkt dadurch sehr klar und unaufgeregt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Geht’s?“, fragte er.", "„Morgen“, sagte die Frau."],
+        "suggestions": [
+          "Die Dialoge sind sehr natürlich und kommen ohne unnötige Begleitsätze aus. Die Sprecher sind durch den Kontext klar erkennbar."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine unnötigen Füllwörter gefunden. Der Text ist präzise und direkt."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als sie sich aufrichtete, standen die beiden anderen Fahrgäste am Ufer."],
+        "suggestions": [
+          "Die Handlungen sind logisch nacheinander oder sinnvoll verknüpft dargestellt. Keine übermäßige Nutzung von 'während'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist fast ausschließlich aktiv formuliert, was die Handlung lebendig macht."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Dahinter wurde alles weiß.", "Der Radfahrer löste die Bremse zu früh."],
+        "suggestions": [
+          "Die Satzlängen sind abwechslungsreich und gut rhythmisiert. Kurze Sätze erzeugen eine angenehme Spannung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Muss die so?“ / „Ja.“"],
+        "suggestions": ["Die Dialoge sind kurz und prägnant, genau passend für die Situation."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie sah das Ende der Rampe...", "Sie spürte die Vibration..."],
+        "suggestions": [
+          "Der Text vermeidet 'Filterwörter' wie 'sie sah, dass' sehr gut und beschreibt die Wahrnehmung direkt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Poller (wird zur Verdeutlichung der Bewegung zweimal erwähnt)"],
+        "suggestions": [
+          "Keine inhaltlichen Doppelungen. Die Wiederholungen dienen hier der atmosphärischen Verstärkung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

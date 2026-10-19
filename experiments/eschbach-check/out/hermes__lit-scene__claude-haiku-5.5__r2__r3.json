@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-haiku-5.5__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel lag nicht mehr unter dem Blumentopf mit der vertrockneten Geranie."
+        ],
+        "suggestions": [
+          "Der Einstieg ist exzellent. Er wirft den Leser sofort in die Handlung und etabliert das Setting ohne unnötige Exposition."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vertrockneten Geranie", "kaltem Rauch", "dunkelgrüne"],
+        "suggestions": [
+          "Die Adjektive sind atmosphärisch und präzise gewählt. Sie unterstützen das Bild, ohne den Text zu überladen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Alles unverändert.«"],
+        "suggestions": ["Sehr sparsam und effektiv eingesetzt. Keine unnötigen Redeeinleitungen."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr sauber und frei von Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["als sei es eine Warnung", "als jemand sie zuletzt angehalten hatte"],
+        "suggestions": [
+          "Die zeitlichen Verknüpfungen sind natürlich und stören den Lesefluss nicht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["war zweimal unterstrichen", "war die Uhr... stehengeblieben"],
+        "suggestions": [
+          "Das Zustandspassiv ist hier stilistisch angemessen, da es den statischen Charakter der Szene unterstreicht."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzstruktur ist abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher kein Problem."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Ich fragte mich, ob es Tag oder Nacht gewesen war"],
+        "suggestions": [
+          "Direkter formulieren, um den Leser näher an die Figur zu binden: 'War es Tag oder Nacht gewesen, als jemand sie zuletzt angehalten hatte?'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ich roch noch einmal, dann noch einmal"],
+        "suggestions": [
+          "Die Wiederholung ist hier ein bewusstes, effektives Stilmittel zur Verdeutlichung der inneren Unsicherheit/Suche."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,79 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Schlüssel klemmte, wie er schon immer geklemmt hatte."],
+        "suggestions": [
+          "Der Einstieg ist exzellent; er etabliert sofort Atmosphäre und Vorgeschichte ohne unnötige Exposition."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["schmaler Streifen", "dunkler, harter Rand"],
+        "suggestions": [
+          "Das Wort 'Schmutzfingerrad' ist sehr kreativ, wirkt aber etwas konstruiert. 'Schwarzer Rand' oder 'Schmutzring' könnte natürlicher wirken."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["fast einen Geruch"],
+        "suggestions": ["Der Text ist sehr präzise. 'Fast' ist hier als Nuance gut gewählt."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als wäre erst vor einer Stunde jemand durch den Raum gegangen"],
+        "suggestions": ["Die zeitlichen Abläufe sind klar und logisch strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Miriam stellte den Koffer ab.", "Der Flur lag im Halbdunkel."],
+        "suggestions": ["Der Text ist durchgehend aktiv und lebendig formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Stille hatte Konsistenz, fast einen Geruch – oder der Geruch hatte Stille, sie hätte es nicht zu trennen gewusst."
+        ],
+        "suggestions": ["Die Satzlängen sind gut variiert und erzeugen einen angenehmen Rhythmus."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie hatte erwartet, ihn zu berühren"],
+        "suggestions": ["Die Wahrnehmung ist direkt und nah an der Figur."]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Kännchen (zweimal in kurzem Abstand)", "Mantel (zweimal in kurzem Abstand)"],
+        "suggestions": [
+          "Achte darauf, 'Kännchen' beim zweiten Mal durch 'Gefäß' oder 'Espressokocher' zu ersetzen, um Wortwiederholungen zu vermeiden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

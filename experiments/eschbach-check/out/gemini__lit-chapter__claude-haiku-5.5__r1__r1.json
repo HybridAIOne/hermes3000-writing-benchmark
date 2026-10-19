@@ -1,0 +1,119 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag am Morgen so dicht auf dem Fluss, dass Ilse Brandt das andere Ufer nicht sehen konnte.",
+          "Die Seilrolle über ihr knarrte, als sie den Hebel umlegte, und die Fähre löste sich vom Anleger..."
+        ],
+        "suggestions": [
+          "Der Einstieg über das Wetter ist zwar sehr atmosphärisch, aber ein Klassiker, den Eschbach oft kritisiert. Noch unmittelbarer wäre der Einstieg mit der Handlung im vierten Satz: 'Die Seilrolle über ihr knarrte, als Ilse Brandt den Hebel umlegte...'"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["winselte leise", "lächelte unsicher", "trieb langsam"],
+        "suggestions": [
+          "Der Text geht bereits extrem sparsam und präzise mit Adjektiven um. Nur an wenigen Stellen gibt es Pleonasmen: 'winselte leise' (Winseln ist bereits leise -> 'winselte' reicht). 'Trieb langsam' könnte durch 'glitt' oder 'schob sich träge' ersetzt werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„November“, sagte Ilse.",
+          "„Kannst du das Ding nicht ausmachen?“, fragte Ilse.",
+          "„Die Fähre fährt nach Hitzacker-Ufer“, sagte Ilse."
+        ],
+        "suggestions": [
+          "Sehr gute, unauffällige Dialogführung. Bei '„November“, sagte Ilse.' könnte das 'sagte Ilse' komplett entfallen, da klar ist, dass nur sie Wessel antworten kann."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "stand die Sonne irgendwo hinter der Wolkendecke",
+          "Sie gehörte wohl zu den Leuten",
+          "Drüben, irgendwo im Grau",
+          "In der Innentasche ihrer Jacke vibrierte etwas."
+        ],
+        "suggestions": [
+          "Wörter wie 'irgendwo', 'etwas' und 'wohl' sind leicht unpräzise, passen hier aber gut zur personalen Perspektive von Ilse (sie vermutet es nur, sieht es wegen des Nebels nicht). Dennoch könnte 'In der Innentasche ihrer Jacke vibrierte ihr Handy' direkter sein als 'etwas'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Seilrolle über ihr knarrte, als sie den Hebel umlegte"],
+        "suggestions": [
+          "Exzellente Umsetzung. Es gibt kein einziges 'während' oder 'gleichzeitig'. Selbst das 'als' im ersten Absatz lässt sich chronologisch glätten: 'Sie legte den Hebel um. Über ihr knarrte die Seilrolle, und die Fähre löste sich...'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "obwohl die Milchkühe längst verkauft waren",
+          "weil die Brücke in Dannenberg gesperrt war",
+          "das nie benutzt zu werden schien"
+        ],
+        "suggestions": [
+          "Fast durchgehend aktiv geschrieben. Die Zustandspassive ('verkauft waren', 'gesperrt war') sind hier völlig korrekt, da die Verursacher unwichtig sind. 'Das nie benutzt zu werden schien' ist etwas sperrig und könnte aktiviert werden: '...und einem Lastenrad, das nur herumstand.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie wusste, wie der Fluss im Herbst aussah, wenn er braun und schwer war und Holz mitführte, und wie er im Frühjahr aussah, wenn er übers Ufer trat.",
+          "Sie spürte das Gewicht des Schiffs, die drei Menschen darauf, die sie nicht kannte, bis auf Wessel und Hahn, und die sie trotzdem durch den Nebel brachte, Meter für Meter, wie jeden Morgen."
+        ],
+        "suggestions": [
+          "Der Satzrhythmus ist insgesamt hervorragend. Der Satz mit den 'drei Menschen' ist durch den Einschub ('die sie nicht kannte, bis auf...') etwas verschachtelt und zudem unlogisch (wenn sie zwei von dreien kennt, kennt sie nur eine Person nicht). Besser teilen und präzisieren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Kalt heute“, sagte er, ohne sich umzudrehen. „November“, sagte Ilse. „Hm.“"],
+        "suggestions": [
+          "Perfekt. Die Dialoge sind norddeutsch-lakonisch, extrem knapp und sitzen auf den Punkt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "dass Ilse Brandt das andere Ufer nicht sehen konnte.",
+          "Sie wusste, dass es da war.",
+          "Sie hörte das Wasser gegen die Pontons schlagen und roch den Schlick...",
+          "Sie wusste, wann der Hebel klemmte...",
+          "Sie spürte das Gewicht des Schiffs..."
+        ],
+        "suggestions": [
+          "Hier liegt das größte Optimierungspotenzial nach Eschbach. Die Verben der Wahrnehmung (sehen, hören, riechen, wissen, spüren) schaffen Distanz. Statt: 'Sie hörte das Wasser gegen die Pontons schlagen und roch den Schlick' -> Direkt: 'Das Wasser schlug gegen die Pontons. Es roch nach Schlick.' Statt: 'Sie wusste, wann der Hebel klemmte' -> 'Der Hebel klemmte bei Kälte, die Bremse griff manchmal zu spät – sie kannte jede Laune der Fähre.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "das kein Farben hatte [...] graue Schatten [...] still und grau [...] irgendwo im Grau",
+          "den sie seit dreiundzwanzig Jahren kannte. [...] Sie kannte jeden Ton dieser Fähre."
+        ],
+        "suggestions": [
+          "Dass Ilse die Fähre in- und auswendig kennt, wird im ersten Absatz angerissen und im neunten Absatz noch einmal ausführlich erklärt. Das ist eine leichte inhaltliche Doppelung. Auch die Farblosigkeit/das Grau des Nebels wird mehrfach betont, was aber als Stilmittel für die Atmosphäre noch gut funktioniert."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020454
+}

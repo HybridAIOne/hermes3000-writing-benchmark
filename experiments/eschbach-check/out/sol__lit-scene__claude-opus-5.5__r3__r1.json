@@ -1,0 +1,142 @@
+{
+  "who": "sol",
+  "item": "lit-scene__claude-opus-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel lag noch dort, wo er vor zwanzig Jahren gelegen hatte, unter dem dritten Blumentopf links von der Tür.",
+          "Ines ärgerte sich darüber, dass sie es gewusst hatte, ohne nachzudenken."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Die Schlüsselsuche führt unmittelbar in die Handlung und vermittelt zugleich Vertrautheit und Distanz zum Elternhaus.",
+          "Ein späterer Beginn im Haus wäre möglich, würde aber die charakterisierende Reaktion auf das vertraute Schlüsselversteck verlieren. Eine Kürzung ist hier nicht nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Im Flur roch es nach kaltem Kalk und nach etwas Süßlichem",
+          "ein dunkles, unansehnliches Ding",
+          "in der steilen, nach rechts fallenden Schrift ihrer Mutter"
+        ],
+        "suggestions": [
+          "Sinnlich konkrete Attribute wie „kaltem Kalk“ beibehalten; sie tragen die Atmosphäre.",
+          "Bei „ein dunkles, unansehnliches Ding“ prüfen, ob beide Eigenschaften gebraucht werden. „Unansehnlich“ vermittelt Ines’ Wertung, „dunkel“ bleibt vergleichsweise allgemein.",
+          "„Steilen“ und „nach rechts fallenden“ auf ihre gemeinsame Anschaulichkeit prüfen. Falls die Schrift dadurch nicht klarer vorstellbar wird, genügt „in der nach rechts geneigten Schrift ihrer Mutter“."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Drei Wochen, hatte der Notar gesagt.",
+          "Er hatte es in einem Ton gesagt, der Trost sein sollte"
+        ],
+        "suggestions": [
+          "Die erste Redekennzeichnung beibehalten: Sie identifiziert den Sprecher der erinnerten Äußerung.",
+          "Die zweite Kennzeichnung enthält eine wichtige Charakterisierung des Tons. Lediglich die Wiederholung von „gesagt“ ließe sich glätten: „Sein Ton hatte Trost spenden sollen, und Ines hatte genickt, als ginge es um einen Liefertermin.“"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "nach etwas Süßlichem, das sie erst nach einer Weile als Bohnerwachs erkannte",
+          "Ines stand lange da und zählte die Schläge.",
+          "fast unter dem Gehäuse"
+        ],
+        "suggestions": [
+          "„Etwas Süßlichem“ und „nach einer Weile“ nicht automatisch streichen: Die verzögerte Geruchserkennung vermittelt das Wiederbetreten eines lange gemiedenen Ortes.",
+          "„Lange“ ist eine unbestimmte Zeitangabe. Falls das Zählen stärker hervortreten soll, könnte eine konkrete Zahl stehen, etwa: „Ines zählte zwölf Schläge.“ Dabei auf die beabsichtigte Bedeutung der Schläge achten.",
+          "„Fast unter dem Gehäuse“ beibehalten: Die räumliche Annäherung macht den hohen Stand des Gewichts anschaulich und bereitet die Schlussfolgerung vor."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "eine Kruste Erde, die beim Anheben in ihrer Hand zerfiel",
+          "als hätte ihn jemand in Eile abgestreift",
+          "Dann hob sie den Deckel der Zuckerdose."
+        ],
+        "suggestions": [
+          "Die Handlungsfolge beibehalten: Betreten, Erkunden, Hören und Nachsehen sind klar gestaffelt.",
+          "„Beim Anheben“ bezeichnet eine tatsächlich zusammengehörige Bewegung und Folge. Die „als“-Konstruktion beim Mantel ist ein Vergleich, keine problematische Gleichzeitigkeit."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Nachbarin habe sie gefunden",
+          "Ihre Mutter hatte sie jeden Sonntag nach dem Abendessen aufgezogen",
+          "beschriftet in der steilen, nach rechts fallenden Schrift ihrer Mutter"
+        ],
+        "suggestions": [
+          "Keine Umformulierung nötig: Der Text verwendet aktive, konkrete Handlungen.",
+          "„Beschriftet“ ist hier eine attributive Partizipialkonstruktion, kein schwerfälliger Passivsatz. Die knappe Form beibehalten."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel lag noch dort, wo er vor zwanzig Jahren gelegen hatte, unter dem dritten Blumentopf links von der Tür.",
+          "Ihre Mutter hatte sie jeden Sonntag nach dem Abendessen aufgezogen, mit dem kleinen Schlüssel, den sie in der Zuckerdose aufbewahrte, damit niemand außer ihr ihn fand."
+        ],
+        "suggestions": [
+          "Den Wechsel zwischen längeren Erinnerungssätzen und kurzen Spannungssätzen erhalten.",
+          "Den Satz über das Aufziehen bei Bedarf teilen: „Ihre Mutter hatte sie jeden Sonntag nach dem Abendessen aufgezogen. Den kleinen Schlüssel bewahrte sie in der Zuckerdose auf, damit niemand außer ihr ihn fand.“",
+          "Die Teilung ist optional: Der bestehende Satz bleibt verständlich und bündelt das vertraute Ritual."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Drei Wochen, hatte der Notar gesagt. Die Nachbarin habe sie gefunden, im Sessel, das Radio noch an."
+        ],
+        "suggestions": [
+          "Die knappe erinnerte Rede beibehalten. Sie vermittelt die Todesnachricht ohne ausuferndes Gespräch.",
+          "Keine zusätzliche Dialogszene mit dem Notar einfügen; sie würde den gegenwärtigen Spannungsaufbau unterbrechen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Dann hörte sie es.",
+          "Ines kannte das Geräusch so genau, dass sie es zuerst für eine Erinnerung hielt.",
+          "Im Flur roch es nach kaltem Kalk"
+        ],
+        "suggestions": [
+          "„Dann hörte sie es“ trotz Wahrnehmungsfilter beibehalten: Der isolierte Satz verzögert gezielt die Enthüllung der Uhr.",
+          "Auch die vermeintliche Erinnerung erfüllt eine Funktion: Sie zeigt, wie Ines das zunächst unmögliche Geräusch einordnet.",
+          "Die direkte sinnliche Darstellung „Im Flur roch es“ als Vorbild nutzen; zusätzliche Filter wie „Sie bemerkte, dass“ sind nicht nötig."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie ging in die Küche, weil man in diesem Haus immer zuerst in die Küche gegangen war.",
+          "Sie tickte.",
+          "Die Uhr lief acht Tage.",
+          "Sie war leer."
+        ],
+        "suggestions": [
+          "Die doppelte Nennung der Küche lässt sich straffen: „Sie ging in die Küche. Dorthin war man in diesem Haus immer zuerst gegangen.“ Die bestehende Wiederholung kann allerdings auch den eingeübten Ablauf betonen.",
+          "„Sie tickte“ und „Die Uhr lief acht Tage“ nicht zusammenkürzen: Der erste Satz enthüllt das Geräusch, der zweite liefert den entscheidenden zeitlichen Widerspruch.",
+          "Die wiederkehrenden Leerstellen und vertrauten Gegenstände sind motivische Verknüpfungen, keine bloßen Informationsdoppelungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021578
+}

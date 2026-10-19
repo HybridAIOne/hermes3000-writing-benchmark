@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ein Café. Mara sitzt am Fenster."],
+        "suggestions": [
+          "Der Einstieg ist exzellent. Er setzt sofort den Schauplatz und die Stimmung, ohne unnötige Einleitung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["kalt"],
+        "suggestions": ["Sehr sparsamer und präziser Einsatz. Keine Änderungen notwendig."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["fragt Mara", "fragt Jonas"],
+        "suggestions": [
+          "Die Marker sind auf ein Minimum reduziert, was den Fokus auf den Subtext legt. Sehr gut gelöst."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Füllwörter gefunden. Der Text ist sehr direkt."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine 'während'- oder 'als'-Konstruktionen. Die Handlungen sind klar voneinander getrennt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Passiv verwendet. Die Sprache ist aktiv und dynamisch."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die kurzen, knappen Sätze unterstützen das Zögern und die Distanz zwischen den Charakteren perfekt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Dialoge sind kurz und prägnant. Das passt hervorragend zum minimalistischen Stil."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Filterwörter wie 'er sah, dass' oder 'sie dachte, dass'. Die Wahrnehmung erfolgt unmittelbar."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Du noch immer...", "Früher..."],
+        "suggestions": [
+          "Die Wiederholungen sind hier ein bewusstes, starkes stilistisches Mittel (Anaphern), um die Vergangenheit zu betonen. Sehr gelungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

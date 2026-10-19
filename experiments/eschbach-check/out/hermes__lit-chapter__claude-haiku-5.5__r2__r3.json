@@ -1,0 +1,99 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-haiku-5.5__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse Brandt das andere Ufer nicht sehen konnte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und setzt genau zum richtigen Zeitpunkt ein, um die Routine der Protagonistin zu etablieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["dicht", "jung", "rot"],
+        "suggestions": [
+          "Sehr sparsam und effektiv eingesetzt. Die Adjektive dienen der Atmosphäre, nicht der Dekoration. Beibehalten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Moin, Frau Brandt.“", "„Moin.“"],
+        "suggestions": [
+          "Die Dialoge sind exzellent reduziert. Die Sprecher sind durch den Kontext klar erkennbar, keine unnötigen 'sagte er'-Konstruktionen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ein wenig Strömung"],
+        "suggestions": [
+          "Der Text ist sehr präzise. Es gibt kaum Füllwörter, die den Lesefluss stören."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie zog den Reißverschluss... drückte den Knopf... und hörte..."],
+        "suggestions": [
+          "Die Handlungen sind logisch und chronologisch nacheinander gereiht, was die Klarheit erhöht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["der an der Pfeilerseite angebracht war"],
+        "suggestions": [
+          "Könnte noch aktiver formuliert werden, z.B.: 'der an der Pfeilerseite hing'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse Brandt das andere Ufer nicht sehen konnte."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind gut rhythmisiert und unterstützen den ruhigen, routinierten Ton der Szene."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ist es hier sicher?“ – „Es ist eine Fähre.“"],
+        "suggestions": [
+          "Die Dialoge sind knackig und charakterisierend. Keine Straffung notwendig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie wusste, dass es da war",
+          "Sie hörte, wie das Schiff... zu arbeiten begann",
+          "Sie sah, dass..."
+        ],
+        "suggestions": [
+          "Hier liegt das größte Potenzial: 'Filterwörter' entfernen. Statt 'Sie hörte, wie das Schiff arbeitete', direkt schreiben: 'Das Schiff unter ihren Füßen begann zu arbeiten'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Sie wusste... Sie wusste", "Sie sah... Sie sah"],
+        "suggestions": [
+          "Wortwiederholungen von 'wusste' und 'sah' in kurzen Abständen vermeiden, um den Text noch flüssiger zu gestalten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

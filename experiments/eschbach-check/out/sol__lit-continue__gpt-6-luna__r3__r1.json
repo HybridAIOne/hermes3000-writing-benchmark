@@ -1,0 +1,139 @@
+{
+  "who": "sol",
+  "item": "lit-continue__gpt-6-luna__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Er läuft“, sagte Ilse.", "„Das habe ich nicht gefragt.“"],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Die widersprüchlichen Repliken erzeugen Spannung, ohne die Vorgeschichte vorwegzunehmen.",
+          "Nicht später einsetzen; sonst gingen der Motor als situativer Anker und die erste Andeutung des Beziehungskonflikts verloren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„nach Diesel und kaltem Metall“",
+          "„eine lose Fahne“",
+          "„die Leinen ordentlich greifen konnte“"
+        ],
+        "suggestions": [
+          "Sinnlich oder funktional begründete Attribute wie „kaltem“ und „lose“ beibehalten.",
+          "„ordentlich greifen konnte“ bei Bedarf durch „sicher greifen konnte“ präzisieren; das beschreibt die körperliche Einschränkung genauer."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Du hättest anrufen können“, sagte sie.",
+          "„Wie lange bleibst du?“, fragte sie.",
+          "„Komm“, sagte sie. „Ich setz Wasser auf.“"
+        ],
+        "suggestions": [
+          "Die unauffälligen Redekennzeichnungen grundsätzlich beibehalten; nach Handlungspassagen erleichtern sie die Orientierung.",
+          "Bei „Komm“ kann „sagte sie“ entfallen, weil Ilses unmittelbar vorausgehende Handlung die Sprecherin bereits erkennen lässt.",
+          "Die bereits ohne Kennzeichnungen auskommenden Wortwechsel nicht zusätzlich erklären."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„irgendwo oberhalb des Anlegers“",
+          "„Er hatte immer schon gefroren“",
+          "„Dort gab es inzwischen sogar eines mit Frühstück.“"
+        ],
+        "suggestions": [
+          "„immer schon“ zu „schon immer“ glätten oder auf „immer“ kürzen.",
+          "„irgendwo“ nur streichen, wenn die räumliche Unbestimmtheit des Geräuschs nicht beabsichtigt ist.",
+          "„inzwischen sogar“ auf seine Funktion für Ilses Gedanken prüfen: Die Wörter vermitteln ihre Bewertung und sind deshalb nicht automatisch entbehrlich."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„sobald er aus dem Zug stieg, auch als Kind“",
+          "„Sie tat es jetzt, ohne hinzusehen.“",
+          "„Ilse wartete, bis er vom Deck heruntergestiegen war, dann schloss sie die Klappe über dem Motor.“"
+        ],
+        "suggestions": [
+          "Die überwiegend nacheinander erzählten Handlungen beibehalten; eine Häufung künstlicher Gleichzeitigkeit liegt nicht vor.",
+          "Den letzten Beispielsatz bei gewünschter stärkerer Zäsur teilen: „Ilse wartete, bis er vom Deck heruntergestiegen war. Dann schloss sie die Klappe über dem Motor.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Sie löste die Leine wieder vom Poller.“",
+          "„Der Wind drückte das Wasser gegen die Bordwand“",
+          "„Für einen Augenblick war nur das Wasser zu hören“"
+        ],
+        "suggestions": [
+          "Die aktive, konkrete Handlungsdarstellung beibehalten; gewöhnliche Vorgangspassivsätze fehlen.",
+          "Die passivähnliche Wendung „war nur das Wasser zu hören“ muss nicht ersetzt werden: Sie betont die Stille nach dem Motorgeräusch."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ilse dachte an das Gästezimmer, an die Bettwäsche, die sie vor zwei Wochen abgezogen hatte, weil sie nach dem Lüften wieder nach dem Schrank roch.“",
+          "„Seit dem Herbst waren die Knöchel steifer geworden; morgens musste sie sie erst ein paarmal schließen und öffnen, bevor sie die Leinen ordentlich greifen konnte.“"
+        ],
+        "suggestions": [
+          "Den Bettwäschesatz bei Bedarf entlasten: „Ilse dachte an das Gästezimmer, an die Bettwäsche. Die hatte sie vor zwei Wochen abgezogen, weil sie nach dem Lüften wieder nach dem Schrank roch.“",
+          "Die übrigen längeren Sätze nicht pauschal teilen; ihre klare Gliederung und der Wechsel mit kurzen Sätzen tragen den ruhigen Rhythmus."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ich war in der Gegend.“ – „München liegt nicht in der Gegend.“",
+          "„Im Zug gab es ein belegtes Brötchen.“ – „Das zählt nicht.“"
+        ],
+        "suggestions": [
+          "Die knappen Dialoge unverändert lassen: Sie vermitteln Ausweichen, Vertrautheit und Fürsorge ohne erklärende Monologe.",
+          "Keine zusätzlichen Erläuterungen zwischen die Repliken setzen; der Subtext funktioniert bereits."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Jonas sah zum Motor hinüber“",
+          "„Jonas sah auf ihre Hände.“",
+          "„Ilse dachte an das Gästezimmer, an die Bettwäsche“"
+        ],
+        "suggestions": [
+          "Blickhandlungen nicht automatisch streichen: Jonas’ Blick auf Ilses Hände kann Aufmerksamkeit und Beziehung ausdrücken.",
+          "Prüfen, ob „Jonas sah auf ihre Hände“ als Übergang nötig ist; die anschließende Beschreibung der steifen Knöchel könnte auch unmittelbar einsetzen.",
+          "Ilses Gedanken bei gewünschter größerer Nähe ohne Gedankenkennzeichnung formulieren: „Das Gästezimmer. Die Bettwäsche hatte sie vor zwei Wochen abgezogen …“ Dabei den veränderten Rhythmus berücksichtigen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ilse hätte ihm sagen können, dass er ihn tragen sollte.“ / „Sie hätte sagen können, dass er sich ein Zimmer im Ort nehmen sollte.“",
+          "„Die Räder stießen gegen die Holzleisten.“ / „Diesmal hob er ihn an, statt ihn über die Bohlen zu ziehen.“",
+          "„steckte ihn in die Brusttasche ihrer Jacke“ / „nahm sie den Schlüssel wieder aus der Tasche“"
+        ],
+        "suggestions": [
+          "Die beiden „hätte sagen können“-Formulierungen als bewusste Parallele prüfen: Sie zeigen Ilses unausgesprochene Einwände. Nur eine davon umformulieren, wenn die Wiederholung zu auffällig wirkt.",
+          "Die wiederholte Kofferhandlung beibehalten; Jonas’ verändertes Verhalten entwickelt die Situation weiter, statt sie lediglich zu wiederholen.",
+          "Auch die Schlüsselhandlungen haben unterschiedliche Funktionen. Am Schluss gegebenenfalls „Den Ersatzschlüssel fürs Boot“ präzisieren, falls die Zuordnung beim Lesen unklar bleibt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02134
+}

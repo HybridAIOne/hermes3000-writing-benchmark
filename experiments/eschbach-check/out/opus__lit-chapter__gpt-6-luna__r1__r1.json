@@ -1,0 +1,160 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__gpt-6-luna__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag so dicht über der Elbe, dass Ilse das andere Ufer nicht sah. Sie hörte es aber.",
+          "Ilse schob den Riegel am Fährhaus zurück und trat hinaus. Die Luft roch nach nassem Holz und kaltem Wasser. Auf dem Steg glänzten die Planken."
+        ],
+        "suggestions": [
+          "Der atmosphärische Einstieg ist kurz und führt das Motiv Hören statt Sehen ein. Er erfüllt also eine Funktion.",
+          "Die Szene könnte noch etwas später einsetzen, etwa bei der Seilprüfung („Sie prüfte das Seil …“). Das Verlassen des Fährhauses lässt sich weglassen, ohne dass Informationen verloren gehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "dumpf und verspätet",
+          "Langsam setzte sich die Fähre in Bewegung.",
+          "Die Frau lachte leise.",
+          "bis das Holz leise gegen den Steg stieß",
+          "ein leises Drängen am Bug",
+          "ein Mann in einer grünen Arbeitsjacke und ein junger Mann, der einen grauen Rucksack vor den Füßen stehen hatte"
+        ],
+        "suggestions": [
+          "„leise/leises“ kommt dreimal vor. Ersetze das Adverb durch präzisere Verben: „Die Frau gluckste“ oder „bis das Holz gegen den Steg tockte“.",
+          "„Langsam setzte sich die Fähre in Bewegung“ ist eine Floskel. Präziser wäre z. B. „Die Fähre kroch vom Anleger weg.“",
+          "Die Farbadjektive (grün, grau, rot) dienen der Unterscheidung der Figuren und sind gerechtfertigt. „grau“ beim Rucksack könnte entfallen, weil der Rucksack allein genügt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„November“, sagte Ilse.",
+          "„Dann haben Sie Glück“, sagte Ilse.",
+          "„Ist die Verbindung gut?“, fragte er.",
+          "„Fahren Sie heute noch oft?“, fragte er.",
+          "„Vorsicht an der Planke“, sagte sie."
+        ],
+        "suggestions": [
+          "Bei „November“ ist durch den Wechsel klar, dass Ilse antwortet. Das „sagte Ilse“ kann gestrichen werden.",
+          "„Dann haben Sie Glück“ folgt direkt auf Ilses Blick über die Schulter. Die Sprecherzuordnung ist eindeutig, die Kennzeichnung entbehrlich.",
+          "„fragte er“ ist doppelt markiert, weil das Fragezeichen die Frage schon anzeigt. Besser eine Handlung voranstellen: „Der junge Mann blieb einen Moment stehen. ‚Fahren Sie heute noch oft?‘“",
+          "Positiv: Viele Repliken kommen bereits ohne Inquit aus oder sind mit Handlungen verknüpft („Ilse deutete auf die Fähre.“)."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie standen in einigem Abstand voneinander",
+          "Die Frau war vielleicht Anfang vierzig",
+          "blieb einen Augenblick am Rand stehen",
+          "Der junge Mann blieb einen Moment stehen.",
+          "Der Nebel riss für einen Moment auf",
+          "vibrierte kurz in der Kälte",
+          "Der Mann sah kurz herüber",
+          "Irgendwo dahinter schlug eine Kirchturmuhr sieben"
+        ],
+        "suggestions": [
+          "„in einigem Abstand“ konkretisieren: „jeder drei Schritte vom anderen entfernt“.",
+          "„vielleicht Anfang vierzig“ ist als Schätzung aus Ilses Perspektive legitim, könnte aber als „Anfang vierzig“ selbstbewusster stehen.",
+          "„einen Moment/Augenblick“ und „kurz“ kommen insgesamt fünfmal vor. Streiche die meisten davon. „Der junge Mann zögerte“ ersetzt „blieb einen Moment stehen“."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als der Anleger aus dem Grau auftauchte, waren die drei Fahrgäste schon bereit.",
+          "strich mit einem Tuch über den Sattel ihres Fahrrads, obwohl der trocken war"
+        ],
+        "suggestions": [
+          "Handlungen werden überwiegend sauber nacheinander erzählt. Hier besteht kaum Handlungsbedarf.",
+          "Der einzige temporale Als-Satz könnte aufgelöst werden: „Der Anleger tauchte aus dem Grau auf. Die drei Fahrgäste standen schon bereit.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Nichts, was nicht schon gestern ausgefranst gewesen wäre."],
+        "suggestions": [
+          "Der Text ist durchgehend aktiv formuliert. Die einzige Zustandsform ist stilistisch gewollt und pointiert.",
+          "Optional könnte die doppelte Verneinung vereinfacht werden: „Die Stelle war gestern schon ausgefranst.“"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie schob sich über den Fluss, den Ilse nicht sehen konnte, nur hörte: ein leises Drängen am Bug, das Knacken der Planken unter ihren Stiefeln, das Wasser, das gegen die Bordwand lief.",
+          "Sie prüfte das Seil, erst mit den Augen, dann mit der Hand, und strich mit dem Daumen über eine ausgefranste Stelle.",
+          "Der Nebel riss für einen Moment auf, gerade weit genug, dass sich das Ufer als dunkler Streifen zeigte."
+        ],
+        "suggestions": [
+          "Der Satz mit der Aufzählung der Geräusche ist rhythmisch gelungen, aber durch den Relativsatz verschachtelt. Teilen: „Sie schob sich über den Fluss. Ilse sah ihn nicht, sie hörte ihn: …“",
+          "Ansonsten wechseln kurze und mittlere Sätze gut ab. Kurze Pointen wie „Das taten sie auch nicht.“ oder „Drei.“ wirken stark."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Wenn Sie drauf sind.“",
+          "„Wenn wir ankommen, sind wir da.“",
+          "„Wenn Schluss ist.“",
+          "„Danke.“ / „Sie müssen nicht dauernd danke sagen.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp und charakterisieren Ilse gut. Allerdings wiederholt sich das Muster der tautologischen Ausweichantwort dreimal. Der Effekt nutzt sich ab, deshalb sollte eine Variante gestrichen oder variiert werden.",
+          "„nicht dauernd danke sagen“ passt nicht recht, weil der junge Mann zuvor nur einmal „Danke“ gesagt hat. Entweder ein früheres Danke einbauen oder die Replik anpassen („Dafür müssen Sie sich nicht bedanken.“)."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "dass Ilse das andere Ufer nicht sah. Sie hörte es aber.",
+          "den Fluss, den Ilse nicht sehen konnte, nur hörte",
+          "ein tieferes Surren, das Ilse in den Handflächen spürte",
+          "Sie schien auf eine Antwort zu warten.",
+          "Er sah sie an, unsicher, ob sie es ernst meinte."
+        ],
+        "suggestions": [
+          "„das Ilse in den Handflächen spürte“ direkter fassen: „ein tieferes Surren, das in den Handflächen kribbelte“.",
+          "„Sie schien auf eine Antwort zu warten“ durch ein sichtbares Signal ersetzen: „Sie sah Ilse an und hob die Brauen.“",
+          "Das Nicht-Sehen/Hören wird zweimal über Wahrnehmungsverben vermittelt. Beim zweiten Mal genügen die Geräusche selbst: „Der Fluss blieb unsichtbar. Am Bug drängte es leise …“"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„als gehörten sie nicht zusammen“, „als hätte auch sie sich erst durch den Morgen arbeiten müssen“, „als müsste er sich davon überzeugen“, „als hätte er nicht gewusst, ob sie scherzte“",
+          "„dass Ilse das andere Ufer nicht sah. Sie hörte es aber.“ und später „den Ilse nicht sehen konnte, nur hörte“",
+          "„Ilse legte den Riegel vor“, „legte den Riegel ein“, „Sie löste den Riegel“ (dazu der Riegel am Fährhaus)",
+          "„Dann stieg er ein.“, „Dann stieg er ebenfalls an Bord.“, „Dann schloss er sich wieder.“, „Dann ging er über die Planke“",
+          "„Er lächelte, als hätte er nicht gewusst …“ und „Er lächelte wieder, diesmal ohne Frage.“",
+          "„Nebel“ erscheint über ein Dutzend Mal."
+        ],
+        "suggestions": [
+          "Die Vergleichskonstruktion „als hätte/als müsste“ tritt viermal auf. Behalte die stärkste (Kirchturmuhr) und formuliere die anderen direkt.",
+          "Das Motiv Hören statt Sehen ist bereits im Einstieg etabliert. Bei der Überfahrt reicht die Geräuschkulisse ohne erneute Erklärung.",
+          "Den Riegel nur einmal benennen, sonst konkretere Handlungen verwenden („hakte die Kette ein“, „zog den Bolzen“).",
+          "Satzanfänge mit „Dann“ reduzieren, da die Chronologie sich ohnehin ergibt.",
+          "„Nebel“ gelegentlich durch „das Grau“, „die Suppe“ oder indirekte Beschreibung ersetzen.",
+          "Kleine Unklarheit: Bei „Ilse wartete, bis ihre Schritte nicht mehr zu hören waren“ kann „ihre“ auf Ilse bezogen werden. Besser: „bis die Schritte der drei verklungen waren“."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.129556
+}

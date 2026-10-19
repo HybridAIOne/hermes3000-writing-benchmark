@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gpt-6.1-sol__r3",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel ging nur bis zur Hälfte ins Schloss."],
+        "suggestions": [
+          "Der Einstieg ist exzellent, da er sofort eine physische Handlung und Spannung erzeugt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["hellen Fleck", "kleine Haken", "trockenes Klopfen"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und präzise gewählt. Keine Änderung erforderlich."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher kein Problem mit Redeeinleitungen."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["nur", "schon", "noch"],
+        "suggestions": ["Die wenigen Füllwörter sind funktional und stören den Lesefluss nicht."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als sein Motor nicht mehr zu hören war"],
+        "suggestions": [
+          "Die zeitliche Abfolge ist klar und logisch, ohne unnötige 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["alles sei ausgeräumt"],
+        "suggestions": [
+          "Das Passiv wird nur dort verwendet, wo es inhaltlich notwendig ist. Der Text ist ansonsten sehr aktiv."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Zwanzig Jahre hatte sie sich dieses Haus von der Straße aus vorgestellt, nie von innen."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind abwechslungsreich und unterstützen das Erzähltempo sehr gut."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Nun sah sie zuerst...", "Dann roch sie es..."],
+        "suggestions": [
+          "Die Wahrnehmungen sind direkt und unmittelbar geschildert, ohne Filter wie 'sie bemerkte, dass...'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["keine signifikanten Wiederholungen"],
+        "suggestions": ["Der Text ist sehr prägnant und frei von unnötigen Doppelungen."]
+      }
+    }
+  },
+  "costUsd": 0
+}

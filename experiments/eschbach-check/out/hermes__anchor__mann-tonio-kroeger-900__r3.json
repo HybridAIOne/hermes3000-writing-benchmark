@@ -1,0 +1,101 @@
+{
+  "who": "hermes",
+  "item": "anchor__mann-tonio-kroeger-900",
+  "run": 3,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Die Schule war aus. Über den gepflasterten Hof... strömten die Scharen"],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch, könnte aber durch den direkten Fokus auf die Protagonisten noch unmittelbarer gestaltet werden."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["bastblonden", "südlich scharfgeschnittenen", "gemessen hinschreitenden"],
+        "suggestions": [
+          "Viele Adjektive sind schmückendes Beiwerk. Streichen, um die Handlung zu beschleunigen und die Wirkung der Verben zu stärken."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Tonio Kröger", "fragte er"],
+        "suggestions": [
+          "Die Marker sind weitgehend unauffällig, können aber teilweise gestrichen werden, wenn der Sprecherwechsel durch den Kontext klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["ein wenig", "doch wohl", "schon", "ja"],
+        "suggestions": [
+          "Wörter wie 'ein wenig' oder 'doch wohl' schwächen die Aussagekraft. Direkt formulieren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "während Hansens schlanke Beine...",
+          "indem er seine etwas schräg stehenden Brauen zusammenzog"
+        ],
+        "suggestions": [
+          "Handlungen nacheinander beschreiben statt durch 'während' oder 'indem' zu verknüpfen, um mehr Dynamik zu erzeugen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["wurde gegessen", "wurde gegrüßt", "wurde... zerlegt"],
+        "suggestions": [
+          "Aktiv formulieren: 'Die Kaufleute aßen erst um vier Uhr zu Mittag' statt 'wurde gegessen'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Der letzte Absatz besteht aus extrem verschachtelten Sätzen mit vielen Nebensätzen."
+        ],
+        "suggestions": [
+          "Die langen Sätze in kürzere Einheiten zerlegen, um die Lesbarkeit und den Rhythmus zu verbessern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Die Dialoge sind angemessen kurz und in die Handlung eingebettet."],
+        "suggestions": [
+          "Die Dialoge funktionieren gut, könnten aber durch noch stärkere Fokussierung auf den Subtext (das Ungesagte) geschärft werden."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "er sah doch, dass Hans seine Vergeßlichkeit bereute",
+          "er dachte nur, daß..."
+        ],
+        "suggestions": [
+          "Direkte Wahrnehmung nutzen: Nicht 'er sah, dass', sondern die Reaktion von Hans direkt beschreiben."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Die detaillierte Beschreibung der Kleidung und des Aussehens beider Jungen wiederholt sich in ihrer Ausführlichkeit."
+        ],
+        "suggestions": [
+          "Informationen straffen. Die Kleidung muss nicht in jedem Detail erneut beschrieben werden, wenn sie bereits etabliert ist."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

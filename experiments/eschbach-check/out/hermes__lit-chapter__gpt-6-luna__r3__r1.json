@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6-luna__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht über der Elbe, dass Ilse die andere Uferkante nicht sah."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und wirft den Leser direkt in die Situation. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["dünne Mütze", "sauber geputzt"],
+        "suggestions": [
+          "Prüfen, ob 'sauber geputzt' für die Charakterisierung des Mannes zwingend ist oder ob 'geputzt' ausreicht, um den Text straffer zu machen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ist das immer so?“, fragte der Junge."],
+        "suggestions": ["Die sparsame Verwendung ist sehr gut gelungen, da der Kontext klar ist."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["ein wenig stärker", "ein Stück"],
+        "suggestions": [
+          "'Ein wenig' streichen, um die Wirkung zu verstärken (z.B. 'vibrierte das Deck stärker'). 'Ein Stück' kann oft ersatzlos gestrichen werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine übermäßige Verwendung von 'während'."],
+        "suggestions": ["Die Handlungsabfolge ist klar und nacheinander strukturiert. Beibehalten."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse stand am Steuerstand und hielt eine Hand auf dem Hebel."],
+        "suggestions": ["Sehr aktiv geschrieben, keine Änderungen nötig."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel nahm die Fähre auf und gab sie wieder frei, in kurzen, grauen Stücken."
+        ],
+        "suggestions": ["Der Rhythmus ist gut, die Sätze sind angenehm kurz und prägnant."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Ja.“ / „Gut.“"],
+        "suggestions": [
+          "Sehr authentisch und prägnant, spiegelt die Stimmung der Szene perfekt wider."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse blickte nach vorn."],
+        "suggestions": [
+          "Direkte Wahrnehmung sehr gut umgesetzt, keine 'sie sah, dass'-Konstruktionen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "vibrierte das Deck unter ihren Stiefeln ein wenig stärker. Heute vibrierte es wie immer."
+        ],
+        "suggestions": [
+          "Die Wortwiederholung von 'vibrierte' im zweiten Absatz durch ein Synonym oder eine Umschreibung ersetzen, um den Lesefluss zu glätten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

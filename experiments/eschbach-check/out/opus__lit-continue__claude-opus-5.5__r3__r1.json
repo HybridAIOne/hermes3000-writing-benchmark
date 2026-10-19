@@ -1,0 +1,145 @@
+{
+  "who": "opus",
+  "item": "lit-continue__claude-opus-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Er läuft“, sagte Ilse. – direkter Einstieg mitten im Gespräch, ohne Vorgeschichte",
+          "„Er läuft, wie ein alter Raucher läuft. Ich hab ihn vom Parkplatz aus gehört.“ – der Sprecher bleibt unbenannt, sein Name fällt erst später beiläufig: „Sie schoben an Jonas vorbei“",
+          "Unklar bleibt zunächst, wer oder was ‚er‘ ist (Motor? Fähre?)"
+        ],
+        "suggestions": [
+          "Der Einstieg sitzt; ein späterer Beginn würde Atmosphäre und Spannung kosten.",
+          "Gib dem Leser früher einen Anker, wer der Ankommende ist. Ein Detail wie der Rollkoffer in den ersten Zeilen genügt, z. B.: „Er läuft, wie ein alter Raucher läuft.“ Jonas stellte den Rollkoffer ab. „Ich hab ihn vom Parkplatz aus gehört.“",
+          "Prüfe, ob ‚Er läuft‘ ohne Bezug funktioniert. Ein kurzer Hinweis auf den Motor (z. B. Ilse lauscht dem Diesel) würde die Pointe nicht verraten, aber Verwirrung vermeiden."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„flach und langsam“ (Nebel) – trägt die Stimmung, ist aber durch das Verb ‚schob sich‘ schon halb erzählt",
+          "„warteten höflich darauf, dass sich die Familienangelegenheit erledigte“ – ‚höflich‘ behauptet statt zu zeigen",
+          "„klein und dunkel, stand jemand“",
+          "„Schuhe mit hellen Sohlen“ – funktional, charakterisiert Jonas als Stadtmenschen"
+        ],
+        "suggestions": [
+          "‚höflich‘ durch eine Geste ersetzen, z. B.: „…standen noch zwei Radfahrer mit ihren Satteltaschen und sahen auf den Fluss, als ginge sie die Familienangelegenheit nichts an.“",
+          "‚flach und langsam‘ ggf. auf ein Wort reduzieren oder in ein Verb überführen: „Vom anderen Ufer kroch der Nebel über die Wiesen.“",
+          "Insgesamt sparsamer, gezielter Einsatz; keine grundlegende Überarbeitung nötig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Wie viele waren es heute?“, fragte er. – Sprecher ergibt sich aus dem Wechsel",
+          "„Ich bleib ein paar Tage“, sagte Jonas. „Wenn das geht.“ – nur zwei Personen im Dialog, Tag entbehrlich",
+          "„Stell den Koffer in die Kabine“, sagte sie. – durch die vorangehende Handlung (Leine hinhalten) eindeutig",
+          "Positiv: „Jonas folgte ihrem Blick. „Fährst du noch mal rüber?““ – Handlung statt Inquit"
+        ],
+        "suggestions": [
+          "Streiche ‚fragte er‘: „Wie viele waren es heute?“ / „Genug.“ / „Mama.“ – der Wechsel trägt sich selbst.",
+          "Ersetze ‚sagte Jonas‘ durch eine Handlung, z. B.: Jonas zog den Griff des Rollkoffers ein. „Ich bleib ein paar Tage. Wenn das geht.“",
+          "Am Ende reicht: „Stell den Koffer in die Kabine. Und halt das. Aber erst loslassen, wenn ich es sage.“"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„und es vermutlich nicht war“",
+          "„von denen er am Telefon manchmal erzählte“",
+          "„als schreibe er es irgendwo auf“",
+          "„Vielleicht tat er das auch“ / „Vielleicht ein Angler. Vielleicht nur ein Pfahl.“",
+          "„auf denen der Uferweg schon seine Spuren hinterlassen hatte“"
+        ],
+        "suggestions": [
+          "Das doppelte ‚Vielleicht‘ am Anleger ist bewusst gesetzt und erzeugt Spannung. Beibehalten.",
+          "Das dritte ‚Vielleicht‘ (Tabellen) schwächt den Effekt am Schluss ab. Variante: „Er nickte, als schreibe er es auf, in eine dieser Tabellen, von denen er am Telefon erzählte, mit Farben für gut und schlecht.“",
+          "‚schon‘ in „schon seine Spuren hinterlassen hatte“ ist verzichtbar."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„sagte sie, als die beiden fort waren“ – zeitlich nachgeordnet, unproblematisch",
+          "Handlungen werden überwiegend sauber nacheinander erzählt: „Ilse wrang den Lappen aus und hängte ihn zurück an den Haken. Dann ging sie zum Poller, löste die Leine…“"
+        ],
+        "suggestions": [
+          "Kein Handlungsbedarf. Die Abfolge ist klar und filmisch.",
+          "Optional: „als die beiden fort waren“ als eigenen Satz voranstellen: „Die beiden verschwanden im Nebel. „Du hättest anrufen können.““ Das spart zugleich die Dialogkennzeichnung."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Nahezu durchgehend aktiv formuliert",
+          "„als sei sie für Regen gemacht“ – Zustandsbeschreibung, im Vergleich angemessen"
+        ],
+        "suggestions": ["Keine Änderungen nötig."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Er trug eine Jacke, die aussah, als sei sie für Regen gemacht, und es vermutlich nicht war, und Schuhe mit hellen Sohlen, auf denen der Uferweg schon seine Spuren hinterlassen hatte.“ – verschachtelt, grammatisch holprig (‚und es vermutlich nicht war‘)",
+          "„Die letzte Überfahrt stand für sechs auf dem Schild, aber an Abenden wie diesem kam selten noch jemand, und sie hätte die Kette vorlegen und das Licht ausschalten können, und niemand hätte es ihr übelgenommen.“ – rhythmisch gewollt, aber lang",
+          "„Vielleicht tat er das auch, innerlich, in eine dieser Tabellen, von denen er am Telefon manchmal erzählte, mit Farben für gut und schlecht.“"
+        ],
+        "suggestions": [
+          "Jacken-Satz teilen: „Er trug eine Jacke, die nach Regen aussah und vermutlich keinen aushielt. Auf den hellen Sohlen seiner Schuhe klebte schon der Uferweg.“",
+          "Den Überfahrts-Satz kann man als Polysyndeton stehen lassen. Alternativ: „Die letzte Überfahrt stand für sechs auf dem Schild. An Abenden wie diesem kam selten noch jemand. Sie hätte die Kette vorlegen und das Licht ausschalten können, und niemand hätte es ihr übelgenommen.“",
+          "Die kurzen Sätze („Zehn vor sechs.“, „Vielleicht nur ein Pfahl.“) bilden einen guten Kontrast. Diese Mischung beibehalten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Wie viele waren es heute?“ / „Genug.“ / „Mama.“ / „Elf. Und der Milchwagen.“ – knapp, subtextreich",
+          "„Das Bett im Giebelzimmer ist nicht bezogen.“ / „Dann bezieh ich es.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind vorbildlich gestrafft. Das Ungesagte trägt die Szene. Nicht verlängern."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ilse dachte daran, wie er als Junge auf dem Kabinendach gesessen und die Autos gezählt hatte…“",
+          "„Das stimmte, und deshalb sagte sie nichts dazu.“ – erklärt die Reaktion, statt sie wirken zu lassen",
+          "Positiv: „Sie sah zur Uhr in der Kabine. Zehn vor sechs.“ – direkte Wahrnehmung"
+        ],
+        "suggestions": [
+          "Erinnerung direkt einsetzen lassen: „Als Junge hatte er auf dem Kabinendach gesessen und die Autos gezählt, mit Kreide auf dem Blech, Striche in Fünferbündeln.“",
+          "‚Das stimmte, und deshalb sagte sie nichts dazu.‘ kürzen auf „Das stimmte.“ oder ganz streichen und direkt mit dem Lappen weitermachen. Das Schweigen spricht für sich."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Drüben am anderen Ufer“ – ‚Drüben‘ und ‚am anderen Ufer‘ doppeln sich; zudem schon „Vom anderen Ufer schob sich der Nebel“",
+          "‚Kabine‘ fünfmal (Haken an der Kabine, Kabinendach, Uhr in der Kabine, Koffer in die Kabine)",
+          "„Sie antwortete nicht.“ und „sagte sie nichts dazu“ – zweimal das Schweigen ausdrücklich benannt",
+          "„Er läuft, wie ein alter Raucher läuft“ – bewusste, wirkungsvolle Wiederholung"
+        ],
+        "suggestions": [
+          "„Drüben brannte die Laterne am Anleger“ – ‚am anderen Ufer‘ streichen.",
+          "Bei der Uhr ‚in der Kabine‘ weglassen: „Sie sah zur Uhr. Zehn vor sechs.“",
+          "Das zweite explizite Schweigen streichen (siehe Indirekte Wahrnehmung)."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.117836
+}

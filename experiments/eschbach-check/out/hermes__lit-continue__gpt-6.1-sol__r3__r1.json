@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gpt-6.1-sol__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Geht auch so“, sagte sie."],
+        "suggestions": [
+          "Der Einstieg ist stark und wirft den Leser direkt in die Situation. Beibehalten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["dunkel", "trockene", "steif"],
+        "suggestions": [
+          "Die Adjektive sind meist passend. Prüfen, ob 'dunkel' bei 'Seil' wirklich nötig ist oder ob die Atmosphäre das nicht schon transportiert."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["sagte sie", "sagte Jonas", "fragte Jonas"],
+        "suggestions": [
+          "Einige Redeeinleitungen sind redundant, da aus dem Kontext klar ist, wer spricht. Streichen Sie diese, um den Dialogfluss zu beschleunigen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vielleicht", "schon", "immer"],
+        "suggestions": [
+          "Die Füllwörter wirken hier charakterisierend und natürlich, nicht störend."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Dabei stieß er mit einer Rolle gegen den Türrahmen."],
+        "suggestions": [
+          "Keine übermäßige Nutzung von 'während'. Die Handlungsabfolgen sind klar und präzise."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["war dunkel geworden"],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv formuliert. 'War dunkel geworden' könnte durch ein aktives Verb ersetzt werden (z.B. 'dunkelte')."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine übermäßig langen Sätze."],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut lesbar."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Und wenn kein Wind ist?“ / „Ist keine Segelfähre.“"],
+        "suggestions": ["Die Dialoge sind knackig und subtextreich. Sehr gut."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Jonas sah hinüber", "Ilse hörte ihn leise fluchen", "Sie sah ihn an"],
+        "suggestions": [
+          "Versuchen Sie, die Wahrnehmungsfilter zu entfernen. Statt 'Ilse hörte ihn fluchen', schreiben Sie direkt: 'Er fluchte leise.' Das bringt den Leser näher an das Geschehen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Koffer"],
+        "suggestions": [
+          "Die Wiederholung von 'Koffer' ist inhaltlich begründet, da er ein zentrales Element der Szene ist. Keine Korrektur notwendig."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

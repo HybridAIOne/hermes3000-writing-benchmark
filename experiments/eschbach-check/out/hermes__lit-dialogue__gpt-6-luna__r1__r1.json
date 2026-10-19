@@ -1,0 +1,83 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gpt-6-luna__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ein Café an der Ecke. Regen an den Scheiben."],
+        "suggestions": [
+          "Der Einstieg ist funktional. Er könnte noch atmosphärischer gestaltet werden, um die Stimmung zwischen den Charakteren (Distanz/Vertrautheit) stärker zu unterstreichen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kaum merklich"],
+        "suggestions": ["Der Text ist sehr sparsam und präzise. Keine Änderungen notwendig."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["MARA: ...", "LEON: ..."],
+        "suggestions": [
+          "Perfekt gelöst durch das Skript-Format, das auf unnötige Redeeinleitungen verzichtet."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["schon", "vielleicht"],
+        "suggestions": [
+          "Die Füllwörter wirken hier authentisch als Teil der gesprochenen Sprache und Charakterisierung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Er setzt sich. Sie rühren beide..."],
+        "suggestions": [
+          "Keine unnötigen 'während'-Konstruktionen. Die Abfolge der Handlungen ist klar."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Passiv vorhanden. Die Sprache ist aktiv und direkt."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind für einen Dialog ideal kurz und prägnant."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind sehr gestrafft und leben vom Subtext. Sehr gut."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ich wusste nicht, ob du kommst."],
+        "suggestions": [
+          "Keine indirekte Wahrnehmung (z.B. 'er dachte, dass') verwendet. Alles ist direkt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["früher", "immer"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier beabsichtigt, um die gemeinsame Vergangenheit und die festgefahrenen Muster der Charaktere zu betonen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

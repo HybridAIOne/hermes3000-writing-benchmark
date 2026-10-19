@@ -1,0 +1,105 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["MARIE: Du bist schon da."],
+        "suggestions": [
+          "Der Einstieg ist fast perfekt 'in medias res'. Lediglich Maries erster Satz ('Du bist schon da.') ist ein minimaler Geplänkel-Einstieg. Wenn Lukas direkt mit 'Ich wusste nicht, ob du noch Schwarztee trinkst.' beginnt, während sie sich setzt, startet die Szene noch unmittelbarer."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "setzt sich langsam",
+          "Kurzes, schweres Schweigen",
+          "stellt den Löffel leise ab",
+          "zieht zögernd den Schlüssel"
+        ],
+        "suggestions": [
+          "Die Regieanweisungen sind bereits sehr präzise. Einige Adverbien könnten durch noch bildhaftere Verben ersetzt werden, z.B. statt 'zieht zögernd den Schlüssel aus der Tasche' -> 'nestelt den Schlüssel aus der Tasche'. 'Schweres Schweigen' ist eine leichte Wertung, die sich bereits aus dem Kontext ergibt ('Stille' reicht)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Da es sich um ein Drehbuch-/Theaterformat handelt, entfallen klassische Inquits ('sagte er'). Die Zuordnung ist durch die Formatierung und den Subtext zu 100 % klar."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Man lernt ja aus Fehlern.", "übrigens", "einfach", "wohl"],
+        "suggestions": [
+          "In den Regieanweisungen gibt es keinerlei Füllwörter – sehr gut! Im Dialog selbst werden Wörter wie 'ja', 'wohl', 'einfach' verwendet, was hier aber absolut legitim ist, da es die gesprochene Sprache natürlich und authentisch macht."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "zieht zögernd den Schlüssel aus der Tasche und legt ihn zwischen sie auf den Tisch"
+        ],
+        "suggestions": [
+          "Ausgezeichnet. Handlungen werden konsequent nacheinander beschrieben. Keine unlogischen Gleichzeitigkeiten mit 'während' oder 'als'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der gesamte Text ist durchgehend aktiv formuliert. Das sorgt für große Unmittelbarkeit."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Sieben. Aber wer zählt schon.", "Du siehst gut aus. Ausgeschlafen."],
+        "suggestions": [
+          "Sehr guter, knapper Satzbau. Die kurzen Sätze und Ellipsen passen perfekt zur angespannten, unterkühlten Stimmung zwischen den Figuren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "MARIE: Ja. Mir bedeuten alte Dinge oft zu viel. Das war wohl immer mein Problem. Ich hänge an Sachen, die längst kaputt sind."
+        ],
+        "suggestions": [
+          "Der Dialog ist extrem dynamisch, ein schnelles Ping-Pong. Keiner redet zu lang. Bei Maries Replik über die 'alten Dinge' könnte man überlegen, nach dem ersten oder zweiten Satz zu kürzen, um den Subtext nicht zu deutlich auszusprechen (siehe Punkt 10)."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie rührt im Tee, obwohl kein Zucker darin ist.",
+          "weicht ihrem Blick aus, knetet seine Serviette"
+        ],
+        "suggestions": [
+          "Perfektes 'Show, don't tell'. Emotionen wie Nervosität oder Kälte werden nicht behauptet, sondern über sichtbare Handlungen (Mantel anlassen, Serviette kneten, Schlüssel auf den Tisch legen) direkt erlebbar gemacht."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Mir bedeuten alte Dinge oft zu viel. Das war wohl immer mein Problem. Ich hänge an Sachen, die längst kaputt sind."
+        ],
+        "suggestions": [
+          "Hier wird derselbe emotionale Sachverhalt (die Metapher für die gescheiterte Beziehung) dreimal variiert. Das nimmt der Aussage etwas die Schärfe. Stärker wäre eine Verknappung, z.B. nur: 'Ja. Ich hänge eben an Dingen, die längst kaputt sind.'"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.015292
+}

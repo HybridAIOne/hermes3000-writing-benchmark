@@ -1,0 +1,96 @@
+{
+  "who": "hermes",
+  "item": "anchor__kafka-das-urteil-300",
+  "run": 2,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Es war an einem Sonntagvormittag im schönsten Frühjahr."],
+        "suggestions": [
+          "Der Einstieg ist sehr klassisch-erzählend. Man könnte direkter mit der Handlung einsteigen, z.B. mit dem Verschließen des Briefes, um den Leser sofort in die Szene zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "niedrigen, leichtgebauten Häuser",
+          "spielerischer Langsamkeit",
+          "fremdartige Vollbart"
+        ],
+        "suggestions": [
+          "Einige Adjektive sind atmosphärisch, aber manche wirken redundant. 'Leichtgebaut' könnte durch eine präzisere Beschreibung der Bauweise oder das Weglassen ersetzt werden, um den Lesefluss zu straffen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["vielleicht", "schon", "gerade"],
+        "suggestions": [
+          "Die Füllwörter sind im Rahmen, könnten aber in manchen Sätzen (z.B. 'vielleicht raten') gestrichen werden, um die Entschlossenheit der Gedanken zu erhöhen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": [
+          "Die Handlungsabfolge ist logisch und nicht durch übermäßige 'während'-Konstruktionen verlangsamt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist erstaunlich aktiv formuliert. Es gibt kaum vermeidbare Passivkonstruktionen."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Georg Bendemann, ein junger Kaufmann, saß in seinem Privatzimmer im ersten Stock eines der niedrigen, leichtgebauten Häuser, die entlang des Flusses in einer langen Reihe, fast nur in der Höhe und Färbung unterschieden, sich hinzogen."
+        ],
+        "suggestions": [
+          "Der Satzbau ist sehr verschachtelt. Die Sätze sollten in kürzere Einheiten zerlegt werden, um die Lesbarkeit zu erhöhen und die Informationen besser zu gewichten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Er dachte darüber nach, wie...",
+          "auf eine sich entwickelnde Krankheit hinzudeuten schien."
+        ],
+        "suggestions": [
+          "Die Distanz durch 'Er dachte darüber nach' nimmt dem Leser die Unmittelbarkeit. Besser: Die Gedanken direkt als inneren Monolog oder durch Beobachtung der Umgebung darstellen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist inhaltlich präzise. Die Wiederholung von 'Freund' ist kontextuell notwendig."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

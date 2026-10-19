@@ -1,0 +1,116 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__gpt-6-luna__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Schlüssel klemmte, wie er immer geklemmt hatte."],
+        "suggestions": [
+          "Exzellenter Einstieg mitten in die Handlung (in medias res). Das Klemmen des Schlüssels etabliert sofort Vertrautheit mit dem Ort und eine gewisse Schwere, ohne Zeit mit der Anreise zu verschwenden."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "kaltem Holz",
+          "scharfen Rest",
+          "blinden Fleck",
+          "dünner, rostfarbener Strahl"
+        ],
+        "suggestions": [
+          "Die Adjektive sind sehr präzise gewählt und erzeugen starke Sinneseindrücke. Einzig in 'schlug leise gegen die Wand' könnte man prüfen, ob ein präziseres Verb wie 'klackte' oder 'schabte' das Adverb 'leise' ersetzen kann."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Nicht aus Ehrfurcht, sagte sie sich, sondern weil ihre Augen sich an das Dunkel gewöhnen mussten."
+        ],
+        "suggestions": [
+          "Es gibt keinen gesprochenen Dialog. Die Kennzeichnung des inneren Monologs durch 'sagte sie sich' könnte für noch mehr Unmittelbarkeit (erlebte Rede) weggelassen werden: 'Nicht aus Ehrfurcht. Ihre Augen mussten sich nur an das Dunkel gewöhnen.'"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...das ihre Mutter offenbar zuletzt vor langer Zeit benutzt hatte.",
+          "Der Lichtschalter saß noch neben der Garderobe.",
+          "Im Flur hing noch der Spiegel..."
+        ],
+        "suggestions": [
+          "Das Wort 'offenbar' im ersten Absatz schwächt die Aussage ab und kann ersatzlos gestrichen werden.",
+          "Das Wort 'noch' wird zweimal kurz hintereinander für die Einrichtung verwendet. Beim Spiegel könnte es gestrichen werden, da die Beständigkeit des Hauses bereits etabliert ist."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als Mara den Wasserhahn aufdrehte, kam zunächst Luft, dann ein dünner, rostfarbener Strahl."
+        ],
+        "suggestions": [
+          "Die Handlungen sind fast durchgängig sauber nacheinander aufgereiht. Auch im Beispielsatz ist das 'Als' vollkommen natürlich, könnte aber theoretisch noch direkter gefasst werden: 'Mara drehte den Wasserhahn auf. Zunächst kam Luft...'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Auf der Fensterbank lag ein trockenes Blatt, vom Wind oder von einer Hand dorthin getragen."
+        ],
+        "suggestions": [
+          "Keine unnötigen Passivkonstruktionen vorhanden. Der Text ist durchweg aktiv und bildhaft geschrieben. Die Partizipialkonstruktion beim Blatt ist stilistisch passend."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Siedrückte ihn. Nichts.",
+          "Durch das Oberlicht fiel ein grauer Streifen auf die Dielen, gerade breit genug, um die abgetretene Stelle vor der Küchentür zu zeigen."
+        ],
+        "suggestions": [
+          "Hervorragender Satzrhythmus. Kurze, prägnante Sätze wechseln sich harmonisch mit etwas längeren, beschreibenden Sätzen ab. Nichts ist übermäßig verschachtelt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Dialoge im Text vorhanden, daher gibt es hier keine Längen zu bemängeln."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Darin sah sie ihr Gesicht nur bis zum Mund, und dahinter die geschlossene Haustür.",
+          "Sie wusste nicht, ob er von einer Tasse stammte. Sie wusste nur, dass ihre Mutter immer die Tasse mit dem abgesprungenen blauen Rand benutzt hatte."
+        ],
+        "suggestions": [
+          "Solche Filterwörter ('sah sie', 'wusste sie') schaffen eine leichte Distanz zur Figur. Direkter wäre: 'Er zeigte ihr Gesicht nur bis zum Mund...' und 'Stammte er von einer Tasse? Ihre Mutter hatte immer die mit dem abgesprungenen blauen Rand benutzt.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel klemmte, wie er immer geklemmt hatte.",
+          "Sie wusste nicht... Sie wusste nur..."
+        ],
+        "suggestions": [
+          "Es gibt keine unfreiwilligen inhaltlichen Doppelungen. Die vorhandenen Wortwiederholungen sind als bewusste rhetorische Stilmittel eingesetzt und unterstützen die melancholische Atmosphäre des Textes sehr gut."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01588
+}

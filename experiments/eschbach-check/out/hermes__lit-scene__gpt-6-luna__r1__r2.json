@@ -1,0 +1,92 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gpt-6-luna__r1",
+  "run": 2,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel klemmte, wie er immer geklemmt hatte."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort eine Atmosphäre und eine Handlung etabliert. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kaltem Holz", "scharfen Rest", "abgetretene Stelle"],
+        "suggestions": [
+          "Die Adjektive sind gut gewählt und unterstützen die Atmosphäre, ohne den Text zu überladen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["sagte sie sich"],
+        "suggestions": [
+          "Sehr sparsam und effektiv eingesetzt. Es gibt keine unnötigen Redeeinleitungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["offenbar"],
+        "suggestions": [
+          "Das Wort 'offenbar' schwächt die Beobachtung ab. Streiche es, um die Wahrnehmung direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als Mara den Wasserhahn aufdrehte, kam zunächst Luft..."],
+        "suggestions": [
+          "Die zeitliche Abfolge ist klar und logisch strukturiert. Keine übermäßige Verwendung von 'während'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["ließ sich sagen"],
+        "suggestions": [
+          "Der Text ist angenehm aktiv formuliert. 'Ließ sich sagen' ist eine akzeptable reflexive Konstruktion."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Satzlängen sind abwechslungsreich und gut lesbar. Keine verschachtelten Sätze, die den Lesefluss stören."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Sie wusste nicht, ob er von einer Tasse stammte.",
+          "Sie wusste nur, dass ihre Mutter..."
+        ],
+        "suggestions": [
+          "Entferne die Filterwörter ('Sie wusste...'). Beschreibe stattdessen direkt: 'Stammte der Abdruck von einer Tasse? Ihre Mutter hatte immer die Tasse mit dem abgesprungenen blauen Rand benutzt.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Sie wusste nicht... Sie wusste nur..."],
+        "suggestions": [
+          "Die Wiederholung von 'wusste' am Satzanfang wirkt etwas hölzern. Variiere die Satzstruktur, um den Rhythmus zu verbessern."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

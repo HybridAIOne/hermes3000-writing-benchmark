@@ -1,0 +1,147 @@
+{
+  "who": "opus",
+  "item": "lit-continue__claude-sonnet-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Er läuft\", sagte Ilse.",
+          "Die Szene beginnt mitten im Gespräch über den Motor. Ankunft, Begrüßung und Vorgeschichte werden übersprungen."
+        ],
+        "suggestions": [
+          "Der Einstieg ist gelungen und sollte so bleiben. Die Spannung zwischen den Figuren steht vom ersten Satz an im Raum.",
+          "Optional könnte die Szene direkt mit Jonas' Antwort „Er läuft schlecht.\" beginnen. Allerdings ginge dabei Ilses knappe, abwehrende Haltung verloren, die die Figur sofort charakterisiert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Jonas lachte kurz, ohne den Mund dabei richtig zu bewegen.\"",
+          "„Das Seil spannte sich schräg durch die Strömung, tropfend\"",
+          "„Das leise Klirren der Kette am Steuerhaus\"",
+          "„mit einem Rattern, das über das Wasser hinweg zu laut war\""
+        ],
+        "suggestions": [
+          "„kurz\" und „richtig\" streichen: „Jonas lachte, ohne den Mund zu bewegen.\" Das ist präziser und eindringlicher.",
+          "„leise Klirren\": „Klirren\" allein genügt, oder ein spezifischeres Verb wie „das Klickern der Kette\".",
+          "Die meisten Adjektive sind bewusst gesetzt und tragen Atmosphäre (z. B. „Größe zweiundvierzig\", „mit dem Flicken am Schaft\"). Diese konkreten Details sollten bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Der Motor ist für den Notfall\", sagte sie.",
+          "„Du hättest anrufen können\", sagte sie.",
+          "„Die Fähre fährt in zehn Minuten wieder\", sagte sie."
+        ],
+        "suggestions": [
+          "Beim letzten Satz ist „sagte sie\" überflüssig, weil Ilse unmittelbar zuvor handelt: „Ilse bückte sich, nahm die Stiefel ... „Die Fähre fährt in zehn Minuten wieder. Wenn du mitwillst, zieh die an.\"\"",
+          "„Du hättest anrufen können\" ließe sich mit einer Handlung statt einer Inquit-Formel einleiten, etwa: „Ilse sah auf seine Schuhe. „Du hättest anrufen können.\"\"",
+          "Positiv: Viele Repliken („Und wenn Notfall ist?\", „Du hättest abgenommen?\") kommen ganz ohne Kennzeichnung aus. Das funktioniert gut."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Der Nebel hing noch tief über dem anderen Ufer.\"",
+          "„Man sah die Pappeln dort nur bis zur Hälfte\"",
+          "„oder vielleicht sah er nur anders aus\"",
+          "„Die Schuhe waren schon bis zur Naht dunkel vom Wasser.\"",
+          "„Jonas stand noch auf dem Anleger\""
+        ],
+        "suggestions": [
+          "„noch\", „schon\" und „dort\" prüfen und streichen, wo sie keine zeitliche Information tragen: „Die Schuhe waren bis zur Naht dunkel vom Wasser.\"",
+          "„oder vielleicht sah er nur anders aus\": Die Unsicherheit ist hier figurenpsychologisch gewollt. „vielleicht\" kann bleiben, „nur\" könnte entfallen.",
+          "„ein Stück zur Seite geschoben\" ist ausreichend konkret und kann bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Jonas trat einen Schritt zur Seite, weil ein Radfahrer mit seinem Rad über die Rampe schob, und der Koffer folgte ihm mit einem Rattern\"",
+          "„wenn er nasse Füße hatte und lieber den ganzen Weg heimlief\""
+        ],
+        "suggestions": [
+          "Den ersten Satz in eine klare Abfolge bringen: „Ein Radfahrer schob sein Rad über die Rampe. Jonas trat zur Seite. Der Koffer folgte ihm ratternd, zu laut über dem Wasser.\"",
+          "Ansonsten werden die Handlungen sauber nacheinander erzählt („hakte die Kette an der Rampe ein, prüfte sie mit dem Fuß\"). Das ist vorbildlich."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„in diesem Mantel, der nicht für Bohlen gemacht war\"",
+          "„als wären sie abgeschnitten\""
+        ],
+        "suggestions": [
+          "Beide Stellen sind Zustandspassiv bzw. Vergleich und stilistisch passend. Eine Änderung ist nicht nötig.",
+          "Alternativ aktiv: „in diesem Mantel, den niemand für Bohlen geschneidert hatte\". Das wäre allerdings umständlicher, deshalb empfiehlt sich die ursprüngliche Fassung."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Jonas trat einen Schritt zur Seite, weil ein Radfahrer mit seinem Rad über die Rampe schob, und der Koffer folgte ihm mit einem Rattern, das über das Wasser hinweg zu laut war.\"",
+          "„Das hatte er schon als Kind gekonnt, wenn er nasse Füße hatte und lieber den ganzen Weg heimlief, als zu sagen, dass es ihm unangenehm war.\"",
+          "„Das leise Klirren der Kette am Steuerhaus, das Henning nie hatte abstellen können und irgendwann nicht mehr hatte abstellen wollen.\""
+        ],
+        "suggestions": [
+          "Den Radfahrer-Satz in zwei oder drei Sätze aufteilen (siehe Gleichzeitigkeit).",
+          "Den Kindheitssatz straffen: „Das hatte er schon als Kind gekonnt. Lieber lief er mit nassen Füßen den ganzen Weg heim, als etwas zu sagen.\"",
+          "Der Henning-Satz ist lang, aber rhythmisch stark und emotional zentral. Er sollte bleiben."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Und wenn Notfall ist?\" / „Dann ist er kaputt. Das weiß ich dann ja.\"",
+          "„Du hättest anrufen können\" / „Du hättest abgenommen?\""
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, subtextreich und durch Handlung unterbrochen. Hier ist keine Straffung nötig.",
+          "Höchstens „Das weiß ich dann ja.\" könnte zu „Dann weiß ich's.\" verkürzt werden, wenn Ilse noch karger wirken soll."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Man sah die Pappeln dort nur bis zur Hälfte, als wären sie abgeschnitten.\"",
+          "„Ilse kannte jedes Geräusch, das dieses Zusammenspiel machte.\"",
+          "„Er bemerkte es nicht, oder er ließ es sich nicht anmerken.\"",
+          "„Ilse hatte nie überlegt, sie wegzustellen.\""
+        ],
+        "suggestions": [
+          "Die Pappeln direkt zeigen: „Die Pappeln am anderen Ufer endeten auf halber Höhe im Nebel, wie abgeschnitten.\"",
+          "„Ilse kannte jedes Geräusch\" ist ein Telling-Satz vor dem Showing. Er kann gestrichen werden, die Aufzählung der Geräusche wirkt dann direkter.",
+          "„Er bemerkte es nicht, oder er ließ es sich nicht anmerken\" ist als Ilses Deutung legitim und kann bleiben, da es ihre Perspektive auf den Sohn zeigt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„ein Radfahrer mit seinem Rad\"",
+          "„standen Hennings Gummistiefel. Sie standen dort seit drei Jahren\"",
+          "„Sie hatte nie überlegt ... Sie hatte sie auch nie angezogen. Sie hatte sie nur jeden Morgen\""
+        ],
+        "suggestions": [
+          "„ein Radfahrer mit seinem Rad\" ist redundant. Besser: „weil ein Radfahrer sein Rad über die Rampe schob\" oder „weil ein Mann sein Rad über die Rampe schob\".",
+          "Die Anapher „Sie hatte ... Sie hatte ... Sie hatte\" und die Doppelung „abstellen können / abstellen wollen\" sind bewusste Stilmittel und tragen die Trauer. Sie sollten bleiben.",
+          "„standen ... Sie standen\" ist als Betonung der Dauer vertretbar. Alternativ: „Seit drei Jahren schon, Größe zweiundvierzig, der linke mit dem Flicken am Schaft.\""
+        ]
+      }
+    }
+  },
+  "costUsd": 0.10414
+}

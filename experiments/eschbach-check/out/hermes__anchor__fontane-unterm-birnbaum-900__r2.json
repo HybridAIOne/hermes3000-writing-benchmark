@@ -1,0 +1,111 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-unterm-birnbaum-900",
+  "run": 2,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus und Materialwaarengeschäft von Abel Hradscheck..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr expositionsschwer. Beginnen Sie direkt mit der Handlung (dem Beladen des Wagens), statt den Ort so ausführlich vorab zu beschreiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "großen und reichen",
+          "magern Schimmeln",
+          "schläfrigen Hüh",
+          "sorglich vorgelegter Keil"
+        ],
+        "suggestions": [
+          "Viele Adjektive sind schmückendes Beiwerk. Prüfen Sie, ob stärkere Verben die Stimmung besser transportieren können."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "sagte zu dem eben vom Rad her auf die Deichsel steigenden Knecht",
+          "nickte nur statt aller Antwort"
+        ],
+        "suggestions": [
+          "Die Marker sind funktional. In einigen Fällen könnte man sie streichen, wenn aus dem Kontext klar ist, wer spricht."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["denn", "ja", "eben", "doch", "wohl"],
+        "suggestions": [
+          "Füllwörter wie 'denn' oder 'ja' schwächen die Aussagekraft. Streichen Sie diese, um den Text direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "während der nach dem Garten hinausführende Hinterflur ganz dem Geschäft gehörte"
+        ],
+        "suggestions": [
+          "Vermeiden Sie 'während'-Konstruktionen. Beschreiben Sie Handlungen oder Zustände nacheinander, um mehr Klarheit zu schaffen."
+        ]
+      },
+      "passive": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": ["wurden Säcke... geladen", "war... gewesen", "war... unterbrochen"],
+        "suggestions": [
+          "Der Text ist sehr passivlastig. Formulieren Sie aktiv um: 'Der Knecht lud die Säcke auf den Wagen' statt 'Säcke wurden geladen'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Der erste Absatz besteht fast ausschließlich aus einem einzigen, extrem verschachtelten Satz."
+        ],
+        "suggestions": [
+          "Brechen Sie die Sätze auf. Ein Punkt statt eines Kommas erhöht die Lesbarkeit und Spannung massiv."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["»Und nun vorwärts, Jakob, und grüße mir Ölmüller Quaas...«"],
+        "suggestions": [
+          "Die Dialoge sind in sich gut proportioniert. Hier besteht kaum Handlungsbedarf."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "sah man denn",
+          "Hradscheck sah dem Wagen nach",
+          "sah, daß seine Nachbarin... kuckte"
+        ],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'sah, dass'. Schreiben Sie direkt: 'Die Nachbarin kuckte über den Himbeerzaun' statt 'Er sah, dass sie kuckte'."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Die detaillierte Beschreibung des Flurs und der Anordnung der Waren wirkt redundant."
+        ],
+        "suggestions": [
+          "Fokussieren Sie sich auf die Details, die für die Szene oder den Charakter Hradscheck wirklich wichtig sind, und kürzen Sie die rein räumlichen Beschreibungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

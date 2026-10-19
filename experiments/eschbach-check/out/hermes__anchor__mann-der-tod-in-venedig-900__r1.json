@@ -1,0 +1,96 @@
+{
+  "who": "hermes",
+  "item": "anchor__mann-der-tod-in-venedig-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 4,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Gustav Aschenbach oder von Aschenbach, wie seit seinem fünfzigsten Geburtstag amtlich sein Name lautete..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr biografisch und statisch. Beginnen Sie direkt mit der Handlung (dem Spaziergang), um den Leser schneller in die Szene zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "gefahrdrohende Miene",
+          "schwierigen und gefährlichen",
+          "höchste Behutsamkeit",
+          "ersprießlichen Abend"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist extrem hoch. Streichen Sie schmückendes Beiwerk, das die Handlung nicht vorantreibt. Lassen Sie die Substantive und Verben für sich sprechen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher hier nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["wohl", "etwa", "vielleicht", "gewissermaßen"],
+        "suggestions": [
+          "Wörter wie 'wohl' oder 'etwa' schwächen die Aussagekraft. Streichen Sie diese, um den Text direkter und bestimmter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["während einiger Minuten", "als er... zurückkehrend... bemerkte"],
+        "suggestions": [
+          "Vermeiden Sie verschachtelte Gleichzeitigkeit. Beschreiben Sie Handlungen nacheinander, um die Dynamik zu erhöhen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["war... zu sehen", "ward... bewußt"],
+        "suggestions": [
+          "Formulieren Sie Passivkonstruktionen in aktive Sätze um (z.B. 'Man sah kein Fuhrwerk' statt 'war kein Fuhrwerk zu sehen')."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Überreizt von der schwierigen und gefährlichen, eben jetzt eine höchste Behutsamkeit, Umsicht, Eindringlichkeit und Genauigkeit des Willens erfordernden Arbeit der Vormittagsstunden..."
+        ],
+        "suggestions": [
+          "Die Sätze sind extrem verschachtelt und lang. Brechen Sie diese in kürzere, prägnantere Sätze auf, um die Lesbarkeit zu verbessern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": ["er sah, daß", "er bemerkte, daß", "ihm ward... bewußt"],
+        "suggestions": [
+          "Streichen Sie Filterwörter wie 'er sah, dass'. Beschreiben Sie das Wahrgenommene direkt aus der Perspektive des Protagonisten."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Die detaillierte, mehrfache Beschreibung des Fremden und seiner Kleidung."],
+        "suggestions": [
+          "Fassen Sie Beschreibungen zusammen. Wiederholungen in der Charakterisierung bremsen den Lesefluss."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

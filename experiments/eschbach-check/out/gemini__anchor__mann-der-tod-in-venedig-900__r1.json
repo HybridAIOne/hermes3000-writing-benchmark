@@ -1,0 +1,134 @@
+{
+  "who": "gemini",
+  "item": "anchor__mann-der-tod-in-venedig-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Gustav Aschenbach oder von Aschenbach [...] hatte [...] allein einen weiteren Spaziergang unternommen.",
+          "Beim Aumeister, wohin stillere und stillere Wege ihn geführt, hatte Aschenbach eine kleine Weile den volkstümlich belebten Wirtsgarten überblickt [...] und erwartete [...] am Nördlichen Friedhof die Tram"
+        ],
+        "suggestions": [
+          "Nach Eschbachs Methode beginnt die Szene viel zu früh mit seitenlanger Exposition im Plusquamperfekt.",
+          "Streichen Sie die Vorgeschichte des Spaziergangs und steigen Sie direkt in die konkrete Handlung ein: Aschenbach wartet an der Haltestelle am Nördlichen Friedhof und erblickt den Fremden."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Überreizt von der schwierigen und gefährlichen, eben jetzt eine höchste Behutsamkeit...",
+          "Mäßig hochgewachsen, mager, bartlos und auffallend stumpfnäsig, gehörte der Mann zum rothaarigen Typ und besaß dessen milchige und sommersprossige Haut.",
+          "...ein tropisches Sumpfgebiet unter dickdunstigem Himmel, feucht, üppig und ungesund...",
+          "...mit fettem, gequollenem und abenteuerlich blühendem Pflanzenwerk..."
+        ],
+        "suggestions": [
+          "Der Text ist extrem überladen mit Adjektiv- und Adverbketten. Reduzieren Sie diese drastisch.",
+          "Verlassen Sie sich auf starke Substantive und Verben, statt jedes Nomen mit zwei bis drei Attributen zu versehen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text enthält keine Dialoge, daher gibt es hier keine Mängel durch überflüssige Redebegleitsätze."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "eine kleine Weile",
+          "einige Droschken",
+          "während einiger Minuten",
+          "nicht ganz gewöhnliche Erscheinung",
+          "vielleicht trug sein...",
+          "Wohl möglich, daß...",
+          "sonst irgendein physischer...",
+          "eine Art schweifender Unruhe"
+        ],
+        "suggestions": [
+          "Streichen Sie unpräzise Angaben und Relativierungen wie 'einige', 'eine Art', 'nicht ganz' oder 'wohl möglich'.",
+          "Treffen Sie als Erzähler klare Aussagen, anstatt durch Wörter wie 'vielleicht' oder 'wie es schien' Unschärfe zu erzeugen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "...und der Wartende hatte während einiger Minuten eine ernste Zerstreuung darin gefunden [...], als er, aus seinen Träumereien zurückkehrend, [...] einen Mann bemerkte...",
+          "...blickten unbeweglich zur Seite, während durch ausgedehnte Schilffelder ein klapperndes Wetzen und Rauschen ging..."
+        ],
+        "suggestions": [
+          "Lösen Sie Konstruktionen mit 'hatte ... gefunden, als er bemerkte' auf. Beschreiben Sie die Handlungen strikt nacheinander: Er las die Inschriften. Dann kehrte er aus seinen Träumereien zurück und bemerkte den Mann."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "noch auf der Föhringer Chaussee war ein Fuhrwerk zu sehen",
+          "Ihre Stirnseite, mit griechischen Kreuzen [...] geschmückt",
+          "eine von Menschen gemiedene Urweltwildnis"
+        ],
+        "suggestions": [
+          "Obwohl echtes Passiv selten ist, wirken viele Zustandspassive und Partizipialkonstruktionen statisch. Formulieren Sie aktiver (z.B. 'Menschen mieden diese Urweltwildnis')."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 1,
+        "examples": [
+          "Überreizt von der schwierigen und gefährlichen, eben jetzt eine höchste Behutsamkeit, Umsicht, Eindringlichkeit und Genauigkeit des Willens erfordernden Arbeit der Vormittagsstunden, hatte der Schriftsteller dem Fortschwingen des produzierenden Triebwerks in seinem Innern, jenem »motus animi continuus«, worin nach Cicero das Wesen der Beredsamkeit besteht, auch nach der Mittagsmahlzeit nicht Einhalt zu tun vermocht und den entlastenden Schlummer nicht gefunden, der ihm, bei zunehmender Abnutzbarkeit seiner Kräfte, einmal untertags so nötig war.",
+          "Ihre Stirnseite, mit griechischen Kreuzen und hieratischen Schildereien in lichten Farben geschmückt, weist überdies symmetrisch angeordnete Inschriften in Goldlettern auf [...] dessen nicht ganz gewöhnliche Erscheinung seinen Gedanken eine völlig andere Richtung gab."
+        ],
+        "suggestions": [
+          "Die Sätze sind extrem verschachtelt und erstrecken sich teilweise über zehn bis fünfzehn Zeilen.",
+          "Teilen Sie diese Bandwurmsätze in kürzere, prägnante Hauptsätze auf. Entfernen Sie mehrfache Einschübe, Appositionen und Relativsätze."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher keine Längen in der Figurenrede."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "da er sich müde fühlte",
+          "als er [...] einen Mann bemerkte",
+          "plötzlich ward er gewahr, daß jener seinen Blick erwiderte",
+          "eine seltsame Ausweitung seines Innern ward ihm ganz überraschend bewußt",
+          "Er sah nämlich [...] eine ungeheuere Landschaft",
+          "glaubte er einen Augenblick die phosphoreszierenden Lichter des Tigers funkeln zu sehen",
+          "und fühlte sein Herz pochen"
+        ],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'er sah', 'er bemerkte', 'ward er gewahr', 'glaubte er zu sehen' oder 'fühlte er'.",
+          "Zeigen Sie das Erlebte direkt (Show, don't tell): Statt 'glaubte er die Lichter funkeln zu sehen' schreiben Sie direkt: 'Zwischen den Rohrstämmen funkelten die Augen des Tigers.' Statt 'fühlte sein Herz pochen': 'Sein Herz pochte.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "eine höchste Behutsamkeit, Umsicht, Eindringlichkeit und Genauigkeit des Willens",
+          "das Wandererhafte in der Erscheinung [...] Gepräge des Fremdländischen und Weitherkommenden",
+          "eine seltsame Ausweitung seines Innern [...], eine Art schweifender Unruhe, ein jugendlich durstiges Verlangen in die Ferne, ein Gefühl, so lebhaft, so neu oder doch so längst entwöhnt und verlernt [...] Es war Reiselust"
+        ],
+        "suggestions": [
+          "Der Text neigt massiv zu Synonym-Häufungen und dreifachen Umschreibungen desselben Sachverhalts (z.B. wird das Gefühl der Reiselust viermal hintereinander anders definiert).",
+          "Entscheiden Sie sich für den einen, treffendsten Ausdruck und streichen Sie die restlichen Variationen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.024766
+}

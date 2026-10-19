@@ -1,0 +1,121 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["**Zwei Männer, ein Tisch. Draußen regnet es.**", "MARKUS: Du bist gekommen."],
+        "suggestions": [
+          "Der Einstieg setzt spät und effizient ein: Die Ankunft, die Begrüßung und die Vorgeschichte werden übersprungen, die Spannung steht ab dem ersten Satz.",
+          "Optional könnte die Szene noch später mit „Ich kann nicht lange.“ beginnen. Dann fehlt allerdings der starke Auftakt aus Spiegelsätzen („Du bist gekommen.“ / „Du hast angerufen.“). Der jetzige Einstieg ist deshalb vorzuziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "*(setzt sich langsam)*",
+          "Der Kaffee ist wirklich schlecht geworden.",
+          "*(lächelt kurz, dann nicht mehr)*",
+          "obwohl der Kaffee längst kalt ist"
+        ],
+        "suggestions": [
+          "„setzt sich langsam“ lässt sich durch eine präzisere Handlung ersetzen, z. B. „zieht den Stuhl ein Stück zurück, setzt sich“. So zeigt die Regieanweisung das Zögern, statt es zu benennen.",
+          "„wirklich“ in Jonas’ Satz passt zur Figur, weil es seine Ausrede bekräftigt. Ein Streichen würde die Zeile allerdings trockener und lakonischer machen. Beides ist vertretbar.",
+          "„lächelt kurz, dann nicht mehr“ ist ein gelungener Einsatz des Adverbs. Beibehalten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["MARKUS: Ich frage nicht.", "JONAS: Doch."],
+        "suggestions": [
+          "Das Dramenformat kommt ohne Redeeinleitungen aus. Die Regieanweisungen tragen Handlung und Subtext, statt nur den Sprecher zu markieren. Kein Änderungsbedarf."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Setz dich doch.",
+          "Sie fragt manchmal nach dir.",
+          "Du hast viele geschrieben. / Drei.",
+          "Es fühlten sich nach mehr an."
+        ],
+        "suggestions": [
+          "Die unpräzisen Wörter sind bewusst gesetzt: „manchmal“ wird von Markus aufgegriffen, und „viele“ wird durch das präzise „Drei“ konterkariert. Dieser Kontrast ist eine Stärke des Textes.",
+          "Das „doch“ in „Setz dich doch“ kann bleiben, weil es Markus’ angestrengte Beiläufigkeit zeigt.",
+          "Korrektur nötig: „Es fühlten sich nach mehr an“ muss „Es fühlte sich nach mehr an“ heißen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "*(steht auf, nimmt seine Jacke)*",
+          "*(Er geht. Markus rührt weiter, obwohl der Kaffee längst kalt ist.)*"
+        ],
+        "suggestions": [
+          "Die Handlungen folgen konsequent nacheinander, „während“-Konstruktionen fehlen.",
+          "In der Schlussanweisung könnte man den Nebensatz auflösen: „Er geht. Markus rührt weiter. Der Kaffee ist längst kalt.“ Das wäre noch klarer im Rhythmus."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text enthält keine Passivkonstruktionen. Alle Sätze sind aktiv und figurengebunden."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Weißt du noch, der Sommer am See? Du hast gesagt, egal was kommt—"],
+        "suggestions": [
+          "Die Sätze sind durchweg kurz, der Text ist nirgends verschachtelt. Der längste Satz bricht wirkungsvoll ab. Kein Änderungsbedarf."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "MARKUS: Gewohnheit. *(rührt in seiner Tasse)* Wie geht's deiner Mutter?",
+          "JONAS: Der Laden läuft. Falls du dich fragst."
+        ],
+        "suggestions": [
+          "Der Dialog ist äußerst straff. Jede Replik ist kurz und trägt Subtext, kein Redebeitrag ist überflüssig.",
+          "Allenfalls ließe sich prüfen, ob die Mutter-Passage und die Laden-Passage beide nötig sind. Sie erfüllen ähnliche Funktionen, denn beide zeigen das Ausweichen auf Nebenthemen. Sie sind jedoch kurz genug, um zu bleiben."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["obwohl der Kaffee längst kalt ist"],
+        "suggestions": [
+          "Gefilterte Wahrnehmung wie „er sah, dass“ kommt nicht vor.",
+          "Einzig die Schlussanweisung behauptet etwas, das das Publikum auf der Bühne nicht wahrnehmen kann (der Kaffee ist kalt). Sichtbarer wäre z. B.: „Markus rührt weiter. Er trinkt nicht.“ oder „Kein Dampf mehr über der Tasse.“"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Kaffee hier war immer schlecht. / Der Kaffee ist wirklich schlecht geworden.",
+          "Gewohnheit. / Gewohnheit.",
+          "Manchmal. / Manchmal.",
+          "Ich weiß, was ich gesagt habe. / Dann weißt du auch … / Ich weiß."
+        ],
+        "suggestions": [
+          "Die Wiederholungen sind fast alle gezielte Echos und Motive. Sie zeigen das Aufgreifen und Zurückspielen zwischen den Figuren und sind eine Stärke des Textes.",
+          "Das Kaffee-Motiv erscheint vier- bis fünfmal (Dialog und Regieanweisungen). Es lohnt sich zu prüfen, ob eine der Erwähnungen, etwa „rührt in seiner Tasse“, entfallen kann, damit das Schlussbild stärker wirkt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.080744
+}

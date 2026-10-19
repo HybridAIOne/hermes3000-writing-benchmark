@@ -1,0 +1,105 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__kimi-k3__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 10,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ein kleines Café am Stadtrand. Herbst. Zwei Tische am Fenster, einer ist frei. Jonas steht, als Miriam eintritt."
+        ],
+        "suggestions": [
+          "Perfekter Einstieg 'in medias res'. Keine langatmige Vorgeschichte, kein Warten vor dem Treffen. Die Szene beginnt exakt im Moment der Konfrontation."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein kleines Café", "leises Lachen", "Langes Schweigen", "(leise)"],
+        "suggestions": [
+          "Der Einsatz von Adjektiven ist extrem sparsam und effektiv. In einem Prosatext könnte man 'leises Lachen' durch 'hauchte ein Lachen' oder Ähnliches ersetzen, für ein Skript/Drehbuch ist diese Präzision jedoch absolut passend."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["JONAS: Du bist gekommen.", "MIRIAM: Du hast geschrieben."],
+        "suggestions": [
+          "Durch das gewählte Dramen-/Drehbuchformat entfallen klassische Inquit-Formeln ('sagte er') komplett. Sollte der Text in Prosa umgewandelt werden, bräuchte dieser Schlagabtausch ebenfalls fast keine Redebegleitsätze, da der Sprecherwechsel völlig klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Setz dich doch.", "Noch einen Kaffee vielleicht."],
+        "suggestions": [
+          "In den Regieanweisungen gibt es keinerlei Füllwörter. In den Dialogen werden Wörter wie 'doch' und 'vielleicht' völlig organisch genutzt, um die Unsicherheit der Figuren zu zeigen. Exzellent."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Jonas steht, als Miriam eintritt.", "Beide bestellen gleichzeitig."],
+        "suggestions": [
+          "Die Gleichzeitigkeit beim Bestellen ist hier ein wichtiger inhaltlicher Punkt (zeigt ihre Verbundenheit) und kein stilistischer Fehler. 'Jonas steht, als Miriam eintritt' könnte man noch schärfer nacheinander formulieren: 'Miriam tritt ein. Jonas steht bereits.', aber das ist Kritik auf höchstem Niveau."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Jonas dreht den Zuckerstreuer in den Fingern.",
+          "Miriam greift nach ihrem Mantel..."
+        ],
+        "suggestions": [
+          "Der gesamte Text ist im Aktiv geschrieben. Jede Handlung ist klar einem Akteur zugeordnet."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Kaffee kommt. Keiner trinkt.",
+          "Draußen fängt es an zu regnen. Beide schauen hinaus. Keiner geht."
+        ],
+        "suggestions": [
+          "Die Sätze sind kurz, prägnant und rhythmisch perfekt auf die unterkühlte, angespannte Atmosphäre abgestimmt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["MIRIAM: Es regnet. / JONAS: Es regnet nicht. / MIRIAM: Es wird regnen."],
+        "suggestions": [
+          "Meisterhafter Einsatz von kurzen Dialogen, die vor Subtext nur so strotzen. Keine Zeile ist zu lang, kein Wort zu viel."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie bleibt in der Tür stehen.",
+          "Jonas dreht den Zuckerstreuer in den Fingern."
+        ],
+        "suggestions": [
+          "Reines 'Show, don't tell'. Gefühle wie Nervosität oder Zögern werden ausschließlich über sichtbare Handlungen (Mantel anbehalten, Zuckerstreuer drehen) vermittelt. Keine indirekte Wahrnehmung vorhanden."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie wohnt noch am selben Ort. Wir wohnen alle noch am selben Ort, Miriam.",
+          "JONAS: Bist du glücklich? Da, wo du jetzt bist? / MIRIAM: Bist du es? Hier, wo du geblieben bist?"
+        ],
+        "suggestions": [
+          "Es gibt keine unabsichtlichen Wortwiederholungen. Alle Dopplungen (Kaffee, vier Uhr, Ort, regnen) sind bewusste rhetorische Stilmittel, die dem Text eine fast poetische Dichte verleihen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01531
+}

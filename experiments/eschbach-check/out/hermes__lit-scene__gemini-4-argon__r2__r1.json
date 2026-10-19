@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gemini-4-argon__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel griff erst beim dritten Versuch."],
+        "suggestions": ["Der Einstieg ist sehr gelungen und setzt direkt bei der Handlung ein."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["milchigen Scheiben", "graue Novemberlicht"],
+        "suggestions": [
+          "Die Adjektive sind atmosphärisch und passend gewählt, sie stützen das Bild, anstatt es zu überladen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["schließlich", "noch immer"],
+        "suggestions": [
+          "Wörter wie 'schließlich' können oft gestrichen werden, um die Handlung direkter wirken zu lassen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Als die Tür schließlich nachgab...",
+          "als atmete das Haus...",
+          "als sie die Seife dicht unter ihre Nase hielt..."
+        ],
+        "suggestions": [
+          "Die Häufung von 'als'-Konstruktionen wirkt repetitiv. Versuchen Sie, Handlungen öfter durch Punkte zu trennen oder durch Partizipialgruppen zu variieren."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Nichts war verändert worden"],
+        "suggestions": ["Ändern in: 'Nichts hatte sich verändert.' (Aktiv ist lebendiger)."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind gut rhythmisiert und unterstützen die Stimmung."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["als sie die Seife dicht unter ihre Nase hielt, roch sie es"],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'roch sie'. Schreiben Sie stattdessen direkt: 'Der Geruch stieg ihr in die Nase: eine stechende Note...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Es war nicht die Seife für das Geschirr. Es war die, mit der ihre Mutter..."],
+        "suggestions": [
+          "Die Satzstruktur 'Es war... Es war...' wirkt etwas hölzern. Man könnte es zu einem Satz zusammenziehen: 'Es war nicht die Seife für das Geschirr, sondern die, mit der...'"
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

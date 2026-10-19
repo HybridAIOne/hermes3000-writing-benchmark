@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-sonnet-5.5__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Thomas sitzt schon am Tisch, als Jan hereinkommt."],
+        "suggestions": [
+          "Der Einstieg ist sehr effizient. Falls es sich um einen Roman handelt, könnte man die Ortsangabe 'Bahnhofscafé, Nachmittag' noch organischer in den ersten Satz integrieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["schon", "langsam"],
+        "suggestions": [
+          "Das Wort 'schon' im ersten Satz könnte gestrichen werden, um den Einstieg noch direkter zu gestalten: 'Thomas sitzt am Tisch, als Jan hereinkommt.'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["JAN: Du bist früh.", "THOMAS: Ich war in der Gegend."],
+        "suggestions": [
+          "Die Redeeinleitungen sind komplett weggelassen, was den Fokus voll auf den Subtext legt. Sehr gut gelöst."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["schon", "vielleicht"],
+        "suggestions": [
+          "Der Text ist sehr frei von Füllwörtern. Die vorhandenen Wörter dienen der Rhythmisierung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als Jan hereinkommt"],
+        "suggestions": [
+          "Die Verwendung von 'als' ist hier korrekt und nicht überladen. Keine Änderung nötig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Jan hängt die Jacke über die Stuhllehne", "Draußen fährt ein Zug ein"],
+        "suggestions": [
+          "Keine Passivkonstruktionen gefunden. Die aktive Sprache erzeugt eine gute Dynamik."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ich kann nicht lange.", "Natürlich nicht."],
+        "suggestions": [
+          "Die kurzen Sätze unterstreichen die Anspannung und das Schweigen zwischen den Charakteren perfekt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["JAN: Du bist früh. THOMAS: Ich war in der Gegend."],
+        "suggestions": [
+          "Der Dialog ist prägnant und auf den Punkt gebracht. Keine Straffung notwendig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Jan sieht aus dem Fenster."],
+        "suggestions": ["Die Wahrnehmung wird direkt durch Handlungen dargestellt. Vorbildlich."]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Nur den Kaffee. / Nur den Kaffee."],
+        "suggestions": [
+          "Die Wiederholungen wirken hier stilistisch beabsichtigt und verstärken die Atmosphäre. Keine inhaltlichen Doppelungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

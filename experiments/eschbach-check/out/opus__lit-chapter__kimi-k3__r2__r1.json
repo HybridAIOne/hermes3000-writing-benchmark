@@ -1,0 +1,155 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Der Nebel lag so tief auf der Elbe, dass Ilse das andere Ufer nur ahnte.",
+          "Sie stellte den Dieselmotor an, und das vertraute Ruckeln ging durch das Stahldeck in ihre Stiefel …",
+          "Der eigentliche Konflikt (Anruf aus München, Jonas) setzt erst im letzten Viertel ein."
+        ],
+        "suggestions": [
+          "Der atmosphärische Einstieg funktioniert und etabliert Ilses Routine. Bei Bedarf an mehr Spannung könnte die Szene beim Einsteigen von Drews beginnen; Nebel und Motor lassen sich dort einflechten.",
+          "Alternativ ein kurzer Vorausverweis auf den Anruf oder auf Jonas im ersten Drittel, damit der Leser eine Erwartung mitnimmt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "das vertraute Ruckeln",
+          "Pommerening grinste zahnlückig.",
+          "Die Frau lachte kurz, unsicher",
+          "Das alte Festnetzgerät, schwarz, mit Schnur"
+        ],
+        "suggestions": [
+          "'vertraute' ist entbehrlich, denn der Vergleich mit dem 'alten Bekannten' leistet dasselbe.",
+          "'lachte kurz, unsicher' könnte durch ein präziseres Verb ersetzt werden, etwa 'Die Frau lachte auf und brach ab.'",
+          "Die meisten Adjektive (schwarzgrün, zahnlückig) sind konkret und gut gewählt und sollten bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "»Na«, sagte sie.",
+          "»Kein Empfang«, sagte sie.",
+          "»Auf dem Wasser nie«, sagte Ilse.",
+          "»November«, sagte Ilse."
+        ],
+        "suggestions": [
+          "Im Zweiergespräch ergibt sich der Sprecher aus dem Wechsel. '»Na«, sagte sie.' kann zu '»Na.«' werden.",
+          "'»Kein Empfang«, sagte sie.' ist überflüssig, da die Frau unmittelbar zuvor das Handy hochhält. Die Handlung kennzeichnet den Sprecher bereits.",
+          "Bei '»Auf dem Wasser nie«, sagte Ilse.' genügt der Sprecherwechsel. Der Inquit kann entfallen oder durch eine Geste ersetzt werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "irgendwo da draußen im Grau",
+          "Man sah fast nichts.",
+          "hielt die Strömung die Fähre einen Moment fester",
+          "das Henning irgendwann hatte anschließen lassen",
+          "wie vor etwas, das man erst einmal besichtigen musste"
+        ],
+        "suggestions": [
+          "'irgendwann' durch einen konkreten Zeitpunkt ersetzen ('das Henning vor zehn Jahren hatte anschließen lassen'). Das charakterisiert zugleich die Figur Henning.",
+          "'erst einmal' streichen: 'wie vor etwas, das man besichtigen musste, bevor man sich entschied.'",
+          "Ansonsten werden Zahlen erfreulich präzise genutzt (vierzig Meter, zwölf Meter, vier Minuten, zweieinhalb Euro)."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "die Kette quietschte, als sie sie löste",
+          "»Scheißwetter«, sagte er heute, durchs offene Fenster, und streckte ihr zwei Fünfziger entgegen."
+        ],
+        "suggestions": [
+          "Gleichzeitigkeitskonstruktionen sind selten. Handlungen werden überwiegend in klarer Abfolge erzählt, etwa 'schaute ins Wasser, dann in den Nebel, dann auf ihre Uhr'.",
+          "'als sie sie löste' kann zur Abfolge werden: 'Sie löste die Kette. Sie quietschte.' Das beseitigt zugleich das holprige 'sie sie'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "gezogen am Stahlseil, das seit einem Jahrhundert quer über den Fluss gespannt war",
+          "zwölf Meter, hatte man ihr einmal gesagt"
+        ],
+        "suggestions": [
+          "Passiv kommt kaum vor. Das Zustandspassiv beim Seil ist hier angemessen, weil der Zustand wichtiger ist als der Urheber.",
+          "Optional aktiver: 'am Stahlseil, das seit hundert Jahren über dem Fluss hing'."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Pommerening schob sein Rad hinterher und rief noch ein »Bleib mir schön trocken, Ilse« in den Nebel, was keinen Sinn ergab und sie trotzdem auf die Weise berührte, wie alte Leute einen berührten, wenn sie einem etwas Gutes wünschten, das längst unmöglich war.",
+          "Ilse ließ die Kette sinken, löschte die Lampe an der Rampe, obwohl es Vorschrift war, sie brennen zu lassen, solange der Nebel nicht unter hundert Meter Sicht ließ.",
+          "Unter dem Rumpf schob sich der Fluss seines Weges, unbeeindruckt vom Seil, von der Fähre, von den Menschen, die ihn überqueren wollten, als wäre das selbstverständlich.",
+          "Ilse wandte sich ab und schaute auf das Seil, das aus dem Wasser stieg und über die Rolle lief, glänzend vor Nässe, Glied für Glied, und dachte an nichts, was es wert gewesen wäre, es später zu erzählen."
+        ],
+        "suggestions": [
+          "Den Pommerening-Satz teilen: '… rief noch ›Bleib mir schön trocken, Ilse‹ in den Nebel. Das ergab keinen Sinn. Es berührte sie trotzdem, so wie alte Leute einen berühren, wenn sie einem etwas wünschen, das längst unmöglich ist.'",
+          "Den Lampen-Satz entwirren, denn die Logik der Vorschrift ist schwer nachvollziehbar: 'Sie löschte die Lampe an der Rampe. Bei weniger als hundert Metern Sicht schrieb die Vorschrift vor, sie brennen zu lassen.'",
+          "Beim Fluss-Satz ist der Bezug von 'als wäre das selbstverständlich' unklar. Kürzen oder präzisieren: 'als wäre es selbstverständlich, dass man ihn überquert'.",
+          "'Seines Weges schieben' ist eine missglückte Wendung. Besser: 'zog seines Weges' oder 'schob sich weiter'.",
+          "Der Rhythmus aus langen und ganz kurzen Sätzen ('München.', 'Halb sieben.') ist eine Stärke. Die langen Sätze sollten aber sparsamer eingesetzt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "»Und dazwischen?« – Ilse sah sie an. »Bin ich.«",
+          "»Scheißwetter« – »November«"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, pointiert und charakterisieren Ilse durch ihre Wortkargheit. Hier ist keine Straffung nötig.",
+          "Allenfalls '»Ach so.« … »Ich dachte, da ist eine Brücke. Das Navi hat mich hierher geschickt.«' ließe sich auf einen Satz verkürzen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse kannte die Stelle.",
+          "Sie klang, als wolle sie das sichergehen",
+          "und dachte an nichts, was es wert gewesen wäre, es später zu erzählen",
+          "Man sah es nicht. Man sah fast nichts."
+        ],
+        "suggestions": [
+          "Die Wahrnehmung wird überwiegend direkt und körperlich vermittelt, etwa das Ruckeln in den Stiefeln oder die Kälte von unten. Das ist sehr gut.",
+          "'Sie klang, als wolle sie das sichergehen' ist grammatisch fehlerhaft und indirekt. Besser: 'Als könnte eine Fähre mitten im Nirgendwo auch woandershin fahren.'",
+          "'Man sah es nicht' kann entfallen. 'Man sah fast nichts' trägt die Aussage allein."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Häufung von Vergleichen mit 'als hätte/als wäre/wie etwas, das': 'als hätte sie ihm etwas ausführlich dargelegt', 'als hätte der Fluss etwas überlegt', 'als wäre das selbstverständlich', 'wie etwas, das man fast vergessen hatte', 'wie vor etwas, das man erst einmal besichtigen musste', 'als wüsste sie nicht'",
+          "Die Kälte 'durch das Stahldeck, durch die Sohlen' wiederholt das Bild aus dem ersten Absatz ('durch das Stahldeck in ihre Stiefel').",
+          "'Nebel' erscheint sehr häufig, teils in aufeinanderfolgenden Absätzen.",
+          "'Man sah es nicht. Man sah fast nichts.'"
+        ],
+        "suggestions": [
+          "Die 'als hätte'-Vergleiche auf die drei stärksten reduzieren, etwa den Fluss, der etwas überlegt und verwirft, und die zu klein gegossene Schiffsglocke. Die übrigen streichen oder durch Handlung ersetzen.",
+          "'wie etwas, das …' tritt zweimal fast gleich auf (Rampe, Telefon). Eine der beiden Formulierungen variieren.",
+          "Das Kälte-Bild nur einmal ausführen oder im zweiten Fall bewusst steigern statt wiederholen.",
+          "'Nebel' gelegentlich durch 'Grau', 'Dunst' oder indirekte Beschreibung ersetzen.",
+          "Bewusste Wiederholungen ('zwei Fünfziger', 'vier Minuten', 'rührte sich nicht') sind als Leitmotive wirkungsvoll und sollten bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.134996
+}

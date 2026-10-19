@@ -1,0 +1,100 @@
+{
+  "who": "hermes",
+  "item": "anchor__musil-die-verwirrungen-des-zoeglings-toerless-900",
+  "run": 3,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Eine kleine Station an der Strecke, welche nach Rußland führt."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und etabliert den Ort gut. Er könnte noch etwas unmittelbarer wirken, wenn man direkt mit einer Handlung beginnt, statt nur zu beschreiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "niederen, ölgestrichenen Stationsgebäude",
+          "traurig mit verdursteten, von Staub und Ruß erdrosselten Blättern"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist sehr hoch. Versuchen Sie, durch stärkere Verben oder Substantive die Stimmung zu erzeugen, statt sie durch Adjektive zu 'behaupten'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Es gibt kaum Dialoge, daher ist dieser Punkt hier nicht kritisch. Die wenigen vorhandenen Stellen sind unauffällig."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["vielleicht", "wohl", "etwas"],
+        "suggestions": [
+          "Wörter wie 'vielleicht' oder 'wohl' schwächen die Aussage ab. Streichen Sie diese, um den Text direkter und selbstbewusster zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["...trat der Bahnhofsvorstand aus seinem Amtszimmer heraus, sah..."],
+        "suggestions": [
+          "Die Handlungsabfolgen sind logisch. Achten Sie darauf, komplexe gleichzeitige Abläufe in klare Einzelschritte zu zerlegen, falls der Lesefluss stockt."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["errichtet worden war", "geboten hatte"],
+        "suggestions": [
+          "Wandeln Sie Passivkonstruktionen in aktive Sätze um, um mehr Dynamik zu erzeugen (z.B. 'man hatte es errichtet' statt 'es war errichtet worden')."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Denn der »Gegenstand dieser Sehnsucht«, das Bild seiner Eltern, war darin eigentlich gar nicht mehr enthalten... (sehr langer Satz mit vielen Einschüben)"
+        ],
+        "suggestions": [
+          "Die Sätze sind extrem verschachtelt und lang. Teilen Sie diese in kürzere, prägnantere Sätze auf, um die Lesbarkeit und Spannung zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher kein Problem mit der Länge."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Er sah alles nur wie durch einen Schleier hindurch",
+          "Er hielt es für Heimweh"
+        ],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'er sah', 'er hielt es für'. Zeigen Sie das Erleben direkt: Statt 'er sah alles wie durch einen Schleier', beschreiben Sie die verschwommene Wahrnehmung direkt."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "traurige Farben... traurige Augen",
+          "gleichgültig... gleichgültige Stationen... kalt und gleichgültig"
+        ],
+        "suggestions": [
+          "Einige Begriffe werden mehrfach verwendet. Suchen Sie nach Synonymen oder streichen Sie redundante Beschreibungen, um den Text zu straffen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

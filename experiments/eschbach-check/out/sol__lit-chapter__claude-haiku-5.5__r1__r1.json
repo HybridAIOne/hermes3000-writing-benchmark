@@ -1,0 +1,146 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Der Nebel lag am Morgen so dicht auf dem Fluss, dass Ilse Brandt das andere Ufer nicht sehen konnte.",
+          "Wessel hatte den Hof auf der Wendseite, und er fuhr jeden Dienstag hinüber zum Viehmarkt, auch jetzt noch, obwohl die Milchkühe längst verkauft waren.",
+          "In der Innentasche ihrer Jacke vibrierte etwas."
+        ],
+        "suggestions": [
+          "Der Einstieg etabliert Atmosphäre und Ilses Routine überzeugend; der erkennbare Konflikt setzt jedoch erst mit Jonas’ Anruf ein. Die Passagierporträts und Rückblicke davor lassen sich kürzen.",
+          "Alternativ mit dem ersten Vibrieren beginnen und Nebel, Fährbetrieb und Fahrgäste aus Ilses Reaktion heraus einführen. Falls die ruhige Exposition bewusst den späteren Einbruch vorbereitet, zumindest Jonas früher andeuten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "einem struppigen Mischling",
+          "ein mattes Licht, das keine Farben hatte",
+          "Der Hund winselte leise.",
+          "ein gleichmäßiges Summen"
+        ],
+        "suggestions": [
+          "Konkrete, bildtragende Attribute wie „struppigen“ und „roten“ erhalten; sie machen die Szene anschaulich.",
+          "„Leise“ beim Winseln probeweise streichen. Bei „mattes Licht, das keine Farben hatte“ prüfen, ob die Farblosigkeit allein das gewünschte Bild trägt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Kalt heute“, sagte er, ohne sich umzudrehen.",
+          "„November“, sagte Ilse.",
+          "Die Frau am Heck hob den Kopf. „Ist das die Strecke nach Neu Darchau?“"
+        ],
+        "suggestions": [
+          "Die überwiegend unauffälligen Redekennzeichnungen beibehalten.",
+          "Bei „November“ kann „sagte Ilse“ entfallen, sofern aus dem unmittelbaren Wechsel eindeutig bleibt, dass sie antwortet. Die Einführung der Frauenrede über eine Handlung funktioniert bereits gut."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Um kurz nach sieben stand die Sonne irgendwo hinter der Wolkendecke",
+          "Sie gehörte wohl zu den Leuten",
+          "das nie benutzt zu werden schien",
+          "Drüben, irgendwo im Grau, musste das Ufer liegen."
+        ],
+        "suggestions": [
+          "„Wohl“ und „schien“ markieren hier sinnvoll Ilses begrenztes Wissen; nicht pauschal streichen.",
+          "Die doppelte Verwendung von „irgendwo“ prüfen. Beim Sonnenstand kann das Wort entfallen, während es beim unsichtbaren Ufer die Orientierungslosigkeit unterstützt."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Seilrolle über ihr knarrte, als sie den Hebel umlegte",
+          "Hahn sah sie an, dann die Zigarette.",
+          "Die Frau am Heck schaute auf, dann wieder weg."
+        ],
+        "suggestions": [
+          "Kein auffälliger Übergebrauch von Gleichzeitigkeitskonstruktionen. Die Abfolge der Blicke und Reaktionen ist klar.",
+          "Für einen markanteren Ablegemoment wäre möglich: „Sie legte den Hebel um. Über ihr knarrte die Seilrolle.“ Die bestehende Verknüpfung ist jedoch ebenfalls plausibel."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "obwohl die Milchkühe längst verkauft waren",
+          "weil die Brücke in Dannenberg gesperrt war",
+          "das nie benutzt zu werden schien"
+        ],
+        "suggestions": [
+          "Die Zustandsformulierungen zu Kühen und Brücke sind funktional, weil Ergebnis beziehungsweise Verkehrslage wichtiger sind als die Handelnden.",
+          "Das umständlichere „das nie benutzt zu werden schien“ lässt sich perspektivisch konkreter formulieren: „Ilse hatte noch niemanden mit dem Lastenrad fahren sehen.“ Nur ändern, wenn diese Beobachtung tatsächlich gemeint ist."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Er hatte seinen Transporter auf der Hitzacker-Seite stehen lassen, weil die Brücke in Dannenberg gesperrt war, wie er es jedem erzählte, der nicht danach fragte.",
+          "Sie spürte das Gewicht des Schiffs, die drei Menschen darauf, die sie nicht kannte, bis auf Wessel und Hahn, und die sie trotzdem durch den Nebel brachte, Meter für Meter, wie jeden Morgen."
+        ],
+        "suggestions": [
+          "Hahns Vorstellung bei Bedarf teilen: „Sein Transporter stand auf der Hitzacker-Seite. Die Brücke in Dannenberg war gesperrt; das erzählte er jedem, der nicht danach fragte.“",
+          "Den Satz über die Fahrgäste entflechten und den nachgeschobenen Widerspruch beseitigen: „Drei Fahrgäste waren an Bord. Nur die Frau kannte sie nicht. Sie brachte sie durch den Nebel, Meter für Meter, wie jeden Morgen.“",
+          "Nicht alle längeren Sätze kürzen: Der Wechsel zwischen fließenden Beschreibungen und kurzen Spannungssätzen trägt den Rhythmus."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Kalt heute“, sagte er, ohne sich umzudrehen.",
+          "„Entschuldige. Gewohnheit.“",
+          "„Sie fahren nicht falsch.“"
+        ],
+        "suggestions": [
+          "Die knappen Dialoge beibehalten. Sie charakterisieren die Figuren, ohne die Szene durch Erklärungen aufzuhalten.",
+          "Den Austausch über das Fahrtziel nur dann weiter straffen, wenn er weder die Unsicherheit der Fremden noch Ilses knappe Art für den weiteren Verlauf benötigt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Sie hörte das Wasser gegen die Pontons schlagen und roch den Schlick, der bei Niedrigwasser aufstieg.",
+          "Sie wusste, wann der Hebel klemmte und wann die Bremse zu spät griff.",
+          "Sie zog das Handy heraus und sah auf das Display. Ein Name stand dort"
+        ],
+        "suggestions": [
+          "Sinneseindrücke teilweise unmittelbar darstellen: „Wasser schlug gegen die Pontons. Vom Niedrigwasser stieg Schlickgeruch auf.“",
+          "Beim Handy genügt beispielsweise: „Sie zog das Handy heraus. Auf dem Display stand Jonas.“ Die zusätzliche Erklärung zur eingestellten Schrift nur behalten, wenn sie die Beziehung vertieft.",
+          "Nicht jedes „sie wusste“ entfernen: Ilses Erfahrungswissen ist charakterisierend. Eine gezielte Aussage wirkt jedoch stärker als die Häufung mehrerer Wissensformeln."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie wusste, dass es da war.",
+          "Sie kannte jeden Ton dieser Fähre. Sie wusste, wann der Hebel klemmte und wann die Bremse zu spät griff.",
+          "Drüben, irgendwo im Grau, musste das Ufer liegen.",
+          "Dann vibrierte es wieder."
+        ],
+        "suggestions": [
+          "Die Hinweise auf Ilses langjährige Routine bündeln: Die dreiundzwanzig Jahre, der vertraute Ruck und ihr Wissen über Hebel, Bremse und Jahreszeiten erfüllen teilweise dieselbe Funktion.",
+          "Die Wiederkehr des unsichtbaren Ufers als Rahmenmotiv erhalten, aber dazwischen ähnliche Nebel- und Graubeschreibungen reduzieren.",
+          "Das erneute Vibrieren unbedingt als gezielte Wiederholung behandeln: Es steigert den Druck und bildet einen wirkungsvollen Schluss."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.023488
+}

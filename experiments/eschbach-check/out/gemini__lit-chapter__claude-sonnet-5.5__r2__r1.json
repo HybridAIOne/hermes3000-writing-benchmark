@@ -1,0 +1,121 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass man das andere Ufer nur wusste. Ilse Brandt stand im Steuerhaus der Fähre..."
+        ],
+        "suggestions": [
+          "Exzellenter Einstieg mitten in der Atmosphäre und am Handlungsort. Keine unnötige Vorgeschichte (wie das Aufstehen oder der Weg zur Arbeit). Genauso belassen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie kam mit schnellen Schritten über den Kies",
+          "Die Frau lachte kurz, es klang verlegen.",
+          "streckte vorsichtig die Hand aus"
+        ],
+        "suggestions": [
+          "Der Einsatz von Adjektiven ist bereits sehr präzise und atmosphärisch ('perlenbesetzt', 'wütendes Zittern'). Kleinigkeiten könnten noch durch stärkere Verben ersetzt werden, z.B. 'Sie eilte über den Kies' statt 'kam mit schnellen Schritten'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Danke“, sagte er.",
+          "„Hab nicht gewartet“, sagte Ilse.",
+          "„Nein“, sagte Ilse."
+        ],
+        "suggestions": [
+          "Die Dialogführung ist hervorragend und nutzt meist Action-Beats statt Redebegleitsätzen. An ein bis zwei Stellen (z.B. beim Jungen: '„Danke“, sagte er.') könnte das 'sagte er/sie' noch komplett gestrichen werden, da der Sprecher eindeutig ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Es war ein Junge, vielleicht fünfzehn",
+          "in München saß er jetzt vermutlich schon im Büro",
+          "Sie wusste es einfach."
+        ],
+        "suggestions": [
+          "Wörter wie 'vielleicht' und 'vermutlich' sind hier keine Schwäche, sondern spiegeln organisch Ilses personale Perspektive wider. Lediglich das 'einfach' in 'Sie wusste es einfach' könnte ersatzlos gestrichen werden, um den Satz noch trockener (passend zu Ilse) zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ilse hatte schon die Hand am Hebel, als sie auf dem Deich ein Licht schwanken sah"
+        ],
+        "suggestions": [
+          "Keine falsche oder bemühte Gleichzeitigkeit im Text. Die Handlungen folgen logisch und organisch aufeinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ilse löste die Leine, legte den Hebel um.",
+          "Der Junge am Bug streckte vorsichtig die Hand aus und berührte das nasse Seil"
+        ],
+        "suggestions": [
+          "Der Text ist durchweg aktiv und bildhaft formuliert. Selbst Zustandspassive ('mit Klammern gebunden') sind hier stilistisch völlig korrekt eingesetzt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Es war Dienstag, kurz nach halb acht, in München saß er jetzt vermutlich schon im Büro, vor sich einen dieser Kaffee in Pappbechern, die er ihr einmal mitgebracht und die sie nicht hatte austrinken können."
+        ],
+        "suggestions": [
+          "Der Satzrhythmus ist meisterhaft. Kurze Sätze ('Es troff.') wechseln sich harmonisch mit längeren, fließenden Beobachtungen ab. Keine Korrektur nötig."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Zwei fünfzig. Fahrrad ein Euro mehr.“ – „Ich hab kein Fahrrad.“ – „Dann zwei fünfzig.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind extrem knapp, norddeutsch-lakonisch und sitzen auf den Punkt. Kein Wort zu viel."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...und sah zu, wie der Tag sich nicht entschließen konnte, hell zu werden.",
+          "...als sie auf dem Deich ein Licht schwanken sah",
+          "...den sie nicht mehr hörte, sondern nur noch bemerkte, wenn..."
+        ],
+        "suggestions": [
+          "Sehr selten verwendet und meist schön in Sprachbilder verpackt. Beim Licht auf dem Deich könnte man noch unmittelbarer werden: 'Ilse hatte schon die Hand am Hebel. Da schwankte auf dem Deich ein Licht...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie wartete. Es kostete sie nichts, eine Minute zu warten...",
+          "„Fürs Warten.“ – „Hab nicht gewartet“"
+        ],
+        "suggestions": [
+          "Es gibt keine unfreiwilligen inhaltlichen Doppelungen. Die Wortwiederholungen (wie beim 'Warten') sind als bewusstes Stilmittel eingesetzt und charakterisieren die Hauptfigur treffend."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.017688
+}

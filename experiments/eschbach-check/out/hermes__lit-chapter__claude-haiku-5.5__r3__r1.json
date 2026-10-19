@@ -1,0 +1,94 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-haiku-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so dicht über dem Fluss..."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch sehr gelungen und etabliert die Stimmung sofort. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["tiefer, gleichmäßiger Ton", "grauer Drahthaar"],
+        "suggestions": [
+          "Die Adjektive sind gut gewählt und dienen der Atmosphäre. Achten Sie darauf, bei weiteren Beschreibungen nicht zu viele 'grau'-Variationen zu verwenden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sagte der Mann", "fragte er"],
+        "suggestions": [
+          "Die Kennzeichnungen sind unaufdringlich. Sie könnten bei den kurzen Wechseln teilweise ganz entfallen, da der Sprecherwechsel durch die Zeilenumbrüche klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["vielleicht", "irgendetwas", "schon"],
+        "suggestions": [
+          "Die Füllwörter wirken hier authentisch für den Erzählton. Prüfen Sie dennoch, ob 'vielleicht' (z.B. 'vielleicht zwanzig') durch eine präzisere Schätzung ersetzt werden kann."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["als die Rampe herunterkam"],
+        "suggestions": [
+          "Die Handlungsabfolge ist klar. Vermeiden Sie in zukünftigen Abschnitten Konstruktionen mit 'während', um den Fluss nicht zu bremsen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["wurde dunkler"],
+        "suggestions": [
+          "Der Text ist sehr aktiv geschrieben. Das Passiv wird kaum genutzt, was den Text lebendig hält."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie hatte es in den Jahrzehnten, in denen sie diese Fähre fuhr, nie anders erlebt als so, wie man einen Raum kennt, in dem das Licht ausgegangen ist: man findet sich zurecht, ohne etwas zu sehen."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind gut variiert. Der lange Satz am Anfang funktioniert gut als Exposition."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Guten Morgen«, sagte der Mann. »Morgen.«"],
+        "suggestions": ["Die Dialoge sind prägnant und charakterisierend. Sehr gut gestrafft."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie hörte, wie er überlegte, ob das eine Antwort war",
+          "Sie wusste, dass es dort war"
+        ],
+        "suggestions": [
+          "Statt 'Sie hörte, wie er überlegte', zeigen Sie die Reaktion: 'Er schwieg einen Moment, als wäge er ab...' Das macht die Wahrnehmung direkter und weniger interpretierend."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Das Seil sang weiter", "Das Seil sang"],
+        "suggestions": [
+          "Das Motiv des singenden Seils ist ein schönes Leitmotiv, aber die Wiederholung der exakten Formulierung könnte variiert werden (z.B. 'Das Seil summte erneut')."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

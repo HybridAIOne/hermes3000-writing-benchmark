@@ -1,0 +1,92 @@
+{
+  "who": "hermes",
+  "item": "anchor__zweig-brennendes-geheimnis-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Lokomotive schrie heiser auf: der Semmering war erreicht."],
+        "suggestions": ["Der Einstieg ist sehr gelungen und setzt direkt in der Handlung an."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "schwarzen Wagen",
+          "silbrigen Licht",
+          "natürliche Elastizität",
+          "unbändig schüttelte"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist sehr hoch. Prüfen, ob Verben wie 'schüttelte' oder 'schrie' ohne Adjektive stärker wirken."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["»Wozu bin ich eigentlich hier«, begann es unruhig in ihm zu fragen."],
+        "suggestions": ["Keine unnötigen Marker verwendet, sehr gut."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["eigentlich"],
+        "suggestions": [
+          "Das Wort 'eigentlich' im Dialog ist charakterisierend und daher in Ordnung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Keine übermäßige Verwendung von 'während'."],
+        "suggestions": ["Die Abfolge der Handlungen ist klar und gut strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["war erreicht"],
+        "suggestions": ["Der Text ist weitgehend aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Jene weißen, unruhigen Wolken flatterten am Himmel, die nur der Mai und der Juni hat, jene weißen, selbst noch jungen und flattrigen Gesellen..."
+        ],
+        "suggestions": [
+          "Der Satz über die Wolken ist sehr verschachtelt. Hier könnte ein Punkt den Lesefluss deutlich verbessern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "»Allein hier auf dem Berg zu sein, ohne Gesellschaft, ist ärger als das Bureau. [...]«"
+        ],
+        "suggestions": [
+          "Die Länge ist angemessen und dient der Charakterisierung des Protagonisten."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["spürte man im Atem etwas"],
+        "suggestions": [
+          "'Spürte man' könnte durch eine direktere sensorische Beschreibung ersetzt werden, z.B. 'Der Atem schmeckte nach...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["schrie heiser / schrie ... heisere Maschine", "weißen ... weißen"],
+        "suggestions": [
+          "Wortwiederholungen bei 'heiser' und 'weiß' innerhalb kurzer Distanz vermeiden, um die Frische der Sprache zu erhalten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

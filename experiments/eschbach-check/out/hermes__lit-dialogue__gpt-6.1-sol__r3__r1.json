@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gpt-6.1-sol__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Mara öffnet die Tür. Jens hält eine Papiertüte."],
+        "suggestions": [
+          "Der Einstieg ist perfekt gewählt; er setzt direkt in der Handlung an, ohne unnötige Einleitung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["blaue", "heiß"],
+        "suggestions": ["Die Verwendung ist sehr sparsam und präzise. Keine Änderungen notwendig."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Jens: ...", "Mara: ..."],
+        "suggestions": ["Das Skript-Format ist für diesen minimalistischen Stil ideal."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["schon", "wohl", "ja"],
+        "suggestions": [
+          "Die Füllwörter wirken hier nicht als Schwäche, sondern als authentische Charakterisierung der Sprecher."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["(Sie tritt zur Seite.)", "(Er stellt die Tüte auf den Tisch.)"],
+        "suggestions": ["Handlungen sind klar von den Dialogen getrennt. Sehr gut gelöst."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Boden lässt sich wischen."],
+        "suggestions": [
+          "Die Sätze sind aktiv und direkt. Der eine reflexive Satz passt zum Tonfall."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Bäcker an der Ecke hat zugemacht."],
+        "suggestions": [
+          "Die Satzlänge ist kurz und prägnant, was den Rhythmus der Szene unterstützt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Mara: Schon im Februar. / Jens: Ich war erst dort."],
+        "suggestions": ["Die Dialoge sind extrem gestrafft und auf den Punkt."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ich wusste nicht, wie viele ich mitbringen soll."],
+        "suggestions": ["Keine Filterwörter wie 'er sah, dass' vorhanden. Sehr direkt."]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Diskussion über den Bus / den Bäcker"],
+        "suggestions": [
+          "Die inhaltlichen Wiederholungen sind hier ein bewusstes Stilmittel, um die Routine und Stagnation der Beziehung zu unterstreichen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

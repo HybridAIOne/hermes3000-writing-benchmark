@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__kimi-k3__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Zwei Männer, ein Tisch. Draußen regnet es."],
+        "suggestions": ["Der Einstieg ist sehr atmosphärisch und direkt, keine Änderung nötig."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["langsam", "wirklich"],
+        "suggestions": [
+          "Die sparsame Verwendung unterstreicht den minimalistischen Ton hervorragend."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Script-Format"],
+        "suggestions": ["Keine Redeeinleitungen nötig, da das Format klar ist."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["doch", "mal"],
+        "suggestions": [
+          "Die Füllwörter wirken hier authentisch für die gesprochene Sprache und Charakterisierung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine unnötigen Gleichzeitigkeitskonstruktionen vorhanden."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Passivsätze verwendet."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die Sätze sind kurz und prägnant, was die Spannung und Distanz zwischen den Charakteren gut transportiert."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind auf den Punkt gebracht, keine Straffung erforderlich."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine indirekte Wahrnehmung, alles wird durch Handlungen und Dialog gezeigt (Show, don't tell)."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Gewohnheit", "Kaffee"],
+        "suggestions": [
+          "Die Wiederholungen sind stilistisch bewusst eingesetzt und verstärken die Melancholie und den Subtext."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

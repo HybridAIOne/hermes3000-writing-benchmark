@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__kimi-k3__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Der Motor läuft\", sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er direkt in die Handlung und den Konflikt führt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["schief", "unregelmäßig", "ruhig"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und treffend eingesetzt. Keine Überarbeitung notwendig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Ilse", "fragte er"],
+        "suggestions": [
+          "Die Marker sind unauffällig. In einigen Fällen könnten sie komplett gestrichen werden, wenn der Sprecherwechsel durch den Kontext klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["halt", "vielleicht"],
+        "suggestions": [
+          "„Halt\" passt gut zur Umgangssprache der Figur. „Vielleicht\" wird zweimal kurz hintereinander verwendet, hier könnte man variieren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["als die Mitte des Stroms hinter ihnen lag"],
+        "suggestions": [
+          "Die zeitlichen Abläufe sind klar strukturiert. Keine Überladung mit „während\"-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Anleger lag leer"],
+        "suggestions": ["Der Text ist sehr aktiv geschrieben. Sehr gut."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Früher hatte dort um diese Zeit immer jemand gestanden, der Milchbauer mit seinen Kanistern oder die alte Svenja mit dem Fahrrad."
+        ],
+        "suggestions": ["Die Satzlänge ist abwechslungsreich und gut lesbar."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Wie lange bleibst du?\" – „Bis Sonntag.\""],
+        "suggestions": ["Die Dialoge sind prägnant und charakterisierend. Sehr gut."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Ein Junge, dachte sie", "Ilse kannte diesen Blick"],
+        "suggestions": [
+          "Statt „dachte sie\" oder „kannte sie\", versuche die Wahrnehmung direkter zu zeigen: „Ein Junge, der seinen Koffer...\" (ohne das Verb des Denkens)."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Er läuft", "auseinanderfallen"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier stilistisch beabsichtigt (Echo-Effekt). Achtung: Der Satz „Du hast grau geworden\" enthält einen Grammatikfehler (muss heißen: „Du bist grau geworden\")."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

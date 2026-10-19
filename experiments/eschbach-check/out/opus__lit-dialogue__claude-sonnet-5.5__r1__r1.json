@@ -1,0 +1,122 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__claude-sonnet-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Jonas sitzt schon am Tisch, als Martin hereinkommt.",
+          "MARTIN: Du bist pünktlich."
+        ],
+        "suggestions": [
+          "Der Einstieg ist gelungen: Die Szene beginnt mitten in der Begegnung, ohne Vorgeplänkel wie Begrüßung oder Bestellung. Schon die erste Replik etabliert eine gemeinsame Vergangenheit und Spannung. Ein späterer Einstieg würde die wichtige Umarmungs-Verweigerung kosten, daher keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "rührt in seinem Kaffee, der längst umgerührt ist",
+          "(nickt langsam)",
+          "(schnell)",
+          "(fast lächelnd)"
+        ],
+        "suggestions": [
+          "Die Regieanweisungen sind sparsam und meist funktional. '(nickt langsam)' könnte entfallen, denn die Wiederholung 'Nicht alles.' trägt die Bedächtigkeit bereits und lässt dem Schauspieler mehr Raum.",
+          "'(fast lächelnd)' ist präzise und sinnvoll, weil es die Versöhnungsandeutung am Ende markiert. Beibehalten.",
+          "'der längst umgerührt ist' ist ein starkes, zeigendes Detail für Nervosität und rechtfertigt das Adverb."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["MARTIN: / JONAS: (Sprecherangaben im Dramenformat)"],
+        "suggestions": [
+          "Im Bühnenformat sind die Sprechernamen notwendig und keine überflüssigen Redeeinleitungen. Es gibt keine erklärenden Zusätze wie 'sagt er vorwurfsvoll'. Die Emotion ergibt sich vollständig aus dem Subtext. Keine Änderung nötig."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ich wollte eigentlich nicht lange …",
+          "Dann setz dich eben kurz.",
+          "Da hat sie wohl recht.",
+          "Früher war vieles anders.",
+          "zieht den Reißverschluss seiner Jacke ein Stück herunter"
+        ],
+        "suggestions": [
+          "Abtönungspartikel wie 'eigentlich', 'eben' und 'wohl' sind in der Figurenrede bewusst eingesetzt und charakterisieren Martins Zögern und Jonas' Trotz. Sie sollten bleiben.",
+          "'Früher war vieles anders' ist eine Floskel. Eine konkretere, spitzere Replik würde mehr über Jonas verraten, etwa: 'Früher hab ich dir auch noch geglaubt.'",
+          "'ein Stück' ist hier präzise, weil es die zögerliche, nur teilweise Öffnung zeigt. Beibehalten."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Jonas sitzt schon am Tisch, als Martin hereinkommt.",
+          "(rührt in seinem Kaffee, der längst umgerührt ist) Setz dich."
+        ],
+        "suggestions": [
+          "Die Gleichzeitigkeit im Eröffnungssatz ist unproblematisch, denn sie beschreibt einen Zustand und keine konkurrierenden Handlungen. Die Handlungen sind ansonsten sauber nacheinander gesetzt ('Martin setzt sich. Die Jacke behält er an.'). Keine Änderung nötig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text kommt ohne Passivkonstruktionen aus. Alle Regieanweisungen sind aktiv und konkret formuliert ('Die Kellnerin stellt ein Glas Wasser vor Martin ab.')."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Jacke behält er an.", "Keiner sieht auf."],
+        "suggestions": [
+          "Die Sätze sind durchweg kurz und prägnant, was zur angespannten, wortkargen Atmosphäre passt. Die knappen Repliken erzeugen Rhythmus und Subtext. Keine Änderung nötig."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "MARTIN: Ich hab's nicht so gemeint. Damals. Zumindest nicht alles.",
+          "JONAS: Sie fragt nicht mehr nach dir. (schnell) Sie sagt, es sei nicht ihre Sache."
+        ],
+        "suggestions": [
+          "Die Repliken sind kurz, der Dialog lebt vom Ungesagten. Lediglich die Passage 'Danke für die Karte' bis 'Danke hätte gereicht' könnte um eine Zeile gestrafft werden. Der Austausch ist jedoch pointiert genug, um ihn zu behalten."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Beide zögern, ob sie sich umarmen sollen. Sie lassen es."],
+        "suggestions": [
+          "'zögern, ob sie sich umarmen sollen' beschreibt einen inneren Vorgang, den das Publikum nur über Körpersprache erkennen kann. Konkreter und spielbarer wäre: 'Martin hebt halb die Arme. Jonas bleibt sitzen. Martin lässt die Arme sinken.'",
+          "Ansonsten wird konsequent gezeigt statt erklärt, etwa mit der anbehaltenen Jacke oder dem bereits umgerührten Kaffee."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "MARTIN: Früher hast du mich warten lassen. / JONAS: Früher war vieles anders.",
+          "MARTIN: ... Zumindest nicht alles. / JONAS: Nicht alles.",
+          "Setz dich. / Dann setz dich eben kurz.",
+          "Die Jacke behält er an. / zieht den Reißverschluss seiner Jacke ein Stück herunter"
+        ],
+        "suggestions": [
+          "Die Wiederholungen sind bewusst gesetzte Echos und Motive: Jonas greift Martins Worte auf, und das Jacken-Motiv zeigt die schrittweise Annäherung. Sie sind dramaturgisch wirkungsvoll und sollten bleiben.",
+          "Kleine inhaltliche Doppelung: 'Mehr hab ich gerade nicht.' / 'Hab ich auch nicht verlangt.' wiederholt sinngemäß den Gedanken von 'Das ist immerhin etwas'. Man könnte prüfen, ob eine der beiden Zeilen entfallen kann, ohne den Übergang zur Jacken-Geste zu schwächen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.076888
+}

@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel klemmte an genau derselben Stelle..."],
+        "suggestions": [
+          "Der Einstieg ist hervorragend, da er sofort eine Handlung und ein Gefühl für die Zeitspanne vermittelt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["genau derselben Stelle", "leicht anheben", "diffuses, graues Novemberlicht"],
+        "suggestions": [
+          "Einige Adjektive wirken etwas dekorativ. 'Genau' und 'leicht' könnten gestrichen werden, um die Verben stärker wirken zu lassen (z.B. 'Der Schlüssel klemmte an derselben Stelle...')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["genau", "fast"],
+        "suggestions": [
+          "Der Text ist sehr sauber. 'Fast' bei 'fast unverschämt' könnte gestrichen werden, um die Aussage zu schärfen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Als das Schloss schließlich nachgab...",
+          "Erst als Vera an die Spüle trat...",
+          "während das Haus um sie herum..."
+        ],
+        "suggestions": ["Die Verwendung ist maßvoll und dient dem Rhythmus. Keine Änderung nötig."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr aktiv formuliert. Keine Passivkonstruktionen gefunden."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["bemerkte sie den Geruch", "schien"],
+        "suggestions": [
+          "Statt 'bemerkte sie den Geruch' könnte man direkter schreiben: 'Der Geruch traf sie, noch bevor sie das Fenster öffnen konnte.' Das 'schien' am Ende ist ein Filterwort, das die Unmittelbarkeit leicht abschwächt."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "schwer (Luft/Mantel)",
+          "kalt (Luft/Spur)",
+          "Staub (Staubschicht/getrockneter Schwamm)"
+        ],
+        "suggestions": [
+          "Einige Wörter wie 'schwer' und 'kalt' tauchen in kurzem Abstand wieder auf. Hier könnten Synonyme oder eine Umformulierung helfen, um die atmosphärische Dichte zu wahren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

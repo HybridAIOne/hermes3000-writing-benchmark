@@ -1,0 +1,164 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__gpt-6-luna__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Nebel lag so dicht auf der Elbe, dass Ilse das andere Ufer nur daran erkannte, dass es fehlte.“ – starkes, bildhaftes Eröffnungsbild, das sofort Atmosphäre schafft",
+          "„Sie schob den Hebel nach vorn. Der Motor sprang mit einem kurzen Husten an. Ilse wartete, bis das Zittern sich in den Boden der Fähre gesetzt hatte, und gab noch ein wenig mehr Gas.“ – der Ablegevorgang wird recht kleinschrittig erzählt, bevor die Figuren ins Spiel kommen"
+        ],
+        "suggestions": [
+          "Der Einstieg funktioniert. Optional ließe sich der zweite Absatz auf zwei Sätze verdichten (z. B. „Sie schob den Hebel nach vorn, der Motor hustete an, das Drahtseil über ihr begann zu vibrieren.“), damit die Fahrgäste früher auftreten.",
+          "Prüfen, ob der Text nicht direkt mit der fahrenden Fähre einsetzen kann; das Nebelbild am Anfang ist allerdings stark genug, um es zu behalten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„kurz“ bzw. „kurzen“ taucht mehrfach auf: „mit einem kurzen Husten“, „Es leuchtete kurz sein Gesicht an“, „einen kurzen Schub“, „hob kurz zwei Finger“",
+          "„Die Fähre schob sich langsam über den Fluss.“ – „langsam“ steckt bereits im Verb „schob sich“",
+          "„Der Motor brummte gleichmäßig.“",
+          "„Das Drahtseil über ihr vibrierte leise.“",
+          "„noch ein wenig mehr Gas“"
+        ],
+        "suggestions": [
+          "„kurz“ an mindestens zwei Stellen streichen; „Der Fahrer hob zwei Finger vom Lenkrad“ wirkt ohne Zusatz genauso.",
+          "„langsam“ in „Die Fähre schob sich langsam über den Fluss“ streichen, denn das Verb trägt die Bedeutung allein.",
+          "„noch ein wenig mehr Gas“ durch ein präzises Verb ersetzen, z. B. „und schob den Hebel nach“.",
+          "Die übrigen Adjektive („beschlagenen Scheibe“, „dunklerer Strich“) sind präzise und tragen das Bild, sie sollten bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„„Morgen“, sagte Ilse.“",
+          "„„Wird das heute noch heller?“, fragte die Frau.“",
+          "„„Nicht nötig“, sagte Ilse.“",
+          "„„Schönen Tag“, sagte sie.“ – der Sprecher ist durch den vorherigen Satz über die Frau bereits klar"
+        ],
+        "suggestions": [
+          "„Schönen Tag“, sagte sie.“ → das „sagte sie“ streichen, denn die Frau ist durch den vorangehenden Satz als Sprecherin eindeutig.",
+          "„Morgen“, sagte Ilse.“ ließe sich durch eine Handlung ersetzen, z. B. „Ilse nickte ihnen zu. „Morgen.““",
+          "Insgesamt werden Redebegleitsätze sparsam und schlicht eingesetzt („sagte“ statt ausgefallener Verben), das ist gut so."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„gab noch ein wenig mehr Gas“",
+          "„Als die Fähre ein wenig schräg in die Strömung geriet“",
+          "„und vermutlich würde es das auch noch eine Weile tun“",
+          "„Der Name blieb eine Weile über dem grünen und dem roten Feld stehen.“",
+          "„Im Nebel war sie kaum auszumachen“",
+          "„Sie kannte das Geräusch verschiedener Motoren“",
+          "„verschwand nach wenigen Metern im Nebel“"
+        ],
+        "suggestions": [
+          "„ein wenig“ (zweimal) streichen oder präzisieren: „als die Fähre schräg in die Strömung geriet“.",
+          "Den Thermometer-Satz kürzen: „Das Thermometer neben dem Steuerhaus zeigte vier Grad, wie schon am Morgen.“ Das spart „vermutlich“ und „eine Weile“.",
+          "„eine Weile“ beim Telefon durch etwas Konkretes ersetzen, z. B. „Der Name blieb stehen. Viermal vibrierte das Telefon, fünfmal.“",
+          "„verschiedener Motoren“ konkretisieren, z. B. „Sie kannte die Motoren ihrer Stammgäste, ohne es zu wollen.“"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Als die Fähre ein wenig schräg in die Strömung geriet, trat er auf die Bremse.“ – kausal-zeitlich sinnvoll, kein Problem",
+          "„Er fuhr an ihr vorbei, ohne abzusteigen, und verschwand nach wenigen Metern im Nebel.“"
+        ],
+        "suggestions": [
+          "Handlungen werden fast durchgehend nacheinander erzählt („Ilse stellte den Becher ab und griff danach.“), das sollte so bleiben.",
+          "Optional: „Die Fähre geriet schräg in die Strömung. Der Fahrer trat auf die Bremse.“ Das wäre noch direkter, ist aber kein Muss."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Im Nebel war sie kaum auszumachen“ – passivische Konstruktion (Modalpassiv)",
+          "„Der Kaffee darin war kalt geworden.“ – Zustandsbeschreibung, kein echtes Passiv, unproblematisch"
+        ],
+        "suggestions": [
+          "„Im Nebel war sie kaum auszumachen“ → „Im Nebel ahnte Ilse sie mehr, als dass sie sie sah“ oder einfach „Im Nebel verschwamm sie“.",
+          "Ansonsten ist der Text konsequent aktiv geschrieben."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Nebel lag so dicht auf der Elbe, dass Ilse das andere Ufer nur daran erkannte, dass es fehlte.“ – doppeltes „dass“",
+          "„Nur das Wasser unter der Fähre, grau und langsam, und die Seile, die sich vor ihr aus dem Nichts spannten und hinter ihr wieder darin verschwanden.“",
+          "„Im Nebel war sie kaum auszumachen, doch das Wasser zog dort schneller, ein dunklerer Strich, der sich quer vor der Fähre öffnete.“",
+          "„Ilse stand neben dem Hebel und hielt eine Hand darauf, obwohl es keinen Grund gab, die Stellung zu verändern.“"
+        ],
+        "suggestions": [
+          "Das doppelte „dass“ im ersten Satz auflösen, z. B.: „Der Nebel lag so dicht auf der Elbe, dass Ilse das andere Ufer nur an seinem Fehlen erkannte.“",
+          "Den Satz über die Stromkante teilen: „Im Nebel war sie kaum zu sehen. Doch das Wasser zog dort schneller, ein dunklerer Strich quer vor der Fähre.“",
+          "Der Wechsel von kurzen Hauptsätzen und einzelnen längeren Sätzen erzeugt insgesamt einen guten Rhythmus."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„„Wird das heute noch heller?“ – „Kann sein.““",
+          "„„Die Bremse. Wir schwimmen nicht weg.““",
+          "„„Danke.“ – „Gern.““"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, figurentypisch und tragen Subtext (Ilses Wortkargheit). Kein Kürzungsbedarf."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Ilse hörte den Motor im Leerlauf.“",
+          "„Sie kannte das Geräusch verschiedener Motoren, ohne es zu wollen.“",
+          "„Er sah sie an, als überlegte er, ob sie einen Scherz gemacht hatte.“",
+          "„Auch der Nebel schien an der Bewegung der Fähre teilzunehmen, statt sie nur zu umgeben.“",
+          "„Sie sah sie nicht, aber der Zug ließ nach.“",
+          "„Ilse sah auf das leere Deck“ / „Ilse sah hinüber auf das leere Deck“"
+        ],
+        "suggestions": [
+          "„Ilse hörte den Motor im Leerlauf.“ → „Der Motor lief im Leerlauf.“ Die Wahrnehmung ist durch die Erzählperspektive ohnehin Ilses.",
+          "„Auch der Nebel schien … teilzunehmen“ ist abstrakt und abschwächend; entweder streichen oder als konkretes Bild fassen: „Der Nebel zog mit der Fähre mit.“",
+          "„Er sah sie an, als überlegte er …“ → „Er sah sie an. Dann schloss er das Fenster.“ Der Leser erschließt die Irritation selbst.",
+          "Die Häufung von „sah auf/sah hinüber/sah geradeaus/sah auf sein Telefon“ reduzieren, indem direkt beschrieben wird, was zu sehen ist."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Ilse sah auf das leere Deck“ und später „Ilse sah hinüber auf das leere Deck“",
+          "„Der Motor brummte gleichmäßig.“ / „Der Motor hielt seinen Takt.“ – derselbe Sachverhalt zweimal",
+          "„Das Thermometer … zeigte vier Grad. Es zeigte das seit dem ersten Blick am Morgen, und vermutlich würde es das auch noch eine Weile tun.“ – dreifache Umkreisung derselben Aussage",
+          "„Der Nebel machte aus der Rückfahrt dieselbe Fahrt wie die Hinfahrt.“ – dreimal „Fahrt“ in einem Satz",
+          "„obwohl sie nicht schwer aussah“ / „obwohl es keinen Grund gab“ – gleiches Satzmuster kurz hintereinander",
+          "„Am Anleger lag die nächste kleine Warteschlange … erst der Mann mit dem Fahrrad … Nein, die waren schon drüben.“ – wiederholt die Fahrgastaufzählung; zudem war es zuvor ein „Junge“, nicht ein „Mann“",
+          "„Die Klappe fiel herab.“ … später bei der Landung: „Ilse legte an, zog die Klappe hoch“ – logisch widersprüchlich, beim Anlegen müsste die Klappe herunter"
+        ],
+        "suggestions": [
+          "Eines der beiden „leere Deck“ ersetzen, z. B. im Schluss: „Ilse sah auf die Seile, die im Nebel verschwanden.“ Das schließt zugleich den Rahmen zum Anfang.",
+          "„Der Motor hielt seinen Takt“ oder „brummte gleichmäßig“ streichen bzw. variieren.",
+          "Den Thermometer-Passus auf einen Satz verdichten: „Das Thermometer zeigte vier Grad, wie seit dem Morgen.“",
+          "„Der Nebel machte die Rückfahrt zur Wiederholung der Hinfahrt.“ oder einfach: „Zurück sah alles aus wie hin.“",
+          "Die Warteschlangen-Passage entweder bewusst als Ilses Verwirrung markieren (dann „Junge“ statt „Mann“ wahren) oder streichen.",
+          "Klappenlogik und Ilses Position prüfen: Sie steht am Geländer und „korrigierte mit dem Hebel“. Ist der Hebel dort erreichbar?"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.144296
+}

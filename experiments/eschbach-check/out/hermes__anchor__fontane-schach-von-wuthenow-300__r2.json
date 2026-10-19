@@ -1,0 +1,92 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-schach-von-wuthenow-300",
+  "run": 2,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "In dem Salon der in der Behrenstraße wohnenden Frau von Carayon... waren... einige Freunde versammelt"
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr expositorisch. Beginnen Sie direkt mit einer Handlung oder einem konkreten Konflikt im Raum, statt die Szene statisch zu beschreiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["große Hitze", "treuesten Anhänger", "starke Herr", "feinste weiße Wäsche"],
+        "suggestions": [
+          "Viele Adjektive sind schmückendes Beiwerk. Prüfen Sie, ob starke Verben die Beschreibung lebendiger machen können."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Da kein Dialog vorhanden ist, ist dieser Punkt nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["einige", "freilich", "eigentlich"],
+        "suggestions": [
+          "Wörter wie 'eigentlich' oder 'einige' schwächen die Aussagekraft. Streichen Sie diese, um den Text direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "unter gleichzeitigem scherzhaftem Bedauern",
+          "während ihm der... Rock... zusammenschnürte"
+        ],
+        "suggestions": [
+          "Vermeiden Sie 'während' oder 'gleichzeitig'. Beschreiben Sie Handlungen nacheinander, um den Lesefluss zu glätten."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["waren... versammelt", "war... erschienen", "wurde... angesehen"],
+        "suggestions": [
+          "Formulieren Sie aktiv um: 'Nur Herr von Alvensleben erschien...' statt 'war nur einer erschienen'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Der gesamte Text besteht aus extrem langen, verschachtelten Sätzen mit vielen Nebensätzen."
+        ],
+        "suggestions": [
+          "Teilen Sie die Sätze radikal. Ein Gedanke pro Satz erhöht die Lesbarkeit massiv."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher kein Korrekturbedarf."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["das ebensoviel Behagen wie Sarkasmus ausdrückte", "wie seine Freunde sagten"],
+        "suggestions": [
+          "Zeigen statt behaupten (Show, don't tell): Lassen Sie den Sarkasmus durch das Handeln der Figur spürbar werden, statt ihn zu benennen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [],
+        "suggestions": ["Der Text ist inhaltlich präzise, es gibt kaum unnötige Doppelungen."]
+      }
+    }
+  },
+  "costUsd": 0
+}

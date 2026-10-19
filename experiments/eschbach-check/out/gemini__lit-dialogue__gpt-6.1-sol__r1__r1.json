@@ -1,0 +1,109 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 10,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "[Ein Café. Mara sitzt am Fenster. Jonas bleibt neben dem freien Stuhl stehen.]",
+          "„Ist hier noch frei?“"
+        ],
+        "suggestions": [
+          "Perfekter Einstieg 'in medias res'. Keine langatmige Beschreibung des Cafés oder des Weges dorthin, die Szene beginnt exakt am dramaturgisch richtigen Punkt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["freien Stuhl", "der Kaffee kalt wird", "Dein Kaffee ist noch heiß."],
+        "suggestions": [
+          "Ausgezeichnet. Es werden ausschließlich funktionale Adjektive verwendet, die für den Subtext (Kälte/Wärme der Beziehung) notwendig sind. Keine überflüssigen Ausschmückungen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ohne Zucker?“, fragt Mara.",
+          "„Weißt du noch, der See hinter der Schule?“, fragt Jonas."
+        ],
+        "suggestions": [
+          "Der Text kommt fast komplett ohne Inquits aus und nutzt sie nur nach den Regieanweisungen, um die Sprecherreihenfolge nach einer Pause neu zu verankern. Selbst diese beiden könnten theoretisch noch gestrichen werden, wenn man die Aktion direkt an die Figur koppelt, sind hier aber absolut legitim."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Du kommst noch immer zu früh.“", "„Ich habe dein Buch noch.“"],
+        "suggestions": [
+          "Keine unpräzisen Füllwörter im Erzähltext vorhanden. Wörter wie 'noch' oder 'schon' im Dialog sind keine Füllwörter, sondern tragen hier die zeitliche und emotionale Ebene der Vergangenheit."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "[Er nimmt die Jacke, setzt sich.]",
+          "[Er greift nach der Tasse, lässt sie stehen.]"
+        ],
+        "suggestions": [
+          "Hervorragend gelöst. Handlungen werden strikt chronologisch nacheinander beschrieben. Konstruktionen mit 'während' oder 'gleichzeitig' werden komplett vermieden."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Der ist jetzt eingezäunt.“"],
+        "suggestions": [
+          "Im gesamten beschreibenden Text gibt es keinen einzigen Passivsatz. Das einzige Zustandspassiv befindet sich im Dialog und klingt dort völlig natürlich."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "[Draußen hält ein Bus. Mara sieht ihm nach.]",
+          "„Du noch immer genau dann, wenn der Kaffee kalt wird.“"
+        ],
+        "suggestions": [
+          "Sehr präziser, knapper Satzbau. Sowohl die Regieanweisungen als auch die Dialoge sind auf den Punkt gebracht. Keine Schachtelsätze."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ich war letzte Woche dort.“ / „Am See?“ / „Vor deiner Tür.“ / „Die Klingel funktioniert.“ / „Ich weiß.“"
+        ],
+        "suggestions": [
+          "Meisterhafte Dialogführung. Extrem knappe Wechsel (Stichomythie), keine unnatürlichen Monologe, maximaler Subtext bei minimaler Wortanzahl. Zudem gut durch kleine Handlungen (Action Beats) rhythmisiert."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "[Mara schiebt die Zuckerdose zur Tischkante.]",
+          "[Er legt die Hände unter den Tisch.]",
+          "[Mara nimmt die Zuckerdose zurück.]"
+        ],
+        "suggestions": [
+          "Ein Paradebeispiel für 'Show, don't tell'. Es gibt keinerlei Filterwörter (sah, dachte, fühlte). Alle Emotionen, Unsicherheiten und die langsame Annäherung werden rein über äußere Handlungen (Zuckerdose, Jacke, Tasse) transportiert."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Du hast früher keinen verpasst.“ / „Du hast früher gewartet.“"],
+        "suggestions": [
+          "Keine ungewollten Wortwiederholungen oder inhaltlichen Doppelungen. Wo Wörter wiederholt werden (wie 'früher' oder 'noch immer'), geschieht dies als bewusstes rhetorisches Stilmittel im Schlagabtausch der Figuren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.015208
+}

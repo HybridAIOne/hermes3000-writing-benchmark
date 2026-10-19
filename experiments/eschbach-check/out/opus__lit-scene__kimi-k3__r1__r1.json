@@ -1,0 +1,141 @@
+{
+  "who": "opus",
+  "item": "lit-scene__kimi-k3__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel klemmte, wie er es immer getan hatte, nur dass Marlen es verlernt hatte.",
+          "Die Szene beginnt an der Haustür, unmittelbar vor dem Eintreten, ohne Anreise oder Vorgeschichte."
+        ],
+        "suggestions": [
+          "Der Einstieg sitzt gut. Das klemmende Schloss trägt Erinnerung und Körpergedächtnis und ist deshalb kein leerer Vorlauf.",
+          "Ein späterer Einstieg wäre möglich, etwa mit 'Drinnen stand die Luft wie Wasser in einem versunkenen Schiff.' Dabei ginge aber das schöne Motiv der Hand verloren, die sich erinnert. Den Einstieg daher beibehalten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "in kleinen Säckchen (doppelte Verkleinerung)",
+          "grau, am Kragen ausgeblickt (Tippfehler: 'ausgeblichen')",
+          "Ihre Schritte auf den Dielen klangen fremd, zu laut",
+          "als habe jemand sie ordentlich abgewaschen",
+          "nach innen gestülpt (unklar)"
+        ],
+        "suggestions": [
+          "'kleinen' streichen: 'in Säckchen' genügt, die Verkleinerungsform trägt die Bedeutung bereits.",
+          "Tippfehler korrigieren: 'am Kragen ausgeblichen'.",
+          "'nach innen gestülpt' durch 'umgestülpt' oder 'kopfüber' ersetzen. Das Bild wird dadurch eindeutig.",
+          "'fremd, zu laut' könnte auf ein Merkmal verdichtet werden, z. B. 'Ihre Schritte hallten auf den Dielen wie die eines Eindringlings.' Das Verb trägt dann die Lautstärke."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Text enthält keinen Dialog und daher keine Redeeinleitungen."],
+        "suggestions": ["Kein Handlungsbedarf. Das Kriterium ist für diesen Text nicht relevant."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "darunter, kaum wahrnehmbar, nach Lavendel",
+          "die Hand weiß es noch / hing ... noch auf dem Haken / waren noch zu erkennen",
+          "nach links ziehen, leicht heben, dann drehen",
+          "ob ihre Mutter wirklich allein hier gestorben war"
+        ],
+        "suggestions": [
+          "Das mehrfache 'noch' reduzieren: 'An der Wand hing der Mantel ihrer Mutter auf dem Haken' funktioniert auch ohne 'noch', weil der Kontext die Dauer bereits vermittelt.",
+          "'kaum wahrnehmbar' könnte durch ein konkreteres Bild ersetzt werden, z. B. 'darunter, wie ein Nachhall, Lavendel'.",
+          "'wirklich' im Schlusssatz ist inhaltlich begründet, weil es den Zweifel markiert, und kann bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Draußen bewegte sich die Weide im Wind, und ihr Schatten kroch über die Wand",
+          "Der Lavendelduft wurde stärker, je kälter das Haus wurde"
+        ],
+        "suggestions": [
+          "Kaum Probleme. 'als' wird überwiegend vergleichend verwendet ('als habe ...'), nicht zeitlich.",
+          "Die Handlungen folgen weitgehend chronologisch aufeinander (Tür, Flur, Spiegel, Küche, Stuhl, Dunkelheit). Diese klare Abfolge beibehalten."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "die Schrift durch Licht ausgebleicht bis zur Unleserlichkeit",
+          "Nur zwei Wörter waren noch zu erkennen",
+          "die Jalousien halb heruntergelassen",
+          "eingerahmt von Spinnweben wie von einem Trauerflor"
+        ],
+        "suggestions": [
+          "'die Schrift durch Licht ausgebleicht' aktiv formulieren: 'das Licht hatte die Schrift bis zur Unleserlichkeit ausgebleicht'. Damit wird das Licht zum Akteur.",
+          "'Nur zwei Wörter waren noch zu erkennen' aktiver und aus Marlens Sicht formulieren: 'Nur zwei Wörter hatten überlebt: nicht vergessen.'",
+          "Die Zustandsbeschreibungen (Jalousien, Spinnweben) sind als statische Bilder vertretbar."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Flur roch nach Staub und kaltem Ofen, darunter, kaum wahrnehmbar, nach Lavendel – der Duft, den ihre Mutter in kleinen Säckchen zwischen die Wäsche gelegt hatte.",
+          "Auf dem Tisch stand eine Tasse, nach innen gestülpt, als habe jemand sie ordentlich abgewaschen und weggeräumt und dann nie wieder gebraucht.",
+          "Der Lavendelduft wurde stärker, je kälter das Haus wurde, und Marlen fragte sich zum ersten Mal, ob ihre Mutter wirklich allein hier gestorben war."
+        ],
+        "suggestions": [
+          "Den Lavendel-Satz teilen: 'Der Flur roch nach Staub und kaltem Ofen. Darunter lag Lavendel – der Duft, den ihre Mutter in Säckchen zwischen die Wäsche gelegt hatte.'",
+          "Den Schlusssatz teilen, damit die Pointe mehr Gewicht bekommt: 'Der Lavendelduft wurde stärker, je kälter das Haus wurde. Zum ersten Mal fragte sich Marlen, ob ihre Mutter wirklich allein hier gestorben war.'",
+          "Insgesamt ist der Satzrhythmus gut, weil kurze Sätze ('Trotzdem war er da.') die langen ausbalancieren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Text enthält keine Dialogpassagen."],
+        "suggestions": ["Kein Handlungsbedarf. Das Kriterium ist für diesen Text nicht relevant."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Im Spiegel gegenüber sah sie sich selbst: eine Frau Mitte vierzig",
+          "Marlen fragte sich zum ersten Mal, ob ihre Mutter wirklich allein hier gestorben war.",
+          "auf wen, das wusste sie heute nicht mehr",
+          "Nur zwei Wörter waren noch zu erkennen"
+        ],
+        "suggestions": [
+          "Spiegel direkter darstellen: 'Der Spiegel gegenüber zeigte eine Frau Mitte vierzig mit dem Gesicht ihrer Mutter, eingerahmt von Spinnweben wie von einem Trauerflor.'",
+          "Den Schlusssatz in erlebte Rede überführen, um die Wirkung zu verstärken: 'Sie blieb sitzen, bis es dunkel wurde. Der Lavendelduft wurde stärker. War ihre Mutter wirklich allein hier gestorben?'",
+          "'auf wen, das wusste sie heute nicht mehr' könnte knapper werden: 'gewartet – auf wen, war ihr entfallen.' Die bestehende Form ist aber akzeptabel."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Hohe Dichte an Vergleichen mit 'wie': 'wie Wasser in einem versunkenen Schiff', 'wie die eines Eindringlings', 'wie von einem Trauerflor', 'wie eine Hand, die etwas sucht'",
+          "Zweimal 'als habe': 'als habe sie aufgehört, sich zu wehren' / 'als habe jemand sie ordentlich abgewaschen'",
+          "Dreimal 'wurde' im letzten Absatz: 'bis es dunkel wurde. Der Lavendelduft wurde stärker, je kälter das Haus wurde'",
+          "'Mutter' erscheint fünfmal in kurzem Text",
+          "'Zwanzig Jahre' zweimal: 'Zwanzig Jahre, dachte sie' / 'Dass er sich zwanzig Jahre gehalten hatte'"
+        ],
+        "suggestions": [
+          "Ein bis zwei Vergleiche streichen oder in Metaphern umwandeln. Beispiel: 'Ihre Schritte auf den Dielen klangen fremd, zu laut, wie die eines Eindringlings' wird zu 'Ihre Schritte auf den Dielen waren die eines Eindringlings.'",
+          "Eine der 'als habe'-Konstruktionen umformulieren, z. B. 'Die Tür gab lautlos nach. Sie hatte aufgehört, sich zu wehren.'",
+          "Im letzten Absatz 'wurde' variieren: 'Sie blieb sitzen, bis es dunkelte. Je kälter das Haus, desto stärker der Lavendel.'",
+          "'Mutter' teilweise durch Pronomen oder Umschreibungen ersetzen, z. B. 'An der Wand hing ihr grauer Mantel noch auf dem Haken'. Der Bezug ist aus dem Kontext klar.",
+          "Die Wiederholung von 'zwanzig Jahre' kann als bewusstes Motiv bleiben. Alternativ beim zweiten Mal 'so lange' verwenden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.11788
+}

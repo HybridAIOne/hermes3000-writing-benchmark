@@ -1,0 +1,108 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Zwei Männer, ein Tisch. Draußen regnet es.",
+          "MARKUS: Du bist gekommen.",
+          "JONAS: Du hast angerufen."
+        ],
+        "suggestions": [
+          "Der Einstieg ist fast perfekt 'in medias res'. Um das absolute Maximum herauszuholen, könnte man sogar die ersten drei Zeilen streichen und direkt mit dem Konflikt starten: 'JONAS: (bleibt am Tisch stehen) Ich kann nicht lange.' Das impliziert bereits das Ankommen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "*(setzt sich langsam)*",
+          "*(lächelt kurz, dann nicht mehr)*",
+          "... obwohl der Kaffee längst kalt ist."
+        ],
+        "suggestions": [
+          "Der Text ist extrem reduziert und kommt fast ohne schmückende Beiwort-Prosa aus. Lediglich in den Regieanweisungen könnte man 'setzt sich langsam' durch ein präziseres Verb wie 'zögert, setzt sich dann' ersetzen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["MARKUS: Du bist gekommen.", "JONAS: Du hast angerufen."],
+        "suggestions": [
+          "Da es sich um ein Theater- oder Drehbuchformat handelt, entfallen klassische Inquits ('sagte er'). Falls der Text in Prosa umgewandelt wird, ist der Schlagabtausch so eindeutig, dass auch dort fast vollständig auf Redebegleitsätze verzichtet werden kann."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Setz dich doch.",
+          "Sie fragt manchmal nach dir.",
+          "Der Kaffee ist wirklich schlecht geworden."
+        ],
+        "suggestions": [
+          "Keine Füllwörter im beschreibenden Text (Regieanweisungen). In der wörtlichen Rede sind Wörter wie 'doch', 'manchmal' oder 'wirklich' völlig legitim, da sie den natürlichen Sprachfluss und die Unsicherheit der Figuren spiegeln."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["*(steht auf, nimmt seine Jacke)*"],
+        "suggestions": [
+          "Exzellent gelöst. Handlungen und Dialoge erfolgen strikt nacheinander. Es gibt keine künstlichen 'Während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der gesamte Text ist im Aktiv verfasst. Jede Handlung ist klar einem Akteur zugeordnet."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ich kann nicht lange.", "Natürlich nicht. Konntest du noch nie."],
+        "suggestions": [
+          "Die Sätze sind kurz, prägnant und rhythmisch perfekt auf die unterkühlte, angespannte Stimmung abgestimmt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "MARKUS: *(lehnt sich zurück)* Weißt du noch, der Sommer am See? Du hast gesagt, egal was kommt— / JONAS: Ich weiß, was ich gesagt habe."
+        ],
+        "suggestions": [
+          "Hervorragendes Pacing. Die Dialoge sind extrem verknappt, arbeiten stark mit Subtext und lassen durch Unterbrechungen keine Monologe aufkommen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["*(Markus rührt weiter, obwohl der Kaffee längst kalt ist.)*"],
+        "suggestions": [
+          "Sehr direkte Darstellung ohne Filterwörter ('er sah', 'er spürte'). Einzig der letzte Halbsatz ('obwohl der Kaffee längst kalt ist') ist streng genommen allwissendes Erzählerwissen (Tell). Visueller (Show) wäre für ein Skript: 'Er rührt weiter im längst erkalteten Kaffee, aus dem kein Dampf mehr aufsteigt.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "JONAS: Gewohnheit. / MARKUS: Gewohnheit.",
+          "JONAS: Der Kaffee ist wirklich schlecht geworden."
+        ],
+        "suggestions": [
+          "Es gibt keine unfreiwilligen Wortwiederholungen oder inhaltlichen Redundanzen. Alle Wiederholungen (das Echo von 'Gewohnheit', 'manchmal', das Motiv des schlechten Kaffees) werden gezielt als kraftvolles rhetorisches Stilmittel eingesetzt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.014988
+}

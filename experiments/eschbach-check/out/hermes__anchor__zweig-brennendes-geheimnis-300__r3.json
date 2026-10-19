@@ -1,0 +1,100 @@
+{
+  "who": "hermes",
+  "item": "anchor__zweig-brennendes-geheimnis-300",
+  "run": 3,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Die Lokomotive schrie heiser auf: der Semmering war erreicht."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark. Er könnte noch direkter beginnen, indem man das Ankommen des Zuges sofort durch die Handlung der Passagiere ersetzt, aber das ist stilistische Wahl."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "silbrigen Licht",
+          "bunte Menschen",
+          "nassen Wind",
+          "gute Kleidung",
+          "natürliche Elastizität"
+        ],
+        "suggestions": [
+          "Der Text ist sehr adjektivlastig. Versuchen Sie, durch stärkere Verben und Substantive zu ersetzen. Statt 'gute Kleidung' lieber 'maßgeschneiderter Anzug', statt 'silbriges Licht' das Licht durch die Tageszeit oder Wetterlage definieren."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Wozu bin ich eigentlich hier«, begann es unruhig in ihm zu fragen."],
+        "suggestions": [
+          "Die Kennzeichnung ist hier gut gelöst, da es sich um einen inneren Monolog handelt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["paar bunte Menschen", "eigentlich"],
+        "suggestions": [
+          "Das Wort 'paar' wirkt umgangssprachlich und unpräzise. Ersetzen Sie es durch eine konkretere Mengenangabe oder streichen Sie es."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["während (nicht verwendet)"],
+        "suggestions": ["Die Handlungsabfolge ist klar und logisch strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["der Semmering war erreicht"],
+        "suggestions": [
+          "Formulieren Sie 'der Semmering war erreicht' aktiver um, z.B.: 'Der Zug erreichte den Semmering.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Jene weißen, unruhigen Wolken flatterten am Himmel, die nur der Mai und der Juni hat, jene weißen, selbst noch jungen und flattrigen Gesellen, die spielend über die blaue Bahn rennen, um sich plötzlich hinter hohen Bergen zu verstecken, die sich umarmen und fliehen, sich bald wie Taschentücher zerknüllen, bald in Streifen zerfasern und schließlich im Schabernack den Bergen weiße Mützen aufsetzen."
+        ],
+        "suggestions": [
+          "Dieser Satz ist ein 'Schachtelsatz', der den Lesefluss hemmt. Teilen Sie ihn in zwei oder drei kürzere Sätze auf, um die Dynamik der Wolkenbewegung besser hervorzuheben."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["»Wozu bin ich eigentlich hier...«"],
+        "suggestions": [
+          "Die Länge des inneren Monologs ist angemessen für die Charakterisierung der Unzufriedenheit."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Manchmal schien auch Duft von Schnee kühl aus den Bergen herüberzukommen",
+          "dann spürte man im Atem etwas"
+        ],
+        "suggestions": [
+          "Vermeiden Sie 'schien zu...'. Schreiben Sie direkter: 'Kühler Duft von Schnee wehte aus den Bergen herüber.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["weißen... weißen... weißen", "jungen... jungen"],
+        "suggestions": [
+          "Das Wort 'weiß' wird im Wolken-Absatz zu oft wiederholt. Suchen Sie nach Synonymen oder umschreiben Sie die Farbe durch Lichtverhältnisse."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

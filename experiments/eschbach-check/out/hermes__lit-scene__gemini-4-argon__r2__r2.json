@@ -1,0 +1,83 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gemini-4-argon__r2",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel griff erst beim dritten Versuch."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort eine Handlung und Atmosphäre etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["modrige Fäulnis", "scharfe, trockene Kälte", "milchigen Scheiben"],
+        "suggestions": [
+          "Die Adjektive sind atmosphärisch dicht. Prüfen, ob 'modrige' bei 'Fäulnis' redundant ist, da Fäulnis meist modrig ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist frei von Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als wehrte sich das Messing", "als atmete das Haus"],
+        "suggestions": [
+          "Die 'als'-Konstruktionen sind stilistisch gut eingebettet und wirken nicht überladen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Nichts war verändert worden", "war... eingeprägt"],
+        "suggestions": [
+          "'Nichts war verändert worden' könnte aktiver formuliert werden: 'Nichts hatte sich verändert'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Durch die milchigen Scheiben der Veranda sickerte das graue Novemberlicht und schnitt blasse Trapeze in den Staub auf dem Parkett."
+        ],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Sie trat an die Spüle", "Clara nahm es in die Hand"],
+        "suggestions": [
+          "Sehr gute, direkte Wahrnehmung. Keine Filterwörter wie 'sie sah, dass' verwendet."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["keine signifikanten Wiederholungen"],
+        "suggestions": ["Der Text ist präzise und frei von inhaltlichen Doppelungen."]
+      }
+    }
+  },
+  "costUsd": 0
+}

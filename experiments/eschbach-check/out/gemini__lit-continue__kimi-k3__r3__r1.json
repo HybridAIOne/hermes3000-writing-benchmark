@@ -1,0 +1,121 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__kimi-k3__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Motor stotterte beim Anlegen nicht, er war nur lauter geworden seit Frühjahr. Das hätte sie ihm sagen können, tat es aber nicht.",
+          "„Du stehst im Weg“, sagte sie."
+        ],
+        "suggestions": [
+          "Der Einstieg ist hervorragend (in medias res). Er etabliert sofort den Handlungsort (Fähre) und das angespannte Verhältnis der Figuren durch das, was nicht gesagt wird. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Seine Schuhe waren zu dünn für die Bohlen.",
+          "Henning hatte genickt wie ein Mann, der Holz nimmt: endgültig."
+        ],
+        "suggestions": [
+          "Der Text ist extrem diszipliniert. Es gibt fast keine schmückenden Adjektive oder Adverbien. Stattdessen arbeiten Sie mit starken Verben ('hakte', 'klagten') und präzisen Vergleichen. Exzellent gelöst."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Dienstag. Und Mittwoch.“",
+          "„Da war ich draußen.“ Sie hakte die zweite Leine ein und prüfte den Sitz mit dem Daumen."
+        ],
+        "suggestions": [
+          "Sehr guter Einsatz von handlungsbegleitenden Sätzen (Action Beats) statt bloßer Inquit-Formeln. Nur das „sagte sie“ bei „Ich fahr nicht rüber“ oder „Ich mach Brot“ könnte eventuell noch gestrichen werden, da der Sprecherwechsel klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "und Ilse dachte, dass er es wahrscheinlich beide Male meinte",
+          "Sie ließ ihn einfach stehen."
+        ],
+        "suggestions": [
+          "Der Text ist weitgehend frei von Füllwörtern. Wörter wie 'wahrscheinlich' und 'einfach' sind hier durch die personale Perspektive (Ilses Gedankenwelt) gerechtfertigt, könnten aber testhalber gestrichen werden, um den Ton noch lakonischer zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "stand zum ersten Mal allein auf der Fähre, während Henning am Hebel saß und grinste.",
+          "Das sagte er, und gleichzeitig sah er auf seine Uhr..."
+        ],
+        "suggestions": [
+          "Das Wort 'gleichzeitig' wird hier bewusst genutzt, um den Widerspruch in Jonas' Verhalten (sagen, man habe Zeit vs. auf die Uhr schauen) zu entlarven. Dennoch wirkt 'Er sagte es und sah auf die Uhr' oft noch unmittelbarer."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["wie ein Tier, das man mitnimmt und das nicht mitgenommen werden will."],
+        "suggestions": [
+          "Keine problematischen Passivkonstruktionen vorhanden. Das einzige Passiv ('mitgenommen werden will') ist inhaltlich absolut notwendig, um die Wehrlosigkeit im Vergleich auszudrücken."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Im Flur roch es nach nassem Holz und nach dem Kaffee vom Morgen, den sie nicht weggeschüttet hatte, weil Henning immer gesagt hatte, man schütte keinen Kaffee weg, man wärmt ihn auf.",
+          "Sie gingen den Weg zum Haus hinauf, sie voraus, er hinterher mit dem Koffer, dessen Rollen auf dem Kiesweg klagten wie ein Tier, das man mitnimmt und das nicht mitgenommen werden will."
+        ],
+        "suggestions": [
+          "Der Satzbau ist rhythmisch sehr bewusst gestaltet (Polysyndeton mit vielen 'und'). Nach Eschbachs strenger Auslegung könnten einige dieser Ketten durch Punkte getrennt werden, um das Tempo zu variieren. Als literarisches Stilmittel funktioniert es hier aber gut."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Ich mach Brot“, sagte sie. / „Ich hab im Zug—“ / „Ich mach Brot.“"],
+        "suggestions": [
+          "Meisterhaft verknappte Dialoge. Die Figuren reden in kurzen, norddeutsch-kargen Sätzen aneinander vorbei. Der Subtext trägt die Szene komplett."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Sie sah, wie er das Gleichgewicht suchte und es nicht fand...",
+          "...und Ilse dachte, dass er es wahrscheinlich beide Male meinte...",
+          "...sie hatte gehört, wie es klang.",
+          "...sie wusste, dass Jonas das sah und verstand...",
+          "...und sie beschloss, dass sie ihm keinen Kaffee aufwärmen würde."
+        ],
+        "suggestions": [
+          "Hier liegt das größte Optimierungspotenzial nach Eschbach. Streichen Sie die Filterwörter ('sah, wie', 'dachte, dass', 'wusste, dass', 'beschloss, dass') und gehen Sie direkt in die erlebte Rede.",
+          "Statt 'Sie sah, wie er das Gleichgewicht suchte': 'Er suchte das Gleichgewicht und fand es nicht.'",
+          "Statt 'und Ilse dachte, dass er es wahrscheinlich beide Male meinte': 'Wahrscheinlich meinte er es beide Male, und keines davon stimmte.'",
+          "Statt 'und sie beschloss, dass sie ihm keinen Kaffee aufwärmen würde': 'Ihm würde sie keinen Kaffee aufwärmen. Sie würde frischen kochen.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Da war ich draußen.“ ... „Hier draußen ist man draußen.“",
+          "So hatte Henning nie genickt. Henning hatte genickt wie ein Mann..."
+        ],
+        "suggestions": [
+          "Die vorhandenen Wortwiederholungen sind hochgradig stilistisch motiviert (Rhetorik, Rhythmus) und keine versehentlichen Redundanzen. Inhaltliche Doppelungen gibt es nicht."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018732
+}

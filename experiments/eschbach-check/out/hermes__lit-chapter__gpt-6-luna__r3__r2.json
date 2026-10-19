@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6-luna__r3",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht über der Elbe, dass Ilse die andere Uferkante nicht sah."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und setzt direkt in der Handlung an. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ein wenig stärker", "kurzen, grauen Stücken"],
+        "suggestions": [
+          "Die Adjektive sind gut gewählt. 'Ein wenig stärker' könnte durch ein präziseres Verb oder einfach 'stärker' ersetzt werden, um die Wirkung zu verstärken."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ist das immer so?“, fragte der Junge."],
+        "suggestions": [
+          "Sehr sparsam und effektiv eingesetzt. Die Redeeinleitungen stören den Lesefluss nicht."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr präzise und kommt fast ohne Füllwörter aus."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Fähre glitt trotzdem hinüber. Das Seil lief..."],
+        "suggestions": [
+          "Die Handlungen sind logisch nacheinander gereiht, was die Ruhe der Szene unterstreicht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist fast ausschließlich aktiv formuliert, was die Dynamik und Unmittelbarkeit fördert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind gut variiert und unterstützen den Rhythmus der Fahrt."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ist das immer so?“ – „Was?“ – „Dass man nichts sieht.“"],
+        "suggestions": ["Die Dialoge sind kurz, knackig und charakterisierend. Perfekt so."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie hörte, wie das Seil über eine Rolle sprang..."],
+        "suggestions": [
+          "Könnte noch direkter werden: 'Das Seil sprang mit einem kurzen, scharfen Geräusch über die Rolle.' (Streichen von 'Sie hörte, wie')"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Der Morgen war kalt, aber nicht kalt genug..."],
+        "suggestions": [
+          "Um die Wortwiederholung zu vermeiden: 'Der Morgen war kalt, aber nicht frostig genug...'"
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

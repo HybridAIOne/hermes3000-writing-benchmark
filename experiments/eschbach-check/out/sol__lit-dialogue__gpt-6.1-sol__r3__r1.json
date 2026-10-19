@@ -1,0 +1,132 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__gpt-6.1-sol__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "*(Mara öffnet die Tür. Jens hält eine Papiertüte.)*",
+          "**Jens:** Der Bäcker an der Ecke hat zugemacht."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Er beginnt unmittelbar mit der Begegnung und vermittelt die Vorgeschichte durch den Dialog. Ein späterer Einstieg würde das Schwellenmotiv und erste Beziehungssignale abschneiden."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "**Mara:** Du bist also den alten Weg gegangen.",
+          "**Jens:** Die Jacke ist zu groß.",
+          "**Mara:** Sie steht meistens hinten."
+        ],
+        "suggestions": [
+          "Die wenigen Adjektive und Adverbien überwiegend erhalten: „alten“ trägt die gemeinsame Vergangenheit, „zu groß“ ermöglicht Jens’ Ausweichmanöver.",
+          "„Meistens“ nur streichen, wenn Mara bestimmter klingen soll. Die Einschränkung kann hier bewusstes Zögern ausdrücken."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "**Jens:** Ohne Zucker, bitte.",
+          "**Mara:** Ich weiß.",
+          "*(Sie legt den Löffel neben seine Tasse.)*"
+        ],
+        "suggestions": [
+          "Die Sprecherkennzeichnungen im szenischen Format beibehalten; zusätzliche Redeeinleitungen sind unnötig.",
+          "Die Regieanweisungen weiterhin auf Handlungen beschränken, die räumliche Orientierung oder Subtext liefern."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "**Jens:** Hätte ja sein können.",
+          "**Jens:** Dann habe ich mich wohl verlesen.",
+          "**Mara:** Du hast früher immer die letzten bekommen."
+        ],
+        "suggestions": [
+          "„Ja“ und „wohl“ nicht pauschal streichen: Sie machen Jens’ Unsicherheit und seine Ausflüchte hörbar.",
+          "„Immer“ bewahren, wenn Maras Erinnerung bewusst verallgemeinernd und persönlich klingen soll. Es ist hier eher Figurenrede als unpräzise Information."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "*(Er nimmt den anderen Stuhl. Sie holt zwei Tassen.)*",
+          "*(Sie öffnet die Tüte.)*"
+        ],
+        "suggestions": [
+          "Die klare Abfolge der Handlungen beibehalten. Es gibt keine übermäßigen Gleichzeitigkeitskonstruktionen und keinen Anlass, die Abläufe stärker zu erklären."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "**Mara:** Der Boden lässt sich wischen.",
+          "*(Er stellt die Tüte auf den Tisch.)*"
+        ],
+        "suggestions": [
+          "Die überwiegend aktiven Formulierungen beibehalten.",
+          "„Der Boden lässt sich wischen“ ist eine passivähnliche Möglichkeitskonstruktion, hier aber funktional: Mara spielt die nassen Schuhe herunter. „Ich wische den Boden“ würde eine andere Aussage machen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "**Jens:** Ich wusste nicht, wie viele ich mitbringen soll.",
+          "**Mara:** Du musst nicht warten, bis er kalt ist."
+        ],
+        "suggestions": [
+          "Keine Satzteilungen nötig: Auch die Sätze mit Nebensatz bleiben kurz und unmittelbar verständlich.",
+          "Die Mischung aus knappen Hauptsätzen und wenigen längeren Äußerungen erhalten, damit die Sprache nicht ausschließlich abgehackt wirkt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "**Jens:** Ohne Zucker, bitte.\n\n**Mara:** Ich weiß.\n\n**Jens:** Hätte ja sein können.\n\n**Mara:** Was?\n\n**Jens:** Dass du welchen hineintust.",
+          "**Mara:** Zwei reichen nicht bis morgen.\n\n**Jens:** Ich wusste nicht, wie viele ich mitbringen soll.\n\n**Mara:** Für heute reichen sie."
+        ],
+        "suggestions": [
+          "Keine längeren Redebeiträge müssen gekürzt werden. Die kurzen Wechsel tragen die Spannung, ohne die Beziehung ausdrücklich zu erklären.",
+          "Falls das Gesamttempo erhöht werden soll, zuerst den Zuckerwechsel auf seine Länge prüfen. „Was?“ und die anschließende Erklärung verzögern bewusst; nur kürzen, wenn dieses Stocken nicht gewollt ist."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["*(Draußen fährt ein Bus vorbei.)*", "*(Er zieht die Tasse näher.)*"],
+        "suggestions": [
+          "Die unmittelbare Darstellung beibehalten: Geräusche und Gesten erscheinen ohne vorgeschaltete Wahrnehmungsfilter.",
+          "Jens’ „Ich habe nicht hingesehen“ nicht als entbehrlichen Wahrnehmungsfilter behandeln: Die Äußerung gehört zum Beziehungsgespräch und ist keine indirekte Erzählerbeschreibung."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "**Jens:** Wackelt er noch?",
+          "**Jens:** Die blaue gibt es noch.",
+          "**Mara:** Der Fahrplan hängt noch unten.",
+          "**Jens:** Der Kaffee ist noch heiß."
+        ],
+        "suggestions": [
+          "Die Wiederkehr von „noch“ als Leitmotiv prüfen und überwiegend erhalten: Sie verbindet die Gegenstände mit der Frage, was von der gemeinsamen Vergangenheit geblieben ist.",
+          "Die wiederholten Hinweise auf frühere Gewohnheiten nicht pauschal kürzen. Sie entwickeln unterschiedliche Aspekte der Beziehung, statt denselben Sachverhalt bloß erneut zu erklären.",
+          "Falls das Leitmotiv beim Vorlesen zu auffällig wirkt, eine einzelne Wiederholung versuchsweise streichen und die Wirkung vergleichen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018814
+}

@@ -1,0 +1,176 @@
+{
+  "who": "opus",
+  "item": "anchor__fontane-schach-von-wuthenow-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "In dem Salon der in der Behrenstraße wohnenden Frau von Carayon und ihrer Tochter Victoire waren an ihrem gewöhnlichen Empfangsabend einige Freunde versammelt, aber freilich wenige nur, da die große Hitze des Tages auch die treuesten Anhänger des Zirkels ins Freie gelockt hatte.",
+          "Zwei lange Absätze Personenbeschreibung (Alvensleben, Bülow, Sander), bevor das Gespräch beginnt",
+          "Das Gespräch, das eben geführt wurde, schien sich um die kurz vorher beendete Haugwitzsche Mission zu drehen ..."
+        ],
+        "suggestions": [
+          "Die Szene direkt im Gespräch beginnen lassen, etwa mit Frau von Carayons Einwand gegen die »Morgengabe« oder mit ihrer Aufforderung »Victoire, reiche Herrn von Bülow von den Karlsbader Oblaten«. Raum, Hitze und abwesende Gäste lassen sich in Halbsätzen nachreichen.",
+          "Die Porträts von Bülow und Sander in die Handlung einflechten. Bülows Gestikulieren lässt sich beim Beginn seines Monologs zeigen statt vorab zu beschreiben.",
+          "Für einen historischen Roman (Fontane, 1882) ist der breite Expositionseinstieg gattungstypisch. Nach heutigen Maßstäben verzögert er aber den Einstieg in den Konflikt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "an ihrem gewöhnlichen Empfangsabend",
+          "die große Hitze des Tages auch die treuesten Anhänger",
+          "neben der schönen Frau vom Hause ... unter gleichzeitigem scherzhaftem Bedauern",
+          "die feinste weiße Wäsche",
+          "der Mutter einen zärtlichen Blick zuwarf",
+          "in dessen Helle man jetzt deutlich erkennen konnte, daß ihr feines Profil"
+        ],
+        "suggestions": [
+          "Statt »gleichzeitigem scherzhaftem Bedauern« ein Verb wählen, etwa: »... und bedauerte scherzend, daß gerade der fehle, dem dieser Platz gebühre.«",
+          "Bei »die große Hitze« und »treuesten« prüfen, ob »die Hitze« genügt.",
+          "»deutlich« in »deutlich erkennen« ist redundant und kann entfallen.",
+          "Funktionale Adjektive behalten, die Figuren charakterisieren (»schwarzer Vollbart«, »Blatternarben«). Schmückende Doppelungen wie »feinste weiße« reduzieren."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "»Ihrer Zustimmung, lieber Alvensleben,« nahm Frau von Carayon das Wort,",
+          "»Oder sagen wir lieber, gar nicht existiren,« erwiderte Sander.",
+          "»Ja, das sind sie,« bestätigte Frau von Carayon, während sie gleich danach hinzufügte:",
+          "»Etwas!« lachte Bülow.",
+          "drohte jetzt zu dem Sprecher hinüber und sagte:"
+        ],
+        "suggestions": [
+          "»erwiderte Sander« kann entfallen. Frau von Carayon hat ihn unmittelbar zuvor zum Sprechen aufgefordert, der Sprecher ist also klar.",
+          "»bestätigte Frau von Carayon, während sie gleich danach hinzufügte« straffen: »Ja, das sind sie.« Eine Pause. »Vielleicht auch etwas hochmüthig.«",
+          "»lachte Bülow« ist sinnvoll, weil der Sprecher wechselt und die Geste charakterisiert. Es kann bleiben.",
+          "Bei Victoire genügt die Handlung als Zuordnung: »Victoire drohte zu ihm hinüber. »Sie müssen wissen ...«« Das »und sagte« kann entfallen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "einige Freunde versammelt, aber freilich wenige nur",
+          "der um einige Jahre jüngere von beiden",
+          "seit wenig Wochen erst",
+          "und -- er sprach eigentlich immer / in Polen eigentlich gescheitert sind",
+          "wenigstens in allem was Erscheinung anging / Eines haben wir wenigstens / Wir wissen wenigstens",
+          "Es ist, glaub' ich, das Einzige / Für die Polen reichten wir allenfalls aus / so zu sagen"
+        ],
+        "suggestions": [
+          "Unbestimmte Mengen präzisieren: »einige Freunde ... wenige nur« ist widersprüchlich und vage. Besser »nur vier Gäste« oder die Anwesenden direkt benennen.",
+          "»um einige Jahre jüngere« durch eine konkrete Angabe ersetzen (»der fünf Jahre jüngere«) oder ganz streichen.",
+          "»eigentlich« und »freilich« in der Erzählerrede streichen. In Figurenrede, besonders bei Bülow, können sie als Charakterisierung bleiben.",
+          "Das dreifache »wenigstens« auf höchstens ein Vorkommen reduzieren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "hatte neben der schönen Frau vom Hause Platz genommen unter gleichzeitigem scherzhaftem Bedauern",
+          "während ihm der in der Taille knapp anschließende Rock von niederländischem Tuche sein Embonpoint zusammenschnürte",
+          "der Mutter einen zärtlichen Blick zuwarf, während Alvensleben der schönen Frau die Hand küßte",
+          "bestätigte Frau von Carayon, während sie gleich danach hinzufügte",
+          "Und dabei beugte sie sich aus dem Schatten in den Lichtschein der Lampe vor"
+        ],
+        "suggestions": [
+          "»während sie gleich danach hinzufügte« ist ein logischer Widerspruch: »während« bedeutet gleichzeitig, »gleich danach« nacheinander. Das »während« streichen.",
+          "Die Reaktionen auf Frau von Carayons Bonmot nacheinander erzählen: »Alvensleben küßte ihr die Hand. Am Theetisch sah Victoire auf und warf der Mutter einen zärtlichen Blick zu.«",
+          "In Sanders Beschreibung ist »während« kontrastiv statt zeitlich gemeint. Besser einen eigenen Satz bilden: »Der Rock ... schnürte sein Embonpoint zusammen.«",
+          "»unter gleichzeitigem ... Bedauern« in eine eigene Handlung auflösen: »Er setzte sich ... und bedauerte scherzend ...«"
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "waren an ihrem gewöhnlichen Empfangsabend einige Freunde versammelt",
+          "allgemein als das Haupt jener militärischen Frondeurs angesehen wurde",
+          "Das Gespräch, das eben geführt wurde",
+          "von dem Augenblick an, wo Polen mit ins Gespräch gezogen worden war",
+          "die bis dahin unbemerkt am Theetisch beschäftigt gewesene Tochter Victoire"
+        ],
+        "suggestions": [
+          "»allgemein als das Haupt ... angesehen wurde« aktiv fassen: »Die Stadt sah in ihm das Haupt jener Frondeurs ...«",
+          "»Das Gespräch, das eben geführt wurde, schien sich um ... zu drehen« ersetzen durch »Man sprach über die Haugwitzsche Mission.«",
+          "»wo Polen mit ins Gespräch gezogen worden war« ersetzen durch »seit Sander Polen erwähnt hatte«.",
+          "»die bis dahin unbemerkt am Theetisch beschäftigt gewesene Tochter« auflösen: »Victoire, die bis dahin still am Theetisch hantiert hatte, ...«"
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Am entschiedensten der um einige Jahre jüngere von beiden, ein ehemaliger Stabskapitän, der, nach einem abenteuernden Leben in England und den Unionsstaaten in die Heimat zurückgekehrt, allgemein als das Haupt jener militärischen Frondeurs angesehen wurde, die damals die politische Meinung der Hauptstadt machten, beziehungsweise terrorisirten.",
+          "Frau von Carayon aber bemängelte diese »Morgengabe«, weil man nicht gut geben oder verschenken könne, was man nicht habe, bei welchem Worte die bis dahin unbemerkt am Theetisch beschäftigt gewesene Tochter Victoire der Mutter einen zärtlichen Blick zuwarf, während Alvensleben der schönen Frau die Hand küßte.",
+          "Beiden gegenüber, an der der Mitte des Zimmers zugekehrten Tischseite, saßen zwei Herren in Civil, die, seit wenig Wochen erst heimisch in diesem Kreise, sich nichtsdestoweniger bereits eine dominirende Stellung innerhalb desselben errungen hatten.",
+          "Und dabei beugte sie sich aus dem Schatten in den Lichtschein der Lampe vor, in dessen Helle man jetzt deutlich erkennen konnte, daß ihr feines Profil einst dem der Mutter geglichen haben mochte, durch zahlreiche Blatternarben aber um seine frühere Schönheit gekommen war."
+        ],
+        "suggestions": [
+          "Den Bülow-Satz teilen: »Der jüngere war ein ehemaliger Stabskapitän. Nach Jahren in England und Amerika war er heimgekehrt und galt nun als Haupt der militärischen Frondeurs. Sie machten die politische Meinung der Hauptstadt – oder terrorisierten sie.«",
+          "Den »Morgengabe«-Satz in drei Sätze zerlegen: Einwand, Victoires Blick, Alvenslebens Handkuss.",
+          "Den Schlusssatz teilen, damit die Enthüllung der Blatternarben als eigener, kurzer Satz am Ende wirkt: »... wie das der Mutter. Doch Blatternarben hatten es zerstört.«",
+          "Partizipialkonstruktionen wie »der in der Behrenstraße wohnenden« und »der der Mitte des Zimmers zugekehrten« in Relativsätze oder eigene Sätze auflösen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Bülows Monolog von »Etwas! ... O, meine Gnädigste« bis »wenn auch freilich von der unangenehmen Seite« umfasst rund zwölf Sätze ohne Unterbrechung.",
+          "Unsere preußische Wirthschaft ist erbärmlich, und Mirabeau hatte Recht, den gepriesenen Staat Friedrichs des Großen mit einer Frucht zu vergleichen, die schon faul sei, bevor sie noch reif geworden, aber faul oder nicht, Eines haben wir wenigstens: ...",
+          "Es ist der Sitz der Stagnation, eine Brutstätte der Vorurtheile."
+        ],
+        "suggestions": [
+          "Der Monolog charakterisiert Bülow als Dauerredner (»er sprach eigentlich immer«). Seine Länge ist also teilweise Absicht. Trotzdem sollte er durch Reaktionen der Zuhörer unterbrochen werden, etwa einen Einwurf Sanders oder ein Lächeln der Gastgeberin.",
+          "Den Mirabeau-Vergleich als stärkstes Bild behalten. Redundante Aussagen wie »Sitz der Stagnation, eine Brutstätte der Vorurtheile« auf eine reduzieren.",
+          "Bülows Gestikulieren, das in der Exposition vorab beschrieben wird, in den Monolog einbauen. Das gliedert ihn und zeigt die Figur, statt sie zu behaupten."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "in dessen Helle man jetzt deutlich erkennen konnte, daß ihr feines Profil einst dem der Mutter geglichen haben mochte",
+          "Das Gespräch, das eben geführt wurde, schien sich um die kurz vorher beendete Haugwitzsche Mission zu drehen",
+          "allgemein als das Haupt jener militärischen Frondeurs angesehen wurde",
+          "Er konnte, wie seine Freunde sagten, nur sprechen um Vortrag zu halten"
+        ],
+        "suggestions": [
+          "»man jetzt deutlich erkennen konnte, daß« streichen und direkt zeigen: »Das Lampenlicht fiel auf ihr Profil. Es war das der Mutter – nur von Blatternarben zerstört.«",
+          "»schien sich ... zu drehen« ist eine unnötige Distanzierung, denn der Erzähler weiß, worüber gesprochen wird. Besser: »Man sprach über die Haugwitzsche Mission.«",
+          "»wie seine Freunde sagten« ist eine indirekte Charakterisierung aus zweiter Hand. Der Monolog belegt die Eigenschaft ohnehin, daher kann die Zuschreibung entfallen."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "der schönen Frau vom Hause ... während Alvensleben der schönen Frau die Hand küßte",
+          "seinem Kathedervortrage Nachdruck zu geben. Er konnte ... nur sprechen um Vortrag zu halten, und -- er sprach eigentlich immer.",
+          "sein vollkommener Widerpart ... Was den Gegensatz vollendete",
+          "am Theetisch beschäftigt gewesene Tochter ... ihren Platz am Theetisch aufgegeben hatte",
+          "Es ist der Sitz der Stagnation, eine Brutstätte der Vorurtheile.",
+          "nicht gut geben oder verschenken könne"
+        ],
+        "suggestions": [
+          "»schönen Frau« beim zweiten Vorkommen durch »der Gastgeberin« ersetzen oder ganz weglassen.",
+          "Die Dreifachbetonung von Bülows Redseligkeit (Kathedervortrag, Vortrag halten, sprach immer) auf eine prägnante Aussage verdichten, etwa: »Er sprach nicht, er dozierte – und er sprach immer.«",
+          "»geben oder verschenken« auf ein Verb reduzieren.",
+          "»Widerpart« und »Gegensatz« meinen dasselbe. Eines genügt, den Rest sollten die Details (Bart, Rock, Wäsche) zeigen.",
+          "Die Wiederholung von »Morgengabe« und »faul« ist bewusst rhetorisch eingesetzt und kann bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.156712
+}

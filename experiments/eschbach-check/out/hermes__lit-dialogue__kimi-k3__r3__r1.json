@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__kimi-k3__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Jonas steht am Tisch, die Hand noch an der Stuhllehne."],
+        "suggestions": [
+          "Der Einstieg ist sehr effektiv, da er sofort die Spannung und die Ausgangssituation etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sehr langsam"],
+        "suggestions": [
+          "Das Adverb 'sehr' in 'Sehr langsam' könnte durch ein stärkeres Verb ersetzt werden, z.B.: 'Er legt den Löffel bedächtig hin.'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Redeeinleitungen nötig, da das Skript-Format den Sprecher eindeutig zuordnet."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["sowieso", "ja", "doch"],
+        "suggestions": [
+          "Einige Füllwörter dienen der Charakterisierung, könnten aber gestrafft werden. Beispiel: 'Ich war sowieso in der Gegend' -> 'Ich war in der Gegend'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine 'während'- oder 'als'-Konstruktionen verwendet; die Handlungen sind klar sequenziell."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist komplett aktiv formuliert, was die Dynamik stärkt."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die Satzstruktur ist sehr gut auf den Rhythmus des Dialogs abgestimmt; keine unnötigen Verschachtelungen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Dialoge sind prägnant und treffend, die Kürze unterstreicht die Distanz der Charaktere."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Marek greift sofort zum Zucker, dann hält er inne."],
+        "suggestions": [
+          "Sehr gut umgesetzt ('Show, don't tell'). Keine unnötigen 'er sah, dass'-Konstruktionen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Früher. Früher.", "Egal. Genau. Egal."],
+        "suggestions": [
+          "Die Wiederholungen wirken hier stilistisch gewollt und unterstreichen die Spannung und das Unausgesprochene zwischen den Charakteren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

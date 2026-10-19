@@ -1,0 +1,88 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-sonnet-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so dicht auf dem Wasser..."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch sehr stark und setzt die Szene sofort in den Kontext."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["dunkelblauen Mantel", "leises Klopfen"],
+        "suggestions": [
+          "Die Adjektive sind meist funktional. Achte darauf, ob 'dunkelblau' für die Charakterisierung der Frau wirklich notwendig ist oder ob der Fokus auf dem 'Regenschirm' reicht."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["fragte er", "sagte Ilse"],
+        "suggestions": [
+          "Die Kennzeichnungen sind sparsam und effektiv eingesetzt. Keine Änderung nötig."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr sauber und frei von unnötigen Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["während", "als"],
+        "suggestions": [
+          "Die zeitlichen Abläufe sind klar strukturiert. Die wenigen 'als'-Konstruktionen stören den Lesefluss nicht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist fast durchgehend aktiv formuliert. Sehr gut."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie prüfte die Klemmen am Seil, wie sie es jeden Morgen tat, legte die Hand auf den kalten Stahl und fühlte nach, ob er sang."
+        ],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und erzeugen einen guten Rhythmus."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind kurz, prägnant und charakterisierend. Perfekt gestrafft."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "sie fand, dass er es jeden Morgen ein bisschen früher tat",
+          "Ilse kannte sie vom Sehen"
+        ],
+        "suggestions": [
+          "Hier wird der Leser durch 'sie fand, dass' auf Distanz gehalten. Besser: 'Er tat es jeden Morgen ein bisschen früher.' (Direkte Beobachtung statt Interpretation durch den Erzähler)."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Seil", "Nebel"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier als bewusstes Stilmittel (Leitmotive), daher sind sie passend."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

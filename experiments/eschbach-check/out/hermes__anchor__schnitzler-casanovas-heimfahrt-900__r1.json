@@ -1,0 +1,95 @@
+{
+  "who": "hermes",
+  "item": "anchor__schnitzler-casanovas-heimfahrt-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "In seinem dreiundfünfzigsten Lebensjahre, als Casanova längst nicht mehr von der Abenteuerlust der Jugend... gejagt wurde"
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr expositorisch und biografisch. Beginnen Sie näher am unmittelbaren Erleben der Unruhe, um den Leser schneller in die Szene zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["luftigen Höhen", "schmerzliches Sehnen", "gottlosen Franzosen", "leidig"],
+        "suggestions": [
+          "Viele Adjektive dienen der atmosphärischen Ausschmückung. Prüfen Sie, welche durch stärkere Verben ersetzt werden können, um den Text moderner und direkter zu machen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Da kaum Dialoge vorhanden sind, ist dieser Punkt nicht kritisch. Die wenigen Stellen sind unauffällig."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["übrigens", "wohl", "ja sogar", "eigentlich"],
+        "suggestions": [
+          "Streichen Sie Füllwörter wie 'übrigens' oder 'wohl', die den Erzählfluss verlangsamen und den Ton unnötig distanziert machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "während er für einen vernichtenden... Satz die letzte Abrundung zu finden sich mühte"
+        ],
+        "suggestions": [
+          "Vermeiden Sie 'während'-Konstruktionen. Beschreiben Sie Handlungen nacheinander, um die Dynamik zu erhöhen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["von der Ruhelosigkeit... gejagt wurde", "Gesuche gerichtet", "dünkte"],
+        "suggestions": [
+          "Formulieren Sie Passivkonstruktionen in Aktiv um, um Casanova als handelndes Subjekt stärker in den Vordergrund zu rücken."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Der gesamte erste Absatz besteht aus extrem langen, verschachtelten Sätzen, die den Lesefluss hemmen."
+        ],
+        "suggestions": [
+          "Zerlegen Sie die Bandwurmsätze in kürzere, prägnantere Einheiten. Ein Punkt nach einem Hauptgedanken erhöht die Lesbarkeit massiv."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher kein Korrekturbedarf."]
+      },
+      "indirectPerception": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": ["fühlte er", "glaubte er", "schien sich... auszusprechen", "dünkte"],
+        "suggestions": [
+          "Entfernen Sie Filterwörter. Statt 'er fühlte das Heimweh', beschreiben Sie die physischen oder psychischen Auswirkungen des Heimwehs direkt."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Mehrfache Umschreibungen der Unruhe und des Alterszustands."],
+        "suggestions": [
+          "Straffen Sie die Beschreibungen der inneren Zustände. Ein prägnantes Bild reicht oft aus, um die Stimmung zu vermitteln."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

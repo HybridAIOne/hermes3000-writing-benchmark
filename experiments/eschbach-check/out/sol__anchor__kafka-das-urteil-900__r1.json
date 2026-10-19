@@ -1,0 +1,142 @@
+{
+  "who": "sol",
+  "item": "anchor__kafka-das-urteil-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Es war an einem Sonntagvormittag im schönsten Frühjahr.",
+          "Er hatte gerade einen Brief an einen sich im Ausland befindenden Jugendfreund beendet"
+        ],
+        "suggestions": [
+          "Für einen unmittelbareren Einstieg mit dem abgeschlossenen Brief beginnen: „Georg Bendemann verschloß den Brief an seinen Jugendfreund in Rußland.“ Tageszeit und Umgebung anschließend dosiert ergänzen.",
+          "Die ausführliche Beschreibung der Häuser verkürzen, sofern sie für die räumliche und atmosphärische Wirkung nicht benötigt wird. Der ruhige Einstieg ist allerdings eine erkennbare stilistische Entscheidung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "im schönsten Frühjahr",
+          "einen sich im Ausland befindenden Jugendfreund",
+          "in spielerischer Langsamkeit",
+          "mit einer Trockenheit"
+        ],
+        "suggestions": [
+          "Die umständliche Partizipialgruppe durch „einen Jugendfreund im Ausland“ ersetzen.",
+          "Den pauschalen Superlativ „schönsten“ auf seinen atmosphärischen Nutzen prüfen.",
+          "Charakterisierende Zusätze wie „in spielerischer Langsamkeit“ nicht pauschal streichen: Sie vermitteln Georgs Haltung und das Erzähltempo."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "wie der Freund bei seinen immer seltener werdenden Besuchen klagte",
+          "er sagte ja selbst, daß er die Verhältnisse in der Heimat nicht mehr verstünde"
+        ],
+        "suggestions": [
+          "Keine Kürzung von Dialogkennzeichnungen erforderlich: Der Ausschnitt enthält keine direkte Figurenrede.",
+          "Die vorhandenen Redezuweisungen dienen der Herkunftsangabe von Informationen und sind nicht bloß überflüssige Sprecheretiketten."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "seit langem aber schon zu stocken schien",
+          "Vielleicht gelang es nicht einmal, ihn überhaupt nach Hause zu bringen",
+          "die demnach also auch die kürzeste Abwesenheit",
+          "vielleicht spielten -- was sogar sehr wahrscheinlich war -- glückliche Zufälle eine weit wichtigere Rolle"
+        ],
+        "suggestions": [
+          "Doppelte zeitliche und logische Markierungen straffen: „seit langem stockte“ beziehungsweise „die demnach auch die kürzeste Abwesenheit“.",
+          "„Nicht einmal“ und „überhaupt“ nicht ohne erkennbaren Zusatznutzen kombinieren.",
+          "Die Häufung von „vielleicht“, „wohl“, „wirklich“ und „ja“ prüfen. Einen Teil erhalten, weil diese Wörter Georgs Unsicherheit und Selbstrechtfertigung ausdrücken.",
+          "Den Einschub „was sogar sehr wahrscheinlich war“ streichen, wenn die widersprüchliche Gewichtung von Möglichkeiten nicht beabsichtigt ist."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "verschloß ihn in spielerischer Langsamkeit und sah dann",
+          "daß man ihm gleichzeitig, je schonender, desto kränkender, sagte",
+          "während hunderttausende Russen ruhig in der Welt herumfuhren"
+        ],
+        "suggestions": [
+          "Die klare Handlungsfolge „verschloß … und sah dann“ beibehalten.",
+          "Kein systematischer Änderungsbedarf: „während“ bezeichnet hier einen Gegensatz, „gleichzeitig“ eine zusätzliche Bedeutung des Ratschlags, nicht eine überladene Folge paralleler Handlungen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Folgte er aber wirklich dem Rat und würde hier -- natürlich nicht mit Absicht, aber durch die Tatsachen -- niedergedrückt"
+        ],
+        "suggestions": [
+          "Bei gewünschter Straffung aktiv formulieren: „Folgte er dem Rat und drückten ihn hier die Verhältnisse nieder …“",
+          "Die Passivform kann bleiben, wenn die Ohnmacht des Freundes wichtiger ist als ein konkreter Handlungsträger. Insgesamt dominiert im Ausschnitt das Aktiv."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Das bedeutete aber nichts anderes, als daß man ihm gleichzeitig, je schonender, desto kränkender, sagte, daß seine bisherigen Versuche mißlungen seien",
+          "Folgte er aber wirklich dem Rat und würde hier -- natürlich nicht mit Absicht, aber durch die Tatsachen -- niedergedrückt",
+          "Vielleicht hatte ihn der Vater bei Lebzeiten der Mutter dadurch, daß er im Geschäft nur seine Ansicht gelten lassen wollte, an einer wirklichen eigenen Tätigkeit gehindert"
+        ],
+        "suggestions": [
+          "Die lange Folge von „daß“-Sätzen in mehrere gedankliche Schritte teilen: „Damit erklärte man seine bisherigen Versuche für gescheitert. Er sollte zurückkehren und sich den erfolgreichen Freunden unterordnen.“",
+          "Die Vermutungen über Vater und Geschäftsentwicklung als einzelne Sätze formulieren. Personalverdopplung und Umsatzsteigerung anschließend als konkrete Ergebnisse absetzen.",
+          "Nicht jede Periode auflösen: Die Verschachtelung bildet Georgs kreisendes Denken ab. Vor allem dort teilen, wo Bedingung, Einschub und Schlussfolgerung schwer auseinanderzuhalten sind."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Dialogstraffung erforderlich, da keine direkten Dialogpassagen vorliegen. Die langen gedanklichen Erörterungen sind unter Satzlänge und Wiederholungen zu prüfen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Er dachte darüber nach, wie dieser Freund",
+          "dessen gelbe Hautfarbe auf eine sich entwickelnde Krankheit hinzudeuten schien",
+          "Georg aber hatte keine Lust gehabt, dem Freund von seinen geschäftlichen Erfolgen zu schreiben"
+        ],
+        "suggestions": [
+          "Den ausdrücklichen Gedankenfilter probeweise entfernen: „Der Freund hatte sich vor Jahren nach Rußland geflüchtet, unzufrieden mit seinem Fortkommen zu Hause.“",
+          "Unsicherheitsmarker wie „hinzudeuten schien“ dort erhalten, wo Georg nur Vermutungen anstellen kann; eine direkte Krankheitsbehauptung würde den Informationsgehalt verändern.",
+          "Georgs Unlust nach Möglichkeit durch eine konkrete Entscheidung am Brief zeigen. Dabei beachten, dass die distanzierte Gedankenvermittlung zur Erzählweise des Ausschnitts gehört."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "seine Existenz hierher zu verlegen, alle die alten freundschaftlichen Beziehungen wieder aufzunehmen",
+          "daß er zurückkehren und sich als ein für immer Zurückgekehrter",
+          "in der Fremde nutzlos ab",
+          "trotz allem in seiner Fremde",
+          "keine Heimat und keine Freunde mehr"
+        ],
+        "suggestions": [
+          "Die möglichen Folgen einer Rückkehr bündeln: gescheiterte Existenz, Abhängigkeit von Freunden und drohende Beschämung müssen nicht jeweils mehrfach entfaltet werden.",
+          "„Zurückkehren“ und „für immer Zurückgekehrter“ nur dann beide behalten, wenn der Wechsel von einer Handlung zu einer gesellschaftlichen Festlegung betont werden soll.",
+          "Die wiederkehrenden Begriffe „Freund“, „Heimat“ und „Fremde“ als Leitmotive behandeln, nicht mechanisch durch Synonyme ersetzen. Kürzen vor allem bei mehrfach gleich begründeten Schlussfolgerungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02303
+}

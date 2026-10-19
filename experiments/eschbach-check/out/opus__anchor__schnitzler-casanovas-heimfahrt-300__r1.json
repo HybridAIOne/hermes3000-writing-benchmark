@@ -1,0 +1,148 @@
+{
+  "who": "opus",
+  "item": "anchor__schnitzler-casanovas-heimfahrt-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "In seinem dreiundfünfzigsten Lebensjahre, als Casanova längst nicht mehr von der Abenteuerlust der Jugend, sondern von der Ruhelosigkeit nahenden Alters durch die Welt gejagt wurde, fühlte er in seiner Seele das Heimweh ...",
+          "Öfter schon in den letzten zehn Jahren seiner Verbannung hatte er an den hohen Rat Gesuche gerichtet ...",
+          "Der gesamte Text ist zusammenfassende Vorgeschichte. Eine konkrete Szene mit Ort, Zeitpunkt und Handlung fehlt."
+        ],
+        "suggestions": [
+          "In einer konkreten Situation einsteigen, etwa: Casanova sitzt im Gasthof in Mantua über der Streitschrift gegen Voltaire, als ein Brief aus Venedig eintrifft.",
+          "Verbannung, Bleikammer-Flucht und Gnadengesuche nach und nach in Handlung und Gedanken einflechten, statt sie vorab zu referieren.",
+          "Prüfen, ob die Vorgeschichte über die Jahre der Verbannung für den Einstieg überhaupt nötig ist oder später nachgereicht werden kann."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "in seinen fast demütig flehenden Worten ein schmerzliches Sehnen und echte Reue",
+          "dem an innerm wie an äußerm Glanz langsam verlöschenden Abenteurer",
+          "in dem bescheidenen, aber anständigen Gasthof",
+          "in unzerstörbarer Weise zu befestigen",
+          "Betrügereien meist lustiger Natur",
+          "die Geschichte seiner wunderbaren Flucht"
+        ],
+        "suggestions": [
+          "Adjektivhäufungen ausdünnen: 'flehende Worte' trägt die Demut bereits, 'fast demütig' kann entfallen.",
+          "'in unzerstörbarer Weise zu befestigen' durch ein starkes Verb ersetzen, z. B. 'sein Ansehen zu zementieren'.",
+          "Den Verfall ('langsam verlöschenden Abenteurer') zeigen statt benennen, etwa durch ein Detail wie den abgetragenen Rock oder die gezählten Münzen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Text enthält keinen Dialog und damit keine Redeeinleitungen."],
+        "suggestions": [
+          "Kein Handlungsbedarf. Wird der Einstieg szenisch umgebaut, Redeeinleitungen sparsam setzen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "seit einiger Zeit",
+          "Öfter schon",
+          "manchmal auch ein grimmiges Vergnügen",
+          "Da seine Geldmittel recht spärlich geworden waren",
+          "hauptsächlich mit Abfassung einer Streitschrift",
+          "unter denen übrigens nicht Zuchtlosigkeit ...",
+          "fast demütig flehenden Worten"
+        ],
+        "suggestions": [
+          "Unpräzise Zeitangaben konkretisieren: statt 'seit einiger Zeit' z. B. 'seit dem letzten Winter', statt 'Öfter schon' z. B. 'Sieben Gesuche hatte er geschrieben'.",
+          "'recht', 'übrigens', 'fast' und 'hauptsächlich' streichen. Die Aussagen gewinnen dadurch an Kraft.",
+          "Statt 'Geldmittel recht spärlich' ein konkretes Bild verwenden, z. B. 'Nach der letzten Rechnung blieben ihm drei Zechinen'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "In seinem dreiundfünfzigsten Lebensjahre, als Casanova längst nicht mehr ...",
+          "Er glaubte um so sicherer auf Erhörung rechnen zu dürfen, als die Sünden seiner früheren Jahre ... in Vergessenheit zu geraten begannen und die Geschichte seiner wunderbaren Flucht ... zu übertönen anfing",
+          "und er vertrieb sich indes die Zeit"
+        ],
+        "suggestions": [
+          "Die 'als'-Konstruktionen auflösen und die Gedankenschritte nacheinander darstellen: erst das Verblassen der alten Vorwürfe, dann der Ruhm der Flucht, dann die Hoffnung.",
+          "'indes' streichen und die Tätigkeit im Gasthof als eigenen Satz bzw. eigene Szene darstellen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "von der Ruhelosigkeit nahenden Alters durch die Welt gejagt wurde",
+          "man möge ihm die Heimkehr gestatten"
+        ],
+        "suggestions": [
+          "Aktiv formulieren: 'als ihn längst nicht mehr die Abenteuerlust der Jugend, sondern die Ruhelosigkeit des nahenden Alters durch die Welt jagte'.",
+          "'man möge ihm' konkretisieren: 'der Rat möge ihm die Heimkehr gestatten'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Er glaubte um so sicherer auf Erhörung rechnen zu dürfen, als die Sünden seiner früheren Jahre, unter denen übrigens nicht Zuchtlosigkeit, Händelsucht und Betrügereien meist lustiger Natur, sondern Freigeisterei den Venezianer Ratsherren die unverzeihlichste dünkte, allmählich in Vergessenheit zu geraten begannen und ... binnen kurzem günstig entscheiden würde. (über 120 Wörter mit mehrfacher Einschachtelung)",
+          "In seinem dreiundfünfzigsten Lebensjahre, als Casanova ..., fühlte er ... so heftig anwachsen, daß er sie, gleich einem Vogel, der aus luftigen Höhen zum Sterben allmählich nach abwärts steigt, in eng und immer enger werdenden Kreisen zu umziehen begann.",
+          "und er vertrieb sich indes die Zeit - ungeistigerer Zerstreuungen nicht zu gedenken, auf die gänzlich zu verzichten er nicht imstande war - hauptsächlich mit Abfassung einer Streitschrift ..."
+        ],
+        "suggestions": [
+          "Den Satz ab 'Er glaubte um so sicherer' in mindestens vier Sätze teilen: die Hoffnung auf Gnade, den eigentlichen Vorwurf der Freigeisterei, den Ruhm der Bleikammer-Flucht und die Briefe nach Mantua.",
+          "Den Vogelvergleich als eigenen Satz isolieren, damit das Bild Wirkung entfalten kann.",
+          "Einschübe in Gedankenstrichen auflösen: 'Er suchte auch andere Zerstreuungen. Darauf zu verzichten, vermochte er nicht.'",
+          "Hinweis: Der Periodenstil ist bewusste Stilwahl des frühen 20. Jahrhunderts (Schnitzler). Für heutige Leser erschwert er den Zugang jedoch stark."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Text enthält keine Dialogpassagen."],
+        "suggestions": [
+          "Kein Handlungsbedarf. Bei einem szenischen Umbau ließe sich ein kurzer Dialog, etwa mit dem Wirt über die offene Rechnung, gezielt zur Belebung einsetzen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "fühlte er in seiner Seele das Heimweh nach seiner Vaterstadt Venedig so heftig anwachsen",
+          "so schien sich seit einiger Zeit in seinen fast demütig flehenden Worten ein schmerzliches Sehnen ... auszusprechen",
+          "Er glaubte um so sicherer auf Erhörung rechnen zu dürfen",
+          "durch deren Veröffentlichung er seine Stellung ... zu befestigen gedachte"
+        ],
+        "suggestions": [
+          "Das Heimweh direkt zeigen: 'Das Heimweh nach Venedig wuchs' oder durch eine konkrete Handlung, etwa Casanova, der nachts von den Lagunen träumt.",
+          "'schien sich ... auszusprechen' ersetzen, indem eine Zeile aus einem Gnadengesuch zitiert wird.",
+          "'Er glaubte ... rechnen zu dürfen' in direkte Gedankenrede überführen: 'Diesmal würden sie ihn erhören.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Dreifaches 'allmählich' bzw. Synonym: 'allmählich nach abwärts steigt', 'allmählich in Vergessenheit', 'langsam verlöschenden'",
+          "Wiederholte Anfangsverben: 'zu umziehen begann', 'zu geraten begannen', 'zu übertönen anfing'",
+          "Doppelformeln: 'Trotz und Eigensinn', 'schmerzliches Sehnen und echte Reue', 'seine Stellung und sein Ansehen', 'an innerm wie an äußerm Glanz'",
+          "'eng und immer enger werdenden Kreisen' sowie 'immer unverkennbarer'",
+          "Das Motiv der Hoffnung auf Begnadigung wird dreimal umschrieben: Gesuche, 'auf Erhörung rechnen', 'Hoffnung gemacht'."
+        ],
+        "suggestions": [
+          "Die Konstruktionen mit 'begann/anfing' durch einfache Verben ersetzen: 'umkreiste', 'gerieten in Vergessenheit', 'übertönte'.",
+          "Bei Doppelformeln jeweils das treffendere Wort wählen, z. B. nur 'Trotz' oder nur 'Reue'.",
+          "Die Hoffnung auf Begnadigung einmal pointiert darstellen, statt sie mehrfach zu umkreisen.",
+          "Das Allmählichkeits-Motiv nur im Vogelbild belassen, wo es seine stärkste Wirkung hat."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.10452
+}

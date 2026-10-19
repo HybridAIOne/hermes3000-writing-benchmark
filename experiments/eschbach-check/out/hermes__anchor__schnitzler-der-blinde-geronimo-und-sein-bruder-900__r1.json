@@ -1,0 +1,103 @@
+{
+  "who": "hermes",
+  "item": "anchor__schnitzler-der-blinde-geronimo-und-sein-bruder-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Der blinde Geronimo stand von der Bank auf und nahm die Gitarre zur Hand"],
+        "suggestions": [
+          "Der Einstieg ist solide, könnte aber durch einen stärkeren sensorischen Fokus (z.B. das Geräusch der Wagen direkt als Auslöser) noch unmittelbarer gestaltet werden."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "feuchtschmutzigen Boden",
+          "ungleichmäßigen, manchmal plötzlich aufkreischenden Stimme",
+          "vollkommen unbeweglich"
+        ],
+        "suggestions": [
+          "Viele Adjektive wirken dekorativ. Versuchen Sie, die Atmosphäre durch stärkere Verben zu erzeugen (z.B. statt 'feuchtschmutziger Boden' den Matsch oder Schlamm beschreiben)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Geronimo", "sagte der junge Mann"],
+        "suggestions": [
+          "Die Marker sind funktional. In einigen Fällen könnte man sie streichen, wenn aus dem Kontext klar ist, wer spricht."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["ziemlich eben", "beinahe regungslos", "so gut wie zu Hause"],
+        "suggestions": [
+          "Wörter wie 'ziemlich' oder 'beinahe' schwächen die Aussagekraft. Streichen Sie diese, um die Beschreibungen präziser und direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Während er die Stufen aufwärts schritt, begann Geronimo wieder zu singen."],
+        "suggestions": [
+          "Vermeiden Sie 'während'. Beschreiben Sie die Handlungen nacheinander, um den Lesefluss zu beschleunigen: 'Er schritt die Stufen aufwärts. Dabei begann er wieder zu singen.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["bereit gelegen war"],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv. 'bereit gelegen war' könnte man durch 'lag bereit' ersetzen, um den statischen Charakter zu vermeiden."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Er hatte wie oftmals mit dem Bolzen nach der Esche an der Mauer geschossen, und als er den Schrei hörte, dachte er gleich, dass er den kleinen Bruder verletzt haben musste, der eben vorbeigelaufen war."
+        ],
+        "suggestions": [
+          "Der Text enthält sehr viele verschachtelte Sätze mit mehreren Nebensätzen. Brechen Sie diese in kürzere, prägnantere Sätze auf, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Bring mir Wein,« sagte Geronimo", "»Ihr Wohl, meine Herrschaften!«"],
+        "suggestions": [
+          "Die Dialoge sind angenehm kurz und pointiert. Hier besteht kein Handlungsbedarf."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Er dachte, wie oft diese beiden schon...",
+          "Er hörte längst nicht mehr auf seine eigene Stimme",
+          "Er dachte gleich, dass er den kleinen Bruder verletzt haben musste"
+        ],
+        "suggestions": [
+          "Vermeiden Sie 'Er dachte, dass...' oder 'Er vernahm'. Zeigen Sie die Gedanken und Wahrnehmungen direkt durch Handlungen oder innere Monologe, statt sie als Beobachter zu berichten."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Die detaillierte Schilderung des Unfalls wird sehr ausführlich und redundant erzählt."
+        ],
+        "suggestions": [
+          "Die Rückblende ist sehr lang und wiederholt Informationen, die der Leser bereits erahnen kann. Straffen Sie die Exposition des Unfalls, um das Erzähltempo zu erhöhen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,100 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-schach-von-wuthenow-900",
+  "run": 3,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "In dem Salon der in der Behrenstraße wohnenden Frau von Carayon und ihrer Tochter Victoire waren an ihrem gewöhnlichen Empfangsabend einige Freunde versammelt"
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch solide, könnte aber durch einen direkteren Fokus auf eine spezifische Handlung oder einen Konflikt noch mehr Spannung erzeugen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["schönen Frau", "treuesten Anhänger", "lebhafte Gestikulationen"],
+        "suggestions": [
+          "Viele Adjektive dienen der Dekoration. Prüfen, ob stärkere Verben die Beschreibung präziser machen können (z.B. statt 'lebhafte Gestikulationen' das Handeln beschreiben)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["bestätigte Frau von Carayon", "erwiderte Sander"],
+        "suggestions": [
+          "Die Redeeinleitungen sind etwas formelhaft. Oft reicht ein Absatz oder eine Handlung, um den Sprecher zu identifizieren, ohne 'sagte/erwiderte' zu nutzen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["freilich", "eben", "doch", "ja"],
+        "suggestions": [
+          "Füllwörter wie 'freilich' oder 'eben' wirken antiquiert und schwächen die Aussagekraft. Streichen, um den Text straffer zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "unter gleichzeitigem scherzhaftem Bedauern",
+          "während Alvensleben der schönen Frau die Hand küßte"
+        ],
+        "suggestions": [
+          "Handlungen nacheinander beschreiben statt 'während' zu nutzen, um die Dynamik und die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["waren... versammelt", "war... erschienen", "wurde... geführt"],
+        "suggestions": [
+          "Passivkonstruktionen in Aktiv umwandeln, um mehr Lebendigkeit und Klarheit zu schaffen (z.B. 'Versammelten sich Freunde' statt 'waren Freunde versammelt')."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Von den Offizieren des Regiments Gensdarmes, die selten an einem dieser Abende fehlten, war nur einer erschienen, ein Herr von Alvensleben, und hatte neben der schönen Frau vom Hause Platz genommen unter gleichzeitigem scherzhaftem Bedauern darüber, daß gerade der fehle, dem dieser Platz in Wahrheit gebühre."
+        ],
+        "suggestions": [
+          "Die Sätze sind sehr verschachtelt und lang. Kürzen und in mehrere Hauptsätze zerlegen, um den Lesefluss zu verbessern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Bülows langer Monolog über die Hannoveraner und die preußische Wirtschaft"],
+        "suggestions": [
+          "Lange Monologe durch Zwischenhandlungen oder Reaktionen der Zuhörer auflockern, um den Dialog natürlicher wirken zu lassen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["schien sich... zu drehen", "man konnte... erkennen"],
+        "suggestions": [
+          "Direkter formulieren: Statt 'schien sich zu drehen' direkt das Thema nennen. Statt 'man konnte erkennen' direkt das Gesehene beschreiben."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "kurz vorher beendete Haugwitzsche Mission... die... nicht nur ein wünschenswerthes Einvernehmen... wieder hergestellt"
+        ],
+        "suggestions": [
+          "Inhaltliche Doppelungen vermeiden, wenn der Kontext bereits klar ist. Straffung der Satzanfänge."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

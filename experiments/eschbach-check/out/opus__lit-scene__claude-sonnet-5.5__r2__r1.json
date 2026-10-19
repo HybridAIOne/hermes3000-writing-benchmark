@@ -1,0 +1,120 @@
+{
+  "who": "opus",
+  "item": "lit-scene__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Den Schlüssel hatte ihr der Nachlassverwalter in einem gepolsterten Umschlag geschickt, als könnte er zerbrechen.",
+          "Johanna musste die Tür mit der Schulter aufdrücken."
+        ],
+        "suggestions": [
+          "Der Einstieg ist knapp und stimmungsvoll. Der Rückblick auf den Umschlag ist zwar Vorgeschichte, charakterisiert aber Situation und Ton in einem Satz und sollte bleiben.",
+          "Alternativ könnte die Szene direkt mit 'Johanna musste die Tür mit der Schulter aufdrücken.' beginnen. Das Detail mit dem Umschlag ließe sich später einflechten, etwa wenn sie den Schlüssel in der Hand hält."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "eine dünne, gleichmäßige Staubschicht",
+          "ein kurzes, trockenes Ächzen",
+          "ein einzelnes Glas ein Stück abseits",
+          "Süßlich, leicht gärig"
+        ],
+        "suggestions": [
+          "Die meisten Adjektive sind sinnlich präzise und tragen die Atmosphäre. Bei Doppelungen wie 'dünne, gleichmäßige' prüfen, ob eines reicht: Das saubere Rechteck macht 'gleichmäßig' bereits sichtbar.",
+          "'einzelnes' und 'ein Stück abseits' sagen fast dasselbe. Besser: 'stand ein Glas abseits'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keinen Dialog, das Kriterium ist hier nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "das sie nicht sofort fand",
+          "Es war eher, als hätte jemand",
+          "leicht gärig",
+          "ein Stück abseits"
+        ],
+        "suggestions": [
+          "'eher' streichen: 'Es war, als hätte jemand die Räume enger zusammengeschoben' wirkt bestimmter.",
+          "'leicht' vor 'gärig' ist verzichtbar, denn der Vergleich mit dem Obstkorb dosiert die Intensität bereits."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Geruch aus dem Flur war stärker geworden, je weiter sie ins Haus ging."],
+        "suggestions": [
+          "Die Handlungen folgen sauber aufeinander, 'während' oder 'gleichzeitig' kommen nicht vor.",
+          "Im genannten Satz passen die Zeitformen nicht zusammen (Plusquamperfekt neben Präteritum). Besser: 'Der Geruch wurde stärker, je weiter sie ins Haus ging.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Tür war nicht abgeschlossen."],
+        "suggestions": [
+          "Echte Passivkonstruktionen fehlen. Der Beispielsatz ist ein Zustandspassiv, beschreibt einen Zustand und ist hier angemessen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Unten, im Regal neben den Einmachgläsern, deren Deckel ihre Mutter immer mit Datum und Inhalt beschriftet hatte, stand ein einzelnes Glas ein Stück abseits.",
+          "Das Holz hatte sich im Rahmen verzogen, und es gab dasselbe Geräusch von sich wie früher, ein kurzes, trockenes Ächzen, das sie in den Zähnen spürte."
+        ],
+        "suggestions": [
+          "Im ersten Beispiel kommt das Hauptverb erst nach einem eingeschobenen Relativsatz, ausgerechnet am dramatischen Höhepunkt. Teilen: 'Unten im Regal standen die Einmachgläser. Ihre Mutter hatte jeden Deckel mit Datum und Inhalt beschriftet. Ein Glas stand abseits.'",
+          "Im zweiten Beispiel könnte nach 'verzogen' ein Punkt stehen: 'Das Holz hatte sich im Rahmen verzogen. Es gab dasselbe Geräusch von sich wie früher …'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keinen Dialog, das Kriterium ist hier nicht anwendbar."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie hatte sich vorgenommen, nichts zu erwarten, und merkte jetzt, dass es nicht darum ging.",
+          "Das Telefon, vermutete sie.",
+          "Sie wusste trotzdem, dass es die ihrer Mutter war."
+        ],
+        "suggestions": [
+          "'merkte jetzt, dass' ist ein Filter. Direkter: 'Sie hatte sich vorgenommen, nichts zu erwarten. Darum ging es nicht.'",
+          "'vermutete sie' ist verzichtbar, denn 'Das Telefon. Oder ein Bild.' zeigt die Vermutung bereits durch das Zögern.",
+          "Der Schlusssatz arbeitet bewusst mit dem Kontrast 'konnte nicht lesen' und 'wusste trotzdem' und funktioniert gut. Eine direktere Variante zum Abwägen: 'Sie konnte die Schrift von hier aus nicht lesen. Es war die ihrer Mutter.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Die Leitung gurgelte, spuckte … und sie spuckte es nicht aus.",
+          "deren Deckel ihre Mutter … beschriftet hatte … Der Deckel hatte sich nach oben gewölbt.",
+          "stand eine Tasse … wo etwas gestanden hatte … in der Sonne stand … stand ein einzelnes Glas"
+        ],
+        "suggestions": [
+          "Das doppelte 'spuckte' kann ein gewolltes Echo sein. Falls nicht, für die Leitung ein anderes Verb wählen, etwa 'stotterte' oder 'hustete'.",
+          "Das doppelte 'Deckel' im Schlussabsatz lässt sich auflösen: Beim Teilen des langen Satzes 'beschriftete Etiketten' oder 'jedes Glas beschriftet' verwenden.",
+          "'stehen' kommt sehr häufig vor. Gelegentlich variieren, etwa mit 'lag', 'wartete' oder 'war abgerückt'."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.090244
+}

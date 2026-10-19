@@ -1,0 +1,115 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__gemini-4-argon__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Die Strömung reicht“, sagte Ilse. Sie richtete sich auf und wischte sich die Hände an der Arbeitshose ab."
+        ],
+        "suggestions": [
+          "Exzellenter Einstieg 'in medias res'. Der Leser ist sofort in der Szene, spürt das Setting (Fähre, Arbeit, Fluss) und die Dynamik zwischen den Figuren, ohne dass eine lange Einleitung nötig wäre."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Die kleinen Hartplastikrollen seines Koffers ratterten laut über das verwitterte Eichenholz.",
+          "Ilse bückte sich nach dem schweren Eisenkeil...",
+          "Ilse griff nach dem kalten Stahlhebel..."
+        ],
+        "suggestions": [
+          "Die meisten Adjektive sind atmosphärisch stark (trübes Wasser, fremdes, herbes Rasierwasser). Einige wenige sind jedoch redundant (weiße Schimmel): 'ratterten' beinhaltet bereits 'laut', ein 'Eisenkeil' ist naturgemäß 'schwer' und ein 'Stahlhebel' im Herbstwind selbstverständlich 'kalt'. Diese könnten gestrichen werden, um den Text noch prägnanter zu machen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Jonas.“ Sie hielt ihm die Wange hin...",
+          "„Hallo, Mama“, sagte er und trat einen Schritt vor."
+        ],
+        "suggestions": [
+          "Sehr gute Balance zwischen unauffälligen Inquit-Formeln ('sagte', 'fragte') und reinen Handlungsbeats. In der Zeile mit 'Hallo, Mama' könnte das 'sagte er' sogar noch entfallen: '„Hallo, Mama.“ Er trat einen Schritt vor.'"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ein paar Möwen strichen schreiend über das Flachufer...",
+          "Wenigstens noch eine Stunde, bis das letzte Licht ganz aus dem Fluss gewichen war."
+        ],
+        "suggestions": [
+          "Der Text ist fast völlig frei von Füllwörtern. Lediglich 'Ein paar Möwen' könnte einfach zu 'Möwen' verknappt werden, und das 'ganz' im vorletzten Absatz ist entbehrlich."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "...trat wieder zurück, bevor er den Arm ganz um ihre Schultern legen konnte.",
+          "...der auf sein Handydisplay starrte, während der Wind ihm die ordentlich gescheitelten Haare zerzauste."
+        ],
+        "suggestions": [
+          "Kaum gleichzeitige Konstruktionen vorhanden. Wo 'während' oder 'bevor' genutzt wird, ist es absolut funktional und erzeugt ein stimmiges Bild."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine unnötigen Passivkonstruktionen gefunden. Der Text arbeitet vorbildlich mit starken, aktiven Verben (schnitten, ratterten, knirschte, zerrte)."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie sah durch die beschlagene Scheibe des Führerstands auf ihren Sohn, der auf sein Handydisplay starrte, während der Wind ihm die ordentlich gescheitelten Haare zerzauste."
+        ],
+        "suggestions": [
+          "Sehr guter Satzrhythmus. Kurze, prägnante Sätze wechseln sich mit etwas längeren, beschreibenden Sätzen ab. Der beispielhafte Satz mit zwei Nebensätzen ist an der Grenze, liest sich aber noch sehr flüssig."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Berufsschule. Blockunterricht in Lüneburg.“",
+          "„Der Schlüssel liegt unter dem alten Schöpfkelle-Topf“, sagte Ilse und löste die Bremse der Winde. „Mach dir schon mal den Ofen an. Es dauert noch.“"
+        ],
+        "suggestions": [
+          "Herausragend. Die Dialoge sind knapp, norddeutsch-unterkühlt und transportieren enorm viel Subtext über die Entfremdung zwischen Mutter und Sohn, ohne etwas ausbuchstabieren zu müssen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ihre Gummistiefel gaben bei jedem Schritt ein schmatzendes Geräusch auf dem nassen Deck von sich.",
+          "Sie sah durch die beschlagene Scheibe des Führerstands auf ihren Sohn...",
+          "Sein Gesicht wirkte schmaler als im Herbst..."
+        ],
+        "suggestions": [
+          "Die Wahrnehmung ist meist sehr direkt. Kleine Optimierungsmöglichkeiten: Statt 'gaben ein schmatzendes Geräusch von sich' direkter formulieren: 'Ihre Gummistiefel schmatzten bei jedem Schritt auf dem nassen Deck.' Das zweifache 'Sie sah' am Ende ist hier als bewusstes Stilmittel (Blickwechsel zwischen Sohn und Arbeit) legitim, könnte aber auch noch unmittelbarer gezeigt werden ('Durch die beschlagene Scheibe fiel ihr Blick auf Jonas...')."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Im Krug. Nicht in seinem alten Zimmer unterm Dach."],
+        "suggestions": [
+          "Keine ungewollten Wortwiederholungen oder Redundanzen. Wo Wiederholungen genutzt werden (wie beim 'Krug'), dienen sie als starkes stilistisches Mittel für den inneren Monolog."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.017984
+}

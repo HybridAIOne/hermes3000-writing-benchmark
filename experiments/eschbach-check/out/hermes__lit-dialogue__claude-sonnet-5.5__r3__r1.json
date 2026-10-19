@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Bahnhofscafé, Regen. Thomas sitzt schon, als Ralf hereinkommt"],
+        "suggestions": ["Der Einstieg ist sehr effizient und etabliert sofort die Stimmung."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kurz", "kahl", "langsam", "leise"],
+        "suggestions": ["Die Adjektive sind sparsam und gezielt eingesetzt. Keine Änderung nötig."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["RALF: Du bist früh."],
+        "suggestions": [
+          "Das Skript-Format ist für diese Szene ideal und verzichtet komplett auf überflüssige 'sagte er'-Konstruktionen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["schon", "kurz"],
+        "suggestions": [
+          "Die Füllwörter sind hier funktional (z.B. 'schon' unterstreicht die Erwartung)."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Thomas sitzt schon, als Ralf hereinkommt"],
+        "suggestions": [
+          "Die Gleichzeitigkeit wird präzise und ohne Wortwiederholungen wie 'während' gelöst."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Man hat es nie von hier gesehen."],
+        "suggestions": ["Der Text ist durchgehend aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Thomas sieht auf die Uhr und gleich wieder weg, ohne die Zeit gelesen zu haben."
+        ],
+        "suggestions": [
+          "Der Satz ist etwas lang im Vergleich zum Rest. Vorschlag: 'Thomas sieht auf die Uhr und gleich wieder weg, ohne die Zeit zu registrieren.'"
+        ]
+      },
+      "dialogueLength": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["THOMAS: Schwarz. / RALF: Schwarz."],
+        "suggestions": [
+          "Die Dialoge sind extrem prägnant und transportieren die Spannung hervorragend."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ralf dreht die Tasse am Henkel.", "Ralf nickt langsam."],
+        "suggestions": [
+          "Keine indirekte Wahrnehmung vorhanden; Gefühle werden durch Handlungen gezeigt (Show, don't tell)."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Früher.", "Früher, im Winter..."],
+        "suggestions": [
+          "Die Wiederholungen sind hier stilistisch gewollt und verstärken die Melancholie."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,113 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-schach-von-wuthenow-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["In dem Salon der in der Behrenstraße wohnenden Frau von Carayon..."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch dicht, könnte aber durch einen direkteren Fokus auf die Handlung oder einen Konflikt noch mehr Spannung erzeugen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "gewöhnlichen Empfangsabend",
+          "treuesten Anhänger",
+          "schönen Frau",
+          "scherzhaftem Bedauern"
+        ],
+        "suggestions": [
+          "Viele Adjektive sind schmückendes Beiwerk. Prüfen, ob Verben wie 'schwärmen' oder 'tadeln' die Adjektive ersetzen können, um den Text straffer zu machen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["erwiderte Sander", "bestätigte Frau von Carayon"],
+        "suggestions": [
+          "Die Kennzeichnungen sind sparsam eingesetzt, was gut ist. Man könnte sie teilweise noch weiter reduzieren, wenn der Sprecherwechsel klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["einige Freunde", "eigentlich immer", "vielleicht auch", "etwas hochmüthig"],
+        "suggestions": [
+          "Wörter wie 'eigentlich', 'vielleicht' und 'etwas' schwächen die Aussagekraft. Streichen, um die Sätze direkter und bestimmter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "unter gleichzeitigem scherzhaftem Bedauern",
+          "während Alvensleben der schönen Frau die Hand küßte",
+          "während ihm der... Rock... zusammenschnürte"
+        ],
+        "suggestions": [
+          "Die 'während'-Konstruktionen bremsen den Lesefluss. Handlungen sollten besser nacheinander beschrieben werden, um Dynamik zu erzeugen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "waren... versammelt",
+          "war... erschienen",
+          "wurde... geführt",
+          "ist... gegeben"
+        ],
+        "suggestions": [
+          "Viele Passivkonstruktionen wirken distanziert. Aktive Formulierungen (z.B. 'versammelten sich' statt 'waren versammelt') machen den Text lebendiger."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "In dem Salon der in der Behrenstraße wohnenden Frau von Carayon und ihrer Tochter Victoire waren an ihrem gewöhnlichen Empfangsabend einige Freunde versammelt, aber freilich wenige nur, da die große Hitze des Tages auch die treuesten Anhänger des Zirkels ins Freie gelockt hatte."
+        ],
+        "suggestions": [
+          "Die Sätze sind extrem verschachtelt und lang. Diese sollten in kürzere, prägnantere Sätze aufgebrochen werden, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Bülows Monolog über die Hannoveraner und die preußische Wirtschaft."],
+        "suggestions": [
+          "Der Monolog von Bülow ist sehr lang. Er sollte durch Zwischenfragen oder Handlungsanweisungen der anderen Charaktere unterbrochen werden, um den Dialogcharakter zu wahren."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "schien sich... zu drehen",
+          "man... erkennen konnte",
+          "schien... geglichen haben"
+        ],
+        "suggestions": [
+          "Die Wahrnehmung wird oft durch den Erzähler gefiltert ('schien', 'man konnte erkennen'). Direkter schreiben: 'Das Gespräch drehte sich um...' oder 'Ihr Profil glich dem der Mutter'."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Wiederholte Beschreibungen der politischen Haltung und der Charaktereigenschaften von Bülow."
+        ],
+        "suggestions": [
+          "Einige Informationen über Bülows Charakter werden doppelt vermittelt. Hier kann gestrafft werden, um den Fokus auf die aktuelle Szene zu legen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,130 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__claude-sonnet-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Beide zögern, ob sie sich umarmen sollen. Sie lassen es.“",
+          "„Du bist pünktlich.“ – „Bin ich immer.“"
+        ],
+        "suggestions": [
+          "Der Einstieg setzt unmittelbar beim angespannten Wiedersehen ein und benötigt keine Vorgeschichte.",
+          "Ein Beginn direkt mit dem ersten Dialog wäre möglich, würde aber die aussagekräftige ausgebliebene Umarmung verlieren. Den jetzigen Einstieg daher vorzugsweise beibehalten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„(schnell)“", "„(nickt langsam)“", "„(fast lächelnd)“"],
+        "suggestions": [
+          "Die wenigen Adverbien steuern vor allem Tempo und Subtext; sie sind überwiegend funktional.",
+          "„(nickt langsam)“ probeweise zu „(nickt)“ kürzen. „Schnell“ und „fast lächelnd“ bewahren dagegen wichtige Bedeutungsnuancen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„MARTIN: Du bist pünktlich.“", "„JONAS: Bin ich immer.“"],
+        "suggestions": [
+          "Die Sprechernamen sind im dramatischen Format sinnvoll und ersetzen zusätzliche Redeeinleitungen vollständig.",
+          "Keine ergänzenden Kennzeichnungen wie „sagt er“ einfügen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ich wollte eigentlich nicht lange …“",
+          "„Dann setz dich eben kurz.“",
+          "„Da hat sie wohl recht.“",
+          "„Das ist immerhin etwas.“"
+        ],
+        "suggestions": [
+          "Die Partikeln markieren Ausweichen, Abwehr und vorsichtige Annäherung. Nicht pauschal streichen.",
+          "„Dann setz dich kurz“ als härtere Variante prüfen. „Eben“ sollte bleiben, wenn Jonas demonstrativ beiläufig reagieren soll.",
+          "„Eigentlich“ bewahren, wenn Martins unausgesprochene Bereitschaft zum Bleiben anklingen soll."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Jonas sitzt schon am Tisch, als Martin hereinkommt.“",
+          "„Martin setzt sich. Die Jacke behält er an.“"
+        ],
+        "suggestions": [
+          "Das einmalige „als“ verankert den Eintritt klar und erzeugt keine überladene Gleichzeitigkeit.",
+          "Die übrigen Handlungen sind bereits übersichtlich angeordnet; keine Änderung nötig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„rührt in seinem Kaffee, der längst umgerührt ist“",
+          "„Die Kellnerin stellt ein Glas Wasser vor Martin ab.“"
+        ],
+        "suggestions": [
+          "Der Text verwendet überwiegend aktive Formulierungen.",
+          "„Der längst umgerührt ist“ lässt sich als Zustandspassiv lesen, beschreibt hier aber sinnvoll Jonas’ verlegene Beschäftigung. Eine aktivere Alternative wäre: „rührt weiter in seinem Kaffee“. Dabei ginge die ausdrückliche Zwecklosigkeit der Bewegung teilweise verloren."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Jonas sitzt schon am Tisch, als Martin hereinkommt.“",
+          "„Ich hab’s nicht so gemeint. Damals. Zumindest nicht alles.“"
+        ],
+        "suggestions": [
+          "Es gibt keine problematischen Satzlängen oder Verschachtelungen.",
+          "Die Satzfragmente im Dialog erhalten: Sie machen Martins stockende Selbstkorrektur hörbar."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ich wusste nicht, was ich schreiben soll.“ – „‚Danke‘ hätte gereicht.“",
+          "„Mehr hab ich gerade nicht.“ – „Hab ich auch nicht verlangt.“"
+        ],
+        "suggestions": [
+          "Die einzelnen Repliken sind knapp und reagieren unmittelbar aufeinander. Die Szene enthält keine ausufernden Erklärungen.",
+          "Die Dialogfolge nicht allein wegen ihres Umfangs kürzen: Pausen und körperliche Handlungen gliedern sie bereits wirkungsvoll."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Beide zögern, ob sie sich umarmen sollen. Sie lassen es.“",
+          "„Martin zieht den Reißverschluss seiner Jacke ein Stück herunter.“"
+        ],
+        "suggestions": [
+          "Wahrnehmungsfilter wie „er sah“ oder „sie bemerkte“ fehlen; die Annäherung wird überzeugend durch sichtbare Handlungen vermittelt.",
+          "Für eine stärker spielbare Regieanweisung die innere Abwägung am Anfang konkretisieren, etwa: „Beide setzen zu einer Umarmung an, halten inne.“ Die konkrete Bewegung verändert allerdings die Inszenierung leicht."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Früher hast du mich warten lassen.“ – „Früher war vieles anders.“",
+          "„Zumindest nicht alles.“ – „Nicht alles.“",
+          "„Setz dich.“ – „Dann setz dich eben kurz.“"
+        ],
+        "suggestions": [
+          "Die Wiederholungen sind überwiegend dramaturgisch motiviert: Die Figuren greifen Wörter auf, um auszuweichen, Druck auszuüben oder Zugeständnisse zu prüfen.",
+          "Insbesondere „Nicht alles“ erhalten; Jonas legt damit Martins eingeschränkte Entschuldigung offen.",
+          "Keine wesentlichen inhaltlichen Doppelungen erkennbar. Die wiederholte Aufforderung zum Hinsetzen entwickelt den Konflikt weiter, statt nur Information zu wiederholen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018008
+}

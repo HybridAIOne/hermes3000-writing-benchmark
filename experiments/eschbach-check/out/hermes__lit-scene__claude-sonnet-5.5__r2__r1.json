@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Den Schlüssel hatte ihr der Nachlassverwalter in einem gepolsterten Umschlag geschickt"
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort eine Atmosphäre und eine Handlung etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kurzes, trockenes Ächzen", "dünne, gleichmäßige Staubschicht"],
+        "suggestions": [
+          "Die Adjektive sind sehr präzise und unterstützen die Stimmung, ohne den Text zu überladen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["etwas darunter"],
+        "suggestions": ["Der Text ist sehr sauber und frei von unnötigen Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die Handlungsabfolge ist logisch und klar strukturiert, keine unnötigen 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["war ... geschickt"],
+        "suggestions": [
+          "Das Passiv wird hier sehr sparsam und gezielt eingesetzt. Keine Änderung notwendig."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Holz hatte sich im Rahmen verzogen, und es gab dasselbe Geräusch von sich wie früher, ein kurzes, trockenes Ächzen, das sie in den Zähnen spürte."
+        ],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["vermutete sie", "merkte jetzt, dass"],
+        "suggestions": [
+          "'Das Telefon, vermutete sie.' könnte direkter zu 'Vielleicht das Telefon.' gekürzt werden, um die Distanz zum Leser zu verringern."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist prägnant und frei von inhaltlichen Doppelungen."]
+      }
+    }
+  },
+  "costUsd": 0
+}

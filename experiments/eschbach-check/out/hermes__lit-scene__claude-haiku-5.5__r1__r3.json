@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-haiku-5.5__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel ließ sich nicht drehen."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen und wirft den Leser direkt in die Handlung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kaltem Staub", "dunkelgrüne", "abgewetzten"],
+        "suggestions": ["Die Adjektive sind atmosphärisch gut gewählt und nicht überladen."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["eine Weile"],
+        "suggestions": [
+          "Das Wort 'eine Weile' könnte gestrichen werden, um den Einstieg noch direkter zu gestalten."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine 'während'-Konstruktionen vorhanden, die Handlungen sind logisch nacheinander aufgebaut."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["wie es früher verlangt worden war"],
+        "suggestions": [
+          "Könnte zu 'wie es früher verlangt wurde' oder 'wie sie es früher tun musste' geändert werden, um noch aktiver zu wirken."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ihre Mutter hatte jeden Abend davon genommen, jeden Abend, zwanzig Jahre lang, hatte es im Flur nach Rosen gerochen, wenn sie die Treppe heraufkam."
+        ],
+        "suggestions": [
+          "Der Satz ist rhythmisch gut, könnte aber für mehr Tempo bei Bedarf in zwei Sätze geteilt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie hatte gedacht, die Zeit würde sich wie eine Strecke anfühlen"],
+        "suggestions": [
+          "Könnte durch 'Die Zeit, dachte sie, würde sich...' noch unmittelbarer gestaltet werden."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["jeden Abend, jeden Abend"],
+        "suggestions": [
+          "Die Wiederholung ist hier stilistisch sinnvoll zur Betonung der Routine und sollte beibehalten werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

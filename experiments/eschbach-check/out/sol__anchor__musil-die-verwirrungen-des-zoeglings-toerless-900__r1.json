@@ -1,0 +1,155 @@
+{
+  "who": "sol",
+  "item": "anchor__musil-die-verwirrungen-des-zoeglings-toerless-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Eine kleine Station an der Strecke, welche nach Rußland führt.",
+          "Endlos gerade liefen vier parallele Eisenstränge nach beiden Seiten zwischen dem gelben Kies des breiten Fahrdammes",
+          "Es galt Abschied zu nehmen."
+        ],
+        "suggestions": [
+          "Für einen handlungsorientierten Einstieg mit Frau Törleß und dem bevorstehenden Abschied beginnen. Die Bahnhofskulisse anschließend aus wenigen charakteristischen Details entwickeln.",
+          "Die Landschaftsbeschreibung nicht vollständig streichen: Ihre Leblosigkeit bereitet die spätere Darstellung von Törleß’ Innenleben vor. Straffbar ist vor allem der Umfang vor dem Auftreten der Hauptfiguren.",
+          "Die ausführliche Vorgeschichte des Konvikts später einfügen, damit die Abschiedsszene nicht unmittelbar nach ihrem Beginn wieder verlassen wird."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "das bleiche, kraftlose, durch den Dunst ermüdete Licht der Nachmittagssonne",
+          "traurig mit verdursteten, von Staub und Ruß erdrosselten Blättern",
+          "an fürchterlichem, leidenschaftlichem Heimweh",
+          "ein schattenhaftes, bedeutungsloses Geschehen"
+        ],
+        "suggestions": [
+          "Bei Häufungen das stärkste Bild auswählen, etwa: „das durch den Dunst ermüdete Licht der Nachmittagssonne“. „Bleich“ und „kraftlos“ erklären eine Wirkung, die das Bild bereits vermittelt.",
+          "Die Personifikation der erdrosselten Blätter bewahren, aber prüfen, ob „traurig“ und „verdursteten“ daneben noch benötigt werden.",
+          "Gefühlsverstärker wie „fürchterlichem, leidenschaftlichem“ reduzieren, wenn Schluchzen, Tränen und Rückzug die Intensität bereits zeigen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["»lieben, lieben Eltern«, -- dermaßen sprach er es meist vor sich hin --"],
+        "suggestions": [
+          "Keine systematische Überarbeitung nötig: Der Text enthält keinen eigentlichen Dialog und keine Häufung von Redebegleitsätzen.",
+          "Die Erläuterung zum Selbstgespräch erfüllt eine Funktion, weil sie die wiederkehrende Formel als Äußerung von Törleß kennzeichnet."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "den Mittelpunkt der etwas lauten Unterhaltung",
+          "die Dame von vielleicht vierzig Jahren",
+          "wohl um die aufwachsende Jugend vor den verderblichen Einflüssen einer Großstadt zu bewahren",
+          "war darin eigentlich gar nicht mehr enthalten"
+        ],
+        "suggestions": [
+          "„Etwas laut“ entweder zu „laut“ straffen oder die Lautstärke durch eine konkrete Handlung vermitteln.",
+          "Bei „eigentlich gar nicht mehr“ prüfen, ob „nicht mehr“ genügt.",
+          "„Vielleicht“ und „wohl“ nur streichen, wenn die Unsicherheit entbehrlich ist: Hier markieren sie auch erzählerische Distanz und eine vermutete Begründung.",
+          "Unbestimmtheit nicht pauschal beseitigen. Die schwer benennbaren Empfindungen sind Gegenstand des Textes; sprachliche Unschärfe kann deshalb funktional sein."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Auf dem breiten, festgestampften Streifen zwischen Schienenstrang und Gebäude promenierte eine heitere Gesellschaft junger Leute, links und rechts eines älteren Ehepaares schreitend",
+          "Und wenn er untertags, bei den Spielen oder im Unterrichte, daran dachte, daß er abends seinen Brief schreiben werde",
+          "weil ihre heißen Flammen ihn zugleich schmerzten und entzückten"
+        ],
+        "suggestions": [
+          "Keine auffällige Häufung von Gleichzeitigkeitssignalen. Die zahlreichen „als“- und „wenn“-Konstruktionen dienen häufig Vergleichen oder wiederkehrenden Situationen, nicht der Überlagerung von Handlungen.",
+          "Die umständliche Verbindung „promenierte … schreitend“ vereinfachen, etwa: „Die jungen Leute gingen links und rechts neben einem älteren Ehepaar.“",
+          "„Zugleich schmerzten und entzückten“ beibehalten: Die Gleichzeitigkeit der widersprüchlichen Empfindungen ist hier inhaltlich entscheidend."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "wo es auf dem Boden einer frommen Stiftung errichtet worden war",
+          "die zu allen Sinnen spricht und in allen Sinnen bewahrt wird",
+          "in der von hundert flammenden Kerzen und von hundert Augen heiliger Bilder Weihrauch zwischen die Schmerzen der sich selbst Geißelnden gestreut wird"
+        ],
+        "suggestions": [
+          "Die Baugeschichte lässt sich ohne Passiv und ohne erfundenen Handlungsträger formulieren: „Das Konvikt bestand dort seit dem vorigen Jahrhundert auf dem Boden einer frommen Stiftung.“",
+          "Im Schlusssatz eher das gesamte Bild vereinfachen als lediglich Aktiv einzusetzen. Das Problem liegt vor allem in der komplizierten Verknüpfung von Weihrauch, Kerzen, Bildern und Schmerzen.",
+          "Nicht jede Form mit „wurde“ ist Passiv: „Der Gedanke an seine Eltern wurde ihm … zu einer bloßen Gelegenheitsursache“ beschreibt eine Entwicklung."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Von Zeit zu Zeit, in gleichen Intervallen, trat der Bahnhofsvorstand aus seinem Amtszimmer heraus",
+          "Der Grund, dessentwegen Frau Törleß es dulden mußte, ihren Jungen in so ferner, unwirtlicher Fremde zu wissen, war, daß sich in dieser Stadt ein berühmtes Konvikt befand",
+          "Und wenn er untertags, bei den Spielen oder im Unterrichte, daran dachte, daß er abends seinen Brief schreiben werde",
+          "Der Gedanke an seine Eltern wurde ihm hiebei mehr und mehr zu einer bloßen Gelegenheitsursache"
+        ],
+        "suggestions": [
+          "Die lange Satzperiode über den Bahnhofsvorstand nach Handlungsschritten gliedern: Er tritt heraus, prüft die Signale, zieht die Uhr und verschwindet. Den Turmuhrenvergleich als eigenen Satz anschließen.",
+          "Die Erklärung des Schulortes entflechten: „In der Stadt befand sich ein berühmtes Konvikt. Deshalb nahm Frau Törleß die Entfernung in Kauf.“ Die Stiftungsgeschichte kann danach folgen oder entfallen.",
+          "Beim Briefschreiben erst die Vorfreude benennen und anschließend das Bild des goldenen Schlüssels entfalten. So konkurrieren zeitliche Einordnung und Metapher weniger miteinander.",
+          "Nicht alle langen Sätze verkürzen: Ihr Rhythmus trägt die kreisende Selbstbeobachtung. Vor allem dort teilen, wo mehrere Erklärungsebenen und Bilder zusammenkommen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "das den Mittelpunkt der etwas lauten Unterhaltung bildete",
+          "»lieben, lieben Eltern«"
+        ],
+        "suggestions": [
+          "Keine Kürzung von Dialogpassagen erforderlich: Die Unterhaltung wird nur zusammenfassend erwähnt; die zitierte Elternanrede ist kurz.",
+          "Die langen psychologischen Erläuterungen gegebenenfalls unter Satzlänge und Wiederholungen bearbeiten, nicht als Dialogproblem."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Er sah alles nur wie durch einen Schleier hindurch",
+          "Wenn er aber schrieb, fühlte er etwas Auszeichnendes, Exklusives in sich",
+          "Und wenn er untertags, bei den Spielen oder im Unterrichte, daran dachte, daß er abends seinen Brief schreiben werde",
+          "Er hielt es für Heimweh, für Verlangen nach seinen Eltern."
+        ],
+        "suggestions": [
+          "Einzelne Wahrnehmungsfilter entfernen, etwa: „Alles lag hinter einem Schleier.“ Das rückt die Darstellung näher an Törleß’ Erleben.",
+          "Abstrakte Gefühlsbenennungen stellenweise unmittelbar formulieren: „Beim Schreiben war er ausgezeichnet, einer von wenigen.“ Dabei prüfen, ob die neue Formulierung zur gewünschten Erzählstimme passt.",
+          "Die Vorfreude gelegentlich als unmittelbaren Gedanken darstellen: „Am Abend würde er seinen Brief schreiben.“",
+          "„Er hielt es für Heimweh“ bewahren, sofern die anschließende Unterscheidung zwischen Selbstdeutung und Erzähleranalyse erhalten bleiben soll. Dieser Filter trägt eine zentrale Aussage."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Von Zeit zu Zeit, in gleichen Intervallen",
+          "mit der gleichen Wendung des Kopfes",
+          "mit ein und derselben Bewegung des Armes",
+          "in so ferner, unwirtlicher Fremde",
+          "Er hatte sie vorher nicht geahnt, er war gern und freiwillig ins Institut gegangen"
+        ],
+        "suggestions": [
+          "„Von Zeit zu Zeit, in gleichen Intervallen“ zu „In gleichen Intervallen“ straffen.",
+          "Bei der Entfernung zwischen Heimat und Konvikt eine starke Darstellung genügen lassen. „Weitab“, „im Osten des Reiches“ und „in so ferner, unwirtlicher Fremde“ erfüllen teilweise dieselbe Funktion.",
+          "Die unerwartete Entstehung der Sehnsucht kompakter erzählen; „vorher nicht geahnt“, der freiwillige Eintritt und das anfängliche Wohlbefinden belegen mehrfach dieselbe Entwicklung.",
+          "Die Wiederholungen von Gleichförmigkeit beim Bahnhofsvorstand nicht vollständig beseitigen: Sie erzeugen bewusst den mechanischen Eindruck.",
+          "Auch die wiederkehrenden Schleier-, Schatten- und Uhrbilder als motivische Verbindungen prüfen, statt sie pauschal als überflüssige Doppelungen zu behandeln."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.028766
+}

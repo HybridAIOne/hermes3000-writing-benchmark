@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-opus-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein Café am Bahnhof. MARTIN sitzt am Fenster."],
+        "suggestions": [
+          "Der Einstieg ist sehr effizient und etabliert sofort die Stimmung. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["langsam"],
+        "suggestions": [
+          "Das Adverb 'langsam' könnte durch ein stärkeres Verb ersetzt werden, um die Handlung noch plastischer zu machen (z.B. 'Jonas schält sich aus der Jacke')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Redeeinleitungen verwendet."],
+        "suggestions": [
+          "Perfekt umgesetzt. Die Sprecher sind durch die Formatierung klar erkennbar."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ein bisschen", "ein paar"],
+        "suggestions": [
+          "In Dialogen wirken diese Wörter natürlich und authentisch. Keine Änderung erforderlich."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine 'während'- oder 'als'-Konstruktionen."],
+        "suggestions": ["Die Handlungsabfolge ist klar und präzise. Sehr gut."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Passivsätze gefunden."],
+        "suggestions": ["Der Text ist durchgehend aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["JONAS: Deiner?", "MARTIN: Nein. Ich hab Zeit."],
+        "suggestions": [
+          "Die kurzen Sätze unterstreichen die Spannung und die Distanz zwischen den Charakteren hervorragend."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der gesamte Dialogverlauf."],
+        "suggestions": ["Die Dialoge sind knackig und subtextreich. Die Länge ist genau richtig."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Er legt ein Buch auf den Tisch...", "Martin rührt in der Tasse..."],
+        "suggestions": [
+          "Vorbildlich. Alles wird durch direkte Beobachtung gezeigt, nicht durch 'er sah, dass'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["schwarz (Kaffee)", "Drei Jahre / Zwei"],
+        "suggestions": [
+          "Die Wiederholungen sind hier stilistisch beabsichtigt und verstärken die emotionale Ebene. Keine Änderung nötig."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

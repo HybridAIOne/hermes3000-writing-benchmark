@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "anchor__mann-tonio-kroeger-300",
+  "run": 2,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Schule war aus."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch dicht und setzt genau zum richtigen Zeitpunkt ein."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["gemessen hinschreitenden Oberlehrers", "herrschaftlichste der ganzen Stadt"],
+        "suggestions": [
+          "Einige Adjektive wirken etwas überladen. Prüfen, ob starke Verben die Beschreibung präziser machen können (z.B. 'schritt' statt 'gemessen hinschreitend')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Tonio Kröger", "fragte er"],
+        "suggestions": [
+          "Die Marker sind funktional, könnten aber an manchen Stellen gestrichen werden, wenn der Sprecherwechsel durch den Kontext klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["ein bißchen", "schon"],
+        "suggestions": [
+          "Das Wort 'ein bißchen' wird zweimal kurz hintereinander verwendet. Hier könnte variiert werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["indes die anderen nach rechts schlenderten"],
+        "suggestions": [
+          "Die Verwendung von 'indes' ist stilistisch korrekt, aber für einen moderneren Lesefluss könnten die Handlungen stärker getrennt werden."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["von manchen Leuten wurden die Vierzehnjährigen zuerst gegrüßt"],
+        "suggestions": ["In Aktiv umwandeln: 'Manche Leute grüßten die Vierzehnjährigen zuerst.'"]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Große Schüler hielten mit Würde ihr Bücherpäckchen hoch gegen die linke Schulter gedrückt, indem sie mit dem rechten Arm wider den Wind dem Mittagessen entgegen ruderten"
+        ],
+        "suggestions": [
+          "Der Satz ist sehr verschachtelt. Ein Punkt nach 'gedrückt' würde den Lesefluss deutlich verbessern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Kommst du endlich, Hans?«", "»Wieso?«"],
+        "suggestions": [
+          "Die Dialoge sind knackig und treiben die Handlung voran. Keine Änderung nötig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Hatte Hans es vergessen, fiel es ihm erst jetzt wieder ein"],
+        "suggestions": ["Die Wahrnehmung ist sehr direkt und nah an der Figur. Sehr gut gelöst."]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["ein bißchen (zweimal)", "rechts und links / nach links / nach rechts"],
+        "suggestions": [
+          "Die Richtungsangaben und die Füllphrase 'ein bißchen' wiederholen sich in kurzem Abstand. Hier sollte das Vokabular variiert werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

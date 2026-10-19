@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gpt-6.1-sol__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel ging nur bis zur Hälfte ins Schloss."],
+        "suggestions": [
+          "Der Einstieg ist hervorragend, da er sofort eine Handlung und ein Hindernis etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["hellen Fleck", "trockenes Klopfen"],
+        "suggestions": [
+          "Die Adjektive sind sehr sparsam und präzise eingesetzt. Keine Änderungen nötig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["nur", "noch"],
+        "suggestions": ["Die verwendeten Wörter sind funktional und keine unnötigen Füllwörter."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als sein Motor nicht mehr zu hören war"],
+        "suggestions": [
+          "Die zeitlichen Abläufe sind klar strukturiert und nicht durch 'während' verwaschen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["alles sei ausgeräumt"],
+        "suggestions": [
+          "Das Zustandspassiv ist hier stilistisch passend, um den leeren Zustand des Hauses zu betonen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Von hier aus konnte man den Garten überblicken."],
+        "suggestions": [
+          "Direkter formulieren: 'Sie blickte in den Garten.' oder 'Der Blick fiel auf den Garten.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr prägnant und frei von inhaltlichen Doppelungen."]
+      }
+    }
+  },
+  "costUsd": 0
+}

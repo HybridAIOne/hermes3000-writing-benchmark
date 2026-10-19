@@ -1,0 +1,127 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__gpt-6.1-sol__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der erste Satz \"Du sitzt noch immer hier.\" setzt mitten in einer Beziehung mit Vorgeschichte ein, ohne Begrüßungsfloskeln oder Small Talk.",
+          "(Ein Café. Martin sitzt am Fenster. Als Jakob kommt, nimmt er seine Jacke vom zweiten Stuhl.)"
+        ],
+        "suggestions": [
+          "Der Einstieg sitzt. Die Regieanweisung lässt offen, wer die Jacke nimmt (\"er\" kann sich grammatisch auf Jakob beziehen). Ein klares Subjekt verhindert das Stolpern: \"Jakob kommt. Martin nimmt seine Jacke vom zweiten Stuhl.\"",
+          "Anschlussfehler prüfen: Am Anfang räumt Martin die Jacke vom zweiten Stuhl, am Ende nimmt er sie \"vom Stuhl neben sich\". Wenn er sie dort abgelegt hat, sollte die erste Regieanweisung das kurz zeigen, sonst wirkt die Jacke doppelt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "\"Schwarz ist richtig.\"",
+          "\"Du hast ihn glatt gestrichen.\"",
+          "\"Dein Mantel wird nass am Boden.\""
+        ],
+        "suggestions": [
+          "Die wenigen Adjektive tragen Bedeutung (schwarz statt Zucker, glatt gestrichen als verräterische Geste). Hier ist nichts zu streichen.",
+          "\"zweiten Stuhl\" könnte schlicht \"vom Stuhl gegenüber\" heißen. Das macht die Sitzordnung sofort räumlich klar."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Durch das Dramenformat (\"**Jakob:**\", \"**Martin:**\") gibt es keine einzige Redeeinleitung wie \"sagte er\".",
+          "Regieanweisungen beschreiben Handlungen statt Sprechweisen: \"(Martin dreht seine Tasse am Henkel.)\" statt etwa \"sagt Martin nervös\"."
+        ],
+        "suggestions": [
+          "Beibehalten. Auch in den Regieanweisungen weiterhin auf Angaben wie \"zögernd\" oder \"kühl\" verzichten. Die Gesten leisten das bereits."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "\"Auf deiner Seite vielleicht.\"",
+          "\"Du warst bloß zuerst da.\"",
+          "\"Er lag sowieso im Weg.\"",
+          "\"Ich wollte ihn gerade ausziehen.\""
+        ],
+        "suggestions": [
+          "Die Partikeln sind hier figurensprachlich motiviert und transportieren Subtext (Abwehr, Spitze, Ausrede). Sie sollten bleiben.",
+          "Einzig \"noch\" häuft sich (\"noch immer\", \"noch aufhalten\", \"weißt noch\", \"fragt noch\"). Prüfen, ob eines davon entfallen kann, etwa \"Ich kann sie aufhalten\"."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["\"Als Jakob kommt, nimmt er seine Jacke vom zweiten Stuhl.\""],
+        "suggestions": [
+          "Die einzige Gleichzeitigkeitskonstruktion in zwei Schritte auflösen: \"Jakob kommt herein. Martin nimmt seine Jacke vom zweiten Stuhl.\" Das beseitigt auch den unklaren Bezug von \"er\".",
+          "Im übrigen Text folgen die Handlungen sauber aufeinander. Das sollte so bleiben."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Kein Passivsatz im Text. \"Dein Mantel wird nass\" beschreibt eine Zustandsveränderung und ist kein Vorgangspassiv.",
+          "\"Wenn ich ihn hierlasse, räumen sie ihn ab.\" Das ist aktiv formuliert, obwohl ein Passiv nahegelegen hätte."
+        ],
+        "suggestions": ["Kein Handlungsbedarf."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "\"Ich konnte sie noch aufhalten, wenn du etwas anderes willst.\" Das ist der längste Satz und zugleich der einzige mit einem Tempus-/Modusproblem.",
+          "\"(Martin nimmt die Jacke vom Stuhl neben sich und hängt sie an den Haken.)\""
+        ],
+        "suggestions": [
+          "\"konnte\" passt grammatisch nicht zum Präsens im Nebensatz. Besser ist \"Ich kann sie noch aufhalten, wenn du etwas anderes willst\" oder \"Ich hätte sie noch aufhalten können\".",
+          "Der durchgehende Stakkato-Rhythmus ist stimmig. Über die gesamte Szene sollte man aber prüfen, ob ein etwas längerer Satz an einer emotionalen Schlüsselstelle (z. B. bei der Mutter) Kontrast schaffen würde."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Kein Redebeitrag ist länger als ein Satz. Die Repliken sind durchweg knapp.",
+          "Die Zucker-Sequenz (\"Früher hast du Zucker genommen.\" bis \"Wenn ich ihn hierlasse, räumen sie ihn ab.\") ist mit acht Wechseln der längste Block, trägt aber die zentrale Annäherung."
+        ],
+        "suggestions": [
+          "Keine Kürzung nötig. Allenfalls \"Danke.\" / \"Er lag sowieso im Weg.\" auf Verzichtbarkeit prüfen. Allerdings liefert gerade dieser Wechsel Martins Abwehrhaltung, die das \"glatt gestrichen\" erst pointiert."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "\"(Draußen hält ein Bus. Jakob sieht nicht hin.)\" Die Wahrnehmung wird als Handlung gezeigt, nicht als \"Jakob bemerkt, dass ...\".",
+          "\"(Jakob fährt mit dem Daumen unter die Tischkante.)\" Die Erinnerung wird über eine Geste vermittelt statt über \"er erinnerte sich\"."
+        ],
+        "suggestions": [
+          "Kein Handlungsbedarf. Die Szene erzählt konsequent über Sichtbares und Gesagtes."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "\"Die anderen Plätze waren frei.\" / \"Der Stuhl ist jetzt frei.\" Eine bewusste Echo-Struktur.",
+          "\"Früher hast du Zucker genommen.\" / \"Früher hast du ihn mir rübergeschoben.\" Eine wirkungsvolle Anapher.",
+          "Viermal \"noch\" sowie die Jacke, die zweimal vom Stuhl genommen wird."
+        ],
+        "suggestions": [
+          "Die rhetorischen Wiederholungen (\"frei\", \"Früher\") sind gestalterisch stark und sollten bleiben.",
+          "Die Häufung von \"noch\" leicht ausdünnen, damit die Echos stärker hervortreten.",
+          "Das Jacken-Motiv eindeutig machen: Entweder ist es am Ende Jakobs Mantel, der Platz braucht, oder Martin legt die Jacke anfangs sichtbar neben sich ab. Dann wirkt die Schlussgeste als bewusste Rahmung statt als Doppelung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.093772
+}

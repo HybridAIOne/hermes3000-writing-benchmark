@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__kimi-k3__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel klemmte, wie er es immer getan hatte..."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort in die Handlung und die Atmosphäre führt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["leicht heben", "ordentlich abgewaschen"],
+        "suggestions": [
+          "Präzisere Verben wählen statt Adverbien. Statt 'leicht heben' könnte man die Bewegung spezifischer beschreiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["immer", "wirklich"],
+        "suggestions": [
+          "Wörter wie 'immer' oder 'wirklich' schwächen oft die Aussagekraft. Prüfen, ob sie gestrichen werden können."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Textfluss ist sehr gut sequenziell aufgebaut, keine unnötigen 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ob ihre Mutter wirklich allein hier gestorben war"],
+        "suggestions": [
+          "Formulierung zu 'ob ihre Mutter wirklich allein hier starb' ändern, um die Aktivität zu erhöhen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind gut variiert und unterstützen den Rhythmus der Szene."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["dachte sie", "das wusste sie heute nicht mehr", "Marlen fragte sich"],
+        "suggestions": [
+          "Direkter in den Kopf der Figur gehen. Statt 'Marlen fragte sich, ob...', die Frage direkt als Gedanken oder durch Beobachtung darstellen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Mutter"],
+        "suggestions": [
+          "Die Wiederholungen sind thematisch bedingt und daher akzeptabel, aber auf Variation achten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,100 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-unterm-birnbaum-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus... wurden Säcke... geladen."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch, könnte aber durch einen direkteren Fokus auf eine handelnde Figur (Hradscheck) an Dynamik gewinnen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["großen und reichen", "schläfrigen", "gewisse Herrschaftlichkeit"],
+        "suggestions": [
+          "Viele Adjektive sind schmückendes Beiwerk. Streichen, wo sie keine neue Information liefern, oder durch stärkere Verben ersetzen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte zu dem eben... steigenden Knecht", "nickte nur statt aller Antwort"],
+        "suggestions": [
+          "Die Kennzeichnungen sind funktional. Bei klarer Rollenverteilung könnten sie teilweise noch weiter reduziert werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Einige von den Säcken", "gewisse Herrschaftlichkeit"],
+        "suggestions": [
+          "Wörter wie 'Einige' oder 'gewisse' verwässern die Aussage. Präziser formulieren: 'Die Säcke waren...' statt 'Einige von den Säcken...'"
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "während der nach dem Garten hinausführende Hinterflur",
+          "als er... sich umsah"
+        ],
+        "suggestions": [
+          "Vermeidung von 'während'-Konstruktionen. Handlungen nacheinander beschreiben, um den Lesefluss zu straffen."
+        ]
+      },
+      "passive": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": ["wurden Säcke... geladen", "war... unterbrochen", "war... gewesen"],
+        "suggestions": [
+          "Starke Häufung von Passivkonstruktionen. Aktiv formulieren: 'Der Knecht lud die Säcke auf den Wagen' statt 'Säcke wurden geladen'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Der erste Satz umfasst fast vier Zeilen.",
+          "Die Beschreibung des Flurs ist ein einziger, sehr verschachtelter Satz."
+        ],
+        "suggestions": [
+          "Radikale Kürzung der Satzlänge. Komplexe Sätze in zwei oder drei Einzelsätze aufbrechen, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["»Und nun vorwärts, Jakob, und grüße mir Ölmüller Quaas...«"],
+        "suggestions": ["Die Dialoge sind gut proportioniert und charakterisierend."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["sah man denn an dem, was herausfiel", "sah, daß seine Nachbarin... guckte"],
+        "suggestions": [
+          "Direkter schreiben: Statt 'man sah, dass...', direkt beschreiben: 'Aus den Löchern rieselte Raps'."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Mehrfache Beschreibung des Flurs und der Anordnung der Waren.",
+          "Wiederholte Beschreibung der Garten- und Birnensituation."
+        ],
+        "suggestions": [
+          "Informationen bündeln. Die räumliche Beschreibung sollte einmalig und prägnant erfolgen, statt sie in zwei Abschnitten zu wiederholen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

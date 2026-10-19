@@ -1,0 +1,125 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Der Motor läuft“, sagte Ilse."],
+        "suggestions": [
+          "Exzellenter Einstieg mitten ins Geschehen (In medias res). Es gibt kein überflüssiges Vorgeplänkel, die Atmosphäre und der Konflikt sind sofort greifbar."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "der noch lose auf den Bohlen lag",
+          "in ordentlichen Buchten",
+          "Der Fluss lag grau und breit hinter ihm.",
+          "das dumpfe Pochen"
+        ],
+        "suggestions": [
+          "Der Einsatz von Adjektiven ist bereits sehr sparsam und treffend. Lediglich „lose“ könnte gestrichen werden, da es durch das nachfolgende Zusammenlegen impliziert wird: „Sie bückte sich nach dem Tampen auf den Bohlen und legte ihn in Buchten zusammen.“"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Hast du gegessen?“, fragte sie.",
+          "„Hier müsste vieles“, sagte Ilse und ging an ihm vorbei zum Fährhaus.",
+          "„Stell das Ding hin“, sagte sie."
+        ],
+        "suggestions": [
+          "Die Dialogführung ist sehr natürlich. An ein, zwei Stellen könnten die Inquits noch durch die Handlung ersetzt werden: Statt „‚Hier müsste vieles‘, sagte Ilse und ging...“ einfach: „‚Hier müsste vieles.‘ Ilse ging an ihm vorbei...“"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "wie sie es neuerdings taten",
+          "Jonas kannte sie vermutlich auch noch",
+          "Er zog den Koffer ein Stück über die Bohlen",
+          "Vielleicht kam keiner."
+        ],
+        "suggestions": [
+          "Wörter wie „vermutlich“ und „vielleicht“ passen hier gut zur personalen Perspektive von Ilse. „Ein Stück“ ist jedoch unpräzise und kann ersatzlos gestrichen werden: „Er zog den Koffer über die Bohlen...“"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ihre Knie meldeten sich dabei",
+          "spannte sich wieder, wenn die Strömung an der Fähre zog."
+        ],
+        "suggestions": [
+          "Hervorragend gelöst. Es gibt keine unlogischen Gleichzeitigkeiten mit „während“ oder „als“. Die Handlungen folgen organisch aufeinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "die Schuhe waren für Pflaster gemacht.",
+          "Es war noch eine Fahrt eingetragen"
+        ],
+        "suggestions": [
+          "Das verwendete Zustandspassiv ist hier stilistisch absolut passend, da es den Fokus auf die Objekte (Schuhe, Fahrplan) legt. Keine Änderung nötig."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Im Fenster des Fährhauses stand die Thermoskanne, wo sie sie nach der letzten Überfahrt hingestellt hatte, daneben der blaue Becher, Hennings Becher, und ihr eigener, angeschlagen am Rand."
+        ],
+        "suggestions": [
+          "Der Rhythmus aus kurzen und längeren Sätzen ist sehr melodisch. Im Beispielsatz stolpert man leicht über das doppelte „sie sie“. Vorschlag: „Im Fenster des Fährhauses stand noch die Thermoskanne von der letzten Überfahrt, daneben der blaue Becher...“"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Hast du gegessen?“, fragte sie. / „Im Zug.“ / „Das heißt nein.“ / „Mama.“"],
+        "suggestions": [
+          "Meisterhafte, lakonische Dialoge. Jedes Wort sitzt, nichts ist zu lang, der Subtext (die Beziehung zwischen Mutter und Sohn) trägt die Szene perfekt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "und sie ließ Jonas nicht merken, dass sie es hörte.",
+          "und sie merkte, dass sie darauf gewartet hatte.",
+          "Sie hörte ihn hinter sich zögern.",
+          "und spürte das Gewicht des Rests darin."
+        ],
+        "suggestions": [
+          "Hier gibt es das größte Optimierungspotenzial durch unmittelbareres Erzählen (Show, don't tell).",
+          "Statt „Sie hörte ihn hinter sich zögern“ direkter: „Hinter ihr zögerte er.“",
+          "Statt „spürte das Gewicht des Rests darin“ aktiver: „Sie nahm die Kanne in die Hand. Sie war noch halb voll.“",
+          "Statt „und sie merkte, dass sie darauf gewartet hatte“ einfach: „Darauf hatte sie gewartet.“"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "und sah auf den Becher in ihrer Hand... Sie nahm Hennings Becher vom Fensterbrett",
+          "wo sie sie nach der letzten Überfahrt hingestellt hatte"
+        ],
+        "suggestions": [
+          "Am Ende gibt es eine kleine logische Doppelung: Erst sieht Jonas auf den Becher in ihrer Hand (obwohl sie zuvor nur die Kanne genommen hatte), im nächsten Satz nimmt sie dann Hennings Becher vom Brett. Besser: „...und sah auf die Kanne in ihrer Hand...“",
+          "Die Wortdoppelung „sie sie“ im siebten Absatz sollte vermieden werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.017706
+}

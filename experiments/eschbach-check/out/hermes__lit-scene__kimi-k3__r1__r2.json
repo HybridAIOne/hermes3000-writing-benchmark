@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__kimi-k3__r1",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel klemmte, wie er es immer getan hatte"],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort eine Handlung und ein Gefühl der Vertrautheit/Entfremdung etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["klein", "kalt", "fremd"],
+        "suggestions": [
+          "Die Adjektive sind gut gewählt und nicht überladen. Achte darauf, dass sie die Stimmung unterstützen, ohne sie zu erklären."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher kein Problem mit Redeeinleitungen."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["nur", "wirklich"],
+        "suggestions": [
+          "Der Text ist sehr sauber. Das 'wirklich' im letzten Satz könnte gestrichen werden, um die Frage schärfer zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine problematischen 'während'-Konstruktionen. Die Abfolge der Handlungen ist klar und logisch."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["ausgebleicht"],
+        "suggestions": ["Der Text ist fast durchgehend aktiv formuliert. Sehr gut."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Flur roch nach Staub und kaltem Ofen, darunter, kaum wahrnehmbar, nach Lavendel – der Duft, den ihre Mutter in kleinen Säckchen zwischen die Wäsche gelegt hatte."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind gut rhythmisiert. Die längeren Sätze sind gut lesbar und nicht überladen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sah sie sich selbst", "fragte sich"],
+        "suggestions": [
+          "Statt 'Im Spiegel gegenüber sah sie sich selbst' könnte man schreiben: 'Im Spiegel gegenüber blickte ihr eine Frau Mitte vierzig entgegen'. Das macht die Wahrnehmung unmittelbarer."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Mutter", "Lavendel"],
+        "suggestions": [
+          "Die Wiederholungen sind thematisch sinnvoll und dienen der Atmosphäre. Keine inhaltlichen Doppelungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

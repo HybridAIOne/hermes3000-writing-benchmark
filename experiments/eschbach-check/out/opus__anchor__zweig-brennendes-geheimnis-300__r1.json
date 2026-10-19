@@ -1,0 +1,143 @@
+{
+  "who": "opus",
+  "item": "anchor__zweig-brennendes-geheimnis-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Die Lokomotive schrie heiser auf: der Semmering war erreicht.",
+          "Ohne Hast trappten die Pferde den ansteigenden Weg. Es lag Frühling in der Luft. [...] Leise schnaubend liefen die Pferde den jetzt niedersteigenden Weg",
+          "Im Hotel war der erste Weg des jungen Mannes zu der Liste der anwesenden Gäste"
+        ],
+        "suggestions": [
+          "Die eigentliche Szene, also der Protagonist mit seiner Enttäuschung über die Gästeliste, beginnt erst nach langer Anfahrt. Die Szene könnte später einsetzen, etwa mit der Kutschfahrt oder direkt im Hotel. Ankunft und Landschaft lassen sich in ein bis zwei Sätzen verdichten.",
+          "Die Frühlingsstimmung (Unruhe, gärende Ungeduld) spiegelt die innere Lage der Figur. Sie sollte stärker an die Wahrnehmung des jungen Mannes gebunden werden, statt als vorgeschaltete Naturbeschreibung zu stehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Eine Minute rasteten die schwarzen Wagen im silbrigen Licht der Höhe, warfen paar bunte Menschen aus",
+          "Rein ausgespannt, mit klaren, vom nassen Wind reingefegten Hintergründen lag wieder die hingebreitete Landschaft.",
+          "jung, durch gute Kleidung und eine natürliche Elastizität des Schrittes sympathisch auffallend",
+          "der die mageren, noch vom Regen feuchten Bäume so unbändig schüttelte",
+          "Stimmen gingen geärgert hin und her"
+        ],
+        "suggestions": [
+          "Adjektivhäufungen reduzieren. Pro Substantiv genügt meist ein präzises Attribut, zum Beispiel \"die nassen Bäume\" statt \"die mageren, noch vom Regen feuchten Bäume\".",
+          "Die Figurenbeschreibung \"jung, durch gute Kleidung ... sympathisch auffallend\" durch eine konkrete Handlung oder ein Detail ersetzen, etwa: \"Ein junger Mann sprang als Erster vom Trittbrett und winkte einem Fiaker.\"",
+          "\"Stimmen gingen geärgert hin und her\" durch ein starkes Verb ersetzen: \"Stimmen zankten\".",
+          "\"Rein ausgespannt\" und \"hingebreitete\" sagen dasselbe. Eines davon streichen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["»Wozu bin ich eigentlich hier«, begann es unruhig in ihm zu fragen."],
+        "suggestions": [
+          "Die Redeeinleitung ist umständlich (\"begann es ... zu fragen\") und trägt zusätzlich das Adverb \"unruhig\". Da nur eine Figur im Fokus steht, kann der innere Monolog ohne Einleitung stehen: »Wozu bin ich eigentlich hier?«",
+          "Alternativ eine knappe Handlung als Sprecherzuordnung nutzen: \"Er legte die Liste zurück. Wozu war er eigentlich hier?\""
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "warfen paar bunte Menschen aus",
+          "Manchmal schien auch Duft von Schnee kühl aus den Bergen herüberzukommen",
+          "dann spürte man im Atem etwas, das süß und scharf war zugleich",
+          "»Wozu bin ich eigentlich hier«",
+          "Offenbar bin ich zu früh gekommen oder zu spät."
+        ],
+        "suggestions": [
+          "\"paar\" präzisieren (\"ein Dutzend\", \"drei Familien\") oder durch ein konkretes Bild ersetzen.",
+          "\"Manchmal schien auch\" streichen: \"Aus den Bergen wehte kühler Schneeduft herüber.\"",
+          "\"etwas, das süß und scharf war\" konkretisieren. Was genau riecht oder schmeckt man?",
+          "Im inneren Monolog sind \"eigentlich\" und \"offenbar\" als Ausdruck der Mündlichkeit vertretbar, sollten aber nicht gehäuft auftreten."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "dann spürte man im Atem etwas, das süß und scharf war zugleich",
+          "Leise schnaubend liefen die Pferde den jetzt niedersteigenden Weg"
+        ],
+        "suggestions": [
+          "Gleichzeitigkeitswörter wie \"während\" oder \"als\" kommen kaum vor, und die Handlungen werden überwiegend nacheinander erzählt. Lediglich Partizipialkonstruktionen wie \"Leise schnaubend liefen\" könnten aufgelöst werden: \"Die Pferde schnaubten. Der Weg fiel nun ab.\""
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["der Semmering war erreicht"],
+        "suggestions": [
+          "Der Text ist nahezu durchgehend aktiv formuliert. \"der Semmering war erreicht\" ist ein Zustandspassiv, das hier pointiert wirkt. Alternativ aktiv: \"der Zug hatte den Semmering erreicht\".",
+          "Statische Konstruktionen wie \"Es lag Frühling in der Luft\" oder \"lag wieder die hingebreitete Landschaft\" sind zwar kein Passiv, wirken aber ähnlich unbewegt. Hier lohnen sich aktivere Verben."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Jene weißen, unruhigen Wolken flatterten am Himmel, die nur der Mai und der Juni hat, jene weißen, selbst noch jungen und flattrigen Gesellen, die spielend über die blaue Bahn rennen, um sich plötzlich hinter hohen Bergen zu verstecken, die sich umarmen und fliehen, sich bald wie Taschentücher zerknüllen, bald in Streifen zerfasern und schließlich im Schabernack den Bergen weiße Mützen aufsetzen.",
+          "Eine Minute rasteten die schwarzen Wagen im silbrigen Licht der Höhe, warfen paar bunte Menschen aus, schluckten andere ein, Stimmen gingen geärgert hin und her, dann schrie vorne wieder die heisere Maschine und riß die schwarze Kette rasselnd in die Höhle des Tunnels hinab.",
+          "Unruhe war auch oben im Wind, der die mageren, noch vom Regen feuchten Bäume so unbändig schüttelte, daß sie leise in den Gelenken krachten und tausend Tropfen wie Funken von sich wegsprühten."
+        ],
+        "suggestions": [
+          "Den Wolkensatz (über 60 Wörter) in drei bis vier Sätze teilen, zum Beispiel: \"Weiße Wolken flatterten am Himmel, wie sie nur Mai und Juni kennen. Sie rannten über das Blau und versteckten sich hinter den Bergen. Sie zerknüllten sich wie Taschentücher, zerfaserten zu Streifen und setzten den Gipfeln weiße Mützen auf.\"",
+          "Den Zugsatz nach \"schluckten andere ein\" teilen, damit die Abfahrt als eigene Handlung wirkt.",
+          "Kurze Sätze wie \"Es lag Frühling in der Luft.\" funktionieren gut als Rhythmuswechsel. Diesen Kontrast gezielter einsetzen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "»Allein hier auf dem Berg zu sein, ohne Gesellschaft, ist ärger als das Bureau. Offenbar bin ich zu früh gekommen oder zu spät. Ich habe nie Glück mit meinem Urlaub. Keinen einzigen bekannten Namen finde ich unter all den Leuten."
+        ],
+        "suggestions": [
+          "Der innere Monolog ist angemessen kurz und charakterisiert die Figur gut. Einzelne Sätze überschneiden sich jedoch inhaltlich: \"Allein ... ohne Gesellschaft\" und \"Keinen einzigen bekannten Namen\" meinen dasselbe. Das ließe sich straffen: »Wozu bin ich hier? Keinen einzigen bekannten Namen. Ich habe nie Glück mit meinem Urlaub.«"
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Manchmal schien auch Duft von Schnee kühl aus den Bergen herüberzukommen, dann spürte man im Atem etwas",
+          "begann es unruhig in ihm zu fragen",
+          "die Liste der anwesenden Gäste, die er -- bald enttäuscht -- durchflog"
+        ],
+        "suggestions": [
+          "\"schien ... herüberzukommen, dann spürte man\" direkt darstellen: \"Von den Bergen wehte Schneeduft herüber, süß und scharf zugleich.\"",
+          "Das unpersönliche \"man\" an die Figur binden, um Nähe zu schaffen.",
+          "\"bald enttäuscht\" benennt das Gefühl. Zeige es lieber über eine Geste oder direkt im Monolog, etwa: \"Er fuhr mit dem Finger die Spalte hinab. Nichts.\""
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Jene weißen, unruhigen Wolken [...] jene weißen, selbst noch jungen und flattrigen Gesellen",
+          "Die Lokomotive schrie heiser auf [...] dann schrie vorne wieder die heisere Maschine",
+          "Rein ausgespannt, mit klaren, vom nassen Wind reingefegten Hintergründen",
+          "Unruhe war auch oben im Wind [...] Alles in Luft und Erde war Bewegung und gärende Ungeduld [...] begann es unruhig in ihm zu fragen",
+          "»Wozu bin ich eigentlich hier [...] Allein hier auf dem Berg zu sein"
+        ],
+        "suggestions": [
+          "Die doppelte Anapher \"jene weißen\" ist ein Stilmittel, verdoppelt aber die Wolkenbeschreibung inhaltlich. Eine der beiden Ansetzungen genügt.",
+          "\"schrie heiser\" / \"heisere Maschine\": Die Wiederholung kann als Klammer gewollt sein. Wenn nicht, beim zweiten Mal ein anderes Verb wählen (\"pfiff\", \"kreischte\").",
+          "\"Rein\" / \"reingefegt\" und \"Höhe\" / \"Höhle\" erzeugen unschöne Klangdopplungen. Variieren.",
+          "Das Motiv der Unruhe wird drei- bis viermal ausgesprochen (Unruhe, Bewegung, gärende Ungeduld, unruhig). Lieber einmal zeigen als mehrfach benennen.",
+          "\"Weg\" (ansteigender Weg, niedersteigender Weg, erster Weg) und \"Berge\" mehrfach. Synonyme verwenden oder umformulieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.11064
+}

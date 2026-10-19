@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-opus-5.5__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel lag noch dort, wo er vor zwanzig Jahren gelegen hatte"],
+        "suggestions": [
+          "Der Einstieg ist hervorragend gewählt, da er sofort eine Handlung und eine Geschichte etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["dunkles, unansehnliches Ding"],
+        "suggestions": [
+          "Die Adjektive sind sparsam eingesetzt. 'Unansehnlich' könnte durch eine konkretere Beschreibung des Zustands (z.B. 'abgeblättert', 'verstaubt') noch mehr Atmosphäre erzeugen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Drei Wochen, hatte der Notar gesagt."],
+        "suggestions": ["Sehr gut gelöst, die Kennzeichnungen sind unaufdringlich und effektiv."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr präzise und frei von unnötigen Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die Handlungsabfolge ist logisch und klar strukturiert, keine unnötigen 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Nachbarin habe sie gefunden"],
+        "suggestions": [
+          "Der Text ist fast vollständig aktiv formuliert, was die Unmittelbarkeit stärkt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Satzlängen sind abwechslungsreich und unterstützen den Lesefluss sehr gut."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine zu langen Dialoge vorhanden; die indirekte Rede ist sehr gut in den Erzählfluss integriert."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ines ärgerte sich darüber, dass sie es gewusst hatte"],
+        "suggestions": [
+          "Das 'darüber' ist ein leichtes Füllwort. Man könnte schreiben: 'Ines ärgerte sich, dass sie es gewusst hatte.' Das wirkt direkter."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Keine inhaltlichen Doppelungen erkennbar."]
+      }
+    }
+  },
+  "costUsd": 0
+}

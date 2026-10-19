@@ -1,0 +1,84 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-sonnet-5.5__r2",
+  "run": 2,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Text beginnt direkt mit dem Dialog über den Motor."],
+        "suggestions": [
+          "Keine, der Einstieg ist gelungen und wirft den Leser direkt ins Geschehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kurzen, nassen Zügen", "braun und träge"],
+        "suggestions": [
+          "Das Adjektiv 'nass' bei Wasser ist redundant, da Wasser per Definition nass ist. Hier kann gestrichen werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["sagte Ilse", "sagte sie"],
+        "suggestions": ["Die Marker sind sparsam und korrekt eingesetzt."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["beinahe"],
+        "suggestions": [
+          "Das Wort 'beinahe' schwächt die Wahrnehmung ab. Streichen, um die Beobachtung direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine übermäßigen 'während'-Konstruktionen."],
+        "suggestions": ["Die Handlungsabfolge ist klar und gut strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Das Bett ist bezogen (Zustandspassiv, hier akzeptabel)."],
+        "suggestions": ["Keine Änderungen notwendig, der Text ist aktiv gestaltet."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Satzbau ist rhythmisch und abwechslungsreich."],
+        "suggestions": ["Keine Änderungen notwendig."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Dialoge sind kurz und prägnant."],
+        "suggestions": ["Beibehalten, die Dialoge wirken sehr natürlich."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie konnte beinahe hören, wie er die Zahlen sortierte",
+          "Sie hatte ihn größer in Erinnerung"
+        ],
+        "suggestions": [
+          "Vermeide Filterwörter wie 'konnte hören' oder 'hatte in Erinnerung'. Schreibe direkter: 'Sie hörte, wie er die Zahlen sortierte' oder 'Er war kleiner, als sie ihn in Erinnerung hatte'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Er läuft (Dialog)", "Er wartete immer"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier stilistisch beabsichtigt und verstärken die Atmosphäre. Keine Änderung nötig."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

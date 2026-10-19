@@ -1,0 +1,144 @@
+{
+  "who": "opus",
+  "item": "anchor__zweig-amok-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Im März des Jahres 1912 ereignete sich im Hafen von Neapel bei dem Ausladen eines großen Überseedampfers ein merkwürdiger Unfall, über den die Zeitungen umfangreiche, aber sehr phantastisch ausgeschmückte Berichte brachten.",
+          "Als ich in der Schiffsagentur von Kalkutta einen Platz für die Rückreise nach Europa auf der »Oceania« bestellen wollte, zuckte der Clerk bedauernd die Schultern."
+        ],
+        "suggestions": [
+          "Die Rahmenerzählung zusammenfassen oder erst später nachreichen. Der Einstieg erklärt ausführlich, warum der Erzähler den Vorfall nicht gesehen hat. Das bremst den Text.",
+          "Die Buchungsepisode in der Agentur kann entfallen. Die Szene könnte direkt in der stickigen Kabine beginnen: »Die Kabine roch nach Öl und Moder.« Die Information, dass das Schiff überfüllt war, lässt sich dort in einem Halbsatz unterbringen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "ein kleiner, gepreßter, rechteckiger Winkel",
+          "Die stockende, verdickte Luft",
+          "umfangreiche, aber sehr phantastisch ausgeschmückte Berichte",
+          "merkwürdiger Unfall / seltsamen Vorfalles / erregenden Szene / seltsamen Episode",
+          "zuckte der Clerk bedauernd die Schultern"
+        ],
+        "suggestions": [
+          "Adjektivketten auf das stärkste Attribut reduzieren, z. B. »ein gepreßter Winkel« statt »ein kleiner, gepreßter, rechteckiger Winkel«.",
+          "Wertende Adjektive wie »merkwürdig«, »seltsam« und »erregend« streichen. Das Geschehen sollte die Wirkung selbst erzeugen, statt sie anzukündigen.",
+          "»Die Luft stockte« statt »Die stockende, verdickte Luft«: Ein Verb wirkt stärker als zwei Partizipien."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Am nächsten Tage teilte er mir erfreulicherweise mit, er könne mir noch einen Platz vormerken"
+        ],
+        "suggestions": [
+          "Es gibt keine direkte Rede. Die indirekte Rede ist knapp eingeleitet. Das Gespräch mit dem Clerk ließe sich als kurzer direkter Wortwechsel lebendiger gestalten, etwa: »Ausverkauft, wie immer vor der Regenzeit.«"
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "aber sehr phantastisch ausgeschmückte Berichte",
+          "Immerhin meine ich persönlich, daß manche Vermutungen",
+          "erlaubt mir wohl das Vertrauen",
+          "teilte er mir erfreulicherweise mit",
+          "freilich sei es nur eine wenig komfortable Kabine",
+          "immer schon von Australien her ausverkauft",
+          "Ich war schon ungeduldig"
+        ],
+        "suggestions": [
+          "»sehr«, »wohl«, »immerhin«, »persönlich« und »schon« streichen. Sie schwächen die Aussage ab, ohne Information hinzuzufügen.",
+          "»manche Vermutungen« konkretisieren oder durch »meine Vermutungen« ersetzen.",
+          "»erfreulicherweise« streichen. Die Erleichterung zeigt sich in der schnellen Entscheidung des Erzählers."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "weil er sich zur Nachtzeit während des Kohlenladens und der Löschung der Fracht abspielte, wir aber [...] alle an Land gegangen waren",
+          "Als ich in der Schiffsagentur von Kalkutta einen Platz [...] bestellen wollte, zuckte der Clerk bedauernd die Schultern."
+        ],
+        "suggestions": [
+          "Den Gleichzeitigkeitssatz zum Unfall chronologisch auflösen: »Wir gingen an Land, um dem Lärm zu entgehen. In der Nacht lud man Kohle und löschte die Fracht. Dabei geschah es.«",
+          "»Als ich ... bestellen wollte« durch eine direkte Handlung ersetzen: »Ich verlangte in der Schiffsagentur von Kalkutta einen Platz auf der »Oceania«. Der Clerk zuckte die Schultern.«"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "während des Kohlenladens und der Löschung der Fracht",
+          "ließ mir den Platz zuschreiben"
+        ],
+        "suggestions": [
+          "Echte Passivsätze fehlen weitgehend. Die Nominalisierungen »des Kohlenladens« und »der Löschung der Fracht« verbal auflösen: »während die Matrosen Kohle luden und die Fracht löschten«.",
+          "»ließ mir den Platz zuschreiben« aktiver fassen: »ich nahm den Platz«."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Obzwar Passagier der »Oceania«, war es mir ebensowenig wie den andern möglich, Zeuge jenes seltsamen Vorfalles zu sein, weil er sich zur Nachtzeit während des Kohlenladens und der Löschung der Fracht abspielte, wir aber, um dem Lärm zu entgehen, alle an Land gegangen waren und dort in Kaffeehäusern oder Theatern die Zeit verbrachten.",
+          "Immerhin meine ich persönlich, daß manche Vermutungen, die ich damals nicht öffentlich äußerte, die wirkliche Aufklärung jener erregenden Szene in sich tragen, und die Ferne der Jahre erlaubt mir wohl das Vertrauen eines Gespräches zu nutzen, das jener seltsamen Episode unmittelbar vorausging.",
+          "Er wisse noch nicht, ob es möglich sei, mir eine Kabine zu sichern, das Schiff wäre jetzt knapp vor dem Einbruch der Regenzeit immer schon von Australien her ausverkauft, er müsse erst das Telegramm von Singapore abwarten."
+        ],
+        "suggestions": [
+          "Den zweiten Satz in drei bis vier Sätze teilen: »Ich war Passagier der »Oceania«. Trotzdem sah ich nichts. Es geschah nachts, und wir waren alle an Land gegangen, um dem Lärm zu entgehen.«",
+          "Den dritten Satz aufspalten: »Ich habe damals geschwiegen. Heute glaube ich, die Erklärung zu kennen. Sie liegt in einem Gespräch, das ich kurz vorher führte.«",
+          "Die Aussagen des Clerks auf drei kurze Sätze verteilen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Er wisse noch nicht, ob es möglich sei, mir eine Kabine zu sichern [...] er müsse erst das Telegramm von Singapore abwarten."
+        ],
+        "suggestions": [
+          "Es gibt keine ausufernden Dialoge. Die indirekte Rede des Clerks enthält jedoch drei Informationen in einem Satz. Hier genügt die Kernaussage: Das Schiff ist ausverkauft."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Immerhin meine ich persönlich, daß manche Vermutungen [...] die wirkliche Aufklärung jener erregenden Szene in sich tragen",
+          "war es mir ebensowenig wie den andern möglich, Zeuge jenes seltsamen Vorfalles zu sein",
+          "Der Clerk hatte mich richtig informiert."
+        ],
+        "suggestions": [
+          "»meine ich, daß« streichen und direkt behaupten: »Ich kenne die Wahrheit über jene Nacht.«",
+          "»war es mir nicht möglich, Zeuge zu sein« ersetzen durch »Ich sah nichts davon.«",
+          "»Der Clerk hatte mich richtig informiert« streichen. Die anschließende Beschreibung der Kabine zeigt das bereits."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "merkwürdiger Unfall / seltsamen Vorfalles / erregenden Szene / seltsamen Episode",
+          "jener seltsamen Vorfalles / jener erregenden Szene / jener seltsamen Episode",
+          "freilich sei es nur eine wenig komfortable Kabine unter Deck [...] Das Schiff war überfüllt und die Kabine schlecht",
+          "immer schon von Australien her ausverkauft [...] Das Schiff war überfüllt"
+        ],
+        "suggestions": [
+          "Das Ereignis nur einmal benennen und danach mit »es« oder »der Unfall« darauf verweisen. Vier Umschreibungen mit wertenden Adjektiven wirken redundant.",
+          "Das dreifache »jener« variieren oder streichen.",
+          "Die Ankündigung des Clerks (»wenig komfortabel«, »ausverkauft«) und die Bestätigung (»überfüllt«, »schlecht«) zusammenlegen. Eine der beiden Stellen reicht. Am besten bleibt die sinnliche Beschreibung der Kabine stehen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.096316
+}

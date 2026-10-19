@@ -1,0 +1,102 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Bahnhofscafé, Regen. Thomas sitzt schon, als Ralf hereinkommt und kurz in der Tür stehen bleibt.",
+          "RALF: Du bist früh."
+        ],
+        "suggestions": [
+          "Der Einstieg ist fast perfekt 'in medias res'. Um ihn nach Eschbach noch radikaler zu kürzen, könnte das Eintreten und Setzen gestrichen werden und die Szene direkt beim Bestellen oder der Frage nach Anna starten. Allerdings charakterisiert das Anbehalten der Jacke die angespannte Situation hier sehr gut, weshalb der Einstieg gerechtfertigt ist."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["lächelt kurz", "nickt langsam", "(leise)"],
+        "suggestions": [
+          "Der Text ist extrem sparsam und präzise. Dennoch könnten die wenigen Adverbien in den Regieanweisungen durch noch bildhaftere Verben ersetzt werden: Statt 'lächelt kurz, dann nicht mehr' lieber 'Ein Lächeln zuckt über Thomas' Gesicht und erlischt sofort.' Statt 'nickt langsam' evtl. 'Ralf senkt den Kopf.'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["RALF: Du bist früh.", "THOMAS: Ich bin immer früh."],
+        "suggestions": [
+          "Da es sich um ein Skript-/Drehbuchformat handelt, gibt es keine klassischen Redebegleitsätze ('sagte er'). Falls der Text in Prosa umgewandelt wird, ist der Schlagabtausch bereits so klar strukturiert, dass man fast komplett ohne 'sagte Thomas' oder 'antwortete Ralf' auskommen wird."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie fragt manchmal nach dir.", "Hab ich ja auch."],
+        "suggestions": [
+          "In den beschreibenden Teilen gibt es keinerlei Füllwörter. In den Dialogen sind Wörter wie 'manchmal' oder 'ja' vorhanden, dort erfüllen sie aber eine wichtige Funktion für den natürlichen Sprachklang und den Subtext (Ausweichen, Rechtfertigen). Keine Änderung nötig."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Thomas sitzt schon, als Ralf hereinkommt und kurz in der Tür stehen bleibt."],
+        "suggestions": [
+          "Eschbach rät dazu, 'als'-Konstruktionen für Gleichzeitigkeit aufzulösen und Handlungen nacheinander zu schildern. Vorschlag: 'Bahnhofscafé, Regen. Thomas sitzt an einem Tisch. Ralf kommt herein, bleibt kurz in der Tür stehen.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Hervorragend. Der gesamte Text steht im Aktiv, was ihm trotz der ruhigen Szene eine hohe unmittelbare Präsenz verleiht."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Stille. Draußen fährt ein Zug ein.",
+          "Keiner steht auf. Die Kellnerin bringt den Kaffee."
+        ],
+        "suggestions": [
+          "Der Satzbau ist exzellent. Kurze, prägnante Sätze, die perfekt zur unterkühlten, angespannten Atmosphäre passen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "THOMAS: Schwarz. / RALF: Schwarz.",
+          "RALF: Doch. Früher, im Winter, wenn die Bäume kahl waren. / THOMAS: Früher."
+        ],
+        "suggestions": [
+          "Meisterhaft verknappte Dialoge. Keine Zeile ist zu lang, kein Wort zu viel. Der gesamte Konflikt wird über den Subtext (Hemingway'sches Eisberg-Prinzip) transportiert."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Thomas sieht auf die Uhr und gleich wieder weg, ohne die Zeit gelesen zu haben."
+        ],
+        "suggestions": [
+          "Hier gibt es einen minimalen Bruch der strengen Außensicht (Kamera-Perspektive). Dass er die Zeit nicht gelesen hat, ist eine interne Wahrnehmung (man kann es von außen nicht sehen). In einem Drehbuch ist das unverfilmbar, in strenger Prosa eine erklärungshafte Innensicht. Besser rein über das Verhalten lösen: 'Thomas' Blick streift seine Armbanduhr, zuckt aber sofort wieder zurück.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ralf dreht die Tasse am Henkel.", "Die Kellnerin bringt den Kaffee."],
+        "suggestions": [
+          "Stilistische Wiederholungen im Dialog ('früh', 'Schwarz', 'Früher') werden hier als starkes rhetorisches Mittel genutzt – unbedingt beibehalten! Es gibt jedoch einen kleinen Logik-/Kontinuitätsfehler (keine klassische Wortwiederholung, aber ein Lektorats-Fund): Ralf dreht in der Mitte der Szene bereits die Tasse am Henkel, aber erst im allerletzten Satz bringt die Kellnerin überhaupt den Kaffee. Statt der Tasse sollte Ralf in der Mitte der Szene z.B. mit dem Salzstreuer, dem Löffel oder einem Bierdeckel spielen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016788
+}

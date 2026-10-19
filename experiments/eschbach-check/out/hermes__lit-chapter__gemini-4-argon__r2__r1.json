@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gemini-4-argon__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel hing so tief über dem Wasser..."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und setzt genau zum richtigen Zeitpunkt ein, um die Stimmung der Szene zu etablieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kaum merklich", "völlig durchnässt"],
+        "suggestions": [
+          "Die Adjektivdichte ist angenehm. 'Völlig durchnässt' könnte zu 'durchnässt' gekürzt werden, da das Adjektiv bereits absolut ist. 'Kaum merklich' könnte durch ein stärkeres Verb ersetzt werden (z.B. 'Ilse zuckte mit den Schultern')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Morgen, Ilse“, rief er...", "„Kröger.“ Sie hielt ihm..."],
+        "suggestions": [
+          "Hervorragend gelöst. Die Redeeinleitungen sind auf das Nötigste reduziert oder durch Handlungsbeschreibungen ersetzt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["keine signifikanten Füllwörter gefunden"],
+        "suggestions": ["Der Text ist sehr präzise und frei von unnötigen Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Gleichzeitig tauchte daneben eine schmale Silhouette auf..."],
+        "suggestions": [
+          "Das Wort 'Gleichzeitig' ist hier akzeptabel, könnte aber durch 'Daneben tauchte...' ersetzt werden, um den Fokus direkter auf das neue Element zu lenken."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["war ... überzogen"],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert. Die wenigen passiven Konstruktionen dienen der Zustandsbeschreibung und sind daher passend."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel hing so tief über dem Wasser, dass das andere Ufer nicht existierte."
+        ],
+        "suggestions": [
+          "Der Rhythmus der Sätze ist abwechslungsreich und gut lesbar. Keine Verschachtelungen, die den Lesefluss stören."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Was bekommen Sie?“, fragte die Frau... „Zwei Euro.“"],
+        "suggestions": ["Die Dialoge sind kurz, funktional und treiben die Handlung voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie sah sich suchend um...", "Sie sah auf die Uhr..."],
+        "suggestions": [
+          "Sehr gut umgesetzt. Wahrnehmungen werden direkt durch Handlungen oder Blicke dargestellt, statt durch 'sie sah, dass' oder 'sie dachte, dass'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["keine inhaltlichen Doppelungen"],
+        "suggestions": [
+          "Der Text ist ökonomisch geschrieben; Informationen werden nicht unnötig wiederholt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

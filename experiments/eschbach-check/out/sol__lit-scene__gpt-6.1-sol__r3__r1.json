@@ -1,0 +1,131 @@
+{
+  "who": "sol",
+  "item": "lit-scene__gpt-6.1-sol__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel ging nur bis zur Hälfte ins Schloss.",
+          "Jetzt ließ sich der Schlüssel drehen."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Das konkrete Hindernis eröffnet unmittelbar die Handlung und vermittelt Noras Vertrautheit mit dem Haus, ohne Vorgeschichte voranzustellen. Ein späterer Beginn würde diese Charakterisierung verlieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Aus einem Loch ragten zwei kurze Drähte.",
+          "Sie machte unwillkürlich einen größeren Schritt.",
+          "In einem der vier Löcher hing ein Rest dunkelgrünen Garns."
+        ],
+        "suggestions": [
+          "Die meisten Attribute beibehalten: Farbe, Größe und Beschaffenheit machen die zurückgebliebenen Gegenstände konkret.",
+          "Allenfalls „unwillkürlich“ streichen. Der Zusammenhang mit der vertrauten Diele legt bereits nahe, dass Nora aus körperlicher Erinnerung reagiert."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Mann vom Nachlassdienst hatte gesagt, alles sei ausgeräumt.",
+          "Er hatte dabei geklungen, als wäre das eine gute Nachricht."
+        ],
+        "suggestions": [
+          "Keine Kürzung erforderlich: Es gibt keinen direkten Dialog mit überflüssigen Sprecherzuweisungen. „Hatte gesagt“ kennzeichnet hier sinnvoll die Quelle einer erinnerten Auskunft."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "In der Küche fehlte sogar die Deckenlampe.",
+          "Darunter steckte noch der kleine Haken für die Kleiderbürste.",
+          "Sie legte den Knopf zurück, genau in den staubfreien Kreis."
+        ],
+        "suggestions": [
+          "Die Partikeln nicht pauschal streichen: „sogar“ vermittelt Noras Erwartung, „noch“ markiert das Überdauern und „genau“ betont ihre kontrollierte Bewegung.",
+          "Der Text enthält keine auffällige Häufung unpräziser Mengenangaben oder abschwächender Füllwörter."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Als sein Motor nicht mehr zu hören war, drückte sie die Tür mit dem Knie nach innen, wie früher.",
+          "Nora zog ihn heraus, wischte ihn am Mantelfutter ab und versuchte es noch einmal."
+        ],
+        "suggestions": [
+          "Die zeitliche Organisation beibehalten: Die Handlungen folgen überwiegend klar aufeinander.",
+          "Den einzelnen „Als“-Satz erhalten. Er bindet Noras Bewegung an das Verstummen des Busses und erzeugt eine wirkungsvolle Pause."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Jetzt ließ sich der Schlüssel drehen.",
+          "Ihre Mutter hatte sie damals einbetonieren lassen, in der Woche, in der Nora fortgegangen war."
+        ],
+        "suggestions": [
+          "Keine Passivüberarbeitung nötig. „Ließ sich drehen“ beschreibt passend die nachgebende Mechanik; „hatte sie einbetonieren lassen“ ist eine aktive Kausativkonstruktion, die die Mutter als Veranlasserin benennt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Wo der Herd gestanden hatte, war die Wand gelb, bis auf ein weißes Rechteck hinter der ehemaligen Abzugshaube.",
+          "Ihre Mutter hatte sie damals einbetonieren lassen, in der Woche, in der Nora fortgegangen war.",
+          "Im Flur war es kälter als draußen."
+        ],
+        "suggestions": [
+          "Den Wechsel zwischen knappen und etwas längeren Sätzen erhalten; er trägt den ruhigen Erzählrhythmus.",
+          "Optional den doppelten Anschluss „in der Woche, in der“ glätten: „Ihre Mutter hatte sie damals einbetonieren lassen – in derselben Woche war Nora fortgegangen.“ Die bestehende Fassung ist jedoch gut verständlich."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Mann vom Nachlassdienst hatte gesagt, alles sei ausgeräumt."],
+        "suggestions": [
+          "Keine Straffung nötig: Direkte Dialogpassagen fehlen, und die einzige berichtete Äußerung ist bereits auf ihren erzählerisch relevanten Kern reduziert."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Nun sah sie zuerst den hellen Fleck auf der Tapete, wo der Spiegel gehangen hatte.",
+          "Dann roch sie es: angesengte Wolle, schwach, aber unverkennbar.",
+          "Von hier aus konnte man den Garten überblicken."
+        ],
+        "suggestions": [
+          "Die Fensterpassage versuchsweise direkter fassen: „Draußen stand noch die Wäschespinne.“ Das beseitigt zugleich den Wechsel zum unpersönlichen „man“.",
+          "Auch der Tapetenfleck ließe sich unmittelbar zeigen: „Auf der Tapete blieb ein heller Fleck, wo der Spiegel gehangen hatte.“ Dabei geht allerdings die Betonung ihrer ersten Wahrnehmung verloren.",
+          "„Dann roch sie es“ eher beibehalten: Der Wahrnehmungsakt markiert hier gezielt den Übergang von der Gegenwart zur Erinnerung."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Mann vom Nachlassdienst hatte gesagt, alles sei ausgeräumt.",
+          "In der Küche fehlte sogar die Deckenlampe.",
+          "Die Wäschespinne stand noch.",
+          "Zwanzig Jahre hatte sie sich dieses Haus von der Straße aus vorgestellt, nie von innen."
+        ],
+        "suggestions": [
+          "Die wiederkehrenden Spuren von Abwesenheit und Fortbestehen erhalten: Sie variieren das zentrale Motiv, statt denselben Sachverhalt bloß mehrfach zu erklären.",
+          "Bei späteren Erweiterungen keine zusätzliche Erklärung von Noras Entfremdung oder ihrer Beziehung zur Mutter ergänzen. Gegenstände, Erinnerungen und Schlussgeste vermitteln diese Spannung bereits."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018654
+}

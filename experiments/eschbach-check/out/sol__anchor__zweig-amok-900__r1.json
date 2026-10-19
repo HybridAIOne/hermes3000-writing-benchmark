@@ -1,0 +1,146 @@
+{
+  "who": "sol",
+  "item": "anchor__zweig-amok-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Im März des Jahres 1912 ereignete sich im Hafen von Neapel […] ein merkwürdiger Unfall“ setzt einen wirkungsvollen Spannungsimpuls.",
+          "„Als ich in der Schiffsagentur von Kalkutta einen Platz für die Rückreise nach Europa […] bestellen wollte“ eröffnet anschließend eine ausführliche Vorgeschichte zur Buchung."
+        ],
+        "suggestions": [
+          "Den vorausdeutenden Unfallbericht als Rahmen beibehalten, die Buchung jedoch auf einen Satz reduzieren.",
+          "Die eigentliche Schiffsszene mit der bedrückenden Kabine beginnen lassen. Überfüllung und knappe Platzvergabe lassen sich dort knapp nachtragen.",
+          "Bei einer stärker handlungsorientierten Fassung unmittelbar mit dem nächtlichen Erwachen einsetzen und die Gründe für den veränderten Schlafrhythmus kurz rückblickend vermitteln."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "„ein kleiner, gepreßter, rechteckiger Winkel“ häuft Eigenschaften mit teilweise ähnlicher räumlicher Wirkung.",
+          "„den süßlichen weichen Wind“ verbindet zwei Sinneseindrücke, ohne dass beide für die Bewegung notwendig wären.",
+          "„so strahlend, so stahlblau hart und doch funkelnd, triefend, rauschend, quellend von Licht“ verdichtet zahlreiche Attribute und Partizipien."
+        ],
+        "suggestions": [
+          "Attributketten auf die jeweils stärksten, eigenständigen Wahrnehmungen prüfen, etwa „ein enger Winkel neben der Dampfmaschine“.",
+          "Besonders im Schlussabschnitt einzelne Lichtattribute streichen, damit die verbleibenden Bilder stärker hervortreten.",
+          "Nicht pauschal kürzen: Die sinnliche Überfülle trägt die Wahrnehmungsweise des Erzählers und sollte als Stilmittel erkennbar bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„zuckte der Clerk bedauernd die Schultern. Er wisse noch nicht […]“ kennzeichnet den Sprecher eindeutig durch Handlung und anschließende indirekte Rede.",
+          "„Am nächsten Tage teilte er mir erfreulicherweise mit, er könne mir noch einen Platz vormerken“ markiert einen neuen Gesprächszeitpunkt."
+        ],
+        "suggestions": [
+          "Die eindeutige Sprecherzuordnung beibehalten; zusätzliche Redebegleitsätze sind nicht nötig.",
+          "Falls die Buchungspassage gekürzt wird, eher ihren Informationsumfang reduzieren als die funktionalen Sprecherkennzeichnungen entfernen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Immerhin meine ich persönlich“ enthält mit „ich“ und „persönlich“ eine entbehrliche Verstärkung.",
+          "„tat mir irgendwie weh“ und „Meine Sinne waren irgendwie betäubt“ bleiben unbestimmt.",
+          "„Mitternacht mußte jedenfalls schon vorbei sein“ bündelt mehrere Abstufungen einer Vermutung."
+        ],
+        "suggestions": [
+          "„meine ich persönlich“ zu „meine ich“ kürzen.",
+          "„irgendwie“ streichen oder die konkrete Wirkung benennen, etwa „Das Geschwätz zermürbte mich“.",
+          "„Mitternacht mußte schon vorbei sein“ genügt; die nachfolgende Begründung macht die Unsicherheit verständlich.",
+          "Abschwächungen dort erhalten, wo sie gezielt die vorsichtige, rückblickende Erzählerstimme charakterisieren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„zur Nachtzeit während des Kohlenladens und der Löschung der Fracht“ liefert eine sachlich sinnvolle zeitliche Einordnung.",
+          "„So flüchtete ich, kaum daß ich den Koffer […] verstaut hatte, wieder zurück auf Deck“ verschränkt zwei aufeinanderfolgende Handlungen.",
+          "„Und wie ich den Blick aufhob […], drang mit einmal magische Helle mir in die Augen“ verbindet Bewegung und Wahrnehmung unmittelbar."
+        ],
+        "suggestions": [
+          "Keine grundsätzliche Überarbeitung nötig: Die zeitlichen Verknüpfungen sind nicht auffällig überbeansprucht.",
+          "Für mehr Tempo einzelne Handlungsketten entflechten: „Ich verstaute den Koffer im muffigen Grab der Kabine und floh zurück auf Deck.“",
+          "Die unmittelbare Verbindung von Aufblicken und Lichtwahrnehmung erhalten, da sie den Enthüllungsmoment unterstützt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„die Maschine […] stieß keuchend den knisternden Leib des Schiffes fort ins Unsichtbare“ formuliert aktiv und bildkräftig.",
+          "„Den Ventilator hatte ich abgestellt“ benennt den Handelnden unmittelbar."
+        ],
+        "suggestions": [
+          "Die aktive Erzählweise beibehalten; ein störender Gebrauch des Vorgangspassivs ist nicht erkennbar.",
+          "Zustandsbeschreibungen wie „Das Schiff war überfüllt“ nicht schematisch umformen: Sie beschreiben hier den relevanten Zustand prägnant."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Der Satz von „Obzwar Passagier der »Oceania«“ bis „die Zeit verbrachten“ verbindet Zeugenschaft, Unfallzeitpunkt, Lärmvermeidung und Landaufenthalt.",
+          "Der Satz von „Weißer Lack, flimmerten im Monde“ bis „den strahlenden des Himmels“ bündelt Schiffskonturen, Lichtauflösung und Sternvergleich.",
+          "„Von unten her ratterte und stöhnte wie ein Kohlenträger, der unablässig dieselbe Treppe hinaufkeucht, die Maschine“ trennt das Subjekt durch einen eingeschobenen Vergleich vom Prädikat."
+        ],
+        "suggestions": [
+          "Den Satz zur fehlenden Zeugenschaft teilen: „Auch ich war Passagier der »Oceania«, wurde aber nicht Zeuge des Vorfalls. Wir waren an Land gegangen, um dem nächtlichen Lärm der Ladearbeiten zu entgehen.“",
+          "Beim Maschinenvergleich zunächst die Satzgrundstruktur setzen: „Von unten ratterte und stöhnte die Maschine wie ein Kohlenträger, der unablässig dieselbe Treppe hinaufkeucht.“",
+          "Lange Perioden gezielt mit kurzen Sätzen kontrastieren. „Ich tastete empor auf Deck. Es war leer.“ zeigt bereits, wie wirkungsvoll dieser Wechsel ist."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Er wisse noch nicht, ob es möglich sei, mir eine Kabine zu sichern […]“ fasst das erste Gespräch in indirekter Rede zusammen.",
+          "„er könne mir noch einen Platz vormerken, freilich sei es nur eine wenig komfortable Kabine“ vermittelt das Ergebnis des zweiten Gesprächs knapp."
+        ],
+        "suggestions": [
+          "Es gibt keine ausufernden direkten Dialoge; eine Dialogkürzung ist daher nicht erforderlich.",
+          "Die beiden Auskünfte des Clerks bei Bedarf zu einer knappen Zusammenfassung verdichten, um die Vorgeschichte zu beschleunigen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„von oben hörte man unaufhörlich das schlurfende Hin und Her der Schritte“ schaltet eine allgemeine Wahrnehmungsinstanz zwischen Geräusch und Leser.",
+          "„denn ich hörte weder Musik noch den rastlosen Schlurf der Schritte“ bindet die Stille an einen Wahrnehmungsbericht.",
+          "„Nie hatte ich den Himmel gesehen wie in jener Nacht“ ist dagegen eine bedeutungstragende persönliche Einordnung."
+        ],
+        "suggestions": [
+          "Geräusche unmittelbarer darstellen: „Über mir schlurften unaufhörlich Schritte auf dem Promenadendeck.“",
+          "Die nächtliche Stille direkter formulieren: „Keine Musik mehr, kein Schlurfen von Schritten. Nur die Maschine […]“.",
+          "Persönliche Wahrnehmungskommentare erhalten, wenn sie das Außergewöhnliche des Erlebnisses ausdrücken, statt lediglich einen Sinneseindruck einzuleiten."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "„die Kabine schlecht“, „das muffige Grab“, „die Kabine war heiß und dunstig“ und „der kleine Sarg der Kabine“ variieren wiederholt dieselbe bedrückende Raumerfahrung.",
+          "„voll Enge und Unruhe“, „nicht eine Minute Ruhe und Rast“ und „Es war unmöglich […] allein zu sein“ erläutern mehrfach die fehlende Rückzugsmöglichkeit.",
+          "„Der Himmel strahlte“ und „aber doch: er strahlte“ bilden eine erkennbare rhetorische Wiederholung."
+        ],
+        "suggestions": [
+          "In den Absätzen über Kabine und Deck jeweils prüfen, ob ein starkes Bild und eine konkrete Folge genügen.",
+          "Die Aussagen über fehlende Ruhe zusammenziehen; das Zerfließen der Buchzeilen veranschaulicht die Ablenkung bereits überzeugend.",
+          "Die bewusste Wiederholung von „strahlte“ nicht automatisch streichen: Sie inszeniert das Staunen. Eher benachbarte Lichtumschreibungen reduzieren.",
+          "Zwischen motivischer Wiederaufnahme und bloßer Doppelung unterscheiden: Die spätere Rückkehr in die Kabine rechtfertigt eine erneute, aber knappere Zustandsbeschreibung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.027874
+}

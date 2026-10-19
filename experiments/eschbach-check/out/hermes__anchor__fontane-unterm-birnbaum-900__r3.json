@@ -1,0 +1,98 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-unterm-birnbaum-900",
+  "run": 3,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr statisch und beschreibend. Beginnen Sie direkt mit der Handlung (dem Beladen des Wagens) und weben Sie die Ortsbeschreibung in die Bewegung ein."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["großen und reichen", "magern", "schläfrigen", "sorglich"],
+        "suggestions": [
+          "Viele Adjektive dienen der Atmosphäre, schwächen aber die Dynamik. Streichen Sie schmückende Adjektive, wenn das Substantiv oder Verb bereits stark genug ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte zu dem eben vom Rad her auf die Deichsel steigenden Knecht"],
+        "suggestions": [
+          "Die Einleitungen sind teilweise zu umständlich. Kürzen Sie auf 'sagte Hradscheck' und lassen Sie die Handlung für sich sprechen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["überhaupt", "gewisse", "eben"],
+        "suggestions": [
+          "Wörter wie 'überhaupt' oder 'gewisse' verwässern die Aussage. Streichen Sie diese, um den Text direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "während der nach dem Garten hinausführende Hinterflur...",
+          "während an der andern..."
+        ],
+        "suggestions": [
+          "Vermeiden Sie 'während'-Konstruktionen. Beschreiben Sie die Dinge nacheinander, um den Lesefluss zu glätten."
+        ]
+      },
+      "passive": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": ["wurden Säcke... geladen", "war... gewesen", "war... unterbrochen"],
+        "suggestions": [
+          "Formulieren Sie aktiv um. Statt 'wurden geladen' schreiben Sie: 'Jakob lud die Säcke auf den Wagen'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus und Materialwaarengeschäft von Abel Hradscheck (so stand auf einem über der Thür angebrachten Schilde) wurden Säcke..."
+        ],
+        "suggestions": [
+          "Der erste Satz ist extrem verschachtelt. Teilen Sie komplexe Sätze in zwei oder drei kürzere Einheiten auf, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["»Und nun vorwärts, Jakob, und grüße mir Ölmüller Quaas...«"],
+        "suggestions": ["Die Dialoglänge ist angemessen und charakterisiert die Figur gut."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["sah man denn", "sah dem Wagen nach", "sah, daß seine Nachbarin... kuckte"],
+        "suggestions": [
+          "Vermeiden Sie 'sah, dass'. Beschreiben Sie direkt, was die Figur wahrnimmt: 'Die Nachbarin guckte über den Zaun.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Die detaillierte Beschreibung des Flurs und der Ladeneinrichtung wiederholt sich in der Funktion."
+        ],
+        "suggestions": [
+          "Fassen Sie die Beschreibung der Räumlichkeiten kompakter zusammen, um den Erzählfluss nicht zu unterbrechen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

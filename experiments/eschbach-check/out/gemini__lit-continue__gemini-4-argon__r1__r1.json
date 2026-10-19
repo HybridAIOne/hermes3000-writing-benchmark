@@ -1,0 +1,114 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__gemini-4-argon__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Die Strömung reicht“, sagte Ilse. Sie wischte sich die Hände an der Arbeitshose ab..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist hervorragend (in medias res). Die Fähre hat gerade angelegt, es gibt kein unnötiges Geplänkel vorab. Genau so lassen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...machte einen halbherzigen Schritt...",
+          "...eine trockene, fast stickige Wärme...",
+          "Jonas sah sie überrascht an."
+        ],
+        "suggestions": [
+          "Die meisten Adjektive sind sehr bildhaft und atmosphärisch notwendig. Nur an wenigen Stellen wird gewertet statt gezeigt: Statt 'halbherziger Schritt' könnte er den Schritt machen und sofort wieder zögern. Statt 'überrascht ansehen' könnte er blinzeln oder die Stirn runzeln."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Hallo, Mama“, sagte er und machte...",
+          "„Fährt überhaupt noch jemand unter der Woche?“, fragte er und schob...",
+          "„Die Schule ist um eins aus“, sagte Ilse."
+        ],
+        "suggestions": [
+          "Da nur zwei Personen anwesend sind und ihre Handlungen direkt mit den Dialogen verknüpft werden, sind einige Inquits entbehrlich. Beispiel: '„Hallo, Mama.“ Er machte einen Schritt auf sie zu...' oder '„Fährt überhaupt noch jemand unter der Woche?“ Er schob die Hände...'"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "...fand aber wohl kein Netz.",
+          "Eigentlich war ihre Schicht erst in einer Stunde zu Ende..."
+        ],
+        "suggestions": [
+          "Der Text ist extrem sauber. Das 'wohl' (zeigt Ilses Vermutung) und 'Eigentlich' (zeigt ihren inneren Konflikt) erfüllen hier eine perspektivische Funktion, könnten aber für noch mehr Schärfe theoretisch gestrichen werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Er hob den Koffer am Griff hoch, statt ihn zu ziehen, und folgte ihr auf das flache Deck.",
+          "Sie trat wieder hinaus in die Kälte, ging an Jonas vorbei zur Auffahrt und hängte die eiserne Kette vor."
+        ],
+        "suggestions": [
+          "Perfekte Umsetzung. Es gibt keine falschen Gleichzeitigkeiten mit 'während' oder 'als'. Alle Handlungen sind sauber und logisch nacheinander gereiht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der gesamte Text kommt komplett ohne Passivkonstruktionen aus. Die Verben sind aktiv und kraftvoll."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Jonas trug einen dunkelblauen Wollmantel, der viel zu dünn war für den Novemberwind, der flach über das Deichvorland strich."
+        ],
+        "suggestions": [
+          "Der Satzrhythmus ist sehr gut komponiert. Einzig die doppelte Relativsatz-Konstruktion ('der..., der...') im zweiten Absatz könnte durch einen Punkt oder eine Umstellung eleganter gelöst werden (z.B. '...für den Novemberwind. Der strich flach über das Deichvorland.')."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Was machst du?“ – „Wasser aufsetzen“"],
+        "suggestions": [
+          "Die Dialoge sind knapp, norddeutsch-lakonisch und transportieren enorm viel Subtext. Keine Zeile ist zu viel."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ilse betrachtete seinen Nacken.",
+          "Sein Blick glitt über die abblätternde grüne Farbe..."
+        ],
+        "suggestions": [
+          "Es gibt keine klassischen Filterwörter ('sie sah, dass'). Die Wahrnehmung ist tief in Ilses Perspektive verankert. 'Ilse betrachtete seinen Nacken' ist streng genommen ein Filter, funktioniert hier aber als bewusste Handlung des genauen Hinsehens."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er sah müde aus. Unter seinen Augen lagen dunkle Schatten, die nicht von der frischen Luft kamen."
+        ],
+        "suggestions": [
+          "Minimaler Fall von 'Tell, then Show'. Da die dunklen Schatten unter den Augen bereits die Müdigkeit zeigen, könnte der Satz 'Er sah müde aus' ersatzlos gestrichen werden, um dem Leser die Schlussfolgerung selbst zu überlassen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01634
+}

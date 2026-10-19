@@ -1,0 +1,140 @@
+{
+  "who": "opus",
+  "item": "lit-scene__kimi-k3__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel klemmte.",
+          "Nora musste die Schulter gegen die Tür legen, und das Holz gab nach …"
+        ],
+        "suggestions": [
+          "Der Einstieg ist gelungen: Die Szene setzt direkt an der Schwelle ein, ohne Anreise oder Vorgeschichte. Die Rückblende („Zwanzig Jahre. Das letzte Mal …“) folgt erst, nachdem die Figur körperlich im Raum angekommen ist. Hier ist keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "weil die Ligusterhecke vor dem Fenster in all den Jahren gewuchert war, ungestört, ohne Schere",
+          "und darunter, ganz flach, der Rest von etwas",
+          "das Stück in der kleinen Blechdose",
+          "Fein, unverkennbar: Veilchen."
+        ],
+        "suggestions": [
+          "„gewuchert, ungestört, ohne Schere“ sagt dreimal dasselbe. „ohne Schere“ ist das stärkste Bild. Vorschlag: „weil die Ligusterhecke in all den Jahren gewuchert war, ohne Schere.“",
+          "„ganz“ in „ganz flach“ schwächt eher ab. „und darunter, flach, der Rest von etwas …“ wirkt präziser.",
+          "„kleinen“ bei „Blechdose“ ist verzichtbar, weil die Dose durch „die nie ganz zuging“ bereits charakterisiert ist.",
+          "Die meisten übrigen Adjektive („ausgeblichene Fleck“, „handgeschöpfte Seife“, „grünlich“) tragen konkrete Information und sollten bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "*Eine Hecke lässt man nicht*, hatte sie gesagt, als wäre Wuchs eine Unanständigkeit."
+        ],
+        "suggestions": [
+          "Die einzige Redeeinleitung ist berechtigt, weil sie die erinnerte Rede zeitlich verortet und mit einem charakterisierenden Nachsatz verbindet. Alternativ ginge es auch ohne Inquit: „*Eine Hecke lässt man nicht.* Als wäre Wuchs eine Unanständigkeit.“ Das ist aber eine reine Geschmacksfrage."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jemand – sie selbst, vermutlich – hatte nie weitergeblättert.",
+          "Irgendjemand musste danach hier gewesen sein.",
+          "die nie ganz zuging",
+          "vor Kurzem ein Fenster geöffnet worden"
+        ],
+        "suggestions": [
+          "„vermutlich“ ist hier kein Füllwort, sondern Figurenzeichnung (Nora weiß es selbst nicht mehr) und sollte bleiben.",
+          "„Irgendjemand musste danach hier gewesen sein“ ist eine vage Schlussfolgerung, die der Leser selbst zieht. Der Satz kann ganz entfallen (siehe Wiederholungen).",
+          "Ansonsten ist der Text auffallend frei von Wörtern wie „ziemlich“, „einige“ oder „etwas“. Zahlen werden konkret genannt („Zwanzig Jahre“, „vierzig Jahre lang“, „März“)."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "als käme jemand zurück und würde ihn brauchen",
+          "als wäre oben, im ersten Stock, vor Kurzem ein Fenster geöffnet worden"
+        ],
+        "suggestions": [
+          "Handlungen werden durchgehend nacheinander erzählt (Tür öffnen, Koffer stehen lassen, durch die Zimmer gehen, riechen, stehen bleiben). „als“ erscheint nur vergleichend, nicht temporal. Kein „während“ oder „gleichzeitig“, kein Handlungsbedarf.",
+          "Allenfalls die Häufung von „als wäre / als käme / als wäre“ (drei irreale Vergleiche) ließe sich prüfen. Einen davon könnte man durch eine direkte Aussage ersetzen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "als wäre oben, im ersten Stock, vor Kurzem ein Fenster geöffnet worden",
+          "ein Topf, sauber, verkehrt herum abgestellt"
+        ],
+        "suggestions": [
+          "Beide Passivformen sind funktional: Der Handelnde ist unbekannt, und genau darin liegt die Spannung. Eine aktive Umformulierung („als hätte jemand oben ein Fenster geöffnet“) wäre möglich und würde das Unheimliche noch direkter benennen. Das Passiv wahrt jedoch die Andeutung und ist hier vertretbar."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Das Wohnzimmer: der ausgeblichene Fleck auf dem Teppich, dort, wo der Fernseher gestanden hatte, den sie vor der Beerdigung noch verkauft hatte, sie erinnerte sich nicht mehr, wem.",
+          "Nicht Parfüm – die handgeschöpfte Seife aus der Apotheke in der Unterstadt, die ihre Mutter vierzig Jahre lang benutzt hatte, das Stück in der kleinen Blechdose, die nie ganz zuging.",
+          "Nora musste die Schulter gegen die Tür legen, und das Holz gab nach mit einem Laut, wie sie ihn von ihren Knochen kannte, morgens, vor dem ersten Kaffee."
+        ],
+        "suggestions": [
+          "Der Wohnzimmer-Satz stapelt drei Relativ- bzw. Nebensätze und endet mit einem Komma-Spleiß. Vorschlag: „Das Wohnzimmer: der ausgeblichene Fleck auf dem Teppich, wo der Fernseher gestanden hatte. Sie hatte ihn vor der Beerdigung verkauft. An wen, wusste sie nicht mehr.“",
+          "Der Seifen-Satz trägt vier Informationsschichten (Apotheke, Unterstadt, vierzig Jahre, Blechdose). Er ließe sich teilen: „Nicht Parfüm. Die handgeschöpfte Seife aus der Apotheke in der Unterstadt, vierzig Jahre lang dieselbe. Das Stück lag in einer Blechdose, die nie zuging.“",
+          "Der Wechsel zwischen sehr kurzen Sätzen („Sie ließ den Koffer stehen.“) und langen Perioden ist insgesamt ein bewusstes Rhythmusmittel. Nur die überladenen Stellen sollten gestrafft werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text enthält keine Dialogpassagen, nur ein einzelnes erinnertes Zitat. Kein Handlungsbedarf."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie stellte fest, dass sie ihren Mantel nicht ausgezogen hatte, und dass sie ihn auch nicht ausziehen würde.",
+          "Wer ihn abgewaschen hatte, wusste sie nicht.",
+          "sie erinnerte sich nicht mehr, wem",
+          "Dann roch sie es."
+        ],
+        "suggestions": [
+          "Der Schlusssatz ist das deutlichste Beispiel für gefilterte Wahrnehmung. Direkter und stärker: „Sie hatte ihren Mantel noch an. Sie würde ihn anbehalten.“",
+          "„Wer ihn abgewaschen hatte, wusste sie nicht.“ lässt sich als offene Frage formulieren: „Wer hatte ihn abgewaschen?“ Das zieht den Leser in Noras Kopf.",
+          "„Dann roch sie es. Fein, unverkennbar: Veilchen.“ könnte direkt einsetzen: „Dann: Veilchen. Fein, unverkennbar.“",
+          "Positiv: Die Eingangswahrnehmung („roch, was Häuser riechen, wenn niemand mehr in ihnen atmet: kühler Staub …“) ist bereits sehr unmittelbar und sinnlich."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Wer ihn abgewaschen hatte, wusste sie nicht. Ihre Mutter war im Krankenhaus gestorben. Irgendjemand musste danach hier gewesen sein.",
+          "„Zwanzig Jahre.“ / „Zwanzig Jahre alte Seife duftet nicht mehr durch einen Flur.“",
+          "„um das Begräbnis herum“ / „vor der Beerdigung“ / „des Todesjahres“ / „im Krankenhaus gestorben“",
+          "„gewuchert war, ungestört, ohne Schere“"
+        ],
+        "suggestions": [
+          "Die Topf-Passage erklärt, was das Bild bereits zeigt. Die beiden Sätze „Ihre Mutter war im Krankenhaus gestorben. Irgendjemand musste danach hier gewesen sein.“ können entfallen. Die Frage nach dem Abwaschenden genügt, und das Unheimliche wirkt stärker, wenn es unerklärt bleibt.",
+          "„Zwanzig Jahre alte Seife duftet nicht mehr durch einen Flur.“ ist eine auktoriale Erklärung dessen, was der Leser durch die Zeitangabe am Anfang und die frühere „Rest von etwas, das einmal Seife gewesen war“-Stelle bereits weiß. Streichen oder stärker in Noras Wahrnehmung verankern, etwa: „Das konnte nicht sein.“",
+          "Der Tod der Mutter wird viermal umkreist. Ein bis zwei Verweise reichen, die übrigen sind ohne Verlust streichbar.",
+          "Das Mantel-Motiv (Anfang und Ende) ist dagegen eine gelungene, bewusste Klammer und keine störende Wiederholung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.108884
+}

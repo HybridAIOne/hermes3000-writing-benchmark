@@ -1,0 +1,132 @@
+{
+  "who": "opus",
+  "item": "lit-scene__claude-opus-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der Schlüssel lag noch dort, wo er vor zwanzig Jahren gelegen hatte …“ steigt ohne Anfahrt, Autofahrt oder Vorgeschichte direkt mit einem konkreten Gegenstand ein.",
+          "Der erste Satz enthält bereits Zeitsprung (zwanzig Jahre), Verfall (Moos, Vogelkot) und Vertrautheit (sie weiß, wo der Schlüssel liegt)."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten. Ein späterer Beginn an der Tür würde das starke Bild des unveränderten Verstecks kosten.",
+          "Optional könnte der zweite Absatz (Haus, Rasen) vor den Schlüsselfund rücken. Die jetzige Reihenfolge erzeugt jedoch mehr Sog."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„mühelos, fast gefällig“",
+          "„mit diesem metallischen, leicht süßlichen Geruch“",
+          "„die Halme lagen grau und verfilzt am Zaun“",
+          "„geduckt unter dem Märzhimmel“ – präzise und bildstark"
+        ],
+        "suggestions": [
+          "„mühelos, fast gefällig“: Ein Wort genügt, etwa „Aber er drehte sich gefällig“. Das ist ungewöhnlicher und trägt die Bedeutung allein.",
+          "„metallischen, leicht süßlichen“: „leicht“ abschwächen oder streichen, z. B. „mit diesem metallisch-süßen Geruch“.",
+          "Die meisten Adjektive (kalter Ofen, hellere Rechtecke, dunkler Film) sind funktional und sollten bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Text enthält keinen Dialog und daher keine Redeeinleitungen."],
+        "suggestions": [
+          "Kein Handlungsbedarf. Falls später Dialog folgt, auf sparsame Inquit-Formeln achten."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„irgendwann im Herbst vielleicht“",
+          "„Die Nachbarin, vermutlich.“",
+          "„fast gefällig“",
+          "„leicht süßlichen“"
+        ],
+        "suggestions": [
+          "„vielleicht“ und „vermutlich“ bilden Hannas Unsicherheit ab und sind hier figurengebunden. Eine Unschärfe pro Satz reicht aber: „Jemand hatte den Rasen gemäht, irgendwann im Herbst.“",
+          "„fast“ und „leicht“ streichen. Die Aussagen werden dadurch bestimmter, ohne an Nuance zu verlieren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„und als sie die Hand zurückzog, glänzte an ihrem Zeigefinger ein dunkler Film“",
+          "„der leise gegen die Wand schlug, als der Luftzug ihn erreichte“"
+        ],
+        "suggestions": [
+          "Die zweite Stelle lässt sich linear erzählen: „Ein Luftzug erreichte ihn, und er schlug leise gegen die Wand.“",
+          "Die erste Stelle kann als Abfolge stehen: „Sie zog die Hand zurück. An ihrem Zeigefinger glänzte ein dunkler Film.“ Das gibt der Entdeckung mehr Gewicht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„aus einer Zeit, über die in diesem Haus nicht gesprochen worden war“"],
+        "suggestions": [
+          "Das Passiv ist hier bewusst eingesetzt. Es verschweigt, wer geschwiegen hat, und passt zum Familiengeheimnis. Beibehalten.",
+          "Eine aktive Alternative wäre nur sinnvoll, wenn die Schweigenden benannt werden sollen: „über die ihre Mutter nie gesprochen hatte“."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Der Schlüssel lag noch dort, wo er vor zwanzig Jahren gelegen hatte, unter dem dritten Blumentopf links, in dem längst nichts mehr wuchs außer einer Kruste aus Moos und Vogelkot.“",
+          "„Maschinenöl, frisch, mit diesem metallischen, leicht süßlichen Geruch, den sie aus der Werkstatt ihres Vaters kannte, aus einer Zeit, über die in diesem Haus nicht gesprochen worden war.“",
+          "„Sie steckte den Schlüssel ins Schloss und erwartete Widerstand, das Knirschen von Rost, das sie zwingen würde, sich mit der Schulter gegen die Tür zu stemmen.“"
+        ],
+        "suggestions": [
+          "Den Ölsatz teilen, damit die Vater-Andeutung Raum bekommt: „Maschinenöl, frisch. Der metallisch-süße Geruch aus der Werkstatt ihres Vaters. Aus einer Zeit, über die in diesem Haus nicht gesprochen worden war.“",
+          "Der Eröffnungssatz funktioniert trotz Länge, weil er linear fortschreitet. Optional ließe sich nach „links“ ein Punkt setzen.",
+          "Der Wechsel zwischen langen Sätzen und kurzen wie „Jemand hatte gefegt.“ oder „Der Geruch blieb.“ ist eine Stärke des Textes und sollte erhalten bleiben."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Kein Dialog vorhanden."],
+        "suggestions": ["Kein Handlungsbedarf."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Hanna wusste nicht, wer sich um solche Dinge kümmerte, wenn eine Frau allein starb.“",
+          "„und doch kam es ihr vor, als hätte das Haus sie erwartet“",
+          "„Er war schwerer, als sie ihn in Erinnerung hatte“",
+          "„den sie aus der Werkstatt ihres Vaters kannte“"
+        ],
+        "suggestions": [
+          "Als erlebte Rede direkter: „Wer kümmerte sich um solche Dinge, wenn eine Frau allein starb?“",
+          "Den Filter „kam es ihr vor“ streichen: „Alles an seinem Platz. Das Haus hatte sie erwartet, nur nicht als diejenige, die sie geworden war.“",
+          "„als sie ihn in Erinnerung hatte“ ist ein natürlicher Vergleich und kann bleiben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Jemand hatte den Rasen gemäht“ / „Jemand hatte sie fortgeschafft. Jemand hatte gefegt.“ – wirksame Anapher, die das Leitmotiv der unsichtbaren Person aufbaut",
+          "„Hanna blieb auf der Schwelle zur Küche stehen“ / „die stehen geblieben war um zwanzig nach vier“ – ungewollte Wortdopplung in zwei aufeinanderfolgenden Sätzen",
+          "„erwartete Widerstand“ / „als hätte das Haus sie erwartet“",
+          "„Zeigefinger“ / „zwischen Daumen und Finger“ / „wischte den Finger“"
+        ],
+        "suggestions": [
+          "Die „Jemand“-Anapher unbedingt beibehalten. Sie ist das stärkste Spannungselement.",
+          "Eine der „stehen“-Formen ersetzen, z. B. „Hanna hielt auf der Schwelle zur Küche inne“ oder „die Uhr über der Tür, deren Zeiger auf zwanzig nach vier standen“.",
+          "Bei „erwartete Widerstand“ ein anderes Verb wählen, z. B. „rechnete mit Widerstand“, damit „erwartet“ am Ende seine volle Wirkung entfaltet.",
+          "Die Wiederholung von „Geruch“ im Schlusssatz ist als Echo gewollt und funktioniert."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.094604
+}

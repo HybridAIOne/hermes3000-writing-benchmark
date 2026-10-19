@@ -1,0 +1,123 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so tief auf der Elbe, dass Ilse das andere Ufer nur ahnte.",
+          "Sie stellte den Dieselmotor an, und das vertraute Ruckeln ging durch das Stahldeck in ihre Stiefel..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch sehr dicht und etabliert sofort Ort, Stimmung und Charakter durch Handlung (Arbeitsbeginn). Nach strenger Eschbach-Regel passiert der eigentliche 'Konflikt' (der Anruf des Sohnes) erst ganz am Ende, aber der Alltagsrhythmus zu Beginn ist notwendig, um die Fallhöhe und Ilses Charakter zu etablieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Pommerening grinste zahnlückig.",
+          "Die Frau lachte kurz, unsicher...",
+          "Nur das Wasser direkt unter dem Rumpf, schwarzgrün..."
+        ],
+        "suggestions": [
+          "Sehr sparsamer und treffsicherer Einsatz. Einzig 'grinste zahnlückig' könnte man durch ein Bild ersetzen ('entblößte beim Grinsen seine Zahnlücken'), um das Adverb zu vermeiden, ist aber stilistisch hier absolut vertretbar."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "»Na, Ilse«, sagte Pommerening. »Na«, sagte sie.",
+          "»Kein Empfang«, sagte sie. »Auf dem Wasser nie«, sagte Ilse."
+        ],
+        "suggestions": [
+          "Die Dialogbegleiter sind wunderbar unaufdringlich (meist nur 'sagte'). An einigen Stellen könnten sie jedoch ganz entfallen, da der Sprecher durch den Kontext oder den Namen in der direkten Rede bereits klar ist (z.B. reicht: »Na, Ilse.« – »Na.«)."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "...irgendwo da draußen im Grau.",
+          "...das Henning irgendwann hatte anschließen lassen...",
+          "...das man fast vergessen hatte."
+        ],
+        "suggestions": [
+          "Der Text ist extrem sauber und präzise formuliert. Die wenigen Unschärfewörter ('irgendwo', 'irgendwann', 'fast') sind hier kein handwerklicher Mangel, sondern spiegeln organisch Ilses pragmatische, leicht distanzierte Erzählstimme wider."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "...und die Kette quietschte, als sie sie löste.",
+          "Sie ließ die Kette ins Wasser, legte den Hebel um."
+        ],
+        "suggestions": [
+          "Exzellente Umsetzung. Handlungen werden konsequent nacheinander beschrieben. Es gibt keine künstlichen Gleichzeitigkeiten mit 'während' oder 'gleichzeitig'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "...gezogen am Stahlseil, das seit einem Jahrhundert quer über den Fluss gespannt war..."
+        ],
+        "suggestions": [
+          "Der Text nutzt starke, aktive Verben (stieß, quietschte, kurbelte, schepperte). Das einzige Zustandspassiv ('gespannt war') ist an dieser Stelle völlig korrekt, da das Seil sich nicht aktiv selbst spannt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Drews fuhr von Bord, zwei Fünfziger und ein Nicken, Pommerening schob sein Rad hinterher und rief noch ein »Bleib mir schön trocken, Ilse« in den Nebel, was keinen Sinn ergab und sie trotzdem auf die Weise berührte, wie alte Leute einen berührten, wenn sie einem etwas Gutes wünschten, das längst unmöglich war."
+        ],
+        "suggestions": [
+          "Die Satzlängen variieren sehr gut und erzeugen einen ruhigen, zum Fluss passenden Rhythmus (kurze Sätze wie 'München.' im Kontrast zu längeren Beschreibungen). Der Beispielsatz mit Pommerening ist allerdings sehr lang und verschachtelt; ein Punkt nach 'in den Nebel' würde die nachfolgende Reflexion noch stärker wirken lassen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "»Scheißwetter«, sagte er heute, durchs offene Fenster, und streckte ihr zwei Fünfziger entgegen. »November«, sagte Ilse.",
+          "»Und dazwischen?« Ilse sah sie an. »Bin ich.«"
+        ],
+        "suggestions": [
+          "Meisterhaft verknappte, norddeutsch-lakonische Dialoge. Kein Wort zu viel, perfektes Timing und starker Subtext."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Man sah es nicht. Man sah fast nichts.",
+          "Ilse wandte sich ab und schaute auf das Seil, das aus dem Wasser stieg...",
+          "Es gab Dinge, die spürte man."
+        ],
+        "suggestions": [
+          "Wahrnehmungen werden fast durchgehend unmittelbar geschildert (das Ruckeln in den Knien, die aufsteigende Kälte). Das gelegentliche 'Man sah' oder 'schaute auf' dient hier als bewusstes Stilmittel zur Charakterisierung, nicht als unnötiger Filter."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie stellte den Dieselmotor an, und das vertraute Ruckeln ging durch das Stahldeck in ihre Stiefel...",
+          "Die Kälte kam nicht von oben und nicht von den Seiten, sie stieg von unten herauf, aus dem Fluss, durch das Stahldeck, durch die Sohlen.",
+          "...zwei Fünfziger und ein Nicken..."
+        ],
+        "suggestions": [
+          "Rhetorische Wiederholungen ('Vierzig Meter...', 'und der Nebel rührte sich nicht, und der Fluss rührte sich nicht') sind brillant eingesetzt. Inhaltlich doppelt sich jedoch das Motiv 'Etwas steigt durch das Stahldeck und die Stiefel/Sohlen in Ilse hoch' (Absatz 1: das Ruckeln; Absatz 12: die Kälte). Zudem hat Drews seine 'zwei Fünfziger' bereits beim Auffahren gegeben, beim Abfahren werden sie nochmals erwähnt – hier reicht beim zweiten Mal 'ein kurzes Nicken'."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02145
+}

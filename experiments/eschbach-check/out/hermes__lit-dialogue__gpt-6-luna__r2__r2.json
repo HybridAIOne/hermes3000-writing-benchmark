@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gpt-6-luna__r2",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Vor dem geschlossenen Café. Regen. Mara hält zwei Pappbecher."],
+        "suggestions": [
+          "Der Einstieg ist sehr effizient und setzt direkt in die Handlung ein. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["pünktlich", "bessere", "neu", "blau", "bitter"],
+        "suggestions": ["Die Verwendung ist sehr sparsam und funktional. Beibehalten."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Mara: Du bist pünktlich.", "Daniel: Du hast geschrieben, halb vier."],
+        "suggestions": [
+          "Keine Redeeinleitungen verwendet, was den Dialog sehr direkt und modern wirken lässt. Exzellent."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["vielleicht", "einfach"],
+        "suggestions": [
+          "Die Füllwörter sind hier charakterisierend (Unsicherheit/Resignation) und nicht störend. Keine Änderung nötig."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["(Sie reicht ihm einen Becher. Er nimmt ihn nicht sofort.)"],
+        "suggestions": [
+          "Die Gleichzeitigkeit wird durch Regieanweisungen gelöst, nicht durch sprachliche Konstruktionen wie 'während'. Sehr gut gelöst."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Sie haben die Fenster neu gestrichen."],
+        "suggestions": ["Keine unnötigen Passivkonstruktionen gefunden."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Nicht dieses Blau.", "Nein. Nicht dieses."],
+        "suggestions": [
+          "Die Sätze sind kurz und prägnant, was die Spannung und die Distanz zwischen den Charakteren unterstreicht."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Mara: Ich bin nicht lange in der Stadt. / Daniel: Das hast du schon geschrieben."
+        ],
+        "suggestions": ["Die Dialoge sind auf das Wesentliche reduziert. Sehr gute Straffung."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ich dachte, du solltest es wissen."],
+        "suggestions": [
+          "Die Wahrnehmung erfolgt direkt durch die Figuren. Keine 'er sah, dass'-Konstruktionen vorhanden."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Nicht dieses Blau. Nein. Nicht dieses."],
+        "suggestions": [
+          "Wiederholungen werden hier stilistisch bewusst zur Verdeutlichung der emotionalen Spannung eingesetzt. Keine inhaltlichen Redundanzen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

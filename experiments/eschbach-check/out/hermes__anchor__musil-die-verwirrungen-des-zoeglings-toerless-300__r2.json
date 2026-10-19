@@ -1,0 +1,98 @@
+{
+  "who": "hermes",
+  "item": "anchor__musil-die-verwirrungen-des-zoeglings-toerless-300",
+  "run": 2,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Eine kleine Station an der Strecke, welche nach Rußland führt."],
+        "suggestions": [
+          "Der Einstieg ist sehr statisch. Beginnen Sie direkt mit einer Handlung, z.B. dem Bahnhofsvorstand, der auf den Zug wartet, um den Leser sofort in das Geschehen zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "niederen, ölgestrichenen Stationsgebäude",
+          "bleiche, kraftlose, durch den Dunst ermüdete Licht",
+          "breiten, festgestampften Streifen",
+          "heitere Gesellschaft",
+          "zähen, unsichtbaren Widerstande"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist zu hoch. Streichen Sie schmückende Adjektive, wo das Substantiv oder Verb bereits stark genug ist. Lassen Sie die Umgebung durch Handlungen wirken, statt sie nur zu beschreiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher keine Probleme."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["etwas Gleichgültiges", "vielleicht vierzig Jahren", "ein wenig gerötete"],
+        "suggestions": [
+          "Wörter wie 'etwas', 'vielleicht' oder 'ein wenig' schwächen die Aussage ab. Streichen Sie diese, um die Beschreibung präziser und selbstbewusster zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [],
+        "suggestions": [
+          "Die Gleichzeitigkeit wird gut durch die Szenenführung gelöst, ohne sich in 'während'-Konstruktionen zu verlieren."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv formuliert. Die wenigen passiven Konstruktionen sind stilistisch vertretbar."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Von Zeit zu Zeit, in gleichen Intervallen, trat der Bahnhofsvorstand aus seinem Amtszimmer heraus, sah mit der gleichen Wendung des Kopfes die weite Strecke hinauf nach den Signalen der Wächterhäuschen, die immer noch nicht das Nahen des Eilzuges anzeigen wollten, der an der Grenze große Verspätung erlitten hatte; mit ein und derselben Bewegung des Armes zog er sodann seine Taschenuhr hervor, schüttelte den Kopf und verschwand wieder..."
+        ],
+        "suggestions": [
+          "Der Satz über den Bahnhofsvorstand ist ein 'Schachtelsatz'. Teilen Sie ihn in zwei oder drei kürzere Sätze auf, um den Lesefluss zu verbessern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "schien schon auf wenige Schritte zu verstummen",
+          "Es galt Abschied zu nehmen."
+        ],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'schien'. Beschreiben Sie direkt, was passiert: 'Der Lärm des Lachens verstummte nach wenigen Schritten'."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["traurigen Farben", "traurige... Augen", "Machten es..., machte es..."],
+        "suggestions": [
+          "Vermeiden Sie Wortwiederholungen in kurzem Abstand. Suchen Sie nach Synonymen oder strukturieren Sie die Sätze um, um die Wortwahl abwechslungsreicher zu gestalten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

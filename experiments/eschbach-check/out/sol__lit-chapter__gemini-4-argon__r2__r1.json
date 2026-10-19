@@ -1,0 +1,152 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__gemini-4-argon__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Der Nebel hing so tief über dem Wasser, dass das andere Ufer nicht existierte.“ eröffnet mit einem prägnanten Bild und etabliert die eingeschränkte Sicht.",
+          "„Um Punkt sechs Uhr zwanzig schälte sich das Licht eines einzelnen Scheinwerfers aus dem Grau.“ wäre ein späterer, unmittelbar handlungsbezogener Einstieg.",
+          "Der Anruf von Jonas setzt den persönlichen Konflikt erst nach der ausführlich geschilderten Abfertigung und Abfahrt in Gang."
+        ],
+        "suggestions": [
+          "Prüfen, ob die Szene mit dem auftauchenden Scheinwerfer beginnen kann. Nebel, Kälte und Ilses Routine ließen sich anschließend in die Handlung einflechten.",
+          "Die Fahrgastabfertigung leicht kürzen, ohne sie ganz zu streichen: Sie charakterisiert Ilse und bereitet den Gegensatz zwischen ihrem Arbeitsalltag und Jonas’ mutmaßlichen Anliegen vor."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„den nassen Asphalt der Rampe, das graue Schilf und die Elbe, die schwer und ölig gegen den stählernen Bug schlug“ bündelt zahlreiche beschreibende Zusätze.",
+          "„eine dünne Schicht aus Raureif und totem Laub“ enthält mit „dünne“ und „totem“ teilweise entbehrliche Bestimmungen.",
+          "„Ilse zuckte kaum merklich mit den Schultern“ erklärt die Intensität einer Geste, die bereits für sich zurückhaltend wirken kann.",
+          "„fingerlosen Wollhandschuhen“ ist dagegen eine funktionale Präzisierung, die Arbeitsbedingungen und Körperempfindung vermittelt."
+        ],
+        "suggestions": [
+          "Pro Beschreibungsgruppe die stärksten Details auswählen, statt jede Wahrnehmung mehrfach zu qualifizieren.",
+          "Etwa straffen zu: „Auf dem Riffelblech lagen Raureif und Laub.“",
+          "„Ilse zuckte mit den Schultern“ genügt, sofern die geringe Intensität der Geste keine besondere Bedeutung hat."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„‚Morgen, Ilse‘, rief er gegen das Nageln des Diesels an.“ vermittelt neben dem Sprecher auch die akustischen Bedingungen.",
+          "„‚Fahren Sie schon?‘, fragte die Frau.“ ist durch die unmittelbar vorausgehende Einführung der Frau bereits eindeutig zuzuordnen.",
+          "„‚Was bekommen Sie?‘, fragte die Frau und öffnete ihre Tasche.“ könnte allein durch die begleitende Handlung gekennzeichnet werden.",
+          "Der Austausch „‚Zwei Euro.‘“ und die anschließende Frage nach der Rückfahrt kommt weitgehend ohne Redeeinleitungen aus."
+        ],
+        "suggestions": [
+          "Entbehrliche Kennzeichnungen durch Handlungssätze ersetzen: „‚Was bekommen Sie?‘ Die Frau öffnete ihre Tasche.“",
+          "„rief er gegen das Nageln des Diesels an“ beibehalten, weil die Formulierung mehr leistet als bloße Sprecherzuordnung."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ihre Halbschuhe waren völlig durchnässt“ enthält mit „völlig“ einen verzichtbaren Verstärker.",
+          "„In der Stille des Führerhauses begann plötzlich etwas zu summen.“ bleibt mit „etwas“ zunächst unbestimmt; „plötzlich“ benennt den Überraschungseffekt zusätzlich.",
+          "„Für ein paar Minuten“ ist unpräzise, passt hier aber zur vorübergehenden Orientierungslosigkeit im Nebel.",
+          "„sechzehn oder siebzehn Jahre alt“ vermittelt plausibel eine Altersschätzung und ist nicht automatisch ein zu streichendes Füllsel."
+        ],
+        "suggestions": [
+          "Verstärker streichen, wenn das Grundwort bereits genügt: „Ihre Halbschuhe waren durchnässt.“",
+          "Beim Telefon entweder die kurze Ungewissheit bewusst nutzen oder direkt formulieren: „Auf der Metallablage vibrierte ihr Handy.“",
+          "Ungefähre Angaben nur dort präzisieren, wo die Genauigkeit für Handlung oder Perspektive relevant ist."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Gleichzeitig tauchte daneben eine schmale Silhouette auf, die ein Fahrrad schob.“ markiert eine räumlich und zeitlich nachvollziehbare Parallelität.",
+          "„Das Stahlseil ächzte in den Führungsrollen, als die Fähre die stärkste Strömung in der Flussmitte erreichte.“ verknüpft Geräusch und Belastung sinnvoll.",
+          "„Ilse trat den Filter auf dem Stahl aus, hob ihn auf und steckte ihn in die Tasche ihres Bundeswehrparkas.“ beschreibt aufeinanderfolgende Handlungen klar in ihrer Reihenfolge."
+        ],
+        "suggestions": [
+          "Die überwiegend klare Handlungsfolge beibehalten.",
+          "„Gleichzeitig“ könnte zu „Daneben tauchte eine schmale Silhouette auf“ gekürzt werden, falls die exakte Gleichzeitigkeit nicht betont werden soll."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Unter ihren Gummistiefeln war das Riffelblech des Decks mit einer dünnen Schicht aus Raureif und totem Laub überzogen.“ ist eine statische Zustandsbeschreibung mit passivischer Konstruktion.",
+          "„Sie löste die schwere Kette vom Poller am Anleger.“ benennt Handelnde und Handlung unmittelbar.",
+          "„Am Bug hob sich das Führungsseil aus dem Wasser“ beschreibt den technischen Vorgang ohne schwerfälliges Vorgangspassiv."
+        ],
+        "suggestions": [
+          "Keine pauschale Aktivierung nötig: Der Text verwendet bereits überwiegend aktive Verben.",
+          "Die Zustandsbeschreibung bei Bedarf verdichten: „Raureif und Laub bedeckten das Riffelblech unter ihren Gummistiefeln.“"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ihre Finger steckten in fingerlosen Wollhandschuhen, die Knöchel waren gerötet von der feuchten Kälte, die seit Ende Oktober nicht mehr aus den Kleidern wich.“ verbindet mehrere Informationen und einen Relativsatz.",
+          "„Sie sah sich suchend um, als erwarte sie Sitzreihen oder einen beheizten Salon, fand aber nur das leere Arbeitsdeck, den tuckernden Traktor und den Jungen am Geländer.“ kombiniert Beobachtung, Deutung und Aufzählung.",
+          "„Sie sah zu, wie das Display schwarz wurde, wartete noch zwei Sekunden, bis die Anzeige für den verpassten Anruf aufblinkte, und schob das Gerät mit dem Daumen zurück an die Kante der Ablage.“ enthält mehrere Handlungsschritte und Nebensätze.",
+          "„Ilse legte den Hebel um.“ setzt als kurzer Einzelsatz einen wirkungsvollen rhythmischen Akzent."
+        ],
+        "suggestions": [
+          "Den letzten Telefonsatz teilen: „Das Display wurde schwarz. Ilse wartete noch zwei Sekunden, bis die Anzeige für den verpassten Anruf aufblinkte. Dann schob sie das Gerät mit dem Daumen zurück an die Kante der Ablage.“",
+          "Längere Sätze nicht grundsätzlich kürzen: Die überwiegend übersichtliche Syntax und der Wechsel mit kurzen Sätzen tragen den ruhigen Erzählrhythmus."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„‚Suppe heute.‘ – ‚Wird sich verziehen. Gegen Mittag.‘“ vermittelt Vertrautheit und Wetterlage mit wenigen Worten.",
+          "„‚Und wie komme ich dann zurück?‘ – ‚Über die Brücke in Dömitz. Oder Wittenberge.‘“ erzeugt einen kleinen Konflikt ohne erklärenden Monolog.",
+          "„‚Das sind dreißig Kilometer Umweg.‘“ bleibt als Einwand stehen; Ilse antwortet mit einer Geste statt mit weiterer Erläuterung."
+        ],
+        "suggestions": [
+          "Die knappen, figurenbezogenen Dialoge weitgehend unverändert lassen.",
+          "Falls der Einstieg insgesamt gestrafft werden soll, eher begleitende Beschreibungen kürzen als die bereits ökonomischen Wortwechsel."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Kurz bevor sie die Schranke wieder schließen wollte, hörte sie schnelle Schritte auf dem Schotterweg.“ filtert das Geräusch durch ein Wahrnehmungsverb.",
+          "„Ilse sah hinunter. Das Display leuchtete hell im grauen Dämmerlicht der Kabine.“ schaltet der eigentlichen Wahrnehmung eine Blickbewegung vor.",
+          "„Ilse sah auf die Uhr über dem Türrahmen. Es war sechs Uhr siebenundzwanzig.“ lässt sich unmittelbarer zusammenziehen.",
+          "„Sie hätte das Gelenk gestern einfetten sollen.“ gibt Ilses Gedanken bereits direkt und ohne „sie dachte“ wieder."
+        ],
+        "suggestions": [
+          "Direkter formulieren: „Sie wollte gerade die Schranke schließen. Schnelle Schritte knirschten auf dem Schotterweg.“",
+          "Die Zeitangabe verdichten: „Die Uhr über dem Türrahmen zeigte sechs Uhr siebenundzwanzig.“",
+          "Blickbewegungen dort behalten, wo sie Ilses Zögern oder bewusste Aufmerksamkeit inszenieren; nicht jedes „sah“ ist entbehrlich."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Nebel“, „weißer Dunst“, „Grau“, „graues Dämmerlicht“ und „weißes Nichts“ variieren das Motiv eingeschränkter Sicht, verdichten es aber stellenweise stark.",
+          "„begann plötzlich etwas zu summen“, „ein tiefes, rhythmisches Vibrieren“ und „Ihr Handy schob sich millimeterweise“ beschreiben denselben einsetzenden Telefonreiz in drei Schritten.",
+          "„Langsam, Zentimeter für Zentimeter“ betont die geringe Geschwindigkeit doppelt.",
+          "„Über den Winter reden wollen. Über die Bilanz vom dritten Quartal. Über den Makler aus Lüneburg.“ ist eine gezielte rhythmische Wiederholung mit jeweils neuer Information."
+        ],
+        "suggestions": [
+          "Bei Nebel und Kälte einzelne ähnliche Beschreibungen streichen, die motivische Rahmung durch das verschwindende und wieder auftauchende Ufer jedoch erhalten.",
+          "Den Beginn des Anrufs auf zwei starke Eindrücke konzentrieren, etwa das Vibrieren und die Bewegung des Handys auf dem Blech.",
+          "Zwischen „Langsam“ und „Zentimeter für Zentimeter“ wählen, wenn die Passage straffer werden soll.",
+          "Die dreifache „Über“-Konstruktion beibehalten: Sie steigert den Druck von Jonas’ unausgesprochenen Anliegen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.031146
+}

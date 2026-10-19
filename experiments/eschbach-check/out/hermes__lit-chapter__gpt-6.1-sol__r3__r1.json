@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6.1-sol__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so tief über der Elbe, dass Ilse das andere Ufer nicht sah."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch sehr stark und führt direkt in die Handlung ein. Keine Änderung notwendig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["nasse Poller", "braunes Wasser", "orangefarbene Arbeitsjacke"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und funktional eingesetzt. Behalten Sie diesen minimalistischen Stil bei."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Geht’s?“, fragte er.", "„Morgen“, sagte die Frau."],
+        "suggestions": [
+          "Die Dialogkennzeichnungen sind auf das Nötigste reduziert. Sehr gut gelöst."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["wenige Zentimeter"],
+        "suggestions": [
+          "Der Text ist sehr präzise. Es gibt kaum Füllwörter, die den Lesefluss stören."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Als sie sich aufrichtete, standen die beiden anderen Fahrgäste am Ufer."],
+        "suggestions": [
+          "Die Gleichzeitigkeit wird sparsam eingesetzt. Achten Sie darauf, nicht zu viele 'Als'-Konstruktionen zu häufen, um den Rhythmus knackig zu halten."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Sie hob die Rampe.", "Die Fähre löste sich langsam vom Ufer."],
+        "suggestions": ["Der Text ist vorbildlich aktiv formuliert. Keine Änderungen nötig."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so tief über der Elbe, dass Ilse das andere Ufer nicht sah."],
+        "suggestions": [
+          "Die Satzlängen sind abwechslungsreich und unterstützen das Tempo der Szene."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Reicht das noch?“, fragte der Mann. „Kommen Sie.“"],
+        "suggestions": ["Die Dialoge sind kurz, realistisch und funktional. Exzellent."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie sah das Ende der Rampe", "Sie spürte die Vibration"],
+        "suggestions": [
+          "Sie vermeiden erfolgreich 'Sie sah, dass...' oder 'Sie dachte, dass...'. Bleiben Sie bei dieser direkten Wahrnehmung."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ilse nahm das Geld. [...] Ilse nahm auch sein Geld."],
+        "suggestions": [
+          "Die Wiederholung von 'nahm' ist stilistisch vertretbar, könnte aber durch 'kassierte' oder 'verstaute' variiert werden, um den Text noch eleganter zu machen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

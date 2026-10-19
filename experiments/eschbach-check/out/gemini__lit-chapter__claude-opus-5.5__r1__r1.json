@@ -1,0 +1,127 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur deshalb für vorhanden hielt, weil es gestern auch da gewesen war.",
+          "Um sechs Uhr vierzig hatte sie die Lampen angemacht. Um sechs Uhr fünfzig das Radio, ohne hinzuhören."
+        ],
+        "suggestions": [
+          "Der erste Satz ist brillant und etabliert sofort Ort, Atmosphäre und Charakter. Der kurze Rückblick im zweiten Absatz ('Um sechs Uhr vierzig...') verankert die Routine, nimmt aber minimal Schwung heraus. Man könnte direkt mit dem Eintreffen von Mareike weitermachen, aber für das ruhige Erzähltempo funktioniert es auch so hervorragend."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er fuhr vorsichtig auf, zu vorsichtig, die Vorderreifen tasteten über die Kante...",
+          "Das Wasser schlug gegen den Rumpf, klein und regelmäßig.",
+          "Zwei gelbe Flecken im Grau, die langsam größer wurden..."
+        ],
+        "suggestions": [
+          "Sehr präziser und sparsamer Einsatz. Wo Adjektive genutzt werden, erfüllen sie einen klaren Zweck oder erzeugen ein starkes Bild ('klein und regelmäßig'). Lediglich bei 'vorsichtig, zu vorsichtig' erklärt das Adjektiv, was das anschließende Verb ('tasteten') ohnehin schon meisterhaft zeigt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Zehn“, sagte Ilse.",
+          "„Kalt für einen Stift“, sagte Petersen, ohne die Augen zu öffnen.",
+          "„Was wollte der?“, fragte er leise und nickte zu dem Kombi hinüber..."
+        ],
+        "suggestions": [
+          "Perfekte Umsetzung. Redebegleitsätze werden nur genutzt, wenn sie für den Rhythmus oder die Zuordnung nötig sind, und beschränken sich auf unauffällige Verben ('sagte', 'fragte'). Oft reicht der reine Dialogwechsel völlig aus."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Mitte vierzig vielleicht, Wachsjacke, die noch nach Laden roch...",
+          "Der Nebel legte sich in feinen Tropfen auf das Glas, und der Name verschwamm ein wenig.",
+          "Irgendwo flussabwärts rief ein Reiher, oder etwas, das klang wie ein Reiher."
+        ],
+        "suggestions": [
+          "Der Text ist fast völlig frei von unnötigen Füllwörtern. Wörter wie 'vielleicht' oder 'irgendwo' sind hier keine sprachlichen Schwächen, sondern spiegeln organisch Ilses subjektive, leicht distanzierte Wahrnehmung im Nebel wider. Einzig 'ein wenig' am Ende könnte ersatzlos gestrichen werden ('...und der Name verschwamm.')."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie wollte gerade ablegen, als die Scheinwerfer kamen.",
+          "Er zahlte mit einem Zehner und wartete auf das Wechselgeld, und während sie es abzählte, sah er sich um."
+        ],
+        "suggestions": [
+          "Zeitliche Abläufe sind klar und überwiegend linear gestaltet. In den beiden genannten Beispielen ist die Gleichzeitigkeit absolut funktional und erzeugt eine natürliche Dynamik in der Szene."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "...die Strömung nahm die Fähre...",
+          "Das Licht des Bildschirms machte ihr Gesicht blau."
+        ],
+        "suggestions": [
+          "Ausgezeichnet. Der Text nutzt durchgängig starke, aktive Verben. Selbst unbelebte Dinge (Nebel, Strömung, Licht, Seil) agieren aktiv, was die Szene extrem lebendig und unmittelbar macht."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Mareike Lüders aus Bitter, vierzehn, die Kapuze bis über die Augenbrauen gezogen, schob ihr Rad an Bord und stellte es dorthin, wo sie es seit zwei Jahren hinstellte, gegen das Geländer neben der Rettungsboje.",
+          "Er kam."
+        ],
+        "suggestions": [
+          "Die Satzlängen variieren sehr musikalisch. Etwas längere, beschreibende Sätze sind glasklar strukturiert und wechseln sich hervorragend mit sehr kurzen, prägnanten Sätzen ab, die den lakonischen Ton der Protagonistin unterstreichen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Kann ich mit rüber?“ – „Dafür ist sie da.“",
+          "„Was wollte der?“, fragte er leise... – „Rüber.“"
+        ],
+        "suggestions": [
+          "Meisterhaft verknappte Dialoge. Keine Silbe zu viel. Die norddeutsche Wortkargheit sitzt in jeder Zeile und transportiert enorm viel Charakter und Subtext."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie stand im Steuerhaus, die Hände um den Becher, und sah zu, wie das Seil aus dem Grau kam...",
+          "Ilse hörte sie, bevor sie sie sah: das Klappern des Schutzblechs...",
+          "Um sieben Uhr vier, das wusste sie, kam der Nächste, wenn er kam.",
+          "In ihrer Jackentasche begann das Telefon zu vibrieren."
+        ],
+        "suggestions": [
+          "Die Perspektive ist sehr nah an Ilse, nutzt aber gelegentlich kleine Filterverben ('sah zu, wie', 'wusste sie', 'begann zu vibrieren'). Vorschlag zur direkten Darstellung: 'In ihrer Jackentasche vibrierte das Telefon.' statt 'begann zu vibrieren'. Auch 'das wusste sie' könnte gestrichen werden, da die Gewissheit aus dem Kontext ('Um sieben Uhr vier kam der Nächste...') hervorgeht."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "...schob ihr Rad an Bord und stellte es dorthin, wo sie es seit zwei Jahren hinstellte...",
+          "...und sah aufs Wasser, wie er jeden Morgen aufs Wasser sah...",
+          "...und die Strömung nahm die Fähre, wie sie sie immer nahm..."
+        ],
+        "suggestions": [
+          "Die Wortwiederholungen sind hier kein handwerklicher Mangel, sondern ein bewusstes rhetorisches Stilmittel, um die jahrelange, unveränderliche Routine des Fährbetriebs spürbar zu machen. Da dieses Muster ('tat X, wie er/sie immer X tat') auf so kurzem Raum jedoch dreimal exakt gleich angewendet wird, nutzt sich der Effekt leicht ab. Hier könnte man eine der drei Stellen variieren, damit das Stilmittel unsichtbarer bleibt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.022522
+}

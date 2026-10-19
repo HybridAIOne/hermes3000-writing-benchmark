@@ -1,0 +1,134 @@
+{
+  "who": "gemini",
+  "item": "anchor__kafka-die-verwandlung-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt."
+        ],
+        "suggestions": [
+          "Perfekter Einstieg 'in medias res'. Es ist unmöglich, später in die Szene einzusteigen, ohne den zentralen Konflikt zu verpassen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "ungeheueren Ungeziefer",
+          "panzerartig harten Rücken",
+          "gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch",
+          "kläglich dünnen Beine flimmerten ihm hilflos",
+          "leichten, dumpfen Schmerz"
+        ],
+        "suggestions": [
+          "Nach Eschbach sollten Adjektive sparsam eingesetzt werden. Statt 'panzerartig harten Rücken' könnte man einfach 'Panzerrücken' schreiben.",
+          "Mehrfachattribute wie 'gewölbten, braunen...' oder 'leichten, dumpfen' bremsen den Lesefluss. Hier sollte auf das treffendste Adjektiv reduziert werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "»Was ist mit mir geschehen?« dachte er.",
+          "»Wie wäre es, wenn ich noch ein wenig weiterschliefe und alle Narrheiten vergäße,« dachte er"
+        ],
+        "suggestions": [
+          "Da wir uns tief in Gregors personaler Perspektive befinden, ist das angehängte 'dachte er' überflüssig.",
+          "Die Gedanken können direkt (z.B. kursiv oder als erlebte Rede) ohne Inquit-Formel stehen: Was war mit ihm geschehen? Es war kein Traum."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "ein wenig hob",
+          "kaum noch",
+          "nur etwas zu kleines",
+          "vor kurzem",
+          "ganz melancholisch",
+          "wohl hundertmal"
+        ],
+        "suggestions": [
+          "Wörter wie 'etwas', 'ein wenig', 'ganz' und 'wohl' verwässern die Aussagen.",
+          "Statt 'machte ihn ganz melancholisch' besser das Gefühl direkt zeigen oder das 'ganz' streichen. Statt 'wohl hundertmal' lieber eine konkrete Zahl oder die Erschöpfung beschreiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Als Gregor Samsa eines Morgens ... erwachte, fand er sich ...",
+          "sah, wenn er den Kopf ein wenig hob, seinen ... Bauch",
+          "ließ erst ab, als er ... zu fühlen begann."
+        ],
+        "suggestions": [
+          "Die Gleichzeitigkeit hält sich im Rahmen, könnte aber beim zweiten Satz aufgelöst werden: 'Er lag auf dem Rücken. Er hob den Kopf. Die Bettdecke rutschte von seinem gewölbten Bauch.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "fand er sich ... verwandelt",
+          "auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war",
+          "mit einem Pelzhut und einer Pelzboa versehen"
+        ],
+        "suggestions": [
+          "Zustandspassiv wird hier für Beschreibungen genutzt, wirkt aber etwas statisch. Aktiver: 'Auf dem Tisch lag ausgebreitet die Musterkollektion' und 'die einen Pelzhut und eine Pelzboa trug'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Er lag auf seinem panzerartig harten Rücken und sah, wenn er den Kopf ein wenig hob, seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch, auf dessen Höhe sich die Bettdecke, zum gänzlichen Niedergleiten bereit, kaum noch erhalten konnte.",
+          "»Wie wäre es, wenn ich noch ein wenig weiterschliefe und alle Narrheiten vergäße,« dachte er, aber das war gänzlich undurchführbar, denn er war gewöhnt, auf der rechten Seite zu schlafen, konnte sich aber in seinem gegenwärtigen Zustand nicht in diese Lage bringen."
+        ],
+        "suggestions": [
+          "Der Text besteht fast ausschließlich aus extrem langen Schachtelsätzen mit Einschüben (Parenthesen).",
+          "Unbedingt in kürzere Hauptsätze aufteilen, um das Tempo zu erhöhen: 'Er lag auf seinem harten Rücken. Als er den Kopf hob, sah er seinen braunen, gewölbten Bauch. Bogenförmige Versteifungen teilten ihn. Auf der Wölbung hielt sich knapp die Bettdecke.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Es gibt keine ausufernden Dialoge, nur kurze, prägnante innere Monologe."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Er ... sah, wenn er den Kopf ein wenig hob, seinen ... Bauch",
+          "Gregors Blick richtete sich dann zum Fenster",
+          "man hörte Regentropfen auf das Fensterblech aufschlagen",
+          "Schmerz zu fühlen begann"
+        ],
+        "suggestions": [
+          "Wahrnehmungsverben wie 'sah', 'hörte', 'fühlte' schaffen Distanz zum Leser (Tell statt Show).",
+          "Statt 'man hörte Regentropfen auf das Fensterblech aufschlagen' besser direkt: 'Regentropfen schlugen auf das Fensterblech.'",
+          "Statt 'einen Schmerz zu fühlen begann' besser: 'ein dumpfer Schmerz zog durch seine Seite.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "gewohnten, auf der rechten Seite zu schlafen ... auf die rechte Seite warf",
+          "Pelzhut ... Pelzboa ... Pelzmuff",
+          "gefühlt ... zu fühlen"
+        ],
+        "suggestions": [
+          "Die Wortdopplung am Ende ('einen noch nie gefühlten, leichten, dumpfen Schmerz zu fühlen begann') ist unschön. Besser: 'als ein neuer, dumpfer Schmerz in seiner Seite einsetzte'.",
+          "Die Wiederholung von 'Pelz-' ist vermutlich als Stilmittel gedacht, fällt aber nach strengen Lektoratskriterien als Wortwiederholung auf."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.019764
+}

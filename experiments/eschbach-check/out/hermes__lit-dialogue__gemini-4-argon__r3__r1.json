@@ -1,0 +1,97 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "(Ein kleines Café. LUKAS sitzt bereits am Tisch. MARIE tritt an den Tisch...)"
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr gut gewählt, da er direkt in die Handlung führt, ohne unnötige Vorgeschichte."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["schweres Schweigen", "zögernd den Schlüssel"],
+        "suggestions": [
+          "Einige Adjektive sind stimmungsvoll, könnten aber teilweise durch stärkere Verben ersetzt werden (z.B. 'zögernd den Schlüssel ziehen' -> 'fischte den Schlüssel hervor')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["(deutet auf eine Tasse)", "(setzt sich langsam)"],
+        "suggestions": [
+          "Da es sich um ein Skriptformat handelt, sind die Regieanweisungen präzise und ersetzen 'sagte er' effektiv."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "einfach vor die Tür stellen",
+          "wohl immer mein Problem",
+          "einfach den Autoschlüssel"
+        ],
+        "suggestions": [
+          "Das Wort 'einfach' wird zweimal verwendet. Streichen Sie es, um die Dialoge direkter und entschlossener wirken zu lassen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["(stellt den Löffel leise ab)"],
+        "suggestions": [
+          "Keine 'während'-Konstruktionen gefunden. Die Handlungen sind klar sequenziell getrennt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine unnötigen Passivkonstruktionen vorhanden."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ich arbeite jetzt weniger. Ich habe... Prioritäten verschoben."],
+        "suggestions": [
+          "Die Satzlänge ist dem Medium Dialog sehr gut angepasst, kurz und prägnant."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Marie, bitte. Ich habe die Kiste mit deinen restlichen Sachen übrigens im Kofferraum."
+        ],
+        "suggestions": [
+          "Die Dialoge sind kurz. Achten Sie darauf, dass die Erklärungen (wie die Kiste) nicht zu langatmig werden."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ich wusste nicht, ob du noch Schwarztee trinkst."],
+        "suggestions": [
+          "Die Wahrnehmung ist direkt. Vermeiden Sie in der Prosa-Variante Formulierungen wie 'Er sah, dass sie traurig war' und zeigen Sie stattdessen die Reaktion."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["kaputtgehen", "kaputt sind"],
+        "suggestions": [
+          "Das Wort 'kaputt' wird innerhalb weniger Zeilen zweimal verwendet. Variieren Sie hier (z.B. 'zerbrochen', 'defekt' oder 'ruiniert')."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,142 @@
+{
+  "who": "sol",
+  "item": "lit-continue__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der läuft noch“, sagte Ilse.",
+          "„Dann hört man wenigstens, dass einer kommt.“"
+        ],
+        "suggestions": [
+          "Den unmittelbaren Dialogeinstieg beibehalten: Er etabliert den defekten Motor und Ilses abwehrenden Ton ohne Vorlauf.",
+          "Nicht später einsetzen: Der Auftaktdialog bereitet Jonas’ Aufmerksamkeit für den Motorschaden und die Erinnerung an Henning vor. Dass der Gegenstand zunächst unbenannt bleibt, erzeugt eine kurze, produktive Orientierungslücke."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "auf diese glatte, ausgeschlafene Art",
+          "Die Fasern waren nass und schwer, an einer Stelle aufgeraut",
+          "ein Stück grauer Himmel"
+        ],
+        "suggestions": [
+          "Charakterisierende und handlungsrelevante Eigenschaften erhalten: „glatte, ausgeschlafene“ transportiert Ilses Blick auf Jonas; „aufgeraut“ bereitet den Gedanken an Henning vor.",
+          "Allenfalls „grauer“ streichen, wenn die Wetterstimmung nicht weitergetragen werden soll. Die meisten Attribute leisten hier mehr als bloße Ausschmückung."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ich muss rüber“, sagte Ilse.",
+          "„Ich kann hier warten“, sagte er.",
+          "„Lass den Koffer stehen“, sagte sie."
+        ],
+        "suggestions": [
+          "Nach der eindeutigen Zuordnung des Gesprächs einzelne Redebegleitsätze versuchsweise streichen, etwa bei „Ich kann hier warten“.",
+          "Nach längeren Erzählabschnitten Sprecherkennzeichnungen eher behalten, wenn sie die Orientierung erleichtern. Die schlichten „sagte“-Formeln passen zum zurückgenommenen Ton."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "irgendwann zwischen Studium und erstem Firmenwagen",
+          "nur dass bei ihm alles ein wenig straffer saß",
+          "Sie löste die Leine wieder vom Poller."
+        ],
+        "suggestions": [
+          "„ein wenig straffer“ probeweise zu „straffer“ kürzen; das Bild mit den nachgezogenen Schrauben vermittelt die Abstufung bereits.",
+          "Prüfen, ob „wieder“ beim Lösen der Leine eine vorausgegangene Handlung voraussetzt, die außerhalb des Ausschnitts tatsächlich stattgefunden hat.",
+          "„Irgendwann“ nicht automatisch streichen: Die zeitliche Unschärfe charakterisiert hier Ilses distanzierten Blick auf Jonas’ Veränderung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie richtete sich auf und wischte die Hände an der Hose ab.",
+          "Ilse stand schon mit einem Fuß auf dem Deck, die Leine in der Hand.",
+          "als hätte jemand die Schrauben nachgezogen"
+        ],
+        "suggestions": [
+          "Die überwiegend klare Handlungsfolge beibehalten; eine zusätzliche Aufteilung würde den Ablauf eher zerstückeln.",
+          "Die „als“-Vergleiche nicht als Gleichzeitigkeit behandeln: Sie vermitteln Figurenwahrnehmung und sind keine überladenen zeitlichen Verknüpfungen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie löste die Leine wieder vom Poller.",
+          "Henning hätte sie längst ausgetauscht.",
+          "Hinter ihr knarrte die Fähre gegen die Fender."
+        ],
+        "suggestions": [
+          "Keine Überarbeitung erforderlich: Der Text benennt Handelnde und Vorgänge direkt und verwendet keine problematischen Passivkonstruktionen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Henning hätte auch den Motor gemacht, an einem Sonntag, mit ölverschmierten Unterarmen und dem Radio auf dem Fensterbrett, und hinterher hätte er gesagt: So, der hält wieder zehn Jahre.",
+          "Mit vier war er einmal ins Wasser gefallen, genau hier, zwischen Rampe und Pfahl, und Henning war hinterhergesprungen, in Stiefeln und allem."
+        ],
+        "suggestions": [
+          "Den langen Henning-Satz grundsätzlich erhalten: Seine Reihung lässt eine vertraute Erinnerung entstehen und kontrastiert mit den knappen Dialogen.",
+          "Falls der Rückblick stockt, den zweiten Beispielsatz nach „Pfahl“ teilen: „Henning war hinterhergesprungen, in Stiefeln und allem.“ Das würde die Rettung stärker gewichten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Hätte ich. Dann hättest du gesagt, es passt gerade nicht.“",
+          "„Kannst du.“",
+          "„Du kannst die Rampe machen. Das hast du früher auch gekonnt.“"
+        ],
+        "suggestions": [
+          "Die kurzen Repliken beibehalten: Sie vermitteln Vorgeschichte und Spannung, ohne diese auszuerklären.",
+          "Die abschließende Äußerung nicht weiter kürzen; der Verweis auf früher macht aus der Arbeitsanweisung ein vorsichtiges Beziehungsangebot."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas sah gut aus, auf diese glatte, ausgeschlafene Art",
+          "Dann sah er auf seinen Koffer, auf die Bohlen, auf die Pfütze",
+          "Jonas sah sie an, ohne zu verstehen."
+        ],
+        "suggestions": [
+          "Die Blickbewegungen nicht pauschal streichen: Sie zeigen Jonas’ Unsicherheit und sind überwiegend eigenständige Handlungen statt bloßer Wahrnehmungsfilter.",
+          "Bei „ohne zu verstehen“ die Perspektive prüfen: Falls die Szene strikt an Ilse gebunden bleiben soll, Jonas’ Unverständnis durch eine sichtbare Reaktion vermitteln oder nur „Jonas sah sie an“ stehen lassen. Die folgende Erläuterung Ilses kann sein Zögern bereits verständlich machen.",
+          "„Jonas sah gut aus“ ist eine Bewertung seines Aussehens, keine indirekte Wahrnehmungskonstruktion nach dem Muster „sie sah, dass“."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "seit neunzehn Jahren, und seit neunzehn Jahren",
+          "Henning hätte sie längst ausgetauscht. Henning hätte auch den Motor gemacht",
+          "wie man einem Fremden im Zug Platz macht",
+          "Jonas wusste das nicht mehr. Sie hatte es ihm nie erzählt."
+        ],
+        "suggestions": [
+          "Die Wiederholung „Henning hätte“ erhalten: Sie verdichtet Verlust und den Gegensatz zwischen früherer Verlässlichkeit und gegenwärtigem Stillstand.",
+          "Beim Bäcker prüfen, ob die doppelte Zeitangabe den gewünschten Rhythmus trägt. Straffer wäre: „Um halb zehn kam er immer, seit neunzehn Jahren, und rauchte noch dieselbe Marke.“",
+          "Die Fremden-Geste und die anschließende Kindheitserinnerung nicht als bloße Doppelung behandeln: Gerade ihr Gegensatz macht die Entfremdung greifbar."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021178
+}

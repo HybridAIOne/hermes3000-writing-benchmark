@@ -1,0 +1,114 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__gpt-6-luna__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Er läuft“, sagte Ilse."],
+        "suggestions": [
+          "Exzellenter Einstieg mitten in das Gespräch und die Handlung (In medias res). Es gibt kein überflüssiges Geplänkel vorweg; die Beziehung und der Konflikt sind ab dem zweiten Satz spürbar."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "...bevor sie die Leinen ordentlich greifen konnte.",
+          "...legte ihn in die kleine Schale im Steuerhaus."
+        ],
+        "suggestions": [
+          "Der Einsatz von Adjektiven ist bereits extrem präzise und sparsam ('kaltes Metall', 'lose Fahne'). Das Adverb 'ordentlich' ist fast das einzige, das man streichen könnte ('...bevor sie die Leinen greifen konnte' ist stark genug)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Du hättest anrufen können“, sagte sie.",
+          "„Wie lange bleibst du?“, fragte sie.",
+          "„Du hast nichts gegessen“, sagte er."
+        ],
+        "suggestions": [
+          "Die Dialogführung ist sehr sauber. Da oft Handlungen einer Figur vorausgehen, könnte man an ein oder zwei Stellen sogar noch auf das 'sagte er/sie' verzichten. Beispiel: Nach 'Für einen Augenblick war nur das Wasser zu hören...' ist klar, dass Ilse spricht – das 'fragte sie' bei 'Wie lange bleibst du?' könnte entfallen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "...irgendwo oberhalb des Anlegers schlug eine lose Fahne gegen ihren Mast.",
+          "...morgens musste sie sie erst ein paarmal schließen und öffnen..."
+        ],
+        "suggestions": [
+          "Der Text ist fast völlig frei von Füllwörtern. Nur 'irgendwo' ist leicht unpräzise: 'Oberhalb des Anlegers schlug eine lose Fahne...' klingt noch bestimmter."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie nahm den Schlüssel aus dem Zündschloss und steckte ihn in die Brusttasche ihrer Jacke. Jonas sah auf ihre Hände."
+        ],
+        "suggestions": [
+          "Hervorragend gelöst. Es gibt keine künstlichen Gleichzeitigkeiten mit 'während' oder 'indem'. Alle Handlungen folgen organisch aufeinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Regen hatte seinen Mantel dunkel gemacht."],
+        "suggestions": [
+          "Es wird durchgehend aktiv formuliert. Die Konstruktion 'hatte dunkel gemacht' ist zwar aktiv, aber 'machen' ist ein schwaches Verb. Stärker wäre hier: 'Der Regen hatte seinen Mantel durchtränkt' oder 'Sein Mantel war dunkel vom Regen'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ilse dachte an das Gästezimmer, an die Bettwäsche, die sie vor zwei Wochen abgezogen hatte, weil sie nach dem Lüften wieder nach dem Schrank roch."
+        ],
+        "suggestions": [
+          "Die Satzlängen variieren sehr gut und erzeugen einen angenehmen, ruhigen Lesefluss, der zur kargen Stimmung passt. Der Beispielsatz ist der längste im Text, funktioniert aber rhythmisch einwandfrei."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Du hast nichts gegessen“, sagte er. / „Du auch nicht.“ / „Im Zug gab es ein belegtes Brötchen.“ / „Das zählt nicht.“"
+        ],
+        "suggestions": [
+          "Meisterhaft verknappte Dialoge. Jede Zeile transportiert enorm viel Subtext über die Beziehung der Figuren, ohne dass ein Wort zu viel gesagt wird."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Für einen Augenblick war nur das Wasser zu hören, das unter dem Schiff entlangstrich.",
+          "Ilse dachte an das Gästezimmer, an die Bettwäsche..."
+        ],
+        "suggestions": [
+          "Hier gibt es noch leichtes Optimierungspotenzial für noch mehr Unmittelbarkeit (Show, don't tell). Statt 'war nur das Wasser zu hören' besser direkt: 'Für einen Augenblick strich nur das Wasser hörbar unter dem Schiff entlang' (oder 'gluckerte'). Statt 'Ilse dachte an das Gästezimmer' könnte man direkt in die erlebte Rede gehen: 'Im Gästezimmer war die Bettwäsche abgezogen. Vor zwei Wochen erst hatte sie...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie löste die Leine wieder vom Poller. [...] Sie ging an ihm vorbei zur Anlegerseite und prüfte die Leine.",
+          "Sie nahm den Schlüssel aus dem Zündschloss und steckte ihn in die Brusttasche [...] Danach nahm sie den Schlüssel wieder aus der Tasche...",
+          "Ilse hätte ihm sagen können, dass er ihn tragen sollte. [...] Sie hätte sagen können, dass er sich ein Zimmer im Ort nehmen sollte."
+        ],
+        "suggestions": [
+          "Die Wiederholung von 'Sie hätte sagen können' ist ein starkes stilistisches Mittel, das Ilses Zurückhaltung betont – unbedingt beibehalten! Bei den Handlungen (Leine erst lösen, später prüfen, ob der Knoten sitzt; Schlüssel einstecken und direkt wieder herausholen) wirkt die Wiederholung jedoch etwas widersprüchlich. Wenn diese Fahrigkeit von Ilse Absicht ist (um ihre innere Unruhe zu zeigen), könnte man das beim zweiten Mal durch ein kurzes Innehalten noch klarer als Übersprungshandlung markieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01817
+}

@@ -1,0 +1,126 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Fluss, dass Ilse das andere Ufer nur wusste, nicht sah."
+        ],
+        "suggestions": [
+          "Der Einstieg ist exzellent gewählt. Er etabliert sofort Atmosphäre, Schauplatz und die tiefe Verbundenheit der Protagonistin mit ihrer Arbeit, kurz bevor die eigentliche Handlung (das Eintreffen der Passagiere) beginnt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Frau Wulf sah kurz zu ihr herüber und dann taktvoll weg.",
+          "Irgendwo flussabwärts rief ein Graureiher, rau und uninteressiert.",
+          "Der Junge grinste unsicher"
+        ],
+        "suggestions": [
+          "Der Text ist bereits extrem präzise und sparsam mit Attributen. Einzig 'taktvoll' ist ein leicht erklärendes Adverb (Telling). Dass sie rasch wegsieht, zeigt den Takt bereits von selbst.",
+          "'Uninteressiert' beim Reiher ist eine Vermenschlichung, passt aber gut zu Ilses nüchterner Perspektive."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ich warte doch“, sagte Ilse.",
+          "„Der Bus ist ausgefallen“, sagte er. „Wieder mal.“",
+          "„Ja“, sagte Ilse. „Ist es.“"
+        ],
+        "suggestions": [
+          "Die Dialogführung kommt fast vollständig ohne überflüssige Inquits aus. Im Gespräch mit dem Jungen könnten die wenigen 'sagte Ilse / sagte er' theoretisch auch noch gestrichen werden, sie dienen hier aber gut dem rhythmischen Pacing (Kunstpausen)."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Seil verschwand wenige Meter vom Bug entfernt im Grau",
+          "Dann, nach einer Minute vielleicht, summte es noch einmal"
+        ],
+        "suggestions": [
+          "Der Text ist nahezu frei von Füllwörtern. Das 'vielleicht' am Ende ist kein handwerklicher Fehler, sondern spiegelt organisch Ilses subjektives Zeitempfinden wider."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie stellte den Becher auf die Fensterbank, zog die Mütze tiefer und ging hinaus.",
+          "Sie ging zur Winde, löste die Kette und zog die Rampe hoch."
+        ],
+        "suggestions": [
+          "Hervorragende lineare Handlungsführung. Es gibt keine künstlichen Gleichzeitigkeits-Konstruktionen mit 'während' oder 'indem'. Alles geschieht klar nacheinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Das Eisen knirschte, dann rastete es ein.",
+          "Hinter ihnen schloss sich der Nebel über dem Anleger"
+        ],
+        "suggestions": [
+          "Keinerlei problematische Passivkonstruktionen. Selbst unbelebte Dinge (Eisen, Nebel, Wasser) sind durch starke Verben aktiv gestaltet."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie wartete bis Viertel nach, wie es auf dem Plan stand, den ihr Mann vor dreißig Jahren geschrieben und hinter Glas an die Steuerhauswand gehängt hatte.",
+          "Frau Wulf musterte ihn und fragte, ob er Henrik aus der Neunten sei, und er sagte, nein, Henriks Bruder, und sie sagte, das habe sie sich gedacht."
+        ],
+        "suggestions": [
+          "Die Satzlängen variieren sehr rhythmisch. Längere Sätze (wie die indirekte Rede zwischen Frau Wulf und dem Jungen) werden hier bewusst als stilistisches Mittel eingesetzt, um das beiläufige Geplapper zusammenzufassen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Fährt die?“ – „Wenn einer drauf ist.“ – „Dann bin ich einer.“",
+          "„Wollen Sie nicht rangehen?“, fragte der Junge. – „Nein.“ – „Könnte wichtig sein.“ – „Ist es nicht.“"
+        ],
+        "suggestions": [
+          "Meisterhaft verknappte Dialoge, die perfekt zur norddeutsch-wortkargen Charakterisierung der Protagonistin und der Morgenstimmung passen. Kein Wort zu viel."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Um zehn vor sieben hörte sie den ersten Motor oben auf dem Deich.",
+          "Um zehn nach hörte sie Schritte, schnelle, kleine.",
+          "Ilse stand am Ruder und fühlte, wie die Strömung am Boden zog."
+        ],
+        "suggestions": [
+          "Nach strenger Eschbach-Regel könnten die Wahrnehmungsverben ('hörte sie', 'fühlte') gestrichen werden, um noch unmittelbarer in Ilses Kopf zu sein. Beispiel: 'Um zehn vor sieben brummte der erste Motor oben auf dem Deich.' oder 'Um zehn nach klackten schnelle, kleine Schritte auf dem Asphalt.'",
+          "Beim Ruder ('fühlte, wie die Strömung zog') ist die Wiederholung im Folgesatz ('Sie fühlte es in den Knien...') allerdings ein starkes rhetorisches Mittel, das man beibehalten kann."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Man hätte es ihr nicht erklären müssen. Man hätte sie blind auf das Wasser setzen können, sie hätte die Mitte gefunden.",
+          "Wie früher. Als gäbe es ein Früher, das man von einem Jetzt trennen konnte."
+        ],
+        "suggestions": [
+          "Die vorhandenen Wiederholungen sind zumeist bewusste rhetorische Figuren (Anaphern, Aufgreifen von Begriffen zur Reflexion).",
+          "Lediglich 'Man hätte es ihr nicht erklären müssen' vor dem sehr starken Bild 'Man hätte sie blind auf das Wasser setzen können...' ist inhaltlich leicht doppelt und könnte ersatzlos gestrichen werden, um dem zweiten Satz noch mehr Wucht zu verleihen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020458
+}

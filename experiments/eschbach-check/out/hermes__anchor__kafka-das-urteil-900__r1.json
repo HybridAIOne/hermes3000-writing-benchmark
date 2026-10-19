@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "anchor__kafka-das-urteil-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Es war an einem Sonntagvormittag im schönsten Frühjahr."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und etabliert den Ort gut, könnte aber durch einen direkteren Handlungsimpuls noch stärker wirken."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["niedrigen, leichtgebauten Häuser", "spielerischer Langsamkeit"],
+        "suggestions": [
+          "Einige Adjektive sind stimmungsvoll, könnten aber zugunsten stärkerer Verben reduziert werden, um die Prosa straffer zu gestalten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["vielleicht", "wohl", "eigentlich"],
+        "suggestions": [
+          "Füllwörter wie 'vielleicht' oder 'wohl' schwächen die Aussagekraft; streichen, um die Entschlossenheit der Gedanken zu erhöhen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["während hunderttausende Russen ruhig in der Welt herumfuhren"],
+        "suggestions": ["Die Gleichzeitigkeit ist hier gut dosiert und stört den Lesefluss nicht."]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["hatte sich... angelassen", "wurde... zurückhaltender geworden"],
+        "suggestions": [
+          "Formulierungen in aktivere Verben umwandeln, um die Dynamik der Handlung zu erhöhen."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Das bedeutete aber nichts anderes, als daß man ihm gleichzeitig, je schonender, desto kränkender, sagte, daß seine bisherigen Versuche mißlungen seien..."
+        ],
+        "suggestions": [
+          "Die extrem langen Schachtelsätze sollten in kürzere, prägnantere Sätze aufgebrochen werden, um den Lesefluss zu verbessern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": ["Er dachte darüber nach, wie...", "Konnte man denn... daran denken, daß..."],
+        "suggestions": [
+          "Direkte Darstellung der Gedanken oder Handlungen wählen, statt sie durch Filter wie 'er dachte' oder 'man konnte denken' zu distanzieren."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Geschäft", "Freund", "Vater"],
+        "suggestions": [
+          "Wortwiederholungen durch Synonyme oder Umstellungen vermeiden, um den Text abwechslungsreicher zu gestalten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,93 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel hing so tief...", "Sechs Uhr vierzig."],
+        "suggestions": [
+          "Der Einstieg ist sehr atmosphärisch und setzt genau zum richtigen Zeitpunkt ein, um die Routine und Stimmung zu etablieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["gelblich und schmal", "dumpfe Schläge"],
+        "suggestions": [
+          "Die Adjektive sind sehr sparsam und präzise gewählt. Der Text wirkt dadurch sehr direkt und bildhaft."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Morgen“, sagte der Mann", "„Noch mit?“, fragte die Frau"],
+        "suggestions": [
+          "Die Kennzeichnungen sind unaufdringlich. Gelegentlich könnte man sie sogar ganz weglassen, wenn der Sprecherwechsel durch den Kontext eindeutig ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Füllwörter gefunden. Der Text ist sehr präzise und auf den Punkt geschrieben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Sie nahm ihn, zählte Wechselgeld... und riss die Karte ab."],
+        "suggestions": [
+          "Die Handlungen sind logisch nacheinander aufgebaut, was den Lesefluss sehr angenehm macht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Nebel hing", "Sie stieß"],
+        "suggestions": [
+          "Der Text ist konsequent aktiv formuliert, was die Dynamik der Szene stärkt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Wagen rollte über die Klappe, erst die Vorderreifen, dann die Hinterreifen, zwei dumpfe Schläge."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind rhythmisch gut gewählt und unterstützen die kühle, beobachtende Stimmung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Fährt sie?“ / „Wenn Sie draufstehen.“"],
+        "suggestions": [
+          "Die Dialoge sind kurz, knackig und realistisch. Es gibt keine unnötigen Ausschweifungen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ilse erkannte den Sprung...", "Ilse sah an ihm vorbei..."],
+        "suggestions": [
+          "Sehr gute direkte Darstellung der Wahrnehmung ohne Filterwörter wie 'sie sah, dass' oder 'sie dachte, dass'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ilse... Ilse... Ilse..."],
+        "suggestions": [
+          "Der Name 'Ilse' steht sehr oft am Satzanfang. Gelegentlich durch Pronomen oder Partizipialgruppen ersetzen, um den Rhythmus zu variieren, auch wenn der staccato-artige Stil hier gut zum Charakter passt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

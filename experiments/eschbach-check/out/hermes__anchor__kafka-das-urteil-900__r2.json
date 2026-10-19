@@ -1,0 +1,91 @@
+{
+  "who": "hermes",
+  "item": "anchor__kafka-das-urteil-900",
+  "run": 2,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Es war an einem Sonntagvormittag im schönsten Frühjahr."],
+        "suggestions": [
+          "Der Einstieg ist sehr atmosphärisch, aber statisch. Beginne direkt mit der Handlung: 'Georg Bendemann verschloss den Brief in spielerischer Langsamkeit.'"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["schönsten", "niedrigen", "leichtgebauten", "fremdartige", "wohlbekannte"],
+        "suggestions": [
+          "Viele Adjektive dienen der Stimmung, wirken aber teilweise redundant. Ersetze 'leichtgebauten' durch ein präziseres Substantiv oder streiche es, wenn die Atmosphäre bereits durch den Kontext klar ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge im Text vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["vielleicht", "wohl", "etwa", "eigentlich", "zwar"],
+        "suggestions": [
+          "Diese Wörter schwächen die Aussagekraft. Streiche sie, um die Gedanken des Protagonisten entschlossener und direkter wirken zu lassen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["während hunderttausende Russen ruhig in der Welt herumfuhren"],
+        "suggestions": [
+          "Vermeide 'während'. Beschreibe die Handlungen nacheinander, um den Fokus des Lesers zu lenken."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["sich hinzogen", "sich... geflüchtet hatte", "sich... gelassen hatte"],
+        "suggestions": [
+          "Wandle reflexive oder passivnahe Konstruktionen in aktive Verben um, um mehr Dynamik und Unmittelbarkeit zu erzeugen."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Das bedeutete aber nichts anderes, als daß man ihm gleichzeitig, je schonender, desto kränkender, sagte, daß seine bisherigen Versuche mißlungen seien, daß er endlich von ihnen ablassen solle..."
+        ],
+        "suggestions": [
+          "Die Sätze sind extrem verschachtelt und fordern den Leser zu stark. Teile sie in kürzere, prägnante Sätze auf, um den Lesefluss zu verbessern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["Er dachte darüber nach, wie...", "hatte er... erfahren"],
+        "suggestions": [
+          "Stelle Gedanken und Wahrnehmungen direkt dar, statt sie durch 'er dachte' oder 'er erfuhr' zu distanzieren. Zeige den Inhalt des Gedankens direkt."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Die Situation des Freundes und die geschäftliche Lage werden mehrfach umkreist, ohne neue Informationen hinzuzufügen."
+        ],
+        "suggestions": [
+          "Straffe die Überlegungen zum Freund. Die psychologische Belastung lässt sich auch durch weniger, dafür prägnantere Wiederholungen vermitteln."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

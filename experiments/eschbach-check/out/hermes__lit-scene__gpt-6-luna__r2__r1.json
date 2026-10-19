@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gpt-6-luna__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel klemmte, als hätte das Haus beschlossen, sie nicht sofort hineinzulassen."
+        ],
+        "suggestions": ["Der Einstieg ist sehr gelungen und setzt direkt in der Handlung ein."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kaltem Holz", "süßliches", "rostfarbener Strahl"],
+        "suggestions": [
+          "Die Adjektive sind atmosphärisch dicht und gut gewählt. Keine Kürzungen notwendig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kaum mehr als", "genau dort"],
+        "suggestions": [
+          "Der Text ist sehr präzise. Die wenigen Füllwörter dienen der Rhythmisierung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als erwarte ihre Mutter Besuch"],
+        "suggestions": ["Die Handlungsabfolge ist logisch und flüssig."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Die Stühle waren ordentlich daruntergeschoben"],
+        "suggestions": [
+          "Könnte aktiver formuliert werden: 'Die Stühle standen ordentlich darunter.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut lesbar."]
+      },
+      "dialogueLength": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie wusste nicht, woher es kam."],
+        "suggestions": ["Könnte direkter als innerer Monolog gestaltet werden: 'Woher kam es?'"]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Staub (im Flur und in der Küche)"],
+        "suggestions": [
+          "Die Wiederholung von 'Staub' ist atmosphärisch stimmig, könnte aber im zweiten Fall durch 'grauer Belag' oder 'Schmutzschicht' variiert werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

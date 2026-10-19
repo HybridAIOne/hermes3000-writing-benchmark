@@ -1,0 +1,93 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gemini-4-argon__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel hockte so tief über dem Strom, dass das andere Ufer nicht existierte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und setzt genau zum richtigen Zeitpunkt ein, um den Leser sofort in die Stimmung zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["milchige Suppe", "kurz auf dem nassen Metall"],
+        "suggestions": [
+          "Vermeide Klischees wie 'milchige Suppe'. Das Wort 'kurz' wird mehrfach verwendet; ersetze es durch präzisere Verben (z.B. 'Die Reifen quietschten auf dem nassen Metall')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sagte Ilse"],
+        "suggestions": [
+          "Die Marker sind bereits sparsam eingesetzt. An einigen Stellen könnten sie noch konsequenter weggelassen werden, wenn der Sprecher aus dem Kontext eindeutig ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ein paar Meter", "ein paar Minuten"],
+        "suggestions": [
+          "Die Verwendung von 'ein paar' ist unpräzise. Wenn möglich, durch konkretere Mengenangaben ersetzen oder einfach weglassen, um die Sprache zu straffen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine übermäßige Verwendung von 'während' oder 'als'."],
+        "suggestions": [
+          "Die Handlungsabfolge ist sehr klar und linear, was den Lesefluss und die routinierte Stimmung der Protagonistin gut unterstützt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["verschluckt von der feuchten Watte"],
+        "suggestions": [
+          "Formuliere aktiver: 'Das Scheppern hallte gedämpft über das Wasser zurück; die feuchte Watte des Nebels verschluckte den Klang.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine übermäßig verschachtelten Sätze."],
+        "suggestions": [
+          "Der Satzbau ist abwechslungsreich und gut rhythmisiert. Es gibt keinen Handlungsbedarf."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Dialoge sind kurz und funktional."],
+        "suggestions": [
+          "Die Dialoge sind exzellent auf das Wesentliche reduziert und charakterisieren die Figuren durch ihre Knappheit."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie sah auf die Uhr."],
+        "suggestions": [
+          "Sehr direkt geschrieben. Es gibt keine unnötigen Filter wie 'sie bemerkte, dass...' oder 'sie dachte, dass...', was die Immersion stärkt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Grau (mehrfach verwendet)"],
+        "suggestions": [
+          "Das Wort 'Grau' taucht sehr häufig auf. Obwohl es die Stimmung unterstreicht, könnten Synonyme oder andere Beschreibungen für die Tristesse sorgen, um den Text abwechslungsreicher zu gestalten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

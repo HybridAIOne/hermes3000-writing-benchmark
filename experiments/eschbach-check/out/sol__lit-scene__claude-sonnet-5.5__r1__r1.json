@@ -1,0 +1,137 @@
+{
+  "who": "sol",
+  "item": "lit-scene__claude-sonnet-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der Schlüssel lag nicht mehr unter dem Blumentopf.“",
+          "„Das Wasser ist abgestellt“, sagte er durch den Türspalt, „den Strom hab ich gelassen.“"
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Der verlegte Schlüssel deutet veränderte Verhältnisse an, ohne Vorgeschichte zu erklären.",
+          "Nicht erst mit dem Betreten des Hauses beginnen: Die knappe Begegnung vermittelt Noras Verhältnis zum Nachbarn und bereitet den Schluss vor."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„die Schalen zu Leder geschrumpft, dunkel gefleckt“",
+          "„süß und herb zugleich, beinahe aufdringlich“",
+          "„trocken und leicht körnig, wie Sand“"
+        ],
+        "suggestions": [
+          "Die konkreten Zustandsbeschreibungen der Quitten erhalten; sie tragen zur sinnlichen Wirkung bei.",
+          "„beinahe aufdringlich“ versuchsweise streichen: Der im ganzen Raum hängende Duft vermittelt seine Intensität bereits.",
+          "Bei „leicht körnig“ prüfen, ob „körnig“ allein genügt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Das Wasser ist abgestellt“, sagte er durch den Türspalt, „den Strom hab ich gelassen.“"
+        ],
+        "suggestions": [
+          "Die einzige Redekennzeichnung beibehalten: Sie ordnet den Sprecher unauffällig zu und vermittelt mit dem Türspalt zugleich die räumliche Situation."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„nach etwas Muffigem, das sie nicht benennen wollte“",
+          "„vielleicht von ihrem Luftzug, vielleicht schon vorher“",
+          "„Das Wasser war ja abgestellt.“"
+        ],
+        "suggestions": [
+          "„ja“ probeweise streichen, falls der Schluss nüchterner wirken soll; behalten, wenn Noras Selbstvergewisserung hörbar bleiben soll.",
+          "Die Unbestimmtheit bei „etwas Muffigem“ und die beiden „vielleicht“ nicht pauschal tilgen: Sie markieren Verdrängung beziehungsweise Unsicherheit und sind damit funktional."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„als handle es sich um einen Vorgang“",
+          "„und gab erst nach, als sie mit der Hüfte nachhalf“",
+          "„Sie ging, ohne den Mantel auszuziehen, in die Küche.“"
+        ],
+        "suggestions": [
+          "Keine grundsätzliche Umstellung nötig: Das erste „als“ leitet einen Vergleich ein, das zweite stellt einen nachvollziehbaren zeitlichen Zusammenhang her.",
+          "Die beiläufige Information zum Mantel beibehalten; eine eigene Handlung daraus zu machen würde den Ablauf unnötig zerlegen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Das Wasser ist abgestellt“",
+          "„Der Kühlschrank war ausgeräumt“",
+          "„Das Fruchtfleisch war braun geworden“"
+        ],
+        "suggestions": [
+          "Die Zustandsbeschreibungen beibehalten: Entscheidend ist, was Nora vorfindet, nicht, wer die Arbeiten ausgeführt hat.",
+          "„war braun geworden“ nicht als Passiv behandeln; es bezeichnet eine Zustandsveränderung."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der Nachbar hatte ihn in einen Umschlag gesteckt, auf dem in Kugelschreiber *Haus Brandt* stand, als handle es sich um einen Vorgang.“",
+          "„Und doch hing ihr Duft im ganzen Raum, süß und herb zugleich, beinahe aufdringlich, ein Geruch nach Herbst, der in diesem Haus nicht hätte überdauern dürfen.“"
+        ],
+        "suggestions": [
+          "Den ersten längeren Satz erhalten: Seine Erweiterungen führen verständlich zur abschließenden Wertung.",
+          "Den Duft-Satz bei Bedarf rhythmisch entlasten: „Und doch hing ihr Duft im ganzen Raum, süß und herb zugleich. Ein Geruch nach Herbst, der in diesem Haus nicht hätte überdauern dürfen.“ Die bestehende Fassung wirkt dagegen stärker nachhallend."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Das Wasser ist abgestellt“, sagte er durch den Türspalt, „den Strom hab ich gelassen.“",
+          "„Mehr nicht. Nora war ihm dankbar dafür.“"
+        ],
+        "suggestions": [
+          "Den Dialog unverändert knapp halten: Er vermittelt notwendige Informationen und charakterisiert durch das Ausbleiben weiterer Worte auch Noras Situation.",
+          "Keine erklärenden Fragen oder zusätzlichen Höflichkeitsfloskeln ergänzen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Im Flur war es kälter als draußen.“",
+          "„Es roch nach Stein, nach altem Putzmittel“",
+          "„Sie berührte die Schnittfläche mit dem Finger. Sie war trocken und leicht körnig, wie Sand.“"
+        ],
+        "suggestions": [
+          "Die unmittelbaren Sinneseindrücke ohne Zusätze wie „sie spürte“ oder „sie bemerkte“ beibehalten.",
+          "Die Berührung nicht als entbehrlichen Wahrnehmungsfilter streichen: Sie ist eine konkrete Handlung und motiviert den anschließenden Tasteindruck."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Das Wasser ist abgestellt“ / „Das Wasser war ja abgestellt.“",
+          "„Jemand hatte gedacht, hatte aufgeräumt, hatte es gut gemeint.“",
+          "„Dort lagen vier Quitten auf einer Zeitung“ / „Neben der fünften Quitte, die bereits halbiert war“"
+        ],
+        "suggestions": [
+          "Die Wiederaufnahme des abgestellten Wassers erhalten: Sie verbindet die sachliche Auskunft am Anfang mit der Irritation am Schluss.",
+          "Die dreifache „hatte“-Konstruktion als bewussten Rhythmus behandeln, nicht als bloße Wortdopplung.",
+          "Die Anordnung der Quitten bei Bedarf klarer fassen: „Neben den vier Quitten lag eine fünfte, bereits halbiert. Daneben ein Messer mit der Klinge zur Wand.“ Das vermeidet ein kurzes Nachzählen beim Lesen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01933
+}

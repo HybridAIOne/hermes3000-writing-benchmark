@@ -1,0 +1,136 @@
+{
+  "who": "sol",
+  "item": "lit-continue__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Er läuft\", sagte Ilse.", "„Das nenne ich nicht laufen.\""],
+        "suggestions": [
+          "Den unmittelbaren Dialogeinstieg beibehalten: Der Streit über den Motor etabliert zugleich Ort, Figuren und Beziehungsspannung.",
+          "Nicht später einsetzen. Der scheinbar beiläufige Wortwechsel bereitet den unausgesprochenen familiären Konflikt wirkungsvoll vor."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„in kurzen, nassen Zügen“",
+          "„ein kleiner roter Lieferwagen“",
+          "„einen Mantel, der zu dünn war für Mitte Oktober“"
+        ],
+        "suggestions": [
+          "„nassen“ versuchsweise streichen: Beim Schlagen des Wassers gegen die Pontons ist die Nässe bereits mitgedacht. Behalten, wenn gerade der sinnliche Eindruck wichtig ist.",
+          "Prüfen, ob Größe und Farbe des Lieferwagens zur Vorstellung beitragen müssen; andernfalls genügt „ein Lieferwagen“.",
+          "Charakterisierende Attribute wie den zu dünnen Mantel erhalten: Sie erzählen etwas über Jonas, statt lediglich auszuschmücken."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Du hättest anrufen können\", sagte sie.",
+          "„Ist das Zimmer noch –\", begann Jonas.",
+          "„Komm mit rüber\", sagte sie."
+        ],
+        "suggestions": [
+          "„sagte sie“ nach „Du hättest anrufen können“ könnte entfallen, weil Sprecherwechsel und Inhalt Ilse eindeutig erkennen lassen.",
+          "„begann Jonas“ ist durch den abgebrochenen Satz teilweise redundant; gegebenenfalls streichen.",
+          "Die insgesamt zurückhaltenden, neutralen Kennzeichnungen beibehalten. Der Schlussmarker schafft eine passende Pause zwischen Einladung und Nachsatz."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Sie konnte beinahe hören“",
+          "„stand schon wieder ein Auto“",
+          "„diesen Zug, den man nur in den Armen spürte“"
+        ],
+        "suggestions": [
+          "Keine pauschale Füllwortbereinigung vornehmen: „beinahe“ kennzeichnet eine Vorstellung, „schon wieder“ den Arbeitsrhythmus und „nur“ die körperliche Erfahrungsqualität.",
+          "Allenfalls „schon wieder“ gegen „wieder“ testen, wenn der Satz nüchterner klingen soll."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Von der Rampe rollte der letzte Wagen, ein Kombi mit Lüneburger Kennzeichen, die Fahrerin hob zwei Finger zum Gruß.“",
+          "„Ilse löste die Leine wieder vom Poller. Sie schlang sie einmal um den Unterarm, prüfte das Gewicht und hielt Jonas das Ende hin.“"
+        ],
+        "suggestions": [
+          "Die klare Handlungsfolge beim Ablegen beibehalten; übermäßige Gleichzeitigkeitskonstruktionen gibt es nicht.",
+          "Für eine deutlichere Abfolge den Satz über den Wagen teilen: „Von der Rampe rollte der letzte Wagen, ein Kombi mit Lüneburger Kennzeichen. Die Fahrerin hob zwei Finger zum Gruß.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Das Bett ist bezogen.“", "„Ilse löste die Leine wieder vom Poller.“"],
+        "suggestions": [
+          "Keine systematische Überarbeitung nötig: Die Handlung wird überwiegend aktiv erzählt.",
+          "Das Zustandspassiv „Das Bett ist bezogen“ unbedingt erwägen beizubehalten. Es betont die Vorbereitung und lässt Ilse ihr eigenes Warten verschweigen; „Ich habe das Bett bezogen“ wäre weniger subtil."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Fluss war braun und träge, hatte aber unter der Oberfläche diesen Zug, den man nur in den Armen spürte, wenn man jahrzehntelang an ihm gearbeitet hatte.“",
+          "„Er hätte den Koffer über den nassen Weg gezogen, die Rollen hätten auf dem Kies geknirscht, und sie hätte ihm von hier aus nachgesehen, wie man jemandem nachsieht, den man noch nicht wieder hereingelassen hat.“"
+        ],
+        "suggestions": [
+          "Den Flusssatz bei Bedarf entlasten: „Der Fluss war braun und träge. Doch unter der Oberfläche hatte er diesen Zug, den man nur in den Armen spürte, wenn man jahrzehntelang an ihm gearbeitet hatte.“",
+          "Den langen hypothetischen Satz eher erhalten: Seine fortlaufende Bewegung bildet Ilses vorgestellten Abschied ab. Nur bei gewünschtem härteren Rhythmus nach „geknirscht“ teilen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Seit wann?“ – „Seit Mittwoch.“",
+          "„Dann hättest du gesagt, ich soll nicht kommen.“",
+          "„Komm mit rüber“, sagte sie. „Du weißt noch, wie das geht.“"
+        ],
+        "suggestions": [
+          "Die knappen Dialoge unverändert als Stärke behandeln: Sie transportieren Vorgeschichte und Nähe, ohne sie auszuerklären.",
+          "Keine zusätzlichen erklärenden Repliken über Hennings Rolle oder Ilses Vorwissen einfügen; die Leerstellen tragen die Spannung."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Sie konnte beinahe hören, wie er die Zahlen sortierte“",
+          "„Das hatte er von ihr, dachte Ilse, dieses Schweigen, das mehr Platz brauchte als ein Satz.“",
+          "„Jonas sah zum Heck“"
+        ],
+        "suggestions": [
+          "„dachte Ilse“ kann in der bereits etablierten Figurenperspektive entfallen: „Das hatte er von ihr, dieses Schweigen, das mehr Platz brauchte als ein Satz.“",
+          "„Sie konnte beinahe hören“ nicht automatisch streichen: Die Formulierung markiert Ilses Deutung von Jonas, nicht gesichertes Wissen über seine Gedanken.",
+          "„Jonas sah zum Heck“ beibehalten, wenn seine Blickbewegung als Gesprächshandlung wichtig ist; es handelt sich nicht bloß um einen entbehrlichen Wahrnehmungsfilter."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Er läuft“ / „Er läuft, wenn …“ / „Das nenne ich nicht laufen.“",
+          "„die Fahrerin hob zwei Finger zum Gruß. Ilse hob ebenfalls zwei Finger.“",
+          "„Der Mann darin würde warten. Er wartete immer.“",
+          "„Sie antwortete nicht.“ / „Er sagte nichts dazu.“ / „dieses Schweigen“"
+        ],
+        "suggestions": [
+          "Die Wiederholung von „laufen“ erhalten: Sie macht den Gegensatz zwischen Ilses Behauptung und Jonas’ Einwand hörbar.",
+          "Falls eine Straffung gewünscht ist: „Ilse erwiderte den Gruß“ vermeidet die unmittelbare Wiederholung von „hob zwei Finger“, verliert allerdings etwas von der spiegelnden Geste.",
+          "Das wiederkehrende Schweigen als Beziehungsmotiv beibehalten. Nur prüfen, ob der erklärende Zusatz „dieses Schweigen, das mehr Platz brauchte als ein Satz“ die zuvor bereits gezeigte Wirkung verstärken oder bewusst offener lassen soll."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02263
+}

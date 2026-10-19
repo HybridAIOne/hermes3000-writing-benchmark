@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gpt-6-luna__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel klemmte, wie er immer geklemmt hatte."],
+        "suggestions": ["Der Einstieg ist sehr gelungen und setzt direkt in der Handlung an."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kaltem Holz", "rostfarbener Strahl"],
+        "suggestions": ["Die Adjektive sind atmosphärisch gut gewählt und nicht überladen."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["sagte sie sich"],
+        "suggestions": ["Sehr sparsam und korrekt eingesetzt."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["offenbar"],
+        "suggestions": [
+          "Das Wort 'offenbar' könnte gestrichen werden, um die Aussage direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als Mara den Wasserhahn aufdrehte"],
+        "suggestions": ["Die zeitliche Abfolge ist klar und gut strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ihre Mutter war seit sechs Wochen tot."],
+        "suggestions": ["Der Text ist fast durchgehend aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Rhythmus der Sätze ist abwechslungsreich und angenehm zu lesen."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher kein Korrekturbedarf."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Sie wusste nicht, ob er von einer Tasse stammte.",
+          "Sie wusste nur, dass ihre Mutter..."
+        ],
+        "suggestions": [
+          "Diese Filterwörter ('Sie wusste') schwächen die Unmittelbarkeit. Besser: 'Stammte er von einer Tasse? Sie erinnerte sich an die Tasse mit dem abgesprungenen blauen Rand.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Der Schlüssel klemmte, wie er immer geklemmt hatte.", "Tasse ... Tasse"],
+        "suggestions": [
+          "Erste Zeile straffen: 'Der Schlüssel klemmte wie eh und je.'",
+          "Bei der Tasse ein Pronomen oder eine Umschreibung verwenden, um die Wortwiederholung zu vermeiden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

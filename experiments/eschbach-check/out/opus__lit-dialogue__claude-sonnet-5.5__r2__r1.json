@@ -1,0 +1,117 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Bahnhofscafé, Nachmittag. Thomas sitzt schon am Tisch, als Jan hereinkommt. Beide zögern.",
+          "JAN: Du bist früh."
+        ],
+        "suggestions": [
+          "Der Einstieg ist knapp und setzt mitten in einer aufgeladenen Situation ein. Die Ankunft ist szenisch relevant, weil sie Jans Ambivalenz zeigt, und sollte bleiben.",
+          "Die Regieanweisung 'Beide zögern' nimmt vorweg, was der Dialog ('Du bist früh.' / 'Ich war in der Gegend.') ohnehin zeigt. Prüfen, ob sie gestrichen werden kann."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ein kurzes Lächeln, das sofort wieder verschwindet.",
+          "Jan setzt sich langsam.",
+          "THOMAS: *(leise)* Ich auch nicht."
+        ],
+        "suggestions": [
+          "'kurzes' und 'sofort wieder' sagen dasselbe. Besser: 'Ein Lächeln, das sofort verschwindet.' oder nur: 'Ein Lächeln. Weg.'",
+          "'setzt sich langsam' könnte durch eine konkrete Handlung ersetzt werden, die das Zögern zeigt, etwa: 'Jan zieht den Stuhl heran. Setzt sich.'",
+          "'leise' ist als Spielanweisung legitim. Sparsam einsetzen, damit es Gewicht behält."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["JAN: Ich kann nicht lange.", "THOMAS: Natürlich nicht."],
+        "suggestions": [
+          "Im Szenenformat sind Sprecherangaben formal notwendig und ersetzen 'sagte er'. Es gibt keine überflüssigen Redeeinleitungen. Nichts zu ändern."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ich hab sie oft gelesen.", "Trink wenigstens den Kaffee."],
+        "suggestions": [
+          "'oft' ist hier figurentypisch vage und verrät Jans Ausweichen. Eine präzise Zahl ('elfmal') wäre eine bewusste Alternative mit stärkerer Wirkung.",
+          "'wenigstens' trägt die Bitte und sollte bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Thomas sitzt schon am Tisch, als Jan hereinkommt."],
+        "suggestions": [
+          "Das einzige 'als' steht in der Szenenbeschreibung und ist funktional. Optional nacheinander: 'Thomas sitzt schon am Tisch. Jan kommt herein.'",
+          "Die Handlungen in den Regieanweisungen folgen sauber aufeinander (Jacke aufhängen, abnehmen, über den Arm legen). Das ist vorbildlich."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Passivkonstruktionen. Alle Regieanweisungen sind aktiv und konkret formuliert ('Die Kellnerin stellt zwei Tassen ab.')."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Jan hängt die Jacke über die Stuhllehne, nimmt sie wieder ab und legt sie über den Arm."
+        ],
+        "suggestions": [
+          "Der längste Satz ist eine klar gegliederte Handlungsfolge und bildet Jans Unentschlossenheit rhythmisch ab. Keine Kürzung nötig."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["JAN: Ich wusste nicht, was.", "THOMAS: Aber nicht geantwortet."],
+        "suggestions": [
+          "Die Repliken sind durchgehend kurz, subtextreich und lassen Raum für Pausen. Keine Straffung nötig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Jan sieht aus dem Fenster. Draußen fährt ein Zug ein.",
+          "Jan rührt in einer Tasse, in der noch nichts ist."
+        ],
+        "suggestions": [
+          "Keine 'er sah, dass'-Konstruktionen. Innere Zustände werden durchgehend über Handlung gezeigt (die Jacke, das Rühren in der leeren Tasse). Das ist mustergültig."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Beide zögern. / (Pause.) / (Schweigen.) / (Keiner bewegt sich.)",
+          "Keiner dankt ihr. / Keiner bewegt sich.",
+          "Jan rührt in einer Tasse, in der noch nichts ist. / Die Kellnerin stellt zwei Tassen ab.",
+          "Jan setzt sich langsam."
+        ],
+        "suggestions": [
+          "Die Dialog-Echos ('Schwarz' / 'Schwarz, ja', 'vernünftig' / 'vernünftig', 'Nur den Kaffee' / 'Nur den Kaffee') sind bewusste Stilmittel und sollten bleiben.",
+          "Zögern und Stille werden viermal markiert. Mindestens 'Beide zögern' oder 'Pause' streichen, damit 'Keiner bewegt sich' stärker wirkt.",
+          "Die Wiederholung von 'Keiner ...' variieren, etwa 'Die Kellnerin stellt zwei Tassen ab und geht.'",
+          "Kontinuitätsfehler 1: Jan rührt in einer Tasse, bevor die Kellnerin die Tassen bringt. Entweder 'in der leeren Untertasse' / 'im Zuckerstreuer' oder klarstellen, dass bereits Tassen auf dem Tisch stehen.",
+          "Kontinuitätsfehler 2: Jan setzt sich am Ende, aber es fehlt eine Anweisung, dass er aufsteht, als der Zug einfährt. Ergänzen: 'Jan steht auf.' nach 'Das ist meiner.' Das verstärkt zugleich die Spannung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.074208
+}

@@ -1,0 +1,144 @@
+{
+  "who": "sol",
+  "item": "lit-continue__claude-sonnet-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Er läuft\", sagte Ilse.",
+          "„Er läuft schlecht. Ich hab ihn vom Ufer aus gehört.\""
+        ],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Der Widerspruch setzt Spannung frei und charakterisiert beide Figuren, bevor ihre Beziehung erklärt wird.",
+          "Nicht später einsetzen. Motor, Fähre und familiärer Konflikt werden bereits durch den Auftakt miteinander verknüpft."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas lachte kurz, ohne den Mund dabei richtig zu bewegen.",
+          "Das Seil spannte sich schräg durch die Strömung, tropfend",
+          "Die Schuhe waren schon bis zur Naht dunkel vom Wasser."
+        ],
+        "suggestions": [
+          "Bei „dabei richtig“ prüfen, ob die Unbestimmtheit gewollt ist. Prägnanter wäre: „Jonas lachte kurz, ohne den Mund zu verziehen.“",
+          "„tropfend“ ist anschaulich, wirkt als Einschub aber etwas nachgetragen. Falls das Detail wichtig ist, könnte es einen eigenen kurzen Satz erhalten.",
+          "Bildtragende Angaben wie „bis zur Naht dunkel vom Wasser“ behalten: Sie zeigen Jonas’ unpassende Ausstattung und bereiten Ilses Schlussgeste vor."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der Motor ist für den Notfall\", sagte sie.",
+          "„Du hättest anrufen können\", sagte sie.",
+          "„Die Fähre fährt in zehn Minuten wieder\", sagte sie."
+        ],
+        "suggestions": [
+          "Die überwiegend unmarkierten Wechselreden beibehalten; die Sprecher bleiben gut unterscheidbar.",
+          "Das abschließende „sagte sie“ kann entfallen, weil Ilses unmittelbar vorausgehende Handlung sie bereits eindeutig als Sprecherin kennzeichnet.",
+          "Nicht sämtliche Kennzeichnungen streichen: Nach längeren Erzählpassagen helfen sie bei der Orientierung."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Er sah älter aus als zu Weihnachten, oder vielleicht sah er nur anders aus",
+          "Dann ist er kaputt. Das weiß ich dann ja.",
+          "Sie hatte sie nur jeden Morgen mit dem Knie ein Stück zur Seite geschoben"
+        ],
+        "suggestions": [
+          "Das doppelte „dann“ im Dialog probeweise reduzieren: „Dann ist er kaputt. Das weiß ich ja.“ Die ursprüngliche Fassung kann allerdings als Ausdruck von Ilses trockenem Ton bestehen bleiben.",
+          "„vielleicht“ nicht pauschal streichen: Es vermittelt Ilses Unsicherheit gegenüber Jonas.",
+          "„ein Stück“ lässt sich weglassen, wenn die genaue Bewegungsgröße unwichtig ist. „nur“ hingegen betont sinnvoll den Unterschied zwischen Wegstellen und täglichem Beiseiteschieben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Jonas trat einen Schritt zur Seite, weil ein Radfahrer mit seinem Rad über die Rampe schob, und der Koffer folgte ihm mit einem Rattern, das über das Wasser hinweg zu laut war.",
+          "Sie ging an ihm vorbei zum Steuerhaus, hakte die Kette an der Rampe ein, prüfte sie mit dem Fuß."
+        ],
+        "suggestions": [
+          "Die klare Abfolge der Handgriffe beibehalten. Sie macht Ilses Routine ohne zusätzliche Erläuterung sichtbar.",
+          "Keine systematische Überarbeitung nötig: Die „als“-Konstruktionen des Textes dienen überwiegend Vergleichen, nicht einer überladenen Darstellung gleichzeitiger Vorgänge."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Radfahrer nickte Ilse zu.",
+          "Ilse bückte sich, nahm die Stiefel am Schaft und stellte sie auf die Bohlen vor ihn"
+        ],
+        "suggestions": [
+          "Die aktive Erzählweise beibehalten. Figuren handeln selbst; ihre Bewegungen bleiben konkret.",
+          "Kein relevantes Passivproblem vorhanden. Auch „als wären sie abgeschnitten“ ist hier ein anschaulicher Zustandsvergleich und kein sinnvoller Kandidat für eine Aktivumschreibung."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Jonas trat einen Schritt zur Seite, weil ein Radfahrer mit seinem Rad über die Rampe schob, und der Koffer folgte ihm mit einem Rattern, das über das Wasser hinweg zu laut war.",
+          "Das hatte er schon als Kind gekonnt, wenn er nasse Füße hatte und lieber den ganzen Weg heimlief, als zu sagen, dass es ihm unangenehm war."
+        ],
+        "suggestions": [
+          "Den ersten Satz teilen und zugleich die Radfahrerformulierung glätten: „Jonas trat zur Seite, um einen Radfahrer durchzulassen, der sein Rad über die Rampe schob. Der Koffer folgte ihm mit einem Rattern, das über das Wasser hinweg zu laut war.“",
+          "Die Kindheitserinnerung entflechten: „Das hatte er schon als Kind gekonnt. Mit nassen Füßen lief er lieber den ganzen Weg heim, als zuzugeben, dass es ihm unangenehm war.“",
+          "Nicht alle längeren Sätze kürzen: Ihr ruhiger Rhythmus passt grundsätzlich zur beobachtenden Erzählweise."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Und wenn Notfall ist?\"\n\n„Dann ist er kaputt. Das weiß ich dann ja.\"",
+          "„Du hättest anrufen können\", sagte sie.\n\n„Du hättest abgenommen?\""
+        ],
+        "suggestions": [
+          "Die knappen Dialoge unverändert in ihrer Grundform bewahren. Sie transportieren Konflikt und Vorgeschichte durch Auslassungen.",
+          "Keine erklärenden Gesprächspassagen ergänzen: Gerade die unbeantwortete Gegenfrage macht die Distanz zwischen Ilse und Jonas spürbar."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Man sah die Pappeln dort nur bis zur Hälfte, als wären sie abgeschnitten.",
+          "Ilse kannte jedes Geräusch, das dieses Zusammenspiel machte.",
+          "Er bemerkte es nicht, oder er ließ es sich nicht anmerken."
+        ],
+        "suggestions": [
+          "Den unpersönlichen Wahrnehmungsfilter am Ufer entfernen: „Die Pappeln am anderen Ufer waren nur zur Hälfte sichtbar, als wären sie abgeschnitten.“",
+          "Den Übergang zur Geräuschfolge gegebenenfalls verdichten: „Ilse kannte jedes dieser Geräusche: das Knarren des Rollenbocks, das Schlagen des Wassers gegen den Rumpf.“",
+          "„Er bemerkte es nicht, oder er ließ es sich nicht anmerken“ kann bleiben: Die Unsicherheit charakterisiert Ilses Blick auf Jonas und erfüllt damit eine erzählerische Funktion."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "mit seinem Rad",
+          "Sie standen dort seit drei Jahren",
+          "Ilse hatte nie überlegt, sie wegzustellen. Sie hatte sie auch nie angezogen. Sie hatte sie nur jeden Morgen mit dem Knie ein Stück zur Seite geschoben",
+          "nicht hatte abstellen können und irgendwann nicht mehr hatte abstellen wollen"
+        ],
+        "suggestions": [
+          "Die unmittelbare Wortstammwiederholung bei „Radfahrer mit seinem Rad“ durch eine klarere Formulierung wie „ein Radfahrer, der sein Rad über die Rampe schob“ auflösen.",
+          "Die Wiederholung von „Sie hatte“ nicht vorschnell glätten: Sie unterstreicht Ilses jahrelangen Umgang mit Hennings Abwesenheit.",
+          "Auch „abstellen können“ und „abstellen wollen“ bewahren. Die Wiederholung markiert eine Bedeutungsverschiebung und ist keine bloße Doppelung.",
+          "Allenfalls „Sie standen dort seit drei Jahren“ zu „Seit drei Jahren“ verkürzen, wenn der Stiefelabschnitt rhythmisch straffer werden soll."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.023214
+}

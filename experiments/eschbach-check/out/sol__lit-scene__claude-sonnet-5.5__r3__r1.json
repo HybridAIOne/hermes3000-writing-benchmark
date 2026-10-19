@@ -1,0 +1,130 @@
+{
+  "who": "sol",
+  "item": "lit-scene__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel klemmte, wie er immer geklemmt hatte, und Judith tat, was ihre Hand noch wusste: anheben, ein Stück nach links, dann die Schulter gegen das Holz."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Er beginnt unmittelbar mit einer Handlung und vermittelt zugleich Judiths Vertrautheit mit dem Haus. Ein späterer Einsatz würde diese körperlich verankerte Vorgeschichte abschwächen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Alles stand da, ordentlich und ein wenig kleiner als verabredet.",
+          "zwischen den Bettbezügen, eingeschrumpft, die Haut braun und weich wie altes Leder",
+          "Der Duft war nicht schwächer geworden, sondern dichter, fast feucht."
+        ],
+        "suggestions": [
+          "Beschreibungen wie „braun und weich wie altes Leder“ erhalten: Sie vermitteln konkrete Sinneseindrücke statt bloßer Bewertung.",
+          "Allenfalls „ordentlich“ streichen, falls die Ordnung später keine Bedeutung erhält. Die ungewöhnlichen Beschreibungen „kleiner als verabredet“ und „fast feucht“ tragen dagegen zur Atmosphäre bei."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Notar hatte am Telefon von „Räumung“ gesprochen, von „Fristen“."],
+        "suggestions": [
+          "Keine Änderung erforderlich. Es gibt keinen ausgeführten Dialog und keine überflüssigen Sprecherkennzeichnungen. Die knappe Wiedergabe des Telefonats liefert den notwendigen Kontext."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "ein wenig kleiner als verabredet",
+          "Im Wäscheschrank oben fand sie die Frucht schließlich doch",
+          "Das wusste Judith genau."
+        ],
+        "suggestions": [
+          "„schließlich doch“ auf seine Funktion prüfen: „schließlich“ markiert die Suche, „doch“ den Gegensatz zum erfolglosen Suchen zuvor. Für eine knappere Fassung genügt gegebenenfalls eines der beiden Wörter.",
+          "„ein wenig“ nicht automatisch streichen: Die Abschwächung passt hier zur tastenden Wahrnehmung und verhindert eine zu eindeutige Aussage."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "anheben, ein Stück nach links, dann die Schulter gegen das Holz",
+          "Die Tür gab nach, als hätte sie nur auf diese Bewegung gewartet.",
+          "Judith setzte sich auf die Bettkante und drehte die Frucht in den Händen, bis ihre Finger den Geruch angenommen hatten."
+        ],
+        "suggestions": [
+          "Die klare Handlungsfolge beibehalten. „Als hätte“ leitet einen Vergleich ein, keine problematische Gleichzeitigkeit; „bis“ macht die Dauer des Umgangs mit der Frucht erfahrbar."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Seit dem März hatte niemand geheizt",
+          "Sie öffnete den Kühlschrank, die Brotdose, das Fach unter der Spüle",
+          "Auf der Fensterbank lag eine tote Fliege auf dem Rücken, die Beine gefaltet."
+        ],
+        "suggestions": [
+          "Keine Umformulierung nötig: Der Text verwendet aktive beziehungsweise zustandsbeschreibende Konstruktionen. „Die Beine gefaltet“ ist kein schwerfälliger Passivsatz."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel klemmte, wie er immer geklemmt hatte, und Judith tat, was ihre Hand noch wusste: anheben, ein Stück nach links, dann die Schulter gegen das Holz.",
+          "Sie blieb auf der Fußmatte stehen, den Koffer in der Hand, und wartete darauf, dass der Flur sich in etwas verwandelte, das sie erkannte.",
+          "Die Garderobe. Der Spiegel mit dem blinden Fleck unten links."
+        ],
+        "suggestions": [
+          "Die längeren Sätze nicht pauschal teilen: Sie bleiben verständlich und werden durch kurze Sätze und Fragmente rhythmisch ausgeglichen.",
+          "Falls ein härterer Anfang gewünscht ist, lässt sich nach „wie er immer geklemmt hatte“ ein Punkt setzen. Die fließende Verbindung von Erinnerung und Bewegung würde dadurch allerdings schwächer."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Notar hatte am Telefon von „Räumung“ gesprochen, von „Fristen“. Sie hatte genickt, obwohl er es nicht sehen konnte."
+        ],
+        "suggestions": [
+          "Die verdichtete Wiedergabe beibehalten. Ein ausformulierter Dialog würde an dieser Stelle vermutlich Tempo kosten, ohne zusätzliche notwendige Information zu liefern."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Erst in der Küche roch sie es.",
+          "Kein Moder, wie sie erwartet hatte",
+          "Ihre Mutter hatte Quitten nie gemocht. Das wusste Judith genau."
+        ],
+        "suggestions": [
+          "„Das wusste Judith genau“ probeweise streichen und prüfen, ob die folgende Aufzählung ihre Gewissheit bereits ausreichend vermittelt. Beibehalten, wenn gerade das nachdrückliche Beharren Zweifel wecken soll.",
+          "„Erst in der Küche roch sie es“ kann bleiben: Der Satz markiert den Moment der Entdeckung und ist damit mehr als ein entbehrlicher Wahrnehmungsfilter.",
+          "Für größere Unmittelbarkeit wäre „Kein Moder, kein Mäusekot, keine abgestandene Zeit“ möglich; dabei entfiele allerdings die Information über Judiths Erwartung."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel klemmte, wie er immer geklemmt hatte",
+          "Ihre Mutter hatte Quitten nie gemocht. Das wusste Judith genau. Sie hatte sie nie gekauft, nie gekocht, nie auch nur erwähnt.",
+          "Dann steckte sie sie in die Manteltasche, so wie man etwas einsteckt, das man später erklären muss."
+        ],
+        "suggestions": [
+          "Die Wiederholung von „klemmte“ und „geklemmt“ erhalten: Sie stellt die fortbestehende Eigenart des Hauses heraus.",
+          "Die „nie“-Reihe als bewusste Steigerung behandeln. Falls gestrafft werden soll, zuerst den erklärenden Zwischensatz „Das wusste Judith genau“ prüfen, nicht die rhythmische Reihe.",
+          "Im Schlusssatz lässt sich die Wortwiederholung reduzieren: „Dann schob sie die Frucht in die Manteltasche, so wie man etwas einsteckt, das man später erklären muss.“ Die ursprüngliche Wiederholung unterstützt allerdings den Übergang von der konkreten Handlung zur allgemeinen Beobachtung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.019544
+}

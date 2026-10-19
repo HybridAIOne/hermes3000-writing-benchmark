@@ -1,0 +1,92 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__kimi-k3__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein kleines Café am Stadtrand.", "Jonas steht, als Miriam eintritt."],
+        "suggestions": [
+          "Der Einstieg ist sehr effizient und setzt sofort die Stimmung. Keine Änderung notwendig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kleines Café", "leises Lachen"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und funktional eingesetzt. Der minimalistische Stil passt sehr gut zum Inhalt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["JONAS:", "MIRIAM:"],
+        "suggestions": [
+          "Da es sich um ein Skriptformat handelt, sind keine Redeeinleitungen nötig. Die Zuordnung ist klar."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Nur kurz", "vielleicht", "schon immer"],
+        "suggestions": [
+          "Die Füllwörter wirken hier nicht als Schwäche, sondern als authentische Charakterisierung der unsicheren Situation."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Beide bestellen gleichzeitig."],
+        "suggestions": [
+          "Keine unnötigen 'während'-Konstruktionen. Die Handlungen sind klar voneinander getrennt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Sie bleibt in der Tür stehen.", "Jonas dreht den Zuckerstreuer."],
+        "suggestions": ["Der Text ist durchgehend aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Es regnet.", "Es wird regnen."],
+        "suggestions": [
+          "Die Sätze sind kurz, prägnant und rhythmisch. Sehr gut für den Dialogfluss."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["MIRIAM: Du hast geschrieben.", "JONAS: Setz dich doch."],
+        "suggestions": [
+          "Die Dialoge sind extrem gestrafft und auf den Punkt gebracht. Keine Kürzung erforderlich."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["sieht ihn zum ersten Mal direkt an"],
+        "suggestions": [
+          "Keine 'er sah, dass'-Konstruktionen. Die Wahrnehmung wird direkt durch Handlungen ausgedrückt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Manche Dinge ändern sich nicht. / Nein. Manche nicht.",
+          "Wir wohnen alle noch am selben Ort"
+        ],
+        "suggestions": [
+          "Die Wiederholungen sind hier ein bewusstes, starkes stilistisches Mittel, um die Stagnation der Charaktere zu unterstreichen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

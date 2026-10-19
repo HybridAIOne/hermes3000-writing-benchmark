@@ -1,0 +1,92 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-opus-5.5__r2",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur noch glaubte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und setzt den Leser sofort in die Szene. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["dünnes, kratziges Geräusch", "gleichmäßig"],
+        "suggestions": [
+          "Die Adjektive sind wohl dosiert und dienen der Charakterisierung, nicht der bloßen Ausschmückung."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Moin, Ilse.“", "„Moin.“"],
+        "suggestions": [
+          "Exzellente Reduktion auf das Wesentliche. Die Sprecher sind durch den Kontext klar erkennbar."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr präzise und kommt ohne Füllwörter aus."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Während der Überfahrt hielt er sich mit beiden Händen am Geländer fest"],
+        "suggestions": [
+          "Das Wort 'während' ist hier akzeptabel, könnte aber durch eine direkte Handlung ersetzt werden: 'Er hielt sich während der Überfahrt fest' -> 'Er krallte sich während der Überfahrt am Geländer fest'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist durchgehend aktiv formuliert. Sehr gut."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur noch glaubte."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind abwechslungsreich und unterstützen den Rhythmus der Szene."
+        ]
+      },
+      "dialogueLengths": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Die Bremse“, sagte Ilse.", "„Was?“"],
+        "suggestions": ["Die Dialoge sind knackig, realistisch und treiben die Handlung voran."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie hörte zu, wie die Elbe am Ponton entlangschob",
+          "Sie sah zu, wie sein Name aufleuchtete"
+        ],
+        "suggestions": [
+          "Hier kann noch mehr Unmittelbarkeit erzeugt werden: Statt 'Sie hörte zu, wie...' -> 'Die Elbe schob am Ponton entlang'. Statt 'Sie sah zu, wie sein Name aufleuchtete' -> 'Sein Name leuchtete auf'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Rampe (wiederholte Nennung des Ortes)"],
+        "suggestions": [
+          "Die Wiederholung von 'Rampe' ist hier funktional, da es der zentrale Handlungsort ist. Dennoch könnte man an 1-2 Stellen durch 'Anlegestelle' oder 'Betonfläche' variieren, falls es sich zu repetitiv anfühlt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

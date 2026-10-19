@@ -1,0 +1,122 @@
+{
+  "who": "sol",
+  "item": "lit-scene__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel ging leichter ins Schloss, als sie erwartet hatte.",
+          "Nur beim letzten Stück musste sie die Tür mit der Schulter anheben."
+        ],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Das Aufschließen führt die Rückkehr als Handlung ein und vermittelt zugleich Fremdheit und Vertrautheit. Ein späterer Beginn würde diese Funktion schwächen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Im Flur roch es nach kalter Wolle.",
+          "Am Rand haftete ein blasser Lippenabdruck.",
+          "In der Ablage der Tür lag eine einzelne Zitrone, leicht geworden, mit harter Schale."
+        ],
+        "suggestions": [
+          "Die sinnlich konkreten Attribute überwiegend erhalten: Sie tragen Atmosphäre und Bedeutung.",
+          "Allenfalls „einzelne“ vor „Zitrone“ streichen, sofern das isolierte Liegen nicht eigens betont werden soll."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung erforderlich: Der Text enthält keine Dialoge und damit keine überflüssigen Redeeinleitungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das Holz hatte sich verzogen, oder es war schon immer so gewesen und ihre Mutter hatte es nur nie erwähnt.",
+          "Ihre Mutter hatte zuletzt allein hier gelebt, und offenbar hatte niemand das Glas fortgeräumt, weder die Nachbarin, die sie gefunden hatte, noch der Mann vom Bestattungsinstitut.",
+          "Nach einer Weile stand sie auf und schloss die Haustür."
+        ],
+        "suggestions": [
+          "„Nur“ in „nur nie erwähnt“ probeweise streichen; der Gedanke bleibt verständlich.",
+          "„Offenbar“ nur streichen, wenn die Aussage bestimmter klingen soll. Hier markiert es sinnvoll eine Schlussfolgerung der Figur.",
+          "„Nach einer Weile“ ist zeitlich unbestimmt, trägt aber die zögernde Schlussbewegung. Nur konkretisieren, wenn die Dauer dramaturgisch wichtig ist."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel ging leichter ins Schloss, als sie erwartet hatte.",
+          "Sie nahm sie heraus, roch daran und legte sie zurück."
+        ],
+        "suggestions": [
+          "Die klare Handlungsfolge beibehalten. Das „als“ im Einstieg bezeichnet einen Vergleich, keine Gleichzeitigkeit; eine Überarbeitung nach diesem Kriterium ist nicht nötig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Er war ausgeschaltet und ausgewischt."],
+        "suggestions": [
+          "Die Zustandsbeschreibung des Kühlschranks beibehalten. Die passivische Form lenkt den Blick sinnvoll auf das Ergebnis; eine aktive Fassung müsste eine handelnde Person benennen, die der Text nicht kennt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ihre Mutter hatte zuletzt allein hier gelebt, und offenbar hatte niemand das Glas fortgeräumt, weder die Nachbarin, die sie gefunden hatte, noch der Mann vom Bestattungsinstitut."
+        ],
+        "suggestions": [
+          "Den längsten Satz bei Bedarf nach „gelebt“ teilen: „Ihre Mutter hatte zuletzt allein hier gelebt. Offenbar hatte niemand das Glas fortgeräumt, weder die Nachbarin, die sie gefunden hatte, noch der Mann vom Bestattungsinstitut.“",
+          "Die übrigen Sätze nicht pauschal verkürzen: Ihr Wechsel aus knappen Handlungen und längeren Reflexionen ergibt einen kontrollierten Rhythmus."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung erforderlich: Es gibt keine Dialogpassagen. Die fehlende direkte Rede unterstützt die Isolation der Figur."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jetzt wusste sie nicht, ob sie recht gehabt hatte.",
+          "An seiner Unterseite ertastete sie drei dicht beieinanderliegende Kerben.",
+          "Von hier aus konnte sie den oberen Treppenabsatz sehen."
+        ],
+        "suggestions": [
+          "„Von hier aus konnte sie den oberen Treppenabsatz sehen“ lässt sich unmittelbarer fassen: „Der obere Treppenabsatz lag in ihrem Blickfeld.“ Die ursprüngliche Fassung betont dagegen stärker die räumliche Sichtmöglichkeit.",
+          "„Ertastete“ beibehalten: Das Verb benennt eine konkrete körperliche Handlung und ist kein bloß entbehrlicher Wahrnehmungsfilter.",
+          "Die Unsicherheit in „Jetzt wusste sie nicht …“ erhalten, wenn die unzuverlässige Erinnerung im Zentrum stehen soll; eine direkte Beschreibung der Räume würde diesen Effekt verändern."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie blieb zu nah an der Tür stehen.",
+          "Stattdessen zog sie einen Stuhl vom Tisch und setzte sich, noch im Mantel.",
+          "Nach einer Weile stand sie auf und schloss die Haustür."
+        ],
+        "suggestions": [
+          "Diese verwandten Signale des Nichtankommens nicht als bloße Doppelungen streichen: Sie entwickeln das Zögern von der Schwelle über den Mantel bis zur endlich geschlossenen Tür.",
+          "Auch die wiederkehrenden Tür- und Treppenbezüge erhalten, solange sie räumliche Orientierung und unterschwellige Spannung tragen. Auffällige redundante Erklärungen fehlen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.017608
+}

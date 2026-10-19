@@ -1,0 +1,135 @@
+{
+  "who": "sol",
+  "item": "lit-scene__gemini-4-argon__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel fasste erst beim dritten Versuch.",
+          "Clara ließ ihre Reisetasche nicht los."
+        ],
+        "suggestions": [
+          "Der Einstieg beginnt unmittelbar mit einer Handlung und etabliert Claras Ankunft ohne Vorgeschichte. Das ist wirkungsvoll.",
+          "Falls die Entdeckung am Wasserhahn schneller erreicht werden soll, eher den Weg durch den Flur straffen als den Einstieg vollständig streichen. Schlüssel, Reisetasche und Mantel vermitteln wichtige Ankunfts- und Verlustsignale."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "in der feuchten Herbststille des Vorgartens unnatürlich laut",
+          "blasses, graues Licht",
+          "ein tiefes, hohles Röcheln",
+          "scharf und unverkennbar nach bitteren Mandeln"
+        ],
+        "suggestions": [
+          "Doppelte Charakterisierungen gezielt reduzieren: etwa „graues Licht“ oder „ein hohles Röcheln“. Die verbleibenden Wörter tragen das Bild bereits.",
+          "„Unverkennbar“ ist entbehrlich, weil „Es schmeckte nach bitteren Mandeln“ die Wahrnehmung bereits bestimmt behauptet.",
+          "Konkrete, atmosphärisch tragende Attribute wie „rostbraun“ und „aufgequollen“ beibehalten; nicht jedes Adjektiv ist Ballast."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Ausschnitt enthält keine Dialoge und damit keine überflüssigen Redekennzeichnungen. Hier besteht kein Überarbeitungsbedarf."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "um einige Grad kälter als draußen",
+          "die irgendwo im Keller vergessen worden waren",
+          "durch genau diesen schmalen Gang",
+          "Als das Wasser schließlich klar wurde"
+        ],
+        "suggestions": [
+          "„Um einige Grad kälter“ lässt sich zu „kälter“ verdichten; eine genaue Temperaturangabe wäre für diese Wahrnehmung nicht nötig.",
+          "„Irgendwo“ streichen, sofern die unbestimmte Herkunft des Geruchs keine eigene Funktion hat.",
+          "„Genau“ und „schließlich“ auf ihre Betonungsfunktion prüfen. „Schließlich“ kann bleiben, wenn das Warten auf klares Wasser spürbar werden soll."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "als müsste sie sich erst von dem aufgequollenen Holzrahmen lösen",
+          "Als das Wasser schließlich klar wurde, hielt Clara die Finger darunter."
+        ],
+        "suggestions": [
+          "Keine problematische Häufung: Das erste „als“ leitet einen irrealen Vergleich ein, keine gleichzeitige Handlung.",
+          "Die zeitliche Verknüpfung beim klar werdenden Wasser ist sinnvoll. Eine Aufteilung wäre nur zur rhythmischen Zuspitzung nötig: „Das Wasser wurde klar. Clara hielt die Finger darunter.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Äpfeln, die irgendwo im Keller vergessen worden waren",
+          "seit der Sarg durch genau diesen schmalen Gang getragen worden war"
+        ],
+        "suggestions": [
+          "Die Apfelpassage lässt sich ohne Passiv kürzen: „dem süßlichen Geruch faulender Äpfel im Keller“.",
+          "Das Passiv beim Sarg ist funktional, weil der Sarg und sein Weg wichtiger sind als die Träger. Nur bei gewünschter Verdichtung umformulieren: „seit die Sargträger diesen Gang passiert hatten“.",
+          "„Die Fensterläden zur Straßenseite waren geschlossen“ beschreibt einen relevanten Zustand und muss nicht zwanghaft aktiviert werden."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Die Tür gab mit einem zähen Schmatzen nach, als müsste sie sich erst von dem aufgequollenen Holzrahmen lösen, an den sie sich zwanzig Jahre lang gewöhnt hatte.",
+          "Kein Staubtuch hatte diese Oberflächen berührt, seit der Sarg durch genau diesen schmalen Gang getragen worden war, vorbei an der Garderobe, an der noch immer der graue Lodenmantel hing – formlos wie eine abgelegte Haut."
+        ],
+        "suggestions": [
+          "Den Satz über den Sarg am Bildwechsel teilen: „Seit der Sarg durch diesen Gang getragen worden war, hatte hier niemand mehr Staub gewischt. An der Garderobe hing noch immer der graue Lodenmantel – formlos wie eine abgelegte Haut.“",
+          "Beim Türsatz prüfen, ob der zweite Relativsatz nötig ist. Die Personifikation und die Zeitangabe beanspruchen gemeinsam viel Aufmerksamkeit für das Öffnen der Tür.",
+          "Den Wechsel zwischen kurzen Handlungssätzen und längeren Beschreibungen grundsätzlich erhalten; er trägt den ruhigen Spannungsaufbau."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Es gibt keine Dialogpassagen. Eine Straffung nach diesem Kriterium ist nicht erforderlich."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Luft im Flur stand still.",
+          "Es war eisig.",
+          "Es schmeckte scharf und unverkennbar nach bitteren Mandeln."
+        ],
+        "suggestions": [
+          "Die Wahrnehmungen werden bereits direkt vermittelt, ohne Filter wie „Clara bemerkte“ oder „sie spürte, dass“. Diese Nähe zur Figur beibehalten.",
+          "Auch den abschließenden Geschmackseindruck nicht durch eine erklärende Wahrnehmungsformel abschwächen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Es roch nicht nach ihrer Mutter. Es roch nach der Abwesenheit von allem.",
+          "Das Wasser schmeckte nicht nach Eisen oder Kalk. Es schmeckte scharf und unverkennbar nach bitteren Mandeln.",
+          "feuchten Herbststille / feuchtem Kalk",
+          "Die Luft im Flur stand still. / das unter ihren Sohlen schwieg"
+        ],
+        "suggestions": [
+          "Die Wiederholung „Es roch … Es roch …“ funktioniert als bewusste Gegenüberstellung und muss nicht gestrichen werden.",
+          "Prüfen, ob die ähnlich gebaute Schlussfolge „nicht nach … nach …“ als Echo gewollt ist. Für einen härteren Schluss wäre möglich: „Clara zuckte zusammen. Das Wasser schmeckte nach bitteren Mandeln.“",
+          "Die zahlreichen Signale für Stillstand, Verfall und Abwesenheit leicht ausdünnen, falls die Szene zu langsam wirkt. Ein prägnantes Detail wie der zurückgebliebene Mantel kann mehrere allgemeinere Stimmungssignale ersetzen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020318
+}

@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-opus-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ein Café am Marktplatz.", "Jörg bleibt kurz in der Tür stehen"],
+        "suggestions": [
+          "Der Einstieg ist solide und atmosphärisch. Man könnte noch direkter einsteigen, indem man sofort mit der ersten Interaktion beginnt, um die Spannung zu erhöhen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kurz", "langsam", "verwittert"],
+        "suggestions": [
+          "Der Text ist sehr sparsam und präzise. Die wenigen Adjektive sind funktional und gut gewählt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Redeeinleitungen verwendet."],
+        "suggestions": [
+          "Perfekt gelöst durch das Skript-Format, das den Fokus auf den Subtext legt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["doch", "ja"],
+        "suggestions": [
+          "Die wenigen Füllwörter wirken hier nicht störend, sondern charakterisieren die Unsicherheit und das Zögern der Figuren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Beide greifen gleichzeitig nach dem Zucker."],
+        "suggestions": [
+          "Die Handlungen sind klar und nacheinander oder präzise beschrieben. Keine unnötigen 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Passivkonstruktionen vorhanden. Der Text ist aktiv und direkt."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Satzstruktur ist angenehm kurz und rhythmisch, was das beklemmende Gefühl der Szene unterstreicht."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Dialoge sind knackig, treiben die Handlung voran und sind frei von unnötigem Ballast."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Filterwörter wie 'er sah, dass' oder 'er dachte, dass' verwendet. Die Wahrnehmung ist unmittelbar."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ich weiß", "Ich weiß, Martin."],
+        "suggestions": [
+          "Die Wiederholung ist hier ein bewusstes, starkes Stilmittel zur Darstellung der beklemmenden Atmosphäre. Nicht ändern."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

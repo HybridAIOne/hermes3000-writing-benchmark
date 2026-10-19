@@ -1,0 +1,94 @@
+{
+  "who": "hermes",
+  "item": "anchor__schnitzler-der-blinde-geronimo-und-sein-bruder-300",
+  "run": 3,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Der blinde Geronimo stand von der Bank auf und nahm die Gitarre zur Hand"],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch gelungen. Er könnte noch stärker wirken, wenn man direkt mit der sinnlichen Wahrnehmung (dem Rollen der Wagen) beginnt, statt mit dem Aufstehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["feuchtschmutzigen Boden", "aufkreischenden Stimme", "vergeblichen Flehens"],
+        "suggestions": [
+          "Einige Adjektive wirken überladen oder konstruiert (z.B. 'feuchtschmutzig'). Ersetzen Sie diese durch stärkere Substantive oder Verben, die das Bild von selbst erzeugen (z.B. 'schlammiger Boden')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "wohlbekannten Weg",
+          "ziemlich eben",
+          "so gut wie zu Hause",
+          "beinahe regungslos"
+        ],
+        "suggestions": [
+          "Wörter wie 'ziemlich', 'wohl' oder 'beinahe' schwächen die Aussagekraft. Streichen Sie diese, um die Beschreibungen direkter und selbstbewusster zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Sein Bruder folgte ihm, und beide stellten sich gleich neben der Treppe auf"],
+        "suggestions": [
+          "Der Text vermeidet 'während'-Konstruktionen gut. Achten Sie darauf, die 'und'-Verknüpfungen bei Handlungsabfolgen gelegentlich durch Punkte zu ersetzen, um das Tempo zu erhöhen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["geschützt zu sein", "gewährt war"],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv formuliert. Die wenigen Passivkonstruktionen sind stilistisch vertretbar, könnten aber für mehr Dynamik in aktive Sätze umgewandelt werden."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sein Bruder folgte ihm, und beide stellten sich gleich neben der Treppe auf, den Rücken zur Wand gekehrt, um gegen den naßkalten Wind geschützt zu sein, der über den feuchtschmutzigen Boden durch die offenen Tore strich."
+        ],
+        "suggestions": [
+          "Einige Sätze sind sehr lang und verschachtelt. Teilen Sie komplexe Sätze auf, um den Lesefluss zu verbessern und die Wirkung der einzelnen Bilder zu verstärken."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Es war, als schämten sich seine Augen"],
+        "suggestions": [
+          "Die Wahrnehmung ist meist direkt. Die Interpretation 'Es war, als...' ist eine stilistische Entscheidung, könnte aber durch eine direktere Beobachtung des Verhaltens noch stärker wirken."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Der Blinde / der Bruder / der Italiener", "Blick / Blick"],
+        "suggestions": [
+          "Die Begriffe 'Blinder' und 'Bruder' werden häufig wiederholt. Prüfen Sie, ob Sie durch Pronomen oder Kontextbezug variieren können, ohne die Klarheit zu verlieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,174 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__gemini-4-argon__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Der Nebel hing so tief über dem Wasser, dass das andere Ufer nicht existierte.“: starkes, atmosphärisches Eröffnungsbild",
+          "Die ersten beiden Absätze (Ilse raucht, Handschuhe, Raureif auf dem Deck) sind reine Zustandsbeschreibung, bevor mit „Um Punkt sechs Uhr zwanzig“ die Handlung einsetzt"
+        ],
+        "suggestions": [
+          "Der Einstieg funktioniert, weil er Stimmung und Isolation etabliert. Für mehr Tempo könnte die Szene mit dem Scheinwerfer im Nebel beginnen. Details wie die geröteten Knöchel oder den Raureif lassen sich dann in die Handlung einstreuen, etwa wenn Ilse die Kippe austritt oder die eiskalte Kette löst.",
+          "Den zweiten Absatz auf ein bis zwei Sätze kürzen: Rauch und Nebel behalten, die Kleidungsdetails später nachreichen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„die schwer und ölig gegen den stählernen Bug schlug“",
+          "„Ein tiefes, mahlendes Geräusch ging durch den Schiffskörper.“",
+          "„Es war ein tiefes, rhythmisches Vibrieren auf der Metallablage“",
+          "„Langsam, Zentimeter für Zentimeter, zog sich die Fähre“",
+          "„Ihre Halbschuhe waren völlig durchnässt“",
+          "„Sie sah sich suchend um“",
+          "„Ilse zuckte kaum merklich mit den Schultern“",
+          "„Das Display leuchtete hell im grauen Dämmerlicht“",
+          "„In der Stille des Führerhauses begann plötzlich etwas zu summen.“",
+          "„Das schwere Fahrzeug brachte die Fähre zum Schaukeln“"
+        ],
+        "suggestions": [
+          "„Langsam“ streichen, denn „Zentimeter für Zentimeter“ zeigt die Langsamkeit bereits.",
+          "„plötzlich“ streichen, denn das Summen in der Stille wirkt ohnehin abrupt.",
+          "„völlig“ streichen: „Ihre Halbschuhe waren durchnässt vom hohen Gras am Deich.“",
+          "„suchend“ streichen, denn der Nebensatz „als erwarte sie Sitzreihen“ zeigt die Suche bereits.",
+          "Adjektivpaare reduzieren: „Ein Mahlen ging durch den Schiffskörper.“ statt „Ein tiefes, mahlendes Geräusch“.",
+          "„stählernen Bug“ zu „Bug“ kürzen, denn Riffelblech und Stahl werden mehrfach erwähnt.",
+          "„schwere“ bei „das schwere Fahrzeug“ streichen, denn das Schaukeln der Fähre zeigt das Gewicht."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„„Fahren Sie schon?“, fragte die Frau.“: Das Fragezeichen macht „fragte“ überflüssig",
+          "„„Was bekommen Sie?“, fragte die Frau und öffnete ihre Tasche.“: zweites „fragte die Frau“ kurz hintereinander",
+          "„„Wenn Sie drauf sind“, sagte Ilse und machte einen Schritt zur Seite.“",
+          "Positiv: „„Kröger.“ Sie hielt ihm die lederne Kassiertasche hin.“ ordnet den Sprecher über eine Handlung zu"
+        ],
+        "suggestions": [
+          "„„Fahren Sie schon?“ Ihr Atem stand als helle Wolke vor ihrem Gesicht.“: Die Atemwolke ordnet die Sprecherin bereits zu.",
+          "„Die Frau öffnete ihre Tasche. „Was bekommen Sie?““: Handlung vor die Rede stellen statt „fragte“.",
+          "„„Wenn Sie drauf sind.“ Ilse trat einen Schritt zur Seite.“: Handlung statt „sagte“."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Für ein paar Minuten gab es weder das eine noch das andere Land.“",
+          "„Ilse zuckte kaum merklich mit den Schultern“",
+          "„kaum dass er ihre Lippen verlassen hatte“",
+          "„sechzehn oder siebzehn Jahre alt“: als Figurenschätzung legitim",
+          "Positiv: präzise Angaben wie „sechs Uhr zwanzig“, „zwei Zweieuromünzen“, „einen Kilometer stromaufwärts“"
+        ],
+        "suggestions": [
+          "„Für ein paar Minuten“ präzisieren („Vier Minuten lang“) oder streichen: „Dann gab es weder das eine noch das andere Land.“",
+          "„kaum merklich“ streichen: „Ilse zuckte mit den Schultern“ genügt, oder die Geste ganz weglassen und nur handeln lassen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Gleichzeitig tauchte daneben eine schmale Silhouette auf, die ein Fahrrad schob.“",
+          "„Kurz bevor sie die Schranke wieder schließen wollte, hörte sie schnelle Schritte“",
+          "„Das Stahlseil ächzte in den Führungsrollen, als die Fähre die stärkste Strömung in der Flussmitte erreichte.“",
+          "„Der Rauch ihrer Zigarette vermischte sich mit dem weißen Dunst, kaum dass er ihre Lippen verlassen hatte.“"
+        ],
+        "suggestions": [
+          "„Gleichzeitig“ streichen: „Daneben tauchte eine schmale Silhouette auf, die ein Fahrrad schob.“",
+          "Nacheinander erzählen: „Sie griff nach der Schranke. Schritte auf dem Schotterweg.“",
+          "„Die Fähre erreichte die Flussmitte. Das Stahlseil ächzte in den Führungsrollen.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„war das Riffelblech des Decks mit einer dünnen Schicht aus Raureif und totem Laub überzogen“ (Zustandspassiv)",
+          "„die Knöchel waren gerötet von der feuchten Kälte“",
+          "„Ihre Halbschuhe waren völlig durchnässt vom hohen Gras am Deich“"
+        ],
+        "suggestions": [
+          "„Raureif und totes Laub überzogen das Riffelblech unter ihren Gummistiefeln.“",
+          "„Die feuchte Kälte hatte ihre Knöchel gerötet.“",
+          "Insgesamt kaum Handlungsbedarf, der Text ist durchgehend aktiv erzählt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ihre Finger steckten in fingerlosen Wollhandschuhen, die Knöchel waren gerötet von der feuchten Kälte, die seit Ende Oktober nicht mehr aus den Kleidern wich.“",
+          "„Sie sah sich suchend um, als erwarte sie Sitzreihen oder einen beheizten Salon, fand aber nur das leere Arbeitsdeck, den tuckernden Traktor und den Jungen am Geländer.“",
+          "„Sie sah zu, wie das Display schwarz wurde, wartete noch zwei Sekunden, bis die Anzeige für den verpassten Anruf aufblinkte, und schob das Gerät mit dem Daumen zurück an die Kante der Ablage.“",
+          "„Es roch nach kaltem Kaffee, Schmierfett und Hennings altem Pfeifentabak, obwohl die Dose seit drei Jahren leer im Regal über dem Funkgerät stand.“"
+        ],
+        "suggestions": [
+          "Den Handschuh-Satz teilen: „Ihre Finger steckten in fingerlosen Wollhandschuhen. Die Knöchel waren rot. Seit Ende Oktober wich die feuchte Kälte nicht mehr aus den Kleidern.“",
+          "Den Satz zur Frau teilen: „Sie sah sich um, als erwarte sie Sitzreihen oder einen beheizten Salon. Es gab nur das Arbeitsdeck, den Traktor und den Jungen am Geländer.“",
+          "Der Henning-Satz trägt eine wichtige emotionale Information. Diese wirkt stärker allein: „Es roch nach kaltem Kaffee, Schmierfett und Hennings Pfeifentabak. Die Dose stand seit drei Jahren leer über dem Funkgerät.“"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„„Suppe heute.“ – „Wird sich verziehen. Gegen Mittag.“ – „Dein Wort in Gottes Ohr.““: knapp und charakterisierend",
+          "Der Austausch mit der Frau über die Rückfahrt bleibt auf wenige Zeilen beschränkt und endet wirkungsvoll mit Ilses Schulterzucken"
+        ],
+        "suggestions": [
+          "Kein Kürzungsbedarf. Der Dialog ist lakonisch und passt zur Figur.",
+          "Optional: „„Was bekommen Sie?““ streichen und den Bezahlvorgang direkt mit dem Fünfeuroschein beginnen lassen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Kurz bevor sie die Schranke wieder schließen wollte, hörte sie schnelle Schritte auf dem Schotterweg.“",
+          "„Sie sah zu, wie das Display schwarz wurde“",
+          "„Ilse sah auf die Uhr über dem Türrahmen. Es war sechs Uhr siebenundzwanzig.“",
+          "„Ilse sah hinunter. Das Display leuchtete hell“",
+          "„Ilse kontrollierte das Datum mit einem halben Blick“"
+        ],
+        "suggestions": [
+          "„Schnelle Schritte auf dem Schotterweg.“ als eigener Satz, ohne „hörte sie“.",
+          "„Das Display wurde schwarz. Sie wartete noch zwei Sekunden …“ statt „Sie sah zu, wie“.",
+          "„Die Uhr über dem Türrahmen zeigte sechs Uhr siebenundzwanzig.“",
+          "„Ilse sah hinunter.“ streichen, denn „Das Display leuchtete“ genügt."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Ihre Finger steckten in fingerlosen Wollhandschuhen“: Wortdoppelung Finger/fingerlos",
+          "„tuckern“ (Kröger), „den tuckernden Traktor“: zweimal dasselbe Verb für den Motor",
+          "„kurbelte sie hoch“ (Schranke) und „kurbelte nur das Seitenfenster … herunter“",
+          "„Display“ erscheint viermal in kurzem Abstand („leuchtende Display“, „Das Display leuchtete“, „das Display schwarz wurde“)",
+          "„Ilse sah“ als Satzanfang mehrfach („Ilse sah hinunter“, „Ilse sah auf die Uhr“, „Sie sah zu“)",
+          "„Schranke“ erscheint viermal",
+          "„die Frau“ als Subjekt in rascher Folge („fragte die Frau“, „Die Frau betrat“, „fragte die Frau“, „Die Frau reichte“)",
+          "„Langsam, Zentimeter für Zentimeter“: inhaltliche Doppelung",
+          "„In der Stille … begann plötzlich etwas zu summen. Es war ein tiefes, rhythmisches Vibrieren …“: das Geräusch wird zweimal eingeführt"
+        ],
+        "suggestions": [
+          "„Ihre Hände steckten in fingerlosen Wollhandschuhen“.",
+          "Für Krögers Traktor beim zweiten Mal ein anderes Wort wählen („den Traktor im Leerlauf“) oder streichen.",
+          "Das Seitenfenster „einen Spaltbreit öffnen“ statt erneut „kurbeln“.",
+          "Das Summen direkt benennen: „Auf der Metallablage neben dem Steuerrad vibrierte ihr Handy und schob sich millimeterweise über das Blech.“",
+          "„Die Frau“ teilweise durch Pronomen oder Merkmale ersetzen („die im Trenchcoat“) oder den Sprecher über Handlungen zuordnen.",
+          "„Display“ teils durch „Bildschirm“ ersetzen oder durch Umformulierung vermeiden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.151576
+}

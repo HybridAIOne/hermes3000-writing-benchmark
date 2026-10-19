@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gpt-6.1-sol__r2",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "(Ein Café. Martin sitzt am Fenster. Als Jakob kommt, nimmt er seine Jacke vom zweiten Stuhl.)"
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr effizient und etabliert sofort die Atmosphäre. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["schwarz"],
+        "suggestions": [
+          "Der Text ist bewusst minimalistisch gehalten, was sehr gut zum Subtext passt. Beibehalten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Jakob:", "Martin:"],
+        "suggestions": [
+          "Da es sich um ein Skript handelt, ist die Kennzeichnung durch Namen die einzig richtige und effiziente Form."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Es sind keine Füllwörter vorhanden. Der Text ist sehr präzise."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als Jakob kommt"],
+        "suggestions": [
+          "Die Handlungsanweisungen sind klar und nicht durch unnötige 'während'-Konstruktionen überladen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein unnötiges Passiv verwendet. Alle Handlungen sind aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die Satzlänge ist perfekt auf den knappen, spannungsgeladenen Dialog abgestimmt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die Dialoge sind kurz und knackig, was die Distanz zwischen den Charakteren unterstreicht."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Jakob sieht nicht hin.", "Martin dreht seine Tasse am Henkel."],
+        "suggestions": [
+          "Die Wahrnehmung erfolgt direkt durch Handlungen, nicht durch Filter wie 'er sah, dass'. Sehr gut."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Früher hast du Zucker genommen.", "Früher hast du ihn mir rübergeschoben."],
+        "suggestions": [
+          "Die Wiederholungen sind hier ein stilistisches Mittel, um die gemeinsame Vergangenheit zu betonen. Absichtliche und gelungene Wiederholung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

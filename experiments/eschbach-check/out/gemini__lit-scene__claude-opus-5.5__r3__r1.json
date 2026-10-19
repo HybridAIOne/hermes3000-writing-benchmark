@@ -1,0 +1,104 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__claude-opus-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel lag noch dort, wo er vor zwanzig Jahren gelegen hatte, unter dem dritten Blumentopf links von der Tür."
+        ],
+        "suggestions": [
+          "Perfekter Einstieg 'in medias res'. Keine langatmige Anreise, der Text beginnt genau im relevanten Moment und baut sofort Atmosphäre und Charakterbezug auf."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["ein dunkles, unansehnliches Ding", "mit dem kleinen Schlüssel"],
+        "suggestions": [
+          "Der Text geht sehr sparsam und präzise mit Adjektiven um ('kalter Kalk', 'steile Schrift'). Lediglich 'unansehnliches Ding' ist etwas wertend-abstrakt – hier könnte ein konkretes optisches Detail (z.B. 'ein klobiger Kasten aus Eiche') das Bild noch schärfer machen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Drei Wochen, hatte der Notar gesagt."],
+        "suggestions": [
+          "Da es keinen direkten Dialog gibt, sondern nur kurze indirekte Rede im Rückblick, ist die Kennzeichnung hier völlig angemessen und unauffällig."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["fast unter dem Gehäuse", "Ines stand lange da"],
+        "suggestions": [
+          "Kaum Füllwörter vorhanden. 'Lange' ist etwas unpräzise; da sie die Schläge zählt, könnte man die Dauer über eine konkrete Anzahl an Schlägen greifbarer machen (z.B. 'Sie zählte sechzig Schläge')."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Dann hörte sie es.",
+          "Ines stand lange da und zählte die Schläge. Dann hob sie den Deckel der Zuckerdose."
+        ],
+        "suggestions": [
+          "Ausgezeichnet gelöst. Handlungen und Wahrnehmungen werden klar nacheinander geschildert, es gibt keine überladenen 'Während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine unnötigen Passivkonstruktionen. Selbst unbelebte Dinge werden aktiv und lebendig beschrieben ('Das Schloss gab nach', 'Der Pendel schwang')."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ihre Mutter hatte sie jeden Sonntag nach dem Abendessen aufgezogen, mit dem kleinen Schlüssel, den sie in der Zuckerdose aufbewahrte, damit niemand außer ihr ihn fand."
+        ],
+        "suggestions": [
+          "Sehr guter Satzrhythmus. Längere, beschreibende Sätze wechseln sich wirkungsvoll mit sehr kurzen, prägnanten Sätzen ab ('Sie berührte ihn nicht.', 'Sie tickte.', 'Sie war leer.')."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text kommt ohne direkten Dialog aus, die kurze Zusammenfassung des Notargesprächs ist maximal komprimiert und effektiv."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ines ärgerte sich darüber, dass sie es gewusst hatte...",
+          "nach etwas Süßlichem, das sie erst nach einer Weile als Bohnerwachs erkannte.",
+          "Dann hörte sie es."
+        ],
+        "suggestions": [
+          "Meist sehr unmittelbare Wahrnehmung. 'Dann hörte sie es' ist ein typischer Filter, funktioniert hier aber als Spannungselement vor dem Absatz gut. Den Ärger im ersten Absatz könnte man noch direkter zeigen, statt ihn mit 'ärgerte sich' zu benennen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie ging in die Küche, weil man in diesem Haus immer zuerst in die Küche gegangen war."
+        ],
+        "suggestions": [
+          "Keine inhaltlichen Redundanzen. Jedes Detail trägt zur Atmosphäre oder zum finalen Twist bei. Die Wortwiederholung von 'Küche' ist hier als bewusstes Stilmittel erkennbar und funktioniert gut. (Kleiner grammatikalischer Hinweis am Rande: Es heißt meist 'das Pendel', nicht 'der Pendel')."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.014682
+}

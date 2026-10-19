@@ -1,0 +1,165 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Der Nebel lag am Morgen so dicht auf dem Fluss, dass Ilse Brandt das andere Ufer nicht sehen konnte.“: atmosphärisch stark, aber der eigentliche Konflikt (Jonas' Anruf) kommt erst im letzten Drittel.",
+          "„Um kurz nach sieben stand die Sonne irgendwo hinter der Wolkendecke, aber sie gab nur ein mattes Licht, das keine Farben hatte.“: ein zweiter Stimmungsabsatz ohne neue Information.",
+          "Die ausführliche Vorstellung aller drei Fahrgäste verzögert den Spannungsaufbau."
+        ],
+        "suggestions": [
+          "Den zweiten Absatz (Sonne, Ufervilla, Weiden) streichen oder auf einen Satz verdichten. Der Nebel ist bereits etabliert.",
+          "Den ersten Anruf früher einsetzen lassen, etwa direkt nach dem Ablegen, und die Fahrgäste über ihre Reaktionen auf das Vibrieren charakterisieren.",
+          "Hintergrundinformationen (Wessels Viehmarkt, Hahns gesperrte Brücke) knapper halten oder später einstreuen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„ein mattes Licht, das keine Farben hatte“: „matt“ und „keine Farben“ sagen dasselbe.",
+          "„Der Hund winselte leise“: „winseln“ ist bereits leise.",
+          "„trieb langsam über die Strömung“",
+          "„Heute war er still und grau“",
+          "„Die Frau lächelte unsicher“",
+          "„ein gleichmäßiges Summen“"
+        ],
+        "suggestions": [
+          "„ein Licht ohne Farben“ oder „ein fahles Licht“ statt der Doppelung.",
+          "„leise“ bei „winselte“ streichen.",
+          "„langsam“ streichen, denn „trieb“ impliziert bereits geringe Geschwindigkeit.",
+          "Statt „lächelte unsicher“ eine konkrete Geste zeigen, z. B. „Die Frau zog die Schultern hoch und lächelte.“"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„„November“, sagte Ilse.“: Bei zwei Sprechern im Wechsel ist die Zuordnung eindeutig.",
+          "„„Die Fähre fährt nach Hitzacker-Ufer“, sagte Ilse.“: Die Frau fragt, Ilse ist die Fährfrau. Der Sprecher ergibt sich aus dem Kontext.",
+          "„„Kannst du das Ding nicht ausmachen?“, fragte Ilse.“: Das Fragezeichen macht „fragte“ redundant."
+        ],
+        "suggestions": [
+          "„sagte Ilse“ nach „November“ streichen: „„Kalt heute“, sagte er, ohne sich umzudrehen. / „November.“ / „Hm.““",
+          "Bei der Antwort an die junge Frau die Redeeinleitung weglassen oder durch eine Handlung ersetzen: „Ilse schob den Hebel nach. „Die Fähre fährt nach Hitzacker-Ufer.““",
+          "Statt „fragte Ilse“ eine Geste: „Ilse deutete auf die Zigarette. „Kannst du das Ding nicht ausmachen?““"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„stand die Sonne irgendwo hinter der Wolkendecke“",
+          "„Drüben, irgendwo im Grau, musste das Ufer liegen.“",
+          "„Sie gehörte wohl zu den Leuten“",
+          "„Wessel sagte etwas Beruhigendes“",
+          "„In der Innentasche ihrer Jacke vibrierte etwas.“",
+          "„Wessel zog die Mütze ein Stück tiefer.“",
+          "„mit einem Lastenrad, das nie benutzt zu werden schien“"
+        ],
+        "suggestions": [
+          "Eines der beiden „irgendwo“ streichen, z. B. „Drüben im Grau musste das Ufer liegen.“",
+          "„wohl“ durch eine konkrete Begründung ersetzen oder streichen: „Sie gehörte zu den Leuten, die …“",
+          "„In der Innentasche ihrer Jacke vibrierte etwas“ ist als bewusste Spannungsverzögerung vertretbar. „etwas Beruhigendes“ könnte konkret werden: „Wessel murmelte „Platz“, und der Hund legte sich hin.“",
+          "„schien“ ersetzen: „mit einem Lastenrad, an dem noch die Schutzfolie klebte.“"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Die Seilrolle über ihr knarrte, als sie den Hebel umlegte, und die Fähre löste sich vom Anleger“",
+          "„der die Schnauze über den Rand hielt, als könne er den Fluss riechen“: Vergleich, kein Gleichzeitigkeitsproblem.",
+          "„Hahn zündete sich eine neue Zigarette an und sah über das Wasser.“"
+        ],
+        "suggestions": [
+          "Den Eröffnungsablauf in eine klare Abfolge bringen: „Sie legte den Hebel um. Über ihr knarrte die Seilrolle. Die Fähre löste sich mit dem Ruck vom Anleger, den sie seit dreiundzwanzig Jahren kannte.“",
+          "Insgesamt arbeitet der Text überwiegend sequenziell. Kein grundsätzlicher Handlungsbedarf."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„mit Solarpaneelen und einem Lastenrad, das nie benutzt zu werden schien“"],
+        "suggestions": [
+          "Aktiv und konkret formulieren: „und einem Lastenrad, mit dem nie jemand fuhr“ oder „und einem Lastenrad, das seit dem Sommer am Zaun lehnte“."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Sie spürte das Gewicht des Schiffs, die drei Menschen darauf, die sie nicht kannte, bis auf Wessel und Hahn, und die sie trotzdem durch den Nebel brachte, Meter für Meter, wie jeden Morgen.“: verschachtelt und zudem widersprüchlich (sie kennt zwei der drei).",
+          "„Ein Name stand dort, in der Schrift, die sie selbst eingestellt hatte, vor Jahren, als er noch nicht so oft anrief.“",
+          "„Sie gehörte wohl zu den Leuten, die seit dem Sommer in das alte Pfarrhaus am Deich gezogen waren, mit Solarpaneelen und einem Lastenrad, das nie benutzt zu werden schien.“",
+          "„Er hatte seinen Transporter auf der Hitzacker-Seite stehen lassen, weil die Brücke in Dannenberg gesperrt war, wie er es jedem erzählte, der nicht danach fragte.“",
+          "„Wessel hatte den Hof auf der Wendseite, und er fuhr jeden Dienstag hinüber zum Viehmarkt, auch jetzt noch, obwohl die Milchkühe längst verkauft waren.“"
+        ],
+        "suggestions": [
+          "Teilen und den Widerspruch auflösen: „Sie spürte das Gewicht des Schiffs. Drei Menschen. Eine davon kannte sie nicht. Sie brachte sie trotzdem hinüber, Meter für Meter, wie jeden Morgen.“",
+          "„Auf dem Display stand Jonas. Sie hatte die Schrift selbst eingestellt, vor Jahren. Damals rief er noch nicht so oft an.“",
+          "„Er hatte seinen Transporter drüben stehen lassen. Die Brücke in Dannenberg war gesperrt, das erzählte er jedem, auch wenn keiner fragte.“",
+          "„Wessel hatte den Hof auf der Wendseite. Jeden Dienstag fuhr er zum Viehmarkt, obwohl die Milchkühe längst verkauft waren.“"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„„Kalt heute“ / „November“ / „Hm.““: knapp und charakterisierend.",
+          "„„Ist das die Strecke nach Neu Darchau?“ … „Sie fahren nicht falsch.““: Der längste Wechsel umfasst nur vier Repliken, ist aber inhaltlich verwirrend („Das ist das Gleiche“)."
+        ],
+        "suggestions": [
+          "Die Dialoglänge ist angemessen und dient der Figurenzeichnung.",
+          "Den Austausch mit der jungen Frau inhaltlich klären oder um eine Replik kürzen, z. B. „Ach so. Ich dachte, wir fahren in die falsche Richtung.“ streichen und direkt zu „Sie fahren nicht falsch.“ übergehen.",
+          "Das wiederholte „Hm.“ (Wessel, später Ilse) ist als Spiegelung reizvoll. Prüfen, ob diese Wirkung beabsichtigt ist."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„dass Ilse Brandt das andere Ufer nicht sehen konnte. Sie wusste, dass es da war.“",
+          "„Sie hörte das Wasser gegen die Pontons schlagen und roch den Schlick“",
+          "„ein gleichmäßiges Summen, das sie mehr spürte als hörte“",
+          "„Sie kannte jeden Ton dieser Fähre. Sie wusste, wann der Hebel klemmte … Sie wusste, wie der Fluss im Herbst aussah“",
+          "„Sie spürte das Gewicht des Schiffs“",
+          "„Sie zog das Handy heraus und sah auf das Display. Ein Name stand dort“"
+        ],
+        "suggestions": [
+          "Wahrnehmung direkt zeigen: „Der Nebel lag so dicht auf dem Fluss, dass das andere Ufer verschwunden war. Es war trotzdem da. Wasser schlug gegen die Pontons, der Schlick stank nach Niedrigwasser.“",
+          "„Sie wusste“ reduzieren: „Der Hebel klemmte bei Frost, die Bremse griff zu spät, wenn es geregnet hatte. Im Herbst führte der Fluss braunes Wasser und Holz, im Frühjahr trat er übers Ufer.“",
+          "„Sie zog das Handy heraus. Auf dem Display: Jonas.“",
+          "„Das Seil lief summend über die Rollen, ein Ton, der durch die Planken in ihre Füße stieg.“"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Heute war er still und grau, und die Oberfläche bewegte sich kaum.“: „still“ und „bewegte sich kaum“ beschreiben dasselbe.",
+          "„Ilse kannte sie nicht.“ und später „die drei Menschen darauf, die sie nicht kannte, bis auf Wessel und Hahn“: inhaltliche Doppelung mit Widerspruch.",
+          "Häufung von „sah“: „Hahn sah sie an“, „sah wieder auf ihr Handy“, „sah auf das Display“, „Wessel sah sich nicht um“, „sah über das Wasser“.",
+          "„Ufer“ sehr häufig: „das andere Ufer“, „Ufervilla“, „Weiden am Ufer“, „übers Ufer“, „Hitzacker-Ufer“, „das Ufer liegen“.",
+          "„Sie wusste“ dreimal, dazu „Sie kannte jeden Ton“.",
+          "„Drei Fahrgäste, das war der Stand.“ und später erneut „die drei Menschen darauf“.",
+          "Grau und Nebel werden mehrfach umschrieben: „graue Schatten“, „still und grau“, „irgendwo im Grau“."
+        ],
+        "suggestions": [
+          "„Heute lag er still und grau.“ reicht. Den Nachsatz streichen.",
+          "Den Satz mit „die sie nicht kannte, bis auf Wessel und Hahn“ umformulieren oder streichen, da bereits gesagt.",
+          "„sah“ variieren oder durch Handlung ersetzen: „Hahn blickte auf die Zigarette“, „Die Frau tippte weiter“, „Wessel rührte sich nicht“.",
+          "Ufer-Bezeichnungen reduzieren, z. B. „die Villa gegenüber“, „die Weiden am Deich“, „drüben“.",
+          "Grau gezielt nur an den wirkungsstärksten Stellen einsetzen, etwa am Schluss („irgendwo im Grau“), und andernorts konkretere Bilder wählen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.1419
+}

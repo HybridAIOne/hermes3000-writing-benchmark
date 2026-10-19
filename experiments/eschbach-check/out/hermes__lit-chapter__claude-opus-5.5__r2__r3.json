@@ -1,0 +1,96 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-opus-5.5__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur noch glaubte.",
+          "Sie stand auf der Rampe, die Hände in den Taschen der Jacke..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist exzellent. Er setzt sofort die Atmosphäre und etabliert die Situation ohne unnötiges Vorgeplänkel."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["gleichmäßig", "straff", "dünnes, kratziges Geräusch"],
+        "suggestions": [
+          "Der Text ist bereits sehr präzise. Achte darauf, bei allgemeinen Adjektiven wie 'klein' (Steuerhaus) oder 'hell' (Mantel) noch spezifischere Begriffe zu finden, falls möglich."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Moin, Ilse.“", "„Moin.“"],
+        "suggestions": [
+          "Vorbildlich. Die Dialoge kommen fast ohne 'sagte er/sie' aus, was den Lesefluss enorm beschleunigt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kaum spürbar", "nur noch"],
+        "suggestions": [
+          "Der Text ist sehr frei von Füllwörtern. Das 'nur noch' im ersten Satz könnte man streichen ('...dass Ilse das andere Ufer glaubte'), um die Ungewissheit noch stärker zu betonen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Während der Überfahrt hielt er sich mit beiden Händen am Geländer fest..."],
+        "suggestions": [
+          "Das 'Während' ist sparsam eingesetzt. Man könnte es noch weiter reduzieren, indem man zwei Sätze daraus macht: 'Die Fähre glitt über den Fluss. Er hielt sich...' um die Unmittelbarkeit zu erhöhen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag...", "Sie ging...", "Sie schrieb ihn ins Buch."],
+        "suggestions": [
+          "Der Text ist fast vollständig aktiv formuliert. Sehr gut, das erzeugt eine starke Handlungsorientierung."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur noch glaubte."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind gut variiert und erzeugen einen angenehmen, fast meditativen Rhythmus, der zur Stimmung passt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Die Bremse“, sagte Ilse. Das Mädchen nahm einen Kopfhörer heraus. „Was?“"],
+        "suggestions": [
+          "Die Dialoge sind knackig und treiben die Handlung voran. Keine Straffung nötig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie hörte zu, wie die Elbe...", "Sie dachte an nichts Bestimmtes."],
+        "suggestions": [
+          "'Sie hörte zu, wie...' könnte man durch 'Die Elbe schob sich...' ersetzen, um noch direkter in die Wahrnehmung einzutauchen und den Filter 'sie hörte' zu entfernen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Rampe", "Fahrtenbuch"],
+        "suggestions": [
+          "Die Wiederholungen sind hier funktional, da sie den repetitiven Alltag der Protagonistin unterstreichen. Das ist stilistisch gewollt und gut."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

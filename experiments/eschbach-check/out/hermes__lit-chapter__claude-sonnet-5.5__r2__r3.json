@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-sonnet-5.5__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so dicht auf dem Wasser..."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, atmosphärisch und setzt genau zum richtigen Zeitpunkt ein."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Herr Lüders sah angelegentlich auf das Wasser."],
+        "suggestions": [
+          "Das Wort 'angelegentlich' wirkt etwas gestelzt. Einfacher: 'Herr Lüders blickte aufs Wasser'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Ilse", "fragte die junge Frau"],
+        "suggestions": [
+          "Die Marker sind meist passend, könnten aber an Stellen, an denen der Sprecherwechsel durch den Kontext eindeutig ist, zugunsten des Leseflusses gestrichen werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie wusste es einfach."],
+        "suggestions": [
+          "Das Wort 'einfach' ist hier ein Füllwort und schwächt die Aussage ab. Besser: 'Sie wusste es.'"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Handlungen sind sehr gut nacheinander oder logisch verknüpft dargestellt. Keine Korrekturen nötig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr aktiv formuliert. Sehr gut."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind knackig, realistisch und treiben die Handlung voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als hätte sie einen Witz gemacht"],
+        "suggestions": [
+          "Sehr gute Umsetzung von 'Show, don't tell'. Die Wahrnehmungen sind direkt und unmittelbar."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Keine inhaltlichen Doppelungen oder störenden Wortwiederholungen erkennbar."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,152 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__gpt-6-luna__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Der Nebel lag so dicht über der Elbe, dass Ilse die andere Uferkante nicht sah. Die Fähre glitt trotzdem hinüber.",
+          "Ilse stand am Steuerstand und hielt eine Hand auf dem Hebel. Die andere steckte in der Jackentasche. Sie kannte die Strecke auch ohne Ufer."
+        ],
+        "suggestions": [
+          "Der Einstieg mitten in der Überfahrt ist gut gewählt. Die beiden Atmosphäre-Absätze ließen sich trotzdem verdichten. Die Szene könnte direkt mit 'Hinter ihr standen drei Fahrgäste' oder der ersten Frage des Jungen einsetzen. Die Details zu Seil, Strömung und Vibration lassen sich später einstreuen, etwa beim Geräusch der springenden Rolle.",
+          "Der Satz 'Heute vibrierte es wie immer.' ist ein starker Anker. Er sollte auch bei einer Kürzung erhalten bleiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "in seinem gleichmäßigen Rattern",
+          "einen einzelnen, dumpfen Ton",
+          "in kurzen, grauen Stücken",
+          "schwarz und glänzend",
+          "Das Geräusch war kurz, scharf und vertraut.",
+          "Das Fahrrad war alt, aber sauber geputzt."
+        ],
+        "suggestions": [
+          "Die meisten Adjektive sind konkret und tragen Bedeutung. Doppel- und Dreifachreihungen sollten Sie aber reduzieren. 'einen einzelnen, dumpfen Ton' funktioniert auch als 'einen dumpfen Ton', da 'einzelnen' schon in 'gab ... von sich' mitschwingt.",
+          "'in kurzen, grauen Stücken': 'grau' ist durch den Nebel bereits etabliert, 'in Fetzen' wäre präziser und knapper.",
+          "'kurz, scharf und vertraut' ließe sich als Verb fassen, z. B. 'Das Seil schnappte über eine Rolle'. Das 'vertraut' übernimmt dann Ilses ausbleibende Reaktion."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Sie müssen nur warten, bis wir anliegen“, sagte sie.",
+          "„Da ist ja wirklich Land“, sagte er.",
+          "„Fahren Sie jeden Tag?“, fragte die Frau.",
+          "„Ist das immer so?“, fragte der Junge."
+        ],
+        "suggestions": [
+          "Die Sprecher werden überwiegend über Handlungen eingeführt ('Der Mann mit dem Fahrrad räusperte sich.'). Das ist vorbildlich.",
+          "Bei '„Sie müssen nur warten, bis wir anliegen“, sagte sie.' ist die Kennzeichnung entbehrlich, weil Ilse den Mann gerade ansieht.",
+          "Bei '„Da ist ja wirklich Land“, sagte er.' steht der Junge als Einziger noch auf der Fähre. Eine kleine Geste wäre stärker, z. B. 'Der Junge blieb einen Moment stehen. „Da ist ja wirklich Land.“'"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "vibrierte das Deck unter ihren Stiefeln ein wenig stärker",
+          "Sie ließ den Hebel ein wenig nach.",
+          "Ilse drehte den Kopf ein Stück.",
+          "irgendwo voraus gab die Glocke",
+          "Seine roten Schuhe verschwanden bald im Nebel."
+        ],
+        "suggestions": [
+          "'ein wenig' kommt zweimal vor. Beim Deck könnte es 'spürbar stärker' heißen oder es entfällt ganz ('vibrierte das Deck stärker'). Beim Hebel genügt 'Sie nahm den Hebel zurück' oder ein präziseres Verb.",
+          "'irgendwo voraus' ist hier inhaltlich begründet, weil der Nebel die Orientierung nimmt. Das kann bleiben.",
+          "'bald' ist unpräzise. 'Nach wenigen Schritten verschluckte ihn der Nebel' ist bildhafter."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Ton verstummte, während die Fähre in den Nebel hinausglitt.",
+          "sah über das Wasser, obwohl dort nichts zu sehen war",
+          "Sie wischte mit dem Ärmel über die beschlagene Scheibe, obwohl es draußen dadurch nicht klarer wurde."
+        ],
+        "suggestions": [
+          "Gleichzeitigkeitskonstruktionen sind selten. Der Schlusssatz mit 'während' schwächt aber die Pointe. Besser sind zwei Sätze: 'Der Ton verstummte. Die Fähre glitt in den Nebel hinaus.' Das gibt dem Ende mehr Gewicht.",
+          "Das zweimalige 'obwohl' ist eher eine Wiederholung der Konstruktion als ein Gleichzeitigkeitsproblem. Eine der beiden Stellen könnten Sie umformulieren, z. B. 'Draußen wurde es dadurch nicht klarer.' als eigenen Satz."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Fahrrad war alt, aber sauber geputzt.",
+          "die sie zwischen die Schuhe geklemmt hatte"
+        ],
+        "suggestions": [
+          "Der Text ist nahezu durchgehend aktiv formuliert. 'sauber geputzt' ist ein Zustandspassiv und charakterisiert den Mann indirekt. Das ist legitim und kann bleiben.",
+          "Optional wäre 'jemand hatte das alte Fahrrad sauber geputzt', das Original ist aber knapper."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das Seil lief in seinem gleichmäßigen Rattern über die Rollen, Wasser schob sich dunkel unter den Rumpf, und irgendwo voraus gab die Glocke einen einzelnen, dumpfen Ton von sich.",
+          "Das Seil spannte sich, die Strömung drückte seitlich gegen die Fähre, und an einer bestimmten Stelle vibrierte das Deck unter ihren Stiefeln ein wenig stärker.",
+          "Die Frau griff nach ihrer Tasche, der Mann setzte den Fuß auf den Fahrradständer, und der Junge zog den Ranzen höher."
+        ],
+        "suggestions": [
+          "Die längeren Sätze sind parataktisch gebaut und gut lesbar, verschachtelt ist nichts. Allerdings folgen drei Sätze demselben Muster 'A, B, und C'. Brechen Sie mindestens einen davon auf, z. B. im zweiten Absatz: 'Das Seil spannte sich. Die Strömung drückte seitlich gegen die Fähre. An einer Stelle vibrierte das Deck stärker.' So wirkt der Rhythmus weniger gleichförmig."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ist das immer so?“ / „Was?“ / „Dass man nichts sieht.“ / „Nicht immer.“",
+          "„War das normal?“ / „Ja.“ / „Klang nicht so.“ / „Klang immer so.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, charakterisieren Ilses wortkarge Art und werden durch Handlung unterbrochen. Hier ist keine Straffung nötig.",
+          "Einzig der Austausch mit der Frau ('Fahren Sie jeden Tag?' bis 'Ich würde mich das nicht trauen.') könnte um eine Zeile kürzer sein, etwa ohne '„Auch bei dem Wetter?“ / „Wenn die Fähre fährt.“'. Er wirkt aber auch so stimmig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "dass Ilse die andere Uferkante nicht sah",
+          "Sie hörte, wie das Seil über eine Rolle sprang und wieder in die Führung fand.",
+          "Sie hörte den ersten Klingelton, dann den zweiten.",
+          "Ilse sah auf die Zahl neben seinem Namen, bis der Bildschirm heller wurde."
+        ],
+        "suggestions": [
+          "'Sie hörte, wie das Seil über eine Rolle sprang' lässt sich direkt fassen: 'Das Seil sprang über eine Rolle und fand wieder in die Führung.'",
+          "'Sie hörte den ersten Klingelton, dann den zweiten.' wird direkter zu 'Der erste Klingelton. Der zweite.' Das erzeugt mehr Spannung im Schlussmoment.",
+          "Im Eröffnungssatz geht es auch ohne Wahrnehmungsverb: 'Der Nebel lag so dicht über der Elbe, dass das andere Ufer verschwunden war.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "'Hebel' erscheint rund zehnmal: 'hielt eine Hand auf dem Hebel', 'Sie ließ den Hebel ein wenig nach', 'legte die Hand wieder auf den Hebel', 'Seil, Rollen, Hebel', 'Sie nahm den Hebel zurück', 'Ilse zog den Hebel zurück'",
+          "'Der Mann mit dem Fahrrad' steht dreimal als feste Bezeichnung.",
+          "Die rote Farbe des Jungen wird mehrfach betont: 'Junge in einer roten Mütze', 'Seine rote Mütze war der einzige deutliche Farbfleck', dann widersprüchlich 'Seine roten Schuhe verschwanden bald im Nebel'.",
+          "'Tasche' meint sowohl Ilses Jackentasche als auch die Einkaufstasche der Frau ('Die andere steckte in der Jackentasche', 'zog die Tasche dichter an sich', 'Das Telefon in ihrer Jackentasche')."
+        ],
+        "suggestions": [
+          "Die 'roten Schuhe' sind vermutlich ein Versehen. Wenn die Mütze der einzige Farbfleck ist, sollte es heißen: 'Seine rote Mütze verschwand im Nebel.' Das greift das Motiv sauber auf und schließt es ab.",
+          "'Hebel' ist als Ritual-Motiv ('Seil, Rollen, Hebel') sinnvoll, wirkt aber bei der Häufigkeit monoton. Ersetzen Sie es an einzelnen Stellen durch die Handbewegung allein ('Sie nahm Fahrt weg') oder durch 'Fahrhebel'.",
+          "Nach der ersten Einführung genügt 'der Mann' bzw. 'die Frau'. Die Attribute braucht es nur, wenn eine Verwechslung droht.",
+          "Um die Doppeldeutigkeit von 'Tasche' zu vermeiden, schreiben Sie bei der Frau konsequent 'Einkaufstasche' oder 'Beutel'.",
+          "Prüfen Sie auch die Logik am Ende. Ilse zieht den Hebel in die Ausgangsstellung, und unmittelbar danach 'setzte das Rattern des Seils wieder ein'. Hier fehlt ein Zwischenschritt, z. B. dass sie die Fähre wieder anfährt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.131124
+}

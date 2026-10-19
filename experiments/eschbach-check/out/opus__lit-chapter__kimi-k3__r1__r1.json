@@ -1,0 +1,156 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__kimi-k3__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Der Nebel lag um fünf Uhr morgens noch nicht auf dem Fluss. Er kam erst mit dem Grauen …“ – der Text setzt mit einer Verneinung ein und beschreibt zuerst, was noch nicht da ist",
+          "Der erste Absatz bündelt drei atmosphärische Bilder (Nebel, Elbe atmet, Geräusche der vertäuten Fähre), bevor etwas geschieht",
+          "Die räumliche Orientierung ist unklar: Ilse steht am Ufer, wo die Fähre vertäut ist, später taucht das „Wendlandufer“ als „drüben“ auf, und Hitzacker und Dömitz werden als die beiden Ufer derselben Fähre genannt"
+        ],
+        "suggestions": [
+          "Positiv einsteigen, etwa: „Der Nebel kam mit dem Grauen. Er kroch aus den Wiesen …“. Dann ist das Bild sofort präsent.",
+          "Alternativ direkt mit Ilse am Seil beginnen („Ilse Brandt legte die Hand an das Tragseil. Kalt und nass, wie jeden Morgen im November.“) und die Nebelbeschreibung nachreichen.",
+          "Die Geografie einmal klar festlegen: Welches Ufer ist Ilses? Wohin fährt sie? So verliert der Leser im ohnehin orientierungslosen Nebel nicht auch noch die Erzählorientierung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„das leise Tropfen des Seils“, „sagte Frau Mewes leise“, „sein leises Geräusch“ – dreimal „leise“",
+          "„drehte sich sacht in den Strom“",
+          "„Es vibrierte in ihrer Hand, warm, fordernd“",
+          "„Ein junger Mann in gelber Regenjacke, mit einem Helm, an dem eine kleine Kamera befestigt war“"
+        ],
+        "suggestions": [
+          "„leise“ höchstens einmal verwenden. Bei Frau Mewes trägt der Inhalt der Aussage die Stimmung bereits, das Adverb kann entfallen.",
+          "„warm, fordernd“ kürzen: Ein Telefon, das summt, ist bereits fordernd. Besser ein einziges präzises Bild wählen.",
+          "Insgesamt ist der Text sparsam. Die meisten Adjektive (gelb, dunkel gekleidet) leisten Figurenzeichnung und dürfen bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„„Verzeihen Sie“, sagte Frau Mewes.“ – nur zwei Personen an Bord, der Sprecher ist eindeutig",
+          "„„Bei mir läuft gar nichts vor dem Kaffee“, sagte Ilse.“",
+          "„„Festhalten“, sagte Ilse.“ – hier ist die Kennzeichnung als bewusste Unterbrechung des Radfahrers wirkungsvoll"
+        ],
+        "suggestions": [
+          "Bei den Mewes-Dialogen auf „sagte Frau Mewes“ und „sagte Ilse“ verzichten oder durch Handlung ersetzen, etwa: „Ilse zog. „Bei mir läuft gar nichts vor dem Kaffee.““",
+          "Das zweite „Festhalten“ mit Inquit beibehalten, denn es setzt den Schlusspunkt der Szene."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„an Kaffee vielleicht“ und „wo es jetzt vielleicht schon richtig Tag war“",
+          "„manche sagten, das sei romantisch“",
+          "„irgendwo weiter unten stieß ein Schwarm Wildgänse …“",
+          "„Nach einer Weile sagte er“",
+          "„Der dritte Fahrgast kam erst gegen sieben.“"
+        ],
+        "suggestions": [
+          "Das zweite „vielleicht“ streichen: „aus einer Stadt weit im Süden, wo es schon Tag war, wo es Straßenbahnen gab …“",
+          "„Nach einer Weile“ ersetzen oder streichen, etwa: „Auf halber Strecke sagte er: …“",
+          "„Niemand kam fast nie“ ist als bewusste Umgangssprache in Ilses Perspektive legitim und kann bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„hörte die Fähre, bevor sie sie sah, das leise Tropfen des Seils, das Knarzen der Walzen, obwohl die Fähre an ihrem Ufer vertäut war“",
+          "„obwohl die es nicht nötig hatte“, „obwohl niemand kam“ – das konzessive „obwohl“ häuft sich",
+          "„Die Frau stand schon am Steg, als die Fähre aus dem Grau auftauchte.“"
+        ],
+        "suggestions": [
+          "„während“ und „gleichzeitig“ fehlen fast ganz. Das ist gut gelöst.",
+          "Den Eingangssatz entzerren und logisch klären: Sie kann die Fähre nicht „hören, bevor sie sie sah“, wenn diese direkt vor ihr vertäut liegt. Besser: „Ilse Brandt stand auf dem Steg und hörte die Fähre: das Tropfen des Seils, das Knarzen der Walzen. Dabei rührte sie sich nicht. Es war nur der Fluss …“",
+          "Eines der „obwohl“-Konstrukte in zwei Hauptsätze auflösen: „Sie wartete die vollen zwanzig Minuten ab. Der Fahrplan verlangte es. Niemand kam.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ilse hatte den Radfahrer am Dömitzer Ufer abgesetzt und war leer zurückgezogen worden“ – Passiv im Plusquamperfekt, schwerfällig und logisch unklar, denn Ilse zieht die Fähre selbst",
+          "„mit einem Helm, an dem eine kleine Kamera befestigt war“ (Zustandspassiv, unproblematisch)"
+        ],
+        "suggestions": [
+          "Aktiv formulieren: „Ilse hatte den Radfahrer am Dömitzer Ufer abgesetzt und die leere Fähre zurückgezogen, Glied um Glied.“",
+          "Das Zustandspassiv beim Helm kann bleiben oder kürzer werden: „mit einer kleinen Kamera am Helm“."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Ilse Brandt stand auf dem Steg und hörte die Fähre, bevor sie sie sah, das leise Tropfen des Seils, das Knarzen der Walzen, obwohl die Fähre an ihrem Ufer vertäut war und sich nicht rührte.“",
+          "„Am Dömitzer Ufer half sie der alten Frau über die Planke, obwohl die es nicht nötig hatte, und sah ihr hinterher, bis die dunkle Gestalt im Nebel aufging wie ein Tropfen Tinte in Wasser.“",
+          "„Dann war sie allein auf dem Steg, an einem Ufer, das nicht ihres war, und der Fluss machte sein leises Geräusch unter dem Boot, und irgendwo weiter unten stieß ein Schwarm Wildgänse aus dem Nebel und war sofort wieder weg, nur das Rufen blieb einen Moment hängen.“",
+          "„Es vibrierte in ihrer Hand, warm, fordernd, aus einer Stadt weit im Süden, wo es jetzt vielleicht schon richtig Tag war, wo es Straßenbahnen gab und keinen Nebel, der nach Fluss roch.“"
+        ],
+        "suggestions": [
+          "Den Eröffnungssatz teilen, denn er ist der wichtigste Satz für den Leseeinstieg und zugleich der verwirrendste.",
+          "Die Wildgans-Passage in zwei Sätze zerlegen: „Dann war sie allein auf dem Steg, an einem Ufer, das nicht ihres war. Weiter unten stieß ein Schwarm Wildgänse aus dem Nebel und war sofort wieder weg. Nur das Rufen blieb einen Moment hängen.“",
+          "Die „und … und …“-Reihungen sind als ruhiger Erzählrhythmus legitim. Sie sollten aber sparsamer eingesetzt werden, damit die kurzen Sätze („Jonas.“) umso stärker wirken.",
+          "Den Satz „Um halb acht zog sie das Boot …“ beibehalten: Hier trägt die Länge die Spannung bis zum Summen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Peters-Dialog: knapp, mit Lokalkolorit („Bloß nichts ändern, Frau Brandt.“)",
+          "Radfahrer-Dialog: „Ist es nicht.“ / „Seit wann gibt's die denn?“ / „Seit immer.“ – leicht gedehnt, aber charakterisierend",
+          "Mewes-Dialog: Subtext durch Kürze („„Ja.““ / „„Das konnte ich auch.““)"
+        ],
+        "suggestions": [
+          "Beim Radfahrer könnte der Satz zum Navi gestrafft werden: „Mein Navi sagt, hier ist eine Fähre. Ich dachte, die ist längst eingestellt.“",
+          "Ansonsten sind die Dialoge vorbildlich kurz und lassen viel ungesagt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Er lachte, weil er dachte, es sei ein Witz.“",
+          "„dachte an nichts Bestimmtes, an Kaffee vielleicht, an das Schild …“",
+          "„Ilse hatte sie noch nie ohne die weiße Jacke gesehen.“",
+          "„Sechs Grad, schätzte sie“"
+        ],
+        "suggestions": [
+          "„Er lachte, weil er dachte, es sei ein Witz“ direkter fassen: „Er lachte. Ilse nicht.“ oder schlicht „Er lachte.“ Der Leser versteht das Missverständnis selbst.",
+          "„dachte an nichts Bestimmtes“ ersetzen durch die Gedankeninhalte direkt: „Kaffee. Das Schild am Wartehäuschen, das einen neuen Anstrich brauchte. Peters' Münze in ihrer Tasche.“",
+          "„Sechs Grad, schätzte sie“ als erlebte Rede: „Sechs Grad, höchstens.“"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Glied um Glied“ erscheint sechsmal. Das Leitmotiv nutzt sich ab und passt sachlich eher zu einer Kette als zu einem Seil.",
+          "„was sie selten tat“ und kurz darauf „was sie sonst nie tat“",
+          "„Der Elmar hat immer gesagt …“ zweimal (hier als Figurenzeichnung vertretbar)",
+          "Häufung von Nebelbildern: „graues Etwas“, „aus dem Grau“, „durchs Grau“, „in der grauen Stille“, „wie Milch“, „wie ein Tropfen Tinte“",
+          "Kleinere Ungereimtheiten: Die Münze von Peters ist nach fast zwei Stunden „noch warm“. Frau Mewes heißt „die alte Frau“, obwohl Ilse gleichaltrig mit dem siebzigjährigen Elmar ist. Ein Name „in ihrer eigenen Schrift“ auf einem Telefondisplay ist kaum möglich."
+        ],
+        "suggestions": [
+          "„Glied um Glied“ auf drei Stellen reduzieren: Einführung, Mewes-Szene, Schlusssatz. Dann trägt das Motiv den Schluss stärker. Gegebenenfalls „Griff um Griff“ verwenden, wenn es tatsächlich ein Seil ist.",
+          "Eines der beiden „was sie selten/nie tat“ streichen und nur das zweite beim Telefon behalten, denn dort markiert es den Wendepunkt.",
+          "„Grau“ variieren oder reduzieren und nur die stärksten Vergleiche behalten (Elbe atmet, Tinte im Wasser).",
+          "Die Logikfehler bereinigen: „die Münze von Peters in ihrer Tasche“ ohne „warm“; „die alte Frau“ durch „Frau Mewes“ ersetzen; „in ihrer eigenen Schrift“ ersetzen, etwa durch „so, wie sie ihn vor Jahren eingespeichert hatte“."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.15258
+}

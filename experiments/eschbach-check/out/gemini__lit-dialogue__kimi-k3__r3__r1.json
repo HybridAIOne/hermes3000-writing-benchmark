@@ -1,0 +1,112 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__kimi-k3__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Jonas steht am Tisch, die Hand noch an der Stuhllehne.",
+          "Jonas: Du bist früher dran."
+        ],
+        "suggestions": [
+          "Exzellenter Einstieg mitten in die Handlung (In medias res). Es wird keine Zeit mit Anfahrt, Begrüßungsfloskeln oder Bestellungen verschwendet."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Jonas legt den Löffel hin. Sehr langsam.",
+          "Marek greift sofort zum Zucker, dann hält er inne."
+        ],
+        "suggestions": [
+          "Der Text ist extrem sparsam und präzise bei Adjektiven. Einzig 'Sehr langsam' in der Regieanweisung könnte durch ein präziseres Verb oder eine Beschreibung ersetzt werden (z.B. 'Jonas legt den Löffel behutsam / Zeitlupen-artig ab'), funktioniert als rhythmischer Bruch im Skriptformat aber auch so gut."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Jonas: Du bist früher dran.", "Marek: Ich war sowieso in der Gegend."],
+        "suggestions": [
+          "Da es sich um ein Theater- oder Drehbuchformat handelt, entfallen klassische Inquit-Formeln ('sagte er'). Falls der Text in Prosa umgewandelt wird, könnten die Namen fast komplett gestrichen werden, da der Schlagabtausch und die eingestreuten Handlungen die Sprecher eindeutig zuordnen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Marek: Du weißt es ja noch.", "Marek: Du magst ihn doch gesüßt, oder?"],
+        "suggestions": [
+          "In den beschreibenden Teilen gibt es keinerlei Füllwörter. In den Dialogen werden Wörter wie 'ja', 'doch' oder 'sowieso' absolut organisch genutzt, um den Sprachrhythmus natürlich zu gestalten."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Rührt in seiner Tasse, obwohl nichts drin ist.",
+          "Beide schweigen, bis sie wieder weg ist."
+        ],
+        "suggestions": [
+          "Keine problematischen Gleichzeitigkeiten ('während'). Handlungen und Dialoge sind sauber nacheinander getaktet, was das Tempo und die Spannung der Szene hervorragend stützt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Treppe vor deiner Wohnung haben sie renoviert."],
+        "suggestions": [
+          "Keine Passivkonstruktionen vorhanden. Selbst dort, wo man im Alltag oft Passiv nutzt ('wurde renoviert'), wurde eine aktive, natürlich klingende Form gewählt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Vieles wächst. Manches schrumpft.",
+          "Ich bin vorbeigefahren. Das ist ein Unterschied."
+        ],
+        "suggestions": [
+          "Die Sätze sind kurz, prägnant und aufgeladen mit Subtext. Die Satzlänge passt perfekt zur angespannten, unterkühlten Atmosphäre zwischen den Figuren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Jonas: Früher.",
+          "Marek: Früher. Schiebt die Zuckerdose trotzdem rüber. Man soll ja nett sein zu alten Freunden."
+        ],
+        "suggestions": [
+          "Die einzelnen Repliken sind extrem verknappt, kein Charakter hält unnatürliche Monologe. Das Pacing ist meisterhaft."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Kaffee kommt. Marek greift sofort zum Zucker, dann hält er inne.",
+          "Marek nickt. Fast ein Lächeln. Fast."
+        ],
+        "suggestions": [
+          "Komplett unmittelbare Darstellung (Show, don't tell). Gefühle und Gedanken werden nicht erklärt, sondern ausschließlich über äußere Handlungen (leere Tasse umrühren, Löffel langsam ablegen) und Dialog-Subtext transportiert."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Marek: Wir sitzen hier, oder? / Jonas: Wir sitzen hier.",
+          "Die Kellnerin kommt. [...] Der Kaffee kommt."
+        ],
+        "suggestions": [
+          "Die Wortwiederholungen in den Dialogen ('In der Gegend', 'Egal', 'Früher', 'Wir sitzen hier') sind als gezieltes rhetorisches Stilmittel eingesetzt und erzeugen einen starken Rhythmus. Lediglich in den Regieanweisungen doppelt sich das Verb 'kommen' ('Die Kellnerin kommt' / 'Der Kaffee kommt'). Hier könnte beim zweiten Mal variiert werden, z.B.: 'Die Kellnerin stellt den Kaffee ab.' (Das löst auch gleich das vorherige Rühren in der leeren Tasse logisch auf, falls vorher nur das Gedeck da stand)."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.0162
+}

@@ -1,0 +1,111 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 10,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel klemmte, wie er immer geklemmt hatte, und Judith tat, was ihre Hand noch wusste: anheben, ein Stück nach links, dann die Schulter gegen das Holz."
+        ],
+        "suggestions": [
+          "Exzellenter Einstieg mitten in die Handlung (in medias res). Das Muskelgedächtnis verrät sofort die Vertrautheit mit dem Ort, ohne dass langwierige Erklärungen nötig sind."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "blinden Fleck",
+          "abgestandene Zeit",
+          "eingeschrumpft, die Haut braun und weich wie altes Leder",
+          "dichter, fast feucht"
+        ],
+        "suggestions": [
+          "Die wenigen Adjektive sind extrem präzise, sensorisch aufgeladen und originell (z.B. 'abgestandene Zeit'). Es gibt keine überflüssigen Ausschmückungen; die Verben und Substantive tragen den Text perfekt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Notar hatte am Telefon von „Räumung“ gesprochen, von „Fristen“."],
+        "suggestions": [
+          "Der Text kommt ohne direkten Dialog aus. Die indirekte Wiedergabe des Telefonats ist sehr ökonomisch und stimmig integriert."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "ein wenig kleiner als verabredet",
+          "fand sie die Frucht schließlich doch",
+          "fast feucht"
+        ],
+        "suggestions": [
+          "Der Text ist nahezu frei von Füllwörtern. Ausdrücke wie 'ein wenig' oder 'fast' erfüllen hier eine wichtige rhythmische und bedeutungsnuancierende Funktion. Einzig bei 'fand sie die Frucht schließlich doch' könnte man prüfen, ob 'fand sie die Frucht' allein noch stärker wirkt."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie blieb auf der Fußmatte stehen, den Koffer in der Hand, und wartete...",
+          "Judith setzte sich auf die Bettkante und drehte die Frucht in den Händen..."
+        ],
+        "suggestions": [
+          "Keine falsche Gleichzeitigkeit durch 'während'-Konstruktionen. Alle Handlungen sind klar und organisch nacheinander angeordnet."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Seit dem März hatte niemand geheizt..."],
+        "suggestions": [
+          "Kein einziger Passivsatz im Text. Selbst typische Passiv-Fallen ('Es war nicht geheizt worden') wurden elegant aktiv gelöst ('hatte niemand geheizt')."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Garderobe. Der Spiegel mit dem blinden Fleck unten links. Der Läufer, dessen Muster sie als Kind für eine Landkarte gehalten hatte.",
+          "Sie stellte den Koffer ab. Das Geräusch ging durch das Haus und kam nicht zurück."
+        ],
+        "suggestions": [
+          "Hervorragender Satzrhythmus. Kurze, fast elliptische Sätze wechseln sich harmonisch mit mittellangen, bildhaften Sätzen ab. Keine unübersichtlichen Schachtelsätze."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Dialoge vorhanden, daher auch keine Längen. Die Stille des Hauses wird durch die Abwesenheit von direkter Rede formal perfekt widergespiegelt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Erst in der Küche roch sie es.", "Das wusste Judith genau."],
+        "suggestions": [
+          "Die Wahrnehmung ist größtenteils unmittelbar (Show, don't tell). 'Erst in der Küche roch sie es' funktioniert als spannungssteigernde Überleitung gut. Den Satz 'Das wusste Judith genau' könnte man theoretisch streichen, da die nachfolgenden Sätze diese Gewissheit bereits durch ihre Kadenz ('nie gekauft, nie gekocht, nie auch nur erwähnt') belegen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel klemmte, wie er immer geklemmt hatte",
+          "nie gekauft, nie gekocht, nie auch nur erwähnt"
+        ],
+        "suggestions": [
+          "Keine unbeabsichtigten Wortwiederholungen oder inhaltlichen Redundanzen. Wo Wiederholungen auftreten, sind sie als bewusste rhetorische Stilmittel (Anapher, Polyptoton) eingesetzt und verstärken die Eindringlichkeit des Textes."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.015626
+}

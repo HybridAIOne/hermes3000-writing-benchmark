@@ -1,0 +1,140 @@
+{
+  "who": "gemini",
+  "item": "anchor__schnitzler-der-blinde-geronimo-und-sein-bruder-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der blinde Geronimo stand von der Bank auf und nahm die Gitarre zur Hand...",
+          "Er hatte das ferne Rollen der ersten Wagen vernommen."
+        ],
+        "suggestions": [
+          "Der Einstieg ist bereits sehr gut gewählt und beginnt direkt mit einer Handlung. Um ihn nach modernen Maßstäben noch unmittelbarer zu machen, könnte man direkt mit dem Sinnesreiz starten: 'Das ferne Rollen der ersten Wagen drang in die Wirtsstube. Der blinde Geronimo griff nach seiner Gitarre...'"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "naßkalten Wind ... feuchtschmutzigen Boden",
+          "mit einer ungleichmäßigen, manchmal plötzlich aufkreischenden Stimme",
+          "mit einem raschen, wie irren Blick",
+          "vollkommen unbeweglich ... beinahe regungslos"
+        ],
+        "suggestions": [
+          "Einige Adjektive sind sehr atmosphärisch (naßkalt, feuchtschmutzig), aber an manchen Stellen häufen sie sich zu sehr.",
+          "Statt 'sang mit einer ungleichmäßigen, manchmal plötzlich aufkreischenden Stimme' lieber ein starkes Verb nutzen: 'Seine Stimme schwankte, kreischte plötzlich auf...'",
+          "Adverbien wie 'vollkommen' oder 'beinahe' vor Adjektiven streichen, da sie diese eher abschwächen als verstärken."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "»Bring mir Wein,« sagte Geronimo",
+          "Der Blinde schwenkte es dem jungen Paare zu und sagte: »Ihr Wohl, meine Herrschaften!«",
+          "»Deutsche Familie,« sagte Geronimo leise zu Carlo."
+        ],
+        "suggestions": [
+          "Die Dialogmarker sind unaufdringlich. Beim zweiten Beispiel könnte das 'und sagte' komplett entfallen, da die Handlung bereits den Sprecher markiert: 'Der Blinde schwenkte es dem jungen Paare zu. »Ihr Wohl, meine Herrschaften!«'",
+          "Statt 'sagte Geronimo leise' lieber: 'flüsterte Geronimo Carlo zu' oder 'raunte Geronimo'."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "lief die Straße ziemlich eben",
+          "mit einer ziemlich lärmenden Gesellschaft",
+          "beinahe regungslos ... beinahe ängstlich ... nach beinahe zwanzig Jahren",
+          "sich ein bißchen aufs Kurieren verstand"
+        ],
+        "suggestions": [
+          "Das Wort 'ziemlich' ist ein klassisches Weichmacher-Wort und sollte ersatzlos gestrichen werden ('mit einer lärmenden Gesellschaft').",
+          "Die häufige Verwendung von 'beinahe' relativiert die Aussagen unnötig. Entweder er steht regungslos da, oder er zuckt kaum merklich.",
+          "Auch Wörter wie 'wohl' ('wohl eingehüllt') und 'gleich' ('gleich neben der Treppe', 'dachte er gleich') können stark reduziert werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Während er die Stufen aufwärts schritt, begann Geronimo wieder zu singen.",
+          "als er den Schrei hörte, dachte er gleich..."
+        ],
+        "suggestions": [
+          "Der Text löst Abläufe größtenteils sauber chronologisch auf.",
+          "Das erste Beispiel ließe sich noch eleganter nacheinander reihen: 'Carlo schritt die Stufen aufwärts. Hinter ihm begann Geronimo wieder zu singen.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["des Lichts, das ihnen gewährt war", "daß er später geheilt werden könnte"],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert. Die wenigen Passivkonstruktionen sind hier inhaltlich gerechtfertigt (das ausgeliefert Sein an das Schicksal/die Ärzte) und müssen nicht zwingend geändert werden."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sein Bruder folgte ihm, und beide stellten sich gleich neben der Treppe auf, den Rücken zur Wand gekehrt, um gegen den naßkalten Wind geschützt zu sein, der über den feuchtschmutzigen Boden durch die offenen Tore strich.",
+          "Er hatte wie oftmals mit dem Bolzen nach der Esche an der Mauer geschossen, und als er den Schrei hörte, dachte er gleich, daß er den kleinen Bruder verletzt haben mußte, der eben vorbeigelaufen war.",
+          "Nur wenn er bei dem blinden Jungen war, wenn er ihm die Haare streicheln, seine Stirne küssen durfte, ihm Geschichten erzählte, ihn auf den Feldern hinter dem Hause und zwischen den Rebengeländen spazieren führte, milderte sich seine Pein."
+        ],
+        "suggestions": [
+          "Der klassische Erzählstil nutzt viele Nebensätze. Für mehr Dynamik (besonders in der Rückblende des Unfalls) sollten Sätze geteilt werden.",
+          "Vorschlag für die Unfallszene: 'Wie so oft hatte er mit dem Bolzen nach der Esche an der Mauer geschossen. Dann der Schrei. Sofort wusste er: Er hatte seinen kleinen Bruder getroffen, der eben vorbeigelaufen war.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "»Bring mir Wein,«",
+          "»Ihr Wohl, meine Herrschaften!« »Danke,«",
+          "»Deutsche Familie,«"
+        ],
+        "suggestions": [
+          "Exzellent. Die Dialoge sind extrem knapp, präzise und charakterisieren die Figuren und ihre Beziehung zueinander mit minimalem Wortaufwand."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Er hatte das ferne Rollen der ersten Wagen vernommen.",
+          "Jetzt vernahm er ganz nahe zwei flüsternde Stimmen...",
+          "Er dachte, wie oft diese beiden schon...",
+          "Er mußte ... daran denken, daß... Denn er erinnerte sich...",
+          "...und der sah gleich, daß das rechte Auge verloren war."
+        ],
+        "suggestions": [
+          "Nach Eschbach distanzieren Verben der Wahrnehmung (vernahm, sah, hörte, dachte, erinnerte sich) den Leser vom Geschehen.",
+          "Statt 'Jetzt vernahm er ganz nahe zwei flüsternde Stimmen' direkt: 'Ganz in der Nähe flüsterten zwei Stimmen...'",
+          "Den Übergang zur Rückblende direkter gestalten, ohne 'Er musste daran denken, dass...' und 'Denn er erinnerte sich...'. Besser: 'Carlo betrachtete den Knaben. Genau so alt war Geronimo damals gewesen. Zwanzig Jahre war das Unglück nun her, und doch klang ihm der grelle Kinderschrei noch immer im Ohr...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "blieben vollkommen unbeweglich. Der ältere Bruder stand neben ihm, beinahe regungslos.",
+          "starrte gleich dem Bruder ins Leere.",
+          "kleinen Geronimo ... kleinen Bruder ... kleinen Bruder ... kleine Gartentür ... dem Kleinen"
+        ],
+        "suggestions": [
+          "Inhaltliche Doppelung von 'unbeweglich' und 'regungslos' in zwei aufeinanderfolgenden Sätzen. Eines davon streichen.",
+          "In der Rückblende häuft sich das Adjektiv 'klein' extrem (fünfmal in wenigen Sätzen). Hier sollten Synonyme verwendet oder das Wort gestrichen werden, da das Alter des Jungen bereits etabliert ist.",
+          "Auch das Wort 'gleich' wird sehr oft in verschiedenen Bedeutungen wiederholt (sofort, ebenso, derselbe)."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.024742
+}

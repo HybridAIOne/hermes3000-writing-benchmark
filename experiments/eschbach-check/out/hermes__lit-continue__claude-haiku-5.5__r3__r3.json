@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-haiku-5.5__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie antwortete nicht. Der Motor war nicht das Thema"],
+        "suggestions": [
+          "Der Einstieg ist stark und wirft den Leser direkt in den Konflikt. Beibehalten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["trockenen Rattern", "hellen Mantel"],
+        "suggestions": [
+          "Die Adjektive sind funktional. 'Hellen Mantel' könnte durch ein spezifischeres Kleidungsstück ersetzt werden, das mehr über den Charakter aussagt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["sagte er"],
+        "suggestions": [
+          "Die Dialoge sind sehr reduziert und effektiv. Die Kennzeichnungen sind sparsam eingesetzt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["eher so", "so gut wie"],
+        "suggestions": [
+          "Der Text ist sehr präzise. Keine nennenswerten Füllwörter, die den Lesefluss stören."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["als hätte sie keine Eile"],
+        "suggestions": [
+          "Die zeitlichen Abläufe sind klar strukturiert. Keine Überladung durch 'während' oder 'gleichzeitig'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["war nicht das Thema", "war spröde geworden"],
+        "suggestions": [
+          "Die Passivkonstruktionen sind minimal. 'Der Motor war nicht das Thema' könnte aktiver formuliert werden, z.B.: 'Beim Motor ging es nicht um den Motor.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er hatte nie begriffen, dass man an einer Fähre nichts reparieren lassen konnte, ohne dass sich danach alles andere veränderte."
+        ],
+        "suggestions": ["Die Satzlängen sind gut variiert und rhythmisch angenehm."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Ich habe dir zweimal geschrieben\" / „Einmal.\""],
+        "suggestions": ["Sehr prägnante Dialogführung, die den Subtext exzellent transportiert."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Sie dachte an die Überfahrt um sieben"],
+        "suggestions": [
+          "Statt 'Sie dachte an...', beschreibe das Bild der Überfahrt direkt (z.B. 'Vor ihrem inneren Auge sah sie die Überfahrt...'), um den Leser tiefer in Ilses Wahrnehmung zu ziehen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Motor / Motorkasten"],
+        "suggestions": [
+          "Die Wortwahl ist abwechslungsreich. Keine störenden inhaltlichen Doppelungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

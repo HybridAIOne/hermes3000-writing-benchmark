@@ -1,0 +1,128 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__claude-opus-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ein Café am Bahnhof. MARTIN sitzt am Fenster. JONAS tritt an den Tisch, die Jacke noch an.“",
+          "„Ist hier frei?“ – „War es die ganze Zeit.“"
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Er beginnt unmittelbar mit der Begegnung und vermittelt die Vorgeschichte durch Subtext statt durch Erklärungen.",
+          "Nicht später einsetzen: Die ersten beiden Repliken etablieren bereits Martins Verletzung und das Motiv des Wartens."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„die Jacke noch an“", "„Jonas zieht langsam die Jacke aus“"],
+        "suggestions": [
+          "Die sparsame Verwendung beibehalten. „Noch“ bereitet das spätere Ablegen der Jacke vor und ist funktional.",
+          "„Langsam“ nur streichen, wenn das Zögern vollständig dem Spiel überlassen werden soll; hier unterstützt es den emotionalen Wendepunkt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„JONAS:“ und „MARTIN:“ als eindeutige Sprecherkennzeichnungen",
+          "„JONAS: nach einer Weile Nein.“"
+        ],
+        "suggestions": [
+          "Die Sprecherkennzeichnungen im dramatischen Format beibehalten; sie sind keine überflüssigen Redeeinleitungen.",
+          "Regieeinschübe weiterhin auf Handlungen, Pausen und Blickrichtungen beschränken, die den Subtext verändern."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Hat ein bisschen gedauert.“",
+          "„Zwei. Und ein paar Monate.“",
+          "„Man muss erst mal hinkommen.“"
+        ],
+        "suggestions": [
+          "„Ein bisschen“ und „ein paar“ beibehalten: Jonas verharmlost damit die vergangene Zeit; die Unschärfe charakterisiert ihn.",
+          "Allenfalls „erst mal“ zu „erst“ kürzen, falls eine knappere, weniger umgangssprachliche Replik gewünscht ist."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Die Kellnerin kommt. Jonas schüttelt den Kopf. Sie geht.“",
+          "„legt das Foto zurück ins Buch, klappt es zu“",
+          "„zur Kellnerin, ohne Martin anzusehen“"
+        ],
+        "suggestions": [
+          "Die klare Abfolge kurzer Handlungsschritte beibehalten.",
+          "„Ohne Martin anzusehen“ nicht in eine separate Handlung auflösen: Die Blickvermeidung während der Bestellung trägt zur Bedeutung des Schlusses bei."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Er legt ein Buch auf den Tisch und schiebt es nicht hinüber.“",
+          "„Ein Foto fällt heraus.“"
+        ],
+        "suggestions": [
+          "Keine Überarbeitung nötig: Die Handlungen sind aktiv und unmittelbar formuliert.",
+          "Die konkreten Handlungsträger auch bei späteren Ergänzungen beibehalten."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Martin rührt in der Tasse, obwohl nichts drin ist zum Umrühren.“",
+          "„Martin schlägt das Buch auf. Ein Foto fällt heraus. Beide sehen es an. Keiner hebt es auf.“"
+        ],
+        "suggestions": [
+          "Die kurzen Sätze beibehalten; ihre Taktung schafft Raum für das Spiel.",
+          "Den Satz über das Umrühren nicht allein wegen seines Nebensatzes teilen: Er ist übersichtlich und verbindet Handlung und Widerspruch wirkungsvoll."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Wirklich?“ – „Nein.“ – „Wenigstens das.“",
+          "„Du hättest anrufen können.“ – „Du auch.“"
+        ],
+        "suggestions": [
+          "Keine pauschale Straffung vornehmen: Die Repliken sind bereits knapp und erfüllen jeweils eine dramatische Funktion.",
+          "Die unausgesprochene Vorgeschichte nicht durch nachträgliche Erklärdialoge ergänzen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Beide sehen es an. Keiner hebt es auf.“", "„Draußen fährt ein Zug ein.“"],
+        "suggestions": [
+          "Die unmittelbare Darstellung beibehalten; Wahrnehmungsfilter wie „Martin bemerkt, dass …“ fehlen.",
+          "„Beide sehen es an“ nicht als unnötigen Wahrnehmungsfilter streichen: Im Bühnentext ist dies eine spielbare Blickhandlung, die das anschließende Nichtaufheben vorbereitet."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Du trinkst ihn immer noch schwarz.“ und „Doch. Einen. Schwarz.“",
+          "„die Jacke noch an“ und „Jonas zieht langsam die Jacke aus“",
+          "„Pause.“ und später „Stille.“"
+        ],
+        "suggestions": [
+          "Die Wiederaufnahme von Kaffee und Jacke unbedingt erhalten: Sie zeigt Jonas’ Veränderung, ohne sie auszusprechen.",
+          "Bei einer Inszenierungsfassung prüfen, ob „Pause“ und „Stille“ unterschiedliche Spielqualitäten verlangen. Beide stehen jedoch an eigenständigen Wendepunkten und sind keine bloße Doppelung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.017314
+}

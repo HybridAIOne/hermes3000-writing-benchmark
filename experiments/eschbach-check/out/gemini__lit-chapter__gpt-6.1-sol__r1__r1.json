@@ -1,0 +1,113 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel hing so tief, dass Ilse das andere Ufer nicht sah.",
+          "Sie stieß mit der Schuhspitze gegen den Keil am Steuerhaus. Er saß fest."
+        ],
+        "suggestions": [
+          "Der Einstieg ist hervorragend. Er verortet die Szene sofort atmosphärisch und zeigt die Protagonistin in Aktion (Show, don't tell). Die ruhige Arbeitsroutine dient als perfekter Kontrast für den emotionalen Bruch am Ende."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Frau ging vorsichtig über das nasse Blech.",
+          "Dann ging die Frau, mit schnellen kleinen Schritten.",
+          "Seine Finger lagen rot auf dem Lenker."
+        ],
+        "suggestions": [
+          "Sehr präziser und sparsamer Einsatz. 'Seine Finger lagen rot auf dem Lenker' ist ein exzellentes Bild für Kälte. Einzig 'ging vorsichtig' könnte durch ein präziseres Verb (z.B. 'tastete sich') ersetzt werden, und 'schnellen kleinen Schritten' ließe sich zu 'trippelte' oder 'eilte' verdichten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ilse sah an ihm vorbei auf den Transporter. „Wenn Sie draufstehen.“",
+          "Die Frau klopfte an die offene Tür. „Ist das immer so dicht hier?“ „Heute schon.“"
+        ],
+        "suggestions": [
+          "Meisterhaft gelöst. Auf fast alle Inquits ('sagte sie') wird verzichtet, da die Sprecher durch Handlungen (Action Tags) und den Kontext jederzeit glasklar zuzuordnen sind."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie hielt ihn einen Moment im Mund", "Nach einer Weile erschien der Pfosten"],
+        "suggestions": [
+          "Der Text ist extrem sauber und frei von klassischen Füllwörtern. Nur die vagen Zeitangaben 'einen Moment' und 'Nach einer Weile' könnten noch etwas konkreter gefasst oder ganz gestrichen werden (z.B. 'Sie behielt ihn im Mund und schluckte erst, als er abkühlte')."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Einer fiel ihr in den Kragen, als sie die Tür aufschloss.",
+          "Erst als er den Motor abgestellt und die Handbremse angezogen hatte, wandte sie sich um."
+        ],
+        "suggestions": [
+          "Sehr gute Chronologie der Handlungen. Es gibt kein falsches 'Während'-Konstrukt. Den Satz mit dem Tropfen könnte man noch direkter nacheinander abfolgen lassen: 'Sie schloss die Tür auf. Ein Tropfen fiel ihr in den Kragen.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Das Brummen wanderte flussabwärts, ohne dass ein Rumpf sichtbar wurde."],
+        "suggestions": [
+          "Keine echten Passivkonstruktionen vorhanden. Selbst das 'sichtbar wurde' ist hier absolut passend, da das Schiff im Nebel verborgen bleibt. Sehr aktive, handlungsorientierte Sprache."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Er saß fest.", "Draußen knirschten Reifen.", "Sechs Uhr vierzig."],
+        "suggestions": [
+          "Der Satzbau ist rhythmisch perfekt auf die karge Atmosphäre und die schweigsame Protagonistin abgestimmt. Kurze, klare Sätze wechseln sich harmonisch mit mittellangen Beschreibungen ab."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Schieben“, sagte Ilse. „Mach ich doch.“ „Ganz.“",
+          "„Mit dem Auto müsste ich außenrum.“ „Ja.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind auf das absolute Minimum reduziert und sitzen auf den Punkt. Sie charakterisieren Ilse als wortkarge, pflichtbewusste Frau perfekt, ohne je geschwätzig zu wirken."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse erkannte den Sprung im rechten Scheinwerfer, noch ehe der Fahrer das Licht abblendete.",
+          "Durch die Scheibe sah sie den Jungen mit dem Fuß gegen seinen Reifen drücken. Er prüfte, wie weit das Gummi nachgab."
+        ],
+        "suggestions": [
+          "Überwiegend sehr unmittelbare Wahrnehmung. Zwei Stellen ließen sich noch direkter formulieren (Filterwörter streichen): Statt 'sah sie den Jungen drücken' besser direkt: 'Durch die Scheibe drückte der Junge...'. Und 'Er prüfte, wie weit...' ist streng genommen ein Perspektivbruch (Ilse kann nicht wissen, was er prüft) – besser nur beschreiben: 'Das Gummi gab kaum nach.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "DerNebel hing so tief, dass Ilse das andere Ufer nicht sah. Vom Wasser blieb ein grauer Streifen vor der Klappe, dahinter war nichts.",
+          "Auf dem Blechdach sammelten sich Tropfen. [...] Auf den Kappen lagen kleine Wasserperlen. [...] Am Seil standen Tropfen [...] Ein Tropfen löste sich von der Dachkante"
+        ],
+        "suggestions": [
+          "Im ersten Absatz sagen Satz 1 und 2 fast dasselbe aus (Sichtweite gleich null). Das 'Tropfen'-Motiv kommt sehr oft vor – es funktioniert zwar gut als atmosphärisches Leitmotiv für die Nässe, könnte aber an einer Stelle (z.B. beim Seil oder dem Beutel der Frau) gestrichen werden, um die Wirkung nicht abzunutzen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020212
+}

@@ -1,0 +1,132 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__kimi-k3__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Jonas steht, als Miriam eintritt. Sie bleibt in der Tür stehen.“",
+          "„Du bist gekommen.“ – „Du hast geschrieben.“"
+        ],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Miriams Zögern und der erste Wortwechsel etablieren die Spannung ohne Vorgeschichte.",
+          "Allenfalls „Zwei Tische am Fenster, einer ist frei“ streichen, falls die Tischanordnung für die Inszenierung keine Bedeutung hat."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ein kleines Café am Stadtrand.“",
+          "„Langes Schweigen.“",
+          "„(sieht ihn zum ersten Mal direkt an)“"
+        ],
+        "suggestions": [
+          "Die sparsame Verwendung beibehalten. „Langes“ steuert das Spieltempo, „zum ersten Mal direkt“ markiert den Beziehungsumschwung.",
+          "„Kleines“ ist verzichtbar, sofern die räumliche Enge keine dramaturgische Funktion erfüllen soll."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„JONAS: Du bist gekommen.“", "„MIRIAM: (zögert) Wie geht es deiner Mutter?“"],
+        "suggestions": [
+          "Die Figurenbezeichnungen beibehalten: Im dramatischen Format sind sie funktionale Sprecherzuweisungen, keine überflüssigen Redeeinleitungen.",
+          "Regieanweisungen weiterhin auf spielbare Handlungen und bedeutsame Pausen beschränken."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Setz dich doch.“",
+          "„Noch einen Kaffee vielleicht.“",
+          "„Dann haben wir ja Zeit.“"
+        ],
+        "suggestions": [
+          "„Doch“, „vielleicht“ und „ja“ nicht pauschal streichen: Sie transportieren hier Einladung, vorsichtige Annäherung und Erleichterung.",
+          "Bei einer Straffung prüfen, ob „Dann haben wir Zeit“ zur gewünschten Sprechweise von Jonas passt; die nüchternere Fassung verändert allerdings den Ton."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Jonas steht, als Miriam eintritt.“", "„Beide bestellen gleichzeitig.“"],
+        "suggestions": [
+          "Das gemeinsame Bestellen unbedingt als gleichzeitige Handlung erhalten: Es macht die frühere Vertrautheit unmittelbar sichtbar.",
+          "Keine künstliche Aufteilung in aufeinanderfolgende Handlungen vornehmen; die wenigen zeitlichen Verknüpfungen sind klar und funktional."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Jonas dreht den Zuckerstreuer in den Fingern.“",
+          "„Miriam greift nach ihrem Mantel, legt ihn dann doch über die Stuhllehne.“",
+          "„Wir haben sie nur nie benutzt.“"
+        ],
+        "suggestions": [
+          "Die aktive, konkrete Handlungsführung beibehalten. Es gibt keine auffälligen Passivkonstruktionen.",
+          "Auch „Es wird regnen“ und „Er wird kalt“ benötigen keine Aktivierung: Beide Formulierungen sind kein Passiv."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Sie wohnt noch am selben Ort. Wir wohnen alle noch am selben Ort, Miriam.“",
+          "„Miriam greift nach ihrem Mantel, legt ihn dann doch über die Stuhllehne.“"
+        ],
+        "suggestions": [
+          "Den knappen Satzbau beibehalten; er unterstützt die vorsichtige, stockende Gesprächsführung.",
+          "Die Mantelbewegung nicht zwingend aufteilen: Der übersichtliche Satz verbindet Aufbruchsimpuls und Gegenentscheidung wirkungsvoll."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Sag es ihr selbst. Sie wohnt noch am selben Ort. Wir wohnen alle noch am selben Ort, Miriam.“",
+          "„Bist du glücklich? Da, wo du jetzt bist?“ – „Bist du es? Hier, wo du geblieben bist?“"
+        ],
+        "suggestions": [
+          "Keine generelle Kürzung nötig: Die Repliken sind kurz und entwickeln den Konflikt durch Ausweichen und Gegenfragen.",
+          "Jonas’ etwas längere Äußerung über den gemeinsamen Wohnort erhalten; sie verdichtet seinen Vorwurf, ohne zum erklärenden Monolog zu werden."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„(schaut aus dem Fenster)“",
+          "„(sieht ihn zum ersten Mal direkt an)“",
+          "„Draußen fängt es an zu regnen.“"
+        ],
+        "suggestions": [
+          "Die unmittelbare Darstellung beibehalten: Der Text zeigt Handlungen und Ereignisse statt vorgeschalteter Wahrnehmungsberichte.",
+          "Die Blickanweisungen nicht als Wahrnehmungsfilter streichen; sie beschreiben spielbares Verhalten und tragen den Subtext."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Natürlich. Um vier.“ / „Um vier musst du los.“",
+          "„Sie wohnt noch am selben Ort. Wir wohnen alle noch am selben Ort, Miriam.“",
+          "„Dann haben wir ja Zeit.“ – „Zeit hatten wir schon immer. […] Wir haben sie nur nie benutzt.“",
+          "„Es regnet.“ / „Es regnet nicht.“ / „Es wird regnen.“ / „Draußen fängt es an zu regnen.“"
+        ],
+        "suggestions": [
+          "Die Wiederholungen überwiegend erhalten: Uhrzeit, Wohnort und Regen verändern im Verlauf ihre Bedeutung und sind keine bloßen Informationsdoppelungen.",
+          "Bei der Überarbeitung vor allem die Schlussreplik prüfen: „Wir haben sie nur nie benutzt“ erklärt den Zeitgedanken ausdrücklich. Eine mögliche offenere Fassung wäre: „Zeit hatten wir schon immer.“",
+          "Den abschließenden Regen bewusst auf seine Wirkung prüfen: Er schließt das Motiv stimmig, kann zusammen mit der Zeit-Pointe aber etwas stark arrangiert wirken."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018808
+}

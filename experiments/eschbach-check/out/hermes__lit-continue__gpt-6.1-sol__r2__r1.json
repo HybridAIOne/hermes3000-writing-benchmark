@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gpt-6.1-sol__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Er läuft“, sagte sie."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er direkt in die Handlung wirft und Spannung erzeugt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["dünnen Mantel", "kleinen Wellen"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und atmosphärisch. Sie könnten noch konsequenter gestrichen werden, wo das Substantiv bereits stark genug ist (z.B. 'dünnen' bei Mantel), aber hier stören sie nicht."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["„sagte sie“, „rief sie“, „fragte sie“"],
+        "suggestions": [
+          "Die Marker sind unaufdringlich. Am Ende könnte man „sagte sie“ streichen, da durch die Handlung (Tür öffnen) klar ist, wer spricht."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["eigentlich", "vielleicht", "ziemlich"],
+        "suggestions": ["Der Text ist erfreulich frei von Füllwörtern. Sehr präzise."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Beim Festziehen war ihr Wasser in den Ärmel gelaufen", "Als sie ablegten"],
+        "suggestions": [
+          "Die Gleichzeitigkeit wird sparsam eingesetzt. Die Struktur ist klar und gut lesbar."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Unter der Plane hatte sich Regenwasser gesammelt."],
+        "suggestions": ["Der Text ist fast vollständig aktiv formuliert. Sehr gut."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als Kind hatte er jede Überfahrt vorn am Gatter gestanden, auch im November, auch wenn Henning ihn zurückgerufen hatte."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind abwechslungsreich und unterstützen den Rhythmus der Szene."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Heb ihn doch.“ „Ist schwer.“"],
+        "suggestions": [
+          "Die Dialoge sind knackig, realistisch und treiben die Charakterisierung voran."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie sah ihn an.", "sah sie den Jungen wieder"],
+        "suggestions": [
+          "Die Wahrnehmung ist meist direkt. Man könnte 'Sie sah ihn an' noch durch eine spezifischere Handlung ersetzen, um das 'Sehen' zu zeigen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["keine signifikanten Doppelungen"],
+        "suggestions": ["Der Text ist sehr sauber und frei von inhaltlichen Redundanzen."]
+      }
+    }
+  },
+  "costUsd": 0
+}

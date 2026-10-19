@@ -1,0 +1,131 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__gpt-6-luna__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Szene setzt direkt mit dem Treffen ein: \"Du bist pünktlich.\"",
+          "Die Regieanweisung \"Vor dem geschlossenen Café. Regen. Mara hält zwei Pappbecher.\" etabliert Ort und Situation in wenigen Worten, ohne Anreise oder Vorgeschichte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist optimal gewählt. Die Vorgeschichte (Trennung, Nachricht) erschließt sich aus dem Subtext. Ein noch späterer Einstieg würde das Ritual des Kaffeereichens kosten, das die Beziehung charakterisiert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "\"geschlossenen Café\" ist funktional, denn es erklärt, warum beide draußen stehen.",
+          "\"Er nimmt ihn nicht sofort.\" Das Adverb \"sofort\" trägt hier Bedeutung (Zögern).",
+          "\"Dann gehen wir einfach.\" Das \"einfach\" ist charakterisierend, aber verzichtbar."
+        ],
+        "suggestions": [
+          "Adjektive und Adverbien werden sparsam und gezielt eingesetzt.",
+          "Optional: \"Er nimmt ihn nicht sofort\" durch ein präzises Verb ersetzen, etwa \"Er zögert.\""
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Skriptformat ordnet Sprecher über Namen zu; es gibt keine überflüssigen Redeeinleitungen wie \"sagte sie leise\".",
+          "\"(Er nimmt den Becher.)\" Die Regieanweisung ist knapp und nötig, da sie das vorherige Zögern auflöst."
+        ],
+        "suggestions": [
+          "Bei einer Übertragung in Prosa könnten die meisten Sprecherzuordnungen entfallen, da der Wechsel im Zwiegespräch eindeutig ist. Einzelne Handlungsbeats (Becher, Bus) reichen als Anker."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "\"Daniel: Vielleicht.\" Das ist ein bewusst unpräzises Wort, das hier jedoch als Subtext funktioniert (der Kaffee ist nicht das Bittere).",
+          "\"Lass nur. Ich hab ihn ja genommen.\" Das Füllwort \"ja\" ist umgangssprachlich und figurengerecht.",
+          "\"Ich tue gar nichts.\"",
+          "\"Wir könnten ein Stück gehen.\""
+        ],
+        "suggestions": [
+          "Die vagen Wörter sind überwiegend absichtsvoll und charakterisieren die ausweichende Kommunikation. Prüfen, ob \"ja\" in \"Ich hab ihn ja genommen\" nötig ist. \"Ich hab ihn genommen.\" klingt härter und konsequenter."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Es gibt keine Konstruktionen mit \"während\" oder \"gleichzeitig\". Handlungen werden nacheinander gezeigt.",
+          "\"Daniel wartet einen Moment. Dann tritt er neben sie.\" Die Abfolge ist vorbildlich.",
+          "\"Sie sieht ihn an. Er blickt auf den Becher.\" Diese Handlungen sind implizit gleichzeitig, aber sauber getrennt."
+        ],
+        "suggestions": [
+          "Kein Handlungsbedarf. Die sequenzielle Darstellung unterstützt den langsamen, stockenden Rhythmus der Begegnung."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Es gibt keine Passivkonstruktionen.",
+          "\"Sie haben die Fenster neu gestrichen.\" Der Satz steht im Aktiv mit unbestimmtem \"sie\", natürlich und mündlich."
+        ],
+        "suggestions": ["Kein Handlungsbedarf."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die längsten Sätze sind \"Du musst nicht so tun, als wäre das eine Nachricht wie jede andere.\" und \"Und deine, alles stehen zu lassen, bis jemand anders es aufhebt.\" Beide sind gut lesbar und rhetorisch zugespitzt.",
+          "Regieanweisungen bestehen durchgehend aus kurzen Hauptsätzen."
+        ],
+        "suggestions": [
+          "Die durchgehende Kürze erzeugt Spannung. Darauf achten, dass der Staccato-Rhythmus über eine längere Szene nicht monoton wird. Ein einzelner längerer Satz an einer emotionalen Spitze (etwa Daniels Vorwurf) kann gezielt Kontrast schaffen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Die Repliken sind durchgehend kurz und subtextreich.",
+          "Der Kaffee-Austausch (\"Ist bitter.\" / \"Der Kaffee?\" / \"Vielleicht.\" / \"Ich kann dir einen anderen holen.\" / \"Lass nur. Ich hab ihn ja genommen.\") ist stark, zieht sich aber minimal.",
+          "\"Ich bin nicht lange in der Stadt.\" / \"Das hast du schon geschrieben.\" / \"Ich dachte, du solltest es wissen.\" / \"Danke.\""
+        ],
+        "suggestions": [
+          "Den Kaffee-Austausch eventuell nach \"Vielleicht.\" enden lassen oder \"Ich kann dir einen anderen holen\" streichen, damit die Pointe nachhallt.",
+          "\"Ich dachte, du solltest es wissen.\" erklärt Maras Motiv explizit. Prüfen, ob \"Danke\" direkt auf \"Das hast du schon geschrieben\" folgen kann, ohne dass Bedeutung verloren geht."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Es gibt keine Konstruktionen wie \"sie sah, dass\" oder \"er dachte, dass\". Wahrnehmung wird als Handlung gezeigt.",
+          "\"Sie beobachtet ihn.\" ist etwas allgemein und zeigt nicht, was sie wahrnimmt.",
+          "\"Ich wusste nicht, ob du noch—\" Hier ist die Wahrnehmung im Dialog gebrochen, was als Subtext gut funktioniert."
+        ],
+        "suggestions": [
+          "\"Sie beobachtet ihn.\" könnte konkreter werden, etwa \"Ihr Blick bleibt an seiner Hand hängen.\" So wird sichtbar, worauf sie achtet."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "\"Becher\" bzw. \"Pappbecher\" erscheint in den Regieanweisungen sechsmal: \"zwei Pappbecher\", \"einen Becher\", \"den Becher\", \"ihren Becher\", \"auf den Becher\", \"ihren Becher wieder\".",
+          "Das Motiv \"Früher\" taucht dreimal auf: \"Früher wärst du...\", \"Früher hattest du...\", \"Früher war es das.\" Das ist als Leitmotiv angelegt, aber dicht.",
+          "\"Du hast geschrieben, halb vier.\" und \"Das hast du schon geschrieben.\" Die Wiederholung ist gewollt, könnte aber den Vorwurf abschwächen.",
+          "\"Nicht dieses Blau.\" / \"Nein. Nicht dieses.\" Diese Wiederholung ist bewusst und wirkungsvoll."
+        ],
+        "suggestions": [
+          "In den Regieanweisungen einzelne \"Becher\" ersetzen oder Anweisungen straffen, etwa \"Er nimmt ihn.\" statt \"Er nimmt den Becher.\"",
+          "Das \"Früher\"-Motiv beibehalten, aber prüfen, ob die ersten beiden Vorkommen direkt hintereinander nötig sind. Das finale \"Früher war es das\" gewinnt an Wucht, wenn das Wort vorher seltener fällt.",
+          "Beabsichtigte Echos (Blau, Geschrieben) beibehalten, da sie die Beziehungsdynamik tragen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.098028
+}

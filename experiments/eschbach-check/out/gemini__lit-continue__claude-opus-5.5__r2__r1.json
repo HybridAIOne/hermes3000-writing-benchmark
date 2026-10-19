@@ -1,0 +1,119 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__claude-opus-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Er läuft“, sagte Ilse."],
+        "suggestions": [
+          "Exzellenter Einstieg *in medias res*. Der Leser ist sofort im Gespräch und auf der Fähre, die Exposition (Motor, Fluss, Beziehung) wird organisch nachgereicht."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "das leise Singen des Seils",
+          "aus einem weichen Leder, das die Nässe schon dunkel fleckte",
+          "die braunen Wirbel"
+        ],
+        "suggestions": [
+          "Sehr sparsamer und treffender Einsatz. Einzig bei 'leise Singen' könnte 'leise' gestrichen werden, da ein Drahtseil ohnehin nicht laut singt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ich hab angerufen“, sagte Jonas. „Dreimal.“",
+          "„Die Stiefel von deinem Vater stehen im Flur“, sagte sie."
+        ],
+        "suggestions": [
+          "Fast perfekt gelöst, meist übernehmen Handlungen (Action Tags) die Zuordnung. Die beiden genannten 'sagte Jonas' und 'sagte sie' sind streng genommen entbehrlich, da der Sprecher aus dem Kontext völlig klar ist, sie dienen hier aber gut dem Satzrhythmus."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "irgendwo drüben im Weidengebüsch verschwand",
+          "und ein wenig nach dem Regen von letzter Nacht",
+          "ein Stück näher an die Kante",
+          "der Lack ganz weg"
+        ],
+        "suggestions": [
+          "Der Text hat eine sehr natürliche Erzählstimme, zu der diese leichten Unschärfen passen. Nach strenger Eschbach-Regel könnte man jedoch straffen: 'drüben im Weidengebüsch' (ohne irgendwo), 'und nach dem Regen' (ohne ein wenig), 'der Lack weg' (ohne ganz)."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die nächste Fahrt war erst in zwanzig Minuten fällig, wenn der Bus aus Dannenberg kam"
+        ],
+        "suggestions": [
+          "Hervorragend. Alle Handlungen sind sauber nacheinander aufgereiht. Es gibt keine falschen Gleichzeitigkeiten mit 'während' oder 'indem'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["wenn er beim Lügen erwischt worden war"],
+        "suggestions": [
+          "Der gesamte Text ist dynamisch und aktiv formuliert. Das einzige Passiv im Text ist inhaltlich absolut gerechtfertigt, da Jonas in dieser Erinnerung das Objekt des Erwischtwerdens ist."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie dachte an das Bett im Giebelzimmer, das sie nicht bezogen hatte, an den Kühlschrank mit dem halben Brot und den drei Eiern, an Hennings Gummistiefel, die noch immer neben der Tür standen, weil sie nicht wusste, wohin damit."
+        ],
+        "suggestions": [
+          "Die längeren Sätze sind sehr rhythmisch gebaut und leicht verständlich. Keine unübersichtlichen Schachtelsätze vorhanden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Willst du nicht wenigstens Hallo sagen?“ – „Hallo, Jonas.“",
+          "„Das Telefon ist im Haus.“ – „Ich weiß, wo das Telefon ist, Mama.“"
+        ],
+        "suggestions": [
+          "Meisterhafter Dialog. Extrem knapp, norddeutsch-lakonisch und voller Subtext. Kein Wort zu viel."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Ilse wusste, dass das etwas bedeutete, und sie wusste auch, dass sie es nicht wissen wollte.",
+          "Sie dachte an das Bett im Giebelzimmer...",
+          "man sah es an der Art, wie er die Zehen hob."
+        ],
+        "suggestions": [
+          "Hier gibt es leichtes Optimierungspotenzial für noch mehr Unmittelbarkeit (erlebte Rede).",
+          "Statt 'man sah es an der Art, wie er die Zehen hob' direkter: 'Er hob die Zehen in den Schuhen.'",
+          "Statt 'Sie dachte an das Bett...' direkter: 'Das Bett im Giebelzimmer war nicht bezogen, im Kühlschrank lagen nur ein halbes Brot und drei Eier, und Hennings Gummistiefel standen noch immer...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Henning hätte etwas dazu gesagt. Henning hätte überhaupt etwas gesagt...",
+          "Ilse wusste, dass das etwas bedeutete, und sie wusste auch, dass sie es nicht wissen wollte."
+        ],
+        "suggestions": [
+          "Keine ungewollten inhaltlichen Doppelungen. Die vorhandenen Wortwiederholungen sind bewusste rhetorische Stilmittel, die hervorragend funktionieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016722
+}

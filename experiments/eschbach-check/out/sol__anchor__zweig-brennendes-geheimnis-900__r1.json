@@ -1,0 +1,147 @@
+{
+  "who": "sol",
+  "item": "anchor__zweig-brennendes-geheimnis-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Die Lokomotive schrie heiser auf: der Semmering war erreicht.",
+          "Im Hotel war der erste Weg des jungen Mannes zu der Liste der anwesenden Gäste, die er -- bald enttäuscht -- durchflog."
+        ],
+        "suggestions": [
+          "Für einen konfliktorientierten Einstieg direkt mit der Gästeliste beginnen: Hier treffen sein Wunsch nach Gesellschaft und seine Enttäuschung aufeinander.",
+          "Soll die atmosphärische Anreise erhalten bleiben, Zugankunft und Fiakerfahrt deutlich kürzen. Die bewegte Frühlingslandschaft spiegelt seine Unruhe, benötigt dafür aber nicht den gesamten zweiten Absatz."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Rein ausgespannt, mit klaren, vom nassen Wind reingefegten Hintergründen lag wieder die hingebreitete Landschaft.",
+          "jene weißen, selbst noch jungen und flattrigen Gesellen",
+          "der kalten, berechnenden und gefährlichen"
+        ],
+        "suggestions": [
+          "Bei jeder Häufung das prägnanteste Attribut auswählen. Besonders „ausgespannt“ und „hingebreitete“ vermitteln ähnliche räumliche Eindrücke.",
+          "Die personifizierten Wolken mit wenigen charakteristischen Verben zeichnen, statt ihre Jugend und Unruhe zusätzlich mehrfach zu benennen.",
+          "Nicht pauschal streichen: „heiser“ und „rasselnd“ tragen beispielsweise zur akustischen Gestaltung der Zugankunft bei."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Wozu bin ich eigentlich hier«, begann es unruhig in ihm zu fragen."],
+        "suggestions": [
+          "Die einzige Redeeinleitung kennzeichnet einen inneren Monolog, keinen gesprochenen Dialog. Sie kann entfallen, wenn der Gedanke unmittelbar an das enttäuschte Durchsehen der Gästeliste anschließt.",
+          "Alternativ knapper formulieren: „Wozu bin ich eigentlich hier?, fragte er sich.“"
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "durchaus gesellschaftliche Natur",
+          "ohne jegliches Bedürfnis",
+          "Wenn man solche Menschen mit einer gewissen leichtfertigen Verächtlichkeit Frauenjäger nennt",
+          "denn tatsächlich, alle leidenschaftlichen Instinkte der Jagd"
+        ],
+        "suggestions": [
+          "Verstärker wie „durchaus“ und „jegliches“ probeweise streichen; die Aussagen bleiben weitgehend erhalten.",
+          "„Mit einer gewissen leichtfertigen Verächtlichkeit“ zu „leichtfertig und verächtlich“ verdichten.",
+          "Unbestimmtheit nicht automatisch als Fehler behandeln: „ein paar Frauen“ und „irgendein kleiner [...] Flirt“ charakterisieren gerade die Beliebigkeit seiner Wünsche."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Verstimmt ging er in der leeren Hall auf und ab, bald unschlüssig in den Zeitungen blätternd, bald wieder im Musikzimmer am Klavier einen Walzer antastend",
+          "Keine Bekannten, nur dort -- er gab lässig einen Gruß zurück -- ein Trainer"
+        ],
+        "suggestions": [
+          "Keine auffällige Häufung von „während“, „als“ oder „gleichzeitig“. Die Landschaftsschilderung darf mehrere gleichzeitige Eindrücke bündeln.",
+          "Die wechselnden Beschäftigungen im Hotel durch eigenständige Sätze zeitlich klarer ordnen: „Er blätterte in den Zeitungen. Im Musikzimmer versuchte er einen Walzer.“",
+          "Den eingeschobenen Gruß bei Bedarf auslagern, damit Beobachtung und Reaktion leichter erfassbar werden."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "der Semmering war erreicht",
+          "die er -- bald enttäuscht -- durchflog",
+          "dann schrie vorne wieder die heisere Maschine und riß die schwarze Kette rasselnd in die Höhle des Tunnels hinab"
+        ],
+        "suggestions": [
+          "Der Text arbeitet überwiegend aktiv; eine systematische Überarbeitung ist hier nicht nötig.",
+          "Das Zustandspassiv am Anfang lässt sich zu „Die Lokomotive erreichte den Semmering“ ändern. Dabei prüfen, ob der Verlust des markanten Ankunftsrhythmus die Änderung rechtfertigt."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Jene weißen, unruhigen Wolken flatterten am Himmel, die nur der Mai und der Juni hat, jene weißen, selbst noch jungen und flattrigen Gesellen",
+          "Er war einer jener jungen Menschen, deren hübschem Gesicht viel geglückt ist und in denen nun beständig alles für eine neue Begegnung, ein neues Erlebnis bereit ist",
+          "Es gibt unter ihnen Beharrliche, denen weit über die Jugend hinaus das ganze Leben durch diese Erwartung zum ewigen Abenteuer wird"
+        ],
+        "suggestions": [
+          "Den Wolkensatz nach der Einführung des Mai-und-Juni-Motivs teilen und die anschließenden Bewegungsbilder auf zwei Sätze verteilen.",
+          "Die lange Charakterisierung im Speisesaal nach einzelnen Aussagen gliedern: bisheriger Erfolg, Erwartung neuer Abenteuer, prüfender Blick auf Frauen.",
+          "Den Schlusssatz vor der Aufzählung sinnlicher Begegnungen und vor der abschließenden Lebensmetapher teilen.",
+          "Einzelne lange Sätze als Stilmittel bewahren; problematisch ist vor allem ihre Häufung in den reflektierenden Passagen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "»Wozu bin ich eigentlich hier«",
+          "»Allein hier auf dem Berg zu sein, ohne Gesellschaft, ist ärger als das Bureau.«",
+          "»Keinen einzigen bekannten Namen finde ich unter all den Leuten.«"
+        ],
+        "suggestions": [
+          "Ein eigentlicher Dialog fehlt; zu prüfen ist lediglich der innere Monolog.",
+          "Diesen auf Enttäuschung, fehlende Bekanntschaften und Flirtwunsch konzentrieren. „Ich habe nie Glück mit meinem Urlaub“ wiederholt vor allem den bereits erkennbaren Unmut.",
+          "Die umgangssprachlichen Partikeln im Gedankenstrom eher erhalten als in der Erzählerrede: Sie unterstützen die Figurenstimme."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Manchmal schien auch Duft von Schnee kühl aus den Bergen herüberzukommen, dann spürte man im Atem etwas, das süß und scharf war zugleich.",
+          "Schließlich setzte er sich verdrossen hin, sah hinaus, wie das Dunkel langsam niederfiel, der Nebel als Dampf grau aus den Fichten brach.",
+          "Er wußte, daß er die Reibfläche von Menschen brauchte"
+        ],
+        "suggestions": [
+          "Sinneseindrücke unmittelbarer formulieren: „Kühler Schneeduft kam aus den Bergen herüber, süß und scharf zugleich.“ Dabei entfällt allerdings die ursprüngliche Unsicherheit von „schien“.",
+          "Nach dem Hinsetzen direkt zur Außenwelt wechseln: „Das Dunkel fiel langsam nieder. Grauer Nebel brach aus den Fichten.“",
+          "„Er wußte, daß“ streichen, wenn seine bewusste Selbsterkenntnis nicht eigens betont werden soll: „Er brauchte die Reibfläche von Menschen.“"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "sich seiner Unfähigkeit zur Einsamkeit voll bewußt",
+          "In ihm war keine Neigung, sich selber allein gegenüberzustehen",
+          "weil er intimere Bekanntschaft mit sich selbst gar nicht wollte",
+          "Sie sind beständig auf dem Anstand, immer bereit und entschlossen",
+          "Sie sind immer geladen mit Leidenschaft"
+        ],
+        "suggestions": [
+          "Die Aussagen über Einsamkeit bündeln: Unfähigkeit zum Alleinsein und Vermeidung von Selbsterkenntnis unterscheiden sich, werden aber ausführlicher erläutert als nötig.",
+          "Das Zündholzbild als prägnanten Abschluss erhalten und dafür vorgelagerte Erklärungen reduzieren.",
+          "Den abschließenden Exkurs über Frauenjäger auf wenige unterscheidbare Aspekte kürzen: Wachsamkeit, Jagdtrieb und kalkulierte statt liebende Leidenschaft.",
+          "Bewusste Leitmotive nicht mit überflüssigen Doppelungen verwechseln: Die wiederkehrende Unruhe verbindet Landschaft und Figur; „beständig“, „immer“ und „ewig“ verstärken im Schlussabsatz dagegen mehrfach denselben Gedanken."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.026168
+}

@@ -1,0 +1,140 @@
+{
+  "who": "opus",
+  "item": "lit-scene__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel klemmte, wie er schon immer geklemmt hatte.",
+          "Der Einstieg setzt direkt an der Tür ein, ohne Anreise und ohne Vorgeschichte. Die zwanzig Jahre Abwesenheit kommen erst danach, knapp angedeutet."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten. Er ist spät gewählt, konkret und trägt bereits die Vergangenheit („wie er schon immer geklemmt hatte“).",
+          "Optional könnte die Szene direkt mit dem Anheben der Tür beginnen. Das würde aber den schönen Wiederholungseffekt des ersten Satzes opfern."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "nach Papier und ausgestandenem Kamin",
+          "ein dunkler, harter Rand eingebrannten Kaffees, rissig wie eine Trockenheit",
+          "dessen Holz unter ihren Fingern glatt war und kühl, abgegriffen",
+          "fein wie ein Schmutzfingerrad"
+        ],
+        "suggestions": [
+          "„ausgestandenem Kamin“ wirkt wie ein Wortfehler. Gemeint ist vermutlich „ausgekühltem“ oder „erkaltetem Kamin“.",
+          "„dunkler, harter Rand eingebrannten Kaffees“: „dunkler“ ist bei eingebranntem Kaffee redundant, „ein harter Rand eingebrannten Kaffees“ genügt.",
+          "„Schmutzfingerrad“ ist kein verständliches Wort. Ersetzen, etwa durch „fein wie ein Bleistiftstrich“.",
+          "„rissig wie eine Trockenheit“ ist unscharf. Präziser wäre „rissig wie ausgedörrter Boden“.",
+          "Die Adjektivkette am Handlauf straffen: „legte die Hand auf den Handlauf, abgegriffen dort, wo man beim Hinaufgehen zuerst Halt sucht“."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Text enthält keine Dialoge und damit keine Redeeinleitungen."],
+        "suggestions": [
+          "Kein Handlungsbedarf. Die abwesende Stimme („Keine Stimme aus der Küche“) wird wirkungsvoll durch Stille statt durch Rede erzählt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "den Koffer noch in der Hand",
+          "An der Garderobe hing noch der blaue Mantel.",
+          "Die Stille hatte Konsistenz, fast einen Geruch",
+          "und tat es dann doch nicht",
+          "als wäre erst vor einer Stunde jemand durch den Raum gegangen"
+        ],
+        "suggestions": [
+          "„noch“ taucht mehrfach auf. Beim Mantel ist es bedeutungstragend, beim Koffer verzichtbar: „den Koffer in der Hand“.",
+          "„und tat es dann doch nicht“ zu „und tat es nicht“ straffen.",
+          "„fast“ ist als bewusste Einschränkung vertretbar. Die Passage wirkt aber stärker ohne Relativierung: „Die Stille hatte Konsistenz, einen Geruch.“"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als sie das Kännchen wieder abstellte, war an ihrem Daumen ein schwarzer Streifen",
+          "Sie blieb auf der Schwelle stehen, den Koffer noch in der Hand, und wartete auf etwas, das nicht kam."
+        ],
+        "suggestions": [
+          "Die Handlungen sind überwiegend sauber nacheinander erzählt.",
+          "Der „Als“-Satz am Daumen ließe sich auflösen und würde die Entdeckung betonen: „Sie stellte das Kännchen ab. An ihrem Daumen: ein schwarzer Streifen.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Nicht weggeräumt, nicht verstaubt genug für zwanzig Jahre.",
+          "die Dinge, die man hätte wegräumen müssen"
+        ],
+        "suggestions": [
+          "Echte Passivsätze fehlen. Die Partizipien beim Espressokocher sind stilistisch gewollt und wirkungsvoll.",
+          "Die „man“-Konstruktion am Ende ist bewusst unpersönlich und passt zur Distanz der Figur. Belassen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Und doch: Als sie das Kännchen wieder abstellte, war an ihrem Daumen ein schwarzer Streifen, fein wie ein Schmutzfingerrad, und sie betrachtete ihn länger, als vernünftig war, bevor sie ihn am Mantel abstreifte.",
+          "Stattdessen ging sie zur Treppe, legte die Hand auf den Handlauf, dessen Holz unter ihren Fingern glatt war und kühl, abgegriffen an genau der Stelle, an der eine Hand beim Hinaufgehen zuerst Halt sucht.",
+          "Miriam musste die Tür mit der Schulter anheben, einen halben Zentimeter, die Bewegung kam aus einem Muskelgedächtnis, von dem sie nichts wusste."
+        ],
+        "suggestions": [
+          "Den Kaffee-Satz teilen: „Sie stellte das Kännchen ab. An ihrem Daumen klebte ein schwarzer Streifen. Sie betrachtete ihn länger, als vernünftig war, dann wischte sie ihn am Mantel ab.“",
+          "Beim Handlauf die doppelte Relativkonstruktion („dessen … an der …“) auflösen: „Das Holz war glatt und kühl, abgegriffen dort, wo eine Hand zuerst Halt sucht.“",
+          "Im Eingangsabsatz das Komma vor „die Bewegung“ durch einen Punkt ersetzen, um die Reihung zu entzerren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Text enthält keine Dialogpassagen."],
+        "suggestions": ["Kein Handlungsbedarf."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "die Bewegung kam aus einem Muskelgedächtnis, von dem sie nichts wusste",
+          "sie hätte es nicht zu trennen gewusst",
+          "Sie hatte erwartet, ihn zu berühren, und tat es dann doch nicht.",
+          "und zählte, ohne es zu wollen, die Dinge"
+        ],
+        "suggestions": [
+          "„von dem sie nichts wusste“ erklärt, was das Bild bereits zeigt. Kürzen: „die Bewegung kam von selbst.“",
+          "„sie hätte es nicht zu trennen gewusst“ streichen. Der Chiasmus davor trägt den Gedanken allein.",
+          "„Sie hatte erwartet, ihn zu berühren“ ist logisch schief. Direkter wäre eine gezeigte Handlung: „Ihre Hand hob sich zum Mantel, dann ließ sie sie sinken.“",
+          "Positiv: „Sie roch daran – nichts mehr“ zeigt die Wahrnehmung unmittelbar. Dieses Prinzip öfter anwenden."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "den Koffer noch in der Hand / legte die Hand auf den Handlauf / an der eine Hand beim Hinaufgehen",
+          "In der Küche stand auf dem Herd / Miriam stand in der Küche ihrer Mutter",
+          "Die Stille hatte Konsistenz, fast einen Geruch – oder der Geruch hatte Stille",
+          "Zwanzig Jahre. / nicht verstaubt genug für zwanzig Jahre"
+        ],
+        "suggestions": [
+          "Die Häufung „Hand – Handlauf – Hand“ in einem Satz vermeiden, etwa durch „Geländer“ statt „Handlauf“.",
+          "„In der Küche stand auf dem Herd der Espressokocher“ zu „Auf dem Herd: der Espressokocher“ verkürzen. Das entschärft auch die Wiederholung von „stand“.",
+          "Die Wiederholung „zwanzig Jahre“ und das Mantel-Motiv („Am eigenen, nicht am blauen“) sind bewusste Echos und funktionieren gut. Beibehalten.",
+          "Den Chiasmus Stille/Geruch prüfen: Er ist reizvoll, kippt mit dem Nachsatz aber ins Manierierte."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.101364
+}

@@ -1,0 +1,145 @@
+{
+  "who": "opus",
+  "item": "lit-continue__claude-haiku-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie antwortete nicht.",
+          "Der Motor war nicht das Thema, und Jonas wusste das so gut wie sie."
+        ],
+        "suggestions": [
+          "Die Szene setzt mitten im Konflikt ein, und die Vorgeschichte (Motor, Fähre) ergibt sich aus dem Kontext. Ein späterer Einstieg würde die Spannung nicht erhöhen. Die Stelle kann so bleiben.",
+          "Optional: Den erklärenden Satz 'Er hatte nie begriffen, dass ...' an eine spätere Stelle verschieben. Dann folgt auf den Einstieg sofort die sinnliche Szene am Fährhaus."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Er lachte kurz, nicht freundlich, nicht unfreundlich",
+          "die Elbe zog braun und schwer unter den Bohlen hindurch",
+          "in seinem hellen Mantel",
+          "mit diesem trockenen Rattern"
+        ],
+        "suggestions": [
+          "Die meisten Adjektive tragen Atmosphäre oder Charakterisierung ('kaltem Kaffee', 'spröde', 'feine Risse wie auf altem Porzellan'). Sie sind gut gewählt.",
+          "'Er lachte kurz, nicht freundlich, nicht unfreundlich' häuft drei Bestimmungen an. Prüfen, ob 'Er lachte kurz' plus der folgende Vergleich nicht genügt.",
+          "'braun und schwer' könnte durch ein stärkeres Verb ersetzt werden, z. B. 'die Elbe schob sich unter den Bohlen hindurch'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Die Fähre hält nicht ewig\", sagte er.",
+          "„Du bleibst bis morgen früh\", sagte sie.",
+          "„Gut\", sagte er."
+        ],
+        "suggestions": [
+          "Die Dialogzeilen 'Einmal.' / 'Du hast nicht geantwortet.' / 'Das ist dasselbe.' kommen vorbildlich ohne Redeeinleitung aus.",
+          "„Die Fähre hält nicht ewig.\" folgt direkt auf die Beschreibung von Jonas' Haltung. Der Sprecher ist klar, 'sagte er' kann entfallen.",
+          "„Du bleibst bis morgen früh\" folgt auf Ilses Handlung mit der Ersatzleine. Auch hier ist 'sagte sie' verzichtbar.",
+          "Nach 'Er öffnete den Mund, dann schloss er ihn wieder.' ist 'Gut' eindeutig ihm zuzuordnen. 'sagte er' kann gestrichen werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["eher so, wie Männer lachen", "so gut wie sie", "halb versunken im Schilf"],
+        "suggestions": [
+          "Kaum unpräzise Mengen- oder Vagheitswörter. Der Text arbeitet mit konkreten Details ('um sieben', 'zweimal', 'um sechs').",
+          "'eher so, wie' schwächt den Vergleich ab. Direkter wäre: 'so, wie Männer lachen, die ein Spiel schon verloren haben.'"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse ging an ihm vorbei, ohne ihn anzusehen, und hörte, wie er den Koffer hinter sich her über die Bohlen zog",
+          "so wie damals, wenn er etwas wollte und sich schämte, es zu sagen"
+        ],
+        "suggestions": [
+          "Kein übermäßiger Gebrauch von 'während' oder 'gleichzeitig'. Die Handlungen folgen meist sauber aufeinander ('Sie nahm die Ersatzleine vom Haken, prüfte den Knoten und hängte sie zurück.').",
+          "Im ersten Beispiel überlagern sich Gehen und Hören. Eine Aufteilung in zwei Sätze würde das Rattern als eigenen Moment stärker wirken lassen: 'Ilse ging an ihm vorbei, ohne ihn anzusehen. Hinter ihr ratterte der Koffer über die Bohlen, Rad für Rad.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Bett oben ist frisch bezogen.",
+          "Der Schlauch zur Pumpe war spröde geworden."
+        ],
+        "suggestions": [
+          "Echte Passivkonstruktionen fehlen weitgehend. 'Das Bett oben ist frisch bezogen' ist ein Zustandspassiv in wörtlicher Rede und klingt natürlich. Die Stelle kann bleiben.",
+          "'war spröde geworden' beschreibt eine Zustandsveränderung, kein Passiv, und ist passend."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Ilse ging an ihm vorbei, ohne ihn anzusehen, und hörte, wie er den Koffer hinter sich her über die Bohlen zog, Rad für Rad, mit diesem trockenen Rattern, das sie in den Zähnen spürte.",
+          "Er lachte kurz, nicht freundlich, nicht unfreundlich, eher so, wie Männer lachen, wenn sie merken, dass sie ein Spiel schon verloren haben.",
+          "Er hatte nie begriffen, dass man an einer Fähre nichts reparieren lassen konnte, ohne dass sich danach alles andere veränderte."
+        ],
+        "suggestions": [
+          "Die langen Sätze haben Rhythmus, wechseln sich aber mit sehr kurzen ab ('Henning hätte ihn im Frühjahr getauscht.'). Das ist ein gelungener Kontrast.",
+          "Der Koffer-Satz kann geteilt werden: 'Ilse ging an ihm vorbei, ohne ihn anzusehen. Hinter ihr zog er den Koffer über die Bohlen, Rad für Rad. Das trockene Rattern spürte sie in den Zähnen.'",
+          "Der Lach-Satz enthält drei Nebensatzebenen ('wie ... wenn ... dass'). Kürzer: 'Er lachte kurz, wie Männer lachen, die ein Spiel schon verloren haben.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ich habe dir zweimal geschrieben\" / „Einmal.\" / „Du hast nicht geantwortet.\" / „Das ist dasselbe.\"",
+          "„Du bleibst bis morgen früh ... Ich rede unterwegs nicht.\""
+        ],
+        "suggestions": [
+          "Der Dialog ist knapp und subtextreich. Das Wesentliche bleibt ungesagt, und das passt zur Figurenbeziehung.",
+          "Ilses längere Rede ist durch kurze Hauptsätze gegliedert und wirkt bestimmt. Eine Kürzung ist nicht nötig. Allenfalls 'Das Bett oben ist frisch bezogen' ließe sich streichen, falls die Szene noch knapper werden soll."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "und hörte, wie er den Koffer hinter sich her über die Bohlen zog",
+          "Sie sah es im Licht der Nachmittagssonne, feine Risse wie auf altem Porzellan.",
+          "Sie dachte an die Überfahrt um sieben, an den Mann mit dem Fahrrad",
+          "Jonas wusste das so gut wie sie. Er hatte nie begriffen, dass ...",
+          "wenn sie merken, dass sie ein Spiel schon verloren haben"
+        ],
+        "suggestions": [
+          "Das Hören direkt zeigen: 'Hinter ihr ratterte der Koffer über die Bohlen, Rad für Rad.'",
+          "Das Sehen direkt zeigen: 'Der Schlauch zur Pumpe war spröde geworden. Im Licht der Nachmittagssonne zeigten sich feine Risse wie auf altem Porzellan.'",
+          "Das Denken direkt zeigen: 'Morgen um sieben die Überfahrt. Der Mann mit dem Fahrrad, der jeden Morgen den Hut zog, auch wenn es regnete.'",
+          "'Im Frühjahr hatte sie gedacht, sie hätte noch Zeit.' ist dagegen bewusst gesetzt und emotional stark. Dieser Satz sollte bleiben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "über die Bohlen zog ... unter den Bohlen hindurch",
+          "Ilse ging an ihm vorbei ... Ilse ging zum Heck ... ging ins Fährhaus",
+          "Henning hätte ihn im Frühjahr getauscht. Im Frühjahr hatte sie gedacht ...",
+          "nicht freundlich, nicht unfreundlich, eher so, wie ..."
+        ],
+        "suggestions": [
+          "Die Wiederholung von 'Frühjahr' ist ein bewusstes Stilmittel und wirkt. Sie sollte bleiben.",
+          "Für die zweite Nennung der Bohlen einen anderen Bezug wählen, z. B. 'die Elbe zog unter dem Steg hindurch'.",
+          "Das dreifache 'ging' durch präzisere Verben variieren, z. B. 'Ilse trat ans Heck' oder 'verschwand im Fährhaus'.",
+          "Die dreifache Charakterisierung des Lachens verdichten. Der Vergleich mit dem verlorenen Spiel genügt allein."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.1106
+}

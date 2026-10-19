@@ -1,0 +1,166 @@
+{
+  "who": "opus",
+  "item": "anchor__musil-die-verwirrungen-des-zoeglings-toerless-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Eine kleine Station an der Strecke, welche nach Rußland führt.",
+          "Endlos gerade liefen vier parallele Eisenstränge nach beiden Seiten zwischen dem gelben Kies des breiten Fahrdammes; neben jedem wie ein schmutziger Schatten der dunkle, von dem Abdampfe in den Boden gebrannte Strich.",
+          "Hinter dem niederen, ölgestrichenen Stationsgebäude führte eine breite, ausgefahrene Straße zur Bahnhofsrampe herauf."
+        ],
+        "suggestions": [
+          "Die Szene könnte beim Bahnhofsvorstand oder direkt bei der Abschiedsgesellschaft einsetzen. Gleise, Straße und Akazien lassen sich in zwei, drei Details in die Handlung einflechten.",
+          "Möglicher Einstieg: 'Von Zeit zu Zeit trat der Bahnhofsvorstand aus seinem Amtszimmer und sah die Strecke hinauf nach den Signalen.' So beginnt der Text mit einer Figur und einer Erwartung, dem verspäteten Zug.",
+          "Die langen Rückblenden zum Konvikt und zur Vorgeschichte unterbrechen die Abschiedsszene. Sie ließen sich auf später verschieben oder deutlich kürzen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "das bleiche, kraftlose, durch den Dunst ermüdete Licht der Nachmittagssonne",
+          "etwas Gleichgültiges, Lebloses, Mechanisches an sich",
+          "litt der kleine Törleß an fürchterlichem, leidenschaftlichem Heimweh",
+          "die traurig mit verdursteten, von Staub und Ruß erdrosselten Blättern zu beiden Seiten standen",
+          "auf den großen üppigen Wiesen des Parkes",
+          "diese jähe, verzehrende Hinneigung",
+          "etwas viel Unbestimmteres und Zusammengesetzteres"
+        ],
+        "suggestions": [
+          "Adjektivketten auf das stärkste Attribut reduzieren: 'das kraftlose Licht der Nachmittagssonne' statt dreier Attribute.",
+          "'fürchterlichem, leidenschaftlichem Heimweh' zeigen statt benennen, etwa: 'Nachts biss er ins Kissen, damit niemand ihn schluchzen hörte.'",
+          "'traurig' bei den Akazien streichen. Die 'von Staub und Ruß erdrosselten Blätter' transportieren die Stimmung bereits.",
+          "Überflüssige Attribute wie 'breiten', 'großen', 'üppigen' prüfen und streichen, wo sie nichts Neues sagen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Text enthält keinen direkten Dialog und daher keine Redeeinleitungen.",
+          "»lieben, lieben Eltern«, -- dermaßen sprach er es meist vor sich hin --"
+        ],
+        "suggestions": [
+          "Die einzige Redekennzeichnung, 'dermaßen sprach er es meist vor sich hin', wirkt umständlich. Besser: 'seiner »lieben, lieben Eltern«, wie er sie nannte' oder die Einschaltung ganz streichen.",
+          "Ein kurzer Dialog zwischen Mutter und Sohn auf dem Bahnsteig könnte die Abschiedsszene lebendiger machen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "dies war die Dame von vielleicht vierzig Jahren",
+          "vom Weinen ein wenig gerötete Augen",
+          "der etwas lauten Unterhaltung",
+          "wohl um die aufwachsende Jugend vor den verderblichen Einflüssen einer Großstadt zu bewahren",
+          "nachdem er schon einige Tage allein gewesen war und sich verhältnismäßig wohl befunden hatte",
+          "war darin eigentlich gar nicht mehr enthalten",
+          "Ich meine diese gewisse plastische, nicht bloß gedächtnismäßige ... Erinnerung"
+        ],
+        "suggestions": [
+          "'vielleicht', 'ein wenig', 'etwas', 'wohl', 'eigentlich', 'gewisse', 'verhältnismäßig' streichen oder präzisieren: 'vom Weinen gerötete Augen', 'der lauten Unterhaltung'.",
+          "'einige Tage' konkretisieren, etwa 'nach drei Tagen', das wirkt anschaulicher.",
+          "'nur' kommt gehäuft vor ('sah alles nur', 'lebte nur', 'schien ihm nur', 'nur noch eine Weile'). Auf die wichtigste Stelle beschränken."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "promenierte eine heitere Gesellschaft junger Leute, links und rechts eines älteren Ehepaares schreitend",
+          "weil ihre heißen Flammen ihn zugleich schmerzten und entzückten",
+          "Und wenn er untertags, bei den Spielen oder im Unterrichte, daran dachte, daß er abends seinen Brief schreiben werde"
+        ],
+        "suggestions": [
+          "Positiv: Die Bewegungen des Bahnhofsvorstands (heraustreten, schauen, Uhr ziehen, Kopf schütteln, verschwinden) sind sauber nacheinander erzählt.",
+          "Die Partizipialkonstruktion 'links und rechts eines älteren Ehepaares schreitend' in einen eigenen Hauptsatz auflösen: 'In ihrer Mitte ging ein älteres Ehepaar.'",
+          "'zugleich schmerzten und entzückten' ist inhaltlich gewollt (Ambivalenz) und kann bleiben."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "wo es auf dem Boden einer frommen Stiftung errichtet worden war",
+          "die zu allen Sinnen spricht und in allen Sinnen bewahrt wird",
+          "Weihrauch zwischen die Schmerzen der sich selbst Geißelnden gestreut wird",
+          "Es galt Abschied zu nehmen."
+        ],
+        "suggestions": [
+          "'wo es auf dem Boden einer frommen Stiftung errichtet worden war' aktiv fassen: 'das eine fromme Stiftung im vorigen Jahrhundert gegründet hatte'.",
+          "'Es galt Abschied zu nehmen' personalisieren: 'Sie musste Abschied nehmen.'",
+          "Das Passiv im Kapellenbild am Schluss ist stilistisch vertretbar, könnte aber aktiv kraftvoller wirken."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Von Zeit zu Zeit, in gleichen Intervallen, trat der Bahnhofsvorstand aus seinem Amtszimmer heraus, sah mit der gleichen Wendung des Kopfes ... so wie die Figuren kommen und gehen, die aus alten Turmuhren treten, wenn die Stunde voll ist.",
+          "Der Grund, dessentwegen Frau Törleß es dulden mußte, ihren Jungen in so ferner, unwirtlicher Fremde zu wissen, war, daß sich in dieser Stadt ein berühmtes Konvikt befand, welches man schon seit dem vorigen Jahrhunderte, wo es auf dem Boden einer frommen Stiftung errichtet worden war, hier heraußen beließ, wohl um die aufwachsende Jugend vor den verderblichen Einflüssen einer Großstadt zu bewahren.",
+          "Denn hier erhielten die Söhne der besten Familien des Landes ihre Ausbildung, um nach Verlassen des Institutes die Hochschule zu beziehen oder in den Militär- oder Staatsdienst einzutreten und in allen diesen Fällen, sowie für den Verkehr in den Kreisen der guten Gesellschaft galt es als besondere Empfehlung, im Konvikte zu W. aufgewachsen zu sein.",
+          "Der Gedanke an seine Eltern wurde ihm hiebei mehr und mehr zu einer bloßen Gelegenheitsursache, dieses egoistische Leiden in sich zu erzeugen, das ihn in seinen wollüstigen Stolz einschloß wie in die Abgeschiedenheit einer Kapelle, in der von hundert flammenden Kerzen und von hundert Augen heiliger Bilder Weihrauch zwischen die Schmerzen der sich selbst Geißelnden gestreut wird."
+        ],
+        "suggestions": [
+          "Den Konvikt-Satz aufteilen: 'In der Stadt lag ein berühmtes Konvikt. Eine fromme Stiftung hatte es im vorigen Jahrhundert gegründet. Man ließ es hier draußen, fern von der Großstadt und ihren Verlockungen.'",
+          "Im Satz 'Denn hier erhielten...' fehlt die syntaktische Trennung zwischen den beiden Hauptgedanken. Nach 'einzutreten' einen Punkt setzen und neu beginnen.",
+          "Den Bahnhofsvorstand-Satz an den Semikolons in drei Sätze teilen. Der Turmuhr-Vergleich wirkt als eigener Schlusssatz stärker.",
+          "Den Schlusssatz zweiteilen: erst das egoistische Leiden, dann das Kapellenbild als eigenständiger Satz."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Kein direkter Dialog vorhanden. Der Text besteht ausschließlich aus Beschreibung, Bericht und Reflexion."
+        ],
+        "suggestions": [
+          "Kein Kürzungsbedarf. Umgekehrt fehlt der Szene allerdings jede direkte Rede. Ein knapper Wortwechsel könnte das Erzähltempo auflockern."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Er sah alles nur wie durch einen Schleier hindurch",
+          "Wenn er aber schrieb, fühlte er etwas Auszeichnendes, Exklusives in sich",
+          "Und wenn er untertags ... daran dachte, daß er abends seinen Brief schreiben werde, so war ihm, als trüge er ...",
+          "alles andere, was er tat, schien ihm nur ein schattenhaftes, bedeutungsloses Geschehen zu sein",
+          "Er hielt es für Heimweh, für Verlangen nach seinen Eltern.",
+          "Ich meine diese gewisse plastische, nicht bloß gedächtnismäßige, sondern körperliche Erinnerung"
+        ],
+        "suggestions": [
+          "'daran dachte, daß er abends seinen Brief schreiben werde, so war ihm, als trüge er' direkter fassen: 'Abends würde er schreiben. Der Gedanke hing an ihm wie ein goldener Schlüssel an unsichtbarer Kette.'",
+          "'fühlte er etwas Auszeichnendes' ersetzen durch: 'Beim Schreiben hob sich etwas in ihm wie eine Insel ...'",
+          "'schien ihm nur ... zu sein' streichen: 'Alles andere war schattenhaftes, bedeutungsloses Geschehen.'",
+          "Der Erzählereinschub 'Ich meine' bricht die Perspektive. Streichen oder bewusst als auktoriale Stimme etablieren."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "traurig/traurigen: 'die traurig ... zu beiden Seiten standen' – 'Machten es diese traurigen Farben' – 'traurige, vom Weinen ein wenig gerötete Augen'",
+          "breit: 'des breiten Fahrdammes' – 'eine breite, ausgefahrene Straße' – 'Auf dem breiten, festgestampften Streifen'",
+          "gleichgültig: 'etwas Gleichgültiges' – 'gleichgültige Stationen' – 'kalt und gleichgültig umdrängte'",
+          "wunderbar: 'Insel voll wunderbarer Sonnen' – 'das Tor von wunderbaren Gärten'",
+          "Satzanfänge mit 'Denn': 'Denn die kleine Stadt lag weitab' – 'Denn hier erhielten' – 'Denn fast seit dem Augenblicke' – 'Denn der »Gegenstand dieser Sehnsucht«'",
+          "Inhaltliche Doppelung: Das Heimweh wird zuerst ausführlich beschrieben, dann als 'jähe, verzehrende Hinneigung' und schließlich als 'Heimweh, Verlangen nach seinen Eltern' erneut erklärt.",
+          "Konvikt/Institut: Die Vorzüge und die Lage des Instituts werden in zwei aufeinanderfolgenden Absätzen begründet."
+        ],
+        "suggestions": [
+          "Wortwiederholungen wie 'traurig', 'breit' und 'wunderbar' variieren oder streichen. Die Stimmung entsteht bereits durch Bilder wie Ruß, Staub und Dunst.",
+          "Die vier 'Denn'-Anfänge reduzieren. Kausale Begründungen lassen sich oft weglassen, ohne dass der Zusammenhang verloren geht.",
+          "Die beiden Absätze über Lage und Ansehen des Konvikts zu einem knappen Absatz zusammenfassen.",
+          "Die Wiederholung 'gleichen Intervallen / gleichen Wendung / ein und derselben Bewegung' ist als Motiv des Mechanischen bewusst gesetzt und kann bleiben. Andere Doppelungen sollten dagegen getilgt werden, damit dieses Stilmittel hervortritt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.144004
+}

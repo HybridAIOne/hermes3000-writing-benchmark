@@ -1,0 +1,133 @@
+{
+  "who": "sol",
+  "item": "lit-scene__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Den Schlüssel hatte ihr der Nachlassverwalter in einem gepolsterten Umschlag geschickt, als könnte er zerbrechen.",
+          "Johanna musste die Tür mit der Schulter aufdrücken."
+        ],
+        "suggestions": [
+          "Der Einstieg liegt bereits nah am Geschehen. Der erste Satz vermittelt knapp den Nachlasskontext und setzt mit der vermeintlichen Zerbrechlichkeit einen atmosphärischen Akzent.",
+          "Für einen unmittelbar körperlichen Einstieg könnte der Text mit dem Aufdrücken der Tür beginnen. Die Information über den Nachlassverwalter müsste dann später einfließen; ein ersatzloses Streichen wäre ein Informationsverlust."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "ein kurzes, trockenes Ächzen",
+          "eine dünne, gleichmäßige Staubschicht",
+          "Süßlich, leicht gärig",
+          "ein einzelnes Glas ein Stück abseits"
+        ],
+        "suggestions": [
+          "Die meisten Attribute liefern konkrete Sinneseindrücke und sollten bleiben, besonders „trockenes Ächzen“ und „rostbrauner Strahl“.",
+          "Bei der Staubschicht prüfen, ob „dünne“ nötig ist. Für den Kontrast zum sauberen Rechteck ist vor allem die Gleichmäßigkeit relevant.",
+          "Die auffällige Position des Glases lässt sich knapper hervorheben: „Ein Glas stand abseits.“ Die bestehende Formulierung betont seine Vereinzelung allerdings stärker."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine direkte Rede und damit keine überflüssigen Redeeinleitungen vorhanden. Hier besteht kein Änderungsbedarf."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "nach etwas darunter, das sie nicht sofort fand",
+          "Es war eher, als hätte jemand die Räume enger zusammengeschoben",
+          "ein Stück abseits"
+        ],
+        "suggestions": [
+          "„Eher“ ist verzichtbar: „Es war, als hätte jemand die Räume enger zusammengeschoben, um Heizkosten zu sparen.“",
+          "„Ein Stück abseits“ könnte zu „abseits“ gestrafft werden.",
+          "Die Unbestimmtheit von „etwas darunter“ nicht automatisch beseitigen: Sie bildet Johannas noch unklare Geruchswahrnehmung ab und bereitet die spätere Entdeckung vor."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Leitung gurgelte, spuckte, dann kam ein rostbrauner Strahl, der langsam klar wurde.",
+          "Der Geruch aus dem Flur war stärker geworden, je weiter sie ins Haus ging."
+        ],
+        "suggestions": [
+          "Die Handlungen folgen überwiegend klar aufeinander. Die Verknüpfung von zunehmendem Geruch und Bewegung ins Haus ist inhaltlich sinnvoll.",
+          "Die „als“-Konstruktionen am Anfang und beim Vergleich der Räume drücken keine Gleichzeitigkeit aus und müssen unter diesem Kriterium nicht überarbeitet werden."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Tür war nicht abgeschlossen.",
+          "deren Deckel ihre Mutter immer mit Datum und Inhalt beschriftet hatte"
+        ],
+        "suggestions": [
+          "Es gibt keine schwerfälligen Vorgangspassivkonstruktionen. Die Mutter erscheint beim Beschriften ausdrücklich als handelnde Person.",
+          "„Die Tür war nicht abgeschlossen“ beschreibt einen relevanten Zustand. Eine aktive Umformulierung würde unnötig eine Person ins Spiel bringen, die sie nicht abgeschlossen hat."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das Holz hatte sich im Rahmen verzogen, und es gab dasselbe Geräusch von sich wie früher, ein kurzes, trockenes Ächzen, das sie in den Zähnen spürte.",
+          "Unten, im Regal neben den Einmachgläsern, deren Deckel ihre Mutter immer mit Datum und Inhalt beschriftet hatte, stand ein einzelnes Glas ein Stück abseits."
+        ],
+        "suggestions": [
+          "Der Satz über das Regal verzögert durch den eingeschobenen Relativsatz die Entdeckung des Glases. Für einen schärferen Spannungsakzent teilen: „Unten im Regal standen die Einmachgläser. Ihre Mutter hatte die Deckel immer mit Datum und Inhalt beschriftet. Ein Glas stand abseits.“",
+          "Den Satz über die Tür bei Bedarf rhythmisch entlasten: „Das Holz hatte sich im Rahmen verzogen. Es ächzte wie früher, kurz und trocken. Sie spürte es in den Zähnen.“",
+          "Nicht alle längeren Sätze auflösen: Ihr tastender Rhythmus passt zur vorsichtigen Erkundung des Hauses."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Dialogpassagen vorhanden. Die wortlose Erkundung trägt die Szene; zusätzliche Dialoge sind zur Auflockerung nicht nötig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das Telefon, vermutete sie. Oder ein Bild.",
+          "Sie hatte sich vorgenommen, nichts zu erwarten, und merkte jetzt, dass es nicht darum ging.",
+          "Sie konnte die Schrift von hier aus nicht lesen. Sie wusste trotzdem, dass es die ihrer Mutter war."
+        ],
+        "suggestions": [
+          "„Vermutete sie“ ist durch den anschließenden Alternativgedanken weitgehend entbehrlich: „Das Telefon. Oder ein Bild.“",
+          "Den Wahrnehmungsfilter „merkte jetzt“ probeweise streichen: „Sie hatte sich vorgenommen, nichts zu erwarten. Jetzt ging es nicht darum.“ Die bewusst offene Bedeutung sollte dabei erhalten bleiben.",
+          "Den Schluss nicht mechanisch entfiltern: Der Gegensatz zwischen Nichtlesenkönnen und sicherem Wissen erzeugt gerade seine emotionale und unheimliche Wirkung."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Flur roch nach Kernseife und nach etwas darunter, das sie nicht sofort fand.",
+          "Der Geruch aus dem Flur war stärker geworden, je weiter sie ins Haus ging.",
+          "Sie konnte die Schrift von hier aus nicht lesen. Sie wusste trotzdem, dass es die ihrer Mutter war."
+        ],
+        "suggestions": [
+          "Die wiederholte Erwähnung des Geruchs beibehalten: Sie entwickelt sich von einer unbestimmten Wahrnehmung zum Wegweiser und ist keine bloße Doppelung.",
+          "Auch der Schluss wiederholt keinen Sachverhalt, sondern stellt fehlende Lesbarkeit und innere Gewissheit gegeneinander.",
+          "Allenfalls „aus dem Flur“ bei der zweiten Geruchsnennung streichen, wenn die Rückverbindung auch ohne diese Erinnerung eindeutig bleibt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020326
+}

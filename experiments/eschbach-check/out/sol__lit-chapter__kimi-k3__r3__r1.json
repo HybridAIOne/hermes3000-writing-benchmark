@@ -1,0 +1,152 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__kimi-k3__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Um fünf holte Ilse den Kaffee aus der Thermoskanne, und der Nebel war schon da.“",
+          "„Sie hielt sich am Seil fest, nicht weil sie es musste, sondern weil Henning es so gemacht hatte. Neunzehn Jahre lang.“",
+          "Der zentrale Konflikt um Jonas’ Anruf beginnt erst nach der ausführlichen Darstellung des Fährbetriebs."
+        ],
+        "suggestions": [
+          "Den ruhigen Einstieg grundsätzlich bewahren: Er etabliert Ilses Routinen und macht ihre spätere Verweigerung verständlich.",
+          "Für einen strafferen Beginn direkt beim Betreten der Fähre einsetzen und Kaffee sowie Nebel dort einführen.",
+          "Eher die technischen Erläuterungen zum Seil kürzen als die Erinnerung an Henning; diese setzt früh einen emotionalen Akzent."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Das Wasser lief schwarz und breit unter dem Grau dahin“",
+          "„das feucht war und kalt“",
+          "„Die Tür fiel zu, und das Geräusch blieb im Nebel liegen, stumpf, ohne Widerhall.“"
+        ],
+        "suggestions": [
+          "Die überwiegend konkreten, atmosphärisch wirksamen Adjektive beibehalten; sie sind hier selten bloßer Schmuck.",
+          "Bei wiederkehrenden Eigenschaften wie „kalt“ und „feucht“ prüfen, ob jede Nennung einen neuen Akzent setzt.",
+          "Bei einer Straffung etwa „dem leisen Rumpeln der Rollen“ zu „dem Rumpeln der Rollen“ kürzen, sofern die Lautstärke nicht entscheidend ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„‚Morgen.‘ / ‚Morgen.‘“",
+          "„‚Sicht wie gestern‘, sagte sie. / ‚Schlechter‘, sagte Ilse.“",
+          "„‚Jonas kommt zu Weihnachten?‘ fragte Ines.“"
+        ],
+        "suggestions": [
+          "Die weitgehend unmarkierten Dialogwechsel beibehalten; Sprecher und Rhythmus bleiben klar.",
+          "„sagte sie“ nach „Sicht wie gestern“ kann entfallen, weil Ines unmittelbar zuvor handelt.",
+          "Die Kennzeichnung bei Ines’ Frage nach Jonas bewahren: Nach dem beschreibenden Absatz erleichtert sie die Orientierung."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„aber nicht so weit, dass man Sorge haben musste“",
+          "„und für eine Weile war nur das Ziehen, das Atmen, das Wasser“",
+          "„Um halb neun hatte der Nebel sich ein Stück gehoben, nicht weg, nur höher“"
+        ],
+        "suggestions": [
+          "Unbestimmte Angaben nur dort präzisieren, wo sie eine relevante Information verdecken. „Eine Weile“ trägt hier zur entrückten Atmosphäre bei.",
+          "Die umständliche Wendung „dass man Sorge haben musste“ gegebenenfalls durch eine konkrete Folge ersetzen, etwa: „Das Seil hing noch über den Bootsdächern.“",
+          "„Ein Stück“ lässt sich streichen, weil „nicht weg, nur höher“ die Veränderung bereits beschreibt."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der erste Fahrgast war schon da, als sie Klein Neuendorf erreichte.“",
+          "„Der Junge wartete, bis Ines den Golf vom Ponton hatte, dann stieg er aus“",
+          "„als könne sie sich daran wärmen“ und „als wäre sie ein Denkmal“ sind Vergleiche, keine problematischen Gleichzeitigkeitskonstruktionen."
+        ],
+        "suggestions": [
+          "Die klaren zeitlichen Verknüpfungen beibehalten; eine übermäßige Verwendung von Gleichzeitigkeitswörtern liegt nicht vor.",
+          "Bei langen „und“-Ketten gelegentlich durch einen Punkt die nächste Handlung hervorheben, besonders beim Verstauen des Telefons."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Sie stellte die Kanne ab, löste die Leine und zog an der ersten Klampe“",
+          "„Vierzig Meter Drahtseil, gespannt über die Fahrrinne“",
+          "„Die Weide auf der anderen Seite wurde sichtbar“"
+        ],
+        "suggestions": [
+          "Die aktive, handlungsnahe Erzählweise beibehalten.",
+          "Keine mechanischen Ersetzungen vornehmen: „gespannt“ beschreibt hier einen Zustand; „wurde sichtbar“ ist kein Vorgangspassiv."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Ilse drehte die Fähre nicht, das brauchte man nicht, das Ding hatte zwei Enden wie eine Doppelmündung, sie griff nur das Seil von der anderen Seite und zog in die Gegenrichtung.“",
+          "„Er kam seit September, seit er aufs Gymnasium wechselte, und jeden Morgen hatte er die Kopfhörer auf, und jeden Morgen nickte er und zahlte seinen Euro fünfzig und stellte sich ans Heck und schaute aufs Wasser, als erwarte er, dass dort etwas auftauchte.“",
+          "„Das Vibrieren, das helle Rechteck, der Name, der doppelt so groß war, wie sie die Schrift eingestellt hatte, und sie hatte sie groß eingestellt, weil sie die Brille nicht immer fand.“"
+        ],
+        "suggestions": [
+          "Die langen Satzketten gezielt dosieren: Sie bilden Routine und inneres Kreisen ab, verlieren bei häufiger Verwendung aber an Wirkung.",
+          "Den Wendemanöver-Satz teilen: „Ilse drehte die Fähre nicht. Das Ding hatte zwei Enden wie eine Doppelmündung. Sie griff das Seil von der anderen Seite und zog in die Gegenrichtung.“",
+          "Beim zweiten Anruf die Erklärung zur Schriftgröße kürzen oder vorziehen. Sie unterbricht den Spannungsmoment und macht das Bild des übergroßen Namens schwer verständlich.",
+          "Die Schülerbeschreibung nach dem Schulwechsel teilen und anschließend die morgendliche Routine bündeln."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„‚Es regnet nicht.‘ / ‚Es ist November, Ilse.‘“",
+          "„‚Jonas kommt zu Weihnachten?‘ fragte Ines. / ‚Weiß ich nicht.‘ / ‚Hat er was gesagt?‘ / ‚Nein.‘“"
+        ],
+        "suggestions": [
+          "Die knappen Dialoge weitgehend unverändert lassen: Sie charakterisieren die Beziehungen und vermitteln Konflikte über Auslassungen.",
+          "Den Austausch über das Wetter nicht allein wegen seines Alltagscharakters streichen; er etabliert Vertrautheit und bereitet Ines’ persönlichere Frage vor."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„und man hörte es nur dort, wo es an den Ponton schlug“",
+          "„was Ilse jedes Mal sah und jedes Mal nichts sagte“",
+          "„und sie sah das Leuchten, bevor sie den Namen las“",
+          "„Ilse wusste seinen Namen nicht.“"
+        ],
+        "suggestions": [
+          "Unpersönliche Wahrnehmungsfilter gelegentlich auflösen: „Nur am Ponton war das Wasser zu hören.“",
+          "Den Zigarettenwurf direkter formulieren: „Ines rauchte ihre Zigarette halb und warf den Rest in die Elbe. Ilse sagte nichts. Wie jedes Mal.“",
+          "Das verzögerte Erkennen des Namens beibehalten: Hier ist der Wahrnehmungsvorgang selbst Teil der Spannung.",
+          "„Ilse wusste seinen Namen nicht“ nicht automatisch streichen; der Satz kennzeichnet ihre Distanz zum Jungen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Ziehen, Greifen, Ziehen, Greifen“ und später „weil Greifen und Ziehen das Einzige war, was sich nie verändert hatte“",
+          "„Am Dienstagmorgen um halb neun“ beginnt zwei aufeinanderfolgende Sätze.",
+          "„Im November kam niemand, der nicht musste“ und später „Im November fotografierte keiner mehr. Aber es war November“",
+          "Zu Beginn ist die Thermoskanne „längst kalt geworden“; später ist der Kaffee „lauwarm“."
+        ],
+        "suggestions": [
+          "Die Wiederholung von Greifen und Ziehen bewahren: Aus der Arbeitsbewegung wird ein emotionales Halt gebendes Motiv.",
+          "Die doppelte Zeitangabe beim Nachdenken über Jonas nur behalten, wenn das gedankliche Kreisen ausdrücklich betont werden soll; andernfalls die zweite streichen.",
+          "Die November-Aussagen überprüfen: Der Radfahrer widerlegt Ilses pauschale Erwartung. Diese Irritation klar als ihre Wahrnehmung markieren, statt die Aussage lediglich zu wiederholen.",
+          "Das Verhältnis von kalter Kanne und lauwarmem Kaffee verdeutlichen, etwa durch „Die Außenwand der Kanne war kalt“. So wirkt die wiederholte Temperaturangabe nicht widersprüchlich."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.028094
+}

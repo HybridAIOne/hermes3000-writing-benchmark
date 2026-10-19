@@ -1,0 +1,112 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__kimi-k3__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Schlüssel klemmte. Nora musste die Schulter gegen die Tür legen..."],
+        "suggestions": [
+          "Exzellenter Einstieg 'in medias res'. Keine langatmige Anreise, der Text beginnt genau im Moment des Eintritts in das Haus, was sofort Atmosphäre und Spannung erzeugt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "kühler Staub, getrockneter Putz",
+          "handgeschöpfte Seife",
+          "Das Licht kam grünlich durch"
+        ],
+        "suggestions": [
+          "Die Adjektive sind sehr bewusst, präzise und atmosphärisch gewählt. Einzig bei 'Das Licht kam grünlich durch, wie Wasser' könnte ein stärkeres Verb das Adverb ersetzen (z. B. 'Grünes Licht sickerte wie Wasser durch das Glas')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Eine Hecke lässt man nicht, hatte sie gesagt, als wäre Wuchs eine Unanständigkeit."
+        ],
+        "suggestions": [
+          "Der Text enthält keinen direkten Dialog, nutzt aber dieses erinnerte Zitat perfekt, um die Mutter indirekt zu charakterisieren. Hier ist die Kennzeichnung absolut notwendig und richtig."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "ganz flach",
+          "nie ganz zuging",
+          "Jemand – sie selbst, vermutlich – hatte nie weitergeblättert."
+        ],
+        "suggestions": [
+          "Der Text ist fast frei von Füllwörtern. Wörter wie 'vermutlich' oder 'irgendjemand' sind hier keine stilistische Schwäche, sondern spiegeln authentisch Noras Unsicherheit wider. 'Ganz' in 'ganz flach' könnte jedoch ersatzlos gestrichen werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Nora ging von Zimmer zu Zimmer, ohne etwas anzufassen."],
+        "suggestions": [
+          "Sehr gut gelöst. Es gibt keine künstlichen Gleichzeitigkeiten mit 'während' oder 'indem'. Die Handlungen und Wahrnehmungen folgen organisch aufeinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["...als wäre oben, im ersten Stock, vor Kurzem ein Fenster geöffnet worden."],
+        "suggestions": [
+          "Das einzige echte Passiv im Text ist hier inhaltlich brillant eingesetzt, da der Urheber der Handlung unheimlicherweise unbekannt ist. Um es noch ein wenig aktiver und bedrohlicher zu gestalten, wäre möglich: '...als hätte oben, im ersten Stock, jemand vor Kurzem ein Fenster geöffnet.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das Wohnzimmer: der ausgeblichene Fleck auf dem Teppich, dort, wo der Fernseher gestanden hatte, den sie vor der Beerdigung noch verkauft hatte, sie erinnerte sich nicht mehr, wem.",
+          "Nicht Parfüm – die handgeschöpfte Seife aus der Apotheke in der Unterstadt, die ihre Mutter vierzig Jahre lang benutzt hatte, das Stück in der kleinen Blechdose, die nie ganz zuging."
+        ],
+        "suggestions": [
+          "Die Satzmelodie und der Rhythmus (Wechsel zwischen sehr kurzen und längeren Sätzen) sind literarisch hochwertig. Im Satz über das Wohnzimmer gibt es jedoch eine doppelte 'hatte'-Konstruktion durch verschachtelte Relativsätze. Vorschlag: '...wo früher der Fernseher stand. Sie hatte ihn vor der Beerdigung verkauft – an wen, wusste sie nicht mehr.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Dialoge vorhanden, was perfekt zur einsamen, unheimlichen Stimmung der Szene passt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Jetzt stand sie im Flur und roch, was Häuser riechen...",
+          "Dann roch sie es.",
+          "Sie stellte fest, dass sie ihren Mantel nicht ausgezogen hatte, und dass sie ihn auch nicht ausziehen würde."
+        ],
+        "suggestions": [
+          "Nach Eschbach distanzieren Verben der Wahrnehmung ('roch', 'stellte fest, dass') den Leser von der Figur. Während 'Dann roch sie es' als dramaturgischer Anker gut funktioniert, nimmt 'Sie stellte fest, dass...' am Ende viel von der unmittelbaren Kälte des Moments. Besser und direkter: 'Sie trug noch immer ihren Mantel. Und sie würde ihn auch nicht ausziehen.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "gewuchert war, ungestört, ohne Schere.",
+          "Begräbnis (Absatz 2) / Beerdigung (Absatz 5)",
+          "Flur (Absatz 2, 4, 7) / Diele (Absatz 6)"
+        ],
+        "suggestions": [
+          "Wenn eine Hecke 'ungestört wuchert', ist 'ohne Schere' eigentlich redundant, auch wenn es hier als Brücke zum Zitat der Mutter dient. Zudem sollte die Begrifflichkeit für den Eingangsbereich einheitlich sein (entweder Flur oder Diele, sofern es derselbe Raum ist)."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01709
+}

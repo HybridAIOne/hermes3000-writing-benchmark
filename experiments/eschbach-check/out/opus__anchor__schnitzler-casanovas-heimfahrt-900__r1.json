@@ -1,0 +1,143 @@
+{
+  "who": "opus",
+  "item": "anchor__schnitzler-casanovas-heimfahrt-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Die ersten beiden Absätze sind Exposition: Lebensalter, Gesuche an den Rat, Flucht aus den Bleikammern, Geldnot, Streitschrift gegen Voltaire.",
+          "Die eigentliche Szene beginnt erst mit „Eines Morgens auf einem Spaziergang außerhalb der Stadt …“."
+        ],
+        "suggestions": [
+          "Die Szene direkt mit dem Spaziergang und der plötzlichen Unruhe beginnen lassen.",
+          "Hintergründe wie Verbannung, Begnadigungsgesuche, Geldnot und Voltaire-Schrift dosiert in die Handlung einflechten, etwa über Casanovas Gedanken an seine abgetragenen Gewänder oder an die Eilpost."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "„eine außerordentliche, fast körperlich peinvolle Unruhe“",
+          "„in seinen fast demütig flehenden Worten ein schmerzliches Sehnen und echte Reue immer unverkennbarer“",
+          "„in der linden, allzu süßen Luft dieses Spätsommermorgens“",
+          "„einen wohlgefällig lüsternen Ausdruck“, „neugierig spöttisch“, „zornig blitzend“",
+          "„seiner nicht mehr ganz jungen, aber feurigen Wirtin“",
+          "„in dem bescheidenen, aber anständigen Gasthof“"
+        ],
+        "suggestions": [
+          "Adjektivketten auf das treffendste Wort reduzieren, z. B. „eine fast körperliche Unruhe“ statt „eine außerordentliche, fast körperlich peinvolle Unruhe“.",
+          "Doppelte Modifikatoren wie „zornig blitzend“ oder „neugierig spöttisch“ durch präzise Verben ersetzen, etwa „sie musterte ihn spöttisch“ oder „er funkelte sie an“.",
+          "Steigerungs- und Abschwächungsadverbien wie „allzu“, „fast“, „immer unverkennbarer“ streichen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Text enthält keine wörtliche Rede und damit keine Redeeinleitungen."],
+        "suggestions": [
+          "Kein Handlungsbedarf. Optional könnte der gemurmelte Fluch als kurze direkte Äußerung die Szene beleben."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "„seit einiger Zeit“, „um einige Meilen“",
+          "„Da seine Geldmittel recht spärlich geworden waren“",
+          "„manchmal auch“, „Öfter schon“",
+          "„etwas abgetragenen Gewänder“, „mit ein paar Dosen“, „einer Anzahl von Büchern“",
+          "„zwischen Säcken und allerlei Hausrat“",
+          "„weiter hatte er kaum etwas zu tun“, „wohl schenken durfte“, „der wohl wußte“"
+        ],
+        "suggestions": [
+          "Unbestimmte Mengen konkretisieren, z. B. „drei Dosen“ oder „sieben Bücher“ statt „ein paar Dosen“ und „eine Anzahl von Büchern“.",
+          "Abschwächer wie „recht“, „etwas“, „wohl“, „kaum“ streichen: „Da seine Geldmittel spärlich geworden waren“."
+        ]
+      },
+      "simultaneity": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "„während er für einen vernichtenden … Satz die letzte Abrundung zu finden sich mühte, befiel ihn plötzlich …“",
+          "„den Griff seines Degens umklammernd, feindselige Blicke nach allen Seiten sendend, … wandte er plötzlich seine Schritte“",
+          "„wie er verzerrten Gesichtes, Unverständliches durch die Zähne murmelnd, … langbeinig ausschreitend einherkam“",
+          "„In seinem dreiundfünfzigsten Lebensjahre, als Casanova längst nicht mehr …“"
+        ],
+        "suggestions": [
+          "Handlungen nacheinander erzählen: „Er feilte an einem Satz gegen Voltaire. Da überfiel ihn eine Unruhe.“",
+          "Partizipialketten auflösen: „Er umklammerte den Degengriff. Sein Blick ging feindselig nach allen Seiten. Dann kehrte er um.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„von der Ruhelosigkeit nahenden Alters durch die Welt gejagt wurde“",
+          "Ansonsten überwiegend aktive Konstruktionen."
+        ],
+        "suggestions": [
+          "Aktiv formulieren: „als nicht mehr die Abenteuerlust der Jugend, sondern die Ruhelosigkeit des nahenden Alters ihn durch die Welt jagte“."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "„Er glaubte um so sicherer auf Erhörung rechnen zu dürfen, als die Sünden seiner früheren Jahre, unter denen übrigens … Hoffnung gemacht, daß sich sein Schicksal binnen kurzem günstig entscheiden würde.“ (ein Satz über rund 15 Zeilen)",
+          "„Eines Morgens auf einem Spaziergang außerhalb der Stadt, während er … in der Absicht, noch in derselben Stunde Anstalten für seine sofortige Abreise zu treffen.“",
+          "„Da seine Geldmittel recht spärlich geworden waren, hatte Casanova beschlossen, … zu befestigen gedachte.“ (mit Einschub in Gedankenstrichen)"
+        ],
+        "suggestions": [
+          "Satzungetüme an Semikolons und Gedankenstrichen in mehrere Hauptsätze teilen.",
+          "Einschübe wie „unter denen übrigens nicht Zuchtlosigkeit … dünkte“ als eigene Sätze formulieren oder streichen.",
+          "Die Aufzählung des Alltags in Mantua (Morgenwanderungen, Spielabende, Wirtin, Voltaire) als eigenständige, kurze Satzfolge gestalten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Dialogpassagen vorhanden."],
+        "suggestions": ["Kein Handlungsbedarf."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "„erkannte sofort, daß es nur eines frechen Anrufs von seiner Seite bedurft hätte“",
+          "„Denn er zweifelte nicht, daß er sich sofort besser befinden würde“",
+          "„fühlte er in seiner Seele das Heimweh … so heftig anwachsen“",
+          "„Er glaubte um so sicherer auf Erhörung rechnen zu dürfen“",
+          "„da sie ihren Blick zornig blitzend erwidert sah“",
+          "„Er dachte der zwei etwas abgetragenen Gewänder“, „wie ihm dünkte“"
+        ],
+        "suggestions": [
+          "Direkt darstellen: „Ein Wort von ihm, und sie hätte angehalten.“ statt „erkannte sofort, daß es nur eines frechen Anrufs … bedurft hätte“.",
+          "„Zwei abgetragene Gewänder, das schlechtere am Leib; geflickte Wäsche; ein paar Dosen …“ statt „Er dachte der zwei … Gewänder“.",
+          "„Nur ein paar Meilen näher an Venedig, und es würde ihm besser gehen.“ statt „er zweifelte nicht, daß …“."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "„plötzlich“ zweimal kurz hintereinander (befiel ihn plötzlich / wandte er plötzlich)",
+          "„sofort“ dreifach: „sofortige Abreise“, „sofort besser befinden“, „erkannte sofort“",
+          "„allmählich“ doppelt; „zu geraten begannen“ und „zu übertönen anfing“ im selben Satz",
+          "„murmelte einen Fluch“ und später „Unverständliches durch die Zähne murmelnd“",
+          "Paarformeln mit gleicher Bedeutung: „seine Stellung und sein Ansehen“, „Grimm und Haß“, „sinnlos und widerwärtig“, „eng und immer enger“",
+          "„Wägelchen“ und „Bauernwägelchen“; „Spaziergang“ und „Morgenwanderungen“"
+        ],
+        "suggestions": [
+          "Wiederholte Signalwörter wie „plötzlich“ und „sofort“ jeweils auf ein Vorkommen reduzieren.",
+          "Synonympaare auf ein präzises Wort kürzen, z. B. nur „Ansehen“ oder nur „Haß“.",
+          "Das zweite Murmeln streichen oder durch eine andere, konkrete Geste ersetzen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.100556
+}

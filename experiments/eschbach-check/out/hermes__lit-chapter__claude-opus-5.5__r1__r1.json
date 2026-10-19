@@ -1,0 +1,91 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-opus-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so dicht auf dem Wasser..."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch sehr stark und setzt direkt in der Handlung an. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["nass und schwarz", "gelbe Flecken"],
+        "suggestions": [
+          "Die Adjektive sind sehr sparsam und wirkungsvoll eingesetzt. Achte darauf, dass 'nass' (wird mehrfach verwendet) nicht zu inflationär wird."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Morgen“, sagte Mareike.", "„Morgen.“"],
+        "suggestions": [
+          "Vorbildlich. Die Dialoge stehen oft für sich, was den Lesefluss enorm beschleunigt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["vielleicht", "eigentlich"],
+        "suggestions": [
+          "Der Text ist sehr präzise. 'Vielleicht' wird hier charakterisierend eingesetzt, daher ist es in Ordnung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["während sie es abzählte"],
+        "suggestions": [
+          "Sehr sparsamer Einsatz von 'während'. Die Handlungsabfolge ist klar und logisch."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist fast vollständig im Aktiv geschrieben. Sehr lebendig."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Erste kam um sieben. Ilse hörte sie, bevor sie sie sah: das Klappern des Schutzblechs, das Quietschen der Bremse auf dem nassen Pflaster der Rampe."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind gut variiert. Der Rhythmus unterstützt die ruhige, melancholische Stimmung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ist das eine Gierseilfähre?“, fragte er Ilse durch das offene Fenster."],
+        "suggestions": [
+          "Die Dialoge sind kurz und funktional. Sie treiben die Handlung voran, ohne den Lesefluss zu bremsen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse hörte sie, bevor sie sie sah"],
+        "suggestions": [
+          "Die Wahrnehmung ist sehr direkt. Es gibt kaum 'Filterwörter' wie 'sie dachte, dass'. Sehr gut umgesetzt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Wasser", "Rampe"],
+        "suggestions": [
+          "Die Wiederholungen von 'Wasser' und 'Rampe' sind stilistisch gewollt und unterstreichen die Routine. Dennoch könnte man bei einer Überarbeitung prüfen, ob ein 'Wasser' durch 'Fluss' oder 'Strom' ersetzt werden kann, um die Wortwahl zu variieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

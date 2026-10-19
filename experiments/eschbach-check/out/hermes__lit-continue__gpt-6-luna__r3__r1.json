@@ -1,0 +1,90 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gpt-6-luna__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Er läuft“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort in die Handlung wirft und Neugier weckt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kaltem Metall", "lose Fahne"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und treffend eingesetzt. Keine Änderung notwendig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Ilse", "sagte sie", "fragte sie"],
+        "suggestions": [
+          "Die Marker sind funktional. In manchen Passagen könnten sie weggelassen werden, wenn der Sprecherwechsel durch den Kontext klar ist, um den Dialog noch direkter zu machen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["irgendwo oberhalb", "immer schon"],
+        "suggestions": ["Der Text ist sehr sauber und frei von unnötigen Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als Kind", "als er aus dem Zug stieg"],
+        "suggestions": ["Die zeitliche Abfolge ist klar und logisch strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Wind drückte das Wasser", "Jonas zog den Reißverschluss"],
+        "suggestions": ["Der Text ist aktiv und lebendig formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse dachte an das Gästezimmer, an die Bettwäsche, die sie vor zwei Wochen abgezogen hatte, weil sie nach dem Lüften wieder nach dem Schrank roch."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind gut variiert. Der genannte Satz ist komplex, aber gut lesbar."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Wie lange bleibst du?“ / „Weiß ich noch nicht.“"],
+        "suggestions": ["Die Dialoge sind prägnant und transportieren viel Subtext. Sehr gut."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Ilse dachte an das Gästezimmer"],
+        "suggestions": [
+          "Statt 'Ilse dachte an...', zeigen Sie ihre Handlung: Lassen Sie sie das Zimmer betreten, den Geruch wahrnehmen oder die Bettwäsche berühren, um das Gedankenkarussell spürbar zu machen."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Schlüssel aus dem Zündschloss",
+          "Schlüssel wieder aus der Tasche",
+          "Ersatzschlüssel",
+          "Haustürschlüssel"
+        ],
+        "suggestions": [
+          "Die Häufung der Schlüssel-Handlungen am Ende wirkt etwas mechanisch. Man könnte die Handlungen straffen, um den Fokus stärker auf Ilses emotionale Verfassung zu legen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

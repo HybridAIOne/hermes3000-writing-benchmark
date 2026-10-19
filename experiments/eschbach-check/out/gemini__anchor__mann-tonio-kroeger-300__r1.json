@@ -1,0 +1,122 @@
+{
+  "who": "gemini",
+  "item": "anchor__mann-tonio-kroeger-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Die Schule war aus. Über den gepflasterten Hof und heraus aus der Gatterpforte strömten die Scharen der Befreiten..."
+        ],
+        "suggestions": [
+          "Nach modernen Maßstäben beginnt die Szene einen Absatz zu früh mit einer allgemeinen Beschreibung. Ein direkter Einstieg mitten in die Handlung wäre: »Kommst du endlich, Hans?« sagte Tonio Kröger..."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "kleines Volk setzte sich lustig in Trab",
+          "eines gemessen hinschreitenden Oberlehrers",
+          "mit dem breiten schwarzen Firmendruck",
+          "seiner Vorfahren großes altes Haus war das herrschaftlichste"
+        ],
+        "suggestions": [
+          "Adverbien wie 'lustig' oder 'gemessen' durch stärkere Verben ersetzen (z.B. 'schritt der Oberlehrer einher').",
+          "Adjektivhäufungen wie 'großes altes' oder 'breiten schwarzen' reduzieren, um den Lesefluss zu beschleunigen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "»Kommst du endlich, Hans?« sagte Tonio Kröger",
+          "»Wieso?« fragte er und sah Tonio an",
+          "»Ja, adieu, ihr!« sagte Hans Hansen zu den Kameraden."
+        ],
+        "suggestions": [
+          "Die Kennzeichnungen sind unauffällig und funktional. Beim dritten Beispiel könnte 'sagte Hans Hansen' entfallen, wenn die Handlung davor steht: 'Hans Hansen wandte sich an die Kameraden. »Ja, adieu, ihr!«'"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Aber hie und da riß alles...",
+          "...beinahe unausgesetzt darauf gefreut!",
+          "...ja, von manchen Leuten wurden..."
+        ],
+        "suggestions": [
+          "Unpräzise Wörter wie 'beinahe' oder 'manchen' im Erzähltext streichen, um die Aussagen kräftiger zu machen ('Er hatte sich unausgesetzt darauf gefreut'). In der wörtlichen Rede ('ein bißchen') sind sie als Charakterisierung jedoch völlig legitim."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "...hielten mit Würde ihr Bücherpäckchen hoch gegen die linke Schulter gedrückt, indem sie mit dem rechten Arm wider den Wind dem Mittagessen entgegen ruderten",
+          "lächelnd trat er dem Freunde entgegen",
+          "Und die beiden wandten sich nach links, indes die anderen nach rechts schlenderten."
+        ],
+        "suggestions": [
+          "Gleichzeitige Handlungen (markiert durch 'indem', 'indes' oder Partizipien wie 'lächelnd') besser nacheinander beschreiben: 'Er lächelte und trat dem Freund entgegen.' oder 'Die beiden wandten sich nach links. Die anderen schlenderten nach rechts.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...in denen erst um vier Uhr zu Mittag gegessen wurde.",
+          "...von manchen Leuten wurden die Vierzehnjährigen zuerst gegrüßt..."
+        ],
+        "suggestions": [
+          "Passivkonstruktionen in aktive Sätze umwandeln: '...in denen die Familien erst um vier Uhr zu Mittag aßen.' und '...manche Leute grüßten die Vierzehnjährigen sogar zuerst.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Große Schüler hielten mit Würde ihr Bücherpäckchen hoch gegen die linke Schulter gedrückt, indem sie mit dem rechten Arm wider den Wind dem Mittagessen entgegen ruderten; kleines Volk setzte sich lustig in Trab, daß der Eisbrei umherspritzte und die Siebensachen der Wissenschaft in den Seehundsränzeln klapperten.",
+          "»Kommst du endlich, Hans?« sagte Tonio Kröger, der lange auf dem Fahrdamm gewartet hatte; lächelnd trat er dem Freunde entgegen, der im Gespräch mit anderen Kameraden aus der Pforte kam und schon im Begriffe war, mit ihnen davonzugehen..."
+        ],
+        "suggestions": [
+          "Die komplexen Satzgefüge (Hypotaxen) und Semikolons durch Punkte ersetzen. Kürzere Sätze erhöhen das Erzähltempo und die Klarheit: 'Tonio Kröger hatte lange auf dem Fahrdamm gewartet. »Kommst du endlich, Hans?« Lächelnd trat er dem Freund entgegen. Dieser kam im Gespräch mit anderen Kameraden aus der Pforte...'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "»Kommst du endlich, Hans?«",
+          "»Wieso?« fragte er und sah Tonio an... »Ja, das ist wahr! Nun gehen wir noch ein bißchen.«"
+        ],
+        "suggestions": [
+          "Die Dialoge sind extrem knapp, präzise und treiben die Szene sowie die Charakterisierung (Hans' Gleichgültigkeit vs. Tonios Erwartung) perfekt voran. Keine Änderung nötig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...dessen Getreidesäcke mit dem breiten schwarzen Firmendruck man Tag für Tag durch die Straßen kutschieren sah"
+        ],
+        "suggestions": [
+          "Die Wahrnehmungen sind größtenteils hervorragend direkt (z.B. per erlebter Rede: 'Hatte Hans es vergessen...'). Nur das 'kutschieren sah' könnte noch direkter formuliert werden: '...dessen Getreidesäcke Tag für Tag auf Kutschen durch die Straßen rollten.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Hatte Hans es vergessen, fiel es ihm erst jetzt wieder ein..."],
+        "suggestions": [
+          "Beide Teilsätze drücken denselben Gedanken aus. Einer davon reicht für die Wirkung aus, auch wenn die Doppelung hier Tonios Bestürzung betont."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018848
+}

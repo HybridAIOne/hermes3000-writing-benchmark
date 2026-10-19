@@ -1,0 +1,157 @@
+{
+  "who": "opus",
+  "item": "anchor__kafka-das-urteil-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Es war an einem Sonntagvormittag im schönsten Frühjahr.",
+          "Nach dem Einstieg (Georg schließt den Brief) springt der Text in eine lange Rückblende über den Freund, das Geschäft und den Tod der Mutter. Die Gegenwartsszene ruht über mehrere Absätze."
+        ],
+        "suggestions": [
+          "Direkt mit der Handlung einsetzen, etwa: 'Georg Bendemann verschloss den Brief an seinen Jugendfreund in spielerischer Langsamkeit.' Zeit und Ort lassen sich nachreichen.",
+          "Die Vorgeschichte (Petersburg, Tod der Mutter, Geschäftserfolg) dosierter einstreuen oder in eine spätere Konfrontation, etwa mit dem Vater, verlagern.",
+          "Hinweis: Es handelt sich um Kafkas 'Das Urteil'. Der bewusst ruhige, reflexive Einstieg ist ein Stilmittel. Die Bewertung folgt streng der Eschbach-Methode und ist keine literarische Wertung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "eines der niedrigen, leichtgebauten Häuser",
+          "verschloß ihn in spielerischer Langsamkeit",
+          "die Anhöhen am anderen Ufer mit ihrem schwachen Grün",
+          "der fremdartige Vollbart verdeckte nur schlecht das seit den Kinderjahren wohlbekannte Gesicht",
+          "bei seinen immer seltener werdenden Besuchen",
+          "sich sehr gut angelassen hatte",
+          "ganz unerwartet entwickelt"
+        ],
+        "suggestions": [
+          "Verstärker wie 'sehr', 'ganz', 'wirklich' und 'förmlich' streichen. Sie schwächen die Aussage eher ab.",
+          "Partizipialattribute auflösen: 'bei seinen immer seltener werdenden Besuchen' → 'bei seinen Besuchen, die immer seltener wurden'.",
+          "Die Häuserbeschreibung auf ein prägnantes Merkmal reduzieren."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "wie der Freund bei seinen immer seltener werdenden Besuchen klagte",
+          "Wie er erzählte, hatte er keine rechte Verbindung ..."
+        ],
+        "suggestions": [
+          "Der Abschnitt enthält keine direkte Rede. Die Verweise auf indirekte Rede ('klagte', 'erzählte') sind sparsam und funktional.",
+          "Optional könnte ein kurzes direktes Zitat des Freundes ('Die Verhältnisse hier lassen es nicht zu') die Figur lebendiger machen als der berichtete Inhalt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "vielleicht (mehrfach: 'Sollte man ihm vielleicht raten', 'Vielleicht gelang es nicht einmal', dreimal 'vielleicht' in einem Satz zum Vater)",
+          "was sogar sehr wahrscheinlich war",
+          "der vor etwa zwei Jahren erfolgt war",
+          "hatte der Freund wohl noch erfahren",
+          "der sich offenbar verrannt hatte",
+          "fast nur in der Höhe und Färbung unterschieden; fast keinen gesellschaftlichen Verkehr",
+          "zu stocken schien; hinzudeuten schien",
+          "wofür ja kein Hindernis bestand; er sagte ja selbst"
+        ],
+        "suggestions": [
+          "Unsicherheitsmarker ('vielleicht', 'wohl', 'offenbar', 'schien') auf die Stellen beschränken, an denen Georgs Zweifel tatsächlich thematisch wichtig ist.",
+          "Konkrete Angaben statt Annäherungen: 'vor etwa zwei Jahren' → 'vor zwei Jahren'.",
+          "Modalpartikeln wie 'ja', 'denn' und 'doch' prüfen und meist streichen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "während hunderttausende Russen ruhig in der Welt herumfuhren",
+          "daß man ihm gleichzeitig, je schonender, desto kränkender, sagte"
+        ],
+        "suggestions": [
+          "'während' wird hier adversativ (als Gegensatz) gebraucht, nicht temporal. Das ist unproblematisch.",
+          "'gleichzeitig' ist entbehrlich, weil die Doppelbotschaft bereits aus 'je schonender, desto kränkender' hervorgeht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Von dem Todesfall von Georgs Mutter, der vor etwa zwei Jahren erfolgt war",
+          "und würde hier ... niedergedrückt",
+          "sich ... von allen mit großen Augen anstaunen lassen müsse",
+          "das Personal hatte man verdoppeln müssen"
+        ],
+        "suggestions": [
+          "Nominalstil und Passiv aktiv auflösen: 'Von dem Todesfall ..., der erfolgt war' → 'Dass Georgs Mutter vor zwei Jahren gestorben war, hatte der Freund noch erfahren'.",
+          "'würde hier niedergedrückt' → 'drückten ihn hier die Tatsachen nieder'.",
+          "Die häufigen 'man'-Konstruktionen könnten durch Georg als handelndes Subjekt ersetzt werden: 'Georg hatte das Personal verdoppeln müssen'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Das bedeutete aber nichts anderes, als daß man ihm gleichzeitig, je schonender, desto kränkender, sagte, daß seine bisherigen Versuche mißlungen seien, daß er endlich von ihnen ablassen solle, daß er zurückkehren ... müsse, daß nur seine Freunde etwas verstünden und daß er ein altes Kind sei ...",
+          "Vielleicht hatte ihn der Vater bei Lebzeiten der Mutter dadurch, daß er im Geschäft nur seine Ansicht gelten lassen wollte, ... vielleicht war der Vater ..., vielleicht spielten ..., jedenfalls aber hatte sich das Geschäft ... ein weiterer Fortschritt stand zweifellos bevor.",
+          "Folgte er aber wirklich dem Rat und würde hier ... niedergedrückt, fände sich nicht ... zurecht, litte an Beschämung, hätte jetzt wirklich keine Heimat ..., war es da nicht viel besser für ihn, er blieb in der Fremde, so wie er war?",
+          "Georg Bendemann ... saß in seinem Privatzimmer im ersten Stock eines der niedrigen, leichtgebauten Häuser, die entlang des Flusses in einer langen Reihe, fast nur in der Höhe und Färbung unterschieden, sich hinzogen."
+        ],
+        "suggestions": [
+          "Die 'daß'-Kette in einzelne Sätze aufbrechen: 'Seine Versuche waren gescheitert. Er sollte aufgeben. Er sollte heimkehren und sich anstarren lassen.'",
+          "Den 'vielleicht'-Satz zum Vater in drei kurze Hypothesen und einen klaren Ergebnissatz teilen: 'Das Geschäft blühte. Das Personal hatte sich verdoppelt, der Umsatz verfünffacht.'",
+          "Eingeschobene Gedankenstrich-Parenthesen reduzieren oder als eigene Sätze ausformulieren.",
+          "Die verschachtelte Wortstellung ('nach Rußland sich förmlich geflüchtet', 'sich hinzogen') begradigen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Dialogpassagen vorhanden. Allerdings ersetzt der lange innere Monolog (Absatz 3) faktisch einen Dialog und könnte nach denselben Kriterien gestrafft werden."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Er dachte darüber nach, wie dieser Freund ... nach Rußland sich förmlich geflüchtet hatte.",
+          "und sah dann ... aus dem Fenster auf den Fluß, die Brücke und die Anhöhen",
+          "das anfangs sich sehr gut angelassen hatte, seit langem aber schon zu stocken schien",
+          "dessen gelbe Hautfarbe auf eine sich entwickelnde Krankheit hinzudeuten schien",
+          "Der Freund aber hatte keine Ahnung von dieser Veränderung."
+        ],
+        "suggestions": [
+          "Den Denkfilter streichen: 'Er dachte darüber nach, wie dieser Freund ... geflüchtet hatte' → 'Vor Jahren schon war dieser Freund nach Rußland geflüchtet.'",
+          "Wahrnehmung direkt zeigen: 'Draußen der Fluß, die Brücke, am anderen Ufer schwaches Grün.'",
+          "'schien'-Konstruktionen durch konkrete Beobachtung ersetzen: 'Seine Haut war gelb geworden.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Häufung von 'Fremde/fremdartig/entfremdet': 'in der Fremde nutzlos ab, der fremdartige Vollbart', 'in seiner Fremde', 'noch ein Stück mehr entfremdet', 'in der Fremde, so wie er war', 'in der Fremde ganz unvorstellbar'",
+          "'Freund/Freunde' in fast jedem Satz von Absatz 3",
+          "'Geschäft' mehrfach in Absatz 4 und 5",
+          "'drei Jahre' / 'Im Laufe dieser drei Jahre' in direkter Folge",
+          "Inhaltliche Doppelung: Absatz 3 umkreist mehrfach denselben Gedanken (Rat zur Heimkehr kränkt ihn, hilft ihm aber nicht)",
+          "'wirklich' mehrfach: 'Folgte er aber wirklich', 'hätte jetzt wirklich keine Heimat', 'es hätte wirklich einen merkwürdigen Anschein gehabt'"
+        ],
+        "suggestions": [
+          "Den Gedankengang in Absatz 3 auf die zwei Kernszenarien verdichten (er kommt nicht / er kommt und scheitert).",
+          "Für 'Freund' gelegentlich Pronomen oder einen Namen verwenden. Für 'Fremde' Synonyme nutzen oder die Wiederholung bewusst auf eine Schlüsselstelle beschränken.",
+          "Wenn die Wiederholung von 'Fremde' als Leitmotiv gedacht ist (wie bei Kafka), sie sparsamer und gezielter setzen, damit sie als Motiv statt als Redundanz wirkt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.121492
+}

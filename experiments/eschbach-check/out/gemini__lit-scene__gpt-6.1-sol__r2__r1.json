@@ -1,0 +1,107 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__gpt-6.1-sol__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 10,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel ging schwer, aber er passte noch. Judith musste die Tür mit der Schulter anheben, wie früher, wenn das Holz im Herbst gequollen war."
+        ],
+        "suggestions": [
+          "Exzellenter Einstieg 'in medias res'. Keine langatmige Anreise, sofortige Verknüpfung von konkreter Handlung, sensorischem Detail und Charakterhintergrund."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "ein Paar gefütterter Schuhe",
+          "Zwischen eingetrockneten Schwämmen lag ein Stück gelbe Kernseife, in dessen Oberfläche ein schwarzes Haar eingeschlossen war."
+        ],
+        "suggestions": [
+          "Die wenigen verwendeten Adjektive sind absolut präzise, notwendig und dienen der Atmosphäre sowie der Charakterisierung des Ortes. Keine Änderungen nötig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text kommt ohne direkten Dialog aus. Die indirekte Wiedergabe des Notargesprächs ('Der Notar hatte von einer Immobilie gesprochen...') fügt sich nahtlos und passend zur einsamen Stimmung ein."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "weiteren Umschläge, die meisten an ihre Mutter adressiert",
+          "Geruch nach altem Fett und etwas Scharfem"
+        ],
+        "suggestions": [
+          "Der Text ist frei von klassischen Füllwörtern. Formulierungen wie 'etwas Scharfem' sind hier keine stilistische Schwäche, sondern spiegeln präzise die vage Wahrnehmung der Protagonistin wider."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Judith schob sie mit dem Schuh beiseite und schloss die Tür.",
+          "Sie wartete, bis das Wasser klar war."
+        ],
+        "suggestions": [
+          "Handlungen werden sauber und chronologisch nacheinander abgebildet. Es gibt keine künstlichen Gleichzeitigkeits-Konstruktionen mit 'während' oder 'indem'."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["in dessen Oberfläche ein schwarzes Haar eingeschlossen war"],
+        "suggestions": [
+          "Durchgehend aktive und kraftvolle Sprache. Selbst unbelebte Dinge agieren aktiv ('strich ein Ast', 'kam ein brauner Stoß'). Das einzige Zustandspassiv beschreibt korrekt einen statischen Zustand."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Judith stellte ihre Tasche ab.",
+          "Ihr Vater hatte sie angebracht, bevor er ging; ihre Mutter hatte später die Tapete darum herum erneuert."
+        ],
+        "suggestions": [
+          "Hervorragender Satzrhythmus. Kurze, prägnante Sätze wechseln sich harmonisch mit etwas längeren, aber glasklar strukturierten Sätzen ab."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Da kein Dialog vorhanden ist, gibt es hier keinerlei Längen."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Aus der Küche kam der Geruch nach altem Fett",
+          "Die Seife roch nach Kümmel.",
+          "Über der Spüle hing der Kalender vom Februar."
+        ],
+        "suggestions": [
+          "Musterbeispiel für 'Show, don't tell' und unmittelbare Wahrnehmung. Filterwörter wie 'sie sah', 'sie roch' oder 'sie spürte' werden komplett vermieden, der Leser ist direkt in Judiths Kopf."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Unter dem untersten Haken"],
+        "suggestions": [
+          "Keine inhaltlichen Doppelungen, jeder Satz liefert eine neue Information oder vertieft die Atmosphäre. Lediglich die klangliche Dopplung 'Unter dem untersten' könnte man bei extrem strenger Betrachtung zu 'Am untersten Haken' oder 'Darunter stand...' glätten, was aber kaum ins Gewicht fällt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01427
+}

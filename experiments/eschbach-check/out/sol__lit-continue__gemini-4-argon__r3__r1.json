@@ -1,0 +1,138 @@
+{
+  "who": "sol",
+  "item": "lit-continue__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Die Strömung reicht“, sagte Ilse.", "Erst dann sah sie ihn an."],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Ilses Beschäftigung mit dem Seil und ihr verzögerter Blick etablieren Handlung und Beziehungsspannung ohne Vorgeschichte.",
+          "Ein späterer Einstieg bei „Hallo, Mama“ wäre möglich, würde aber Ilses anfängliche Distanz und die Verankerung im Fährbetrieb abschwächen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "dieses schnelle, glatte Lächeln",
+          "Die kleinen Hartplastikrollen ratterten ohrenbetäubend über das geriffelte Eisenblech.",
+          "„Der Pegel fällt“, log sie ruhig"
+        ],
+        "suggestions": [
+          "Die charakterisierenden Details überwiegend behalten: Kleidung, Schuhe und Arbeitsmaterial machen den Gegensatz zwischen Mutter und Sohn sichtbar.",
+          "„ohrenbetäubend“ streichen, wenn das Rattern bereits genügend akustische Wirkung entfaltet: „Die Hartplastikrollen ratterten über das geriffelte Eisenblech.“",
+          "Bei „log sie ruhig“ prüfen, ob die Ruhe nicht schon durch ihre sachliche Erklärung und das Lösen des Taus vermittelt wird."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Du hast gar nicht angerufen“, sagte sie.",
+          "„Ich zieh mich an“, sagte Ilse. Sie kontrollierte noch einmal die Verriegelung der Schranke.",
+          "„Geh schon mal vor“, sagte Ilse und trat zurück an die Winde."
+        ],
+        "suggestions": [
+          "Einzelne Kennzeichnungen durch die ohnehin vorhandenen Handlungen ersetzen: „Ich zieh mich an.“ Ilse kontrollierte noch einmal die Verriegelung der Schranke.",
+          "Auch möglich: „Geh schon mal vor.“ Ilse trat zurück an die Winde.",
+          "„log sie“ am Schluss nicht wie eine bloße Sprecherkennzeichnung behandeln: Es stellt ausdrücklich klar, dass Ilses Begründung vorgeschoben ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Trotzdem lächelte er jetzt dieses schnelle, glatte Lächeln",
+          "Sie kontrollierte noch einmal die Verriegelung der Schranke.",
+          "Eine Mappe aus schwarzem Leder ragte ein Stück aus seiner Reisetasche"
+        ],
+        "suggestions": [
+          "„jetzt“ beim Lächeln versuchsweise streichen; die zeitliche Einordnung ergibt sich bereits aus dem Szenenverlauf.",
+          "„ein Stück“ kann entfallen: „Eine Mappe aus schwarzem Leder ragte aus seiner Reisetasche“ vermittelt den entscheidenden Hinweis ebenfalls.",
+          "Dialogpartikeln wie „doch“, „gar“ und „schon mal“ nicht pauschal entfernen: Sie tragen zur natürlichen Figurenrede bei."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie sah zu Jonas hinüber, der sein Smartphone aus der Manteltasche gezogen hatte und mit gerunzelter Stirn auf das Display tippte, während der Wind ihm die ordentlich gescheitelten Haare zerzauste."
+        ],
+        "suggestions": [
+          "Es gibt keine übermäßige Verwendung von Gleichzeitigkeitssignalen; das einzelne „während“ beschreibt tatsächlich parallele Vorgänge.",
+          "Den Satz bei Bedarf entlasten: „Jonas tippte mit gerunzelter Stirn auf sein Smartphone. Der Wind zerzauste ihm die ordentlich gescheitelten Haare.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ilse ließ die rote Flagge im Eisenring stecken.",
+          "Eine Mappe aus schwarzem Leder ragte ein Stück aus seiner Reisetasche, die auf dem Koffer aufgesteckt war."
+        ],
+        "suggestions": [
+          "Die überwiegend aktive Erzählweise beibehalten; es gibt keine auffällige Häufung vermeidbarer Passivkonstruktionen.",
+          "„die auf dem Koffer aufgesteckt war“ ist eine Zustandsbeschreibung und kein dringender Überarbeitungsfall. Knappere Alternative: „die auf dem Koffer saß“."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Jonas trug einen dunkelblauen Wollmantel, der für das Elbufer im November viel zu dünn war, und glatte Lederschuhe.",
+          "Sie sah zu Jonas hinüber, der sein Smartphone aus der Manteltasche gezogen hatte und mit gerunzelter Stirn auf das Display tippte, während der Wind ihm die ordentlich gescheitelten Haare zerzauste."
+        ],
+        "suggestions": [
+          "Beim Kleidungssatz den Einschub auflösen: „Jonas trug glatte Lederschuhe und einen dunkelblauen Wollmantel. Für das Elbufer im November war der Mantel viel zu dünn.“",
+          "Den Smartphone-Satz auf zwei oder drei Sätze verteilen, damit Blickrichtung, Tätigkeit und Wind nicht in einer einzigen Konstruktion gebündelt werden.",
+          "Die kurzen Sätze und Fragmente wie „Alles saß“ und „Zu dick für einen bloßen Wochenendbesuch“ als rhythmischen Gegenpol erhalten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ich war in Hamburg bei einem Mandanten. Da dachte ich, ich nehme den Mietwagen für den Rest der Strecke.“",
+          "„Wird Zeit, dass du hier Schluss machst für heute. Es zieht wie Hechtsuppe. Wie hältst du das den ganzen Tag ohne die Heizung im Steuerstand aus?“"
+        ],
+        "suggestions": [
+          "Die kurzen, durch Handlungen unterbrochenen Redewechsel beibehalten; keine Passage wirkt monologisch oder erklärungslastig.",
+          "Jonas’ längeren Kommentar zur Kälte nur dann kürzen, wenn sein fürsorglich-bevormundender Ton weniger Raum erhalten soll. Für die Beziehungsgestaltung erfüllt er eine klare Funktion."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie sah zu Jonas hinüber, der sein Smartphone aus der Manteltasche gezogen hatte",
+          "Ilse sah ans andere Ufer. Die Wiesen lagen leer und dunkel unter dem tief hängenden Himmel"
+        ],
+        "suggestions": [
+          "Den Blickfilter vor der Smartphone-Beobachtung versuchsweise entfernen: „Jonas hatte sein Smartphone aus der Manteltasche gezogen und tippte mit gerunzelter Stirn auf das Display.“",
+          "„Ilse sah ans andere Ufer“ kann bleiben: Der bewusste Kontrollblick nach Jonas’ Einwand ist selbst eine relevante Handlung.",
+          "„Erst dann sah sie ihn an“ ebenfalls erhalten, weil hier die verzögerte Kontaktaufnahme und nicht bloß die Vermittlung einer Wahrnehmung entscheidend ist."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "zog sie in eine kurze Umarmung",
+          "legte ihm die schweren Hände kurz auf die Schulterblätter und ließ ihn wieder los",
+          "Normalerweise hätte sie jetzt die rote Flagge eingeholt",
+          "Ilse ließ die rote Flagge im Eisenring stecken."
+        ],
+        "suggestions": [
+          "Die Kürze der Umarmung nur einmal ausdrücklich benennen: etwa „zog sie in eine Umarmung“ und anschließend Ilses knappe Erwiderung zeigen.",
+          "Die Wiederaufnahme der roten Flagge unbedingt behalten: Sie macht Ilses Abweichung vom gewohnten Ablauf sichtbar und markiert ihre Entscheidung.",
+          "Wiederkehrende Wind- und Kältedetails nur behutsam reduzieren; sie verbinden Atmosphäre, körperliches Unbehagen und den Gegensatz der Figuren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.022828
+}

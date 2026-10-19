@@ -1,0 +1,119 @@
+{
+  "who": "gemini",
+  "item": "anchor__musil-die-verwirrungen-des-zoeglings-toerless-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Eine kleine Station an der Strecke, welche nach Rußland führt.",
+          "Hinter dem niederen, ölgestrichenen Stationsgebäude führte eine breite, ausgefahrene Straße zur Bahnhofsrampe herauf."
+        ],
+        "suggestions": [
+          "Nach modernen Maßstäben beginnt die Szene sehr statisch mit langen Umgebungsbeschreibungen. Um den Leser sofort zu fesseln, könnte der Text direkt bei Frau Hofrat Törleß und dem Schmerz des Abschieds beginnen ('In media res') und die trostlose Umgebung durch ihre Wahrnehmung einfließen lassen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Endlos gerade liefen vier parallele Eisenstränge... zwischen dem gelben Kies des breiten Fahrdammes",
+          "Hinter dem niederen, ölgestrichenen Stationsgebäude führte eine breite, ausgefahrene Straße",
+          "das bleiche, kraftlose, durch den Dunst ermüdete Licht"
+        ],
+        "suggestions": [
+          "Der Text ist extrem überladen mit Adjektiven. Fast jedes Substantiv hat ein bis drei Attribute. Streichen Sie mindestens die Hälfte davon und wählen Sie stattdessen stärkere Substantive und Verben.",
+          "Vermeiden Sie 'Tautologien' wie 'lustiges Lachen' – Lachen impliziert dies bereits, oder beschreiben Sie stattdessen den genauen Klang."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text enthält keine direkte Rede, daher gibt es hier keine Fehler bei den Dialogkennzeichnungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "etwas Gleichgültiges",
+          "der etwas lauten Unterhaltung",
+          "von vielleicht vierzig Jahren",
+          "ein wenig gerötete Augen",
+          "gleichsam an einem zähen..."
+        ],
+        "suggestions": [
+          "Wörter wie 'etwas', 'ein wenig' und 'vielleicht' schwächen die Aussagen ab und lassen den Erzähler unsicher wirken. Entscheiden Sie sich: War die Unterhaltung laut oder nicht? Waren die Augen gerötet? Streichen Sie die Relativierungen für mehr Präzision."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...promenierte eine heitere Gesellschaft junger Leute, links und rechts eines älteren Ehepaares schreitend..."
+        ],
+        "suggestions": [
+          "Der Text verzichtet weitgehend auf problematische 'Während'-Konstruktionen. Einzig Partizipialkonstruktionen ('schreitend', 'schützend') erzeugen eine gewisse Gleichzeitigkeit, die durch aktive Verben im Nacheinander lebendiger wirken würde."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "als seien sie aus der Szene eines Puppentheaters genommen",
+          "von dem Abdampfe in den Boden gebrannte Strich"
+        ],
+        "suggestions": [
+          "Es gibt kaum klassisches Passiv, aber viele Zustandspassive und passivische Partizipialattribute ('zertretenen Boden', 'erdrosselten Blättern'). Das passt zwar zur beschriebenen Leblosigkeit, bremst aber den Lesefluss. Mehr aktive Verben würden den Text dynamischer machen."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Von Zeit zu Zeit, in gleichen Intervallen, trat der Bahnhofsvorstand aus seinem Amtszimmer heraus, sah mit der gleichen Wendung des Kopfes die weite Strecke hinauf nach den Signalen der Wächterhäuschen, die immer noch nicht das Nahen des Eilzuges anzeigen wollten, der an der Grenze große Verspätung erlitten hatte; mit ein und derselben Bewegung des Armes zog er sodann seine Taschenuhr hervor, schüttelte den Kopf und verschwand wieder; so wie die Figuren kommen und gehen, die aus alten Turmuhren treten, wenn die Stunde voll ist."
+        ],
+        "suggestions": [
+          "Dieser Satz umfasst über 80 Wörter und ist durch Semikolons und diverse Nebensätze stark verschachtelt. Teilen Sie solche Bandwurmsätze in drei bis vier kürzere Sätze auf, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher keine Längen in der Figurenrede."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "der Lärm des lustigen Lachens schien schon auf wenige Schritte zu verstummen",
+          "Und es fiel ihr schwer, ihr einziges Kind nun wieder auf so lange Zeit unter fremden Leuten lassen zu müssen"
+        ],
+        "suggestions": [
+          "Formulierungen wie 'schien zu verstummen' schaffen Distanz. Schreiben Sie direkt: 'Das Lachen verstummte nach wenigen Schritten.'",
+          "Statt zu erklären, dass es ihr schwerfiel ('Tell'), zeigen Sie den Schmerz durch Handlung oder körperliche Reaktion ('Show'), z.B. wie sie die Hand ihres Sohnes drückt."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Von Zeit zu Zeit, in gleichen Intervallen",
+          "traurig mit verdursteten... Blättern / Machten es diese traurigen Farben / traurige... Augen",
+          "des breiten Fahrdammes / eine breite, ausgefahrene Straße / Auf dem breiten, festgestampften Streifen"
+        ],
+        "suggestions": [
+          "'Von Zeit zu Zeit' und 'in gleichen Intervallen' im selben Satz doppelt sich inhaltlich. Entscheiden Sie sich für die präzisere Variante ('in gleichen Intervallen').",
+          "Die Adjektive 'traurig' und 'breit' werden jeweils dreimal in diesem kurzen Abschnitt verwendet. Suchen Sie nach Synonymen oder streichen Sie sie ersatzlos."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.018548
+}

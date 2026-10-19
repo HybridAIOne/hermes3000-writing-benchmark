@@ -1,0 +1,152 @@
+{
+  "who": "opus",
+  "item": "lit-continue__kimi-k3__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Motor stotterte beim Anlegen nicht, er war nur lauter geworden seit Frühjahr. Das hätte sie ihm sagen können, tat es aber nicht.",
+          "„Du stehst im Weg\", sagte sie."
+        ],
+        "suggestions": [
+          "Der Einstieg setzt mitten in der Ankunft ein und etabliert sofort die Spannung zwischen Ilse und Jonas. Das ist stark.",
+          "Prüfe, ob die Szene direkt mit „Du stehst im Weg\" beginnen kann. Die Motor-Beobachtung ließe sich danach einflechten. So wäre der Konflikt noch unmittelbarer, allerdings ginge die leise Andeutung des Verschweigens am Anfang verloren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Seine Schuhe waren zu dünn für die Bohlen.",
+          "Henning hatte genickt wie ein Mann, der Holz nimmt: endgültig.",
+          "Sie ließ ihn einfach stehen."
+        ],
+        "suggestions": [
+          "Adjektive und Adverbien werden sparsam und präzise eingesetzt. „endgültig\" ist eine treffende Pointe.",
+          "„einfach\" in „Sie ließ ihn einfach stehen\" ist entbehrlich: „Sie ließ ihn stehen.\" wirkt härter und passt besser zur Figur."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Ich fahr nicht rüber\", sagte sie.",
+          "„Ich mach Brot\", sagte sie.",
+          "„Ich hab angerufen\", sagte Jonas."
+        ],
+        "suggestions": [
+          "Die meisten Wechsel in den Stichomythien kommen ohne Kennzeichnung aus. Das ist gut gelöst.",
+          "„Ich fahr nicht rüber\", sagte sie: Der vorangehende Absatz ist bereits ganz bei Ilse, das „sagte sie\" kann entfallen.",
+          "„Ich hab angerufen\" lässt sich ebenfalls ohne Zuschreibung verstehen, weil nur Jonas angerufen haben kann. Alternativ ersetzt eine Handlung die Redeeinleitung, etwa: Jonas stellte den Koffer ab. „Ich hab angerufen.\""
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "er war nur lauter geworden seit Frühjahr",
+          "dass er es wahrscheinlich beide Male meinte",
+          "für einen Moment war er wieder acht",
+          "Es war nur so, dass sie wusste"
+        ],
+        "suggestions": [
+          "„wahrscheinlich\" in Ilses Gedanken schwächt ihre ansonsten scharfe Wahrnehmung. Ohne das Wort wirkt das Urteil entschiedener: „Er meinte es beide Male, und keins davon würde stimmen.\"",
+          "„Es war nur so, dass sie wusste …\" lässt sich straffen: „Sie wusste, wie lange er bleiben würde, wenn sie es richtig machte: bis morgen früh, nicht länger.\"",
+          "„nur\" im ersten Satz kann bleiben, da es eine Gegenüberstellung trägt. Sonst den Gebrauch prüfen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Das sagte er, und gleichzeitig sah er auf seine Uhr",
+          "und stand zum ersten Mal allein auf der Fähre, während Henning am Hebel saß und grinste",
+          "Jonas hob den Koffer an, als könne man ihn so aus dem Weg räumen"
+        ],
+        "suggestions": [
+          "„gleichzeitig\" benennt den Widerspruch, statt ihn zu zeigen. Besser nacheinander: „„Ich hab Zeit.\" Er sah auf seine Uhr.\" Der Leser versteht die Ironie ohne Hinweis.",
+          "Die Erinnerung ließe sich als eigener Satz fassen: „Für einen Moment war er wieder acht, allein auf der Fähre. Henning saß am Hebel und grinste.\"",
+          "Das „als könne\" ist ein Vergleich, keine Gleichzeitigkeit, und kann bleiben."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["wie ein Tier, das man mitnimmt und das nicht mitgenommen werden will"],
+        "suggestions": [
+          "Der Text ist nahezu durchgehend aktiv formuliert.",
+          "Die einzige Passivkonstruktion („mitgenommen werden will\") ist stilistisch bewusst gesetzt und spiegelt das Ausgeliefertsein. Sie sollte bleiben."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie gingen den Weg zum Haus hinauf, sie voraus, er hinterher mit dem Koffer, dessen Rollen auf dem Kiesweg klagten wie ein Tier, das man mitnimmt und das nicht mitgenommen werden will.",
+          "Sie sah, wie er das Gleichgewicht suchte und es nicht fand, und für einen Moment war er wieder acht und stand zum ersten Mal allein auf der Fähre, während Henning am Hebel saß und grinste.",
+          "Im Flur roch es nach nassem Holz und nach dem Kaffee vom Morgen, den sie nicht weggeschüttet hatte, weil Henning immer gesagt hatte, man schütte keinen Kaffee weg, man wärmt ihn auf.",
+          "Sie nahm das Brett aus dem Schrank und das Messer und den Laib, den sie noch selbst gebacken hatte, vor zwei Tagen, und sie beschloss, dass sie ihm keinen Kaffee aufwärmen würde."
+        ],
+        "suggestions": [
+          "Die langen Sätze haben Rhythmus, häufen sich aber in der zweiten Hälfte. Teile gezielt einzelne, damit die kurzen Pointensätze stärker wirken.",
+          "Beispiel: „Sie gingen zum Haus hinauf, sie voraus, er hinterher. Die Kofferrollen klagten auf dem Kies wie ein Tier, das nicht mitgenommen werden will.\"",
+          "Beispiel: „Sie nahm Brett, Messer und den Laib, den sie vor zwei Tagen gebacken hatte. Aufwärmen würde sie ihm keinen Kaffee.\"",
+          "Im Kaffee-Satz wechselt der Modus („man schütte … man wärmt\"). Vereinheitliche ihn oder setze Hennings Satz als direkte Rede ab, das kürzt zugleich."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der Zaun war immer grün.\" / „Er war nie grün. Er war grau und hat abgeblättert.\"",
+          "„Ich mach Brot.\" / „Ich hab im Zug—\" / „Ich mach Brot.\""
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, subtextreich und transportieren den Konflikt hervorragend. Hier ist keine Straffung nötig.",
+          "Höchstens „„Ich hab Zeit.\"\" und der folgende Kommentar lassen sich verdichten (siehe Gleichzeitigkeit)."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Sie sah, wie er das Gleichgewicht suchte und es nicht fand",
+          "Ilse dachte, dass er es wahrscheinlich beide Male meinte",
+          "sie wusste, dass Jonas das sah und verstand und nicht fragen würde",
+          "sie war froh, denn sie hatte gehört, wie es klang",
+          "sie beschloss, dass sie ihm keinen Kaffee aufwärmen würde",
+          "Es war nur so, dass sie wusste, wie lange er bleiben würde"
+        ],
+        "suggestions": [
+          "Die Perspektive liegt klar bei Ilse, daher sind Filter wie „sah\", „dachte\", „wusste\" meist überflüssig.",
+          "„Sie sah, wie er das Gleichgewicht suchte\" → „Er suchte das Gleichgewicht und fand es nicht.\"",
+          "„Ilse dachte, dass er es …\" → „Er meinte es beide Male, und keins davon würde stimmen.\"",
+          "„sie wusste, dass Jonas das sah und verstand\" → „Jonas sah es. Er verstand und würde nicht fragen.\"",
+          "„sie beschloss, dass sie ihm keinen Kaffee aufwärmen würde\" → „Aufwärmen würde sie ihm keinen. Sie würde frischen kochen.\"",
+          "Einen oder zwei Filter kannst du bewusst stehen lassen, etwa „sie hatte gehört, wie es klang\", weil hier Ilses Selbstwahrnehmung der Inhalt ist."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "etwas Abgelegtes, etwas aus der Schublade seiner Besprechungen",
+          "Henning immer gesagt hatte, man schütte keinen Kaffee weg, man wärmt ihn auf. Sie wärmte keinen mehr auf. … sie beschloss, dass sie ihm keinen Kaffee aufwärmen würde.",
+          "„Da war ich draußen.\" … „Hier draußen ist man draußen.\"",
+          "der Fahrer hob zwei Finger. Ilse hob ihre zwei Finger zurück."
+        ],
+        "suggestions": [
+          "Die meisten Wiederholungen sind bewusste Stilmittel (draußen, zwei Finger, „Ich mach Brot\", genickt) und funktionieren.",
+          "„etwas Abgelegtes, etwas aus der Schublade seiner Besprechungen\" umschreibt dasselbe zweimal. Entscheide dich für das stärkere Bild, etwa „ein Nicken aus der Schublade seiner Besprechungen\".",
+          "Das Kaffee-Aufwärmen-Motiv erscheint dreimal. Der Rückgriff am Ende ist gut, aber „Sie wärmte keinen mehr auf. Sie ließ ihn einfach stehen.\" nimmt die Schlusspointe vorweg. Kürze eine der beiden Stellen.",
+          "„auch Henning seinen\" ist umgangssprachlich. Falls es keine bewusste Figurenstimme ist: „auch seine\" oder „auch Hennings\"."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.1199
+}

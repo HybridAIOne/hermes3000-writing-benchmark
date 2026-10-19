@@ -1,0 +1,164 @@
+{
+  "who": "opus",
+  "item": "anchor__mann-tonio-kroeger-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Die Schule war aus. Über den gepflasterten Hof und heraus aus der Gatterpforte strömten die Scharen der Befreiten, teilten sich und enteilten nach rechts und links.",
+          "Aber hie und da riß alles mit frommen Augen die Mützen herunter vor dem Wotanshut und dem Jupiterbart eines gemessen hinschreitenden Oberlehrers..."
+        ],
+        "suggestions": [
+          "Der Auftakt »Die Schule war aus.« ist knapp und stark. Das anschließende Panorama der Schülerscharen und des Oberlehrers schiebt den Auftritt der Hauptfigur aber hinaus. Die Szene könnte mit Tonios Warten auf dem Fahrdamm einsetzen und das Schulhof-Treiben in einem Satz andeuten.",
+          "Die Hintergrundinformation über Väter, Holzlager und Getreidesäcke unterbricht die eben begonnene Handlung. Sie ließe sich später und in kleineren Portionen einstreuen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "über den gepflasterten Hof",
+          "kleines Volk setzte sich lustig in Trab",
+          "mit frommen Augen",
+          "eines gemessen hinschreitenden Oberlehrers",
+          "die weitläufigen Holzlagerplätze",
+          "gewaltige Sägemaschinen",
+          "mit dem breiten schwarzen Firmendruck",
+          "seiner Vorfahren großes altes Haus war das herrschaftlichste"
+        ],
+        "suggestions": [
+          "Häufungen auflösen: »großes altes Haus war das herrschaftlichste« – der Superlativ trägt die Aussage allein, »groß« und »alt« sind entbehrlich.",
+          "»setzte sich lustig in Trab« durch ein präziseres Verb ersetzen, etwa »kleines Volk trabte/hüpfte davon«.",
+          "»gemessen hinschreitenden« lässt sich zu »schreitenden« verdichten, denn »schreiten« enthält die Gemessenheit bereits.",
+          "Prüfen, ob »gepflastert«, »weitläufig« und »gewaltig« für die Szene nötig sind oder nur Kulisse füllen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "»Kommst du endlich, Hans?« sagte Tonio Kröger, der lange auf dem Fahrdamm gewartet hatte",
+          "»Wieso?« fragte er und sah Tonio an...",
+          "»Ja, adieu, ihr!« sagte Hans Hansen zu den Kameraden."
+        ],
+        "suggestions": [
+          "»fragte er« ist mehrdeutig, weil das letzte genannte männliche Subjekt Tonio ist. Besser den Namen nennen oder nur die Handlung zeigen: »Hans sah ihn an. »Wieso?««",
+          "Bei »Ja, adieu, ihr!« ergibt sich aus Inhalt und Situation, wer spricht und zu wem. Die Kennzeichnung kann zu einer Handlung werden, etwa »Hans winkte den Kameraden.«",
+          "Statt »sagte« lieber Handlungsbeats einsetzen, die zugleich Figur und Gefühl zeigen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Nun gehen wir noch ein bißchen.",
+          "daß sie heute mittag ein wenig zusammen spazierengehen wollten",
+          "beinahe unausgesetzt darauf gefreut",
+          "Dann gehe ich noch ein bißchen mit Kröger.",
+          "Aber hie und da riß alles",
+          "von manchen Leuten",
+          "seit manchem Menschenalter",
+          "der vielen Bekannten wegen"
+        ],
+        "suggestions": [
+          "Im Dialog darf »ein bißchen« als Figurensprache bleiben. Im Erzähltext sind »ein wenig« und »beinahe« aber Weichmacher. »hatte sich seit der Verabredung unausgesetzt darauf gefreut« wirkt entschiedener.",
+          "»manche«, »viele«, »hie und da« durch konkrete Bilder ersetzen, etwa »sogar der Bürgermeister grüßte die Vierzehnjährigen zuerst«.",
+          "»seit manchem Menschenalter« präzisieren: »seit vier Generationen«."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Große Schüler hielten mit Würde ihr Bücherpäckchen hoch gegen die linke Schulter gedrückt, indem sie mit dem rechten Arm wider den Wind dem Mittagessen entgegen ruderten",
+          "lächelnd trat er dem Freunde entgegen, der im Gespräch mit anderen Kameraden aus der Pforte kam und schon im Begriffe war, mit ihnen davonzugehen",
+          "Und die beiden wandten sich nach links, indes die anderen nach rechts schlenderten."
+        ],
+        "suggestions": [
+          "Die »indem«-Konstruktion in zwei Hauptsätze auflösen: »Große Schüler drückten ihr Bücherpäckchen gegen die linke Schulter. Mit dem rechten Arm ruderten sie gegen den Wind.«",
+          "Die Begegnung chronologisch erzählen: Hans kommt mit den Kameraden aus der Pforte. Er will schon mit ihnen gehen. Erst dann tritt Tonio lächelnd auf ihn zu.",
+          "»indes« kann wegfallen: »Die beiden wandten sich nach links. Die anderen schlenderten nach rechts.« Das betont die Trennung sogar stärker."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "in denen erst um vier Uhr zu Mittag gegessen wurde",
+          "von manchen Leuten wurden die Vierzehnjährigen zuerst gegrüßt",
+          "dessen Getreidesäcke mit dem breiten schwarzen Firmendruck man Tag für Tag durch die Straßen kutschieren sah"
+        ],
+        "suggestions": [
+          "Aktiv formulieren: »weil man in beiden Häusern erst um vier Uhr zu Mittag aß« oder »weil beide Familien erst um vier Uhr zu Mittag aßen«.",
+          "»Manche Leute grüßten die Vierzehnjährigen sogar zuerst.« ist direkter. Das Passiv betont hier allerdings bewusst die Jungen als Empfänger der Ehrerbietung. Das ist eine vertretbare Entscheidung.",
+          "Die man-Konstruktion durch ein aktives Bild ersetzen: »Krögers Fuhrwerke kutschierten Tag für Tag die Getreidesäcke mit dem schwarzen Firmendruck durch die Straßen.«"
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Große Schüler hielten mit Würde ihr Bücherpäckchen hoch gegen die linke Schulter gedrückt, indem sie mit dem rechten Arm wider den Wind dem Mittagessen entgegen ruderten; kleines Volk setzte sich lustig in Trab, daß der Eisbrei umherspritzte und die Siebensachen der Wissenschaft in den Seehundsränzeln klapperten.",
+          "»Kommst du endlich, Hans?« sagte Tonio Kröger, der lange auf dem Fahrdamm gewartet hatte; lächelnd trat er dem Freunde entgegen, der im Gespräch mit anderen Kameraden aus der Pforte kam und schon im Begriffe war, mit ihnen davonzugehen...",
+          "Aber Tonio war Konsul Krögers Sohn, dessen Getreidesäcke mit dem breiten schwarzen Firmendruck man Tag für Tag durch die Straßen kutschieren sah; und seiner Vorfahren großes altes Haus war das herrschaftlichste der ganzen Stadt..."
+        ],
+        "suggestions": [
+          "Die Semikolon-Gefüge an den Semikola in eigenständige Sätze teilen.",
+          "Relativsatzketten (»der ... der ... und schon im Begriffe war«) auflösen. Ein Satz sollte jeweils eine Handlung tragen.",
+          "Kurze und lange Sätze bewusst abwechseln. Der knappe Einstieg »Die Schule war aus.« zeigt, wie wirkungsvoll Kürze sein kann."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "»Kommst du endlich, Hans?«",
+          "»Wieso?« fragte er und sah Tonio an... »Ja, das ist wahr! Nun gehen wir noch ein bißchen.«",
+          "»Ja, adieu, ihr! [...] Dann gehe ich noch ein bißchen mit Kröger.«"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp und subtextreich. Das beiläufige »Wieso?« verrät Hans' Vergesslichkeit ohne Erklärung. Keine Straffung nötig.",
+          "Allenfalls darauf achten, dass die Auslassungspunkte den Wechsel der Sprecher nicht verunklaren."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Hatte Hans es vergessen, fiel es ihm erst jetzt wieder ein, daß sie heute mittag ein wenig zusammen spazierengehen wollten?",
+          "Tonio verstummte, und seine Augen trübten sich.",
+          "man ... durch die Straßen kutschieren sah"
+        ],
+        "suggestions": [
+          "Die erlebte Rede in Tonios Gedanken ist bereits recht direkt. Die »daß«-Konstruktion ließe sich noch unmittelbarer fassen: »Hatte Hans es vergessen? Ihr Spaziergang – fiel er ihm erst jetzt wieder ein?«",
+          "»seine Augen trübten sich« zeigt das Gefühl, statt es zu benennen. Das ist gut gelöst.",
+          "Die Wahrnehmungsformel »man sah« vermeiden und das Bild selbst zeigen."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "»Nun gehen wir noch ein bißchen.« / »Dann gehe ich noch ein bißchen mit Kröger.«",
+          "spazierengehen / spazierenzugehen",
+          "riß alles mit frommen Augen die Mützen herunter / mußten die Freunde ... die Mützen herunternehmen",
+          "Gatterpforte / aus der Pforte",
+          "Große Schüler / große Kaufleute / großes altes Haus",
+          "mächtig waren in der Stadt / das herrschaftlichste der ganzen Stadt",
+          "Ihre Väter waren große Kaufleute, die öffentliche Ämter bekleideten und mächtig waren in der Stadt."
+        ],
+        "suggestions": [
+          "Prüfen, ob die Wiederholung von »ein bißchen« bewusst eingesetzt ist. Sie kann Hans' Beiläufigkeit spiegeln. Sonst eine Variante streichen.",
+          "Das Adjektiv »groß« abwechseln oder streichen, es taucht dreimal auf.",
+          "Die Bedeutung der Väter wird mehrfach umschrieben (große Kaufleute, öffentliche Ämter, mächtig, herrschaftlichstes Haus, Grüßen der Leute). Das stärkste Bild genügt: Die Erwachsenen grüßen die Vierzehnjährigen zuerst. Das zeigt den Status, ohne ihn zu behaupten.",
+          "Das Motiv des Mützenziehens ist als Klammer wirkungsvoll. Es sollte aber erkennbar als Motiv gesetzt sein und nicht wie eine zufällige Doppelung wirken."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.120712
+}

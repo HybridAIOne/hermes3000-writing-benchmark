@@ -1,0 +1,166 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Der Nebel lag so dicht über der Elbe, dass das andere Ufer verschwunden war. Es gab nur noch das schwarze, träge ziehende Wasser, das stählerne Deck der Fähre und das weiche Grau, das alles verschluckte.",
+          "Ilse stand im Steuerhaus, die Hände in den Taschen ihrer gefütterten Wachsjacke vergraben, und wartete auf das Scheppern der Auffahrtsklappe.",
+          "Auf dem Display neben dem Ruder leuchtete die Uhrzeit: 06:42 Uhr. Noch drei Minuten."
+        ],
+        "suggestions": [
+          "Der Konflikt (Jonas' Anruf) kommt erst im letzten Drittel. Die Szene könnte mit der Ankunft des Golfs beginnen: 'Zwei gelbe Lichtkegel schälten sich aus dem Nebel über der Elbe.' Die Nebelstimmung lässt sich in die Handlung einweben.",
+          "Die Wartephase (Uhrzeit, Kälte in den Stiefeln) kann entfallen. Die Fahrgäste etablieren die Routine bereits ausreichend.",
+          "Alternativ ein früher Hinweis auf den Sohn (z. B. das Telefon, das sie in der Brusttasche spürt), damit die Routine-Passage von Anfang an eine unterschwellige Spannung trägt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "das schwarze, träge ziehende Wasser ... das weiche Grau",
+          "die schwere Ledertasche ... die schwere Kette",
+          "mit einem tiefen, kehligen Stottern ... in ein gleichmäßiges Tuckern",
+          "das Seil sang sein leises, metallisches Lied",
+          "Es war ein tiefes, regelmäßiges Vibrieren",
+          "der gewohnte dumpfe Schmerz unter dem rechten Schulterblatt",
+          "auf sein leuchtendes Display, das sein blasses Gesicht von unten anstrahlte",
+          "auf der gepflasterten Rampe ... auf dem nassen Stahl ... die verschrammte Reling ... ihren klapprigen Einkaufstrolley"
+        ],
+        "suggestions": [
+          "Viele Adjektive sind konkret und stark ('verschrammte Reling', 'ausgefranst'). Die hohe Dichte ermüdet jedoch. Pro Satz höchstens ein Attribut verwenden, Doppeladjektive auflösen.",
+          "'leuchtendes Display, das ... anstrahlte' ist doppelt gemoppelt. Besser: 'tippte auf sein Display, das sein Gesicht von unten anstrahlte.'",
+          "'schwere' kommt zweimal vor. Bei der Kette ergibt sich das Gewicht aus 'klirrend auf den Stahlboden schlug', das Adjektiv kann dort weg.",
+          "'tiefen, kehligen Stottern ... gleichmäßiges Tuckern' straffen zu: 'Der Hilfsmotor stotterte, fing sich und tuckerte.'",
+          "'mit einem geübten Ruck' ersetzen durch ein präzises Verb, z. B. 'riss die Kette los'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Suppe heute“, sagte Kalle und nickte in Richtung Fluss.",
+          "„Ich hätt schon gewartet“, sagte Ilse.",
+          "„Gerade noch geschafft“, keuchte sie, als sie das Deck betrat."
+        ],
+        "suggestions": [
+          "Im Zwiegespräch Kalle/Ilse ist der Sprecher klar. Es genügt: „Suppe heute.“ Kalle nickte in Richtung Fluss.",
+          "„Ich hätt schon gewartet.“ braucht keine Kennzeichnung, da nur Ilse antworten kann.",
+          "'keuchte sie' durch Handlung ersetzen: 'Frau Mertens stemmte den Trolley über die Klappe. „Gerade noch geschafft.“' Das schwere Atmen ist zuvor bereits erwähnt.",
+          "Positiv: Viele Repliken („Morgen.“, „Geht schon.“, „Mach auf dem Rückweg, Herta.“) stehen bereits ohne Inquit oder mit Handlungsbeat."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "die Schulter zog ein wenig",
+          "Ilse korrigierte den Winkel des Ruders minimal",
+          "die irgendwo im weißen Nichts ... über ihnen schrie irgendwo unsichtbar eine Graugans",
+          "das Lächeln professionell und ein bisschen zu breit",
+          "schob das Telefon einfach zurück in die Brusttasche",
+          "Ilse nickte nur, obwohl er es gar nicht sah.",
+          "die Scheiben beschlugen bereits von innen"
+        ],
+        "suggestions": [
+          "'ein wenig', 'ein bisschen', 'einfach', 'gar', 'bereits' streichen: 'die Schulter zog', 'das Lächeln professionell und zu breit', 'schob das Telefon zurück'.",
+          "'irgendwo' kommt doppelt vor. Bei der Graugans genügt 'unsichtbar' ('über ihnen schrie unsichtbar eine Graugans').",
+          "Positiv: Konkrete Zahlen (Zwei-Euro-Münze und fünfzig Cent, zwanzig Meter, dreißig Meter, drei Leute) statt vager Mengenangaben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Als Ilse vor ihn trat, hielt er ihr wortlos eine Monatskarte hin",
+          "„Gerade noch geschafft“, keuchte sie, als sie das Deck betrat.",
+          "und legte beide Hände wieder ans Ruder, um den Schwung für das Anlegen abzufangen"
+        ],
+        "suggestions": [
+          "Handlungen sind überwiegend sauber nacheinander erzählt. Die 'als'-Konstruktionen lassen sich trotzdem auflösen: 'Ilse trat vor ihn. Wortlos hielt er ihr eine Monatskarte hin.'",
+          "'keuchte sie, als sie das Deck betrat' aufteilen: 'Sie betrat das Deck. „Gerade noch geschafft.“'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "eine gespannte Sehne, die irgendwo im weißen Nichts am anderen Ufer verankert war",
+          "Es brauchte Kraft"
+        ],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv. Das Zustandspassiv 'verankert war' ist vertretbar, alternativ aktiv: 'die irgendwo im weißen Nichts am anderen Ufer hing'.",
+          "'Es brauchte Kraft' ist eine unpersönliche Konstruktion. Aktiver: 'Ilse musste sich gegen die Kurbel stemmen.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Ilse ging zum Bug, löste die schwere Kette mit einem geübten Ruck, sodass das Eisen klirrend auf den Stahlboden schlug, und kurbelte die Landeklappe hoch.",
+          "Es brauchte Kraft, die Schulter zog ein wenig, der gewohnte dumpfe Schmerz unter dem rechten Schulterblatt, der erst verschwinden würde, wenn sie warmgearbeitet war.",
+          "Wenn er um diese Zeit anrief, saß er entweder schon im Taxi zum Flughafen oder er hatte die ganze Nacht im Büro durchgearbeitet und wollte das Gespräch hinter sich bringen, bevor seine ersten Meetings begannen.",
+          "Dann drückte sie nicht auf den roten Hörer, sondern schob das Telefon einfach zurück in die Brusttasche, zog den Reißverschluss bis ganz nach oben zum Kinn und legte beide Hände wieder ans Ruder, um den Schwung für das Anlegen abzufangen."
+        ],
+        "suggestions": [
+          "Kette: 'Ilse ging zum Bug und riss die Kette los. Das Eisen schlug klirrend auf den Stahl. Sie kurbelte die Landeklappe hoch.'",
+          "Schulter: 'Die Schulter zog. Der alte Schmerz unter dem Schulterblatt, der erst verging, wenn sie warmgearbeitet war.'",
+          "Jonas-Vermutung: 'Um diese Zeit saß er entweder im Taxi zum Flughafen. Oder er hatte die Nacht durchgearbeitet und wollte das Gespräch vor dem ersten Meeting hinter sich bringen.'",
+          "Der Schlüsselmoment am Ende verdient kurze Sätze: 'Sie drückte nicht auf den roten Hörer. Sie schob das Telefon zurück in die Brusttasche und zog den Reißverschluss bis zum Kinn. Dann legte sie beide Hände ans Ruder.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Suppe heute“ ... „Siehst ja die eigene Hand nicht.“ – „Geht schon. Das Seil weiß, wo es langgeht.“",
+          "„Man weiß ja nie. Bei dem Wetter.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, figurengerecht und charakterisieren gut. Kein Kürzungsbedarf.",
+          "Allenfalls 'Siehst ja die eigene Hand nicht.' könnte entfallen, da 'Suppe heute' das Bild bereits transportiert."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse nickte nur, obwohl er es gar nicht sah.",
+          "Jetzt musste sie nichts weiter tun als zu schauen. Obwohl es nichts zu sehen gab.",
+          "In der Tasche summte es noch zweimal, dann war es still, und man hörte wieder nur den Fluss.",
+          "Ilse sah noch eine Sekunde lang auf den Namen ihres Sohnes."
+        ],
+        "suggestions": [
+          "'und man hörte wieder nur den Fluss' direkter fassen: 'dann war es still. Nur der Fluss gluckste am Rumpf.'",
+          "'obwohl er es gar nicht sah' ist ein Erzählerkommentar. Stärker: 'Ilse nickte. Er blickte nicht auf.'",
+          "Positiv: Die Gedanken zu Jonas werden ohne 'sie dachte, dass' in erlebter Rede vermittelt. Das funktioniert sehr gut."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Grau/Nichts-Häufung: 'das weiche Grau, das alles verschluckte', 'aus der grauen Wand', 'im weißen Nichts', 'durch ein vollkommenes Nichts', 'starrte ins Grau', 'das graue Wasser'",
+          "Stahl-Häufung: 'stählerne Deck', 'nassen Stahl', 'Stahlboden', 'Stahlwänden des Rumpfes'",
+          "'Display' dreifach: Uhrzeit am Ruder, Smartphone des Jungen, Ilses Telefon",
+          "'In der Brusttasche ihrer Jacke begann es zu summen. Es war ein tiefes, regelmäßiges Vibrieren ... Das Telefon vibrierte weiter'",
+          "'Drei Leute, ein Auto, ein Fahrrad.' fasst zusammen, was gerade erzählt wurde.",
+          "Zeitlogik: 06:42 + 'Noch drei Minuten', Frau Mertens 'eine Minute vor dreiviertel sieben' (6:44), und dann klingelt das Telefon mitten auf dem Fluss ebenfalls um 'vierundvierzig Minuten nach sechs'."
+        ],
+        "suggestions": [
+          "Nebel-Bild maximal zwei- bis dreimal aufgreifen und variieren. 'Sie fuhren durch ein vollkommenes Nichts' wiederholt 'Obwohl es nichts zu sehen gab' und kann gestrichen werden.",
+          "Stahl-Begriffe reduzieren: 'auf dem nassen Blech', 'auf den Boden', 'an den Rumpf'.",
+          "Für die Uhr am Ruder 'Anzeige' statt 'Display' verwenden, beim Jungen einfach 'Bildschirm'.",
+          "Das Summen nur einmal erklären: 'In der Brusttasche vibrierte es. Zweimal lang, Pause, zweimal lang.'",
+          "Zeitfehler korrigieren: Der Anruf muss nach der Abfahrt kommen, etwa 'sieben Minuten vor sieben'. Oder die genaue Uhrzeit beim Anruf ganz weglassen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.14868
+}

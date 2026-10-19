@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gpt-6-luna__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel klemmte, wie Schlüssel in alten Häusern klemmen"],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen und wirft den Leser direkt in die Handlung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["brauner Hausschuh", "kleiner weißer Knopf", "dünner, rostfarbener Strahl"],
+        "suggestions": [
+          "Einige Adjektive sind atmosphärisch, andere könnten durch stärkere Verben ersetzt werden. 'Brauner' bei Hausschuh ist z.B. entbehrlich, wenn das Bild des 'flach getretenen' Schuhs stark genug ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ich bin’s“, sagte sie."],
+        "suggestions": ["Die Kennzeichnung ist sparsam und effektiv eingesetzt."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["etwas Süßlichem", "etwas nach"],
+        "suggestions": [
+          "Das Wort 'etwas' wird zweimal verwendet. Hier könnte man präziser werden: 'ein süßlicher Geruch' oder 'ein metallischer Nachgeschmack'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als hätte jemand sein Gewicht verlagert"],
+        "suggestions": [
+          "Keine übermäßige Verwendung von 'während' oder 'als'. Die Abfolge der Handlungen ist klar und logisch."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Die Möbel waren abgedeckt.", "Die Stufen waren ... blank getreten."],
+        "suggestions": [
+          "Das Zustandspassiv ist hier atmosphärisch vertretbar, könnte aber aktiver gestaltet werden: 'Laken verhüllten die Möbel' oder 'Die Stufen zeigten blanke Stellen'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Tür öffnete sich um eine Handbreit und stieß gegen einen Schuh, der dahinter lag."
+        ],
+        "suggestions": ["Die Satzlängen sind gut variiert und unterstützen den Lesefluss."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Ich bin’s“"],
+        "suggestions": ["Der Dialog ist extrem reduziert und sehr wirkungsvoll."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie sah hinauf."],
+        "suggestions": ["Die Wahrnehmung ist sehr direkt und nah an der Figur."]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Schlüssel", "Wasserhahn"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier bewusst gewählt, um die Monotonie und das Alter des Hauses zu unterstreichen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

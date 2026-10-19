@@ -1,0 +1,124 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__gpt-6.1-sol__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "*(Mara öffnet die Tür. Jens hält eine Papiertüte.)*",
+          "**Jens:** Der Bäcker an der Ecke hat zugemacht."
+        ],
+        "suggestions": [
+          "Der Einstieg sitzt: Es gibt kein Klingeln, keine Begrüßung und keine Vorgeschichte, der erste Satz wirft den Leser mitten in die Beziehung.",
+          "Optional könnte die Szene noch später einsetzen, etwa mit Jens' erster Replik, und die Regieanweisung auf 'Jens, Papiertüte, an der Tür' verkürzen. Nötig ist das nicht."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Du bist also den alten Weg gegangen.",
+          "Du hast früher immer die letzten bekommen.",
+          "Sie steht meistens hinten.",
+          "Die blaue gibt es noch."
+        ],
+        "suggestions": [
+          "Die wenigen Adjektive und Adverbien sind funktional und tragen Subtext ('alten Weg', 'dünner', 'blaue'). Keine Streichung nötig.",
+          "'immer' und 'meistens' könnten probeweise entfallen ('Du hast früher die letzten bekommen.'). Die Verallgemeinerung passt aber zur Figur Mara und darf bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["**Mara:** Ich weiß.", "**Jens:** Ja."],
+        "suggestions": [
+          "Die Dramenform macht 'sagte er/sie' überflüssig. Die Regieanweisungen beschreiben Handlung statt Sprechweise, und es gibt keine Angaben wie 'leise' oder 'zögernd'. Das sollte so bleiben."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Dann habe ich mich wohl verlesen.",
+          "Hätte ja sein können.",
+          "Ich war erst dort."
+        ],
+        "suggestions": [
+          "'wohl' und 'ja' sind hier figurentypische Abtönungspartikeln: Jens weicht damit aus. Sie sollten bleiben, wenn diese Ausweichbewegung beabsichtigt ist.",
+          "'Ich war erst dort' ist mehrdeutig ('gerade eben' oder 'zuerst'?). Gerade im Zusammenspiel mit dem geschlossenen Bäcker könnte das verwirren. Präziser wäre etwa 'Ich war eben noch dort.' oder 'Ich wollte erst dorthin.'"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "*(Er nimmt den anderen Stuhl. Sie holt zwei Tassen.)*",
+          "*(Sie öffnet die Tüte.)*"
+        ],
+        "suggestions": [
+          "Der Text verwendet kein 'während', 'als' oder 'gleichzeitig'. Die Handlungen folgen klar aufeinander. Kein Änderungsbedarf."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Boden lässt sich wischen.", "Da kommt man schlecht dran."],
+        "suggestions": [
+          "'Der Boden lässt sich wischen' ist eine passivähnliche Ersatzform. Hier wirkt sie bewusst unpersönlich: Mara vermeidet ein 'ich wische ihn'. Eine aktive Variante ('Ich wische nachher.') wäre direkter, verlöre aber diese Distanz. Abwägen statt automatisch ändern."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ich wusste nicht, wie viele ich mitbringen soll.",
+          "Du musst nicht warten, bis er kalt ist."
+        ],
+        "suggestions": [
+          "Alle Sätze sind kurz und klar. Selbst die längsten haben nur einen Nebensatz.",
+          "Der durchgehend knappe Rhythmus ist Stilmittel. Er sollte nicht durch lange Regieanweisungen gebrochen werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "**Jens:** Hätte ja sein können. / **Mara:** Was? / **Jens:** Dass du welchen hineintust.",
+          "**Mara:** Deiner? / **Jens:** Der fährt alle zwanzig Minuten. / **Mara:** Sonntags nur jede Stunde. / **Jens:** Dann habe ich mich wohl verlesen. / **Mara:** Der Fahrplan hängt noch unten. / **Jens:** Ich habe nicht hingesehen."
+        ],
+        "suggestions": [
+          "Die einzelnen Repliken sind sehr knapp, die Wechselrede trägt viel Subtext.",
+          "Die Zucker-Sequenz ließe sich straffen ('Hätte ja sein können.' kann direkt auf 'Ich weiß.' enden). Dann bleibt mehr unausgesprochen.",
+          "Die Bus-Passage hat sechs Repliken. Prüfen, ob 'Der Fahrplan hängt noch unten' und 'Ich habe nicht hingesehen' beide nötig sind oder ob eine der beiden die Pointe allein trägt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["**Jens:** Ich habe nicht hingesehen.", "**Mara:** Du bist dünner geworden."],
+        "suggestions": [
+          "Es gibt keine Formulierungen wie 'er sah, dass' oder 'sie dachte, dass'. Wahrnehmung erscheint direkt als Aussage oder Handlung. Kein Änderungsbedarf."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Die Füße kennen ihn noch. / Wackelt er noch? / Die blaue gibt es noch. / Der Fahrplan hängt noch unten. / Der Kaffee ist noch heiß.",
+          "Zwei reichen nicht bis morgen. / Für heute reichen sie.",
+          "Der Bäcker an der Ecke hat zugemacht. / Die mit Mohn waren aus. / Heute war jemand schneller."
+        ],
+        "suggestions": [
+          "Das fünffache 'noch' ist thematisch stark: Es zeigt, was vom Früher geblieben ist. Es läuft aber Gefahr, als Masche aufzufallen. Ein oder zwei Belege streichen ('Der Fahrplan hängt unten.', 'Der Kaffee ist heiß.'), damit die übrigen mehr Gewicht bekommen.",
+          "Das Echo 'reichen' ist bewusst gesetzt und trägt die Schlusswendung. Es sollte bleiben.",
+          "Die drei Bäcker-Motive (geschlossen, Mohn aus, jemand schneller) umkreisen dasselbe Thema, nämlich Verlust und Zuspätkommen. Prüfen, ob alle drei nötig sind. Außerdem sollte klar werden, ob es ein anderer Bäcker war, sonst entsteht ein Logikbruch."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.089404
+}

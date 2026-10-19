@@ -1,0 +1,139 @@
+{
+  "who": "opus",
+  "item": "lit-scene__claude-opus-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel lag noch dort, wo er vor zwanzig Jahren gelegen hatte, unter dem dritten Blumentopf links von der Tür.",
+          "Keine Anreise, kein Vorgespräch: Die Szene setzt direkt an der Schwelle zum Elternhaus ein."
+        ],
+        "suggestions": [
+          "Der Einstieg ist gelungen und sollte bleiben. Er liefert Vorgeschichte (zwanzig Jahre Abwesenheit) und Figurenkonflikt (Ärger über das unwillkürliche Wissen) in zwei Sätzen.",
+          "Allenfalls ließe sich prüfen, ob der Satz über den zerfallenden Erdklumpen nötig ist. Er verzögert den Eintritt ins Haus nur minimal und trägt zur Atmosphäre des Verfalls bei."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "ein dunkles, unansehnliches Ding",
+          "in der steilen, nach rechts fallenden Schrift ihrer Mutter",
+          "mit dem kleinen Schlüssel",
+          "der graue Mantel"
+        ],
+        "suggestions": [
+          "Die meisten Adjektive sind präzise und tragend (\"kaltem Kalk\", \"steilen, nach rechts fallenden Schrift\"). Bei \"dunkles, unansehnliches Ding\" reicht ein Attribut. \"Unansehnlich\" sagt mehr über Ines' Haltung zur Uhr und genügt allein.",
+          "\"Kleinen\" vor Schlüssel ist entbehrlich: Ein Uhrenschlüssel in einer Zuckerdose ist ohnehin klein.",
+          "Grammatische Präzision: Es heißt \"das Pendel\" (Uhrpendel), nicht \"der Pendel\". Also: \"Aber das Pendel schwang\"."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Drei Wochen, hatte der Notar gesagt.",
+          "Er hatte es in einem Ton gesagt, der Trost sein sollte"
+        ],
+        "suggestions": [
+          "Die indirekte Rede ist knapp und wirkungsvoll. Allerdings folgt das zweite \"gesagt\" unmittelbar auf das erste. Variante: \"Sein Ton sollte wohl Trost sein, und Ines hatte genickt, als ginge es um einen Liefertermin.\""
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "das sie erst nach einer Weile als Bohnerwachs erkannte",
+          "Ines stand lange da und zählte die Schläge.",
+          "fast unter dem Gehäuse",
+          "\"noch\" erscheint mehrfach: \"lag noch dort\", \"das Radio noch an\", \"hatte noch den Brandfleck\""
+        ],
+        "suggestions": [
+          "\"Nach einer Weile\" kann entfallen: \"etwas Süßlichem, das sie erst später als Bohnerwachs erkannte\" oder einfach \"... das sie schließlich als Bohnerwachs erkannte\".",
+          "\"Lange\" ließe sich durch eine konkrete Angabe ersetzen, die zugleich Spannung erzeugt: \"Ines zählte sechzig Schläge. Dann hob sie den Deckel der Zuckerdose.\"",
+          "Mindestens ein \"noch\" streichen, etwa beim Wachstuch: \"Das Wachstuch trug den Brandfleck in Form eines Halbmonds ...\""
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "die beim Anheben in ihrer Hand zerfiel",
+          "Die Konstruktionen mit \"als\" (\"als hätte ihn jemand in Eile abgestreift\", \"als ginge es um einen Liefertermin\") sind Vergleiche, keine Gleichzeitigkeit."
+        ],
+        "suggestions": [
+          "Die Handlungen sind sauber nacheinander erzählt (Schlüssel, Schloss, Flur, Mantel, Küche, Uhr, Zuckerdose). Kein Änderungsbedarf.",
+          "Optional: \"Sie hob den Topf an. Die Erdkruste zerfiel in ihrer Hand.\" Das wäre noch sequenzieller, aber der jetzige Satz funktioniert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Kein echter Passivsatz im Text. \"beschriftet in der steilen ... Schrift\" ist ein attributives Partizip und stilistisch passend."
+        ],
+        "suggestions": [
+          "Kein Änderungsbedarf. Der Text ist durchgehend aktiv und figurennah formuliert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ihre Mutter hatte sie jeden Sonntag nach dem Abendessen aufgezogen, mit dem kleinen Schlüssel, den sie in der Zuckerdose aufbewahrte, damit niemand außer ihr ihn fand.",
+          "Über der Tür hing die Pendeluhr, ein dunkles, unansehnliches Ding, das ihr Vater aus dem Haus seiner Eltern mitgebracht hatte."
+        ],
+        "suggestions": [
+          "Im Satz über das Aufziehen häufen sich die Pronomen (sie – sie – ihr – ihn). Teilen hilft: \"Ihre Mutter hatte sie jeden Sonntag nach dem Abendessen aufgezogen. Den Schlüssel bewahrte sie in der Zuckerdose auf, wo niemand sonst ihn suchte.\"",
+          "Der Wechsel zwischen mittellangen Sätzen und Ein-Satz-Absätzen (\"Dann hörte sie es.\", \"Sie war leer.\") ist sehr wirkungsvoll und sollte erhalten bleiben."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der einzige Dialoganteil ist die knappe indirekte Rede des Notars: \"Drei Wochen, hatte der Notar gesagt. Die Nachbarin habe sie gefunden, im Sessel, das Radio noch an.\""
+        ],
+        "suggestions": [
+          "Die Verdichtung der Notarszene auf zwei Sätze ist vorbildlich. Sie liefert alle nötigen Informationen und überlässt die Emotion dem Subtext. Kein Änderungsbedarf."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Ines ärgerte sich darüber, dass sie es gewusst hatte, ohne nachzudenken.",
+          "das sie erst nach einer Weile als Bohnerwachs erkannte",
+          "Ines kannte das Geräusch so genau, dass sie es zuerst für eine Erinnerung hielt.",
+          "Dann hörte sie es."
+        ],
+        "suggestions": [
+          "Der erste Satz benennt das Gefühl, statt es zu zeigen. Direkter: \"Ihre Hand war schon am dritten Topf, bevor sie nachgedacht hatte. Das ärgerte sie.\" Oder ganz ohne Gefühlswort: \"Ihre Hand fand den Topf, bevor sie ihn suchte.\"",
+          "\"Dann hörte sie es.\" ist eine bewusst gesetzte Wahrnehmungsformel, die Spannung erzeugt. Sie sollte bleiben, gerade weil das Geräusch erst im nächsten Absatz benannt wird.",
+          "Geruch direkt darstellen: \"Im Flur roch es nach kaltem Kalk und nach etwas Süßlichem. Bohnerwachs.\""
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "\"gesagt\" zweimal in direkter Folge (Notar-Absatz)",
+          "Häufung von \"drei\": \"dritten Blumentopf\", \"Drei Wochen\", \"drei Gläser\"",
+          "Plusquamperfekt-Häufung: \"gelegen hatte\", \"gewusst hatte\", \"hatte gesagt\", \"hatte genickt\", \"gegangen war\", \"hinterlassen hatte\", \"mitgebracht hatte\", \"aufgezogen\"",
+          "\"Küche\" zweimal in einem Satz: \"Sie ging in die Küche, weil man in diesem Haus immer zuerst in die Küche gegangen war.\""
+        ],
+        "suggestions": [
+          "Die doppelte \"Küche\" ist als rhythmisches Echo vertretbar. Alternative: \"Sie ging in die Küche. In diesem Haus ging man immer zuerst in die Küche.\"",
+          "Die Zahl \"drei\" bei den Gläsern ändern oder streichen (\"Auf der Fensterbank standen Gläser mit eingekochten Birnen\"), damit die \"drei Wochen\" als Zeitangabe stärker wirken.",
+          "Im Notar-Absatz nach dem Einstieg ins Plusquamperfekt ins Präteritum wechseln, um die Vorzeitigkeit nicht ständig zu markieren.",
+          "Inhaltlich gibt es keine Doppelungen. Das Schlüsselmotiv (Haustürschlüssel unter dem Topf, Uhrenschlüssel in der Zuckerdose) ist eine kluge Klammer und keine Wiederholung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.10276
+}

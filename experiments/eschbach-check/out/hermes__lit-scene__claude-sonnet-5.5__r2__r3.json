@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-sonnet-5.5__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Den Schlüssel hatte ihr der Nachlassverwalter... geschickt",
+          "Johanna musste die Tür mit der Schulter aufdrücken."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er direkt in die Handlung führt und die Atmosphäre etabliert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kurzes, trockenes Ächzen", "dünne, gleichmäßige Staubschicht"],
+        "suggestions": ["Die Adjektive sind sehr sparsam und präzise gewählt. Beibehalten."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr frei von Füllwörtern und wirkt dadurch sehr direkt."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine unnötigen 'während'-Konstruktionen. Die Handlungen folgen logisch aufeinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist konsequent aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzstruktur ist abwechslungsreich und gut lesbar."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Das Telefon, vermutete sie.",
+          "merkte jetzt, dass es nicht darum ging.",
+          "Sie wusste trotzdem, dass es die ihrer Mutter war."
+        ],
+        "suggestions": [
+          "Direkter formulieren: Statt 'Sie wusste, dass es die ihrer Mutter war' -> 'Es war die Schrift ihrer Mutter. Sie erkannte sie sofort.'",
+          "Statt 'Das Telefon, vermutete sie' -> 'Das Telefon. Sicher.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine inhaltlichen Doppelungen erkennbar."]
+      }
+    }
+  },
+  "costUsd": 0
+}

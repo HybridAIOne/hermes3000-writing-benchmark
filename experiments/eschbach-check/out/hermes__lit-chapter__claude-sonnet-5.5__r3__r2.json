@@ -1,0 +1,100 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-sonnet-5.5__r3",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Fluss, dass Ilse das andere Ufer nur wusste, nicht sah."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und etabliert sofort die Situation und den Charakter. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["schwarz und glatt", "schnelle, kleine"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und präzise eingesetzt. Der Text wirkt dadurch sehr lebendig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Moin, Ilse.“", "„Moin.“"],
+        "suggestions": [
+          "Sehr gut gelöst. Die Dialoge kommen fast ohne Redeeinleitungen aus, was den Lesefluss beschleunigt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["so weit", "vielleicht"],
+        "suggestions": [
+          "Der Text ist sehr frei von Füllwörtern. Die Sprache ist direkt und schnörkellos."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie stellte den Becher auf die Fensterbank, zog die Mütze tiefer und ging hinaus."
+        ],
+        "suggestions": [
+          "Handlungen werden logisch nacheinander geschildert, was die Dynamik der Szene unterstützt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Wasser schlug leise gegen den Rumpf.",
+          "Sie ging zur Winde, löste die Kette..."
+        ],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert, was die Handlung sehr greifbar macht."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der zweite war ein Mann, den sie nicht kannte."],
+        "suggestions": [
+          "Die Satzlängen sind gut variiert. Kurze Sätze erzeugen Rhythmus, längere Sätze dienen der Beschreibung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Dialog zwischen Ilse und dem Monteur."],
+        "suggestions": [
+          "Die Dialoge sind kurz, knackig und charakterisierend. Keine Straffung erforderlich."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie wusste, was auf dem Display stand, ohne hinzusehen"],
+        "suggestions": [
+          "Die Wahrnehmung ist sehr direkt. Die wenigen Stellen, die intern sind, wirken wie eine natürliche Erweiterung der Handlung."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Wie früher. Als gäbe es ein Früher, das man von einem Jetzt trennen konnte.“"
+        ],
+        "suggestions": [
+          "Wiederholungen werden hier stilistisch bewusst und effektiv eingesetzt, um Ilses Gedankenwelt zu spiegeln."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

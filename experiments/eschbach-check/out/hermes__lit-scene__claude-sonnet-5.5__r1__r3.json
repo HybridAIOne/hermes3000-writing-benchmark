@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-sonnet-5.5__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel lag nicht mehr unter dem Blumentopf."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen und wirft den Leser direkt in die Handlung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["leicht schwang", "leicht körnig"],
+        "suggestions": [
+          "Das Wort 'leicht' schwächt die Beobachtung ab. Statt 'leicht schwang' könnte man schreiben: 'der Kleiderbügel schwang' oder 'pendelte'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte er"],
+        "suggestions": [
+          "Der Dialog ist kurz, aber 'sagte er' könnte durch eine Handlung ersetzt werden, z.B.: 'Er schob den Umschlag durch den Türspalt: „Das Wasser ist abgestellt...“'"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ja (in 'Das Wasser war ja abgestellt')"],
+        "suggestions": [
+          "Das 'ja' ist ein Füllwort, das den Tonfall zwar menschlich macht, aber die Aussagekraft schwächt. Streichen für mehr Direktheit."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["N/A"],
+        "suggestions": ["Die Handlungsabfolge ist klar und logisch strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Das Wasser ist abgestellt", "Der Kühlschrank war ausgeräumt"],
+        "suggestions": [
+          "Das Zustandspassiv ist hier inhaltlich gerechtfertigt, da es den Zustand des Hauses beschreibt. Dennoch könnte man 'Der Kühlschrank war ausgeräumt' durch 'Jemand hatte den Kühlschrank ausgeräumt' aktiver gestalten."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["N/A"],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut lesbar."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Das Wasser ist abgestellt“, sagte er durch den Türspalt, „den Strom hab ich gelassen.“"
+        ],
+        "suggestions": ["Der Dialog ist prägnant und auf das Wesentliche reduziert."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["das sie nicht benennen wollte"],
+        "suggestions": [
+          "Die Wahrnehmung ist meist direkt. 'Das sie nicht benennen wollte' ist eine gute psychologische Beobachtung, keine unnötige Filterung."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Die Haustür klemmte, wie sie immer geklemmt hatte"],
+        "suggestions": [
+          "Die Wortwiederholung von 'klemmte' wirkt holprig. Besser: 'Die Haustür klemmte, wie schon seit Jahren...'"
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

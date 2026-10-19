@@ -1,0 +1,99 @@
+{
+  "who": "hermes",
+  "item": "anchor__zweig-amok-900",
+  "run": 2,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Im März des Jahres 1912 ereignete sich...",
+          "Obzwar Passagier der »Oceania«, war es mir ebensowenig wie den andern möglich..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr distanziert und berichtend. Beginnen Sie direkt in der Handlung, z.B. mit dem Gefühl der Enge in der Kabine oder dem Unfall selbst, um den Leser sofort zu binden."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "kleiner, gepreßter, rechteckiger Winkel",
+          "stockende, verdickte Luft",
+          "stählerne Fledermaus"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist sehr hoch. Streichen Sie entbehrliche Adjektive. Nutzen Sie stärkere Verben, die das Bild bereits in sich tragen, anstatt es durch Adjektive zu erklären."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Da kaum Dialoge vorhanden sind, ist dies kein Problem."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["irgendwie", "wohl", "immerhin"],
+        "suggestions": [
+          "Füllwörter wie 'irgendwie' schwächen die Aussage ab. Streichen Sie diese, um den Text direkter und selbstbewusster zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["während des Kohlenladens", "kaum daß ich den Koffer... verstaut hatte"],
+        "suggestions": [
+          "Vermeiden Sie 'während'-Konstruktionen. Beschreiben Sie Handlungen nacheinander, um den Fokus des Lesers zu schärfen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["wurde... erhellt", "war... überfüllt"],
+        "suggestions": [
+          "Wandeln Sie Passivkonstruktionen in aktive Sätze um. Lassen Sie die Dinge agieren, statt sie nur als Zustand zu beschreiben."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Immerhin meine ich persönlich, daß manche Vermutungen, die ich damals nicht öffentlich äußerte, die wirkliche Aufklärung jener erregenden Szene in sich tragen..."
+        ],
+        "suggestions": [
+          "Die Sätze sind sehr verschachtelt und lang. Brechen Sie komplexe Sätze in zwei oder drei kürzere Hauptsätze auf, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher kein Korrekturbedarf."]
+      },
+      "indirectPerception": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": ["meine ich persönlich, daß", "er wisse noch nicht, ob", "ich sah, daß"],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'ich sah, dass'. Schreiben Sie direkt, was passiert: 'Das Meer blieb blau und leer' statt 'Ich sah, dass das Meer blau und leer blieb'."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "unablässig (wird mehrfach verwendet)",
+          "Schiff/Kabine/Deck (sehr häufige Wiederholung der gleichen Substantive)"
+        ],
+        "suggestions": [
+          "Achten Sie auf Wortwiederholungen wie 'unablässig'. Nutzen Sie Synonyme oder variieren Sie den Satzbau, um den Text rhythmischer zu gestalten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

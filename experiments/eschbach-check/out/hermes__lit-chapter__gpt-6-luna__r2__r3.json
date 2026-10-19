@@ -1,0 +1,90 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6-luna__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf der Elbe, dass Ilse das andere Ufer nur daran erkannte, dass es fehlte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist exzellent. Er setzt sofort die Atmosphäre und führt den Leser mitten in die Handlung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["grau und langsam", "dunklerer Strich"],
+        "suggestions": [
+          "Die Adjektive sind stimmungsvoll und nicht überladen. Vereinzelt könnten sie gestrichen werden, um die Wirkung der Verben zu verstärken."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Ilse", "fragte die Frau"],
+        "suggestions": [
+          "Bei '„Morgen“, sagte Ilse' könnte der Marker gestrichen werden, da der Sprecherwechsel durch den Absatz klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["ein wenig mehr Gas", "ein wenig schräg"],
+        "suggestions": [
+          "Das Wort 'ein wenig' schwächt die Präzision ab. Einfach 'mehr Gas' oder 'schräg' schreiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine übermäßige Verwendung von 'während' oder 'als'."],
+        "suggestions": ["Die Handlungsabfolge ist sehr klar und gut strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["war kaum auszumachen"],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv. 'War kaum auszumachen' könnte zu 'Sie konnte die Stromkante kaum ausmachen' geändert werden."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Keine auffällig verschachtelten Sätze."],
+        "suggestions": ["Der Satzbau ist abwechslungsreich und rhythmisch gut gelungen."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Wird das heute noch heller?“, fragte die Frau. „Kann sein.“"],
+        "suggestions": ["Die Dialoge sind sehr prägnant und auf den Punkt gebracht."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Ilse hörte den Motor im Leerlauf.",
+          "Sie kannte das Geräusch verschiedener Motoren."
+        ],
+        "suggestions": [
+          "Direkter formulieren: Statt 'Ilse hörte den Motor im Leerlauf' besser 'Der Motor lief im Leerlauf'. Das zeigt das Geschehen, statt es zu berichten."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Nebel, Fähre"],
+        "suggestions": [
+          "Die Wiederholungen sind dem Setting geschuldet und wirken nicht störend, da sie den monotonen Arbeitsalltag unterstreichen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

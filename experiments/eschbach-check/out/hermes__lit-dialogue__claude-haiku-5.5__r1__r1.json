@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ein Café am Bahnhof. Regen am Fenster. HANNA sitzt bereits am Tisch, als PETER hereinkommt."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr effektiv, da er sofort die Atmosphäre und die Ausgangslage etabliert. Keine Änderung notwendig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["traurig"],
+        "suggestions": [
+          "Der Text ist sehr reduziert. Das Adjektiv 'traurig' bei 'lächelt traurig' könnte man streichen und das Lächeln durch eine spezifische Aktion beschreiben, um noch mehr 'Show, don't tell' zu erreichen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["PETER: Du bist früher gekommen.", "HANNA: Ich war nicht sicher..."],
+        "suggestions": [
+          "Das Skript-Format ist ideal für diese Szene und kommt ohne unnötige Redeeinleitungen aus."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Füllwörter gefunden. Der Text ist sehr präzise."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine unnötigen 'während'- oder 'als'-Konstruktionen verwendet. Die Handlungen folgen logisch aufeinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Passiv verwendet. Alle Sätze sind aktiv und direkt."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Satzbau ist sehr prägnant und unterstützt das Tempo der Szene."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["PETER: Wasser.", "HANNA: Du trinkst keinen Kaffee mehr?"],
+        "suggestions": [
+          "Die Dialoge sind extrem effizient und transportieren viel Subtext. Sehr gut gelöst."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Filterwörter wie 'er sah, dass' oder 'sie dachte, dass' vorhanden. Die Wahrnehmung ist direkt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["HANNA: Welchen?", "PETER: Du weißt welchen."],
+        "suggestions": [
+          "Die Wiederholung ist hier ein bewusstes stilistisches Mittel zur Charakterisierung und Spannungserzeugung, daher absolut passend."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

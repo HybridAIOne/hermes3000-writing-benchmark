@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gpt-6-luna__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel klemmte, wie Schlüssel in alten Häusern klemmen"],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort eine Atmosphäre aufbaut und den Leser mitten in die Handlung wirft."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["brauner Hausschuh", "flach getreten", "rostfarbener Strahl"],
+        "suggestions": [
+          "Die Adjektive sind gut gewählt und dienen der Atmosphäre. Sie sind nicht überladen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ich bin’s“, sagte sie."],
+        "suggestions": ["Die Kennzeichnung ist klassisch und unaufdringlich."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["etwas Süßlichem", "etwas nach"],
+        "suggestions": [
+          "Das Wort 'etwas' wird zweimal verwendet. Man könnte 'etwas Süßlichem' zu 'einem süßlichen Geruch' präzisieren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine überflüssigen 'während'-Konstruktionen. Die Handlungsabfolge ist klar und präzise."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist aktiv geschrieben. Die wenigen Passiv-Konstruktionen beschreiben Zustände und sind daher angemessen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Dialog ist auf das Wesentliche reduziert."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als hätte jemand sein Gewicht verlagert"],
+        "suggestions": [
+          "Die Wahrnehmung ist direkt und sinnlich geschildert, ohne unnötige Filter wie 'sie sah, dass'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Schlüssel ... Schlüssel", "Wasserhahn ... Wasserhahn"],
+        "suggestions": [
+          "Die Wiederholungen sind funktional und stören den Lesefluss nicht, könnten aber im ersten Satz durch 'Der Schlüssel klemmte, wie es in alten Häusern üblich ist' noch weiter geglättet werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

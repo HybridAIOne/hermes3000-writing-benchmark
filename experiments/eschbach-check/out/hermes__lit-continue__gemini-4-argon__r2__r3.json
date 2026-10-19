@@ -1,0 +1,81 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gemini-4-argon__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Die Strömung reicht“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er direkt in die Handlung und das Setting einführt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["dunkelblauen Wollmantel", "trübe Wasser", "verwitterte Eichenholz"],
+        "suggestions": [
+          "Die Adjektive sind atmosphärisch passend und nicht überladen. Achte darauf, sie nur dort einzusetzen, wo sie wirklich ein Bild erzeugen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Ilse", "sagte er", "fragte Jonas"],
+        "suggestions": [
+          "Die Kennzeichnungen sind korrekt, könnten aber an manchen Stellen durch Handlungsbeschreibungen ersetzt werden, um den Lesefluss zu glätten (z.B. statt 'sagte Ilse' einfach eine Geste beschreiben)."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr sauber und frei von unnötigen Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["während der Wind ihm die ordentlich gescheitelten Haare zerzauste"],
+        "suggestions": ["Die Verwendung von 'während' ist hier sparsam und korrekt eingesetzt."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist fast ausschließlich aktiv formuliert, was die Dynamik erhöht."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut lesbar."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind prägnant und treiben die Charakterisierung voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Jonas sah auf die Gierseile", "Sie sah durch die beschlagene Scheibe"],
+        "suggestions": [
+          "Die Wahrnehmung ist meist direkt. 'Es klang nicht besorgt' ist eine Interpretation, die aber gut zum Erzählstil passt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Keine inhaltlichen Doppelungen erkennbar."]
+      }
+    }
+  },
+  "costUsd": 0
+}

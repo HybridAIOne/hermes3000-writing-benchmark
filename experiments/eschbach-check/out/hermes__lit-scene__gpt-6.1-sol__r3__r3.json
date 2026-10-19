@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gpt-6.1-sol__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel ging nur bis zur Hälfte ins Schloss."],
+        "suggestions": [
+          "Der Einstieg ist exzellent gewählt; er beginnt direkt mit der Handlung und etabliert sofort eine Atmosphäre."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kleine Haken", "trockenes Klopfen"],
+        "suggestions": [
+          "Die Adjektive sind sparsam eingesetzt. 'Kleine' bei 'Haken' könnte gestrichen werden, da ein Haken für eine Kleiderbürste implizit klein ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher keine Redeeinleitungen notwendig."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["nur", "noch"],
+        "suggestions": [
+          "Der Text ist sehr präzise. Die wenigen verwendeten Wörter wie 'nur' oder 'noch' dienen der Rhythmisierung und sind nicht entbehrlich."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als sein Motor nicht mehr zu hören war"],
+        "suggestions": [
+          "Die zeitliche Abfolge ist klar und logisch. Es gibt keine unnötigen 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["alles sei ausgeräumt"],
+        "suggestions": [
+          "Das Zustandspassiv wird hier bewusst und effektiv eingesetzt, um die Leere des Hauses zu betonen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Satzstruktur ist abwechslungsreich und gut lesbar. Keine unnötigen Verschachtelungen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Von hier aus konnte man den Garten überblicken."],
+        "suggestions": [
+          "Statt 'konnte man überblicken' (distanzierte Wahrnehmung) könnte man schreiben: 'Von hier aus überblickte sie den Garten.' Das wäre noch direkter."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist frei von inhaltlichen Doppelungen. Die Wiederholungen (z.B. 'Mutter') sind für den Kontext notwendig."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

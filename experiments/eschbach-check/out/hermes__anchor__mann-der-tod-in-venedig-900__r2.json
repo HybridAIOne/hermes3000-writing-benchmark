@@ -1,0 +1,96 @@
+{
+  "who": "hermes",
+  "item": "anchor__mann-der-tod-in-venedig-900",
+  "run": 2,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Gustav Aschenbach oder von Aschenbach, wie seit seinem fünfzigsten Geburtstag amtlich sein Name lautete..."
+        ],
+        "suggestions": [
+          "Der Text beginnt mit einer langen biographischen Einleitung. Der Einstieg könnte direkt beim Spaziergang oder der Wahrnehmung des Fremden beginnen, um den Leser schneller in die Handlung zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "gefahrdrohende Miene",
+          "schwierigen und gefährlichen",
+          "ersprießlichen Abend",
+          "naßkalten Wochen"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist sehr hoch. Viele Adjektive könnten durch stärkere Verben ersetzt werden, um den Stil zu straffen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["wohl möglich", "etwa", "vielleicht", "gewissermaßen"],
+        "suggestions": [
+          "Wörter wie 'wohl' oder 'etwa' schwächen die Aussagekraft. Diese Füllwörter sollten gestrichen werden, um die Sätze direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["während einiger Minuten", "als er... bemerkte"],
+        "suggestions": [
+          "Die Verwendung von 'während' und 'als' bremst den Erzählfluss. Handlungen sollten sequenziell nacheinander beschrieben werden, um mehr Dynamik zu erzeugen."
+        ]
+      },
+      "passive": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": ["ward ihm... bewußt", "war... zu sehen", "wurde... bemerkt"],
+        "suggestions": [
+          "Der Text nutzt häufig Passivkonstruktionen oder archaische Formen ('ward'). Diese sollten in aktive Sätze umgewandelt werden, um die Handlung lebendiger zu gestalten."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Überreizt von der schwierigen und gefährlichen... Arbeit der Vormittagsstunden, hatte der Schriftsteller... auch nach der Mittagsmahlzeit nicht Einhalt zu tun vermocht..."
+        ],
+        "suggestions": [
+          "Die Sätze sind extrem verschachtelt und lang. Sie sollten in kürzere, prägnantere Sätze aufgebrochen werden, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher nicht anwendbar."]
+      },
+      "indirectPerception": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": ["Aschenbach... bemerkte", "ward ihm... bewußt", "glaubte er... zu sehen"],
+        "suggestions": [
+          "Die Wahrnehmung ist stark gefiltert durch den Protagonisten. Direktere Beschreibungen der Umgebung und der Ereignisse würden den Leser stärker in das Geschehen einbinden."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["stillere und stillere Wege"],
+        "suggestions": [
+          "Wiederholungen sind hier meist stilistisch bewusst eingesetzt. Dennoch sollte auf unnötige Wortdoppelungen geachtet werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

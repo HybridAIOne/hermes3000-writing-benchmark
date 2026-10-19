@@ -1,0 +1,133 @@
+{
+  "who": "opus",
+  "item": "lit-scene__claude-haiku-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel lag nicht mehr unter dem Blumentopf mit der vertrockneten Geranie.",
+          "Frau Lenz von nebenan hatte ihn im Juni abgegeben, mit einem Zettel: »Alles unverändert.«"
+        ],
+        "suggestions": [
+          "Der Einstieg setzt spät ein: Anreise, Parkplatz und Aufschließen fehlen, die Erzählerin steht gleich im Spannungsfeld. Die Rückblende zu Frau Lenz ist knapp und baut mit dem unterstrichenen Wort Spannung auf, sollte also bleiben.",
+          "Ein noch späterer Einstieg wäre im Flur möglich (»Das Haus roch nach kaltem Rauch und Bohnerwachs.«). Dabei ginge aber das starke Bild der verschwundenen Schlüsselroutine verloren. Daher ist keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "der Duft traf mich so unvermittelt",
+          "dunkel, leicht bitter, mit einer Spur von Orange",
+          "das graue Licht eines Novembernachmittags hereinfiel und sich auf den Fliesen zu flachen Pfützen sammelte",
+          "Ich setzte den Deckel zurück, behutsam, als könnte das Geräusch etwas wecken."
+        ],
+        "suggestions": [
+          "Die meisten Adjektive tragen Bedeutung (vertrocknet, abgewetzt, dunkelgrün). Sie erzeugen Verfall und Vertrautheit und sollten bleiben.",
+          "»so unvermittelt« ist überflüssig, weil das Festhalten am Tresen die Wucht bereits zeigt. Vorschlag: »Ich hob den Deckel. Der Duft traf mich, und ich musste mich am Tresen festhalten.«",
+          "»grau« beim Novemberlicht ist naheliegend und könnte entfallen: »das Licht eines Novembernachmittags«.",
+          "»behutsam« ist wirksam, weil der Vergleichssatz es begründet. Alternativ ginge ein präziseres Verb: »Ich legte den Deckel zurück, als könnte das Geräusch etwas wecken.«"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Text enthält keinen Dialog, nur das Zitat des Zettels: »Alles unverändert.«"
+        ],
+        "suggestions": ["Das Zitat ist ohne Redeeinleitung klar zugeordnet. Kein Handlungsbedarf."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "leicht bitter",
+          "Genau so hatte es früher am Sonntag gerochen",
+          "Wer hätte das auch tun sollen."
+        ],
+        "suggestions": [
+          "»leicht« schwächt ab. »dunkel, bitter, mit einer Spur von Orange« wirkt präziser, denn die »Spur« nimmt bereits die Feinheit auf.",
+          "»Genau so« ließe sich zu »So hatte es früher sonntags gerochen« verkürzen.",
+          "»auch« in »Wer hätte das auch tun sollen« ist ein bewusster Ton der Resignation und kann bleiben. Ohne »auch« klänge der Satz härter: »Wer hätte das tun sollen.«"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Genau so hatte es früher am Sonntag gerochen, wenn sie die Bohnen mahlte und die Küche sich mit einer Wärme füllte",
+          "Ich stand im Flur und ließ die Tür offen, damit das graue Licht ... hereinfiel"
+        ],
+        "suggestions": [
+          "Die Handlungen folgen weitgehend nacheinander: Deckel heben, Duft, festhalten, erneut riechen, Deckel zurücksetzen. Das ist vorbildlich.",
+          "Die »wenn«-Konstruktion in der Erinnerung ist angemessen, da sie eine wiederkehrende Gewohnheit beschreibt. Keine Änderung nötig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text kommt ohne Passiv aus. »war ... stehengeblieben« ist ein aktives Zustandsverb. Die Sätze bleiben handlungsnah und konkret."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Ich hob den Deckel, und der Duft traf mich so unvermittelt, dass ich mich am Tresen festhalten musste: dunkel, leicht bitter, mit einer Spur von Orange.",
+          "Genau so hatte es früher am Sonntag gerochen, wenn sie die Bohnen mahlte und die Küche sich mit einer Wärme füllte, die nicht von der Heizung kam.",
+          "Ich stand im Flur und ließ die Tür offen, damit das graue Licht eines Novembernachmittags hereinfiel und sich auf den Fliesen zu flachen Pfützen sammelte."
+        ],
+        "suggestions": [
+          "Im Schlüsselmoment mit dem Kaffeeduft bremst der lange Satz die Wirkung. Kürzere Sätze verstärken den Schock: »Ich hob den Deckel. Der Duft traf mich, und ich musste mich am Tresen festhalten. Dunkel, bitter, eine Spur von Orange.«",
+          "Der Flur-Satz könnte geteilt werden: »Ich stand im Flur und ließ die Tür offen. Das Licht eines Novembernachmittags fiel herein und sammelte sich auf den Fliesen zu flachen Pfützen.«",
+          "Der Wechsel zu kurzen Sätzen am Ende (»Ich rührte mich nicht.«) ist sehr wirkungsvoll und sollte erhalten bleiben."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Dialogpassagen vorhanden. Die Szene lebt von Wahrnehmung und Stille, was zur Stimmung passt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Ich fragte mich, ob es Tag oder Nacht gewesen war, als jemand sie zuletzt angehalten hatte.",
+          "Ich roch noch einmal, dann noch einmal, bis ich mir sicher war."
+        ],
+        "suggestions": [
+          "Die Frage direkt stellen: »War es Tag gewesen oder Nacht, als jemand sie angehalten hatte?« So rückt der Leser näher an die Erzählerin heran.",
+          "»bis ich mir sicher war« ist eine abstrakte Feststellung. Zu prüfen wäre, ob der vorangestellte Satz »Die Bohnen waren frisch.« genügt. Dann könnte der Nachsatz entfallen: »Ich roch noch einmal, dann noch einmal.«",
+          "Positiv: »Die Bohnen waren frisch.« und »Im Hof schlug eine Tür zu.« stellen Wahrnehmungen direkt dar, ohne Filter wie »ich bemerkte«."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "zuletzt angehalten hatte / zuletzt gesehen",
+          "Das Haus roch / gerochen / Ich roch",
+          "Auf der Arbeitsplatte ... / am Tresen festhalten",
+          "Niemand hatte ihn abgenommen. Wer hätte das auch tun sollen."
+        ],
+        "suggestions": [
+          "»zuletzt« steht in zwei aufeinanderfolgenden Absätzen. Eine Stelle variieren, etwa »als jemand sie angehalten hatte«.",
+          "Das Wortfeld »riechen« häuft sich, ist aber durch das Thema Geruch begründet. Eventuell »gerochen« durch »geduftet« ersetzen.",
+          "»Tresen« passt eher in eine Gaststätte und wirkt nach »Arbeitsplatte« wie ein Synonymwechsel. Einheitlich »an der Arbeitsplatte« oder »an der Kante« verwenden.",
+          "»Niemand hatte ihn abgenommen« und »Wer hätte das auch tun sollen« sagen fast dasselbe. Die rhetorische Frage fügt aber Bitterkeit hinzu. Wer straffen will, behält nur einen der beiden Sätze.",
+          "»noch einmal, dann noch einmal« ist eine bewusste, wirkungsvolle Wiederholung und sollte bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.10044
+}

@@ -1,0 +1,93 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-opus-5.5__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur deshalb kannte..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch exzellent und etabliert sofort die Stimmung sowie die Routine der Protagonistin. Kein Änderungsbedarf."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["grau und schwer und gleichgültig", "viel zu dünne Jacke"],
+        "suggestions": [
+          "Sehr sparsamer und präziser Einsatz. Die Adjektive dienen der Atmosphäre, nicht der Dekoration."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Moin\", sagte er", "„Was?\""],
+        "suggestions": [
+          "Die Reduktion auf das Wesentliche ist perfekt. Die Sprecher sind aus dem Kontext klar ersichtlich."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist nahezu frei von Füllwörtern. Die Sprache ist sehr direkt und klar."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Dann wischte sie die Hand an der Hose ab und ging ins Steuerhaus"],
+        "suggestions": [
+          "Handlungen werden konsequent nacheinander beschrieben, was den Fluss der Erzählung stärkt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Nebel lag", "Sie prüfte das Seil"],
+        "suggestions": [
+          "Konsequent aktive Sprache. Keine Passivkonstruktionen, die den Lesefluss bremsen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur deshalb kannte, weil es seit dreiundzwanzig Jahren an derselben Stelle war."
+        ],
+        "suggestions": [
+          "Die Satzlänge ist gut rhythmisiert. Auch längere Sätze sind klar strukturiert und nicht überfrachtet."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Was?\" / „Licht\", sagte Ilse."],
+        "suggestions": [
+          "Die Dialoge sind kurz, prägnant und spiegeln die Distanz der Charaktere zueinander perfekt wider."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie hörte ihn, bevor sie ihn sah", "Sie sah zu, wie der Name blinkte"],
+        "suggestions": ["Sehr direkte Wahrnehmung. Es wird gezeigt, nicht berichtet."]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["„Moin\", „Ja\", „Schön\""],
+        "suggestions": [
+          "Die inhaltlichen Wiederholungen sind hier ein bewusstes Stilmittel, um die monotone Routine und die soziale Distanz zu unterstreichen. Keine Korrektur erforderlich."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,151 @@
+{
+  "who": "sol",
+  "item": "anchor__kafka-die-verwandlung-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.“"
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Die Verwandlung steht bereits im ersten Satz. Eine vorgeschaltete Alltagsszene würde die Wirkung schwächen.",
+          "Die anschließende Körperbeschreibung nicht mit einem verspäteten Szeneneinstieg verwechseln: Sie macht Gregors neue Lage unmittelbar erfahrbar."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch“",
+          "„einen noch nie gefühlten, leichten, dumpfen Schmerz“",
+          "„ganz wohl“ und „einen besonders kräftigen Hunger“"
+        ],
+        "suggestions": [
+          "Bei der Bauchbeschreibung prüfen, ob die Farbangabe notwendig ist. Wölbung und Versteifungen tragen stärker zur körperlichen Vorstellung bei.",
+          "Die Schmerzbeschreibung versuchsweise auf „einen ungewohnten, dumpfen Schmerz“ verdichten.",
+          "Verstärker wie „ganz“ und „besonders“ gezielt prüfen; die körperlich präzisen Attribute dagegen nicht pauschal streichen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„»Was ist mit mir geschehen?« dachte er.“",
+          "„»Ach Gott,« dachte er, »was für einen anstrengenden Beruf habe ich gewählt!«“",
+          "„»Himmlischer Vater!« dachte er“"
+        ],
+        "suggestions": [
+          "Es gibt keine gesprochenen Dialoge; die Kennzeichnungen markieren direkte Gedanken. Ihre Funktion daher nicht mit der Sprecherzuordnung in einem Gespräch gleichsetzen.",
+          "Nach etablierter Gedankenperspektive einzelne Wiederholungen von „dachte er“ versuchsweise entfernen. Bei „Himmlischer Vater!“ wäre Gregor auch ohne Kennzeichnung eindeutig zuzuordnen.",
+          "Die rhythmisch gliedernde Wirkung der eingeschobenen Gedankenkennzeichnungen bei jeder Kürzung mitprüfen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„ein richtiges, nur etwas zu kleines Menschenzimmer“",
+          "„Nun, ruhig hatte er ja nicht geschlafen, aber wahrscheinlich desto fester.“",
+          "„Gregor fühlte sich tatsächlich, abgesehen von einer nach dem langen Schlaf wirklich überflüssigen Schläfrigkeit, ganz wohl“"
+        ],
+        "suggestions": [
+          "„tatsächlich“, „wirklich“ und „ganz“ im letzten Beispiel einzeln auf ihren Bedeutungsbeitrag prüfen.",
+          "Partikeln wie „nun“ und „ja“ nicht mechanisch entfernen: Sie bilden Gregors selbstbeschwichtigenden Gedankengang ab.",
+          "Unsicherheitsmarker wie „wahrscheinlich“ nur streichen, wenn dadurch aus einer Vermutung keine unbegründete Gewissheit wird."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte“",
+          "„und ließ erst ab, als er in der Seite einen noch nie gefühlten, leichten, dumpfen Schmerz zu fühlen begann“",
+          "„während seines fünfjährigen Dienstes“"
+        ],
+        "suggestions": [
+          "Die zeitliche Verknüpfung beim Erwachen und beim Abbruch der Bewegung beibehalten: Beide Beziehungen sind sachlich sinnvoll.",
+          "„während seines fünfjährigen Dienstes“ bezeichnet eine Zeitspanne, keine problematische Überlagerung einzelner Handlungen.",
+          "Die Bewegungsfolge am Bettpfosten allenfalls durch Satzgrenzen übersichtlicher machen; ein übermäßiger Gebrauch von Gleichzeitigkeitssignalen liegt nicht vor."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Dann wird der große Schnitt gemacht.“",
+          "„Nun, die Hoffnung ist noch nicht gänzlich aufgegeben“",
+          "„auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war“"
+        ],
+        "suggestions": [
+          "„Dann wird der große Schnitt gemacht“ könnte aktiver „Dann mache ich den großen Schnitt“ lauten. Das würde Gregors Entschlossenheit allerdings stärker erscheinen lassen.",
+          "„Die Hoffnung ist noch nicht gänzlich aufgegeben“ bei gewünschter Straffung durch „Noch hoffe ich darauf“ ersetzen.",
+          "Die Zustandsbeschreibung der ausgebreiteten Musterkollektion nicht allein wegen ihrer passivischen Form umschreiben: Hier ist die Anordnung wichtiger als der Handelnde."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "„Er lag auf seinem panzerartig harten Rücken und sah, wenn er den Kopf ein wenig hob, seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch, auf dessen Höhe sich die Bettdecke, zum gänzlichen Niedergleiten bereit, kaum noch erhalten konnte.“",
+          "„Über dem Tisch, auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war -- Samsa war Reisender --, hing das Bild, das er vor kurzem aus einer illustrierten Zeitschrift ausgeschnitten und in einem hübschen, vergoldeten Rahmen untergebracht hatte.“",
+          "„Er fühlte ein leichtes Jucken oben auf dem Bauch; schob sich auf dem Rücken langsam näher zum Bettpfosten“"
+        ],
+        "suggestions": [
+          "Die erste Beschreibung versuchsweise gliedern: „Er lag auf seinem panzerartig harten Rücken. Hob er den Kopf ein wenig, sah er seinen gewölbten Bauch. Die Bettdecke drohte davon abzugleiten.“",
+          "Die Bildbeschreibung nach der Lagebestimmung teilen und die Information über Gregors Beruf außerhalb der Relativsatzkette unterbringen.",
+          "Die durch Semikolons verbundene Bewegungsfolge in zwei oder drei Sätze zerlegen, falls bessere Übersicht Vorrang hat. Die langen Satzbewegungen erzeugen hier allerdings bewusst körperliche und gedankliche Beklemmung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Der Gedankenmonolog von „»Dies frühzeitige Aufstehen«“ bis „»denn mein Zug fährt um fünf.«“",
+          "„Die geschäftlichen Aufregungen sind viel größer, als im eigentlichen Geschäft zu Hause“ mit der anschließenden Aufzählung der Reisebeschwerden"
+        ],
+        "suggestions": [
+          "Es handelt sich um innere Monologe, nicht um Gesprächsdialoge. Die Länge deshalb vor allem an Gedankenführung und Szenentempo messen.",
+          "Für eine stärker handlungsorientierte Fassung den langen Berufsmonolog auf Schlafmangel, Kündigungswunsch und elterliche Schulden konzentrieren.",
+          "Bei einer Kürzung die groteske Verschiebung der Prioritäten erhalten: Gregor beschäftigt sich trotz seiner Verwandlung vor allem mit der Arbeit. Gerade die Ausführlichkeit trägt diese Wirkung."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„und sah, wenn er den Kopf ein wenig hob, seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch“",
+          "„man hörte Regentropfen auf das Fensterblech aufschlagen“",
+          "„Man sah vom Bett aus, daß er auf vier Uhr richtig eingestellt war“",
+          "„einen noch nie gefühlten, leichten, dumpfen Schmerz zu fühlen begann“"
+        ],
+        "suggestions": [
+          "Die Wetterwahrnehmung unmittelbarer formulieren: „Regentropfen schlugen auf das Fensterblech.“",
+          "Die Weckereinstellung direkt benennen: „Der Wecker war auf vier Uhr eingestellt.“ Den Hinweis auf die Sicht vom Bett nur behalten, wenn die räumliche Bindung wichtig ist.",
+          "Die Schmerzformulierung verdichten: „Ein ungewohnter, dumpfer Schmerz zog durch seine Seite.“",
+          "Wahrnehmungsverben dort erhalten, wo das mühsame Erkunden des fremden Körpers selbst Gegenstand der Szene ist."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„immer wieder schaukelte er in die Rückenlage zurück“ und „Er versuchte es wohl hundertmal“",
+          "„ein immer wechselnder, nie andauernder, nie herzlich werdender menschlicher Verkehr“",
+          "„Gewiß würde der Chef mit dem Krankenkassenarzt kommen“ und „durch den Hinweis auf den Krankenkassenarzt abschneiden“",
+          "„einen noch nie gefühlten [...] Schmerz zu fühlen begann“"
+        ],
+        "suggestions": [
+          "Die beiden Aussagen über die wiederholten Schlafversuche bei gewünschter Straffung zusammenziehen: „Wohl hundertmal warf er sich auf die rechte Seite und schaukelte zurück.“",
+          "Bei der Beschreibung menschlicher Kontakte prüfen, ob „immer wechselnder“ und „nie andauernder“ beide nötig sind. „Nie herzlich werdender“ ergänzt dagegen einen eigenen emotionalen Aspekt.",
+          "Die zweite Nennung des Krankenkassenarztes gegebenenfalls durch „dessen Urteil“ ersetzen; die Originalwiederholung verstärkt allerdings die institutionelle Bedrohung.",
+          "Die Wortdopplung „gefühlten“ und „fühlen“ beseitigen. Rhetorisch wirksame Wiederholungen von „ruhig“ oder die kreisenden Arbeitsgedanken dagegen nicht pauschal als Fehler behandeln."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.027972
+}

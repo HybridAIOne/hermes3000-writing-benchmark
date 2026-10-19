@@ -1,0 +1,104 @@
+{
+  "who": "hermes",
+  "item": "anchor__schnitzler-casanovas-heimfahrt-900",
+  "run": 2,
+  "parsed": {
+    "overallScore": 4,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Der gesamte erste Absatz ist eine lange Exposition über Casanovas Vergangenheit und Gemütszustand."
+        ],
+        "suggestions": [
+          "Direkter in die Handlung einsteigen, z.B. bei dem Spaziergang, und die Hintergrundinformationen häppchenweise in die Szene einweben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "luftigen Höhen",
+          "schmerzliches Sehnen",
+          "echte Reue",
+          "unverzeihlichste",
+          "übelberüchtigten",
+          "allzu süßen"
+        ],
+        "suggestions": [
+          "Adjektive radikal streichen. Statt 'schmerzliches Sehnen' zu beschreiben, sollte die Handlung zeigen, wie er leidet."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": []
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["übrigens", "wohl", "ja sogar", "eigentlich"],
+        "suggestions": [
+          "Füllwörter konsequent streichen, um den Text straffer und direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["während er... befiel ihn", "indes", "als"],
+        "suggestions": [
+          "Handlungen nacheinander beschreiben, um den Lesefluss zu beschleunigen und die Dynamik zu erhöhen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "von der Ruhelosigkeit... gejagt wurde",
+          "hatte er... gerichtet",
+          "schien sich... auszusprechen"
+        ],
+        "suggestions": [
+          "Aktive Verben nutzen: 'Die Ruhelosigkeit jagte ihn' statt 'er wurde gejagt'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Der gesamte erste Absatz besteht aus extrem verschachtelten Sätzen mit zahlreichen Nebensätzen."
+        ],
+        "suggestions": [
+          "Sätze aufbrechen. Maximal eine Hauptaussage pro Satz, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": []
+      },
+      "indirectPerception": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": ["Er glaubte", "schien sich... auszusprechen", "wie ihm dünkte", "er wußte"],
+        "suggestions": [
+          "Filterwörter entfernen. Direkt beschreiben, was passiert, statt Casanovas Gedanken darüber zu berichten."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Wiederholte Beschreibungen seines Alters, seiner Vergangenheit und seines Rufs."
+        ],
+        "suggestions": [
+          "Informationen nur einmal platzieren, wo sie für die aktuelle Szene relevant sind, statt sie mehrfach zu umschreiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

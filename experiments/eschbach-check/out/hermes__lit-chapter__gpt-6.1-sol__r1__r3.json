@@ -1,0 +1,92 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6.1-sol__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Nebel hing so tief, dass Ilse das andere Ufer nicht sah.",
+          "Sie stieß mit der Schuhspitze gegen den Keil am Steuerhaus."
+        ],
+        "suggestions": [
+          "Der Einstieg ist exzellent. Er etabliert sofort Atmosphäre, Setting und Charakter-Routine."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["grauer Streifen", "gelblich und schmal", "dumpfe Schläge"],
+        "suggestions": [
+          "Sehr präzise Wortwahl. Die Adjektive dienen der Atmosphäre, nicht der Dekoration. Beibehalten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Morgen“, sagte der Mann", "„Fährt sie?“"],
+        "suggestions": [
+          "Vorbildlich. Die Sprecher sind durch den Kontext klar, unnötige Verben wurden vermieden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist nahezu frei von Füllwörtern. Sehr gute Arbeit."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als sie die Tür aufschloss", "Erst als er den Motor abgestellt... hatte"],
+        "suggestions": [
+          "Die Handlungen sind logisch nacheinander gereiht. Die wenigen 'als'-Konstruktionen sind notwendig für den Zeitbezug."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Wagen rollte über die Klappe", "Ilse wies ihm den Platz"],
+        "suggestions": [
+          "Der Text ist sehr aktiv formuliert. Das 'war' in 'dahinter war nichts' ist stilistisch passend für die Leere."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die Satzlängen sind rhythmisch und unterstützen das langsame, methodische Tempo der Szene."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die Dialoge sind kurz, funktional und spiegeln die Distanz zwischen den Charakteren wider."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse sah an ihm vorbei", "Ilse sah zum leeren Weg"],
+        "suggestions": [
+          "Keine Filterwörter wie 'sie merkte, dass' oder 'sie dachte, dass'. Sehr direkt und nah an der Figur."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Vorderreifen, dann die Hinterreifen", "Der Junge... Die Frau..."],
+        "suggestions": [
+          "Die Wiederholungen wirken hier beabsichtigt, um die monotone Routine der Arbeit zu unterstreichen. Keine Änderung nötig."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

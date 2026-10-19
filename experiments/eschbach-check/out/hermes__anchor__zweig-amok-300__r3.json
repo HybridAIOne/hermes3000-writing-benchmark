@@ -1,0 +1,96 @@
+{
+  "who": "hermes",
+  "item": "anchor__zweig-amok-300",
+  "run": 3,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Der gesamte erste Absatz fungiert als Prolog/Zusammenfassung.",
+          "Die eigentliche Handlung beginnt erst nach dem Trenner."
+        ],
+        "suggestions": [
+          "Den Prolog streichen oder stark kürzen. Direkt in die Szene in der Schiffsagentur einsteigen, um den Leser sofort ins Geschehen zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "kleiner, gepreßter, rechteckiger Winkel",
+          "toll gewordene stählerne Fledermaus"
+        ],
+        "suggestions": [
+          "Die Adjektivhäufungen reduzieren. Oft reicht ein starkes Substantiv oder Verb aus, um die Atmosphäre zu vermitteln."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Der Text nutzt indirekte Rede, was den Fluss hier gut unterstützt."],
+        "suggestions": ["Keine Änderung notwendig, da der Erzählstil sehr berichtend ist."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Immerhin", "wohl", "schon", "freilich"],
+        "suggestions": [
+          "Diese Wörter glätten den Text zwar, schwächen aber die Aussagekraft ab. Streichen, um die Sätze direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["während des Kohlenladens"],
+        "suggestions": [
+          "Die Verwendung ist moderat. Achten Sie darauf, dass Handlungen nicht zu statisch wirken."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["ereignete sich", "abspielte"],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv formuliert, was für den Erzählfluss positiv ist."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Der zweite Satz des ersten Absatzes ist sehr verschachtelt und lang."],
+        "suggestions": [
+          "Lange Sätze in zwei oder drei kürzere Einheiten zerlegen, um die Lesbarkeit und Spannung zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Die indirekte Rede ist kurz und prägnant gehalten."],
+        "suggestions": ["Keine Änderung erforderlich."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["meine ich persönlich, daß", "er wisse noch nicht, ob"],
+        "suggestions": [
+          "Direkter formulieren: Statt 'Ich meine, dass...' einfach die Vermutung als Tatsache oder Gedanken darstellen."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "seltsamen Vorfalles / seltsamen Episode",
+          "Platz für die Rückreise / Platz vormerken / Platz zuschreiben"
+        ],
+        "suggestions": [
+          "Wortwiederholungen bei 'seltsam' und 'Platz' vermeiden. Synonyme verwenden oder die Sätze umstellen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

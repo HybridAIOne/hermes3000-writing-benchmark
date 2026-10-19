@@ -1,0 +1,135 @@
+{
+  "who": "gemini",
+  "item": "anchor__zweig-amok-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Im März des Jahres 1912 ereignete sich im Hafen von Neapel... (der gesamte erste Absatz als distanzierte Rahmenhandlung)",
+          "Als ich in der Schiffsagentur von Kalkutta einen Platz für die Rückreise nach Europa auf der »Oceania« bestellen wollte..."
+        ],
+        "suggestions": [
+          "Nach moderner Erzähltheorie (In medias res) beginnt der Text sehr früh. Der Ticketkauf in Kalkutta und die Vorrede könnten gestrichen werden.",
+          "Starten Sie direkt in der beklemmenden Atmosphäre der Kabine auf dem Schiff ('Die stockende Luft in meiner Kabine roch nach Öl und Moder...'), und lassen Sie die Information über den Unfall in Neapel später einfließen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "umfangreiche, aber sehr phantastisch ausgeschmückte Berichte",
+          "zuckte der Clerk bedauernd die Schultern",
+          "teilte er mir erfreulicherweise mit",
+          "ein kleiner, gepreßter, rechteckiger Winkel",
+          "toll gewordene stählerne Fledermaus einem surrend über der Stirne"
+        ],
+        "suggestions": [
+          "Streichen Sie erklärende Adverbien wie 'bedauernd' (das Schulterzucken zeigt das Bedauern bereits) und 'erfreulicherweise' (zeigen Sie stattdessen die Erleichterung des Erzählers).",
+          "Vermeiden Sie Adjektivhäufungen wie 'kleiner, gepreßter, rechteckiger'. Ein präzises Substantiv wie 'Verschlag' oder 'Kammer' macht viele dieser Adjektive überflüssig.",
+          "Statt 'sehr phantastisch ausgeschmückte Berichte' lieber 'Sensationsberichte' oder 'Schauermärchen'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Am nächsten Tage teilte er mir erfreulicherweise mit, er könne mir noch einen Platz vormerken..."
+        ],
+        "suggestions": [
+          "Es gibt keine wörtliche Rede, daher auch keine störenden 'sagte er'-Wiederholungen.",
+          "Um den Text nach Eschbach lebendiger zu gestalten ('Show, don't tell'), könnte die indirekte Rede des Clerks allerdings in einen kurzen, knackigen Dialog umgewandelt werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "sehr phantastisch",
+          "manche Vermutungen",
+          "erlaubt mir wohl",
+          "freilich sei es nur eine wenig komfortable",
+          "schon ungeduldig"
+        ],
+        "suggestions": [
+          "Streichen Sie weiche, relativierende Füllwörter wie 'sehr', 'wohl', 'freilich', 'schon' und 'manche'. Sie schwächen die Aussagekraft der Sätze.",
+          "Aus 'wenig komfortable Kabine' wird durch Streichung und Präzisierung schlicht eine 'schäbige Kabine' oder ein 'Loch'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "während des Kohlenladens und der Löschung der Fracht",
+          "Als ich in der Schiffsagentur ... bestellen wollte, zuckte der Clerk ... die Schultern."
+        ],
+        "suggestions": [
+          "Die Verwendung von Gleichzeitigkeit ist hier meist unproblematisch.",
+          "Im zweiten Beispiel entsteht eine leichte logische Schräglage: Er wollte nicht bestellen, während der Clerk zuckte, sondern erst äußerte er den Wunsch, und daraufhin zuckte der Clerk die Schultern. Besser nacheinander anordnen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["einzig vom trüben Blick der kreisrunden Glasscheibe erhellt"],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv formuliert. Selbst komplexe Vorgänge werden aktiv gelöst ('über den die Zeitungen ... Berichte brachten').",
+          "Die einzige Zustandspassiv-Konstruktion am Ende ließe sich aktivieren: 'Nur das trübe Bullauge ließ etwas Licht herein.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Obzwar Passagier der »Oceania«, war es mir ebensowenig wie den andern möglich, Zeuge jenes seltsamen Vorfalles zu sein, weil er sich zur Nachtzeit während des Kohlenladens und der Löschung der Fracht abspielte, wir aber, um dem Lärm zu entgehen, alle an Land gegangen waren und dort in Kaffeehäusern oder Theatern die Zeit verbrachten.",
+          "Immerhin meine ich persönlich, daß manche Vermutungen, die ich damals nicht öffentlich äußerte, die wirkliche Aufklärung jener erregenden Szene in sich tragen, und die Ferne der Jahre erlaubt mir wohl das Vertrauen eines Gespräches zu nutzen, das jener seltsamen Episode unmittelbar vorausging."
+        ],
+        "suggestions": [
+          "Der erste Absatz besteht aus extrem langen Schachtelsätzen (typisch für das frühe 20. Jahrhundert, hier Stefan Zweig, aber nach modernen Maßstäben schwer lesbar).",
+          "Teilen Sie den zweiten Satz in drei separate Sätze auf: 1. Ich war zwar Passagier, habe den Vorfall aber nicht selbst gesehen. 2. Er geschah nachts beim Entladen. 3. Wegen des Lärms waren wir alle an Land gegangen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er wisse noch nicht, ob es möglich sei, mir eine Kabine zu sichern, das Schiff wäre jetzt knapp vor dem Einbruch der Regenzeit immer schon von Australien her ausverkauft, er müsse erst das Telegramm von Singapore abwarten."
+        ],
+        "suggestions": [
+          "Da nur indirekte Rede genutzt wird, gibt es keine ausufernden Dialoge.",
+          "Die indirekte Rede des Clerks ist allerdings recht lang. Wenn man sie beibehält, könnte man sie straffen: 'Vor der Regenzeit sei das Schiff meist schon ab Australien ausverkauft. Er müsse das Telegramm aus Singapur abwarten.'"
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "war es mir ebensowenig wie den andern möglich, Zeuge jenes seltsamen Vorfalles zu sein",
+          "Immerhin meine ich persönlich, daß...",
+          "nicht für einen Augenblick konnte man dem elektrischen Ventilator entgehen"
+        ],
+        "suggestions": [
+          "Formulierungen wie 'meine ich persönlich' schaffen Distanz zum Leser. Streichen Sie die Ankündigung der Meinung und präsentieren Sie die Vermutung direkt.",
+          "Vermeiden Sie das unpersönliche 'man' am Ende ('konnte man ... entgehen'). Bleiben Sie dicht bei der Wahrnehmung des Ich-Erzählers: 'Der elektrische Ventilator kreiste unaufhörlich wie eine stählerne Fledermaus über meiner Stirn.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "merkwürdiger Unfall / jenes seltsamen Vorfalles / jener erregenden Szene / jener seltsamen Episode",
+          "stockende, verdickte Luft",
+          "unter Deck und in der Mitte des Schiffes / in der Nähe der Dampfmaschine"
+        ],
+        "suggestions": [
+          "Im ersten Absatz wird das Ereignis viermal mit fast identischen Phrasen umschrieben (zweimal mit dem Wort 'seltsam'). Einmaliges Nennen reicht völlig.",
+          "'Stockend' und 'verdickt' beschreiben bei Luft denselben Zustand der Beklemmung. Entscheiden Sie sich für den stärkeren Begriff."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.022548
+}

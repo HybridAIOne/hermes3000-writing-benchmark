@@ -1,0 +1,95 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-haiku-5.5__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag am Morgen so dicht auf dem Fluss, dass Ilse Brandt das andere Ufer nicht sehen konnte."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und setzt genau zum richtigen Zeitpunkt ein. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["struppigen Mischling", "mattes Licht"],
+        "suggestions": [
+          "Die Adjektive sind gut gewählt und unterstützen die Stimmung. Achte darauf, sie nicht zu überladen, was hier aber gut gelingt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte er", "sagte Ilse"],
+        "suggestions": [
+          "Die Kennzeichnungen sind sparsam. In den kurzen Wechseln könnte man sie teilweise komplett weglassen, um den Rhythmus zu beschleunigen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["irgendwo hinter der Wolkendecke", "irgendwo im Grau"],
+        "suggestions": [
+          "Die Füllwörter unterstreichen hier die Ungewissheit und den Nebel. Das ist stilistisch passend."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als sie den Hebel umlegte"],
+        "suggestions": [
+          "Die Handlungsabfolge ist klar und logisch. Keine unnötigen 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Milchkühe längst verkauft waren", "Brücke in Dannenberg gesperrt war"],
+        "suggestions": [
+          "Das Passiv wird hier korrekt für Zustandsbeschreibungen genutzt, nicht um Akteure zu verschleiern."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Die Seilrolle über ihr knarrte, als sie den Hebel umlegte, und die Fähre löste sich vom Anleger mit dem Ruck, den sie seit dreiundzwanzig Jahren kannte."
+        ],
+        "suggestions": [
+          "Die Satzlänge erzeugt einen angenehmen Lesefluss. Keine Verschachtelungen, die den Leser behindern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Kalt heute“, sagte er. „November“, sagte Ilse."],
+        "suggestions": ["Die Dialoge sind prägnant und charakterisierend. Sehr gut."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Sie wusste, dass es da war.", "Sie wusste, wann der Hebel klemmte"],
+        "suggestions": [
+          "Statt 'Sie wusste, dass...' direkt schreiben: 'Es war da.' oder 'Der Hebel klemmte immer dann, wenn...'. Das macht die Wahrnehmung unmittelbarer."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie wusste, wann der Hebel klemmte... Sie wusste, wie der Fluss... Sie wusste, wie er im Frühjahr aussah..."
+        ],
+        "suggestions": [
+          "Die Anapher 'Sie wusste' im Absatz über die Fähre wirkt etwas repetitiv. Hier könnte man die Satzanfänge variieren, um mehr Dynamik zu erzeugen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

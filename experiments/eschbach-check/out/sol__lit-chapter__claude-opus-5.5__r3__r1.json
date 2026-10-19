@@ -1,0 +1,155 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__claude-opus-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur deshalb kannte, weil es seit dreiundzwanzig Jahren an derselben Stelle war.",
+          "Um zehn vor sieben schaltete sie die Positionslichter ein."
+        ],
+        "suggestions": [
+          "Den atmosphärischen Einstieg grundsätzlich behalten: Er etabliert Ilses Erfahrung, den Fluss und den lakonischen Erzählton.",
+          "Für einen zügigeren Beginn eher den anschließenden Routineabschnitt kürzen als den ersten Satz streichen. Seilprüfung und Kaffeezubereitung lassen sich verdichten; der Kaffee sollte wegen seiner Wiederaufnahme im Schluss erhalten bleiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "grau und schwer und gleichgültig",
+          "eine von den billigen aus dem Baumarkt in Dannenberg",
+          "ein altes Ding mit Tasten",
+          "das kleine grüne Display"
+        ],
+        "suggestions": [
+          "Die personifizierende Dreierfolge beim Fluss behalten: Sie erzeugt Haltung und Atmosphäre, statt bloß auszuschmücken.",
+          "Bei der Klemmleuchte prüfen, ob Preis, Einkaufsort und Packungsgröße gemeinsam nötig sind. Der Zehnerpack charakterisiert Ilses wiederkehrende Fürsorge besonders wirksam.",
+          "Beim Telefon gegebenenfalls auf ein unterscheidendes Detail konzentrieren: „ein Telefon mit Tasten“ oder „das grüne Display“. Nicht jede Alters- und Größenangabe wird benötigt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Licht\", sagte Ilse.",
+          "„Die krieg ich wieder\", sagte sie.",
+          "„Drei\", sagte sie."
+        ],
+        "suggestions": [
+          "Die überwiegend unmarkierten Sprecherwechsel beibehalten; sie sind durch Situation und Sprachduktus gut verständlich.",
+          "„Die krieg ich wieder“ könnte ohne „sagte sie“ stehen, da unmittelbar zuvor Ilse handelt.",
+          "„Drei“, sagte sie, darf als bewusste rhythmische Setzung bleiben. Dialogkennzeichnungen nicht allein deshalb streichen, weil der Sprecher erschließbar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das ist ja wirklich noch eine Seilfähre",
+          "Wie viele fahren denn so am Tag mit?",
+          "Für zwei, drei Minuten gab es keine Ufer"
+        ],
+        "suggestions": [
+          "„ja“, „wirklich“, „denn“ und „so“ in den Besucherfragen überwiegend behalten: Sie charakterisieren seine Gesprächsweise und sind keine bloßen Erzählerfüllwörter.",
+          "Die ungefähre Zeitangabe „zwei, drei Minuten“ passt zum subjektiven Erleben der Überfahrt; eine exakte Zahl würde hier keinen erkennbaren Gewinn bringen.",
+          "Allenfalls „wirklich“ im Satz über die Seilfähre probeweise streichen und prüfen, ob die gewünschte Mischung aus Staunen und Herablassung erhalten bleibt."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie wollte gerade das Tor an der Rampe schließen, als aus dem Nebel ein Mann trat, den sie nicht kannte.",
+          "während er wartete und sich die Hände rieb",
+          "Sie stand da, das Telefon in der Hand, und das Wasser schlug gegen den Rumpf, einmal, zweimal."
+        ],
+        "suggestions": [
+          "Die Unterbrechung beim Schließen des Tores und die Gleichzeitigkeit am Schluss beibehalten: Beide haben eine klare dramaturgische Funktion.",
+          "Die Quittungsszene lässt sich bei Bedarf entflechten: „Sie schrieb ihm eine Quittung mit Datum und Stempel. Er wartete und rieb sich die Hände.“",
+          "Die mehrfachen „als hätte“- und „als wäre“-Formulierungen sind Vergleiche, keine problematischen Gleichzeitigkeitssignale."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "einen hellen Mantel, der für eine Stadt gemacht war",
+          "bei so einem Wetter gehört das verboten"
+        ],
+        "suggestions": [
+          "Es gibt kaum Passivkonstruktionen; der Text erzählt überwiegend mit handelnden Subjekten.",
+          "„Ein heller Stadtmantel“ wäre eine knappere Alternative zur Zustandsbeschreibung, verlöre allerdings etwas vom erzählerischen Ton.",
+          "„Gehört das verboten“ als charakteristische mündliche Wendung beibehalten. Eine aktive Umformulierung wäre hier kein stilistischer Gewinn."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie sagte nichts dazu. Sie ging zum Fahrradständer am Heck, wo zwischen Rettungsring und Werkzeugkiste eine Schachtel stand, und holte eine Klemmleuchte heraus, eine von den billigen aus dem Baumarkt in Dannenberg, die sie dort im Zehnerpack kaufte.",
+          "Sie nickte und kassierte bei ihm zwei Euro, und er wollte eine Quittung, und sie schrieb ihm eine auf den Block, mit Datum und Stempel, während er wartete und sich die Hände rieb.",
+          "Sie stellte das Ruder an, spürte, wie der Strom die Fähre nahm und gegen das Seil drückte, und dann glitten sie hinaus, ohne Motorengeräusch, nur das Knarren der Rollen über ihnen und das Gurgeln am Rumpf."
+        ],
+        "suggestions": [
+          "Den Satz über die Klemmleuchte teilen, damit Ort, Handlung und Einkaufsgewohnheit nicht ineinander verschachtelt bleiben: „Am Heck stand zwischen Rettungsring und Werkzeugkiste eine Schachtel mit Klemmleuchten. Ilse kaufte sie im Zehnerpack.“",
+          "Die Quittungspassage straffen: „Sie kassierte zwei Euro. Er wollte eine Quittung. Sie schrieb ihm eine aus, mit Datum und Stempel.“",
+          "Den langen Satz beim Ablegen eher erhalten: Sein fließender Rhythmus trägt die Bewegung der Fähre und rechtfertigt die Länge."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Mein Mann sagt, bei so einem Wetter gehört das verboten. Ich sag, Hans, die Frau macht das länger, als du Auto fährst.",
+          "„Und, wie geht's? Alles gut bei Ihnen?\"",
+          "„Und dem Jungen? Ist der noch in München?\""
+        ],
+        "suggestions": [
+          "Die knappen Wechsel grundsätzlich beibehalten. Ilses kurze Antworten kontrastieren wirkungsvoll mit der Gesprächigkeit der Fahrgäste.",
+          "Frau Wendts längeren Redebeitrag nur bei höherem Tempobedarf kürzen; er charakterisiert sowohl sie als auch Ilses Stellung im Ort.",
+          "Die Frage nach dem Jungen unbedingt erhalten: Sie bereitet den späteren Anruf vor, ohne dessen Bedeutung zu erklären."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie hörte ihn, bevor sie ihn sah: das Klappern eines Schutzblechs, ein Keuchen, Reifen auf dem Kopfsteinpflaster der Rampe.",
+          "Er sah das Seil an, die Umlenkrollen, das Steuerhaus mit dem abgeblätterten Schriftzug, die Werkzeugkiste.",
+          "spürte, wie der Strom die Fähre nahm und gegen das Seil drückte",
+          "Sie sah zu, wie der Name blinkte."
+        ],
+        "suggestions": [
+          "Die Wahrnehmungsrahmung bei Mattis behalten: Entscheidend ist gerade, dass Ilse ihn zuerst hört.",
+          "Beim Besucher den zweiten Blickhinweis gegebenenfalls tilgen: Nach „sah sich um“ können die betrachteten Gegenstände unmittelbar folgen.",
+          "Beim Ablegen direkter formulieren: „Der Strom nahm die Fähre und drückte sie gegen das Seil.“ Die ursprüngliche Fassung ist jedoch sinnvoll, wenn Ilses körperliche Vertrautheit mit der Fähre betont werden soll.",
+          "Am Schluss wäre „JONAS blinkte auf dem Display“ unmittelbarer. „Sie sah zu“ betont dagegen ihre bewusste Untätigkeit und sollte nur gestrichen werden, wenn diese Nuance entbehrlich ist."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "wie sie immer zog",
+          "wie sie es jeden Morgen prüfte",
+          "wie es jeden Morgen dauerte",
+          "Er kam aufs Deck und sah sich um, als wäre er in einem Museum. Er sah das Seil an",
+          "„Ja.\"",
+          "das Seil, das aus dem Nebel kam und im Nebel verschwand"
+        ],
+        "suggestions": [
+          "Die drei ausdrücklichen Hinweise auf Gewohnheit gegeneinander prüfen. Zwei könnten genügen, da Uhrzeiten und Handgriffe den Alltag bereits deutlich vermitteln.",
+          "„Sah sich um“ und „sah das Seil an“ zu einer einzigen Blickbewegung zusammenziehen.",
+          "Ilses wiederholtes „Ja“ erhalten: Die Wiederholung charakterisiert ihre Verschlossenheit und verändert je nach Gesprächspartner ihre Wirkung.",
+          "Die Nebelwiederholung sowie den kalten Kaffee am Schluss beibehalten. Sie schaffen räumliche Geschlossenheit beziehungsweise eine sinnvolle Rückbindung an den Anfang."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.028698
+}

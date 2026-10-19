@@ -1,0 +1,83 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gemini-4-argon__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Die Strömung reicht“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er direkt in die Handlung und den Konflikt führt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["dunkelblauen Wollmantel", "glatte Lederschuhe", "schnelle, glatte Lächeln"],
+        "suggestions": [
+          "Die Adjektive sind meist passend. Achte jedoch auf Wortwiederholungen wie 'glatt' (Schuhe/Lächeln) in kurzem Abstand."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sagte Ilse", "sagte sie"],
+        "suggestions": [
+          "Die Kennzeichnungen sind unauffällig. Man könnte sie teilweise streichen, wenn der Sprecherwechsel durch Handlung klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["bereits", "kurz"],
+        "suggestions": [
+          "Sehr sparsamer Einsatz von Füllwörtern. Der Text wirkt dadurch sehr direkt."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["während der Wind ihm die ordentlich gescheitelten Haare zerzauste"],
+        "suggestions": ["Die Gleichzeitigkeit ist gut dosiert und stört den Lesefluss nicht."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["war nass gewesen"],
+        "suggestions": ["Der Text ist fast durchgehend aktiv formuliert, was sehr positiv ist."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzstruktur ist abwechslungsreich und gut lesbar."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoglänge ist perfekt auf die Situation abgestimmt."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie sah zu Jonas hinüber, der..."],
+        "suggestions": [
+          "Man könnte 'Sie sah zu Jonas hinüber, der...' streichen und direkt beschreiben: 'Jonas hatte sein Smartphone aus der Manteltasche gezogen...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["glatte Lederschuhe / glatte Lächeln", "rote Flagge (wird zweimal erwähnt)"],
+        "suggestions": [
+          "Achte auf Wortwiederholungen in unmittelbarer Nähe. 'Glatte' könnte bei den Schuhen durch 'polierte' ersetzt werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

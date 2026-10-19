@@ -1,0 +1,144 @@
+{
+  "who": "opus",
+  "item": "anchor__fontane-schach-von-wuthenow-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "In dem Salon der in der Behrenstraße wohnenden Frau von Carayon und ihrer Tochter Victoire waren an ihrem gewöhnlichen Empfangsabend einige Freunde versammelt, aber freilich wenige nur, da die große Hitze des Tages auch die treuesten Anhänger des Zirkels ins Freie gelockt hatte.",
+          "Der gesamte Auszug ist statische Exposition: Ort, Anwesende, Sitzordnung und Personenbeschreibungen, ohne dass etwas geschieht."
+        ],
+        "suggestions": [
+          "Die Szene direkt mit Bülows Vortrag oder einer Wortmeldung beginnen und Ort, Hitze und fehlende Gäste nebenbei einflechten.",
+          "Die Erklärung, warum wenige Gäste da sind, streichen oder in eine Bemerkung Alvenslebens verlegen, zum Beispiel: „Bei dieser Hitze bleibt nur, wer muss.“"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "die große Hitze des Tages",
+          "die treuesten Anhänger",
+          "neben der schönen Frau vom Hause",
+          "unter gleichzeitigem scherzhaftem Bedauern",
+          "durch lebhafte Gestikulationen",
+          "die feinste weiße Wäsche",
+          "der in der Taille knapp anschließende Rock von niederländischem Tuche"
+        ],
+        "suggestions": [
+          "„große Hitze“ durch ein konkretes Bild ersetzen, etwa „die Hitze, die noch abends von den Hauswänden strahlte“.",
+          "„scherzhaftem Bedauern“ zeigen statt benennen: Alvensleben lässt eine scherzhafte Bemerkung über den abwesenden Schach fallen.",
+          "„lebhafte Gestikulationen“ streichen, denn „focht mit seiner Rechten in der Luft umher“ zeigt die Lebhaftigkeit bereits."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Im Auszug gibt es keine direkte Rede und daher keine Redeeinleitungen.",
+          "Er konnte, wie seine Freunde sagten, nur sprechen um Vortrag zu halten"
+        ],
+        "suggestions": [
+          "Die indirekte Zuschreibung „wie seine Freunde sagten“ könnte als kurze direkte Äußerung eines Gastes lebendiger wirken."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "einige Freunde versammelt, aber freilich wenige nur",
+          "seit wenig Wochen erst",
+          "der um einige Jahre jüngere von beiden",
+          "nichtsdestoweniger bereits",
+          "er sprach eigentlich immer",
+          "wenigstens in allem was Erscheinung anging",
+          "worin Bülow keineswegs excellirte"
+        ],
+        "suggestions": [
+          "Unpräzise Mengenangaben konkretisieren, etwa „drei Freunde“ statt „einige Freunde, aber freilich wenige nur“ und „seit vier Wochen“ statt „seit wenig Wochen“.",
+          "Abschwächende Partikeln wie „eigentlich“, „freilich“, „bereits“ und „wenigstens“ streichen: „er sprach immer“ ist pointierter."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "hatte neben der schönen Frau vom Hause Platz genommen unter gleichzeitigem scherzhaftem Bedauern darüber",
+          "so focht er denn, beide Füße weit vorgestreckt und die linke Hand in der Hosentasche, mit seiner Rechten in der Luft umher",
+          "das ebensoviel Behagen wie Sarkasmus ausdrückte, während ihm der in der Taille knapp anschließende Rock ... sein Embonpoint zusammenschnürte"
+        ],
+        "suggestions": [
+          "Handlungen nacheinander erzählen: „Er setzte sich neben die Frau vom Hause. Eigentlich, sagte er, gebühre dieser Platz einem anderen.“",
+          "Das „während“ in der Sander-Beschreibung durch zwei eigenständige Sätze ersetzen, da kein zeitlicher Zusammenhang besteht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "allgemein als das Haupt jener militärischen Frondeurs angesehen wurde",
+          "waren an ihrem gewöhnlichen Empfangsabend einige Freunde versammelt"
+        ],
+        "suggestions": [
+          "Aktiv formulieren: „Man hielt ihn für das Haupt jener militärischen Frondeurs“ oder konkreter: „Die Stadt hielt ihn für ...“",
+          "„einige Freunde hatten sich versammelt“ statt Zustandspassiv."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Beiden gegenüber, an der der Mitte des Zimmers zugekehrten Tischseite, saßen zwei Herren in Civil, die, seit wenig Wochen erst heimisch in diesem Kreise, sich nichtsdestoweniger bereits eine dominirende Stellung innerhalb desselben errungen hatten.",
+          "Am entschiedensten der um einige Jahre jüngere von beiden, ein ehemaliger Stabskapitän, der, nach einem abenteuernden Leben in England und den Unionsstaaten in die Heimat zurückgekehrt, allgemein als das Haupt jener militärischen Frondeurs angesehen wurde, die damals die politische Meinung der Hauptstadt machten, beziehungsweise terrorisirten.",
+          "In dem Salon der in der Behrenstraße wohnenden Frau von Carayon ..."
+        ],
+        "suggestions": [
+          "Verschachtelte Partizipialattribute auflösen: „Frau von Carayon wohnte mit ihrer Tochter Victoire in der Behrenstraße.“",
+          "Den Satz über Bülow teilen: „Der Jüngere war ein ehemaliger Stabskapitän. Er hatte lange in England und Amerika gelebt. Nun galt er als Haupt der militärischen Frondeurs.“",
+          "Eingeschobene Nebensätze in der Satzmitte vermeiden, besonders „die, seit wenig Wochen erst heimisch in diesem Kreise, sich ...“."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Auszug enthält keine Dialogpassagen."],
+        "suggestions": [
+          "Kein Handlungsbedarf. Eher fehlt Dialog: Bülows angekündigter Kathedervortrag könnte direkt in Rede übergehen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "allgemein als das Haupt jener militärischen Frondeurs angesehen wurde",
+          "Er konnte, wie seine Freunde sagten, nur sprechen um Vortrag zu halten",
+          "sein Gesicht, das ebensoviel Behagen wie Sarkasmus ausdrückte",
+          "Nonchalance gehörte mit zur Genialität"
+        ],
+        "suggestions": [
+          "Behagen und Sarkasmus zeigen, etwa durch ein spöttisches Lächeln oder einen Kommentar Sanders, statt sie zu behaupten.",
+          "Bülows Dominanz durch eine Szene belegen, in der er anderen ins Wort fällt, statt sie über fremde Urteile mitzuteilen."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Platz genommen“ und kurz darauf „dieser Platz“",
+          "„Kathedervortrage“, „nur sprechen um Vortrag zu halten“ und „er sprach eigentlich immer“ umschreiben dreimal dieselbe Eigenschaft.",
+          "„sein vollkommener Widerpart“ und „Was den Gegensatz vollendete“ benennen den Kontrast doppelt.",
+          "„einige Freunde versammelt, aber freilich wenige nur“"
+        ],
+        "suggestions": [
+          "Bülows Redseligkeit einmal pointiert darstellen, zum Beispiel nur „er sprach immer“, und die übrigen Umschreibungen streichen.",
+          "Den Gegensatz zu Sander nur einmal ankündigen oder gar nicht benennen und durch die Beschreibung selbst wirken lassen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.0907
+}

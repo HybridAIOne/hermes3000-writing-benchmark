@@ -1,0 +1,133 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__gpt-6-luna__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "[Ein Café an der Ecke. Regen an den Scheiben. Mara steht am Tisch; Leon kommt herein.]",
+          "MARA: Du hast den gleichen Mantel an."
+        ],
+        "suggestions": [
+          "Der Einstieg setzt unmittelbar bei der Begegnung ein und etabliert mit dem Mantel eine gemeinsame Vergangenheit. Eine spätere Eröffnung würde diesen wirkungsvollen Subtext eher schwächen.",
+          "Die Ausgangssituation präzisieren: Leon kommt gerade herein, hat kurz darauf aber bereits eine Tasse. Entweder seine Bestellung knapp ergänzen oder zu Beginn kenntlich machen, dass Mara für ihn mitbestellt hat."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "[Ein kurzer Blick. Leon zieht den Stuhl zurück, den Mara freigelassen hat.]",
+          "[Sie sehen einander an. Mara lächelt kaum merklich.]"
+        ],
+        "suggestions": [
+          "Die wenigen Attribute und adverbialen Angaben sind überwiegend funktional.",
+          "Bei „Ein kurzer Blick“ prüfen, ob „kurzer“ eine notwendige Spielanweisung ist. „Ein Blick“ wäre knapper, allerdings bliebe weiterhin offen, wer wen ansieht.",
+          "„Kaum merklich“ kann bleiben, wenn die Zurückhaltung des Lächelns für die Inszenierung wichtig ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["MARA: Ich erinnere mich.", "LEON: Nicht immer lang genug."],
+        "suggestions": [
+          "Die Figurenbezeichnungen machen sämtliche Sprecherwechsel eindeutig; zusätzliche Redeeinleitungen sind unnötig.",
+          "Die Kennzeichnungen im dramatischen Format beibehalten. Sie sind keine entbehrlichen Wiederholungen von „sagte er/sie“."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "LEON: Es stimmt ja.",
+          "MARA: Vielleicht.",
+          "LEON: Besser. Sie fragt manchmal nach dir."
+        ],
+        "suggestions": [
+          "„Ja“ in „Es stimmt ja“ probeweise streichen: „Es stimmt.“ Das wirkt allerdings bestimmter und weniger beschwichtigend.",
+          "„Vielleicht“ beibehalten: Hier verkörpert die Unbestimmtheit Maras Zögern und ist kein bloßes Füllwort.",
+          "Auch „manchmal“ muss nicht präzisiert werden; die beiläufige Formulierung passt zur vorsichtigen Gesprächsführung."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "[Er setzt sich. Sie rühren beide in ihren Tassen, ohne zu trinken.]",
+          "[Leon legt die Hand auf den Tisch. Mara bewegt ihre nicht.]"
+        ],
+        "suggestions": [
+          "Die Handlungen sind übersichtlich angeordnet; überflüssige Konstruktionen mit „während“, „als“ oder „gleichzeitig“ fehlen.",
+          "Das gemeinsame Rühren beibehalten: Die Gleichzeitigkeit zeichnet hier die geteilte Verlegenheit, statt den Ablauf zu verkomplizieren."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Leon zieht den Stuhl zurück, den Mara freigelassen hat.",
+          "Draußen fährt ein Bus vorbei."
+        ],
+        "suggestions": [
+          "Keine überarbeitungsbedürftigen Passivkonstruktionen vorhanden. Die aktiven Verben und klaren Handlungsträger beibehalten."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Leon zieht den Stuhl zurück, den Mara freigelassen hat.",
+          "MARA: Weißt du noch, wie wir den hier verpasst haben?"
+        ],
+        "suggestions": [
+          "Auch die Sätze mit Nebensatz bleiben kurz und verständlich; eine weitere Aufteilung ist nicht nötig.",
+          "Die knappe Syntax passt zur angespannten Begegnung. Nicht allein der Kürze wegen weitere Satzfragmente erzeugen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "MARA: Worauf? / LEON: Auf weniger Zucker. / LEON: Ah.",
+          "MARA: Wir sind trotzdem angekommen. / LEON: Spät. / MARA: Aber zusammen."
+        ],
+        "suggestions": [
+          "Keine einzelne Replik ist zu lang. Die kurzen Wechsel tragen den Subtext, besonders in der Erinnerung an die gemeinsame Ankunft.",
+          "Falls die Szene insgesamt schneller zum emotionalen Kern gelangen soll, zuerst den Kaffee-Zucker-Abschnitt straffen. Dabei prüfen, wie viel alltägliche Ausweichbewegung für die Spannung gebraucht wird."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "[Mara schaut in ihre Tasse.]",
+          "MARA: Das sehe ich.",
+          "LEON: Ich wusste nicht, ob du kommst."
+        ],
+        "suggestions": [
+          "Die Regieanweisungen zeigen sichtbares Verhalten unmittelbar, ohne vorgeschaltete Wahrnehmungsfilter.",
+          "„Das sehe ich“ und „Ich wusste nicht“ nicht mechanisch streichen: Als Figurenrede sind sie Gesprächshandlungen, keine distanzierende Erzählervermittlung."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "LEON: Früher hast du dich immer darüber beschwert. / MARA: Ich erinnere mich.",
+          "LEON: Ich wusste nicht, ob du kommst. / MARA: Ich wusste nicht, ob du fragst.",
+          "LEON: Ich habe lange überlegt. / MARA: Das hast du immer. / LEON: Nicht immer lang genug."
+        ],
+        "suggestions": [
+          "Die spiegelbildlichen Wiederholungen überwiegend erhalten: Sie zeigen gemeinsame Geschichte und verschieben zugleich die Verantwortung zwischen den Figuren.",
+          "„Ich erinnere mich“ ist ein möglicher Kürzungskandidat, weil die Erinnerung bereits aus Maras vorheriger Replik hervorgeht. Beibehalten, wenn die Zeile bewusst als kühle Gesprächsbremse dienen soll.",
+          "Die wiederkehrenden Hinweise auf frühere Gewohnheiten auf ihre jeweilige Funktion prüfen. Mantel, Kaffee und langes Überlegen sollten unterschiedliche Facetten der Beziehung zeigen, nicht nur mehrfach deren Dauer bestätigen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01864
+}

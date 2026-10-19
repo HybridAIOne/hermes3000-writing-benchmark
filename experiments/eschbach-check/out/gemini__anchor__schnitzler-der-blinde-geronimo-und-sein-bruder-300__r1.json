@@ -1,0 +1,115 @@
+{
+  "who": "gemini",
+  "item": "anchor__schnitzler-der-blinde-geronimo-und-sein-bruder-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der blinde Geronimo stand von der Bank auf und nahm die Gitarre zur Hand, die auf dem Tisch neben dem Weinglase bereit gelegen war. Er hatte das ferne Rollen der ersten Wagen vernommen."
+        ],
+        "suggestions": [
+          "Der Einstieg funktioniert gut, da er sofort Bewegung zeigt. Um nach modernen Maßstäben noch unmittelbarer (in medias res) zu starten, könnte man den Auslöser (das Geräusch) voranstellen oder direkt im Hof beginnen: 'Beim fernen Rollen der ersten Wagen griff der blinde Geronimo nach seiner Gitarre.'"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "gegen den naßkalten Wind geschützt zu sein, der über den feuchtschmutzigen Boden durch die offenen Tore strich.",
+          "Unter dem düsteren Bogen des alten Wirtshauses",
+          "mit einer ungleichmäßigen, manchmal plötzlich aufkreischenden Stimme"
+        ],
+        "suggestions": [
+          "Der Text nutzt sehr viele beschreibende Adjektive. Einige davon lassen sich durch starke Substantive oder Verben ersetzen: Statt 'über den feuchtschmutzigen Boden' lieber 'über den Schlamm' oder 'durch den Morast'.",
+          "Statt 'mit einer plötzlich aufkreischenden Stimme' aktiver formulieren: 'Seine Stimme schwankte und kreischte manchmal auf'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text enthält keine wörtliche Rede, daher gibt es hier keine Probleme mit Redebegleitsätzen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "denn gerade hier lief die Straße ziemlich eben",
+          "waren in den Sommermonaten hier so gut wie zu Hause.",
+          "blieben vollkommen unbeweglich.",
+          "Der ältere Bruder stand neben ihm, beinahe regungslos.",
+          "Aber gleich, beinahe ängstlich, wandte er den Blick wieder fort"
+        ],
+        "suggestions": [
+          "Relativierende Wörter wie 'ziemlich', 'so gut wie' und das doppelt verwendete 'beinahe' schwächen die Aussagekraft. Entweder ist die Straße eben oder nicht; entweder steht der Bruder regungslos da oder er bewegt sich.",
+          "Auch Verstärker wie 'vollkommen' (bei 'unbeweglich') sind redundant, da 'unbeweglich' bereits ein absoluter Zustand ist. Einfach streichen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Nun tastete er sich den wohlbekannten Weg bis zur offenen Türe hin, und dann ging er die schmalen Holzstufen hinab",
+          "Wenn ihm jemand eine Münze in den Hut fallen ließ, nickte er Dank"
+        ],
+        "suggestions": [
+          "Die Handlungen sind sehr sauber und chronologisch nacheinander aufgebaut. Es gibt keine erzwungene Gleichzeitigkeit durch 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "den Rücken zur Wand gekehrt, um gegen den naßkalten Wind geschützt zu sein",
+          "des Lichts, das ihnen gewährt war"
+        ],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv geschrieben. Die Zustandspassive lassen sich leicht aktivieren: '...wandten den Rücken zur Wand, die sie vor dem nasskalten Wind schützte'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sein Bruder folgte ihm, und beide stellten sich gleich neben der Treppe auf, den Rücken zur Wand gekehrt, um gegen den naßkalten Wind geschützt zu sein, der über den feuchtschmutzigen Boden durch die offenen Tore strich."
+        ],
+        "suggestions": [
+          "Obwohl der Satzbau sehr rhythmisch und klassisch-literarisch ist (Arthur Schnitzler), neigt der erste Absatz zu längeren Schachtelsätzen. Man könnte nach 'kehrten den Rücken zur Wand' einen Punkt setzen und den Wind in einem eigenen Satz aktiv beschreiben."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher optimal."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Er hatte das ferne Rollen der ersten Wagen vernommen.",
+          "Nach einer Reihe schöner Tage schien der Herbst plötzlich und allzu früh hereinzubrechen."
+        ],
+        "suggestions": [
+          "Filterwörter wie 'vernommen' oder 'schien' schaffen eine leichte Distanz zum Leser. Direkter wäre: 'In der Ferne rollten die ersten Wagen heran.' (Da Geronimo blind ist, ist die Betonung des Hörens hier allerdings inhaltlich gerechtfertigt).",
+          "Statt 'schien hereinzubrechen' direkter: 'Nach einer Reihe schöner Tage brach der Herbst plötzlich und allzu früh herein.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["das Wetter wurde immer schlechter, ein kalter Regen klatschte herab."],
+        "suggestions": [
+          "Im dritten Absatz wird erst behauptet, das Wetter werde schlechter, und direkt danach durch den Regen gezeigt ('Show, don't tell'). Der erste Halbsatz ('Das Wetter wurde immer schlechter') kann ersatzlos gestrichen werden, da der klatschende, kalte Regen das bereits perfekt ausdrückt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01753
+}

@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Die Strömung reicht“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist exzellent, da er den Leser sofort in die Handlung und das Setting wirft, ohne unnötige Erklärungen voranzustellen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["schnelle, glatte Lächeln", "dunkelblauen Wollmantel"],
+        "suggestions": [
+          "Einige Adjektive sind etwas klischeehaft. Prüfen, ob 'glattes Lächeln' durch eine stärkere, spezifischere Beschreibung ersetzt werden kann, um den Charakter Jonas besser zu zeigen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sagte Ilse", "sagte sie", "fragte Jonas"],
+        "suggestions": [
+          "Die Marker sind unauffällig, was gut ist. Gelegentlich könnten sie durch Handlungsbeats ersetzt werden, um den Rhythmus noch weiter zu variieren."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["bereits", "schon"],
+        "suggestions": [
+          "'Bereits' wird zweimal in kurzem Abstand verwendet. Einmal streichen, um die Straffheit zu erhöhen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["während der Wind ihm die ordentlich gescheitelten Haare zerzauste"],
+        "suggestions": ["Sehr sparsam und effektiv eingesetzt. Keine Änderung nötig."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["die auf dem Koffer aufgesteckt war"],
+        "suggestions": ["'die auf dem Koffer steckte' klingt aktiver und direkter."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind gut variiert und erzeugen einen angenehmen Lesefluss."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Dialoge sind prägnant, realistisch und treiben die Handlung gut voran."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Sehr gut gelöst. Es gibt kaum Filterwörter wie 'er sah, dass' oder 'sie dachte, dass'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Koffer", "bereits"],
+        "suggestions": [
+          "Wortwiederholungen von 'Koffer' und 'bereits' in kurzem Abstand prüfen und ggf. durch Synonyme oder Streichungen ersetzen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

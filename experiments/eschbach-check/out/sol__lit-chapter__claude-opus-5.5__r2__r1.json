@@ -1,0 +1,161 @@
+{
+  "who": "sol",
+  "item": "lit-chapter__claude-opus-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8.3,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur noch glaubte.“",
+          "„Sie ging in das kleine Steuerhaus, drehte den Heizlüfter an und schenkte sich Kaffee aus der Thermoskanne ein.“",
+          "„Das Telefon in ihrer Jackentasche summte.“"
+        ],
+        "suggestions": [
+          "Den ersten Satz beibehalten: Er etabliert Ort, Atmosphäre und Ilses Perspektive unmittelbar.",
+          "Falls Jonas’ Anruf den zentralen Konflikt eröffnet, die vorbereitenden Routinen leicht kürzen. Die Begegnungen nicht pauschal streichen: Sie charakterisieren Ilse und bereiten ihren gedanklichen Rückzug am Schluss vor.",
+          "Als Straffungsprobe direkt nach dem ersten Absatz mit Kahles Ankunft fortfahren und nur die später benötigten Details aus dem Steuerhaus nachtragen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„gleichmäßig, ohne Eile“",
+          "„ein dünnes, kratziges Geräusch“",
+          "„das kleine Steuerhaus“",
+          "„zwei blasse Flecken“"
+        ],
+        "suggestions": [
+          "Bei „gleichmäßig, ohne Eile“ prüfen, ob eine der beiden Bestimmungen genügt; sie verstärken ein ähnliches Ruhegefühl.",
+          "Das wenig spezifische „kleine“ vor „Steuerhaus“ streichen, sofern die Enge später keine Rolle spielt.",
+          "Sinnlich präzise Attribute wie „blasse“ und „kratziges“ erhalten. Sie leisten mehr als bloße Ausschmückung."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Moin, Ilse.“ – „Moin.“",
+          "„Die in Dannenberg sagen, das Amt will wieder prüfen“, sagte er.",
+          "„Danke“, sagte sie, und dann, nach einer Pause, in der sie offenbar überlegte, ob noch etwas zu sagen war: „Ist ja voll gruselig heute.“"
+        ],
+        "suggestions": [
+          "Die überwiegend unmarkierten Redewechsel beibehalten; die Sprecher bleiben durch den Wechsel und ihre unterschiedlichen Stimmen erkennbar.",
+          "„sagte er“ nach Kahles Hinweis auf das Amt ist verzichtbar, weil seine vorausgehende Handlung ihn bereits als Sprecher etabliert.",
+          "Die Kennzeichnung bei „Danke“ kann zur Orientierung bleiben; eher den anschließenden erklärenden Einschub kürzen als sämtliche Redebegleitungen entfernen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„in der sie offenbar überlegte, ob noch etwas zu sagen war“",
+          "„Sie dachte an nichts Bestimmtes.“",
+          "„wo von irgendwoher, noch unsichtbar, ein Motor zu hören war“",
+          "„Sie stehen ja hier.“"
+        ],
+        "suggestions": [
+          "„offenbar“ samt Deutung der Pause streichen und die Pause selbst wirken lassen.",
+          "Den Schluss präzisieren: „… und sah hinaus auf den Fluss. Aus dem Nebel drang Motorenbrummen.“ Damit entfallen „von irgendwoher“ und die umständliche Wahrnehmungsformulierung.",
+          "Dialogpartikeln wie „ja“, „doch“ und „nur“ nicht mechanisch entfernen: Sie tragen hier zur mündlichen Stimme und zu Ilses Abwehr bei.",
+          "Unbestimmtheit dort erhalten, wo sie die Figur charakterisiert, etwa bei „Merle oder Mareike“."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Während der Überfahrt hielt er sich mit beiden Händen am Geländer fest“",
+          "„Ihre Knie meldeten sich, als sie aufstand.“",
+          "„als führte es nirgendwohin“",
+          "„als wollte es auch hinüber“"
+        ],
+        "suggestions": [
+          "Die zeitlichen Verknüpfungen überwiegend beibehalten: Das Festhalten dauert tatsächlich während der Überfahrt an, und die Knie schmerzen beim Aufstehen.",
+          "Die zahlreichen „als“-Formulierungen unterscheiden: Viele sind Vergleiche, keine problematischen Gleichzeitigkeitssätze.",
+          "Einzelne Vergleichskonstruktionen reduzieren, wenn der Rhythmus abwechslungsreicher werden soll. Beispielsweise kann das Treibholz schlicht neben dem Rumpf treiben, ohne dass ihm eine Absicht zugeschrieben wird."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Dann löste sie die Sperrkette, ging zurück ins Steuerhaus und legte den Hebel um.“",
+          "„Ilse drosselte, bis der Ponton mit einem dumpfen Stoß anlegte.“",
+          "„das Schleifen war deutlich zu hören“"
+        ],
+        "suggestions": [
+          "Die aktive, handlungsnahe Darstellung beibehalten; klassische Passivsätze fallen nicht auf.",
+          "„war deutlich zu hören“ ist kein klassisches werden-Passiv, lässt sich aber unmittelbarer formulieren: „Die Bremse schleifte dünn und kratzig.“ Eine Änderung ist hier eine Stiloption, keine notwendige Passivkorrektur."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Er nickte und sah aufs Wasser, wo nichts zu sehen war außer einem Stück Treibholz, das neben dem Rumpf mitschwamm, als wollte es auch hinüber.“",
+          "„Danke“, sagte sie, und dann, nach einer Pause, in der sie offenbar überlegte, ob noch etwas zu sagen war: „Ist ja voll gruselig heute.“",
+          "„Sie legte das Telefon mit dem Display nach unten neben das Fahrtenbuch, trank den Kaffee aus und sah hinaus auf den Fluss, wo von irgendwoher, noch unsichtbar, ein Motor zu hören war.“"
+        ],
+        "suggestions": [
+          "Den Treibholzsatz am Wahrnehmungswechsel teilen: „Er nickte und sah aufs Wasser. Neben dem Rumpf schwamm ein Stück Treibholz, als wollte es auch hinüber.“",
+          "Die verschachtelte Redebegleitung vereinfachen: „‚Danke‘, sagte sie. Nach einer Pause: ‚Ist ja voll gruselig heute.‘“",
+          "Den letzten Satz vor dem Motorgeräusch teilen, damit dieses als neuer äußerer Impuls hervortritt.",
+          "Nicht alle langen Sätze kürzen: Ihr ruhiger Fluss passt zum Fährbetrieb und wird bereits durch knappe Sätze wie „Sie fuhr leer zurück“ kontrastiert."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Siehst ja gar nichts heute.“ – „Muss ich auch nicht.“",
+          "„Mach ich nachher.“ – „Machst du nicht.“",
+          "„Ich meine, ist das sicher?“ – „Das Seil weiß, wo’s langgeht.“",
+          "„Einmal fragte er, wie tief die Elbe hier sei. Sie sagte es ihm.“"
+        ],
+        "suggestions": [
+          "Die knappen Dialoge weitgehend unverändert lassen: Sie vermitteln Beziehung und Charakter, ohne Informationen auszuerklären.",
+          "Die zusammenfassend erzählten Fragen des fremden Mannes nicht zusätzlich als direkte Rede ausbauen; die Raffung verhindert eine ausufernde Unterhaltung.",
+          "Bei einer stärkeren Gesamtkürzung eher einzelne Handlungserklärungen zwischen den Repliken streichen als die charakteristischen Antworten Ilses."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Sie stand auf der Rampe, die Hände in den Taschen der Jacke, und hörte zu, wie die Elbe am Ponton entlangschob“",
+          "„Sie hörte ihn, bevor sie ihn sah, das Brummen des Diesels auf dem Deich, dann die Scheinwerfer“",
+          "„in der sie offenbar überlegte, ob noch etwas zu sagen war“",
+          "„Ilse hielt es in der Hand und sah zu, wie sein Name aufleuchtete und wieder aufleuchtete.“"
+        ],
+        "suggestions": [
+          "Den Auftakt versuchsweise unmittelbarer formulieren: „Sie stand auf der Rampe, die Hände in den Jackentaschen. Die Elbe schob sich am Ponton entlang.“ Dabei prüfen, ob das bewusste Zuhören als Charaktermerkmal verloren geht.",
+          "Die Wahrnehmungsfolge bei Kahles Ankunft erhalten: Dass Ilse ihn zuerst hört, ist im Nebel inhaltlich relevant und nicht bloß ein Filter.",
+          "Beim Mädchen nur das Beobachtbare zeigen: „Nach einer Pause sagte sie …“ Die vermutete Überlegung ist entbehrlich.",
+          "Am Telefon kann „Sein Name leuchtete auf und wieder auf“ direkter wirken. Das ausdrückliche Zuschauen ist jedoch sinnvoll, wenn Ilses bewusstes Nichtannehmen betont werden soll."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Er fuhr auf die Rampe, so wie er seit Jahren auf die Rampe fuhr“",
+          "„Er fragte, ob sie das jeden Tag mache. Sie sagte ja. Er fragte, ob ihr das nicht langweilig werde“",
+          "„Sie dachte an nichts Bestimmtes. Sie dachte an die Bremse von dem Mädchen“",
+          "„Sie schrieb ihn ins Buch.“"
+        ],
+        "suggestions": [
+          "Die doppelte Rampenformulierung bei Bedarf verdichten: „Er fuhr wie seit Jahren eine Handbreit zu weit links auf die Rampe.“ Die bestehende Wiederholung betont allerdings wirkungsvoll die Gewohnheit.",
+          "Die wiederkehrenden Buch-Einträge und Überfahrten als Strukturmotiv erhalten; sie machen Ilses Arbeitsrhythmus erfahrbar.",
+          "Die Reihung „Er fragte … Sie sagte …“ bewusst dosieren. Sie vermittelt die Austauschbarkeit seiner Fragen, könnte aber bei stärker gewünschtem Erzähltempo um eine Frage gekürzt werden.",
+          "Prüfen, ob „Sie dachte an nichts Bestimmtes“ nötig ist: Der anschließende Satz nennt konkrete Gedanken. Falls die ausweichende Bewegung nicht beabsichtigt ist, direkt mit der Bremse und Kahles Fahrweise einsetzen.",
+          "Die Wiederaufnahme von Bremse und Linksdrall am Schluss beibehalten: Sie verbindet die Begegnungen mit Ilses Reaktion auf Jonas und ist mehr als eine bloße Informationsdoppelung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.029826
+}

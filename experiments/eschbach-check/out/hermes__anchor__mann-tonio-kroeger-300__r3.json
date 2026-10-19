@@ -1,0 +1,95 @@
+{
+  "who": "hermes",
+  "item": "anchor__mann-tonio-kroeger-300",
+  "run": 3,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Die Schule war aus. Über den gepflasterten Hof und heraus aus der Gatterpforte strömten die Scharen der Befreiten..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch, könnte aber für einen moderneren, direkteren Stil näher am Geschehen (Tonio wartet) beginnen, um den Leser schneller in die Handlung zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["gemessen hinschreitenden", "frommen Augen", "herrschaftlichste"],
+        "suggestions": [
+          "Einige Adjektive sind sehr deskriptiv und typisch für den Schreibstil des frühen 20. Jahrhunderts. Für einen moderneren, strafferen Stil könnten einige durch stärkere Verben ersetzt werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sagte Tonio Kröger", "fragte er"],
+        "suggestions": [
+          "Die Redeeinleitungen sind funktional und unaufdringlich. Sie erfüllen ihren Zweck, ohne den Lesefluss zu stören."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["ein bißchen", "schon"],
+        "suggestions": [
+          "Füllwörter sind sparsam eingesetzt. Dennoch könnte 'ein bißchen' durch präzisere Angaben ersetzt werden, um die Sprache zu schärfen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["indem sie... ruderten", "indes die anderen... schlenderten"],
+        "suggestions": [
+          "Die Gleichzeitigkeit ist gut gelöst. Um die Dynamik zu erhöhen, könnten komplexe Sätze mit 'indem' oder 'indes' in zwei aufeinanderfolgende Hauptsätze aufgelöst werden."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["wurde... gegessen", "wurden... gegrüßt"],
+        "suggestions": [
+          "Passivkonstruktionen wirken oft distanziert. Aktive Formulierungen (z.B. 'Wir aßen erst um vier Uhr zu Mittag') würden die Szene lebendiger machen."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Die Sätze über die Väter und die Holzlagerplätze sind sehr lang und verschachtelt."
+        ],
+        "suggestions": [
+          "Lange Sätze in kürzere, prägnantere Einheiten aufbrechen, um die Lesbarkeit zu erhöhen und den Fokus auf die wesentlichen Informationen zu lenken."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Kommst du endlich, Hans?«", "»Wieso?«"],
+        "suggestions": [
+          "Die Dialoge sind kurz, knackig und treiben die Handlung gut voran. Hier besteht kein Änderungsbedarf."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sah Tonio an", "fiel es ihm ein"],
+        "suggestions": [
+          "Die Wahrnehmung ist meist direkt. An manchen Stellen könnte man noch stärker 'zeigen statt behaupten' (Show, don't tell), um die Emotionen Tonios unmittelbarer spürbar zu machen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Keine gravierenden inhaltlichen Doppelungen."],
+        "suggestions": [
+          "Der Text ist inhaltlich sauber strukturiert und weist keine störenden Redundanzen auf."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

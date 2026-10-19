@@ -1,0 +1,138 @@
+{
+  "who": "sol",
+  "item": "lit-scene__gemini-4-argon__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel griff erst beim dritten Versuch.",
+          "Zwanzig Jahre schrumpften auf die Breite einer Türschwelle zusammen."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Der Widerstand des Schlosses eröffnet unmittelbar eine Handlung und spiegelt Claras schwierige Rückkehr.",
+          "Ein späterer Beginn beim Betreten der Küche wäre zwar möglich, würde aber die räumliche und emotionale Schwelle abschwächen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "keine modrige Fäulnis",
+          "die scharfe, trockene Kälte",
+          "von tiefen, kalkweißen Trockenrissen durchzogen",
+          "eine stechende, fast metallische Note"
+        ],
+        "suggestions": [
+          "Die sinnlich präzisen Attribute überwiegend erhalten, ihre Häufung aber punktuell reduzieren.",
+          "„Modrige Fäulnis“ auf „Fäulnis“ kürzen; die Bedeutungen überschneiden sich.",
+          "Prüfen, ob „von kalkweißen Trockenrissen durchzogen“ genügt. „Kalkweiß“ liefert hier die markantere Information als „tief“."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung erforderlich: Der Ausschnitt enthält keine direkte Rede und damit keine überflüssigen Dialogkennzeichnungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Hier hing noch ein Rest von Leben in der Luft",
+          "noch immer der Daumenabdruck ihrer Mutter",
+          "früher immer die Gartenerde",
+          "und einmal auch etwas ganz anderes"
+        ],
+        "suggestions": [
+          "„Früher immer“ gegebenenfalls auf „früher“ kürzen; die regelmäßige Verwendung der Seife erschließt sich bereits aus dem Zusammenhang.",
+          "„Noch“ und „noch immer“ nicht pauschal streichen: Sie tragen das Motiv der überdauernden Vergangenheit.",
+          "„Etwas ganz anderes“ ist eine gezielte Leerstelle und kein bloßes Füllwort. Beibehalten, sofern die Andeutung später eingelöst wird."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "als wehrte sich das Messing gegen die Störung",
+          "Als die Tür schließlich nachgab",
+          "als atmete das Haus unter dem Putz ganz flach",
+          "und als sie die Seife dicht unter ihre Nase hielt, roch sie es"
+        ],
+        "suggestions": [
+          "Die vergleichenden „als“-Konstruktionen von zeitlichen Verknüpfungen unterscheiden: Sie erzeugen Bilder, keine problematische Gleichzeitigkeit.",
+          "Nur die zeitliche Konstruktion im langen Seifensatz versuchsweise auflösen: „Sie hielt die Seife dicht unter die Nase. Unter dem Staub lag eine stechende, fast metallische Note von Fichtennadeln und Terpentin.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Nichts war verändert worden",
+          "Es war steinhart, von tiefen, kalkweißen Trockenrissen durchzogen.",
+          "Im spröden Grün war noch immer der Daumenabdruck ihrer Mutter eingeprägt"
+        ],
+        "suggestions": [
+          "„Nichts war verändert worden“ kann bleiben: Entscheidend ist der unveränderte Zustand, nicht die dafür verantwortliche Person.",
+          "Für eine knappere Alternative bietet sich „Nichts hatte sich verändert“ an.",
+          "Die Zustandsbeschreibungen der Seife nicht mechanisch aktivieren. Optional konkreter: „Tiefe, kalkweiße Trockenrisse durchzogen die steinharte Seife.“"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Als die Tür schließlich nachgab, schlug Clara keine modrige Fäulnis entgegen, sondern die scharfe, trockene Kälte von Räumen, die seit Monaten keinen menschlichen Atem mehr aufgenommen hatten.",
+          "Im spröden Grün war noch immer der Daumenabdruck ihrer Mutter eingeprägt, und als sie die Seife dicht unter ihre Nase hielt, roch sie es: unter dem Staub lag eine stechende, fast metallische Note von Fichtennadeln und Terpentin."
+        ],
+        "suggestions": [
+          "Der Wechsel zwischen kurzen und längeren Sätzen funktioniert bereits gut; nicht alle langen Sätze teilen.",
+          "Den Seifensatz nach „eingeprägt“ trennen. So erhalten der Daumenabdruck und der Geruch jeweils einen eigenen Wahrnehmungsmoment.",
+          "Bei dieser Überarbeitung entfällt zugleich die verschachtelte Verbindung aus „und“, „als“ und nachgeschobener Geruchserklärung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung erforderlich: Es gibt keine Dialogpassagen. Die rein erzählerische Gestaltung unterstützt Claras Isolation."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "roch sie es: unter dem Staub lag eine stechende, fast metallische Note",
+          "Der Flur, in ihrer Erinnerung eine endlose Galerie, war kaum zwei Schritte breit."
+        ],
+        "suggestions": [
+          "„Roch sie es“ streichen und den Geruch unmittelbar darstellen: „Unter dem Staub lag eine stechende, fast metallische Note von Fichtennadeln und Terpentin.“ Claras vorherige Bewegung zur Nase macht die Wahrnehmung eindeutig.",
+          "„In ihrer Erinnerung“ beibehalten: Die Formulierung markiert den notwendigen Gegensatz zwischen kindlicher Raumwahrnehmung und gegenwärtigem Eindruck."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Nichts war verändert worden, und doch war alles verschoben. Die Proportionen stimmten nicht mehr.",
+          "ein Stück grüne Kernseife",
+          "Im spröden Grün",
+          "den grünen Stein",
+          "Es war nicht die Seife für das Geschirr. Es war die"
+        ],
+        "suggestions": [
+          "„Die Proportionen stimmten nicht mehr“ probeweise streichen. Das folgende Beispiel des geschrumpften Flurs vermittelt denselben Sachverhalt anschaulicher.",
+          "Die wiederholte Farbnennung prüfen: Am Schluss könnte „den Stein“ genügen. Die Umbenennung der Seife zum Stein dagegen erhalten, weil sie deren Härte körperlich erfahrbar macht.",
+          "Die Wiederholung „Es war nicht … Es war …“ beibehalten: Sie setzt einen wirkungsvollen Kontrast und führt zur beunruhigenden Erinnerung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020416
+}

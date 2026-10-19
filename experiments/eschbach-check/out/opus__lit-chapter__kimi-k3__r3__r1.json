@@ -1,0 +1,168 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__kimi-k3__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Um fünf holte Ilse den Kaffee aus der Thermoskanne, und der Nebel war schon da.",
+          "Sie stand am Ufer und hielt die Kanne in beiden Händen, als könne sie sich daran wärmen, dabei war die Thermoskanne längst kalt geworden auf dem Weg vom Haus herunter.",
+          "Der eigentliche Konflikt (Jonas' Anrufe) setzt erst nach rund zwei Dritteln des Textes ein."
+        ],
+        "suggestions": [
+          "Der atmosphärische Einstieg funktioniert, ist aber logisch unscharf: Ilse holt den Kaffee aus der Kanne, hält dann aber die Kanne. Besser wäre ein klares Bild, etwa: 'Um fünf stand Ilse mit der Thermoskanne am Ufer, und der Nebel war schon da.'",
+          "Erwäge, den Absatz zum Seilstand ('Das Seil hing noch hoch genug …') zu kürzen oder später einzustreuen. So kommt die erste Überfahrt schneller in Gang.",
+          "Damit der Anruf nicht aus dem Nichts kommt, könnte Jonas früher anklingen, etwa durch einen kurzen Gedanken beim Ablegen. Bisher erwähnt ihn erst Ines' Frage."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "bis die Fähre sich träge vom Ufer löste",
+          "dem leisen Rumpeln der Rollen",
+          "wie zwei verdünnte Milchgläser",
+          "und sie trank ihn trotzdem, langsam, die Hände um den Becher",
+          "stumpf, ohne Widerhall"
+        ],
+        "suggestions": [
+          "Adjektive werden überwiegend sparsam und präzise eingesetzt. 'träge' ließe sich durch ein Verb ersetzen, etwa 'bis die Fähre vom Ufer kroch'.",
+          "'langsam' nach 'trank ihn trotzdem' ist entbehrlich. Die Geste mit den Händen um den Becher transportiert die Langsamkeit bereits.",
+          "'leisen Rumpeln' ist ein leichter Widerspruch. Entweder 'Rumpeln' allein oder ein präziseres Geräusch wie 'Surren' oder 'Knirschen' wählen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Sicht wie gestern\", sagte sie. / „Schlechter\", sagte Ilse.",
+          "„Jonas kommt zu Weihnachten?\" fragte Ines.",
+          "„Tschüss\", sagte er."
+        ],
+        "suggestions": [
+          "Im Zwiegespräch Ilse/Ines ist der Sprecherwechsel eindeutig. 'sagte Ilse' bei 'Schlechter' kann entfallen.",
+          "'fragte Ines' ist überflüssig: Das Fragezeichen und der Inhalt (Jonas) machen die Sprecherin klar. Alternative: 'Ines blies Rauch aus. „Jonas kommt zu Weihnachten?\"'",
+          "'„Tschüss\", sagte er.' ließe sich durch eine Handlung ersetzen: 'Er hob die Hand. „Tschüss.\"'",
+          "Positiv: Die Wechsel 'Morgen.' – 'Morgen.' und 'Zwei.' – 'Zwei.' kommen gelungen ohne Inquit aus."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "und für eine Weile war nur das Ziehen, das Atmen, das Wasser",
+          "hatte der Nebel sich ein Stück gehoben",
+          "Das stimmte an den meisten Tagen.",
+          "Kallenbach saß auf seiner Bank und schien zu schlafen mit offenen Augen."
+        ],
+        "suggestions": [
+          "'für eine Weile' ist unpräzise. Im Stil des Textes, der sonst in Metern und Uhrzeiten misst, wäre z. B. 'bis zur Mitte der Fahrrinne' stärker.",
+          "'ein Stück' kann ersatzlos entfallen: 'hatte der Nebel sich gehoben, nicht weg, nur höher'.",
+          "'schien zu schlafen' ist eine vorsichtige Formulierung. Direkter wäre: 'Kallenbach schlief auf seiner Bank, mit offenen Augen.'"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "als könne sie sich daran wärmen",
+          "als ginge sie durch eine Wand",
+          "als erwarte er, dass dort etwas auftauchte",
+          "Ines nickte, als hätte sie eine Antwort bekommen",
+          "als wäre sie ein Denkmal",
+          "und fiel auseinander, als der Transporter vorbeifuhr",
+          "und sie wischte es mit dem Ärmel frei, ohne den Blick vom Telefon zu nehmen"
+        ],
+        "suggestions": [
+          "'während' und 'gleichzeitig' fehlen erfreulicherweise. Auffällig ist aber die Häufung von 'als'-Vergleichen (mindestens fünf 'als ob'-Konstruktionen). Sie wirkt wie ein Stiltick. Zwei bis drei davon streichen oder in direkte Bilder umwandeln.",
+          "'als könne sie sich daran wärmen' und 'als wäre sie ein Denkmal' sind die schwächsten Vergleiche und am ehesten verzichtbar.",
+          "Die Telefonszene nacheinander erzählen: 'Sie wischte die Scheibe mit dem Ärmel frei. Ihr Blick blieb auf dem Telefon.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Vierzig Meter Drahtseil, gespannt über die Fahrrinne",
+          "und die erste Fahrt war getan"
+        ],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv. Lediglich 'die erste Fahrt war getan' ist ein Zustandspassiv. Aktiv und konkreter wäre z. B.: 'und sie hatte die erste Fahrt hinter sich'.",
+          "'gespannt über die Fahrrinne' ist als Partizipialattribut stilistisch unproblematisch und kann bleiben."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Ilse drehte die Fähre nicht, das brauchte man nicht, das Ding hatte zwei Enden wie eine Doppelmündung, sie griff nur das Seil von der anderen Seite und zog in die Gegenrichtung.",
+          "Er kam seit September, seit er aufs Gymnasium wechselte, und jeden Morgen hatte er die Kopfhörer auf, und jeden Morgen nickte er und zahlte seinen Euro fünfzig und stellte sich ans Heck und schaute aufs Wasser, als erwarte er, dass dort etwas auftauchte.",
+          "Das Vibrieren, das helle Rechteck, der Name, der doppelt so groß war, wie sie die Schrift eingestellt hatte, und sie hatte sie groß eingestellt, weil sie die Brille nicht immer fand.",
+          "Die Schäferin, Ines, mit ihrem Wagen, dem alten Golf, bei dem die Scheinwerfer in den Nebel fuhren wie zwei verdünnte Milchgläser, und dahinter der Junge, der in Lüchow zur Schule ging.",
+          "Sie ging die Planke hinauf, das Holz war glatt vom Raureif, und sie hielt sich am Seil fest, nicht weil sie es musste, sondern weil Henning es so gemacht hatte."
+        ],
+        "suggestions": [
+          "Die Polysyndeta ('und … und … und') erzeugen einen bewussten Rhythmus und passen zur Monotonie der Arbeit. Sie werden aber zu oft eingesetzt und nutzen sich ab. Kurze Sätze dazwischen setzen.",
+          "Den Fährsatz teilen: 'Ilse drehte die Fähre nicht. Das Ding hatte zwei Enden. Sie griff das Seil von der anderen Seite und zog in die Gegenrichtung.' Der Vergleich 'wie eine Doppelmündung' ist zudem schief und kann entfallen.",
+          "Die Ines-Apposition entwirren: 'Ines, die Schäferin, im alten Golf. Die Scheinwerfer fuhren in den Nebel wie verdünnte Milchgläser. Dahinter der Junge, der in Lüchow zur Schule ging.'",
+          "Den Satz zum Display logisch straffen ('doppelt so groß, wie sie die Schrift eingestellt hatte' ist widersprüchlich): 'Der Name, riesig auf dem Display. Sie hatte die Schrift groß eingestellt, weil sie die Brille nie fand.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Hauptsache, der Laster kommt durch. Die bringen mir heute Futter, und wenn der Kerl die Einfahrt nicht findet, steh ich im Regen.\"",
+          "„Jonas kommt zu Weihnachten?\" / „Weiß ich nicht.\" / „Hat er was gesagt?\" / „Nein.\""
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, figurentypisch und voller Subtext. Hier ist kaum etwas zu straffen.",
+          "Allenfalls Ines' Laster-Satz leicht kürzen: '„Hauptsache, der Futterlaster findet die Einfahrt. Sonst steh ich im Regen.\"'"
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "und sie sah das Leuchten, bevor sie den Namen las",
+          "und warf den Rest in die Elbe, was Ilse jedes Mal sah und jedes Mal nichts sagte",
+          "und man hörte es an seiner Stimme, dass er beim Spazierengehen telefonierte oder im Auto",
+          "Das Geräusch war leiser, als sie erwartet hatte.",
+          "Aber es war November, und sie wusste es besser"
+        ],
+        "suggestions": [
+          "'sie sah das Leuchten, bevor sie den Namen las' direkter fassen: 'Das Display leuchtete auf. Dann der Name.'",
+          "'man hörte es an seiner Stimme, dass …' umwandeln: 'Seine Stimme klang dann nach Wind oder nach Autobahn.'",
+          "'was Ilse jedes Mal sah und jedes Mal nichts sagte' könnte durch eine kleine Reaktion ersetzt werden: 'Ilse zog am Seil und sagte nichts. Wie jedes Mal.'",
+          "'sie wusste es besser' ist unklar und indirekt. Zeigen, was sie weiß, statt es zu behaupten."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Im November kam niemand, der nicht musste. … Im November fotografierte keiner mehr. Aber es war November, und sie wusste es besser",
+          "das feucht war und kalt … weil das Seil kalt war und feucht",
+          "holte Ilse den Kaffee aus der Thermoskanne … dabei war die Thermoskanne längst kalt geworden",
+          "löste die Leine … bis die Fähre sich träge vom Ufer löste",
+          "Das Seil hing noch hoch genug … wenn es niedrig hing … und sagte, wie es hing. Heute hing es richtig.",
+          "und schaute aufs Wasser, als erwarte er … / Der Junge schaute aufs Wasser."
+        ],
+        "suggestions": [
+          "Die November-Aussage wird dreimal wiederholt und widerspricht dem Radfahrer am Ende. Entweder die Ausnahme bewusst markieren ('Und doch kam um zehn einer') oder die frühere Aussage streichen. 'sie wusste es besser' auflösen.",
+          "Logikbruch: Die Kanne ist um fünf 'längst kalt', der Kaffee um halb neun aber 'lauwarm'. Eine der beiden Angaben anpassen.",
+          "Die Doppelung 'feucht und kalt' ist als Echo vermutlich gewollt. Dann sollte sie aber deutlich als Motiv erkennbar sein, sonst wirkt sie wie ein Versehen.",
+          "'löste … löste' variieren: 'löste die Leine und zog, bis die Fähre vom Ufer wegglitt'.",
+          "Die vierfache 'hing'-Wiederholung funktioniert als Pointe ('Heute hing es richtig'). Die erste Erwähnung kann daher variiert werden.",
+          "Das 'Thermoskanne'-Doppel im Einstiegsabsatz vermeiden: beim zweiten Mal 'die Kanne' oder 'sie' schreiben.",
+          "Gewollte Wiederholungen wie 'jeden Morgen … jeden Morgen' und 'Ziehen, Greifen' sind stilistisch gelungen und sollten bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.151364
+}

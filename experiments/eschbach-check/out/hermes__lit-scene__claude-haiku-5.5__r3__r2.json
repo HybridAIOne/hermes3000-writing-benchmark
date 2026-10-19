@@ -1,0 +1,83 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-haiku-5.5__r3",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel ließ sich nicht drehen."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er direkt in die Handlung einsteigt und sofort Atmosphäre aufbaut."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["trockenes Ächzen", "kalter Staub"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und atmosphärisch passend gewählt. Keine Änderungen nötig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["ein wenig", "einen Moment lang"],
+        "suggestions": ["Sehr sparsamer Einsatz, wirkt natürlich und nicht störend."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine überflüssigen 'während'- oder 'als'-Konstruktionen vorhanden."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ließ sich nicht drehen", "war nicht mehr zu lesen"],
+        "suggestions": [
+          "Die wenigen Passiv-Konstruktionen sind stilistisch vertretbar und unterstreichen den Zustand der Dinge."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Der Satzbau ist rhythmisch und gut lesbar, keine unnötigen Verschachtelungen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Sehr direkte Wahrnehmung. Es wird auf Filter wie 'sie sah, dass' oder 'sie dachte, dass' verzichtet."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Die Mäntel an der Garderobe fehlten. Die Hausschuhe der Mutter fehlten auch"],
+        "suggestions": [
+          "Die Wortwiederholung von 'fehlten' in zwei aufeinanderfolgenden Sätzen sollte vermieden werden. Beispiel: 'Die Mäntel an der Garderobe waren verschwunden. Auch die Hausschuhe der Mutter fehlten...'"
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

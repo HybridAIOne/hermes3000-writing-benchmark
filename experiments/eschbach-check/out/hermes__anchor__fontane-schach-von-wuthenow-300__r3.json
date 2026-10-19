@@ -1,0 +1,92 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-schach-von-wuthenow-300",
+  "run": 3,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "In dem Salon der in der Behrenstraße wohnenden Frau von Carayon... waren... einige Freunde versammelt"
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr expositorisch. Beginnen Sie direkt mit einer Handlung oder einem Konflikt im Raum, anstatt den Raum und die Anwesenden statisch zu beschreiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["schönen Frau", "starke Herr", "lebhafte Gestikulationen"],
+        "suggestions": [
+          "Viele Adjektive sind schmückendes Beiwerk. Versuchen Sie, die Wirkung durch stärkere Verben zu erzielen (z.B. statt 'lebhafte Gestikulationen' das Handeln beschreiben)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Da kaum direkter Dialog vorhanden ist, ist dieser Punkt unauffällig."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["einige Freunde", "wenige nur", "eigentlich immer"],
+        "suggestions": [
+          "Wörter wie 'einige' oder 'eigentlich' schwächen die Aussagekraft. Streichen Sie diese, um den Text direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "unter gleichzeitigem scherzhaftem Bedauern",
+          "während ihm der... Rock... zusammenschnürte"
+        ],
+        "suggestions": [
+          "Vermeiden Sie 'während' und 'gleichzeitig'. Beschreiben Sie Handlungen nacheinander, um den Lesefluss zu glätten."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["waren... versammelt", "war... erschienen", "wurde... angesehen"],
+        "suggestions": [
+          "Der Text ist sehr statisch. Wandeln Sie Passivkonstruktionen in aktive Handlungen um, um mehr Dynamik in die Szene zu bringen."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": ["Am entschiedensten der um einige Jahre jüngere von beiden..."],
+        "suggestions": [
+          "Die Sätze sind extrem verschachtelt. Brechen Sie die langen Sätze in kürzere, prägnantere Einheiten auf, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Kein direkter Dialog vorhanden, daher kein Korrekturbedarf."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["das ebensoviel Behagen wie Sarkasmus ausdrückte"],
+        "suggestions": [
+          "Statt den Ausdruck des Gesichts zu interpretieren, zeigen Sie die Mimik direkt ('Er verzog den Mund zu einem sarkastischen Lächeln')."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Vortrag zu halten", "Kathedervortrage"],
+        "suggestions": [
+          "Wortwiederholungen wie 'Vortrag' in kurzem Abstand sollten vermieden werden. Nutzen Sie Synonyme oder strukturieren Sie den Satz um."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,124 @@
+{
+  "who": "gemini",
+  "item": "anchor__fontane-effi-briest-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "In Front des schon seit Kurfürst Georg Wilhelm von der Familie von Briest bewohnten Herrenhauses zu Hohen-Cremmen fiel heller Sonnenschein...",
+          "Beide, Mutter und Tochter, waren fleißig bei der Arbeit..."
+        ],
+        "suggestions": [
+          "Nach modernen Maßstäben (In-medias-res) beginnt die Szene viel zu früh mit einer langen, statischen Architektur- und Gartenbeschreibung.",
+          "Steigen Sie direkt bei den handelnden Figuren ein (im letzten Drittel des Textes) und lassen Sie die Umgebung durch deren Wahrnehmung und Bewegung einfließen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "ein großes, in seiner Mitte mit einer Sonnenuhr und an seinem Rande mit Canna indica und Rhabarberstauden besetzten Rondell",
+          "eine ganz in kleinblättrigem Efeu stehende, nur an einer Stelle von einer kleinen weißgestrichenen Eisentür unterbrochene Kirchhofsmauer",
+          "großen schönen Stachelbeeren"
+        ],
+        "suggestions": [
+          "Lösen Sie die schweren Partizipialkonstruktionen (Linksattribute) auf und ersetzen Sie sie durch aktive Nebensätze oder eigenständige Hauptsätze.",
+          "Streichen Sie generische Adjektive wie 'groß' und 'schön' (bei den Stachelbeeren) zugunsten eines präziseren Substantivs oder eines sinnlichen Details (z.B. 'pralle Stachelbeeren')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Textausschnitt enthält keine Dialoge, daher gibt es hier keine Mängel."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Einige zwanzig Schritte weiter",
+          "schon etwas schief stehend",
+          "ein paar mächtige alte Platanen",
+          "allerlei Zerstreuung",
+          "ganz entschieden bevorzugt"
+        ],
+        "suggestions": [
+          "Das Wort 'ein paar' wird viermal verwendet. Ersetzen Sie es durch genaue Zahlen oder streichen Sie es ganz (z.B. 'mächtige Platanen' statt 'ein paar mächtige alte Platanen').",
+          "Vermeiden Sie unpräzise Relativierungen wie 'schon etwas' oder 'einige zwanzig'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "...fiel heller Sonnenschein auf die mittagsstille Dorfstraße, während nach der Park- und Gartenseite hin ein rechtwinklig angebauter Seitenflügel einen breiten Schatten [...] warf.",
+          "einen angenehmen und zugleich allerlei Zerstreuung bietenden Aufenthalt"
+        ],
+        "suggestions": [
+          "Da es sich um eine statische Beschreibung handelt, stört das 'während' im ersten Satz die Handlungslogik nicht, bläht den Satz aber auf. Teilen Sie den Satz: 'Vor dem Herrenhaus lag die Dorfstraße im hellen Sonnenschein. Auf der Parkseite hingegen warf der Seitenflügel einen breiten Schatten...'"
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "wurde die Gartenseite ganz entschieden bevorzugt, besonders von Frau und Tochter des Hauses",
+          "der Herstellung eines aus Einzelquadraten zusammenzusetzenden Altarteppichs galt"
+        ],
+        "suggestions": [
+          "Formulieren Sie aktiv, um die Figuren stärker ins Zentrum zu rücken: 'An heißen Tagen bevorzugten Frau und Tochter des Hauses die Gartenseite.'",
+          "Ersetzen Sie den Nominalstil und die Passiv-Ersatzform im letzten Satz durch ein aktives Verb: 'Mutter und Tochter nähten fleißig Einzelquadrate zu einem Altarteppich zusammen.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 1,
+        "examples": [
+          "In Front des schon seit Kurfürst Georg Wilhelm von der Familie von Briest bewohnten Herrenhauses zu Hohen-Cremmen fiel heller Sonnenschein auf die mittagsstille Dorfstraße, während nach der Park- und Gartenseite hin ein rechtwinklig angebauter Seitenflügel einen breiten Schatten erst auf einen weiß und grün quadrierten Fliesengang und dann über diesen hinaus auf ein großes, in seiner Mitte mit einer Sonnenuhr und an seinem Rande mit Canna indica und Rhabarberstauden besetzten Rondell warf.",
+          "Auch die Front des Herrenhauses - eine mit Aloekübeln und ein paar Gartenstühlen besetzte Rampe - gewährte bei bewölktem Himmel einen angenehmen und zugleich allerlei Zerstreuung bietenden Aufenthalt; an Tagen aber, wo die Sonne niederbrannte, wurde die Gartenseite ganz entschieden bevorzugt, besonders von Frau und Tochter des Hauses, die denn auch heute wieder auf dem im vollen Schatten liegenden Fliesengange saßen, in ihrem Rücken ein paar offene, von wildem Wein umrankte Fenster, neben sich eine vorspringende kleine Treppe, deren vier Steinstufen vom Garten aus in das Hochparterre des Seitenflügels hinaufführten."
+        ],
+        "suggestions": [
+          "Der gesamte Absatz besteht aus nur sechs extrem verschachtelten Bandwurmsätzen (der erste Satz hat 68 Wörter, der fünfte 94 Wörter).",
+          "Teilen Sie diese Satzmonster zwingend in kürzere, leichter verdauliche Einheiten auf. Eine Faustregel: Ein Gedanke pro Satz."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Dialoge vorhanden. Um die Szene nach Eschbachs Kriterien zu beleben, wäre es jedoch ratsam, die Beschreibung durch einen einsetzenden Dialog zwischen Mutter und Tochter aufzubrechen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "...an dessen offener Seite man eines Teiches mit Wassersteg und angekettetem Boot und dicht daneben einer Schaukel gewahr wurde..."
+        ],
+        "suggestions": [
+          "Die Formulierung 'man wurde gewahr' ist ein klassischer Filter, der Distanz schafft. Beschreiben Sie die Dinge direkt: 'An der offenen Seite lagen ein Teich mit Wassersteg und eine Schaukel.'",
+          "Noch besser: Nutzen Sie Mutter oder Tochter als Perspektivträger, durch deren Augen wir den Garten sehen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Frau und Tochter des Hauses [...] Beide, Mutter und Tochter",
+          "einen breiten Schatten [...] im vollen Schatten"
+        ],
+        "suggestions": [
+          "Die Doppelung 'Beide, Mutter und Tochter' direkt nach 'Frau und Tochter' ist redundant. Ein einfaches 'Sie' zu Beginn des letzten Satzes reicht völlig aus."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020618
+}

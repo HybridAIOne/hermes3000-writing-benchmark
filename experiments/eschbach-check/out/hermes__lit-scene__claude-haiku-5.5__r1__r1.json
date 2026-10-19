@@ -1,0 +1,84 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel ließ sich nicht drehen."],
+        "suggestions": ["Der Einstieg ist sehr stark und unmittelbar. Keine Änderung nötig."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kaltem Staub", "dunkelgrüne", "abgewetzten"],
+        "suggestions": ["Die Adjektive sind atmosphärisch und gut gewählt. Beibehalten."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["eine Weile", "irgendwo"],
+        "suggestions": ["Die Füllwörter sind sparsam eingesetzt und stören den Lesefluss nicht."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine problematischen 'während'-Konstruktionen. Die Abfolge der Handlungen ist klar."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["wie es früher verlangt worden war"],
+        "suggestions": [
+          "Das Passiv ist hier akzeptabel, könnte aber aktiver formuliert werden: 'wie sie es früher tun musste'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ihre Mutter hatte jeden Abend davon genommen, jeden Abend, zwanzig Jahre lang, hatte es im Flur nach Rosen gerochen, wenn sie die Treppe heraufkam."
+        ],
+        "suggestions": ["Die Satzlängen sind rhythmisch gut gewählt und unterstützen die Stimmung."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie hatte gedacht, die Zeit würde sich wie eine Strecke anfühlen",
+          "durch die man den Flur sehen konnte"
+        ],
+        "suggestions": [
+          "Könnte direkter sein: 'Die Zeit fühlte sich nicht wie eine Strecke an...' oder 'Sie sah zur Tür und blickte in den Flur...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["jeden Abend, jeden Abend"],
+        "suggestions": [
+          "Die Wiederholung ist hier ein bewusstes stilistisches Mittel zur Verstärkung der Routine. Sehr gut."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,137 @@
+{
+  "who": "sol",
+  "item": "lit-continue__claude-haiku-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie antwortete nicht.",
+          "Der Motor war nicht das Thema, und Jonas wusste das so gut wie sie."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Er setzt unmittelbar im Konflikt ein und macht durch die verweigerte Antwort neugierig.",
+          "Allenfalls prüfen, ob der dritte Satz über die Folgen einer Reparatur entfallen kann. Die spätere Auseinandersetzung vermittelt den unterschwelligen Konflikt bereits anschaulich."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Von drinnen roch es nach Diesel und kaltem Kaffee.",
+          "Er lachte kurz, nicht freundlich, nicht unfreundlich",
+          "die Elbe zog braun und schwer unter den Bohlen hindurch"
+        ],
+        "suggestions": [
+          "Sinnlich oder atmosphärisch tragende Attribute wie „kaltem Kaffee“ und „braun und schwer“ erhalten.",
+          "Bei „nicht freundlich, nicht unfreundlich“ prüfen, ob die anschließende Beschreibung des verlorenen Spiels die Qualität des Lachens bereits ausreichend vermittelt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ich habe dir zweimal geschrieben\", sagte er.",
+          "„Die Fähre hält nicht ewig\", sagte er.",
+          "„Gut\", sagte er."
+        ],
+        "suggestions": [
+          "Das erste „sagte er“ kann zur Orientierung bleiben; im anschließenden schnellen Wechsel sind die Sprecher bereits klar.",
+          "Nach „Er öffnete den Mund, dann schloss er ihn wieder“ genügt voraussichtlich das alleinstehende „Gut“. Die Handlung kennzeichnet den Sprecher."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["eher so, wie Männer lachen", "Wenn du mitkommst, dann kommst du mit."],
+        "suggestions": [
+          "Optional „eher so, wie Männer lachen“ zu „wie Männer lachen“ straffen; dabei geht allerdings die tastende Einordnung des Lachens verloren.",
+          "Das „dann“ im Dialog nicht mechanisch streichen: Es unterstützt Ilses eigensinnigen, abschließenden Ton.",
+          "Keine systematische Füllwortbereinigung nötig; der Text verwendet kaum unverbindliche Mengenangaben oder Abschwächungen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ilse ging an ihm vorbei, ohne ihn anzusehen, und hörte, wie er den Koffer hinter sich her über die Bohlen zog",
+          "Jetzt stand er da in seinem hellen Mantel, und die Elbe zog braun und schwer unter den Bohlen hindurch, als hätte sie keine Eile."
+        ],
+        "suggestions": [
+          "Die Gleichzeitigkeit von Ilses Vorbeigehen und dem Koffergeräusch erhalten: Sie verbindet Bewegung und Wahrnehmung sinnvoll.",
+          "„Als hätte sie keine Eile“ ist ein Vergleich, keine problematische zeitliche Verknüpfung. Hier besteht kein Änderungsbedarf."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ilse ging zum Heck und hob die Abdeckung des Motorkastens.",
+          "Das Bett oben ist frisch bezogen."
+        ],
+        "suggestions": [
+          "Die überwiegend aktive Darstellung beibehalten.",
+          "„Das Bett oben ist frisch bezogen“ als Zustandsbeschreibung stehen lassen. Wer das Bett bezogen hat, ist für Ilses Angebot unerheblich; eine aktive Umformulierung wäre nicht automatisch besser."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse ging an ihm vorbei, ohne ihn anzusehen, und hörte, wie er den Koffer hinter sich her über die Bohlen zog, Rad für Rad, mit diesem trockenen Rattern, das sie in den Zähnen spürte.",
+          "Er lachte kurz, nicht freundlich, nicht unfreundlich, eher so, wie Männer lachen, wenn sie merken, dass sie ein Spiel schon verloren haben."
+        ],
+        "suggestions": [
+          "Den Koffersatz bei Bedarf teilen und zugleich direkter formulieren: „Ilse ging an ihm vorbei, ohne ihn anzusehen. Hinter ihr ratterten die Kofferräder über die Bohlen, Rad für Rad. Das trockene Rattern spürte sie in den Zähnen.“",
+          "Beim Satz über das Lachen eher eine Beschreibungsebene streichen als nur einen Punkt setzen. Die Verschachtelung entsteht vor allem durch die aufeinanderfolgenden Einordnungen.",
+          "Die längeren Sätze nicht durchgehend kürzen: Ihr fließender Rhythmus bildet einen wirksamen Kontrast zu den knappen Dialogen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Einmal.\"",
+          "„Das ist dasselbe.\"",
+          "„Du bleibst bis morgen früh\", sagte sie. „Das Bett oben ist frisch bezogen. Ich stehe um sechs auf, und um sieben fahre ich rüber. Wenn du mitkommst, dann kommst du mit. Ich rede unterwegs nicht.\""
+        ],
+        "suggestions": [
+          "Die kurzen Wortwechsel unverändert lassen: Sie vermitteln Beziehung und Konflikt ohne erklärenden Austausch.",
+          "Ilses längere Schlussrede muss nicht gekürzt werden. Der Wechsel von Anweisungen, Fürsorge und Abgrenzung trägt die Annäherung der Figuren."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "und hörte, wie er den Koffer hinter sich her über die Bohlen zog",
+          "Sie sah es im Licht der Nachmittagssonne, feine Risse wie auf altem Porzellan.",
+          "Sie dachte an die Überfahrt um sieben, an den Mann mit dem Fahrrad"
+        ],
+        "suggestions": [
+          "Das Koffergeräusch unmittelbar darstellen: „Hinter ihr ratterten die Kofferräder über die Bohlen.“",
+          "Die Risse ohne Wahrnehmungsfilter zeigen: „Im Licht der Nachmittagssonne zeigten sich feine Risse wie auf altem Porzellan.“",
+          "„Sie dachte an die Überfahrt“ nicht zwingend ersetzen. Hier markiert das Denken einen inhaltlich wichtigen Wechsel vom Blick auf das Ufer zu Ilses Bindung an ihren Alltag."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Henning hätte ihn im Frühjahr getauscht. Im Frühjahr hatte sie gedacht, sie hätte noch Zeit.",
+          "„Du hast nicht geantwortet.\"",
+          "„Ich stehe um sechs auf, und um sieben fahre ich rüber. Wenn du mitkommst, dann kommst du mit. Ich rede unterwegs nicht.\""
+        ],
+        "suggestions": [
+          "Die Wiederholung von „Im Frühjahr“ erhalten: Sie verbindet Hennings Abwesenheit mit Ilses versäumter Reparatur und ihrem früheren Zeitgefühl.",
+          "Auch das Motiv des Nichtantwortens ist keine bloße Doppelung. Die verweigerte Antwort am Anfang und die unbeantworteten Briefe machen ein Beziehungsmuster sichtbar.",
+          "Die wiederholten Ich-Anfänge und das doppelte „mitkommst“ als Figurenstimme behandeln, nicht als automatisch zu beseitigende Redundanz."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021398
+}

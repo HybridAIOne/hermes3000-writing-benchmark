@@ -1,0 +1,95 @@
+{
+  "who": "hermes",
+  "item": "anchor__mann-tonio-kroeger-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Die Schule war aus. Über den gepflasterten Hof..."],
+        "suggestions": [
+          "Der Einstieg ist sehr atmosphärisch, aber langatmig. Man könnte direkt mit der Interaktion zwischen Tonio und Hans beginnen, um den Leser schneller in die Handlung zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "gepflasterten Hof",
+          "gemessen hinschreitenden Oberlehrers",
+          "weitläufigen Holzlagerplätze"
+        ],
+        "suggestions": [
+          "Viele Adjektive dienen der reinen Dekoration. Streichen Sie diese, um die Verben und Substantive stärker wirken zu lassen (z.B. 'Oberlehrer' statt 'gemessen hinschreitender Oberlehrer')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sagte Tonio Kröger", "fragte er"],
+        "suggestions": [
+          "Die Kennzeichnungen sind sparsam und funktional. Hier besteht kaum Handlungsbedarf."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["ein bißchen", "schon", "ja"],
+        "suggestions": [
+          "Wörter wie 'ein bißchen' schwächen die Aussage ab. Streichen Sie diese, um die Sprache direkter und bestimmter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["indem sie... ruderten", "indes die anderen... schlenderten"],
+        "suggestions": [
+          "Vermeiden Sie 'indem' und 'indes'. Beschreiben Sie Handlungen nacheinander, um den Lesefluss zu beschleunigen und die Szene dynamischer zu gestalten."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["wurde... gegessen", "wurden... gegrüßt"],
+        "suggestions": [
+          "Formulieren Sie aktiv um: '...weil ihre Familien erst um vier Uhr aßen' statt '...weil... gegessen wurde'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Große Schüler hielten mit Würde ihr Bücherpäckchen hoch gegen die linke Schulter gedrückt, indem sie mit dem rechten Arm wider den Wind dem Mittagessen entgegen ruderten; kleines Volk setzte sich lustig in Trab..."
+        ],
+        "suggestions": [
+          "Die Sätze sind sehr verschachtelt und lang. Teilen Sie diese in kürzere, prägnantere Sätze auf, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Kommst du endlich, Hans?«"],
+        "suggestions": ["Die Dialoge sind kurz und knackig. Das ist sehr gut gelungen."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Tonio verstummte, und seine Augen trübten sich."],
+        "suggestions": [
+          "Die Wahrnehmung ist meist direkt. Achten Sie darauf, bei inneren Vorgängen noch konsequenter auf 'er dachte, dass' zu verzichten."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["ein bißchen", "nach rechts und links"],
+        "suggestions": [
+          "Wiederholungen von Phrasen wie 'ein bißchen' sollten vermieden werden, um den Text abwechslungsreicher zu gestalten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

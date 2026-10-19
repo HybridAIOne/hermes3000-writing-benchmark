@@ -1,0 +1,83 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gemini-4-argon__r3",
+  "run": 2,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Die Strömung reicht“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er direkt in eine Handlung und einen Konflikt führt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["schnelle, glatte Lächeln", "dunkelblauen Wollmantel"],
+        "suggestions": [
+          "Die Adjektive sind meist passend. Achte darauf, nicht zu viele hintereinander zu setzen (z.B. 'schnelle, glatte Lächeln'), um den Lesefluss nicht zu bremsen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Ilse", "sagte sie", "fragte Jonas"],
+        "suggestions": [
+          "Die Redeeinleitungen sind korrekt, könnten aber teilweise gestrichen werden, wenn aus dem Kontext klar ist, wer spricht, um den Dialog dynamischer zu gestalten."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["bereits", "schon mal"],
+        "suggestions": [
+          "Wörter wie 'bereits' (z.B. 'bereits ein Rand aus...') sind oft entbehrlich. Der Satz funktioniert auch ohne sie präziser."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["während der Wind ihm die ordentlich gescheitelten Haare zerzauste"],
+        "suggestions": [
+          "Die Gleichzeitigkeit wird sparsam und effektiv eingesetzt. Keine Überladung."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist fast ausschließlich aktiv formuliert, was sehr positiv ist."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind gut variiert und angenehm zu lesen."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind knackig und treiben die Handlung voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Sie sah zu Jonas hinüber, der..."],
+        "suggestions": [
+          "Die Wahrnehmung ist meist direkt. Man könnte 'Sie sah zu Jonas hinüber, der...' noch stärker in die Handlung integrieren, z.B.: 'Jonas tippte mit gerunzelter Stirn auf sein Smartphone...'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr sauber und frei von inhaltlichen Doppelungen."]
+      }
+    }
+  },
+  "costUsd": 0
+}

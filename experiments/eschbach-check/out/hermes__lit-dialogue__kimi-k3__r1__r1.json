@@ -1,0 +1,92 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__kimi-k3__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein kleines Café am Stadtrand. Herbst."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und setzt direkt bei der Handlung an. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["kleines Café", "leises Lachen"],
+        "suggestions": [
+          "Die Adjektive sind sehr sparsam und präzise eingesetzt. Der minimalistische Stil ist konsequent."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["JONAS:", "MIRIAM:"],
+        "suggestions": [
+          "Das Skript-Format ist für diese Szene perfekt. Keine Redeeinleitungen erforderlich."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Setz dich doch.", "Noch einen Kaffee vielleicht."],
+        "suggestions": [
+          "Die Füllwörter wirken hier authentisch und charakterisierend für den natürlichen Sprachfluss der Figuren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Beide bestellen gleichzeitig."],
+        "suggestions": [
+          "Die Gleichzeitigkeit ist hier eine präzise Regieanweisung, kein erzählerischer Fehler. Gut gelöst."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Passivkonstruktionen gefunden. Der Text ist aktiv und direkt formuliert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Es regnet.", "Es wird regnen."],
+        "suggestions": [
+          "Die kurzen Sätze erzeugen eine hohe Spannung und unterstreichen die Distanz zwischen den Charakteren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["MIRIAM: Nur kurz. Ich muss um vier wieder los."],
+        "suggestions": ["Die Dialoge sind knackig und treiben die Handlung durch Subtext voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Jonas dreht den Zuckerstreuer in den Fingern.",
+          "Miriam greift nach ihrem Mantel"
+        ],
+        "suggestions": [
+          "Handlungen werden direkt gezeigt, nicht durch Filterwörter wie 'er sah' oder 'sie dachte' beschrieben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Wir wohnen alle noch am selben Ort, Miriam.", "Zeit hatten wir schon immer."],
+        "suggestions": [
+          "Die Wiederholungen sind stilistisch beabsichtigt und unterstreichen die thematische Stagnation der Charaktere."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

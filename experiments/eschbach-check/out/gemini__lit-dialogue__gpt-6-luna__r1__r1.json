@@ -1,0 +1,102 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__gpt-6-luna__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "[Ein Café an der Ecke. Regen an den Scheiben. Mara steht am Tisch; Leon kommt herein.]",
+          "LEON: Ist der Platz frei?"
+        ],
+        "suggestions": [
+          "Der Einstieg ist bereits sehr gut und direkt ('in medias res'). Theoretisch könnte man sogar erst einsetzen, wenn Leon bereits sitzt ('Sie rühren beide in ihren Tassen...'), aber das Geplänkel über den Mantel und den freien Platz charakterisiert ihre dynamische, leicht distanzierte Beziehung sehr gut."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein kurzer Blick.", "Mara lächelt kaum merklich."],
+        "suggestions": [
+          "Der Text verzichtet fast vollständig auf schmückende Beiwörter, was hervorragend zur unterkühlten Stimmung passt.",
+          "Statt 'Mara lächelt kaum merklich' könnte man noch physischer werden: 'Maras Mundwinkel zucken.'"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["MARA: Du hast den gleichen Mantel an.", "LEON: Der hält noch."],
+        "suggestions": [
+          "Da der Text als Skript/Drehbuch formatiert ist, entfallen klassische Inquit-Formeln ('sagte er'). Falls der Text in Prosa umgewandelt wird, ist der Schlagabtausch so eindeutig, dass fast komplett auf Redebegleitsätze verzichtet werden kann."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie fragt manchmal nach dir.", "Es stimmt ja."],
+        "suggestions": [
+          "In den Regieanweisungen gibt es keinerlei Füllwörter. In den Dialogen wirken Wörter wie 'manchmal' oder 'ja' absolut natürlich und authentisch für gesprochene Sprache. Keine Änderung nötig."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Er setzt sich. Sie rühren beide in ihren Tassen, ohne zu trinken."],
+        "suggestions": [
+          "Es gibt keine erzwungene Gleichzeitigkeit durch Konstruktionen mit 'während' oder 'als'. Alle Handlungen folgen organisch aufeinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Mara steht am Tisch; Leon kommt herein.", "Draußen fährt ein Bus vorbei."],
+        "suggestions": ["Der gesamte Text ist durchgehend aktiv formuliert. Sehr gut!"]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ein Café an der Ecke. Regen an den Scheiben.",
+          "Stille. Draußen fährt ein Bus vorbei."
+        ],
+        "suggestions": [
+          "Der Satzbau ist extrem verknappt und präzise. Das erzeugt einen exzellenten Rhythmus und unterstreicht die unausgesprochene Spannung zwischen den Figuren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["MARA: Wir sind trotzdem angekommen. / LEON: Spät. / MARA: Aber zusammen."],
+        "suggestions": [
+          "Die einzelnen Dialogzeilen sind extrem kurz und prägnant (Ping-Pong-Dialog), voller Subtext. Nichts wirkt geschwätzig.",
+          "Hinweis zur Logik (Lektorats-Blick): In den Regieanweisungen rühren beide bereits im Kaffee, ohne dass Leon sichtbar bestellt hat. Später fragt er 'Möchtest du noch einen Kaffee?', obwohl sie noch gar nicht getrunken haben. Hier könnte man das Timing der Handlungen leicht anpassen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Eine Kellnerin geht vorbei. Keiner von beiden sieht ihr nach.",
+          "Leon legt die Hand auf den Tisch. Mara bewegt ihre nicht."
+        ],
+        "suggestions": [
+          "Meisterhaftes 'Show, don't tell'. Gefühle und Gedanken werden nicht erklärt, sondern ausschließlich über äußere Handlungen (oder das Unterlassen von Handlungen) und den Subtext transportiert."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "LEON: Ich wusste nicht, ob du kommst. / MARA: Ich wusste nicht, ob du fragst."
+        ],
+        "suggestions": [
+          "Es gibt keine ungewollten Wortwiederholungen oder inhaltlichen Redundanzen. Wo Wiederholungen auftreten (wie im Beispiel), werden sie als gezieltes rhetorisches Stilmittel (Parallelismus) eingesetzt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.015382
+}

@@ -1,0 +1,132 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__gemini-4-argon__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel hing so tief über dem Wasser, dass das andere Ufer nicht existierte.",
+          "Um Punkt sechs Uhr zwanzig schälte sich das Licht eines einzelnen Scheinwerfers aus dem Grau."
+        ],
+        "suggestions": [
+          "Der Einstieg über die Atmosphäre ist sehr gelungen und verankert den Leser sofort im Setting. Nach strenger Eschbach-Regel ('So spät wie möglich einsteigen') könnte man theoretisch direkt im dritten Absatz mit dem Auftauchen der Scheinwerfer beginnen und die Umgebungsbeschreibung einflechten. Bei diesem ruhigen Erzähltempo funktioniert der aktuelle Einstieg aber hervorragend."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie sah sich suchend um...",
+          "Ihre Halbschuhe waren völlig durchnässt...",
+          "...gluckste laut unter dem flachen Rumpf.",
+          "Langsam, Zentimeter für Zentimeter, zog sich die Fähre..."
+        ],
+        "suggestions": [
+          "Streiche redundante Adverbien, die bereits im Verb oder im Kontext enthalten sind: Wer sich umsieht, tut das meist 'suchend' -> 'Sie sah sich um'.",
+          "'Zentimeter für Zentimeter' zeigt bereits das Tempo, das Adjektiv 'Langsam' davor ist überflüssig.",
+          "Verstärker wie 'völlig' (vor durchnässt) oder 'laut' (vor gluckste) können ersatzlos gestrichen werden, um den Text noch prägnanter zu machen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Kröger.“ Sie hielt ihm die lederne Kassiertasche hin.",
+          "„Fahren Sie schon?“, fragte die Frau.",
+          "„Wenn Sie drauf sind“, sagte Ilse und machte einen Schritt zur Seite."
+        ],
+        "suggestions": [
+          "Exzellente Umsetzung. Die Dialoge kommen fast komplett ohne künstliche Redebegleitsätze aus, da durch Action-Beats (Kassiertasche hinhalten, Wechselgeld zählen) jederzeit klar ist, wer spricht. Selbst das erste 'fragte die Frau' und 'sagte Ilse' ließe sich noch durch die anschließenden Handlungen ersetzen, stört hier aber überhaupt nicht."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ilse zuckte kaum merklich mit den Schultern...",
+          "Für ein paar Minuten gab es weder das eine noch das andere Land.",
+          "In der Stille des Führerhauses begann plötzlich etwas zu summen."
+        ],
+        "suggestions": [
+          "Der Text ist fast frei von Füllwörtern. Nur 'plötzlich' ist ein klassisches Wort, das Spannung behauptet, statt sie zu erzeugen. Besser direkt: 'In der Stille des Führerhauses summte etwas.'",
+          "Auch Relativierungen wie 'kaum merklich' oder 'ein paar' könnten noch schärfer gefasst werden, passen hier aber gut zum lakonischen Ton."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Gleichzeitig tauchte daneben eine schmale Silhouette auf, die ein Fahrrad schob.",
+          "Das Stahlseil ächzte in den Führungsrollen, als die Fähre die stärkste Strömung in der Flussmitte erreichte."
+        ],
+        "suggestions": [
+          "Handlungen werden sauber nacheinander beschrieben. Das Wort 'Gleichzeitig' im dritten Absatz ist etwas sperrig und bürokratisch – hier reicht ein einfaches 'Daneben tauchte eine schmale Silhouette auf...'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "...war das Riffelblech des Decks mit einer dünnen Schicht aus Raureif und totem Laub überzogen."
+        ],
+        "suggestions": [
+          "Perfekt. Es gibt kein einziges echtes Handlungs-Passiv im Text, alles ist aktiv und dynamisch formuliert. Lediglich ein berechtigtes Zustandspassiv bei der Beschreibung des Decks wird genutzt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ilse trat den Filter auf dem Stahl aus. Das Metall kreischte.",
+          "Sie sah zu, wie das Display schwarz wurde, wartete noch zwei Sekunden, bis die Anzeige für den verpassten Anruf aufblinkte, und schob das Gerät mit dem Daumen zurück an die Kante der Ablage."
+        ],
+        "suggestions": [
+          "Hervorragender Satzrhythmus. Kurze, prägnante Sätze wechseln sich harmonisch mit etwas längeren, aber glasklar strukturierten Sätzen ab. Nichts ist verschachtelt, die Lesbarkeit ist auf höchstem Niveau."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Suppe heute.“ – „Wird sich verziehen. Gegen Mittag.“",
+          "„Über die Brücke in Dömitz. Oder Wittenberge.“ – „Das sind dreißig Kilometer Umweg.“"
+        ],
+        "suggestions": [
+          "Meisterhaft verknappte Dialoge. Kein Wort zu viel, extrem authentisch für die Region und die Tageszeit. Zudem charakterisieren die kurzen Wortwechsel die Figuren (der einheimische Kröger vs. die ortsfremde Frau im Trenchcoat) sofort."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Kurz bevor sie die Schranke wieder schließen wollte, hörte sie schnelle Schritte auf dem Schotterweg.",
+          "In der Stille des Führerhauses begann plötzlich etwas zu summen.",
+          "Sie sah zu, wie das Display schwarz wurde..."
+        ],
+        "suggestions": [
+          "Meistens wird sehr direkt erzählt (z.B. 'Es roch nach kaltem Kaffee' statt 'Sie roch kalten Kaffee').",
+          "Einige wenige Filterwörter lassen sich noch eliminieren, um noch unmittelbarer in Ilses Perspektive zu bleiben: Statt '...hörte sie schnelle Schritte auf dem Schotterweg' -> 'Schnelle Schritte knirschten auf dem Schotterweg.'",
+          "Statt '...begann plötzlich etwas zu summen' -> 'Auf der Metallablage summte es.' (Das 'begann zu' ist eine unnötige Distanzierung)."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ihre Finger steckten in fingerlosen Wollhandschuhen...",
+          "Nebel / weißen Dunst / aus dem Grau / aus dem Nebel / weiße Nichts / aus dem Dunst",
+          "Stahl / stählernen Bug / auf dem Stahl / feuchten Stahl / geflochtenem Stahl / Stahlseil"
+        ],
+        "suggestions": [
+          "'Finger in fingerlosen' ist eine unschöne Wortwiederholung auf engstem Raum. Vorschlag: 'Sie trug fingerlose Wollhandschuhe, ihre Knöchel waren gerötet...'",
+          "Das Wort 'Stahl' wird sechs Mal verwendet. Auch wenn es zur Fähre passt, könnte man an ein, zwei Stellen variieren (z.B. 'Deck', 'Boden', 'Eisen', 'Metall')."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.023344
+}

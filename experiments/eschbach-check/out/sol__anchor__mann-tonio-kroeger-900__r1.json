@@ -1,0 +1,150 @@
+{
+  "who": "sol",
+  "item": "anchor__mann-tonio-kroeger-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„Die Schule war aus.“ eröffnet zunächst ein Panorama des Schulhofs; der persönliche Konflikt beginnt erst mit „Kommst du endlich, Hans?“.",
+          "„Hans und Tonio hatten Zeit, nach der Schule spazierenzugehen, weil sie beide Häusern angehörten, in denen erst um vier Uhr zu Mittag gegessen wurde.“ unterbricht die begonnene Begegnung durch Hintergrundinformationen."
+        ],
+        "suggestions": [
+          "Für einen konfliktorientierten Einstieg direkt mit „Kommst du endlich, Hans?“ beginnen und den Schulschluss durch die vorbeiströmenden Schüler kenntlich machen.",
+          "Die Informationen über Familien und Kleidung dosiert in den Spaziergang einflechten. Das Schulhofpanorama erfüllt allerdings eine atmosphärische und gesellschaftszeichnende Funktion; seine Kürzung wäre eine bewusste Änderung des Erzählstils, keine zwingende Korrektur."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "„Er war außerordentlich hübsch und wohlgestaltet, breit in den Schultern und schmal in den Hüften, mit freiliegenden und scharf blickenden stahlblauen Augen.“",
+          "„aus einem brünetten und ganz südlich scharfgeschnittenen Gesicht dunkle und zart umschattete Augen mit zu schweren Lidern träumerisch und ein wenig zaghaft“",
+          "„Er ging nachlässig und ungleichmäßig“"
+        ],
+        "suggestions": [
+          "Bei den Porträts die kontrasttragenden Merkmale auswählen: Hans etwa durch blonde Haare, stahlblaue Augen und sicheren Gang charakterisieren, Tonio durch dunkle Augen und ungleichmäßige Schritte.",
+          "Wertende Verstärker wie „außerordentlich“ und „ganz“ probeweise streichen. Konkrete Körpermerkmale leisten bereits viel.",
+          "Adjektive nicht pauschal entfernen: Die unterschiedliche Erscheinung der Jungen trägt den zentralen Gegensatz der Szene."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Kommst du endlich, Hans?“ sagte Tonio Kröger",
+          "„Ja, adieu, ihr!“ sagte Hans Hansen zu den Kameraden.",
+          "„Ja, wir gehen nun also über die Wälle!“ sagte er mit bewegter Stimme."
+        ],
+        "suggestions": [
+          "Die erste Namenszuordnung beibehalten, weil sie die Figuren einführt.",
+          "Bei „Ja, adieu, ihr!“ kann nach eindeutiger Sprecherklärung die Redeeinleitung entfallen.",
+          "„sagte er mit bewegter Stimme“ durch eine charakteristische Handlung ersetzen oder kürzen; Tonios Freude wird unmittelbar zuvor bereits beschrieben."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "„beinahe unausgesetzt“",
+          "„sie gleichsam innerlich aufschrieb und gewissermaßen seine Freude daran hatte, ohne sich freilich für seine Person danach zu richten“",
+          "„sondern ich dachte nur, daß heute doch wohl nichts daraus werden könnte, weil es ja so naß und windig ist“"
+        ],
+        "suggestions": [
+          "Im Erzählertext besonders „gleichsam“, „gewissermaßen“ und „für seine Person“ auf ihre Funktion prüfen. Straffer wäre: „Er merkte sich solche Erfahrungen und hatte sogar Freude daran, ohne sich danach zu richten.“",
+          "„beinahe unausgesetzt“ gegebenenfalls durch „seit der Verabredung“ ersetzen, wenn die zeitliche Angabe die Vorfreude bereits ausreichend vermittelt.",
+          "Die Partikeln in Hans’ Rede nicht unterschiedslos streichen: „nur“, „doch wohl“ und „ja“ machen seine ausweichende Rechtfertigung hörbar."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„indem sie mit dem rechten Arm wider den Wind dem Mittagessen entgegen ruderten“",
+          "„Er ging nachlässig und ungleichmäßig, während Hansens schlanke Beine in den schwarzen Strümpfen so elastisch und taktfest einherschritten“",
+          "„Indem er seine etwas schräg stehenden Brauen zusammenzog und die Lippen zum Pfeifen gerundet hielt, blickte er seitwärts geneigten Kopfes ins Weite.“"
+        ],
+        "suggestions": [
+          "Die Häufung von Körperhaltungen im letzten Beispiel auflösen: „Er zog die Brauen zusammen und rundete die Lippen zum Pfeifen. Mit geneigtem Kopf blickte er ins Weite.“",
+          "Den mit „während“ formulierten Gegensatz der Gangarten beibehalten, wenn die unmittelbare Gegenüberstellung gewünscht ist. Hier ist Gleichzeitigkeit funktional.",
+          "„während der Unterrichtsstunden“ ist eine Zeitangabe und kein problematischer Versuch, mehrere Handlungen gleichzeitig zu erzählen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„in denen erst um vier Uhr zu Mittag gegessen wurde“",
+          "„von manchen Leuten wurden die Vierzehnjährigen zuerst gegrüßt“"
+        ],
+        "suggestions": [
+          "Die erste Stelle aktiv und knapper formulieren: „weil beide Familien erst um vier Uhr zu Mittag aßen“.",
+          "Die zweite Stelle aktivieren: „Manche Leute grüßten die Vierzehnjährigen sogar zuerst.“",
+          "Das Passiv ist insgesamt kein dominierendes Problem. Bei der Begrüßung betont es zudem den gesellschaftlichen Rang der Jungen als Empfänger der Ehrerbietung."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "„Wer am meisten liebt, ist der Unterlegene und muß leiden“ leitet einen Satz ein, der über die „vierzehnjährige Seele“ bis zum fehlenden „praktischen Nutzen“ mehrere Reflexionsschritte verbindet.",
+          "„Und diese Beschäftigung bereitete ihm eine ganz ähnliche Genugtuung, wie wenn er mit seiner Geige (denn er spielte die Geige) in seinem Zimmer umherging …“ verbindet Vergleich, Einschub und mehrere nachgeordnete Beschreibungen.",
+          "„Kommst du endlich, Hans?“ wird durch einen langen Begleitsatz mit zwei Relativsätzen von der Antwort getrennt."
+        ],
+        "suggestions": [
+          "Den Reflexionssatz nach „vom Leben entgegengenommen“ teilen. Tonios Umgang mit dieser Lehre anschließend in einem eigenen Satz darstellen.",
+          "Im Schlusssatz den Einschub „denn er spielte die Geige“ streichen und die Beschreibung des Springbrunnens als eigenen Satz anschließen.",
+          "Zwischen Frage und Antwort nur die unmittelbar nötige Handlung stehen lassen. Das verkürzt die gefühlte Gesprächspause.",
+          "Einzelne lange Sätze als rhythmisches Stilmittel erhalten; vor allem die Ballung mehrerer solcher Sätze erschwert den Lesefluss."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ich hatte es nämlich nicht vergessen, Tonio“ eröffnet Hans’ längsten Redebeitrag, der vom Wetter über das Warten bis zum vermeintlichen Heimgehen mehrere Rechtfertigungen enthält.",
+          "„Über den Mühlenwall und den Holstenwall, und so bringe ich dich nach Hause, Hans...“ zeigt Tonios überschwängliche Planung."
+        ],
+        "suggestions": [
+          "Hans’ Rede bei höherem Tempobedarf um eine Begründung kürzen, etwa um „und ich finde es famos, daß du trotzdem auf mich gewartet hast“.",
+          "Tonios ungefragte Versicherung, den Rückweg allein zu machen, erhalten: Sie zeigt sein Entgegenkommen und das emotionale Ungleichgewicht.",
+          "Keine grundsätzliche Straffung nötig: Die Redebeiträge sind überschaubar und erfüllen jeweils eine klare Figurenfunktion."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "„Im Grunde glaubte er nicht sehr fest an das, was Hans gesagt hatte, und fühlte genau, daß jener nur halb soviel Gewicht auf diesen Spaziergang zu zweien legte wie er.“",
+          "„Aber er sah doch, daß Hans seine Vergeßlichkeit bereute“",
+          "„denn er begriff sehr wohl, um was es sich handelte“"
+        ],
+        "suggestions": [
+          "Die erste Stelle unmittelbarer an Tonios Perspektive binden: „Ganz glaubte er Hans nicht. Für Hans zählte dieser Spaziergang nur halb so viel wie für ihn.“",
+          "Hans’ Einsicht möglichst durch sein Einhaken und seine Entschuldigung vermitteln, statt sie zusätzlich mit „er begriff sehr wohl“ zu erklären.",
+          "Die Fragen „Hatte Hans es vergessen, fiel es ihm erst jetzt wieder ein …?“ erhalten: Diese erlebte Rede vermittelt Tonios Unsicherheit bereits unmittelbar.",
+          "Nicht jede psychologische Vermittlung entfernen; die reflektierende Erzählerstimme gehört wesentlich zur Wirkung des Textes."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "„Tonio verstummte“, „Tonio sprach nicht“ und „auch bei den nächsten Schritten noch schwieg“ greifen sein Schweigen mehrfach auf.",
+          "„seine Augen trübten sich“, „Er empfand Schmerz“ und „schon vieles um ihn gelitten hatte“ erläutern Tonios Verletzlichkeit auf mehreren Ebenen.",
+          "„denn er spielte die Geige“ wiederholt eine Information, die „mit seiner Geige … in seinem Zimmer umherging und die Töne … hervorzu­bringen vermochte“ bereits vermittelt."
+        ],
+        "suggestions": [
+          "„Er empfand Schmerz“ probeweise streichen: Schweigen, Mimik und innere Fragen haben den Schmerz bereits vermittelt.",
+          "Den Einschub „denn er spielte die Geige“ ersatzlos entfernen.",
+          "Die wiederholten Hinweise auf das Schweigen nur dort behalten, wo sie dessen Dauer oder eine neue Reaktion markieren.",
+          "Die abschließende Liebesreflexion nicht als bloße Doppelung behandeln: Sie deutet das zuvor gezeigte Verhalten und erweitert es um Tonios grundsätzliches Verhältnis zu seinen Erfahrungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.029228
+}

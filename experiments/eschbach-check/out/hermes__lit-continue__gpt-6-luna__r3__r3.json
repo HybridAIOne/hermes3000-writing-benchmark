@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gpt-6-luna__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Er läuft“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist hervorragend, da er direkt in die Handlung und den Konflikt wirft, ohne unnötige Erklärungen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["„kaltem Metall“", "„lose Fahne“"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und atmosphärisch eingesetzt. Keine Überarbeitung notwendig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["„sagte Ilse“", "„sagte er“"],
+        "suggestions": [
+          "Die Kennzeichnungen sind unauffällig. In einigen Fällen könnte man sie streichen, wenn der Sprecherwechsel durch den Kontext klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr präzise und kommt ohne Füllwörter aus."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Keine übermäßige Verwendung von 'während' oder 'als'. Die Handlungsabfolge ist klar und logisch."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["„war zu hören“"],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert. 'war zu hören' könnte man zu 'man hörte nur das Wasser' ändern, um noch direkter zu sein."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut lesbar."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind kurz, knackig und treiben die Szene voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["„Ilse dachte an das Gästezimmer“"],
+        "suggestions": [
+          "Der Satz 'Ilse dachte an...' ist ein klassisches Filter-Verb. Man könnte stattdessen direkt beschreiben, wie ihr Blick auf das Gästezimmer fällt oder sie sich an die Bettwäsche erinnert."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Die mehrfache Erwähnung der Schlüssel am Ende."],
+        "suggestions": [
+          "Die Wiederholung der Schlüssel-Handlungen am Ende wirkt beabsichtigt (Ritual/Nervosität). Das ist stilistisch gut gelöst."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

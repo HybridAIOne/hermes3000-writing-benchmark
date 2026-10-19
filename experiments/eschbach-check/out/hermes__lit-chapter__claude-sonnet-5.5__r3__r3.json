@@ -1,0 +1,92 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-sonnet-5.5__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Fluss...",
+          "Um zehn vor sieben hörte sie den ersten Motor..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch dicht und setzt genau zum richtigen Zeitpunkt ein. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["schwarz und glatt", "schnelle, kleine"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und präzise eingesetzt. Der Text wirkt dadurch sehr klar."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Moin, Ilse.“", "„Moin.“"],
+        "suggestions": [
+          "Sehr reduziert und effektiv. Die Sprecher sind durch den Kontext klar identifizierbar."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vielleicht", "so weit"],
+        "suggestions": [
+          "Es gibt sehr wenige Füllwörter. 'vielleicht' in 'nach einer Minute vielleicht' könnte gestrichen werden, um die Bestimmtheit der Erzählstimme zu erhöhen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine übermäßige Verwendung von 'während' oder 'als'. Die Handlungsabfolge ist logisch und flüssig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist fast ausschließlich aktiv formuliert. Sehr gute Dynamik."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Sätze sind rhythmisch gut variiert."],
+        "suggestions": [
+          "Keine Verschachtelungen, die den Lesefluss stören. Die Satzlängen unterstützen die Stimmung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Fährt die?“ / „Wenn einer drauf ist.“"],
+        "suggestions": [
+          "Die Dialoge sind prägnant und charakterisierend. Keine Straffung notwendig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie wusste, was auf dem Display stand, ohne hinzusehen"],
+        "suggestions": [
+          "Der Text vermeidet 'er sah, dass'-Konstruktionen fast vollständig und zeigt stattdessen direktes Erleben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Wie früher. Als gäbe es ein Früher..."],
+        "suggestions": [
+          "Wiederholungen werden hier stilistisch bewusst eingesetzt, um Ilses Gedankenwelt und die Routine zu betonen. Das ist sehr gelungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

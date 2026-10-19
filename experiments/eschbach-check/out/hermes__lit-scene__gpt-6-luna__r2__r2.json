@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__gpt-6-luna__r2",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel klemmte, als hätte das Haus beschlossen, sie nicht sofort hineinzulassen."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen und setzt unmittelbar bei der Handlung an. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kaltem Holz", "rostfarbener Strahl", "blinden Fleck"],
+        "suggestions": [
+          "Die Adjektive sind atmosphärisch und präzise. Achte darauf, dass sie nicht zu gehäuft auftreten, was hier aber gut gelöst ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["etwas Süßliches", "kaum mehr als"],
+        "suggestions": ["Der Text ist sehr sauber. 'Etwas' ist hier als Mengenangabe akzeptabel."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["als hätte das Haus beschlossen"],
+        "suggestions": [
+          "Keine übermäßige Verwendung von 'während' oder 'als'. Die Handlungen folgen logisch aufeinander."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Die Stühle waren ordentlich daruntergeschoben"],
+        "suggestions": [
+          "Das Zustandspassiv wirkt hier etwas statisch. Besser: 'Die Stühle standen ordentlich darunter.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "An der Wand hatte der Spiegel einen blinden Fleck, genau dort, wo früher ihr Gesicht gewesen war, wenn sie als Kind auf Zehenspitzen hineinsah."
+        ],
+        "suggestions": ["Der Satz ist komplex, aber rhythmisch gut. Keine Teilung notwendig."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Sie wusste nicht, woher es kam."],
+        "suggestions": [
+          "Das ist eine klassische Filterung. Direkter wäre: 'Woher kam es?' (als innerer Monolog)."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Staub (wird zweimal erwähnt)"],
+        "suggestions": [
+          "Die Wiederholung von 'Staub' unterstreicht die Atmosphäre des verlassenen Hauses und ist daher stilistisch vertretbar."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

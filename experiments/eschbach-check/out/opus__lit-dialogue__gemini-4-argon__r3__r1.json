@@ -1,0 +1,145 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "*(Ein kleines Café. LUKAS sitzt bereits am Tisch. MARIE tritt an den Tisch, den Mantel noch zugeknöpft.)*",
+          "MARIE: Du bist schon da."
+        ],
+        "suggestions": [
+          "Der Einstieg ist knapp und setzt direkt im Konflikt ein. Der zugeknöpfte Mantel zeigt Maries Distanz sofort, das ist gut gewählt.",
+          "Die Bühnenanweisung lässt sich straffen: 'Ein Café. LUKAS am Tisch. MARIE tritt hinzu, den Mantel zugeknöpft.' So entfallen 'bereits' und die Doppelung 'Tisch'.",
+          "Ein späterer Einstieg wäre möglich, etwa direkt bei 'Ich wusste nicht, ob du noch Schwarztee trinkst.' Dann ginge aber das aussagekräftige 'Du bist schon da' verloren. Die Begrüßung sollte bleiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "setzt sich langsam",
+          "stellt den Löffel leise ab",
+          "zieht zögernd den Schlüssel aus der Tasche",
+          "Kurzes, schweres Schweigen",
+          "Ein kleines Café"
+        ],
+        "suggestions": [
+          "'setzt sich langsam' entweder streichen oder durch ein präziseres Verb ersetzen: 'lässt sich auf den Stuhl sinken'.",
+          "'Kurzes, schweres Schweigen' wertet für die Darsteller vor. Besser nur 'Schweigen.' schreiben, denn das Abbrechen von Lukas zeigt die Schwere bereits.",
+          "'zögernd' ist entbehrlich, wenn die Handlung selbst das Zögern zeigt: 'Lukas sieht den Schlüssel an. Dann legt er ihn zwischen sie auf den Tisch.'",
+          "'kleines' bei 'Café' bringt keine Information. Streichen oder durch ein konkretes Detail ersetzen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sprecherzuweisung erfolgt formatbedingt über Figurennamen (LUKAS / MARIE)",
+          "*(blickt auf, ihr Lächeln erreicht die Augen nicht)*"
+        ],
+        "suggestions": [
+          "Im Dramenformat gibt es keine 'sagte er'-Konstruktionen. Die Regieanweisungen sind überwiegend Handlung statt Sprechweise, das ist vorbildlich.",
+          "Anweisungen, die die Interpretation vorschreiben, sparsam einsetzen. 'ihr Lächeln erreicht die Augen nicht' ist zudem ein Klischee und kaum spielbar. Alternative: 'lächelt' streichen und den Text für sich wirken lassen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Ich habe die Kiste mit deinen restlichen Sachen übrigens im Kofferraum.",
+          "Du hättest sie auch einfach vor die Tür stellen können.",
+          "Gibst du mir einfach den Autoschlüssel?",
+          "Das war wohl immer mein Problem.",
+          "Mir bedeuten alte Dinge oft zu viel.",
+          "Manche Dinge ändern sich nicht so schnell"
+        ],
+        "suggestions": [
+          "'übrigens' wirkt nach dem eindringlichen 'Marie, bitte.' unlogisch und bremst. Besser: 'Marie, bitte. – Die Kiste mit deinen Sachen ist im Kofferraum.'",
+          "'einfach' kommt zweimal bei Marie vor. Beim Schlüssel streichen ('Gibst du mir den Autoschlüssel?'), das wirkt kühler und entschlossener.",
+          "'wohl' und 'oft' schwächen Maries Selbsterkenntnis ab. 'Mir bedeuten alte Dinge zu viel.' klingt schärfer.",
+          "Viele Partikel ('doch', 'ja', 'schon') sind in gesprochener Sprache figurengerecht und können bleiben. Nur gezielt kürzen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "*(Sie rührt im Tee, obwohl kein Zucker darin ist.)*",
+          "*(weicht ihrem Blick aus, knetet seine Serviette)*",
+          "*(setzt sich langsam, zieht den Mantel nicht aus)*"
+        ],
+        "suggestions": [
+          "Konstruktionen mit 'während' oder 'gleichzeitig' kommen nicht vor. Die Handlungen folgen gut nachvollziehbar aufeinander.",
+          "'weicht ihrem Blick aus, knetet seine Serviette' lässt sich als Abfolge klarer spielen: 'knetet seine Serviette. Sieht sie nicht an.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Passivkonstruktionen. Dialog und Regieanweisungen sind durchgehend aktiv formuliert, so bleiben."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "*(zieht zögernd den Schlüssel aus der Tasche und legt ihn zwischen sie auf den Tisch)*",
+          "Ich habe die Kiste mit deinen restlichen Sachen übrigens im Kofferraum."
+        ],
+        "suggestions": [
+          "Die Sätze sind durchweg kurz und sprechbar, das passt zur angespannten Situation.",
+          "Die längste Regieanweisung lässt sich teilen: 'zieht den Schlüssel aus der Tasche. Legt ihn zwischen sie auf den Tisch.' Das schafft eine spielbare Pause."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "MARIE: Ja. Mir bedeuten alte Dinge oft zu viel. Das war wohl immer mein Problem. Ich hänge an Sachen, die längst kaputt sind."
+        ],
+        "suggestions": [
+          "Der Dialog ist knapp und arbeitet mit Subtext, die Länge ist angemessen.",
+          "Nur Maries längste Replik erklärt zu viel. Auf zwei Sätze kürzen: 'Ja. Ich hänge an Sachen, die längst kaputt sind.'"
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "*(blickt auf, ihr Lächeln erreicht die Augen nicht)*",
+          "Du weißt, wie ich das meine.",
+          "Ich wusste nicht, ob du noch Schwarztee trinkst."
+        ],
+        "suggestions": [
+          "Gefilterte Wahrnehmung im Stil von 'er sah, dass' gibt es nicht. Die Figuren handeln sichtbar.",
+          "'ihr Lächeln erreicht die Augen nicht' beschreibt eine Deutung statt einer Handlung. Direkter und spielbarer: 'lächelt kurz' oder die Anweisung ganz streichen.",
+          "Die Dialogzeilen mit 'wissen' sind figurengerecht und können bleiben."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "den Mantel noch zugeknöpft / zieht den Mantel nicht aus",
+          "Mir bedeuten alte Dinge oft zu viel. Das war wohl immer mein Problem. Ich hänge an Sachen, die längst kaputt sind.",
+          "Ich wollte nicht, dass sie kaputtgehen. / Sachen, die längst kaputt sind.",
+          "LUKAS sitzt bereits am Tisch. MARIE tritt an den Tisch"
+        ],
+        "suggestions": [
+          "Der Mantel wird zweimal als Zeichen der Distanz eingesetzt. Einmal genügt: entweder 'zugeknöpft' in der Eingangsanweisung oder 'zieht den Mantel nicht aus' beim Hinsetzen.",
+          "Maries Replik sagt dreimal dasselbe ('bedeuten zu viel', 'mein Problem', 'hänge an Sachen'). Nur den stärksten Satz behalten: 'Ich hänge an Sachen, die längst kaputt sind.'",
+          "Das Motiv 'kaputt' ist eine bewusste und wirkungsvolle Spiegelung von Lukas' Satz. Es sollte erhalten bleiben, aber nicht durch weitere Erklärungen verwässert werden.",
+          "Die Doppelung 'Tisch' in der ersten Anweisung vermeiden: 'MARIE tritt hinzu'."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.093284
+}

@@ -1,0 +1,96 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Fluss...",
+          "Sie stand im Steuerhaus, die Hände um den Becher"
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und setzt genau zum richtigen Zeitpunkt ein, um den Leser sofort in die Stimmung zu versetzen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["schwarz und glatt", "schnelle, kleine"],
+        "suggestions": [
+          "Die Adjektive sind gut dosiert. Gelegentlich könnte man noch mehr auf starke Verben setzen, z.B. statt 'schnelle, kleine Schritte' einfach 'Sie eilte die Rampe herunter'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Moin, Ilse.“", "„Moin.“"],
+        "suggestions": [
+          "Exzellente Reduktion auf das Wesentliche. Die Sprecher sind durch den Kontext klar, unnötige 'sagte sie'-Zusätze wurden konsequent weggelassen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vielleicht", "irgendwo"],
+        "suggestions": [
+          "Die wenigen Füllwörter dienen der Charakterisierung des Sprechtempos oder der Stimmung und sind daher stilistisch legitim."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie unterrichtete drüben Mathematik und Sport, und sie redete beim Übersetzen"
+        ],
+        "suggestions": [
+          "Der Text vermeidet 'während'-Konstruktionen geschickt durch klare Handlungsabfolgen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag", "Sie stellte den Becher"],
+        "suggestions": [
+          "Sehr aktive Sprache. Kaum Passivkonstruktionen vorhanden, was die Handlung dynamisch hält."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der zweite war ein Mann, den sie nicht kannte."],
+        "suggestions": [
+          "Der Rhythmus der Sätze ist abwechslungsreich und gut lesbar. Keine unnötigen Verschachtelungen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Fährt die?“ – „Wenn einer drauf ist.“"],
+        "suggestions": [
+          "Die Dialoge sind knackig, treiben die Handlung voran und enthüllen Charakterzüge."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie wusste, was auf dem Display stand, ohne hinzusehen"],
+        "suggestions": [
+          "Der Text zeigt direktes Erleben statt 'sie sah, dass' oder 'sie dachte, dass'. Sehr gute Umsetzung."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Wie früher. Als gäbe es ein Früher"],
+        "suggestions": [
+          "Die Wiederholungen wirken hier stilistisch beabsichtigt (Leitmotiv). Es gibt keine störenden inhaltlichen Redundanzen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,147 @@
+{
+  "who": "sol",
+  "item": "lit-continue__kimi-k3__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Der Motor läuft\", sagte Ilse.",
+          "„Er klingt, als würde er gleich auseinanderfallen.\""
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Der Dialog führt unmittelbar in die Situation und etabliert zugleich den unterschwelligen Konflikt zwischen Mutter und Sohn. Ein späterer Beginn würde diesen wirkungsvollen Auftakt schwächen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„fragte er und lächelte schief“",
+          "„der Deich an, braun und still“",
+          "„das unregelmäßige Tuckern des Motors“"
+        ],
+        "suggestions": [
+          "„Lächelte schief“ ist eine geläufige Geste. Prüfen, ob das Lächeln hier überhaupt gebraucht wird oder eine individuellere Reaktion Jonas besser charakterisiert.",
+          "„Still“ beim Deich ist atmosphärisch, aber weniger konkret als „braun“. Bei einer Straffung könnte es entfallen.",
+          "„Unregelmäßige“ beibehalten: Das Wort macht den Motor hörbar und stützt den Konflikt um seine Zuverlässigkeit."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Muss man jetzt nicht zahlen?\", fragte er und lächelte schief.",
+          "„Wie lange bleibst du?\", fragte sie, als die Mitte des Stroms hinter ihnen lag.",
+          "„Komm\", sagte sie und ließ den Motor laufen"
+        ],
+        "suggestions": [
+          "Einzelne Redekennzeichnungen lassen sich durch eigenständige Handlungssätze ersetzen: „Muss man jetzt nicht zahlen?“ Jonas lächelte schief.",
+          "Am Schluss genügt die Handlung zur Sprecherzuordnung: „Komm.“ Sie ließ den Motor laufen, obwohl sie ihn sonst immer abstellte, wenn kein Gast wartete.",
+          "Nicht sämtliche Kennzeichnungen streichen: Nach längeren Erzählabschnitten erleichtern sie die Orientierung."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„drehte die Fähre einen Hauch nach draußen“",
+          "„Dann helfe ich halt.\"",
+          "„Vielleicht die Minuten. Vielleicht die Meter.“"
+        ],
+        "suggestions": [
+          "„Einen Hauch nach draußen“ bei Bedarf räumlich präzisieren, etwa zu „ein Stück vom Anleger weg“.",
+          "„Halt“ im Dialog beibehalten: Es vermittelt Jonas’ demonstrative Beiläufigkeit und ist kein bloßes Füllwort.",
+          "Die beiden „Vielleicht“-Sätze nicht allein wegen ihrer Unbestimmtheit streichen: Sie kennzeichnen Ilses deutenden Blick auf Jonas."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Wie lange bleibst du?\", fragte sie, als die Mitte des Stroms hinter ihnen lag.",
+          "„Jonas stellte seinen Koffer senkrecht und sah übers Wasser zurück, als zähle er etwas.“",
+          "„Sie legte an, warf die Leine, zog sie fest, zweimal.“"
+        ],
+        "suggestions": [
+          "Keine systematische Überarbeitung nötig: Die Handlungen sind überwiegend klar aufeinanderfolgend erzählt.",
+          "Die zeitliche Einordnung bei der Frage nach der Aufenthaltsdauer kann bleiben; sie markiert zugleich Ilses Zögern.",
+          "„Als zähle er etwas“ ist ein Vergleich, keine problematische Gleichzeitigkeitskonstruktion."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Die Strömung griff sofort in den Rumpf“",
+          "„Sie löste die vordere Leine und stieß mit dem Haken ab.“",
+          "„Aber Henning war seit vier Jahren tot“"
+        ],
+        "suggestions": [
+          "Die aktive, anschauliche Darstellung beibehalten; vermeidbare Passivsätze sind nicht vorhanden.",
+          "„War seit vier Jahren tot“ beschreibt einen Zustand und ist keine Passivkonstruktion."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Er lachte kurz, und dann war es wieder still, nur das Wasser am Bug und das unregelmäßige Tuckern des Motors.“",
+          "„Komm\", sagte sie und ließ den Motor laufen, obwohl sie ihn sonst immer abstellte, wenn kein Gast wartete.",
+          "„Jetzt kamen nur noch die Kinder und die Radfahrer im Sommer, und die zahlten in eine Blechdose, die an einem Nagel hing.“"
+        ],
+        "suggestions": [
+          "Die Verschachtelung am Schluss lässt sich lösen: „Komm.“ Sie ließ den Motor laufen. Sonst stellte sie ihn immer ab, wenn kein Gast wartete.",
+          "Den Satz über die Blechdose bei gewünschtem strafferem Rhythmus teilen: „Jetzt kamen nur noch die Kinder und die Radfahrer im Sommer. Sie zahlten in eine Blechdose, die an einem Nagel hing.“",
+          "Den längeren Satz über die Stille eher erhalten: Sein auslaufender Rhythmus unterstützt die Gesprächspause."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Bis Sonntag.\"",
+          "„Du hast keine Handschuhe.\"",
+          "„Ich bin nicht aus Zucker, Mama.\""
+        ],
+        "suggestions": [
+          "Die knappen Redewechsel beibehalten. Sie transportieren Fürsorge, Abwehr und Vertrautheit, ohne die Beziehung ausdrücklich zu erklären.",
+          "Keine zusätzlichen Erläuterungen in den Dialog einfügen; gerade die Auslassungen erzeugen den Subtext."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ein Junge, dachte sie, der seinen Koffer hinter sich herzieht wie einen Hund.“",
+          "„Ilse kannte diesen Blick von den Leuten, die selten kamen, die alles mit den Augen aufnahmen wie ein Gutachten.“",
+          "„Vielleicht die Minuten. Vielleicht die Meter.“"
+        ],
+        "suggestions": [
+          "Bei eindeutig etablierter Ilse-Perspektive könnte „dachte sie“ entfallen: „Ein Junge, der seinen Koffer hinter sich herzog wie einen Hund.“ Am Anfang dient die Kennzeichnung allerdings auch der Perspektivklärung.",
+          "Die Erklärung „Ilse kannte diesen Blick“ lässt sich bei gewünschter größerer Unmittelbarkeit in erlebte Rede überführen: „Dieser Blick. So sahen die Leute, die selten kamen: Alles nahmen sie auf wie ein Gutachten.“",
+          "Die unmittelbaren Vermutungen über Minuten und Meter beibehalten; sie kommen bereits ohne Wahrnehmungsfilter aus."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Motor läuft\" / „Er läuft.\"",
+          "„Er hatte das als Kind nie getan. Als Kind hatte er sich auf die Reling gehockt“",
+          "„Am anderen Ufer wartete niemand. Der Anleger lag leer im Nachmittagslicht“",
+          "„gleich auseinanderfallen“ / „dass nichts auseinanderfällt“"
+        ],
+        "suggestions": [
+          "Die Wiederholung von „als Kind“ lässt sich straffen: „Als Kind hatte er sich stattdessen auf die Reling gehockt und Henning zugeschaut …“",
+          "„Wartete niemand“ und „lag leer“ vermitteln nahezu dieselbe Information. Für eine knappere Fassung: „Am anderen Ufer wartete niemand. Hinter dem Anleger stieg der Deich an, braun und still.“",
+          "Die Wiederholungen um den laufenden beziehungsweise auseinanderfallenden Motor unbedingt erhalten: Sie bilden die dramaturgische Klammer und tragen Ilses unausgesprochene Selbstbehauptung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.022718
+}

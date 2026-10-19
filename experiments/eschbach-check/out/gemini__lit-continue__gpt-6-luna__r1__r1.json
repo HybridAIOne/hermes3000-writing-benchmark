@@ -1,0 +1,105 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__gpt-6-luna__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Läuft“, sagte Ilse."],
+        "suggestions": [
+          "Exzellenter Einstieg *in medias res*. Die Szene beginnt genau im richtigen Moment, mitten in einer Handlung und einem Konflikt, ohne unnötiges Vorgeplänkel."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["wickelte sie ordentlich auf", "schlug die Fähre sacht gegen den Anleger"],
+        "suggestions": [
+          "Der Einsatz von Adjektiven ist sehr präzise und atmosphärisch ('grau und glatt', 'klein und alt'). Lediglich das Adverb 'ordentlich' könnte durch ein präziseres Verb oder Bild ersetzt werden (z.B. 'legte sie in gleichmäßige Schlaufen')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Wie lange bist du schon hier?“, fragte er.",
+          "„Es ist nicht kaputt“, sagte sie.",
+          "„Du hättest anrufen können“, sagte sie.",
+          "„Du bist dünner“, sagte sie."
+        ],
+        "suggestions": [
+          "Viele Dialogzeilen kommen bereits wunderbar ohne Inquit-Formeln aus. An einigen Stellen, an denen eine Handlung der Figur direkt vorausgeht, könnte das 'sagte sie' noch gestrichen werden, da der Sprecher aus dem Kontext klar ist (z.B. nach 'Ilse schob ihn in die Schublade, ohne hinzusehen. „Du hättest anrufen können.“')."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["So hatte er früher immer ausgesehen", "die sie immer benutzte"],
+        "suggestions": [
+          "Der Text ist fast völlig frei von klassischen Füllwörtern. Nur das Wort 'immer' wird zweimal verwendet und könnte zumindest beim ersten Mal gestrichen werden ('So hatte er früher ausgesehen...'), ohne dass die Bedeutung verloren geht."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Als sie die Tasse erreichte, hielt sie sie einen Augenblick in der Hand."],
+        "suggestions": [
+          "Keine Beanstandungen. Handlungen werden sauber nacheinander beschrieben. Das einzige temporale 'Als' am Ende ist vollkommen korrekt, da es eine unmittelbare Abfolge einleitet."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Jonas’ Haare waren vom Regen dunkel geworden."],
+        "suggestions": [
+          "Der Text ist durchweg aktiv und bildhaft formuliert. Der einzige Satz mit leicht passivem Charakter ('waren ... dunkel geworden') könnte noch aktiver gestaltet werden: 'Der Regen hatte Jonas’ Haare dunkel gefärbt'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "So hatte er früher immer ausgesehen, wenn er aus dem Zug gestiegen war: als käme er nicht zu Besuch, sondern zu einer Besprechung, die jemand anders vorbereitet hatte.",
+          "Die mit dem blauen Rand, aus der Jonas als Kind getrunken hatte, stand hinten im Schrank, hinter den Gläsern, die selten herauskamen."
+        ],
+        "suggestions": [
+          "Die Satzlängen variieren sehr rhythmisch zwischen kurzen, prägnanten Sätzen und etwas längeren Beschreibungen. Die beiden längeren Sätze mit mehreren Nebensätzen sind grammatikalisch sauber, könnten aber für einen noch klareren Stil minimal entschlackt werden (z.B. 'hinter den selten genutzten Gläsern')."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Du bist dünner“, sagte sie.\n„Du auch.“\n„Ich wohne hier.“"],
+        "suggestions": [
+          "Hervorragend. Die Dialoge sind extrem knapp, präzise und leben vom Subtext. Kein Wort zu viel."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Drinnen roch es nach nassem Holz, Diesel und dem Kaffee...",
+          "Trotzdem blieb sein Blick dort einen Moment hängen."
+        ],
+        "suggestions": [
+          "Perfekte Umsetzung von 'Show, don't tell'. Es gibt keine distanzierenden Filterwörter (wie 'sie sah, dass', 'sie fühlte'). Alle Wahrnehmungen und Emotionen werden direkt über Handlungen und Sinneseindrücke vermittelt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas lächelte kurz. Es war ein Lächeln, das gleich wieder verschwand.",
+          "Als sie die Tasse erreichte, hielt sie sie einen Augenblick in der Hand. Dann stellte sie sie neben ihre eigene."
+        ],
+        "suggestions": [
+          "Beim Lächeln gibt es eine kleine inhaltliche und wörtliche Doppelung ('lächelte kurz' = 'Lächeln, das gleich wieder verschwand'). Vorschlag: 'Jonas’ Lächeln verschwand so schnell, wie es gekommen war.' Zudem sollten am Ende die doppelten Pronomen ('sie sie') durch Umformulierung vermieden werden, z.B.: 'Als ihre Finger die Tasse erreichten, hielt sie kurz inne, bevor sie das Porzellan neben ihre eigene stellte.'"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.017164
+}

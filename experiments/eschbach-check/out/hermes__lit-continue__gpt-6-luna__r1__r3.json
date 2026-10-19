@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gpt-6-luna__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Läuft“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort in die Handlung und den Konflikt wirft."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ordentlich auf", "sacht gegen"],
+        "suggestions": [
+          "Die Adjektive sind sparsam eingesetzt. 'Ordentlich' könnte gestrichen werden, da das Aufwickeln einer Leine impliziert, dass es ordentlich geschieht."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["sagte Ilse", "fragte er"],
+        "suggestions": [
+          "Die Kennzeichnungen sind auf das Nötigste reduziert und stören den Lesefluss nicht."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Füllwörter gefunden. Sehr präzise Sprache."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als sie die Tasse erreichte..."],
+        "suggestions": [
+          "Die zeitlichen Abläufe sind klar strukturiert und vermeiden unnötige 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Passivkonstruktionen gefunden. Der Text ist aktiv und lebendig."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "So hatte er früher immer ausgesehen, wenn er aus dem Zug gestiegen war: als käme er nicht zu Besuch, sondern zu einer Besprechung, die jemand anders vorbereitet hatte."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind gut variiert. Der längere Satz dient der Charakterisierung und ist gut lesbar."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Es ist nicht kaputt“, sagte sie. „Mama.“"],
+        "suggestions": ["Die Dialoge sind kurz, knackig und treiben die Geschichte voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Jonas sah auf den Motorraum", "Sie hob den Blick"],
+        "suggestions": [
+          "Die Wahrnehmung ist direkt und zeigt das Geschehen, anstatt es durch Filter wie 'er sah, dass' zu distanzieren."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Jonas lächelte kurz. Es war ein Lächeln, das gleich wieder verschwand."],
+        "suggestions": [
+          "Das Wort 'Lächeln' wird im zweiten Satz wiederholt. Besser: 'Jonas lächelte kurz, doch der Ausdruck verschwand sofort wieder.'"
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

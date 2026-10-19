@@ -1,0 +1,95 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-opus-5.5__r1",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur deshalb für vorhanden hielt, weil es gestern auch da gewesen war."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch sehr stark und etabliert sofort die Stimmung und den Charakter der Protagonistin, ohne unnötige Vorgeschichte."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["nass und schwarz", "klein und regelmäßig"],
+        "suggestions": [
+          "Die Adjektive sind gut gewählt und dienen der Atmosphäre. Gelegentlich könnte man prüfen, ob 'nass' bei 'Wasser' oder 'Nebel' redundant ist, aber hier passt es zur Stimmung."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Morgen\", sagte Mareike.", "„Morgen.\""],
+        "suggestions": [
+          "Sehr vorbildlich. Die Dialoge sind reduziert und klar, der Sprecher ergibt sich meist aus dem Kontext."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["vielleicht", "eigentlich"],
+        "suggestions": [
+          "Der Text ist sehr sauber. Es gibt kaum Füllwörter, die den Lesefluss stören."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["während sie es abzählte"],
+        "suggestions": [
+          "Die Verwendung von 'während' ist hier korrekt und nicht überstrapaziert. Die Handlungen sind logisch nacheinander oder sinnvoll verknüpft."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Strömung nahm die Fähre", "Der Hund legte sich auf die Planken"],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert, was die Handlung lebendig hält."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse das andere Ufer nur deshalb für vorhanden hielt, weil es gestern auch da gewesen war."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind gut rhythmisiert und wechseln zwischen beschreibenden längeren Sätzen und kurzen, prägnanten Aussagen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Was wollte der?\" / „Rüber.\" / „Hm\""],
+        "suggestions": [
+          "Die Dialoge sind prägnant und treiben die Handlung voran, ohne unnötige Redundanz."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ilse hörte sie, bevor sie sie sah"],
+        "suggestions": [
+          "Die Wahrnehmung ist sehr direkt und sensorisch. Es gibt kaum 'er sah, dass'-Konstruktionen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["wie sie es seit zwei Jahren hinstellte"],
+        "suggestions": [
+          "Wiederholungen werden hier gezielt zur Charakterisierung der Routine eingesetzt und wirken daher nicht störend."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

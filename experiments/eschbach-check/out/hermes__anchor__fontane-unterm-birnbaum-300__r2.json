@@ -1,0 +1,96 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-unterm-birnbaum-300",
+  "run": 2,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr statisch und beschreibend. Beginnen Sie direkt mit der Handlung: Dem Beladen des Wagens."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["großen und reichen", "magern Schimmeln", "schläfrigen Hüh"],
+        "suggestions": [
+          "Prüfen Sie, ob die Adjektive wirklich zur Atmosphäre beitragen oder ob stärkere Verben die Szene lebendiger machen könnten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "sagte zu dem eben vom Rad her auf die Deichsel steigenden Knecht",
+          "Der als Jakob Angeredete nickte nur"
+        ],
+        "suggestions": [
+          "Verkürzen Sie die Einleitungen. Oft reicht ein einfacher Doppelpunkt oder eine kurze Handlung, um den Sprecher zu identifizieren."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["so stand auf", "so sah man denn", "wenn überhaupt"],
+        "suggestions": [
+          "Entfernen Sie Füllwörter wie 'so' und 'denn', die den Lesefluss bremsen und die Aussage abschwächen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [],
+        "suggestions": [
+          "Die zeitliche Abfolge ist klar. Achten Sie darauf, dass keine unnötigen 'während'-Konstruktionen den Fluss stören."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["wurden Säcke ... geladen", "war ... getrennt"],
+        "suggestions": [
+          "Formulieren Sie aktiv: 'Der Knecht lud Säcke auf den Wagen' statt 'Säcke wurden geladen'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus und Materialwaarengeschäft von Abel Hradscheck (so stand auf einem über der Thür angebrachten Schilde) wurden Säcke, vom Hausflur her, auf einen mit zwei magern Schimmeln bespannten Bauerwagen geladen."
+        ],
+        "suggestions": [
+          "Der erste Satz ist extrem verschachtelt. Teilen Sie ihn in drei bis vier kürzere Sätze auf, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "dialogueLength": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Die Dialoglänge ist angemessen und dient der Charakterisierung."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["so sah man denn an dem, was herausfiel", "Hradscheck sah dem Wagen nach"],
+        "suggestions": [
+          "Zeigen statt behaupten: Statt 'man sah, dass es Rapssäcke waren', beschreiben Sie direkt die Rapskörner, die aus den Säcken rieseln."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["nach rechts hin das Wohnzimmer", "nach links hin aber der Laden"],
+        "suggestions": [
+          "Vermeiden Sie die doppelte Verwendung von 'nach rechts hin'. Variieren Sie die Satzstruktur bei der Beschreibung der Räumlichkeiten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

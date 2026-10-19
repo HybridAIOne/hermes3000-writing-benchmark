@@ -1,0 +1,165 @@
+{
+  "who": "opus",
+  "item": "anchor__fontane-effi-briest-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Die Szene beginnt mit zwei langen Absätzen reiner Ortsbeschreibung (Herrenhaus, Seitenflügel, Rondell, Kirchhofsmauer, Teich, Schaukel, Platanen), bevor eine Figur handelt.",
+          "Die erste Dialogzeile (»Effi, eigentlich hättest du doch wohl Kunstreiterin werden müssen.«) folgt erst nach drei umfangreichen Absätzen.",
+          "Details wie die Vergoldung des Wetterhahns oder die schiefen Pfosten der Schaukel tragen nichts zur unmittelbaren Handlung bei."
+        ],
+        "suggestions": [
+          "Später einsetzen, etwa mit Effis Gymnastikübungen oder direkt mit dem Ausruf der Mutter, und die Schauplatzbeschreibung in kleinen Portionen in die Handlung einflechten.",
+          "Nur die Elemente vorab etablieren, die später dramaturgisch wichtig werden (Schaukel, Teich, Eisentür, Seitenflügel), den Rest kürzen oder streichen.",
+          "Hinweis: Für einen Roman des Realismus ist ein solcher Panorama-Einstieg gattungstypisch; nach modernen Maßstäben im Sinne Eschbachs verzögert er jedoch den Szenenbeginn."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "»auf ein großes, in seiner Mitte mit einer Sonnenuhr und an seinem Rande mit Canna indica und Rhabarberstauden besetzten Rondell«",
+          "»eine ganz in kleinblättrigem Efeu stehende, nur an einer Stelle von einer kleinen weißgestrichenen Eisentür unterbrochene Kirchhofsmauer«",
+          "»eine mit großen schönen Stachelbeeren gefüllte Majolikaschale«",
+          "»ein blau und weiß gestreiftes, halb kittelartiges Leinwandkleid, dem erst ein fest zusammengezogener, bronzefarbener Ledergürtel die Taille gab«",
+          "»eine große, natürliche Klugheit und viel Lebenslust und Herzensgüte«",
+          "»umarmte sie stürmisch und küßte sie«, »ganz entschieden bevorzugt«, »ernstlich willens«"
+        ],
+        "suggestions": [
+          "Gestapelte Partizipialattribute auflösen: »Efeu überwucherte die Kirchhofsmauer. Nur eine weiß gestrichene Eisentür unterbrach sie.«",
+          "Wertende Adjektive (»schönen«, »große«, »natürliche«) streichen und die Eigenschaften lieber durch Handlung zeigen.",
+          "Verstärker wie »ganz«, »ganz entschieden«, »ganz besonderer« ersatzlos streichen.",
+          "»umarmte sie stürmisch« durch ein stärkeres Verb ersetzen, etwa »fiel ihr um den Hals«."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "»als die von ihrer Stickerei gerade wieder aufblickende Mama ihr zurief:« – eine umständliche Redeeinleitung.",
+          "»Möchtest du's?« / »Nein.« – Die Sprecher ergeben sich hier gut aus dem Kontext, ohne Begleitsatz.",
+          "»Und dabei lief sie auf die Mama zu …« – Handlung statt Inquit, gut gelöst."
+        ],
+        "suggestions": [
+          "Die erste Redeeinleitung straffen: »Die Mama sah von der Stickerei auf. »Effi, eigentlich …««",
+          "Das Prinzip der Handlungsbeschreibung statt »sagte sie« beibehalten. Es funktioniert in der Passage bereits gut."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "»Einige zwanzig Schritte weiter«",
+          "»ein paar mächtige alte Platanen«, »ein paar Gartenstühlen«, »ein paar offene … Fenster«, »ein paar Dessertteller«, »ein paar Fragen«",
+          "»allerlei Zerstreuung«, »unter allerlei kunstgerechten Beugungen«",
+          "»schon etwas schief stehend«, »ein wenig ins Komische gezogenen«",
+          "»so sah auch wohl die Mama«, »hättest du doch wohl«, »Ich glaube beinah«"
+        ],
+        "suggestions": [
+          "Konkrete Zahlen und Angaben verwenden: »zwanzig Schritte«, »zwei Platanen«, »drei Gartenstühle«.",
+          "»allerlei« durch Konkretes ersetzen oder streichen: »unter kunstgerechten Beugungen und Streckungen«.",
+          "Abschwächungen wie »etwas«, »ein wenig«, »wohl« in der Erzählerrede streichen. In der Figurenrede der Mutter (»doch wohl«, »beinah«) können sie zur Charakterisierung dienen und bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "»fiel heller Sonnenschein auf die mittagsstille Dorfstraße, während nach der Park- und Gartenseite hin ein rechtwinklig angebauter Seitenflügel einen breiten Schatten … warf«",
+          "»aber während die Mutter kein Auge von der Arbeit ließ, legte die Tochter … von Zeit zu Zeit die Nadel nieder«",
+          "»In allem, was sie tat, paarten sich Übermut und Grazie, während ihre lachenden braunen Augen …«",
+          "»Eben hatte sich Effi wieder erhoben, …, als die … Mama ihr zurief«",
+          "»angenehmen und zugleich allerlei Zerstreuung bietenden Aufenthalt«"
+        ],
+        "suggestions": [
+          "Gegenüberstellungen in zwei Sätze teilen: »Vorn fiel Sonne auf die Dorfstraße. Auf der Gartenseite warf der Seitenflügel einen breiten Schatten.«",
+          "Handlungen nacheinander erzählen: »Die Mutter ließ kein Auge von der Arbeit. Effi dagegen legte immer wieder die Nadel nieder und stand auf.«",
+          "Das dritte »während« (Augen) streichen und als eigenständigen Satz formulieren."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "»an Tagen aber, wo die Sonne niederbrannte, wurde die Gartenseite ganz entschieden bevorzugt«",
+          "»des schon seit Kurfürst Georg Wilhelm von der Familie von Briest bewohnten Herrenhauses« (Zustandspassiv als Partizipialattribut)",
+          "»an dessen offener Seite man eines Teiches … gewahr wurde« (unpersönliche Konstruktion)",
+          "»eines aus Einzelquadraten zusammenzusetzenden Altarteppichs«"
+        ],
+        "suggestions": [
+          "Aktiv formulieren: »An heißen Tagen zogen Frau und Tochter des Hauses die Gartenseite vor.«",
+          "»Seit Kurfürst Georg Wilhelm bewohnte die Familie von Briest das Herrenhaus zu Hohen-Cremmen.«",
+          "»An der offenen Seite lag ein Teich mit Wassersteg und angekettetem Boot.«"
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Der Eröffnungssatz umfasst rund 75 Wörter mit mehrfach verschachtelten Partizipialattributen und einem »während«-Nebensatz.",
+          "»Es war ersichtlich, daß sie sich diesen absichtlich ein wenig ins Komische gezogenen Übungen mit ganz besonderer Liebe hingab, und wenn sie dann so dastand und, langsam die Arme hebend, die Handflächen hoch über dem Kopf zusammenlegte, so sah auch wohl die Mama von ihrer Handarbeit auf, aber immer nur flüchtig und verstohlen, weil sie nicht zeigen wollte, wie entzückend sie ihr eigenes Kind finde, zu welcher Regung mütterlichen Stolzes sie voll berechtigt war.«",
+          "»an Tagen aber, wo die Sonne niederbrannte, wurde die Gartenseite … bevorzugt, besonders von Frau und Tochter des Hauses, die denn auch heute wieder … saßen, in ihrem Rücken …, neben sich eine vorspringende kleine Treppe, deren vier Steinstufen …«",
+          "»Fronthaus, Seitenflügel und Kirchhofsmauer bildeten ein einen kleinen Ziergarten umschließendes Hufeisen« (Artikelhäufung durch Linksattribut)"
+        ],
+        "suggestions": [
+          "Lange Satzgefüge in drei bis vier kurze Hauptsätze zerlegen: »Effi liebte diese Übungen und übertrieb sie absichtlich ins Komische. Wenn sie die Arme hob und die Handflächen über dem Kopf zusammenlegte, sah die Mama auf. Nur flüchtig. Sie wollte nicht zeigen, wie entzückend sie ihr Kind fand.«",
+          "Linksverschachtelte Partizipialattribute in Relativsätze oder eigene Sätze umwandeln: »Haus, Seitenflügel und Mauer umschlossen hufeisenförmig einen kleinen Ziergarten.«",
+          "Gedankenstrich-Einschübe (»- die Pfosten der Balkenlage schon etwas schief stehend«) als eigenen Satz formulieren oder streichen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Effis Antwort (»Vielleicht, Mama. Aber wenn es so wäre, wer wäre schuld? …«) ist ein langer Monolog mit vielen rhetorischen Fragen.",
+          "»Möchtest du's?« – »Nein.« – Ein kurzer, pointierter Wechsel, sehr wirkungsvoll."
+        ],
+        "suggestions": [
+          "Effis Monolog leicht straffen, etwa durch Streichen von »Doch nur von dir. Oder meinst du, von Papa? Da mußt du nun selber lachen.« oder durch einen kurzen Einwurf der Mutter, um ihn aufzubrechen.",
+          "Die Häufung von »Warum …?«-Fragen (dreimal) reduzieren und dabei die stärkste Pointe (»Warum machst du keine Dame aus mir?«) erhalten."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "»Es war ersichtlich, daß sie sich diesen … Übungen mit ganz besonderer Liebe hingab«",
+          "»an dessen offener Seite man eines Teiches … gewahr wurde«",
+          "»weil sie nicht zeigen wollte, wie entzückend sie ihr eigenes Kind finde«",
+          "»Und die Mama schien ernstlich willens, in Äußerung ihrer Sorgen und Ängste fortzufahren.«",
+          "»ihre lachenden braunen Augen [verrieten] eine große, natürliche Klugheit« (behauptend statt zeigend)"
+        ],
+        "suggestions": [
+          "Direkt zeigen statt feststellen: »Effi turnte mit sichtlichem Vergnügen und übertrieb jede Bewegung ins Komische.«",
+          "Wahrnehmungsverben streichen: »An der offenen Seite lag ein Teich …«",
+          "»schien ernstlich willens« ersetzen durch eine Geste: »Die Mama holte Luft, um fortzufahren.«",
+          "Effis Klugheit und Herzensgüte durch Handlung und Dialog belegen, statt sie zu behaupten."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "»Beide, Mutter und Tochter, waren fleißig …« – doppelte Benennung desselben Sachverhalts.",
+          "Die Treppe wird zweimal ausführlich beschrieben: »eine vorspringende kleine Treppe, deren vier Steinstufen vom Garten aus in das Hochparterre des Seitenflügels hinaufführten« und später »die vom Garten in den Seitenflügel führende Steintreppe«.",
+          "Auch die Eisentür wird zweimal beschrieben: »kleinen weißgestrichenen Eisentür« und »aus der kleinen, in der Kirchhofsmauer angebrachten Eisentür«.",
+          "»Seitenflügel« erscheint fünfmal, »ein paar« fünfmal, »Rondell« und »Fliesengang« je mehrfach.",
+          "»Rasch und sicher ging die Wollnadel«, »Handarbeit«, »Stickerei« – mehrfacher Rückbezug auf dieselbe Tätigkeit.",
+          "»umarmte sie stürmisch und küßte sie« gefolgt von »Nicht so wild, Effi, nicht so leidenschaftlich« (inhaltliche Verdopplung)"
+        ],
+        "suggestions": [
+          "»Beide, Mutter und Tochter« auf »Mutter und Tochter« kürzen.",
+          "Bei der zweiten Erwähnung nur noch kurz verweisen: »stieg sie die Treppe hinauf« bzw. »durch die Eisentür«.",
+          "»ein paar« durch konkrete Zahlen oder Variation ersetzen beziehungsweise streichen.",
+          "In der Rede der Mutter genügt »Nicht so wild, Effi.«, ihre Wirkung entsteht durch die Kürze."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.130904
+}

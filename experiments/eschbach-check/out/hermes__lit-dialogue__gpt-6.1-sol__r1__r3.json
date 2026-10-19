@@ -1,0 +1,87 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gpt-6.1-sol__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein Café. Mara sitzt am Fenster."],
+        "suggestions": [
+          "Der Einstieg ist sehr effizient und atmosphärisch. Er setzt direkt in der Handlung ein."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text ist erfreulich frei von unnötigen Adjektiven und Adverbien. Sehr präzise."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["fragt Mara", "fragt Jonas"],
+        "suggestions": ["Die wenigen Marker sind gut platziert und stören den Lesefluss nicht."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["noch immer"],
+        "suggestions": [
+          "Die Füllwörter werden hier gezielt zur Charakterisierung der Stimmung und der Vergangenheit eingesetzt."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine unnötigen 'während'-Konstruktionen. Die Handlungen sind klar voneinander getrennt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Passivsätze vorhanden. Der Text ist durchgehend aktiv."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die Sätze sind kurz und prägnant, was die Spannung und die Distanz zwischen den Figuren unterstreicht."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Der gesamte Dialog"],
+        "suggestions": [
+          "Der Dialog ist sehr dicht. Gelegentlich könnte eine längere Handlungspause noch mehr Gewicht verleihen, aber das aktuelle Tempo passt zum Stil."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine indirekte Wahrnehmung. Der Text bleibt konsequent in der direkten Beobachtung."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["früher"],
+        "suggestions": [
+          "Das Wort 'früher' wird dreimal verwendet. Das ist stilistisch als Leitmotiv vertretbar, könnte aber an einer Stelle durch eine Umschreibung variiert werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

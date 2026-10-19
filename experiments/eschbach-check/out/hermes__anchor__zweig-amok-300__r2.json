@@ -1,0 +1,100 @@
+{
+  "who": "hermes",
+  "item": "anchor__zweig-amok-300",
+  "run": 2,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Der gesamte erste Absatz dient als prologartige Zusammenfassung, statt direkt in die Handlung einzusteigen."
+        ],
+        "suggestions": [
+          "Den ersten Absatz streichen oder stark kürzen. Direkt mit der Schiffsagentur-Szene beginnen, um den Leser sofort in die Handlung zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "phantastisch ausgeschmückte Berichte",
+          "seltsamen Vorfalles",
+          "erregenden Szene",
+          "toll gewordene stählerne Fledermaus"
+        ],
+        "suggestions": [
+          "Adjektive wie 'seltsam' oder 'erregend' durch stärkere Verben ersetzen, die das Gefühl vermitteln, anstatt es zu benennen.",
+          "Die Metapher 'toll gewordene stählerne Fledermaus' ist stark, aber andere Adjektive wirken eher wie Füllmaterial."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Der Text nutzt fast ausschließlich indirekte Rede."],
+        "suggestions": [
+          "Da keine direkte Rede vorhanden ist, ist dieser Punkt neutral. Falls Dialoge eingefügt werden, auf 'sagte er' verzichten und durch Handlungen ersetzen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Immerhin", "wohl", "schon", "freilich"],
+        "suggestions": [
+          "Einige dieser Wörter glätten den Lesefluss, wirken aber in der Häufung etwas altmodisch. Prüfen, ob sie für den Tonfall notwendig sind."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["während des Kohlenladens"],
+        "suggestions": ["Die Verwendung von 'während' ist hier korrekt und nicht übermäßig."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Das Schiff war überfüllt"],
+        "suggestions": [
+          "Der Text ist weitgehend aktiv formuliert. 'Das Schiff war überfüllt' könnte man noch aktiver gestalten, z.B.: 'Das Schiff quoll über'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 4,
+        "examples": [
+          "Obzwar Passagier der »Oceania«, war es mir ebensowenig wie den andern möglich, Zeuge jenes seltsamen Vorfalles zu sein, weil er sich zur Nachtzeit während des Kohlenladens und der Löschung der Fracht abspielte, wir aber, um dem Lärm zu entgehen, alle an Land gegangen waren und dort in Kaffeehäusern oder Theatern die Zeit verbrachten."
+        ],
+        "suggestions": [
+          "Den Satz in mindestens drei kürzere Sätze zerlegen. Die Verschachtelung erschwert das Lesen und nimmt das Tempo aus der Erzählung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Keine direkten Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Immerhin meine ich persönlich, daß...", "Er wisse noch nicht, ob..."],
+        "suggestions": [
+          "Statt 'meine ich persönlich, dass' einfach die Vermutung direkt äußern. Das macht den Text unmittelbarer und selbstbewusster."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Schiff/Kabine werden mehrfach wiederholt.",
+          "Der Clerk wird zweimal erwähnt."
+        ],
+        "suggestions": [
+          "Wortwiederholungen bei 'Schiff' und 'Kabine' durch Pronomen oder Synonyme ersetzen, um den Lesefluss zu glätten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,120 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__claude-opus-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "JONAS: Ist hier frei? / MARTIN: War es die ganze Zeit.",
+          "JONAS tritt an den Tisch, die Jacke noch an."
+        ],
+        "suggestions": [
+          "Der Einstieg ist gelungen: Er setzt im Moment der Begegnung ein, und die erste Replik zeigt sofort Vorgeschichte und Spannung. Ein späterer Einstieg würde diesen Auftakt opfern.",
+          "Kleine Klarstellung: „Du trinkst ihn immer noch schwarz“ bezieht sich auf einen Kaffee, der vorher nicht erwähnt wird. Die Tasse könnte schon in die erste Regieanweisung, etwa: „MARTIN sitzt am Fenster, vor sich eine Tasse.“"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Jonas zieht langsam die Jacke aus", "Seit kurzem."],
+        "suggestions": [
+          "Adjektive und Adverbien sind sparsam und meist funktional eingesetzt.",
+          "„langsam“ ist vertretbar, weil es die Entscheidung zum Bleiben markiert. Die Handlung trägt aber auch ohne das Adverb: „Jonas zieht die Jacke aus und hängt sie über die Stuhllehne.“ Die Bedeutung entsteht durch den Kontrast zu „die Jacke noch an“."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "JONAS: *nach einer Weile* Nein.",
+          "JONAS: *zur Kellnerin, ohne Martin anzusehen* Doch. Einen. Schwarz."
+        ],
+        "suggestions": [
+          "Das Dramenformat macht Sprecherangaben notwendig. Es gibt keine überflüssigen Redeeinleitungen wie „sagte er“.",
+          "Die Regieanweisungen in den Repliken sind knapp und tragen Bedeutung. „nach einer Weile“ ließe sich durch die bereits verwendete, präzisere Form „*Pause.*“ ersetzen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Hat ein bisschen gedauert.",
+          "Zwei. Und ein paar Monate.",
+          "Manche Dinge ändern sich nicht.",
+          "*nach einer Weile*"
+        ],
+        "suggestions": [
+          "Die unpräzisen Wörter im Dialog sind überwiegend bewusst gesetzt. „ein bisschen“ als Untertreibung und der Streit um „Drei Jahre“ gegen „Zwei. Und ein paar Monate“ charakterisieren die Figuren. Das sollte bleiben.",
+          "In den Regieanweisungen gilt Präzision: „nach einer Weile“ ist vage. Ein klares „*Pause.*“ oder eine konkrete Handlung wäre schärfer, etwa „*Jonas sieht aus dem Fenster.* Nein.“"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "JONAS: *zur Kellnerin, ohne Martin anzusehen* Doch. Einen. Schwarz.",
+          "Martin rührt in der Tasse, obwohl nichts drin ist zum Umrühren."
+        ],
+        "suggestions": [
+          "Konstruktionen mit „während“ oder „gleichzeitig“ fehlen. Die Handlungen folgen klar aufeinander: „Die Kellnerin kommt. Jonas schüttelt den Kopf. Sie geht.“ Das ist vorbildlich.",
+          "„ohne Martin anzusehen“ ist eine sinnvolle Gleichzeitigkeit und sollte bleiben."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text enthält keine Passivkonstruktionen. Alle Handlungen sind aktiv und figurengebunden formuliert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Martin rührt in der Tasse, obwohl nichts drin ist zum Umrühren."],
+        "suggestions": [
+          "Die Sätze sind durchgehend kurz und klar. Der einzige Nebensatz wirkt sprachlich etwas holprig („drin ist zum Umrühren“). Besser: „Martin rührt in seinem schwarzen Kaffee.“ Oder knapper: „Martin rührt in der Tasse. Er nimmt nie Zucker.“"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "MARTIN: Wirklich? / JONAS: Nein. / MARTIN: Wenigstens das.",
+          "MARTIN: Das Ende ist das Beste. / JONAS: Man muss erst mal hinkommen."
+        ],
+        "suggestions": [
+          "Der Dialog ist knapp und stark untertextlich. Keine Replik hat mehr als wenige Wörter.",
+          "Zu prüfen wäre allenfalls der Austausch über das Buchende. Er ist als Metapher für die Beziehung etwas deutlich und könnte gestrichen werden, ohne dass Information verloren geht. Das Foto leistet dieselbe Arbeit subtiler."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ein Foto fällt heraus. Beide sehen es an. Keiner hebt es auf."],
+        "suggestions": [
+          "Es gibt keine Konstruktionen wie „er sah, dass“ oder „er dachte, dass“. Gefühle werden ausschließlich über Handlung und Auslassung gezeigt („Keiner hebt es auf“, „schiebt es nicht hinüber“). Das ist mustergültig."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Martin rührt in der Tasse, obwohl nichts drin ist zum Umrühren.",
+          "*Pause.* … *Stille.*",
+          "MARTIN: Das Ende ist das Beste. / JONAS: Man muss erst mal hinkommen."
+        ],
+        "suggestions": [
+          "Die Wiederholungen sind überwiegend bewusste Klammern und sollten bleiben: Jacke an und aus, „schwarz“ am Anfang und Ende, das Buch erst nicht und dann doch hinübergeschoben.",
+          "Der Nebensatz „obwohl nichts drin ist zum Umrühren“ erklärt eine Geste, die für sich spricht. Der Leser weiß bereits, dass Martin den Kaffee schwarz trinkt. Die Erklärung kann entfallen: „Martin rührt in der Tasse.“",
+          "Die Buch-Metapher („Das Ende ist das Beste“) doppelt das Beziehungsthema, das schon durch Foto und Schweigen getragen wird. Sie zu kürzen würde den Untertext stärken."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.089992
+}

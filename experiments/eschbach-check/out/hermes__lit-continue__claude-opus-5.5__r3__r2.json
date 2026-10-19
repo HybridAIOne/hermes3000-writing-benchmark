@@ -1,0 +1,96 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-opus-5.5__r3",
+  "run": 2,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Er läuft\", sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist gelungen, da er direkt in die Handlung und den Konflikt führt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["flach und langsam", "hellen Sohlen"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und passend gewählt. Achte darauf, sie nur dort einzusetzen, wo sie wirklich ein Bild erzeugen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Ilse", "sagte sie", "fragte er"],
+        "suggestions": [
+          "Die Marker sind funktional. In manchen Fällen könnte man sie streichen, wenn der Sprecherwechsel durch den Kontext klar ist, um den Dialog noch direkter zu machen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vermutlich", "manchmal"],
+        "suggestions": [
+          "Das Wort 'vermutlich' schwächt die Beobachtung ab. Streichen für eine stärkere, direktere Aussage: '...die aussah, als sei sie für Regen gemacht, und es nicht war.'"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie nahm den Lappen... und wischte..."],
+        "suggestions": [
+          "Die Handlungsabfolge ist klar und logisch strukturiert, ohne unnötige 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Das Bett... ist nicht bezogen"],
+        "suggestions": [
+          "Das verwendete Zustandspassiv ist hier stilistisch passend, um den Zustand des Zimmers zu beschreiben. Keine unnötigen Passivkonstruktionen gefunden."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er trug eine Jacke, die aussah, als sei sie für Regen gemacht, und es vermutlich nicht war, und Schuhe mit hellen Sohlen, auf denen der Uferweg schon seine Spuren hinterlassen hatte."
+        ],
+        "suggestions": [
+          "Der Satz ist komplex, aber gut lesbar. Er könnte bei Bedarf für mehr Tempo in zwei Sätze geteilt werden, ist aber aktuell noch im Rahmen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Wie viele waren es heute?\" / „Genug.\" / „Mama.\" / „Elf. Und der Milchwagen.\""
+        ],
+        "suggestions": ["Die Dialoge sind knackig und treiben die Geschichte voran. Sehr gut."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ilse dachte daran, wie er als Junge..."],
+        "suggestions": [
+          "Die Wahrnehmung ist direkt. Man könnte 'Ilse dachte daran, wie...' streichen und direkt mit der Erinnerung beginnen, um noch tiefer in den Kopf der Figur zu gelangen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Er läuft\" (Wiederholung im Dialog)",
+          "Vielleicht ein Angler. Vielleicht nur ein Pfahl."
+        ],
+        "suggestions": [
+          "Die Wiederholungen wirken hier stilistisch beabsichtigt (rhythmisch). Achte darauf, dass sie nicht unabsichtlich den Lesefluss hemmen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

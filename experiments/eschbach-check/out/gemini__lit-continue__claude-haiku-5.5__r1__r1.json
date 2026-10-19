@@ -1,0 +1,122 @@
+{
+  "who": "gemini",
+  "item": "lit-continue__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ilse antwortete nicht. Sie ging an ihm vorbei zur Kabine, wo der Motorkasten unter der Sitzbank lag, und klappte den Deckel hoch."
+        ],
+        "suggestions": [
+          "Perfekter Einstieg 'in medias res'. Der Text beginnt mitten in einer spannungsgeladenen Interaktion und verknüpft diese sofort mit einer konkreten Handlung. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "feuchtes Holz",
+          "die kleinen Räder",
+          "die nassen Planken",
+          "einen blauen Rauchring"
+        ],
+        "suggestions": [
+          "Die Adjektive sind sehr sparsam und präzise gewählt, sie dienen fast ausschließlich der sinnlichen Wahrnehmung. Lediglich bei 'die kleinen Räder' könnte man 'kleinen' streichen, da Kofferräder implizit klein sind."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Ich hab's gehört“, sagte sie schließlich.",
+          "„Links herum“, sagte sie.",
+          "„Die Fähre geht gleich rüber“, sagte sie.",
+          "„Gut“, sagte Ilse."
+        ],
+        "suggestions": [
+          "Die Nutzung von unauffälligem 'sagte sie' ist handwerklich sehr gut. Dennoch könnte man es an ein oder zwei Stellen komplett streichen, da der Sprecher aus dem Kontext klar ist. Beispiel: Nach dem Satz über den Bus nach Dannenberg ist völlig klar, dass Ilse spricht. Hier reicht: „Die Fähre geht gleich rüber. Du kannst mitfahren oder hier stehen bleiben.“"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Der Text enthält praktisch keine Schwamm- oder Füllwörter."],
+        "suggestions": [
+          "Ausgezeichnete sprachliche Präzision. Selbst Wörter wie 'auch' oder 'trotzdem' tragen hier eine klare inhaltliche Bedeutung und sind kein Füllmaterial."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Dann stellte er den Koffer an die Wand des Häuschens, zog das Jackett aus und hängte es über das Geländer..."
+        ],
+        "suggestions": [
+          "Sehr gute, klare Chronologie der Handlungen. Es gibt keine künstlichen Gleichzeitigkeiten durch 'während' oder 'indem'. Die Sätze folgen sauber aufeinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine unnötigen Passivkonstruktionen vorhanden."],
+        "suggestions": [
+          "Der Text ist durchgängig aktiv formuliert. Selbst Dinge wie die Elbe oder der Motor agieren aktiv ('spuckte', 'hustete', 'trug'). Sehr stark!"
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Er schob den Koffer hinter sich her, die kleinen Räder ratterten über die Bohlen, bis er bei der Kette stehen blieb, die die Rampe sicherte.",
+          "Die Elbe war braun und schnell, sie trug Äste mit sich und einen einzelnen Schuh, und am gegenüberliegenden Ufer bogen sich die Weiden im Wind, als hätten sie es eilig."
+        ],
+        "suggestions": [
+          "Der Satzrhythmus (Wechsel zwischen kurzen und längeren Sätzen) ist sehr melodisch. Im ersten Beispielsatz entsteht durch 'die die Rampe sicherte' eine unschöne Wortwiederholung am Ende eines ohnehin langen Satzes. Vorschlag: '...bis er bei der Sicherungskette vor der Rampe stehen blieb.' oder nach 'Bohlen' einen Punkt setzen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Links herum“, sagte sie. „Bis es einrastet.“",
+          "„Gut“, sagte Ilse. „Dann hältst du die Leine.“"
+        ],
+        "suggestions": [
+          "Hervorragend. Die Dialoge sind extrem verknappt und passen perfekt zur norddeutschen, unterkühlten Atmosphäre und den Charakteren. Das Ungesagte wiegt schwerer als das Gesagte."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Seine Hände waren weich geworden, das sah sie sofort. Und sie sah auch, dass er sie nicht gern schmutzig machte.",
+          "Ilse merkte, dass sie den Atem angehalten hatte, und zwang sich, ihn wieder fließen zu lassen.",
+          "...und einen Moment lang dachte sie, er würde widersprechen."
+        ],
+        "suggestions": [
+          "Hier liegt das größte Optimierungspotenzial nach Eschbach. Filterwörter wie 'sah sie', 'merkte, dass', 'dachte sie' schaffen Distanz zur Perspektivfigur (Ilse).",
+          "Statt 'Und sie sah auch, dass er sie nicht gern schmutzig machte' besser direkt durch Handlung zeigen: 'Seine Hände waren weich geworden. Er fasste das ölige Eisen nur mit den Fingerspitzen an.'",
+          "Statt 'Ilse merkte, dass sie den Atem angehalten hatte' direkter: 'Ilse hielt den Atem an. Erst als er kniete, zwang sie sich, die Luft wieder fließen zu lassen.'",
+          "Statt '...dachte sie, er würde widersprechen' unmittelbarer in die erlebte Rede: 'Er sah sie an. Würde er widersprechen? Doch dann griff er nach dem Koffer.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Damals hatte sie nichts gesagt. Jetzt sagte sie auch nichts.",
+          "...wie ein Tier, das sich totstellt. / ...als hätten sie es eilig. / ...als sei es ein Fremdkörper. / ...als wäre es ein Handtuch am Badesee."
+        ],
+        "suggestions": [
+          "Inhaltliche Doppelungen gibt es keine, die Wortwiederholungen ('sagte nichts') sind als bewusstes Stilmittel eingesetzt und funktionieren gut.",
+          "Einziger Hinweis: Es gibt eine leichte Häufung von 'wie/als ob'-Vergleichen auf engem Raum (vier Stück in den ersten fünf Absätzen). Man könnte einen davon streichen (z.B. 'als sei es ein Fremdkörper'), um die Kraft der anderen Bilder (wie das tolle 'Handtuch am Badesee') nicht zu verwässern."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.019728
+}

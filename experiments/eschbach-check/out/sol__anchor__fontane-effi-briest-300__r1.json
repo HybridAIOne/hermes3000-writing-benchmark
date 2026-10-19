@@ -1,0 +1,134 @@
+{
+  "who": "sol",
+  "item": "anchor__fontane-effi-briest-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "In Front des schon seit Kurfürst Georg Wilhelm von der Familie von Briest bewohnten Herrenhauses zu Hohen-Cremmen",
+          "besonders von Frau und Tochter des Hauses, die denn auch heute wieder auf dem im vollen Schatten liegenden Fliesengange saßen"
+        ],
+        "suggestions": [
+          "Für einen handlungsorientierten Einstieg direkt mit Mutter und Tochter bei der Arbeit beginnen und die Umgebung ausgehend von ihrem Sitzplatz erschließen.",
+          "Die Besitzgeschichte und die vollständige Anordnung der Gebäude später einfügen, sofern sie für die weitere Handlung wichtig werden.",
+          "Den panoramatischen Einstieg nicht pauschal streichen: Er etabliert Atmosphäre, gesellschaftliches Milieu und die räumliche Ordnung des Schauplatzes."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "eine ganz in kleinblättrigem Efeu stehende, nur an einer Stelle von einer kleinen weißgestrichenen Eisentür unterbrochene Kirchhofsmauer",
+          "ein paar mächtige alte Platanen",
+          "eine mit großen schönen Stachelbeeren gefüllte Majolikaschale"
+        ],
+        "suggestions": [
+          "Wertende oder wenig unterscheidungskräftige Attribute zuerst prüfen: Bei den Stachelbeeren kann etwa „schönen“ entfallen.",
+          "Attributketten in selbstständige Aussagen überführen: „Kleinblättriger Efeu bedeckte die Kirchhofsmauer. Eine weiße Eisentür unterbrach das Grün.“",
+          "Anschauliche, atmosphärisch tragende Bestimmungen wie „mittagsstille“ oder „weiß und grün quadrierten“ gezielt erhalten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung erforderlich: Der Ausschnitt enthält keine direkte Rede und damit keine entbehrlichen Dialogkennzeichnungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Einige zwanzig Schritte weiter",
+          "ganz entschieden bevorzugt",
+          "die denn auch heute wieder",
+          "allerlei Zerstreuung"
+        ],
+        "suggestions": [
+          "Verstärkungen und Übergangspartikeln probeweise streichen: „entschieden bevorzugt“ oder schlicht „bevorzugt“; „die heute … saßen“ statt „die denn auch heute wieder … saßen“.",
+          "Bei „Einige zwanzig Schritte“ entscheiden, ob die ungefähre Entfernung erzählerisch sinnvoll ist; andernfalls genügt „zwanzig Schritte“.",
+          "Unbestimmte Mengenangaben wie „ein paar“ nicht automatisch ersetzen: Exakte Zahlen wären bei nebensächlichen Gegenständen häufig unnötig."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "während nach der Park- und Gartenseite hin ein rechtwinklig angebauter Seitenflügel einen breiten Schatten",
+          "Zwischen Teich und Rondell aber und die Schaukel halb versteckend standen ein paar mächtige alte Platanen."
+        ],
+        "suggestions": [
+          "Den mit „während“ angeschlossenen Teil des ersten Satzes als eigenen Satz formulieren, um die räumliche Orientierung zu erleichtern.",
+          "Statische räumliche Beziehungen nicht künstlich in zeitlich aufeinanderfolgende Handlungen umwandeln: Hier liegt keine übermäßige Häufung von Gleichzeitigkeit vor."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "wurde die Gartenseite ganz entschieden bevorzugt, besonders von Frau und Tochter des Hauses",
+          "des schon seit Kurfürst Georg Wilhelm von der Familie von Briest bewohnten Herrenhauses"
+        ],
+        "suggestions": [
+          "Den eindeutigen Passivsatz aktiv formulieren: „An heißen Tagen bevorzugten Frau und Tochter des Hauses die Gartenseite.“",
+          "Die passive Partizipialkonstruktion bei Bedarf auflösen: „Die Familie von Briest bewohnte das Herrenhaus seit der Zeit des Kurfürsten Georg Wilhelm.“",
+          "Nicht jede Zustandsbeschreibung als problematisches Passiv behandeln; entscheidend sind Verständlichkeit und erzählerischer Fokus."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "In Front des schon seit Kurfürst Georg Wilhelm von der Familie von Briest bewohnten Herrenhauses zu Hohen-Cremmen fiel heller Sonnenschein auf die mittagsstille Dorfstraße, während nach der Park- und Gartenseite hin",
+          "Fronthaus, Seitenflügel und Kirchhofsmauer bildeten ein einen kleinen Ziergarten umschließendes Hufeisen, an dessen offener Seite man eines Teiches mit Wassersteg und angekettetem Boot und dicht daneben einer Schaukel gewahr wurde",
+          "Auch die Front des Herrenhauses - eine mit Aloekübeln und ein paar Gartenstühlen besetzte Rampe - gewährte bei bewölktem Himmel einen angenehmen und zugleich allerlei Zerstreuung bietenden Aufenthalt"
+        ],
+        "suggestions": [
+          "Pro Satz möglichst eine räumliche Haupteinheit beschreiben: Hausfront, Seitenflügel, Rondell, Kirchhofsmauer.",
+          "Die Beschreibung der Schaukel vom Satz über die Hufeisenform der Gebäude abtrennen.",
+          "Den Satz über die bevorzugten Aufenthaltsorte vor dem Übergang zu Mutter und Tochter teilen. Fenster und Treppe anschließend gesondert beschreiben.",
+          "Einzelne längere Sätze als Stilmittel erhalten, sie aber mit kürzeren Sätzen kontrastieren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung erforderlich: Der Ausschnitt enthält keine Dialogpassagen. Die hohe Bewertung bezeichnet hier das Fehlen eines entsprechenden Problems."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "an dessen offener Seite man eines Teiches mit Wassersteg und angekettetem Boot und dicht daneben einer Schaukel gewahr wurde"
+        ],
+        "suggestions": [
+          "Den unbestimmten Wahrnehmungsfilter „man … gewahr wurde“ durch eine direkte Ortsbeschreibung ersetzen: „An der offenen Seite lagen ein Teich mit Wassersteg und angekettetem Boot sowie eine Schaukel.“",
+          "Die übrige Beschreibung ist bereits überwiegend unmittelbar formuliert; zusätzliche Wahrnehmungsverben sind nicht nötig."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Fronthaus, Seitenflügel und Kirchhofsmauer bildeten ein einen kleinen Ziergarten umschließendes Hufeisen",
+          "besonders von Frau und Tochter des Hauses",
+          "Beide, Mutter und Tochter, waren fleißig bei der Arbeit"
+        ],
+        "suggestions": [
+          "Bei „Beide, Mutter und Tochter“ genügt nach der unmittelbar vorausgehenden Einführung meist „Beide“.",
+          "Prüfen, ob die zusammenfassende Hufeisenbeschreibung einzelne vorherige Lageangaben ersetzen kann.",
+          "Wiederkehrende Ortsbezeichnungen wie „Seitenflügel“ und „Rondell“ nicht bloß durch Synonyme ersetzen: Sie dienen auch der Orientierung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021728
+}

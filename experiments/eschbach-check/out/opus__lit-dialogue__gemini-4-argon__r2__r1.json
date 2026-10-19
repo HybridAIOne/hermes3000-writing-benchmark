@@ -1,0 +1,153 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__gemini-4-argon__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Die Regieanweisung beschreibt Maries Eintreten, Zögern und Hinsetzen, bevor der erste Satz fällt.",
+          "MARIE: Du bist schon da. / LUKAS: Ich bin immer zu früh. Das weißt du doch.",
+          "Der Kaffee-Austausch (Schwarz, ohne Zucker / Hafermilch) etabliert sofort Vertrautheit und Veränderung."
+        ],
+        "suggestions": [
+          "Der Einstieg ist effizient. Optional könnte die Szene direkt mit der Tasse beginnen (Marie sitzt bereits, Lukas schiebt ihr die Tasse hin). Das spart den Auftritt, ohne Information zu verlieren. Das Zögern beim Eintreten lohnt sich aber, weil es die Spannung zwischen den beiden vorwegnimmt.",
+          "Die Begrüßungszeile ‚Du bist schon da.‘ könnte entfallen. ‚Ich bin immer zu früh.‘ funktioniert auch als Eröffnung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "setzt sich ihm dann langsam gegenüber",
+          "nickt langsam",
+          "sieht ihr fest in die Augen",
+          "lächelt bitter",
+          "Ein spärlich beleuchtetes Café",
+          "eine rein geschäftliche Entscheidung",
+          "Du warst schon immer sehr überzeugend",
+          "wirklich ein teurer Luxus"
+        ],
+        "suggestions": [
+          "‚langsam‘ kommt zweimal vor. Beim Hinsetzen ist es durch ‚bleibt kurz stehen‘ bereits impliziert und kann gestrichen werden.",
+          "‚lächelt bitter‘ nimmt die Wirkung der folgenden Zeile vorweg. ‚lächelt‘ genügt, die Bitterkeit trägt der Text.",
+          "‚sieht ihr fest in die Augen‘ → ‚hält ihren Blick‘ ist präziser und kommt ohne Adverb aus.",
+          "‚sehr‘ in ‚sehr überzeugend‘ streichen. ‚Du warst schon immer überzeugend, wenn es um deinen Vorteil ging‘ ist schärfer.",
+          "‚rein‘ sollte nur in Maries spöttischer Wiederholung stehen bleiben. Bei Lukas wirkt ‚eine geschäftliche Entscheidung‘ beiläufiger und damit glaubwürdiger als Ausrede."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Als Bühnentext arbeitet die Szene mit Sprechernamen statt Redeeinleitungen. Das ist formgerecht.",
+          "LUKAS: *(leise)* Ich habe getan, was nötig war."
+        ],
+        "suggestions": [
+          "Parentheticals wie ‚(leise)‘ sparsam halten, da Schauspieler und Regie den Ton oft selbst finden. Hier ist ‚(leise)‘ vertretbar, weil es einen Bruch in Lukas' Abwehr markiert."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sechs Monate sind eben eine lange Zeit.",
+          "Eine Menge kann passieren.",
+          "Es war letztlich eine rein geschäftliche Entscheidung",
+          "Loyalität ist heutzutage wirklich ein teurer Luxus. Man kann sich so leicht daran verbrennen.",
+          "Ich werfe nichts weg, was mir mal wichtig war."
+        ],
+        "suggestions": [
+          "In Dialogen dürfen Füllwörter Figurensprache sein. ‚wirklich‘ und ‚heutzutage‘ schwächen Maries Pointe aber ab: ‚Loyalität ist ein teurer Luxus.‘ trifft härter.",
+          "‚so leicht‘ streichen: ‚Man kann sich daran verbrennen.‘",
+          "‚Eine Menge kann passieren‘ ist vage. Konkreter und schneidender wäre z. B. ‚Da kann viel kaputtgehen.‘ (siehe auch Wiederholungen).",
+          "‚letztlich‘ passt zu Lukas' ausweichendem Ton und kann bleiben. ‚eben‘ in Zeile 4 ist dagegen entbehrlich."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "*(weicht ihrem Blick aus, dreht seinen Löffel)*",
+          "*(greift nach ihrer Tasche, steht auf)*",
+          "*(Sie geht, der Kaffee bleibt unberührt.)*"
+        ],
+        "suggestions": [
+          "Keine problematischen ‚während‘- oder ‚als‘-Konstruktionen. Die Handlungen in den Regieanweisungen folgen sauber aufeinander.",
+          "Kleine Präzisierung zum Schluss: ‚Sie geht. Die Tasse bleibt unberührt stehen.‘ trennt Handlung und Schlussbild deutlicher."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Es war letztlich eine rein geschäftliche Entscheidung der Leitung.",
+          "Keine echten Passivkonstruktionen im Text."
+        ],
+        "suggestions": [
+          "Lukas' unpersönlicher Nominalstil (‚Entscheidung der Leitung‘) ist als Ausweichmanöver der Figur sinnvoll und sollte bleiben. Er charakterisiert ihn, weil er die Verantwortung abschiebt.",
+          "Ansonsten ist der Text durchgehend aktiv formuliert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Hast du die Beförderung bekommen, für die du so... gekämpft hast?",
+          "Nicht jeder hat den Luxus, immer nur an die Gefühle anderer zu denken."
+        ],
+        "suggestions": [
+          "Die Sätze sind kurz und sprechbar, das passt zum angespannten Ton.",
+          "Lukas' Satz könnte noch knapper werden: ‚Nicht jeder kann es sich leisten, nur an andere zu denken.‘ Das ist allerdings optional."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "MARIE: Ich brauchte einen radikalen Schnitt. Alles Alte musste weg.",
+          "MARIE: Nein. Loyalität ist heutzutage wirklich ein teurer Luxus. Man kann sich so leicht daran verbrennen.",
+          "MARIE: Behalt sie. Oder wirf sie weg. Ich brauche keinen Ballast mehr."
+        ],
+        "suggestions": [
+          "Die Repliken sind kurz. Einige Zeilen sprechen den Subtext aber zu deutlich aus. ‚Alles Alte musste weg.‘ erklärt den Haarschnitt-Witz; ‚Ich brauchte einen Tapetenwechsel.‘ oder nur ‚Es war Zeit.‘ lässt mehr Raum.",
+          "‚Man kann sich so leicht daran verbrennen.‘ streichen. Die Pointe sitzt bereits mit ‚teurer Luxus‘.",
+          "‚Ich brauche keinen Ballast mehr.‘ streichen. ‚Behalt sie. Oder wirf sie weg.‘ ist kälter und wirkungsvoller."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "*(starrt auf die Tasse)*",
+          "*(spannt den Kiefer an)*",
+          "Keine Konstruktionen wie ‚sie sah, dass‘ oder ‚er dachte, dass‘."
+        ],
+        "suggestions": [
+          "Gefühle werden über Körpersprache gezeigt (Kiefer anspannen, Blick ausweichen, Löffel drehen). Das ist vorbildlich.",
+          "Einzige Ausnahme sind wertende Anweisungen wie ‚lächelt bitter‘, die die Interpretation vorgeben statt sie zu zeigen. Besser wäre eine sichtbare Handlung, z. B. ‚lächelt, ohne ihn anzusehen‘."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sechs Monate sind eben eine lange Zeit. / Eine Menge kann passieren. Oder kaputtgehen.",
+          "Ich brauchte einen radikalen Schnitt. Alles Alte musste weg. / Ich brauche keinen Ballast mehr.",
+          "Loyalität ist heutzutage wirklich ein teurer Luxus. Man kann sich so leicht daran verbrennen.",
+          "setzt sich ihm dann langsam gegenüber / nickt langsam"
+        ],
+        "suggestions": [
+          "Maries Motiv ‚Ich habe mit dem Alten abgeschlossen‘ wird dreimal formuliert (Schnitt, alles Alte weg, kein Ballast). Einmal genügt, am stärksten wirkt es implizit am Ende mit ‚Behalt sie. Oder wirf sie weg.‘",
+          "‚Sechs Monate sind eine lange Zeit‘ und ‚Eine Menge kann passieren‘ sagen dasselbe. Vorschlag: LUKAS: ‚Sechs Monate.‘ – MARIE: ‚Da geht einiges kaputt.‘",
+          "Bewusste Echos wie ‚Luxus‘ und ‚Rein geschäftlich‘ funktionieren als Konter und sollten bleiben. Die Doppelung ‚teurer Luxus / verbrennen‘ verwässert sie jedoch.",
+          "Zweites ‚langsam‘ ersetzen oder streichen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.11096
+}

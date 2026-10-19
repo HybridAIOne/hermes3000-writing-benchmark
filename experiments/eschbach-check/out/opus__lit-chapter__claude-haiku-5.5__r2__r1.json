@@ -1,0 +1,178 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__claude-haiku-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse Brandt das andere Ufer nicht sehen konnte.",
+          "Sie zog den Reißverschluss der Jacke bis ans Kinn, drückte den Knopf für die Motoren und hörte, wie das Schiff unter ihren Füßen zu arbeiten begann.",
+          "Auf dem Pult lag der Zettel mit den Abfahrtszeiten, daneben die Blechdose für das Wechselgeld. Sie schob sie ein Stück zur Seite, wie jeden Morgen, und sah dann auf die Uhr."
+        ],
+        "suggestions": [
+          "Der Einstieg über den Nebel ist atmosphärisch und führt das zentrale Motiv ein. Er sollte erhalten bleiben.",
+          "Der zweite Absatz mit Motorstart, Zettel und Blechdose verzögert die Handlung. Er ließe sich auf ein bis zwei Sätze verdichten, damit Kolb früher auftritt. Die Routine-Geste ('wie jeden Morgen') vermittelt allein schon genug Gewohnheit.",
+          "Alternativ könnte die Szene mit 'Der erste war Kolb mit seinem Dackel.' beginnen. Der Nebel und die einundvierzig Jahre ließen sich dann in die Überfahrt einflechten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„schaute kurz darauf“, „Ilse fragte sich kurz“, „kurz nach halb acht“, „mit einem kurzen Ton“ – viermal 'kurz'",
+          "„Die Fähre löste sich vom Anleger, langsam, mit diesem schweren Ruck“",
+          "„Der Mann am Heck drehte sich langsam um“",
+          "„stieß sanft gegen den Anleger“",
+          "„redete leise mit dem Hund“",
+          "„wo das Wasser sich plötzlich drehte“"
+        ],
+        "suggestions": [
+          "Die Adjektive sind überwiegend konkret und bildstark ('roten Helm', 'Gummistiefeln', 'dunklen Mantel'). Insgesamt ist der Umgang sparsam.",
+          "Das wiederholte 'kurz' sollte reduziert werden: 'schaute darauf und steckte es weg' trägt das Flüchtige bereits in sich.",
+          "Statt 'drehte sich langsam um' ginge 'wandte sich um'. Statt 'stieß sanft gegen' ginge 'setzte am Anleger auf' oder 'schmiegte sich an den Anleger'.",
+          "'plötzlich' ist entbehrlich, denn 'als hätte es es sich anders überlegt' transportiert die Abruptheit bereits."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Nebel hält sich“, sagte Kolb.",
+          "„Ist es hier sicher?“, fragte sie.",
+          "„Sie können sich hinsetzen“, sagte sie. „Die Bank ist trocken.“",
+          "„Den Rest behalten Sie“, sagte er."
+        ],
+        "suggestions": [
+          "Der Wechsel 'Moin' / 'Kalt heute' / 'November' ganz ohne Inquit ist vorbildlich und sollte als Maßstab dienen.",
+          "„Der Nebel hält sich“, sagte Kolb: Nur zwei Personen sind anwesend, der Sprecher ist eindeutig. Das 'sagte Kolb' kann entfallen oder durch eine Handlung ersetzt werden (z. B. 'Kolb zog die Mütze tiefer.').",
+          "„Ist es hier sicher?“, fragte sie: Das Fragezeichen und der Kontext genügen, das Inquit kann wegfallen.",
+          "„Den Rest behalten Sie“, sagte er: Die Geste mit dem Fünfeuroschein macht den Sprecher bereits klar, also besser streichen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Ein wenig Strömung von oben, nichts Ungewöhnliches.“",
+          "„Sie schob sie ein Stück zur Seite“",
+          "„Nach einer Weile wandte er sich wieder dem Fluss zu.“",
+          "„Einen Augenblick später meldete es sich“",
+          "„Dann fahren wir eben drumherum.“",
+          "„Sie wusste auch so, wer es war.“",
+          "„bevor sie ihn richtig sehen konnte“"
+        ],
+        "suggestions": [
+          "'Ein wenig Strömung' lässt sich präzisieren, etwa als 'Leichte Strömung von oben' oder konkret beobachtet: 'Die Bojenkette stand schräg.'",
+          "'Nach einer Weile' und 'Einen Augenblick später' sind vage Zeitmarker. Sie lassen sich oft streichen, ohne dass der Ablauf verloren geht.",
+          "'richtig' in 'bevor sie ihn richtig sehen konnte' ist entbehrlich: 'bevor sie ihn sah'.",
+          "'eben' in Ilses Dialog passt zur Figur und zur norddeutschen Knappheit, es kann bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Kolb lachte, als hätte sie einen Witz gemacht“",
+          "„Der Hund ... schaute zu Ilse hoch, als erwarte er etwas von ihr.“",
+          "„wo das Wasser sich plötzlich drehte, als hätte es es sich anders überlegt“",
+          "„Der Mann am Heck drehte sich langsam um, als hätte er auf dieses Zeichen gewartet.“",
+          "„Kolb sagte etwas über den Dackel, die Frau mit dem Helm tippte auf ihrem Handy herum, der Mann am Heck rührte sich nicht.“"
+        ],
+        "suggestions": [
+          "'während' und 'gleichzeitig' fehlen ganz, und die Handlungen werden überwiegend sauber nacheinander erzählt. Das ist eine Stärke.",
+          "Das 'als' erscheint fast nur in Vergleichskonstruktionen ('als hätte/als erwarte'), viermal im Text. Mindestens einen dieser Vergleiche sollte man streichen oder in eine direkte Aussage umwandeln, z. B. 'Der Mann am Heck drehte sich um. Er hatte auf dieses Zeichen gewartet.'",
+          "Das Tableau der drei Fahrgäste beim Ablegen funktioniert als bewusstes Simultanbild und kann bleiben."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Sie schaute auf den Pegel, der an der Pfeilerseite angebracht war.“",
+          "„Vorn tauchte, halb verschluckt vom Dunst, der Pfahl am anderen Ufer auf.“"
+        ],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert.",
+          "'der an der Pfeilerseite angebracht war' ist ein unnötiger Relativsatz im Zustandspassiv. Besser: 'Sie schaute auf den Pegel an der Pfeilerseite.'",
+          "'halb verschluckt vom Dunst' ist ein bildhaftes Partizip und kann bleiben."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Heute musste sie sich auf das Seil verlassen, die Stahlleine, die von Pfahl zu Pfahl durch den Strom lief und die Fähre führte, ob man sie sah oder nicht.“",
+          "„Sie erkannte ihn an den Gummistiefeln, bevor sie ihn richtig sehen konnte, dann tauchte er aus dem Dunst auf, die Leine um die Faust gewickelt, der Hund zog nach vorn wie an einem Schlitten.“",
+          "„Es war Mittwoch, es war kurz nach halb acht, und er rief immer um diese Zeit an, wenn er im Auto saß oder auf dem Weg ins Büro war, mit dieser Stimme, die sich bemühte, ruhig zu klingen.“",
+          "„Sie hatte ihm vor Jahren einmal ein Stück Wurst zugeworfen und seitdem nicht mehr vergessen, dass er es bemerkt hatte.“"
+        ],
+        "suggestions": [
+          "Der Wechsel zwischen langen und knappen Sätzen ('Wer kommen wollte, würde kommen.') erzeugt einen guten Rhythmus.",
+          "Den Seil-Satz teilen: 'Heute musste sie sich auf das Seil verlassen. Die Stahlleine lief von Pfahl zu Pfahl durch den Strom und führte die Fähre, ob man sie sah oder nicht.'",
+          "Den Kolb-Satz teilen: 'Sie erkannte ihn an den Gummistiefeln. Dann tauchte er aus dem Dunst auf, die Leine um die Faust gewickelt. Der Hund zog nach vorn wie vor einem Schlitten.'",
+          "Der Wurst-Satz ist logisch verschachtelt: Wer vergisst was? Klarer wäre: 'Sie hatte ihm vor Jahren einmal ein Stück Wurst zugeworfen. Er hatte es nicht vergessen.'",
+          "Der Anrufer-Satz ist in seiner Atemlosigkeit gewollt, würde aber durch einen Punkt nach 'halb acht' an Wucht gewinnen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Kalt heute.“ / „November.“",
+          "„Der Nebel hält sich“, sagte Kolb. / „Der hält sich immer im November.“ / „Ja, das stimmt.“",
+          "„Das Seil ist seit 1978 nicht gerissen.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, charakterisierend und subtextreich, eine klare Stärke des Textes.",
+          "Der zweite Wetterwechsel ('Der Nebel hält sich' / 'Der hält sich immer im November' / 'Ja, das stimmt.') wiederholt inhaltlich den ersten ('Kalt heute' / 'November'). 'Ja, das stimmt.' könnte entfallen, sodass Kolb direkt zum Kran übergeht."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "„dass Ilse Brandt das andere Ufer nicht sehen konnte“",
+          "„Sie wusste, dass es da war, weil sie es seit einundvierzig Jahren ... ansteuerte.“",
+          "„und hörte, wie das Schiff unter ihren Füßen zu arbeiten begann“",
+          "„Sie hörte, wie er nach einer Antwort suchte, und ließ ihn suchen.“",
+          "„Ilse fragte sich kurz, wohin er wollte, dann dachte sie, dass es sie nichts anging.“",
+          "„Sie wusste auch so, wer es war.“",
+          "„und spürte, wie das Schiff unter ihr in die Kurve ging“",
+          "„und hatte ihn nicht kommen hören“"
+        ],
+        "suggestions": [
+          "Hier liegt das größte Verbesserungspotenzial. Wahrnehmungsfilter ('hörte, wie', 'spürte, wie', 'wusste, dass', 'dachte, dass') schieben eine Instanz zwischen Leser und Geschehen.",
+          "'und hörte, wie das Schiff unter ihren Füßen zu arbeiten begann' → 'Unter ihren Füßen begann das Schiff zu arbeiten.'",
+          "'und spürte, wie das Schiff unter ihr in die Kurve ging' → 'Unter ihr ging das Schiff in die Kurve.'",
+          "'Ilse fragte sich kurz, wohin er wollte, dann dachte sie, dass es sie nichts anging.' → 'Wohin wollte der? Ging sie nichts an.' (erlebte Rede)",
+          "'Sie wusste, dass es da war' → 'Es war da. Seit einundvierzig Jahren steuerte sie es jeden Morgen gegen halb acht an.'",
+          "'Der Nebel lag so dicht ..., dass Ilse Brandt das andere Ufer nicht sehen konnte' → 'Der Nebel lag so dicht auf dem Wasser, dass das andere Ufer verschwunden war.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„seit einundvierzig Jahren“ / „den sie seit Jahrzehnten spürte“ / „Sie kannte die Strecke auch ohne Sicht“: mehrfache Betonung ihrer Routine und Erfahrung",
+          "„Sie wusste, dass es da war“ / „Sie wusste auch so, wer es war“",
+          "„blieb vor dem Pult stehen“ / „ging zum Heck und blieb dort stehen“",
+          "„als hätte sie einen Witz gemacht“ / „unsicher, ob das ein Scherz war“: zweimal das Motiv 'Witz'",
+          "„Nebel“ / „Dunst“ erscheinen sehr häufig (Nebel ca. 7×)",
+          "„schaute zu Ilse hoch“ / „schaute auf den Pegel“ / „schaute kurz darauf“ / „sah auf die Uhr“ / „sah geradeaus“ / „sah nicht hin“"
+        ],
+        "suggestions": [
+          "Die Routine Ilses wird gleich mehrfach etabliert. Ein starkes Signal genügt, z. B. die 'einundvierzig Jahre' am Anfang. 'seit Jahrzehnten' kann dann entfallen oder konkreter werden.",
+          "Beim Mann im Mantel das zweite 'blieb stehen' variieren, z. B. 'ging zum Heck und lehnte sich an das Geländer, den Rücken zu ihnen'.",
+          "Den Witz-Kontrast bewusst einsetzen oder variieren: Bei Kolb funktioniert er als Charakterisierung, bei der jungen Frau könnte die Unsicherheit über ihre Reaktion gezeigt werden ('Die junge Frau öffnete den Mund und schloss ihn wieder.').",
+          "'Nebel' ist das Leitmotiv, darf also wiederkehren. Dennoch einige Vorkommen durch indirekte Bilder ersetzen (grauer Rand, verschwundene Uferlinie, feuchte Reling).",
+          "Bei 'sah/schaute' mehr Variation oder Streichung: Oft genügt das Objekt ('Die Uhr zeigte 7:28.')."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.162128
+}

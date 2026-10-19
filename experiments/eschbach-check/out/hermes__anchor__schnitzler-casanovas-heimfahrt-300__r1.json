@@ -1,0 +1,111 @@
+{
+  "who": "hermes",
+  "item": "anchor__schnitzler-casanovas-heimfahrt-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Der Text beginnt mit einer langen biografischen Einleitung und Reflexion über Casanovas Zustand, statt direkt in eine konkrete Handlung einzusteigen."
+        ],
+        "suggestions": [
+          "Beginne die Szene direkt mit einer Handlung, die Casanovas Situation verdeutlicht (z.B. wie er in dem Gasthof sitzt oder einen Brief schreibt), statt den inneren Zustand abstrakt zu beschreiben."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "luftigen Höhen",
+          "schmerzliches Sehnen",
+          "echte Reue",
+          "unverzeihlichste",
+          "übelberüchtigten"
+        ],
+        "suggestions": [
+          "Streiche schmückende Adjektive, die keine neue Information liefern. Konzentriere dich auf starke Verben, die die Stimmung ohne Adjektive transportieren."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": []
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "übrigens",
+          "allmählich",
+          "fast",
+          "irgendwie (impliziert durch die Satzstruktur)"
+        ],
+        "suggestions": [
+          "Entferne Füllwörter wie 'übrigens' oder 'allmählich', die den Lesefluss bremsen und die Aussage abschwächen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "als Casanova... gejagt wurde",
+          "während... (implizit durch die verschachtelte Satzstruktur)"
+        ],
+        "suggestions": [
+          "Vermeide komplexe Nebensatzkonstruktionen. Beschreibe Handlungen nacheinander, um die Dynamik zu erhöhen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["durch die Welt gejagt wurde"],
+        "suggestions": [
+          "Formuliere aktiv: 'Die Ruhelosigkeit des Alters jagte ihn durch die Welt'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Der gesamte erste Absatz besteht aus nur drei Sätzen, die extrem verschachtelt sind und über mehrere Zeilen gehen."
+        ],
+        "suggestions": [
+          "Teile die langen Sätze in kürzere, prägnante Einheiten auf. Ein Satz sollte idealerweise nur einen Hauptgedanken enthalten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": []
+      },
+      "indirectPerception": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "fühlte er in seiner Seele das Heimweh",
+          "Er glaubte um so sicherer auf Erhörung rechnen zu dürfen",
+          "schien sich... auszusprechen"
+        ],
+        "suggestions": [
+          "Stelle das Erleben direkt dar. Statt 'Er fühlte Heimweh', beschreibe, wie er sehnsüchtig aus dem Fenster auf die Straße starrt oder Venedig in seinen Gedanken heraufbeschwört."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Die Beschreibung seiner Vergangenheit und seiner Sünden wird mehrfach umschrieben, ohne neue Fakten hinzuzufügen."
+        ],
+        "suggestions": [
+          "Fasse die Hintergrundinformationen kompakter zusammen oder streiche sie, wenn sie für die aktuelle Szene nicht unmittelbar relevant sind."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

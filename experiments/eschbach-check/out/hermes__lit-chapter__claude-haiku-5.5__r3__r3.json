@@ -1,0 +1,94 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-haiku-5.5__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Der Nebel lag so dicht über dem Fluss..."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark. Man könnte noch früher einsteigen, indem man direkt mit der Handlung (dem Motorstart) beginnt, um den Leser sofort ins Geschehen zu werfen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["tiefer, gleichmäßiger Ton", "vielleicht zwanzig"],
+        "suggestions": [
+          "Einige Adjektive sind redundant. 'Tiefer, gleichmäßiger Ton' könnte zu 'tiefer Ton' gekürzt werden, da der Rhythmus des Seils das Gleichmäßige bereits impliziert."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["sagte der Mann", "sagte die junge Frau"],
+        "suggestions": ["Die Kennzeichnungen sind unaufdringlich und gut platziert."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["vielleicht", "irgendetwas", "einfach"],
+        "suggestions": [
+          "Wörter wie 'vielleicht' oder 'einfach' schwächen die Aussagekraft. 'Sie war etwa zwanzig' klingt präziser als 'Sie war vielleicht zwanzig'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["während", "als"],
+        "suggestions": [
+          "Die zeitlichen Abläufe sind sehr klar strukturiert. Keine Überladung mit 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Motor kam husten", "Die Fähre löste sich"],
+        "suggestions": [
+          "Sehr aktive und starke Verben. Das Passiv wurde fast vollständig vermieden."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Sie hatte es in den Jahrzehnten, in denen sie diese Fähre fuhr, nie anders erlebt als so, wie man einen Raum kennt, in dem das Licht ausgegangen ist: man findet sich zurecht, ohne etwas zu sehen."
+        ],
+        "suggestions": [
+          "Der Satz ist lang, aber gut rhythmisiert. Gelegentlich könnten Schachtelsätze für mehr Dynamik in zwei Sätze geteilt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Guten Morgen«, sagte der Mann. »Morgen.«"],
+        "suggestions": [
+          "Die Dialoge sind angenehm kurz und prägnant. Sie passen gut zum Charakter der Protagonistin."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Sie wusste, dass es dort war.",
+          "Sie hörte, wie er überlegte, ob das eine Antwort war, und entschied, dass es keine Rolle spielte."
+        ],
+        "suggestions": [
+          "Hier wird zu viel 'erzählt' (telling) statt 'gezeigt' (showing). Statt 'Sie hörte, wie er überlegte', beschreibe sein Zögern oder seinen Blick, damit der Leser die Überlegung selbst erschließen kann."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Das Seil sang weiter.", "Das Telefon blieb still."],
+        "suggestions": [
+          "Einige Wiederholungen (z.B. das singende Seil) dienen der Atmosphäre, könnten aber an einer Stelle gestrichen werden, um die Wirkung zu erhöhen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

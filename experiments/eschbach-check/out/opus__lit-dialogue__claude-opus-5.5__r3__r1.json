@@ -1,0 +1,119 @@
+{
+  "who": "opus",
+  "item": "lit-dialogue__claude-opus-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ein Café am Marktplatz. Martin sitzt bereits. Jörg bleibt kurz in der Tür stehen, dann kommt er herüber.",
+          "JÖRG: Du hast den Tisch am Fenster genommen."
+        ],
+        "suggestions": [
+          "Der Einstieg ist gut gewählt. Die Begrüßung fehlt, die erste Replik transportiert bereits die Vorgeschichte.",
+          "Optional kann die Szene direkt mit Jörg am Tisch beginnen. Das Zögern in der Tür ist allerdings ein starkes Bild und sollte bleiben, wenn es szenisch umsetzbar ist."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "(schiebt die Dose langsam in die Mitte)",
+          "Martin nickt langsam. Er sieht lange auf seine Tasse.",
+          "Lange Stille.",
+          "Jörg bleibt kurz in der Tür stehen"
+        ],
+        "suggestions": [
+          "‚langsam‘ und ‚lange‘ erscheinen je zweimal in den Regieanweisungen und schwächen sich so gegenseitig ab. Pro Begriff eine Stelle genügt.",
+          "‚Martin nickt langsam‘ lässt sich zu ‚Martin nickt.‘ kürzen. Der folgende Satz mit dem Blick auf die Tasse trägt das Gewicht bereits.",
+          "Statt ‚Lange Stille.‘ reicht ‚Stille.‘ Der vorbeifahrende Bus markiert die Dauer schon."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Dramenform mit Sprecherangaben, keine Redeeinleitungen wie ‚sagte er‘",
+          "MARTIN: (rührt im Kaffee) Nicht wörtlich."
+        ],
+        "suggestions": [
+          "Kein Handlungsbedarf. Die eingeschobenen Regieanweisungen sind sparsam und funktional gesetzt."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Martin sitzt bereits.",
+          "Früher war vieles anders.",
+          "Setz dich doch.",
+          "Du warst ja zuerst da."
+        ],
+        "suggestions": [
+          "‚doch‘, ‚ja‘ und ‚vieles‘ stehen in der Figurenrede und wirken dort natürlich. Sie können bleiben.",
+          "‚bereits‘ in der Regieanweisung ist entbehrlich: ‚Martin sitzt.‘ oder ‚Martin sitzt am Fenster.‘ Das bereitet zugleich die erste Replik vor."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Beide greifen gleichzeitig nach dem Zucker. Beide ziehen die Hand zurück."],
+        "suggestions": [
+          "Die Gleichzeitigkeit ist hier dramaturgisch gewollt und die einzige Stelle im Text. Handlungen werden sonst konsequent nacheinander geschildert. Beibehalten."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Passivkonstruktionen vorhanden. Regieanweisungen und Dialog sind durchgehend aktiv formuliert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Er zögert. Dann zieht er die Jacke aus und hängt sie über die Stuhllehne."],
+        "suggestions": ["Kurze, klare Sätze, die zum lakonischen Ton passen. Kein Handlungsbedarf."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "JÖRG: Du siehst gut aus. / MARTIN: Danke. Du auch. / JÖRG: Lüg nicht. / MARTIN: Gut. Dann eben nicht.",
+          "JÖRG: Und die Werkstatt läuft? / MARTIN: Sie läuft. / JÖRG: Allein?"
+        ],
+        "suggestions": [
+          "Die Repliken sind knapp und subtextreich. Prüfen lässt sich höchstens, ob der Austausch über das Schild (‚Ich hab das Schild gesehen. Neu gemacht.‘) neben der Werkstatt-Frage nötig ist. Er verstärkt allerdings das Thema der Veränderung und kann bleiben, wenn er auf einen Namenswechsel anspielt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["MARTIN: Ich wollte nur sichergehen, dass sie angekommen sind."],
+        "suggestions": [
+          "Keine indirekte Wahrnehmung in den Regieanweisungen. Innere Zustände werden über Handlung gezeigt (Jacke anbehalten, Jacke ausziehen, Zucker hinschieben). Die dass-Konstruktion im Dialog ist figurengerecht und bewusst spitz."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "JÖRG: Ich weiß. / MARTIN: Zweimal. / JÖRG: Ich weiß, Martin.",
+          "MARTIN: Das hat mir keiner gesagt. / JÖRG: Nein. Hat dir keiner gesagt.",
+          "Pause. / Lange Stille. / (Pause)",
+          "Keiner rührt seinen an. – später: MARTIN: (rührt im Kaffee)"
+        ],
+        "suggestions": [
+          "Die Echo-Repliken sind ein bewusst eingesetztes Stilmittel und funktionieren gut.",
+          "Pausen und Stille werden dreimal ausdrücklich angewiesen. Mindestens eine lässt sich streichen, da der lakonische Dialog die Pausen ohnehin erzeugt.",
+          "Kleiner Anschlussfehler: Erst rührt keiner den Kaffee an, wenig später rührt Martin darin. Falls das als Entwicklung gemeint ist, kann es bleiben. Sonst ‚(dreht die Tasse)‘ oder Ähnliches verwenden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.07298
+}

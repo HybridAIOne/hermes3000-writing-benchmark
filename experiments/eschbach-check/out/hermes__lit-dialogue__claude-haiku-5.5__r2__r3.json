@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__claude-haiku-5.5__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ein Café am Hafen. Regen am Fenster."],
+        "suggestions": ["Der Einstieg ist atmosphärisch und direkt. Keine Änderung nötig."]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["langsam näher", "lang und dunkel"],
+        "suggestions": [
+          "Statt 'langsam näher' könnte man schreiben: 'Sie nähert sich'. 'Lang und dunkel' könnte durch ein präziseres Wort wie 'dröhnend' ersetzt werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Da es sich um ein Skriptformat handelt, sind keine Redeeinleitungen nötig. Die Zuordnung ist klar."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Natürlich"],
+        "suggestions": [
+          "Das Wort 'Natürlich' unterstreicht hier die Spannung zwischen den Charakteren und ist daher funktional."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine 'während'-Konstruktionen verwendet. Die Handlungen sind klar sequenziell."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Passiv verwendet. Sehr aktiv und direkt."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Grau.", "Gut."],
+        "suggestions": [
+          "Die kurzen Sätze erzeugen eine sehr gute, unterkühlte Spannung. Beibehalten."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind prägnant und auf den Punkt. Keine Straffung nötig."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Er sieht es, sagt nichts."],
+        "suggestions": [
+          "Statt 'Er sieht es' (indirekt) könnte man die Reaktion zeigen: 'Sein Blick verweilt auf dem Knopf, doch er schweigt.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Erinnerst du dich... Ich erinnere mich"],
+        "suggestions": [
+          "Die Wiederholung ist hier ein bewusstes Stilmittel, um die Distanz zu verdeutlichen. Gut gelöst."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

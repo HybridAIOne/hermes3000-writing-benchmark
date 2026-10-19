@@ -1,0 +1,79 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__gpt-6-luna__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Läuft“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er den Leser direkt in eine laufende Handlung wirft."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["grau und glatt", "klein und alt"],
+        "suggestions": ["Die Adjektive sind sparsam und treffend gewählt. Keine Änderungen nötig."]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["„Läuft“, sagte Ilse.", "„Wie lange bist du schon hier?“, fragte er."],
+        "suggestions": [
+          "Bei den sehr kurzen, schnellen Dialogwechseln könnten einige Kennzeichnungen gestrichen werden, da der Sprecherwechsel durch den Absatzwechsel bereits klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist erfreulich frei von Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Als sie die Tasse erreichte"],
+        "suggestions": [
+          "Die Verwendung von 'Als' ist hier funktional und stört den Lesefluss nicht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr aktiv und dynamisch formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind prägnant, realistisch und treiben die Geschichte voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["als prüfe er, was sich verändert hatte"],
+        "suggestions": [
+          "Die Wahrnehmung ist meist direkt. Die Formulierung 'als prüfe er' ist eine Interpretation, die aber gut zum Stil passt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Keine inhaltlichen Doppelungen oder unnötigen Umschreibungen gefunden."]
+      }
+    }
+  },
+  "costUsd": 0
+}

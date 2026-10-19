@@ -1,0 +1,91 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6.1-sol__r2",
+  "run": 2,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so tief, dass Ilse das andere Ufer nicht sehen konnte."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und etabliert sofort die Stimmung und den Konflikt (Sichtweite). Beibehalten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["weiß", "rot", "grau", "klein", "blau"],
+        "suggestions": [
+          "Der Text ist angenehm reduziert. Achte darauf, dass Adjektive wie 'klein' (kleiner blauer Wagen) nur dann stehen, wenn sie wirklich zur Charakterisierung beitragen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Morgen.“ / „Morgen.“"],
+        "suggestions": [
+          "Die Dialogführung ist sehr präzise und verzichtet fast vollständig auf unnötige Begleitsätze. Sehr gut."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["ein Stück Wasser", "ein Stück zurück"],
+        "suggestions": [
+          "'Ein Stück' wird zweimal verwendet. Das ist kein grober Fehler, aber 'ein Stück Wasser' könnte präziser durch 'ein Wasserstreifen' oder einfach 'Wasser' ersetzt werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["während Ilse das Wechselgeld aus der Ledertasche zählte"],
+        "suggestions": [
+          "Die Verwendung von 'während' ist hier korrekt, aber für mehr Dynamik könnte man den Satz teilen: 'Die Frau hielt ihr Portemonnaie mit beiden Händen. Ilse zählte das Wechselgeld aus der Ledertasche.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ilse hob die Hand.", "Er rollte weiter."],
+        "suggestions": ["Der Text ist fast vollständig aktiv formuliert. Vorbildlich."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie sah die ersten drei Meter der Auffahrt, den weißen Pfosten mit dem roten Ring und ein Stück Wasser, das aussah wie das Blech in ihrer Spüle."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind gut variiert und unterstützen den ruhigen, fast monotonen Rhythmus der Arbeit auf der Fähre."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Geht das überhaupt?“ / „Bei dem Nebel, mein ich.“"],
+        "suggestions": [
+          "Die Dialoge sind kurz, funktional und charakterisierend. Keine Straffung nötig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Sie sah auf sein anderes Bein", "Sie sah es aus dem Augenwinkel"],
+        "suggestions": [
+          "Die 'Sie sah'-Konstruktionen filtern die Wahrnehmung. Statt 'Sie sah auf sein anderes Bein, das noch über dem Rahmen stand' könnte man schreiben: 'Sein anderes Bein stand noch über dem Rahmen.' Das macht die Szene unmittelbarer."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["keine signifikanten inhaltlichen Doppelungen"],
+        "suggestions": [
+          "Der Text ist sehr ökonomisch geschrieben. Keine inhaltlichen Redundanzen gefunden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

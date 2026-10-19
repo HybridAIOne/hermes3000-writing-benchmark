@@ -1,0 +1,128 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Thomas sitzt schon am Tisch, als Jan hereinkommt. Beide zögern.",
+          "JAN: Du bist früh."
+        ],
+        "suggestions": [
+          "Den Einstieg grundsätzlich beibehalten: Er beginnt unmittelbar mit der Begegnung und vermittelt Spannung ohne Vorgeschichte.",
+          "„Beide zögern“ könnte entfallen, wenn Spiel und folgende Dialogpausen das Zögern bereits vermitteln."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ein kurzes Lächeln, das sofort wieder verschwindet.",
+          "THOMAS: *(leise)* Ich auch nicht.",
+          "Jan setzt sich langsam."
+        ],
+        "suggestions": [
+          "Die Lächeln-Regie lässt sich verdichten: „Ein Lächeln, das sofort verschwindet.“ Die Kürze ergibt sich bereits aus dem Verschwinden.",
+          "„Leise“ und „langsam“ nur beibehalten, wenn Lautstärke und Bewegungstempo für die Inszenierung wesentlich sind; hier unterstützen sie die Annäherung."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["JAN: Du bist früh.", "THOMAS: Ich war in der Gegend."],
+        "suggestions": [
+          "Die eindeutigen Sprecherbezeichnungen beibehalten. Im dramatischen Format sind sie funktional und keine überflüssigen Redeeinleitungen.",
+          "Keine zusätzlichen Kennzeichnungen wie „sagt er“ ergänzen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "THOMAS: Natürlich nicht.",
+          "THOMAS: Bleib. Trink wenigstens den Kaffee.",
+          "JAN: Nur den Kaffee."
+        ],
+        "suggestions": [
+          "„Natürlich“, „wenigstens“ und „nur“ nicht pauschal streichen: Sie transportieren Vorwurf, Bitte und Abgrenzung.",
+          "Die präzise Zeitangabe „in zwanzig Minuten“ beibehalten; sie macht Jans vorgeschobenen Aufbruch konkret."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Thomas sitzt schon am Tisch, als Jan hereinkommt.",
+          "Jan hängt die Jacke über die Stuhllehne, nimmt sie wieder ab und legt sie über den Arm."
+        ],
+        "suggestions": [
+          "Die überwiegend nacheinander dargestellten Handlungen beibehalten.",
+          "Die einmalige „als“-Konstruktion muss nicht aufgelöst werden: Sie klärt die Ausgangssituation knapp und verständlich."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Kellnerin stellt zwei Tassen ab.", "Draußen fährt ein Zug ein."],
+        "suggestions": [
+          "Keine Änderung erforderlich: Die Handlungen sind aktiv formuliert; vermeidbare Passivkonstruktionen fehlen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Jan hängt die Jacke über die Stuhllehne, nimmt sie wieder ab und legt sie über den Arm.",
+          "Schweigen. Jan rührt in einer Tasse, in der noch nichts ist."
+        ],
+        "suggestions": [
+          "Die übersichtliche Satzstruktur beibehalten. Auch die längere Jacken-Regie bildet eine klar nachvollziehbare Handlungsfolge.",
+          "Nicht weiter in Einzelsätze zerlegen: Das könnte den bereits stark unterbrochenen Rhythmus unnötig verstärken."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "JAN: Ich wusste nicht, was.",
+          "THOMAS: *(leise)* Ich auch nicht. Geschrieben hab ich trotzdem."
+        ],
+        "suggestions": [
+          "Die knappen Repliken beibehalten: Sie vermitteln den Konflikt über Auslassungen statt über erklärende Monologe.",
+          "Keine nachträglichen Erläuterungen zur gemeinsamen Vergangenheit ergänzen, sofern die Offenheit beabsichtigt ist."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Jan sieht aus dem Fenster. Draußen fährt ein Zug ein.",
+          "Keiner bewegt sich."
+        ],
+        "suggestions": [
+          "Die unmittelbare Darstellung beibehalten.",
+          "„Jan sieht aus dem Fenster“ ist eine spielbare Handlung, kein entbehrlicher Wahrnehmungsfilter wie „Jan sieht, dass draußen ein Zug einfährt“."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "JAN: Einen Kaffee. Schwarz. / THOMAS: Schwarz, ja.",
+          "JAN: Das ist vernünftig. / THOMAS: Sie ist vernünftig.",
+          "JAN: Nur den Kaffee. / THOMAS: Nur den Kaffee."
+        ],
+        "suggestions": [
+          "Die Wiederholungen überwiegend erhalten: Sie verändern die Bedeutung des Gesagten und zeigen vorsichtige Kontaktaufnahme beziehungsweise unterschwelligen Widerspruch.",
+          "Am ehesten „Schwarz, ja“ auf seine dramaturgische Funktion prüfen. Ohne erkennbare Bedeutung für die Beziehung könnte diese Replik entfallen.",
+          "Die Schlusswiederholung unbedingt bewahren: Dieselben Worte wirken bei Jan als Grenze und bei Thomas als Zustimmung zur vorläufigen Nähe."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016818
+}

@@ -1,0 +1,95 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gemini-4-argon__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht über der Elbe, dass das andere Ufer verschwunden war."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr atmosphärisch und setzt genau zum richtigen Zeitpunkt ein, um den Leser sofort in die Stimmung zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["träge ziehendes Wasser", "stählerne Deck"],
+        "suggestions": [
+          "'Träge' impliziert bereits eine Bewegung, 'ziehend' ist hier leicht redundant. 'Stählerne Deck' könnte präziser als 'Stahldeck' bezeichnet werden."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Morgen, Ilse“, sagte Kalle", "„Morgen.“ Ilse ließ..."],
+        "suggestions": [
+          "Die Kennzeichnungen sind sparsam und effektiv eingesetzt. Der Text verlässt sich zu Recht auf den Kontext."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr sauber und kommt ohne unnötige Füllwörter aus."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als Ilse vor ihn trat..."],
+        "suggestions": [
+          "Die Handlungsabfolge ist logisch und klar strukturiert. Es gibt keine überladenen 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["das andere Ufer verschwunden war"],
+        "suggestions": [
+          "Der Text ist überwiegend aktiv formuliert. Das verwendete Passiv/Partizip dient der Zustandsbeschreibung und ist angemessen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Es gab nur noch das schwarze, träge ziehende Wasser, das stählerne Deck der Fähre und das weiche Grau, das alles verschluckte."
+        ],
+        "suggestions": [
+          "Der Satzrhythmus ist gut, könnte aber für noch mehr Dynamik an manchen Stellen leicht gekürzt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Suppe heute“, sagte Kalle und nickte in Richtung Fluss. „Siehst ja die eigene Hand nicht.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind kurz, knackig und charaktergerecht. Keine Straffung notwendig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse sah noch eine Sekunde lang auf den Namen ihres Sohnes."],
+        "suggestions": [
+          "Der Text zeigt die Wahrnehmung sehr direkt. Es gibt keine unnötigen 'sie sah, dass'-Konstruktionen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Nebel, Grau, Wasser"],
+        "suggestions": [
+          "Die Wiederholungen sind stilistisch gewollt, um die Monotonie der Umgebung zu betonen. Dennoch könnte man bei den Farbbeschreibungen (Grau/Nebel) vereinzelt variieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

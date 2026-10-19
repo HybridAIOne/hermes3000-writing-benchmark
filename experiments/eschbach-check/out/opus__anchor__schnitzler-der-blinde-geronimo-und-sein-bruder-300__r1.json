@@ -1,0 +1,155 @@
+{
+  "who": "opus",
+  "item": "anchor__schnitzler-der-blinde-geronimo-und-sein-bruder-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Der blinde Geronimo stand von der Bank auf und nahm die Gitarre zur Hand, die auf dem Tisch neben dem Weinglase bereit gelegen war.",
+          "Er hatte das ferne Rollen der ersten Wagen vernommen.",
+          "Unter dem düsteren Bogen des alten Wirtshauses mußten alle Wagen passieren, die den Weg über das Stilfserjoch nahmen."
+        ],
+        "suggestions": [
+          "Der Einstieg mit einer konkreten Handlung ist stark. Der Auslöser (das Rollen der Wagen) kommt jedoch erst nach der Reaktion. Stelle ihn an den Anfang, etwa: 'Von fern rollten die ersten Wagen heran. Der blinde Geronimo stand auf und nahm die Gitarre.'",
+          "Der zweite Absatz unterbricht die gerade begonnene Bewegung mit Exposition über das Wirtshaus. Erwäge, diese Informationen in die Szene einzuflechten oder erst nach dem Einfahren der Post zu bringen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "den wohlbekannten Weg",
+          "die schmalen Holzstufen",
+          "gegen den naßkalten Wind",
+          "über den feuchtschmutzigen Boden",
+          "Unter dem düsteren Bogen des alten Wirtshauses",
+          "spazierten zwischen den Toren ungeduldig hin und her",
+          "blieben vollkommen unbeweglich",
+          "mit einem raschen, wie irren Blick"
+        ],
+        "suggestions": [
+          "Prüfe gehäufte Attribute in einem Satz: 'naßkalten Wind' und 'feuchtschmutzigen Boden' stehen direkt nacheinander. Eines davon genügt, da der Regen später ohnehin geschildert wird.",
+          "'spazierten ungeduldig hin und her' lässt sich durch ein präziseres Verb ersetzen, etwa 'traten von einem Fuß auf den anderen' oder 'liefen auf und ab'.",
+          "'vollkommen unbeweglich' ist eine Verstärkung. 'blieben starr' oder nur 'regten sich nicht' wirkt kompakter.",
+          "Viele Adjektive tragen hier die Atmosphäre ('düster', 'kahl', 'bläulich'). Behalte die bildstarken, streiche die rein erklärenden wie 'wohlbekannt', das bereits in 'tastete sich' mitschwingt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Abschnitt enthält keinen Dialog, daher gibt es keine Redeeinleitungen zu beanstanden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "lief die Straße ziemlich eben",
+          "hier so gut wie zu Hause",
+          "Die meisten Reisenden blieben sitzen",
+          "beinahe regungslos",
+          "Aber gleich, beinahe ängstlich",
+          "Zuweilen wandte er den Kopf wie mit einem Ausdruck vergeblichen Flehens",
+          "manchmal plötzlich aufkreischenden Stimme"
+        ],
+        "suggestions": [
+          "'ziemlich eben' → 'eben' oder 'flach'. Die Relativierung schwächt das Bild.",
+          "'so gut wie zu Hause' → 'zu Hause' oder konkret: 'verbrachten hier jeden Sommer'.",
+          "'beinahe' kommt zweimal kurz hintereinander vor. Entscheide dich: 'stand regungslos neben ihm' und 'wandte ängstlich den Blick fort'.",
+          "Die Häufung von Abschwächungen ('wie mit einem Ausdruck', 'wie irren', 'beinahe', 'zuweilen', 'manchmal') erzeugt Unschärfe. Behalte sie nur dort, wo die Unsicherheit bewusst gewollt ist."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Blinde sang und begleitete sich dazu auf der Gitarre",
+          "wie immer, wenn er getrunken hatte",
+          "Wenn ihm jemand eine Münze in den Hut fallen ließ, nickte er Dank und sah dem Spender [...] ins Gesicht"
+        ],
+        "suggestions": [
+          "Der Text erzählt Handlungen überwiegend in klarer Abfolge (aufstehen, tasten, hinabgehen, aufstellen). Das ist gut.",
+          "'sang und begleitete sich dazu' ist natürlich gleichzeitig und unproblematisch. Das 'dazu' kann entfallen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "um gegen den naßkalten Wind geschützt zu sein",
+          "des Lichts, das ihnen gewährt war"
+        ],
+        "suggestions": [
+          "'um gegen den naßkalten Wind geschützt zu sein' → 'damit die Mauer sie vor dem Wind schützte' macht die Wand zum aktiven Element.",
+          "'das ihnen gewährt war' ist als Zustandspassiv inhaltlich stimmig, weil es auf eine schicksalhafte Gabe ohne benannten Geber verweist. Es kann bleiben.",
+          "'bereit gelegen war' ist kein Passiv, sondern eine regionale Perfektform. Für heutige Leser wäre 'bereitlag' flüssiger."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Nun tastete er sich den wohlbekannten Weg bis zur offenen Türe hin, und dann ging er die schmalen Holzstufen hinab, die frei in den gedeckten Hofraum hinunterliefen.",
+          "Sein Bruder folgte ihm, und beide stellten sich gleich neben der Treppe auf, den Rücken zur Wand gekehrt, um gegen den naßkalten Wind geschützt zu sein, der über den feuchtschmutzigen Boden durch die offenen Tore strich.",
+          "Der Blinde sang und begleitete sich dazu auf der Gitarre; er sang mit einer ungleichmäßigen, manchmal plötzlich aufkreischenden Stimme, wie immer, wenn er getrunken hatte."
+        ],
+        "suggestions": [
+          "Teile den Satz: 'Er tastete sich zur offenen Tür. Die schmalen Holzstufen liefen frei in den gedeckten Hof hinab.'",
+          "Kürze und teile den zweiten Satz: 'Sein Bruder folgte. Sie stellten sich neben der Treppe auf, den Rücken zur Wand. Durch die offenen Tore strich ein nasskalter Wind.'",
+          "Im Gesangssatz das doppelte 'sang' auflösen: 'Der Blinde sang zur Gitarre, mit ungleichmäßiger, manchmal aufkreischender Stimme – wie immer, wenn er getrunken hatte.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Abschnitt enthält keine Dialogpassagen, daher gibt es keinen Straffungsbedarf."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Er hatte das ferne Rollen der ersten Wagen vernommen.",
+          "Nach einer Reihe schöner Tage schien der Herbst plötzlich und allzu früh hereinzubrechen.",
+          "Es war, als schämten sich seine Augen des Lichts, das ihnen gewährt war"
+        ],
+        "suggestions": [
+          "'Er hatte das ferne Rollen [...] vernommen' → direkter: 'Von fern rollten die ersten Wagen heran.' So erlebt der Leser den Reiz selbst.",
+          "'schien der Herbst [...] hereinzubrechen' → 'Nach einer Reihe schöner Tage brach der Herbst herein, zu früh.'",
+          "Der Schlussvergleich 'Es war, als schämten sich seine Augen' ist eine bewusste Deutung des Erzählers und trägt die emotionale Pointe des Absatzes. Hier ist die indirekte Form gerechtfertigt."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "'gleich' dreifach: 'stellten sich gleich neben der Treppe auf', 'Aber gleich, beinahe ängstlich', 'starrte gleich dem Bruder ins Leere'",
+          "'beinahe regungslos' / 'beinahe ängstlich'",
+          "'wandte er den Kopf' / 'wandte er den Blick wieder fort'",
+          "'Blick' zweimal: 'mit einem raschen, wie irren Blick' / 'wandte er den Blick'",
+          "'der offenen Türe' / 'durch die offenen Tore'",
+          "'Wagen' dreimal in kurzer Folge",
+          "'ging er die schmalen Holzstufen hinab, die frei in den gedeckten Hofraum hinunterliefen'",
+          "'Der Blinde sang [...]; er sang'",
+          "'blieben vollkommen unbeweglich' / 'beinahe regungslos'"
+        ],
+        "suggestions": [
+          "Das dreifache 'gleich' ersetzen: 'direkt neben der Treppe', 'Doch sofort', 'starrte wie der Bruder ins Leere'.",
+          "Eine der beiden 'beinahe'-Formulierungen streichen.",
+          "'hinab' und 'hinunterliefen' doppeln die Richtung. Eine Angabe genügt: 'stieg die schmalen Holzstufen in den gedeckten Hof hinab'.",
+          "Für 'unbeweglich' / 'regungslos' Variation oder Verdichtung suchen. Die Parallele zwischen den Brüdern ist gewollt, sollte aber sprachlich bewusster gestaltet werden, etwa durch ein wiederkehrendes, klar gesetztes Motiv statt zufälliger Synonyme.",
+          "Bei 'Wagen' auf Variation achten ('Kutschen', 'Gefährte') oder einzelne Nennungen streichen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.107084
+}

@@ -1,0 +1,132 @@
+{
+  "who": "gemini",
+  "item": "anchor__schnitzler-casanovas-heimfahrt-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "In seinem dreiundfünfzigsten Lebensjahre, als Casanova längst nicht mehr von der Abenteuerlust der Jugend, sondern von der Ruhelosigkeit nahenden Alters durch die Welt gejagt wurde...",
+          "Da seine Geldmittel recht spärlich geworden waren, hatte Casanova beschlossen..."
+        ],
+        "suggestions": [
+          "Die ersten beiden Absätze sind reine Exposition (Telling). Nach Eschbach sollte die Szene direkt im Geschehen starten: beim Spaziergang im dritten Absatz ('Eines Morgens auf einem Spaziergang...'). Die Hintergrundinformationen zu Venedig und seinen Finanzen können später organisch in seine Gedanken oder Handlungen einfließen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "fast demütig flehenden Worten",
+          "schmerzliches Sehnen und echte Reue immer unverkennbarer",
+          "außerordentliche, fast körperlich peinvolle Unruhe",
+          "neugierig spöttisch",
+          "wohlgefällig lüsternen Ausdruck"
+        ],
+        "suggestions": [
+          "Der Text nutzt sehr viele beschreibende Adjektive und Adverbien, oft in Doppelungen. Statt 'fast körperlich peinvolle Unruhe' lieber körperliche Symptome zeigen (Herzrasen, Schweiß, Zittern). Statt 'wohlgefällig lüsternen Ausdruck' konkret beschreiben, wie die Frau ihren Blick oder ihren Mund verzieht."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine direkte Rede im Text vorhanden."],
+        "suggestions": [
+          "Da der Text komplett ohne direkten Dialog auskommt, gibt es hier keine überflüssigen Redebegleitsätze. (Allerdings würde direkter Dialog den Text deutlich verlebendigen)."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "recht spärlich",
+          "nicht mehr ganz jungen",
+          "ohne recht zu wissen",
+          "wohl schenken durfte",
+          "etwas abgetragenen Gewänder",
+          "einer Anzahl von Büchern",
+          "freilich meist"
+        ],
+        "suggestions": [
+          "Weichmacher und unpräzise Mengenangaben wie 'recht', 'etwas', 'wohl', 'fast' und 'einer Anzahl von' streichen. Entweder sind die Gewänder abgetragen oder nicht; entweder weiß er es nicht, oder er weiß es."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Eines Morgens auf einem Spaziergang außerhalb der Stadt, während er für einen vernichtenden, gegen den gottlosen Franzosen gerichteten Satz die letzte Abrundung zu finden sich mühte, befiel ihn...",
+          "und, den Griff seines Degens umklammernd, feindselige Blicke nach allen Seiten sendend, [...] wandte er plötzlich seine Schritte",
+          "wie er verzerrten Gesichtes, Unverständliches durch die Zähne murmelnd, unter den abgeblühten Kastanienbäumen der Heerstraße langbeinig ausschreitend einherkam"
+        ],
+        "suggestions": [
+          "Partizipialkonstruktionen ('umklammernd', 'sendend', 'murmelnd', 'ausschreitend') erzeugen eine künstliche Gleichzeitigkeit vieler Handlungen. Besser in eine chronologische Abfolge aktiver Verben auflösen: 'Er umklammerte den Griff seines Degens, blickte feindselig um sich und wandte seine Schritte...'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...als Casanova [...] von der Ruhelosigkeit nahenden Alters durch die Welt gejagt wurde..."
+        ],
+        "suggestions": [
+          "Der Text ist überwiegend aktiv geschrieben. Dennoch könnte der Einstiegssatz aktiver gestaltet werden: '...als nicht mehr die Abenteuerlust der Jugend, sondern die Ruhelosigkeit des Alters Casanova durch die Welt jagte...'"
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 1,
+        "examples": [
+          "Er glaubte um so sicherer auf Erhörung rechnen zu dürfen, als die Sünden seiner früheren Jahre, unter denen übrigens nicht Zuchtlosigkeit, Händelsucht und Betrügereien meist lustiger Natur, sondern Freigeisterei den Venezianer Ratsherren die unverzeihlichste dünkte, allmählich in Vergessenheit zu geraten begannen und die Geschichte seiner wunderbaren Flucht... [Satz geht über 117 Wörter]",
+          "Eines Morgens auf einem Spaziergang außerhalb der Stadt, während er... [Satz geht über 159 Wörter]"
+        ],
+        "suggestions": [
+          "Der Text besteht aus extrem langen Schachtelsätzen (Klassiker-Stil von Arthur Schnitzler). Nach modernen Maßstäben (Eschbach) sollten diese Monster-Sätze dringend in 4 bis 6 kürzere, prägnante Hauptsätze pro Abschnitt aufgeteilt werden, um den Lesefluss und die Spannung zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Kein Dialog im Text enthalten."],
+        "suggestions": ["Keine zu langen Dialogpassagen vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "fühlte er in seiner Seele das Heimweh [...] anwachsen",
+          "Er glaubte um so sicherer auf Erhörung rechnen zu dürfen",
+          "befiel ihn plötzlich eine [...] Unruhe",
+          "all dies erschien ihm [...] sinnlos",
+          "Er dachte der zwei etwas abgetragenen Gewänder",
+          "vergangene Tage fielen ihm ein",
+          "da sie ihren Blick zornig blitzend erwidert sah",
+          "erkannte sofort, daß..."
+        ],
+        "suggestions": [
+          "Statt die Wahrnehmung und das Denken zu benennen ('Er dachte der Gewänder', 'erschien ihm sinnlos'), direkt in die personale Perspektive (oder erlebte Rede) gehen: 'Alles war sinnlos und widerwärtig!' oder 'Zwei abgetragene Gewänder, das schlechtere am eigenen Leib, vielfach geflickte Wäsche – mehr war ihm nicht geblieben.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Trotz und Eigensinn",
+          "schmerzliches Sehnen und echte Reue",
+          "seine Stellung und sein Ansehen",
+          "sinnlos und widerwärtig",
+          "Grimm und Haß",
+          "Sanftheit und Zärtlichkeit",
+          "Staub und Dunst"
+        ],
+        "suggestions": [
+          "Inhaltlich wiederholt sich der Text kaum, aber stilistisch nutzt er ständig Zwillingsformeln (Substantiv- und Adjektivpaare), die oft fast dasselbe bedeuten ('Grimm und Haß', 'Stellung und Ansehen'). Hier reicht meist eines der beiden Wörter für mehr Prägnanz."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.022746
+}

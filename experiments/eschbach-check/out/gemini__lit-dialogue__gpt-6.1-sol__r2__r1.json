@@ -1,0 +1,118 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__gpt-6.1-sol__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 10,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "(Ein Café. Martin sitzt am Fenster. Als Jakob kommt, nimmt er seine Jacke vom zweiten Stuhl.)",
+          "Jakob: Du sitzt noch immer hier."
+        ],
+        "suggestions": [
+          "Perfekter Einstieg 'in medias res'. Kein langes Vorgeplänkel, die Beziehung und die latente Spannung der Figuren sind ab der ersten Sekunde spürbar."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Jakob fährt mit dem Daumen unter die Tischkante.",
+          "Martin dreht seine Tasse am Henkel."
+        ],
+        "suggestions": [
+          "Hervorragender Verzicht auf schmückende Adjektive und erklärende Adverbien (wie 'nervös', 'traurig', 'zögernd'). Die Emotionen entstehen rein durch die präzisen Handlungen und den Subtext."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "**Jakob:** Du sitzt noch immer hier.",
+          "**Martin:** Die anderen Plätze waren frei."
+        ],
+        "suggestions": [
+          "Da es sich um ein dramatisch gesetztes Dialogstück (Drehbuch-/Theaterform) handelt, entfallen klassische Inquits ('sagte er'). Falls der Text in klassische Prosa umgewandelt werden soll, bräuchte es auch dort fast keine Redebegleitsätze, da der Schlagabtausch und die Regieanweisungen die Sprecher eindeutig zuordnen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Martin: Auf deiner Seite vielleicht.",
+          "Jakob: Nein. Du warst bloß zuerst da.",
+          "Martin: Er lag sowieso im Weg."
+        ],
+        "suggestions": [
+          "In den Regieanweisungen gibt es keinerlei Füllwörter. In den Dialogen werden Wörter wie 'bloß', 'vielleicht' und 'sowieso' absolut organisch genutzt, um die Abwehrhaltung der Figuren zu charakterisieren. Nichts streichen!"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als Jakob kommt, nimmt er seine Jacke vom zweiten Stuhl."],
+        "suggestions": [
+          "Nur ein einziger Satz nutzt Gleichzeitigkeit ('Als'). Selbst dieser funktioniert gut, könnte aber für maximale Klarheit (auch wegen des leicht unklaren Bezugs von 'er' und 'seine') chronologisch getrennt werden: 'Jakob kommt herein. Martin nimmt seine Jacke vom zweiten Stuhl.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Kellnerin stellt zwei Tassen ab.",
+          "Jakob steckt den Beutel in die Manteltasche."
+        ],
+        "suggestions": [
+          "Durchgehend aktive, kraftvolle Verben. Kein einziges verstecktes oder unnötiges Passiv vorhanden."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Draußen hält ein Bus. Jakob sieht nicht hin.",
+          "Jakob setzt sich. Zwischen ihnen liegt die Speisekarte."
+        ],
+        "suggestions": [
+          "Die Sätze sind kurz, prägnant und rhythmisch perfekt auf die karge, angespannte Stimmung abgestimmt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Martin: Deiner?",
+          "Jakob: Der nächste fährt auch.",
+          "Martin: Sonntags erst in einer Stunde.",
+          "Jakob: Ich weiß."
+        ],
+        "suggestions": [
+          "Meisterhafte Dialogführung. Jede Zeile ist extrem verknappt, kein Wort ist zu viel, der Subtext trägt die gesamte Szene."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Draußen hält ein Bus. Jakob sieht nicht hin."],
+        "suggestions": [
+          "Reines 'Show, don't tell'. Es gibt keine distanzierenden Filter (wie 'Martin bemerkte, dass...'). Alles wird unmittelbar im Außen gezeigt."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Martin: Früher hast du Zucker genommen. / Jakob: Früher hast du ihn mir rübergeschoben.",
+          "Als Jakob kommt, nimmt er seine Jacke vom zweiten Stuhl. [...] Martin nimmt die Jacke vom Stuhl neben sich und hängt sie an den Haken."
+        ],
+        "suggestions": [
+          "Die Wortwiederholungen im Dialog ('frei', 'Früher hast du...') sind exzellente rhetorische Stilmittel (Parallelen/Schlagabtausch). Lediglich in den Regieanweisungen gibt es einen kleinen logischen Bruch bzw. eine Doppelung: Am Anfang nimmt Martin die Jacke bereits vom zweiten Stuhl, am Ende nimmt er sie erneut vom Stuhl neben sich. Hier sollte am Anfang stehen, wohin er sie legt (z.B. auf seinen Schoß oder über die eigene Lehne), oder ob es einen dritten Stuhl gibt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016368
+}

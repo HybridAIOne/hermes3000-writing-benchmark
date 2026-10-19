@@ -1,0 +1,144 @@
+{
+  "who": "sol",
+  "item": "lit-continue__claude-opus-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Er läuft\", sagte Ilse.",
+          "„Du hättest anrufen können\", sagte sie, als die beiden fort waren."
+        ],
+        "suggestions": [
+          "Den unmittelbaren Dialogeinstieg beibehalten: Er führt ohne Vorgeschichte in die Begegnung und deutet einen Konflikt an.",
+          "Prüfen, ob der Bezug von „Er läuft“ früh genug verständlich wird. Falls der Motor gemeint ist, könnte ein knappes Motorgeräusch Orientierung geben. Ein späterer Einstieg würde dagegen die charakterisierende Eröffnung kosten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "flach und langsam, wie jeden Abend um diese Zeit im Oktober",
+          "warteten höflich darauf, dass sich die Familienangelegenheit erledigte",
+          "Darunter, klein und dunkel, stand jemand."
+        ],
+        "suggestions": [
+          "„Höflich“ versuchsweise streichen: Das Warten vermittelt die Rücksichtnahme bereits; zugleich ist zu prüfen, ob damit Ilses leicht gereizte Wahrnehmung verloren geht.",
+          "Die atmosphärisch und räumlich wirksamen Attribute überwiegend erhalten. Besonders „flach“ beschreibt den Nebel präzise und ist kein bloßer Schmuck."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Wie viele waren es heute?\", fragte er.",
+          "„Ich bleib ein paar Tage\", sagte Jonas. „Wenn das geht.\"",
+          "„Stell den Koffer in die Kabine\", sagte sie."
+        ],
+        "suggestions": [
+          "„Fragte er“ nach Jonas’ Beobachtung probeweise weglassen; der Sprecher ist dort gut erschließbar.",
+          "Auch die letzte Kennzeichnung lässt sich streichen, weil Ilses vorausgehende Handlung den Sprecher klärt. Die Markierungen am Anfang eher erhalten, da sie die Figuren zuordnen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "und es vermutlich nicht war",
+          "Vielleicht tat er das auch, innerlich",
+          "Vielleicht ein Angler. Vielleicht nur ein Pfahl.",
+          "„Ich bleib ein paar Tage\""
+        ],
+        "suggestions": [
+          "Unsicherheitswörter nach ihrer Funktion unterscheiden: Die beiden „Vielleicht“-Sätze am Anleger bilden die eingeschränkte Sicht ab und sollten bleiben.",
+          "„Innerlich“ versuchsweise streichen; die vorgestellte Tabelle vermittelt bereits, dass Ilse über Jonas’ gedankliches Sortieren spekuliert.",
+          "„Ein paar Tage“ nicht künstlich präzisieren: Die Unverbindlichkeit gehört hier zu Jonas’ vorsichtigem Gesprächsverhalten."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Du hättest anrufen können\", sagte sie, als die beiden fort waren.",
+          "Jonas sah ihr dabei zu.",
+          "Dann ging sie zum Poller, löste die Leine, die sie eben erst festgezogen hatte, und hielt sie ihm hin."
+        ],
+        "suggestions": [
+          "Die überwiegend klare Handlungsfolge beibehalten; eine systematische Entflechtung ist nicht nötig.",
+          "Die Konstruktionen „als sei sie für Regen gemacht“ und „als schreibe er es irgendwo auf“ nicht als Gleichzeitigkeit behandeln: Sie formulieren Vergleiche. Auch das Warten auf den Abgang der Radfahrer ist dramaturgisch sinnvoll."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Das Bett im Giebelzimmer ist nicht bezogen.\"",
+          "Ilse klappte die Rampe herunter und nickte ihnen zu.",
+          "Henning hatte die Striche nie weggewischt. Irgendwann hatte der Regen es getan."
+        ],
+        "suggestions": [
+          "Die aktiven, konkreten Verben beibehalten.",
+          "„Ist nicht bezogen“ beschreibt einen Zustand und funktioniert zugleich als ausweichende Antwort. Eine aktive Fassung wie „Ich habe das Bett nicht bezogen“ würde die persönliche Verantwortlichkeit stärker betonen und ist deshalb nicht automatisch besser."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Er trug eine Jacke, die aussah, als sei sie für Regen gemacht, und es vermutlich nicht war, und Schuhe mit hellen Sohlen, auf denen der Uferweg schon seine Spuren hinterlassen hatte.",
+          "Die letzte Überfahrt stand für sechs auf dem Schild, aber an Abenden wie diesem kam selten noch jemand, und sie hätte die Kette vorlegen und das Licht ausschalten können, und niemand hätte es ihr übelgenommen."
+        ],
+        "suggestions": [
+          "Die Kleidungsbeschreibung entlasten, etwa: „Seine Jacke sah regenfest aus, war es aber vermutlich nicht. Auf den hellen Sohlen seiner Schuhe hatte der Uferweg schon Spuren hinterlassen.“",
+          "Den Fahrplansatz nach „jemand“ teilen. So tritt Ilses Entscheidungsmöglichkeit deutlicher hervor: „Sie hätte die Kette vorlegen und das Licht ausschalten können. Niemand hätte es ihr übelgenommen.“",
+          "Nicht alle langen Sätze kürzen: Der ruhig fließende Rhythmus unterstützt die Atmosphäre und sollte im Wechsel mit den kurzen Dialogen erhalten bleiben."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Genug.\"\n\n„Mama.\"\n\n„Elf. Und der Milchwagen.\"",
+          "„Das Bett im Giebelzimmer ist nicht bezogen.\"\n\n„Dann bezieh ich es.\""
+        ],
+        "suggestions": [
+          "Die knappen Wechsel unverändert lassen: Sie transportieren Beziehung und Widerstand ohne erklärende Aussprachen.",
+          "Keine zusätzlichen Erläuterungen in die Figurenrede aufnehmen. Gerade die sachlichen Antworten lassen den emotionalen Subtext wirken."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ilse dachte daran, wie er als Junge auf dem Kabinendach gesessen und die Autos gezählt hatte",
+          "Sie sah zur Uhr in der Kabine. Zehn vor sechs.",
+          "Jonas folgte ihrem Blick."
+        ],
+        "suggestions": [
+          "Den Erinnerungseinstieg direkter erproben: „Als Junge hatte er auf dem Kabinendach gesessen und die Autos gezählt, mit Kreide auf dem Blech, Striche in Fünferbündeln.“",
+          "Die Blickhandlungen nicht pauschal streichen: Der Blick zur Uhr zeigt Ilses Abwägen; Jonas’ anschließendes Folgen ihres Blicks verbindet die Figuren und motiviert seine Frage."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Er läuft\" / „Er läuft, wie ein alter Raucher läuft.\"",
+          "Vom anderen Ufer schob sich der Nebel über die Wiesen",
+          "Drüben am anderen Ufer brannte die Laterne am Anleger",
+          "Sie nahm den Lappen vom Haken an der Kabine",
+          "Ilse wrang den Lappen aus und hängte ihn zurück an den Haken."
+        ],
+        "suggestions": [
+          "Die Wiederholung von „läuft“ erhalten: Jonas greift Ilses Aussage auf und widerspricht ihrer beschwichtigenden Kürze.",
+          "Beim zweiten „am anderen Ufer“ gegebenenfalls zu „Drüben brannte die Laterne am Anleger“ straffen, sofern die räumliche Orientierung erhalten bleibt.",
+          "Die wiederkehrenden Handgriffe mit dem Lappen nicht als bloße Doppelung behandeln: Sie rahmen Ilses Ausweichen und den Übergang zur gemeinsamen Handlung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02244
+}

@@ -1,0 +1,138 @@
+{
+  "who": "sol",
+  "item": "anchor__zweig-brennendes-geheimnis-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Die Lokomotive schrie heiser auf: der Semmering war erreicht.",
+          "Im Hotel war der erste Weg des jungen Mannes zu der Liste der anwesenden Gäste, die er -- bald enttäuscht -- durchflog."
+        ],
+        "suggestions": [
+          "Der Einstieg ist unmittelbar und sinnlich, doch der persönliche Konflikt beginnt erst bei der Gästeliste. Für eine stärker handlungsorientierte Fassung dort einsetzen und die Ankunft knapp nachreichen.",
+          "Soll die Landschaft die innere Unruhe des Mannes vorbereiten, den Bahnhofseinstieg beibehalten, aber die anschließende Fahrtbeschreibung kürzen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "mit klaren, vom nassen Wind reingefegten Hintergründen",
+          "jene weißen, selbst noch jungen und flattrigen Gesellen",
+          "die mageren, noch vom Regen feuchten Bäume"
+        ],
+        "suggestions": [
+          "Attributketten auf die jeweils stärkste sinnliche Information reduzieren, etwa: „Der Wind hatte die Ferne freigefegt.“",
+          "Bei den Wolken zwischen den ähnlichen Bewegungsattributen „unruhigen“, „jungen“ und „flattrigen“ auswählen. Die folgenden Verben vermitteln ihre Beweglichkeit bereits.",
+          "Nicht pauschal streichen: „heiser“ und „silbrig“ tragen zur unverwechselbaren Klang- und Lichtgestaltung bei."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["»Wozu bin ich eigentlich hier«, begann es unruhig in ihm zu fragen."],
+        "suggestions": [
+          "Die einzige Redeeinleitung kennzeichnet einen inneren Monolog, keinen Sprecherwechsel. Sie ist daher grundsätzlich funktional.",
+          "Für einen direkteren Übergang die Einleitung streichen und den Gedanken unmittelbar an die enttäuschende Gästeliste anschließen: „Wozu bin ich eigentlich hier?“"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Manchmal schien auch Duft von Schnee kühl aus den Bergen herüberzukommen",
+          "dann spürte man im Atem etwas, das süß und scharf war zugleich",
+          "Offenbar bin ich zu früh gekommen oder zu spät."
+        ],
+        "suggestions": [
+          "Die Häufung von „schien“, „auch“ und „etwas“ in der Wahrnehmungsbeschreibung prüfen. Prägnanter wäre: „Manchmal wehte kühler Schneeduft von den Bergen herüber, süß und scharf zugleich.“",
+          "„Offenbar“ und „eigentlich“ im inneren Monolog nicht automatisch streichen: Sie charakterisieren das tastende, unzufriedene Denken der Figur."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Stimmen gingen geärgert hin und her, dann schrie vorne wieder die heisere Maschine",
+          "die sich umarmen und fliehen, sich bald wie Taschentücher zerknüllen, bald in Streifen zerfasern"
+        ],
+        "suggestions": [
+          "Keine übermäßige Verwendung von „während“, „als“ oder „gleichzeitig“ erkennbar; die Abfahrt wird durch „dann“ nachvollziehbar gegliedert.",
+          "Die zahlreichen Wolkenbewegungen bei Bedarf in zwei Sätze aufteilen. Das Problem ist hier eher die Bilddichte als eine unklare zeitliche Abfolge."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Eine Minute rasteten die schwarzen Wagen im silbrigen Licht der Höhe",
+          "Leise schnaubend liefen die Pferde den jetzt niedersteigenden Weg"
+        ],
+        "suggestions": [
+          "Die aktiven Verben beibehalten; es gibt keine auffälligen Passivkonstruktionen.",
+          "„der Semmering war erreicht“ bezeichnet einen erreichten Zustand und wirkt hier nicht wie eine schwerfällige Passivumschreibung. Eine Änderung ist nicht nötig."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Eine Minute rasteten die schwarzen Wagen im silbrigen Licht der Höhe, warfen paar bunte Menschen aus, schluckten andere ein, Stimmen gingen geärgert hin und her, dann schrie vorne wieder die heisere Maschine und riß die schwarze Kette rasselnd in die Höhle des Tunnels hinab.",
+          "Jene weißen, unruhigen Wolken flatterten am Himmel, die nur der Mai und der Juni hat, jene weißen, selbst noch jungen und flattrigen Gesellen, die spielend über die blaue Bahn rennen, um sich plötzlich hinter hohen Bergen zu verstecken, die sich umarmen und fliehen, sich bald wie Taschentücher zerknüllen, bald in Streifen zerfasern und schließlich im Schabernack den Bergen weiße Mützen aufsetzen."
+        ],
+        "suggestions": [
+          "Den Bahnhofssatz nach „schluckten andere ein“ teilen. So erhalten Stimmengewirr und Abfahrt einen eigenen rhythmischen Abschnitt.",
+          "Den Wolkensatz in zwei oder drei Sätze zerlegen und die Zahl der Bilder reduzieren. Die Folge aus mehreren „die“-Anschlüssen erschwert die Zuordnung.",
+          "Einzelne lange Sätze als bewusstes Stilmittel erhalten; entscheidend ist der Wechsel zwischen ausgreifender Beschreibung und kurzen, tragenden Sätzen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Allein hier auf dem Berg zu sein, ohne Gesellschaft, ist ärger als das Bureau.",
+          "Ich habe nie Glück mit meinem Urlaub."
+        ],
+        "suggestions": [
+          "Es gibt keinen eigentlichen Dialog, sondern einen überschaubaren inneren Monolog. Eine Kürzung wegen übermäßiger Dialoglänge ist nicht erforderlich.",
+          "Allenfalls die ähnliche Funktion einzelner Klagen prüfen; das betrifft eher Wiederholungen als die Länge der Gedankenpassage."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Manchmal schien auch Duft von Schnee kühl aus den Bergen herüberzukommen",
+          "dann spürte man im Atem etwas, das süß und scharf war zugleich",
+          "begann es unruhig in ihm zu fragen"
+        ],
+        "suggestions": [
+          "Die unpersönliche Wahrnehmungsinstanz „man“ durch eine unmittelbare Sinnesbeschreibung ersetzen: „Der Schneeduft war kühl, süß und scharf zugleich.“",
+          "Den inneren Monolog ohne vorgeschalteten Denkbericht beginnen lassen, wenn größere Nähe zur Figur gewünscht ist.",
+          "Die distanzierte Erzählweise nur dort verändern, wo sie tatsächlich Unmittelbarkeit kostet; sie ist zugleich Teil des literarischen Tons."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Die Lokomotive schrie heiser auf",
+          "dann schrie vorne wieder die heisere Maschine",
+          "jene weißen, unruhigen Wolken",
+          "jene weißen, selbst noch jungen und flattrigen Gesellen",
+          "Alles in Luft und Erde war Bewegung und gärende Ungeduld."
+        ],
+        "suggestions": [
+          "Die Wiederaufnahme des heiseren Schreis kann als akustische Klammer der Bahnhofsszene bleiben; sie ist nicht bloß eine unbeabsichtigte Doppelung.",
+          "Die zweite Beschreibung der weißen Wolken kürzen, da Farbe und Unruhe bereits eingeführt sind.",
+          "Den zusammenfassenden Satz über „Bewegung und gärende Ungeduld“ auf seine Notwendigkeit prüfen: Die vorangegangenen Naturbilder vermitteln dies bereits. Beibehalten, wenn die Verbindung zur inneren Unruhe der Figur ausdrücklich hervortreten soll."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.022104
+}

@@ -1,0 +1,96 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-effi-briest-300",
+  "run": 2,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["Der gesamte erste Absatz ist eine rein statische Beschreibung des Ortes."],
+        "suggestions": [
+          "Beginnen Sie direkt bei den handelnden Personen (Mutter und Tochter) und weben Sie die Umgebungsbeschreibung in deren Handlungen ein, anstatt den Leser mit einem langen, handlungsarmen Lageplan zu konfrontieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "weiß und grün quadrierten",
+          "kleinblättrigem",
+          "weißgestrichenen",
+          "blitzenden",
+          "vergoldeten",
+          "großen schönen"
+        ],
+        "suggestions": [
+          "Streichen Sie die meisten Adjektive. Ein 'Fliesengang' ist auch ohne 'weiß und grün quadriert' vorstellbar. Nutzen Sie stärkere Verben statt Adjektiv-Substantiv-Ketten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Einige zwanzig", "ein paar", "allerlei", "ganz entschieden"],
+        "suggestions": [
+          "Entfernen Sie vage Mengenangaben wie 'einige' oder 'ein paar'. Seien Sie präzise oder lassen Sie die Mengenangabe ganz weg."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["während nach der Park- und Gartenseite hin..."],
+        "suggestions": [
+          "Vermeiden Sie 'während'-Konstruktionen. Beschreiben Sie die Dinge nacheinander, um den Lesefluss zu glätten."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["gewahr wurde", "besetzten", "umschließendes"],
+        "suggestions": [
+          "Vermeiden Sie Partizipialkonstruktionen und indirekte Wahrnehmungen. Formulieren Sie aktiv: 'Man sah den Teich' statt 'man eines Teiches ... gewahr wurde'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": ["Der erste Satz erstreckt sich über fast die Hälfte des gesamten Textes."],
+        "suggestions": [
+          "Teilen Sie die Schachtelsätze in kürzere, prägnantere Sätze auf. Ein Punkt nach 'Dorfstraße' würde dem Leser eine notwendige Atempause verschaffen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["man eines Teiches ... gewahr wurde"],
+        "suggestions": [
+          "Streichen Sie den Filter der Wahrnehmung. Beschreiben Sie den Teich direkt, statt zu schreiben, dass jemand ihn wahrnimmt."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Die räumliche Anordnung (Seitenflügel, Rondell, Teich) wird sehr dicht und mehrfach umschrieben."
+        ],
+        "suggestions": [
+          "Straffen Sie die Beschreibung der räumlichen Anordnung. Der Leser muss nicht jeden Zentimeter des Gartens in einem Absatz visualisieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

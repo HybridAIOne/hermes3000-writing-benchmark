@@ -1,0 +1,130 @@
+{
+  "who": "opus",
+  "item": "lit-scene__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel klemmte an genau derselben Stelle wie vor zwanzig Jahren.",
+          "Man musste ihn einen Millimeter zurückziehen, den Griff leicht anheben und die Schulter gegen das gequollene Eichenholz drücken."
+        ],
+        "suggestions": [
+          "Der Einstieg mit dem klemmenden Schlüssel ist stark: Er zeigt Veras Vertrautheit mit dem Haus und die verstrichene Zeit in einem Bild. Die genaue Anleitung im zweiten Satz verzögert jedoch das Ankommen. Erwägenswert wäre: 'Der Schlüssel klemmte an genau derselben Stelle wie vor zwanzig Jahren. Vera drückte die Schulter gegen das gequollene Eichenholz, bis das Schloss mit einem trockenen Husten nachgab.'"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "ein diffuses, graues Novemberlicht",
+          "der dunkelgrüne Lodenmantel, stumm und schwer",
+          "das rissige weiße Porzellan mit einem verkrusteten dunklen Rand",
+          "eine scharfe, harzige Note",
+          "die kalte, leicht klebrige Spur",
+          "steinhart getrockneten Schwamm"
+        ],
+        "suggestions": [
+          "Adjektivketten auf ein prägnantes Attribut kürzen: 'Novemberlicht' trägt das Grau bereits in sich, 'diffuses, graues' kann entfallen.",
+          "'stumm und schwer' beim Mantel streichen. Das Bild vom wartenden Mantel wirkt ohne Zusatz stärker.",
+          "'rissige weiße Porzellan mit einem verkrusteten dunklen Rand' vereinfachen zu 'das rissige Porzellan mit dem eingetrockneten Kaffeerand'.",
+          "'steinhart getrocknet' kürzen zu 'vertrocknet' oder 'ausgedörrt'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keinen Dialog, daher fallen keine Redeeinleitungen an."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "den Griff leicht anheben",
+          "Als das Schloss schließlich nachgab",
+          "zu laut, fast unverschämt",
+          "leicht klebrige Spur",
+          "plötzlich den Atem anzuhalten schien",
+          "um noch schnell vor dem Frost"
+        ],
+        "suggestions": [
+          "'schließlich' und 'plötzlich' streichen, beide schwächen den Moment eher, als dass sie ihn betonen.",
+          "'fast unverschämt' zu 'unverschämt' zuspitzen. Die Abschwächung nimmt dem Bild die Kraft.",
+          "'leicht klebrig' zu 'klebrig' kürzen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Als das Schloss schließlich nachgab, klang es im stillen Treppenhaus wie ein trockener Husten.",
+          "Erst als Vera an die Spüle trat, um das Fenster zu öffnen, bemerkte sie den Geruch.",
+          "Vera zog die Hand zurück, während das Haus um sie herum plötzlich den Atem anzuhalten schien."
+        ],
+        "suggestions": [
+          "Den Schlusssatz in zwei Handlungen auflösen, um die Pointe zu stärken: 'Vera zog die Hand zurück. Das Haus hielt den Atem an.'",
+          "'Erst als Vera an die Spüle trat …' linear erzählen: 'Vera trat an die Spüle, um das Fenster zu öffnen. Da roch sie es: …'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["dessen Rosenmuster unter einer grauen Staubschicht verblasst war"],
+        "suggestions": [
+          "Der Text ist durchgehend aktiv formuliert. Die Zustandsform 'verblasst war' ist vertretbar, alternativ ginge 'dessen Rosenmuster unter dem Staub verblich'."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "An der Garderobe hing noch immer der dunkelgrüne Lodenmantel, stumm und schwer, als warte er darauf, dass jemand in seine Ärmel schlüpfte, um noch schnell vor dem Frost das Fallobst aufzulesen.",
+          "Auf dem Wachstuchtisch, dessen Rosenmuster unter einer grauen Staubschicht verblasst war, stand eine einzelne Kaffeetasse."
+        ],
+        "suggestions": [
+          "Den Mantel-Satz teilen: 'An der Garderobe hing noch immer der Lodenmantel. Als warte er darauf, dass jemand hineinschlüpfte, um vor dem Frost das Fallobst aufzulesen.'",
+          "Den Relativsatz beim Wachstuchtisch auflösen: 'Das Rosenmuster des Wachstuchs war unter dem Staub verblasst. Darauf stand eine einzelne Kaffeetasse.'"
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keine Dialogpassagen."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "bemerkte sie den Geruch",
+          "Der beißende Duft von Balsamterpentin stieg ihr in die Nase",
+          "das Haus um sie herum plötzlich den Atem anzuhalten schien"
+        ],
+        "suggestions": [
+          "'bemerkte sie den Geruch. Unter der Kälte und dem Staub lag eine scharfe, harzige Note.' straffen zu: 'Unter dem Staub lag etwas Scharfes, Harziges.' Der Geruch wirkt so unmittelbar.",
+          "'schien' streichen und das Bild direkt setzen: 'Das Haus hielt den Atem an.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "eine scharfe, harzige Note … Terpentin. / Der beißende Duft von Balsamterpentin stieg ihr in die Nase",
+          "Die Luft im Flur stand, schwer und kalt / Lodenmantel, stumm und schwer",
+          "schwer und kalt / Unter der Kälte / die kalte, leicht klebrige Spur",
+          "Es roch nicht nach … / bemerkte sie den Geruch / roch daran / Duft"
+        ],
+        "suggestions": [
+          "Den Terpentingeruch nur einmal ausführlich beschreiben. Wird er an der Spüle schon benannt, reicht beim Fingertest: 'Sie rieb über die klebrige Spur und roch daran. Frisch. Höchstens ein paar Tage alt.'",
+          "'schwer' und 'kalt' nur einmal verwenden und für die übrigen Stellen andere Sinneseindrücke wählen.",
+          "Das Wortfeld 'Geruch/riechen/Duft' ausdünnen und den Geruch stärker über konkrete Substantive transportieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.085612
+}

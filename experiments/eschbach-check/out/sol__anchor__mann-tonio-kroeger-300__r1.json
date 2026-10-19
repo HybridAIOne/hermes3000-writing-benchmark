@@ -1,0 +1,145 @@
+{
+  "who": "sol",
+  "item": "anchor__mann-tonio-kroeger-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Die Schule war aus.“ setzt unmittelbar am Beginn der Handlung ein.",
+          "Vor Tonios erster Ansprache steht ein ausführliches Panorama des Schulhofs: „Über den gepflasterten Hof […] strömten die Scharen der Befreiten“."
+        ],
+        "suggestions": [
+          "Für einen stärker figurenbezogenen Einstieg mit „Kommst du endlich, Hans?“ beginnen und ausgewählte Schulhofdetails in Tonios Warten einflechten.",
+          "Das Panorama beibehalten, wenn die gesellschaftliche Ordnung der Schule bewusst vor dem persönlichen Konflikt etabliert werden soll."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„ein wenig zusammen spazierengehen“ und „beinahe unausgesetzt darauf gefreut“ enthalten abschwächende beziehungsweise abstufende Zusätze.",
+          "„mit dem breiten schwarzen Firmendruck“ und „seiner Vorfahren großes altes Haus“ häufen beschreibende Attribute.",
+          "„mit frommen Augen“ und „eines gemessen hinschreitenden Oberlehrers“ tragen dagegen zur ironischen Charakterisierung bei."
+        ],
+        "suggestions": [
+          "Bei Attributketten prüfen, welche Eigenschaft für Bild, Handlung oder sozialen Rang tatsächlich wichtig ist.",
+          "„ein wenig zusammen spazierengehen“ gegebenenfalls zu „zusammen spazierengehen“ kürzen.",
+          "Charakterisierende Zusätze nicht pauschal streichen: Gerade „fromm“ und „gemessen“ vermitteln hier die Haltung gegenüber der schulischen Autorität."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Kommst du endlich, Hans?« sagte Tonio Kröger“ führt den Sprecher zweckmäßig ein.",
+          "„Wieso?« fragte er und sah Tonio an“ lässt den Sprecher zunächst nur durch ein Pronomen erkennen.",
+          "„Ja, adieu, ihr!« sagte Hans Hansen zu den Kameraden“ benennt Sprecher und Adressaten ausdrücklich."
+        ],
+        "suggestions": [
+          "Die erste Sprecherbenennung beibehalten; sie orientiert innerhalb der noch neuen Figurenkonstellation.",
+          "Den Wechsel zu Hans durch einen eigenen Absatz und gegebenenfalls seinen Namen deutlicher markieren.",
+          "Wo der Sprecher bereits eindeutig ist, eine Redekennzeichnung durch eine eigenständige Handlung ersetzen, etwa: „Hans wandte sich zu den Kameraden. »Ja, adieu, ihr!«“"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Nun gehen wir noch ein bißchen.“",
+          "„Dann gehe ich noch ein bißchen mit Kröger.“",
+          "„schon seit manchem Menschenalter“ und „von manchen Leuten“ bleiben mengenmäßig unbestimmt."
+        ],
+        "suggestions": [
+          "Die wiederholte Wendung „noch ein bißchen“ im Dialog nur kürzen, wenn Hans’ beiläufige Haltung dadurch nicht verloren geht.",
+          "Im Erzählertext unbestimmte Angaben auf ihre Funktion prüfen; „seit Generationen“ wäre eine knappere Alternative zu „schon seit manchem Menschenalter“.",
+          "Nicht jede Unbestimmtheit durch Zahlen ersetzen: Für die gesellschaftliche Atmosphäre sind genaue Mengen hier nicht erforderlich."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Große Schüler hielten […] ihr Bücherpäckchen […] gedrückt, indem sie mit dem rechten Arm […] ruderten“.",
+          "„Und die beiden wandten sich nach links, indes die anderen nach rechts schlenderten.“"
+        ],
+        "suggestions": [
+          "Die Gleichzeitigkeit beim Auseinandergehen beibehalten: Sie macht die Trennung der Gruppen anschaulich.",
+          "Den komplexen Satz über die Schüler bei Bedarf entflechten: „Große Schüler drückten ihr Bücherpäckchen gegen die linke Schulter. Mit dem rechten Arm ruderten sie wider den Wind dem Mittagessen entgegen.“"
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "„in denen erst um vier Uhr zu Mittag gegessen wurde“.",
+          "„von manchen Leuten wurden die Vierzehnjährigen zuerst gegrüßt“."
+        ],
+        "suggestions": [
+          "Die Essenszeit aktiver und knapper formulieren: „weil beide Familien erst um vier Uhr zu Mittag aßen“.",
+          "Den Gruß aktiv formulieren: „Manche Leute grüßten die Vierzehnjährigen sogar zuerst.“",
+          "Das letzte Passiv kann bleiben, wenn die Jugendlichen als Empfänger gesellschaftlicher Ehrerbietung im Mittelpunkt stehen sollen."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Der Satz von „Große Schüler hielten mit Würde“ bis „in den Seehundsränzeln klapperten“ verbindet mehrere ausführliche Bewegungsbilder.",
+          "Der Satz von „Kommst du endlich, Hans?“ bis „mit ihnen davonzugehen“ verschränkt Dialog, Rückblick, Bewegung und Figurenbeschreibung.",
+          "„Aber Tonio war Konsul Krögers Sohn, dessen Getreidesäcke […]“ verbindet Herkunft, Handelsgeschäft und Familienhaus in einem Satz."
+        ],
+        "suggestions": [
+          "Bei einem Wechsel des Handlungsträgers oder des Beschreibungsschwerpunkts einen Punkt erwägen.",
+          "Tonios Ansprache entflechten: „»Kommst du endlich, Hans?« Tonio Kröger hatte lange auf dem Fahrdamm gewartet. Lächelnd trat er dem Freund entgegen.“",
+          "Den Familienbesitz in einen eigenen Satz auslagern, damit die Informationen leichter aufgenommen werden.",
+          "Einzelne lange Sätze als rhythmisches Gestaltungsmittel erhalten; nicht alle Perioden vereinheitlichen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Kommst du endlich, Hans?“",
+          "„Wieso? […] Ja, das ist wahr! Nun gehen wir noch ein bißchen.“",
+          "„Ja, adieu, ihr! […] Dann gehe ich noch ein bißchen mit Kröger.“"
+        ],
+        "suggestions": [
+          "Keine grundsätzliche Straffung nötig: Die Wortwechsel sind kurz und zeigen den Unterschied zwischen Tonios Erwartung und Hans’ Beiläufigkeit.",
+          "Eher die eingeschobenen Erzählerpassagen auf ihren Umfang prüfen als die Dialoge selbst."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„dessen Getreidesäcke […] man Tag für Tag durch die Straßen kutschieren sah“ enthält eine vermittelnde Wahrnehmungskonstruktion.",
+          "„Hatte Hans es vergessen, fiel es ihm erst jetzt wieder ein […]?“ vermittelt Tonios Gedanken unmittelbar als erlebte Rede.",
+          "„fragte er und sah Tonio an“ beschreibt eine Blickhandlung, keinen entbehrlichen Wahrnehmungsfilter."
+        ],
+        "suggestions": [
+          "Die Getreidesäcke unmittelbarer darstellen: „Wagen transportierten seine Getreidesäcke mit dem breiten schwarzen Firmendruck Tag für Tag durch die Straßen.“",
+          "Die erlebte Rede beibehalten; ein vorgeschaltetes „Tonio dachte“ würde zusätzliche Distanz schaffen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Nun gehen wir noch ein bißchen“ und „Dann gehe ich noch ein bißchen mit Kröger“ wiederholen dieselbe Absicht.",
+          "„Hatte Hans es vergessen“ und „fiel es ihm erst jetzt wieder ein“ umkreisen denselben Verdacht.",
+          "„große Kaufleute“, „öffentliche Ämter“, „mächtig […] in der Stadt“ und „das herrschaftlichste der ganzen Stadt“ verdichten mehrfach den gesellschaftlichen Rang."
+        ],
+        "suggestions": [
+          "Bei stärkerer Straffung eine der beiden inneren Fragen kürzen; die kreisende Bewegung ist allerdings Ausdruck von Tonios Verletztheit.",
+          "Den gesellschaftlichen Rang bevorzugt durch konkrete Details wie Holzlagerplätze, Firmendruck und vorauseilende Grüße vermitteln; die allgemeine Aussage „mächtig waren in der Stadt“ könnte entfallen.",
+          "Die Wiederholung im Dialog erhalten, wenn Hans’ beiläufige Behandlung der Verabredung hervorgehoben werden soll."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.023452
+}

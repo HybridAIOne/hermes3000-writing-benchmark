@@ -1,0 +1,88 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gemini-4-argon__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ein kleines Café. LUKAS sitzt am Tisch..."],
+        "suggestions": [
+          "Der Einstieg ist funktional. Man könnte noch direkter einsteigen, indem man mitten im Satz beginnt, um die Spannung sofort zu erhöhen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["bitteren Geschmack", "kleine Pappschachtel"],
+        "suggestions": [
+          "Die Adjektive sind sparsam eingesetzt. 'Kleine Pappschachtel' könnte man zu 'Pappschachtel' kürzen, da die Größe oft impliziert ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Da es sich um ein Skriptformat handelt, sind keine Redeeinleitungen nötig. Die Umsetzung ist hier vorbildlich."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Du hättest es einfach wegwerfen können.",
+          "Ich werfe Dinge nicht einfach weg"
+        ],
+        "suggestions": [
+          "Das Wort 'einfach' wird zweimal kurz hintereinander verwendet. Streichen oder durch ein präziseres Verb ersetzen (z.B. 'Du hättest es entsorgen können')."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine problematischen 'während'-Konstruktionen vorhanden."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr aktiv und dynamisch formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Satzlänge ist sehr gut auf den Rhythmus eines angespannten Gesprächs abgestimmt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind knackig und treiben die Handlung voran."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Wahrnehmung ist direkt und zeigt sich durch Handlungen (z.B. 'ihr Blick verhärtet sich') statt durch Filterwörter."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["einfach wegwerfen / einfach weg"],
+        "suggestions": [
+          "Die Wortwiederholung von 'einfach' sollte bereinigt werden, um den Dialog prägnanter zu machen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

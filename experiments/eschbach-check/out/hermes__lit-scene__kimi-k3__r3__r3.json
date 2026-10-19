@@ -1,0 +1,88 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__kimi-k3__r3",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel klemmte."],
+        "suggestions": [
+          "Der Einstieg ist sehr stark und setzt direkt bei der physischen Handlung an. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kühler Staub", "getrockneter Putz", "grünlich"],
+        "suggestions": [
+          "Die Adjektive sind atmosphärisch und präzise. Sie unterstützen die Stimmung, ohne den Text zu überladen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["hatte sie gesagt"],
+        "suggestions": ["Sehr sparsam und effektiv eingesetzt. Der Sprecher ist eindeutig."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vermutlich", "irgendjemand"],
+        "suggestions": [
+          "Die Füllwörter sind hier funktional und dienen der Charakterisierung der Unsicherheit der Protagonistin."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Nora ging von Zimmer zu Zimmer"],
+        "suggestions": [
+          "Die Handlungen sind logisch nacheinander aufgebaut. Keine unnötigen 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Flur war dunkler", "Der Schlüssel klemmte"],
+        "suggestions": ["Der Text ist weitgehend aktiv formuliert und wirkt dadurch lebendig."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Der Satz über den Mantel und das Begräbnis"],
+        "suggestions": [
+          "Die Satzlängen sind gut variiert und erzeugen einen angenehmen, melancholischen Rhythmus."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Eine Hecke lässt man nicht"],
+        "suggestions": ["Keine Dialoge vorhanden, die gestrafft werden müssten."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Sie stellte fest, dass sie ihren Mantel nicht ausgezogen hatte",
+          "sie erinnerte sich nicht mehr, wem"
+        ],
+        "suggestions": [
+          "Direkter formulieren: 'Sie behielt ihren Mantel an.' oder 'Wem sie ihn verkauft hatte, wusste sie nicht mehr.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Haus/Häuser"],
+        "suggestions": [
+          "Die Wiederholungen sind kontextuell sinnvoll und unterstreichen das Thema des verlassenen Ortes."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

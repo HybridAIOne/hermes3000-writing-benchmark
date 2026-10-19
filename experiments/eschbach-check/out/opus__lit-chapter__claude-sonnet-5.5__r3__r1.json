@@ -1,0 +1,161 @@
+{
+  "who": "opus",
+  "item": "lit-chapter__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Fluss, dass Ilse das andere Ufer nur wusste, nicht sah.",
+          "Sie stand im Steuerhaus, die Hände um den Becher, und wartete, bis der Tee so weit abgekühlt war, dass man ihn trinken konnte.",
+          "Unten am Anleger tropfte es von der Reling."
+        ],
+        "suggestions": [
+          "Der Einstieg ist berechtigt. Der erste Satz legt das Motiv 'wissen statt sehen' an, das am Ende mit dem Telefon und dem auftauchenden Ufer wiederkehrt. Diesen Satz unbedingt behalten.",
+          "Der Tee-Satz und das Tropfen von der Reling sind reine Wartezeit. Man könnte sie auf einen Satz verdichten oder direkt nach dem Seil-Bild mit 'Um zehn vor sieben ...' weitermachen, ohne Information zu verlieren."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "das unter der Fähre schwarz und glatt lag",
+          "rief ein Graureiher, rau und uninteressiert",
+          "sagte Frau Wulf leise",
+          "Das Wasser schlug leise gegen den Rumpf",
+          "sah kurz zu ihr herüber und dann taktvoll weg",
+          "aus dem langsam, Stück für Stück, die dunkle Linie des Ufers auftauchte",
+          "die ihm sofort erklärte"
+        ],
+        "suggestions": [
+          "'leise' kommt zweimal in kurzem Abstand vor. Beim Wasser genügt das Verb ('Das Wasser schlug gegen den Rumpf' oder 'klatschte gegen den Rumpf').",
+          "'langsam, Stück für Stück' ist doppelt gemoppelt. 'Stück für Stück' reicht allein.",
+          "'taktvoll' erklärt, was die Geste schon zeigt. 'sah kurz zu ihr herüber und dann weg' wirkt stärker.",
+          "'uninteressiert' beim Graureiher ist ein gelungenes, überraschendes Adjektiv und sollte bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Bus ist ausgefallen“, sagte er. „Wieder mal.“",
+          "„Ich warte doch“, sagte Ilse.",
+          "„Bin für die Heizung bei Hoppes“, sagte er, als müsse er sich ausweisen.",
+          "„Wollen Sie nicht rangehen?“, fragte der Junge."
+        ],
+        "suggestions": [
+          "Die meisten Dialoge kommen vorbildlich ohne Redeeinleitung aus, etwa die Wechsel 'Moin'/'Fährt die?'.",
+          "Bei '„Der Bus ist ausgefallen“, sagte er.' ist der Sprecher eindeutig. Das 'sagte er' kann entfallen.",
+          "'„Ich warte doch“, sagte Ilse.' ließe sich durch eine Geste ersetzen oder ganz streichen, denn nur Ilse kann antworten.",
+          "'fragte der Junge' ist notwendig, weil drei Passagiere an Bord sind, und sollte bleiben."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Dann, nach einer Minute vielleicht, summte es noch einmal",
+          "Eine Weile blieb es still",
+          "wenige Meter vom Bug entfernt",
+          "Irgendwo flussabwärts"
+        ],
+        "suggestions": [
+          "'nach einer Minute vielleicht' bildet Ilses Zeitgefühl ab und ist vertretbar. Präziser und knapper wäre: 'Dann summte es noch einmal, kurz, eine Nachricht.'",
+          "'Eine Weile' und 'nach einer Minute vielleicht' stehen direkt hintereinander und verwischen beide die Zeit. Eine der beiden Angaben streichen.",
+          "'wenige Meter' könnte konkreter sein, etwa 'drei Meter vor dem Bug'."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Er blieb vor ihr stehen, außer Atem, und kramte in der Jackentasche nach der Monatskarte.",
+          "„Schön ist das“, sagte Frau Wulf leise, wie jedes Mal, wenn sie draußen waren",
+          "Sie schob es über die Rampe, die Bremsen quietschten, an der Lenkstange hing eine Tasche mit Heftern."
+        ],
+        "suggestions": [
+          "Echte Gleichzeitigkeitskonstruktionen mit 'während' oder 'gleichzeitig' fehlen fast völlig. Die Handlungen sind überwiegend sauber nacheinander erzählt, besonders beim Ablegen (Winde, Kette, Rampe, Ruder).",
+          "Wo 'als' vorkommt, dient es fast immer dem Vergleich ('als führte es ins Nichts'). Das betrifft eher den Punkt Wiederholungen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Schrift war verblasst (Zustand, kein Passiv)"],
+        "suggestions": [
+          "Keine Passivkonstruktionen. Der Text ist durchgehend aktiv und figurenzentriert, kein Handlungsbedarf."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie wartete bis Viertel nach, wie es auf dem Plan stand, den ihr Mann vor dreißig Jahren geschrieben und hinter Glas an die Steuerhauswand gehängt hatte.",
+          "Sie stand im Steuerhaus, die Hände um den Becher, und wartete, bis der Tee so weit abgekühlt war, dass man ihn trinken konnte.",
+          "Sie stellte das Ruder schräg gegen die Strömung, so, dass der Fluss die Arbeit übernahm, und die Fähre löste sich vom Steg.",
+          "Frau Wulf musterte ihn und fragte, ob er Henrik aus der Neunten sei, und er sagte, nein, Henriks Bruder, und sie sagte, das habe sie sich gedacht."
+        ],
+        "suggestions": [
+          "Den Fahrplan-Satz teilen: 'Sie wartete bis Viertel nach. So stand es auf dem Plan, den ihr Mann vor dreißig Jahren geschrieben hatte. Er hing hinter Glas an der Steuerhauswand.' So bekommt auch der verstorbene Mann mehr Gewicht.",
+          "'bis der Tee so weit abgekühlt war, dass man ihn trinken konnte' straffen: 'bis der Tee trinkbar war.'",
+          "Ruder-Satz trennen: '... so, dass der Fluss die Arbeit übernahm. Die Fähre löste sich vom Steg.'",
+          "Der Henrik-Satz ist bewusst als gerafftes, indirektes Geplapper gebaut und funktioniert. Er sollte so bleiben."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Fährt die?“ / „Wenn einer drauf ist.“ / „Dann bin ich einer.“",
+          "„Wollen Sie nicht rangehen?“ / „Nein.“ / „Könnte wichtig sein.“ / „Ist es nicht.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, pointiert und charakterisieren Ilse über ihre Wortkargheit. Hier muss nichts gestrafft werden.",
+          "Frau Wulfs Redseligkeit wird klugerweise indirekt zusammengefasst statt ausgeschrieben. Dieses Verfahren beibehalten."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Um zehn vor sieben hörte sie den ersten Motor oben auf dem Deich.",
+          "Um zehn nach hörte sie Schritte, schnelle, kleine.",
+          "Ilse stand am Ruder und fühlte, wie die Strömung am Boden zog.",
+          "Er sah sie an, um zu prüfen, ob das ein Scherz war.",
+          "Sie wusste, was auf dem Display stand, ohne hinzusehen"
+        ],
+        "suggestions": [
+          "'hörte sie Schritte' direkter fassen: 'Um zehn nach: Schritte, schnell und klein.'",
+          "'fühlte, wie die Strömung am Boden zog' direkter: 'Die Strömung zog am Boden. Sie spürte es in den Knien, in den Handflächen, im Rücken.'",
+          "'um zu prüfen, ob das ein Scherz war' deutet aus Ilses Perspektive die Absicht des Mannes. Zeigen statt erklären: 'Er sah sie an. Ilse hielt die Hand auf.'",
+          "Logikfehler: 'hörte sie den ersten Motor', doch es kommt Frau Wulf mit dem Fahrrad. Entweder ein anderes Geräusch wählen ('das Quietschen der ersten Bremse') oder ein E-Bike benennen.",
+          "'Sie wusste, was auf dem Display stand' ist absichtlich als Echo zum ersten Satz gebaut und sollte bleiben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Das sagst du jedes Mal.“ / „Stimmt ja auch jedes Mal.“ / wie jedes Mal, wenn sie draußen waren / wie jeden Dienstag und Donnerstag",
+          "als führte es ins Nichts / als müsse er sich ausweisen / Als gäbe es ein Früher / als hätte es ihn nie gegeben",
+          "Sie ließ es vibrieren. Es brummte gegen den Reißverschluss, hörte auf, begann neu. [...] Ilse zog es nicht heraus.",
+          "Sie fühlte es in den Knien, in den Handflächen, im Rücken. Man hätte es ihr nicht erklären müssen. Man hätte sie blind auf das Wasser setzen können, sie hätte die Mitte gefunden.",
+          "Mehr kamen nicht, im November kamen selten mehr.",
+          "löste die Kette [...] die Fähre löste sich vom Steg"
+        ],
+        "suggestions": [
+          "Das Motiv 'jedes Mal' ist gewollt, wirkt aber beim vierten Auftreten abgenutzt. Bei Frau Wulfs 'Schön ist das' das 'wie jedes Mal' streichen oder variieren.",
+          "Vier 'als'-Vergleiche häufen sich. Mindestens einen streichen, etwa 'als führte es ins Nichts'. 'verschwand im Grau' trägt das Bild allein.",
+          "'Ilse zog es nicht heraus' wiederholt 'Sie ließ es vibrieren'. Einen der beiden Sätze streichen.",
+          "Die Passage über ihr intuitives Wissen sagt dreimal dasselbe. 'Man hätte es ihr nicht erklären müssen' kann entfallen, das Blind-Bild ist stärker.",
+          "'kamen ... kamen' entzerren: 'Mehr kamen nicht. Im November nie.'",
+          "Das doppelte 'löste' vermeiden: 'hakte die Kette aus' oder 'die Fähre glitt vom Steg'."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.137872
+}

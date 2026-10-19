@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__claude-sonnet-5.5__r1",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel lag so dicht auf dem Wasser..."],
+        "suggestions": [
+          "Der Einstieg ist exzellent gewählt. Er setzt direkt in der Atmosphäre ein, ohne unnötige Exposition."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["dicht auf dem Wasser", "leises Klopfen"],
+        "suggestions": [
+          "Der Text ist bereits sehr präzise. Man könnte 'dicht' streichen, da der Nebel selbst die Sicht einschränkt. 'Leises Klopfen' könnte durch ein stärkeres Verb ersetzt werden (z.B. 'schlug')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Morgen, Frau Brandt.“", "„Morgen, Herr Wendt.“"],
+        "suggestions": [
+          "Vorbildlich. Die Sprecher sind durch den Kontext klar, auf 'sagte er/sie' wurde konsequent verzichtet."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["eigentlich", "halt", "doch"],
+        "suggestions": ["Der Text ist sehr sauber und frei von unnötigen Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["während", "als"],
+        "suggestions": [
+          "Die Handlungsabfolge ist linear und klar strukturiert. Keine überflüssigen Gleichzeitigkeitskonstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Die Planken waren nass"],
+        "suggestions": [
+          "Der Text ist fast durchgehend aktiv formuliert. Die wenigen Zustandsbeschreibungen sind angemessen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sechs Uhr fünfzig. Zehn Minuten noch."],
+        "suggestions": [
+          "Hervorragende Rhythmisierung durch den Wechsel von kurzen und längeren Sätzen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Fahren Sie jetzt?“ / „Sieben Uhr.“"],
+        "suggestions": [
+          "Die Dialoge sind kurz, knackig und charakterisierend. Keine Straffung notwendig."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ilse kannte sie vom Sehen"],
+        "suggestions": [
+          "Dies ist eine erzählerische Zusammenfassung. Man könnte sie durch eine spezifische Beobachtung ersetzen (z.B. 'Ilse grüßte sie, ohne den Namen zu wissen'), um noch näher an der Figur zu bleiben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["immer montags und donnerstags, immer mit demselben"],
+        "suggestions": [
+          "Die Wiederholung von 'immer' ist hier ein bewusstes Stilmittel zur Rhythmisierung und Charakterisierung der Routine. Das ist sehr gut gelöst."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

@@ -1,0 +1,135 @@
+{
+  "who": "opus",
+  "item": "lit-scene__claude-sonnet-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel klemmte, wie er immer geklemmt hatte, und Judith tat, was ihre Hand noch wusste: anheben, ein Stück nach links, dann die Schulter gegen das Holz.",
+          "Der Notar hatte am Telefon von „Räumung“ gesprochen, von „Fristen“."
+        ],
+        "suggestions": [
+          "Der Einstieg an der Tür ist gerechtfertigt, weil die eingeübte Handbewegung Vertrautheit und Vergangenheit transportiert. Eine Anreise oder Vorgeschichte fehlt zu Recht.",
+          "Die Hintergrundinformation zum Notar ist knapp und gut platziert. Sie könnte auch erst nach dem Abstellen des Koffers stehen, damit das Ankommen ununterbrochen bleibt. Das ist aber eine Geschmacksfrage."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "ordentlich und ein wenig kleiner als verabredet",
+          "etwas Süßes und zugleich Herbes",
+          "eingeschrumpft, die Haut braun und weich wie altes Leder",
+          "nicht schwächer geworden, sondern dichter, fast feucht"
+        ],
+        "suggestions": [
+          "Die Adjektive tragen überwiegend sinnliche Information und sind gut gewählt. Weitere Kürzungen würden der Atmosphäre schaden.",
+          "„braun und weich wie altes Leder“: Der Vergleich trägt schon beide Eigenschaften. „die Haut wie altes Leder“ würde genügen.",
+          "„Süßes und zugleich Herbes“ wird durch „Wachs, Zitrone und Birne“ bereits konkretisiert. Erwägen, die abstrakten Adjektive zu streichen und nur die konkreten Assoziationen stehen zu lassen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Kein direkter Dialog vorhanden. Die Notar-Passage ist als indirekte Rede ohne störende Redeeinleitung gelöst: „Der Notar hatte am Telefon von „Räumung“ gesprochen, von „Fristen“.“"
+        ],
+        "suggestions": [
+          "Kein Handlungsbedarf. Die Reduktion des Telefonats auf zwei Schlüsselwörter ist ökonomisch und wirkungsvoll."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "ein wenig kleiner als verabredet",
+          "fand sie die Frucht schließlich doch",
+          "fast feucht",
+          "nie auch nur erwähnt",
+          "Das wusste Judith genau."
+        ],
+        "suggestions": [
+          "„schließlich doch“ kann entfallen. „Im Wäscheschrank oben fand sie die Frucht“ wirkt nach der erfolglosen Suche in der Küche bereits als Auflösung.",
+          "„ein wenig“ ist hier bewusst gesetzt und erzeugt die leise Irritation. Es kann bleiben.",
+          "„Seit dem März“ klingt leicht ungewöhnlich. „Seit März“ ist knapper."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Tür gab nach, als hätte sie nur auf diese Bewegung gewartet.",
+          "Sie blieb auf der Fußmatte stehen, den Koffer in der Hand, und wartete darauf, dass der Flur sich in etwas verwandelte"
+        ],
+        "suggestions": [
+          "Handlungen werden konsequent nacheinander erzählt: Tür, Flur, Koffer, Küche, Wäscheschrank, Bettkante. Das „als“ ist vergleichend, nicht temporal.",
+          "Kein Handlungsbedarf."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Seit dem März hatte niemand geheizt (aktiv statt „war nicht geheizt worden“)"
+        ],
+        "suggestions": [
+          "Der Text ist durchgehend aktiv formuliert. Selbst unbelebte Subjekte handeln: „der Oktober hatte sich in den Wänden eingerichtet“, „Das Geräusch ging durch das Haus“. Kein Handlungsbedarf."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel klemmte, wie er immer geklemmt hatte, und Judith tat, was ihre Hand noch wusste: anheben, ein Stück nach links, dann die Schulter gegen das Holz.",
+          "Kein Moder, wie sie erwartet hatte, kein Mäusekot, keine abgestandene Zeit, sondern etwas Süßes und zugleich Herbes, nach Wachs, Zitrone und Birne.",
+          "Sie blieb auf der Fußmatte stehen, den Koffer in der Hand, und wartete darauf, dass der Flur sich in etwas verwandelte, das sie erkannte."
+        ],
+        "suggestions": [
+          "Die längeren Sätze sind rhythmisch gebaut und werden durch Kurzsätze und Fragmente ausgeglichen („Quitte.“, „Die Garderobe.“).",
+          "Beim Geruchssatz könnte man teilen: „Kein Moder, kein Mäusekot, keine abgestandene Zeit. Etwas Süßes, Herbes, nach Wachs, Zitrone und Birne.“ Der Einschub „wie sie erwartet hatte“ wäre dann entbehrlich."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Keine Dialogpassagen vorhanden."],
+        "suggestions": [
+          "Kein Handlungsbedarf. Die Abwesenheit von Dialog unterstützt die Einsamkeit der Figur im leeren Haus."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Erst in der Küche roch sie es.",
+          "Kein Moder, wie sie erwartet hatte",
+          "Das wusste Judith genau."
+        ],
+        "suggestions": [
+          "„Erst in der Küche roch sie es“ ist ein Filterverb, erzeugt hier aber gezielt Spannung, weil das „es“ zunächst unbestimmt bleibt. Vertretbar.",
+          "„wie sie erwartet hatte“ streichen. Die Aufzählung „Kein Moder, kein Mäusekot“ macht die Erwartung bereits deutlich.",
+          "„Das wusste Judith genau.“ behauptet Gewissheit, statt sie zu zeigen. Die folgenden Belege (nie gekauft, nie gekocht, kein Baum) leisten das bereits, daher kann der Satz entfallen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ihre Mutter hatte Quitten nie gemocht. Das wusste Judith genau. Sie hatte sie nie gekauft, nie gekocht, nie auch nur erwähnt.",
+          "als hätte sie nur auf diese Bewegung gewartet / und wartete darauf, dass der Flur sich",
+          "Der Schlüssel klemmte, wie er immer geklemmt hatte"
+        ],
+        "suggestions": [
+          "Die Quitten-Passage sagt dreimal dasselbe: nicht gemocht, wusste genau, nie gekauft. Vorschlag: „Ihre Mutter hatte Quitten nie gemocht. Nie gekauft, nie gekocht, nie erwähnt. Im Garten stand kein Baum.“",
+          "„warten“ taucht in kurzem Abstand zweimal auf. Für die Tür eine Alternative erwägen, etwa „als hätte sie diese Bewegung erwartet“, oder bewusst als Echo stehen lassen.",
+          "„klemmte, wie er immer geklemmt hatte“ ist eine stilistisch gewollte Wiederholung und sollte bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.094552
+}

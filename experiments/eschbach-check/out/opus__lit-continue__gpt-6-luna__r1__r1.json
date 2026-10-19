@@ -1,0 +1,142 @@
+{
+  "who": "opus",
+  "item": "lit-continue__gpt-6-luna__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Läuft“, sagte Ilse.",
+          "Jonas sah auf den Motorraum, dessen Klappe sie mit dem Fuß zugedrückt hatte. „Das Geräusch eben war nicht normal.“"
+        ],
+        "suggestions": [
+          "Der Einstieg setzt mitten in der Handlung ein. Ankunft und Begrüßung werden zu Recht übersprungen. Hier ist keine Änderung nötig.",
+          "Das Schlüsselwort „kaputt“ fällt erst einige Zeilen später. Wer den Konflikt noch schneller zuspitzen will, kann Jonas’ erste Replik direkt darauf zielen lassen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "wickelte sie ordentlich auf",
+          "Jonas lächelte kurz.",
+          "Draußen schlug die Fähre sacht gegen den Anleger.",
+          "Das Wort lag zwischen ihnen, klein und alt."
+        ],
+        "suggestions": [
+          "„ordentlich“ ist verzichtbar oder präziser fassbar, etwa „wickelte sie in gleichmäßigen Schlaufen auf“. Das sagt auch mehr über Ilses Routine.",
+          "„kurz“ bei „lächelte“ ist entbehrlich, weil der Folgesatz die Kürze ohnehin zeigt. Besser eines von beiden streichen.",
+          "„grau und glatt“ sowie „klein und alt“ funktionieren gut als bewusst gesetzte Paare. Diese sollten bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Wie lange bist du schon hier?“, fragte er.",
+          "„Es ist nicht kaputt“, sagte sie.",
+          "„Du hättest anrufen können“, sagte sie.",
+          "„Du bist dünner“, sagte sie."
+        ],
+        "suggestions": [
+          "„fragte er“ kann entfallen. Davor steht eine Beschreibung des Wassers, aber Ilses Antwort „Seit sechs.“ macht die Sprecherzuordnung eindeutig.",
+          "„„Es ist nicht kaputt“, sagte sie.“ folgt auf einen Absatz aus Ilses Wahrnehmung. Die Zuordnung ist also klar, das „sagte sie“ ist streichbar.",
+          "Bei „„Du hättest anrufen können“, sagte sie.“ das Inquit durch eine Handlung ersetzen. Zum Beispiel den Satz direkt an das Wegschieben des Schraubenschlüssels anschließen.",
+          "Die knappen Wechsel ohne Kennzeichnung („War es noch nie.“, „Mama.“, „Hat nicht geklappt.“) sind vorbildlich. Dieses Prinzip sollte konsequent weitergeführt werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Trotzdem blieb sein Blick dort einen Moment hängen.",
+          "hielt sie sie einen Augenblick in der Hand",
+          "So hatte er früher immer ausgesehen",
+          "hinter den Gläsern, die selten herauskamen"
+        ],
+        "suggestions": [
+          "„einen Moment“ und „einen Augenblick“ sind fast gleichbedeutende Zeitpuffer. Mindestens einen streichen, etwa „Trotzdem blieb sein Blick dort hängen.“",
+          "„immer“ in „So hatte er früher immer ausgesehen“ ist durch „früher“ bereits abgedeckt und kann entfallen.",
+          "Insgesamt ist der Text sehr präzise. Echte Füllwörter wie „ziemlich“ oder „irgendwie“ fehlen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "und er ruckte daran, als ließe sich das Problem mit genug Kraft beheben",
+          "als käme er nicht zu Besuch, sondern zu einer Besprechung",
+          "Er sah sich um, als prüfe er, was sich verändert hatte.",
+          "Als sie die Tasse erreichte, hielt sie sie einen Augenblick in der Hand."
+        ],
+        "suggestions": [
+          "Echte Gleichzeitigkeitskonstruktionen gibt es kaum, die Handlungen laufen sauber nacheinander ab.",
+          "Auffällig ist jedoch die dreifache „als + Konjunktiv“-Vergleichsstruktur. Eine davon auflösen, etwa „Er sah sich um.“ ohne Deutung, damit die beiden anderen stärker wirken.",
+          "„Als sie die Tasse erreichte“ lässt sich linear auflösen: „Sie erreichte die Tasse und hielt sie in der Hand.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text kommt ohne Passivkonstruktionen aus. „Jonas’ Haare waren vom Regen dunkel geworden“ ist eine Zustandsänderung, kein Passiv, und wirkt hier angemessen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das Wasser schob gegen den Rumpf, grau und glatt, nur an der Stelle, wo das Seil ins Flussbett lief, zitterte die Oberfläche.",
+          "So hatte er früher immer ausgesehen, wenn er aus dem Zug gestiegen war: als käme er nicht zu Besuch, sondern zu einer Besprechung, die jemand anders vorbereitet hatte.",
+          "Die mit dem blauen Rand, aus der Jonas als Kind getrunken hatte, stand hinten im Schrank, hinter den Gläsern, die selten herauskamen."
+        ],
+        "suggestions": [
+          "Den Wassersatz teilen. Er ist eine Kommaverbindung zweier Hauptsätze: „Das Wasser schob gegen den Rumpf, grau und glatt. Nur wo das Seil ins Flussbett lief, zitterte die Oberfläche.“",
+          "Der Tassensatz staffelt drei Nebeninformationen. Möglich wäre: „Die mit dem blauen Rand stand hinten im Schrank, hinter den Gläsern, die selten herauskamen. Aus ihr hatte Jonas als Kind getrunken.“",
+          "Der Besprechungs-Satz ist lang, trägt aber eine starke Pointe. Er kann bleiben."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Du bist dünner“, sagte sie. / „Du auch.“ / „Ich wohne hier.“"],
+        "suggestions": [
+          "Die Dialoge sind knapp, subtextreich und werden regelmäßig von Handlung unterbrochen. Hier ist keine Kürzung nötig.",
+          "„Ich meinte, wie lange weißt du, dass es kaputt ist.“ könnte noch knapper sein: „Ich meinte: Wie lange ist es schon kaputt?“"
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Er sah sich um, als prüfe er, was sich verändert hatte.",
+          "Jonas sah auf den Motorraum"
+        ],
+        "suggestions": [
+          "Konstruktionen wie „sie sah, dass“ oder „sie dachte, dass“ fehlen. Wahrnehmung wird direkt gezeigt („Sie hob den Blick. Jonas’ Haare waren …“). Das ist vorbildlich.",
+          "„Er sah sich um, als prüfe er …“ deutet, statt zu zeigen. Alternative: Den Blick direkt auf Gegenstände wandern lassen, etwa „Sein Blick ging über die Garderobe, das Regal, den Tisch.“"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Jonas lächelte kurz. Es war ein Lächeln, das gleich wieder verschwand.",
+          "Als sie die Tasse erreichte, hielt sie sie einen Augenblick in der Hand. Dann stellte sie sie neben ihre eigene.",
+          "einen Moment / einen Augenblick",
+          "nahm die Tasse vom Regal, die sie immer benutzte … Die mit dem blauen Rand … die Tasse"
+        ],
+        "suggestions": [
+          "Die Lächeln-Doppelung auflösen: Entweder „Jonas lächelte, und das Lächeln verschwand gleich wieder.“ oder nur den zweiten Satz behalten: „Jonas’ Lächeln verschwand so schnell, wie es gekommen war.“",
+          "Das zweimalige „sie sie“ in aufeinanderfolgenden Sätzen holpert. Ein Vorschlag: „Als sie die Tasse erreichte, hielt sie sie in der Hand. Dann stellte sie die Tasse neben ihre eigene.“ Oder ein Satz wird umgebaut.",
+          "„Die Jacke an der Garderobe war nicht Hennings. Die hatte sie …“ ist im Bezug leicht mehrdeutig. Präziser wäre: „Seine hatte sie vor zwei Jahren weggegeben.“"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.108336
+}

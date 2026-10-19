@@ -1,0 +1,145 @@
+{
+  "who": "opus",
+  "item": "lit-continue__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Geht auch so“, sagte sie. (Einstieg mitten im Gespräch, ohne Vorlauf)",
+          "„Bis kein Wind mehr geht.“ / „Die Strömung bleibt.“ (Der Bezug von „Geht auch so“ bleibt lange offen.)"
+        ],
+        "suggestions": [
+          "Der Einstieg in medias res ist stark und sollte bleiben.",
+          "Ein kurzer konkreter Anker nach der ersten Zeile, etwa das gerade festgezogene Seil, würde verdeutlichen, worauf sich „Geht auch so“ bezieht, ohne das Tempo zu bremsen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das Einrasten war über dem Wasser deutlich zu hören.",
+          "An der rechten Sohle löste sich ein schmaler Streifen, kaum sichtbar.",
+          "Am anderen Ufer hielt ein weißer Lieferwagen."
+        ],
+        "suggestions": [
+          "„deutlich“ streichen: „Das Einrasten hallte über das Wasser.“ Das Verb trägt die Wirkung allein.",
+          "„schmaler Streifen, kaum sichtbar“ doppelt die Unauffälligkeit. Ein Attribut genügt: „löste sich ein Streifen, kaum sichtbar.“",
+          "Die übrigen Attribute wie „feine Tropfen“ oder „lose um den Poller“ sind funktional und können bleiben."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Hast du nichts anderes mit?“, fragte sie.",
+          "„Ist zu Hause jemand?“, fragte er.",
+          "„Du hast einen Schlüssel“, sagte sie.",
+          "„Bis kein Wind mehr geht.“ / „Die Strömung bleibt.“ (Hier fehlt eine Zuordnung, der Sprecher ist unklar.)"
+        ],
+        "suggestions": [
+          "„fragte sie“ nach „Hast du nichts anderes mit?“ ist entbehrlich, weil Ilse zuvor am Schaltkasten agiert und Jonas danach reagiert. Besser eine Handlung als Begleitsatz: „Sie ließ den Hebel los. „Hast du nichts anderes mit?““",
+          "„Du hast einen Schlüssel“ durch eine Geste statt „sagte sie“ zuordnen, z. B. „Ilse wandte sich vom Wagen ab.“",
+          "Beim Wechsel „Bis kein Wind mehr geht.“ / „Die Strömung bleibt.“ eine minimale Handlung einfügen, damit klar ist, wer spricht."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Zwanzig Minuten vielleicht.“ (in der Figurenrede bewusst eingesetzt, wirkungsvoll im Kontrast zu „seit einer halben Stunde“)",
+          "feine Tropfen, die er noch nicht bemerkte",
+          "obwohl sie längst zu ihm hinübersah",
+          "Der Fahrer ließ einmal die Scheinwerfer aufblenden"
+        ],
+        "suggestions": [
+          "„vielleicht“ in der wörtlichen Rede beibehalten, weil es Jonas charakterisiert.",
+          "„einmal“ beim Aufblenden streichen, da das spätere „blinkte wieder“ die Wiederholung bereits markiert.",
+          "Kleine Partikel wie „noch“, „längst“ und „bereits“ einzeln prüfen. Mehrere können entfallen, ohne dass Bedeutung verloren geht."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Beim Festziehen hatte es ihr in den Rücken gestochen; sie wartete, bis es nachließ.",
+          "Der Fahrer ließ einmal die Scheinwerfer aufblenden, obwohl sie längst zu ihm hinübersah."
+        ],
+        "suggestions": [
+          "Handlungen werden fast durchgehend nacheinander erzählt. Kein Änderungsbedarf.",
+          "Die zwei „obwohl“-Konstruktionen („obwohl sie längst…“, „obwohl es nichts zu prüfen gab“) liegen nah beieinander. Eine davon könnte als eigener kurzer Satz stehen: „Es gab nichts zu prüfen.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Einrasten war über dem Wasser deutlich zu hören. (passivähnliche Konstruktion)"
+        ],
+        "suggestions": [
+          "Aktiv formulieren: „Das Einrasten klang über das Wasser.“ oder „Sie hörte das Einrasten über dem Wasser.“",
+          "Ansonsten ist der Text konsequent aktiv geschrieben."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie kannte diesen Ton noch, vom Küchentisch, wenn Henning nach einer Note gefragt hatte und Jonas bereits wusste, welche Frage danach kam.",
+          "Der Mann fuhr jeden Donnerstag zur gleichen Zeit über den Fluss und musste trotzdem jedes Mal auf sich aufmerksam machen."
+        ],
+        "suggestions": [
+          "Den Küchentisch-Satz eventuell teilen: „Sie kannte diesen Ton noch. Vom Küchentisch, wenn Henning nach einer Note gefragt hatte und Jonas schon die nächste Frage kommen sah.“",
+          "Der Rhythmus aus kurzen Sätzen trägt die Spannung gut und sollte erhalten bleiben."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ist zu Hause jemand?“ / „Ich meine, ob du jemanden erwartest.“ / „Wen denn?“ / „Weiß ich doch nicht.“",
+          "„Du hast einen Schlüssel.“ / „Den alten.“ / „Das Schloss ist auch alt.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp und subtextreich. Keine Straffung nötig.",
+          "„Ich meine, ob du jemanden erwartest.“ ließe sich ggf. auf „Ob du jemanden erwartest.“ kürzen, um die Verlegenheit noch knapper wirken zu lassen."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Regen hing in seinen Haaren, feine Tropfen, die er noch nicht bemerkte. (Perspektivbruch: Ilse kann nicht wissen, was Jonas bemerkt.)",
+          "Er wusste den Weg.",
+          "Sie wollte ihn darauf hinweisen, ließ es aber.",
+          "Sie kannte diesen Ton noch"
+        ],
+        "suggestions": [
+          "„die er noch nicht bemerkte“ an Ilses Wahrnehmung binden: „feine Tropfen. Er wischte sie nicht weg.“",
+          "„Sie wollte ihn darauf hinweisen, ließ es aber.“ zeigen statt benennen, z. B.: „Sie öffnete den Mund, sah dann zum Lieferwagen.“",
+          "„Er wusste den Weg.“ als Ilses Annahme kenntlich machen oder ganz streichen, denn der beschriebene Weg genügt bereits."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Der Fahrer ließ einmal die Scheinwerfer aufblenden … / Der Lieferwagen blinkte wieder. … Der Mann fuhr jeden Donnerstag … und musste trotzdem jedes Mal auf sich aufmerksam machen. (Die Erklärung doppelt das bereits Gezeigte.)",
+          "An der rechten Sohle löste sich … / Sie stieg auf die Fähre und löste die Leine. (Wortwiederholung „löste“ auf engem Raum)",
+          "Häufung von „sah“: „Jonas sah hinauf“, „hinübersah“, „Jonas sah an sich herunter“, „Ilse sah auf seine Schuhe“",
+          "Ilse hob die Hand. / Ilse ließ die Hand sinken, ohne sie noch einmal zu heben."
+        ],
+        "suggestions": [
+          "Den erklärenden Satz über den Donnerstagsfahrer kürzen oder streichen. Das wiederholte Blinken zeigt die Ungeduld bereits.",
+          "Eines der „löste“ ersetzen, z. B. „An der rechten Sohle klaffte ein schmaler Streifen“ oder „Sie nahm die Leine vom Poller.“",
+          "Bei „sah“ variieren oder auf direkte Beschreibung umstellen: „Der Mantel reichte kaum über die Knie“ statt „Jonas sah an sich herunter.“",
+          "Bewusste Wiederholungen wie „alt/alt“ und „prüfte/prüfen“ sind stilistisch wirksam und sollten bleiben."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.116056
+}

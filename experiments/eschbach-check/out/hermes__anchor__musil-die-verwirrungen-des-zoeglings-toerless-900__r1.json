@@ -1,0 +1,104 @@
+{
+  "who": "hermes",
+  "item": "anchor__musil-die-verwirrungen-des-zoeglings-toerless-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Eine kleine Station an der Strecke, welche nach Rußland führt.",
+          "Endlos gerade liefen vier parallele Eisenstränge..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr statisch und beschreibend. Beginnen Sie direkt mit der Handlung oder dem emotionalen Kern (z.B. der Mutter, die Abschied nimmt), um den Leser schneller in die Szene zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "traurig mit verdursteten, von Staub und Ruß erdrosselten Blättern",
+          "bleiche, kraftlose, durch den Dunst ermüdete Licht"
+        ],
+        "suggestions": [
+          "Die Adjektivdichte ist extrem hoch. Streichen Sie schmückende Adjektive, die keine neue Information liefern. Ersetzen Sie schwache Verben durch stärkere, die das Adjektiv überflüssig machen (z.B. statt 'traurig schauen' ein Verb wählen, das die Trauer impliziert)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Keine Dialoge vorhanden, daher nicht anwendbar. Die Bewertung spiegelt die Abwesenheit von Fehlern wider."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["wohl", "vielleicht"],
+        "suggestions": [
+          "Der Einsatz von Füllwörtern ist moderat. Dennoch können Wörter wie 'wohl' oder 'vielleicht' gestrichen werden, um die Aussagekraft der Sätze zu schärfen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": [
+          "Die zeitliche Abfolge ist klar strukturiert. Es gibt keine übermäßige Verwendung von 'während' oder 'als', die den Lesefluss stören würde."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "welches man schon seit dem vorigen Jahrhunderte... hier heraußen beließ",
+          "wurde ihm hiebei mehr und mehr zu einer bloßen Gelegenheitsursache"
+        ],
+        "suggestions": [
+          "Wandeln Sie Passivkonstruktionen in aktive Sätze um, um die Dynamik zu erhöhen. 'Man beließ es' ist schwach; beschreiben Sie, wer es beließ oder was geschah."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Denn der Grund, dessentwegen Frau Törleß es dulden mußte, ihren Jungen in so ferner, unwirtlicher Fremde zu wissen, war, daß sich in dieser Stadt ein berühmtes Konvikt befand...",
+          "Und wenn er untertags, bei den Spielen oder im Unterrichte, daran dachte, daß er abends seinen Brief schreiben werde, so war ihm, als trüge er an unsichtbarer Kette einen goldenen Schlüssel verborgen..."
+        ],
+        "suggestions": [
+          "Die Sätze sind stark verschachtelt und lang. Teilen Sie komplexe Sätze in zwei oder drei kürzere Sätze auf, um die Lesbarkeit und den Rhythmus zu verbessern."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Nicht anwendbar, da keine Dialoge enthalten sind."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Er sah alles nur wie durch einen Schleier hindurch",
+          "Er hielt es für Heimweh"
+        ],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'er sah', 'er hielt es für'. Beschreiben Sie das Erlebte direkt aus der Perspektive der Figur, anstatt den Prozess der Wahrnehmung zu beschreiben."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["traurig", "Tränen", "Heimweh", "gleichgültig"],
+        "suggestions": [
+          "Einige Begriffe (besonders emotionale Zustände) werden mehrfach wiederholt. Prüfen Sie, ob diese Wiederholungen zur Stimmung beitragen oder ob sie durch präzisere Synonyme oder eine stärkere Handlung ersetzt werden können."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

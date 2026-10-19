@@ -1,0 +1,141 @@
+{
+  "who": "sol",
+  "item": "anchor__schnitzler-casanovas-heimfahrt-900",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "In seinem dreiundfünfzigsten Lebensjahre",
+          "Öfter schon in den letzten zehn Jahren seiner Verbannung hatte er an den hohen Rat Gesuche gerichtet",
+          "Eines Morgens auf einem Spaziergang außerhalb der Stadt"
+        ],
+        "suggestions": [
+          "Für einen unmittelbareren Einstieg mit dem Spaziergang und Casanovas Unruhe beginnen. Alter, Verbannung und Begnadigungshoffnung anschließend dosiert einflechten.",
+          "Die Vorgeschichte nicht vollständig streichen: Sie begründet Casanovas Kränkung und seinen Heimkehrwunsch. Der vorhandene Einstieg ist als literarisches Charakterporträt funktional, verzögert aber die eigentliche Szene."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "eine außerordentliche, fast körperlich peinvolle Unruhe",
+          "seiner eigenen kühnen und bisher, wie ihm dünkte, nicht übel gelungenen Erwiderung",
+          "in der linden, allzu süßen Luft dieses Spätsommermorgens",
+          "einen wohlgefällig lüsternen Ausdruck"
+        ],
+        "suggestions": [
+          "Häufungen auf das jeweils stärkste Merkmal reduzieren, etwa: „Eine fast schmerzhafte Unruhe befiel ihn.“",
+          "Wertende Zusätze gezielt behalten, wenn sie Casanovas Selbstbild vermitteln; andernfalls streichen. „Kühn“ und „nicht übel gelungen“ leisten hier ähnliche Bewertungsarbeit.",
+          "Anschauliche, charakterisierende Details wie „blatternarbiger“ oder „vielfach geflickten“ nicht pauschal entfernen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung nötig: Der Ausschnitt enthält keine direkten Dialoge und daher keine überflüssigen Sprecherkennzeichnungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "seit einiger Zeit",
+          "übrigens",
+          "wohl auch mit einem Diener",
+          "zwei etwas abgetragenen Gewänder",
+          "einer Anzahl von Büchern"
+        ],
+        "suggestions": [
+          "Unverbindliche Abschwächungen probeweise streichen: „zwei abgetragene Gewänder“ statt „zwei etwas abgetragenen Gewänder“.",
+          "„Übrigens“ entfernen, sofern der beiläufige Erzählerkommentar nicht ausdrücklich gewünscht ist.",
+          "Unbestimmte Mengen nicht automatisch durch erfundene Zahlen ersetzen: „Bücher“ genügt möglicherweise statt „einer Anzahl von Büchern“.",
+          "Modalwörter wie „wohl“ dort erhalten, wo sie Erinnerung, Unsicherheit oder die Erzählerstimme tatsächlich nuancieren."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "während er für einen vernichtenden, gegen den gottlosen Franzosen gerichteten Satz die letzte Abrundung zu finden sich mühte",
+          "den Griff seines Degens umklammernd, feindselige Blicke nach allen Seiten sendend",
+          "wie er verzerrten Gesichtes, Unverständliches durch die Zähne murmelnd, unter den abgeblühten Kastanienbäumen der Heerstraße langbeinig ausschreitend einherkam"
+        ],
+        "suggestions": [
+          "Nicht nur Konjunktionen, sondern auch die vielen eingeschobenen Partizipialgruppen entflechten: „Er umklammerte den Degengriff und blickte sich feindselig um. Dann wandte er sich zur Stadt.“",
+          "Beim Vorbeifahren des Wagens die Blickfolge in einzelne Schritte gliedern: neugieriger Blick, zornige Erwiderung, Erschrecken, erneutes Interesse.",
+          "„Als“ nicht pauschal als Gleichzeitigkeitssignal behandeln: In „als die Sünden seiner früheren Jahre …“ begründet es seine Hoffnung."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["von der Ruhelosigkeit nahenden Alters durch die Welt gejagt wurde"],
+        "suggestions": [
+          "Optional aktivieren: „Nicht mehr die Abenteuerlust der Jugend jagte Casanova durch die Welt, sondern die Ruhelosigkeit des nahenden Alters.“",
+          "Das vorhandene Passiv kann jedoch bleiben, wenn Casanovas Getriebensein betont werden soll. Weitere auffällige Passivhäufungen gibt es nicht."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Er glaubte um so sicherer auf Erhörung rechnen zu dürfen, als die Sünden seiner früheren Jahre",
+          "Eines Morgens auf einem Spaziergang außerhalb der Stadt, während er",
+          "Casanova, der wohl wußte, daß Grimm und Haß länger in den Farben der Jugend zu spielen vermögen als Sanftheit und Zärtlichkeit"
+        ],
+        "suggestions": [
+          "Den Satz über seine Begnadigungshoffnung in drei Einheiten teilen: verblassende Vergehen, Ruhm der Flucht, neue Nachrichten aus Venedig.",
+          "Den sehr langen Spaziergangssatz nach dem Einsetzen der Unruhe, nach der Aufzählung seiner Gewohnheiten und vor dem Rückweg teilen.",
+          "Im Schlusssatz Casanovas Deutung des Blicks, seine kurze Stimmungsaufhellung und seinen Verzicht auf das Abenteuer voneinander absetzen.",
+          "Einzelne lange Perioden als Stilmittel erhalten; problematisch ist vor allem die anhaltende Dichte von Einschüben und Nebensätzen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Straffung nötig: Es gibt keine ausgeführten Dialogpassagen. Der erwähnte Fluch und das unverständliche Murmeln sind keine langen Redebeiträge."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "fühlte er in seiner Seele das Heimweh nach seiner Vaterstadt Venedig so heftig anwachsen",
+          "all dies erschien ihm",
+          "Er dachte der zwei etwas abgetragenen Gewänder",
+          "erkannte sofort, daß es nur eines frechen Anrufs von seiner Seite bedurft hätte"
+        ],
+        "suggestions": [
+          "Entbehrliche Wahrnehmungsfilter entfernen: „Das Heimweh nach Venedig wuchs so heftig …“ statt „fühlte er in seiner Seele … anwachsen“.",
+          "Erlebte Rede für größere Nähe nutzen: „Wie sinnlos und widerwärtig das alles war!“",
+          "Bei der Begegnung mit der Frau die subjektive Zuschreibung unbedingt erhalten: „Ein frecher Anruf würde genügen, glaubte er.“ Seine vermeintliche Erkenntnis sollte nicht als objektive Gewissheit erscheinen."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "das Heimweh nach seiner Vaterstadt Venedig",
+          "ein schmerzliches Sehnen und echte Reue",
+          "der ersehnten Heimat wieder um einige Meilen näher",
+          "noch in derselben Stunde Anstalten für seine sofortige Abreise zu treffen",
+          "um sich rechtzeitig einen Platz in der Eilpost zu sichern"
+        ],
+        "suggestions": [
+          "Die mehrfach erläuterte Heimkehrsehnsucht bei einer Straffung auf eine starke Einführung und eine spätere handlungswirksame Wiederaufnahme konzentrieren.",
+          "Abreiseentschluss und Organisation enger verbinden: „Noch heute wollte er abreisen. Er beschleunigte seinen Gang, um die Eilpost zu erreichen.“",
+          "Die wiederkehrenden Alters- und Verfallsmotive nicht vollständig tilgen: Heimweh, geflickte Kleidung und verlorener Reisekomfort bilden eine bewusste motivische Entwicklung, keine bloße Doppelung."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.02424
+}

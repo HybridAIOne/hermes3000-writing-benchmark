@@ -1,0 +1,84 @@
+{
+  "who": "hermes",
+  "item": "anchor__kafka-das-urteil-300",
+  "run": 3,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Es war an einem Sonntagvormittag im schönsten Frühjahr."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch, könnte aber durch einen direkten Handlungsbeginn (z.B. das Schreiben des Briefes) noch unmittelbarer gestaltet werden."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["leichtgebauten", "fremdartige", "wohlbekannte", "endgültiges"],
+        "suggestions": [
+          "Prüfen, ob diese Adjektive notwendig sind. Oft können stärkere Verben die Beschreibung ersetzen und den Text dynamischer machen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog im Textabschnitt vorhanden."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["gerade", "schon", "sehr", "wohl"],
+        "suggestions": [
+          "Füllwörter konsequent streichen, um den Text straffer und direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Die Abfolge der Handlungen ist klar und logisch strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist weitgehend aktiv formuliert, was sehr positiv ist."]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Der Satz über die Häuser entlang des Flusses.",
+          "Der letzte Satz über den Rat an den Freund."
+        ],
+        "suggestions": [
+          "Die Sätze sind sehr verschachtelt und lang. Diese sollten in kürzere, prägnantere Sätze zerlegt werden, um die Lesbarkeit zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Er dachte darüber nach, wie...", "auf eine ... hinzudeuten schien"],
+        "suggestions": [
+          "Statt 'Er dachte darüber nach, wie...', die Gedanken oder die Schlussfolgerungen des Protagonisten direkter als innere Handlung oder Beobachtung darstellen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Der Text ist inhaltlich präzise und weist kaum unnötige Doppelungen auf."]
+      }
+    }
+  },
+  "costUsd": 0
+}

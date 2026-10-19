@@ -1,0 +1,101 @@
+{
+  "who": "hermes",
+  "item": "anchor__schnitzler-casanovas-heimfahrt-300",
+  "run": 3,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "In seinem dreiundfünfzigsten Lebensjahre, als Casanova längst nicht mehr von der Abenteuerlust der Jugend, sondern von der Ruhelosigkeit nahenden Alters durch die Welt gejagt wurde..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr expositorisch. Beginnen Sie näher an der aktuellen Handlung oder dem unmittelbaren Gefühl, anstatt den Lebenslauf zusammenzufassen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "luftigen Höhen",
+          "schmerzliches Sehnen",
+          "echte Reue",
+          "unverzeihlichste",
+          "übelberüchtigten Häusern"
+        ],
+        "suggestions": [
+          "Viele Adjektive sind schmückendes Beiwerk. Streichen Sie diese, um die Verben und Substantive stärker wirken zu lassen (z.B. 'übelberüchtigten Häusern' -> 'Spelunken')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": []
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["übrigens", "allmählich", "seit einiger Zeit"],
+        "suggestions": [
+          "Wörter wie 'übrigens' schwächen die Aussagekraft. Streichen Sie diese, um den Text direkter zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [],
+        "suggestions": ["Die zeitliche Abfolge ist klar, auch wenn die Sätze komplex sind."]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["von der Ruhelosigkeit nahenden Alters durch die Welt gejagt wurde"],
+        "suggestions": [
+          "Formulieren Sie aktiv: 'Die Ruhelosigkeit des Alters jagte ihn durch die Welt.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Der erste Absatz besteht aus nur drei Sätzen, die jeweils fast eine halbe Seite einnehmen."
+        ],
+        "suggestions": [
+          "Die Sätze sind stark verschachtelt. Brechen Sie die langen Sätze in kürzere Einheiten auf, um die Lesbarkeit und Spannung zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": []
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Er glaubte um so sicherer auf Erhörung rechnen zu dürfen",
+          "schien sich ... auszusprechen"
+        ],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'glaubte' oder 'schien'. Beschreiben Sie direkt, was Casanova tut oder fühlt."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "eng und immer enger werdenden Kreisen",
+          "in Briefen nach Mantua... in Briefen..."
+        ],
+        "suggestions": [
+          "Vermeiden Sie Wortwiederholungen in kurzem Abstand. Straffen Sie die Umschreibungen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

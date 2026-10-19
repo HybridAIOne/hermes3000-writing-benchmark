@@ -1,0 +1,84 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Ilse antwortete nicht. Sie ging an ihm vorbei zur Kabine..."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er direkt in die Handlung und das Setting führt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["kleinen Räder", "braun und schnell"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und passend gewählt. Achte darauf, dass sie nicht zur reinen Dekoration dienen, sondern die Atmosphäre stützen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte sie schließlich", "sagte sie"],
+        "suggestions": [
+          "Die Kennzeichnungen sind unauffällig. In einigen Fällen könnte man sie komplett streichen, wenn der Sprecherwechsel durch den Kontext klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist sehr sauber und frei von unnötigen Füllwörtern."]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Die Handlungsabfolge ist klar und logisch strukturiert."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Der Text ist aktiv geschrieben, was die Dynamik der Szene unterstützt."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut lesbar."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": ["Die Dialoge sind kurz, prägnant und treiben die Handlung voran."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Ilse merkte, dass sie den Atem angehalten hatte",
+          "das sah sie sofort",
+          "Und sie sah auch, dass er sie nicht gern schmutzig machte",
+          "dachte sie, er würde widersprechen"
+        ],
+        "suggestions": [
+          "Vermeide Filterwörter wie 'merkte', 'sah', 'dachte'. Zeige das Erleben direkt. Statt 'Ilse merkte, dass sie den Atem angehalten hatte' schreibe: 'Ilse hielt den Atem an.' Statt 'das sah sie sofort' schreibe: 'Seine Hände waren weich geworden.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Keine inhaltlichen Doppelungen erkennbar. Der Text ist präzise."]
+      }
+    }
+  },
+  "costUsd": 0
+}

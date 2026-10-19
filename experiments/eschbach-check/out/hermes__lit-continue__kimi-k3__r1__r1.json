@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "lit-continue__kimi-k3__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Der Motor läuft“, sagte Ilse."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er direkt in die Handlung und den Konflikt führt."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["unregelmäßige Tuckern", "schief lächeln"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und passend gewählt. Keine Änderungen notwendig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Ilse", "fragte er"],
+        "suggestions": [
+          "Die Kennzeichnungen sind unauffällig. In manchen Fällen könnte man sie streichen, wenn der Sprecherwechsel durch den Absatz klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["halt"],
+        "suggestions": [
+          "Das Wort 'halt' unterstreicht den Tonfall der Figur, daher ist es hier stilistisch vertretbar."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie löste die vordere Leine und stieß mit dem Haken ab."],
+        "suggestions": [
+          "Die Handlungen sind logisch nacheinander gereiht, was den Lesefluss sehr angenehm macht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Henning war seit vier Jahren tot"],
+        "suggestions": ["Der Text ist fast durchgehend aktiv formuliert. Sehr gut."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Früher hatte dort um diese Zeit immer jemand gestanden, der Milchbauer mit seinen Kanistern oder die alte Svenja mit dem Fahrrad."
+        ],
+        "suggestions": ["Die Satzlängen sind abwechslungsreich und gut rhythmisiert."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Wie lange bleibst du?“ – „Bis Sonntag.“"],
+        "suggestions": ["Die Dialoge sind knackig und treiben die Charakterisierung voran."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Ein Junge, dachte sie, der seinen Koffer hinter sich herzieht wie einen Hund."
+        ],
+        "suggestions": [
+          "'Dachte sie' ist ein Filterwort. Man könnte es direkter schreiben: 'Ein Junge. Er zog seinen Koffer hinter sich her wie einen Hund.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["„Der Motor läuft“ ... „Er läuft.“"],
+        "suggestions": [
+          "Die Wiederholung dient hier der Charakterisierung und dem Rhythmus, daher ist sie stilistisch gewollt und effektiv."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

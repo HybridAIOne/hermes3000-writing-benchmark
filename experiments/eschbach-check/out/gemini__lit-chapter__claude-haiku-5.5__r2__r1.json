@@ -1,0 +1,122 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__claude-haiku-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht auf dem Wasser, dass Ilse Brandt das andere Ufer nicht sehen konnte.",
+          "Sie zog den Reißverschluss der Jacke bis ans Kinn, drückte den Knopf für die Motoren..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr atmosphärisch und verortet Figur und Setting sofort. Wer es noch unmittelbarer mag, könnte direkt mit der Handlung im zweiten Absatz starten (dem Starten der Motoren) und den Nebel dort einbauen, aber das ist hier kein Muss."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "mit einem roten Helm",
+          "mit diesem schweren Ruck",
+          "stieß sanft gegen den Anleger"
+        ],
+        "suggestions": [
+          "Sehr präziser und sparsamer Einsatz. Die vorhandenen Adjektive sind konkret und dienen der Bildhaftigkeit. Kaum Verbesserungsbedarf."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Sie können sich hinsetzen“, sagte sie. „Die Bank ist trocken.“",
+          "„Den Rest behalten Sie“, sagte er."
+        ],
+        "suggestions": [
+          "Der Großteil der Dialoge kommt fantastisch ohne Inquits aus (z.B. der erste Wortwechsel mit Kolb). An ein, zwei Stellen könnte das 'sagte sie/er' noch gestrichen werden, da durch die vorherige Handlung (Ilse dreht sich zum Steuer; der Mann legt Geld hin) bereits völlig klar ist, wer spricht."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "bevor sie ihn richtig sehen konnte",
+          "schaute kurz darauf",
+          "Ilse fragte sich kurz"
+        ],
+        "suggestions": [
+          "Der Text ist weitgehend frei von typischen Füllwörtern. Lediglich das Wort 'kurz' wird zweimal kurz hintereinander als zeitlicher Weichmacher genutzt und könnte ersatzlos gestrichen werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Frau setzte sich, zog das Handy aus der Jackentasche, schaute kurz darauf und steckte es wieder weg."
+        ],
+        "suggestions": [
+          "Exzellent gelöst. Handlungen werden sauber nacheinander beschrieben, es gibt keine verkrampften 'während'- oder 'gleichzeitig'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Rampe am Anleger war schon gesenkt.",
+          "Sie schaute auf den Pegel, der an der Pfeilerseite angebracht war."
+        ],
+        "suggestions": [
+          "Es gibt kein echtes Handlungs-Passiv im Text, nur zwei völlig korrekte Zustandspassive, die hier absolut passend sind. Sehr starke, aktive Verben dominieren den Text."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Es war Mittwoch, es war kurz nach halb acht, und er rief immer um diese Zeit an, wenn er im Auto saß oder auf dem Weg ins Büro war, mit dieser Stimme, die sich bemühte, ruhig zu klingen."
+        ],
+        "suggestions": [
+          "Der Satzrhythmus ist insgesamt hervorragend und abwechslungsreich. Der Beispielsatz hat vier Relativ-/Nebensätze und könnte für etwas mehr Prägnanz nach 'Büro war' durch einen Punkt getrennt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Moin, Frau Brandt.“ – „Moin.“ – „Kalt heute.“ – „November.“"],
+        "suggestions": [
+          "Meisterhaft knappe, norddeutsch-lakonische Dialoge. Jedes Wort sitzt, nichts ist zu lang."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "und hörte, wie das Schiff unter ihren Füßen zu arbeiten begann.",
+          "Sie hörte, wie er nach einer Antwort suchte...",
+          "Ilse fragte sich kurz, wohin er wollte, dann dachte sie, dass es sie nichts anging.",
+          "und spürte, wie das Schiff unter ihr in die Kurve ging."
+        ],
+        "suggestions": [
+          "Hier liegt das größte Optimierungspotenzial für diesen ansonsten sehr starken Text. Streichen Sie die Wahrnehmungsverben (hörte, dachte, spürte), um unmittelbarer in Ilses Kopf zu sein.",
+          "Statt 'und hörte, wie das Schiff unter ihren Füßen zu arbeiten begann' direkt: 'Unter ihren Füßen begann das Schiff zu arbeiten.'",
+          "Statt 'Ilse fragte sich kurz, wohin er wollte, dann dachte sie, dass es sie nichts anging' besser direkt als erlebte Rede: 'Wohin wollte er? Aber das ging sie nichts an.'",
+          "Statt 'spürte, wie das Schiff unter ihr in die Kurve ging' direkt: 'Unter ihr ging das Schiff in die Kurve.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Heute musste sie sich auf das Seil verlassen, die Stahlleine, die von Pfahl zu Pfahl durch den Strom lief und die Fähre führte... / Dann fahren wir eben drumherum. / ...dann eine Linkskurve..."
+        ],
+        "suggestions": [
+          "Keine sprachlichen Wiederholungen, aber ein kleines logisches Störgefühl (Lektorats-Hinweis): Eine Seilfähre, die an einer gespannten Leine hängt, kann nicht einfach 'drumherum' fahren (auch wenn Ilse das als trockenen Scherz meint) und fährt normalerweise auch keine 'Linkskurve' um Bojen, sondern wird schnurgerade von Ufer zu Ufer gezogen. Falls es eine frei fahrende Fähre ist, passt das Seil am Anfang nicht."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.019724
+}

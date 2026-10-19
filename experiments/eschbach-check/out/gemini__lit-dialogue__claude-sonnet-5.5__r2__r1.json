@@ -1,0 +1,107 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__claude-sonnet-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Bahnhofscafé, Nachmittag. Thomas sitzt schon am Tisch, als Jan hereinkommt. Beide zögern.",
+          "JAN: Du bist früh."
+        ],
+        "suggestions": [
+          "Exzellenter Einstieg nach dem Prinzip 'in medias res'. Keine unnötige Vorgeschichte, kein Geplänkel bei der Begrüßung. Die Spannung ist ab der ersten Zeile spürbar."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "*(Ein kurzes Lächeln, das sofort wieder verschwindet.)*",
+          "THOMAS: *(leise)* Ich auch nicht.",
+          "*(Jan setzt sich langsam. Die Jacke bleibt auf seinem Schoß.)*"
+        ],
+        "suggestions": [
+          "Der Text ist extrem sparsam und präzise. In den Regieanweisungen könnte man 'kurzes' vor Lächeln streichen, da 'das sofort wieder verschwindet' die Kürze bereits ausdrückt.",
+          "Statt 'setzt sich langsam' könnte ein präziseres Verb wie 'lässt sich nieder' oder 'sinkt auf den Stuhl' genutzt werden, wobei 'langsam' im Drehbuch-/Theaterkontext absolut legitim ist."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["JAN: Du bist früh.", "THOMAS: Ich war in der Gegend."],
+        "suggestions": [
+          "Da es sich um ein dramatisch gesetztes Skript (Theater/Drehbuch) handelt, gibt es keine klassischen Redebegleitsätze ('sagte er'). Würde man den Text in Prosa umwandeln, bräuchte man durch den klaren Schlagabtausch und die eindeutigen Handlungen fast keine Dialogkennzeichnungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["THOMAS: Bleib. Trink wenigstens den Kaffee."],
+        "suggestions": [
+          "Keine unnötigen Füllwörter vorhanden. Wörter wie 'wenigstens' oder 'trotzdem' sind hier keine Füllwörter, sondern tragen wichtigen emotionalen Subtext."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Thomas sitzt schon am Tisch, als Jan hereinkommt."],
+        "suggestions": [
+          "Fast alle Handlungen sind sauber nacheinander aufgelistet. Nur im ersten Satz gibt es ein 'als', das hier aber zur schnellen Etablierung der Szene vollkommen funktioniert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der gesamte Text ist im Aktiv geschrieben. Jede Handlung ist klar einem Akteur zugeordnet."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["*(Schweigen. Jan rührt in einer Tasse, in der noch nichts ist.)*"],
+        "suggestions": [
+          "Die Sätze sind kurz, prägnant und dem angespannten Ton der Szene perfekt angepasst. Den Relativsatz in der Regieanweisung könnte man noch weiter verknappen zu: 'Jan rührt in einer leeren Tasse.' (Logischer Hinweis: Da die Kellnerin die Tassen erst später bringt, sollte klargestellt sein, warum er schon eine Tasse vor sich hat – vielleicht die von Thomas oder ein Gedeck, das schon stand)."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["THOMAS: *(leise)* Ich auch nicht. Geschrieben hab ich trotzdem."],
+        "suggestions": [
+          "Meisterhaft verknappte Dialoge. Keine Zeile ist länger als zwei kurze Sätze. Das Schweigen zwischen den Sätzen arbeitet genauso stark wie der Text selbst."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "*(Jan sieht aus dem Fenster. Draußen fährt ein Zug ein.)*",
+          "*(Jan hängt die Jacke über die Stuhllehne, nimmt sie wieder ab und legt sie über den Arm.)*"
+        ],
+        "suggestions": [
+          "Perfektes 'Show, don't tell'. Es wird nicht gesagt 'Jan war nervös', sondern er hantiert unentschlossen mit der Jacke. Es heißt nicht 'Jan sah einen Zug einfahren', sondern Blick und Ereignis sind direkt und getrennt beschrieben."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "JAN: Das ist vernünftig. / THOMAS: Sie ist vernünftig.",
+          "JAN: Nur den Kaffee. / THOMAS: Nur den Kaffee.",
+          "*(Ein kurzes Lächeln, das sofort wieder verschwindet.)*"
+        ],
+        "suggestions": [
+          "Die wörtlichen Wiederholungen im Dialog sind brillante stilistische Mittel (Echorede) und dürfen keinesfalls gestrichen werden.",
+          "Inhaltliche kleine Doppelung in den Regieanweisungen: 'kurzes Lächeln' und 'sofort wieder verschwindet' meint dasselbe. Zudem setzt sich Jan am Ende ('Jan setzt sich langsam'), nachdem Thomas ihn ganz am Anfang schon aufgefordert hat ('Setz dich') und Jan zwischendurch bereits am Tisch in einer Tasse gerührt hat. Hier sollte die Choreografie (wann steht er, wann sitzt er?) noch einmal auf Logik geprüft werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016726
+}

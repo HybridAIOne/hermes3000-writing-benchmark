@@ -1,0 +1,157 @@
+{
+  "who": "opus",
+  "item": "lit-continue__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Motor läuft“, sagte sie. (Einstieg direkt im Dialog, mitten in der Situation)",
+          "Sie hakte die Leine ab und stieg an Bord zurück … / Ilse löste die Leine und gab Gas. (Die Leine wird zweimal gelöst, ein Logikbruch im Ablauf)",
+          "Die Protagonistin wird erst im fünften Absatz mit Namen genannt (Ilse)."
+        ],
+        "suggestions": [
+          "Der In-medias-res-Einstieg funktioniert. Kein früherer Einsatzpunkt nötig.",
+          "Den Ablauf mit der Leine vereinheitlichen. Entweder im dritten Absatz nur festmachen bzw. halten oder später nicht erneut lösen.",
+          "Den Namen Ilse früher einführen, etwa im ersten Erzählsatz, damit sich der Leser schneller verankert."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "das leichte Schwanken des Pontons",
+          "bräunlich und schnell",
+          "grau und ungeduldig",
+          "die leere Wiese",
+          "Der Koffer stand immer noch auf den Bohlen",
+          "„Du hast abgenommen“, sagte sie schließlich."
+        ],
+        "suggestions": [
+          "„leichte“ streichen. „das Schwanken“ oder ein präzises Verb genügt: „der Ponton gab unter seinem Gewicht nach“.",
+          "Das Wasser wird zweimal mit Adjektivpaaren beschrieben, die sich widersprechen (bräunlich / grau). Ein Paar wählen und das andere durch ein Verb ersetzen, z. B. „Das Wasser drängte unter dem Ponton durch“.",
+          "„leere“ ist nach „Kein Auto, kein Fahrrad“ redundant und kann entfallen.",
+          "„immer noch“ und „schließlich“ prüfen. Beides lässt sich meist streichen, ohne dass Bedeutung verloren geht."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„Der Motor läuft“, sagte sie.",
+          "„Wie lange bleibst du?“, fragte sie über das Motorengeräusch hinweg.",
+          "„Du hast abgenommen“, sagte sie schließlich.",
+          "„Komm her“, sagte sie und deutete auf den Platz neben sich"
+        ],
+        "suggestions": [
+          "Die meisten Wechsel kommen ohne Inquit aus. Das ist gut gelöst.",
+          "„sagte sie schließlich“ durch eine Handlung ersetzen: „Sie warf ihm einen Blick zu. ‚Du hast abgenommen.‘“",
+          "Im letzten Absatz trägt die Geste allein: „‚Komm her.‘ Sie deutete auf den Platz neben sich in der Kabine.“",
+          "Beim ersten Satz könnte eine Handlung das „sagte sie“ ersetzen und zugleich die Szene etablieren, z. B.: „Ilse richtete sich auf. ‚Der Motor läuft.‘“"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Das tat sie manchmal",
+          "Der Ponton trieb einen Moment lang",
+          "Normalerweise wendete sie sofort",
+          "etwas in ihr lockerte sich",
+          "„Vielleicht länger.“ (im Dialog legitim, da figurencharakterisierend)"
+        ],
+        "suggestions": [
+          "„einen Moment lang“ streichen: „Der Ponton trieb, frei zwischen den Ufern“.",
+          "„etwas in ihr“ ist bewusst vage und kann bleiben. Alternativ konkretisieren: „ihre Schultern sanken“.",
+          "„Normalerweise“ und „manchmal“ sind inhaltlich begründet, da sie Routine beschreiben. Sparsam einsetzen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "stieg an Bord zurück, ohne ihn anzusehen",
+          "das sie aus dem Augenwinkel beobachtete, ohne den Kopf zu drehen",
+          "das sie den ganzen Morgen festgehalten hatte, ohne es zu wissen",
+          "Er hob den Koffer an Bord, und sie spürte das leichte Schwanken"
+        ],
+        "suggestions": [
+          "Die Konstruktion „ohne … zu“ erscheint dreimal und wird zum Muster. Mindestens eine Stelle auflösen, z. B.: „Sie stieg an Bord zurück. Ihn sah sie nicht an.“",
+          "Die Treibholz-Passage sequenziell erzählen: „Treibholz trieb vorbei. Sie verfolgte es aus dem Augenwinkel.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["in seinem Mantel, der für München gemacht war (Zustandspassiv)"],
+        "suggestions": [
+          "Der Text ist nahezu durchgehend aktiv. Das Zustandspassiv ist hier stilistisch gerechtfertigt. Alternativ: „in seinem Münchner Mantel, zu dünn für den November an der Elbe“."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Der Koffer stand immer noch auf den Bohlen, und Jonas stand daneben, in seinem Mantel, der für München gemacht war und nicht für den November an der Elbe.",
+          "Das Wasser war hoch für die Jahreszeit, bräunlich und schnell, und es trug Treibholz mit sich, das sie aus dem Augenwinkel beobachtete, ohne den Kopf zu drehen.",
+          "Nicht weil sie sich gefreut hätte – die Freude war da, aber sie war vorsichtig mit ihr, wie mit einer Flamme bei Wind –, sondern weil es so gehörte.",
+          "Er lachte kurz, und es klang echt, und etwas in ihr lockerte sich, das sie den ganzen Morgen festgehalten hatte, ohne es zu wissen."
+        ],
+        "suggestions": [
+          "Die Satzrhythmen sind überwiegend bewusst gesetzt. Kritisch ist die Wasser-Passage, die in zwei Sätze geteilt werden sollte: „Das Wasser war hoch für die Jahreszeit, bräunlich und schnell. Es trug Treibholz mit sich.“",
+          "Der Satz mit dem Einschub (Flamme bei Wind) verliert durch die Gedankenstriche den Faden. Möglich wäre: „Sie nickte, weil es so gehörte. Die Freude war da, aber sie ging vorsichtig mit ihr um, wie mit einer Flamme bei Wind.“",
+          "Die „und … und“-Reihung beim Lachen ist wirkungsvoll. Sie sollte im Text aber nur einmal vorkommen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Bis Sonntag.“ Eine Pause. „Vielleicht länger.“",
+          "„Das liegt am Essen. Deins ist zu teuer, meins zu einfach.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind knapp, subtextreich und gut dosiert. Keine Straffung nötig.",
+          "„Eine Pause.“ ließe sich durch eine kleine Geste ersetzen, die mehr über Jonas verrät (z. B. „Er sah auf das Wasser.“)."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "sie spürte das leichte Schwanken des Pontons unter seinem Gewicht",
+          "Treibholz …, das sie aus dem Augenwinkel beobachtete",
+          "das sie den ganzen Morgen festgehalten hatte, ohne es zu wissen"
+        ],
+        "suggestions": [
+          "Den Filter „sie spürte“ streichen: „Der Ponton schwankte unter seinem Gewicht.“",
+          "Das Beobachten des Treibholzes direkter zeigen: „Treibholz trieb vorbei, Äste, ein halber Zaunpfahl.“",
+          "„ohne es zu wissen“ ist eine Erzählerdeutung, die die personale Perspektive kurz verlässt. Erwägen, sie zu streichen oder körperlich zu zeigen."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Motor: „Der Motor läuft“, „Der Motor stotterte“, „Motorengeräusch“, „ließ sie den Motor einen Gang zurückschalten“, „legte den Motor in den Leerlauf“",
+          "Doppelte Wasserbeschreibung: „bräunlich und schnell“ und „grau und ungeduldig“",
+          "„Früher war er an Bord herumgelaufen …“ und „Früher hatte er die Stille immer gefüllt …“",
+          "„Der Koffer stand … und Jonas stand daneben“",
+          "„Bohlen“ zweimal (Anleger Nord und Süd)",
+          "Die Leine wird zweimal gelöst."
+        ],
+        "suggestions": [
+          "„Motor“ reduzieren oder variieren, etwa durch „Diesel“ oder einfach „er“. „ließ sie den Motor einen Gang zurückschalten“ ist zudem schief, da der Motor nicht selbst schaltet. Besser: „nahm sie Gas weg“.",
+          "Das Wasser nur einmal ausführlich beschreiben und beim zweiten Mal auf eine Bewegung beschränken. Die Farbabweichung (bräunlich / grau) auflösen.",
+          "Die doppelte „Früher“-Konstruktion ist als Parallele lesbar, schwächt sich aber ab. Eine der beiden umformulieren, z. B.: „Als Kind hatte er die Stille gefüllt …“",
+          "„stand … stand“ variieren: „Jonas wartete daneben“.",
+          "Das doppelte Leinenlösen bereinigen (siehe Szeneneinstieg)."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.114952
+}

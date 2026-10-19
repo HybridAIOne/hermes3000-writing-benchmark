@@ -1,0 +1,85 @@
+{
+  "who": "hermes",
+  "item": "lit-dialogue__gpt-6-luna__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Vor dem geschlossenen Café. Regen."],
+        "suggestions": [
+          "Der Einstieg ist prägnant und setzt sofort die Stimmung. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["bessere Uhren", "bitter"],
+        "suggestions": [
+          "Sehr sparsam eingesetzt, was den Dialogcharakter unterstreicht. Beibehalten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Redeeinleitungen verwendet, was den Text sehr modern und dynamisch macht."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["schon", "vielleicht", "ja"],
+        "suggestions": [
+          "Die Füllwörter dienen hier der Charakterisierung der Unsicherheit/Spannung und sind daher stilistisch sinnvoll."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine problematischen Gleichzeitigkeits-Konstruktionen vorhanden."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text ist durchgehend aktiv formuliert."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die Satzlänge ist perfekt auf den Rhythmus eines angespannten Gesprächs abgestimmt."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [],
+        "suggestions": [
+          "Die Dialoge sind kurz und prägnant. Die Kürze erzeugt die gewünschte Spannung."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie beobachtet ihn.", "Sie sieht ihn an."],
+        "suggestions": ["Die Wahrnehmungen sind direkt und handlungsorientiert beschrieben."]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Nicht dieses Blau. Nein. Nicht dieses."],
+        "suggestions": [
+          "Die Wiederholungen sind rhetorisch bewusst gesetzt, um die Stimmung zu verdeutlichen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

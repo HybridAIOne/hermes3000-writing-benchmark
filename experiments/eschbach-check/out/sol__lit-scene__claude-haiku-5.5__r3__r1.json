@@ -1,0 +1,131 @@
+{
+  "who": "sol",
+  "item": "lit-scene__claude-haiku-5.5__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel ließ sich nicht drehen.",
+          "Sie stand auf der Stufe, den Koffer neben sich, und drückte die Klinke, bis das Holz nachgab."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten: Das Hindernis erzeugt sofort Spannung, der Koffer vermittelt die Ankunft ohne Vorgeschichte. Ein späterer Beginn würde diese Wirkung schwächen.",
+          "Allenfalls die zweite Satzkonstruktion verdichten: „Den Koffer neben sich, drückte sie die Klinke, bis das Holz nachgab.“ Die räumliche Orientierung auf der Stufe entfiele dabei."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "mit einem trockenen Ächzen im unteren Scharnier",
+          "eine kleine Lasche, sauber gelöst und wieder angedrückt",
+          "Durchs Fenster fiel grauer Nachmittag"
+        ],
+        "suggestions": [
+          "„unteren“ und „kleine“ probeweise streichen: Für Atmosphäre und Handlung sind sie weniger wichtig als die übrigen Beschreibungen.",
+          "„sauber gelöst und wieder angedrückt“ erhalten, weil diese Präzisierung den Verdacht auf einen früheren Besucher vorbereitet.",
+          "Atmosphärisch tragende Beschreibungen wie „grauer Nachmittag“ nicht schematisch kürzen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung erforderlich: Der Text enthält weder Dialoge noch überflüssige Redeeinleitungen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "nach etwas Süßem, das sie keinem Ding zuordnen konnte",
+          "der immer ein wenig schief gestanden hatte",
+          "in einer Reihe mit anderen Gläsern"
+        ],
+        "suggestions": [
+          "„ein wenig“ probeweise streichen: „der immer schief gestanden hatte“ ist knapper, verstärkt allerdings die Schiefstellung.",
+          "„keinem Ding zuordnen konnte“ lässt sich natürlicher als „nicht zuordnen konnte“ formulieren.",
+          "„etwas Süßem“ beibehalten: Die Unbestimmtheit entspricht ihrem Wissensstand und bereitet die spätere Identifikation des Geruchs vor."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "als müsste man das Haus erst wecken",
+          "Sie ging in die Küche, ohne das Licht einzuschalten."
+        ],
+        "suggestions": [
+          "Keine Entflechtung nötig: Die Handlungen folgen einander klar.",
+          "„als müsste“ ist hier ein Vergleich, keine problematische Gleichzeitigkeitskonstruktion."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das Jahr war nicht mehr zu lesen",
+          "Das Wachs über dem Rand war an einer Stelle angehoben"
+        ],
+        "suggestions": [
+          "Die Zustandsbeschreibungen grundsätzlich beibehalten: Sie lenken den Blick auf die Spuren statt auf einen noch unbekannten Handelnden.",
+          "Optional konkreter formulieren: „Die Jahreszahl war unleserlich.“ Eine aktive Wendung wie „Jemand hatte das Wachs angehoben“ würde die abschließende Erkenntnis vorwegnehmen."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Durchs Fenster fiel grauer Nachmittag auf den Tisch mit der Wachstuchdecke, auf die Zuckerdose, den Stuhl, der immer ein wenig schief gestanden hatte.",
+          "Dort standen die Regale noch, und auf dem mittleren, in einer Reihe mit anderen Gläsern, eines mit einem Papierdeckel."
+        ],
+        "suggestions": [
+          "Den Regalsatz entlasten: „Dort standen noch die Regale. Auf dem mittleren stand zwischen anderen Gläsern eines mit einem Papierdeckel.“",
+          "Den Satz über das Nachmittagslicht eher erhalten: Seine Aufzählung bildet den wandernden Blick ab und bleibt verständlich."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Änderung erforderlich: Es gibt keine Dialogpassagen. Die stille Erkundung trägt die Szene auch ohne Gespräch."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "nach etwas Süßem, das sie keinem Ding zuordnen konnte",
+          "Darin stand eine Frau Ende vierzig, die sie einen Moment lang nicht erkannte.",
+          "Die Süße, die sie im Flur gerochen hatte, kam von hier."
+        ],
+        "suggestions": [
+          "Den Geruchsrückverweis bei Bedarf direkter fassen: „Hierher kam also die Süße im Flur.“",
+          "Das verzögerte Erkennen im Spiegel beibehalten: Die Wahrnehmungsvermittlung zeigt ihre Selbstentfremdung und ist kein bloßer Filter.",
+          "Die überwiegend unmittelbare Darstellung von Licht, Gerüchen und Gegenständen fortführen."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Mäntel an der Garderobe fehlten. Die Hausschuhe der Mutter fehlten auch",
+          "nach etwas Süßem",
+          "Die Süße, die sie im Flur gerochen hatte, kam von hier."
+        ],
+        "suggestions": [
+          "Die Wiederholung von „fehlten“ erhalten: Sie rhythmisiert die Bestandsaufnahme und betont die Abwesenheit der Mutter.",
+          "Auch die wiederkehrende Süße hat eine klare Funktion: Sie verbindet den ersten Eindruck mit dem Fund.",
+          "Falls stärker gestrafft werden soll, eher den Schlussrückverweis kürzen als diese motivischen Verbindungen entfernen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.0177
+}

@@ -1,0 +1,135 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__claude-haiku-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ein Café am Bahnhof. Regen am Fenster.“ etabliert Ort und Atmosphäre ohne Vorlauf.",
+          "„Er bleibt in der Tür stehen.“ macht Peters Zögern unmittelbar sichtbar."
+        ],
+        "suggestions": [
+          "Den Einstieg grundsätzlich beibehalten: Bereits Ankunft und Begrüßung tragen den Beziehungskonflikt.",
+          "Für eine noch knappere Fassung prüfen, ob „HANNA sitzt am Tisch“ genügt. Dass sie früher angekommen ist, vermittelt anschließend der Dialog."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der alte war durchgescheuert.“ verwendet eine konkrete, anschauliche Zustandsbeschreibung.",
+          "„Sie lächelt traurig“ benennt die Emotion ausdrücklich, obwohl Abschied und verweigerte Geste sie bereits vermitteln."
+        ],
+        "suggestions": [
+          "„Sie lächelt traurig“ versuchsweise zu „Sie lächelt“ kürzen und die Traurigkeit aus dem Zusammenhang entstehen lassen.",
+          "Konkrete Angaben wie „durchgescheuert“ beibehalten; sie charakterisieren über Gegenstände statt über abstrakte Erklärungen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Sprecher werden durch „PETER:“ und „HANNA:“ eindeutig gekennzeichnet.",
+          "„Er setzt sich, ohne den Mantel auszuziehen.“ ergänzt den Dialog durch eine aussagekräftige Handlung statt durch eine redundante Redeeinleitung."
+        ],
+        "suggestions": [
+          "Die Sprechernamen im dramatischen Format beibehalten; sie sind hier funktionale Kennzeichnungen, keine überflüssigen Redebegleitsätze.",
+          "Weiterhin auf zusätzliche Erläuterungen wie „sagt er zögernd“ verzichten, wenn Handlung und Wortwahl das Zögern bereits zeigen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„HANNA sitzt bereits am Tisch“ enthält mit „bereits“ eine möglicherweise verzichtbare Zeitangabe.",
+          "„Wir schweigen doch beide.“ nutzt „doch“ als bedeutungstragende Gesprächspartikel, nicht als bloßes Füllwort.",
+          "„Willst du etwas bestellen?“ ist eine natürliche Frage; „etwas“ erzeugt hier keine störende Unpräzision."
+        ],
+        "suggestions": [
+          "„Bereits“ probeweise streichen, da die folgende Begrüßung Hannas frühere Ankunft deutlich macht.",
+          "Gesprächspartikeln nicht pauschal entfernen: „doch“ trägt hier Peters Rechtfertigung und Gegenangriff."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„HANNA sitzt bereits am Tisch, als PETER hereinkommt.“ verbindet zwei Vorgänge klar und übersichtlich.",
+          "„Sie lächelt traurig und schiebt ihm die Tasse zu.“ bündelt zwei problemlos vorstellbare Handlungen.",
+          "„Er steht auf, legt Geld auf den Tisch.“ stellt die Abfolge knapp dar."
+        ],
+        "suggestions": [
+          "Keine grundsätzliche Überarbeitung nötig; Gleichzeitigkeit wird sparsam und verständlich eingesetzt.",
+          "Nur für einen stärker abgesetzten Schlussrhythmus erwägen: „Sie lächelt. Dann schiebt sie ihm die Tasse zu.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Der Kellner kommt, stellt Wasser ab, geht wieder.“ ist durchgehend aktiv formuliert.",
+          "„Er steht auf, legt Geld auf den Tisch.“ benennt den Handelnden und seine Tätigkeiten unmittelbar."
+        ],
+        "suggestions": [
+          "Die aktive, konkrete Formulierungsweise beibehalten. Es gibt keine auffälligen Passivkonstruktionen, die ersetzt werden müssten."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Sie fragt nach allem, was sie nicht versteht.“ bleibt trotz Nebensatz knapp und verständlich.",
+          "„Sie greift in die Manteltasche, lässt die Hand dort liegen.“ verbindet zwei kurze Handlungsschritte ohne Verschachtelung."
+        ],
+        "suggestions": [
+          "Keine weitere systematische Verkürzung nötig: Die Sätze sind bereits übersichtlich.",
+          "Zusammengehörige Gesten nicht unnötig in Einzelsätze zerlegen; sonst könnte der ohnehin knappe Rhythmus monoton werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ich auch nicht.“ verdichtet Peters Unsicherheit auf eine kurze Replik.",
+          "„Ich habe dich gebeten zu kommen. Nicht zu schweigen.“ formuliert Hannas Vorwurf knapp und pointiert.",
+          "„Für wen?“ verschärft den Konflikt mit nur zwei Wörtern."
+        ],
+        "suggestions": [
+          "Die kurzen Redewechsel beibehalten; es gibt keine ausufernden Einzelreden.",
+          "Die Passage über Kaffee und Mantel nur dann kürzen, wenn ein höheres Tempo gewünscht ist. Sie erfüllt als ausweichendes Alltagsgespräch eine erkennbare dramaturgische Funktion."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Sie greift in die Manteltasche, lässt die Hand dort liegen.“ zeigt ihre Reaktion, ohne Gedanken zu erklären.",
+          "„Er nimmt sie nicht.“ macht die Zurückweisung unmittelbar sichtbar.",
+          "„Ich dachte, du hättest ihn verbrannt.“ ist eine inhaltlich relevante Dialogäußerung, kein erzählerischer Wahrnehmungsfilter."
+        ],
+        "suggestions": [
+          "Die beobachtbaren Gesten als Träger des Subtexts beibehalten.",
+          "Keine erklärenden Gedankenberichte ergänzen; das dramatische Format gewinnt hier durch die Beschränkung auf Sprache und sichtbares Verhalten."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Welchen?“ erscheint sowohl beim Brief als auch beim Schlüssel und erzeugt eine spiegelbildliche Gesprächsbewegung.",
+          "„Ich habe dich gebeten zu kommen. Nicht zu schweigen.“ greift Peters „Du hast mich gebeten“ auf und verändert dessen Bedeutung.",
+          "„Wir schweigen doch beide.“ führt das Schweigen als Beziehungsmuster zusammen, statt lediglich denselben Sachverhalt erneut zu erklären."
+        ],
+        "suggestions": [
+          "Die Wiederholungen überwiegend beibehalten: Sie dienen dem Ausweichen, der Gegenwehr und der rhythmischen Verknüpfung.",
+          "Prüfen, ob das zweimalige „Welchen?“ bewusst spiegelbildlich wirken soll. Falls nicht, eine der beiden Reaktionen variieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.019556
+}

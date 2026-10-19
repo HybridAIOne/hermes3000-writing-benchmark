@@ -1,0 +1,127 @@
+{
+  "who": "opus",
+  "item": "lit-scene__gpt-6.1-sol__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Der Schlüssel ging leichter ins Schloss, als sie erwartet hatte.",
+          "Das Holz hatte sich verzogen, oder es war schon immer so gewesen und ihre Mutter hatte es nur nie erwähnt."
+        ],
+        "suggestions": [
+          "Der Einstieg an der Tür ist gerechtfertigt, weil er sofort die Distanz zur Mutter und das Fremdsein im eigenen Elternhaus spürbar macht. Ein späterer Einstieg im Flur (\"Im Flur roch es nach kalter Wolle.\") wäre möglich, würde aber den schönen Bogen zum Schlusssatz (\"schloss die Haustür\") schwächen. Daher eher beibehalten."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "kalter Wolle",
+          "der graue Mantel",
+          "ein schmaler Streifen Licht",
+          "ein blasser Lippenabdruck",
+          "eine einzelne Zitrone, leicht geworden, mit harter Schale",
+          "Er war ausgeschaltet und ausgewischt."
+        ],
+        "suggestions": [
+          "Die Adjektive sind sparsam und überwiegend funktional. \"leicht geworden, mit harter Schale\" erzählt präzise von verstrichener Zeit und sollte bleiben.",
+          "\"der graue Mantel\" ist das schwächste Adjektiv. Ein konkreteres Detail wäre stärker, z. B. \"der Lodenmantel\" oder ein abgegriffener Kragen.",
+          "\"einzelne\" ist bei \"eine Zitrone\" fast redundant. Erwägen: \"lag eine Zitrone\"."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der Text enthält keine Dialoge und daher keine Redeeinleitungen. Das indirekt wiedergegebene Telefonat (\"Bescheid sagen, sobald sie angekommen war.\") kommt elegant ohne Kennzeichnung aus."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "offenbar hatte niemand das Glas fortgeräumt",
+          "Nach einer Weile stand sie auf",
+          "Für einen Augenblick zitterte die Scheibe",
+          "Hinter der Tür hing noch der graue Mantel"
+        ],
+        "suggestions": [
+          "\"offenbar\" kann entfallen: \"und niemand hatte das Glas fortgeräumt\". Der Befund ist für die Leserin eindeutig.",
+          "\"Für einen Augenblick\" ist entbehrlich, denn \"zitterte\" impliziert bereits Kürze: \"Die Scheibe über der Spüle zitterte in ihrem Rahmen.\"",
+          "\"Nach einer Weile\" ist hier bewusst vage und trägt die Stille der Szene. Es kann bleiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Die Handlungen werden konsequent nacheinander erzählt (\"Sie nahm sie heraus, roch daran und legte sie zurück.\"). \"als\" im ersten Satz ist ein Vergleich, keine Gleichzeitigkeit. Kein Handlungsbedarf."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Er war ausgeschaltet und ausgewischt.", "Das war vereinbart gewesen"],
+        "suggestions": [
+          "Beide Formen sind Zustandspassiv und hier sinnvoll: Der ausgewischte Kühlschrank steht im Kontrast zum stehengelassenen Glas, und gerade die Ungewissheit, wer ihn gesäubert hat, ist erzählerisch wirksam.",
+          "Optional aktiv und personaler: \"Sie hatte es ihrer Schwester versprochen\" statt \"Das war vereinbart gewesen\". Das wäre direkter, aber weniger distanziert."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ihre Mutter hatte zuletzt allein hier gelebt, und offenbar hatte niemand das Glas fortgeräumt, weder die Nachbarin, die sie gefunden hatte, noch der Mann vom Bestattungsinstitut.",
+          "Hinter der Tür hing noch der graue Mantel, unten weit genug ausgestellt, dass man beim Vorbeigehen daran streifte."
+        ],
+        "suggestions": [
+          "Den längsten Satz teilen, damit die Information zum Tod der Mutter mehr Gewicht erhält: \"Ihre Mutter hatte zuletzt allein hier gelebt. Niemand hatte das Glas fortgeräumt, nicht die Nachbarin, die sie gefunden hatte, nicht der Mann vom Bestattungsinstitut.\"",
+          "Insgesamt ist der Satzrhythmus sehr gut. Kurze Sätze wie \"Sie zog die Hand weg.\" setzen wirkungsvolle Zäsuren."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Keine Dialogpassagen vorhanden. Die Wortlosigkeit passt zur Szene der Einsamkeit und Trauer."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jetzt wusste sie nicht, ob sie recht gehabt hatte.",
+          "Von hier aus konnte sie den oberen Treppenabsatz sehen.",
+          "An seiner Unterseite ertastete sie drei dicht beieinanderliegende Kerben."
+        ],
+        "suggestions": [
+          "\"Jetzt wusste sie nicht, ob sie recht gehabt hatte.\" könnte direkter als Wahrnehmung gezeigt werden, z. B.: \"Jetzt standen die Wände da, wie sie eben waren.\" Allerdings ist die Unsicherheit hier inhaltlich gemeint.",
+          "\"konnte sie ... sehen\" ist ein Filter, der den Blick nach oben aber bewusst als Absicht markiert. Alternative ohne Filter: \"Von hier aus lag der obere Treppenabsatz im Blick.\" Beibehalten ist ebenfalls vertretbar.",
+          "\"ertastete sie\" funktioniert gut, weil das Tasten selbst die Handlung ist."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "\"Tür\" fünfmal: \"die Tür mit der Schulter\", \"Hinter der Tür\", \"zu nah an der Tür\", \"Ablage der Tür\", \"Haustür\"",
+          "\"Mantel\" zweimal: \"der graue Mantel\" / \"noch im Mantel\"",
+          "Gehäuftes Plusquamperfekt mit \"hatte\": \"erwartet hatte\", \"nie erwähnt\", \"nicht betreten\", \"vorgestellt\", \"recht gehabt hatte\", \"gelebt\", \"fortgeräumt\", \"gefunden hatte\""
+        ],
+        "suggestions": [
+          "\"Ablage der Tür\" ersetzen durch \"Türfach\" oder \"In der Ablage lag\", um eine Tür-Nennung einzusparen.",
+          "Die Mantel-Doppelung kann als bewusste Spiegelung (Mutter/Tochter) stehen bleiben. Falls sie unbeabsichtigt ist, \"noch im Mantel\" durch \"ohne die Jacke auszuziehen\" ersetzen.",
+          "Nach dem Einstieg in die Rückblende ins Präteritum wechseln, um die \"hatte\"-Kette aufzulösen, z. B.: \"Zwanzig Jahre hatte sie dieses Haus nicht betreten. Auf der Fahrt stellte sie sich die Zimmer kleiner vor, die Decken niedriger.\""
+        ]
+      }
+    }
+  },
+  "costUsd": 0.097068
+}

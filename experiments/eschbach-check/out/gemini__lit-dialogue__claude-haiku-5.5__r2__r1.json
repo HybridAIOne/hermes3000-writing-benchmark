@@ -1,0 +1,101 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__claude-haiku-5.5__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ein Café am Hafen. Regen am Fenster. MARTIN sitzt bereits, rührt in einer leeren Tasse."
+        ],
+        "suggestions": [
+          "Der Einstieg ist hervorragend (in medias res). Keine überflüssige Vorgeschichte, sofortige Etablierung von Ort, Atmosphäre und Charakterspannung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["langsam näher", "lacht kurz", "öffnet endlich", "klingt lang und dunkel"],
+        "suggestions": [
+          "Fast alle Adjektive sind präzise gesetzt. Lediglich in den Regieanweisungen könnte 'langsam näher' durch ein stärkeres Verb wie 'zögert heran' ersetzt werden. Das Wort 'endlich' beim Mantelknopf ist wertend (Telling) – die Handlung des Aufknöpfens allein zeigt bereits die Entspannung."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["**JULIA:** Du bist früher da."],
+        "suggestions": [
+          "Da es sich um ein Drehbuch-/Theaterformat handelt, gibt es keine klassischen 'sagte er'-Konstruktionen. Sollte der Text in Prosa umgewandelt werden, tragen sich die Dialoge durch den starken Rhythmus und die eingestreuten Handlungen bereits selbst."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Du hast also doch die Einladung bekommen.", "Ich erinnere mich einfach."],
+        "suggestions": [
+          "Die Regieanweisungen sind komplett frei von Füllwörtern. In den Dialogen tauchen Wörter wie 'also', 'doch', 'einfach' auf, was im gesprochenen Wort absolut natürlich klingt und den Subtext stützt. Keine Änderungen nötig."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Die Kellnerin kommt, nimmt Julias Bestellung auf, geht wieder.",
+          "Sie greift nach ihrer Tasse, zögert, lässt sie stehen."
+        ],
+        "suggestions": [
+          "Exzellente Umsetzung. Es werden keine 'während'- oder 'als'-Konstruktionen genutzt. Alle Handlungen erfolgen strikt und wirkungsvoll nacheinander."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der gesamte Text steht im Aktiv. Das sorgt für große Unmittelbarkeit."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Ein Café am Hafen. Regen am Fenster.",
+          "Stille. Löffel klirrt gegen Porzellan."
+        ],
+        "suggestions": [
+          "Der Satzbau ist verknappt, präzise und rhythmisch. Es gibt keinerlei Schachtelsätze."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "**JULIA:** Ich hab die Karte bekommen. Zwei Wochen später.\n**MARTIN:** Die Post ist unzuverlässig.\n**JULIA:** Die Post war nie das Problem."
+        ],
+        "suggestions": [
+          "Meisterhafte Dialogführung nach dem Ping-Pong-Prinzip. Kein Satz ist zu viel, alles Wichtige liegt im Subtext."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Er sieht es, sagt nichts."],
+        "suggestions": [
+          "Statt der indirekten Wahrnehmung 'Er sieht es' lieber eine direkte körperliche Reaktion zeigen, besonders im szenischen Schreiben. Vorschlag: 'Sein Blick folgt ihren Fingern. Er sagt nichts.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "MARTIN sitzt bereits, rührt in einer leeren Tasse. [...] JULIA: Der Kaffee sieht kalt aus. MARTIN: Ich hab nicht bestellt."
+        ],
+        "suggestions": [
+          "Hier gibt es einen kleinen Logikfehler bzw. eine unklare Doppelung: Zu Beginn ist die Tasse 'leer' (und er hat nicht bestellt), dennoch sagt Julia später, der Kaffee sehe 'kalt' aus. Außerdem wird im nächsten Absatz nicht erwähnt, dass die Kellnerin den bestellten Kaffee auch bringt, bevor Julia später nach ihrer Tasse greift. Vorschlag: Martin rührt anfangs in einem kalten Rest Kaffee (vom Vorgänger oder weil er schon ewig sitzt), oder Julia deutet auf die leere Tasse und sagt: 'Trockenübung?'"
+        ]
+      }
+    }
+  },
+  "costUsd": 0.014944
+}

@@ -1,0 +1,116 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__gemini-4-argon__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "*(Ein kleines Café. LUKAS sitzt am Tisch und dreht seinen Ehering. ANNA tritt ein, zögert kurz und setzt sich ihm gegenüber. Sie zieht den Mantel nicht aus.)*",
+          "Du trinkst jetzt Schwarztee?"
+        ],
+        "suggestions": [
+          "Der Einstieg ist nach dem Prinzip 'in medias res' hervorragend gelungen. Die Regieanweisung etabliert mit wenigen Details (Ehering drehen, Mantel anbehalten) sofort die emotionale Spannung, und der erste Dialogsatz vermeidet langweiliges Geplänkel."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "*(nickt knapp)*",
+          "*(lächelt dünn)*",
+          "*(ihre Stimme zittert leicht)*",
+          "*(steht langsam auf)*"
+        ],
+        "suggestions": [
+          "In den Regieanweisungen finden sich einige Adverbien, die man im Sinne Eschbachs hinterfragen oder durch stärkere Verben/Bilder ersetzen könnte. Bei Drehbuch/Theatertexten gibt man den Schauspielern oft lieber den Raum, das 'Wie' selbst zu füllen.",
+          "Statt 'steht langsam auf' könnte man 'zögert, steht dann auf' schreiben. 'Leicht' bei 'zittert leicht' ist komplett streichbar."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["ANNA / LUKAS (Formatierung als Szenentext)"],
+        "suggestions": [
+          "Da es sich um ein dramatisch/szenisches Format handelt, entfallen klassische Inquit-Formeln ('sagte er'). Die Zuordnung ist durch die Struktur perfekt und unaufdringlich gelöst."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Seit ein paar Monaten.",
+          "Man gewöhnt sich ja an den bitteren Geschmack.",
+          "...wer von uns beiden eigentlich gegangen ist."
+        ],
+        "suggestions": [
+          "In den Regieanweisungen gibt es keinerlei Füllwörter. In den Dialogen tauchen Wörter wie 'ja', 'eben', 'eigentlich' auf – dort sind sie jedoch vollkommen legitim, da sie die gesprochene Sprache authentisch und natürlich klingen lassen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "*(nimmt die Schachtel, steht langsam auf)*",
+          "*(weicht ihrem Blick aus, starrt in seine Tasse)*"
+        ],
+        "suggestions": [
+          "Keine Beanstandungen. Handlungen werden sauber nacheinander beschrieben, es gibt keine überladenen 'während'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": [
+          "Der gesamte Text ist durchgehend aktiv formuliert. Jede Figur handelt klar und direkt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ja. Mit Mantel. Auf dem Sprung. Wie immer, wenn es ernst wird."],
+        "suggestions": [
+          "Der Satzbau ist exzellent, rhythmisch und dem Medium (Dialog/Szene) perfekt angepasst. Kurze, prägnante Sätze und Ellipsen erhöhen die dramatische Spannung."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "LUKAS: Nein, ich habe geschrieben, es sei an der Zeit. *(Er schiebt eine kleine Pappschachtel über den Tisch)* Das lag noch bei mir im Keller."
+        ],
+        "suggestions": [
+          "Obwohl der Text nur aus Dialog besteht, sind die einzelnen Redebeiträge (Repliken) extrem kurz und präzise. Es gibt ein starkes Ping-Pong-Prinzip ohne unnatürliche Monologe."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "*(ihr Blick verhärtet sich)*",
+          "*(Lukas bleibt sitzen und rührt in seinem leeren Tee.)*"
+        ],
+        "suggestions": [
+          "Perfektes 'Show, don't tell'. Emotionen werden nicht erklärt ('Er war traurig'), sondern durch äußere, sichtbare Handlungen dargestellt (Ehering drehen, Mantel anlassen, in leerer Tasse rühren)."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ein kleines Café. ... eine kleine Pappschachtel",
+          "Du hättest es einfach wegwerfen können. / Ich werfe Dinge nicht einfach weg..."
+        ],
+        "suggestions": [
+          "Die Wiederholungen im Dialog ('wegwerfen', 'fair', 'geschrieben') sind hervorragende rhetorische Stilmittel (Schlagabtausch).",
+          "Lediglich das Adjektiv 'klein' doppelt sich in den Regieanweisungen ('kleines Café', 'kleine Pappschachtel'). Bei 'Café' kann 'kleines' problemlos gestrichen werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016276
+}

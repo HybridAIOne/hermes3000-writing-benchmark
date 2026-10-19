@@ -1,0 +1,106 @@
+{
+  "who": "hermes",
+  "item": "anchor__schnitzler-der-blinde-geronimo-und-sein-bruder-900",
+  "run": 3,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["Der blinde Geronimo stand von der Bank auf und nahm die Gitarre zur Hand..."],
+        "suggestions": [
+          "Die Szene beginnt mit einer Vorbereitungshandlung. Setzen Sie früher an der Atmosphäre oder dem Eintreffen der Wagen an, um den Leser sofort in den Konflikt oder die Umgebung zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "feuchtschmutzigen Boden",
+          "naßkalten Wind",
+          "ziemlich lärmenden",
+          "ungleichmäßigen"
+        ],
+        "suggestions": [
+          "Viele Adjektive sind atmosphärisch überladen. Versuchen Sie, durch stärkere Verben oder Substantive die Stimmung zu erzeugen, statt sie zu beschreiben (z.B. 'Matsch' statt 'feuchtschmutziger Boden')."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["sagte Geronimo", "sagte der junge Mann"],
+        "suggestions": [
+          "Die Marker sind funktional und unaufdringlich. Sie könnten an einigen Stellen komplett entfallen, wenn der Sprecherwechsel durch den Kontext klar ist."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["ziemlich eben", "ziemlich lärmenden", "wohl eingehüllt", "beinahe ängstlich"],
+        "suggestions": [
+          "Wörter wie 'ziemlich', 'wohl' und 'beinahe' schwächen die Aussagekraft. Streichen Sie diese, um die Sprache direkter und präziser zu machen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Während er die Stufen aufwärts schritt, begann Geronimo wieder zu singen."],
+        "suggestions": [
+          "Vermeiden Sie 'Während'-Konstruktionen, da sie den Lesefluss verlangsamen. Beschreiben Sie die Handlungen nacheinander, um mehr Dynamik zu erzeugen."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "die auf dem Tisch neben dem Weinglase bereit gelegen war",
+          "war die Welt für Geronimo in Nacht versunken"
+        ],
+        "suggestions": [
+          "Formulieren Sie Passivsätze aktiv um, um die Handlung lebendiger zu gestalten. Beispiel: 'Die Gitarre lag auf dem Tisch bereit.'"
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Er mußte, wie immer beim Anblick solcher Kinder, daran denken, daß Geronimo gerade so alt gewesen war, als das Unglück geschah, durch das er das Augenlicht verloren hatte."
+        ],
+        "suggestions": [
+          "Der Rückblick enthält sehr verschachtelte Sätze. Teilen Sie diese in kürzere Einheiten auf, um die emotionale Wucht der Erinnerung zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["»Bring mir Wein,« sagte Geronimo", "»Ihr Wohl, meine Herrschaften!«"],
+        "suggestions": [
+          "Die Dialoge sind angenehm kurz und funktional. Hier besteht kaum Änderungsbedarf."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Er dachte, wie oft diese beiden schon den gleichen Weg hin und her gegangen sein mochten",
+          "Er hörte längst nicht mehr auf seine eigene Stimme"
+        ],
+        "suggestions": [
+          "Vermeiden Sie 'Er dachte, dass...' oder 'Er hörte, dass...'. Lassen Sie den Leser die Gedanken oder Wahrnehmungen direkt durch die Handlung oder den inneren Monolog erleben."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Noch heute klang ihm der grelle Kinderschrei ins Ohr... noch heute sah er die Sonne... noch heute..."
+        ],
+        "suggestions": [
+          "Die dreifache Wiederholung von 'noch heute' wirkt stilistisch gewollt, aber ermüdend. Variieren Sie den Satzbau oder streichen Sie die Wiederholung, um die Wirkung zu verstärken."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

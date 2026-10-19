@@ -1,0 +1,96 @@
+{
+  "who": "hermes",
+  "item": "anchor__fontane-unterm-birnbaum-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr expositorisch und statisch. Beginnen Sie direkt mit der Handlung: 'Säcke wurden auf den Bauerwagen geladen, während Hradscheck den Knecht anwies.'"
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["großen und reichen", "magern Schimmeln", "schläfrigen"],
+        "suggestions": [
+          "Die Adjektive sind atmosphärisch passend, könnten aber teilweise gestrafft werden, um den Lesefluss zu beschleunigen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Der als Jakob Angeredete nickte nur statt aller Antwort"],
+        "suggestions": ["Verkürzen Sie die Redeeinleitungen. 'Jakob nickte nur' reicht völlig aus."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["Einige", "so", "denn"],
+        "suggestions": [
+          "Das Wort 'Einige' wird innerhalb kurzer Zeit zweimal verwendet. Streichen oder durch präzisere Mengenangaben ersetzen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": []
+      },
+      "passive": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": ["wurden Säcke ... geladen", "war ... eröffneten"],
+        "suggestions": [
+          "Formulieren Sie aktiv: 'Knechte luden Säcke auf den Bauerwagen.' Das erhöht die Dynamik."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Vor dem in dem großen und reichen Oderbruchdorfe Tschechin um Michaeli 20 eröffneten Gasthaus und Materialwaarengeschäft von Abel Hradscheck (so stand auf einem über der Thür angebrachten Schilde) wurden Säcke, vom Hausflur her, auf einen mit zwei magern Schimmeln bespannten Bauerwagen geladen."
+        ],
+        "suggestions": [
+          "Der erste Satz ist extrem verschachtelt. Teilen Sie ihn in mindestens drei Sätze auf, um die Informationen (Ort, Geschäft, Handlung) besser zu trennen."
+        ]
+      },
+      "dialogueLength": {
+        "rating": "good",
+        "score": 7,
+        "examples": [],
+        "suggestions": [
+          "Die Dialoglänge ist für den historischen Kontext angemessen, könnte aber für moderne Leser leicht gestrafft werden."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "so sah man denn an dem, was herausfiel, daß es Rapssäcke waren",
+          "Hradscheck sah dem Wagen nach"
+        ],
+        "suggestions": [
+          "Statt 'man sah, dass...', beschreiben Sie das Bild direkt: 'Aus den Löchern rieselte Raps.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Einige von den Säcken waren nicht gut gebunden... Einige von den Säcken waren nicht gut gebunden"
+        ],
+        "suggestions": [
+          "Vermeiden Sie die Wortwiederholung von 'Einige' am Satzanfang. Variieren Sie den Satzbau."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

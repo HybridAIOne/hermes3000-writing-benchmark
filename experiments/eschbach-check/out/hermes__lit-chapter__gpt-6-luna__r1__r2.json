@@ -1,0 +1,94 @@
+{
+  "who": "hermes",
+  "item": "lit-chapter__gpt-6-luna__r1",
+  "run": 2,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Nebel lag so dicht über der Elbe...",
+          "Ilse schob den Riegel am Fährhaus zurück und trat hinaus."
+        ],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch und setzt genau zum richtigen Zeitpunkt ein. Keine Änderung erforderlich."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["dumpf und verspätet", "dunkle Haare"],
+        "suggestions": [
+          "Die Adjektive sind sparsam und funktional eingesetzt. 'Dunkle Haare' könnte durch ein spezifischeres Detail ersetzt werden, um das Bild zu schärfen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["„Morgen“, sagte die Frau.", "„Fährt sie?“"],
+        "suggestions": [
+          "Vorbildlich. Die Kennzeichnungen sind auf das Nötigste reduziert, der Sprecher ergibt sich aus dem Kontext."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["vielleicht Anfang vierzig", "schon gestern"],
+        "suggestions": [
+          "Sehr geringer Einsatz von Füllwörtern. Der Text wirkt dadurch sehr direkt und präzise."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Als der Anleger aus dem Grau auftauchte..."],
+        "suggestions": [
+          "Keine übermäßige Verwendung von 'während'. Die Handlungsabfolge ist klar und logisch strukturiert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Nebel riss für einen Moment auf"],
+        "suggestions": ["Der Text ist fast durchgehend aktiv formuliert. Sehr gut."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie prüfte das Seil, erst mit den Augen, dann mit der Hand, und strich mit dem Daumen über eine ausgefranste Stelle."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind gut variiert und unterstützen den Rhythmus der Routinearbeit."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["„Ist die Verbindung gut?“, fragte er. „Welche?“ „Der Empfang.“"],
+        "suggestions": [
+          "Die Dialoge sind knackig und treiben die Handlung voran, ohne unnötiges Geplänkel."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Ilse sah über die Schulter.", "Er sah hinunter."],
+        "suggestions": [
+          "Die Wahrnehmung ist meist direkt. Gelegentlich könnten 'sehen'-Konstruktionen durch die Handlung selbst ersetzt werden (z.B. 'Ihr Blick glitt über...')."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["Ilse sah über die Schulter.", "Der Mann sah kurz herüber.", "Er sah sie an."],
+        "suggestions": [
+          "Das Verb 'sehen' wird häufig verwendet. Hier könnte durch Synonyme oder spezifischere Verben (z.B. 'mustern', 'fixieren', 'der Blick fiel auf') variiert werden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

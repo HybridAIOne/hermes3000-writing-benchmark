@@ -1,0 +1,152 @@
+{
+  "who": "sol",
+  "item": "lit-continue__kimi-k3__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der Motor läuft\", sagte sie.",
+          "„Er klingt, als würde er gleich auseinanderfallen.\"",
+          "„Steig ein oder bleib stehen. Ich fahr gleich rüber.\""
+        ],
+        "suggestions": [
+          "Den unmittelbaren Dialogeinstieg beibehalten: Er etabliert Schauplatz, Ton und Beziehung ohne vorgeschaltete Erklärung.",
+          "Ein späterer Einstieg bei „Steig ein oder bleib stehen“ wäre möglich, würde aber das charakterisierende Wortgefecht über den Motor kosten und wäre daher nicht eindeutig stärker."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„das leichte Schwanken des Pontons“",
+          "„Das Wasser war hoch für die Jahreszeit, bräunlich und schnell“",
+          "„die Anlegestelle mit ihren aufgeweichten Bohlen“",
+          "„grau und ungeduldig“"
+        ],
+        "suggestions": [
+          "„Leichte“ probeweise streichen: „das Schwanken des Pontons“ vermittelt die Bewegung bereits.",
+          "Die konkreten, atmosphärisch tragenden Attribute wie „aufgeweichten“ beibehalten.",
+          "Bei der Wasserbeschreibung prüfen, ob die sachliche Beobachtung oder die Personifikation stärker wirken soll. Beide direkt aufeinanderfolgenden Beschreibungen sind nicht zwingend nötig."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Der Motor läuft\", sagte sie.",
+          "„Wie lange bleibst du?\", fragte sie über das Motorengeräusch hinweg.",
+          "„Komm her\", sagte sie und deutete auf den Platz neben sich in der Kabine."
+        ],
+        "suggestions": [
+          "Die überwiegend unmarkierten Redewechsel beibehalten; die Sprecher sind gut unterscheidbar.",
+          "Am Schluss kann die Handlung die Redekennzeichnung ersetzen: „Komm her.“ Sie deutete auf den Platz neben sich in der Kabine.",
+          "Die erste Sprecherkennzeichnung ist zur Orientierung sinnvoll und muss nicht gestrichen werden."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Koffer stand immer noch auf den Bohlen“",
+          "„Das tat sie manchmal“",
+          "„und etwas in ihr lockerte sich“",
+          "„Der Ponton trieb einen Moment lang“"
+        ],
+        "suggestions": [
+          "„Etwas in ihr“ ist emotional verständlich, aber unbestimmt. Bei einer Überarbeitung prüfen, ob eine konkrete körperliche Reaktion besser zur Figur passt.",
+          "„Einen Moment lang“ lässt sich gegebenenfalls zu „kurz“ straffen.",
+          "„Vielleicht länger“ und „wenigstens“ im Dialog beibehalten: Sie transportieren Unsicherheit beziehungsweise Ilses abwehrend-fürsorglichen Ton und sind keine bloßen Füllwörter."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Er hob den Koffer an Bord, und sie spürte das leichte Schwanken des Pontons unter seinem Gewicht.“",
+          "„das sie aus dem Augenwinkel beobachtete, ohne den Kopf zu drehen“",
+          "„als fürchte er, sich etwas an den Fässern schmutzig zu machen“"
+        ],
+        "suggestions": [
+          "Es gibt keine störende Häufung von Gleichzeitigkeitssignalen. Die verbundenen Handlungen und Wahrnehmungen sind nachvollziehbar.",
+          "Die Formulierungen mit „als“ nicht mechanisch auflösen: „als fürchte er“ und „als würde er“ drücken Vergleiche beziehungsweise Vermutungen aus, keine zeitliche Gleichzeitigkeit.",
+          "Nur bei gewünschter rhythmischer Straffung trennen: „Er hob den Koffer an Bord. Der Ponton schwankte unter seinem Gewicht.“"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Ilse löste die Leine und gab Gas.“",
+          "„Ilse zog den Steuerhebel zu sich und legte den Motor in den Leerlauf.“"
+        ],
+        "suggestions": [
+          "Die aktive Erzählweise beibehalten; umzuformulierende Passivsätze finden sich nicht.",
+          "„Du hast kein Zimmer gebucht“ ist aktives Perfekt und kein Passiv."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Der Koffer stand immer noch auf den Bohlen, und Jonas stand daneben, in seinem Mantel, der für München gemacht war und nicht für den November an der Elbe.“",
+          "„Nicht weil sie sich gefreut hätte – die Freude war da, aber sie war vorsichtig mit ihr, wie mit einer Flamme bei Wind –, sondern weil es so gehörte.“",
+          "„Er lachte kurz, und es klang echt, und etwas in ihr lockerte sich, das sie den ganzen Morgen festgehalten hatte, ohne es zu wissen.“"
+        ],
+        "suggestions": [
+          "Die Satzlängen sind insgesamt gut variiert. Vor allem der Einschub über die Freude verlangt jedoch zusätzliche Aufmerksamkeit.",
+          "Eine Entflechtung wäre: „Sie nickte, weil es so gehörte. Die Freude war da, aber sie war vorsichtig mit ihr, wie mit einer Flamme bei Wind.“",
+          "Den Satz über Jonas’ Lachen gegebenenfalls nach „echt“ teilen. Die mehrfache Verbindung mit „und“ kann aber auch bewusst den allmählichen inneren Umschwung tragen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Bis Sonntag.\" Eine Pause. „Vielleicht länger.\"",
+          "„Das liegt am Essen. Deins ist zu teuer, meins zu einfach.\"",
+          "„Wenn du schon bis Sonntag bleibst, kannst du wenigstens lernen, wie man das Ding anlegt. Heute Nachmittag fährst du.\""
+        ],
+        "suggestions": [
+          "Die knappen Dialoge beibehalten: Sie vermitteln Beziehung und Konflikt über Subtext statt über Erklärungen.",
+          "Auch die längere Schlussrede braucht keine Kürzung. Sie verbindet Ilses Fürsorge mit einer konkreten Handlung und öffnet die nächste Szene."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„sie spürte das leichte Schwanken des Pontons unter seinem Gewicht“",
+          "„das sie aus dem Augenwinkel beobachtete, ohne den Kopf zu drehen“",
+          "„und es klang echt“",
+          "„ohne es zu wissen“"
+        ],
+        "suggestions": [
+          "Den Wahrnehmungsfilter bei der Bewegung probeweise entfernen: „Unter seinem Gewicht schwankte der Ponton.“",
+          "Die Beobachtung des Treibholzes nicht automatisch streichen: Der Blick aus dem Augenwinkel charakterisiert Ilses Routine und Aufmerksamkeit.",
+          "„Ohne es zu wissen“ auf seinen Mehrwert prüfen. Der Zusatz erklärt nachträglich einen unbewussten Zustand; die unvermittelte Entspannung könnte diesen bereits vermitteln."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Sie hakte die Leine ab“ / „Ilse löste die Leine“",
+          "„Der Koffer stand immer noch auf den Bohlen, und Jonas stand daneben“",
+          "„Früher war er an Bord herumgelaufen“ / „Früher hatte er die Stille immer gefüllt“",
+          "„rüber und wieder rüber“"
+        ],
+        "suggestions": [
+          "Die beiden Leinenhandlungen klären: Handelt es sich um dieselbe Leine, wirkt das Ablegen doppelt erzählt. Bei verschiedenen Leinen diese unterscheidbar benennen.",
+          "Die unmittelbare Wiederholung von „stand“ lässt sich leicht vermeiden: „Der Koffer stand immer noch auf den Bohlen, Jonas daneben …“",
+          "Die beiden Früher-heute-Kontraste erfüllen unterschiedliche Aufgaben, folgen aber demselben Muster. Prüfen, ob einer stärker verdichtet werden kann.",
+          "„Rüber und wieder rüber“ beibehalten: Die Wiederholung bildet den Arbeitsrhythmus ab und ist funktional."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.023774
+}

@@ -1,0 +1,96 @@
+{
+  "who": "hermes",
+  "item": "anchor__zweig-brennendes-geheimnis-900",
+  "run": 3,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Die Lokomotive schrie heiser auf: der Semmering war erreicht."],
+        "suggestions": [
+          "Der Einstieg ist atmosphärisch stark und setzt die Handlung direkt in Gang, ohne unnötige Vorrede."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["heiser", "schwarzen", "silbrigen", "bunte", "unruhigen", "flattrigen"],
+        "suggestions": [
+          "Die Adjektivdichte ist sehr hoch. Prüfen Sie, ob starke Verben die Adjektive ersetzen können, um den Text moderner und dynamischer zu gestalten."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["»Wozu bin ich eigentlich hier«, begann es unruhig in ihm zu fragen."],
+        "suggestions": ["Die Dialoge bzw. inneren Monologe sind gut in den Textfluss integriert."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["eigentlich"],
+        "suggestions": [
+          "Wörter wie 'eigentlich' oder 'vielleicht' sparsamer einsetzen, um die Aussagekraft zu schärfen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["während die Schellen klirrten"],
+        "suggestions": [
+          "Die Abfolge der Handlungen ist weitgehend klar, auch wenn deskriptive Passagen die Zeit dehnen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["war erreicht", "war... besetzt"],
+        "suggestions": [
+          "Einige Passivkonstruktionen könnten durch aktivere Verben ersetzt werden, um mehr Unmittelbarkeit zu erzeugen."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Die Beschreibung der Wolken (ein ganzer Absatz) oder der Absatz über den 'Frauenjäger'."
+        ],
+        "suggestions": [
+          "Lange, verschachtelte Sätze mit vielen Nebensätzen zerteilen, um den Lesefluss zu verbessern und die Aufmerksamkeit des Lesers zu halten."
+        ]
+      },
+      "dialogueLength": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Innerer Monolog des Barons."],
+        "suggestions": [
+          "Die Länge ist angemessen, da sie den Charakter des Protagonisten gut einfängt."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "er wußte, daß er die Reibfläche...",
+          "sah hinaus, wie das Dunkel langsam niederfiel"
+        ],
+        "suggestions": [
+          "Direkter formulieren: Statt 'er wusste, dass' oder 'er sah, wie', beschreiben Sie das Wahrgenommene direkt aus der Perspektive der Figur."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Die Beschreibung des 'Frauenjägers' wiederholt inhaltlich stark die Rastlosigkeit und Berechnung."
+        ],
+        "suggestions": [
+          "Straffung der Charakterisierung, um Redundanzen in der Beschreibung der psychologischen Zustände zu vermeiden."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

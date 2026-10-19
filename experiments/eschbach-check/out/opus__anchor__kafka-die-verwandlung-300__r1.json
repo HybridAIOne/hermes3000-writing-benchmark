@@ -1,0 +1,148 @@
+{
+  "who": "opus",
+  "item": "anchor__kafka-die-verwandlung-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 7,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt."
+        ],
+        "suggestions": [
+          "Keine Änderung nötig: Der Einstieg setzt unmittelbar mit dem zentralen Ereignis ein, ohne Vorgeschichte oder Aufwärmphase. Ein späterer Einstieg wäre kaum möglich."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch",
+          "Seine vielen, im Vergleich zu seinem sonstigen Umfang kläglich dünnen Beine flimmerten ihm hilflos vor den Augen.",
+          "in einem hübschen, vergoldeten Rahmen",
+          "einen noch nie gefühlten, leichten, dumpfen Schmerz",
+          "machte ihn ganz melancholisch"
+        ],
+        "suggestions": [
+          "Adjektivketten auf das wirkungsvollste Merkmal reduzieren, z. B. 'seinen gewölbten, von Versteifungen geteilten Bauch'.",
+          "'leichten, dumpfen' widersprechen sich fast und schwächen den Eindruck. Besser nur 'einen dumpfen Schmerz, wie er ihn nie gefühlt hatte'.",
+          "'hübschen' ist wertend und unpräzise. 'vergoldeten Rahmen' genügt.",
+          "'ganz melancholisch' durch ein konkretes Bild oder Verhalten ersetzen, das die Stimmung zeigt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "»Was ist mit mir geschehen?« dachte er.",
+          "»Wie wäre es, wenn ich noch ein wenig weiterschliefe und alle Narrheiten vergäße,« dachte er"
+        ],
+        "suggestions": [
+          "Da Gregor die einzige Figur und die Perspektive eindeutig ist, kann 'dachte er' entfallen. Der Gedanke in Anführungszeichen oder kursiv steht für sich.",
+          "Beim zweiten Gedanken könnte die Kennzeichnung bleiben, um die Gegenrede 'aber das war gänzlich undurchführbar' sauber anzuschließen."
+        ]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "wenn er den Kopf ein wenig hob",
+          "ein richtiges, nur etwas zu kleines Menschenzimmer",
+          "noch ein wenig weiterschliefe",
+          "Er versuchte es wohl hundertmal",
+          "das war gänzlich undurchführbar",
+          "kaum noch erhalten konnte"
+        ],
+        "suggestions": [
+          "'ein wenig' streichen: 'wenn er den Kopf hob' ist ausreichend präzise.",
+          "'wohl hundertmal' durch 'hundertmal' ersetzen, denn die Übertreibung wirkt ohne Abschwächung stärker.",
+          "'gänzlich undurchführbar' zu 'undurchführbar' kürzen.",
+          "'etwas zu klein' konkretisieren oder schlicht 'zu kleines Menschenzimmer' schreiben."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich",
+          "und ließ erst ab, als er in der Seite einen ... Schmerz zu fühlen begann",
+          "schloß die Augen, um die zappelnden Beine nicht sehen zu müssen"
+        ],
+        "suggestions": [
+          "Die 'als'-Konstruktionen sind sparsam eingesetzt und funktional. Im letzten Satz könnte man die Handlungen nacheinander erzählen: 'Er versuchte es hundertmal. Er schloss die Augen, um die zappelnden Beine nicht zu sehen. Erst ein dumpfer Schmerz in der Seite ließ ihn aufhören.'"
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war",
+          "mit einem Pelzhut und einer Pelzboa versehen"
+        ],
+        "suggestions": [
+          "Es handelt sich überwiegend um Zustandspassiv, das hier beschreibend legitim ist.",
+          "Optional aktiv: 'auf dem seine Musterkollektion von Tuchwaren lag' oder 'eine Dame in Pelzhut und Pelzboa'."
+        ]
+      },
+      "longSentences": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "Er lag auf seinem panzerartig harten Rücken und sah, wenn er den Kopf ein wenig hob, seinen gewölbten, braunen, von bogenförmigen Versteifungen geteilten Bauch, auf dessen Höhe sich die Bettdecke, zum gänzlichen Niedergleiten bereit, kaum noch erhalten konnte.",
+          "Über dem Tisch, auf dem eine auseinandergepackte Musterkollektion von Tuchwaren ausgebreitet war -- Samsa war Reisender --, hing das Bild, das er vor kurzem aus einer illustrierten Zeitschrift ausgeschnitten und in einem hübschen, vergoldeten Rahmen untergebracht hatte.",
+          "»Wie wäre es, wenn ich noch ein wenig weiterschliefe und alle Narrheiten vergäße,« dachte er, aber das war gänzlich undurchführbar, denn er war gewöhnt, auf der rechten Seite zu schlafen, konnte sich aber in seinem gegenwärtigen Zustand nicht in diese Lage bringen."
+        ],
+        "suggestions": [
+          "Den Bauch-Satz teilen: 'Er lag auf seinem panzerharten Rücken. Hob er den Kopf, sah er seinen gewölbten, von Versteifungen geteilten Bauch. Die Bettdecke drohte herunterzurutschen.'",
+          "Den Einschub '-- Samsa war Reisender --' als eigenen Satz setzen und den Bild-Satz entflechten: 'Auf dem Tisch lag seine Musterkollektion. Samsa war Reisender. Darüber hing ein Bild aus einer Illustrierten, das er gerahmt hatte.'",
+          "Den 'Wie wäre es'-Satz nach 'dachte er' beenden und die Begründung in einem neuen Satz anschließen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "»Was ist mit mir geschehen?«",
+          "»Wie wäre es, wenn ich noch ein wenig weiterschliefe und alle Narrheiten vergäße«"
+        ],
+        "suggestions": [
+          "Keine Änderung nötig: Es gibt nur zwei kurze, prägnante Gedankenzitate, keine ausufernden Dialoge."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "und sah, wenn er den Kopf ein wenig hob, seinen gewölbten ... Bauch",
+          "Gregors Blick richtete sich dann zum Fenster",
+          "man hörte Regentropfen auf das Fensterblech aufschlagen",
+          "als er in der Seite einen noch nie gefühlten, leichten, dumpfen Schmerz zu fühlen begann"
+        ],
+        "suggestions": [
+          "'man hörte Regentropfen aufschlagen' direkter: 'Regentropfen schlugen auf das Fensterblech.'",
+          "'Gregors Blick richtete sich dann zum Fenster' kann entfallen. Direkt das Wetter beschreiben: 'Draußen war es trüb.'",
+          "'zu fühlen begann' ersetzen durch 'bis ein dumpfer Schmerz in seine Seite fuhr'.",
+          "'sah ... seinen Bauch' umformen: 'Hob er den Kopf, wölbte sich vor ihm sein brauner Bauch.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "einen noch nie gefühlten ... Schmerz zu fühlen begann",
+          "mit einem Pelzhut und einer Pelzboa versehen ... einen schweren Pelzmuff",
+          "auf der rechten Seite zu schlafen ... auf die rechte Seite warf",
+          "aus unruhigen Träumen erwachte ... Es war kein Traum."
+        ],
+        "suggestions": [
+          "'gefühlten ... fühlen' vermeiden: 'einen Schmerz, wie er ihn nie gekannt hatte'.",
+          "Die dreifache 'Pelz'-Wiederholung ist vermutlich bewusst gesetzt. Wenn nicht, auf 'eine Dame in Pelz, die einen schweren Muff hochhielt' reduzieren.",
+          "Die zweite Nennung von 'rechte Seite' durch 'auf die Seite' ersetzen, da der Bezug klar ist."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.094268
+}

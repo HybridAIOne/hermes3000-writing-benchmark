@@ -1,0 +1,117 @@
+{
+  "who": "gemini",
+  "item": "lit-chapter__kimi-k3__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Um fünf holte Ilse den Kaffee aus der Thermoskanne, und der Nebel war schon da."
+        ],
+        "suggestions": [
+          "Der Einstieg ist exzellent gewählt. Er etabliert sofort Atmosphäre, Ort, Zeit und die Protagonistin mitten in ihrer Routine, ohne unnötiges Vorgeplänkel."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "...bis die Fähre sich träge vom Ufer löste.",
+          "...wie zwei verdünnte Milchgläser..."
+        ],
+        "suggestions": [
+          "Der Text geht extrem sparsam und präzise mit Adjektiven um. Fast alle Beschreibungen entstehen durch starke Verben und Substantive. Nur an winzigen Stellen könnte man prüfen, ob z.B. 'träge' notwendig ist, da das schwere Ziehen bereits beschrieben wird."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Sicht wie gestern“, sagte sie.\n„Schlechter“, sagte Ilse.",
+          "„Morgen.“\n„Morgen.“"
+        ],
+        "suggestions": [
+          "Die Dialogführung ist meisterhaft reduziert. Oft wird ganz auf Redebegleitsätze verzichtet. Im Dialog mit Ines könnte das zweite 'sagte Ilse' noch gestrichen werden, da durch den Sprecherwechsel vollkommen klar ist, wer antwortet."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Um halb neun hatte der Nebel sich ein Stück gehoben..."],
+        "suggestions": [
+          "Der Text ist nahezu frei von typischen Füllwörtern und Weichmachern. Jeder Satz sitzt. 'Ein Stück' ist hier eher der lakonischen Erzählstimme geschuldet als ein echter Mangel."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der erste Fahrgast war schon da, als sie Klein Neuendorf erreichte.",
+          "...ein Schwarm Stare stand auf dem Weidezaun und fiel auseinander, als der Transporter vorbeifuhr."
+        ],
+        "suggestions": [
+          "Gleichzeitigkeit wird nicht künstlich erzwungen. Durch den gezielten Einsatz von parataktischen Verbindungen mit 'und' entsteht ein organischer, ruhiger Fluss, der perfekt zur Fährfahrt passt."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "...und die erste Fahrt war getan.",
+          "Die Weide auf der anderen Seite wurde sichtbar..."
+        ],
+        "suggestions": [
+          "Handlungen sind durchweg aktiv formuliert. Die wenigen Zustandspassive ('war getan') sind stilistisch gewollt und unterstreichen Ilses pragmatische, abgeschlossene Sicht auf ihre Arbeit."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Er kam seit September, seit er aufs Gymnasium wechselte, und jeden Morgen hatte er die Kopfhörer auf, und jeden Morgen nickte er und zahlte seinen Euro fünfzig und stellte sich ans Heck und schaute aufs Wasser, als erwarte er, dass dort etwas auftauchte."
+        ],
+        "suggestions": [
+          "Es gibt einige längere Sätze, die jedoch nicht durch unübersichtliche Schachtelungen (Hypotaxen), sondern durch Reihungen mit 'und' (Polysyndeton) entstehen. Das ist ein starkes literarisches Stilmittel, um Monotonie und Routine zu spiegeln. Dennoch könnte man vereinzelt prüfen, ob ein Punkt die Lesbarkeit noch weiter schärft."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Jonas kommt zu Weihnachten?“ fragte Ines.\n„Weiß ich nicht.“\n„Hat er was gesagt?“\n„Nein.“"
+        ],
+        "suggestions": [
+          "Die Dialoge sind norddeutsch-lakonisch, extrem knapp und tragen enorm viel Subtext. Kein Wort zu viel."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "...und man hörte es nur dort, wo es an den Ponton schlug.",
+          "...und sie sah das Leuchten, bevor sie den Namen las.",
+          "Kallenbach saß auf seiner Bank und schien zu schlafen mit offenen Augen."
+        ],
+        "suggestions": [
+          "Die Wahrnehmung ist meist unmittelbar. Kleine Distanzierungen wie 'man hörte' oder 'sie sah das Leuchten' könnten noch direkter formuliert werden (z.B. 'Es schlug gluckernd an den Ponton' oder 'Das Display leuchtete auf, noch bevor sie den Namen lesen konnte')."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Sie stellte die Kanne ab, löste die Leine und zog an der ersten Klampe, bis die Fähre sich träge vom Ufer löste.",
+          "Im November kam niemand, der nicht musste. [...] Im November fotografierte keiner mehr.",
+          "Nachdrehen des Hin- und Herfahrens (Kallenbach steigt in Klein Neuendorf ein, fährt nach Hitzacker, fährt wieder mit zurück nach Klein Neuendorf)."
+        ],
+        "suggestions": [
+          "Stilistische Wiederholungen ('Ziehen, Greifen') sind brillant eingesetzt. Eine unschöne Wortdopplung findet sich im zweiten Absatz: 'löste die Leine ... vom Ufer löste' (Vorschlag: 'machte die Leine los'). Zudem gibt es einen kleinen logischen Bruch (als inhaltliche Doppelung/Verwirrung): Kallenbach steigt in Klein Neuendorf ein, fährt mit nach Hitzacker, bleibt sitzen, fährt wieder zurück nach Klein Neuendorf und steigt dort aus. Vermutlich sollte er in Hitzacker aussteigen, oder Ines und der Junge hätten in Klein Neuendorf zusteigen müssen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.020938
+}

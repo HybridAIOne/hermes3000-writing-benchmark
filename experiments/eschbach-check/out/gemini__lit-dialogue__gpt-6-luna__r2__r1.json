@@ -1,0 +1,105 @@
+{
+  "who": "gemini",
+  "item": "lit-dialogue__gpt-6-luna__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 10,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "*(Vor dem geschlossenen Café. Regen. Mara hält zwei Pappbecher. Daniel bleibt unter dem Vordach stehen.)*",
+          "**Mara:** Du bist pünktlich."
+        ],
+        "suggestions": [
+          "Exzellenter Einstieg nach dem Prinzip 'Late in, early out'. Das Warten im Regen und der Kauf des Kaffees werden übersprungen; die Szene beginnt exakt im Moment des Aufeinandertreffens."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["geschlossenen Café", "bessere Uhren", "neu gestrichen", "Ist bitter."],
+        "suggestions": [
+          "Der Text ist frei von schmückenden oder überflüssigen Adjektiven und Adverbien. Alle genutzten Attribute (wie 'geschlossen', 'blau', 'bitter') tragen eine konkrete inhaltliche oder subtextuelle Bedeutung."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["**Mara:** Du bist pünktlich.", "**Daniel:** Du hast geschrieben, halb vier."],
+        "suggestions": [
+          "Durch das gewählte Skript-/Drehbuchformat entfallen klassische Inquits ('sagte er') komplett. Falls der Text in klassische Prosa umgewandelt wird, bräuchte es durch die eingestreuten Handlungszeilen und den klaren Schlagabtausch ebenfalls fast keine Redebegleitsätze."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ich hab ihn ja genommen.", "Dann gehen wir einfach."],
+        "suggestions": [
+          "In den Regieanweisungen gibt es keinerlei Füllwörter. In den Dialogen werden Wörter wie 'ja' und 'einfach' absolut natürlich eingesetzt, um den Sprachrhythmus und die Resignation der Figuren zu unterstreichen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "*(Er trinkt. Sie beobachtet ihn.)*",
+          "*(Sie sieht ihn an. Er blickt auf den Becher.)*"
+        ],
+        "suggestions": [
+          "Meisterhaft gelöst. Anstatt Konstruktionen mit 'während' zu nutzen ('Während er trinkt, beobachtet sie ihn'), werden die Handlungen klar und nacheinander in kurzen Hauptsätzen präsentiert."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Sie haben die Fenster neu gestrichen."],
+        "suggestions": [
+          "Der gesamte Text ist aktiv formuliert. Selbst dort, wo im Alltag oft Passiv genutzt wird ('Die Fenster wurden gestrichen'), wählt der Text die aktive Variante."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "*(Vor dem geschlossenen Café. Regen. Mara hält zwei Pappbecher. Daniel bleibt unter dem Vordach stehen.)*",
+          "**Daniel:** Und deine, alles stehen zu lassen, bis jemand anders es aufhebt."
+        ],
+        "suggestions": [
+          "Die Sätze sind kurz, prägnant und rhythmisch perfekt auf die unterkühlte, angespannte Stimmung abgestimmt. Keine Schachtelsätze."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["**Daniel:** Ist bitter.\n**Mara:** Der Kaffee?\n**Daniel:** Vielleicht."],
+        "suggestions": [
+          "Obwohl der Text ein reiner Dialog ist, wirkt keine Passage zu lang oder geschwätzig. Die Repliken sind extrem verknappt, jedes Wort hat Gewicht, und der Subtext (das unausgesprochene Ende der Beziehung) trägt die Szene."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "*(Mara stellt ihren Becher auf die Fensterbank.)*",
+          "*(Daniel wartet einen Moment. Dann tritt er neben sie. Keiner berührt den anderen.)*"
+        ],
+        "suggestions": [
+          "Reines 'Show, don't tell'. Es gibt keine Innensicht-Filter wie 'sie fühlte' oder 'er bemerkte'. Die gesamte emotionale Distanz und Historie der Figuren wird ausschließlich über äußere Handlungen, Blicke und das Objekt (den Kaffeebecher) transportiert."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "**Mara:** Ich bin nicht lange in der Stadt.\n**Daniel:** Das hast du schon geschrieben."
+        ],
+        "suggestions": [
+          "Es gibt keine ungewollten Wortwiederholungen oder redundanten Beschreibungen. Stilistische Wiederholungen ('Früher...', 'Nicht dieses [Blau]') werden gezielt als rhetorisches Mittel genutzt. Lediglich Maras Satz über ihren kurzen Aufenthalt ist für Daniel redundant – was er im Dialog aber sofort selbst entlarvt, um ihre Ausflucht zu blockieren."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.016066
+}

@@ -1,0 +1,143 @@
+{
+  "who": "sol",
+  "item": "lit-continue__gpt-6.1-sol__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Geht auch so“, sagte sie.",
+          "„Und wenn kein Wind ist?“ – „Ist keine Segelfähre.“"
+        ],
+        "suggestions": [
+          "Den unmittelbaren Einstieg beibehalten: Die Szene beginnt bereits im Gespräch, und die folgenden Details erschließen den Schauplatz ohne vorgeschaltete Erklärung.",
+          "Ein späterer Einstieg würde die erste Reibung zwischen den Figuren und die anschauliche Einführung der Fähre abschneiden."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Das trockene Klacken passte nicht hierher.",
+          "Ihre Finger waren steif.",
+          "Henning hatte ihm dann seinen umgelegt, grob und ohne zu fragen."
+        ],
+        "suggestions": [
+          "Die überwiegend funktionalen Attribute beibehalten: „trocken“ charakterisiert den Fremdkörper Koffer, „steif“ erklärt Ilses beidhändigen Griff.",
+          "Allenfalls „grob und ohne zu fragen“ auf eine leichte Bedeutungsüberschneidung prüfen. Beide Angaben sind jedoch vertretbar, weil sie sowohl Hennings Bewegung als auch seine Selbstverständlichkeit zeigen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Ich weiß, wie sie funktioniert“, sagte Jonas.",
+          "„Fährst du noch mal?“, fragte Jonas.",
+          "„Ja“, sagte sie."
+        ],
+        "suggestions": [
+          "Die sparsame Kennzeichnung grundsätzlich beibehalten; die meisten Sprecherwechsel sind bereits eindeutig.",
+          "„fragte Jonas“ nach „Fährst du noch mal?“ probeweise streichen: Nach Ilses Handlung lässt sich der Wechsel zu Jonas auch ohne Zusatz verstehen.",
+          "Das abschließende „sagte sie“ kann als bewusste rhythmische Pause vor Ilses Entscheidung stehen bleiben."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Bis morgen. Vielleicht übermorgen.“",
+          "Sie war damals noch im Laden gewesen, vormittags",
+          "Ilse hatte schon die Hand an der Kette."
+        ],
+        "suggestions": [
+          "„Vielleicht“ nicht mechanisch streichen: Die Unbestimmtheit charakterisiert Jonas’ Aufenthalt und möglicherweise seine Unsicherheit.",
+          "„damals noch“ probeweise zu „damals“ kürzen, sofern der inzwischen veränderte Berufsalltag nicht eigens betont werden soll.",
+          "„schon“ am Schluss beibehalten: Es markiert, dass Ilse ihre Arbeit bereits fortsetzen wollte und sich dann anders entscheidet."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie nahm das letzte Glied mit beiden Händen und legte es in den Haken.",
+          "Dabei stieß er mit einer Rolle gegen den Türrahmen.",
+          "Als Junge hatte er auch nie einen Schal nehmen wollen."
+        ],
+        "suggestions": [
+          "Die klare Abfolge der Handlungen beibehalten; es gibt keine Häufung künstlicher Gleichzeitigkeit.",
+          "„Dabei“ bezeichnet hier sinnvoll einen Zwischenfall beim Hineintragen des Koffers. „Als Junge“ ist eine Altersangabe und kein problematischer Gleichzeitigkeitssatz."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie hob die Hand.",
+          "Der Wagen hielt oben an der Ausweiche, Krüger hob ebenfalls die Hand und stellte den Motor ab.",
+          "Danach würde sie die Kanne ausspülen müssen"
+        ],
+        "suggestions": [
+          "Die aktiven Formulierungen beibehalten; umständliche Passivkonstruktionen fehlen.",
+          "„würde sie die Kanne ausspülen müssen“ ist kein Passiv, sondern bezeichnet eine erwartete spätere Handlung und benötigt deshalb keine Aktivierung."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Mit elf hatte er neben Henning am Hebel gestanden, die Füße weit auseinander, und nach jeder Überfahrt gefragt, ob er die nächste allein machen dürfe.",
+          "Unter dem offenen Kragen sah sie ein weißes Hemd, oben einen Knopf zu wenig geschlossen für das Wetter."
+        ],
+        "suggestions": [
+          "Den Wechsel zwischen kurzen Handlungssätzen und längeren Erinnerungssätzen erhalten; die längeren Sätze bleiben übersichtlich.",
+          "Falls die Rückblende stärker stocken soll, lässt sich teilen: „Mit elf hatte er neben Henning am Hebel gestanden, die Füße weit auseinander. Nach jeder Überfahrt hatte er gefragt, ob er die nächste allein machen dürfe.“ Notwendig ist diese Straffung nicht."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Dann brauchst du den großen Koffer nicht.“ – „Das ist der kleine.“",
+          "„Ich dachte, wir könnten einen Kaffee trinken.“",
+          "„Trinkst du noch mit Milch?“"
+        ],
+        "suggestions": [
+          "Die knappen Repliken beibehalten. Sie vermitteln Distanz, Annäherung und gemeinsame Vergangenheit ohne erklärende Reden.",
+          "Die Pausen und Handlungen zwischen den Gesprächsblöcken nicht zugunsten eines durchgehenden Dialogs entfernen; sie tragen den Subtext."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Jonas sah hinüber zur anderen Seite.",
+          "Unter dem offenen Kragen sah sie ein weißes Hemd",
+          "Ilse hörte ihn leise fluchen, dann das Scharren eines Stuhls."
+        ],
+        "suggestions": [
+          "Einzelne Wahrnehmungsfilter probeweise entfernen: „Unter seinem offenen Mantelkragen war ein weißes Hemd zu sehen“ wäre allerdings nicht direkter; prägnanter wäre etwa: „Unter dem offenen Mantelkragen stand sein weißes Hemd einen Knopf zu weit offen.“",
+          "Das Hören aus der Hütte kann bleiben, weil Ilse Jonas dort nicht sieht und die akustische Vermittlung räumlich sinnvoll ist.",
+          "Zusätzlich die Perspektive prüfen: „Die Hütte war enger, als er sie in Erinnerung hatte“ greift auf Jonas’ Erinnerung zu. Falls die Szene konsequent bei Ilse bleiben soll, diesen Eindruck durch beobachtbares Verhalten vermitteln oder den Perspektivwechsel bewusst gestalten."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Sie prüfte den Knoten am Poller. Es gab nichts daran zu prüfen.",
+          "Sie nahm das letzte Glied mit beiden Händen und legte es in den Haken.",
+          "Dann ließ sie die Kette hängen und ging ihm die Tassen zeigen."
+        ],
+        "suggestions": [
+          "Die Wiederholung von „prüfen“ beibehalten: Der zweite Satz ergänzt die entscheidende Information, dass Ilse sich mit einer überflüssigen Tätigkeit dem Gespräch entzieht.",
+          "Das wiederkehrende Kettenmotiv erhalten. Es verbindet Ilses Arbeitsroutine mit ihrer abschließenden Entscheidung für Jonas und ist keine entbehrliche Doppelung.",
+          "Die beiden Henning-Erinnerungen erfüllen unterschiedliche Aufgaben: Die erste zeigt Jonas’ frühere Vertrautheit mit der Fähre, die zweite Hennings Umgang mit ihm. Nur bei einer insgesamt kürzeren Fassung wäre eine davon ein möglicher Kürzungsort."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.021428
+}

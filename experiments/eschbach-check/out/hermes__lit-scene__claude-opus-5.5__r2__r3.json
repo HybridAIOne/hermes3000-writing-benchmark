@@ -1,0 +1,90 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-opus-5.5__r2",
+  "run": 3,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel lag noch dort, wo er vor zwanzig Jahren gelegen hatte"],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen, da er sofort eine Handlung und ein Geheimnis etabliert. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["fast gefällig", "leicht süßlich"],
+        "suggestions": [
+          "Die Adjektive sind stimmungsvoll. Achte darauf, dass sie nicht zu interpretativ wirken (z.B. 'gefällig' ist eine Interpretation, 'leichtgängig' wäre eine objektive Beobachtung)."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden, daher kein Korrekturbedarf."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["irgendwann im Herbst vielleicht", "vermutlich"],
+        "suggestions": [
+          "Wörter wie 'vielleicht' und 'vermutlich' schwächen die Beobachtung ab. Wenn Hanna unsicher ist, lass sie die Unsicherheit durch eine Frage oder eine Geste ausdrücken, statt sie zu benennen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["als sie die Hand zurückzog", "als der Luftzug ihn erreichte"],
+        "suggestions": [
+          "Die 'als'-Konstruktionen sind hier gut dosiert und stören den Lesefluss nicht."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["über die in diesem Haus nicht gesprochen worden war"],
+        "suggestions": ["Formuliere aktiver: 'über die in diesem Haus niemand gesprochen hatte'."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Der Schlüssel lag noch dort, wo er vor zwanzig Jahren gelegen hatte, unter dem dritten Blumentopf links, in dem längst nichts mehr wuchs außer einer Kruste aus Moos und Vogelkot."
+        ],
+        "suggestions": [
+          "Die Satzlängen sind gut variiert und erzeugen einen angenehmen Rhythmus. Keine Änderung nötig."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Kein Dialog vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": [
+          "Hanna wusste nicht, wer sich um solche Dinge kümmerte",
+          "kam es ihr vor, als hätte das Haus sie erwartet"
+        ],
+        "suggestions": [
+          "Statt 'Hanna wusste nicht': 'Wer kümmerte sich um solche Dinge, wenn eine Frau allein starb?'. Statt 'kam es ihr vor': 'Das Haus erwartete sie, nur nicht als diejenige, die sie geworden war.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Jemand hatte... Jemand hatte..."],
+        "suggestions": [
+          "Die Wiederholung von 'Jemand hatte' ist hier ein bewusstes Stilmittel (Anapher) und sehr effektiv. Beibehalten."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

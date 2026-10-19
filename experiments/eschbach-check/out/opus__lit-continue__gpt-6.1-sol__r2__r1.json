@@ -1,0 +1,139 @@
+{
+  "who": "opus",
+  "item": "lit-continue__gpt-6.1-sol__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Er läuft“, sagte sie. – Die Szene setzt mitten in einem laufenden Gespräch ein. Ankunft, Begrüßung und Vorgeschichte fehlen bewusst.",
+          "Die Vorgeschichte (Jonas als Kind am Gatter, Henning) ist knapp in die Handlung eingeflochten statt vorangestellt."
+        ],
+        "suggestions": [
+          "Den Einstieg beibehalten. Allenfalls prüfen, ob das Subjekt in „Er läuft“ (Motor/Fähre) früh genug erkennbar wird. Der folgende Satz zum Heck löst es nur indirekt auf. Ein konkreteres Detail wie Motorgeräusch oder Vibration könnte helfen, ohne den Einstieg zu verzögern."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Erst als der Wagen langsam anrollte“ – „anrollen“ enthält bereits die Langsamkeit, das Adverb ist redundant.",
+          "„Im plötzlichen Stillwerden“ – „plötzlich“ ist entbehrlich, der Kontrast ergibt sich aus dem Abstellen des Motors.",
+          "„die kleinen Wellen unter dem Anleger schmatzen“ – das Verb trägt das Bild, „kleinen“ verstärkt es nur leicht.",
+          "Funktionale, gut gewählte Attribute: „dünnen Mantel“, „am Hals zu eng“, „abgezogene Bettwäsche“."
+        ],
+        "suggestions": [
+          "„Erst als der Wagen anrollte, griff er nach dem Bügel.“",
+          "„In der Stille hörte Ilse die Wellen unter dem Anleger schmatzen.“ oder einfach: „Unter dem Anleger schmatzten die Wellen.“"
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Die meisten Repliken stehen ohne Inquit. Die Sprecher ergeben sich aus dem Wechsel und dem Kontext, z. B. „Klingt nicht so.“ / „Du hast ihn nicht gehört.“",
+          "„„Hast du gegessen?“, fragte sie.“ – „fragte“ ist durch das Fragezeichen doppelt, und die Sprecherin ist klar.",
+          "„„Ja“, sagte er.“ – funktioniert, könnte aber durch eine Geste noch mehr Gewicht bekommen.",
+          "„„Im Steuerhaus ist es trocken“, sagte sie und schob ihm die Tür auf.“ – hier ist die Handlung stark, das „sagte sie“ wäre verzichtbar."
+        ],
+        "suggestions": [
+          "„Hast du gegessen?“ ohne Inquit stehen lassen oder durch eine Handlung Ilses ersetzen (z. B. Blick zum Hebel).",
+          "„Ja.“ als eigene Zeile nach der Beschreibung des Koffers, ohne „sagte er“, das verstärkt die Pause.",
+          "„„Im Steuerhaus ist es trocken.“ Sie schob ihm die Tür auf.“"
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„überhaupt“ in „Ich wusste nicht, ob du mich überhaupt sehen willst.“ – in wörtlicher Rede charakterisierend und daher legitim.",
+          "„doch“ in „Heb ihn doch.“ und „Ich bin doch gerade erst angekommen.“ – ebenfalls figurensprachlich passend.",
+          "„ein Stück zur Seite“, „für einen Augenblick“ – leichte Unschärfen, aber unauffällig.",
+          "Statt vager Angaben stehen präzise: „Zehn Minuten.“ / „seit zwanzig“, „bis sechs“."
+        ],
+        "suggestions": [
+          "Keine grundsätzliche Änderung nötig. Optional: „für einen Augenblick“ streichen („Jonas blickte hinauf, und sie sah den Jungen wieder …“)."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "„Erst als der Wagen langsam anrollte, griff er nach dem Bügel“",
+          "„Als sie ablegten, vibrierte das Seil.“",
+          "„Ilse hob die Hand, und der Fahrer ließ die Scheibe herunter.“ – sauber nacheinander erzählt.",
+          "„Im plötzlichen Stillwerden hörte Ilse …“"
+        ],
+        "suggestions": [
+          "„Als sie ablegten, vibrierte das Seil.“ ließe sich in zwei Schritte auflösen: „Sie legten ab. Das Seil vibrierte.“ Das betont den Moment, auf den Jonas reagiert.",
+          "Die „als“-Konstruktionen sparsam halten. Zwei auf diese Textlänge sind vertretbar."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Keine echten Passivsätze. „Unter der Plane hatte sich Regenwasser gesammelt“ ist reflexiv und aktiv.",
+          "Durchgehend handelnde Subjekte: „Sie löste die Leine wieder.“, „Er stellte den Koffer dicht an das Steuerhaus.“"
+        ],
+        "suggestions": ["Beibehalten."]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "„Als Kind hatte er jede Überfahrt vorn am Gatter gestanden, auch im November, auch wenn Henning ihn zurückgerufen hatte.“ – der längste Satz, rhythmisch gut gebaut.",
+          "„Jonas hatte einen dünnen Mantel an, offen über einem Pullover, der am Hals zu eng aussah.“ – leicht gestaffelt, noch gut lesbar.",
+          "Kurze Sätze dominieren und erzeugen eine knappe, spröde Stimmung: „Er trug keine Mütze.“, „Dann hob er ihn.“"
+        ],
+        "suggestions": [
+          "Optional den Mantel-Satz entzerren: „Jonas trug einen dünnen Mantel, offen. Der Pullover darunter sah am Hals zu eng aus.“",
+          "Sonst keine Teilung nötig. Der Wechsel von kurzen und mittleren Sätzen funktioniert."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Alle Repliken sind kurz und verdichtet: „Fährst du gleich mit?“ / „Ich bin doch gerade erst angekommen.“ / „Das war nicht die Frage.“",
+          "Subtext statt Erklärung: Die eigentliche Frage („Ich wusste nicht, ob du mich überhaupt sehen willst.“) wird nicht verbal beantwortet, sondern durch eine Geste."
+        ],
+        "suggestions": ["Keine Straffung nötig. Die Dialogökonomie ist eine Stärke des Textes."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "„hörte Ilse die kleinen Wellen unter dem Anleger schmatzen“ – Wahrnehmungsfilter.",
+          "„für einen Augenblick sah sie den Jungen wieder, der wissen wollte, ob es reißen könne“ – Filter, aber mit erzählerischer Funktion (Erinnerung).",
+          "„einem Pullover, der am Hals zu eng aussah“ – „aussah“ markiert die Perspektive.",
+          "„Sie hätte ihm sagen können, dass dort das Wasser zusammenlief.“ – bewusst gewählte Konstruktion, die Ilses Schweigen zeigt, daher legitim."
+        ],
+        "suggestions": [
+          "„Unter dem Anleger schmatzten die Wellen.“ Der Leser ist ohnehin in Ilses Wahrnehmung.",
+          "„einem Pullover, der am Hals spannte“ statt „zu eng aussah“.",
+          "Die Erinnerung ans Seil direkter fassen: „Jonas blickte hinauf. Früher hatte er jedes Mal gefragt, ob es reißen könne.“"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "Häufung von Blickverben: „Jonas sah zum Heck hinüber“, „Sie sah ihn an“, „Er blickte über den Fluss“, „Jonas blickte hinauf“, „sah darauf“, „hielt den Blick … gerichtet“.",
+          "„schob“ zweimal kurz hintereinander: „schob sie ihn mit dem Fuß ein Stück zur Seite“ / „schob ihm die Tür auf“.",
+          "Bezugsunklarheit: „Sie hätte ihm sagen können … Stattdessen schob sie ihn mit dem Fuß“ – „ihn“ kann kurz als Jonas statt Koffer gelesen werden.",
+          "„Koffer“ fällt häufig, das ist als Leitmotiv aber gerechtfertigt."
+        ],
+        "suggestions": [
+          "Einige Blickverben streichen oder durch Handlung ersetzen, z. B. „Jonas drehte sich zum Heck“ oder nur „Er sah über den Fluss“ einmal stehen lassen.",
+          "„Stattdessen schob sie den Koffer mit dem Fuß ein Stück zur Seite.“ beseitigt die Mehrdeutigkeit.",
+          "Beim zweiten „schob“ ein anderes Verb wählen: „und zog ihm die Tür auf“ oder „und stieß die Tür auf“."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.113292
+}

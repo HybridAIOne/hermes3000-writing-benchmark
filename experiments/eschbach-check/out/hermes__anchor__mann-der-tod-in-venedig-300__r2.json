@@ -1,0 +1,95 @@
+{
+  "who": "hermes",
+  "item": "anchor__mann-der-tod-in-venedig-300",
+  "run": 2,
+  "parsed": {
+    "overallScore": 5,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Gustav Aschenbach oder von Aschenbach, wie seit seinem fünfzigsten Geburtstag amtlich sein Name lautete..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr biografisch und statisch. Beginnen Sie direkt mit der Handlung des Spaziergangs, um den Leser schneller in die Szene zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "gefahrdrohende Miene",
+          "ersprießlichen Abend",
+          "volkstümlich belebten Wirtsgarten"
+        ],
+        "suggestions": [
+          "Viele Adjektive sind Füllsel. Streichen Sie diese und nutzen Sie stattdessen stärkere Verben, die die Atmosphäre von selbst erzeugen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher nicht anwendbar."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["einige Droschken", "eine kleine Weile"],
+        "suggestions": [
+          "Ersetzen Sie unpräzise Mengenangaben wie 'einige' durch konkrete Zahlen oder lassen Sie sie weg, wenn sie für die Szene nicht relevant sind."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": [
+          "Die zeitliche Abfolge ist klar strukturiert, hier besteht kein akuter Handlungsbedarf."
+        ]
+      },
+      "passive": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["war... zu sehen", "war... gewesen"],
+        "suggestions": [
+          "Wandeln Sie Passivkonstruktionen in aktive Sätze um. Statt 'war zu sehen' schreiben Sie 'Aschenbach sah kein Fuhrwerk'."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Der gesamte erste Absatz besteht aus extrem langen, verschachtelten Sätzen mit vielen Einschüben."
+        ],
+        "suggestions": [
+          "Zerlegen Sie die komplexen Satzgefüge in kürzere, rhythmischere Sätze, um die Lesbarkeit und Spannung zu erhöhen."
+        ]
+      },
+      "dialogueLength": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": ["Aschenbach hatte... überblickt", "fand er... leer"],
+        "suggestions": [
+          "Vermeiden Sie Filterwörter wie 'er sah' oder 'er fand'. Beschreiben Sie direkt, was Aschenbach sieht, damit der Leser unmittelbar dabei ist."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["stillere und stillere Wege"],
+        "suggestions": [
+          "Vermeiden Sie Wortwiederholungen innerhalb eines Satzes. Nutzen Sie stattdessen präzisere Begriffe."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

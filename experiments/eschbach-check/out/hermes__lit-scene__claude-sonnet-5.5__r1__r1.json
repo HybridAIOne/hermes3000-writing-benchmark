@@ -1,0 +1,94 @@
+{
+  "who": "hermes",
+  "item": "lit-scene__claude-sonnet-5.5__r1",
+  "run": 1,
+  "parsed": {
+    "overallScore": 8,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Der Schlüssel lag nicht mehr unter dem Blumentopf."],
+        "suggestions": [
+          "Der Einstieg ist sehr gelungen und wirft sofort Fragen auf. Keine Änderung nötig."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["leicht schwang", "leicht körnig"],
+        "suggestions": [
+          "'Leicht' schwächt oft ab. Versuchen Sie: 'Der Kleiderbügel schwang' oder 'Die Schnittfläche war körnig, wie Sand'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["sagte er"],
+        "suggestions": [
+          "'Sagte er' ist funktional. Man könnte es streichen und durch eine Handlung ersetzen, um den Fokus auf dem Türspalt zu halten."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["vielleicht von ihrem Luftzug, vielleicht schon vorher"],
+        "suggestions": [
+          "Die doppelte Verwendung von 'vielleicht' wirkt etwas unsicher. Kürzen auf: '...vielleicht von ihrem Luftzug, oder schon vorher.'"
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Sie ging... in die Küche."],
+        "suggestions": [
+          "Der Text vermeidet 'während' sehr gut und setzt auf eine klare Abfolge der Handlungen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["Das Wasser war abgestellt", "war geworden"],
+        "suggestions": [
+          "Die Passivkonstruktionen beschreiben hier Zustände, was legitim ist. Dennoch: 'Das Wasser war abgestellt' könnte durch 'Das Wasser floss nicht' ersetzt werden, um aktiver zu wirken."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Die Haustür klemmte, wie sie immer geklemmt hatte, und gab erst nach, als sie mit der Hüfte nachhalf."
+        ],
+        "suggestions": ["Die Satzlängen sind gut rhythmisiert. Keine Änderungen erforderlich."]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "„Das Wasser ist abgestellt“, sagte er durch den Türspalt, „den Strom hab ich gelassen.“"
+        ],
+        "suggestions": ["Sehr prägnant und effizient. Perfekt."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": ["Nora war ihm dankbar dafür."],
+        "suggestions": [
+          "Sehr direkt. Die Wahrnehmung wird durch Handlungen und Beschreibungen vermittelt, nicht durch 'sie dachte/sah'."
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "geklemmt... geklemmt",
+          "Das Wasser war abgestellt... Das Wasser war ja abgestellt"
+        ],
+        "suggestions": [
+          "Die Wiederholung von 'geklemmt' ist stilistisch sinnvoll. Die Wiederholung beim Wasser ist etwas redundant; man könnte den zweiten Satz zu 'Das Wasser fehlte' ändern, um Varianz zu schaffen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

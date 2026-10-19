@@ -1,0 +1,107 @@
+{
+  "who": "gemini",
+  "item": "lit-scene__gpt-6-luna__r2",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Der Schlüssel klemmte, als hätte das Haus beschlossen, sie nicht sofort hineinzulassen."
+        ],
+        "suggestions": [
+          "Exzellenter Einstieg mitten in die Handlung (in medias res). Keine langatmige Anreise, sofortige Atmosphäre und Spannung."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "dünner, rostfarbener Strahl",
+          "Das Holz war glatt und kühl",
+          "ein einzelnes, blaues Fädchen"
+        ],
+        "suggestions": [
+          "Die Adjektive sind sehr gezielt und sensorisch gewählt. Einzig bei 'ein einzelnes, blaues Fädchen' könnte 'einzelnes' gestrichen werden, da der unbestimmte Artikel 'ein' dies bereits ausdrückt."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Text enthält keine Dialoge, daher gibt es hier keine Mängel."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "etwas Süßliches, kaum mehr als ein Rest",
+          "nicht ganz geschlossen",
+          "irgendwo im Haus"
+        ],
+        "suggestions": [
+          "Der Text ist fast frei von Füllwörtern. Die wenigen vagen Formulierungen ('etwas', 'irgendwo') dienen hier effektiv der verunsichernden Atmosphäre. 'Sie war nicht ganz geschlossen' könnte noch präziser zu 'Sie stand einen Spaltbreit offen' verdichtet werden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 10,
+        "examples": [
+          "Sie drehte ihn zurück, hob die Klinke an und spürte, wie das Schloss nachgab."
+        ],
+        "suggestions": [
+          "Sehr gute chronologische Abfolge der Handlungen. Keine unnötigen 'während'- oder 'gleichzeitig'-Konstruktionen."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Die Stühle waren ordentlich daruntergeschoben"],
+        "suggestions": [
+          "Keine störenden Passivkonstruktionen vorhanden. Das Zustandspassiv bei den Stühlen ist hier völlig korrekt, da es das Resultat einer vergangenen Handlung beschreibt."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "An der Wand hatte der Spiegel einen blinden Fleck, genau dort, wo früher ihr Gesicht gewesen war, wenn sie als Kind auf Zehenspitzen hineinsah."
+        ],
+        "suggestions": [
+          "Guter, abwechslungsreicher Satzrhythmus aus kurzen und mittellangen Sätzen. Der Beispielsatz ist der längste im Text, bleibt aber leicht verständlich. Man könnte höchstens 'gewesen war, wenn' zu 'erschienen war, wenn' präzisieren, um das Hilfsverb zu vermeiden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge im Text vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "und spürte, wie das Schloss nachgab.",
+          "Im Flur hatte sie die Tür zum Keller übersehen."
+        ],
+        "suggestions": [
+          "Fast alles wird sehr direkt und unmittelbar erlebt. Zwei kleine Optimierungen nach Eschbach: Statt 'und spürte, wie das Schloss nachgab' noch direkter: 'Das Schloss gab klackend nach.' Und statt 'hatte sie übersehen' einfach den Fokus direkt auf die Tür richten: 'Die Tür zum Keller stand einen Spaltbreit offen.'"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "kaltem Holz ... Das Holz war glatt und kühl",
+          "Geruch von Äpfeln ... stand noch der Apfelbaum"
+        ],
+        "suggestions": [
+          "Keine inhaltlichen Redundanzen. Die Wiederaufnahme von 'Apfel' und 'Staub' wirkt als bewusstes Leitmotiv. Lediglich die Dopplung der Konzepte 'kaltes Holz' (Absatz 1) und 'Holz war kühl' (Absatz 4) könnte man variieren, indem man in Absatz 4 'Die Tischplatte war glatt und kühl' schreibt."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.014516
+}

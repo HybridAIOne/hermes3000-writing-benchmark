@@ -1,0 +1,127 @@
+{
+  "who": "gemini",
+  "item": "anchor__mann-der-tod-in-venedig-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "problematic",
+        "score": 2,
+        "examples": [
+          "Gustav Aschenbach [...] hatte [...] einen weiteren Spaziergang unternommen.",
+          "Überreizt von der [...] Arbeit der Vormittagsstunden, hatte der Schriftsteller [...] den entlastenden Schlummer nicht gefunden...",
+          "Beim Aumeister [...] hatte Aschenbach eine kleine Weile den volkstümlich belebten Wirtsgarten überblickt..."
+        ],
+        "suggestions": [
+          "Die eigentliche Szene im Hier und Jetzt (Präteritum) beginnt erst ganz am Ende des langen Absatzes an der Straßenbahnhaltestelle. Alles davor ist rückblickende Erklärung im Plusquamperfekt.",
+          "Direkt in die Szene einsteigen: 'Gustav von Aschenbach wartete am Nördlichen Friedhof auf die Tram. Über Föhring drohte ein Gewitter, und der lange Spaziergang durch den dumpfigen Englischen Garten hatte ihn ermüdet.' Die Gründe für den Spaziergang (die schwere Schreibarbeit am Vormittag) können später beiläufig einfließen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 4,
+        "examples": [
+          "schwierigen und gefährlichen",
+          "entlastenden Schlummer",
+          "ersprießlichen Abend",
+          "volkstümlich belebten Wirtsgarten",
+          "einsam gleißend",
+          "zweites, unbehaustes Gräberfeld"
+        ],
+        "suggestions": [
+          "Der Text nutzt sehr viele schmückende und wertende Adjektive, oft in Kombination mit Partizipialkonstruktionen.",
+          "Adjektive streichen und stattdessen zeigen (Show, don't tell): Wie sieht ein 'volkstümlich belebter' Wirtsgarten konkret aus? (z.B. 'Kellner schleppten Bierkrüge zwischen den dicht besetzten Holztischen umher').",
+          "Statt 'entlastenden Schlummer nicht gefunden' einfach 'nicht schlafen können'."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Der Textabschnitt enthält keine Dialoge, daher gibt es hier keine Mängel."]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "eine so gefahrdrohende Miene",
+          "einmal untertags so nötig war",
+          "eine kleine Weile",
+          "einige Droschken",
+          "Zufällig fand er"
+        ],
+        "suggestions": [
+          "Das Wort 'so' wird zweimal als unpräziser Verstärker genutzt und kann ersatzlos gestrichen werden.",
+          "Unpräzise Mengenangaben wie 'eine kleine Weile' und 'einige' vermeiden oder konkretisieren.",
+          "'Zufällig' am Satzanfang ist entbehrlich. Dass der Platz leer ist, reicht als Tatsache."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["hatte von dort bei sinkender Sonne seinen Heimweg [...] genommen"],
+        "suggestions": [
+          "Der Text verzichtet weitgehend auf typische Gleichzeitigkeits-Konstruktionen mit 'während' oder 'als' und schildert die Etappen des Spaziergangs chronologisch. Das ist handwerklich gut gelöst."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 8,
+        "examples": ["war ein Fuhrwerk zu sehen"],
+        "suggestions": [
+          "Es wird kaum echtes Passiv verwendet. Dennoch wirkt der Text anfangs sehr statisch, was an der massiven Nutzung des Plusquamperfekts ('hatte unternommen', 'hatte nicht vermocht', 'war gewesen', 'hatte überblickt') und Nominalstil ('nicht Einhalt zu tun vermocht') liegt.",
+          "Um den Text aktiver zu gestalten: Nominalkonstruktionen auflösen (statt 'Einhalt zu tun vermocht' -> 'konnte nicht stoppen') und ins einfache Präteritum wechseln."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 1,
+        "examples": [
+          "Überreizt von der schwierigen und gefährlichen, eben jetzt eine höchste Behutsamkeit, Umsicht, Eindringlichkeit und Genauigkeit des Willens erfordernden Arbeit der Vormittagsstunden, hatte der Schriftsteller dem Fortschwingen des produzierenden Triebwerks in seinem Innern, jenem »motus animi continuus«, worin nach Cicero das Wesen der Beredsamkeit besteht, auch nach der Mittagsmahlzeit nicht Einhalt zu tun vermocht und den entlastenden Schlummer nicht gefunden, der ihm, bei zunehmender Abnutzbarkeit seiner Kräfte, einmal untertags so nötig war. (71 Wörter)",
+          "Beim Aumeister, wohin stillere und stillere Wege ihn geführt, hatte Aschenbach eine kleine Weile den volkstümlich belebten Wirtsgarten überblickt, an dessen Rande einige Droschken und Equipagen hielten, hatte von dort bei sinkender Sonne seinen Heimweg außerhalb des Parks über die offene Flur genommen und erwartete, da er sich müde fühlte und über Föhring Gewitter drohte, am Nördlichen Friedhof die Tram, die ihn in gerader Linie zur Stadt zurückbringen sollte. (69 Wörter)"
+        ],
+        "suggestions": [
+          "Nach modernen Maßstäben für flüssige Lesbarkeit (Eschbach-Methode) sind diese extremen Schachtelsätze (Hypotaxen) das größte Problem des Textes.",
+          "Den zweiten Satz in mindestens drei bis vier Hauptsätze aufteilen. Einschübe (wie das Cicero-Zitat) entweder ganz streichen oder in einen eigenen Satz auslagern.",
+          "Faustregel: Ein Gedanke pro Satz. Wenn ein Satz mehr als zwei Kommas benötigt, sollte ein Punkt gesetzt werden."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden, daher keine Überlänge."]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 7,
+        "examples": [
+          "da er sich müde fühlte",
+          "fand er den Halteplatz und seine Umgebung von Menschen leer",
+          "war ein Fuhrwerk zu sehen"
+        ],
+        "suggestions": [
+          "Filterwörter der Wahrnehmung ('fühlte', 'fand', 'zu sehen') distanzieren den Leser von der Figur.",
+          "Direkter formulieren: Statt 'da er sich müde fühlte' besser 'da er müde war' (oder die Müdigkeit körperlich zeigen). Statt 'fand er den Halteplatz leer' einfach 'Der Halteplatz war leer.' Statt 'war ein Fuhrwerk zu sehen' besser 'fuhr ein Fuhrwerk'."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Behutsamkeit, Umsicht, Eindringlichkeit und Genauigkeit",
+          "dem Fortschwingen des produzierenden Triebwerks in seinem Innern, jenem »motus animi continuus«",
+          "stillere und stillere Wege",
+          "Kreuze, Gedächtnistafeln und Monumente"
+        ],
+        "suggestions": [
+          "Der Text neigt zu Aufzählungen von Synonymen oder fast bedeutungsgleichen Wörtern, um einen Punkt zu betonen.",
+          "Statt vier Substantive ('Behutsamkeit, Umsicht...') zu nutzen, das eine, treffendste Wort wählen.",
+          "Das Cicero-Zitat wiederholt inhaltlich exakt das 'Fortschwingen des produzierenden Triebwerks' direkt davor. Eines von beiden reicht völlig aus."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.022262
+}

@@ -1,0 +1,89 @@
+{
+  "who": "hermes",
+  "item": "anchor__mann-der-tod-in-venedig-300",
+  "run": 1,
+  "parsed": {
+    "overallScore": 6,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": [
+          "Gustav Aschenbach oder von Aschenbach, wie seit seinem fünfzigsten Geburtstag amtlich sein Name lautete..."
+        ],
+        "suggestions": [
+          "Der Einstieg ist sehr biografisch und statisch. Beginnen Sie direkt mit der Handlung (dem Spaziergang), um den Leser schneller in die Szene zu ziehen."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["gefahrdrohende Miene", "höchste Behutsamkeit", "ersprießlichen Abend"],
+        "suggestions": [
+          "Viele Adjektive wirken dekorativ. Ersetzen Sie diese durch stärkere Verben, die die Atmosphäre von selbst erzeugen."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge im Textabschnitt vorhanden."]
+      },
+      "fillerWords": {
+        "rating": "needsWork",
+        "score": 6,
+        "examples": ["einige Droschken", "kleine Weile"],
+        "suggestions": [
+          "Füllwörter wie 'einige' wirken unpräzise. Streichen oder durch konkrete Mengenangaben ersetzen."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 8,
+        "examples": [],
+        "suggestions": ["Die zeitliche Abfolge ist klar, auch wenn der Satzbau komplex ist."]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 7,
+        "examples": ["war ... zu sehen"],
+        "suggestions": [
+          "Das Passiv ist hier stilistisch akzeptabel, könnte aber für mehr Dynamik aktiver formuliert werden (z.B. 'Kein Fuhrwerk kreuzte seinen Weg')."
+        ]
+      },
+      "longSentences": {
+        "rating": "problematic",
+        "score": 3,
+        "examples": [
+          "Der erste Absatz besteht fast ausschließlich aus extrem langen, verschachtelten Sätzen mit vielen Einschüben."
+        ],
+        "suggestions": [
+          "Sätze drastisch kürzen. Die Informationsdichte pro Satz reduzieren, um die Lesbarkeit für moderne Leser zu erhöhen."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 10,
+        "examples": [],
+        "suggestions": ["Keine Dialoge vorhanden."]
+      },
+      "indirectPerception": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["hatte ... überblickt", "erwartete ... die Tram"],
+        "suggestions": [
+          "Formulierungen wie 'hatte ... überblickt' wirken distanziert. Direkter: 'Aschenbach überblickte den Wirtsgarten'."
+        ]
+      },
+      "repetitions": {
+        "rating": "needsWork",
+        "score": 5,
+        "examples": ["stillere und stillere Wege", "Gedächtnistafeln und Monumente"],
+        "suggestions": [
+          "Wortwiederholungen (stillere/stillere) vermeiden. Präzisere Begriffe für die Grabbeigaben wählen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0
+}

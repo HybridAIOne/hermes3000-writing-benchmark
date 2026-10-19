@@ -1,0 +1,130 @@
+{
+  "who": "sol",
+  "item": "lit-dialogue__gemini-4-argon__r3",
+  "run": 1,
+  "parsed": {
+    "overallScore": 9,
+    "criteria": {
+      "sceneEntry": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Du bist schon da.",
+          "Ich wusste nicht, ob du noch Schwarztee trinkst. Mit Milch."
+        ],
+        "suggestions": [
+          "Der Einstieg etabliert mit wenigen Zeilen Vertrautheit und Distanz. Ein früherer Vorlauf fehlt zu Recht.",
+          "Für einen zugespitzten Beginn könnte die Szene direkt mit Lukas’ Tee-Angebot einsetzen. Maries erste Zeile ist atmosphärisch passend, aber für das Verständnis nicht erforderlich."
+        ]
+      },
+      "adjectivesAdverbs": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "setzt sich langsam, zieht den Mantel nicht aus",
+          "Kurzes, schweres Schweigen.",
+          "zieht zögernd den Schlüssel aus der Tasche"
+        ],
+        "suggestions": [
+          "„Kurzes, schweres Schweigen“ könnte auf „Schweigen“ reduziert werden: Lukas’ anschließender abgebrochener Sprechversuch vermittelt die Spannung bereits.",
+          "„Langsam“ und „zögernd“ sind als Spielanweisungen funktional. Nur streichen, wenn die Inszenierung mehr Interpretationsraum erhalten soll."
+        ]
+      },
+      "dialogueMarkers": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["LUKAS\n(deutet auf eine Tasse)", "MARIE\n(stellt den Löffel leise ab)"],
+        "suggestions": [
+          "Die Sprecherüberschriften machen zusätzliche Redekennzeichnungen überflüssig; solche fehlen folgerichtig.",
+          "Die handlungsbezogenen Regieanweisungen beibehalten, soweit sie Subtext oder Rhythmus tragen. Sie erfüllen eine andere Funktion als ein bloßes „sagte sie“."
+        ]
+      },
+      "fillerWords": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Man lernt ja aus Fehlern.",
+          "Ich habe die Kiste mit deinen restlichen Sachen übrigens im Kofferraum.",
+          "Das war wohl immer mein Problem."
+        ],
+        "suggestions": [
+          "„Übrigens“ kann entfallen, wenn Lukas direkter zum Anlass des Treffens kommen soll. Als Signal eines ausweichenden Themenwechsels ist es jedoch plausibel.",
+          "„Ja“ und „wohl“ nicht pauschal streichen: Sie vermitteln hier Selbstrechtfertigung beziehungsweise bittere Selbstdistanz und charakterisieren die Sprechenden."
+        ]
+      },
+      "simultaneity": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "weicht ihrem Blick aus, knetet seine Serviette",
+          "zieht zögernd den Schlüssel aus der Tasche und legt ihn zwischen sie auf den Tisch",
+          "nimmt den Schlüssel, ohne seine Hand zu berühren"
+        ],
+        "suggestions": [
+          "Es gibt keine Häufung von Gleichzeitigkeitsmarkern. Die verbundenen Handlungen sind gut spielbar und überwiegend klar geordnet.",
+          "Falls einzelne Gesten stärker wirken sollen, können sie als getrennte Spielimpulse notiert werden: „Er weicht ihrem Blick aus. Knetet seine Serviette.“ Eine grundsätzliche Überarbeitung ist nicht nötig."
+        ]
+      },
+      "passive": {
+        "rating": "good",
+        "score": 10,
+        "examples": ["Ich arbeite jetzt weniger.", "Dann hole ich mir die Kiste selbst raus."],
+        "suggestions": [
+          "Keine überarbeitungsbedürftigen Passivkonstruktionen vorhanden. Die aktiven Formulierungen halten Verantwortlichkeit und Handlung klar."
+        ]
+      },
+      "longSentences": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Ich wusste nicht, ob du noch Schwarztee trinkst.",
+          "zieht zögernd den Schlüssel aus der Tasche und legt ihn zwischen sie auf den Tisch"
+        ],
+        "suggestions": [
+          "Die Sätze sind kurz und übersichtlich; auch die längeren Regieanweisungen bleiben verständlich.",
+          "Weitere Teilungen nur für gezielte Pausen einsetzen. Die bereits zahlreichen Fragmente würden durch zusätzliches Zerstückeln leicht manieriert wirken."
+        ]
+      },
+      "longDialogues": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "Marie, bitte. Ich habe die Kiste mit deinen restlichen Sachen übrigens im Kofferraum. Die Bücher. Und die alte Kamera.",
+          "Ich muss gleich weiter. Gibst du mir einfach den Autoschlüssel? Dann hole ich mir die Kiste selbst raus. Du musst nicht mitkommen."
+        ],
+        "suggestions": [
+          "Keine Replik ist übermäßig lang. Die Gesprächswechsel halten die Szene beweglich.",
+          "Für mehr Tempo ließe sich „Dann hole ich mir die Kiste selbst raus“ zu „Ich hole die Kiste selbst“ straffen. „Du musst nicht mitkommen“ sollte als emotionale Grenzziehung erhalten bleiben."
+        ]
+      },
+      "indirectPerception": {
+        "rating": "good",
+        "score": 9,
+        "examples": [
+          "blickt auf, ihr Lächeln erreicht die Augen nicht",
+          "Sie rührt im Tee, obwohl kein Zucker darin ist."
+        ],
+        "suggestions": [
+          "Filterformulierungen wie „sie sah, dass“ fehlen. Gefühle werden überwiegend durch sichtbare Handlungen vermittelt.",
+          "Für eine streng aufführungsbezogene Fassung prüfen, ob die Zuckerlosigkeit zuvor sichtbar gemacht werden kann. Andernfalls erreicht dieser Teil der Regieanweisung eher die Lesenden als das Publikum.",
+          "Das vertraute Bild vom Lächeln, das die Augen nicht erreicht, könnte durch eine konkretere Spielanweisung ersetzt werden, etwa: „Sie lächelt kurz. Ihr Blick bleibt kühl.“"
+        ]
+      },
+      "repetitions": {
+        "rating": "good",
+        "score": 8,
+        "examples": [
+          "Ja. Mir bedeuten alte Dinge oft zu viel. Das war wohl immer mein Problem. Ich hänge an Sachen, die längst kaputt sind.",
+          "setzt sich langsam, zieht den Mantel nicht aus",
+          "sieht auf ihre Armbanduhr",
+          "nimmt den Schlüssel, ohne seine Hand zu berühren"
+        ],
+        "suggestions": [
+          "Maries Replik über alte Dinge erklärt ihre Verletzung mehrfach. „Das war wohl immer mein Problem“ könnte entfallen; die Schlussmetapher erhält dadurch mehr Gewicht.",
+          "Mantel, Uhr und vermiedene Berührung markieren alle Distanz, bilden aber auch eine Steigerung. Nicht pauschal kürzen; bei zu demonstrativer Wirkung am ehesten den Blick auf die Uhr prüfen."
+        ]
+      }
+    }
+  },
+  "costUsd": 0.01866
+}
