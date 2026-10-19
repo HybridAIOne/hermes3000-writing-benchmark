@@ -1,0 +1,12 @@
+[
+  {
+    "key": "hemmingway-1",
+    "label": "Hemmingway-1",
+    "family": "hemmingway",
+    "open_weight": true,
+    "provider": "hemmingway",
+    "model": "hemmingway-27b",
+    "price": { "in": 0.24, "out": 0.9 },
+    "note": "Fine-tuned 27B open model, trained 'to write like a human'. Provider default thinking (its highest level), as offered."
+  }
+]

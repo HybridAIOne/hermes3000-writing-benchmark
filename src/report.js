@@ -510,6 +510,11 @@ function writeMarkdown(runId, bench, { R, models }) {
     : null;
   md.push(`# hermes3000 Writing Benchmark — run \`${runId}\``, '');
   if (summaryLink) md.push(summaryLink, '');
+  if (fs.existsSync(path.join(runDir(runId), 'TTCW.md')))
+    md.push(
+      '**Literary quality against a human anchor (Torrance Test of Creative Writing):** [TTCW.md](TTCW.md)',
+      ''
+    );
   if (R.missing.length)
     md.push(
       `> **Incomplete run:** ${R.missing.length} generation(s) never received an answer (API error or interrupted run) and are not scored: ${R.missing.map((x) => `${x.model}/${x.task}/r${x.run}`).join(', ')}. Re-run the same command to fill them in before publishing.`,

@@ -2,6 +2,8 @@
 
 **Short version for readers and press:** [SUMMARY.md](SUMMARY.md) · [ZUSAMMENFASSUNG.md](ZUSAMMENFASSUNG.md)
 
+**Literary quality against a human anchor (Torrance Test of Creative Writing):** [TTCW.md](TTCW.md)
+
 Benchmark hermes3000-writing-benchmark/v1, fingerprint `66e0bd8f75bf965c`, stage **final**, 3 sample(s) per task and model, started 2026-10-18, code `c679e04`. Judges: claude-opus-5-5, gpt-6.1-sol, gemini-4-argon.
 
 Ratings are Bradley-Terry on an Elo-like scale (mean 1000) from blind group rankings; intervals are 95 % bootstrap over judged groups. Overlapping intervals mean the order is not established. ¹ open-weight model.

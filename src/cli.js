@@ -9,6 +9,7 @@
  *   npm run bench -- finalists --id <prelimRunId>
  *   npm run bench -- generate-only --id <runId> ...   (no judging, e.g. for a smoke test)
  *   npm run bench -- human --id <runId> --file <arena-export.json>   (human panel votes)
+ *   npm run bench -- ttcw --id <runId> [--report]   (Torrance Test of Creative Writing + human anchor)
  *
  * `run` is resumable: re-running the same command only does what is missing.
  */
@@ -50,6 +51,24 @@ async function main() {
   if (cmd === 'report') {
     const r = report(a.id, bench);
     console.log(`report written to results/${a.id}/report.md (${r.arenaPairs} arena pairs)`);
+    return;
+  }
+  if (cmd === 'ttcw') {
+    const { runTtcw, writeTtcwReport, summarise, itemsFor, loadTtcw } = require('./ttcw');
+    let S;
+    if (a.report) {
+      const { tests } = await loadTtcw();
+      const judges = bench.spec.judging.judges.map((k) => ({ key: k, ...bench.spec.judges[k] }));
+      S = summarise(a.id, bench, {
+        tests,
+        judges,
+        items: itemsFor(a.id, bench),
+        dir: path.join(ROOT, 'results', a.id, 'ttcw'),
+      });
+    } else S = await runTtcw(a.id, bench);
+    writeTtcwReport(a.id, S);
+    report(a.id, bench);
+    console.log(`TTCW → results/${a.id}/TTCW.md · $${S.cost.toFixed(2)}`);
     return;
   }
   if (cmd === 'human') {

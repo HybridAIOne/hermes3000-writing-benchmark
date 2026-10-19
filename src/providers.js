@@ -12,6 +12,7 @@
 const ENDPOINTS = {
   openai: 'https://api.openai.com/v1/chat/completions',
   openrouter: 'https://openrouter.ai/api/v1/chat/completions',
+  hemmingway: 'https://hemmingway.io/v1/chat/completions',
   anthropic: 'https://api.anthropic.com/v1/messages',
   google: (model) =>
     `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
@@ -20,6 +21,7 @@ const ENDPOINTS = {
 const KEYS = {
   openai: 'OPENAI_API_KEY',
   openrouter: 'OPENROUTER_API_KEY',
+  hemmingway: 'HEMMINGWAY_API_KEY',
   anthropic: 'ANTHROPIC_API_KEY',
   google: 'GOOGLE_API_KEY',
 };
@@ -163,7 +165,7 @@ async function callGoogle(m, { system, prompt, maxTokens, timeoutMs, schema }) {
 async function callModel(m, req) {
   const start = Date.now();
   let r;
-  if (m.provider === 'openai' || m.provider === 'openrouter')
+  if (m.provider === 'openai' || m.provider === 'openrouter' || m.provider === 'hemmingway')
     r = await callOpenAICompat(m.provider, m, req);
   else if (m.provider === 'anthropic') r = await callAnthropic(m, req);
   else if (m.provider === 'google') r = await callGoogle(m, req);
