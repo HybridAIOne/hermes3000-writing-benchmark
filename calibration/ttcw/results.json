@@ -1,0 +1,1314 @@
+{
+  "stories": 48,
+  "newYorker": 12,
+  "expertPassRate": 0.3392857142857143,
+  "experts": {
+    "kappa": 0.5999104658970996,
+    "countR": 0.7600325515570155
+  },
+  "within": {
+    "New Yorker": {
+      "stories": 12,
+      "expertPassRate": 0.9107142857142857,
+      "experts": {
+        "kappa": 0.4098004942438671,
+        "countR": 0.6158583445538154
+      },
+      "judges": {
+        "opus": {
+          "kappa": 0.14325452016689857,
+          "passRate": 0.9226190476190477,
+          "countR": 0.30459077963889497
+        },
+        "sol": {
+          "kappa": 0.2075471698113213,
+          "passRate": 0.9166666666666666,
+          "countR": 0.5143649037365503
+        },
+        "gemini": {
+          "kappa": 0.215869311551925,
+          "passRate": 0.8869047619047619,
+          "countR": 0.3795365053487979
+        }
+      }
+    },
+    "LLM": {
+      "stories": 36,
+      "expertPassRate": 0.1488095238095238,
+      "experts": {
+        "kappa": 0.2164793908989891,
+        "countR": 0.2218119557820264
+      },
+      "judges": {
+        "opus": {
+          "kappa": 0.09003074220465539,
+          "passRate": 0.017857142857142856,
+          "countR": 0.3114959116429895
+        },
+        "sol": {
+          "kappa": 0.12482468443197772,
+          "passRate": 0.2916666666666667,
+          "countR": 0.3159846451906351
+        },
+        "gemini": {
+          "kappa": 0.1482420368125205,
+          "passRate": 0.09325396825396826,
+          "countR": 0.48748114543480403
+        }
+      }
+    }
+  },
+  "ours": [
+    {
+      "judge": "opus (claude-opus-5-5)",
+      "n": 672,
+      "stories": 48,
+      "kappa": 0.6580152671755725,
+      "meanTestKappa": 0.6748766765893665,
+      "balancedAccuracy": 0.806543385490754,
+      "passRate": 0.24404761904761904,
+      "storyCountPearson": 0.9178007234322786,
+      "perTest": [
+        {
+          "test": 1,
+          "category": "Narrative Ending",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.7090909090909091,
+          "passRate": 0.3125,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 2,
+          "category": "Understandability and Coherence",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.47826086956521735,
+          "passRate": 0.25,
+          "expertPassRate": 0.4583333333333333
+        },
+        {
+          "test": 3,
+          "category": "Scene vs Summary",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.42954159592529717,
+          "passRate": 0.22916666666666666,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 4,
+          "category": "Narrative Pacing",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.3333333333333334,
+          "passRate": 0.25,
+          "expertPassRate": 0.5625
+        },
+        {
+          "test": 5,
+          "category": "Language Proficiency and Literary Devices",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.8378378378378378,
+          "passRate": 0.25,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 6,
+          "category": "Emotional Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.7999999999999999,
+          "passRate": 0.25,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 7,
+          "category": "Structural Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.7908496732026142,
+          "passRate": 0.22916666666666666,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 8,
+          "category": "Perspective and Voice Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.6954314720812184,
+          "passRate": 0.20833333333333334,
+          "expertPassRate": 0.22916666666666666
+        },
+        {
+          "test": 9,
+          "category": "Originality in Thought",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.6896551724137931,
+          "passRate": 0.20833333333333334,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 10,
+          "category": "Originality in Form and Structure",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.7272727272727272,
+          "passRate": 0.16666666666666666,
+          "expertPassRate": 0.20833333333333334
+        },
+        {
+          "test": 11,
+          "category": "Originality in Theme and Content",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.7777777777777777,
+          "passRate": 0.25,
+          "expertPassRate": 0.25
+        },
+        {
+          "test": 12,
+          "category": "Rhetorical Complexity",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0.9459459459459458,
+          "passRate": 0.25,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 13,
+          "category": "World Building and Setting",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0.5060034305317325,
+          "passRate": 0.3541666666666667,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 14,
+          "category": "Character Development",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0.7272727272727272,
+          "passRate": 0.20833333333333334,
+          "expertPassRate": 0.16666666666666666
+        }
+      ],
+      "costUsd": 14.842895999999977,
+      "unparsed": 0
+    },
+    {
+      "judge": "sol (gpt-6.1-sol)",
+      "n": 672,
+      "stories": 48,
+      "kappa": 0.45496535796766757,
+      "meanTestKappa": 0.48617233031863955,
+      "balancedAccuracy": 0.7451991465149359,
+      "passRate": 0.4479166666666667,
+      "storyCountPearson": 0.9054783080282154,
+      "perTest": [
+        {
+          "test": 1,
+          "category": "Narrative Ending",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.189873417721519,
+          "passRate": 0.8125,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 2,
+          "category": "Understandability and Coherence",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.5744680851063828,
+          "passRate": 0.375,
+          "expertPassRate": 0.4583333333333333
+        },
+        {
+          "test": 3,
+          "category": "Scene vs Summary",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.38775510204081626,
+          "passRate": 0.25,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 4,
+          "category": "Narrative Pacing",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.43718592964824127,
+          "passRate": 0.3541666666666667,
+          "expertPassRate": 0.5625
+        },
+        {
+          "test": 5,
+          "category": "Language Proficiency and Literary Devices",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.5752212389380531,
+          "passRate": 0.4791666666666667,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 6,
+          "category": "Emotional Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.8064516129032258,
+          "passRate": 0.2916666666666667,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 7,
+          "category": "Structural Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.4117647058823529,
+          "passRate": 0.5833333333333334,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 8,
+          "category": "Perspective and Voice Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.6,
+          "passRate": 0.25,
+          "expertPassRate": 0.22916666666666666
+        },
+        {
+          "test": 9,
+          "category": "Originality in Thought",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.6315789473684209,
+          "passRate": 0.1875,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 10,
+          "category": "Originality in Form and Structure",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.6721311475409838,
+          "passRate": 0.1875,
+          "expertPassRate": 0.20833333333333334
+        },
+        {
+          "test": 11,
+          "category": "Originality in Theme and Content",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.7297297297297298,
+          "passRate": 0.2708333333333333,
+          "expertPassRate": 0.25
+        },
+        {
+          "test": 12,
+          "category": "Rhetorical Complexity",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 13,
+          "category": "World Building and Setting",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0.09025270758122746,
+          "passRate": 0.9583333333333334,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 14,
+          "category": "Character Development",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0.7000000000000001,
+          "passRate": 0.2708333333333333,
+          "expertPassRate": 0.16666666666666666
+        }
+      ],
+      "costUsd": 3.4977760000000018,
+      "unparsed": 0
+    },
+    {
+      "judge": "gemini (gemini-4-argon)",
+      "n": 672,
+      "stories": 48,
+      "kappa": 0.6013745704467353,
+      "meanTestKappa": 0.6060355801285183,
+      "balancedAccuracy": 0.7904220009483167,
+      "passRate": 0.2916666666666667,
+      "storyCountPearson": 0.9313043362028242,
+      "perTest": [
+        {
+          "test": 1,
+          "category": "Narrative Ending",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.4747474747474747,
+          "passRate": 0.5416666666666666,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 2,
+          "category": "Understandability and Coherence",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.5234657039711191,
+          "passRate": 0.2708333333333333,
+          "expertPassRate": 0.4583333333333333
+        },
+        {
+          "test": 3,
+          "category": "Scene vs Summary",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.38775510204081626,
+          "passRate": 0.25,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 4,
+          "category": "Narrative Pacing",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.4059405940594059,
+          "passRate": 0.2916666666666667,
+          "expertPassRate": 0.5625
+        },
+        {
+          "test": 5,
+          "category": "Language Proficiency and Literary Devices",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.7297297297297298,
+          "passRate": 0.25,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 6,
+          "category": "Emotional Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.7540983606557378,
+          "passRate": 0.2708333333333333,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 7,
+          "category": "Structural Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.7333333333333335,
+          "passRate": 0.20833333333333334,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 8,
+          "category": "Perspective and Voice Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.45915492957746507,
+          "passRate": 0.14583333333333334,
+          "expertPassRate": 0.22916666666666666
+        },
+        {
+          "test": 9,
+          "category": "Originality in Thought",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.7540983606557378,
+          "passRate": 0.2708333333333333,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 10,
+          "category": "Originality in Form and Structure",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.7272727272727272,
+          "passRate": 0.16666666666666666,
+          "expertPassRate": 0.20833333333333334
+        },
+        {
+          "test": 11,
+          "category": "Originality in Theme and Content",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.8285714285714286,
+          "passRate": 0.22916666666666666,
+          "expertPassRate": 0.25
+        },
+        {
+          "test": 12,
+          "category": "Rhetorical Complexity",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0.7114228456913828,
+          "passRate": 0.3541666666666667,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 13,
+          "category": "World Building and Setting",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0.45644599303135874,
+          "passRate": 0.5416666666666666,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 14,
+          "category": "Character Development",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0.5384615384615384,
+          "passRate": 0.2916666666666667,
+          "expertPassRate": 0.16666666666666666
+        }
+      ],
+      "costUsd": 4.264619999999999,
+      "unparsed": 0
+    },
+    {
+      "judge": "majority of our 3 judges",
+      "n": 672,
+      "stories": 48,
+      "kappa": 0.6349323493234933,
+      "meanTestKappa": 0.6452125906681302,
+      "balancedAccuracy": 0.805950687529635,
+      "passRate": 0.28869047619047616,
+      "storyCountPearson": 0.9385105680669154,
+      "perTest": [
+        {
+          "test": 1,
+          "category": "Narrative Ending",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.5767195767195766,
+          "passRate": 0.4791666666666667,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 2,
+          "category": "Understandability and Coherence",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.5234657039711191,
+          "passRate": 0.2708333333333333,
+          "expertPassRate": 0.4583333333333333
+        },
+        {
+          "test": 3,
+          "category": "Scene vs Summary",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.34804753820033946,
+          "passRate": 0.22916666666666666,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 4,
+          "category": "Narrative Pacing",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.4059405940594059,
+          "passRate": 0.2916666666666667,
+          "expertPassRate": 0.5625
+        },
+        {
+          "test": 5,
+          "category": "Language Proficiency and Literary Devices",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.7890109890109889,
+          "passRate": 0.2708333333333333,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 6,
+          "category": "Emotional Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.7999999999999999,
+          "passRate": 0.25,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 7,
+          "category": "Structural Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.7908496732026142,
+          "passRate": 0.22916666666666666,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 8,
+          "category": "Perspective and Voice Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.6954314720812184,
+          "passRate": 0.20833333333333334,
+          "expertPassRate": 0.22916666666666666
+        },
+        {
+          "test": 9,
+          "category": "Originality in Thought",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.6896551724137931,
+          "passRate": 0.20833333333333334,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 10,
+          "category": "Originality in Form and Structure",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.7272727272727272,
+          "passRate": 0.16666666666666666,
+          "expertPassRate": 0.20833333333333334
+        },
+        {
+          "test": 11,
+          "category": "Originality in Theme and Content",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.7777777777777777,
+          "passRate": 0.25,
+          "expertPassRate": 0.25
+        },
+        {
+          "test": 12,
+          "category": "Rhetorical Complexity",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0.7114228456913828,
+          "passRate": 0.3541666666666667,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 13,
+          "category": "World Building and Setting",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0.4973821989528796,
+          "passRate": 0.5625,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 14,
+          "category": "Character Development",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0.7000000000000001,
+          "passRate": 0.2708333333333333,
+          "expertPassRate": 0.16666666666666666
+        }
+      ]
+    }
+  ],
+  "prior": [
+    {
+      "judge": "gpt4 (authors' release)",
+      "n": 672,
+      "stories": 48,
+      "kappa": 0.06766917293233086,
+      "meanTestKappa": 0.033747486440149896,
+      "balancedAccuracy": 0.5448079658605974,
+      "passRate": 0.7916666666666666,
+      "storyCountPearson": 0.07164469796221516,
+      "perTest": [
+        {
+          "test": 1,
+          "category": "Narrative Ending",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": -0.003921568627451008,
+          "passRate": 0.9375,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 2,
+          "category": "Understandability and Coherence",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": -0.08387096774193539,
+          "passRate": 0.9583333333333334,
+          "expertPassRate": 0.4583333333333333
+        },
+        {
+          "test": 3,
+          "category": "Scene vs Summary",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": -0.03411131059245966,
+          "passRate": 0.8958333333333334,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 4,
+          "category": "Narrative Pacing",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.5625
+        },
+        {
+          "test": 5,
+          "category": "Language Proficiency and Literary Devices",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 6,
+          "category": "Emotional Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 7,
+          "category": "Structural Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.03614457831325301,
+          "passRate": 0.8958333333333334,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 8,
+          "category": "Perspective and Voice Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.3072164948453609,
+          "passRate": 0.3541666666666667,
+          "expertPassRate": 0.22916666666666666
+        },
+        {
+          "test": 9,
+          "category": "Originality in Thought",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.1600000000000001,
+          "passRate": 0.041666666666666664,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 10,
+          "category": "Originality in Form and Structure",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.07692307692307719,
+          "passRate": 0.14583333333333334,
+          "expertPassRate": 0.20833333333333334
+        },
+        {
+          "test": 11,
+          "category": "Originality in Theme and Content",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.014084507042253473,
+          "passRate": 0.9791666666666666,
+          "expertPassRate": 0.25
+        },
+        {
+          "test": 12,
+          "category": "Rhetorical Complexity",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 13,
+          "category": "World Building and Setting",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 14,
+          "category": "Character Development",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0,
+          "passRate": 0.875,
+          "expertPassRate": 0.16666666666666666
+        }
+      ]
+    },
+    {
+      "judge": "claude3-opus (authors' release)",
+      "n": 672,
+      "stories": 48,
+      "kappa": 0.1306934374419037,
+      "meanTestKappa": 0.1340245993078899,
+      "balancedAccuracy": 0.5833333333333334,
+      "passRate": 0.7232142857142857,
+      "storyCountPearson": 0.5827142070795486,
+      "perTest": [
+        {
+          "test": 1,
+          "category": "Narrative Ending",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.03875968992248065,
+          "passRate": 0.9583333333333334,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 2,
+          "category": "Understandability and Coherence",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": -0.05405405405405419,
+          "passRate": 0.6666666666666666,
+          "expertPassRate": 0.4583333333333333
+        },
+        {
+          "test": 3,
+          "category": "Scene vs Summary",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.2244897959183672,
+          "passRate": 0.25,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 4,
+          "category": "Narrative Pacing",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.5625
+        },
+        {
+          "test": 5,
+          "category": "Language Proficiency and Literary Devices",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.024096385542168593,
+          "passRate": 0.6666666666666666,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 6,
+          "category": "Emotional Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 7,
+          "category": "Structural Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.03614457831325301,
+          "passRate": 0.8958333333333334,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 8,
+          "category": "Perspective and Voice Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.14511873350923474,
+          "passRate": 0.7916666666666666,
+          "expertPassRate": 0.22916666666666666
+        },
+        {
+          "test": 9,
+          "category": "Originality in Thought",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.8181818181818181,
+          "passRate": 0.375,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 10,
+          "category": "Originality in Form and Structure",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.29411764705882343,
+          "passRate": 0.25,
+          "expertPassRate": 0.20833333333333334
+        },
+        {
+          "test": 11,
+          "category": "Originality in Theme and Content",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.2244897959183672,
+          "passRate": 0.5208333333333334,
+          "expertPassRate": 0.25
+        },
+        {
+          "test": 12,
+          "category": "Rhetorical Complexity",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 13,
+          "category": "World Building and Setting",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 14,
+          "category": "Character Development",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0.12499999999999997,
+          "passRate": 0.75,
+          "expertPassRate": 0.16666666666666666
+        }
+      ]
+    },
+    {
+      "judge": "claudev21 (authors' release)",
+      "n": 672,
+      "stories": 48,
+      "kappa": 0.03278975977555677,
+      "meanTestKappa": 0.012622762815117813,
+      "balancedAccuracy": 0.5221669037458512,
+      "passRate": 0.8303571428571429,
+      "storyCountPearson": -0.25531347500358825,
+      "perTest": [
+        {
+          "test": 1,
+          "category": "Narrative Ending",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": -0.0534979423868313,
+          "passRate": 0.8541666666666666,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 2,
+          "category": "Understandability and Coherence",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.052631578947368446,
+          "passRate": 0.8333333333333334,
+          "expertPassRate": 0.4583333333333333
+        },
+        {
+          "test": 3,
+          "category": "Scene vs Summary",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": 0.052064631956911904,
+          "passRate": 0.8958333333333334,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 4,
+          "category": "Narrative Pacing",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": -0.029239766081871427,
+          "passRate": 0.9375,
+          "expertPassRate": 0.5625
+        },
+        {
+          "test": 5,
+          "category": "Language Proficiency and Literary Devices",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": -0.08493150684931511,
+          "passRate": 0.7916666666666666,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 6,
+          "category": "Emotional Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 7,
+          "category": "Structural Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.03875968992248065,
+          "passRate": 0.9583333333333334,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 8,
+          "category": "Perspective and Voice Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.180327868852459,
+          "passRate": 0.75,
+          "expertPassRate": 0.22916666666666666
+        },
+        {
+          "test": 9,
+          "category": "Originality in Thought",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.027027027027026935,
+          "passRate": 0.5416666666666666,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 10,
+          "category": "Originality in Form and Structure",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": -0.04485488126649069,
+          "passRate": 0.7708333333333334,
+          "expertPassRate": 0.20833333333333334
+        },
+        {
+          "test": 11,
+          "category": "Originality in Theme and Content",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.019607843137254936,
+          "passRate": 0.5625,
+          "expertPassRate": 0.25
+        },
+        {
+          "test": 12,
+          "category": "Rhetorical Complexity",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 13,
+          "category": "World Building and Setting",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0.09025270758122746,
+          "passRate": 0.9583333333333334,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 14,
+          "category": "Character Development",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": -0.07142857142857141,
+          "passRate": 0.7708333333333334,
+          "expertPassRate": 0.16666666666666666
+        }
+      ]
+    },
+    {
+      "judge": "gemini-pro (authors' release)",
+      "n": 608,
+      "stories": 21,
+      "kappa": -0.01389249545572583,
+      "meanTestKappa": -0.02143780148399289,
+      "balancedAccuracy": 0.4894277915694048,
+      "passRate": 0.9736842105263158,
+      "storyCountPearson": -0.17151104100809833,
+      "perTest": [
+        {
+          "test": 1,
+          "category": "Narrative Ending",
+          "dimension": "Fluency",
+          "n": 46,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 2,
+          "category": "Understandability and Coherence",
+          "dimension": "Fluency",
+          "n": 43,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.4583333333333333
+        },
+        {
+          "test": 3,
+          "category": "Scene vs Summary",
+          "dimension": "Fluency",
+          "n": 46,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 4,
+          "category": "Narrative Pacing",
+          "dimension": "Fluency",
+          "n": 46,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.5625
+        },
+        {
+          "test": 5,
+          "category": "Language Proficiency and Literary Devices",
+          "dimension": "Fluency",
+          "n": 43,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 6,
+          "category": "Emotional Flexibility",
+          "dimension": "Flexibility",
+          "n": 44,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 7,
+          "category": "Structural Flexibility",
+          "dimension": "Flexibility",
+          "n": 38,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 8,
+          "category": "Perspective and Voice Flexibility",
+          "dimension": "Flexibility",
+          "n": 41,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.22916666666666666
+        },
+        {
+          "test": 9,
+          "category": "Originality in Thought",
+          "dimension": "Originality",
+          "n": 41,
+          "kappa": -0.3336831059811121,
+          "passRate": 0.6829268292682927,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 10,
+          "category": "Originality in Form and Structure",
+          "dimension": "Originality",
+          "n": 47,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.20833333333333334
+        },
+        {
+          "test": 11,
+          "category": "Originality in Theme and Content",
+          "dimension": "Originality",
+          "n": 40,
+          "kappa": 0.025974025974025924,
+          "passRate": 0.95,
+          "expertPassRate": 0.25
+        },
+        {
+          "test": 12,
+          "category": "Rhetorical Complexity",
+          "dimension": "Elaboration",
+          "n": 41,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 13,
+          "category": "World Building and Setting",
+          "dimension": "Elaboration",
+          "n": 45,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 14,
+          "category": "Character Development",
+          "dimension": "Elaboration",
+          "n": 47,
+          "kappa": 0.007579859231185684,
+          "passRate": 0.9787234042553191,
+          "expertPassRate": 0.16666666666666666
+        }
+      ]
+    },
+    {
+      "judge": "cgpt (authors' release)",
+      "n": 672,
+      "stories": 48,
+      "kappa": -0.01983218916857358,
+      "meanTestKappa": -0.045829989912195314,
+      "balancedAccuracy": 0.4876718824087245,
+      "passRate": 0.6785714285714286,
+      "storyCountPearson": -0.33992190609521394,
+      "perTest": [
+        {
+          "test": 1,
+          "category": "Narrative Ending",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": -0.1282051282051282,
+          "passRate": 0.7916666666666666,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 2,
+          "category": "Understandability and Coherence",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": -0.09803921568627448,
+          "passRate": 0.875,
+          "expertPassRate": 0.4583333333333333
+        },
+        {
+          "test": 3,
+          "category": "Scene vs Summary",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": -0.038062283737024194,
+          "passRate": 0.4583333333333333,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 4,
+          "category": "Narrative Pacing",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": -0.3114754098360656,
+          "passRate": 0.6875,
+          "expertPassRate": 0.5625
+        },
+        {
+          "test": 5,
+          "category": "Language Proficiency and Literary Devices",
+          "dimension": "Fluency",
+          "n": 48,
+          "kappa": -0.14480408858603064,
+          "passRate": 0.5208333333333334,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 6,
+          "category": "Emotional Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": -0.0219780219780219,
+          "passRate": 0.8958333333333334,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 7,
+          "category": "Structural Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": -0.00813008130081298,
+          "passRate": 0.875,
+          "expertPassRate": 0.3125
+        },
+        {
+          "test": 8,
+          "category": "Perspective and Voice Flexibility",
+          "dimension": "Flexibility",
+          "n": 48,
+          "kappa": 0.012571428571428529,
+          "passRate": 0.9791666666666666,
+          "expertPassRate": 0.22916666666666666
+        },
+        {
+          "test": 9,
+          "category": "Originality in Thought",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.10526315789473677,
+          "passRate": 0.1875,
+          "expertPassRate": 0.3333333333333333
+        },
+        {
+          "test": 10,
+          "category": "Originality in Form and Structure",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": 0.08333333333333326,
+          "passRate": 0.5,
+          "expertPassRate": 0.20833333333333334
+        },
+        {
+          "test": 11,
+          "category": "Originality in Theme and Content",
+          "dimension": "Originality",
+          "n": 48,
+          "kappa": -0.07692307692307697,
+          "passRate": 0.5833333333333334,
+          "expertPassRate": 0.25
+        },
+        {
+          "test": 12,
+          "category": "Rhetorical Complexity",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0,
+          "passRate": 1,
+          "expertPassRate": 0.2708333333333333
+        },
+        {
+          "test": 13,
+          "category": "World Building and Setting",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": 0.09352517985611501,
+          "passRate": 0.9166666666666666,
+          "expertPassRate": 0.5208333333333334
+        },
+        {
+          "test": 14,
+          "category": "Character Development",
+          "dimension": "Elaboration",
+          "n": 48,
+          "kappa": -0.10869565217391301,
+          "passRate": 0.22916666666666666,
+          "expertPassRate": 0.16666666666666666
+        }
+      ]
+    }
+  ],
+  "at": "2026-10-19T04:57:58.814Z"
+}

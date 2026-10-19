@@ -4,3 +4,7 @@ node_modules/
 private/
 results/*/tmp/
 .DS_Store
+
+# TTCW calibration: downloaded data and raw judge answers (may quote copyrighted stories)
+calibration/ttcw/data/
+calibration/ttcw/out/

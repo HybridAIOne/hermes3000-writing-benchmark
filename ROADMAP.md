@@ -22,6 +22,11 @@ presentation and tooling can change between runs of the same version.
 
 ## Benchmark v2
 
+- **TTCW as a coarse quality score** (calibration in [calibration/ttcw](calibration/ttcw/README.md)):
+  number of the 14 Torrance tests a text passes, majority of the three judges, next to the
+  ranking; plus a human-written German anchor (public-domain prose). Per-test verdicts are not
+  reliable enough to report. Re-run the calibration whenever a judge changes.
+
 - **Harder context traps.** In v1 almost every model keeps 98–100 % of the assertions; the
   track does not separate the field.
 
